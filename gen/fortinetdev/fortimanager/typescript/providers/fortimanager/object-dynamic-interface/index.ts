@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDynamicInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#adom ObjectDynamicInterface#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#adom ObjectDynamicInterface#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#color ObjectDynamicInterface#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#color ObjectDynamicInterface#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#default_mapping ObjectDynamicInterface#default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#default_mapping ObjectDynamicInterface#default_mapping}
   */
   readonly defaultMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#defmap_intf ObjectDynamicInterface#defmap_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#defmap_intf ObjectDynamicInterface#defmap_intf}
   */
   readonly defmapIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#defmap_intrazone_deny ObjectDynamicInterface#defmap_intrazone_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#defmap_intrazone_deny ObjectDynamicInterface#defmap_intrazone_deny}
   */
   readonly defmapIntrazoneDeny?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#defmap_zonemember ObjectDynamicInterface#defmap_zonemember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#defmap_zonemember ObjectDynamicInterface#defmap_zonemember}
   */
   readonly defmapZonemember?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#description ObjectDynamicInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#description ObjectDynamicInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#dynamic_sort_subtable ObjectDynamicInterface#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#dynamic_sort_subtable ObjectDynamicInterface#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
   */
   readonly egressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#id ObjectDynamicInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#id ObjectDynamicInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
   */
   readonly ingressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#scopetype ObjectDynamicInterface#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#scopetype ObjectDynamicInterface#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#single_intf ObjectDynamicInterface#single_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#single_intf ObjectDynamicInterface#single_intf}
   */
   readonly singleIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#wildcard ObjectDynamicInterface#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#wildcard ObjectDynamicInterface#wildcard}
   */
   readonly wildcard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#wildcard_intf ObjectDynamicInterface#wildcard_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#wildcard_intf ObjectDynamicInterface#wildcard_intf}
   */
   readonly wildcardIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#zone_only ObjectDynamicInterface#zone_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#zone_only ObjectDynamicInterface#zone_only}
   */
   readonly zoneOnly?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#dynamic_mapping ObjectDynamicInterface#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#dynamic_mapping ObjectDynamicInterface#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectDynamicInterfaceDynamicMapping[] | cdktf.IResolvable;
   /**
   * platform_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#platform_mapping ObjectDynamicInterface#platform_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#platform_mapping ObjectDynamicInterface#platform_mapping}
   */
   readonly platformMapping?: ObjectDynamicInterfacePlatformMapping[] | cdktf.IResolvable;
 }
 export interface ObjectDynamicInterfaceDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#vdom ObjectDynamicInterface#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#vdom ObjectDynamicInterface#vdom}
   */
   readonly vdom?: string;
 }
@@ -242,25 +242,25 @@ export class ObjectDynamicInterfaceDynamicMappingScopeList extends cdktf.Complex
 }
 export interface ObjectDynamicInterfaceDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
   */
   readonly egressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
   */
   readonly ingressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#intrazone_deny ObjectDynamicInterface#intrazone_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#intrazone_deny ObjectDynamicInterface#intrazone_deny}
   */
   readonly intrazoneDeny?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#local_intf ObjectDynamicInterface#local_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#local_intf ObjectDynamicInterface#local_intf}
   */
   readonly localIntf?: string[];
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#_scope ObjectDynamicInterface#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#_scope ObjectDynamicInterface#_scope}
   */
   readonly scope?: ObjectDynamicInterfaceDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -492,23 +492,23 @@ export class ObjectDynamicInterfaceDynamicMappingList extends cdktf.ComplexList 
 }
 export interface ObjectDynamicInterfacePlatformMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#egress_shaping_profile ObjectDynamicInterface#egress_shaping_profile}
   */
   readonly egressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#ingress_shaping_profile ObjectDynamicInterface#ingress_shaping_profile}
   */
   readonly ingressShapingProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#intf_zone ObjectDynamicInterface#intf_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#intf_zone ObjectDynamicInterface#intf_zone}
   */
   readonly intfZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#intrazone_deny ObjectDynamicInterface#intrazone_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#intrazone_deny ObjectDynamicInterface#intrazone_deny}
   */
   readonly intrazoneDeny?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#name ObjectDynamicInterface#name}
   */
   readonly name?: string;
 }
@@ -740,7 +740,7 @@ export class ObjectDynamicInterfacePlatformMappingList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface fortimanager_object_dynamic_interface}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface fortimanager_object_dynamic_interface}
 */
 export class ObjectDynamicInterface extends cdktf.TerraformResource {
 
@@ -756,7 +756,7 @@ export class ObjectDynamicInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectDynamicInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDynamicInterface to import
-  * @param importFromId The id of the existing ObjectDynamicInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDynamicInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDynamicInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -768,7 +768,7 @@ export class ObjectDynamicInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_interface fortimanager_object_dynamic_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_interface fortimanager_object_dynamic_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -779,8 +779,8 @@ export class ObjectDynamicInterface extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_dynamic_interface',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

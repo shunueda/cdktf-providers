@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface SystempSystemGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_https_redirect SystempSystemGlobal#admin_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_https_redirect SystempSystemGlobal#admin_https_redirect}
   */
   readonly adminHttpsRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_port SystempSystemGlobal#admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_port SystempSystemGlobal#admin_port}
   */
   readonly adminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_scp SystempSystemGlobal#admin_scp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_scp SystempSystemGlobal#admin_scp}
   */
   readonly adminScp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_sport SystempSystemGlobal#admin_sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_sport SystempSystemGlobal#admin_sport}
   */
   readonly adminSport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_ssh_port SystempSystemGlobal#admin_ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_ssh_port SystempSystemGlobal#admin_ssh_port}
   */
   readonly adminSshPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_ssh_v1 SystempSystemGlobal#admin_ssh_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_ssh_v1 SystempSystemGlobal#admin_ssh_v1}
   */
   readonly adminSshV1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admin_telnet_port SystempSystemGlobal#admin_telnet_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admin_telnet_port SystempSystemGlobal#admin_telnet_port}
   */
   readonly adminTelnetPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#admintimeout SystempSystemGlobal#admintimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#admintimeout SystempSystemGlobal#admintimeout}
   */
   readonly admintimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#adom SystempSystemGlobal#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#adom SystempSystemGlobal#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#devprof SystempSystemGlobal#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#devprof SystempSystemGlobal#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#gui_device_latitude SystempSystemGlobal#gui_device_latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#gui_device_latitude SystempSystemGlobal#gui_device_latitude}
   */
   readonly guiDeviceLatitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#gui_device_longitude SystempSystemGlobal#gui_device_longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#gui_device_longitude SystempSystemGlobal#gui_device_longitude}
   */
   readonly guiDeviceLongitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#gui_ipv6 SystempSystemGlobal#gui_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#gui_ipv6 SystempSystemGlobal#gui_ipv6}
   */
   readonly guiIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#gui_lines_per_page SystempSystemGlobal#gui_lines_per_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#gui_lines_per_page SystempSystemGlobal#gui_lines_per_page}
   */
   readonly guiLinesPerPage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#gui_theme SystempSystemGlobal#gui_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#gui_theme SystempSystemGlobal#gui_theme}
   */
   readonly guiTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#hostname SystempSystemGlobal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#hostname SystempSystemGlobal#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#id SystempSystemGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#id SystempSystemGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#language SystempSystemGlobal#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#language SystempSystemGlobal#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#scopetype SystempSystemGlobal#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#scopetype SystempSystemGlobal#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#switch_controller SystempSystemGlobal#switch_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#switch_controller SystempSystemGlobal#switch_controller}
   */
   readonly switchController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#timezone SystempSystemGlobal#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#timezone SystempSystemGlobal#timezone}
   */
   readonly timezone?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global fortimanager_systemp_system_global}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global fortimanager_systemp_system_global}
 */
 export class SystempSystemGlobal extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class SystempSystemGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempSystemGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempSystemGlobal to import
-  * @param importFromId The id of the existing SystempSystemGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempSystemGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempSystemGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class SystempSystemGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_global fortimanager_systemp_system_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_global fortimanager_systemp_system_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class SystempSystemGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_system_global',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

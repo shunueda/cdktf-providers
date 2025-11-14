@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCifsDomaincontrollerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#adom ObjectCifsDomaincontroller#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#adom ObjectCifsDomaincontroller#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#domain_name ObjectCifsDomaincontroller#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#domain_name ObjectCifsDomaincontroller#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#id ObjectCifsDomaincontroller#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#id ObjectCifsDomaincontroller#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#ip ObjectCifsDomaincontroller#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#ip ObjectCifsDomaincontroller#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#ip6 ObjectCifsDomaincontroller#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#ip6 ObjectCifsDomaincontroller#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#password ObjectCifsDomaincontroller#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#password ObjectCifsDomaincontroller#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#port ObjectCifsDomaincontroller#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#port ObjectCifsDomaincontroller#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#scopetype ObjectCifsDomaincontroller#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#scopetype ObjectCifsDomaincontroller#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#server_name ObjectCifsDomaincontroller#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#server_name ObjectCifsDomaincontroller#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#username ObjectCifsDomaincontroller#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#username ObjectCifsDomaincontroller#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller fortimanager_object_cifs_domaincontroller}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller fortimanager_object_cifs_domaincontroller}
 */
 export class ObjectCifsDomaincontroller extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ObjectCifsDomaincontroller extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCifsDomaincontroller resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCifsDomaincontroller to import
-  * @param importFromId The id of the existing ObjectCifsDomaincontroller that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCifsDomaincontroller that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCifsDomaincontroller to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ObjectCifsDomaincontroller extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cifs_domaincontroller fortimanager_object_cifs_domaincontroller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cifs_domaincontroller fortimanager_object_cifs_domaincontroller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ObjectCifsDomaincontroller extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_cifs_domaincontroller',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

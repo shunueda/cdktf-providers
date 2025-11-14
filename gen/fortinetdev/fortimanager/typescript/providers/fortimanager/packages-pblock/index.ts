@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesPblockConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#adom PackagesPblock#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#adom PackagesPblock#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#id PackagesPblock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#id PackagesPblock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#name PackagesPblock#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#name PackagesPblock#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#oid PackagesPblock#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#oid PackagesPblock#oid}
   */
   readonly oid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#scopetype PackagesPblock#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#scopetype PackagesPblock#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#type PackagesPblock#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#type PackagesPblock#type}
   */
   readonly type?: string;
   /**
   * packagesettings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#packagesettings PackagesPblock#packagesettings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#packagesettings PackagesPblock#packagesettings}
   */
   readonly packagesettings?: PackagesPblockPackagesettings;
 }
 export interface PackagesPblockPackagesettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#central_nat PackagesPblock#central_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#central_nat PackagesPblock#central_nat}
   */
   readonly centralNat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#consolidated_firewall_mode PackagesPblock#consolidated_firewall_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#consolidated_firewall_mode PackagesPblock#consolidated_firewall_mode}
   */
   readonly consolidatedFirewallMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#fwpolicy6_implicit_log PackagesPblock#fwpolicy6_implicit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#fwpolicy6_implicit_log PackagesPblock#fwpolicy6_implicit_log}
   */
   readonly fwpolicy6ImplicitLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#fwpolicy_implicit_log PackagesPblock#fwpolicy_implicit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#fwpolicy_implicit_log PackagesPblock#fwpolicy_implicit_log}
   */
   readonly fwpolicyImplicitLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#inspection_mode PackagesPblock#inspection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#inspection_mode PackagesPblock#inspection_mode}
   */
   readonly inspectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#ngfw_mode PackagesPblock#ngfw_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#ngfw_mode PackagesPblock#ngfw_mode}
   */
   readonly ngfwMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#policy_offload_level PackagesPblock#policy_offload_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#policy_offload_level PackagesPblock#policy_offload_level}
   */
   readonly policyOffloadLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#ssl_ssh_profile PackagesPblock#ssl_ssh_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#ssl_ssh_profile PackagesPblock#ssl_ssh_profile}
   */
   readonly sslSshProfile?: string;
 }
@@ -358,7 +358,7 @@ export class PackagesPblockPackagesettingsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock fortimanager_packages_pblock}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock fortimanager_packages_pblock}
 */
 export class PackagesPblock extends cdktf.TerraformResource {
 
@@ -374,7 +374,7 @@ export class PackagesPblock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesPblock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesPblock to import
-  * @param importFromId The id of the existing PackagesPblock that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesPblock that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesPblock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class PackagesPblock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock fortimanager_packages_pblock} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock fortimanager_packages_pblock} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class PackagesPblock extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_pblock',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,408 +8,408 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesGlobalHeaderConsolidatedPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#_policy_block PackagesGlobalHeaderConsolidatedPolicy#_policy_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#_policy_block PackagesGlobalHeaderConsolidatedPolicy#_policy_block}
   */
   readonly policyBlock?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#action PackagesGlobalHeaderConsolidatedPolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#action PackagesGlobalHeaderConsolidatedPolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#app_category PackagesGlobalHeaderConsolidatedPolicy#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#app_category PackagesGlobalHeaderConsolidatedPolicy#app_category}
   */
   readonly appCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#app_group PackagesGlobalHeaderConsolidatedPolicy#app_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#app_group PackagesGlobalHeaderConsolidatedPolicy#app_group}
   */
   readonly appGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#application PackagesGlobalHeaderConsolidatedPolicy#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#application PackagesGlobalHeaderConsolidatedPolicy#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#application_list PackagesGlobalHeaderConsolidatedPolicy#application_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#application_list PackagesGlobalHeaderConsolidatedPolicy#application_list}
   */
   readonly applicationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#auto_asic_offload PackagesGlobalHeaderConsolidatedPolicy#auto_asic_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#auto_asic_offload PackagesGlobalHeaderConsolidatedPolicy#auto_asic_offload}
   */
   readonly autoAsicOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#av_profile PackagesGlobalHeaderConsolidatedPolicy#av_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#av_profile PackagesGlobalHeaderConsolidatedPolicy#av_profile}
   */
   readonly avProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#captive_portal_exempt PackagesGlobalHeaderConsolidatedPolicy#captive_portal_exempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#captive_portal_exempt PackagesGlobalHeaderConsolidatedPolicy#captive_portal_exempt}
   */
   readonly captivePortalExempt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#cifs_profile PackagesGlobalHeaderConsolidatedPolicy#cifs_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#cifs_profile PackagesGlobalHeaderConsolidatedPolicy#cifs_profile}
   */
   readonly cifsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#comments PackagesGlobalHeaderConsolidatedPolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#comments PackagesGlobalHeaderConsolidatedPolicy#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#diffserv_forward PackagesGlobalHeaderConsolidatedPolicy#diffserv_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#diffserv_forward PackagesGlobalHeaderConsolidatedPolicy#diffserv_forward}
   */
   readonly diffservForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#diffserv_reverse PackagesGlobalHeaderConsolidatedPolicy#diffserv_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#diffserv_reverse PackagesGlobalHeaderConsolidatedPolicy#diffserv_reverse}
   */
   readonly diffservReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#diffservcode_forward PackagesGlobalHeaderConsolidatedPolicy#diffservcode_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#diffservcode_forward PackagesGlobalHeaderConsolidatedPolicy#diffservcode_forward}
   */
   readonly diffservcodeForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#diffservcode_rev PackagesGlobalHeaderConsolidatedPolicy#diffservcode_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#diffservcode_rev PackagesGlobalHeaderConsolidatedPolicy#diffservcode_rev}
   */
   readonly diffservcodeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dlp_sensor PackagesGlobalHeaderConsolidatedPolicy#dlp_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dlp_sensor PackagesGlobalHeaderConsolidatedPolicy#dlp_sensor}
   */
   readonly dlpSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dnsfilter_profile PackagesGlobalHeaderConsolidatedPolicy#dnsfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dnsfilter_profile PackagesGlobalHeaderConsolidatedPolicy#dnsfilter_profile}
   */
   readonly dnsfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dstaddr4 PackagesGlobalHeaderConsolidatedPolicy#dstaddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dstaddr4 PackagesGlobalHeaderConsolidatedPolicy#dstaddr4}
   */
   readonly dstaddr4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dstaddr6 PackagesGlobalHeaderConsolidatedPolicy#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dstaddr6 PackagesGlobalHeaderConsolidatedPolicy#dstaddr6}
   */
   readonly dstaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dstaddr_negate PackagesGlobalHeaderConsolidatedPolicy#dstaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dstaddr_negate PackagesGlobalHeaderConsolidatedPolicy#dstaddr_negate}
   */
   readonly dstaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#dstintf PackagesGlobalHeaderConsolidatedPolicy#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#dstintf PackagesGlobalHeaderConsolidatedPolicy#dstintf}
   */
   readonly dstintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#emailfilter_profile PackagesGlobalHeaderConsolidatedPolicy#emailfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#emailfilter_profile PackagesGlobalHeaderConsolidatedPolicy#emailfilter_profile}
   */
   readonly emailfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#file_filter_profile PackagesGlobalHeaderConsolidatedPolicy#file_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#file_filter_profile PackagesGlobalHeaderConsolidatedPolicy#file_filter_profile}
   */
   readonly fileFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#fixedport PackagesGlobalHeaderConsolidatedPolicy#fixedport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#fixedport PackagesGlobalHeaderConsolidatedPolicy#fixedport}
   */
   readonly fixedport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#fsso_groups PackagesGlobalHeaderConsolidatedPolicy#fsso_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#fsso_groups PackagesGlobalHeaderConsolidatedPolicy#fsso_groups}
   */
   readonly fssoGroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#global_label PackagesGlobalHeaderConsolidatedPolicy#global_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#global_label PackagesGlobalHeaderConsolidatedPolicy#global_label}
   */
   readonly globalLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#groups PackagesGlobalHeaderConsolidatedPolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#groups PackagesGlobalHeaderConsolidatedPolicy#groups}
   */
   readonly groups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#http_policy_redirect PackagesGlobalHeaderConsolidatedPolicy#http_policy_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#http_policy_redirect PackagesGlobalHeaderConsolidatedPolicy#http_policy_redirect}
   */
   readonly httpPolicyRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#icap_profile PackagesGlobalHeaderConsolidatedPolicy#icap_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#icap_profile PackagesGlobalHeaderConsolidatedPolicy#icap_profile}
   */
   readonly icapProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#id PackagesGlobalHeaderConsolidatedPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#id PackagesGlobalHeaderConsolidatedPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#inbound PackagesGlobalHeaderConsolidatedPolicy#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#inbound PackagesGlobalHeaderConsolidatedPolicy#inbound}
   */
   readonly inbound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#inspection_mode PackagesGlobalHeaderConsolidatedPolicy#inspection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#inspection_mode PackagesGlobalHeaderConsolidatedPolicy#inspection_mode}
   */
   readonly inspectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service PackagesGlobalHeaderConsolidatedPolicy#internet_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service PackagesGlobalHeaderConsolidatedPolicy#internet_service}
   */
   readonly internetService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_custom PackagesGlobalHeaderConsolidatedPolicy#internet_service_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_custom PackagesGlobalHeaderConsolidatedPolicy#internet_service_custom}
   */
   readonly internetServiceCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_custom_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_custom_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_custom_group}
   */
   readonly internetServiceCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_group}
   */
   readonly internetServiceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_id PackagesGlobalHeaderConsolidatedPolicy#internet_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_id PackagesGlobalHeaderConsolidatedPolicy#internet_service_id}
   */
   readonly internetServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_name PackagesGlobalHeaderConsolidatedPolicy#internet_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_name PackagesGlobalHeaderConsolidatedPolicy#internet_service_name}
   */
   readonly internetServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_negate PackagesGlobalHeaderConsolidatedPolicy#internet_service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_negate PackagesGlobalHeaderConsolidatedPolicy#internet_service_negate}
   */
   readonly internetServiceNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src PackagesGlobalHeaderConsolidatedPolicy#internet_service_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src PackagesGlobalHeaderConsolidatedPolicy#internet_service_src}
   */
   readonly internetServiceSrc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_custom PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_custom PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_custom}
   */
   readonly internetServiceSrcCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_custom_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_custom_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_custom_group}
   */
   readonly internetServiceSrcCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_group PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_group}
   */
   readonly internetServiceSrcGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_id PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_id PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_id}
   */
   readonly internetServiceSrcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_name PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_name PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_name}
   */
   readonly internetServiceSrcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_negate PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#internet_service_src_negate PackagesGlobalHeaderConsolidatedPolicy#internet_service_src_negate}
   */
   readonly internetServiceSrcNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#ippool PackagesGlobalHeaderConsolidatedPolicy#ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#ippool PackagesGlobalHeaderConsolidatedPolicy#ippool}
   */
   readonly ippool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#ips_sensor PackagesGlobalHeaderConsolidatedPolicy#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#ips_sensor PackagesGlobalHeaderConsolidatedPolicy#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#logtraffic PackagesGlobalHeaderConsolidatedPolicy#logtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#logtraffic PackagesGlobalHeaderConsolidatedPolicy#logtraffic}
   */
   readonly logtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#logtraffic_start PackagesGlobalHeaderConsolidatedPolicy#logtraffic_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#logtraffic_start PackagesGlobalHeaderConsolidatedPolicy#logtraffic_start}
   */
   readonly logtrafficStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#mms_profile PackagesGlobalHeaderConsolidatedPolicy#mms_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#mms_profile PackagesGlobalHeaderConsolidatedPolicy#mms_profile}
   */
   readonly mmsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#name PackagesGlobalHeaderConsolidatedPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#name PackagesGlobalHeaderConsolidatedPolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#nat PackagesGlobalHeaderConsolidatedPolicy#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#nat PackagesGlobalHeaderConsolidatedPolicy#nat}
   */
   readonly nat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#outbound PackagesGlobalHeaderConsolidatedPolicy#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#outbound PackagesGlobalHeaderConsolidatedPolicy#outbound}
   */
   readonly outbound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#per_ip_shaper PackagesGlobalHeaderConsolidatedPolicy#per_ip_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#per_ip_shaper PackagesGlobalHeaderConsolidatedPolicy#per_ip_shaper}
   */
   readonly perIpShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#pkg PackagesGlobalHeaderConsolidatedPolicy#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#pkg PackagesGlobalHeaderConsolidatedPolicy#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#pkg_folder_path PackagesGlobalHeaderConsolidatedPolicy#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#pkg_folder_path PackagesGlobalHeaderConsolidatedPolicy#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#policyid PackagesGlobalHeaderConsolidatedPolicy#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#policyid PackagesGlobalHeaderConsolidatedPolicy#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#poolname4 PackagesGlobalHeaderConsolidatedPolicy#poolname4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#poolname4 PackagesGlobalHeaderConsolidatedPolicy#poolname4}
   */
   readonly poolname4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#poolname6 PackagesGlobalHeaderConsolidatedPolicy#poolname6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#poolname6 PackagesGlobalHeaderConsolidatedPolicy#poolname6}
   */
   readonly poolname6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#profile_group PackagesGlobalHeaderConsolidatedPolicy#profile_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#profile_group PackagesGlobalHeaderConsolidatedPolicy#profile_group}
   */
   readonly profileGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#profile_protocol_options PackagesGlobalHeaderConsolidatedPolicy#profile_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#profile_protocol_options PackagesGlobalHeaderConsolidatedPolicy#profile_protocol_options}
   */
   readonly profileProtocolOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#profile_type PackagesGlobalHeaderConsolidatedPolicy#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#profile_type PackagesGlobalHeaderConsolidatedPolicy#profile_type}
   */
   readonly profileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#schedule PackagesGlobalHeaderConsolidatedPolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#schedule PackagesGlobalHeaderConsolidatedPolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#schedule_timeout PackagesGlobalHeaderConsolidatedPolicy#schedule_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#schedule_timeout PackagesGlobalHeaderConsolidatedPolicy#schedule_timeout}
   */
   readonly scheduleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#service PackagesGlobalHeaderConsolidatedPolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#service PackagesGlobalHeaderConsolidatedPolicy#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#service_negate PackagesGlobalHeaderConsolidatedPolicy#service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#service_negate PackagesGlobalHeaderConsolidatedPolicy#service_negate}
   */
   readonly serviceNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#session_ttl PackagesGlobalHeaderConsolidatedPolicy#session_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#session_ttl PackagesGlobalHeaderConsolidatedPolicy#session_ttl}
   */
   readonly sessionTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#spamfilter_profile PackagesGlobalHeaderConsolidatedPolicy#spamfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#spamfilter_profile PackagesGlobalHeaderConsolidatedPolicy#spamfilter_profile}
   */
   readonly spamfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#srcaddr4 PackagesGlobalHeaderConsolidatedPolicy#srcaddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#srcaddr4 PackagesGlobalHeaderConsolidatedPolicy#srcaddr4}
   */
   readonly srcaddr4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#srcaddr6 PackagesGlobalHeaderConsolidatedPolicy#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#srcaddr6 PackagesGlobalHeaderConsolidatedPolicy#srcaddr6}
   */
   readonly srcaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#srcaddr_negate PackagesGlobalHeaderConsolidatedPolicy#srcaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#srcaddr_negate PackagesGlobalHeaderConsolidatedPolicy#srcaddr_negate}
   */
   readonly srcaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#srcintf PackagesGlobalHeaderConsolidatedPolicy#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#srcintf PackagesGlobalHeaderConsolidatedPolicy#srcintf}
   */
   readonly srcintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#ssh_filter_profile PackagesGlobalHeaderConsolidatedPolicy#ssh_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#ssh_filter_profile PackagesGlobalHeaderConsolidatedPolicy#ssh_filter_profile}
   */
   readonly sshFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#ssh_policy_redirect PackagesGlobalHeaderConsolidatedPolicy#ssh_policy_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#ssh_policy_redirect PackagesGlobalHeaderConsolidatedPolicy#ssh_policy_redirect}
   */
   readonly sshPolicyRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#ssl_ssh_profile PackagesGlobalHeaderConsolidatedPolicy#ssl_ssh_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#ssl_ssh_profile PackagesGlobalHeaderConsolidatedPolicy#ssl_ssh_profile}
   */
   readonly sslSshProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#status PackagesGlobalHeaderConsolidatedPolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#status PackagesGlobalHeaderConsolidatedPolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#tcp_mss_receiver PackagesGlobalHeaderConsolidatedPolicy#tcp_mss_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#tcp_mss_receiver PackagesGlobalHeaderConsolidatedPolicy#tcp_mss_receiver}
   */
   readonly tcpMssReceiver?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#tcp_mss_sender PackagesGlobalHeaderConsolidatedPolicy#tcp_mss_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#tcp_mss_sender PackagesGlobalHeaderConsolidatedPolicy#tcp_mss_sender}
   */
   readonly tcpMssSender?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#traffic_shaper PackagesGlobalHeaderConsolidatedPolicy#traffic_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#traffic_shaper PackagesGlobalHeaderConsolidatedPolicy#traffic_shaper}
   */
   readonly trafficShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#traffic_shaper_reverse PackagesGlobalHeaderConsolidatedPolicy#traffic_shaper_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#traffic_shaper_reverse PackagesGlobalHeaderConsolidatedPolicy#traffic_shaper_reverse}
   */
   readonly trafficShaperReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#url_category PackagesGlobalHeaderConsolidatedPolicy#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#url_category PackagesGlobalHeaderConsolidatedPolicy#url_category}
   */
   readonly urlCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#users PackagesGlobalHeaderConsolidatedPolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#users PackagesGlobalHeaderConsolidatedPolicy#users}
   */
   readonly users?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#utm_inspection_mode PackagesGlobalHeaderConsolidatedPolicy#utm_inspection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#utm_inspection_mode PackagesGlobalHeaderConsolidatedPolicy#utm_inspection_mode}
   */
   readonly utmInspectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#utm_status PackagesGlobalHeaderConsolidatedPolicy#utm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#utm_status PackagesGlobalHeaderConsolidatedPolicy#utm_status}
   */
   readonly utmStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#uuid PackagesGlobalHeaderConsolidatedPolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#uuid PackagesGlobalHeaderConsolidatedPolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#voip_profile PackagesGlobalHeaderConsolidatedPolicy#voip_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#voip_profile PackagesGlobalHeaderConsolidatedPolicy#voip_profile}
   */
   readonly voipProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#vpntunnel PackagesGlobalHeaderConsolidatedPolicy#vpntunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#vpntunnel PackagesGlobalHeaderConsolidatedPolicy#vpntunnel}
   */
   readonly vpntunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#waf_profile PackagesGlobalHeaderConsolidatedPolicy#waf_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#waf_profile PackagesGlobalHeaderConsolidatedPolicy#waf_profile}
   */
   readonly wafProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#wanopt PackagesGlobalHeaderConsolidatedPolicy#wanopt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#wanopt PackagesGlobalHeaderConsolidatedPolicy#wanopt}
   */
   readonly wanopt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#wanopt_detection PackagesGlobalHeaderConsolidatedPolicy#wanopt_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#wanopt_detection PackagesGlobalHeaderConsolidatedPolicy#wanopt_detection}
   */
   readonly wanoptDetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#wanopt_passive_opt PackagesGlobalHeaderConsolidatedPolicy#wanopt_passive_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#wanopt_passive_opt PackagesGlobalHeaderConsolidatedPolicy#wanopt_passive_opt}
   */
   readonly wanoptPassiveOpt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#wanopt_peer PackagesGlobalHeaderConsolidatedPolicy#wanopt_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#wanopt_peer PackagesGlobalHeaderConsolidatedPolicy#wanopt_peer}
   */
   readonly wanoptPeer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#wanopt_profile PackagesGlobalHeaderConsolidatedPolicy#wanopt_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#wanopt_profile PackagesGlobalHeaderConsolidatedPolicy#wanopt_profile}
   */
   readonly wanoptProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#webcache PackagesGlobalHeaderConsolidatedPolicy#webcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#webcache PackagesGlobalHeaderConsolidatedPolicy#webcache}
   */
   readonly webcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#webcache_https PackagesGlobalHeaderConsolidatedPolicy#webcache_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#webcache_https PackagesGlobalHeaderConsolidatedPolicy#webcache_https}
   */
   readonly webcacheHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#webfilter_profile PackagesGlobalHeaderConsolidatedPolicy#webfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#webfilter_profile PackagesGlobalHeaderConsolidatedPolicy#webfilter_profile}
   */
   readonly webfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#webproxy_forward_server PackagesGlobalHeaderConsolidatedPolicy#webproxy_forward_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#webproxy_forward_server PackagesGlobalHeaderConsolidatedPolicy#webproxy_forward_server}
   */
   readonly webproxyForwardServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#webproxy_profile PackagesGlobalHeaderConsolidatedPolicy#webproxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#webproxy_profile PackagesGlobalHeaderConsolidatedPolicy#webproxy_profile}
   */
   readonly webproxyProfile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy fortimanager_packages_global_header_consolidated_policy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy fortimanager_packages_global_header_consolidated_policy}
 */
 export class PackagesGlobalHeaderConsolidatedPolicy extends cdktf.TerraformResource {
 
@@ -425,7 +425,7 @@ export class PackagesGlobalHeaderConsolidatedPolicy extends cdktf.TerraformResou
   * Generates CDKTF code for importing a PackagesGlobalHeaderConsolidatedPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesGlobalHeaderConsolidatedPolicy to import
-  * @param importFromId The id of the existing PackagesGlobalHeaderConsolidatedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesGlobalHeaderConsolidatedPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesGlobalHeaderConsolidatedPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -437,7 +437,7 @@ export class PackagesGlobalHeaderConsolidatedPolicy extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_consolidated_policy fortimanager_packages_global_header_consolidated_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_consolidated_policy fortimanager_packages_global_header_consolidated_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -448,8 +448,8 @@ export class PackagesGlobalHeaderConsolidatedPolicy extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_packages_global_header_consolidated_policy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

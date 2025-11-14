@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#adom ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#adom ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#h2qp_operator_name ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#h2qp_operator_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#h2qp_operator_name ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#h2qp_operator_name}
   */
   readonly h2QpOperatorName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#id ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#id ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#index ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#index ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#lang ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#lang ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#scopetype ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#scopetype ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#value ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#value ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist fortimanager_object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist fortimanager_object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist}
 */
 export class ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist extends 
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist fortimanager_object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist fortimanager_object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectWirelesscontrollerHotspot20H2QpoperatornameValuelist extends 
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_h2qpoperatorname_valuelist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TelephonyProvidersEdgesEdgeGroupConfig extends cdktf.TerraformM
   /**
   * The resource's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#description TelephonyProvidersEdgesEdgeGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#description TelephonyProvidersEdgesEdgeGroup#description}
   */
   readonly description?: string;
   /**
   * Is this edge group hybrid. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#hybrid TelephonyProvidersEdgesEdgeGroup#hybrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#hybrid TelephonyProvidersEdgesEdgeGroup#hybrid}
   */
   readonly hybrid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#id TelephonyProvidersEdgesEdgeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#id TelephonyProvidersEdgesEdgeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface TelephonyProvidersEdgesEdgeGroupConfig extends cdktf.TerraformM
   /**
   * Is this edge group being managed remotely. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#managed TelephonyProvidersEdgesEdgeGroup#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#managed TelephonyProvidersEdgesEdgeGroup#managed}
   */
   readonly managed?: boolean | cdktf.IResolvable;
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#name TelephonyProvidersEdgesEdgeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#name TelephonyProvidersEdgesEdgeGroup#name}
   */
   readonly name: string;
   /**
   * A list of trunk base settings IDs of trunkType "PHONE" to inherit to edge logical interface for phone communication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#phone_trunk_base_ids TelephonyProvidersEdgesEdgeGroup#phone_trunk_base_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#phone_trunk_base_ids TelephonyProvidersEdgesEdgeGroup#phone_trunk_base_ids}
   */
   readonly phoneTrunkBaseIds: string[];
   /**
   * Indicates if the resource is active, inactive, or deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#state TelephonyProvidersEdgesEdgeGroup#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#state TelephonyProvidersEdgesEdgeGroup#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group genesyscloud_telephony_providers_edges_edge_group}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group genesyscloud_telephony_providers_edges_edge_group}
 */
 export class TelephonyProvidersEdgesEdgeGroup extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TelephonyProvidersEdgesEdgeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TelephonyProvidersEdgesEdgeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesEdgeGroup to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesEdgeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesEdgeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TelephonyProvidersEdgesEdgeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_edge_group genesyscloud_telephony_providers_edges_edge_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_edge_group genesyscloud_telephony_providers_edges_edge_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TelephonyProvidersEdgesEdgeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_telephony_providers_edges_edge_group',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

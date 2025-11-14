@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallDospolicyMoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#adom PackagesFirewallDospolicyMove#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#adom PackagesFirewallDospolicyMove#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#dos_policy PackagesFirewallDospolicyMove#dos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#dos_policy PackagesFirewallDospolicyMove#dos_policy}
   */
   readonly dosPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#id PackagesFirewallDospolicyMove#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#id PackagesFirewallDospolicyMove#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#option PackagesFirewallDospolicyMove#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#option PackagesFirewallDospolicyMove#option}
   */
   readonly option: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#pkg PackagesFirewallDospolicyMove#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#pkg PackagesFirewallDospolicyMove#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#pkg_folder_path PackagesFirewallDospolicyMove#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#pkg_folder_path PackagesFirewallDospolicyMove#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#scopetype PackagesFirewallDospolicyMove#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#scopetype PackagesFirewallDospolicyMove#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#state_pos PackagesFirewallDospolicyMove#state_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#state_pos PackagesFirewallDospolicyMove#state_pos}
   */
   readonly statePos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#target PackagesFirewallDospolicyMove#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#target PackagesFirewallDospolicyMove#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move fortimanager_packages_firewall_dospolicy_move}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move fortimanager_packages_firewall_dospolicy_move}
 */
 export class PackagesFirewallDospolicyMove extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class PackagesFirewallDospolicyMove extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallDospolicyMove resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallDospolicyMove to import
-  * @param importFromId The id of the existing PackagesFirewallDospolicyMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallDospolicyMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallDospolicyMove to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class PackagesFirewallDospolicyMove extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy_move fortimanager_packages_firewall_dospolicy_move} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy_move fortimanager_packages_firewall_dospolicy_move} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class PackagesFirewallDospolicyMove extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_dospolicy_move',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ArchitectSchedulegroupsConfig extends cdktf.TerraformMetaArgume
   /**
   * The schedules defining the hours an organization is closed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#closed_schedules_id ArchitectSchedulegroups#closed_schedules_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#closed_schedules_id ArchitectSchedulegroups#closed_schedules_id}
   */
   readonly closedSchedulesId?: string[];
   /**
   * Description of the schedule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#description ArchitectSchedulegroups#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#description ArchitectSchedulegroups#description}
   */
   readonly description?: string;
   /**
   * The division to which this schedule group will belong. If not set, the home division will be used. If set, you must have all divisions and future divisions selected in your OAuth client role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#division_id ArchitectSchedulegroups#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#division_id ArchitectSchedulegroups#division_id}
   */
   readonly divisionId?: string;
   /**
   * The schedules defining the hours an organization is closed for the holidays.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#holiday_schedules_id ArchitectSchedulegroups#holiday_schedules_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#holiday_schedules_id ArchitectSchedulegroups#holiday_schedules_id}
   */
   readonly holidaySchedulesId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#id ArchitectSchedulegroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#id ArchitectSchedulegroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface ArchitectSchedulegroupsConfig extends cdktf.TerraformMetaArgume
   /**
   * Name of the schedule group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#name ArchitectSchedulegroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#name ArchitectSchedulegroups#name}
   */
   readonly name: string;
   /**
   * The schedules defining the hours an organization is open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#open_schedules_id ArchitectSchedulegroups#open_schedules_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#open_schedules_id ArchitectSchedulegroups#open_schedules_id}
   */
   readonly openSchedulesId: string[];
   /**
   * The timezone the schedules are a part of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#time_zone ArchitectSchedulegroups#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#time_zone ArchitectSchedulegroups#time_zone}
   */
   readonly timeZone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups genesyscloud_architect_schedulegroups}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups genesyscloud_architect_schedulegroups}
 */
 export class ArchitectSchedulegroups extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ArchitectSchedulegroups extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectSchedulegroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectSchedulegroups to import
-  * @param importFromId The id of the existing ArchitectSchedulegroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectSchedulegroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectSchedulegroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ArchitectSchedulegroups extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedulegroups genesyscloud_architect_schedulegroups} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedulegroups genesyscloud_architect_schedulegroups} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ArchitectSchedulegroups extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_schedulegroups',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

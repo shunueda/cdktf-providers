@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ExternalusersIdentityConfig extends cdktf.TerraformMetaArgument
   /**
   * Authority or System of Record which owns the External Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity#authority_name ExternalusersIdentity#authority_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity#authority_name ExternalusersIdentity#authority_name}
   */
   readonly authorityName: string;
   /**
   * The identifier for the user within the Authority that owns the external identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity#external_key ExternalusersIdentity#external_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity#external_key ExternalusersIdentity#external_key}
   */
   readonly externalKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity#id ExternalusersIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity#id ExternalusersIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ExternalusersIdentityConfig extends cdktf.TerraformMetaArgument
   /**
   * The user identifier inside the genesys org
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity#user_id ExternalusersIdentity#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity#user_id ExternalusersIdentity#user_id}
   */
   readonly userId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity genesyscloud_externalusers_identity}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity genesyscloud_externalusers_identity}
 */
 export class ExternalusersIdentity extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class ExternalusersIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExternalusersIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExternalusersIdentity to import
-  * @param importFromId The id of the existing ExternalusersIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExternalusersIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExternalusersIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class ExternalusersIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/externalusers_identity genesyscloud_externalusers_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/externalusers_identity genesyscloud_externalusers_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class ExternalusersIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_externalusers_identity',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

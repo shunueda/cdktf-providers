@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface SystemSamlFabricidpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#dev_id SystemSamlFabricidp#dev_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#dev_id SystemSamlFabricidp#dev_id}
   */
   readonly devId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#id SystemSamlFabricidp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#id SystemSamlFabricidp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#idp_cert SystemSamlFabricidp#idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#idp_cert SystemSamlFabricidp#idp_cert}
   */
   readonly idpCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#idp_entity_id SystemSamlFabricidp#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#idp_entity_id SystemSamlFabricidp#idp_entity_id}
   */
   readonly idpEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#idp_single_logout_url SystemSamlFabricidp#idp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#idp_single_logout_url SystemSamlFabricidp#idp_single_logout_url}
   */
   readonly idpSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#idp_single_sign_on_url SystemSamlFabricidp#idp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#idp_single_sign_on_url SystemSamlFabricidp#idp_single_sign_on_url}
   */
   readonly idpSingleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#idp_status SystemSamlFabricidp#idp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#idp_status SystemSamlFabricidp#idp_status}
   */
   readonly idpStatus?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp fortimanager_system_saml_fabricidp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp fortimanager_system_saml_fabricidp}
 */
 export class SystemSamlFabricidp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SystemSamlFabricidp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSamlFabricidp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSamlFabricidp to import
-  * @param importFromId The id of the existing SystemSamlFabricidp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSamlFabricidp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSamlFabricidp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SystemSamlFabricidp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_fabricidp fortimanager_system_saml_fabricidp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_fabricidp fortimanager_system_saml_fabricidp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SystemSamlFabricidp extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_saml_fabricidp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

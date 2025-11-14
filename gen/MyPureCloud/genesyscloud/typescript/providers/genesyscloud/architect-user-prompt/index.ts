@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ArchitectUserPromptConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the user audio prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#description ArchitectUserPrompt#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#description ArchitectUserPrompt#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#id ArchitectUserPrompt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#id ArchitectUserPrompt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,35 +23,35 @@ export interface ArchitectUserPromptConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the user audio prompt. Note: If the name of the user prompt is changed, this will cause the Prompt to be dropped and recreated with a new ID. This will generate a new ID for the prompt and will invalidate any Architect flows referencing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#name ArchitectUserPrompt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#name ArchitectUserPrompt#name}
   */
   readonly name: string;
   /**
   * Audio of TTS resources for the audio prompt.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#resources ArchitectUserPrompt#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#resources ArchitectUserPrompt#resources}
   */
   readonly resources?: ArchitectUserPromptResources[] | cdktf.IResolvable;
 }
 export interface ArchitectUserPromptResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#file_content_hash ArchitectUserPrompt#file_content_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#file_content_hash ArchitectUserPrompt#file_content_hash}
   */
   readonly fileContentHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#filename ArchitectUserPrompt#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#filename ArchitectUserPrompt#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#language ArchitectUserPrompt#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#language ArchitectUserPrompt#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#text ArchitectUserPrompt#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#text ArchitectUserPrompt#text}
   */
   readonly text?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#tts_string ArchitectUserPrompt#tts_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#tts_string ArchitectUserPrompt#tts_string}
   */
   readonly ttsString?: string;
 }
@@ -283,7 +283,7 @@ export class ArchitectUserPromptResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt genesyscloud_architect_user_prompt}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt genesyscloud_architect_user_prompt}
 */
 export class ArchitectUserPrompt extends cdktf.TerraformResource {
 
@@ -299,7 +299,7 @@ export class ArchitectUserPrompt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectUserPrompt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectUserPrompt to import
-  * @param importFromId The id of the existing ArchitectUserPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectUserPrompt that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectUserPrompt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class ArchitectUserPrompt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_user_prompt genesyscloud_architect_user_prompt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_user_prompt genesyscloud_architect_user_prompt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class ArchitectUserPrompt extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_user_prompt',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

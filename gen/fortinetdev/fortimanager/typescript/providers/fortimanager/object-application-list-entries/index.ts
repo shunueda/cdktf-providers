@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,149 +8,149 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectApplicationListEntriesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#action ObjectApplicationListEntriesA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#action ObjectApplicationListEntriesA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#adom ObjectApplicationListEntriesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#adom ObjectApplicationListEntriesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#application ObjectApplicationListEntriesA#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#application ObjectApplicationListEntriesA#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#behavior ObjectApplicationListEntriesA#behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#behavior ObjectApplicationListEntriesA#behavior}
   */
   readonly behavior?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#category ObjectApplicationListEntriesA#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#category ObjectApplicationListEntriesA#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#dynamic_sort_subtable ObjectApplicationListEntriesA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#dynamic_sort_subtable ObjectApplicationListEntriesA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#exclusion ObjectApplicationListEntriesA#exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#exclusion ObjectApplicationListEntriesA#exclusion}
   */
   readonly exclusion?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#fosid ObjectApplicationListEntriesA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#fosid ObjectApplicationListEntriesA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#list ObjectApplicationListEntriesA#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#list ObjectApplicationListEntriesA#list}
   */
   readonly list: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#log ObjectApplicationListEntriesA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#log ObjectApplicationListEntriesA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#log_packet ObjectApplicationListEntriesA#log_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#log_packet ObjectApplicationListEntriesA#log_packet}
   */
   readonly logPacket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#per_ip_shaper ObjectApplicationListEntriesA#per_ip_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#per_ip_shaper ObjectApplicationListEntriesA#per_ip_shaper}
   */
   readonly perIpShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#popularity ObjectApplicationListEntriesA#popularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#popularity ObjectApplicationListEntriesA#popularity}
   */
   readonly popularity?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#protocols ObjectApplicationListEntriesA#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#protocols ObjectApplicationListEntriesA#protocols}
   */
   readonly protocols?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#quarantine ObjectApplicationListEntriesA#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#quarantine ObjectApplicationListEntriesA#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#quarantine_expiry ObjectApplicationListEntriesA#quarantine_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#quarantine_expiry ObjectApplicationListEntriesA#quarantine_expiry}
   */
   readonly quarantineExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#quarantine_log ObjectApplicationListEntriesA#quarantine_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#quarantine_log ObjectApplicationListEntriesA#quarantine_log}
   */
   readonly quarantineLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#rate_count ObjectApplicationListEntriesA#rate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#rate_count ObjectApplicationListEntriesA#rate_count}
   */
   readonly rateCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#rate_duration ObjectApplicationListEntriesA#rate_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#rate_duration ObjectApplicationListEntriesA#rate_duration}
   */
   readonly rateDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#rate_mode ObjectApplicationListEntriesA#rate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#rate_mode ObjectApplicationListEntriesA#rate_mode}
   */
   readonly rateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#rate_track ObjectApplicationListEntriesA#rate_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#rate_track ObjectApplicationListEntriesA#rate_track}
   */
   readonly rateTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#risk ObjectApplicationListEntriesA#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#risk ObjectApplicationListEntriesA#risk}
   */
   readonly risk?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#scopetype ObjectApplicationListEntriesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#scopetype ObjectApplicationListEntriesA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#session_ttl ObjectApplicationListEntriesA#session_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#session_ttl ObjectApplicationListEntriesA#session_ttl}
   */
   readonly sessionTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#shaper ObjectApplicationListEntriesA#shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#shaper ObjectApplicationListEntriesA#shaper}
   */
   readonly shaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#shaper_reverse ObjectApplicationListEntriesA#shaper_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#shaper_reverse ObjectApplicationListEntriesA#shaper_reverse}
   */
   readonly shaperReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#sub_category ObjectApplicationListEntriesA#sub_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#sub_category ObjectApplicationListEntriesA#sub_category}
   */
   readonly subCategory?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#technology ObjectApplicationListEntriesA#technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#technology ObjectApplicationListEntriesA#technology}
   */
   readonly technology?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#vendor ObjectApplicationListEntriesA#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#vendor ObjectApplicationListEntriesA#vendor}
   */
   readonly vendor?: string[];
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#parameters ObjectApplicationListEntriesA#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#parameters ObjectApplicationListEntriesA#parameters}
   */
   readonly parameters?: ObjectApplicationListEntriesParametersA[] | cdktf.IResolvable;
 }
 export interface ObjectApplicationListEntriesParametersMembersA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#name ObjectApplicationListEntriesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#name ObjectApplicationListEntriesA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#value ObjectApplicationListEntriesA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#value ObjectApplicationListEntriesA#value}
   */
   readonly value?: string;
 }
@@ -324,20 +324,20 @@ export class ObjectApplicationListEntriesParametersMembersAList extends cdktf.Co
 }
 export interface ObjectApplicationListEntriesParametersA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#id ObjectApplicationListEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#value ObjectApplicationListEntriesA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#value ObjectApplicationListEntriesA#value}
   */
   readonly value?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#members ObjectApplicationListEntriesA#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#members ObjectApplicationListEntriesA#members}
   */
   readonly members?: ObjectApplicationListEntriesParametersMembersA[] | cdktf.IResolvable;
 }
@@ -511,7 +511,7 @@ export class ObjectApplicationListEntriesParametersAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries fortimanager_object_application_list_entries}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries fortimanager_object_application_list_entries}
 */
 export class ObjectApplicationListEntriesA extends cdktf.TerraformResource {
 
@@ -527,7 +527,7 @@ export class ObjectApplicationListEntriesA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectApplicationListEntriesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectApplicationListEntriesA to import
-  * @param importFromId The id of the existing ObjectApplicationListEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectApplicationListEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectApplicationListEntriesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class ObjectApplicationListEntriesA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries fortimanager_object_application_list_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries fortimanager_object_application_list_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class ObjectApplicationListEntriesA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_application_list_entries',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

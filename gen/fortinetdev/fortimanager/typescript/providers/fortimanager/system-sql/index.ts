@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,133 +8,133 @@ import * as cdktf from 'cdktf';
 
 export interface SystemSqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#background_rebuild SystemSql#background_rebuild}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#background_rebuild SystemSql#background_rebuild}
   */
   readonly backgroundRebuild?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#compress_table_min_age SystemSql#compress_table_min_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#compress_table_min_age SystemSql#compress_table_min_age}
   */
   readonly compressTableMinAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#database_name SystemSql#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#database_name SystemSql#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#database_type SystemSql#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#database_type SystemSql#database_type}
   */
   readonly databaseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#device_count_high SystemSql#device_count_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#device_count_high SystemSql#device_count_high}
   */
   readonly deviceCountHigh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#dynamic_sort_subtable SystemSql#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#dynamic_sort_subtable SystemSql#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#event_table_partition_time SystemSql#event_table_partition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#event_table_partition_time SystemSql#event_table_partition_time}
   */
   readonly eventTablePartitionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#fct_table_partition_time SystemSql#fct_table_partition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#fct_table_partition_time SystemSql#fct_table_partition_time}
   */
   readonly fctTablePartitionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#id SystemSql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#id SystemSql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#logtype SystemSql#logtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#logtype SystemSql#logtype}
   */
   readonly logtype?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#password SystemSql#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#password SystemSql#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#prompt_sql_upgrade SystemSql#prompt_sql_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#prompt_sql_upgrade SystemSql#prompt_sql_upgrade}
   */
   readonly promptSqlUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#rebuild_event SystemSql#rebuild_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#rebuild_event SystemSql#rebuild_event}
   */
   readonly rebuildEvent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#rebuild_event_start_time SystemSql#rebuild_event_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#rebuild_event_start_time SystemSql#rebuild_event_start_time}
   */
   readonly rebuildEventStartTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#server SystemSql#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#server SystemSql#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#start_time SystemSql#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#start_time SystemSql#start_time}
   */
   readonly startTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#status SystemSql#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#status SystemSql#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#text_search_index SystemSql#text_search_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#text_search_index SystemSql#text_search_index}
   */
   readonly textSearchIndex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#traffic_table_partition_time SystemSql#traffic_table_partition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#traffic_table_partition_time SystemSql#traffic_table_partition_time}
   */
   readonly trafficTablePartitionTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#username SystemSql#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#username SystemSql#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#utm_table_partition_time SystemSql#utm_table_partition_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#utm_table_partition_time SystemSql#utm_table_partition_time}
   */
   readonly utmTablePartitionTime?: number;
   /**
   * custom_index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#custom_index SystemSql#custom_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#custom_index SystemSql#custom_index}
   */
   readonly customIndex?: SystemSqlCustomIndex[] | cdktf.IResolvable;
   /**
   * custom_skipidx block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#custom_skipidx SystemSql#custom_skipidx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#custom_skipidx SystemSql#custom_skipidx}
   */
   readonly customSkipidx?: SystemSqlCustomSkipidx[] | cdktf.IResolvable;
   /**
   * ts_index_field block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#ts_index_field SystemSql#ts_index_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#ts_index_field SystemSql#ts_index_field}
   */
   readonly tsIndexField?: SystemSqlTsIndexField[] | cdktf.IResolvable;
 }
 export interface SystemSqlCustomIndex {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#case_sensitive SystemSql#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#case_sensitive SystemSql#case_sensitive}
   */
   readonly caseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#device_type SystemSql#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#device_type SystemSql#device_type}
   */
   readonly deviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#id SystemSql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#id SystemSql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#index_field SystemSql#index_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#index_field SystemSql#index_field}
   */
   readonly indexField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#log_type SystemSql#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#log_type SystemSql#log_type}
   */
   readonly logType?: string;
 }
@@ -366,22 +366,22 @@ export class SystemSqlCustomIndexList extends cdktf.ComplexList {
 }
 export interface SystemSqlCustomSkipidx {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#device_type SystemSql#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#device_type SystemSql#device_type}
   */
   readonly deviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#id SystemSql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#id SystemSql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#index_field SystemSql#index_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#index_field SystemSql#index_field}
   */
   readonly indexField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#log_type SystemSql#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#log_type SystemSql#log_type}
   */
   readonly logType?: string;
 }
@@ -584,11 +584,11 @@ export class SystemSqlCustomSkipidxList extends cdktf.ComplexList {
 }
 export interface SystemSqlTsIndexField {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#category SystemSql#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#category SystemSql#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#value SystemSql#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#value SystemSql#value}
   */
   readonly value?: string;
 }
@@ -733,7 +733,7 @@ export class SystemSqlTsIndexFieldList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql fortimanager_system_sql}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql fortimanager_system_sql}
 */
 export class SystemSql extends cdktf.TerraformResource {
 
@@ -749,7 +749,7 @@ export class SystemSql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSql to import
-  * @param importFromId The id of the existing SystemSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSql that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -761,7 +761,7 @@ export class SystemSql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_sql fortimanager_system_sql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_sql fortimanager_system_sql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -772,8 +772,8 @@ export class SystemSql extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_sql',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

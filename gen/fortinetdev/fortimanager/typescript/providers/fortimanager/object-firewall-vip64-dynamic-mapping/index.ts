@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallVip64DynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#adom ObjectFirewallVip64DynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#adom ObjectFirewallVip64DynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#arp_reply ObjectFirewallVip64DynamicMappingA#arp_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#arp_reply ObjectFirewallVip64DynamicMappingA#arp_reply}
   */
   readonly arpReply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#color ObjectFirewallVip64DynamicMappingA#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#color ObjectFirewallVip64DynamicMappingA#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#comment ObjectFirewallVip64DynamicMappingA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#comment ObjectFirewallVip64DynamicMappingA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#dynamic_sort_subtable ObjectFirewallVip64DynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#dynamic_sort_subtable ObjectFirewallVip64DynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#extip ObjectFirewallVip64DynamicMappingA#extip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#extip ObjectFirewallVip64DynamicMappingA#extip}
   */
   readonly extip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#extport ObjectFirewallVip64DynamicMappingA#extport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#extport ObjectFirewallVip64DynamicMappingA#extport}
   */
   readonly extport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#fosid ObjectFirewallVip64DynamicMappingA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#fosid ObjectFirewallVip64DynamicMappingA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#id ObjectFirewallVip64DynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#id ObjectFirewallVip64DynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#ldb_method ObjectFirewallVip64DynamicMappingA#ldb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#ldb_method ObjectFirewallVip64DynamicMappingA#ldb_method}
   */
   readonly ldbMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#mappedip ObjectFirewallVip64DynamicMappingA#mappedip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#mappedip ObjectFirewallVip64DynamicMappingA#mappedip}
   */
   readonly mappedip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#mappedport ObjectFirewallVip64DynamicMappingA#mappedport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#mappedport ObjectFirewallVip64DynamicMappingA#mappedport}
   */
   readonly mappedport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#monitor ObjectFirewallVip64DynamicMappingA#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#monitor ObjectFirewallVip64DynamicMappingA#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#portforward ObjectFirewallVip64DynamicMappingA#portforward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#portforward ObjectFirewallVip64DynamicMappingA#portforward}
   */
   readonly portforward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#protocol ObjectFirewallVip64DynamicMappingA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#protocol ObjectFirewallVip64DynamicMappingA#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#scopetype ObjectFirewallVip64DynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#scopetype ObjectFirewallVip64DynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#server_type ObjectFirewallVip64DynamicMappingA#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#server_type ObjectFirewallVip64DynamicMappingA#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#src_filter ObjectFirewallVip64DynamicMappingA#src_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#src_filter ObjectFirewallVip64DynamicMappingA#src_filter}
   */
   readonly srcFilter?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#type ObjectFirewallVip64DynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#type ObjectFirewallVip64DynamicMappingA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#uuid ObjectFirewallVip64DynamicMappingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#uuid ObjectFirewallVip64DynamicMappingA#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#vip64 ObjectFirewallVip64DynamicMappingA#vip64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#vip64 ObjectFirewallVip64DynamicMappingA#vip64}
   */
   readonly vip64: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#_scope ObjectFirewallVip64DynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#_scope ObjectFirewallVip64DynamicMappingA#_scope}
   */
   readonly scope?: ObjectFirewallVip64DynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallVip64DynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#name ObjectFirewallVip64DynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#name ObjectFirewallVip64DynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#vdom ObjectFirewallVip64DynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#vdom ObjectFirewallVip64DynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -252,7 +252,7 @@ export class ObjectFirewallVip64DynamicMappingScopeAList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping fortimanager_object_firewall_vip64_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping fortimanager_object_firewall_vip64_dynamic_mapping}
 */
 export class ObjectFirewallVip64DynamicMappingA extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class ObjectFirewallVip64DynamicMappingA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectFirewallVip64DynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallVip64DynamicMappingA to import
-  * @param importFromId The id of the existing ObjectFirewallVip64DynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallVip64DynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallVip64DynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class ObjectFirewallVip64DynamicMappingA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_dynamic_mapping fortimanager_object_firewall_vip64_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_dynamic_mapping fortimanager_object_firewall_vip64_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class ObjectFirewallVip64DynamicMappingA extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_firewall_vip64_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

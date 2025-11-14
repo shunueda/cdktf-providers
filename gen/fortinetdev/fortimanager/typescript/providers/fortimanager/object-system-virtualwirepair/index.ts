@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemVirtualwirepairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#adom ObjectSystemVirtualwirepair#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#adom ObjectSystemVirtualwirepair#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#id ObjectSystemVirtualwirepair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#id ObjectSystemVirtualwirepair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#member ObjectSystemVirtualwirepair#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#member ObjectSystemVirtualwirepair#member}
   */
   readonly member?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#name ObjectSystemVirtualwirepair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#name ObjectSystemVirtualwirepair#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#outer_vlan_id ObjectSystemVirtualwirepair#outer_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#outer_vlan_id ObjectSystemVirtualwirepair#outer_vlan_id}
   */
   readonly outerVlanId?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#poweroff_bypass ObjectSystemVirtualwirepair#poweroff_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#poweroff_bypass ObjectSystemVirtualwirepair#poweroff_bypass}
   */
   readonly poweroffBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#poweron_bypass ObjectSystemVirtualwirepair#poweron_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#poweron_bypass ObjectSystemVirtualwirepair#poweron_bypass}
   */
   readonly poweronBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#scopetype ObjectSystemVirtualwirepair#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#scopetype ObjectSystemVirtualwirepair#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#vlan_filter ObjectSystemVirtualwirepair#vlan_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#vlan_filter ObjectSystemVirtualwirepair#vlan_filter}
   */
   readonly vlanFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#wildcard_vlan ObjectSystemVirtualwirepair#wildcard_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#wildcard_vlan ObjectSystemVirtualwirepair#wildcard_vlan}
   */
   readonly wildcardVlan?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair fortimanager_object_system_virtualwirepair}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair fortimanager_object_system_virtualwirepair}
 */
 export class ObjectSystemVirtualwirepair extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ObjectSystemVirtualwirepair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemVirtualwirepair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemVirtualwirepair to import
-  * @param importFromId The id of the existing ObjectSystemVirtualwirepair that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemVirtualwirepair that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemVirtualwirepair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ObjectSystemVirtualwirepair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_virtualwirepair fortimanager_object_system_virtualwirepair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_virtualwirepair fortimanager_object_system_virtualwirepair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ObjectSystemVirtualwirepair extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_virtualwirepair',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

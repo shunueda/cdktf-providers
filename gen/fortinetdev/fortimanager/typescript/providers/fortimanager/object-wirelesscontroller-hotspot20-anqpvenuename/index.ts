@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20AnqpvenuenameConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#adom ObjectWirelesscontrollerHotspot20Anqpvenuename#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#adom ObjectWirelesscontrollerHotspot20Anqpvenuename#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20Anqpvenuename#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20Anqpvenuename#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#id ObjectWirelesscontrollerHotspot20Anqpvenuename#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#id ObjectWirelesscontrollerHotspot20Anqpvenuename#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#name ObjectWirelesscontrollerHotspot20Anqpvenuename#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#name ObjectWirelesscontrollerHotspot20Anqpvenuename#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#scopetype ObjectWirelesscontrollerHotspot20Anqpvenuename#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#scopetype ObjectWirelesscontrollerHotspot20Anqpvenuename#scopetype}
   */
   readonly scopetype?: string;
   /**
   * value_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#value_list ObjectWirelesscontrollerHotspot20Anqpvenuename#value_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#value_list ObjectWirelesscontrollerHotspot20Anqpvenuename#value_list}
   */
   readonly valueList?: ObjectWirelesscontrollerHotspot20AnqpvenuenameValueListStruct[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerHotspot20AnqpvenuenameValueListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#index ObjectWirelesscontrollerHotspot20Anqpvenuename#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#index ObjectWirelesscontrollerHotspot20Anqpvenuename#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#lang ObjectWirelesscontrollerHotspot20Anqpvenuename#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#lang ObjectWirelesscontrollerHotspot20Anqpvenuename#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#value ObjectWirelesscontrollerHotspot20Anqpvenuename#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#value ObjectWirelesscontrollerHotspot20Anqpvenuename#value}
   */
   readonly value?: string;
 }
@@ -221,7 +221,7 @@ export class ObjectWirelesscontrollerHotspot20AnqpvenuenameValueListStructList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename fortimanager_object_wirelesscontroller_hotspot20_anqpvenuename}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename fortimanager_object_wirelesscontroller_hotspot20_anqpvenuename}
 */
 export class ObjectWirelesscontrollerHotspot20Anqpvenuename extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class ObjectWirelesscontrollerHotspot20Anqpvenuename extends cdktf.Terraf
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20Anqpvenuename resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20Anqpvenuename to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Anqpvenuename that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Anqpvenuename that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20Anqpvenuename to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class ObjectWirelesscontrollerHotspot20Anqpvenuename extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename fortimanager_object_wirelesscontroller_hotspot20_anqpvenuename} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpvenuename fortimanager_object_wirelesscontroller_hotspot20_anqpvenuename} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class ObjectWirelesscontrollerHotspot20Anqpvenuename extends cdktf.Terraf
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_anqpvenuename',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

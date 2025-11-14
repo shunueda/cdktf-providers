@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebfilterProfileAntiphishAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#adom ObjectWebfilterProfileAntiphishA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#adom ObjectWebfilterProfileAntiphishA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#authentication ObjectWebfilterProfileAntiphishA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#authentication ObjectWebfilterProfileAntiphishA#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#check_basic_auth ObjectWebfilterProfileAntiphishA#check_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#check_basic_auth ObjectWebfilterProfileAntiphishA#check_basic_auth}
   */
   readonly checkBasicAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#check_uri ObjectWebfilterProfileAntiphishA#check_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#check_uri ObjectWebfilterProfileAntiphishA#check_uri}
   */
   readonly checkUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#check_username_only ObjectWebfilterProfileAntiphishA#check_username_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#check_username_only ObjectWebfilterProfileAntiphishA#check_username_only}
   */
   readonly checkUsernameOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#default_action ObjectWebfilterProfileAntiphishA#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#default_action ObjectWebfilterProfileAntiphishA#default_action}
   */
   readonly defaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#domain_controller ObjectWebfilterProfileAntiphishA#domain_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#domain_controller ObjectWebfilterProfileAntiphishA#domain_controller}
   */
   readonly domainController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#dynamic_sort_subtable ObjectWebfilterProfileAntiphishA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#dynamic_sort_subtable ObjectWebfilterProfileAntiphishA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#id ObjectWebfilterProfileAntiphishA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#id ObjectWebfilterProfileAntiphishA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#ldap ObjectWebfilterProfileAntiphishA#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#ldap ObjectWebfilterProfileAntiphishA#ldap}
   */
   readonly ldap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#max_body_len ObjectWebfilterProfileAntiphishA#max_body_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#max_body_len ObjectWebfilterProfileAntiphishA#max_body_len}
   */
   readonly maxBodyLen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#profile ObjectWebfilterProfileAntiphishA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#profile ObjectWebfilterProfileAntiphishA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#scopetype ObjectWebfilterProfileAntiphishA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#scopetype ObjectWebfilterProfileAntiphishA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#status ObjectWebfilterProfileAntiphishA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#status ObjectWebfilterProfileAntiphishA#status}
   */
   readonly status?: string;
   /**
   * custom_patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#custom_patterns ObjectWebfilterProfileAntiphishA#custom_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#custom_patterns ObjectWebfilterProfileAntiphishA#custom_patterns}
   */
   readonly customPatterns?: ObjectWebfilterProfileAntiphishCustomPatternsA[] | cdktf.IResolvable;
   /**
   * inspection_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#inspection_entries ObjectWebfilterProfileAntiphishA#inspection_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#inspection_entries ObjectWebfilterProfileAntiphishA#inspection_entries}
   */
   readonly inspectionEntries?: ObjectWebfilterProfileAntiphishInspectionEntriesA[] | cdktf.IResolvable;
 }
 export interface ObjectWebfilterProfileAntiphishCustomPatternsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#category ObjectWebfilterProfileAntiphishA#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#category ObjectWebfilterProfileAntiphishA#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#pattern ObjectWebfilterProfileAntiphishA#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#pattern ObjectWebfilterProfileAntiphishA#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#type ObjectWebfilterProfileAntiphishA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#type ObjectWebfilterProfileAntiphishA#type}
   */
   readonly type?: string;
 }
@@ -263,15 +263,15 @@ export class ObjectWebfilterProfileAntiphishCustomPatternsAList extends cdktf.Co
 }
 export interface ObjectWebfilterProfileAntiphishInspectionEntriesA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#action ObjectWebfilterProfileAntiphishA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#action ObjectWebfilterProfileAntiphishA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#fortiguard_category ObjectWebfilterProfileAntiphishA#fortiguard_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#fortiguard_category ObjectWebfilterProfileAntiphishA#fortiguard_category}
   */
   readonly fortiguardCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#name ObjectWebfilterProfileAntiphishA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#name ObjectWebfilterProfileAntiphishA#name}
   */
   readonly name?: string;
 }
@@ -445,7 +445,7 @@ export class ObjectWebfilterProfileAntiphishInspectionEntriesAList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish fortimanager_object_webfilter_profile_antiphish}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish fortimanager_object_webfilter_profile_antiphish}
 */
 export class ObjectWebfilterProfileAntiphishA extends cdktf.TerraformResource {
 
@@ -461,7 +461,7 @@ export class ObjectWebfilterProfileAntiphishA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebfilterProfileAntiphishA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebfilterProfileAntiphishA to import
-  * @param importFromId The id of the existing ObjectWebfilterProfileAntiphishA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebfilterProfileAntiphishA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebfilterProfileAntiphishA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -473,7 +473,7 @@ export class ObjectWebfilterProfileAntiphishA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_antiphish fortimanager_object_webfilter_profile_antiphish} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_antiphish fortimanager_object_webfilter_profile_antiphish} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -484,8 +484,8 @@ export class ObjectWebfilterProfileAntiphishA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webfilter_profile_antiphish',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

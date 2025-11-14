@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogFortianalyzerSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#id SystemLocallogFortianalyzerSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#id SystemLocallogFortianalyzerSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#peer_cert_cn SystemLocallogFortianalyzerSetting#peer_cert_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#peer_cert_cn SystemLocallogFortianalyzerSetting#peer_cert_cn}
   */
   readonly peerCertCn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#reliable SystemLocallogFortianalyzerSetting#reliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#reliable SystemLocallogFortianalyzerSetting#reliable}
   */
   readonly reliable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#secure_connection SystemLocallogFortianalyzerSetting#secure_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#secure_connection SystemLocallogFortianalyzerSetting#secure_connection}
   */
   readonly secureConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#server SystemLocallogFortianalyzerSetting#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#server SystemLocallogFortianalyzerSetting#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#severity SystemLocallogFortianalyzerSetting#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#severity SystemLocallogFortianalyzerSetting#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#status SystemLocallogFortianalyzerSetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#status SystemLocallogFortianalyzerSetting#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#upload_time SystemLocallogFortianalyzerSetting#upload_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#upload_time SystemLocallogFortianalyzerSetting#upload_time}
   */
   readonly uploadTime?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting fortimanager_system_locallog_fortianalyzer_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting fortimanager_system_locallog_fortianalyzer_setting}
 */
 export class SystemLocallogFortianalyzerSetting extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SystemLocallogFortianalyzerSetting extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SystemLocallogFortianalyzerSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogFortianalyzerSetting to import
-  * @param importFromId The id of the existing SystemLocallogFortianalyzerSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogFortianalyzerSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogFortianalyzerSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SystemLocallogFortianalyzerSetting extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_fortianalyzer_setting fortimanager_system_locallog_fortianalyzer_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_fortianalyzer_setting fortimanager_system_locallog_fortianalyzer_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SystemLocallogFortianalyzerSetting extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_system_locallog_fortianalyzer_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

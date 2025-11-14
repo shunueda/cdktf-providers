@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,174 +8,174 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerManagedswitchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#_platform ObjectSwitchcontrollerManagedswitch#_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#_platform ObjectSwitchcontrollerManagedswitch#_platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#adom ObjectSwitchcontrollerManagedswitch#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#adom ObjectSwitchcontrollerManagedswitch#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#description ObjectSwitchcontrollerManagedswitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#description ObjectSwitchcontrollerManagedswitch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dhcp_server_access_list ObjectSwitchcontrollerManagedswitch#dhcp_server_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dhcp_server_access_list ObjectSwitchcontrollerManagedswitch#dhcp_server_access_list}
   */
   readonly dhcpServerAccessList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dynamic_sort_subtable ObjectSwitchcontrollerManagedswitch#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dynamic_sort_subtable ObjectSwitchcontrollerManagedswitch#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision ObjectSwitchcontrollerManagedswitch#firmware_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision ObjectSwitchcontrollerManagedswitch#firmware_provision}
   */
   readonly firmwareProvision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision_latest ObjectSwitchcontrollerManagedswitch#firmware_provision_latest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision_latest ObjectSwitchcontrollerManagedswitch#firmware_provision_latest}
   */
   readonly firmwareProvisionLatest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision_version ObjectSwitchcontrollerManagedswitch#firmware_provision_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#firmware_provision_version ObjectSwitchcontrollerManagedswitch#firmware_provision_version}
   */
   readonly firmwareProvisionVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#id ObjectSwitchcontrollerManagedswitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#id ObjectSwitchcontrollerManagedswitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#l3_discovered ObjectSwitchcontrollerManagedswitch#l3_discovered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#l3_discovered ObjectSwitchcontrollerManagedswitch#l3_discovered}
   */
   readonly l3Discovered?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mclag_igmp_snooping_aware ObjectSwitchcontrollerManagedswitch#mclag_igmp_snooping_aware}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mclag_igmp_snooping_aware ObjectSwitchcontrollerManagedswitch#mclag_igmp_snooping_aware}
   */
   readonly mclagIgmpSnoopingAware?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mgmt_mode ObjectSwitchcontrollerManagedswitch#mgmt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mgmt_mode ObjectSwitchcontrollerManagedswitch#mgmt_mode}
   */
   readonly mgmtMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#name ObjectSwitchcontrollerManagedswitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#name ObjectSwitchcontrollerManagedswitch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_community ObjectSwitchcontrollerManagedswitch#override_snmp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_community ObjectSwitchcontrollerManagedswitch#override_snmp_community}
   */
   readonly overrideSnmpCommunity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_sysinfo ObjectSwitchcontrollerManagedswitch#override_snmp_sysinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_sysinfo ObjectSwitchcontrollerManagedswitch#override_snmp_sysinfo}
   */
   readonly overrideSnmpSysinfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_trap_threshold ObjectSwitchcontrollerManagedswitch#override_snmp_trap_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_trap_threshold ObjectSwitchcontrollerManagedswitch#override_snmp_trap_threshold}
   */
   readonly overrideSnmpTrapThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_user ObjectSwitchcontrollerManagedswitch#override_snmp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#override_snmp_user ObjectSwitchcontrollerManagedswitch#override_snmp_user}
   */
   readonly overrideSnmpUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_detection_type ObjectSwitchcontrollerManagedswitch#poe_detection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_detection_type ObjectSwitchcontrollerManagedswitch#poe_detection_type}
   */
   readonly poeDetectionType?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ptp_profile ObjectSwitchcontrollerManagedswitch#ptp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ptp_profile ObjectSwitchcontrollerManagedswitch#ptp_profile}
   */
   readonly ptpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ptp_status ObjectSwitchcontrollerManagedswitch#ptp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ptp_status ObjectSwitchcontrollerManagedswitch#ptp_status}
   */
   readonly ptpStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#purdue_level ObjectSwitchcontrollerManagedswitch#purdue_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#purdue_level ObjectSwitchcontrollerManagedswitch#purdue_level}
   */
   readonly purdueLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#qos_drop_policy ObjectSwitchcontrollerManagedswitch#qos_drop_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#qos_drop_policy ObjectSwitchcontrollerManagedswitch#qos_drop_policy}
   */
   readonly qosDropPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#qos_red_probability ObjectSwitchcontrollerManagedswitch#qos_red_probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#qos_red_probability ObjectSwitchcontrollerManagedswitch#qos_red_probability}
   */
   readonly qosRedProbability?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#radius_nas_ip ObjectSwitchcontrollerManagedswitch#radius_nas_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#radius_nas_ip ObjectSwitchcontrollerManagedswitch#radius_nas_ip}
   */
   readonly radiusNasIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#radius_nas_ip_override ObjectSwitchcontrollerManagedswitch#radius_nas_ip_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#radius_nas_ip_override ObjectSwitchcontrollerManagedswitch#radius_nas_ip_override}
   */
   readonly radiusNasIpOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#route_offload ObjectSwitchcontrollerManagedswitch#route_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#route_offload ObjectSwitchcontrollerManagedswitch#route_offload}
   */
   readonly routeOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#route_offload_mclag ObjectSwitchcontrollerManagedswitch#route_offload_mclag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#route_offload_mclag ObjectSwitchcontrollerManagedswitch#route_offload_mclag}
   */
   readonly routeOffloadMclag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#scopetype ObjectSwitchcontrollerManagedswitch#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#scopetype ObjectSwitchcontrollerManagedswitch#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#switch_dhcp_opt43_key ObjectSwitchcontrollerManagedswitch#switch_dhcp_opt43_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#switch_dhcp_opt43_key ObjectSwitchcontrollerManagedswitch#switch_dhcp_opt43_key}
   */
   readonly switchDhcpOpt43Key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#switch_id ObjectSwitchcontrollerManagedswitch#switch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#switch_id ObjectSwitchcontrollerManagedswitch#switch_id}
   */
   readonly switchId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#tdr_supported ObjectSwitchcontrollerManagedswitch#tdr_supported}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#tdr_supported ObjectSwitchcontrollerManagedswitch#tdr_supported}
   */
   readonly tdrSupported?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#tunnel_discovered ObjectSwitchcontrollerManagedswitch#tunnel_discovered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#tunnel_discovered ObjectSwitchcontrollerManagedswitch#tunnel_discovered}
   */
   readonly tunnelDiscovered?: number;
   /**
   * custom_command block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#custom_command ObjectSwitchcontrollerManagedswitch#custom_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#custom_command ObjectSwitchcontrollerManagedswitch#custom_command}
   */
   readonly customCommand?: ObjectSwitchcontrollerManagedswitchCustomCommand[] | cdktf.IResolvable;
   /**
   * dhcp_snooping_static_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snooping_static_client ObjectSwitchcontrollerManagedswitch#dhcp_snooping_static_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snooping_static_client ObjectSwitchcontrollerManagedswitch#dhcp_snooping_static_client}
   */
   readonly dhcpSnoopingStaticClient?: ObjectSwitchcontrollerManagedswitchDhcpSnoopingStaticClient[] | cdktf.IResolvable;
   /**
   * ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ports ObjectSwitchcontrollerManagedswitch#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ports ObjectSwitchcontrollerManagedswitch#ports}
   */
   readonly ports?: ObjectSwitchcontrollerManagedswitchPorts[] | cdktf.IResolvable;
   /**
   * route_offload_router block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#route_offload_router ObjectSwitchcontrollerManagedswitch#route_offload_router}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#route_offload_router ObjectSwitchcontrollerManagedswitch#route_offload_router}
   */
   readonly routeOffloadRouter?: ObjectSwitchcontrollerManagedswitchRouteOffloadRouter[] | cdktf.IResolvable;
   /**
   * vlan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
   */
   readonly vlan?: ObjectSwitchcontrollerManagedswitchVlan[] | cdktf.IResolvable;
 }
 export interface ObjectSwitchcontrollerManagedswitchCustomCommand {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#command_entry ObjectSwitchcontrollerManagedswitch#command_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#command_entry ObjectSwitchcontrollerManagedswitch#command_entry}
   */
   readonly commandEntry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#command_name ObjectSwitchcontrollerManagedswitch#command_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#command_name ObjectSwitchcontrollerManagedswitch#command_name}
   */
   readonly commandName?: string;
 }
@@ -320,23 +320,23 @@ export class ObjectSwitchcontrollerManagedswitchCustomCommandList extends cdktf.
 }
 export interface ObjectSwitchcontrollerManagedswitchDhcpSnoopingStaticClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ip ObjectSwitchcontrollerManagedswitch#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ip ObjectSwitchcontrollerManagedswitch#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mac ObjectSwitchcontrollerManagedswitch#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mac ObjectSwitchcontrollerManagedswitch#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#name ObjectSwitchcontrollerManagedswitch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#name ObjectSwitchcontrollerManagedswitch#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port ObjectSwitchcontrollerManagedswitch#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port ObjectSwitchcontrollerManagedswitch#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
   */
   readonly vlan?: string;
 }
@@ -568,15 +568,15 @@ export class ObjectSwitchcontrollerManagedswitchDhcpSnoopingStaticClientList ext
 }
 export interface ObjectSwitchcontrollerManagedswitchPortsDhcpSnoopOption82Override {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#circuit_id ObjectSwitchcontrollerManagedswitch#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#circuit_id ObjectSwitchcontrollerManagedswitch#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#remote_id ObjectSwitchcontrollerManagedswitch#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#remote_id ObjectSwitchcontrollerManagedswitch#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -750,345 +750,345 @@ export class ObjectSwitchcontrollerManagedswitchPortsDhcpSnoopOption82OverrideLi
 }
 export interface ObjectSwitchcontrollerManagedswitchPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#access_mode ObjectSwitchcontrollerManagedswitch#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#access_mode ObjectSwitchcontrollerManagedswitch#access_mode}
   */
   readonly accessMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#acl_group ObjectSwitchcontrollerManagedswitch#acl_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#acl_group ObjectSwitchcontrollerManagedswitch#acl_group}
   */
   readonly aclGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#aggregator_mode ObjectSwitchcontrollerManagedswitch#aggregator_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#aggregator_mode ObjectSwitchcontrollerManagedswitch#aggregator_mode}
   */
   readonly aggregatorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#allowed_vlans ObjectSwitchcontrollerManagedswitch#allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#allowed_vlans ObjectSwitchcontrollerManagedswitch#allowed_vlans}
   */
   readonly allowedVlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#allowed_vlans_all ObjectSwitchcontrollerManagedswitch#allowed_vlans_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#allowed_vlans_all ObjectSwitchcontrollerManagedswitch#allowed_vlans_all}
   */
   readonly allowedVlansAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#arp_inspection_trust ObjectSwitchcontrollerManagedswitch#arp_inspection_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#arp_inspection_trust ObjectSwitchcontrollerManagedswitch#arp_inspection_trust}
   */
   readonly arpInspectionTrust?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#authenticated_port ObjectSwitchcontrollerManagedswitch#authenticated_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#authenticated_port ObjectSwitchcontrollerManagedswitch#authenticated_port}
   */
   readonly authenticatedPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#bundle ObjectSwitchcontrollerManagedswitch#bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#bundle ObjectSwitchcontrollerManagedswitch#bundle}
   */
   readonly bundle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#description ObjectSwitchcontrollerManagedswitch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#description ObjectSwitchcontrollerManagedswitch#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snoop_option82_trust ObjectSwitchcontrollerManagedswitch#dhcp_snoop_option82_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snoop_option82_trust ObjectSwitchcontrollerManagedswitch#dhcp_snoop_option82_trust}
   */
   readonly dhcpSnoopOption82Trust?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snooping ObjectSwitchcontrollerManagedswitch#dhcp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snooping ObjectSwitchcontrollerManagedswitch#dhcp_snooping}
   */
   readonly dhcpSnooping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#discard_mode ObjectSwitchcontrollerManagedswitch#discard_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#discard_mode ObjectSwitchcontrollerManagedswitch#discard_mode}
   */
   readonly discardMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dsl_profile ObjectSwitchcontrollerManagedswitch#dsl_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dsl_profile ObjectSwitchcontrollerManagedswitch#dsl_profile}
   */
   readonly dslProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#edge_port ObjectSwitchcontrollerManagedswitch#edge_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#edge_port ObjectSwitchcontrollerManagedswitch#edge_port}
   */
   readonly edgePort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#encrypted_port ObjectSwitchcontrollerManagedswitch#encrypted_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#encrypted_port ObjectSwitchcontrollerManagedswitch#encrypted_port}
   */
   readonly encryptedPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#fec_capable ObjectSwitchcontrollerManagedswitch#fec_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#fec_capable ObjectSwitchcontrollerManagedswitch#fec_capable}
   */
   readonly fecCapable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#fec_state ObjectSwitchcontrollerManagedswitch#fec_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#fec_state ObjectSwitchcontrollerManagedswitch#fec_state}
   */
   readonly fecState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#flap_duration ObjectSwitchcontrollerManagedswitch#flap_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#flap_duration ObjectSwitchcontrollerManagedswitch#flap_duration}
   */
   readonly flapDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#flap_rate ObjectSwitchcontrollerManagedswitch#flap_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#flap_rate ObjectSwitchcontrollerManagedswitch#flap_rate}
   */
   readonly flapRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#flap_timeout ObjectSwitchcontrollerManagedswitch#flap_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#flap_timeout ObjectSwitchcontrollerManagedswitch#flap_timeout}
   */
   readonly flapTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#flapguard ObjectSwitchcontrollerManagedswitch#flapguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#flapguard ObjectSwitchcontrollerManagedswitch#flapguard}
   */
   readonly flapguard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#flow_control ObjectSwitchcontrollerManagedswitch#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#flow_control ObjectSwitchcontrollerManagedswitch#flow_control}
   */
   readonly flowControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#fortiswitch_acls ObjectSwitchcontrollerManagedswitch#fortiswitch_acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#fortiswitch_acls ObjectSwitchcontrollerManagedswitch#fortiswitch_acls}
   */
   readonly fortiswitchAcls?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#igmp_snooping ObjectSwitchcontrollerManagedswitch#igmp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#igmp_snooping ObjectSwitchcontrollerManagedswitch#igmp_snooping}
   */
   readonly igmpSnooping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#igmp_snooping_flood_reports ObjectSwitchcontrollerManagedswitch#igmp_snooping_flood_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#igmp_snooping_flood_reports ObjectSwitchcontrollerManagedswitch#igmp_snooping_flood_reports}
   */
   readonly igmpSnoopingFloodReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#igmps_flood_reports ObjectSwitchcontrollerManagedswitch#igmps_flood_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#igmps_flood_reports ObjectSwitchcontrollerManagedswitch#igmps_flood_reports}
   */
   readonly igmpsFloodReports?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#igmps_flood_traffic ObjectSwitchcontrollerManagedswitch#igmps_flood_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#igmps_flood_traffic ObjectSwitchcontrollerManagedswitch#igmps_flood_traffic}
   */
   readonly igmpsFloodTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#interface_tags ObjectSwitchcontrollerManagedswitch#interface_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#interface_tags ObjectSwitchcontrollerManagedswitch#interface_tags}
   */
   readonly interfaceTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ip_source_guard ObjectSwitchcontrollerManagedswitch#ip_source_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ip_source_guard ObjectSwitchcontrollerManagedswitch#ip_source_guard}
   */
   readonly ipSourceGuard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#isl_peer_device_sn ObjectSwitchcontrollerManagedswitch#isl_peer_device_sn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#isl_peer_device_sn ObjectSwitchcontrollerManagedswitch#isl_peer_device_sn}
   */
   readonly islPeerDeviceSn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#lacp_speed ObjectSwitchcontrollerManagedswitch#lacp_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#lacp_speed ObjectSwitchcontrollerManagedswitch#lacp_speed}
   */
   readonly lacpSpeed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#learning_limit ObjectSwitchcontrollerManagedswitch#learning_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#learning_limit ObjectSwitchcontrollerManagedswitch#learning_limit}
   */
   readonly learningLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#link_status ObjectSwitchcontrollerManagedswitch#link_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#link_status ObjectSwitchcontrollerManagedswitch#link_status}
   */
   readonly linkStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#lldp_profile ObjectSwitchcontrollerManagedswitch#lldp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#lldp_profile ObjectSwitchcontrollerManagedswitch#lldp_profile}
   */
   readonly lldpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#lldp_status ObjectSwitchcontrollerManagedswitch#lldp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#lldp_status ObjectSwitchcontrollerManagedswitch#lldp_status}
   */
   readonly lldpStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#loop_guard ObjectSwitchcontrollerManagedswitch#loop_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#loop_guard ObjectSwitchcontrollerManagedswitch#loop_guard}
   */
   readonly loopGuard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#loop_guard_timeout ObjectSwitchcontrollerManagedswitch#loop_guard_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#loop_guard_timeout ObjectSwitchcontrollerManagedswitch#loop_guard_timeout}
   */
   readonly loopGuardTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#matched_dpp_intf_tags ObjectSwitchcontrollerManagedswitch#matched_dpp_intf_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#matched_dpp_intf_tags ObjectSwitchcontrollerManagedswitch#matched_dpp_intf_tags}
   */
   readonly matchedDppIntfTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#matched_dpp_policy ObjectSwitchcontrollerManagedswitch#matched_dpp_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#matched_dpp_policy ObjectSwitchcontrollerManagedswitch#matched_dpp_policy}
   */
   readonly matchedDppPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#max_bundle ObjectSwitchcontrollerManagedswitch#max_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#max_bundle ObjectSwitchcontrollerManagedswitch#max_bundle}
   */
   readonly maxBundle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mcast_snooping_flood_traffic ObjectSwitchcontrollerManagedswitch#mcast_snooping_flood_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mcast_snooping_flood_traffic ObjectSwitchcontrollerManagedswitch#mcast_snooping_flood_traffic}
   */
   readonly mcastSnoopingFloodTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mclag ObjectSwitchcontrollerManagedswitch#mclag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mclag ObjectSwitchcontrollerManagedswitch#mclag}
   */
   readonly mclag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mclag_icl_port ObjectSwitchcontrollerManagedswitch#mclag_icl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mclag_icl_port ObjectSwitchcontrollerManagedswitch#mclag_icl_port}
   */
   readonly mclagIclPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#media_type ObjectSwitchcontrollerManagedswitch#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#media_type ObjectSwitchcontrollerManagedswitch#media_type}
   */
   readonly mediaType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#member_withdrawal_behavior ObjectSwitchcontrollerManagedswitch#member_withdrawal_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#member_withdrawal_behavior ObjectSwitchcontrollerManagedswitch#member_withdrawal_behavior}
   */
   readonly memberWithdrawalBehavior?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#members ObjectSwitchcontrollerManagedswitch#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#members ObjectSwitchcontrollerManagedswitch#members}
   */
   readonly members?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#min_bundle ObjectSwitchcontrollerManagedswitch#min_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#min_bundle ObjectSwitchcontrollerManagedswitch#min_bundle}
   */
   readonly minBundle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#mode ObjectSwitchcontrollerManagedswitch#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#mode ObjectSwitchcontrollerManagedswitch#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#p2p_port ObjectSwitchcontrollerManagedswitch#p2p_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#p2p_port ObjectSwitchcontrollerManagedswitch#p2p_port}
   */
   readonly p2PPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#packet_sample_rate ObjectSwitchcontrollerManagedswitch#packet_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#packet_sample_rate ObjectSwitchcontrollerManagedswitch#packet_sample_rate}
   */
   readonly packetSampleRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#packet_sampler ObjectSwitchcontrollerManagedswitch#packet_sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#packet_sampler ObjectSwitchcontrollerManagedswitch#packet_sampler}
   */
   readonly packetSampler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#pause_meter ObjectSwitchcontrollerManagedswitch#pause_meter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#pause_meter ObjectSwitchcontrollerManagedswitch#pause_meter}
   */
   readonly pauseMeter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#pause_meter_resume ObjectSwitchcontrollerManagedswitch#pause_meter_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#pause_meter_resume ObjectSwitchcontrollerManagedswitch#pause_meter_resume}
   */
   readonly pauseMeterResume?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_max_power ObjectSwitchcontrollerManagedswitch#poe_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_max_power ObjectSwitchcontrollerManagedswitch#poe_max_power}
   */
   readonly poeMaxPower?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_mode_bt_cabable ObjectSwitchcontrollerManagedswitch#poe_mode_bt_cabable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_mode_bt_cabable ObjectSwitchcontrollerManagedswitch#poe_mode_bt_cabable}
   */
   readonly poeModeBtCabable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_port_mode ObjectSwitchcontrollerManagedswitch#poe_port_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_port_mode ObjectSwitchcontrollerManagedswitch#poe_port_mode}
   */
   readonly poePortMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_port_power ObjectSwitchcontrollerManagedswitch#poe_port_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_port_power ObjectSwitchcontrollerManagedswitch#poe_port_power}
   */
   readonly poePortPower?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_port_priority ObjectSwitchcontrollerManagedswitch#poe_port_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_port_priority ObjectSwitchcontrollerManagedswitch#poe_port_priority}
   */
   readonly poePortPriority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_pre_standard_detection ObjectSwitchcontrollerManagedswitch#poe_pre_standard_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_pre_standard_detection ObjectSwitchcontrollerManagedswitch#poe_pre_standard_detection}
   */
   readonly poePreStandardDetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_standard ObjectSwitchcontrollerManagedswitch#poe_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_standard ObjectSwitchcontrollerManagedswitch#poe_standard}
   */
   readonly poeStandard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#poe_status ObjectSwitchcontrollerManagedswitch#poe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#poe_status ObjectSwitchcontrollerManagedswitch#poe_status}
   */
   readonly poeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port_name ObjectSwitchcontrollerManagedswitch#port_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port_name ObjectSwitchcontrollerManagedswitch#port_name}
   */
   readonly portName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port_owner ObjectSwitchcontrollerManagedswitch#port_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port_owner ObjectSwitchcontrollerManagedswitch#port_owner}
   */
   readonly portOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port_policy ObjectSwitchcontrollerManagedswitch#port_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port_policy ObjectSwitchcontrollerManagedswitch#port_policy}
   */
   readonly portPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port_security_policy ObjectSwitchcontrollerManagedswitch#port_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port_security_policy ObjectSwitchcontrollerManagedswitch#port_security_policy}
   */
   readonly portSecurityPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#port_selection_criteria ObjectSwitchcontrollerManagedswitch#port_selection_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#port_selection_criteria ObjectSwitchcontrollerManagedswitch#port_selection_criteria}
   */
   readonly portSelectionCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#ptp_status ObjectSwitchcontrollerManagedswitch#ptp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#ptp_status ObjectSwitchcontrollerManagedswitch#ptp_status}
   */
   readonly ptpStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#qos_policy ObjectSwitchcontrollerManagedswitch#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#qos_policy ObjectSwitchcontrollerManagedswitch#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#restricted_auth_port ObjectSwitchcontrollerManagedswitch#restricted_auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#restricted_auth_port ObjectSwitchcontrollerManagedswitch#restricted_auth_port}
   */
   readonly restrictedAuthPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#rpvst_port ObjectSwitchcontrollerManagedswitch#rpvst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#rpvst_port ObjectSwitchcontrollerManagedswitch#rpvst_port}
   */
   readonly rpvstPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#sample_direction ObjectSwitchcontrollerManagedswitch#sample_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#sample_direction ObjectSwitchcontrollerManagedswitch#sample_direction}
   */
   readonly sampleDirection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#sflow_counter_interval ObjectSwitchcontrollerManagedswitch#sflow_counter_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#sflow_counter_interval ObjectSwitchcontrollerManagedswitch#sflow_counter_interval}
   */
   readonly sflowCounterInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#sflow_sample_rate ObjectSwitchcontrollerManagedswitch#sflow_sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#sflow_sample_rate ObjectSwitchcontrollerManagedswitch#sflow_sample_rate}
   */
   readonly sflowSampleRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#sflow_sampler ObjectSwitchcontrollerManagedswitch#sflow_sampler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#sflow_sampler ObjectSwitchcontrollerManagedswitch#sflow_sampler}
   */
   readonly sflowSampler?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#status ObjectSwitchcontrollerManagedswitch#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#status ObjectSwitchcontrollerManagedswitch#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#sticky_mac ObjectSwitchcontrollerManagedswitch#sticky_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#sticky_mac ObjectSwitchcontrollerManagedswitch#sticky_mac}
   */
   readonly stickyMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#stp_bpdu_guard ObjectSwitchcontrollerManagedswitch#stp_bpdu_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#stp_bpdu_guard ObjectSwitchcontrollerManagedswitch#stp_bpdu_guard}
   */
   readonly stpBpduGuard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#stp_bpdu_guard_timeout ObjectSwitchcontrollerManagedswitch#stp_bpdu_guard_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#stp_bpdu_guard_timeout ObjectSwitchcontrollerManagedswitch#stp_bpdu_guard_timeout}
   */
   readonly stpBpduGuardTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#stp_root_guard ObjectSwitchcontrollerManagedswitch#stp_root_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#stp_root_guard ObjectSwitchcontrollerManagedswitch#stp_root_guard}
   */
   readonly stpRootGuard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#stp_state ObjectSwitchcontrollerManagedswitch#stp_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#stp_state ObjectSwitchcontrollerManagedswitch#stp_state}
   */
   readonly stpState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#trunk_member ObjectSwitchcontrollerManagedswitch#trunk_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#trunk_member ObjectSwitchcontrollerManagedswitch#trunk_member}
   */
   readonly trunkMember?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#type ObjectSwitchcontrollerManagedswitch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#type ObjectSwitchcontrollerManagedswitch#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#untagged_vlans ObjectSwitchcontrollerManagedswitch#untagged_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#untagged_vlans ObjectSwitchcontrollerManagedswitch#untagged_vlans}
   */
   readonly untaggedVlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan ObjectSwitchcontrollerManagedswitch#vlan}
   */
   readonly vlan?: string;
   /**
   * dhcp_snoop_option82_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snoop_option82_override ObjectSwitchcontrollerManagedswitch#dhcp_snoop_option82_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#dhcp_snoop_option82_override ObjectSwitchcontrollerManagedswitch#dhcp_snoop_option82_override}
   */
   readonly dhcpSnoopOption82Override?: ObjectSwitchcontrollerManagedswitchPortsDhcpSnoopOption82Override[] | cdktf.IResolvable;
 }
@@ -3640,11 +3640,11 @@ export class ObjectSwitchcontrollerManagedswitchPortsList extends cdktf.ComplexL
 }
 export interface ObjectSwitchcontrollerManagedswitchRouteOffloadRouter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#router_ip ObjectSwitchcontrollerManagedswitch#router_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#router_ip ObjectSwitchcontrollerManagedswitch#router_ip}
   */
   readonly routerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -3789,11 +3789,11 @@ export class ObjectSwitchcontrollerManagedswitchRouteOffloadRouterList extends c
 }
 export interface ObjectSwitchcontrollerManagedswitchVlan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#assignment_priority ObjectSwitchcontrollerManagedswitch#assignment_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#assignment_priority ObjectSwitchcontrollerManagedswitch#assignment_priority}
   */
   readonly assignmentPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#vlan_name ObjectSwitchcontrollerManagedswitch#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -3938,7 +3938,7 @@ export class ObjectSwitchcontrollerManagedswitchVlanList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch fortimanager_object_switchcontroller_managedswitch}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch fortimanager_object_switchcontroller_managedswitch}
 */
 export class ObjectSwitchcontrollerManagedswitch extends cdktf.TerraformResource {
 
@@ -3954,7 +3954,7 @@ export class ObjectSwitchcontrollerManagedswitch extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectSwitchcontrollerManagedswitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerManagedswitch to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerManagedswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerManagedswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerManagedswitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3966,7 +3966,7 @@ export class ObjectSwitchcontrollerManagedswitch extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch fortimanager_object_switchcontroller_managedswitch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch fortimanager_object_switchcontroller_managedswitch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3977,8 +3977,8 @@ export class ObjectSwitchcontrollerManagedswitch extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_switchcontroller_managedswitch',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

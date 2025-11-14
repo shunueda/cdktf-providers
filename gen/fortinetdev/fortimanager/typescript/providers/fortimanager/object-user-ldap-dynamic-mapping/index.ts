@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,238 +8,242 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserLdapDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_cert_field ObjectUserLdapDynamicMappingA#account_key_cert_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_cert_field ObjectUserLdapDynamicMappingA#account_key_cert_field}
   */
   readonly accountKeyCertField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_filter ObjectUserLdapDynamicMappingA#account_key_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_filter ObjectUserLdapDynamicMappingA#account_key_filter}
   */
   readonly accountKeyFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_name ObjectUserLdapDynamicMappingA#account_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_name ObjectUserLdapDynamicMappingA#account_key_name}
   */
   readonly accountKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_processing ObjectUserLdapDynamicMappingA#account_key_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_processing ObjectUserLdapDynamicMappingA#account_key_processing}
   */
   readonly accountKeyProcessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_upn_san ObjectUserLdapDynamicMappingA#account_key_upn_san}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#account_key_upn_san ObjectUserLdapDynamicMappingA#account_key_upn_san}
   */
   readonly accountKeyUpnSan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#adom ObjectUserLdapDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#adom ObjectUserLdapDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#antiphish ObjectUserLdapDynamicMappingA#antiphish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#antiphish ObjectUserLdapDynamicMappingA#antiphish}
   */
   readonly antiphish?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#ca_cert ObjectUserLdapDynamicMappingA#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#ca_cert ObjectUserLdapDynamicMappingA#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#client_cert ObjectUserLdapDynamicMappingA#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#client_cert ObjectUserLdapDynamicMappingA#client_cert}
   */
   readonly clientCert?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#client_cert_auth ObjectUserLdapDynamicMappingA#client_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#client_cert_auth ObjectUserLdapDynamicMappingA#client_cert_auth}
   */
   readonly clientCertAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#cnid ObjectUserLdapDynamicMappingA#cnid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#cnid ObjectUserLdapDynamicMappingA#cnid}
   */
   readonly cnid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#dn ObjectUserLdapDynamicMappingA#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#dn ObjectUserLdapDynamicMappingA#dn}
   */
   readonly dn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#dynamic_sort_subtable ObjectUserLdapDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#dynamic_sort_subtable ObjectUserLdapDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#filter ObjectUserLdapDynamicMappingA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#filter ObjectUserLdapDynamicMappingA#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group ObjectUserLdapDynamicMappingA#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group ObjectUserLdapDynamicMappingA#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group_filter ObjectUserLdapDynamicMappingA#group_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group_filter ObjectUserLdapDynamicMappingA#group_filter}
   */
   readonly groupFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group_member_check ObjectUserLdapDynamicMappingA#group_member_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group_member_check ObjectUserLdapDynamicMappingA#group_member_check}
   */
   readonly groupMemberCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group_object_filter ObjectUserLdapDynamicMappingA#group_object_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group_object_filter ObjectUserLdapDynamicMappingA#group_object_filter}
   */
   readonly groupObjectFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group_object_search_base ObjectUserLdapDynamicMappingA#group_object_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group_object_search_base ObjectUserLdapDynamicMappingA#group_object_search_base}
   */
   readonly groupObjectSearchBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#group_search_base ObjectUserLdapDynamicMappingA#group_search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#group_search_base ObjectUserLdapDynamicMappingA#group_search_base}
   */
   readonly groupSearchBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#id ObjectUserLdapDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#id ObjectUserLdapDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#interface ObjectUserLdapDynamicMappingA#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#interface ObjectUserLdapDynamicMappingA#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#interface_select_method ObjectUserLdapDynamicMappingA#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#interface_select_method ObjectUserLdapDynamicMappingA#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#ldap ObjectUserLdapDynamicMappingA#ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#ldap ObjectUserLdapDynamicMappingA#ldap}
   */
   readonly ldap: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#max_connections ObjectUserLdapDynamicMappingA#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#max_connections ObjectUserLdapDynamicMappingA#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#member_attr ObjectUserLdapDynamicMappingA#member_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#member_attr ObjectUserLdapDynamicMappingA#member_attr}
   */
   readonly memberAttr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#obtain_user_info ObjectUserLdapDynamicMappingA#obtain_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#obtain_user_info ObjectUserLdapDynamicMappingA#obtain_user_info}
   */
   readonly obtainUserInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#password ObjectUserLdapDynamicMappingA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#password ObjectUserLdapDynamicMappingA#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#password_attr ObjectUserLdapDynamicMappingA#password_attr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#password_attr ObjectUserLdapDynamicMappingA#password_attr}
   */
   readonly passwordAttr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#password_expiry_warning ObjectUserLdapDynamicMappingA#password_expiry_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#password_expiry_warning ObjectUserLdapDynamicMappingA#password_expiry_warning}
   */
   readonly passwordExpiryWarning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#password_renewal ObjectUserLdapDynamicMappingA#password_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#password_renewal ObjectUserLdapDynamicMappingA#password_renewal}
   */
   readonly passwordRenewal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#port ObjectUserLdapDynamicMappingA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#port ObjectUserLdapDynamicMappingA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#retrieve_protection_profile ObjectUserLdapDynamicMappingA#retrieve_protection_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#retrieve_protection_profile ObjectUserLdapDynamicMappingA#retrieve_protection_profile}
   */
   readonly retrieveProtectionProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#scopetype ObjectUserLdapDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#scopetype ObjectUserLdapDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#search_type ObjectUserLdapDynamicMappingA#search_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#search_type ObjectUserLdapDynamicMappingA#search_type}
   */
   readonly searchType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#secondary_server ObjectUserLdapDynamicMappingA#secondary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#secondary_server ObjectUserLdapDynamicMappingA#secondary_server}
   */
   readonly secondaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#secure ObjectUserLdapDynamicMappingA#secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#secure ObjectUserLdapDynamicMappingA#secure}
   */
   readonly secure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#server ObjectUserLdapDynamicMappingA#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#server ObjectUserLdapDynamicMappingA#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#server_identity_check ObjectUserLdapDynamicMappingA#server_identity_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#server_identity_check ObjectUserLdapDynamicMappingA#server_identity_check}
   */
   readonly serverIdentityCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#source_ip ObjectUserLdapDynamicMappingA#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#source_ip ObjectUserLdapDynamicMappingA#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#source_ip_interface ObjectUserLdapDynamicMappingA#source_ip_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#source_ip_interface ObjectUserLdapDynamicMappingA#source_ip_interface}
   */
   readonly sourceIpInterface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#source_port ObjectUserLdapDynamicMappingA#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#source_port ObjectUserLdapDynamicMappingA#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#ssl_max_proto_version ObjectUserLdapDynamicMappingA#ssl_max_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#ssl_max_proto_version ObjectUserLdapDynamicMappingA#ssl_max_proto_version}
   */
   readonly sslMaxProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#ssl_min_proto_version ObjectUserLdapDynamicMappingA#ssl_min_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#ssl_min_proto_version ObjectUserLdapDynamicMappingA#ssl_min_proto_version}
   */
   readonly sslMinProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#status_ttl ObjectUserLdapDynamicMappingA#status_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#status_ttl ObjectUserLdapDynamicMappingA#status_ttl}
   */
   readonly statusTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#tertiary_server ObjectUserLdapDynamicMappingA#tertiary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#tertiary_server ObjectUserLdapDynamicMappingA#tertiary_server}
   */
   readonly tertiaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor ObjectUserLdapDynamicMappingA#two_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor ObjectUserLdapDynamicMappingA#two_factor}
   */
   readonly twoFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_authentication ObjectUserLdapDynamicMappingA#two_factor_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_authentication ObjectUserLdapDynamicMappingA#two_factor_authentication}
   */
   readonly twoFactorAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_filter ObjectUserLdapDynamicMappingA#two_factor_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_filter ObjectUserLdapDynamicMappingA#two_factor_filter}
   */
   readonly twoFactorFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_notification ObjectUserLdapDynamicMappingA#two_factor_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#two_factor_notification ObjectUserLdapDynamicMappingA#two_factor_notification}
   */
   readonly twoFactorNotification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#type ObjectUserLdapDynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#type ObjectUserLdapDynamicMappingA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#user_info_exchange_server ObjectUserLdapDynamicMappingA#user_info_exchange_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#user_info_exchange_server ObjectUserLdapDynamicMappingA#user_info_exchange_server}
   */
   readonly userInfoExchangeServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#username ObjectUserLdapDynamicMappingA#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#username ObjectUserLdapDynamicMappingA#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#vrf_select ObjectUserLdapDynamicMappingA#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#validate_server_certificate ObjectUserLdapDynamicMappingA#validate_server_certificate}
+  */
+  readonly validateServerCertificate?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#vrf_select ObjectUserLdapDynamicMappingA#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#_scope ObjectUserLdapDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#_scope ObjectUserLdapDynamicMappingA#_scope}
   */
   readonly scope?: ObjectUserLdapDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectUserLdapDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#name ObjectUserLdapDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#name ObjectUserLdapDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#vdom ObjectUserLdapDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#vdom ObjectUserLdapDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -384,7 +388,7 @@ export class ObjectUserLdapDynamicMappingScopeAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping fortimanager_object_user_ldap_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping fortimanager_object_user_ldap_dynamic_mapping}
 */
 export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
 
@@ -400,7 +404,7 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserLdapDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserLdapDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectUserLdapDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserLdapDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserLdapDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -412,7 +416,7 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_ldap_dynamic_mapping fortimanager_object_user_ldap_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_ldap_dynamic_mapping fortimanager_object_user_ldap_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -423,8 +427,8 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_ldap_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -487,6 +491,7 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
     this._type = config.type;
     this._userInfoExchangeServer = config.userInfoExchangeServer;
     this._username = config.username;
+    this._validateServerCertificate = config.validateServerCertificate;
     this._vrfSelect = config.vrfSelect;
     this._scope.internalValue = config.scope;
   }
@@ -1340,6 +1345,22 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
     return this._username;
   }
 
+  // validate_server_certificate - computed: false, optional: true, required: false
+  private _validateServerCertificate?: string; 
+  public get validateServerCertificate() {
+    return this.getStringAttribute('validate_server_certificate');
+  }
+  public set validateServerCertificate(value: string) {
+    this._validateServerCertificate = value;
+  }
+  public resetValidateServerCertificate() {
+    this._validateServerCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateServerCertificateInput() {
+    return this._validateServerCertificate;
+  }
+
   // vrf_select - computed: false, optional: true, required: false
   private _vrfSelect?: number; 
   public get vrfSelect() {
@@ -1431,6 +1452,7 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
       type: cdktf.stringToTerraform(this._type),
       user_info_exchange_server: cdktf.stringToTerraform(this._userInfoExchangeServer),
       username: cdktf.stringToTerraform(this._username),
+      validate_server_certificate: cdktf.stringToTerraform(this._validateServerCertificate),
       vrf_select: cdktf.numberToTerraform(this._vrfSelect),
       _scope: cdktf.listMapper(objectUserLdapDynamicMappingScopeAToTerraform, true)(this._scope.internalValue),
     };
@@ -1752,6 +1774,12 @@ export class ObjectUserLdapDynamicMappingA extends cdktf.TerraformResource {
       },
       username: {
         value: cdktf.stringToHclTerraform(this._username),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_server_certificate: {
+        value: cdktf.stringToHclTerraform(this._validateServerCertificate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

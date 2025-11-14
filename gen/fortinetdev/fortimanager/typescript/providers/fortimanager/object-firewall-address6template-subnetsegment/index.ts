@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAddress6TemplateSubnetsegmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#address6_template ObjectFirewallAddress6TemplateSubnetsegment#address6_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#address6_template ObjectFirewallAddress6TemplateSubnetsegment#address6_template}
   */
   readonly address6Template: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#adom ObjectFirewallAddress6TemplateSubnetsegment#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#adom ObjectFirewallAddress6TemplateSubnetsegment#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#bits ObjectFirewallAddress6TemplateSubnetsegment#bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#bits ObjectFirewallAddress6TemplateSubnetsegment#bits}
   */
   readonly bits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#dynamic_sort_subtable ObjectFirewallAddress6TemplateSubnetsegment#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#dynamic_sort_subtable ObjectFirewallAddress6TemplateSubnetsegment#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#exclusive ObjectFirewallAddress6TemplateSubnetsegment#exclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#exclusive ObjectFirewallAddress6TemplateSubnetsegment#exclusive}
   */
   readonly exclusive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#fosid ObjectFirewallAddress6TemplateSubnetsegment#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#fosid ObjectFirewallAddress6TemplateSubnetsegment#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#id ObjectFirewallAddress6TemplateSubnetsegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#id ObjectFirewallAddress6TemplateSubnetsegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#name ObjectFirewallAddress6TemplateSubnetsegment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#name ObjectFirewallAddress6TemplateSubnetsegment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#scopetype ObjectFirewallAddress6TemplateSubnetsegment#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#scopetype ObjectFirewallAddress6TemplateSubnetsegment#scopetype}
   */
   readonly scopetype?: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#values ObjectFirewallAddress6TemplateSubnetsegment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#values ObjectFirewallAddress6TemplateSubnetsegment#values}
   */
   readonly values?: ObjectFirewallAddress6TemplateSubnetsegmentValues[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAddress6TemplateSubnetsegmentValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#name ObjectFirewallAddress6TemplateSubnetsegment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#name ObjectFirewallAddress6TemplateSubnetsegment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#value ObjectFirewallAddress6TemplateSubnetsegment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#value ObjectFirewallAddress6TemplateSubnetsegment#value}
   */
   readonly value?: string;
 }
@@ -204,7 +204,7 @@ export class ObjectFirewallAddress6TemplateSubnetsegmentValuesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment fortimanager_object_firewall_address6template_subnetsegment}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment fortimanager_object_firewall_address6template_subnetsegment}
 */
 export class ObjectFirewallAddress6TemplateSubnetsegment extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class ObjectFirewallAddress6TemplateSubnetsegment extends cdktf.Terraform
   * Generates CDKTF code for importing a ObjectFirewallAddress6TemplateSubnetsegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAddress6TemplateSubnetsegment to import
-  * @param importFromId The id of the existing ObjectFirewallAddress6TemplateSubnetsegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAddress6TemplateSubnetsegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAddress6TemplateSubnetsegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class ObjectFirewallAddress6TemplateSubnetsegment extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_address6template_subnetsegment fortimanager_object_firewall_address6template_subnetsegment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_address6template_subnetsegment fortimanager_object_firewall_address6template_subnetsegment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class ObjectFirewallAddress6TemplateSubnetsegment extends cdktf.Terraform
       terraformResourceType: 'fortimanager_object_firewall_address6template_subnetsegment',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

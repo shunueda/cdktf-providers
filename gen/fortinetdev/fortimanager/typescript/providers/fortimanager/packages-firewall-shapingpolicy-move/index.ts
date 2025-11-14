@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallShapingpolicyMoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#adom PackagesFirewallShapingpolicyMove#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#adom PackagesFirewallShapingpolicyMove#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#id PackagesFirewallShapingpolicyMove#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#id PackagesFirewallShapingpolicyMove#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#option PackagesFirewallShapingpolicyMove#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#option PackagesFirewallShapingpolicyMove#option}
   */
   readonly option: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#pkg PackagesFirewallShapingpolicyMove#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#pkg PackagesFirewallShapingpolicyMove#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#pkg_folder_path PackagesFirewallShapingpolicyMove#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#pkg_folder_path PackagesFirewallShapingpolicyMove#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#scopetype PackagesFirewallShapingpolicyMove#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#scopetype PackagesFirewallShapingpolicyMove#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#shaping_policy PackagesFirewallShapingpolicyMove#shaping_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#shaping_policy PackagesFirewallShapingpolicyMove#shaping_policy}
   */
   readonly shapingPolicy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#state_pos PackagesFirewallShapingpolicyMove#state_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#state_pos PackagesFirewallShapingpolicyMove#state_pos}
   */
   readonly statePos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#target PackagesFirewallShapingpolicyMove#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#target PackagesFirewallShapingpolicyMove#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move fortimanager_packages_firewall_shapingpolicy_move}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move fortimanager_packages_firewall_shapingpolicy_move}
 */
 export class PackagesFirewallShapingpolicyMove extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class PackagesFirewallShapingpolicyMove extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallShapingpolicyMove resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallShapingpolicyMove to import
-  * @param importFromId The id of the existing PackagesFirewallShapingpolicyMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallShapingpolicyMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallShapingpolicyMove to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class PackagesFirewallShapingpolicyMove extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_shapingpolicy_move fortimanager_packages_firewall_shapingpolicy_move} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_shapingpolicy_move fortimanager_packages_firewall_shapingpolicy_move} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class PackagesFirewallShapingpolicyMove extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_shapingpolicy_move',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

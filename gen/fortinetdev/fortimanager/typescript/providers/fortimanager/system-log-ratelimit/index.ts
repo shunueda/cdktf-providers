@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,59 +8,59 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogRatelimitConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#device_ratelimit_default SystemLogRatelimit#device_ratelimit_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#device_ratelimit_default SystemLogRatelimit#device_ratelimit_default}
   */
   readonly deviceRatelimitDefault?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#dynamic_sort_subtable SystemLogRatelimit#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#dynamic_sort_subtable SystemLogRatelimit#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#mode SystemLogRatelimit#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#mode SystemLogRatelimit#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#system_ratelimit SystemLogRatelimit#system_ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#system_ratelimit SystemLogRatelimit#system_ratelimit}
   */
   readonly systemRatelimit?: number;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#device SystemLogRatelimit#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#device SystemLogRatelimit#device}
   */
   readonly device?: SystemLogRatelimitDevice[] | cdktf.IResolvable;
   /**
   * ratelimits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#ratelimits SystemLogRatelimit#ratelimits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#ratelimits SystemLogRatelimit#ratelimits}
   */
   readonly ratelimits?: SystemLogRatelimitRatelimits[] | cdktf.IResolvable;
 }
 export interface SystemLogRatelimitDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#device SystemLogRatelimit#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#device SystemLogRatelimit#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#filter_type SystemLogRatelimit#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#filter_type SystemLogRatelimit#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#ratelimit SystemLogRatelimit#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#ratelimit SystemLogRatelimit#ratelimit}
   */
   readonly ratelimit?: number;
 }
@@ -263,22 +263,22 @@ export class SystemLogRatelimitDeviceList extends cdktf.ComplexList {
 }
 export interface SystemLogRatelimitRatelimits {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#filter SystemLogRatelimit#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#filter SystemLogRatelimit#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#filter_type SystemLogRatelimit#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#filter_type SystemLogRatelimit#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#id SystemLogRatelimit#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#ratelimit SystemLogRatelimit#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#ratelimit SystemLogRatelimit#ratelimit}
   */
   readonly ratelimit?: number;
 }
@@ -481,7 +481,7 @@ export class SystemLogRatelimitRatelimitsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit fortimanager_system_log_ratelimit}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit fortimanager_system_log_ratelimit}
 */
 export class SystemLogRatelimit extends cdktf.TerraformResource {
 
@@ -497,7 +497,7 @@ export class SystemLogRatelimit extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogRatelimit resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogRatelimit to import
-  * @param importFromId The id of the existing SystemLogRatelimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogRatelimit that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogRatelimit to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -509,7 +509,7 @@ export class SystemLogRatelimit extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit fortimanager_system_log_ratelimit} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit fortimanager_system_log_ratelimit} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -520,8 +520,8 @@ export class SystemLogRatelimit extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_log_ratelimit',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

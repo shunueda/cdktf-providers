@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallIdentitybasedrouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#adom ObjectFirewallIdentitybasedroute#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#adom ObjectFirewallIdentitybasedroute#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#comments ObjectFirewallIdentitybasedroute#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#comments ObjectFirewallIdentitybasedroute#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#dynamic_sort_subtable ObjectFirewallIdentitybasedroute#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#dynamic_sort_subtable ObjectFirewallIdentitybasedroute#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#id ObjectFirewallIdentitybasedroute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#id ObjectFirewallIdentitybasedroute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#name ObjectFirewallIdentitybasedroute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#name ObjectFirewallIdentitybasedroute#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#scopetype ObjectFirewallIdentitybasedroute#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#scopetype ObjectFirewallIdentitybasedroute#scopetype}
   */
   readonly scopetype?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#rule ObjectFirewallIdentitybasedroute#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#rule ObjectFirewallIdentitybasedroute#rule}
   */
   readonly rule?: ObjectFirewallIdentitybasedrouteRule[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallIdentitybasedrouteRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#device ObjectFirewallIdentitybasedroute#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#device ObjectFirewallIdentitybasedroute#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#gateway ObjectFirewallIdentitybasedroute#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#gateway ObjectFirewallIdentitybasedroute#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#groups ObjectFirewallIdentitybasedroute#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#groups ObjectFirewallIdentitybasedroute#groups}
   */
   readonly groups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#id ObjectFirewallIdentitybasedroute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#id ObjectFirewallIdentitybasedroute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -261,7 +261,7 @@ export class ObjectFirewallIdentitybasedrouteRuleList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute fortimanager_object_firewall_identitybasedroute}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute fortimanager_object_firewall_identitybasedroute}
 */
 export class ObjectFirewallIdentitybasedroute extends cdktf.TerraformResource {
 
@@ -277,7 +277,7 @@ export class ObjectFirewallIdentitybasedroute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallIdentitybasedroute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallIdentitybasedroute to import
-  * @param importFromId The id of the existing ObjectFirewallIdentitybasedroute that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallIdentitybasedroute that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallIdentitybasedroute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -289,7 +289,7 @@ export class ObjectFirewallIdentitybasedroute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_identitybasedroute fortimanager_object_firewall_identitybasedroute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_identitybasedroute fortimanager_object_firewall_identitybasedroute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -300,8 +300,8 @@ export class ObjectFirewallIdentitybasedroute extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_identitybasedroute',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

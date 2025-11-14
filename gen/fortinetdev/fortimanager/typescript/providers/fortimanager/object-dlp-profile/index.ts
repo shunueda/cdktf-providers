@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,129 +8,133 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDlpProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#adom ObjectDlpProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#adom ObjectDlpProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#comment ObjectDlpProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#comment ObjectDlpProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#dlp_log ObjectDlpProfile#dlp_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#dlp_log ObjectDlpProfile#dlp_log}
   */
   readonly dlpLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#dynamic_sort_subtable ObjectDlpProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#dynamic_sort_subtable ObjectDlpProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#extended_log ObjectDlpProfile#extended_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#extended_log ObjectDlpProfile#extended_log}
   */
   readonly extendedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#feature_set ObjectDlpProfile#feature_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#feature_set ObjectDlpProfile#feature_set}
   */
   readonly featureSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#full_archive_proto ObjectDlpProfile#full_archive_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#fortidata_error_action ObjectDlpProfile#fortidata_error_action}
+  */
+  readonly fortidataErrorAction?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#full_archive_proto ObjectDlpProfile#full_archive_proto}
   */
   readonly fullArchiveProto?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#id ObjectDlpProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#id ObjectDlpProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#nac_quar_log ObjectDlpProfile#nac_quar_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#nac_quar_log ObjectDlpProfile#nac_quar_log}
   */
   readonly nacQuarLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#name ObjectDlpProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#name ObjectDlpProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#replacemsg_group ObjectDlpProfile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#replacemsg_group ObjectDlpProfile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#scopetype ObjectDlpProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#scopetype ObjectDlpProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#summary_proto ObjectDlpProfile#summary_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#summary_proto ObjectDlpProfile#summary_proto}
   */
   readonly summaryProto?: string[];
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#rule ObjectDlpProfile#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#rule ObjectDlpProfile#rule}
   */
   readonly rule?: ObjectDlpProfileRule[] | cdktf.IResolvable;
 }
 export interface ObjectDlpProfileRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#action ObjectDlpProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#action ObjectDlpProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#archive ObjectDlpProfile#archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#archive ObjectDlpProfile#archive}
   */
   readonly archive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#expiry ObjectDlpProfile#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#expiry ObjectDlpProfile#expiry}
   */
   readonly expiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#file_size ObjectDlpProfile#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#file_size ObjectDlpProfile#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#file_type ObjectDlpProfile#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#file_type ObjectDlpProfile#file_type}
   */
   readonly fileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#filter_by ObjectDlpProfile#filter_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#filter_by ObjectDlpProfile#filter_by}
   */
   readonly filterBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#id ObjectDlpProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#id ObjectDlpProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#label ObjectDlpProfile#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#label ObjectDlpProfile#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#match_percentage ObjectDlpProfile#match_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#match_percentage ObjectDlpProfile#match_percentage}
   */
   readonly matchPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#name ObjectDlpProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#name ObjectDlpProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#proto ObjectDlpProfile#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#proto ObjectDlpProfile#proto}
   */
   readonly proto?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#sensitivity ObjectDlpProfile#sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#sensitivity ObjectDlpProfile#sensitivity}
   */
   readonly sensitivity?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#sensor ObjectDlpProfile#sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#sensor ObjectDlpProfile#sensor}
   */
   readonly sensor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#severity ObjectDlpProfile#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#severity ObjectDlpProfile#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#type ObjectDlpProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#type ObjectDlpProfile#type}
   */
   readonly type?: string;
 }
@@ -652,7 +656,7 @@ export class ObjectDlpProfileRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile fortimanager_object_dlp_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile fortimanager_object_dlp_profile}
 */
 export class ObjectDlpProfile extends cdktf.TerraformResource {
 
@@ -668,7 +672,7 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectDlpProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDlpProfile to import
-  * @param importFromId The id of the existing ObjectDlpProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDlpProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDlpProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -680,7 +684,7 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dlp_profile fortimanager_object_dlp_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dlp_profile fortimanager_object_dlp_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -691,8 +695,8 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_dlp_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -708,6 +712,7 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
     this._dynamicSortSubtable = config.dynamicSortSubtable;
     this._extendedLog = config.extendedLog;
     this._featureSet = config.featureSet;
+    this._fortidataErrorAction = config.fortidataErrorAction;
     this._fullArchiveProto = config.fullArchiveProto;
     this._id = config.id;
     this._nacQuarLog = config.nacQuarLog;
@@ -816,6 +821,22 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get featureSetInput() {
     return this._featureSet;
+  }
+
+  // fortidata_error_action - computed: false, optional: true, required: false
+  private _fortidataErrorAction?: string; 
+  public get fortidataErrorAction() {
+    return this.getStringAttribute('fortidata_error_action');
+  }
+  public set fortidataErrorAction(value: string) {
+    this._fortidataErrorAction = value;
+  }
+  public resetFortidataErrorAction() {
+    this._fortidataErrorAction = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fortidataErrorActionInput() {
+    return this._fortidataErrorAction;
   }
 
   // full_archive_proto - computed: true, optional: true, required: false
@@ -958,6 +979,7 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
       dynamic_sort_subtable: cdktf.stringToTerraform(this._dynamicSortSubtable),
       extended_log: cdktf.stringToTerraform(this._extendedLog),
       feature_set: cdktf.stringToTerraform(this._featureSet),
+      fortidata_error_action: cdktf.stringToTerraform(this._fortidataErrorAction),
       full_archive_proto: cdktf.listMapper(cdktf.stringToTerraform, false)(this._fullArchiveProto),
       id: cdktf.stringToTerraform(this._id),
       nac_quar_log: cdktf.stringToTerraform(this._nacQuarLog),
@@ -1003,6 +1025,12 @@ export class ObjectDlpProfile extends cdktf.TerraformResource {
       },
       feature_set: {
         value: cdktf.stringToHclTerraform(this._featureSet),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      fortidata_error_action: {
+        value: cdktf.stringToHclTerraform(this._fortidataErrorAction),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

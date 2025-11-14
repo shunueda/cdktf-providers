@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanInterfaceVrrpProxyarpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#adom ObjectFspVlanInterfaceVrrpProxyarp#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#adom ObjectFspVlanInterfaceVrrpProxyarp#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#fosid ObjectFspVlanInterfaceVrrpProxyarp#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#fosid ObjectFspVlanInterfaceVrrpProxyarp#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#id ObjectFspVlanInterfaceVrrpProxyarp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#id ObjectFspVlanInterfaceVrrpProxyarp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#ip ObjectFspVlanInterfaceVrrpProxyarp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#ip ObjectFspVlanInterfaceVrrpProxyarp#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#scopetype ObjectFspVlanInterfaceVrrpProxyarp#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#scopetype ObjectFspVlanInterfaceVrrpProxyarp#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#vlan ObjectFspVlanInterfaceVrrpProxyarp#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#vlan ObjectFspVlanInterfaceVrrpProxyarp#vlan}
   */
   readonly vlan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#vrrp ObjectFspVlanInterfaceVrrpProxyarp#vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#vrrp ObjectFspVlanInterfaceVrrpProxyarp#vrrp}
   */
   readonly vrrp: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp fortimanager_object_fsp_vlan_interface_vrrp_proxyarp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp fortimanager_object_fsp_vlan_interface_vrrp_proxyarp}
 */
 export class ObjectFspVlanInterfaceVrrpProxyarp extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectFspVlanInterfaceVrrpProxyarp extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectFspVlanInterfaceVrrpProxyarp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanInterfaceVrrpProxyarp to import
-  * @param importFromId The id of the existing ObjectFspVlanInterfaceVrrpProxyarp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanInterfaceVrrpProxyarp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanInterfaceVrrpProxyarp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectFspVlanInterfaceVrrpProxyarp extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp fortimanager_object_fsp_vlan_interface_vrrp_proxyarp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_vrrp_proxyarp fortimanager_object_fsp_vlan_interface_vrrp_proxyarp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectFspVlanInterfaceVrrpProxyarp extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_fsp_vlan_interface_vrrp_proxyarp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

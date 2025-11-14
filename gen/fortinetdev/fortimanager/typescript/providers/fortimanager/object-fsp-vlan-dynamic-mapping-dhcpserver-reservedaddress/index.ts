@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanDynamicMappingDhcpserverReservedaddressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#action ObjectFspVlanDynamicMappingDhcpserverReservedaddress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#action ObjectFspVlanDynamicMappingDhcpserverReservedaddress#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#adom ObjectFspVlanDynamicMappingDhcpserverReservedaddress#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#adom ObjectFspVlanDynamicMappingDhcpserverReservedaddress#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#circuit_id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#circuit_id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#circuit_id_type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#circuit_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#circuit_id_type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#circuit_id_type}
   */
   readonly circuitIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#description ObjectFspVlanDynamicMappingDhcpserverReservedaddress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#description ObjectFspVlanDynamicMappingDhcpserverReservedaddress#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#dynamic_mapping_name ObjectFspVlanDynamicMappingDhcpserverReservedaddress#dynamic_mapping_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#dynamic_mapping_name ObjectFspVlanDynamicMappingDhcpserverReservedaddress#dynamic_mapping_name}
   */
   readonly dynamicMappingName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#dynamic_mapping_vdom ObjectFspVlanDynamicMappingDhcpserverReservedaddress#dynamic_mapping_vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#dynamic_mapping_vdom ObjectFspVlanDynamicMappingDhcpserverReservedaddress#dynamic_mapping_vdom}
   */
   readonly dynamicMappingVdom: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#fosid ObjectFspVlanDynamicMappingDhcpserverReservedaddress#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#fosid ObjectFspVlanDynamicMappingDhcpserverReservedaddress#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#ip ObjectFspVlanDynamicMappingDhcpserverReservedaddress#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#ip ObjectFspVlanDynamicMappingDhcpserverReservedaddress#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#mac ObjectFspVlanDynamicMappingDhcpserverReservedaddress#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#mac ObjectFspVlanDynamicMappingDhcpserverReservedaddress#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#remote_id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#remote_id ObjectFspVlanDynamicMappingDhcpserverReservedaddress#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#remote_id_type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#remote_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#remote_id_type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#remote_id_type}
   */
   readonly remoteIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#scopetype ObjectFspVlanDynamicMappingDhcpserverReservedaddress#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#scopetype ObjectFspVlanDynamicMappingDhcpserverReservedaddress#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#type ObjectFspVlanDynamicMappingDhcpserverReservedaddress#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#vlan ObjectFspVlanDynamicMappingDhcpserverReservedaddress#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#vlan ObjectFspVlanDynamicMappingDhcpserverReservedaddress#vlan}
   */
   readonly vlan: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress fortimanager_object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress fortimanager_object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress}
 */
 export class ObjectFspVlanDynamicMappingDhcpserverReservedaddress extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ObjectFspVlanDynamicMappingDhcpserverReservedaddress extends cdktf.
   * Generates CDKTF code for importing a ObjectFspVlanDynamicMappingDhcpserverReservedaddress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanDynamicMappingDhcpserverReservedaddress to import
-  * @param importFromId The id of the existing ObjectFspVlanDynamicMappingDhcpserverReservedaddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanDynamicMappingDhcpserverReservedaddress that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanDynamicMappingDhcpserverReservedaddress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ObjectFspVlanDynamicMappingDhcpserverReservedaddress extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress fortimanager_object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress fortimanager_object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ObjectFspVlanDynamicMappingDhcpserverReservedaddress extends cdktf.
       terraformResourceType: 'fortimanager_object_fsp_vlan_dynamic_mapping_dhcpserver_reservedaddress',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

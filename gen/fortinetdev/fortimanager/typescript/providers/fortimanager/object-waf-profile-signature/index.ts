@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWafProfileSignatureAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#adom ObjectWafProfileSignatureA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#adom ObjectWafProfileSignatureA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#credit_card_detection_threshold ObjectWafProfileSignatureA#credit_card_detection_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#credit_card_detection_threshold ObjectWafProfileSignatureA#credit_card_detection_threshold}
   */
   readonly creditCardDetectionThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#disabled_signature ObjectWafProfileSignatureA#disabled_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#disabled_signature ObjectWafProfileSignatureA#disabled_signature}
   */
   readonly disabledSignature?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#disabled_sub_class ObjectWafProfileSignatureA#disabled_sub_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#disabled_sub_class ObjectWafProfileSignatureA#disabled_sub_class}
   */
   readonly disabledSubClass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#dynamic_sort_subtable ObjectWafProfileSignatureA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#dynamic_sort_subtable ObjectWafProfileSignatureA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#id ObjectWafProfileSignatureA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#id ObjectWafProfileSignatureA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#profile ObjectWafProfileSignatureA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#profile ObjectWafProfileSignatureA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#scopetype ObjectWafProfileSignatureA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#scopetype ObjectWafProfileSignatureA#scopetype}
   */
   readonly scopetype?: string;
   /**
   * custom_signature block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#custom_signature ObjectWafProfileSignatureA#custom_signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#custom_signature ObjectWafProfileSignatureA#custom_signature}
   */
   readonly customSignature?: ObjectWafProfileSignatureCustomSignatureA[] | cdktf.IResolvable;
   /**
   * main_class block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#main_class ObjectWafProfileSignatureA#main_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#main_class ObjectWafProfileSignatureA#main_class}
   */
   readonly mainClass?: ObjectWafProfileSignatureMainClassA;
 }
 export interface ObjectWafProfileSignatureCustomSignatureA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#action ObjectWafProfileSignatureA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#action ObjectWafProfileSignatureA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#case_sensitivity ObjectWafProfileSignatureA#case_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#case_sensitivity ObjectWafProfileSignatureA#case_sensitivity}
   */
   readonly caseSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#direction ObjectWafProfileSignatureA#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#direction ObjectWafProfileSignatureA#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#log ObjectWafProfileSignatureA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#log ObjectWafProfileSignatureA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#name ObjectWafProfileSignatureA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#name ObjectWafProfileSignatureA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#pattern ObjectWafProfileSignatureA#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#pattern ObjectWafProfileSignatureA#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#severity ObjectWafProfileSignatureA#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#severity ObjectWafProfileSignatureA#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#status ObjectWafProfileSignatureA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#status ObjectWafProfileSignatureA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#target ObjectWafProfileSignatureA#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#target ObjectWafProfileSignatureA#target}
   */
   readonly target?: string[];
 }
@@ -437,26 +437,26 @@ export class ObjectWafProfileSignatureCustomSignatureAList extends cdktf.Complex
 }
 export interface ObjectWafProfileSignatureMainClassA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#action ObjectWafProfileSignatureA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#action ObjectWafProfileSignatureA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#id ObjectWafProfileSignatureA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#id ObjectWafProfileSignatureA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#log ObjectWafProfileSignatureA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#log ObjectWafProfileSignatureA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#severity ObjectWafProfileSignatureA#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#severity ObjectWafProfileSignatureA#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#status ObjectWafProfileSignatureA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#status ObjectWafProfileSignatureA#status}
   */
   readonly status?: string;
 }
@@ -656,7 +656,7 @@ export class ObjectWafProfileSignatureMainClassAOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature fortimanager_object_waf_profile_signature}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature fortimanager_object_waf_profile_signature}
 */
 export class ObjectWafProfileSignatureA extends cdktf.TerraformResource {
 
@@ -672,7 +672,7 @@ export class ObjectWafProfileSignatureA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWafProfileSignatureA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWafProfileSignatureA to import
-  * @param importFromId The id of the existing ObjectWafProfileSignatureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWafProfileSignatureA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWafProfileSignatureA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -684,7 +684,7 @@ export class ObjectWafProfileSignatureA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_signature fortimanager_object_waf_profile_signature} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_signature fortimanager_object_waf_profile_signature} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -695,8 +695,8 @@ export class ObjectWafProfileSignatureA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_waf_profile_signature',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserSamlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#adfs_claim ObjectUserSaml#adfs_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#adfs_claim ObjectUserSaml#adfs_claim}
   */
   readonly adfsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#adom ObjectUserSaml#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#adom ObjectUserSaml#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#auth_url ObjectUserSaml#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#auth_url ObjectUserSaml#auth_url}
   */
   readonly authUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#cert ObjectUserSaml#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#cert ObjectUserSaml#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#clock_tolerance ObjectUserSaml#clock_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#clock_tolerance ObjectUserSaml#clock_tolerance}
   */
   readonly clockTolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#digest_method ObjectUserSaml#digest_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#digest_method ObjectUserSaml#digest_method}
   */
   readonly digestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#dynamic_sort_subtable ObjectUserSaml#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#dynamic_sort_subtable ObjectUserSaml#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#entity_id ObjectUserSaml#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#entity_id ObjectUserSaml#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#group_claim_type ObjectUserSaml#group_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#group_claim_type ObjectUserSaml#group_claim_type}
   */
   readonly groupClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#group_name ObjectUserSaml#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#group_name ObjectUserSaml#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#id ObjectUserSaml#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#id ObjectUserSaml#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_cert ObjectUserSaml#idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_cert ObjectUserSaml#idp_cert}
   */
   readonly idpCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_entity_id ObjectUserSaml#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_entity_id ObjectUserSaml#idp_entity_id}
   */
   readonly idpEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_single_logout_url ObjectUserSaml#idp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_single_logout_url ObjectUserSaml#idp_single_logout_url}
   */
   readonly idpSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_single_sign_on_url ObjectUserSaml#idp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_single_sign_on_url ObjectUserSaml#idp_single_sign_on_url}
   */
   readonly idpSingleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#limit_relaystate ObjectUserSaml#limit_relaystate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#limit_relaystate ObjectUserSaml#limit_relaystate}
   */
   readonly limitRelaystate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#name ObjectUserSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#name ObjectUserSaml#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#reauth ObjectUserSaml#reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#reauth ObjectUserSaml#reauth}
   */
   readonly reauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#scim_client ObjectUserSaml#scim_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_client ObjectUserSaml#scim_client}
   */
   readonly scimClient?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#scopetype ObjectUserSaml#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_group_attr_type ObjectUserSaml#scim_group_attr_type}
+  */
+  readonly scimGroupAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_user_attr_type ObjectUserSaml#scim_user_attr_type}
+  */
+  readonly scimUserAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scopetype ObjectUserSaml#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#single_logout_url ObjectUserSaml#single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#single_logout_url ObjectUserSaml#single_logout_url}
   */
   readonly singleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#single_sign_on_url ObjectUserSaml#single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#single_sign_on_url ObjectUserSaml#single_sign_on_url}
   */
   readonly singleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#user_claim_type ObjectUserSaml#user_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#user_claim_type ObjectUserSaml#user_claim_type}
   */
   readonly userClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#user_name ObjectUserSaml#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#user_name ObjectUserSaml#user_name}
   */
   readonly userName?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#dynamic_mapping ObjectUserSaml#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#dynamic_mapping ObjectUserSaml#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectUserSamlDynamicMapping[] | cdktf.IResolvable;
 }
 export interface ObjectUserSamlDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#name ObjectUserSaml#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#name ObjectUserSaml#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#vdom ObjectUserSaml#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#vdom ObjectUserSaml#vdom}
   */
   readonly vdom?: string;
 }
@@ -264,85 +272,93 @@ export class ObjectUserSamlDynamicMappingScopeList extends cdktf.ComplexList {
 }
 export interface ObjectUserSamlDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#adfs_claim ObjectUserSaml#adfs_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#adfs_claim ObjectUserSaml#adfs_claim}
   */
   readonly adfsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#auth_url ObjectUserSaml#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#auth_url ObjectUserSaml#auth_url}
   */
   readonly authUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#cert ObjectUserSaml#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#cert ObjectUserSaml#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#clock_tolerance ObjectUserSaml#clock_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#clock_tolerance ObjectUserSaml#clock_tolerance}
   */
   readonly clockTolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#digest_method ObjectUserSaml#digest_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#digest_method ObjectUserSaml#digest_method}
   */
   readonly digestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#entity_id ObjectUserSaml#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#entity_id ObjectUserSaml#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#group_claim_type ObjectUserSaml#group_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#group_claim_type ObjectUserSaml#group_claim_type}
   */
   readonly groupClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#group_name ObjectUserSaml#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#group_name ObjectUserSaml#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_cert ObjectUserSaml#idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_cert ObjectUserSaml#idp_cert}
   */
   readonly idpCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_entity_id ObjectUserSaml#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_entity_id ObjectUserSaml#idp_entity_id}
   */
   readonly idpEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_single_logout_url ObjectUserSaml#idp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_single_logout_url ObjectUserSaml#idp_single_logout_url}
   */
   readonly idpSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#idp_single_sign_on_url ObjectUserSaml#idp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#idp_single_sign_on_url ObjectUserSaml#idp_single_sign_on_url}
   */
   readonly idpSingleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#limit_relaystate ObjectUserSaml#limit_relaystate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#limit_relaystate ObjectUserSaml#limit_relaystate}
   */
   readonly limitRelaystate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#reauth ObjectUserSaml#reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#reauth ObjectUserSaml#reauth}
   */
   readonly reauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#scim_client ObjectUserSaml#scim_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_client ObjectUserSaml#scim_client}
   */
   readonly scimClient?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#single_logout_url ObjectUserSaml#single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_group_attr_type ObjectUserSaml#scim_group_attr_type}
+  */
+  readonly scimGroupAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#scim_user_attr_type ObjectUserSaml#scim_user_attr_type}
+  */
+  readonly scimUserAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#single_logout_url ObjectUserSaml#single_logout_url}
   */
   readonly singleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#single_sign_on_url ObjectUserSaml#single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#single_sign_on_url ObjectUserSaml#single_sign_on_url}
   */
   readonly singleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#user_claim_type ObjectUserSaml#user_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#user_claim_type ObjectUserSaml#user_claim_type}
   */
   readonly userClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#user_name ObjectUserSaml#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#user_name ObjectUserSaml#user_name}
   */
   readonly userName?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#_scope ObjectUserSaml#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#_scope ObjectUserSaml#_scope}
   */
   readonly scope?: ObjectUserSamlDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -368,6 +384,8 @@ export function objectUserSamlDynamicMappingToTerraform(struct?: ObjectUserSamlD
     limit_relaystate: cdktf.stringToTerraform(struct!.limitRelaystate),
     reauth: cdktf.stringToTerraform(struct!.reauth),
     scim_client: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.scimClient),
+    scim_group_attr_type: cdktf.stringToTerraform(struct!.scimGroupAttrType),
+    scim_user_attr_type: cdktf.stringToTerraform(struct!.scimUserAttrType),
     single_logout_url: cdktf.stringToTerraform(struct!.singleLogoutUrl),
     single_sign_on_url: cdktf.stringToTerraform(struct!.singleSignOnUrl),
     user_claim_type: cdktf.stringToTerraform(struct!.userClaimType),
@@ -472,6 +490,18 @@ export function objectUserSamlDynamicMappingToHclTerraform(struct?: ObjectUserSa
       isBlock: false,
       type: "set",
       storageClassType: "stringList",
+    },
+    scim_group_attr_type: {
+      value: cdktf.stringToHclTerraform(struct!.scimGroupAttrType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    scim_user_attr_type: {
+      value: cdktf.stringToHclTerraform(struct!.scimUserAttrType),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
     },
     single_logout_url: {
       value: cdktf.stringToHclTerraform(struct!.singleLogoutUrl),
@@ -589,6 +619,14 @@ export class ObjectUserSamlDynamicMappingOutputReference extends cdktf.ComplexOb
       hasAnyValues = true;
       internalValueResult.scimClient = this._scimClient;
     }
+    if (this._scimGroupAttrType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scimGroupAttrType = this._scimGroupAttrType;
+    }
+    if (this._scimUserAttrType !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.scimUserAttrType = this._scimUserAttrType;
+    }
     if (this._singleLogoutUrl !== undefined) {
       hasAnyValues = true;
       internalValueResult.singleLogoutUrl = this._singleLogoutUrl;
@@ -631,6 +669,8 @@ export class ObjectUserSamlDynamicMappingOutputReference extends cdktf.ComplexOb
       this._limitRelaystate = undefined;
       this._reauth = undefined;
       this._scimClient = undefined;
+      this._scimGroupAttrType = undefined;
+      this._scimUserAttrType = undefined;
       this._singleLogoutUrl = undefined;
       this._singleSignOnUrl = undefined;
       this._userClaimType = undefined;
@@ -659,6 +699,8 @@ export class ObjectUserSamlDynamicMappingOutputReference extends cdktf.ComplexOb
       this._limitRelaystate = value.limitRelaystate;
       this._reauth = value.reauth;
       this._scimClient = value.scimClient;
+      this._scimGroupAttrType = value.scimGroupAttrType;
+      this._scimUserAttrType = value.scimUserAttrType;
       this._singleLogoutUrl = value.singleLogoutUrl;
       this._singleSignOnUrl = value.singleSignOnUrl;
       this._userClaimType = value.userClaimType;
@@ -907,6 +949,38 @@ export class ObjectUserSamlDynamicMappingOutputReference extends cdktf.ComplexOb
     return this._scimClient;
   }
 
+  // scim_group_attr_type - computed: false, optional: true, required: false
+  private _scimGroupAttrType?: string; 
+  public get scimGroupAttrType() {
+    return this.getStringAttribute('scim_group_attr_type');
+  }
+  public set scimGroupAttrType(value: string) {
+    this._scimGroupAttrType = value;
+  }
+  public resetScimGroupAttrType() {
+    this._scimGroupAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimGroupAttrTypeInput() {
+    return this._scimGroupAttrType;
+  }
+
+  // scim_user_attr_type - computed: false, optional: true, required: false
+  private _scimUserAttrType?: string; 
+  public get scimUserAttrType() {
+    return this.getStringAttribute('scim_user_attr_type');
+  }
+  public set scimUserAttrType(value: string) {
+    this._scimUserAttrType = value;
+  }
+  public resetScimUserAttrType() {
+    this._scimUserAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimUserAttrTypeInput() {
+    return this._scimUserAttrType;
+  }
+
   // single_logout_url - computed: false, optional: true, required: false
   private _singleLogoutUrl?: string; 
   public get singleLogoutUrl() {
@@ -1009,7 +1083,7 @@ export class ObjectUserSamlDynamicMappingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml fortimanager_object_user_saml}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml fortimanager_object_user_saml}
 */
 export class ObjectUserSaml extends cdktf.TerraformResource {
 
@@ -1025,7 +1099,7 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserSaml resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserSaml to import
-  * @param importFromId The id of the existing ObjectUserSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserSaml that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserSaml to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1037,7 +1111,7 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml fortimanager_object_user_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml fortimanager_object_user_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1048,8 +1122,8 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_saml',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1078,6 +1152,8 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
     this._name = config.name;
     this._reauth = config.reauth;
     this._scimClient = config.scimClient;
+    this._scimGroupAttrType = config.scimGroupAttrType;
+    this._scimUserAttrType = config.scimUserAttrType;
     this._scopetype = config.scopetype;
     this._singleLogoutUrl = config.singleLogoutUrl;
     this._singleSignOnUrl = config.singleSignOnUrl;
@@ -1394,6 +1470,38 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
     return this._scimClient;
   }
 
+  // scim_group_attr_type - computed: false, optional: true, required: false
+  private _scimGroupAttrType?: string; 
+  public get scimGroupAttrType() {
+    return this.getStringAttribute('scim_group_attr_type');
+  }
+  public set scimGroupAttrType(value: string) {
+    this._scimGroupAttrType = value;
+  }
+  public resetScimGroupAttrType() {
+    this._scimGroupAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimGroupAttrTypeInput() {
+    return this._scimGroupAttrType;
+  }
+
+  // scim_user_attr_type - computed: false, optional: true, required: false
+  private _scimUserAttrType?: string; 
+  public get scimUserAttrType() {
+    return this.getStringAttribute('scim_user_attr_type');
+  }
+  public set scimUserAttrType(value: string) {
+    this._scimUserAttrType = value;
+  }
+  public resetScimUserAttrType() {
+    this._scimUserAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimUserAttrTypeInput() {
+    return this._scimUserAttrType;
+  }
+
   // scopetype - computed: false, optional: true, required: false
   private _scopetype?: string; 
   public get scopetype() {
@@ -1515,6 +1623,8 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
       name: cdktf.stringToTerraform(this._name),
       reauth: cdktf.stringToTerraform(this._reauth),
       scim_client: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scimClient),
+      scim_group_attr_type: cdktf.stringToTerraform(this._scimGroupAttrType),
+      scim_user_attr_type: cdktf.stringToTerraform(this._scimUserAttrType),
       scopetype: cdktf.stringToTerraform(this._scopetype),
       single_logout_url: cdktf.stringToTerraform(this._singleLogoutUrl),
       single_sign_on_url: cdktf.stringToTerraform(this._singleSignOnUrl),
@@ -1639,6 +1749,18 @@ export class ObjectUserSaml extends cdktf.TerraformResource {
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
+      },
+      scim_group_attr_type: {
+        value: cdktf.stringToHclTerraform(this._scimGroupAttrType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scim_user_attr_type: {
+        value: cdktf.stringToHclTerraform(this._scimUserAttrType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       scopetype: {
         value: cdktf.stringToHclTerraform(this._scopetype),

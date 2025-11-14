@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallMulticastpolicy6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#action PackagesFirewallMulticastpolicy6#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#action PackagesFirewallMulticastpolicy6#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#adom PackagesFirewallMulticastpolicy6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#adom PackagesFirewallMulticastpolicy6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#auto_asic_offload PackagesFirewallMulticastpolicy6#auto_asic_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#auto_asic_offload PackagesFirewallMulticastpolicy6#auto_asic_offload}
   */
   readonly autoAsicOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#comments PackagesFirewallMulticastpolicy6#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#comments PackagesFirewallMulticastpolicy6#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#dstaddr PackagesFirewallMulticastpolicy6#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#dstaddr PackagesFirewallMulticastpolicy6#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#dstintf PackagesFirewallMulticastpolicy6#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#dstintf PackagesFirewallMulticastpolicy6#dstintf}
   */
   readonly dstintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#end_port PackagesFirewallMulticastpolicy6#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#end_port PackagesFirewallMulticastpolicy6#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#fosid PackagesFirewallMulticastpolicy6#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#fosid PackagesFirewallMulticastpolicy6#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#id PackagesFirewallMulticastpolicy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#id PackagesFirewallMulticastpolicy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#ips_sensor PackagesFirewallMulticastpolicy6#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#ips_sensor PackagesFirewallMulticastpolicy6#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#logtraffic PackagesFirewallMulticastpolicy6#logtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#logtraffic PackagesFirewallMulticastpolicy6#logtraffic}
   */
   readonly logtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#name PackagesFirewallMulticastpolicy6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#name PackagesFirewallMulticastpolicy6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#pkg PackagesFirewallMulticastpolicy6#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#pkg PackagesFirewallMulticastpolicy6#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#pkg_folder_path PackagesFirewallMulticastpolicy6#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#pkg_folder_path PackagesFirewallMulticastpolicy6#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#protocol PackagesFirewallMulticastpolicy6#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#protocol PackagesFirewallMulticastpolicy6#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#scopetype PackagesFirewallMulticastpolicy6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#scopetype PackagesFirewallMulticastpolicy6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#srcaddr PackagesFirewallMulticastpolicy6#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#srcaddr PackagesFirewallMulticastpolicy6#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#srcintf PackagesFirewallMulticastpolicy6#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#srcintf PackagesFirewallMulticastpolicy6#srcintf}
   */
   readonly srcintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#start_port PackagesFirewallMulticastpolicy6#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#start_port PackagesFirewallMulticastpolicy6#start_port}
   */
   readonly startPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#status PackagesFirewallMulticastpolicy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#status PackagesFirewallMulticastpolicy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#utm_status PackagesFirewallMulticastpolicy6#utm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#utm_status PackagesFirewallMulticastpolicy6#utm_status}
   */
   readonly utmStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#uuid PackagesFirewallMulticastpolicy6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#uuid PackagesFirewallMulticastpolicy6#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6 fortimanager_packages_firewall_multicastpolicy6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6 fortimanager_packages_firewall_multicastpolicy6}
 */
 export class PackagesFirewallMulticastpolicy6 extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class PackagesFirewallMulticastpolicy6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallMulticastpolicy6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallMulticastpolicy6 to import
-  * @param importFromId The id of the existing PackagesFirewallMulticastpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallMulticastpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallMulticastpolicy6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class PackagesFirewallMulticastpolicy6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6 fortimanager_packages_firewall_multicastpolicy6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6 fortimanager_packages_firewall_multicastpolicy6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class PackagesFirewallMulticastpolicy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_multicastpolicy6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

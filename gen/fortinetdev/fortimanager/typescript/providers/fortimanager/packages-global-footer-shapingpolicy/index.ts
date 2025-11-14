@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,232 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesGlobalFooterShapingpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#app_category PackagesGlobalFooterShapingpolicy#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#app_category PackagesGlobalFooterShapingpolicy#app_category}
   */
   readonly appCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#app_group PackagesGlobalFooterShapingpolicy#app_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#app_group PackagesGlobalFooterShapingpolicy#app_group}
   */
   readonly appGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#application PackagesGlobalFooterShapingpolicy#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#application PackagesGlobalFooterShapingpolicy#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#class_id PackagesGlobalFooterShapingpolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#class_id PackagesGlobalFooterShapingpolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#class_id_reverse PackagesGlobalFooterShapingpolicy#class_id_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#class_id_reverse PackagesGlobalFooterShapingpolicy#class_id_reverse}
   */
   readonly classIdReverse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#comment PackagesGlobalFooterShapingpolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#comment PackagesGlobalFooterShapingpolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#cos PackagesGlobalFooterShapingpolicy#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#cos PackagesGlobalFooterShapingpolicy#cos}
   */
   readonly cos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#cos_mask PackagesGlobalFooterShapingpolicy#cos_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#cos_mask PackagesGlobalFooterShapingpolicy#cos_mask}
   */
   readonly cosMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#diffserv_forward PackagesGlobalFooterShapingpolicy#diffserv_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#diffserv_forward PackagesGlobalFooterShapingpolicy#diffserv_forward}
   */
   readonly diffservForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#diffserv_reverse PackagesGlobalFooterShapingpolicy#diffserv_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#diffserv_reverse PackagesGlobalFooterShapingpolicy#diffserv_reverse}
   */
   readonly diffservReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#diffservcode_forward PackagesGlobalFooterShapingpolicy#diffservcode_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#diffservcode_forward PackagesGlobalFooterShapingpolicy#diffservcode_forward}
   */
   readonly diffservcodeForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#diffservcode_rev PackagesGlobalFooterShapingpolicy#diffservcode_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#diffservcode_rev PackagesGlobalFooterShapingpolicy#diffservcode_rev}
   */
   readonly diffservcodeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#dstaddr PackagesGlobalFooterShapingpolicy#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#dstaddr PackagesGlobalFooterShapingpolicy#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#dstaddr6 PackagesGlobalFooterShapingpolicy#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#dstaddr6 PackagesGlobalFooterShapingpolicy#dstaddr6}
   */
   readonly dstaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#dstintf PackagesGlobalFooterShapingpolicy#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#dstintf PackagesGlobalFooterShapingpolicy#dstintf}
   */
   readonly dstintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#fosid PackagesGlobalFooterShapingpolicy#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#fosid PackagesGlobalFooterShapingpolicy#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#groups PackagesGlobalFooterShapingpolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#groups PackagesGlobalFooterShapingpolicy#groups}
   */
   readonly groups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#id PackagesGlobalFooterShapingpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#http_response_match PackagesGlobalFooterShapingpolicy#http_response_match}
+  */
+  readonly httpResponseMatch?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#id PackagesGlobalFooterShapingpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service PackagesGlobalFooterShapingpolicy#internet_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service PackagesGlobalFooterShapingpolicy#internet_service}
   */
   readonly internetService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_custom PackagesGlobalFooterShapingpolicy#internet_service_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_custom PackagesGlobalFooterShapingpolicy#internet_service_custom}
   */
   readonly internetServiceCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_custom_group PackagesGlobalFooterShapingpolicy#internet_service_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_custom_group PackagesGlobalFooterShapingpolicy#internet_service_custom_group}
   */
   readonly internetServiceCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_group PackagesGlobalFooterShapingpolicy#internet_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_fortiguard PackagesGlobalFooterShapingpolicy#internet_service_fortiguard}
+  */
+  readonly internetServiceFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_group PackagesGlobalFooterShapingpolicy#internet_service_group}
   */
   readonly internetServiceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_id PackagesGlobalFooterShapingpolicy#internet_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_id PackagesGlobalFooterShapingpolicy#internet_service_id}
   */
   readonly internetServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_name PackagesGlobalFooterShapingpolicy#internet_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_name PackagesGlobalFooterShapingpolicy#internet_service_name}
   */
   readonly internetServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src PackagesGlobalFooterShapingpolicy#internet_service_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src PackagesGlobalFooterShapingpolicy#internet_service_src}
   */
   readonly internetServiceSrc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_custom PackagesGlobalFooterShapingpolicy#internet_service_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_custom PackagesGlobalFooterShapingpolicy#internet_service_src_custom}
   */
   readonly internetServiceSrcCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_custom_group PackagesGlobalFooterShapingpolicy#internet_service_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_custom_group PackagesGlobalFooterShapingpolicy#internet_service_src_custom_group}
   */
   readonly internetServiceSrcCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_group PackagesGlobalFooterShapingpolicy#internet_service_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_fortiguard PackagesGlobalFooterShapingpolicy#internet_service_src_fortiguard}
+  */
+  readonly internetServiceSrcFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_group PackagesGlobalFooterShapingpolicy#internet_service_src_group}
   */
   readonly internetServiceSrcGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_id PackagesGlobalFooterShapingpolicy#internet_service_src_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_id PackagesGlobalFooterShapingpolicy#internet_service_src_id}
   */
   readonly internetServiceSrcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_name PackagesGlobalFooterShapingpolicy#internet_service_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#internet_service_src_name PackagesGlobalFooterShapingpolicy#internet_service_src_name}
   */
   readonly internetServiceSrcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#ip_version PackagesGlobalFooterShapingpolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#ip_version PackagesGlobalFooterShapingpolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#name PackagesGlobalFooterShapingpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#name PackagesGlobalFooterShapingpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#per_ip_shaper PackagesGlobalFooterShapingpolicy#per_ip_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#per_ip_shaper PackagesGlobalFooterShapingpolicy#per_ip_shaper}
   */
   readonly perIpShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#pkg PackagesGlobalFooterShapingpolicy#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#pkg PackagesGlobalFooterShapingpolicy#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#pkg_folder_path PackagesGlobalFooterShapingpolicy#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#pkg_folder_path PackagesGlobalFooterShapingpolicy#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#schedule PackagesGlobalFooterShapingpolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#schedule PackagesGlobalFooterShapingpolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#service PackagesGlobalFooterShapingpolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#service PackagesGlobalFooterShapingpolicy#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#service_type PackagesGlobalFooterShapingpolicy#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#service_type PackagesGlobalFooterShapingpolicy#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#srcaddr PackagesGlobalFooterShapingpolicy#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#srcaddr PackagesGlobalFooterShapingpolicy#srcaddr}
   */
   readonly srcaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#srcaddr6 PackagesGlobalFooterShapingpolicy#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#srcaddr6 PackagesGlobalFooterShapingpolicy#srcaddr6}
   */
   readonly srcaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#srcintf PackagesGlobalFooterShapingpolicy#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#srcintf PackagesGlobalFooterShapingpolicy#srcintf}
   */
   readonly srcintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#status PackagesGlobalFooterShapingpolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#status PackagesGlobalFooterShapingpolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#tos PackagesGlobalFooterShapingpolicy#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#tos PackagesGlobalFooterShapingpolicy#tos}
   */
   readonly tos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#tos_mask PackagesGlobalFooterShapingpolicy#tos_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#tos_mask PackagesGlobalFooterShapingpolicy#tos_mask}
   */
   readonly tosMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#tos_negate PackagesGlobalFooterShapingpolicy#tos_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#tos_negate PackagesGlobalFooterShapingpolicy#tos_negate}
   */
   readonly tosNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#traffic_shaper PackagesGlobalFooterShapingpolicy#traffic_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#traffic_shaper PackagesGlobalFooterShapingpolicy#traffic_shaper}
   */
   readonly trafficShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#traffic_shaper_reverse PackagesGlobalFooterShapingpolicy#traffic_shaper_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#traffic_shaper_reverse PackagesGlobalFooterShapingpolicy#traffic_shaper_reverse}
   */
   readonly trafficShaperReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#traffic_type PackagesGlobalFooterShapingpolicy#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#traffic_type PackagesGlobalFooterShapingpolicy#traffic_type}
   */
   readonly trafficType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#url_category PackagesGlobalFooterShapingpolicy#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#url_category PackagesGlobalFooterShapingpolicy#url_category}
   */
   readonly urlCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#users PackagesGlobalFooterShapingpolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#users PackagesGlobalFooterShapingpolicy#users}
   */
   readonly users?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#uuid PackagesGlobalFooterShapingpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#uuid PackagesGlobalFooterShapingpolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#uuid_idx PackagesGlobalFooterShapingpolicy#uuid_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#uuid_idx PackagesGlobalFooterShapingpolicy#uuid_idx}
   */
   readonly uuidIdx?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy fortimanager_packages_global_footer_shapingpolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy fortimanager_packages_global_footer_shapingpolicy}
 */
 export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
 
@@ -237,7 +249,7 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesGlobalFooterShapingpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesGlobalFooterShapingpolicy to import
-  * @param importFromId The id of the existing PackagesGlobalFooterShapingpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesGlobalFooterShapingpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesGlobalFooterShapingpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +261,7 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_footer_shapingpolicy fortimanager_packages_global_footer_shapingpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_footer_shapingpolicy fortimanager_packages_global_footer_shapingpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +272,8 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_global_footer_shapingpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -288,16 +300,19 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
     this._dstintf = config.dstintf;
     this._fosid = config.fosid;
     this._groups = config.groups;
+    this._httpResponseMatch = config.httpResponseMatch;
     this._id = config.id;
     this._internetService = config.internetService;
     this._internetServiceCustom = config.internetServiceCustom;
     this._internetServiceCustomGroup = config.internetServiceCustomGroup;
+    this._internetServiceFortiguard = config.internetServiceFortiguard;
     this._internetServiceGroup = config.internetServiceGroup;
     this._internetServiceId = config.internetServiceId;
     this._internetServiceName = config.internetServiceName;
     this._internetServiceSrc = config.internetServiceSrc;
     this._internetServiceSrcCustom = config.internetServiceSrcCustom;
     this._internetServiceSrcCustomGroup = config.internetServiceSrcCustomGroup;
+    this._internetServiceSrcFortiguard = config.internetServiceSrcFortiguard;
     this._internetServiceSrcGroup = config.internetServiceSrcGroup;
     this._internetServiceSrcId = config.internetServiceSrcId;
     this._internetServiceSrcName = config.internetServiceSrcName;
@@ -601,6 +616,22 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
     return this._groups;
   }
 
+  // http_response_match - computed: false, optional: true, required: false
+  private _httpResponseMatch?: string; 
+  public get httpResponseMatch() {
+    return this.getStringAttribute('http_response_match');
+  }
+  public set httpResponseMatch(value: string) {
+    this._httpResponseMatch = value;
+  }
+  public resetHttpResponseMatch() {
+    this._httpResponseMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpResponseMatchInput() {
+    return this._httpResponseMatch;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -663,6 +694,22 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get internetServiceCustomGroupInput() {
     return this._internetServiceCustomGroup;
+  }
+
+  // internet_service_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceFortiguard?: string[]; 
+  public get internetServiceFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_fortiguard'));
+  }
+  public set internetServiceFortiguard(value: string[]) {
+    this._internetServiceFortiguard = value;
+  }
+  public resetInternetServiceFortiguard() {
+    this._internetServiceFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceFortiguardInput() {
+    return this._internetServiceFortiguard;
   }
 
   // internet_service_group - computed: false, optional: true, required: false
@@ -759,6 +806,22 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get internetServiceSrcCustomGroupInput() {
     return this._internetServiceSrcCustomGroup;
+  }
+
+  // internet_service_src_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceSrcFortiguard?: string[]; 
+  public get internetServiceSrcFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_src_fortiguard'));
+  }
+  public set internetServiceSrcFortiguard(value: string[]) {
+    this._internetServiceSrcFortiguard = value;
+  }
+  public resetInternetServiceSrcFortiguard() {
+    this._internetServiceSrcFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceSrcFortiguardInput() {
+    return this._internetServiceSrcFortiguard;
   }
 
   // internet_service_src_group - computed: false, optional: true, required: false
@@ -1181,16 +1244,19 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
       dstintf: cdktf.stringToTerraform(this._dstintf),
       fosid: cdktf.numberToTerraform(this._fosid),
       groups: cdktf.stringToTerraform(this._groups),
+      http_response_match: cdktf.stringToTerraform(this._httpResponseMatch),
       id: cdktf.stringToTerraform(this._id),
       internet_service: cdktf.stringToTerraform(this._internetService),
       internet_service_custom: cdktf.stringToTerraform(this._internetServiceCustom),
       internet_service_custom_group: cdktf.stringToTerraform(this._internetServiceCustomGroup),
+      internet_service_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceFortiguard),
       internet_service_group: cdktf.stringToTerraform(this._internetServiceGroup),
       internet_service_id: cdktf.stringToTerraform(this._internetServiceId),
       internet_service_name: cdktf.stringToTerraform(this._internetServiceName),
       internet_service_src: cdktf.stringToTerraform(this._internetServiceSrc),
       internet_service_src_custom: cdktf.stringToTerraform(this._internetServiceSrcCustom),
       internet_service_src_custom_group: cdktf.stringToTerraform(this._internetServiceSrcCustomGroup),
+      internet_service_src_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcFortiguard),
       internet_service_src_group: cdktf.stringToTerraform(this._internetServiceSrcGroup),
       internet_service_src_id: cdktf.stringToTerraform(this._internetServiceSrcId),
       internet_service_src_name: cdktf.stringToTerraform(this._internetServiceSrcName),
@@ -1323,6 +1389,12 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      http_response_match: {
+        value: cdktf.stringToHclTerraform(this._httpResponseMatch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -1346,6 +1418,12 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      internet_service_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceFortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       internet_service_group: {
         value: cdktf.stringToHclTerraform(this._internetServiceGroup),
@@ -1382,6 +1460,12 @@ export class PackagesGlobalFooterShapingpolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      internet_service_src_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceSrcFortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       internet_service_src_group: {
         value: cdktf.stringToHclTerraform(this._internetServiceSrcGroup),

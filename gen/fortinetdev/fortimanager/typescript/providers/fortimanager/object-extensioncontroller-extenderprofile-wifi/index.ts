@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtensioncontrollerExtenderprofileWifiAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#adom ObjectExtensioncontrollerExtenderprofileWifiA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#adom ObjectExtensioncontrollerExtenderprofileWifiA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#country ObjectExtensioncontrollerExtenderprofileWifiA#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#country ObjectExtensioncontrollerExtenderprofileWifiA#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#dfs ObjectExtensioncontrollerExtenderprofileWifiA#dfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#dfs ObjectExtensioncontrollerExtenderprofileWifiA#dfs}
   */
   readonly dfs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extender_profile ObjectExtensioncontrollerExtenderprofileWifiA#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extender_profile ObjectExtensioncontrollerExtenderprofileWifiA#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#id ObjectExtensioncontrollerExtenderprofileWifiA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#id ObjectExtensioncontrollerExtenderprofileWifiA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#scopetype ObjectExtensioncontrollerExtenderprofileWifiA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#scopetype ObjectExtensioncontrollerExtenderprofileWifiA#scopetype}
   */
   readonly scopetype?: string;
   /**
   * radio_1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_1 ObjectExtensioncontrollerExtenderprofileWifiA#radio_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_1 ObjectExtensioncontrollerExtenderprofileWifiA#radio_1}
   */
   readonly radio1?: ObjectExtensioncontrollerExtenderprofileWifiRadio1A;
   /**
   * radio_2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_2 ObjectExtensioncontrollerExtenderprofileWifiA#radio_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_2 ObjectExtensioncontrollerExtenderprofileWifiA#radio_2}
   */
   readonly radio2?: ObjectExtensioncontrollerExtenderprofileWifiRadio2A;
 }
 export interface ObjectExtensioncontrollerExtenderprofileWifiRadio1A {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#band ObjectExtensioncontrollerExtenderprofileWifiA#band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#band ObjectExtensioncontrollerExtenderprofileWifiA#band}
   */
   readonly band?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bandwidth ObjectExtensioncontrollerExtenderprofileWifiA#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bandwidth ObjectExtensioncontrollerExtenderprofileWifiA#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#beacon_interval ObjectExtensioncontrollerExtenderprofileWifiA#beacon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#beacon_interval ObjectExtensioncontrollerExtenderprofileWifiA#beacon_interval}
   */
   readonly beaconInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color ObjectExtensioncontrollerExtenderprofileWifiA#bss_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color ObjectExtensioncontrollerExtenderprofileWifiA#bss_color}
   */
   readonly bssColor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color_mode ObjectExtensioncontrollerExtenderprofileWifiA#bss_color_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color_mode ObjectExtensioncontrollerExtenderprofileWifiA#bss_color_mode}
   */
   readonly bssColorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#channel ObjectExtensioncontrollerExtenderprofileWifiA#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#channel ObjectExtensioncontrollerExtenderprofileWifiA#channel}
   */
   readonly channel?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extension_channel ObjectExtensioncontrollerExtenderprofileWifiA#extension_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extension_channel ObjectExtensioncontrollerExtenderprofileWifiA#extension_channel}
   */
   readonly extensionChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#guard_interval ObjectExtensioncontrollerExtenderprofileWifiA#guard_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#guard_interval ObjectExtensioncontrollerExtenderprofileWifiA#guard_interval}
   */
   readonly guardInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#lan_ext_vap ObjectExtensioncontrollerExtenderprofileWifiA#lan_ext_vap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#lan_ext_vap ObjectExtensioncontrollerExtenderprofileWifiA#lan_ext_vap}
   */
   readonly lanExtVap?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#local_vaps ObjectExtensioncontrollerExtenderprofileWifiA#local_vaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#local_vaps ObjectExtensioncontrollerExtenderprofileWifiA#local_vaps}
   */
   readonly localVaps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#max_clients ObjectExtensioncontrollerExtenderprofileWifiA#max_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#max_clients ObjectExtensioncontrollerExtenderprofileWifiA#max_clients}
   */
   readonly maxClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#mode ObjectExtensioncontrollerExtenderprofileWifiA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#mode ObjectExtensioncontrollerExtenderprofileWifiA#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#n80211d ObjectExtensioncontrollerExtenderprofileWifiA#n80211d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#n80211d ObjectExtensioncontrollerExtenderprofileWifiA#n80211d}
   */
   readonly n80211D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#operating_standard ObjectExtensioncontrollerExtenderprofileWifiA#operating_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#operating_standard ObjectExtensioncontrollerExtenderprofileWifiA#operating_standard}
   */
   readonly operatingStandard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#power_level ObjectExtensioncontrollerExtenderprofileWifiA#power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#power_level ObjectExtensioncontrollerExtenderprofileWifiA#power_level}
   */
   readonly powerLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_id ObjectExtensioncontrollerExtenderprofileWifiA#radio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_id ObjectExtensioncontrollerExtenderprofileWifiA#radio_id}
   */
   readonly radioId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#status ObjectExtensioncontrollerExtenderprofileWifiA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#status ObjectExtensioncontrollerExtenderprofileWifiA#status}
   */
   readonly status?: string;
 }
@@ -661,71 +661,71 @@ export class ObjectExtensioncontrollerExtenderprofileWifiRadio1AOutputReference 
 }
 export interface ObjectExtensioncontrollerExtenderprofileWifiRadio2A {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#band ObjectExtensioncontrollerExtenderprofileWifiA#band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#band ObjectExtensioncontrollerExtenderprofileWifiA#band}
   */
   readonly band?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bandwidth ObjectExtensioncontrollerExtenderprofileWifiA#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bandwidth ObjectExtensioncontrollerExtenderprofileWifiA#bandwidth}
   */
   readonly bandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#beacon_interval ObjectExtensioncontrollerExtenderprofileWifiA#beacon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#beacon_interval ObjectExtensioncontrollerExtenderprofileWifiA#beacon_interval}
   */
   readonly beaconInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color ObjectExtensioncontrollerExtenderprofileWifiA#bss_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color ObjectExtensioncontrollerExtenderprofileWifiA#bss_color}
   */
   readonly bssColor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color_mode ObjectExtensioncontrollerExtenderprofileWifiA#bss_color_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#bss_color_mode ObjectExtensioncontrollerExtenderprofileWifiA#bss_color_mode}
   */
   readonly bssColorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#channel ObjectExtensioncontrollerExtenderprofileWifiA#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#channel ObjectExtensioncontrollerExtenderprofileWifiA#channel}
   */
   readonly channel?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extension_channel ObjectExtensioncontrollerExtenderprofileWifiA#extension_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#extension_channel ObjectExtensioncontrollerExtenderprofileWifiA#extension_channel}
   */
   readonly extensionChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#guard_interval ObjectExtensioncontrollerExtenderprofileWifiA#guard_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#guard_interval ObjectExtensioncontrollerExtenderprofileWifiA#guard_interval}
   */
   readonly guardInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#lan_ext_vap ObjectExtensioncontrollerExtenderprofileWifiA#lan_ext_vap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#lan_ext_vap ObjectExtensioncontrollerExtenderprofileWifiA#lan_ext_vap}
   */
   readonly lanExtVap?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#local_vaps ObjectExtensioncontrollerExtenderprofileWifiA#local_vaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#local_vaps ObjectExtensioncontrollerExtenderprofileWifiA#local_vaps}
   */
   readonly localVaps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#max_clients ObjectExtensioncontrollerExtenderprofileWifiA#max_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#max_clients ObjectExtensioncontrollerExtenderprofileWifiA#max_clients}
   */
   readonly maxClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#mode ObjectExtensioncontrollerExtenderprofileWifiA#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#mode ObjectExtensioncontrollerExtenderprofileWifiA#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#n80211d ObjectExtensioncontrollerExtenderprofileWifiA#n80211d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#n80211d ObjectExtensioncontrollerExtenderprofileWifiA#n80211d}
   */
   readonly n80211D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#operating_standard ObjectExtensioncontrollerExtenderprofileWifiA#operating_standard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#operating_standard ObjectExtensioncontrollerExtenderprofileWifiA#operating_standard}
   */
   readonly operatingStandard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#power_level ObjectExtensioncontrollerExtenderprofileWifiA#power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#power_level ObjectExtensioncontrollerExtenderprofileWifiA#power_level}
   */
   readonly powerLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_id ObjectExtensioncontrollerExtenderprofileWifiA#radio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#radio_id ObjectExtensioncontrollerExtenderprofileWifiA#radio_id}
   */
   readonly radioId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#status ObjectExtensioncontrollerExtenderprofileWifiA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#status ObjectExtensioncontrollerExtenderprofileWifiA#status}
   */
   readonly status?: string;
 }
@@ -1273,7 +1273,7 @@ export class ObjectExtensioncontrollerExtenderprofileWifiRadio2AOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi fortimanager_object_extensioncontroller_extenderprofile_wifi}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi fortimanager_object_extensioncontroller_extenderprofile_wifi}
 */
 export class ObjectExtensioncontrollerExtenderprofileWifiA extends cdktf.TerraformResource {
 
@@ -1289,7 +1289,7 @@ export class ObjectExtensioncontrollerExtenderprofileWifiA extends cdktf.Terrafo
   * Generates CDKTF code for importing a ObjectExtensioncontrollerExtenderprofileWifiA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtensioncontrollerExtenderprofileWifiA to import
-  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileWifiA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileWifiA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtensioncontrollerExtenderprofileWifiA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1301,7 +1301,7 @@ export class ObjectExtensioncontrollerExtenderprofileWifiA extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_wifi fortimanager_object_extensioncontroller_extenderprofile_wifi} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_wifi fortimanager_object_extensioncontroller_extenderprofile_wifi} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1312,8 +1312,8 @@ export class ObjectExtensioncontrollerExtenderprofileWifiA extends cdktf.Terrafo
       terraformResourceType: 'fortimanager_object_extensioncontroller_extenderprofile_wifi',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

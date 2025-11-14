@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectEmailfilterBwlEntriesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#action ObjectEmailfilterBwlEntriesA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#action ObjectEmailfilterBwlEntriesA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#addr_type ObjectEmailfilterBwlEntriesA#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#addr_type ObjectEmailfilterBwlEntriesA#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#adom ObjectEmailfilterBwlEntriesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#adom ObjectEmailfilterBwlEntriesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#bwl ObjectEmailfilterBwlEntriesA#bwl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#bwl ObjectEmailfilterBwlEntriesA#bwl}
   */
   readonly bwl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#email_pattern ObjectEmailfilterBwlEntriesA#email_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#email_pattern ObjectEmailfilterBwlEntriesA#email_pattern}
   */
   readonly emailPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#fosid ObjectEmailfilterBwlEntriesA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#fosid ObjectEmailfilterBwlEntriesA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#id ObjectEmailfilterBwlEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#id ObjectEmailfilterBwlEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#ip4_subnet ObjectEmailfilterBwlEntriesA#ip4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#ip4_subnet ObjectEmailfilterBwlEntriesA#ip4_subnet}
   */
   readonly ip4Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#ip6_subnet ObjectEmailfilterBwlEntriesA#ip6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#ip6_subnet ObjectEmailfilterBwlEntriesA#ip6_subnet}
   */
   readonly ip6Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#pattern_type ObjectEmailfilterBwlEntriesA#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#pattern_type ObjectEmailfilterBwlEntriesA#pattern_type}
   */
   readonly patternType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#scopetype ObjectEmailfilterBwlEntriesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#scopetype ObjectEmailfilterBwlEntriesA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#status ObjectEmailfilterBwlEntriesA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#status ObjectEmailfilterBwlEntriesA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#type ObjectEmailfilterBwlEntriesA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#type ObjectEmailfilterBwlEntriesA#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries fortimanager_object_emailfilter_bwl_entries}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries fortimanager_object_emailfilter_bwl_entries}
 */
 export class ObjectEmailfilterBwlEntriesA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectEmailfilterBwlEntriesA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectEmailfilterBwlEntriesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectEmailfilterBwlEntriesA to import
-  * @param importFromId The id of the existing ObjectEmailfilterBwlEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectEmailfilterBwlEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectEmailfilterBwlEntriesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectEmailfilterBwlEntriesA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_bwl_entries fortimanager_object_emailfilter_bwl_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_bwl_entries fortimanager_object_emailfilter_bwl_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectEmailfilterBwlEntriesA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_emailfilter_bwl_entries',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

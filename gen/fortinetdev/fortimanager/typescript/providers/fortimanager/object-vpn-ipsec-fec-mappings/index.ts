@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnIpsecFecMappingsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#adom ObjectVpnIpsecFecMappingsA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#adom ObjectVpnIpsecFecMappingsA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_bi_threshold ObjectVpnIpsecFecMappingsA#bandwidth_bi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_bi_threshold ObjectVpnIpsecFecMappingsA#bandwidth_bi_threshold}
   */
   readonly bandwidthBiThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_down_threshold ObjectVpnIpsecFecMappingsA#bandwidth_down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_down_threshold ObjectVpnIpsecFecMappingsA#bandwidth_down_threshold}
   */
   readonly bandwidthDownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_up_threshold ObjectVpnIpsecFecMappingsA#bandwidth_up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#bandwidth_up_threshold ObjectVpnIpsecFecMappingsA#bandwidth_up_threshold}
   */
   readonly bandwidthUpThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#base ObjectVpnIpsecFecMappingsA#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#base ObjectVpnIpsecFecMappingsA#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#fec ObjectVpnIpsecFecMappingsA#fec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#fec ObjectVpnIpsecFecMappingsA#fec}
   */
   readonly fec: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#id ObjectVpnIpsecFecMappingsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#id ObjectVpnIpsecFecMappingsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#latency_threshold ObjectVpnIpsecFecMappingsA#latency_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#latency_threshold ObjectVpnIpsecFecMappingsA#latency_threshold}
   */
   readonly latencyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#packet_loss_threshold ObjectVpnIpsecFecMappingsA#packet_loss_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#packet_loss_threshold ObjectVpnIpsecFecMappingsA#packet_loss_threshold}
   */
   readonly packetLossThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#redundant ObjectVpnIpsecFecMappingsA#redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#redundant ObjectVpnIpsecFecMappingsA#redundant}
   */
   readonly redundant?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#scopetype ObjectVpnIpsecFecMappingsA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#scopetype ObjectVpnIpsecFecMappingsA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#seqno ObjectVpnIpsecFecMappingsA#seqno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#seqno ObjectVpnIpsecFecMappingsA#seqno}
   */
   readonly seqno?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings fortimanager_object_vpn_ipsec_fec_mappings}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings fortimanager_object_vpn_ipsec_fec_mappings}
 */
 export class ObjectVpnIpsecFecMappingsA extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectVpnIpsecFecMappingsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVpnIpsecFecMappingsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnIpsecFecMappingsA to import
-  * @param importFromId The id of the existing ObjectVpnIpsecFecMappingsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnIpsecFecMappingsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnIpsecFecMappingsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectVpnIpsecFecMappingsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec_mappings fortimanager_object_vpn_ipsec_fec_mappings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec_mappings fortimanager_object_vpn_ipsec_fec_mappings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectVpnIpsecFecMappingsA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_vpn_ipsec_fec_mappings',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

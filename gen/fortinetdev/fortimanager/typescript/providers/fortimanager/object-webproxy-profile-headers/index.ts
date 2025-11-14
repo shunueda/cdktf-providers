@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebproxyProfileHeadersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#action ObjectWebproxyProfileHeadersA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#action ObjectWebproxyProfileHeadersA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#add_option ObjectWebproxyProfileHeadersA#add_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#add_option ObjectWebproxyProfileHeadersA#add_option}
   */
   readonly addOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#adom ObjectWebproxyProfileHeadersA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#adom ObjectWebproxyProfileHeadersA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#base64_encoding ObjectWebproxyProfileHeadersA#base64_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#base64_encoding ObjectWebproxyProfileHeadersA#base64_encoding}
   */
   readonly base64Encoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#content ObjectWebproxyProfileHeadersA#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#content ObjectWebproxyProfileHeadersA#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#dstaddr ObjectWebproxyProfileHeadersA#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#dstaddr ObjectWebproxyProfileHeadersA#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#dstaddr6 ObjectWebproxyProfileHeadersA#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#dstaddr6 ObjectWebproxyProfileHeadersA#dstaddr6}
   */
   readonly dstaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#fosid ObjectWebproxyProfileHeadersA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#fosid ObjectWebproxyProfileHeadersA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#id ObjectWebproxyProfileHeadersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#id ObjectWebproxyProfileHeadersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#name ObjectWebproxyProfileHeadersA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#name ObjectWebproxyProfileHeadersA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#profile ObjectWebproxyProfileHeadersA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#profile ObjectWebproxyProfileHeadersA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#protocol ObjectWebproxyProfileHeadersA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#protocol ObjectWebproxyProfileHeadersA#protocol}
   */
   readonly protocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#scopetype ObjectWebproxyProfileHeadersA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#scopetype ObjectWebproxyProfileHeadersA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers fortimanager_object_webproxy_profile_headers}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers fortimanager_object_webproxy_profile_headers}
 */
 export class ObjectWebproxyProfileHeadersA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectWebproxyProfileHeadersA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebproxyProfileHeadersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebproxyProfileHeadersA to import
-  * @param importFromId The id of the existing ObjectWebproxyProfileHeadersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebproxyProfileHeadersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebproxyProfileHeadersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectWebproxyProfileHeadersA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_profile_headers fortimanager_object_webproxy_profile_headers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_profile_headers fortimanager_object_webproxy_profile_headers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectWebproxyProfileHeadersA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webproxy_profile_headers',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

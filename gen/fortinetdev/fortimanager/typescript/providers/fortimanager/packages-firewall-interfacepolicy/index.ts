@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,156 +8,156 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallInterfacepolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#address_type PackagesFirewallInterfacepolicy#address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#address_type PackagesFirewallInterfacepolicy#address_type}
   */
   readonly addressType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#adom PackagesFirewallInterfacepolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#adom PackagesFirewallInterfacepolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#application_list PackagesFirewallInterfacepolicy#application_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#application_list PackagesFirewallInterfacepolicy#application_list}
   */
   readonly applicationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#application_list_status PackagesFirewallInterfacepolicy#application_list_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#application_list_status PackagesFirewallInterfacepolicy#application_list_status}
   */
   readonly applicationListStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#av_profile PackagesFirewallInterfacepolicy#av_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#av_profile PackagesFirewallInterfacepolicy#av_profile}
   */
   readonly avProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#av_profile_status PackagesFirewallInterfacepolicy#av_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#av_profile_status PackagesFirewallInterfacepolicy#av_profile_status}
   */
   readonly avProfileStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#casb_profile PackagesFirewallInterfacepolicy#casb_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#casb_profile PackagesFirewallInterfacepolicy#casb_profile}
   */
   readonly casbProfile?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#casb_profile_status PackagesFirewallInterfacepolicy#casb_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#casb_profile_status PackagesFirewallInterfacepolicy#casb_profile_status}
   */
   readonly casbProfileStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#comments PackagesFirewallInterfacepolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#comments PackagesFirewallInterfacepolicy#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dlp_profile PackagesFirewallInterfacepolicy#dlp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dlp_profile PackagesFirewallInterfacepolicy#dlp_profile}
   */
   readonly dlpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dlp_profile_status PackagesFirewallInterfacepolicy#dlp_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dlp_profile_status PackagesFirewallInterfacepolicy#dlp_profile_status}
   */
   readonly dlpProfileStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dlp_sensor PackagesFirewallInterfacepolicy#dlp_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dlp_sensor PackagesFirewallInterfacepolicy#dlp_sensor}
   */
   readonly dlpSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dlp_sensor_status PackagesFirewallInterfacepolicy#dlp_sensor_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dlp_sensor_status PackagesFirewallInterfacepolicy#dlp_sensor_status}
   */
   readonly dlpSensorStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dsri PackagesFirewallInterfacepolicy#dsri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dsri PackagesFirewallInterfacepolicy#dsri}
   */
   readonly dsri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#dstaddr PackagesFirewallInterfacepolicy#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#dstaddr PackagesFirewallInterfacepolicy#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#emailfilter_profile PackagesFirewallInterfacepolicy#emailfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#emailfilter_profile PackagesFirewallInterfacepolicy#emailfilter_profile}
   */
   readonly emailfilterProfile?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#emailfilter_profile_status PackagesFirewallInterfacepolicy#emailfilter_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#emailfilter_profile_status PackagesFirewallInterfacepolicy#emailfilter_profile_status}
   */
   readonly emailfilterProfileStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#id PackagesFirewallInterfacepolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#id PackagesFirewallInterfacepolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#interface PackagesFirewallInterfacepolicy#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#interface PackagesFirewallInterfacepolicy#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#ips_sensor PackagesFirewallInterfacepolicy#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#ips_sensor PackagesFirewallInterfacepolicy#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#ips_sensor_status PackagesFirewallInterfacepolicy#ips_sensor_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#ips_sensor_status PackagesFirewallInterfacepolicy#ips_sensor_status}
   */
   readonly ipsSensorStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#label PackagesFirewallInterfacepolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#label PackagesFirewallInterfacepolicy#label}
   */
   readonly label?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#logtraffic PackagesFirewallInterfacepolicy#logtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#logtraffic PackagesFirewallInterfacepolicy#logtraffic}
   */
   readonly logtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#pkg PackagesFirewallInterfacepolicy#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#pkg PackagesFirewallInterfacepolicy#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#pkg_folder_path PackagesFirewallInterfacepolicy#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#pkg_folder_path PackagesFirewallInterfacepolicy#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#policyid PackagesFirewallInterfacepolicy#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#policyid PackagesFirewallInterfacepolicy#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#scan_botnet_connections PackagesFirewallInterfacepolicy#scan_botnet_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#scan_botnet_connections PackagesFirewallInterfacepolicy#scan_botnet_connections}
   */
   readonly scanBotnetConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#scopetype PackagesFirewallInterfacepolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#scopetype PackagesFirewallInterfacepolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#service PackagesFirewallInterfacepolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#service PackagesFirewallInterfacepolicy#service}
   */
   readonly service?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#spamfilter_profile PackagesFirewallInterfacepolicy#spamfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#spamfilter_profile PackagesFirewallInterfacepolicy#spamfilter_profile}
   */
   readonly spamfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#spamfilter_profile_status PackagesFirewallInterfacepolicy#spamfilter_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#spamfilter_profile_status PackagesFirewallInterfacepolicy#spamfilter_profile_status}
   */
   readonly spamfilterProfileStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#srcaddr PackagesFirewallInterfacepolicy#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#srcaddr PackagesFirewallInterfacepolicy#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#status PackagesFirewallInterfacepolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#status PackagesFirewallInterfacepolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#uuid PackagesFirewallInterfacepolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#uuid PackagesFirewallInterfacepolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#webfilter_profile PackagesFirewallInterfacepolicy#webfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#webfilter_profile PackagesFirewallInterfacepolicy#webfilter_profile}
   */
   readonly webfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#webfilter_profile_status PackagesFirewallInterfacepolicy#webfilter_profile_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#webfilter_profile_status PackagesFirewallInterfacepolicy#webfilter_profile_status}
   */
   readonly webfilterProfileStatus?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy fortimanager_packages_firewall_interfacepolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy fortimanager_packages_firewall_interfacepolicy}
 */
 export class PackagesFirewallInterfacepolicy extends cdktf.TerraformResource {
 
@@ -173,7 +173,7 @@ export class PackagesFirewallInterfacepolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallInterfacepolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallInterfacepolicy to import
-  * @param importFromId The id of the existing PackagesFirewallInterfacepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallInterfacepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallInterfacepolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -185,7 +185,7 @@ export class PackagesFirewallInterfacepolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_interfacepolicy fortimanager_packages_firewall_interfacepolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_interfacepolicy fortimanager_packages_firewall_interfacepolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -196,8 +196,8 @@ export class PackagesFirewallInterfacepolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_interfacepolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

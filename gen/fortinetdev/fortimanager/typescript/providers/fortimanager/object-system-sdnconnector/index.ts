@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,322 +8,330 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemSdnconnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#_local_cert ObjectSystemSdnconnector#_local_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#_local_cert ObjectSystemSdnconnector#_local_cert}
   */
   readonly localCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#access_key ObjectSystemSdnconnector#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#access_key ObjectSystemSdnconnector#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#adom ObjectSystemSdnconnector#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#adom ObjectSystemSdnconnector#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#alt_resource_ip ObjectSystemSdnconnector#alt_resource_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#alt_resource_ip ObjectSystemSdnconnector#alt_resource_ip}
   */
   readonly altResourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#api_key ObjectSystemSdnconnector#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#api_key ObjectSystemSdnconnector#api_key}
   */
   readonly apiKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#azure_region ObjectSystemSdnconnector#azure_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#azure_region ObjectSystemSdnconnector#azure_region}
   */
   readonly azureRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#client_id ObjectSystemSdnconnector#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#client_id ObjectSystemSdnconnector#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#client_secret ObjectSystemSdnconnector#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#client_secret ObjectSystemSdnconnector#client_secret}
   */
   readonly clientSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#compartment_id ObjectSystemSdnconnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#compartment_id ObjectSystemSdnconnector#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#compute_generation ObjectSystemSdnconnector#compute_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#compute_generation ObjectSystemSdnconnector#compute_generation}
   */
   readonly computeGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#domain ObjectSystemSdnconnector#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#domain ObjectSystemSdnconnector#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#dynamic_sort_subtable ObjectSystemSdnconnector#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#dynamic_sort_subtable ObjectSystemSdnconnector#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#gcp_project ObjectSystemSdnconnector#gcp_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#gcp_project ObjectSystemSdnconnector#gcp_project}
   */
   readonly gcpProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#group_name ObjectSystemSdnconnector#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#group_name ObjectSystemSdnconnector#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#ha_status ObjectSystemSdnconnector#ha_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#ha_status ObjectSystemSdnconnector#ha_status}
   */
   readonly haStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#ibm_region ObjectSystemSdnconnector#ibm_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#ibm_region ObjectSystemSdnconnector#ibm_region}
   */
   readonly ibmRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#ibm_region_gen1 ObjectSystemSdnconnector#ibm_region_gen1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#ibm_region_gen1 ObjectSystemSdnconnector#ibm_region_gen1}
   */
   readonly ibmRegionGen1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#ibm_region_gen2 ObjectSystemSdnconnector#ibm_region_gen2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#ibm_region_gen2 ObjectSystemSdnconnector#ibm_region_gen2}
   */
   readonly ibmRegionGen2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#id ObjectSystemSdnconnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#id ObjectSystemSdnconnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#key_passwd ObjectSystemSdnconnector#key_passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#key_passwd ObjectSystemSdnconnector#key_passwd}
   */
   readonly keyPasswd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#last_update ObjectSystemSdnconnector#last_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#last_update ObjectSystemSdnconnector#last_update}
   */
   readonly lastUpdate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#login_endpoint ObjectSystemSdnconnector#login_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#login_endpoint ObjectSystemSdnconnector#login_endpoint}
   */
   readonly loginEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#message_server_port ObjectSystemSdnconnector#message_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#message_server_port ObjectSystemSdnconnector#message_server_port}
   */
   readonly messageServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#microsoft_365 ObjectSystemSdnconnector#microsoft_365}
+  */
+  readonly microsoft365?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#nsx_cert_fingerprint ObjectSystemSdnconnector#nsx_cert_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#nsx_cert_fingerprint ObjectSystemSdnconnector#nsx_cert_fingerprint}
   */
   readonly nsxCertFingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#oci_cert ObjectSystemSdnconnector#oci_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#oci_cert ObjectSystemSdnconnector#oci_cert}
   */
   readonly ociCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#oci_fingerprint ObjectSystemSdnconnector#oci_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#oci_fingerprint ObjectSystemSdnconnector#oci_fingerprint}
   */
   readonly ociFingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#oci_region ObjectSystemSdnconnector#oci_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#oci_region ObjectSystemSdnconnector#oci_region}
   */
   readonly ociRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#oci_region_type ObjectSystemSdnconnector#oci_region_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#oci_region_type ObjectSystemSdnconnector#oci_region_type}
   */
   readonly ociRegionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#password ObjectSystemSdnconnector#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#password ObjectSystemSdnconnector#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#private_key ObjectSystemSdnconnector#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#private_key ObjectSystemSdnconnector#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#proxy ObjectSystemSdnconnector#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#proxy ObjectSystemSdnconnector#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#region ObjectSystemSdnconnector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#region ObjectSystemSdnconnector#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#resource_url ObjectSystemSdnconnector#resource_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#resource_url ObjectSystemSdnconnector#resource_url}
   */
   readonly resourceUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#rest_interface ObjectSystemSdnconnector#rest_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#rest_interface ObjectSystemSdnconnector#rest_interface}
   */
   readonly restInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#rest_password ObjectSystemSdnconnector#rest_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#rest_password ObjectSystemSdnconnector#rest_password}
   */
   readonly restPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#rest_sport ObjectSystemSdnconnector#rest_sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#rest_sport ObjectSystemSdnconnector#rest_sport}
   */
   readonly restSport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#rest_ssl ObjectSystemSdnconnector#rest_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#rest_ssl ObjectSystemSdnconnector#rest_ssl}
   */
   readonly restSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#scopetype ObjectSystemSdnconnector#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#scopetype ObjectSystemSdnconnector#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#secret_key ObjectSystemSdnconnector#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#secret_key ObjectSystemSdnconnector#secret_key}
   */
   readonly secretKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#secret_token ObjectSystemSdnconnector#secret_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#secret_token ObjectSystemSdnconnector#secret_token}
   */
   readonly secretToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#server ObjectSystemSdnconnector#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#server ObjectSystemSdnconnector#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#server_ca_cert ObjectSystemSdnconnector#server_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#server_ca_cert ObjectSystemSdnconnector#server_ca_cert}
   */
   readonly serverCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#server_cert ObjectSystemSdnconnector#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#server_cert ObjectSystemSdnconnector#server_cert}
   */
   readonly serverCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#server_list ObjectSystemSdnconnector#server_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#server_list ObjectSystemSdnconnector#server_list}
   */
   readonly serverList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#server_port ObjectSystemSdnconnector#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#server_port ObjectSystemSdnconnector#server_port}
   */
   readonly serverPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#service_account ObjectSystemSdnconnector#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#service_account ObjectSystemSdnconnector#service_account}
   */
   readonly serviceAccount?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#status ObjectSystemSdnconnector#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#status ObjectSystemSdnconnector#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#subscription_id ObjectSystemSdnconnector#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#subscription_id ObjectSystemSdnconnector#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#tenant_id ObjectSystemSdnconnector#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#tenant_id ObjectSystemSdnconnector#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#type ObjectSystemSdnconnector#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#type ObjectSystemSdnconnector#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#update_interval ObjectSystemSdnconnector#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#update_interval ObjectSystemSdnconnector#update_interval}
   */
   readonly updateInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#updating ObjectSystemSdnconnector#updating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#updating ObjectSystemSdnconnector#updating}
   */
   readonly updating?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#use_metadata_iam ObjectSystemSdnconnector#use_metadata_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#use_metadata_iam ObjectSystemSdnconnector#use_metadata_iam}
   */
   readonly useMetadataIam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#user_id ObjectSystemSdnconnector#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#user_id ObjectSystemSdnconnector#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#username ObjectSystemSdnconnector#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#username ObjectSystemSdnconnector#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vcenter_password ObjectSystemSdnconnector#vcenter_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vcenter_password ObjectSystemSdnconnector#vcenter_password}
   */
   readonly vcenterPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vcenter_server ObjectSystemSdnconnector#vcenter_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vcenter_server ObjectSystemSdnconnector#vcenter_server}
   */
   readonly vcenterServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vcenter_username ObjectSystemSdnconnector#vcenter_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vcenter_username ObjectSystemSdnconnector#vcenter_username}
   */
   readonly vcenterUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#verify_certificate ObjectSystemSdnconnector#verify_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vdom ObjectSystemSdnconnector#vdom}
+  */
+  readonly vdom?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#verify_certificate ObjectSystemSdnconnector#verify_certificate}
   */
   readonly verifyCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vmx_image_url ObjectSystemSdnconnector#vmx_image_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vmx_image_url ObjectSystemSdnconnector#vmx_image_url}
   */
   readonly vmxImageUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vmx_service_name ObjectSystemSdnconnector#vmx_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vmx_service_name ObjectSystemSdnconnector#vmx_service_name}
   */
   readonly vmxServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#vpc_id ObjectSystemSdnconnector#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#vpc_id ObjectSystemSdnconnector#vpc_id}
   */
   readonly vpcId?: string;
   /**
   * compartment_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#compartment_list ObjectSystemSdnconnector#compartment_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#compartment_list ObjectSystemSdnconnector#compartment_list}
   */
   readonly compartmentList?: ObjectSystemSdnconnectorCompartmentListStruct[] | cdktf.IResolvable;
   /**
   * external_account_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#external_account_list ObjectSystemSdnconnector#external_account_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#external_account_list ObjectSystemSdnconnector#external_account_list}
   */
   readonly externalAccountList?: ObjectSystemSdnconnectorExternalAccountListStruct[] | cdktf.IResolvable;
   /**
   * external_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#external_ip ObjectSystemSdnconnector#external_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#external_ip ObjectSystemSdnconnector#external_ip}
   */
   readonly externalIp?: ObjectSystemSdnconnectorExternalIp[] | cdktf.IResolvable;
   /**
   * forwarding_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#forwarding_rule ObjectSystemSdnconnector#forwarding_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#forwarding_rule ObjectSystemSdnconnector#forwarding_rule}
   */
   readonly forwardingRule?: ObjectSystemSdnconnectorForwardingRule[] | cdktf.IResolvable;
   /**
   * gcp_project_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#gcp_project_list ObjectSystemSdnconnector#gcp_project_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#gcp_project_list ObjectSystemSdnconnector#gcp_project_list}
   */
   readonly gcpProjectList?: ObjectSystemSdnconnectorGcpProjectListStruct[] | cdktf.IResolvable;
   /**
   * nic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#nic ObjectSystemSdnconnector#nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#nic ObjectSystemSdnconnector#nic}
   */
   readonly nic?: ObjectSystemSdnconnectorNic[] | cdktf.IResolvable;
   /**
   * oci_region_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#oci_region_list ObjectSystemSdnconnector#oci_region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#oci_region_list ObjectSystemSdnconnector#oci_region_list}
   */
   readonly ociRegionList?: ObjectSystemSdnconnectorOciRegionListStruct[] | cdktf.IResolvable;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#route ObjectSystemSdnconnector#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#route ObjectSystemSdnconnector#route}
   */
   readonly route?: ObjectSystemSdnconnectorRoute[] | cdktf.IResolvable;
   /**
   * route_table block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#route_table ObjectSystemSdnconnector#route_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#route_table ObjectSystemSdnconnector#route_table}
   */
   readonly routeTable?: ObjectSystemSdnconnectorRouteTable[] | cdktf.IResolvable;
 }
 export interface ObjectSystemSdnconnectorCompartmentListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#compartment_id ObjectSystemSdnconnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#compartment_id ObjectSystemSdnconnector#compartment_id}
   */
   readonly compartmentId?: string;
 }
@@ -439,15 +447,15 @@ export class ObjectSystemSdnconnectorCompartmentListStructList extends cdktf.Com
 }
 export interface ObjectSystemSdnconnectorExternalAccountListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#external_id ObjectSystemSdnconnector#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#external_id ObjectSystemSdnconnector#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#region_list ObjectSystemSdnconnector#region_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#region_list ObjectSystemSdnconnector#region_list}
   */
   readonly regionList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#role_arn ObjectSystemSdnconnector#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#role_arn ObjectSystemSdnconnector#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -621,7 +629,7 @@ export class ObjectSystemSdnconnectorExternalAccountListStructList extends cdktf
 }
 export interface ObjectSystemSdnconnectorExternalIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
 }
@@ -737,11 +745,11 @@ export class ObjectSystemSdnconnectorExternalIpList extends cdktf.ComplexList {
 }
 export interface ObjectSystemSdnconnectorForwardingRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#rule_name ObjectSystemSdnconnector#rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#rule_name ObjectSystemSdnconnector#rule_name}
   */
   readonly ruleName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#target ObjectSystemSdnconnector#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#target ObjectSystemSdnconnector#target}
   */
   readonly target?: string;
 }
@@ -886,11 +894,11 @@ export class ObjectSystemSdnconnectorForwardingRuleList extends cdktf.ComplexLis
 }
 export interface ObjectSystemSdnconnectorGcpProjectListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#gcp_zone_list ObjectSystemSdnconnector#gcp_zone_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#gcp_zone_list ObjectSystemSdnconnector#gcp_zone_list}
   */
   readonly gcpZoneList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#id ObjectSystemSdnconnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#id ObjectSystemSdnconnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1038,19 +1046,19 @@ export class ObjectSystemSdnconnectorGcpProjectListStructList extends cdktf.Comp
 }
 export interface ObjectSystemSdnconnectorNicIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#private_ip ObjectSystemSdnconnector#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#private_ip ObjectSystemSdnconnector#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#public_ip ObjectSystemSdnconnector#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#public_ip ObjectSystemSdnconnector#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -1253,17 +1261,17 @@ export class ObjectSystemSdnconnectorNicIpList extends cdktf.ComplexList {
 }
 export interface ObjectSystemSdnconnectorNic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#peer_nic ObjectSystemSdnconnector#peer_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#peer_nic ObjectSystemSdnconnector#peer_nic}
   */
   readonly peerNic?: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#ip ObjectSystemSdnconnector#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#ip ObjectSystemSdnconnector#ip}
   */
   readonly ip?: ObjectSystemSdnconnectorNicIp[] | cdktf.IResolvable;
 }
@@ -1437,7 +1445,7 @@ export class ObjectSystemSdnconnectorNicList extends cdktf.ComplexList {
 }
 export interface ObjectSystemSdnconnectorOciRegionListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#region ObjectSystemSdnconnector#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#region ObjectSystemSdnconnector#region}
   */
   readonly region?: string;
 }
@@ -1553,7 +1561,7 @@ export class ObjectSystemSdnconnectorOciRegionListStructList extends cdktf.Compl
 }
 export interface ObjectSystemSdnconnectorRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
 }
@@ -1669,11 +1677,11 @@ export class ObjectSystemSdnconnectorRouteList extends cdktf.ComplexList {
 }
 export interface ObjectSystemSdnconnectorRouteTableRoute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#next_hop ObjectSystemSdnconnector#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#next_hop ObjectSystemSdnconnector#next_hop}
   */
   readonly nextHop?: string;
 }
@@ -1818,21 +1826,21 @@ export class ObjectSystemSdnconnectorRouteTableRouteList extends cdktf.ComplexLi
 }
 export interface ObjectSystemSdnconnectorRouteTable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#name ObjectSystemSdnconnector#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#resource_group ObjectSystemSdnconnector#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#subscription_id ObjectSystemSdnconnector#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#subscription_id ObjectSystemSdnconnector#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * route block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#route ObjectSystemSdnconnector#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#route ObjectSystemSdnconnector#route}
   */
   readonly route?: ObjectSystemSdnconnectorRouteTableRoute[] | cdktf.IResolvable;
 }
@@ -2035,7 +2043,7 @@ export class ObjectSystemSdnconnectorRouteTableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector fortimanager_object_system_sdnconnector}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector fortimanager_object_system_sdnconnector}
 */
 export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
 
@@ -2051,7 +2059,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemSdnconnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemSdnconnector to import
-  * @param importFromId The id of the existing ObjectSystemSdnconnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemSdnconnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemSdnconnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2063,7 +2071,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector fortimanager_object_system_sdnconnector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector fortimanager_object_system_sdnconnector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2074,8 +2082,8 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_sdnconnector',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2108,6 +2116,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
     this._lastUpdate = config.lastUpdate;
     this._loginEndpoint = config.loginEndpoint;
     this._messageServerPort = config.messageServerPort;
+    this._microsoft365 = config.microsoft365;
     this._name = config.name;
     this._nsxCertFingerprint = config.nsxCertFingerprint;
     this._ociCert = config.ociCert;
@@ -2145,6 +2154,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
     this._vcenterPassword = config.vcenterPassword;
     this._vcenterServer = config.vcenterServer;
     this._vcenterUsername = config.vcenterUsername;
+    this._vdom = config.vdom;
     this._verifyCertificate = config.verifyCertificate;
     this._vmxImageUrl = config.vmxImageUrl;
     this._vmxServiceName = config.vmxServiceName;
@@ -2530,6 +2540,22 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get messageServerPortInput() {
     return this._messageServerPort;
+  }
+
+  // microsoft_365 - computed: false, optional: true, required: false
+  private _microsoft365?: string; 
+  public get microsoft365() {
+    return this.getStringAttribute('microsoft_365');
+  }
+  public set microsoft365(value: string) {
+    this._microsoft365 = value;
+  }
+  public resetMicrosoft365() {
+    this._microsoft365 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get microsoft365Input() {
+    return this._microsoft365;
   }
 
   // name - computed: false, optional: true, required: false
@@ -3028,7 +3054,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
     return this._updating;
   }
 
-  // use_metadata_iam - computed: false, optional: true, required: false
+  // use_metadata_iam - computed: true, optional: true, required: false
   private _useMetadataIam?: string; 
   public get useMetadataIam() {
     return this.getStringAttribute('use_metadata_iam');
@@ -3122,6 +3148,22 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get vcenterUsernameInput() {
     return this._vcenterUsername;
+  }
+
+  // vdom - computed: true, optional: true, required: false
+  private _vdom?: string[]; 
+  public get vdom() {
+    return cdktf.Fn.tolist(this.getListAttribute('vdom'));
+  }
+  public set vdom(value: string[]) {
+    this._vdom = value;
+  }
+  public resetVdom() {
+    this._vdom = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vdomInput() {
+    return this._vdom;
   }
 
   // verify_certificate - computed: true, optional: true, required: false
@@ -3361,6 +3403,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
       last_update: cdktf.numberToTerraform(this._lastUpdate),
       login_endpoint: cdktf.stringToTerraform(this._loginEndpoint),
       message_server_port: cdktf.numberToTerraform(this._messageServerPort),
+      microsoft_365: cdktf.stringToTerraform(this._microsoft365),
       name: cdktf.stringToTerraform(this._name),
       nsx_cert_fingerprint: cdktf.stringToTerraform(this._nsxCertFingerprint),
       oci_cert: cdktf.stringToTerraform(this._ociCert),
@@ -3398,6 +3441,7 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
       vcenter_password: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vcenterPassword),
       vcenter_server: cdktf.stringToTerraform(this._vcenterServer),
       vcenter_username: cdktf.stringToTerraform(this._vcenterUsername),
+      vdom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vdom),
       verify_certificate: cdktf.stringToTerraform(this._verifyCertificate),
       vmx_image_url: cdktf.stringToTerraform(this._vmxImageUrl),
       vmx_service_name: cdktf.stringToTerraform(this._vmxServiceName),
@@ -3553,6 +3597,12 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      microsoft_365: {
+        value: cdktf.stringToHclTerraform(this._microsoft365),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       name: {
         value: cdktf.stringToHclTerraform(this._name),
@@ -3775,6 +3825,12 @@ export class ObjectSystemSdnconnector extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      vdom: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._vdom),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       verify_certificate: {
         value: cdktf.stringToHclTerraform(this._verifyCertificate),

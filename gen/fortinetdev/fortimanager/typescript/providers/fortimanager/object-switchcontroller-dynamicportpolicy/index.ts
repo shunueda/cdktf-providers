@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerDynamicportpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#adom ObjectSwitchcontrollerDynamicportpolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#adom ObjectSwitchcontrollerDynamicportpolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#description ObjectSwitchcontrollerDynamicportpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#description ObjectSwitchcontrollerDynamicportpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#dynamic_sort_subtable ObjectSwitchcontrollerDynamicportpolicy#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#dynamic_sort_subtable ObjectSwitchcontrollerDynamicportpolicy#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#id ObjectSwitchcontrollerDynamicportpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#id ObjectSwitchcontrollerDynamicportpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#name ObjectSwitchcontrollerDynamicportpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#name ObjectSwitchcontrollerDynamicportpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#scopetype ObjectSwitchcontrollerDynamicportpolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#scopetype ObjectSwitchcontrollerDynamicportpolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#policy ObjectSwitchcontrollerDynamicportpolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#policy ObjectSwitchcontrollerDynamicportpolicy#policy}
   */
   readonly policy?: ObjectSwitchcontrollerDynamicportpolicyPolicy[] | cdktf.IResolvable;
 }
 export interface ObjectSwitchcontrollerDynamicportpolicyPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#bounce_port_link ObjectSwitchcontrollerDynamicportpolicy#bounce_port_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#bounce_port_link ObjectSwitchcontrollerDynamicportpolicy#bounce_port_link}
   */
   readonly bouncePortLink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#category ObjectSwitchcontrollerDynamicportpolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#category ObjectSwitchcontrollerDynamicportpolicy#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#description ObjectSwitchcontrollerDynamicportpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#description ObjectSwitchcontrollerDynamicportpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#family ObjectSwitchcontrollerDynamicportpolicy#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#family ObjectSwitchcontrollerDynamicportpolicy#family}
   */
   readonly family?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#host ObjectSwitchcontrollerDynamicportpolicy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#host ObjectSwitchcontrollerDynamicportpolicy#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#hw_vendor ObjectSwitchcontrollerDynamicportpolicy#hw_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#hw_vendor ObjectSwitchcontrollerDynamicportpolicy#hw_vendor}
   */
   readonly hwVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#interface_tags ObjectSwitchcontrollerDynamicportpolicy#interface_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#interface_tags ObjectSwitchcontrollerDynamicportpolicy#interface_tags}
   */
   readonly interfaceTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#lldp_profile ObjectSwitchcontrollerDynamicportpolicy#lldp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#lldp_profile ObjectSwitchcontrollerDynamicportpolicy#lldp_profile}
   */
   readonly lldpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#mac ObjectSwitchcontrollerDynamicportpolicy#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#mac ObjectSwitchcontrollerDynamicportpolicy#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#n802_1x ObjectSwitchcontrollerDynamicportpolicy#n802_1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#n802_1x ObjectSwitchcontrollerDynamicportpolicy#n802_1x}
   */
   readonly n8021X?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#name ObjectSwitchcontrollerDynamicportpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#name ObjectSwitchcontrollerDynamicportpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#qos_policy ObjectSwitchcontrollerDynamicportpolicy#qos_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#qos_policy ObjectSwitchcontrollerDynamicportpolicy#qos_policy}
   */
   readonly qosPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#status ObjectSwitchcontrollerDynamicportpolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#status ObjectSwitchcontrollerDynamicportpolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#type ObjectSwitchcontrollerDynamicportpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#type ObjectSwitchcontrollerDynamicportpolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#vlan_policy ObjectSwitchcontrollerDynamicportpolicy#vlan_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#vlan_policy ObjectSwitchcontrollerDynamicportpolicy#vlan_policy}
   */
   readonly vlanPolicy?: string;
 }
@@ -621,7 +621,7 @@ export class ObjectSwitchcontrollerDynamicportpolicyPolicyList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy fortimanager_object_switchcontroller_dynamicportpolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy fortimanager_object_switchcontroller_dynamicportpolicy}
 */
 export class ObjectSwitchcontrollerDynamicportpolicy extends cdktf.TerraformResource {
 
@@ -637,7 +637,7 @@ export class ObjectSwitchcontrollerDynamicportpolicy extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ObjectSwitchcontrollerDynamicportpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerDynamicportpolicy to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerDynamicportpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerDynamicportpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerDynamicportpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -649,7 +649,7 @@ export class ObjectSwitchcontrollerDynamicportpolicy extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_dynamicportpolicy fortimanager_object_switchcontroller_dynamicportpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_dynamicportpolicy fortimanager_object_switchcontroller_dynamicportpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -660,8 +660,8 @@ export class ObjectSwitchcontrollerDynamicportpolicy extends cdktf.TerraformReso
       terraformResourceType: 'fortimanager_object_switchcontroller_dynamicportpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

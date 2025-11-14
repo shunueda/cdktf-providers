@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbProfileSaasapplicationAdvancedtenantcontrolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#adom ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#adom ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#dynamic_sort_subtable ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#dynamic_sort_subtable ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#id ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#id ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#name ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#name ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#profile ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#profile ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#saas_application ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#saas_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#saas_application ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#saas_application}
   */
   readonly saasApplication: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#scopetype ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#scopetype ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#scopetype}
   */
   readonly scopetype?: string;
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#attribute ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#attribute ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#attribute}
   */
   readonly attribute?: ObjectCasbProfileSaasapplicationAdvancedtenantcontrolAttribute[] | cdktf.IResolvable;
 }
 export interface ObjectCasbProfileSaasapplicationAdvancedtenantcontrolAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#input ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#input ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#input}
   */
   readonly input?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#name ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#name ObjectCasbProfileSaasapplicationAdvancedtenantcontrol#name}
   */
   readonly name?: string;
 }
@@ -196,7 +196,7 @@ export class ObjectCasbProfileSaasapplicationAdvancedtenantcontrolAttributeList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol fortimanager_object_casb_profile_saasapplication_advancedtenantcontrol}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol fortimanager_object_casb_profile_saasapplication_advancedtenantcontrol}
 */
 export class ObjectCasbProfileSaasapplicationAdvancedtenantcontrol extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class ObjectCasbProfileSaasapplicationAdvancedtenantcontrol extends cdktf
   * Generates CDKTF code for importing a ObjectCasbProfileSaasapplicationAdvancedtenantcontrol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbProfileSaasapplicationAdvancedtenantcontrol to import
-  * @param importFromId The id of the existing ObjectCasbProfileSaasapplicationAdvancedtenantcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbProfileSaasapplicationAdvancedtenantcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbProfileSaasapplicationAdvancedtenantcontrol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class ObjectCasbProfileSaasapplicationAdvancedtenantcontrol extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol fortimanager_object_casb_profile_saasapplication_advancedtenantcontrol} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_advancedtenantcontrol fortimanager_object_casb_profile_saasapplication_advancedtenantcontrol} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class ObjectCasbProfileSaasapplicationAdvancedtenantcontrol extends cdktf
       terraformResourceType: 'fortimanager_object_casb_profile_saasapplication_advancedtenantcontrol',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

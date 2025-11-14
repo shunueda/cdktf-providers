@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,241 +8,241 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectRouterRoutemapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#adom ObjectRouterRoutemap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#adom ObjectRouterRoutemap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#comments ObjectRouterRoutemap#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#comments ObjectRouterRoutemap#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#dynamic_sort_subtable ObjectRouterRoutemap#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#dynamic_sort_subtable ObjectRouterRoutemap#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#id ObjectRouterRoutemap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#id ObjectRouterRoutemap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#name ObjectRouterRoutemap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#name ObjectRouterRoutemap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#scopetype ObjectRouterRoutemap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#scopetype ObjectRouterRoutemap#scopetype}
   */
   readonly scopetype?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#rule ObjectRouterRoutemap#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#rule ObjectRouterRoutemap#rule}
   */
   readonly rule?: ObjectRouterRoutemapRule[] | cdktf.IResolvable;
 }
 export interface ObjectRouterRoutemapRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#action ObjectRouterRoutemap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#action ObjectRouterRoutemap#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#id ObjectRouterRoutemap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#id ObjectRouterRoutemap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_as_path ObjectRouterRoutemap#match_as_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_as_path ObjectRouterRoutemap#match_as_path}
   */
   readonly matchAsPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_community ObjectRouterRoutemap#match_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_community ObjectRouterRoutemap#match_community}
   */
   readonly matchCommunity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_community_exact ObjectRouterRoutemap#match_community_exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_community_exact ObjectRouterRoutemap#match_community_exact}
   */
   readonly matchCommunityExact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_extcommunity ObjectRouterRoutemap#match_extcommunity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_extcommunity ObjectRouterRoutemap#match_extcommunity}
   */
   readonly matchExtcommunity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_extcommunity_exact ObjectRouterRoutemap#match_extcommunity_exact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_extcommunity_exact ObjectRouterRoutemap#match_extcommunity_exact}
   */
   readonly matchExtcommunityExact?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_flags ObjectRouterRoutemap#match_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_flags ObjectRouterRoutemap#match_flags}
   */
   readonly matchFlags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_interface ObjectRouterRoutemap#match_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_interface ObjectRouterRoutemap#match_interface}
   */
   readonly matchInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_ip6_address ObjectRouterRoutemap#match_ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_ip6_address ObjectRouterRoutemap#match_ip6_address}
   */
   readonly matchIp6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_ip6_nexthop ObjectRouterRoutemap#match_ip6_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_ip6_nexthop ObjectRouterRoutemap#match_ip6_nexthop}
   */
   readonly matchIp6Nexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_ip_address ObjectRouterRoutemap#match_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_ip_address ObjectRouterRoutemap#match_ip_address}
   */
   readonly matchIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_ip_nexthop ObjectRouterRoutemap#match_ip_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_ip_nexthop ObjectRouterRoutemap#match_ip_nexthop}
   */
   readonly matchIpNexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_metric ObjectRouterRoutemap#match_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_metric ObjectRouterRoutemap#match_metric}
   */
   readonly matchMetric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_origin ObjectRouterRoutemap#match_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_origin ObjectRouterRoutemap#match_origin}
   */
   readonly matchOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_route_type ObjectRouterRoutemap#match_route_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_route_type ObjectRouterRoutemap#match_route_type}
   */
   readonly matchRouteType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_tag ObjectRouterRoutemap#match_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_tag ObjectRouterRoutemap#match_tag}
   */
   readonly matchTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#match_vrf ObjectRouterRoutemap#match_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#match_vrf ObjectRouterRoutemap#match_vrf}
   */
   readonly matchVrf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_aggregator_as ObjectRouterRoutemap#set_aggregator_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_aggregator_as ObjectRouterRoutemap#set_aggregator_as}
   */
   readonly setAggregatorAs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_aggregator_ip ObjectRouterRoutemap#set_aggregator_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_aggregator_ip ObjectRouterRoutemap#set_aggregator_ip}
   */
   readonly setAggregatorIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_aspath ObjectRouterRoutemap#set_aspath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_aspath ObjectRouterRoutemap#set_aspath}
   */
   readonly setAspath?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_aspath_action ObjectRouterRoutemap#set_aspath_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_aspath_action ObjectRouterRoutemap#set_aspath_action}
   */
   readonly setAspathAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_atomic_aggregate ObjectRouterRoutemap#set_atomic_aggregate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_atomic_aggregate ObjectRouterRoutemap#set_atomic_aggregate}
   */
   readonly setAtomicAggregate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_community ObjectRouterRoutemap#set_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_community ObjectRouterRoutemap#set_community}
   */
   readonly setCommunity?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_community_additive ObjectRouterRoutemap#set_community_additive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_community_additive ObjectRouterRoutemap#set_community_additive}
   */
   readonly setCommunityAdditive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_community_delete ObjectRouterRoutemap#set_community_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_community_delete ObjectRouterRoutemap#set_community_delete}
   */
   readonly setCommunityDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_dampening_max_suppress ObjectRouterRoutemap#set_dampening_max_suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_dampening_max_suppress ObjectRouterRoutemap#set_dampening_max_suppress}
   */
   readonly setDampeningMaxSuppress?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_dampening_reachability_half_life ObjectRouterRoutemap#set_dampening_reachability_half_life}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_dampening_reachability_half_life ObjectRouterRoutemap#set_dampening_reachability_half_life}
   */
   readonly setDampeningReachabilityHalfLife?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_dampening_reuse ObjectRouterRoutemap#set_dampening_reuse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_dampening_reuse ObjectRouterRoutemap#set_dampening_reuse}
   */
   readonly setDampeningReuse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_dampening_suppress ObjectRouterRoutemap#set_dampening_suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_dampening_suppress ObjectRouterRoutemap#set_dampening_suppress}
   */
   readonly setDampeningSuppress?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_dampening_unreachability_half_life ObjectRouterRoutemap#set_dampening_unreachability_half_life}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_dampening_unreachability_half_life ObjectRouterRoutemap#set_dampening_unreachability_half_life}
   */
   readonly setDampeningUnreachabilityHalfLife?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_extcommunity_rt ObjectRouterRoutemap#set_extcommunity_rt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_extcommunity_rt ObjectRouterRoutemap#set_extcommunity_rt}
   */
   readonly setExtcommunityRt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_extcommunity_soo ObjectRouterRoutemap#set_extcommunity_soo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_extcommunity_soo ObjectRouterRoutemap#set_extcommunity_soo}
   */
   readonly setExtcommunitySoo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_flags ObjectRouterRoutemap#set_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_flags ObjectRouterRoutemap#set_flags}
   */
   readonly setFlags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_ip6_nexthop ObjectRouterRoutemap#set_ip6_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_ip6_nexthop ObjectRouterRoutemap#set_ip6_nexthop}
   */
   readonly setIp6Nexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_ip6_nexthop_local ObjectRouterRoutemap#set_ip6_nexthop_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_ip6_nexthop_local ObjectRouterRoutemap#set_ip6_nexthop_local}
   */
   readonly setIp6NexthopLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_ip_nexthop ObjectRouterRoutemap#set_ip_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_ip_nexthop ObjectRouterRoutemap#set_ip_nexthop}
   */
   readonly setIpNexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_ip_prefsrc ObjectRouterRoutemap#set_ip_prefsrc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_ip_prefsrc ObjectRouterRoutemap#set_ip_prefsrc}
   */
   readonly setIpPrefsrc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_local_preference ObjectRouterRoutemap#set_local_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_local_preference ObjectRouterRoutemap#set_local_preference}
   */
   readonly setLocalPreference?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_metric ObjectRouterRoutemap#set_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_metric ObjectRouterRoutemap#set_metric}
   */
   readonly setMetric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_metric_type ObjectRouterRoutemap#set_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_metric_type ObjectRouterRoutemap#set_metric_type}
   */
   readonly setMetricType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_origin ObjectRouterRoutemap#set_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_origin ObjectRouterRoutemap#set_origin}
   */
   readonly setOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_originator_id ObjectRouterRoutemap#set_originator_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_originator_id ObjectRouterRoutemap#set_originator_id}
   */
   readonly setOriginatorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_priority ObjectRouterRoutemap#set_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_priority ObjectRouterRoutemap#set_priority}
   */
   readonly setPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_route_tag ObjectRouterRoutemap#set_route_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_route_tag ObjectRouterRoutemap#set_route_tag}
   */
   readonly setRouteTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_tag ObjectRouterRoutemap#set_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_tag ObjectRouterRoutemap#set_tag}
   */
   readonly setTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_vpnv4_nexthop ObjectRouterRoutemap#set_vpnv4_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_vpnv4_nexthop ObjectRouterRoutemap#set_vpnv4_nexthop}
   */
   readonly setVpnv4Nexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_vpnv6_nexthop ObjectRouterRoutemap#set_vpnv6_nexthop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_vpnv6_nexthop ObjectRouterRoutemap#set_vpnv6_nexthop}
   */
   readonly setVpnv6Nexthop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_vpnv6_nexthop_local ObjectRouterRoutemap#set_vpnv6_nexthop_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_vpnv6_nexthop_local ObjectRouterRoutemap#set_vpnv6_nexthop_local}
   */
   readonly setVpnv6NexthopLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#set_weight ObjectRouterRoutemap#set_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#set_weight ObjectRouterRoutemap#set_weight}
   */
   readonly setWeight?: string;
 }
@@ -1779,7 +1779,7 @@ export class ObjectRouterRoutemapRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap fortimanager_object_router_routemap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap fortimanager_object_router_routemap}
 */
 export class ObjectRouterRoutemap extends cdktf.TerraformResource {
 
@@ -1795,7 +1795,7 @@ export class ObjectRouterRoutemap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectRouterRoutemap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectRouterRoutemap to import
-  * @param importFromId The id of the existing ObjectRouterRoutemap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectRouterRoutemap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectRouterRoutemap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1807,7 +1807,7 @@ export class ObjectRouterRoutemap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_routemap fortimanager_object_router_routemap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_routemap fortimanager_object_router_routemap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1818,8 +1818,8 @@ export class ObjectRouterRoutemap extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_router_routemap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAntivirusProfileOutbreakpreventionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#adom ObjectAntivirusProfileOutbreakprevention#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#adom ObjectAntivirusProfileOutbreakprevention#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#external_blocklist ObjectAntivirusProfileOutbreakprevention#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#external_blocklist ObjectAntivirusProfileOutbreakprevention#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#ftgd_service ObjectAntivirusProfileOutbreakprevention#ftgd_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#ftgd_service ObjectAntivirusProfileOutbreakprevention#ftgd_service}
   */
   readonly ftgdService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#id ObjectAntivirusProfileOutbreakprevention#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#id ObjectAntivirusProfileOutbreakprevention#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#profile ObjectAntivirusProfileOutbreakprevention#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#profile ObjectAntivirusProfileOutbreakprevention#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#scopetype ObjectAntivirusProfileOutbreakprevention#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#scopetype ObjectAntivirusProfileOutbreakprevention#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention fortimanager_object_antivirus_profile_outbreakprevention}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention fortimanager_object_antivirus_profile_outbreakprevention}
 */
 export class ObjectAntivirusProfileOutbreakprevention extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ObjectAntivirusProfileOutbreakprevention extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ObjectAntivirusProfileOutbreakprevention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAntivirusProfileOutbreakprevention to import
-  * @param importFromId The id of the existing ObjectAntivirusProfileOutbreakprevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAntivirusProfileOutbreakprevention that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAntivirusProfileOutbreakprevention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ObjectAntivirusProfileOutbreakprevention extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_outbreakprevention fortimanager_object_antivirus_profile_outbreakprevention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_outbreakprevention fortimanager_object_antivirus_profile_outbreakprevention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ObjectAntivirusProfileOutbreakprevention extends cdktf.TerraformRes
       terraformResourceType: 'fortimanager_object_antivirus_profile_outbreakprevention',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

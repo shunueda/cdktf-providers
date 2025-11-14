@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SystempSystemReplacemsgAlertmailConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#adom SystempSystemReplacemsgAlertmail#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#adom SystempSystemReplacemsgAlertmail#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#buffer SystempSystemReplacemsgAlertmail#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#buffer SystempSystemReplacemsgAlertmail#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#devprof SystempSystemReplacemsgAlertmail#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#devprof SystempSystemReplacemsgAlertmail#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#format SystempSystemReplacemsgAlertmail#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#format SystempSystemReplacemsgAlertmail#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#header SystempSystemReplacemsgAlertmail#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#header SystempSystemReplacemsgAlertmail#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#id SystempSystemReplacemsgAlertmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#id SystempSystemReplacemsgAlertmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#msg_type SystempSystemReplacemsgAlertmail#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#msg_type SystempSystemReplacemsgAlertmail#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#scopetype SystempSystemReplacemsgAlertmail#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#scopetype SystempSystemReplacemsgAlertmail#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail fortimanager_systemp_system_replacemsg_alertmail}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail fortimanager_systemp_system_replacemsg_alertmail}
 */
 export class SystempSystemReplacemsgAlertmail extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SystempSystemReplacemsgAlertmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempSystemReplacemsgAlertmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempSystemReplacemsgAlertmail to import
-  * @param importFromId The id of the existing SystempSystemReplacemsgAlertmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempSystemReplacemsgAlertmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempSystemReplacemsgAlertmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SystempSystemReplacemsgAlertmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_alertmail fortimanager_systemp_system_replacemsg_alertmail} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_alertmail fortimanager_systemp_system_replacemsg_alertmail} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SystempSystemReplacemsgAlertmail extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_system_replacemsg_alertmail',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

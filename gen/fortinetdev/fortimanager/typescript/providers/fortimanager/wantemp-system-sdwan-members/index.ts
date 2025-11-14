@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface WantempSystemSdwanMembersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#_dynamic_member WantempSystemSdwanMembersA#_dynamic_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#_dynamic_member WantempSystemSdwanMembersA#_dynamic_member}
   */
   readonly dynamicMember?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#adom WantempSystemSdwanMembersA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#adom WantempSystemSdwanMembersA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#comment WantempSystemSdwanMembersA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#comment WantempSystemSdwanMembersA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#cost WantempSystemSdwanMembersA#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#cost WantempSystemSdwanMembersA#cost}
   */
   readonly cost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#gateway WantempSystemSdwanMembersA#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#gateway WantempSystemSdwanMembersA#gateway}
   */
   readonly gateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#gateway6 WantempSystemSdwanMembersA#gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#gateway6 WantempSystemSdwanMembersA#gateway6}
   */
   readonly gateway6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#id WantempSystemSdwanMembersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#id WantempSystemSdwanMembersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#ingress_spillover_threshold WantempSystemSdwanMembersA#ingress_spillover_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#ingress_spillover_threshold WantempSystemSdwanMembersA#ingress_spillover_threshold}
   */
   readonly ingressSpilloverThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#interface WantempSystemSdwanMembersA#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#interface WantempSystemSdwanMembersA#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#preferred_source WantempSystemSdwanMembersA#preferred_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#preferred_source WantempSystemSdwanMembersA#preferred_source}
   */
   readonly preferredSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#priority WantempSystemSdwanMembersA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#priority WantempSystemSdwanMembersA#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#priority6 WantempSystemSdwanMembersA#priority6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#priority6 WantempSystemSdwanMembersA#priority6}
   */
   readonly priority6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#priority_in_sla WantempSystemSdwanMembersA#priority_in_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#priority_in_sla WantempSystemSdwanMembersA#priority_in_sla}
   */
   readonly priorityInSla?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#priority_out_sla WantempSystemSdwanMembersA#priority_out_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#priority_out_sla WantempSystemSdwanMembersA#priority_out_sla}
   */
   readonly priorityOutSla?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#scopetype WantempSystemSdwanMembersA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#scopetype WantempSystemSdwanMembersA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#seq_num WantempSystemSdwanMembersA#seq_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#seq_num WantempSystemSdwanMembersA#seq_num}
   */
   readonly seqNum: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#source WantempSystemSdwanMembersA#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#source WantempSystemSdwanMembersA#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#source6 WantempSystemSdwanMembersA#source6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#source6 WantempSystemSdwanMembersA#source6}
   */
   readonly source6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#spillover_threshold WantempSystemSdwanMembersA#spillover_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#spillover_threshold WantempSystemSdwanMembersA#spillover_threshold}
   */
   readonly spilloverThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#status WantempSystemSdwanMembersA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#status WantempSystemSdwanMembersA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#transport_group WantempSystemSdwanMembersA#transport_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#transport_group WantempSystemSdwanMembersA#transport_group}
   */
   readonly transportGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#volume_ratio WantempSystemSdwanMembersA#volume_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#volume_ratio WantempSystemSdwanMembersA#volume_ratio}
   */
   readonly volumeRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#wanprof WantempSystemSdwanMembersA#wanprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#wanprof WantempSystemSdwanMembersA#wanprof}
   */
   readonly wanprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#weight WantempSystemSdwanMembersA#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#weight WantempSystemSdwanMembersA#weight}
   */
   readonly weight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#zone WantempSystemSdwanMembersA#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#zone WantempSystemSdwanMembersA#zone}
   */
   readonly zone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members fortimanager_wantemp_system_sdwan_members}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members fortimanager_wantemp_system_sdwan_members}
 */
 export class WantempSystemSdwanMembersA extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class WantempSystemSdwanMembersA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WantempSystemSdwanMembersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WantempSystemSdwanMembersA to import
-  * @param importFromId The id of the existing WantempSystemSdwanMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WantempSystemSdwanMembersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WantempSystemSdwanMembersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class WantempSystemSdwanMembersA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_members fortimanager_wantemp_system_sdwan_members} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_members fortimanager_wantemp_system_sdwan_members} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class WantempSystemSdwanMembersA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_wantemp_system_sdwan_members',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

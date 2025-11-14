@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ConversationsMessagingSupportedcontentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#id ConversationsMessagingSupportedcontent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#id ConversationsMessagingSupportedcontent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface ConversationsMessagingSupportedcontentConfig extends cdktf.Terr
   /**
   * The name of the supported content profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#name ConversationsMessagingSupportedcontent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#name ConversationsMessagingSupportedcontent#name}
   */
   readonly name: string;
   /**
   * media_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#media_types ConversationsMessagingSupportedcontent#media_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#media_types ConversationsMessagingSupportedcontent#media_types}
   */
   readonly mediaTypes?: ConversationsMessagingSupportedcontentMediaTypes;
 }
@@ -31,7 +31,7 @@ export interface ConversationsMessagingSupportedcontentMediaTypesAllowInbound {
   /**
   * The media type string as defined by RFC 2046. You can define specific types such as 'image/jpeg', 'video/mpeg', or specify wild cards for a range of types, 'image/*', or all types '* /*'. See https://www.iana.org/assignments/media-types/media-types.xhtml for a list of registered media types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#type ConversationsMessagingSupportedcontent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#type ConversationsMessagingSupportedcontent#type}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -151,7 +151,7 @@ export interface ConversationsMessagingSupportedcontentMediaTypesAllowOutbound {
   /**
   * The media type string as defined by RFC 2046. You can define specific types such as 'image/jpeg', 'video/mpeg', or specify wild cards for a range of types, 'image/*', or all types '* /*'. See https://www.iana.org/assignments/media-types/media-types.xhtml for a list of registered media types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#type ConversationsMessagingSupportedcontent#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#type ConversationsMessagingSupportedcontent#type}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -271,13 +271,13 @@ export interface ConversationsMessagingSupportedcontentMediaTypesAllow {
   /**
   * inbound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#inbound ConversationsMessagingSupportedcontent#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#inbound ConversationsMessagingSupportedcontent#inbound}
   */
   readonly inbound?: ConversationsMessagingSupportedcontentMediaTypesAllowInbound[] | cdktf.IResolvable;
   /**
   * outbound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#outbound ConversationsMessagingSupportedcontent#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#outbound ConversationsMessagingSupportedcontent#outbound}
   */
   readonly outbound?: ConversationsMessagingSupportedcontentMediaTypesAllowOutbound[] | cdktf.IResolvable;
 }
@@ -392,7 +392,7 @@ export interface ConversationsMessagingSupportedcontentMediaTypes {
   /**
   * allow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#allow ConversationsMessagingSupportedcontent#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#allow ConversationsMessagingSupportedcontent#allow}
   */
   readonly allow?: ConversationsMessagingSupportedcontentMediaTypesAllow;
 }
@@ -476,7 +476,7 @@ export class ConversationsMessagingSupportedcontentMediaTypesOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent genesyscloud_conversations_messaging_supportedcontent}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent genesyscloud_conversations_messaging_supportedcontent}
 */
 export class ConversationsMessagingSupportedcontent extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class ConversationsMessagingSupportedcontent extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ConversationsMessagingSupportedcontent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConversationsMessagingSupportedcontent to import
-  * @param importFromId The id of the existing ConversationsMessagingSupportedcontent that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConversationsMessagingSupportedcontent that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConversationsMessagingSupportedcontent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class ConversationsMessagingSupportedcontent extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_supportedcontent genesyscloud_conversations_messaging_supportedcontent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_supportedcontent genesyscloud_conversations_messaging_supportedcontent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class ConversationsMessagingSupportedcontent extends cdktf.TerraformResou
       terraformResourceType: 'genesyscloud_conversations_messaging_supportedcontent',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallSslsshprofileSslexemptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#address ObjectFirewallSslsshprofileSslexempt#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#address ObjectFirewallSslsshprofileSslexempt#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#address6 ObjectFirewallSslsshprofileSslexempt#address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#address6 ObjectFirewallSslsshprofileSslexempt#address6}
   */
   readonly address6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#adom ObjectFirewallSslsshprofileSslexempt#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#adom ObjectFirewallSslsshprofileSslexempt#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#fortiguard_category ObjectFirewallSslsshprofileSslexempt#fortiguard_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#fortiguard_category ObjectFirewallSslsshprofileSslexempt#fortiguard_category}
   */
   readonly fortiguardCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#fosid ObjectFirewallSslsshprofileSslexempt#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#fosid ObjectFirewallSslsshprofileSslexempt#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#id ObjectFirewallSslsshprofileSslexempt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#id ObjectFirewallSslsshprofileSslexempt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#regex ObjectFirewallSslsshprofileSslexempt#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#regex ObjectFirewallSslsshprofileSslexempt#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#scopetype ObjectFirewallSslsshprofileSslexempt#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#scopetype ObjectFirewallSslsshprofileSslexempt#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#ssl_ssh_profile ObjectFirewallSslsshprofileSslexempt#ssl_ssh_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#ssl_ssh_profile ObjectFirewallSslsshprofileSslexempt#ssl_ssh_profile}
   */
   readonly sslSshProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#type ObjectFirewallSslsshprofileSslexempt#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#type ObjectFirewallSslsshprofileSslexempt#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#wildcard_fqdn ObjectFirewallSslsshprofileSslexempt#wildcard_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#wildcard_fqdn ObjectFirewallSslsshprofileSslexempt#wildcard_fqdn}
   */
   readonly wildcardFqdn?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt fortimanager_object_firewall_sslsshprofile_sslexempt}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt fortimanager_object_firewall_sslsshprofile_sslexempt}
 */
 export class ObjectFirewallSslsshprofileSslexempt extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ObjectFirewallSslsshprofileSslexempt extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectFirewallSslsshprofileSslexempt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallSslsshprofileSslexempt to import
-  * @param importFromId The id of the existing ObjectFirewallSslsshprofileSslexempt that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallSslsshprofileSslexempt that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallSslsshprofileSslexempt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ObjectFirewallSslsshprofileSslexempt extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_sslexempt fortimanager_object_firewall_sslsshprofile_sslexempt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_sslexempt fortimanager_object_firewall_sslsshprofile_sslexempt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class ObjectFirewallSslsshprofileSslexempt extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_firewall_sslsshprofile_sslexempt',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

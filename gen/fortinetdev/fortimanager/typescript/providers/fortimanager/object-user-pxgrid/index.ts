@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserPxgridConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#adom ObjectUserPxgrid#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#adom ObjectUserPxgrid#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#ca_cert ObjectUserPxgrid#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#ca_cert ObjectUserPxgrid#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#client_cert ObjectUserPxgrid#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#client_cert ObjectUserPxgrid#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#id ObjectUserPxgrid#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#id ObjectUserPxgrid#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#name ObjectUserPxgrid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#name ObjectUserPxgrid#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#scopetype ObjectUserPxgrid#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#scopetype ObjectUserPxgrid#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#server ObjectUserPxgrid#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#secondary_server ObjectUserPxgrid#secondary_server}
+  */
+  readonly secondaryServer?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#server ObjectUserPxgrid#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#status ObjectUserPxgrid#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#status ObjectUserPxgrid#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid fortimanager_object_user_pxgrid}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid fortimanager_object_user_pxgrid}
 */
 export class ObjectUserPxgrid extends cdktf.TerraformResource {
 
@@ -61,7 +65,7 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserPxgrid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserPxgrid to import
-  * @param importFromId The id of the existing ObjectUserPxgrid that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserPxgrid that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserPxgrid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +77,7 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_pxgrid fortimanager_object_user_pxgrid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_pxgrid fortimanager_object_user_pxgrid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +88,8 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_pxgrid',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -101,6 +105,7 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
     this._id = config.id;
     this._name = config.name;
     this._scopetype = config.scopetype;
+    this._secondaryServer = config.secondaryServer;
     this._server = config.server;
     this._status = config.status;
   }
@@ -205,6 +210,22 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
     return this._scopetype;
   }
 
+  // secondary_server - computed: false, optional: true, required: false
+  private _secondaryServer?: string; 
+  public get secondaryServer() {
+    return this.getStringAttribute('secondary_server');
+  }
+  public set secondaryServer(value: string) {
+    this._secondaryServer = value;
+  }
+  public resetSecondaryServer() {
+    this._secondaryServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get secondaryServerInput() {
+    return this._secondaryServer;
+  }
+
   // server - computed: false, optional: true, required: false
   private _server?: string; 
   public get server() {
@@ -249,6 +270,7 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       scopetype: cdktf.stringToTerraform(this._scopetype),
+      secondary_server: cdktf.stringToTerraform(this._secondaryServer),
       server: cdktf.stringToTerraform(this._server),
       status: cdktf.stringToTerraform(this._status),
     };
@@ -288,6 +310,12 @@ export class ObjectUserPxgrid extends cdktf.TerraformResource {
       },
       scopetype: {
         value: cdktf.stringToHclTerraform(this._scopetype),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      secondary_server: {
+        value: cdktf.stringToHclTerraform(this._secondaryServer),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

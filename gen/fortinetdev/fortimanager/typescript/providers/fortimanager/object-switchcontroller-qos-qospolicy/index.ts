@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerQosQospolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#adom ObjectSwitchcontrollerQosQospolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#adom ObjectSwitchcontrollerQosQospolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#default_cos ObjectSwitchcontrollerQosQospolicy#default_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#default_cos ObjectSwitchcontrollerQosQospolicy#default_cos}
   */
   readonly defaultCos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#id ObjectSwitchcontrollerQosQospolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#id ObjectSwitchcontrollerQosQospolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#name ObjectSwitchcontrollerQosQospolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#name ObjectSwitchcontrollerQosQospolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#queue_policy ObjectSwitchcontrollerQosQospolicy#queue_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#queue_policy ObjectSwitchcontrollerQosQospolicy#queue_policy}
   */
   readonly queuePolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#scopetype ObjectSwitchcontrollerQosQospolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#scopetype ObjectSwitchcontrollerQosQospolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#trust_dot1p_map ObjectSwitchcontrollerQosQospolicy#trust_dot1p_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#trust_dot1p_map ObjectSwitchcontrollerQosQospolicy#trust_dot1p_map}
   */
   readonly trustDot1PMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#trust_ip_dscp_map ObjectSwitchcontrollerQosQospolicy#trust_ip_dscp_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#trust_ip_dscp_map ObjectSwitchcontrollerQosQospolicy#trust_ip_dscp_map}
   */
   readonly trustIpDscpMap?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy fortimanager_object_switchcontroller_qos_qospolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy fortimanager_object_switchcontroller_qos_qospolicy}
 */
 export class ObjectSwitchcontrollerQosQospolicy extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectSwitchcontrollerQosQospolicy extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectSwitchcontrollerQosQospolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerQosQospolicy to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerQosQospolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerQosQospolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerQosQospolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectSwitchcontrollerQosQospolicy extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_qospolicy fortimanager_object_switchcontroller_qos_qospolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_qospolicy fortimanager_object_switchcontroller_qos_qospolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectSwitchcontrollerQosQospolicy extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_qospolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

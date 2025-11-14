@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuDosoptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#adom ObjectSystemNpuDosoptions#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#adom ObjectSystemNpuDosoptions#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#id ObjectSystemNpuDosoptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#id ObjectSystemNpuDosoptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#npu_dos_meter_mode ObjectSystemNpuDosoptions#npu_dos_meter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#npu_dos_meter_mode ObjectSystemNpuDosoptions#npu_dos_meter_mode}
   */
   readonly npuDosMeterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#npu_dos_synproxy_mode ObjectSystemNpuDosoptions#npu_dos_synproxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#npu_dos_synproxy_mode ObjectSystemNpuDosoptions#npu_dos_synproxy_mode}
   */
   readonly npuDosSynproxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#npu_dos_tpe_mode ObjectSystemNpuDosoptions#npu_dos_tpe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#npu_dos_tpe_mode ObjectSystemNpuDosoptions#npu_dos_tpe_mode}
   */
   readonly npuDosTpeMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#scopetype ObjectSystemNpuDosoptions#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#scopetype ObjectSystemNpuDosoptions#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions fortimanager_object_system_npu_dosoptions}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions fortimanager_object_system_npu_dosoptions}
 */
 export class ObjectSystemNpuDosoptions extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ObjectSystemNpuDosoptions extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuDosoptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuDosoptions to import
-  * @param importFromId The id of the existing ObjectSystemNpuDosoptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuDosoptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuDosoptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ObjectSystemNpuDosoptions extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_dosoptions fortimanager_object_system_npu_dosoptions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_dosoptions fortimanager_object_system_npu_dosoptions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ObjectSystemNpuDosoptions extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_dosoptions',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,176 +8,176 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20HsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_asra ObjectWirelesscontrollerHotspot20Hsprofile#access_network_asra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_asra ObjectWirelesscontrollerHotspot20Hsprofile#access_network_asra}
   */
   readonly accessNetworkAsra?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_esr ObjectWirelesscontrollerHotspot20Hsprofile#access_network_esr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_esr ObjectWirelesscontrollerHotspot20Hsprofile#access_network_esr}
   */
   readonly accessNetworkEsr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_internet ObjectWirelesscontrollerHotspot20Hsprofile#access_network_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_internet ObjectWirelesscontrollerHotspot20Hsprofile#access_network_internet}
   */
   readonly accessNetworkInternet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_type ObjectWirelesscontrollerHotspot20Hsprofile#access_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_type ObjectWirelesscontrollerHotspot20Hsprofile#access_network_type}
   */
   readonly accessNetworkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_uesa ObjectWirelesscontrollerHotspot20Hsprofile#access_network_uesa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#access_network_uesa ObjectWirelesscontrollerHotspot20Hsprofile#access_network_uesa}
   */
   readonly accessNetworkUesa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#adom ObjectWirelesscontrollerHotspot20Hsprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#adom ObjectWirelesscontrollerHotspot20Hsprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#advice_of_charge ObjectWirelesscontrollerHotspot20Hsprofile#advice_of_charge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#advice_of_charge ObjectWirelesscontrollerHotspot20Hsprofile#advice_of_charge}
   */
   readonly adviceOfCharge?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#anqp_domain_id ObjectWirelesscontrollerHotspot20Hsprofile#anqp_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#anqp_domain_id ObjectWirelesscontrollerHotspot20Hsprofile#anqp_domain_id}
   */
   readonly anqpDomainId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#bss_transition ObjectWirelesscontrollerHotspot20Hsprofile#bss_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#bss_transition ObjectWirelesscontrollerHotspot20Hsprofile#bss_transition}
   */
   readonly bssTransition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#conn_cap ObjectWirelesscontrollerHotspot20Hsprofile#conn_cap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#conn_cap ObjectWirelesscontrollerHotspot20Hsprofile#conn_cap}
   */
   readonly connCap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#deauth_request_timeout ObjectWirelesscontrollerHotspot20Hsprofile#deauth_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#deauth_request_timeout ObjectWirelesscontrollerHotspot20Hsprofile#deauth_request_timeout}
   */
   readonly deauthRequestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#dgaf ObjectWirelesscontrollerHotspot20Hsprofile#dgaf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#dgaf ObjectWirelesscontrollerHotspot20Hsprofile#dgaf}
   */
   readonly dgaf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#domain_name ObjectWirelesscontrollerHotspot20Hsprofile#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#domain_name ObjectWirelesscontrollerHotspot20Hsprofile#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#gas_comeback_delay ObjectWirelesscontrollerHotspot20Hsprofile#gas_comeback_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#gas_comeback_delay ObjectWirelesscontrollerHotspot20Hsprofile#gas_comeback_delay}
   */
   readonly gasComebackDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#gas_fragmentation_limit ObjectWirelesscontrollerHotspot20Hsprofile#gas_fragmentation_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#gas_fragmentation_limit ObjectWirelesscontrollerHotspot20Hsprofile#gas_fragmentation_limit}
   */
   readonly gasFragmentationLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#hessid ObjectWirelesscontrollerHotspot20Hsprofile#hessid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#hessid ObjectWirelesscontrollerHotspot20Hsprofile#hessid}
   */
   readonly hessid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#id ObjectWirelesscontrollerHotspot20Hsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#id ObjectWirelesscontrollerHotspot20Hsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#ip_addr_type ObjectWirelesscontrollerHotspot20Hsprofile#ip_addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#ip_addr_type ObjectWirelesscontrollerHotspot20Hsprofile#ip_addr_type}
   */
   readonly ipAddrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#l2tif ObjectWirelesscontrollerHotspot20Hsprofile#l2tif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#l2tif ObjectWirelesscontrollerHotspot20Hsprofile#l2tif}
   */
   readonly l2Tif?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#n3gpp_plmn ObjectWirelesscontrollerHotspot20Hsprofile#n3gpp_plmn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#n3gpp_plmn ObjectWirelesscontrollerHotspot20Hsprofile#n3gpp_plmn}
   */
   readonly n3GppPlmn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#nai_realm ObjectWirelesscontrollerHotspot20Hsprofile#nai_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#nai_realm ObjectWirelesscontrollerHotspot20Hsprofile#nai_realm}
   */
   readonly naiRealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#name ObjectWirelesscontrollerHotspot20Hsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#name ObjectWirelesscontrollerHotspot20Hsprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#network_auth ObjectWirelesscontrollerHotspot20Hsprofile#network_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#network_auth ObjectWirelesscontrollerHotspot20Hsprofile#network_auth}
   */
   readonly networkAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#oper_friendly_name ObjectWirelesscontrollerHotspot20Hsprofile#oper_friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#oper_friendly_name ObjectWirelesscontrollerHotspot20Hsprofile#oper_friendly_name}
   */
   readonly operFriendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#oper_icon ObjectWirelesscontrollerHotspot20Hsprofile#oper_icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#oper_icon ObjectWirelesscontrollerHotspot20Hsprofile#oper_icon}
   */
   readonly operIcon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_provider ObjectWirelesscontrollerHotspot20Hsprofile#osu_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_provider ObjectWirelesscontrollerHotspot20Hsprofile#osu_provider}
   */
   readonly osuProvider?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_provider_nai ObjectWirelesscontrollerHotspot20Hsprofile#osu_provider_nai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_provider_nai ObjectWirelesscontrollerHotspot20Hsprofile#osu_provider_nai}
   */
   readonly osuProviderNai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_ssid ObjectWirelesscontrollerHotspot20Hsprofile#osu_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#osu_ssid ObjectWirelesscontrollerHotspot20Hsprofile#osu_ssid}
   */
   readonly osuSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#pame_bi ObjectWirelesscontrollerHotspot20Hsprofile#pame_bi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#pame_bi ObjectWirelesscontrollerHotspot20Hsprofile#pame_bi}
   */
   readonly pameBi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#proxy_arp ObjectWirelesscontrollerHotspot20Hsprofile#proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#proxy_arp ObjectWirelesscontrollerHotspot20Hsprofile#proxy_arp}
   */
   readonly proxyArp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#qos_map ObjectWirelesscontrollerHotspot20Hsprofile#qos_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#qos_map ObjectWirelesscontrollerHotspot20Hsprofile#qos_map}
   */
   readonly qosMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#release ObjectWirelesscontrollerHotspot20Hsprofile#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#release ObjectWirelesscontrollerHotspot20Hsprofile#release}
   */
   readonly release?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#roaming_consortium ObjectWirelesscontrollerHotspot20Hsprofile#roaming_consortium}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#roaming_consortium ObjectWirelesscontrollerHotspot20Hsprofile#roaming_consortium}
   */
   readonly roamingConsortium?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#scopetype ObjectWirelesscontrollerHotspot20Hsprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#scopetype ObjectWirelesscontrollerHotspot20Hsprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#terms_and_conditions ObjectWirelesscontrollerHotspot20Hsprofile#terms_and_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#terms_and_conditions ObjectWirelesscontrollerHotspot20Hsprofile#terms_and_conditions}
   */
   readonly termsAndConditions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_group ObjectWirelesscontrollerHotspot20Hsprofile#venue_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_group ObjectWirelesscontrollerHotspot20Hsprofile#venue_group}
   */
   readonly venueGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_name ObjectWirelesscontrollerHotspot20Hsprofile#venue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_name ObjectWirelesscontrollerHotspot20Hsprofile#venue_name}
   */
   readonly venueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_type ObjectWirelesscontrollerHotspot20Hsprofile#venue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_type ObjectWirelesscontrollerHotspot20Hsprofile#venue_type}
   */
   readonly venueType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_url ObjectWirelesscontrollerHotspot20Hsprofile#venue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#venue_url ObjectWirelesscontrollerHotspot20Hsprofile#venue_url}
   */
   readonly venueUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#wan_metrics ObjectWirelesscontrollerHotspot20Hsprofile#wan_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#wan_metrics ObjectWirelesscontrollerHotspot20Hsprofile#wan_metrics}
   */
   readonly wanMetrics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#wnm_sleep_mode ObjectWirelesscontrollerHotspot20Hsprofile#wnm_sleep_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#wnm_sleep_mode ObjectWirelesscontrollerHotspot20Hsprofile#wnm_sleep_mode}
   */
   readonly wnmSleepMode?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile fortimanager_object_wirelesscontroller_hotspot20_hsprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile fortimanager_object_wirelesscontroller_hotspot20_hsprofile}
 */
 export class ObjectWirelesscontrollerHotspot20Hsprofile extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class ObjectWirelesscontrollerHotspot20Hsprofile extends cdktf.TerraformR
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20Hsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20Hsprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Hsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Hsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20Hsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class ObjectWirelesscontrollerHotspot20Hsprofile extends cdktf.TerraformR
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile fortimanager_object_wirelesscontroller_hotspot20_hsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_hsprofile fortimanager_object_wirelesscontroller_hotspot20_hsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class ObjectWirelesscontrollerHotspot20Hsprofile extends cdktf.TerraformR
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_hsprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

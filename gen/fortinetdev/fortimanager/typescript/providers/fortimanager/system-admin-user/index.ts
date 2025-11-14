@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,324 +8,328 @@ import * as cdktf from 'cdktf';
 
 export interface SystemAdminUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#adom_access SystemAdminUser#adom_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#adom_access SystemAdminUser#adom_access}
   */
   readonly adomAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#avatar SystemAdminUser#avatar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#avatar SystemAdminUser#avatar}
   */
   readonly avatar?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ca SystemAdminUser#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ca SystemAdminUser#ca}
   */
   readonly ca?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#change_password SystemAdminUser#change_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#change_password SystemAdminUser#change_password}
   */
   readonly changePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#cors_allow_origin SystemAdminUser#cors_allow_origin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#cors_allow_origin SystemAdminUser#cors_allow_origin}
   */
   readonly corsAllowOrigin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#description SystemAdminUser#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#description SystemAdminUser#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#dev_group SystemAdminUser#dev_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#dev_group SystemAdminUser#dev_group}
   */
   readonly devGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#dynamic_sort_subtable SystemAdminUser#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#dynamic_sort_subtable SystemAdminUser#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#email_address SystemAdminUser#email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#email_address SystemAdminUser#email_address}
   */
   readonly emailAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ext_auth_accprofile_override SystemAdminUser#ext_auth_accprofile_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ext_auth_accprofile_override SystemAdminUser#ext_auth_accprofile_override}
   */
   readonly extAuthAccprofileOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ext_auth_adom_override SystemAdminUser#ext_auth_adom_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ext_auth_adom_override SystemAdminUser#ext_auth_adom_override}
   */
   readonly extAuthAdomOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ext_auth_group_match SystemAdminUser#ext_auth_group_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ext_auth_group_match SystemAdminUser#ext_auth_group_match}
   */
   readonly extAuthGroupMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fingerprint SystemAdminUser#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fingerprint SystemAdminUser#fingerprint}
   */
   readonly fingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#first_name SystemAdminUser#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#first_name SystemAdminUser#first_name}
   */
   readonly firstName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#force_password_change SystemAdminUser#force_password_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#force_password_change SystemAdminUser#force_password_change}
   */
   readonly forcePasswordChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fortiai SystemAdminUser#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fortiai SystemAdminUser#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#group SystemAdminUser#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#group SystemAdminUser#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#hidden SystemAdminUser#hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#hidden SystemAdminUser#hidden}
   */
   readonly hidden?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#id SystemAdminUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#id SystemAdminUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost1 SystemAdminUser#ipv6_trusthost1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost1 SystemAdminUser#ipv6_trusthost1}
   */
   readonly ipv6Trusthost1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost10 SystemAdminUser#ipv6_trusthost10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost10 SystemAdminUser#ipv6_trusthost10}
   */
   readonly ipv6Trusthost10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost2 SystemAdminUser#ipv6_trusthost2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost2 SystemAdminUser#ipv6_trusthost2}
   */
   readonly ipv6Trusthost2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost3 SystemAdminUser#ipv6_trusthost3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost3 SystemAdminUser#ipv6_trusthost3}
   */
   readonly ipv6Trusthost3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost4 SystemAdminUser#ipv6_trusthost4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost4 SystemAdminUser#ipv6_trusthost4}
   */
   readonly ipv6Trusthost4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost5 SystemAdminUser#ipv6_trusthost5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost5 SystemAdminUser#ipv6_trusthost5}
   */
   readonly ipv6Trusthost5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost6 SystemAdminUser#ipv6_trusthost6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost6 SystemAdminUser#ipv6_trusthost6}
   */
   readonly ipv6Trusthost6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost7 SystemAdminUser#ipv6_trusthost7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost7 SystemAdminUser#ipv6_trusthost7}
   */
   readonly ipv6Trusthost7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost8 SystemAdminUser#ipv6_trusthost8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost8 SystemAdminUser#ipv6_trusthost8}
   */
   readonly ipv6Trusthost8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ipv6_trusthost9 SystemAdminUser#ipv6_trusthost9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ipv6_trusthost9 SystemAdminUser#ipv6_trusthost9}
   */
   readonly ipv6Trusthost9?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#last_name SystemAdminUser#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#last_name SystemAdminUser#last_name}
   */
   readonly lastName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ldap_server SystemAdminUser#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ldap_server SystemAdminUser#ldap_server}
   */
   readonly ldapServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#login_max SystemAdminUser#login_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#login_max SystemAdminUser#login_max}
   */
   readonly loginMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#mobile_number SystemAdminUser#mobile_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#mobile_number SystemAdminUser#mobile_number}
   */
   readonly mobileNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#pager_number SystemAdminUser#pager_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#old_password SystemAdminUser#old_password}
+  */
+  readonly oldPassword?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#pager_number SystemAdminUser#pager_number}
   */
   readonly pagerNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#password SystemAdminUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#password SystemAdminUser#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#password_expire SystemAdminUser#password_expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#password_expire SystemAdminUser#password_expire}
   */
   readonly passwordExpire?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#phone_number SystemAdminUser#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#phone_number SystemAdminUser#phone_number}
   */
   readonly phoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#profileid SystemAdminUser#profileid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#profileid SystemAdminUser#profileid}
   */
   readonly profileid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#radius_server SystemAdminUser#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#radius_server SystemAdminUser#radius_server}
   */
   readonly radiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#rpc_permit SystemAdminUser#rpc_permit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#rpc_permit SystemAdminUser#rpc_permit}
   */
   readonly rpcPermit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ssh_public_key1 SystemAdminUser#ssh_public_key1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ssh_public_key1 SystemAdminUser#ssh_public_key1}
   */
   readonly sshPublicKey1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ssh_public_key2 SystemAdminUser#ssh_public_key2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ssh_public_key2 SystemAdminUser#ssh_public_key2}
   */
   readonly sshPublicKey2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ssh_public_key3 SystemAdminUser#ssh_public_key3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ssh_public_key3 SystemAdminUser#ssh_public_key3}
   */
   readonly sshPublicKey3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#subject SystemAdminUser#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#subject SystemAdminUser#subject}
   */
   readonly subject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#tacacs_plus_server SystemAdminUser#tacacs_plus_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#tacacs_plus_server SystemAdminUser#tacacs_plus_server}
   */
   readonly tacacsPlusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#th6_from_profile SystemAdminUser#th6_from_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#th6_from_profile SystemAdminUser#th6_from_profile}
   */
   readonly th6FromProfile?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#th_from_profile SystemAdminUser#th_from_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#th_from_profile SystemAdminUser#th_from_profile}
   */
   readonly thFromProfile?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost1 SystemAdminUser#trusthost1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost1 SystemAdminUser#trusthost1}
   */
   readonly trusthost1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost10 SystemAdminUser#trusthost10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost10 SystemAdminUser#trusthost10}
   */
   readonly trusthost10?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost2 SystemAdminUser#trusthost2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost2 SystemAdminUser#trusthost2}
   */
   readonly trusthost2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost3 SystemAdminUser#trusthost3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost3 SystemAdminUser#trusthost3}
   */
   readonly trusthost3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost4 SystemAdminUser#trusthost4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost4 SystemAdminUser#trusthost4}
   */
   readonly trusthost4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost5 SystemAdminUser#trusthost5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost5 SystemAdminUser#trusthost5}
   */
   readonly trusthost5?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost6 SystemAdminUser#trusthost6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost6 SystemAdminUser#trusthost6}
   */
   readonly trusthost6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost7 SystemAdminUser#trusthost7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost7 SystemAdminUser#trusthost7}
   */
   readonly trusthost7?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost8 SystemAdminUser#trusthost8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost8 SystemAdminUser#trusthost8}
   */
   readonly trusthost8?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#trusthost9 SystemAdminUser#trusthost9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#trusthost9 SystemAdminUser#trusthost9}
   */
   readonly trusthost9?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#two_factor_auth SystemAdminUser#two_factor_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#two_factor_auth SystemAdminUser#two_factor_auth}
   */
   readonly twoFactorAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#use_global_theme SystemAdminUser#use_global_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#use_global_theme SystemAdminUser#use_global_theme}
   */
   readonly useGlobalTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#user_theme SystemAdminUser#user_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#user_theme SystemAdminUser#user_theme}
   */
   readonly userTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#user_type SystemAdminUser#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#user_type SystemAdminUser#user_type}
   */
   readonly userType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#userid SystemAdminUser#userid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#userid SystemAdminUser#userid}
   */
   readonly userid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#wildcard SystemAdminUser#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#wildcard SystemAdminUser#wildcard}
   */
   readonly wildcard?: string;
   /**
   * adom_exclude block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#adom_exclude SystemAdminUser#adom_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#adom_exclude SystemAdminUser#adom_exclude}
   */
   readonly adomExclude?: SystemAdminUserAdomExclude[] | cdktf.IResolvable;
   /**
   * app_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#app_filter SystemAdminUser#app_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#app_filter SystemAdminUser#app_filter}
   */
   readonly appFilter?: SystemAdminUserAppFilter[] | cdktf.IResolvable;
   /**
   * dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#dashboard SystemAdminUser#dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#dashboard SystemAdminUser#dashboard}
   */
   readonly dashboard?: SystemAdminUserDashboard[] | cdktf.IResolvable;
   /**
   * dashboard_tabs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#dashboard_tabs SystemAdminUser#dashboard_tabs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#dashboard_tabs SystemAdminUser#dashboard_tabs}
   */
   readonly dashboardTabs?: SystemAdminUserDashboardTabs[] | cdktf.IResolvable;
   /**
   * fmgadom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fmgadom SystemAdminUser#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fmgadom SystemAdminUser#fmgadom}
   */
   readonly fmgadom?: SystemAdminUserFmgadom[] | cdktf.IResolvable;
   /**
   * ips_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ips_filter SystemAdminUser#ips_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ips_filter SystemAdminUser#ips_filter}
   */
   readonly ipsFilter?: SystemAdminUserIpsFilter[] | cdktf.IResolvable;
   /**
   * meta_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#meta_data SystemAdminUser#meta_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#meta_data SystemAdminUser#meta_data}
   */
   readonly metaData?: SystemAdminUserMetaData[] | cdktf.IResolvable;
   /**
   * policy_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#policy_block SystemAdminUser#policy_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#policy_block SystemAdminUser#policy_block}
   */
   readonly policyBlock?: SystemAdminUserPolicyBlock[] | cdktf.IResolvable;
   /**
   * policy_package block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#policy_package SystemAdminUser#policy_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#policy_package SystemAdminUser#policy_package}
   */
   readonly policyPackage?: SystemAdminUserPolicyPackage[] | cdktf.IResolvable;
   /**
   * web_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#web_filter SystemAdminUser#web_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#web_filter SystemAdminUser#web_filter}
   */
   readonly webFilter?: SystemAdminUserWebFilter[] | cdktf.IResolvable;
 }
 export interface SystemAdminUserAdomExclude {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#adom_name SystemAdminUser#adom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#adom_name SystemAdminUser#adom_name}
   */
   readonly adomName?: string;
 }
@@ -441,7 +445,7 @@ export class SystemAdminUserAdomExcludeList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserAppFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#app_filter_name SystemAdminUser#app_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#app_filter_name SystemAdminUser#app_filter_name}
   */
   readonly appFilterName?: string;
 }
@@ -557,71 +561,71 @@ export class SystemAdminUserAppFilterList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserDashboard {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#column SystemAdminUser#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#column SystemAdminUser#column}
   */
   readonly column?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#diskio_content_type SystemAdminUser#diskio_content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#diskio_content_type SystemAdminUser#diskio_content_type}
   */
   readonly diskioContentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#diskio_period SystemAdminUser#diskio_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#diskio_period SystemAdminUser#diskio_period}
   */
   readonly diskioPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#log_rate_period SystemAdminUser#log_rate_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#log_rate_period SystemAdminUser#log_rate_period}
   */
   readonly logRatePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#log_rate_topn SystemAdminUser#log_rate_topn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#log_rate_topn SystemAdminUser#log_rate_topn}
   */
   readonly logRateTopn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#log_rate_type SystemAdminUser#log_rate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#log_rate_type SystemAdminUser#log_rate_type}
   */
   readonly logRateType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#moduleid SystemAdminUser#moduleid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#moduleid SystemAdminUser#moduleid}
   */
   readonly moduleid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#name SystemAdminUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#name SystemAdminUser#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#num_entries SystemAdminUser#num_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#num_entries SystemAdminUser#num_entries}
   */
   readonly numEntries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#refresh_interval SystemAdminUser#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#refresh_interval SystemAdminUser#refresh_interval}
   */
   readonly refreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#res_cpu_display SystemAdminUser#res_cpu_display}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#res_cpu_display SystemAdminUser#res_cpu_display}
   */
   readonly resCpuDisplay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#res_period SystemAdminUser#res_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#res_period SystemAdminUser#res_period}
   */
   readonly resPeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#res_view_type SystemAdminUser#res_view_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#res_view_type SystemAdminUser#res_view_type}
   */
   readonly resViewType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#status SystemAdminUser#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#status SystemAdminUser#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#tabid SystemAdminUser#tabid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#tabid SystemAdminUser#tabid}
   */
   readonly tabid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#time_period SystemAdminUser#time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#time_period SystemAdminUser#time_period}
   */
   readonly timePeriod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#widget_type SystemAdminUser#widget_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#widget_type SystemAdminUser#widget_type}
   */
   readonly widgetType?: string;
 }
@@ -1201,11 +1205,11 @@ export class SystemAdminUserDashboardList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserDashboardTabs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#name SystemAdminUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#name SystemAdminUser#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#tabid SystemAdminUser#tabid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#tabid SystemAdminUser#tabid}
   */
   readonly tabid?: number;
 }
@@ -1350,7 +1354,7 @@ export class SystemAdminUserDashboardTabsList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserFmgadom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#adom_name SystemAdminUser#adom_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#adom_name SystemAdminUser#adom_name}
   */
   readonly adomName?: string;
 }
@@ -1466,7 +1470,7 @@ export class SystemAdminUserFmgadomList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserIpsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#ips_filter_name SystemAdminUser#ips_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#ips_filter_name SystemAdminUser#ips_filter_name}
   */
   readonly ipsFilterName?: string;
 }
@@ -1582,23 +1586,23 @@ export class SystemAdminUserIpsFilterList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserMetaData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fieldlength SystemAdminUser#fieldlength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fieldlength SystemAdminUser#fieldlength}
   */
   readonly fieldlength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fieldname SystemAdminUser#fieldname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fieldname SystemAdminUser#fieldname}
   */
   readonly fieldname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#fieldvalue SystemAdminUser#fieldvalue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#fieldvalue SystemAdminUser#fieldvalue}
   */
   readonly fieldvalue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#importance SystemAdminUser#importance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#importance SystemAdminUser#importance}
   */
   readonly importance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#status SystemAdminUser#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#status SystemAdminUser#status}
   */
   readonly status?: string;
 }
@@ -1830,7 +1834,7 @@ export class SystemAdminUserMetaDataList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserPolicyBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#policy_block_name SystemAdminUser#policy_block_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#policy_block_name SystemAdminUser#policy_block_name}
   */
   readonly policyBlockName?: string;
 }
@@ -1946,7 +1950,7 @@ export class SystemAdminUserPolicyBlockList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserPolicyPackage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#policy_package_name SystemAdminUser#policy_package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#policy_package_name SystemAdminUser#policy_package_name}
   */
   readonly policyPackageName?: string;
 }
@@ -2062,7 +2066,7 @@ export class SystemAdminUserPolicyPackageList extends cdktf.ComplexList {
 }
 export interface SystemAdminUserWebFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#web_filter_name SystemAdminUser#web_filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#web_filter_name SystemAdminUser#web_filter_name}
   */
   readonly webFilterName?: string;
 }
@@ -2178,7 +2182,7 @@ export class SystemAdminUserWebFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user fortimanager_system_admin_user}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user fortimanager_system_admin_user}
 */
 export class SystemAdminUser extends cdktf.TerraformResource {
 
@@ -2194,7 +2198,7 @@ export class SystemAdminUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemAdminUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAdminUser to import
-  * @param importFromId The id of the existing SystemAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAdminUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAdminUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2206,7 +2210,7 @@ export class SystemAdminUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_admin_user fortimanager_system_admin_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_admin_user fortimanager_system_admin_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2217,8 +2221,8 @@ export class SystemAdminUser extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_admin_user',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2261,6 +2265,7 @@ export class SystemAdminUser extends cdktf.TerraformResource {
     this._ldapServer = config.ldapServer;
     this._loginMax = config.loginMax;
     this._mobileNumber = config.mobileNumber;
+    this._oldPassword = config.oldPassword;
     this._pagerNumber = config.pagerNumber;
     this._password = config.password;
     this._passwordExpire = config.passwordExpire;
@@ -2833,6 +2838,22 @@ export class SystemAdminUser extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get mobileNumberInput() {
     return this._mobileNumber;
+  }
+
+  // old_password - computed: false, optional: true, required: false
+  private _oldPassword?: string; 
+  public get oldPassword() {
+    return this.getStringAttribute('old_password');
+  }
+  public set oldPassword(value: string) {
+    this._oldPassword = value;
+  }
+  public resetOldPassword() {
+    this._oldPassword = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get oldPasswordInput() {
+    return this._oldPassword;
   }
 
   // pager_number - computed: false, optional: true, required: false
@@ -3514,6 +3535,7 @@ export class SystemAdminUser extends cdktf.TerraformResource {
       ldap_server: cdktf.stringToTerraform(this._ldapServer),
       login_max: cdktf.numberToTerraform(this._loginMax),
       mobile_number: cdktf.stringToTerraform(this._mobileNumber),
+      old_password: cdktf.stringToTerraform(this._oldPassword),
       pager_number: cdktf.stringToTerraform(this._pagerNumber),
       password: cdktf.listMapper(cdktf.stringToTerraform, false)(this._password),
       password_expire: cdktf.stringToTerraform(this._passwordExpire),
@@ -3753,6 +3775,12 @@ export class SystemAdminUser extends cdktf.TerraformResource {
       },
       mobile_number: {
         value: cdktf.stringToHclTerraform(this._mobileNumber),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      old_password: {
+        value: cdktf.stringToHclTerraform(this._oldPassword),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

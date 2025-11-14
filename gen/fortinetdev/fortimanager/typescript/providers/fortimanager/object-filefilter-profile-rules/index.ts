@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFilefilterProfileRulesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#action ObjectFilefilterProfileRulesA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#action ObjectFilefilterProfileRulesA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#adom ObjectFilefilterProfileRulesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#adom ObjectFilefilterProfileRulesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#comment ObjectFilefilterProfileRulesA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#comment ObjectFilefilterProfileRulesA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#direction ObjectFilefilterProfileRulesA#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#direction ObjectFilefilterProfileRulesA#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#file_type ObjectFilefilterProfileRulesA#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#file_type ObjectFilefilterProfileRulesA#file_type}
   */
   readonly fileType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#id ObjectFilefilterProfileRulesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#id ObjectFilefilterProfileRulesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#name ObjectFilefilterProfileRulesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#name ObjectFilefilterProfileRulesA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#password_protected ObjectFilefilterProfileRulesA#password_protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#password_protected ObjectFilefilterProfileRulesA#password_protected}
   */
   readonly passwordProtected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#profile ObjectFilefilterProfileRulesA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#profile ObjectFilefilterProfileRulesA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#protocol ObjectFilefilterProfileRulesA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#protocol ObjectFilefilterProfileRulesA#protocol}
   */
   readonly protocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#scopetype ObjectFilefilterProfileRulesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#scopetype ObjectFilefilterProfileRulesA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules fortimanager_object_filefilter_profile_rules}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules fortimanager_object_filefilter_profile_rules}
 */
 export class ObjectFilefilterProfileRulesA extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ObjectFilefilterProfileRulesA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFilefilterProfileRulesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFilefilterProfileRulesA to import
-  * @param importFromId The id of the existing ObjectFilefilterProfileRulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFilefilterProfileRulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFilefilterProfileRulesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ObjectFilefilterProfileRulesA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_filefilter_profile_rules fortimanager_object_filefilter_profile_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_filefilter_profile_rules fortimanager_object_filefilter_profile_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class ObjectFilefilterProfileRulesA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_filefilter_profile_rules',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

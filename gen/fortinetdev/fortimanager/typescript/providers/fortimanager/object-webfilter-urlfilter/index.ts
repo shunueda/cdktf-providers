@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,97 +8,105 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebfilterUrlfilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#adom ObjectWebfilterUrlfilter#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#adom ObjectWebfilterUrlfilter#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#comment ObjectWebfilterUrlfilter#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#comment ObjectWebfilterUrlfilter#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#dynamic_sort_subtable ObjectWebfilterUrlfilter#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#dynamic_sort_subtable ObjectWebfilterUrlfilter#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#fosid ObjectWebfilterUrlfilter#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#fosid ObjectWebfilterUrlfilter#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#id ObjectWebfilterUrlfilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#id ObjectWebfilterUrlfilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#ip4_mapped_ip6 ObjectWebfilterUrlfilter#ip4_mapped_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#include_subdomains ObjectWebfilterUrlfilter#include_subdomains}
+  */
+  readonly includeSubdomains?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#ip4_mapped_ip6 ObjectWebfilterUrlfilter#ip4_mapped_ip6}
   */
   readonly ip4MappedIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#ip_addr_block ObjectWebfilterUrlfilter#ip_addr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#ip_addr_block ObjectWebfilterUrlfilter#ip_addr_block}
   */
   readonly ipAddrBlock?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#name ObjectWebfilterUrlfilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#name ObjectWebfilterUrlfilter#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#one_arm_ips_urlfilter ObjectWebfilterUrlfilter#one_arm_ips_urlfilter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#one_arm_ips_urlfilter ObjectWebfilterUrlfilter#one_arm_ips_urlfilter}
   */
   readonly oneArmIpsUrlfilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#scopetype ObjectWebfilterUrlfilter#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#scopetype ObjectWebfilterUrlfilter#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#entries ObjectWebfilterUrlfilter#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#entries ObjectWebfilterUrlfilter#entries}
   */
   readonly entries?: ObjectWebfilterUrlfilterEntries[] | cdktf.IResolvable;
 }
 export interface ObjectWebfilterUrlfilterEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#action ObjectWebfilterUrlfilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#action ObjectWebfilterUrlfilter#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#antiphish_action ObjectWebfilterUrlfilter#antiphish_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#antiphish_action ObjectWebfilterUrlfilter#antiphish_action}
   */
   readonly antiphishAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#dns_address_family ObjectWebfilterUrlfilter#dns_address_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#comment ObjectWebfilterUrlfilter#comment}
+  */
+  readonly comment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#dns_address_family ObjectWebfilterUrlfilter#dns_address_family}
   */
   readonly dnsAddressFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#exempt ObjectWebfilterUrlfilter#exempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#exempt ObjectWebfilterUrlfilter#exempt}
   */
   readonly exempt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#id ObjectWebfilterUrlfilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#id ObjectWebfilterUrlfilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#referrer_host ObjectWebfilterUrlfilter#referrer_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#referrer_host ObjectWebfilterUrlfilter#referrer_host}
   */
   readonly referrerHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#status ObjectWebfilterUrlfilter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#status ObjectWebfilterUrlfilter#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#type ObjectWebfilterUrlfilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#type ObjectWebfilterUrlfilter#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#url ObjectWebfilterUrlfilter#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#url ObjectWebfilterUrlfilter#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#web_proxy_profile ObjectWebfilterUrlfilter#web_proxy_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#web_proxy_profile ObjectWebfilterUrlfilter#web_proxy_profile}
   */
   readonly webProxyProfile?: string;
 }
@@ -111,6 +119,7 @@ export function objectWebfilterUrlfilterEntriesToTerraform(struct?: ObjectWebfil
   return {
     action: cdktf.stringToTerraform(struct!.action),
     antiphish_action: cdktf.stringToTerraform(struct!.antiphishAction),
+    comment: cdktf.stringToTerraform(struct!.comment),
     dns_address_family: cdktf.stringToTerraform(struct!.dnsAddressFamily),
     exempt: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.exempt),
     id: cdktf.numberToTerraform(struct!.id),
@@ -137,6 +146,12 @@ export function objectWebfilterUrlfilterEntriesToHclTerraform(struct?: ObjectWeb
     },
     antiphish_action: {
       value: cdktf.stringToHclTerraform(struct!.antiphishAction),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    comment: {
+      value: cdktf.stringToHclTerraform(struct!.comment),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -223,6 +238,10 @@ export class ObjectWebfilterUrlfilterEntriesOutputReference extends cdktf.Comple
       hasAnyValues = true;
       internalValueResult.antiphishAction = this._antiphishAction;
     }
+    if (this._comment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comment = this._comment;
+    }
     if (this._dnsAddressFamily !== undefined) {
       hasAnyValues = true;
       internalValueResult.dnsAddressFamily = this._dnsAddressFamily;
@@ -264,6 +283,7 @@ export class ObjectWebfilterUrlfilterEntriesOutputReference extends cdktf.Comple
       this.resolvableValue = undefined;
       this._action = undefined;
       this._antiphishAction = undefined;
+      this._comment = undefined;
       this._dnsAddressFamily = undefined;
       this._exempt = undefined;
       this._id = undefined;
@@ -282,6 +302,7 @@ export class ObjectWebfilterUrlfilterEntriesOutputReference extends cdktf.Comple
       this.resolvableValue = undefined;
       this._action = value.action;
       this._antiphishAction = value.antiphishAction;
+      this._comment = value.comment;
       this._dnsAddressFamily = value.dnsAddressFamily;
       this._exempt = value.exempt;
       this._id = value.id;
@@ -323,6 +344,22 @@ export class ObjectWebfilterUrlfilterEntriesOutputReference extends cdktf.Comple
   // Temporarily expose input value. Use with caution.
   public get antiphishActionInput() {
     return this._antiphishAction;
+  }
+
+  // comment - computed: false, optional: true, required: false
+  private _comment?: string; 
+  public get comment() {
+    return this.getStringAttribute('comment');
+  }
+  public set comment(value: string) {
+    this._comment = value;
+  }
+  public resetComment() {
+    this._comment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentInput() {
+    return this._comment;
   }
 
   // dns_address_family - computed: true, optional: true, required: false
@@ -475,7 +512,7 @@ export class ObjectWebfilterUrlfilterEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter fortimanager_object_webfilter_urlfilter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter fortimanager_object_webfilter_urlfilter}
 */
 export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
 
@@ -491,7 +528,7 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebfilterUrlfilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebfilterUrlfilter to import
-  * @param importFromId The id of the existing ObjectWebfilterUrlfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebfilterUrlfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebfilterUrlfilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +540,7 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_urlfilter fortimanager_object_webfilter_urlfilter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_urlfilter fortimanager_object_webfilter_urlfilter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +551,8 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webfilter_urlfilter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -530,6 +567,7 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
     this._dynamicSortSubtable = config.dynamicSortSubtable;
     this._fosid = config.fosid;
     this._id = config.id;
+    this._includeSubdomains = config.includeSubdomains;
     this._ip4MappedIp6 = config.ip4MappedIp6;
     this._ipAddrBlock = config.ipAddrBlock;
     this._name = config.name;
@@ -620,6 +658,22 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get idInput() {
     return this._id;
+  }
+
+  // include_subdomains - computed: false, optional: true, required: false
+  private _includeSubdomains?: string; 
+  public get includeSubdomains() {
+    return this.getStringAttribute('include_subdomains');
+  }
+  public set includeSubdomains(value: string) {
+    this._includeSubdomains = value;
+  }
+  public resetIncludeSubdomains() {
+    this._includeSubdomains = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get includeSubdomainsInput() {
+    return this._includeSubdomains;
   }
 
   // ip4_mapped_ip6 - computed: true, optional: true, required: false
@@ -729,6 +783,7 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
       dynamic_sort_subtable: cdktf.stringToTerraform(this._dynamicSortSubtable),
       fosid: cdktf.numberToTerraform(this._fosid),
       id: cdktf.stringToTerraform(this._id),
+      include_subdomains: cdktf.stringToTerraform(this._includeSubdomains),
       ip4_mapped_ip6: cdktf.stringToTerraform(this._ip4MappedIp6),
       ip_addr_block: cdktf.stringToTerraform(this._ipAddrBlock),
       name: cdktf.stringToTerraform(this._name),
@@ -766,6 +821,12 @@ export class ObjectWebfilterUrlfilter extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      include_subdomains: {
+        value: cdktf.stringToHclTerraform(this._includeSubdomains),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

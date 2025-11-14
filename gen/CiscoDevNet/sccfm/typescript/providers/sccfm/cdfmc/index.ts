@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/cdfmc
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/cdfmc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CdfmcConfig extends cdktf.TerraformMetaArguments {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/cdfmc sccfm_cdfmc}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/cdfmc sccfm_cdfmc}
 */
 export class Cdfmc extends cdktf.TerraformResource {
 
@@ -26,7 +26,7 @@ export class Cdfmc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cdfmc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cdfmc to import
-  * @param importFromId The id of the existing Cdfmc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/cdfmc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cdfmc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/cdfmc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cdfmc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class Cdfmc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/cdfmc sccfm_cdfmc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/cdfmc sccfm_cdfmc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class Cdfmc extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_cdfmc',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

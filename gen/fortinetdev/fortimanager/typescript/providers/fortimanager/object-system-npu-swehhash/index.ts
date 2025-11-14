@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuSwehhashConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#adom ObjectSystemNpuSwehhash#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#adom ObjectSystemNpuSwehhash#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#computation ObjectSystemNpuSwehhash#computation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#computation ObjectSystemNpuSwehhash#computation}
   */
   readonly computation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#destination_ip_lower_16 ObjectSystemNpuSwehhash#destination_ip_lower_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#destination_ip_lower_16 ObjectSystemNpuSwehhash#destination_ip_lower_16}
   */
   readonly destinationIpLower16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#destination_ip_upper_16 ObjectSystemNpuSwehhash#destination_ip_upper_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#destination_ip_upper_16 ObjectSystemNpuSwehhash#destination_ip_upper_16}
   */
   readonly destinationIpUpper16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#destination_port ObjectSystemNpuSwehhash#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#destination_port ObjectSystemNpuSwehhash#destination_port}
   */
   readonly destinationPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#id ObjectSystemNpuSwehhash#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#id ObjectSystemNpuSwehhash#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#ip_protocol ObjectSystemNpuSwehhash#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#ip_protocol ObjectSystemNpuSwehhash#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#netmask_length ObjectSystemNpuSwehhash#netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#netmask_length ObjectSystemNpuSwehhash#netmask_length}
   */
   readonly netmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#scopetype ObjectSystemNpuSwehhash#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#scopetype ObjectSystemNpuSwehhash#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#source_ip_lower_16 ObjectSystemNpuSwehhash#source_ip_lower_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#source_ip_lower_16 ObjectSystemNpuSwehhash#source_ip_lower_16}
   */
   readonly sourceIpLower16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#source_ip_upper_16 ObjectSystemNpuSwehhash#source_ip_upper_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#source_ip_upper_16 ObjectSystemNpuSwehhash#source_ip_upper_16}
   */
   readonly sourceIpUpper16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#source_port ObjectSystemNpuSwehhash#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#source_port ObjectSystemNpuSwehhash#source_port}
   */
   readonly sourcePort?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash fortimanager_object_system_npu_swehhash}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash fortimanager_object_system_npu_swehhash}
 */
 export class ObjectSystemNpuSwehhash extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectSystemNpuSwehhash extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuSwehhash resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuSwehhash to import
-  * @param importFromId The id of the existing ObjectSystemNpuSwehhash that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuSwehhash that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuSwehhash to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectSystemNpuSwehhash extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_swehhash fortimanager_object_system_npu_swehhash} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_swehhash fortimanager_object_system_npu_swehhash} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectSystemNpuSwehhash extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_swehhash',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

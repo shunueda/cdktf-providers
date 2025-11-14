@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSpamfilterProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#adom ObjectSpamfilterProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#adom ObjectSpamfilterProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#comment ObjectSpamfilterProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#comment ObjectSpamfilterProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#external ObjectSpamfilterProfile#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#external ObjectSpamfilterProfile#external}
   */
   readonly external?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#flow_based ObjectSpamfilterProfile#flow_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#flow_based ObjectSpamfilterProfile#flow_based}
   */
   readonly flowBased?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#id ObjectSpamfilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#id ObjectSpamfilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#name ObjectSpamfilterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#name ObjectSpamfilterProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#options ObjectSpamfilterProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#options ObjectSpamfilterProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#replacemsg_group ObjectSpamfilterProfile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#replacemsg_group ObjectSpamfilterProfile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#scopetype ObjectSpamfilterProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#scopetype ObjectSpamfilterProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_bwl_table ObjectSpamfilterProfile#spam_bwl_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_bwl_table ObjectSpamfilterProfile#spam_bwl_table}
   */
   readonly spamBwlTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_bword_table ObjectSpamfilterProfile#spam_bword_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_bword_table ObjectSpamfilterProfile#spam_bword_table}
   */
   readonly spamBwordTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_bword_threshold ObjectSpamfilterProfile#spam_bword_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_bword_threshold ObjectSpamfilterProfile#spam_bword_threshold}
   */
   readonly spamBwordThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_filtering ObjectSpamfilterProfile#spam_filtering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_filtering ObjectSpamfilterProfile#spam_filtering}
   */
   readonly spamFiltering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_iptrust_table ObjectSpamfilterProfile#spam_iptrust_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_iptrust_table ObjectSpamfilterProfile#spam_iptrust_table}
   */
   readonly spamIptrustTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_log ObjectSpamfilterProfile#spam_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_log ObjectSpamfilterProfile#spam_log}
   */
   readonly spamLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_log_fortiguard_response ObjectSpamfilterProfile#spam_log_fortiguard_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_log_fortiguard_response ObjectSpamfilterProfile#spam_log_fortiguard_response}
   */
   readonly spamLogFortiguardResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_mheader_table ObjectSpamfilterProfile#spam_mheader_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_mheader_table ObjectSpamfilterProfile#spam_mheader_table}
   */
   readonly spamMheaderTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#spam_rbl_table ObjectSpamfilterProfile#spam_rbl_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#spam_rbl_table ObjectSpamfilterProfile#spam_rbl_table}
   */
   readonly spamRblTable?: string;
   /**
   * gmail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#gmail ObjectSpamfilterProfile#gmail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#gmail ObjectSpamfilterProfile#gmail}
   */
   readonly gmail?: ObjectSpamfilterProfileGmail;
   /**
   * imap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#imap ObjectSpamfilterProfile#imap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#imap ObjectSpamfilterProfile#imap}
   */
   readonly imap?: ObjectSpamfilterProfileImap;
   /**
   * mapi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#mapi ObjectSpamfilterProfile#mapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#mapi ObjectSpamfilterProfile#mapi}
   */
   readonly mapi?: ObjectSpamfilterProfileMapi;
   /**
   * msn_hotmail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#msn_hotmail ObjectSpamfilterProfile#msn_hotmail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#msn_hotmail ObjectSpamfilterProfile#msn_hotmail}
   */
   readonly msnHotmail?: ObjectSpamfilterProfileMsnHotmail;
   /**
   * pop3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#pop3 ObjectSpamfilterProfile#pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#pop3 ObjectSpamfilterProfile#pop3}
   */
   readonly pop3?: ObjectSpamfilterProfilePop3;
   /**
   * smtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#smtp ObjectSpamfilterProfile#smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#smtp ObjectSpamfilterProfile#smtp}
   */
   readonly smtp?: ObjectSpamfilterProfileSmtp;
 }
 export interface ObjectSpamfilterProfileGmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
 }
@@ -205,19 +205,19 @@ export class ObjectSpamfilterProfileGmailOutputReference extends cdktf.ComplexOb
 }
 export interface ObjectSpamfilterProfileImap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
   */
   readonly tagMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
   */
   readonly tagType?: string[];
 }
@@ -388,11 +388,11 @@ export class ObjectSpamfilterProfileImapOutputReference extends cdktf.ComplexObj
 }
 export interface ObjectSpamfilterProfileMapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
 }
@@ -505,7 +505,7 @@ export class ObjectSpamfilterProfileMapiOutputReference extends cdktf.ComplexObj
 }
 export interface ObjectSpamfilterProfileMsnHotmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
 }
@@ -589,19 +589,19 @@ export class ObjectSpamfilterProfileMsnHotmailOutputReference extends cdktf.Comp
 }
 export interface ObjectSpamfilterProfilePop3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
   */
   readonly tagMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
   */
   readonly tagType?: string[];
 }
@@ -772,27 +772,27 @@ export class ObjectSpamfilterProfilePop3OutputReference extends cdktf.ComplexObj
 }
 export interface ObjectSpamfilterProfileSmtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#action ObjectSpamfilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#hdrip ObjectSpamfilterProfile#hdrip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#hdrip ObjectSpamfilterProfile#hdrip}
   */
   readonly hdrip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#local_override ObjectSpamfilterProfile#local_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#local_override ObjectSpamfilterProfile#local_override}
   */
   readonly localOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#log ObjectSpamfilterProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_msg ObjectSpamfilterProfile#tag_msg}
   */
   readonly tagMsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#tag_type ObjectSpamfilterProfile#tag_type}
   */
   readonly tagType?: string[];
 }
@@ -1021,7 +1021,7 @@ export class ObjectSpamfilterProfileSmtpOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile fortimanager_object_spamfilter_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile fortimanager_object_spamfilter_profile}
 */
 export class ObjectSpamfilterProfile extends cdktf.TerraformResource {
 
@@ -1037,7 +1037,7 @@ export class ObjectSpamfilterProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSpamfilterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSpamfilterProfile to import
-  * @param importFromId The id of the existing ObjectSpamfilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSpamfilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSpamfilterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1049,7 +1049,7 @@ export class ObjectSpamfilterProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_profile fortimanager_object_spamfilter_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_profile fortimanager_object_spamfilter_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1060,8 +1060,8 @@ export class ObjectSpamfilterProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_spamfilter_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

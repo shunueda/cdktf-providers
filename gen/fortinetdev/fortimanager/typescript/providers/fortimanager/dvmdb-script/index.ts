@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface DvmdbScriptConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#adom DvmdbScript#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#adom DvmdbScript#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#content DvmdbScript#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#content DvmdbScript#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#desc DvmdbScript#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#desc DvmdbScript#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#dynamic_sort_subtable DvmdbScript#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#dynamic_sort_subtable DvmdbScript#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_build DvmdbScript#filter_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_build DvmdbScript#filter_build}
   */
   readonly filterBuild?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_device DvmdbScript#filter_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_device DvmdbScript#filter_device}
   */
   readonly filterDevice?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_hostname DvmdbScript#filter_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_hostname DvmdbScript#filter_hostname}
   */
   readonly filterHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_ostype DvmdbScript#filter_ostype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_ostype DvmdbScript#filter_ostype}
   */
   readonly filterOstype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_osver DvmdbScript#filter_osver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_osver DvmdbScript#filter_osver}
   */
   readonly filterOsver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_platform DvmdbScript#filter_platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_platform DvmdbScript#filter_platform}
   */
   readonly filterPlatform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#filter_serial DvmdbScript#filter_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#filter_serial DvmdbScript#filter_serial}
   */
   readonly filterSerial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#id DvmdbScript#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#id DvmdbScript#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#modification_time DvmdbScript#modification_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#modification_time DvmdbScript#modification_time}
   */
   readonly modificationTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#name DvmdbScript#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#name DvmdbScript#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#scopetype DvmdbScript#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#scopetype DvmdbScript#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#target DvmdbScript#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#target DvmdbScript#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#type DvmdbScript#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#type DvmdbScript#type}
   */
   readonly type?: string;
   /**
   * script_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#script_schedule DvmdbScript#script_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#script_schedule DvmdbScript#script_schedule}
   */
   readonly scriptSchedule?: DvmdbScriptScriptSchedule[] | cdktf.IResolvable;
 }
 export interface DvmdbScriptScriptSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#datetime DvmdbScript#datetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#datetime DvmdbScript#datetime}
   */
   readonly datetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#day_of_week DvmdbScript#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#day_of_week DvmdbScript#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#device DvmdbScript#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#device DvmdbScript#device}
   */
   readonly device?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#name DvmdbScript#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#name DvmdbScript#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#run_on_db DvmdbScript#run_on_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#run_on_db DvmdbScript#run_on_db}
   */
   readonly runOnDb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#type DvmdbScript#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#type DvmdbScript#type}
   */
   readonly type?: string;
 }
@@ -368,7 +368,7 @@ export class DvmdbScriptScriptScheduleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script fortimanager_dvmdb_script}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script fortimanager_dvmdb_script}
 */
 export class DvmdbScript extends cdktf.TerraformResource {
 
@@ -384,7 +384,7 @@ export class DvmdbScript extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DvmdbScript resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DvmdbScript to import
-  * @param importFromId The id of the existing DvmdbScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DvmdbScript that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DvmdbScript to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DvmdbScript extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvmdb_script fortimanager_dvmdb_script} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvmdb_script fortimanager_dvmdb_script} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DvmdbScript extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_dvmdb_script',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

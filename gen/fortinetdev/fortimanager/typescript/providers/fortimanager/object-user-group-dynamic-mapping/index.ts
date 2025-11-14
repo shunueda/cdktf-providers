@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,236 +8,236 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserGroupDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#adom ObjectUserGroupDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#adom ObjectUserGroupDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#auth_concurrent_override ObjectUserGroupDynamicMappingA#auth_concurrent_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#auth_concurrent_override ObjectUserGroupDynamicMappingA#auth_concurrent_override}
   */
   readonly authConcurrentOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#auth_concurrent_value ObjectUserGroupDynamicMappingA#auth_concurrent_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#auth_concurrent_value ObjectUserGroupDynamicMappingA#auth_concurrent_value}
   */
   readonly authConcurrentValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#authtimeout ObjectUserGroupDynamicMappingA#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#authtimeout ObjectUserGroupDynamicMappingA#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#company ObjectUserGroupDynamicMappingA#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#company ObjectUserGroupDynamicMappingA#company}
   */
   readonly company?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#dynamic_sort_subtable ObjectUserGroupDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#dynamic_sort_subtable ObjectUserGroupDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#email ObjectUserGroupDynamicMappingA#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#email ObjectUserGroupDynamicMappingA#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#expire ObjectUserGroupDynamicMappingA#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#expire ObjectUserGroupDynamicMappingA#expire}
   */
   readonly expire?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#expire_type ObjectUserGroupDynamicMappingA#expire_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#expire_type ObjectUserGroupDynamicMappingA#expire_type}
   */
   readonly expireType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#fosid ObjectUserGroupDynamicMappingA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#fosid ObjectUserGroupDynamicMappingA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#group ObjectUserGroupDynamicMappingA#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#group ObjectUserGroupDynamicMappingA#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#group_type ObjectUserGroupDynamicMappingA#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#group_type ObjectUserGroupDynamicMappingA#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#http_digest_realm ObjectUserGroupDynamicMappingA#http_digest_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#http_digest_realm ObjectUserGroupDynamicMappingA#http_digest_realm}
   */
   readonly httpDigestRealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#ldap_memberof ObjectUserGroupDynamicMappingA#ldap_memberof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#ldap_memberof ObjectUserGroupDynamicMappingA#ldap_memberof}
   */
   readonly ldapMemberof?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#logic_type ObjectUserGroupDynamicMappingA#logic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#logic_type ObjectUserGroupDynamicMappingA#logic_type}
   */
   readonly logicType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#max_accounts ObjectUserGroupDynamicMappingA#max_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#max_accounts ObjectUserGroupDynamicMappingA#max_accounts}
   */
   readonly maxAccounts?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#member ObjectUserGroupDynamicMappingA#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#member ObjectUserGroupDynamicMappingA#member}
   */
   readonly member?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#mobile_phone ObjectUserGroupDynamicMappingA#mobile_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#mobile_phone ObjectUserGroupDynamicMappingA#mobile_phone}
   */
   readonly mobilePhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#multiple_guest_add ObjectUserGroupDynamicMappingA#multiple_guest_add}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#multiple_guest_add ObjectUserGroupDynamicMappingA#multiple_guest_add}
   */
   readonly multipleGuestAdd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#password ObjectUserGroupDynamicMappingA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#password ObjectUserGroupDynamicMappingA#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#redir_url ObjectUserGroupDynamicMappingA#redir_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#redir_url ObjectUserGroupDynamicMappingA#redir_url}
   */
   readonly redirUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#scopetype ObjectUserGroupDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#scopetype ObjectUserGroupDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sms_custom_server ObjectUserGroupDynamicMappingA#sms_custom_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sms_custom_server ObjectUserGroupDynamicMappingA#sms_custom_server}
   */
   readonly smsCustomServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sms_server ObjectUserGroupDynamicMappingA#sms_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sms_server ObjectUserGroupDynamicMappingA#sms_server}
   */
   readonly smsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sponsor ObjectUserGroupDynamicMappingA#sponsor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sponsor ObjectUserGroupDynamicMappingA#sponsor}
   */
   readonly sponsor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_bookmarks_group ObjectUserGroupDynamicMappingA#sslvpn_bookmarks_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_bookmarks_group ObjectUserGroupDynamicMappingA#sslvpn_bookmarks_group}
   */
   readonly sslvpnBookmarksGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_cache_cleaner ObjectUserGroupDynamicMappingA#sslvpn_cache_cleaner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_cache_cleaner ObjectUserGroupDynamicMappingA#sslvpn_cache_cleaner}
   */
   readonly sslvpnCacheCleaner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_client_check ObjectUserGroupDynamicMappingA#sslvpn_client_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_client_check ObjectUserGroupDynamicMappingA#sslvpn_client_check}
   */
   readonly sslvpnClientCheck?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_ftp ObjectUserGroupDynamicMappingA#sslvpn_ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_ftp ObjectUserGroupDynamicMappingA#sslvpn_ftp}
   */
   readonly sslvpnFtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_http ObjectUserGroupDynamicMappingA#sslvpn_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_http ObjectUserGroupDynamicMappingA#sslvpn_http}
   */
   readonly sslvpnHttp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_os_check ObjectUserGroupDynamicMappingA#sslvpn_os_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_os_check ObjectUserGroupDynamicMappingA#sslvpn_os_check}
   */
   readonly sslvpnOsCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_portal ObjectUserGroupDynamicMappingA#sslvpn_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_portal ObjectUserGroupDynamicMappingA#sslvpn_portal}
   */
   readonly sslvpnPortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_portal_heading ObjectUserGroupDynamicMappingA#sslvpn_portal_heading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_portal_heading ObjectUserGroupDynamicMappingA#sslvpn_portal_heading}
   */
   readonly sslvpnPortalHeading?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_rdp ObjectUserGroupDynamicMappingA#sslvpn_rdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_rdp ObjectUserGroupDynamicMappingA#sslvpn_rdp}
   */
   readonly sslvpnRdp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_samba ObjectUserGroupDynamicMappingA#sslvpn_samba}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_samba ObjectUserGroupDynamicMappingA#sslvpn_samba}
   */
   readonly sslvpnSamba?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_split_tunneling ObjectUserGroupDynamicMappingA#sslvpn_split_tunneling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_split_tunneling ObjectUserGroupDynamicMappingA#sslvpn_split_tunneling}
   */
   readonly sslvpnSplitTunneling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_ssh ObjectUserGroupDynamicMappingA#sslvpn_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_ssh ObjectUserGroupDynamicMappingA#sslvpn_ssh}
   */
   readonly sslvpnSsh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_telnet ObjectUserGroupDynamicMappingA#sslvpn_telnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_telnet ObjectUserGroupDynamicMappingA#sslvpn_telnet}
   */
   readonly sslvpnTelnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel ObjectUserGroupDynamicMappingA#sslvpn_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel ObjectUserGroupDynamicMappingA#sslvpn_tunnel}
   */
   readonly sslvpnTunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_endip ObjectUserGroupDynamicMappingA#sslvpn_tunnel_endip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_endip ObjectUserGroupDynamicMappingA#sslvpn_tunnel_endip}
   */
   readonly sslvpnTunnelEndip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_ip_mode ObjectUserGroupDynamicMappingA#sslvpn_tunnel_ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_ip_mode ObjectUserGroupDynamicMappingA#sslvpn_tunnel_ip_mode}
   */
   readonly sslvpnTunnelIpMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_startip ObjectUserGroupDynamicMappingA#sslvpn_tunnel_startip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_tunnel_startip ObjectUserGroupDynamicMappingA#sslvpn_tunnel_startip}
   */
   readonly sslvpnTunnelStartip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_virtual_desktop ObjectUserGroupDynamicMappingA#sslvpn_virtual_desktop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_virtual_desktop ObjectUserGroupDynamicMappingA#sslvpn_virtual_desktop}
   */
   readonly sslvpnVirtualDesktop?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_vnc ObjectUserGroupDynamicMappingA#sslvpn_vnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_vnc ObjectUserGroupDynamicMappingA#sslvpn_vnc}
   */
   readonly sslvpnVnc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_webapp ObjectUserGroupDynamicMappingA#sslvpn_webapp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_webapp ObjectUserGroupDynamicMappingA#sslvpn_webapp}
   */
   readonly sslvpnWebapp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sso_attribute_value ObjectUserGroupDynamicMappingA#sso_attribute_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sso_attribute_value ObjectUserGroupDynamicMappingA#sso_attribute_value}
   */
   readonly ssoAttributeValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#user_id ObjectUserGroupDynamicMappingA#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#user_id ObjectUserGroupDynamicMappingA#user_id}
   */
   readonly userId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#user_name ObjectUserGroupDynamicMappingA#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#user_name ObjectUserGroupDynamicMappingA#user_name}
   */
   readonly userName?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#_scope ObjectUserGroupDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#_scope ObjectUserGroupDynamicMappingA#_scope}
   */
   readonly scope?: ObjectUserGroupDynamicMappingScopeA[] | cdktf.IResolvable;
   /**
   * guest block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#guest ObjectUserGroupDynamicMappingA#guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#guest ObjectUserGroupDynamicMappingA#guest}
   */
   readonly guest?: ObjectUserGroupDynamicMappingGuestA[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#match ObjectUserGroupDynamicMappingA#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#match ObjectUserGroupDynamicMappingA#match}
   */
   readonly match?: ObjectUserGroupDynamicMappingMatchA[] | cdktf.IResolvable;
   /**
   * sslvpn_os_check_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_os_check_list ObjectUserGroupDynamicMappingA#sslvpn_os_check_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sslvpn_os_check_list ObjectUserGroupDynamicMappingA#sslvpn_os_check_list}
   */
   readonly sslvpnOsCheckList?: ObjectUserGroupDynamicMappingSslvpnOsCheckListStructA;
 }
 export interface ObjectUserGroupDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#vdom ObjectUserGroupDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#vdom ObjectUserGroupDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -382,50 +382,50 @@ export class ObjectUserGroupDynamicMappingScopeAList extends cdktf.ComplexList {
 }
 export interface ObjectUserGroupDynamicMappingGuestA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#comment ObjectUserGroupDynamicMappingA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#comment ObjectUserGroupDynamicMappingA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#company ObjectUserGroupDynamicMappingA#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#company ObjectUserGroupDynamicMappingA#company}
   */
   readonly company?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#email ObjectUserGroupDynamicMappingA#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#email ObjectUserGroupDynamicMappingA#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#expiration ObjectUserGroupDynamicMappingA#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#expiration ObjectUserGroupDynamicMappingA#expiration}
   */
   readonly expiration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#group ObjectUserGroupDynamicMappingA#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#group ObjectUserGroupDynamicMappingA#group}
   */
   readonly group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#mobile_phone ObjectUserGroupDynamicMappingA#mobile_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#mobile_phone ObjectUserGroupDynamicMappingA#mobile_phone}
   */
   readonly mobilePhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#password ObjectUserGroupDynamicMappingA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#password ObjectUserGroupDynamicMappingA#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#sponsor ObjectUserGroupDynamicMappingA#sponsor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#sponsor ObjectUserGroupDynamicMappingA#sponsor}
   */
   readonly sponsor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#user_id ObjectUserGroupDynamicMappingA#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#user_id ObjectUserGroupDynamicMappingA#user_id}
   */
   readonly userId?: string;
 }
@@ -831,22 +831,22 @@ export class ObjectUserGroupDynamicMappingGuestAList extends cdktf.ComplexList {
 }
 export interface ObjectUserGroupDynamicMappingMatchA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#_gui_meta ObjectUserGroupDynamicMappingA#_gui_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#_gui_meta ObjectUserGroupDynamicMappingA#_gui_meta}
   */
   readonly guiMeta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#group_name ObjectUserGroupDynamicMappingA#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#group_name ObjectUserGroupDynamicMappingA#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#id ObjectUserGroupDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#server_name ObjectUserGroupDynamicMappingA#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#server_name ObjectUserGroupDynamicMappingA#server_name}
   */
   readonly serverName?: string;
 }
@@ -1049,19 +1049,19 @@ export class ObjectUserGroupDynamicMappingMatchAList extends cdktf.ComplexList {
 }
 export interface ObjectUserGroupDynamicMappingSslvpnOsCheckListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#action ObjectUserGroupDynamicMappingA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#action ObjectUserGroupDynamicMappingA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#latest_patch_level ObjectUserGroupDynamicMappingA#latest_patch_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#latest_patch_level ObjectUserGroupDynamicMappingA#latest_patch_level}
   */
   readonly latestPatchLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#name ObjectUserGroupDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#tolerance ObjectUserGroupDynamicMappingA#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#tolerance ObjectUserGroupDynamicMappingA#tolerance}
   */
   readonly tolerance?: number;
 }
@@ -1232,7 +1232,7 @@ export class ObjectUserGroupDynamicMappingSslvpnOsCheckListStructAOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping fortimanager_object_user_group_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping fortimanager_object_user_group_dynamic_mapping}
 */
 export class ObjectUserGroupDynamicMappingA extends cdktf.TerraformResource {
 
@@ -1248,7 +1248,7 @@ export class ObjectUserGroupDynamicMappingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserGroupDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserGroupDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectUserGroupDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserGroupDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserGroupDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1260,7 +1260,7 @@ export class ObjectUserGroupDynamicMappingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping fortimanager_object_user_group_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping fortimanager_object_user_group_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1271,8 +1271,8 @@ export class ObjectUserGroupDynamicMappingA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_group_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

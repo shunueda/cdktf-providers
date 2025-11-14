@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,171 +8,171 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectIcapProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#adom ObjectIcapProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#adom ObjectIcapProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#chunk_encap ObjectIcapProfile#chunk_encap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#chunk_encap ObjectIcapProfile#chunk_encap}
   */
   readonly chunkEncap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#comment ObjectIcapProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#comment ObjectIcapProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#dynamic_sort_subtable ObjectIcapProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#dynamic_sort_subtable ObjectIcapProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#extension_feature ObjectIcapProfile#extension_feature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#extension_feature ObjectIcapProfile#extension_feature}
   */
   readonly extensionFeature?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#file_transfer ObjectIcapProfile#file_transfer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#file_transfer ObjectIcapProfile#file_transfer}
   */
   readonly fileTransfer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#file_transfer_failure ObjectIcapProfile#file_transfer_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#file_transfer_failure ObjectIcapProfile#file_transfer_failure}
   */
   readonly fileTransferFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#file_transfer_path ObjectIcapProfile#file_transfer_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#file_transfer_path ObjectIcapProfile#file_transfer_path}
   */
   readonly fileTransferPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#file_transfer_server ObjectIcapProfile#file_transfer_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#file_transfer_server ObjectIcapProfile#file_transfer_server}
   */
   readonly fileTransferServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#icap_block_log ObjectIcapProfile#icap_block_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#icap_block_log ObjectIcapProfile#icap_block_log}
   */
   readonly icapBlockLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#methods ObjectIcapProfile#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#methods ObjectIcapProfile#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#n204_response ObjectIcapProfile#n204_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#n204_response ObjectIcapProfile#n204_response}
   */
   readonly n204Response?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#n204_size_limit ObjectIcapProfile#n204_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#n204_size_limit ObjectIcapProfile#n204_size_limit}
   */
   readonly n204SizeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#ocr_only ObjectIcapProfile#ocr_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#ocr_only ObjectIcapProfile#ocr_only}
   */
   readonly ocrOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#preview ObjectIcapProfile#preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#preview ObjectIcapProfile#preview}
   */
   readonly preview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#preview_data_length ObjectIcapProfile#preview_data_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#preview_data_length ObjectIcapProfile#preview_data_length}
   */
   readonly previewDataLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#replacemsg_group ObjectIcapProfile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#replacemsg_group ObjectIcapProfile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#request ObjectIcapProfile#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#request ObjectIcapProfile#request}
   */
   readonly request?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#request_failure ObjectIcapProfile#request_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#request_failure ObjectIcapProfile#request_failure}
   */
   readonly requestFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#request_path ObjectIcapProfile#request_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#request_path ObjectIcapProfile#request_path}
   */
   readonly requestPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#request_server ObjectIcapProfile#request_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#request_server ObjectIcapProfile#request_server}
   */
   readonly requestServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#respmod_default_action ObjectIcapProfile#respmod_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#respmod_default_action ObjectIcapProfile#respmod_default_action}
   */
   readonly respmodDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#response ObjectIcapProfile#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#response ObjectIcapProfile#response}
   */
   readonly response?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#response_failure ObjectIcapProfile#response_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#response_failure ObjectIcapProfile#response_failure}
   */
   readonly responseFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#response_path ObjectIcapProfile#response_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#response_path ObjectIcapProfile#response_path}
   */
   readonly responsePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#response_req_hdr ObjectIcapProfile#response_req_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#response_req_hdr ObjectIcapProfile#response_req_hdr}
   */
   readonly responseReqHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#response_server ObjectIcapProfile#response_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#response_server ObjectIcapProfile#response_server}
   */
   readonly responseServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#scan_progress_interval ObjectIcapProfile#scan_progress_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#scan_progress_interval ObjectIcapProfile#scan_progress_interval}
   */
   readonly scanProgressInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#scopetype ObjectIcapProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#scopetype ObjectIcapProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#streaming_content_bypass ObjectIcapProfile#streaming_content_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#streaming_content_bypass ObjectIcapProfile#streaming_content_bypass}
   */
   readonly streamingContentBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#timeout ObjectIcapProfile#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#timeout ObjectIcapProfile#timeout}
   */
   readonly timeout?: number;
   /**
   * icap_headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#icap_headers ObjectIcapProfile#icap_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#icap_headers ObjectIcapProfile#icap_headers}
   */
   readonly icapHeaders?: ObjectIcapProfileIcapHeaders[] | cdktf.IResolvable;
   /**
   * respmod_forward_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#respmod_forward_rules ObjectIcapProfile#respmod_forward_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#respmod_forward_rules ObjectIcapProfile#respmod_forward_rules}
   */
   readonly respmodForwardRules?: ObjectIcapProfileRespmodForwardRules[] | cdktf.IResolvable;
 }
 export interface ObjectIcapProfileIcapHeaders {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#base64_encoding ObjectIcapProfile#base64_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#base64_encoding ObjectIcapProfile#base64_encoding}
   */
   readonly base64Encoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#content ObjectIcapProfile#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#content ObjectIcapProfile#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
   */
   readonly name?: string;
 }
@@ -375,19 +375,19 @@ export class ObjectIcapProfileIcapHeadersList extends cdktf.ComplexList {
 }
 export interface ObjectIcapProfileRespmodForwardRulesHeaderGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#case_sensitivity ObjectIcapProfile#case_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#case_sensitivity ObjectIcapProfile#case_sensitivity}
   */
   readonly caseSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#header ObjectIcapProfile#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#header ObjectIcapProfile#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#header_name ObjectIcapProfile#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#header_name ObjectIcapProfile#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#id ObjectIcapProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -593,25 +593,25 @@ export class ObjectIcapProfileRespmodForwardRulesHeaderGroupList extends cdktf.C
 }
 export interface ObjectIcapProfileRespmodForwardRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#action ObjectIcapProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#action ObjectIcapProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#host ObjectIcapProfile#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#host ObjectIcapProfile#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#http_resp_status_code ObjectIcapProfile#http_resp_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#http_resp_status_code ObjectIcapProfile#http_resp_status_code}
   */
   readonly httpRespStatusCode?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#name ObjectIcapProfile#name}
   */
   readonly name?: string;
   /**
   * header_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#header_group ObjectIcapProfile#header_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#header_group ObjectIcapProfile#header_group}
   */
   readonly headerGroup?: ObjectIcapProfileRespmodForwardRulesHeaderGroup[] | cdktf.IResolvable;
 }
@@ -843,7 +843,7 @@ export class ObjectIcapProfileRespmodForwardRulesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile fortimanager_object_icap_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile fortimanager_object_icap_profile}
 */
 export class ObjectIcapProfile extends cdktf.TerraformResource {
 
@@ -859,7 +859,7 @@ export class ObjectIcapProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectIcapProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectIcapProfile to import
-  * @param importFromId The id of the existing ObjectIcapProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectIcapProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectIcapProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -871,7 +871,7 @@ export class ObjectIcapProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_icap_profile fortimanager_object_icap_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_icap_profile fortimanager_object_icap_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -882,8 +882,8 @@ export class ObjectIcapProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_icap_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

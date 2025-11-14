@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnSslWebPortalBookmarkgroupMoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#adom ObjectVpnSslWebPortalBookmarkgroupMove#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#adom ObjectVpnSslWebPortalBookmarkgroupMove#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#bookmark_group ObjectVpnSslWebPortalBookmarkgroupMove#bookmark_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#bookmark_group ObjectVpnSslWebPortalBookmarkgroupMove#bookmark_group}
   */
   readonly bookmarkGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#id ObjectVpnSslWebPortalBookmarkgroupMove#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#id ObjectVpnSslWebPortalBookmarkgroupMove#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#option ObjectVpnSslWebPortalBookmarkgroupMove#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#option ObjectVpnSslWebPortalBookmarkgroupMove#option}
   */
   readonly option: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#portal ObjectVpnSslWebPortalBookmarkgroupMove#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#portal ObjectVpnSslWebPortalBookmarkgroupMove#portal}
   */
   readonly portal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#scopetype ObjectVpnSslWebPortalBookmarkgroupMove#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#scopetype ObjectVpnSslWebPortalBookmarkgroupMove#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#state_pos ObjectVpnSslWebPortalBookmarkgroupMove#state_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#state_pos ObjectVpnSslWebPortalBookmarkgroupMove#state_pos}
   */
   readonly statePos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#target ObjectVpnSslWebPortalBookmarkgroupMove#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#target ObjectVpnSslWebPortalBookmarkgroupMove#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_move}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_move}
 */
 export class ObjectVpnSslWebPortalBookmarkgroupMove extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectVpnSslWebPortalBookmarkgroupMove extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectVpnSslWebPortalBookmarkgroupMove resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnSslWebPortalBookmarkgroupMove to import
-  * @param importFromId The id of the existing ObjectVpnSslWebPortalBookmarkgroupMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnSslWebPortalBookmarkgroupMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnSslWebPortalBookmarkgroupMove to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectVpnSslWebPortalBookmarkgroupMove extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_move} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_move fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_move} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectVpnSslWebPortalBookmarkgroupMove extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_move',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

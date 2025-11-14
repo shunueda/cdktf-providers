@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebfilterProfileWebAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#adom ObjectWebfilterProfileWebA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#adom ObjectWebfilterProfileWebA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#allowlist ObjectWebfilterProfileWebA#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#allowlist ObjectWebfilterProfileWebA#allowlist}
   */
   readonly allowlist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#blacklist ObjectWebfilterProfileWebA#blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#blacklist ObjectWebfilterProfileWebA#blacklist}
   */
   readonly blacklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#blocklist ObjectWebfilterProfileWebA#blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#blocklist ObjectWebfilterProfileWebA#blocklist}
   */
   readonly blocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#bword_table ObjectWebfilterProfileWebA#bword_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#bword_table ObjectWebfilterProfileWebA#bword_table}
   */
   readonly bwordTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#bword_threshold ObjectWebfilterProfileWebA#bword_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#bword_threshold ObjectWebfilterProfileWebA#bword_threshold}
   */
   readonly bwordThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#content_header_list ObjectWebfilterProfileWebA#content_header_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#content_header_list ObjectWebfilterProfileWebA#content_header_list}
   */
   readonly contentHeaderList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#id ObjectWebfilterProfileWebA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#id ObjectWebfilterProfileWebA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#keyword_match ObjectWebfilterProfileWebA#keyword_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#keyword_match ObjectWebfilterProfileWebA#keyword_match}
   */
   readonly keywordMatch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#log_search ObjectWebfilterProfileWebA#log_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#log_search ObjectWebfilterProfileWebA#log_search}
   */
   readonly logSearch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#profile ObjectWebfilterProfileWebA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#profile ObjectWebfilterProfileWebA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#safe_search ObjectWebfilterProfileWebA#safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#safe_search ObjectWebfilterProfileWebA#safe_search}
   */
   readonly safeSearch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#scopetype ObjectWebfilterProfileWebA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#scopetype ObjectWebfilterProfileWebA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#urlfilter_table ObjectWebfilterProfileWebA#urlfilter_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#urlfilter_table ObjectWebfilterProfileWebA#urlfilter_table}
   */
   readonly urlfilterTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#vimeo_restrict ObjectWebfilterProfileWebA#vimeo_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#vimeo_restrict ObjectWebfilterProfileWebA#vimeo_restrict}
   */
   readonly vimeoRestrict?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#whitelist ObjectWebfilterProfileWebA#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#whitelist ObjectWebfilterProfileWebA#whitelist}
   */
   readonly whitelist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#youtube_restrict ObjectWebfilterProfileWebA#youtube_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#youtube_restrict ObjectWebfilterProfileWebA#youtube_restrict}
   */
   readonly youtubeRestrict?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web fortimanager_object_webfilter_profile_web}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web fortimanager_object_webfilter_profile_web}
 */
 export class ObjectWebfilterProfileWebA extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class ObjectWebfilterProfileWebA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebfilterProfileWebA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebfilterProfileWebA to import
-  * @param importFromId The id of the existing ObjectWebfilterProfileWebA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebfilterProfileWebA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebfilterProfileWebA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class ObjectWebfilterProfileWebA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_web fortimanager_object_webfilter_profile_web} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_web fortimanager_object_webfilter_profile_web} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class ObjectWebfilterProfileWebA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webfilter_profile_web',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateCustomurllistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist#db_selection FmupdateCustomurllist#db_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist#db_selection FmupdateCustomurllist#db_selection}
   */
   readonly dbSelection?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist#id FmupdateCustomurllist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist#id FmupdateCustomurllist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface FmupdateCustomurllistConfig extends cdktf.TerraformMetaArgument
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist fortimanager_fmupdate_customurllist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist fortimanager_fmupdate_customurllist}
 */
 export class FmupdateCustomurllist extends cdktf.TerraformResource {
 
@@ -37,7 +37,7 @@ export class FmupdateCustomurllist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FmupdateCustomurllist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateCustomurllist to import
-  * @param importFromId The id of the existing FmupdateCustomurllist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateCustomurllist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateCustomurllist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class FmupdateCustomurllist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_customurllist fortimanager_fmupdate_customurllist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_customurllist fortimanager_fmupdate_customurllist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class FmupdateCustomurllist extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_fmupdate_customurllist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

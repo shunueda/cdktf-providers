@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWafProfileConstraintHeaderlengthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#action ObjectWafProfileConstraintHeaderlength#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#action ObjectWafProfileConstraintHeaderlength#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#adom ObjectWafProfileConstraintHeaderlength#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#adom ObjectWafProfileConstraintHeaderlength#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#id ObjectWafProfileConstraintHeaderlength#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#id ObjectWafProfileConstraintHeaderlength#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#length ObjectWafProfileConstraintHeaderlength#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#length ObjectWafProfileConstraintHeaderlength#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#log ObjectWafProfileConstraintHeaderlength#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#log ObjectWafProfileConstraintHeaderlength#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#profile ObjectWafProfileConstraintHeaderlength#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#profile ObjectWafProfileConstraintHeaderlength#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#scopetype ObjectWafProfileConstraintHeaderlength#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#scopetype ObjectWafProfileConstraintHeaderlength#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#severity ObjectWafProfileConstraintHeaderlength#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#severity ObjectWafProfileConstraintHeaderlength#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#status ObjectWafProfileConstraintHeaderlength#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#status ObjectWafProfileConstraintHeaderlength#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength fortimanager_object_waf_profile_constraint_headerlength}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength fortimanager_object_waf_profile_constraint_headerlength}
 */
 export class ObjectWafProfileConstraintHeaderlength extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ObjectWafProfileConstraintHeaderlength extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectWafProfileConstraintHeaderlength resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWafProfileConstraintHeaderlength to import
-  * @param importFromId The id of the existing ObjectWafProfileConstraintHeaderlength that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWafProfileConstraintHeaderlength that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWafProfileConstraintHeaderlength to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ObjectWafProfileConstraintHeaderlength extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_headerlength fortimanager_object_waf_profile_constraint_headerlength} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_headerlength fortimanager_object_waf_profile_constraint_headerlength} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ObjectWafProfileConstraintHeaderlength extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_waf_profile_constraint_headerlength',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

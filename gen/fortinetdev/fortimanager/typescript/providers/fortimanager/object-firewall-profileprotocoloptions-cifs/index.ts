@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallProfileprotocoloptionsCifsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#adom ObjectFirewallProfileprotocoloptionsCifsA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#adom ObjectFirewallProfileprotocoloptionsCifsA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#domain_controller ObjectFirewallProfileprotocoloptionsCifsA#domain_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#domain_controller ObjectFirewallProfileprotocoloptionsCifsA#domain_controller}
   */
   readonly domainController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#dynamic_sort_subtable ObjectFirewallProfileprotocoloptionsCifsA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#dynamic_sort_subtable ObjectFirewallProfileprotocoloptionsCifsA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#id ObjectFirewallProfileprotocoloptionsCifsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#id ObjectFirewallProfileprotocoloptionsCifsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#options ObjectFirewallProfileprotocoloptionsCifsA#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#options ObjectFirewallProfileprotocoloptionsCifsA#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#oversize_limit ObjectFirewallProfileprotocoloptionsCifsA#oversize_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#oversize_limit ObjectFirewallProfileprotocoloptionsCifsA#oversize_limit}
   */
   readonly oversizeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#ports ObjectFirewallProfileprotocoloptionsCifsA#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#ports ObjectFirewallProfileprotocoloptionsCifsA#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#profile_protocol_options ObjectFirewallProfileprotocoloptionsCifsA#profile_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#profile_protocol_options ObjectFirewallProfileprotocoloptionsCifsA#profile_protocol_options}
   */
   readonly profileProtocolOptions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#scan_bzip2 ObjectFirewallProfileprotocoloptionsCifsA#scan_bzip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#scan_bzip2 ObjectFirewallProfileprotocoloptionsCifsA#scan_bzip2}
   */
   readonly scanBzip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#scopetype ObjectFirewallProfileprotocoloptionsCifsA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#scopetype ObjectFirewallProfileprotocoloptionsCifsA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#server_credential_type ObjectFirewallProfileprotocoloptionsCifsA#server_credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#server_credential_type ObjectFirewallProfileprotocoloptionsCifsA#server_credential_type}
   */
   readonly serverCredentialType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#status ObjectFirewallProfileprotocoloptionsCifsA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#status ObjectFirewallProfileprotocoloptionsCifsA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_maximum ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_maximum ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_maximum}
   */
   readonly tcpWindowMaximum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_minimum ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_minimum ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_minimum}
   */
   readonly tcpWindowMinimum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_size ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_size ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_size}
   */
   readonly tcpWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_type ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#tcp_window_type ObjectFirewallProfileprotocoloptionsCifsA#tcp_window_type}
   */
   readonly tcpWindowType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#uncompressed_nest_limit ObjectFirewallProfileprotocoloptionsCifsA#uncompressed_nest_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#uncompressed_nest_limit ObjectFirewallProfileprotocoloptionsCifsA#uncompressed_nest_limit}
   */
   readonly uncompressedNestLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#uncompressed_oversize_limit ObjectFirewallProfileprotocoloptionsCifsA#uncompressed_oversize_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#uncompressed_oversize_limit ObjectFirewallProfileprotocoloptionsCifsA#uncompressed_oversize_limit}
   */
   readonly uncompressedOversizeLimit?: number;
   /**
   * file_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#file_filter ObjectFirewallProfileprotocoloptionsCifsA#file_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#file_filter ObjectFirewallProfileprotocoloptionsCifsA#file_filter}
   */
   readonly fileFilter?: ObjectFirewallProfileprotocoloptionsCifsFileFilterA;
   /**
   * server_keytab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#server_keytab ObjectFirewallProfileprotocoloptionsCifsA#server_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#server_keytab ObjectFirewallProfileprotocoloptionsCifsA#server_keytab}
   */
   readonly serverKeytab?: ObjectFirewallProfileprotocoloptionsCifsServerKeytabA[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallProfileprotocoloptionsCifsFileFilterEntriesA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#action ObjectFirewallProfileprotocoloptionsCifsA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#action ObjectFirewallProfileprotocoloptionsCifsA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#comment ObjectFirewallProfileprotocoloptionsCifsA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#comment ObjectFirewallProfileprotocoloptionsCifsA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#direction ObjectFirewallProfileprotocoloptionsCifsA#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#direction ObjectFirewallProfileprotocoloptionsCifsA#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#file_type ObjectFirewallProfileprotocoloptionsCifsA#file_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#file_type ObjectFirewallProfileprotocoloptionsCifsA#file_type}
   */
   readonly fileType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#filter ObjectFirewallProfileprotocoloptionsCifsA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#filter ObjectFirewallProfileprotocoloptionsCifsA#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#protocol ObjectFirewallProfileprotocoloptionsCifsA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#protocol ObjectFirewallProfileprotocoloptionsCifsA#protocol}
   */
   readonly protocol?: string[];
 }
@@ -378,17 +378,17 @@ export class ObjectFirewallProfileprotocoloptionsCifsFileFilterEntriesAList exte
 }
 export interface ObjectFirewallProfileprotocoloptionsCifsFileFilterA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#log ObjectFirewallProfileprotocoloptionsCifsA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#log ObjectFirewallProfileprotocoloptionsCifsA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#status ObjectFirewallProfileprotocoloptionsCifsA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#status ObjectFirewallProfileprotocoloptionsCifsA#status}
   */
   readonly status?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#entries ObjectFirewallProfileprotocoloptionsCifsA#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#entries ObjectFirewallProfileprotocoloptionsCifsA#entries}
   */
   readonly entries?: ObjectFirewallProfileprotocoloptionsCifsFileFilterEntriesA[] | cdktf.IResolvable;
 }
@@ -530,15 +530,15 @@ export class ObjectFirewallProfileprotocoloptionsCifsFileFilterAOutputReference 
 }
 export interface ObjectFirewallProfileprotocoloptionsCifsServerKeytabA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#keytab ObjectFirewallProfileprotocoloptionsCifsA#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#keytab ObjectFirewallProfileprotocoloptionsCifsA#keytab}
   */
   readonly keytab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#password ObjectFirewallProfileprotocoloptionsCifsA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#password ObjectFirewallProfileprotocoloptionsCifsA#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#principal ObjectFirewallProfileprotocoloptionsCifsA#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#principal ObjectFirewallProfileprotocoloptionsCifsA#principal}
   */
   readonly principal?: string;
 }
@@ -712,7 +712,7 @@ export class ObjectFirewallProfileprotocoloptionsCifsServerKeytabAList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs fortimanager_object_firewall_profileprotocoloptions_cifs}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs fortimanager_object_firewall_profileprotocoloptions_cifs}
 */
 export class ObjectFirewallProfileprotocoloptionsCifsA extends cdktf.TerraformResource {
 
@@ -728,7 +728,7 @@ export class ObjectFirewallProfileprotocoloptionsCifsA extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ObjectFirewallProfileprotocoloptionsCifsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallProfileprotocoloptionsCifsA to import
-  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsCifsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsCifsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallProfileprotocoloptionsCifsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -740,7 +740,7 @@ export class ObjectFirewallProfileprotocoloptionsCifsA extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs fortimanager_object_firewall_profileprotocoloptions_cifs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs fortimanager_object_firewall_profileprotocoloptions_cifs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -751,8 +751,8 @@ export class ObjectFirewallProfileprotocoloptionsCifsA extends cdktf.TerraformRe
       terraformResourceType: 'fortimanager_object_firewall_profileprotocoloptions_cifs',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

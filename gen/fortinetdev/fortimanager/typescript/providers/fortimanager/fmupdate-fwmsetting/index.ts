@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,134 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateFwmsettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#auto_scan_fgt_disk FmupdateFwmsetting#auto_scan_fgt_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#auto_scan_fgt_disk FmupdateFwmsetting#auto_scan_fgt_disk}
   */
   readonly autoScanFgtDisk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#check_fgt_disk FmupdateFwmsetting#check_fgt_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#check_fgt_disk FmupdateFwmsetting#check_fgt_disk}
   */
   readonly checkFgtDisk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#fds_failover_fmg FmupdateFwmsetting#fds_failover_fmg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#fds_failover_fmg FmupdateFwmsetting#fds_failover_fmg}
   */
   readonly fdsFailoverFmg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#fds_image_timeout FmupdateFwmsetting#fds_image_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#fds_image_timeout FmupdateFwmsetting#fds_image_timeout}
   */
   readonly fdsImageTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#health_check FmupdateFwmsetting#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#health_check FmupdateFwmsetting#health_check}
   */
   readonly healthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#id FmupdateFwmsetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#id FmupdateFwmsetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#immx_source FmupdateFwmsetting#immx_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#immx_source FmupdateFwmsetting#immx_source}
   */
   readonly immxSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#log FmupdateFwmsetting#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#log FmupdateFwmsetting#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#max_device_history FmupdateFwmsetting#max_device_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#max_device_history FmupdateFwmsetting#max_device_history}
   */
   readonly maxDeviceHistory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#max_profile_history FmupdateFwmsetting#max_profile_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#max_profile_history FmupdateFwmsetting#max_profile_history}
   */
   readonly maxProfileHistory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#multiple_steps_interval FmupdateFwmsetting#multiple_steps_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#multiple_steps_interval FmupdateFwmsetting#multiple_steps_interval}
   */
   readonly multipleStepsInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#retrieve FmupdateFwmsetting#retrieve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#retrieve FmupdateFwmsetting#retrieve}
   */
   readonly retrieve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#retry_interval FmupdateFwmsetting#retry_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#retry_interval FmupdateFwmsetting#retry_interval}
   */
   readonly retryInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#retry_max FmupdateFwmsetting#retry_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#retry_max FmupdateFwmsetting#retry_max}
   */
   readonly retryMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#revision_diff FmupdateFwmsetting#revision_diff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#revision_diff FmupdateFwmsetting#revision_diff}
   */
   readonly revisionDiff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#send_image_retry FmupdateFwmsetting#send_image_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#send_image_retry FmupdateFwmsetting#send_image_retry}
   */
   readonly sendImageRetry?: number;
   /**
   * upgrade_timeout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#upgrade_timeout FmupdateFwmsetting#upgrade_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#upgrade_timeout FmupdateFwmsetting#upgrade_timeout}
   */
   readonly upgradeTimeout?: FmupdateFwmsettingUpgradeTimeout;
 }
 export interface FmupdateFwmsettingUpgradeTimeout {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#check_status_timeout FmupdateFwmsetting#check_status_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#check_status_timeout FmupdateFwmsetting#check_status_timeout}
   */
   readonly checkStatusTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#ctrl_check_status_timeout FmupdateFwmsetting#ctrl_check_status_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#ctrl_check_status_timeout FmupdateFwmsetting#ctrl_check_status_timeout}
   */
   readonly ctrlCheckStatusTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#ctrl_put_image_by_fds_timeout FmupdateFwmsetting#ctrl_put_image_by_fds_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#ctrl_put_image_by_fds_timeout FmupdateFwmsetting#ctrl_put_image_by_fds_timeout}
   */
   readonly ctrlPutImageByFdsTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#ha_sync_timeout FmupdateFwmsetting#ha_sync_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#ha_sync_timeout FmupdateFwmsetting#ha_sync_timeout}
   */
   readonly haSyncTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#health_check_timeout FmupdateFwmsetting#health_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#health_check_timeout FmupdateFwmsetting#health_check_timeout}
   */
   readonly healthCheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#license_check_timeout FmupdateFwmsetting#license_check_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#license_check_timeout FmupdateFwmsetting#license_check_timeout}
   */
   readonly licenseCheckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#prepare_image_timeout FmupdateFwmsetting#prepare_image_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#prepare_image_timeout FmupdateFwmsetting#prepare_image_timeout}
   */
   readonly prepareImageTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#put_image_by_fds_timeout FmupdateFwmsetting#put_image_by_fds_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#put_image_by_fds_timeout FmupdateFwmsetting#put_image_by_fds_timeout}
   */
   readonly putImageByFdsTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#put_image_timeout FmupdateFwmsetting#put_image_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#put_image_timeout FmupdateFwmsetting#put_image_timeout}
   */
   readonly putImageTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#reboot_of_fsck_timeout FmupdateFwmsetting#reboot_of_fsck_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#reboot_of_fsck_timeout FmupdateFwmsetting#reboot_of_fsck_timeout}
   */
   readonly rebootOfFsckTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#reboot_of_upgrade_timeout FmupdateFwmsetting#reboot_of_upgrade_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#reboot_of_upgrade_timeout FmupdateFwmsetting#reboot_of_upgrade_timeout}
   */
   readonly rebootOfUpgradeTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#retrieve_timeout FmupdateFwmsetting#retrieve_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#retrieve_timeout FmupdateFwmsetting#retrieve_timeout}
   */
   readonly retrieveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#rpc_timeout FmupdateFwmsetting#rpc_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#rpc_timeout FmupdateFwmsetting#rpc_timeout}
   */
   readonly rpcTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#total_timeout FmupdateFwmsetting#total_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#total_timeout FmupdateFwmsetting#total_timeout}
   */
   readonly totalTimeout?: number;
 }
@@ -596,7 +596,7 @@ export class FmupdateFwmsettingUpgradeTimeoutOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting fortimanager_fmupdate_fwmsetting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting fortimanager_fmupdate_fwmsetting}
 */
 export class FmupdateFwmsetting extends cdktf.TerraformResource {
 
@@ -612,7 +612,7 @@ export class FmupdateFwmsetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FmupdateFwmsetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateFwmsetting to import
-  * @param importFromId The id of the existing FmupdateFwmsetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateFwmsetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateFwmsetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -624,7 +624,7 @@ export class FmupdateFwmsetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fwmsetting fortimanager_fmupdate_fwmsetting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fwmsetting fortimanager_fmupdate_fwmsetting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -635,8 +635,8 @@ export class FmupdateFwmsetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_fmupdate_fwmsetting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

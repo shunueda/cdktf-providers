@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DuoAdminPanelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify a set of grouped labels to identify the Duo Admin Panel as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#grouped_labels DuoAdminPanel#grouped_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#grouped_labels DuoAdminPanel#grouped_labels}
   */
   readonly groupedLabels?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The API hostname for an Admin API application in the Duo Admin Panel. Refer to the SCC Firewall Manager documentation for details on how to create an Admin API application to onboard your Duo Admin Panel in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#host DuoAdminPanel#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#host DuoAdminPanel#host}
   */
   readonly host: string;
   /**
   * The integration key for an Admin API application in the Duo Admin Panel. Refer to the SCC Firewall Manager documentation for details on how to create an Admin API application to onboard your Duo Admin Panel in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#integration_key DuoAdminPanel#integration_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#integration_key DuoAdminPanel#integration_key}
   */
   readonly integrationKey: string;
   /**
   * Specify a set of labels to identify the Duo Admin Panel as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#labels DuoAdminPanel#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#labels DuoAdminPanel#labels}
   */
   readonly labels?: string[];
   /**
   * A human-readable name for the Duo Admin Panel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#name DuoAdminPanel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#name DuoAdminPanel#name}
   */
   readonly name: string;
   /**
   * The secret key for an Admin API application in the Duo Admin Panel. Refer to the SCC Firewall Manager documentation for details on how to create an Admin API application to onboard your Duo Admin Panel in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#secret_key DuoAdminPanel#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#secret_key DuoAdminPanel#secret_key}
   */
   readonly secretKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel sccfm_duo_admin_panel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel sccfm_duo_admin_panel}
 */
 export class DuoAdminPanel extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class DuoAdminPanel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DuoAdminPanel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DuoAdminPanel to import
-  * @param importFromId The id of the existing DuoAdminPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DuoAdminPanel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DuoAdminPanel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class DuoAdminPanel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/duo_admin_panel sccfm_duo_admin_panel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/duo_admin_panel sccfm_duo_admin_panel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class DuoAdminPanel extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_duo_admin_panel',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

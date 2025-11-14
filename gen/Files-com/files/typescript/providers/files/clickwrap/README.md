@@ -1,3 +1,3 @@
 # `files_clickwrap`
 
-Refer to the Terraform Registry for docs: [`files_clickwrap`](https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/clickwrap).
+Refer to the Terraform Registry for docs: [`files_clickwrap`](https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/clickwrap).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,303 +8,303 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanDhcpserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#adom ObjectFspVlanDhcpserver#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#adom ObjectFspVlanDhcpserver#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#auto_configuration ObjectFspVlanDhcpserver#auto_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#auto_configuration ObjectFspVlanDhcpserver#auto_configuration}
   */
   readonly autoConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#auto_managed_status ObjectFspVlanDhcpserver#auto_managed_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#auto_managed_status ObjectFspVlanDhcpserver#auto_managed_status}
   */
   readonly autoManagedStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#conflicted_ip_timeout ObjectFspVlanDhcpserver#conflicted_ip_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#conflicted_ip_timeout ObjectFspVlanDhcpserver#conflicted_ip_timeout}
   */
   readonly conflictedIpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_auth ObjectFspVlanDhcpserver#ddns_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_auth ObjectFspVlanDhcpserver#ddns_auth}
   */
   readonly ddnsAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_key ObjectFspVlanDhcpserver#ddns_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_key ObjectFspVlanDhcpserver#ddns_key}
   */
   readonly ddnsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_keyname ObjectFspVlanDhcpserver#ddns_keyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_keyname ObjectFspVlanDhcpserver#ddns_keyname}
   */
   readonly ddnsKeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_server_ip ObjectFspVlanDhcpserver#ddns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_server_ip ObjectFspVlanDhcpserver#ddns_server_ip}
   */
   readonly ddnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_ttl ObjectFspVlanDhcpserver#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_ttl ObjectFspVlanDhcpserver#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_update ObjectFspVlanDhcpserver#ddns_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_update ObjectFspVlanDhcpserver#ddns_update}
   */
   readonly ddnsUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_update_override ObjectFspVlanDhcpserver#ddns_update_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_update_override ObjectFspVlanDhcpserver#ddns_update_override}
   */
   readonly ddnsUpdateOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_zone ObjectFspVlanDhcpserver#ddns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ddns_zone ObjectFspVlanDhcpserver#ddns_zone}
   */
   readonly ddnsZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#default_gateway ObjectFspVlanDhcpserver#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#default_gateway ObjectFspVlanDhcpserver#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dhcp_settings_from_fortiipam ObjectFspVlanDhcpserver#dhcp_settings_from_fortiipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dhcp_settings_from_fortiipam ObjectFspVlanDhcpserver#dhcp_settings_from_fortiipam}
   */
   readonly dhcpSettingsFromFortiipam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server1 ObjectFspVlanDhcpserver#dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server1 ObjectFspVlanDhcpserver#dns_server1}
   */
   readonly dnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server2 ObjectFspVlanDhcpserver#dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server2 ObjectFspVlanDhcpserver#dns_server2}
   */
   readonly dnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server3 ObjectFspVlanDhcpserver#dns_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server3 ObjectFspVlanDhcpserver#dns_server3}
   */
   readonly dnsServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server4 ObjectFspVlanDhcpserver#dns_server4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dns_server4 ObjectFspVlanDhcpserver#dns_server4}
   */
   readonly dnsServer4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dns_service ObjectFspVlanDhcpserver#dns_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dns_service ObjectFspVlanDhcpserver#dns_service}
   */
   readonly dnsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#domain ObjectFspVlanDhcpserver#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#domain ObjectFspVlanDhcpserver#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#dynamic_sort_subtable ObjectFspVlanDhcpserver#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#dynamic_sort_subtable ObjectFspVlanDhcpserver#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#enable ObjectFspVlanDhcpserver#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#enable ObjectFspVlanDhcpserver#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#filename ObjectFspVlanDhcpserver#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#filename ObjectFspVlanDhcpserver#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#forticlient_on_net_status ObjectFspVlanDhcpserver#forticlient_on_net_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#forticlient_on_net_status ObjectFspVlanDhcpserver#forticlient_on_net_status}
   */
   readonly forticlientOnNetStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#fosid ObjectFspVlanDhcpserver#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#fosid ObjectFspVlanDhcpserver#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ip_mode ObjectFspVlanDhcpserver#ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ip_mode ObjectFspVlanDhcpserver#ip_mode}
   */
   readonly ipMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ipsec_lease_hold ObjectFspVlanDhcpserver#ipsec_lease_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ipsec_lease_hold ObjectFspVlanDhcpserver#ipsec_lease_hold}
   */
   readonly ipsecLeaseHold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#mac_acl_default_action ObjectFspVlanDhcpserver#mac_acl_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#mac_acl_default_action ObjectFspVlanDhcpserver#mac_acl_default_action}
   */
   readonly macAclDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#netmask ObjectFspVlanDhcpserver#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#netmask ObjectFspVlanDhcpserver#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#next_server ObjectFspVlanDhcpserver#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#next_server ObjectFspVlanDhcpserver#next_server}
   */
   readonly nextServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server1 ObjectFspVlanDhcpserver#ntp_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server1 ObjectFspVlanDhcpserver#ntp_server1}
   */
   readonly ntpServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server2 ObjectFspVlanDhcpserver#ntp_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server2 ObjectFspVlanDhcpserver#ntp_server2}
   */
   readonly ntpServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server3 ObjectFspVlanDhcpserver#ntp_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_server3 ObjectFspVlanDhcpserver#ntp_server3}
   */
   readonly ntpServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_service ObjectFspVlanDhcpserver#ntp_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ntp_service ObjectFspVlanDhcpserver#ntp_service}
   */
   readonly ntpService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option1 ObjectFspVlanDhcpserver#option1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option1 ObjectFspVlanDhcpserver#option1}
   */
   readonly option1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option2 ObjectFspVlanDhcpserver#option2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option2 ObjectFspVlanDhcpserver#option2}
   */
   readonly option2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option3 ObjectFspVlanDhcpserver#option3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option3 ObjectFspVlanDhcpserver#option3}
   */
   readonly option3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option4 ObjectFspVlanDhcpserver#option4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option4 ObjectFspVlanDhcpserver#option4}
   */
   readonly option4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option5 ObjectFspVlanDhcpserver#option5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option5 ObjectFspVlanDhcpserver#option5}
   */
   readonly option5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#option6 ObjectFspVlanDhcpserver#option6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#option6 ObjectFspVlanDhcpserver#option6}
   */
   readonly option6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#relay_agent ObjectFspVlanDhcpserver#relay_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#relay_agent ObjectFspVlanDhcpserver#relay_agent}
   */
   readonly relayAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#scopetype ObjectFspVlanDhcpserver#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#scopetype ObjectFspVlanDhcpserver#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#server_type ObjectFspVlanDhcpserver#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#server_type ObjectFspVlanDhcpserver#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#shared_subnet ObjectFspVlanDhcpserver#shared_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#shared_subnet ObjectFspVlanDhcpserver#shared_subnet}
   */
   readonly sharedSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#status ObjectFspVlanDhcpserver#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#status ObjectFspVlanDhcpserver#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#tftp_server ObjectFspVlanDhcpserver#tftp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#tftp_server ObjectFspVlanDhcpserver#tftp_server}
   */
   readonly tftpServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#timezone ObjectFspVlanDhcpserver#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#timezone ObjectFspVlanDhcpserver#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#timezone_option ObjectFspVlanDhcpserver#timezone_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#timezone_option ObjectFspVlanDhcpserver#timezone_option}
   */
   readonly timezoneOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
   */
   readonly vciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vlan ObjectFspVlanDhcpserver#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vlan ObjectFspVlanDhcpserver#vlan}
   */
   readonly vlan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac1 ObjectFspVlanDhcpserver#wifi_ac1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac1 ObjectFspVlanDhcpserver#wifi_ac1}
   */
   readonly wifiAc1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac2 ObjectFspVlanDhcpserver#wifi_ac2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac2 ObjectFspVlanDhcpserver#wifi_ac2}
   */
   readonly wifiAc2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac3 ObjectFspVlanDhcpserver#wifi_ac3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac3 ObjectFspVlanDhcpserver#wifi_ac3}
   */
   readonly wifiAc3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac_service ObjectFspVlanDhcpserver#wifi_ac_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wifi_ac_service ObjectFspVlanDhcpserver#wifi_ac_service}
   */
   readonly wifiAcService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wins_server1 ObjectFspVlanDhcpserver#wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wins_server1 ObjectFspVlanDhcpserver#wins_server1}
   */
   readonly winsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#wins_server2 ObjectFspVlanDhcpserver#wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#wins_server2 ObjectFspVlanDhcpserver#wins_server2}
   */
   readonly winsServer2?: string;
   /**
   * exclude_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#exclude_range ObjectFspVlanDhcpserver#exclude_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#exclude_range ObjectFspVlanDhcpserver#exclude_range}
   */
   readonly excludeRange?: ObjectFspVlanDhcpserverExcludeRange[] | cdktf.IResolvable;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ip_range ObjectFspVlanDhcpserver#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ip_range ObjectFspVlanDhcpserver#ip_range}
   */
   readonly ipRange?: ObjectFspVlanDhcpserverIpRange[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#options ObjectFspVlanDhcpserver#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#options ObjectFspVlanDhcpserver#options}
   */
   readonly options?: ObjectFspVlanDhcpserverOptions[] | cdktf.IResolvable;
   /**
   * reserved_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#reserved_address ObjectFspVlanDhcpserver#reserved_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#reserved_address ObjectFspVlanDhcpserver#reserved_address}
   */
   readonly reservedAddress?: ObjectFspVlanDhcpserverReservedAddress[] | cdktf.IResolvable;
 }
 export interface ObjectFspVlanDhcpserverExcludeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#end_ip ObjectFspVlanDhcpserver#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#end_ip ObjectFspVlanDhcpserver#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#start_ip ObjectFspVlanDhcpserver#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#start_ip ObjectFspVlanDhcpserver#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -623,38 +623,38 @@ export class ObjectFspVlanDhcpserverExcludeRangeList extends cdktf.ComplexList {
 }
 export interface ObjectFspVlanDhcpserverIpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#end_ip ObjectFspVlanDhcpserver#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#end_ip ObjectFspVlanDhcpserver#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#lease_time ObjectFspVlanDhcpserver#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#start_ip ObjectFspVlanDhcpserver#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#start_ip ObjectFspVlanDhcpserver#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -973,42 +973,42 @@ export class ObjectFspVlanDhcpserverIpRangeList extends cdktf.ComplexList {
 }
 export interface ObjectFspVlanDhcpserverOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#code ObjectFspVlanDhcpserver#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#code ObjectFspVlanDhcpserver#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ip ObjectFspVlanDhcpserver#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ip ObjectFspVlanDhcpserver#ip}
   */
   readonly ip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#type ObjectFspVlanDhcpserver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#type ObjectFspVlanDhcpserver#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_match ObjectFspVlanDhcpserver#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#uci_string ObjectFspVlanDhcpserver#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#value ObjectFspVlanDhcpserver#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#value ObjectFspVlanDhcpserver#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_match ObjectFspVlanDhcpserver#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#vci_string ObjectFspVlanDhcpserver#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -1356,46 +1356,46 @@ export class ObjectFspVlanDhcpserverOptionsList extends cdktf.ComplexList {
 }
 export interface ObjectFspVlanDhcpserverReservedAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#action ObjectFspVlanDhcpserver#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#action ObjectFspVlanDhcpserver#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#circuit_id ObjectFspVlanDhcpserver#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#circuit_id ObjectFspVlanDhcpserver#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#circuit_id_type ObjectFspVlanDhcpserver#circuit_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#circuit_id_type ObjectFspVlanDhcpserver#circuit_id_type}
   */
   readonly circuitIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#description ObjectFspVlanDhcpserver#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#description ObjectFspVlanDhcpserver#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#id ObjectFspVlanDhcpserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#ip ObjectFspVlanDhcpserver#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#ip ObjectFspVlanDhcpserver#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#mac ObjectFspVlanDhcpserver#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#mac ObjectFspVlanDhcpserver#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#remote_id ObjectFspVlanDhcpserver#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#remote_id ObjectFspVlanDhcpserver#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#remote_id_type ObjectFspVlanDhcpserver#remote_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#remote_id_type ObjectFspVlanDhcpserver#remote_id_type}
   */
   readonly remoteIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#type ObjectFspVlanDhcpserver#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#type ObjectFspVlanDhcpserver#type}
   */
   readonly type?: string;
 }
@@ -1772,7 +1772,7 @@ export class ObjectFspVlanDhcpserverReservedAddressList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver fortimanager_object_fsp_vlan_dhcpserver}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver fortimanager_object_fsp_vlan_dhcpserver}
 */
 export class ObjectFspVlanDhcpserver extends cdktf.TerraformResource {
 
@@ -1788,7 +1788,7 @@ export class ObjectFspVlanDhcpserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFspVlanDhcpserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanDhcpserver to import
-  * @param importFromId The id of the existing ObjectFspVlanDhcpserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanDhcpserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanDhcpserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1800,7 +1800,7 @@ export class ObjectFspVlanDhcpserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dhcpserver fortimanager_object_fsp_vlan_dhcpserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dhcpserver fortimanager_object_fsp_vlan_dhcpserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1811,8 +1811,8 @@ export class ObjectFspVlanDhcpserver extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_fsp_vlan_dhcpserver',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

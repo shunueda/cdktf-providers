@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallProfileprotocoloptionsSshAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#adom ObjectFirewallProfileprotocoloptionsSshA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#adom ObjectFirewallProfileprotocoloptionsSshA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#comfort_amount ObjectFirewallProfileprotocoloptionsSshA#comfort_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#comfort_amount ObjectFirewallProfileprotocoloptionsSshA#comfort_amount}
   */
   readonly comfortAmount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#comfort_interval ObjectFirewallProfileprotocoloptionsSshA#comfort_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#comfort_interval ObjectFirewallProfileprotocoloptionsSshA#comfort_interval}
   */
   readonly comfortInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#id ObjectFirewallProfileprotocoloptionsSshA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#id ObjectFirewallProfileprotocoloptionsSshA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#options ObjectFirewallProfileprotocoloptionsSshA#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#options ObjectFirewallProfileprotocoloptionsSshA#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#oversize_limit ObjectFirewallProfileprotocoloptionsSshA#oversize_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#oversize_limit ObjectFirewallProfileprotocoloptionsSshA#oversize_limit}
   */
   readonly oversizeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#profile_protocol_options ObjectFirewallProfileprotocoloptionsSshA#profile_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#profile_protocol_options ObjectFirewallProfileprotocoloptionsSshA#profile_protocol_options}
   */
   readonly profileProtocolOptions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#scan_bzip2 ObjectFirewallProfileprotocoloptionsSshA#scan_bzip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#scan_bzip2 ObjectFirewallProfileprotocoloptionsSshA#scan_bzip2}
   */
   readonly scanBzip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#scopetype ObjectFirewallProfileprotocoloptionsSshA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#scopetype ObjectFirewallProfileprotocoloptionsSshA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#ssl_offloaded ObjectFirewallProfileprotocoloptionsSshA#ssl_offloaded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#ssl_offloaded ObjectFirewallProfileprotocoloptionsSshA#ssl_offloaded}
   */
   readonly sslOffloaded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#stream_based_uncompressed_limit ObjectFirewallProfileprotocoloptionsSshA#stream_based_uncompressed_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#stream_based_uncompressed_limit ObjectFirewallProfileprotocoloptionsSshA#stream_based_uncompressed_limit}
   */
   readonly streamBasedUncompressedLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_maximum ObjectFirewallProfileprotocoloptionsSshA#tcp_window_maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_maximum ObjectFirewallProfileprotocoloptionsSshA#tcp_window_maximum}
   */
   readonly tcpWindowMaximum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_minimum ObjectFirewallProfileprotocoloptionsSshA#tcp_window_minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_minimum ObjectFirewallProfileprotocoloptionsSshA#tcp_window_minimum}
   */
   readonly tcpWindowMinimum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_size ObjectFirewallProfileprotocoloptionsSshA#tcp_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_size ObjectFirewallProfileprotocoloptionsSshA#tcp_window_size}
   */
   readonly tcpWindowSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_type ObjectFirewallProfileprotocoloptionsSshA#tcp_window_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#tcp_window_type ObjectFirewallProfileprotocoloptionsSshA#tcp_window_type}
   */
   readonly tcpWindowType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#uncompressed_nest_limit ObjectFirewallProfileprotocoloptionsSshA#uncompressed_nest_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#uncompressed_nest_limit ObjectFirewallProfileprotocoloptionsSshA#uncompressed_nest_limit}
   */
   readonly uncompressedNestLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#uncompressed_oversize_limit ObjectFirewallProfileprotocoloptionsSshA#uncompressed_oversize_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#uncompressed_oversize_limit ObjectFirewallProfileprotocoloptionsSshA#uncompressed_oversize_limit}
   */
   readonly uncompressedOversizeLimit?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh fortimanager_object_firewall_profileprotocoloptions_ssh}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh fortimanager_object_firewall_profileprotocoloptions_ssh}
 */
 export class ObjectFirewallProfileprotocoloptionsSshA extends cdktf.TerraformResource {
 
@@ -97,7 +97,7 @@ export class ObjectFirewallProfileprotocoloptionsSshA extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ObjectFirewallProfileprotocoloptionsSshA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallProfileprotocoloptionsSshA to import
-  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsSshA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsSshA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallProfileprotocoloptionsSshA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +109,7 @@ export class ObjectFirewallProfileprotocoloptionsSshA extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_ssh fortimanager_object_firewall_profileprotocoloptions_ssh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_ssh fortimanager_object_firewall_profileprotocoloptions_ssh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +120,8 @@ export class ObjectFirewallProfileprotocoloptionsSshA extends cdktf.TerraformRes
       terraformResourceType: 'fortimanager_object_firewall_profileprotocoloptions_ssh',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

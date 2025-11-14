@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallVip64RealserversAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#adom ObjectFirewallVip64RealserversA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#adom ObjectFirewallVip64RealserversA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#client_ip ObjectFirewallVip64RealserversA#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#client_ip ObjectFirewallVip64RealserversA#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#fosid ObjectFirewallVip64RealserversA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#fosid ObjectFirewallVip64RealserversA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#healthcheck ObjectFirewallVip64RealserversA#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#healthcheck ObjectFirewallVip64RealserversA#healthcheck}
   */
   readonly healthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#holddown_interval ObjectFirewallVip64RealserversA#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#holddown_interval ObjectFirewallVip64RealserversA#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#id ObjectFirewallVip64RealserversA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#id ObjectFirewallVip64RealserversA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#ip ObjectFirewallVip64RealserversA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#ip ObjectFirewallVip64RealserversA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#max_connections ObjectFirewallVip64RealserversA#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#max_connections ObjectFirewallVip64RealserversA#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#monitor ObjectFirewallVip64RealserversA#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#monitor ObjectFirewallVip64RealserversA#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#port ObjectFirewallVip64RealserversA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#port ObjectFirewallVip64RealserversA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#scopetype ObjectFirewallVip64RealserversA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#scopetype ObjectFirewallVip64RealserversA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#status ObjectFirewallVip64RealserversA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#status ObjectFirewallVip64RealserversA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#vip64 ObjectFirewallVip64RealserversA#vip64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#vip64 ObjectFirewallVip64RealserversA#vip64}
   */
   readonly vip64: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#weight ObjectFirewallVip64RealserversA#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#weight ObjectFirewallVip64RealserversA#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers fortimanager_object_firewall_vip64_realservers}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers fortimanager_object_firewall_vip64_realservers}
 */
 export class ObjectFirewallVip64RealserversA extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class ObjectFirewallVip64RealserversA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallVip64RealserversA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallVip64RealserversA to import
-  * @param importFromId The id of the existing ObjectFirewallVip64RealserversA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallVip64RealserversA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallVip64RealserversA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class ObjectFirewallVip64RealserversA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip64_realservers fortimanager_object_firewall_vip64_realservers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip64_realservers fortimanager_object_firewall_vip64_realservers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class ObjectFirewallVip64RealserversA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_vip64_realservers',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,261 +8,289 @@ import * as cdktf from 'cdktf';
 
 export interface WantempSystemSdwanHealthcheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#_dynamic_server WantempSystemSdwanHealthcheck#_dynamic_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#_dynamic_server WantempSystemSdwanHealthcheck#_dynamic_server}
   */
   readonly dynamicServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#addr_mode WantempSystemSdwanHealthcheck#addr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#addr_mode WantempSystemSdwanHealthcheck#addr_mode}
   */
   readonly addrMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#adom WantempSystemSdwanHealthcheck#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#adom WantempSystemSdwanHealthcheck#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#class_id WantempSystemSdwanHealthcheck#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#agent_probe_timeout WantempSystemSdwanHealthcheck#agent_probe_timeout}
+  */
+  readonly agentProbeTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#bandwidth_weight WantempSystemSdwanHealthcheck#bandwidth_weight}
+  */
+  readonly bandwidthWeight?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#class_id WantempSystemSdwanHealthcheck#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#detect_mode WantempSystemSdwanHealthcheck#detect_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#detect_mode WantempSystemSdwanHealthcheck#detect_mode}
   */
   readonly detectMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#diffservcode WantempSystemSdwanHealthcheck#diffservcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#diffservcode WantempSystemSdwanHealthcheck#diffservcode}
   */
   readonly diffservcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#dns_match_ip WantempSystemSdwanHealthcheck#dns_match_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#dns_match_ip WantempSystemSdwanHealthcheck#dns_match_ip}
   */
   readonly dnsMatchIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#dns_request_domain WantempSystemSdwanHealthcheck#dns_request_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#dns_request_domain WantempSystemSdwanHealthcheck#dns_request_domain}
   */
   readonly dnsRequestDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#dynamic_sort_subtable WantempSystemSdwanHealthcheck#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#dynamic_sort_subtable WantempSystemSdwanHealthcheck#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#embed_measured_health WantempSystemSdwanHealthcheck#embed_measured_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#embed_measured_health WantempSystemSdwanHealthcheck#embed_measured_health}
   */
   readonly embedMeasuredHealth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#failtime WantempSystemSdwanHealthcheck#failtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#failtime WantempSystemSdwanHealthcheck#failtime}
   */
   readonly failtime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#fortiguard WantempSystemSdwanHealthcheck#fortiguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#fortiguard WantempSystemSdwanHealthcheck#fortiguard}
   */
   readonly fortiguard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#fortiguard_name WantempSystemSdwanHealthcheck#fortiguard_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#fortiguard_name WantempSystemSdwanHealthcheck#fortiguard_name}
   */
   readonly fortiguardName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#ftp_file WantempSystemSdwanHealthcheck#ftp_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#ftp_file WantempSystemSdwanHealthcheck#ftp_file}
   */
   readonly ftpFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#ftp_mode WantempSystemSdwanHealthcheck#ftp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#ftp_mode WantempSystemSdwanHealthcheck#ftp_mode}
   */
   readonly ftpMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#ha_priority WantempSystemSdwanHealthcheck#ha_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#ha_priority WantempSystemSdwanHealthcheck#ha_priority}
   */
   readonly haPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#http_agent WantempSystemSdwanHealthcheck#http_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#http_agent WantempSystemSdwanHealthcheck#http_agent}
   */
   readonly httpAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#http_get WantempSystemSdwanHealthcheck#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#http_get WantempSystemSdwanHealthcheck#http_get}
   */
   readonly httpGet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#http_match WantempSystemSdwanHealthcheck#http_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#http_match WantempSystemSdwanHealthcheck#http_match}
   */
   readonly httpMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#id WantempSystemSdwanHealthcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#id WantempSystemSdwanHealthcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#interval WantempSystemSdwanHealthcheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#interval WantempSystemSdwanHealthcheck#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#members WantempSystemSdwanHealthcheck#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#jitter_weight WantempSystemSdwanHealthcheck#jitter_weight}
+  */
+  readonly jitterWeight?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#latency_weight WantempSystemSdwanHealthcheck#latency_weight}
+  */
+  readonly latencyWeight?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#members WantempSystemSdwanHealthcheck#members}
   */
   readonly members?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#mos_codec WantempSystemSdwanHealthcheck#mos_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#mos_codec WantempSystemSdwanHealthcheck#mos_codec}
   */
   readonly mosCodec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#name WantempSystemSdwanHealthcheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#name WantempSystemSdwanHealthcheck#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#packet_size WantempSystemSdwanHealthcheck#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#packet_loss_weight WantempSystemSdwanHealthcheck#packet_loss_weight}
+  */
+  readonly packetLossWeight?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#packet_size WantempSystemSdwanHealthcheck#packet_size}
   */
   readonly packetSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#password WantempSystemSdwanHealthcheck#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#password WantempSystemSdwanHealthcheck#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#port WantempSystemSdwanHealthcheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#port WantempSystemSdwanHealthcheck#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_count WantempSystemSdwanHealthcheck#probe_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_count WantempSystemSdwanHealthcheck#probe_count}
   */
   readonly probeCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_packets WantempSystemSdwanHealthcheck#probe_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_packets WantempSystemSdwanHealthcheck#probe_packets}
   */
   readonly probePackets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_timeout WantempSystemSdwanHealthcheck#probe_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#probe_timeout WantempSystemSdwanHealthcheck#probe_timeout}
   */
   readonly probeTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#protocol WantempSystemSdwanHealthcheck#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#protocol WantempSystemSdwanHealthcheck#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#quality_measured_method WantempSystemSdwanHealthcheck#quality_measured_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#quality_measured_method WantempSystemSdwanHealthcheck#quality_measured_method}
   */
   readonly qualityMeasuredMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#recoverytime WantempSystemSdwanHealthcheck#recoverytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#recoverytime WantempSystemSdwanHealthcheck#recoverytime}
   */
   readonly recoverytime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#scopetype WantempSystemSdwanHealthcheck#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#remote_probe_timeout WantempSystemSdwanHealthcheck#remote_probe_timeout}
+  */
+  readonly remoteProbeTimeout?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#scopetype WantempSystemSdwanHealthcheck#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#security_mode WantempSystemSdwanHealthcheck#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#security_mode WantempSystemSdwanHealthcheck#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#server WantempSystemSdwanHealthcheck#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#server WantempSystemSdwanHealthcheck#server}
   */
   readonly server?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_fail_log_period WantempSystemSdwanHealthcheck#sla_fail_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_fail_log_period WantempSystemSdwanHealthcheck#sla_fail_log_period}
   */
   readonly slaFailLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_id_redistribute WantempSystemSdwanHealthcheck#sla_id_redistribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_id_redistribute WantempSystemSdwanHealthcheck#sla_id_redistribute}
   */
   readonly slaIdRedistribute?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_pass_log_period WantempSystemSdwanHealthcheck#sla_pass_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#sla_pass_log_period WantempSystemSdwanHealthcheck#sla_pass_log_period}
   */
   readonly slaPassLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#source WantempSystemSdwanHealthcheck#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#source WantempSystemSdwanHealthcheck#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#source6 WantempSystemSdwanHealthcheck#source6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#source6 WantempSystemSdwanHealthcheck#source6}
   */
   readonly source6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#system_dns WantempSystemSdwanHealthcheck#system_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#system_dns WantempSystemSdwanHealthcheck#system_dns}
   */
   readonly systemDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_jitter WantempSystemSdwanHealthcheck#threshold_alert_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_jitter WantempSystemSdwanHealthcheck#threshold_alert_jitter}
   */
   readonly thresholdAlertJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_latency WantempSystemSdwanHealthcheck#threshold_alert_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_latency WantempSystemSdwanHealthcheck#threshold_alert_latency}
   */
   readonly thresholdAlertLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_packetloss WantempSystemSdwanHealthcheck#threshold_alert_packetloss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_alert_packetloss WantempSystemSdwanHealthcheck#threshold_alert_packetloss}
   */
   readonly thresholdAlertPacketloss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_jitter WantempSystemSdwanHealthcheck#threshold_warning_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_jitter WantempSystemSdwanHealthcheck#threshold_warning_jitter}
   */
   readonly thresholdWarningJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_latency WantempSystemSdwanHealthcheck#threshold_warning_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_latency WantempSystemSdwanHealthcheck#threshold_warning_latency}
   */
   readonly thresholdWarningLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_packetloss WantempSystemSdwanHealthcheck#threshold_warning_packetloss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#threshold_warning_packetloss WantempSystemSdwanHealthcheck#threshold_warning_packetloss}
   */
   readonly thresholdWarningPacketloss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#update_cascade_interface WantempSystemSdwanHealthcheck#update_cascade_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#update_cascade_interface WantempSystemSdwanHealthcheck#update_cascade_interface}
   */
   readonly updateCascadeInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#update_static_route WantempSystemSdwanHealthcheck#update_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#update_static_route WantempSystemSdwanHealthcheck#update_static_route}
   */
   readonly updateStaticRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#user WantempSystemSdwanHealthcheck#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#user WantempSystemSdwanHealthcheck#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#vrf WantempSystemSdwanHealthcheck#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#vrf WantempSystemSdwanHealthcheck#vrf}
   */
   readonly vrf?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#wanprof WantempSystemSdwanHealthcheck#wanprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#wanprof WantempSystemSdwanHealthcheck#wanprof}
   */
   readonly wanprof: string;
   /**
   * sla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#sla WantempSystemSdwanHealthcheck#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#sla WantempSystemSdwanHealthcheck#sla}
   */
   readonly sla?: WantempSystemSdwanHealthcheckSla[] | cdktf.IResolvable;
 }
 export interface WantempSystemSdwanHealthcheckSla {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#id WantempSystemSdwanHealthcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#custom_profile_threshold WantempSystemSdwanHealthcheck#custom_profile_threshold}
+  */
+  readonly customProfileThreshold?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#id WantempSystemSdwanHealthcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#jitter_threshold WantempSystemSdwanHealthcheck#jitter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#jitter_threshold WantempSystemSdwanHealthcheck#jitter_threshold}
   */
   readonly jitterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#latency_threshold WantempSystemSdwanHealthcheck#latency_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#latency_threshold WantempSystemSdwanHealthcheck#latency_threshold}
   */
   readonly latencyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#link_cost_factor WantempSystemSdwanHealthcheck#link_cost_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#link_cost_factor WantempSystemSdwanHealthcheck#link_cost_factor}
   */
   readonly linkCostFactor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#mos_threshold WantempSystemSdwanHealthcheck#mos_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#mos_threshold WantempSystemSdwanHealthcheck#mos_threshold}
   */
   readonly mosThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#packetloss_threshold WantempSystemSdwanHealthcheck#packetloss_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#packetloss_threshold WantempSystemSdwanHealthcheck#packetloss_threshold}
   */
   readonly packetlossThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#priority_in_sla WantempSystemSdwanHealthcheck#priority_in_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#priority_in_sla WantempSystemSdwanHealthcheck#priority_in_sla}
   */
   readonly priorityInSla?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#priority_out_sla WantempSystemSdwanHealthcheck#priority_out_sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#priority_out_sla WantempSystemSdwanHealthcheck#priority_out_sla}
   */
   readonly priorityOutSla?: number;
 }
@@ -273,6 +301,7 @@ export function wantempSystemSdwanHealthcheckSlaToTerraform(struct?: WantempSyst
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    custom_profile_threshold: cdktf.numberToTerraform(struct!.customProfileThreshold),
     id: cdktf.numberToTerraform(struct!.id),
     jitter_threshold: cdktf.numberToTerraform(struct!.jitterThreshold),
     latency_threshold: cdktf.numberToTerraform(struct!.latencyThreshold),
@@ -291,6 +320,12 @@ export function wantempSystemSdwanHealthcheckSlaToHclTerraform(struct?: WantempS
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    custom_profile_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.customProfileThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
     id: {
       value: cdktf.numberToHclTerraform(struct!.id),
       isBlock: false,
@@ -365,6 +400,10 @@ export class WantempSystemSdwanHealthcheckSlaOutputReference extends cdktf.Compl
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._customProfileThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customProfileThreshold = this._customProfileThreshold;
+    }
     if (this._id !== undefined) {
       hasAnyValues = true;
       internalValueResult.id = this._id;
@@ -404,6 +443,7 @@ export class WantempSystemSdwanHealthcheckSlaOutputReference extends cdktf.Compl
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._customProfileThreshold = undefined;
       this._id = undefined;
       this._jitterThreshold = undefined;
       this._latencyThreshold = undefined;
@@ -420,6 +460,7 @@ export class WantempSystemSdwanHealthcheckSlaOutputReference extends cdktf.Compl
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._customProfileThreshold = value.customProfileThreshold;
       this._id = value.id;
       this._jitterThreshold = value.jitterThreshold;
       this._latencyThreshold = value.latencyThreshold;
@@ -429,6 +470,22 @@ export class WantempSystemSdwanHealthcheckSlaOutputReference extends cdktf.Compl
       this._priorityInSla = value.priorityInSla;
       this._priorityOutSla = value.priorityOutSla;
     }
+  }
+
+  // custom_profile_threshold - computed: false, optional: true, required: false
+  private _customProfileThreshold?: number; 
+  public get customProfileThreshold() {
+    return this.getNumberAttribute('custom_profile_threshold');
+  }
+  public set customProfileThreshold(value: number) {
+    this._customProfileThreshold = value;
+  }
+  public resetCustomProfileThreshold() {
+    this._customProfileThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customProfileThresholdInput() {
+    return this._customProfileThreshold;
   }
 
   // id - computed: false, optional: true, required: false
@@ -581,7 +638,7 @@ export class WantempSystemSdwanHealthcheckSlaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck fortimanager_wantemp_system_sdwan_healthcheck}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck fortimanager_wantemp_system_sdwan_healthcheck}
 */
 export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
 
@@ -597,7 +654,7 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WantempSystemSdwanHealthcheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WantempSystemSdwanHealthcheck to import
-  * @param importFromId The id of the existing WantempSystemSdwanHealthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WantempSystemSdwanHealthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WantempSystemSdwanHealthcheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -609,7 +666,7 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_sdwan_healthcheck fortimanager_wantemp_system_sdwan_healthcheck} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_sdwan_healthcheck fortimanager_wantemp_system_sdwan_healthcheck} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -620,8 +677,8 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_wantemp_system_sdwan_healthcheck',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -634,6 +691,8 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
     this._dynamicServer = config.dynamicServer;
     this._addrMode = config.addrMode;
     this._adom = config.adom;
+    this._agentProbeTimeout = config.agentProbeTimeout;
+    this._bandwidthWeight = config.bandwidthWeight;
     this._classId = config.classId;
     this._detectMode = config.detectMode;
     this._diffservcode = config.diffservcode;
@@ -652,9 +711,12 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
     this._httpMatch = config.httpMatch;
     this._id = config.id;
     this._interval = config.interval;
+    this._jitterWeight = config.jitterWeight;
+    this._latencyWeight = config.latencyWeight;
     this._members = config.members;
     this._mosCodec = config.mosCodec;
     this._name = config.name;
+    this._packetLossWeight = config.packetLossWeight;
     this._packetSize = config.packetSize;
     this._password = config.password;
     this._port = config.port;
@@ -664,6 +726,7 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
     this._protocol = config.protocol;
     this._qualityMeasuredMethod = config.qualityMeasuredMethod;
     this._recoverytime = config.recoverytime;
+    this._remoteProbeTimeout = config.remoteProbeTimeout;
     this._scopetype = config.scopetype;
     this._securityMode = config.securityMode;
     this._server = config.server;
@@ -737,6 +800,38 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get adomInput() {
     return this._adom;
+  }
+
+  // agent_probe_timeout - computed: false, optional: true, required: false
+  private _agentProbeTimeout?: number; 
+  public get agentProbeTimeout() {
+    return this.getNumberAttribute('agent_probe_timeout');
+  }
+  public set agentProbeTimeout(value: number) {
+    this._agentProbeTimeout = value;
+  }
+  public resetAgentProbeTimeout() {
+    this._agentProbeTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get agentProbeTimeoutInput() {
+    return this._agentProbeTimeout;
+  }
+
+  // bandwidth_weight - computed: false, optional: true, required: false
+  private _bandwidthWeight?: number; 
+  public get bandwidthWeight() {
+    return this.getNumberAttribute('bandwidth_weight');
+  }
+  public set bandwidthWeight(value: number) {
+    this._bandwidthWeight = value;
+  }
+  public resetBandwidthWeight() {
+    this._bandwidthWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get bandwidthWeightInput() {
+    return this._bandwidthWeight;
   }
 
   // class_id - computed: false, optional: true, required: false
@@ -1027,6 +1122,38 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
     return this._interval;
   }
 
+  // jitter_weight - computed: false, optional: true, required: false
+  private _jitterWeight?: number; 
+  public get jitterWeight() {
+    return this.getNumberAttribute('jitter_weight');
+  }
+  public set jitterWeight(value: number) {
+    this._jitterWeight = value;
+  }
+  public resetJitterWeight() {
+    this._jitterWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jitterWeightInput() {
+    return this._jitterWeight;
+  }
+
+  // latency_weight - computed: false, optional: true, required: false
+  private _latencyWeight?: number; 
+  public get latencyWeight() {
+    return this.getNumberAttribute('latency_weight');
+  }
+  public set latencyWeight(value: number) {
+    this._latencyWeight = value;
+  }
+  public resetLatencyWeight() {
+    this._latencyWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get latencyWeightInput() {
+    return this._latencyWeight;
+  }
+
   // members - computed: true, optional: true, required: false
   private _members?: string[]; 
   public get members() {
@@ -1073,6 +1200,22 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // packet_loss_weight - computed: false, optional: true, required: false
+  private _packetLossWeight?: number; 
+  public get packetLossWeight() {
+    return this.getNumberAttribute('packet_loss_weight');
+  }
+  public set packetLossWeight(value: number) {
+    this._packetLossWeight = value;
+  }
+  public resetPacketLossWeight() {
+    this._packetLossWeight = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get packetLossWeightInput() {
+    return this._packetLossWeight;
   }
 
   // packet_size - computed: false, optional: true, required: false
@@ -1217,6 +1360,22 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get recoverytimeInput() {
     return this._recoverytime;
+  }
+
+  // remote_probe_timeout - computed: false, optional: true, required: false
+  private _remoteProbeTimeout?: number; 
+  public get remoteProbeTimeout() {
+    return this.getNumberAttribute('remote_probe_timeout');
+  }
+  public set remoteProbeTimeout(value: number) {
+    this._remoteProbeTimeout = value;
+  }
+  public resetRemoteProbeTimeout() {
+    this._remoteProbeTimeout = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get remoteProbeTimeoutInput() {
+    return this._remoteProbeTimeout;
   }
 
   // scopetype - computed: false, optional: true, required: false
@@ -1561,6 +1720,8 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
       _dynamic_server: cdktf.stringToTerraform(this._dynamicServer),
       addr_mode: cdktf.stringToTerraform(this._addrMode),
       adom: cdktf.stringToTerraform(this._adom),
+      agent_probe_timeout: cdktf.numberToTerraform(this._agentProbeTimeout),
+      bandwidth_weight: cdktf.numberToTerraform(this._bandwidthWeight),
       class_id: cdktf.stringToTerraform(this._classId),
       detect_mode: cdktf.stringToTerraform(this._detectMode),
       diffservcode: cdktf.stringToTerraform(this._diffservcode),
@@ -1579,9 +1740,12 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
       http_match: cdktf.stringToTerraform(this._httpMatch),
       id: cdktf.stringToTerraform(this._id),
       interval: cdktf.numberToTerraform(this._interval),
+      jitter_weight: cdktf.numberToTerraform(this._jitterWeight),
+      latency_weight: cdktf.numberToTerraform(this._latencyWeight),
       members: cdktf.listMapper(cdktf.stringToTerraform, false)(this._members),
       mos_codec: cdktf.stringToTerraform(this._mosCodec),
       name: cdktf.stringToTerraform(this._name),
+      packet_loss_weight: cdktf.numberToTerraform(this._packetLossWeight),
       packet_size: cdktf.numberToTerraform(this._packetSize),
       password: cdktf.listMapper(cdktf.stringToTerraform, false)(this._password),
       port: cdktf.numberToTerraform(this._port),
@@ -1591,6 +1755,7 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
       protocol: cdktf.stringToTerraform(this._protocol),
       quality_measured_method: cdktf.stringToTerraform(this._qualityMeasuredMethod),
       recoverytime: cdktf.numberToTerraform(this._recoverytime),
+      remote_probe_timeout: cdktf.numberToTerraform(this._remoteProbeTimeout),
       scopetype: cdktf.stringToTerraform(this._scopetype),
       security_mode: cdktf.stringToTerraform(this._securityMode),
       server: cdktf.listMapper(cdktf.stringToTerraform, false)(this._server),
@@ -1634,6 +1799,18 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      agent_probe_timeout: {
+        value: cdktf.numberToHclTerraform(this._agentProbeTimeout),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      bandwidth_weight: {
+        value: cdktf.numberToHclTerraform(this._bandwidthWeight),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       class_id: {
         value: cdktf.stringToHclTerraform(this._classId),
@@ -1743,6 +1920,18 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "number",
       },
+      jitter_weight: {
+        value: cdktf.numberToHclTerraform(this._jitterWeight),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      latency_weight: {
+        value: cdktf.numberToHclTerraform(this._latencyWeight),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
       members: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._members),
         isBlock: false,
@@ -1760,6 +1949,12 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      packet_loss_weight: {
+        value: cdktf.numberToHclTerraform(this._packetLossWeight),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       packet_size: {
         value: cdktf.numberToHclTerraform(this._packetSize),
@@ -1811,6 +2006,12 @@ export class WantempSystemSdwanHealthcheck extends cdktf.TerraformResource {
       },
       recoverytime: {
         value: cdktf.numberToHclTerraform(this._recoverytime),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      remote_probe_timeout: {
+        value: cdktf.numberToHclTerraform(this._remoteProbeTimeout),
         isBlock: false,
         type: "simple",
         storageClassType: "number",

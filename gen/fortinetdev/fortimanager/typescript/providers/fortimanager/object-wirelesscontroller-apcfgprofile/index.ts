@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerApcfgprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_ip ObjectWirelesscontrollerApcfgprofile#ac_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_ip ObjectWirelesscontrollerApcfgprofile#ac_ip}
   */
   readonly acIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_port ObjectWirelesscontrollerApcfgprofile#ac_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_port ObjectWirelesscontrollerApcfgprofile#ac_port}
   */
   readonly acPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_timer ObjectWirelesscontrollerApcfgprofile#ac_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_timer ObjectWirelesscontrollerApcfgprofile#ac_timer}
   */
   readonly acTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_type ObjectWirelesscontrollerApcfgprofile#ac_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#ac_type ObjectWirelesscontrollerApcfgprofile#ac_type}
   */
   readonly acType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#adom ObjectWirelesscontrollerApcfgprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#adom ObjectWirelesscontrollerApcfgprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#ap_family ObjectWirelesscontrollerApcfgprofile#ap_family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#ap_family ObjectWirelesscontrollerApcfgprofile#ap_family}
   */
   readonly apFamily?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#comment ObjectWirelesscontrollerApcfgprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#comment ObjectWirelesscontrollerApcfgprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#dynamic_sort_subtable ObjectWirelesscontrollerApcfgprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#dynamic_sort_subtable ObjectWirelesscontrollerApcfgprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#id ObjectWirelesscontrollerApcfgprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#id ObjectWirelesscontrollerApcfgprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#name ObjectWirelesscontrollerApcfgprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#name ObjectWirelesscontrollerApcfgprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#scopetype ObjectWirelesscontrollerApcfgprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#scopetype ObjectWirelesscontrollerApcfgprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * command_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#command_list ObjectWirelesscontrollerApcfgprofile#command_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#command_list ObjectWirelesscontrollerApcfgprofile#command_list}
   */
   readonly commandList?: ObjectWirelesscontrollerApcfgprofileCommandListStruct[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerApcfgprofileCommandListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#id ObjectWirelesscontrollerApcfgprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#id ObjectWirelesscontrollerApcfgprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#name ObjectWirelesscontrollerApcfgprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#name ObjectWirelesscontrollerApcfgprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#passwd_value ObjectWirelesscontrollerApcfgprofile#passwd_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#passwd_value ObjectWirelesscontrollerApcfgprofile#passwd_value}
   */
   readonly passwdValue?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#type ObjectWirelesscontrollerApcfgprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#type ObjectWirelesscontrollerApcfgprofile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#value ObjectWirelesscontrollerApcfgprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#value ObjectWirelesscontrollerApcfgprofile#value}
   */
   readonly value?: string;
 }
@@ -314,7 +314,7 @@ export class ObjectWirelesscontrollerApcfgprofileCommandListStructList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile fortimanager_object_wirelesscontroller_apcfgprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile fortimanager_object_wirelesscontroller_apcfgprofile}
 */
 export class ObjectWirelesscontrollerApcfgprofile extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class ObjectWirelesscontrollerApcfgprofile extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectWirelesscontrollerApcfgprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerApcfgprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerApcfgprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerApcfgprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerApcfgprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class ObjectWirelesscontrollerApcfgprofile extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_apcfgprofile fortimanager_object_wirelesscontroller_apcfgprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_apcfgprofile fortimanager_object_wirelesscontroller_apcfgprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class ObjectWirelesscontrollerApcfgprofile extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_wirelesscontroller_apcfgprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

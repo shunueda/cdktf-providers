@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,319 +8,319 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserRadiusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#account_key_cert_field ObjectUserRadius#account_key_cert_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#account_key_cert_field ObjectUserRadius#account_key_cert_field}
   */
   readonly accountKeyCertField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#account_key_processing ObjectUserRadius#account_key_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#account_key_processing ObjectUserRadius#account_key_processing}
   */
   readonly accountKeyProcessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#acct_all_servers ObjectUserRadius#acct_all_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#acct_all_servers ObjectUserRadius#acct_all_servers}
   */
   readonly acctAllServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#acct_interim_interval ObjectUserRadius#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#acct_interim_interval ObjectUserRadius#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#adom ObjectUserRadius#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#adom ObjectUserRadius#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#all_usergroup ObjectUserRadius#all_usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#all_usergroup ObjectUserRadius#all_usergroup}
   */
   readonly allUsergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#auth_type ObjectUserRadius#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#auth_type ObjectUserRadius#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ca_cert ObjectUserRadius#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ca_cert ObjectUserRadius#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#call_station_id_type ObjectUserRadius#call_station_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#call_station_id_type ObjectUserRadius#call_station_id_type}
   */
   readonly callStationIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#class ObjectUserRadius#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#class ObjectUserRadius#class}
   */
   readonly class?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#client_cert ObjectUserRadius#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#client_cert ObjectUserRadius#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#delimiter ObjectUserRadius#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#delimiter ObjectUserRadius#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dynamic_sort_subtable ObjectUserRadius#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dynamic_sort_subtable ObjectUserRadius#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#group_override_attr_type ObjectUserRadius#group_override_attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#group_override_attr_type ObjectUserRadius#group_override_attr_type}
   */
   readonly groupOverrideAttrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#h3c_compatibility ObjectUserRadius#h3c_compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#h3c_compatibility ObjectUserRadius#h3c_compatibility}
   */
   readonly h3CCompatibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_case ObjectUserRadius#mac_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_case ObjectUserRadius#mac_case}
   */
   readonly macCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_password_delimiter ObjectUserRadius#mac_password_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_password_delimiter ObjectUserRadius#mac_password_delimiter}
   */
   readonly macPasswordDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_username_delimiter ObjectUserRadius#mac_username_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_username_delimiter ObjectUserRadius#mac_username_delimiter}
   */
   readonly macUsernameDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#name ObjectUserRadius#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#name ObjectUserRadius#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_id ObjectUserRadius#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_id ObjectUserRadius#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_id_type ObjectUserRadius#nas_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_id_type ObjectUserRadius#nas_id_type}
   */
   readonly nasIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_ip ObjectUserRadius#nas_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_ip ObjectUserRadius#nas_ip}
   */
   readonly nasIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#password_encoding ObjectUserRadius#password_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#password_encoding ObjectUserRadius#password_encoding}
   */
   readonly passwordEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#password_renewal ObjectUserRadius#password_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#password_renewal ObjectUserRadius#password_renewal}
   */
   readonly passwordRenewal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#radius_coa ObjectUserRadius#radius_coa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#radius_coa ObjectUserRadius#radius_coa}
   */
   readonly radiusCoa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#radius_port ObjectUserRadius#radius_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#radius_port ObjectUserRadius#radius_port}
   */
   readonly radiusPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#require_message_authenticator ObjectUserRadius#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#require_message_authenticator ObjectUserRadius#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso ObjectUserRadius#rsso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso ObjectUserRadius#rsso}
   */
   readonly rsso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_context_timeout ObjectUserRadius#rsso_context_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_context_timeout ObjectUserRadius#rsso_context_timeout}
   */
   readonly rssoContextTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_endpoint_attribute ObjectUserRadius#rsso_endpoint_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_endpoint_attribute ObjectUserRadius#rsso_endpoint_attribute}
   */
   readonly rssoEndpointAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_endpoint_block_attribute ObjectUserRadius#rsso_endpoint_block_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_endpoint_block_attribute ObjectUserRadius#rsso_endpoint_block_attribute}
   */
   readonly rssoEndpointBlockAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_ep_one_ip_only ObjectUserRadius#rsso_ep_one_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_ep_one_ip_only ObjectUserRadius#rsso_ep_one_ip_only}
   */
   readonly rssoEpOneIpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_flush_ip_session ObjectUserRadius#rsso_flush_ip_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_flush_ip_session ObjectUserRadius#rsso_flush_ip_session}
   */
   readonly rssoFlushIpSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_log_flags ObjectUserRadius#rsso_log_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_log_flags ObjectUserRadius#rsso_log_flags}
   */
   readonly rssoLogFlags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_log_period ObjectUserRadius#rsso_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_log_period ObjectUserRadius#rsso_log_period}
   */
   readonly rssoLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_radius_response ObjectUserRadius#rsso_radius_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_radius_response ObjectUserRadius#rsso_radius_response}
   */
   readonly rssoRadiusResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_radius_server_port ObjectUserRadius#rsso_radius_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_radius_server_port ObjectUserRadius#rsso_radius_server_port}
   */
   readonly rssoRadiusServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_secret ObjectUserRadius#rsso_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_secret ObjectUserRadius#rsso_secret}
   */
   readonly rssoSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_validate_request_secret ObjectUserRadius#rsso_validate_request_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_validate_request_secret ObjectUserRadius#rsso_validate_request_secret}
   */
   readonly rssoValidateRequestSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#scopetype ObjectUserRadius#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#scopetype ObjectUserRadius#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secondary_secret ObjectUserRadius#secondary_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secondary_secret ObjectUserRadius#secondary_secret}
   */
   readonly secondarySecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secondary_server ObjectUserRadius#secondary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secondary_server ObjectUserRadius#secondary_server}
   */
   readonly secondaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server_identity_check ObjectUserRadius#server_identity_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server_identity_check ObjectUserRadius#server_identity_check}
   */
   readonly serverIdentityCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip_interface ObjectUserRadius#source_ip_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip_interface ObjectUserRadius#source_ip_interface}
   */
   readonly sourceIpInterface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute ObjectUserRadius#sso_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute ObjectUserRadius#sso_attribute}
   */
   readonly ssoAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute_key ObjectUserRadius#sso_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute_key ObjectUserRadius#sso_attribute_key}
   */
   readonly ssoAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute_value_override ObjectUserRadius#sso_attribute_value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute_value_override ObjectUserRadius#sso_attribute_value_override}
   */
   readonly ssoAttributeValueOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#status_ttl ObjectUserRadius#status_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#status_ttl ObjectUserRadius#status_ttl}
   */
   readonly statusTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_acct_fast_framedip_detect ObjectUserRadius#switch_controller_acct_fast_framedip_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_acct_fast_framedip_detect ObjectUserRadius#switch_controller_acct_fast_framedip_detect}
   */
   readonly switchControllerAcctFastFramedipDetect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_nas_ip_dynamic ObjectUserRadius#switch_controller_nas_ip_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_nas_ip_dynamic ObjectUserRadius#switch_controller_nas_ip_dynamic}
   */
   readonly switchControllerNasIpDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_service_type ObjectUserRadius#switch_controller_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_service_type ObjectUserRadius#switch_controller_service_type}
   */
   readonly switchControllerServiceType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tertiary_secret ObjectUserRadius#tertiary_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tertiary_secret ObjectUserRadius#tertiary_secret}
   */
   readonly tertiarySecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tertiary_server ObjectUserRadius#tertiary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tertiary_server ObjectUserRadius#tertiary_server}
   */
   readonly tertiaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#timeout ObjectUserRadius#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#timeout ObjectUserRadius#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tls_min_proto_version ObjectUserRadius#tls_min_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tls_min_proto_version ObjectUserRadius#tls_min_proto_version}
   */
   readonly tlsMinProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#transport_protocol ObjectUserRadius#transport_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#transport_protocol ObjectUserRadius#transport_protocol}
   */
   readonly transportProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#use_management_vdom ObjectUserRadius#use_management_vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#use_management_vdom ObjectUserRadius#use_management_vdom}
   */
   readonly useManagementVdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#username_case_sensitive ObjectUserRadius#username_case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#username_case_sensitive ObjectUserRadius#username_case_sensitive}
   */
   readonly usernameCaseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
   * accounting_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#accounting_server ObjectUserRadius#accounting_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#accounting_server ObjectUserRadius#accounting_server}
   */
   readonly accountingServer?: ObjectUserRadiusAccountingServer[] | cdktf.IResolvable;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dynamic_mapping ObjectUserRadius#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dynamic_mapping ObjectUserRadius#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectUserRadiusDynamicMapping[] | cdktf.IResolvable;
 }
 export interface ObjectUserRadiusAccountingServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#port ObjectUserRadius#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#port ObjectUserRadius#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#status ObjectUserRadius#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#status ObjectUserRadius#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
   */
   readonly vrfSelect?: number;
 }
@@ -668,11 +668,11 @@ export class ObjectUserRadiusAccountingServerList extends cdktf.ComplexList {
 }
 export interface ObjectUserRadiusDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#name ObjectUserRadius#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#name ObjectUserRadius#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#vdom ObjectUserRadius#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#vdom ObjectUserRadius#vdom}
   */
   readonly vdom?: string;
 }
@@ -817,42 +817,42 @@ export class ObjectUserRadiusDynamicMappingScopeList extends cdktf.ComplexList {
 }
 export interface ObjectUserRadiusDynamicMappingAccountingServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#id ObjectUserRadius#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#port ObjectUserRadius#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#port ObjectUserRadius#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#status ObjectUserRadius#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#status ObjectUserRadius#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
   */
   readonly vrfSelect?: number;
 }
@@ -1200,387 +1200,387 @@ export class ObjectUserRadiusDynamicMappingAccountingServerList extends cdktf.Co
 }
 export interface ObjectUserRadiusDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#account_key_cert_field ObjectUserRadius#account_key_cert_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#account_key_cert_field ObjectUserRadius#account_key_cert_field}
   */
   readonly accountKeyCertField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#account_key_processing ObjectUserRadius#account_key_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#account_key_processing ObjectUserRadius#account_key_processing}
   */
   readonly accountKeyProcessing?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#acct_all_servers ObjectUserRadius#acct_all_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#acct_all_servers ObjectUserRadius#acct_all_servers}
   */
   readonly acctAllServers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#acct_interim_interval ObjectUserRadius#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#acct_interim_interval ObjectUserRadius#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#all_usergroup ObjectUserRadius#all_usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#all_usergroup ObjectUserRadius#all_usergroup}
   */
   readonly allUsergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#auth_type ObjectUserRadius#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#auth_type ObjectUserRadius#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ca_cert ObjectUserRadius#ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ca_cert ObjectUserRadius#ca_cert}
   */
   readonly caCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#call_station_id_type ObjectUserRadius#call_station_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#call_station_id_type ObjectUserRadius#call_station_id_type}
   */
   readonly callStationIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#class ObjectUserRadius#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#class ObjectUserRadius#class}
   */
   readonly class?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#client_cert ObjectUserRadius#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#client_cert ObjectUserRadius#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#delimiter ObjectUserRadius#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#delimiter ObjectUserRadius#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_carrier_endpoint_attribute ObjectUserRadius#dp_carrier_endpoint_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_carrier_endpoint_attribute ObjectUserRadius#dp_carrier_endpoint_attribute}
   */
   readonly dpCarrierEndpointAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_carrier_endpoint_block_attribute ObjectUserRadius#dp_carrier_endpoint_block_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_carrier_endpoint_block_attribute ObjectUserRadius#dp_carrier_endpoint_block_attribute}
   */
   readonly dpCarrierEndpointBlockAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_context_timeout ObjectUserRadius#dp_context_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_context_timeout ObjectUserRadius#dp_context_timeout}
   */
   readonly dpContextTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_flush_ip_session ObjectUserRadius#dp_flush_ip_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_flush_ip_session ObjectUserRadius#dp_flush_ip_session}
   */
   readonly dpFlushIpSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_hold_time ObjectUserRadius#dp_hold_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_hold_time ObjectUserRadius#dp_hold_time}
   */
   readonly dpHoldTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_http_header ObjectUserRadius#dp_http_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_http_header ObjectUserRadius#dp_http_header}
   */
   readonly dpHttpHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_http_header_fallback ObjectUserRadius#dp_http_header_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_http_header_fallback ObjectUserRadius#dp_http_header_fallback}
   */
   readonly dpHttpHeaderFallback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_http_header_status ObjectUserRadius#dp_http_header_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_http_header_status ObjectUserRadius#dp_http_header_status}
   */
   readonly dpHttpHeaderStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_http_header_suppress ObjectUserRadius#dp_http_header_suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_http_header_suppress ObjectUserRadius#dp_http_header_suppress}
   */
   readonly dpHttpHeaderSuppress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_log_dyn_flags ObjectUserRadius#dp_log_dyn_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_log_dyn_flags ObjectUserRadius#dp_log_dyn_flags}
   */
   readonly dpLogDynFlags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_log_period ObjectUserRadius#dp_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_log_period ObjectUserRadius#dp_log_period}
   */
   readonly dpLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_mem_percent ObjectUserRadius#dp_mem_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_mem_percent ObjectUserRadius#dp_mem_percent}
   */
   readonly dpMemPercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_profile_attribute ObjectUserRadius#dp_profile_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_profile_attribute ObjectUserRadius#dp_profile_attribute}
   */
   readonly dpProfileAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_profile_attribute_key ObjectUserRadius#dp_profile_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_profile_attribute_key ObjectUserRadius#dp_profile_attribute_key}
   */
   readonly dpProfileAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_radius_response ObjectUserRadius#dp_radius_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_radius_response ObjectUserRadius#dp_radius_response}
   */
   readonly dpRadiusResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_radius_server_port ObjectUserRadius#dp_radius_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_radius_server_port ObjectUserRadius#dp_radius_server_port}
   */
   readonly dpRadiusServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_secret ObjectUserRadius#dp_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_secret ObjectUserRadius#dp_secret}
   */
   readonly dpSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dp_validate_request_secret ObjectUserRadius#dp_validate_request_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dp_validate_request_secret ObjectUserRadius#dp_validate_request_secret}
   */
   readonly dpValidateRequestSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#dynamic_profile ObjectUserRadius#dynamic_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#dynamic_profile ObjectUserRadius#dynamic_profile}
   */
   readonly dynamicProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#endpoint_translation ObjectUserRadius#endpoint_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#endpoint_translation ObjectUserRadius#endpoint_translation}
   */
   readonly endpointTranslation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_convert_hex ObjectUserRadius#ep_carrier_endpoint_convert_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_convert_hex ObjectUserRadius#ep_carrier_endpoint_convert_hex}
   */
   readonly epCarrierEndpointConvertHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_header ObjectUserRadius#ep_carrier_endpoint_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_header ObjectUserRadius#ep_carrier_endpoint_header}
   */
   readonly epCarrierEndpointHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_header_suppress ObjectUserRadius#ep_carrier_endpoint_header_suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_header_suppress ObjectUserRadius#ep_carrier_endpoint_header_suppress}
   */
   readonly epCarrierEndpointHeaderSuppress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix ObjectUserRadius#ep_carrier_endpoint_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix ObjectUserRadius#ep_carrier_endpoint_prefix}
   */
   readonly epCarrierEndpointPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_range_max ObjectUserRadius#ep_carrier_endpoint_prefix_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_range_max ObjectUserRadius#ep_carrier_endpoint_prefix_range_max}
   */
   readonly epCarrierEndpointPrefixRangeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_range_min ObjectUserRadius#ep_carrier_endpoint_prefix_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_range_min ObjectUserRadius#ep_carrier_endpoint_prefix_range_min}
   */
   readonly epCarrierEndpointPrefixRangeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_string ObjectUserRadius#ep_carrier_endpoint_prefix_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_prefix_string ObjectUserRadius#ep_carrier_endpoint_prefix_string}
   */
   readonly epCarrierEndpointPrefixString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_carrier_endpoint_source ObjectUserRadius#ep_carrier_endpoint_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_carrier_endpoint_source ObjectUserRadius#ep_carrier_endpoint_source}
   */
   readonly epCarrierEndpointSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_ip_header ObjectUserRadius#ep_ip_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_ip_header ObjectUserRadius#ep_ip_header}
   */
   readonly epIpHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_ip_header_suppress ObjectUserRadius#ep_ip_header_suppress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_ip_header_suppress ObjectUserRadius#ep_ip_header_suppress}
   */
   readonly epIpHeaderSuppress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_missing_header_fallback ObjectUserRadius#ep_missing_header_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_missing_header_fallback ObjectUserRadius#ep_missing_header_fallback}
   */
   readonly epMissingHeaderFallback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#ep_profile_query_type ObjectUserRadius#ep_profile_query_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#ep_profile_query_type ObjectUserRadius#ep_profile_query_type}
   */
   readonly epProfileQueryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#group_override_attr_type ObjectUserRadius#group_override_attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#group_override_attr_type ObjectUserRadius#group_override_attr_type}
   */
   readonly groupOverrideAttrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#h3c_compatibility ObjectUserRadius#h3c_compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#h3c_compatibility ObjectUserRadius#h3c_compatibility}
   */
   readonly h3CCompatibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface ObjectUserRadius#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#interface_select_method ObjectUserRadius#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_case ObjectUserRadius#mac_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_case ObjectUserRadius#mac_case}
   */
   readonly macCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_password_delimiter ObjectUserRadius#mac_password_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_password_delimiter ObjectUserRadius#mac_password_delimiter}
   */
   readonly macPasswordDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#mac_username_delimiter ObjectUserRadius#mac_username_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#mac_username_delimiter ObjectUserRadius#mac_username_delimiter}
   */
   readonly macUsernameDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_id ObjectUserRadius#nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_id ObjectUserRadius#nas_id}
   */
   readonly nasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_id_type ObjectUserRadius#nas_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_id_type ObjectUserRadius#nas_id_type}
   */
   readonly nasIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#nas_ip ObjectUserRadius#nas_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#nas_ip ObjectUserRadius#nas_ip}
   */
   readonly nasIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#password_encoding ObjectUserRadius#password_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#password_encoding ObjectUserRadius#password_encoding}
   */
   readonly passwordEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#password_renewal ObjectUserRadius#password_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#password_renewal ObjectUserRadius#password_renewal}
   */
   readonly passwordRenewal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#radius_coa ObjectUserRadius#radius_coa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#radius_coa ObjectUserRadius#radius_coa}
   */
   readonly radiusCoa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#radius_port ObjectUserRadius#radius_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#radius_port ObjectUserRadius#radius_port}
   */
   readonly radiusPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#require_message_authenticator ObjectUserRadius#require_message_authenticator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#require_message_authenticator ObjectUserRadius#require_message_authenticator}
   */
   readonly requireMessageAuthenticator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso ObjectUserRadius#rsso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso ObjectUserRadius#rsso}
   */
   readonly rsso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_context_timeout ObjectUserRadius#rsso_context_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_context_timeout ObjectUserRadius#rsso_context_timeout}
   */
   readonly rssoContextTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_endpoint_attribute ObjectUserRadius#rsso_endpoint_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_endpoint_attribute ObjectUserRadius#rsso_endpoint_attribute}
   */
   readonly rssoEndpointAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_endpoint_block_attribute ObjectUserRadius#rsso_endpoint_block_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_endpoint_block_attribute ObjectUserRadius#rsso_endpoint_block_attribute}
   */
   readonly rssoEndpointBlockAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_ep_one_ip_only ObjectUserRadius#rsso_ep_one_ip_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_ep_one_ip_only ObjectUserRadius#rsso_ep_one_ip_only}
   */
   readonly rssoEpOneIpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_flush_ip_session ObjectUserRadius#rsso_flush_ip_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_flush_ip_session ObjectUserRadius#rsso_flush_ip_session}
   */
   readonly rssoFlushIpSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_log_flags ObjectUserRadius#rsso_log_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_log_flags ObjectUserRadius#rsso_log_flags}
   */
   readonly rssoLogFlags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_log_period ObjectUserRadius#rsso_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_log_period ObjectUserRadius#rsso_log_period}
   */
   readonly rssoLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_radius_response ObjectUserRadius#rsso_radius_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_radius_response ObjectUserRadius#rsso_radius_response}
   */
   readonly rssoRadiusResponse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_radius_server_port ObjectUserRadius#rsso_radius_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_radius_server_port ObjectUserRadius#rsso_radius_server_port}
   */
   readonly rssoRadiusServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_secret ObjectUserRadius#rsso_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_secret ObjectUserRadius#rsso_secret}
   */
   readonly rssoSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#rsso_validate_request_secret ObjectUserRadius#rsso_validate_request_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#rsso_validate_request_secret ObjectUserRadius#rsso_validate_request_secret}
   */
   readonly rssoValidateRequestSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secondary_secret ObjectUserRadius#secondary_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secondary_secret ObjectUserRadius#secondary_secret}
   */
   readonly secondarySecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secondary_server ObjectUserRadius#secondary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secondary_server ObjectUserRadius#secondary_server}
   */
   readonly secondaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#secret ObjectUserRadius#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server ObjectUserRadius#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#server_identity_check ObjectUserRadius#server_identity_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#server_identity_check ObjectUserRadius#server_identity_check}
   */
   readonly serverIdentityCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip ObjectUserRadius#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#source_ip_interface ObjectUserRadius#source_ip_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#source_ip_interface ObjectUserRadius#source_ip_interface}
   */
   readonly sourceIpInterface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute ObjectUserRadius#sso_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute ObjectUserRadius#sso_attribute}
   */
   readonly ssoAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute_key ObjectUserRadius#sso_attribute_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute_key ObjectUserRadius#sso_attribute_key}
   */
   readonly ssoAttributeKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#sso_attribute_value_override ObjectUserRadius#sso_attribute_value_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#sso_attribute_value_override ObjectUserRadius#sso_attribute_value_override}
   */
   readonly ssoAttributeValueOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#status_ttl ObjectUserRadius#status_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#status_ttl ObjectUserRadius#status_ttl}
   */
   readonly statusTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_acct_fast_framedip_detect ObjectUserRadius#switch_controller_acct_fast_framedip_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_acct_fast_framedip_detect ObjectUserRadius#switch_controller_acct_fast_framedip_detect}
   */
   readonly switchControllerAcctFastFramedipDetect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_nas_ip_dynamic ObjectUserRadius#switch_controller_nas_ip_dynamic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_nas_ip_dynamic ObjectUserRadius#switch_controller_nas_ip_dynamic}
   */
   readonly switchControllerNasIpDynamic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#switch_controller_service_type ObjectUserRadius#switch_controller_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#switch_controller_service_type ObjectUserRadius#switch_controller_service_type}
   */
   readonly switchControllerServiceType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tertiary_secret ObjectUserRadius#tertiary_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tertiary_secret ObjectUserRadius#tertiary_secret}
   */
   readonly tertiarySecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tertiary_server ObjectUserRadius#tertiary_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tertiary_server ObjectUserRadius#tertiary_server}
   */
   readonly tertiaryServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#timeout ObjectUserRadius#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#timeout ObjectUserRadius#timeout}
   */
   readonly timeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#tls_min_proto_version ObjectUserRadius#tls_min_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#tls_min_proto_version ObjectUserRadius#tls_min_proto_version}
   */
   readonly tlsMinProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#transport_protocol ObjectUserRadius#transport_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#transport_protocol ObjectUserRadius#transport_protocol}
   */
   readonly transportProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#use_group_for_profile ObjectUserRadius#use_group_for_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#use_group_for_profile ObjectUserRadius#use_group_for_profile}
   */
   readonly useGroupForProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#use_management_vdom ObjectUserRadius#use_management_vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#use_management_vdom ObjectUserRadius#use_management_vdom}
   */
   readonly useManagementVdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#username_case_sensitive ObjectUserRadius#username_case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#username_case_sensitive ObjectUserRadius#username_case_sensitive}
   */
   readonly usernameCaseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#vrf_select ObjectUserRadius#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#_scope ObjectUserRadius#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#_scope ObjectUserRadius#_scope}
   */
   readonly scope?: ObjectUserRadiusDynamicMappingScope[] | cdktf.IResolvable;
   /**
   * accounting_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#accounting_server ObjectUserRadius#accounting_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#accounting_server ObjectUserRadius#accounting_server}
   */
   readonly accountingServer?: ObjectUserRadiusDynamicMappingAccountingServer[] | cdktf.IResolvable;
 }
@@ -4422,7 +4422,7 @@ export class ObjectUserRadiusDynamicMappingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius fortimanager_object_user_radius}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius fortimanager_object_user_radius}
 */
 export class ObjectUserRadius extends cdktf.TerraformResource {
 
@@ -4438,7 +4438,7 @@ export class ObjectUserRadius extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserRadius resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserRadius to import
-  * @param importFromId The id of the existing ObjectUserRadius that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserRadius that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserRadius to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4450,7 +4450,7 @@ export class ObjectUserRadius extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius fortimanager_object_user_radius} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius fortimanager_object_user_radius} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4461,8 +4461,8 @@ export class ObjectUserRadius extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_radius',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

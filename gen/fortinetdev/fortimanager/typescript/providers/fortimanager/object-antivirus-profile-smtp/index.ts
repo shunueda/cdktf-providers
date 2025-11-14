@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAntivirusProfileSmtpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#adom ObjectAntivirusProfileSmtpA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#adom ObjectAntivirusProfileSmtpA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#archive_block ObjectAntivirusProfileSmtpA#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#archive_block ObjectAntivirusProfileSmtpA#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#archive_log ObjectAntivirusProfileSmtpA#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#archive_log ObjectAntivirusProfileSmtpA#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#av_scan ObjectAntivirusProfileSmtpA#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#av_scan ObjectAntivirusProfileSmtpA#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#content_disarm ObjectAntivirusProfileSmtpA#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#content_disarm ObjectAntivirusProfileSmtpA#content_disarm}
   */
   readonly contentDisarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#emulator ObjectAntivirusProfileSmtpA#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#emulator ObjectAntivirusProfileSmtpA#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#executables ObjectAntivirusProfileSmtpA#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#executables ObjectAntivirusProfileSmtpA#executables}
   */
   readonly executables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#external_blocklist ObjectAntivirusProfileSmtpA#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#external_blocklist ObjectAntivirusProfileSmtpA#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#fortiai ObjectAntivirusProfileSmtpA#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#fortiai ObjectAntivirusProfileSmtpA#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#fortindr ObjectAntivirusProfileSmtpA#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#fortindr ObjectAntivirusProfileSmtpA#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#fortisandbox ObjectAntivirusProfileSmtpA#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#fortisandbox ObjectAntivirusProfileSmtpA#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#id ObjectAntivirusProfileSmtpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#id ObjectAntivirusProfileSmtpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#options ObjectAntivirusProfileSmtpA#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#malware_stream ObjectAntivirusProfileSmtpA#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#options ObjectAntivirusProfileSmtpA#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#outbreak_prevention ObjectAntivirusProfileSmtpA#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#outbreak_prevention ObjectAntivirusProfileSmtpA#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#profile ObjectAntivirusProfileSmtpA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#profile ObjectAntivirusProfileSmtpA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#quarantine ObjectAntivirusProfileSmtpA#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#quarantine ObjectAntivirusProfileSmtpA#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#scopetype ObjectAntivirusProfileSmtpA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#scopetype ObjectAntivirusProfileSmtpA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp fortimanager_object_antivirus_profile_smtp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp fortimanager_object_antivirus_profile_smtp}
 */
 export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
 
@@ -97,7 +101,7 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectAntivirusProfileSmtpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAntivirusProfileSmtpA to import
-  * @param importFromId The id of the existing ObjectAntivirusProfileSmtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAntivirusProfileSmtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAntivirusProfileSmtpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -109,7 +113,7 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_smtp fortimanager_object_antivirus_profile_smtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_smtp fortimanager_object_antivirus_profile_smtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -120,8 +124,8 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_antivirus_profile_smtp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -143,6 +147,7 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
     this._fortindr = config.fortindr;
     this._fortisandbox = config.fortisandbox;
     this._id = config.id;
+    this._malwareStream = config.malwareStream;
     this._options = config.options;
     this._outbreakPrevention = config.outbreakPrevention;
     this._profile = config.profile;
@@ -346,6 +351,22 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
     return this._id;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -441,6 +462,7 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
       fortindr: cdktf.stringToTerraform(this._fortindr),
       fortisandbox: cdktf.stringToTerraform(this._fortisandbox),
       id: cdktf.stringToTerraform(this._id),
+      malware_stream: cdktf.stringToTerraform(this._malwareStream),
       options: cdktf.listMapper(cdktf.stringToTerraform, false)(this._options),
       outbreak_prevention: cdktf.stringToTerraform(this._outbreakPrevention),
       profile: cdktf.stringToTerraform(this._profile),
@@ -519,6 +541,12 @@ export class ObjectAntivirusProfileSmtpA extends cdktf.TerraformResource {
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      malware_stream: {
+        value: cdktf.stringToHclTerraform(this._malwareStream),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

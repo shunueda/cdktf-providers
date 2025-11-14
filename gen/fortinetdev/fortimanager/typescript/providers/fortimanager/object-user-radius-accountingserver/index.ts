@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserRadiusAccountingserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#adom ObjectUserRadiusAccountingserver#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#adom ObjectUserRadiusAccountingserver#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#fosid ObjectUserRadiusAccountingserver#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#fosid ObjectUserRadiusAccountingserver#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#id ObjectUserRadiusAccountingserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#id ObjectUserRadiusAccountingserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#interface ObjectUserRadiusAccountingserver#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#interface ObjectUserRadiusAccountingserver#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#interface_select_method ObjectUserRadiusAccountingserver#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#interface_select_method ObjectUserRadiusAccountingserver#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#port ObjectUserRadiusAccountingserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#port ObjectUserRadiusAccountingserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#radius ObjectUserRadiusAccountingserver#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#radius ObjectUserRadiusAccountingserver#radius}
   */
   readonly radius: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#scopetype ObjectUserRadiusAccountingserver#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#scopetype ObjectUserRadiusAccountingserver#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#secret ObjectUserRadiusAccountingserver#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#secret ObjectUserRadiusAccountingserver#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#server ObjectUserRadiusAccountingserver#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#server ObjectUserRadiusAccountingserver#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#source_ip ObjectUserRadiusAccountingserver#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#source_ip ObjectUserRadiusAccountingserver#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#status ObjectUserRadiusAccountingserver#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#status ObjectUserRadiusAccountingserver#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#vrf_select ObjectUserRadiusAccountingserver#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#vrf_select ObjectUserRadiusAccountingserver#vrf_select}
   */
   readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver fortimanager_object_user_radius_accountingserver}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver fortimanager_object_user_radius_accountingserver}
 */
 export class ObjectUserRadiusAccountingserver extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectUserRadiusAccountingserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserRadiusAccountingserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserRadiusAccountingserver to import
-  * @param importFromId The id of the existing ObjectUserRadiusAccountingserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserRadiusAccountingserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserRadiusAccountingserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectUserRadiusAccountingserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_accountingserver fortimanager_object_user_radius_accountingserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_accountingserver fortimanager_object_user_radius_accountingserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectUserRadiusAccountingserver extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_radius_accountingserver',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

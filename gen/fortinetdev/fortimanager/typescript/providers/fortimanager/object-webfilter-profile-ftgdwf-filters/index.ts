@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebfilterProfileFtgdwfFiltersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#action ObjectWebfilterProfileFtgdwfFiltersA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#action ObjectWebfilterProfileFtgdwfFiltersA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#adom ObjectWebfilterProfileFtgdwfFiltersA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#adom ObjectWebfilterProfileFtgdwfFiltersA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#auth_usr_grp ObjectWebfilterProfileFtgdwfFiltersA#auth_usr_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#auth_usr_grp ObjectWebfilterProfileFtgdwfFiltersA#auth_usr_grp}
   */
   readonly authUsrGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#category ObjectWebfilterProfileFtgdwfFiltersA#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#category ObjectWebfilterProfileFtgdwfFiltersA#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#fosid ObjectWebfilterProfileFtgdwfFiltersA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#fosid ObjectWebfilterProfileFtgdwfFiltersA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#id ObjectWebfilterProfileFtgdwfFiltersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#id ObjectWebfilterProfileFtgdwfFiltersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#log ObjectWebfilterProfileFtgdwfFiltersA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#log ObjectWebfilterProfileFtgdwfFiltersA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#override_replacemsg ObjectWebfilterProfileFtgdwfFiltersA#override_replacemsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#override_replacemsg ObjectWebfilterProfileFtgdwfFiltersA#override_replacemsg}
   */
   readonly overrideReplacemsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#profile ObjectWebfilterProfileFtgdwfFiltersA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#profile ObjectWebfilterProfileFtgdwfFiltersA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#scopetype ObjectWebfilterProfileFtgdwfFiltersA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#scopetype ObjectWebfilterProfileFtgdwfFiltersA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warn_duration ObjectWebfilterProfileFtgdwfFiltersA#warn_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warn_duration ObjectWebfilterProfileFtgdwfFiltersA#warn_duration}
   */
   readonly warnDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warning_duration_type ObjectWebfilterProfileFtgdwfFiltersA#warning_duration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warning_duration_type ObjectWebfilterProfileFtgdwfFiltersA#warning_duration_type}
   */
   readonly warningDurationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warning_prompt ObjectWebfilterProfileFtgdwfFiltersA#warning_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#warning_prompt ObjectWebfilterProfileFtgdwfFiltersA#warning_prompt}
   */
   readonly warningPrompt?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters fortimanager_object_webfilter_profile_ftgdwf_filters}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters fortimanager_object_webfilter_profile_ftgdwf_filters}
 */
 export class ObjectWebfilterProfileFtgdwfFiltersA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectWebfilterProfileFtgdwfFiltersA extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectWebfilterProfileFtgdwfFiltersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebfilterProfileFtgdwfFiltersA to import
-  * @param importFromId The id of the existing ObjectWebfilterProfileFtgdwfFiltersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebfilterProfileFtgdwfFiltersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebfilterProfileFtgdwfFiltersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectWebfilterProfileFtgdwfFiltersA extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf_filters fortimanager_object_webfilter_profile_ftgdwf_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf_filters fortimanager_object_webfilter_profile_ftgdwf_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectWebfilterProfileFtgdwfFiltersA extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_webfilter_profile_ftgdwf_filters',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

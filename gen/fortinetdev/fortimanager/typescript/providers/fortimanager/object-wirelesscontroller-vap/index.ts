@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,836 +8,836 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerVapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_centmgmt ObjectWirelesscontrollerVap#_centmgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_centmgmt ObjectWirelesscontrollerVap#_centmgmt}
   */
   readonly centmgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_dhcp_svr_id ObjectWirelesscontrollerVap#_dhcp_svr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_dhcp_svr_id ObjectWirelesscontrollerVap#_dhcp_svr_id}
   */
   readonly dhcpSvrId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_allowaccess ObjectWirelesscontrollerVap#_intf_allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_allowaccess ObjectWirelesscontrollerVap#_intf_allowaccess}
   */
   readonly intfAllowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_access_list ObjectWirelesscontrollerVap#_intf_device_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_access_list ObjectWirelesscontrollerVap#_intf_device_access_list}
   */
   readonly intfDeviceAccessList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_identification ObjectWirelesscontrollerVap#_intf_device_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_identification ObjectWirelesscontrollerVap#_intf_device_identification}
   */
   readonly intfDeviceIdentification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_netscan ObjectWirelesscontrollerVap#_intf_device_netscan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_netscan ObjectWirelesscontrollerVap#_intf_device_netscan}
   */
   readonly intfDeviceNetscan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp6_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp6_relay_ip}
   */
   readonly intfDhcp6RelayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_service ObjectWirelesscontrollerVap#_intf_dhcp6_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_service ObjectWirelesscontrollerVap#_intf_dhcp6_relay_service}
   */
   readonly intfDhcp6RelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_type ObjectWirelesscontrollerVap#_intf_dhcp6_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_type ObjectWirelesscontrollerVap#_intf_dhcp6_relay_type}
   */
   readonly intfDhcp6RelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp_relay_ip}
   */
   readonly intfDhcpRelayIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_service ObjectWirelesscontrollerVap#_intf_dhcp_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_service ObjectWirelesscontrollerVap#_intf_dhcp_relay_service}
   */
   readonly intfDhcpRelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_type ObjectWirelesscontrollerVap#_intf_dhcp_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_type ObjectWirelesscontrollerVap#_intf_dhcp_relay_type}
   */
   readonly intfDhcpRelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip ObjectWirelesscontrollerVap#_intf_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip ObjectWirelesscontrollerVap#_intf_ip}
   */
   readonly intfIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_address ObjectWirelesscontrollerVap#_intf_ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_address ObjectWirelesscontrollerVap#_intf_ip6_address}
   */
   readonly intfIp6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_allowaccess ObjectWirelesscontrollerVap#_intf_ip6_allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_allowaccess ObjectWirelesscontrollerVap#_intf_ip6_allowaccess}
   */
   readonly intfIp6Allowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_listen_forticlient_connection ObjectWirelesscontrollerVap#_intf_listen_forticlient_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_listen_forticlient_connection ObjectWirelesscontrollerVap#_intf_listen_forticlient_connection}
   */
   readonly intfListenForticlientConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_is_factory_setting ObjectWirelesscontrollerVap#_is_factory_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_is_factory_setting ObjectWirelesscontrollerVap#_is_factory_setting}
   */
   readonly isFactorySetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#access_control_list ObjectWirelesscontrollerVap#access_control_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#access_control_list ObjectWirelesscontrollerVap#access_control_list}
   */
   readonly accessControlList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#acct_interim_interval ObjectWirelesscontrollerVap#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#acct_interim_interval ObjectWirelesscontrollerVap#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#additional_akms ObjectWirelesscontrollerVap#additional_akms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#additional_akms ObjectWirelesscontrollerVap#additional_akms}
   */
   readonly additionalAkms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#address_group ObjectWirelesscontrollerVap#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#address_group ObjectWirelesscontrollerVap#address_group}
   */
   readonly addressGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#address_group_policy ObjectWirelesscontrollerVap#address_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#address_group_policy ObjectWirelesscontrollerVap#address_group_policy}
   */
   readonly addressGroupPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#adom ObjectWirelesscontrollerVap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#adom ObjectWirelesscontrollerVap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#alias ObjectWirelesscontrollerVap#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#alias ObjectWirelesscontrollerVap#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#antivirus_profile ObjectWirelesscontrollerVap#antivirus_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#antivirus_profile ObjectWirelesscontrollerVap#antivirus_profile}
   */
   readonly antivirusProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_detection_engine ObjectWirelesscontrollerVap#application_detection_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_detection_engine ObjectWirelesscontrollerVap#application_detection_engine}
   */
   readonly applicationDetectionEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_dscp_marking ObjectWirelesscontrollerVap#application_dscp_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_dscp_marking ObjectWirelesscontrollerVap#application_dscp_marking}
   */
   readonly applicationDscpMarking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_list ObjectWirelesscontrollerVap#application_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_list ObjectWirelesscontrollerVap#application_list}
   */
   readonly applicationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_report_intv ObjectWirelesscontrollerVap#application_report_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_report_intv ObjectWirelesscontrollerVap#application_report_intv}
   */
   readonly applicationReportIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#atf_weight ObjectWirelesscontrollerVap#atf_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#atf_weight ObjectWirelesscontrollerVap#atf_weight}
   */
   readonly atfWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth ObjectWirelesscontrollerVap#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth ObjectWirelesscontrollerVap#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_cert ObjectWirelesscontrollerVap#auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_cert ObjectWirelesscontrollerVap#auth_cert}
   */
   readonly authCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_portal_addr ObjectWirelesscontrollerVap#auth_portal_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_portal_addr ObjectWirelesscontrollerVap#auth_portal_addr}
   */
   readonly authPortalAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#beacon_advertising ObjectWirelesscontrollerVap#beacon_advertising}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#beacon_advertising ObjectWirelesscontrollerVap#beacon_advertising}
   */
   readonly beaconAdvertising?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#broadcast_ssid ObjectWirelesscontrollerVap#broadcast_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#broadcast_ssid ObjectWirelesscontrollerVap#broadcast_ssid}
   */
   readonly broadcastSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#broadcast_suppression ObjectWirelesscontrollerVap#broadcast_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#broadcast_suppression ObjectWirelesscontrollerVap#broadcast_suppression}
   */
   readonly broadcastSuppression?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bss_color_partial ObjectWirelesscontrollerVap#bss_color_partial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bss_color_partial ObjectWirelesscontrollerVap#bss_color_partial}
   */
   readonly bssColorPartial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_disassociation_imminent ObjectWirelesscontrollerVap#bstm_disassociation_imminent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_disassociation_imminent ObjectWirelesscontrollerVap#bstm_disassociation_imminent}
   */
   readonly bstmDisassociationImminent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_load_balancing_disassoc_timer ObjectWirelesscontrollerVap#bstm_load_balancing_disassoc_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_load_balancing_disassoc_timer ObjectWirelesscontrollerVap#bstm_load_balancing_disassoc_timer}
   */
   readonly bstmLoadBalancingDisassocTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_rssi_disassoc_timer ObjectWirelesscontrollerVap#bstm_rssi_disassoc_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_rssi_disassoc_timer ObjectWirelesscontrollerVap#bstm_rssi_disassoc_timer}
   */
   readonly bstmRssiDisassocTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_ac_name ObjectWirelesscontrollerVap#captive_portal_ac_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_ac_name ObjectWirelesscontrollerVap#captive_portal_ac_name}
   */
   readonly captivePortalAcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_auth_timeout ObjectWirelesscontrollerVap#captive_portal_auth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_auth_timeout ObjectWirelesscontrollerVap#captive_portal_auth_timeout}
   */
   readonly captivePortalAuthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_fw_accounting ObjectWirelesscontrollerVap#captive_portal_fw_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_fw_accounting ObjectWirelesscontrollerVap#captive_portal_fw_accounting}
   */
   readonly captivePortalFwAccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_secret ObjectWirelesscontrollerVap#captive_portal_macauth_radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_secret ObjectWirelesscontrollerVap#captive_portal_macauth_radius_secret}
   */
   readonly captivePortalMacauthRadiusSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_server ObjectWirelesscontrollerVap#captive_portal_macauth_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_server ObjectWirelesscontrollerVap#captive_portal_macauth_radius_server}
   */
   readonly captivePortalMacauthRadiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_secret ObjectWirelesscontrollerVap#captive_portal_radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_secret ObjectWirelesscontrollerVap#captive_portal_radius_secret}
   */
   readonly captivePortalRadiusSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_server ObjectWirelesscontrollerVap#captive_portal_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_server ObjectWirelesscontrollerVap#captive_portal_radius_server}
   */
   readonly captivePortalRadiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_session_timeout_interval ObjectWirelesscontrollerVap#captive_portal_session_timeout_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_session_timeout_interval ObjectWirelesscontrollerVap#captive_portal_session_timeout_interval}
   */
   readonly captivePortalSessionTimeoutInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_address_enforcement ObjectWirelesscontrollerVap#dhcp_address_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_address_enforcement ObjectWirelesscontrollerVap#dhcp_address_enforcement}
   */
   readonly dhcpAddressEnforcement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_lease_time ObjectWirelesscontrollerVap#dhcp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_lease_time ObjectWirelesscontrollerVap#dhcp_lease_time}
   */
   readonly dhcpLeaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option43_insertion ObjectWirelesscontrollerVap#dhcp_option43_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option43_insertion ObjectWirelesscontrollerVap#dhcp_option43_insertion}
   */
   readonly dhcpOption43Insertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_circuit_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_circuit_id_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_circuit_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_circuit_id_insertion}
   */
   readonly dhcpOption82CircuitIdInsertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_insertion ObjectWirelesscontrollerVap#dhcp_option82_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_insertion ObjectWirelesscontrollerVap#dhcp_option82_insertion}
   */
   readonly dhcpOption82Insertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_remote_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_remote_id_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_remote_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_remote_id_insertion}
   */
   readonly dhcpOption82RemoteIdInsertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dynamic_sort_subtable ObjectWirelesscontrollerVap#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dynamic_sort_subtable ObjectWirelesscontrollerVap#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dynamic_vlan ObjectWirelesscontrollerVap#dynamic_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dynamic_vlan ObjectWirelesscontrollerVap#dynamic_vlan}
   */
   readonly dynamicVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eap_reauth ObjectWirelesscontrollerVap#eap_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eap_reauth ObjectWirelesscontrollerVap#eap_reauth}
   */
   readonly eapReauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eap_reauth_intv ObjectWirelesscontrollerVap#eap_reauth_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eap_reauth_intv ObjectWirelesscontrollerVap#eap_reauth_intv}
   */
   readonly eapReauthIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eapol_key_retries ObjectWirelesscontrollerVap#eapol_key_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eapol_key_retries ObjectWirelesscontrollerVap#eapol_key_retries}
   */
   readonly eapolKeyRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#encrypt ObjectWirelesscontrollerVap#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#encrypt ObjectWirelesscontrollerVap#encrypt}
   */
   readonly encrypt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_fast_roaming ObjectWirelesscontrollerVap#external_fast_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_fast_roaming ObjectWirelesscontrollerVap#external_fast_roaming}
   */
   readonly externalFastRoaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_logout ObjectWirelesscontrollerVap#external_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_logout ObjectWirelesscontrollerVap#external_logout}
   */
   readonly externalLogout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_web ObjectWirelesscontrollerVap#external_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_web ObjectWirelesscontrollerVap#external_web}
   */
   readonly externalWeb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_web_format ObjectWirelesscontrollerVap#external_web_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_web_format ObjectWirelesscontrollerVap#external_web_format}
   */
   readonly externalWebFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#fast_bss_transition ObjectWirelesscontrollerVap#fast_bss_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#fast_bss_transition ObjectWirelesscontrollerVap#fast_bss_transition}
   */
   readonly fastBssTransition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#fast_roaming ObjectWirelesscontrollerVap#fast_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#fast_roaming ObjectWirelesscontrollerVap#fast_roaming}
   */
   readonly fastRoaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_mobility_domain ObjectWirelesscontrollerVap#ft_mobility_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_mobility_domain ObjectWirelesscontrollerVap#ft_mobility_domain}
   */
   readonly ftMobilityDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_over_ds ObjectWirelesscontrollerVap#ft_over_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_over_ds ObjectWirelesscontrollerVap#ft_over_ds}
   */
   readonly ftOverDs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_r0_key_lifetime ObjectWirelesscontrollerVap#ft_r0_key_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_r0_key_lifetime ObjectWirelesscontrollerVap#ft_r0_key_lifetime}
   */
   readonly ftR0KeyLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gas_comeback_delay ObjectWirelesscontrollerVap#gas_comeback_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gas_comeback_delay ObjectWirelesscontrollerVap#gas_comeback_delay}
   */
   readonly gasComebackDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gas_fragmentation_limit ObjectWirelesscontrollerVap#gas_fragmentation_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gas_fragmentation_limit ObjectWirelesscontrollerVap#gas_fragmentation_limit}
   */
   readonly gasFragmentationLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey ObjectWirelesscontrollerVap#gtk_rekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey ObjectWirelesscontrollerVap#gtk_rekey}
   */
   readonly gtkRekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey_intv ObjectWirelesscontrollerVap#gtk_rekey_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey_intv ObjectWirelesscontrollerVap#gtk_rekey_intv}
   */
   readonly gtkRekeyIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#high_efficiency ObjectWirelesscontrollerVap#high_efficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#high_efficiency ObjectWirelesscontrollerVap#high_efficiency}
   */
   readonly highEfficiency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#hotspot20_profile ObjectWirelesscontrollerVap#hotspot20_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#hotspot20_profile ObjectWirelesscontrollerVap#hotspot20_profile}
   */
   readonly hotspot20Profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#igmp_snooping ObjectWirelesscontrollerVap#igmp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#igmp_snooping ObjectWirelesscontrollerVap#igmp_snooping}
   */
   readonly igmpSnooping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#intra_vap_privacy ObjectWirelesscontrollerVap#intra_vap_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#intra_vap_privacy ObjectWirelesscontrollerVap#intra_vap_privacy}
   */
   readonly intraVapPrivacy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ip ObjectWirelesscontrollerVap#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ip ObjectWirelesscontrollerVap#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ips_sensor ObjectWirelesscontrollerVap#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ips_sensor ObjectWirelesscontrollerVap#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ipv6_rules ObjectWirelesscontrollerVap#ipv6_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ipv6_rules ObjectWirelesscontrollerVap#ipv6_rules}
   */
   readonly ipv6Rules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#key ObjectWirelesscontrollerVap#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#key ObjectWirelesscontrollerVap#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#keyindex ObjectWirelesscontrollerVap#keyindex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#keyindex ObjectWirelesscontrollerVap#keyindex}
   */
   readonly keyindex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#l3_roaming ObjectWirelesscontrollerVap#l3_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#l3_roaming ObjectWirelesscontrollerVap#l3_roaming}
   */
   readonly l3Roaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#l3_roaming_mode ObjectWirelesscontrollerVap#l3_roaming_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#l3_roaming_mode ObjectWirelesscontrollerVap#l3_roaming_mode}
   */
   readonly l3RoamingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ldpc ObjectWirelesscontrollerVap#ldpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ldpc ObjectWirelesscontrollerVap#ldpc}
   */
   readonly ldpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_authentication ObjectWirelesscontrollerVap#local_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_authentication ObjectWirelesscontrollerVap#local_authentication}
   */
   readonly localAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_bridging ObjectWirelesscontrollerVap#local_bridging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_bridging ObjectWirelesscontrollerVap#local_bridging}
   */
   readonly localBridging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_lan ObjectWirelesscontrollerVap#local_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_lan ObjectWirelesscontrollerVap#local_lan}
   */
   readonly localLan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone ObjectWirelesscontrollerVap#local_standalone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone ObjectWirelesscontrollerVap#local_standalone}
   */
   readonly localStandalone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns ObjectWirelesscontrollerVap#local_standalone_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns ObjectWirelesscontrollerVap#local_standalone_dns}
   */
   readonly localStandaloneDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns_ip ObjectWirelesscontrollerVap#local_standalone_dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns_ip ObjectWirelesscontrollerVap#local_standalone_dns_ip}
   */
   readonly localStandaloneDnsIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_nat ObjectWirelesscontrollerVap#local_standalone_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_nat ObjectWirelesscontrollerVap#local_standalone_nat}
   */
   readonly localStandaloneNat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_auth_bypass ObjectWirelesscontrollerVap#mac_auth_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_auth_bypass ObjectWirelesscontrollerVap#mac_auth_bypass}
   */
   readonly macAuthBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_called_station_delimiter ObjectWirelesscontrollerVap#mac_called_station_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_called_station_delimiter ObjectWirelesscontrollerVap#mac_called_station_delimiter}
   */
   readonly macCalledStationDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_calling_station_delimiter ObjectWirelesscontrollerVap#mac_calling_station_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_calling_station_delimiter ObjectWirelesscontrollerVap#mac_calling_station_delimiter}
   */
   readonly macCallingStationDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_case ObjectWirelesscontrollerVap#mac_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_case ObjectWirelesscontrollerVap#mac_case}
   */
   readonly macCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter ObjectWirelesscontrollerVap#mac_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter ObjectWirelesscontrollerVap#mac_filter}
   */
   readonly macFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy_other ObjectWirelesscontrollerVap#mac_filter_policy_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy_other ObjectWirelesscontrollerVap#mac_filter_policy_other}
   */
   readonly macFilterPolicyOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_password_delimiter ObjectWirelesscontrollerVap#mac_password_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_password_delimiter ObjectWirelesscontrollerVap#mac_password_delimiter}
   */
   readonly macPasswordDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_username_delimiter ObjectWirelesscontrollerVap#mac_username_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_username_delimiter ObjectWirelesscontrollerVap#mac_username_delimiter}
   */
   readonly macUsernameDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#max_clients ObjectWirelesscontrollerVap#max_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#max_clients ObjectWirelesscontrollerVap#max_clients}
   */
   readonly maxClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#max_clients_ap ObjectWirelesscontrollerVap#max_clients_ap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#max_clients_ap ObjectWirelesscontrollerVap#max_clients_ap}
   */
   readonly maxClientsAp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mbo ObjectWirelesscontrollerVap#mbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mbo ObjectWirelesscontrollerVap#mbo}
   */
   readonly mbo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mbo_cell_data_conn_pref ObjectWirelesscontrollerVap#mbo_cell_data_conn_pref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mbo_cell_data_conn_pref ObjectWirelesscontrollerVap#mbo_cell_data_conn_pref}
   */
   readonly mboCellDataConnPref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#me_disable_thresh ObjectWirelesscontrollerVap#me_disable_thresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#me_disable_thresh ObjectWirelesscontrollerVap#me_disable_thresh}
   */
   readonly meDisableThresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mesh_backhaul ObjectWirelesscontrollerVap#mesh_backhaul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mesh_backhaul ObjectWirelesscontrollerVap#mesh_backhaul}
   */
   readonly meshBackhaul?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk ObjectWirelesscontrollerVap#mpsk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk ObjectWirelesscontrollerVap#mpsk}
   */
   readonly mpsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_concurrent_clients ObjectWirelesscontrollerVap#mpsk_concurrent_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_concurrent_clients ObjectWirelesscontrollerVap#mpsk_concurrent_clients}
   */
   readonly mpskConcurrentClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_profile ObjectWirelesscontrollerVap#mpsk_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_profile ObjectWirelesscontrollerVap#mpsk_profile}
   */
   readonly mpskProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mu_mimo ObjectWirelesscontrollerVap#mu_mimo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mu_mimo ObjectWirelesscontrollerVap#mu_mimo}
   */
   readonly muMimo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#multicast_enhance ObjectWirelesscontrollerVap#multicast_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#multicast_enhance ObjectWirelesscontrollerVap#multicast_enhance}
   */
   readonly multicastEnhance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#multicast_rate ObjectWirelesscontrollerVap#multicast_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#multicast_rate ObjectWirelesscontrollerVap#multicast_rate}
   */
   readonly multicastRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#n80211k ObjectWirelesscontrollerVap#n80211k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#n80211k ObjectWirelesscontrollerVap#n80211k}
   */
   readonly n80211K?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#n80211v ObjectWirelesscontrollerVap#n80211v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#n80211v ObjectWirelesscontrollerVap#n80211v}
   */
   readonly n80211V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#nac ObjectWirelesscontrollerVap#nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#nac ObjectWirelesscontrollerVap#nac}
   */
   readonly nac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#nac_profile ObjectWirelesscontrollerVap#nac_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#nac_profile ObjectWirelesscontrollerVap#nac_profile}
   */
   readonly nacProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#neighbor_report_dual_band ObjectWirelesscontrollerVap#neighbor_report_dual_band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#neighbor_report_dual_band ObjectWirelesscontrollerVap#neighbor_report_dual_band}
   */
   readonly neighborReportDualBand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#okc ObjectWirelesscontrollerVap#okc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#okc ObjectWirelesscontrollerVap#okc}
   */
   readonly okc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#osen ObjectWirelesscontrollerVap#osen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#osen ObjectWirelesscontrollerVap#osen}
   */
   readonly osen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_groups ObjectWirelesscontrollerVap#owe_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_groups ObjectWirelesscontrollerVap#owe_groups}
   */
   readonly oweGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_transition ObjectWirelesscontrollerVap#owe_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_transition ObjectWirelesscontrollerVap#owe_transition}
   */
   readonly oweTransition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_transition_ssid ObjectWirelesscontrollerVap#owe_transition_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_transition_ssid ObjectWirelesscontrollerVap#owe_transition_ssid}
   */
   readonly oweTransitionSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
   */
   readonly passphrase?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf ObjectWirelesscontrollerVap#pmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf ObjectWirelesscontrollerVap#pmf}
   */
   readonly pmf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf_assoc_comeback_timeout ObjectWirelesscontrollerVap#pmf_assoc_comeback_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf_assoc_comeback_timeout ObjectWirelesscontrollerVap#pmf_assoc_comeback_timeout}
   */
   readonly pmfAssocComebackTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf_sa_query_retry_timeout ObjectWirelesscontrollerVap#pmf_sa_query_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf_sa_query_retry_timeout ObjectWirelesscontrollerVap#pmf_sa_query_retry_timeout}
   */
   readonly pmfSaQueryRetryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth ObjectWirelesscontrollerVap#port_macauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth ObjectWirelesscontrollerVap#port_macauth}
   */
   readonly portMacauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth_reauth_timeout ObjectWirelesscontrollerVap#port_macauth_reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth_reauth_timeout ObjectWirelesscontrollerVap#port_macauth_reauth_timeout}
   */
   readonly portMacauthReauthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth_timeout ObjectWirelesscontrollerVap#port_macauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth_timeout ObjectWirelesscontrollerVap#port_macauth_timeout}
   */
   readonly portMacauthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#portal_message_override_group ObjectWirelesscontrollerVap#portal_message_override_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#portal_message_override_group ObjectWirelesscontrollerVap#portal_message_override_group}
   */
   readonly portalMessageOverrideGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#portal_type ObjectWirelesscontrollerVap#portal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#portal_type ObjectWirelesscontrollerVap#portal_type}
   */
   readonly portalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#primary_wag_profile ObjectWirelesscontrollerVap#primary_wag_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#primary_wag_profile ObjectWirelesscontrollerVap#primary_wag_profile}
   */
   readonly primaryWagProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#probe_resp_suppression ObjectWirelesscontrollerVap#probe_resp_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#probe_resp_suppression ObjectWirelesscontrollerVap#probe_resp_suppression}
   */
   readonly probeRespSuppression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#probe_resp_threshold ObjectWirelesscontrollerVap#probe_resp_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#probe_resp_threshold ObjectWirelesscontrollerVap#probe_resp_threshold}
   */
   readonly probeRespThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey ObjectWirelesscontrollerVap#ptk_rekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey ObjectWirelesscontrollerVap#ptk_rekey}
   */
   readonly ptkRekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey_intv ObjectWirelesscontrollerVap#ptk_rekey_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey_intv ObjectWirelesscontrollerVap#ptk_rekey_intv}
   */
   readonly ptkRekeyIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#qos_profile ObjectWirelesscontrollerVap#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#qos_profile ObjectWirelesscontrollerVap#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#quarantine ObjectWirelesscontrollerVap#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#quarantine ObjectWirelesscontrollerVap#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_2g_threshold ObjectWirelesscontrollerVap#radio_2g_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_2g_threshold ObjectWirelesscontrollerVap#radio_2g_threshold}
   */
   readonly radio2GThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_5g_threshold ObjectWirelesscontrollerVap#radio_5g_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_5g_threshold ObjectWirelesscontrollerVap#radio_5g_threshold}
   */
   readonly radio5GThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_sensitivity ObjectWirelesscontrollerVap#radio_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_sensitivity ObjectWirelesscontrollerVap#radio_sensitivity}
   */
   readonly radioSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth ObjectWirelesscontrollerVap#radius_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth ObjectWirelesscontrollerVap#radius_mac_auth}
   */
   readonly radiusMacAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_block_interval ObjectWirelesscontrollerVap#radius_mac_auth_block_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_block_interval ObjectWirelesscontrollerVap#radius_mac_auth_block_interval}
   */
   readonly radiusMacAuthBlockInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_server ObjectWirelesscontrollerVap#radius_mac_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_server ObjectWirelesscontrollerVap#radius_mac_auth_server}
   */
   readonly radiusMacAuthServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_usergroups ObjectWirelesscontrollerVap#radius_mac_auth_usergroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_usergroups ObjectWirelesscontrollerVap#radius_mac_auth_usergroups}
   */
   readonly radiusMacAuthUsergroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_auth ObjectWirelesscontrollerVap#radius_mac_mpsk_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_auth ObjectWirelesscontrollerVap#radius_mac_mpsk_auth}
   */
   readonly radiusMacMpskAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_timeout ObjectWirelesscontrollerVap#radius_mac_mpsk_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_timeout ObjectWirelesscontrollerVap#radius_mac_mpsk_timeout}
   */
   readonly radiusMacMpskTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_server ObjectWirelesscontrollerVap#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_server ObjectWirelesscontrollerVap#radius_server}
   */
   readonly radiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11a ObjectWirelesscontrollerVap#rates_11a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11a ObjectWirelesscontrollerVap#rates_11a}
   */
   readonly rates11A?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_mcs_map ObjectWirelesscontrollerVap#rates_11ac_mcs_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_mcs_map ObjectWirelesscontrollerVap#rates_11ac_mcs_map}
   */
   readonly rates11AcMcsMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss12 ObjectWirelesscontrollerVap#rates_11ac_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss12 ObjectWirelesscontrollerVap#rates_11ac_ss12}
   */
   readonly rates11AcSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss34 ObjectWirelesscontrollerVap#rates_11ac_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss34 ObjectWirelesscontrollerVap#rates_11ac_ss34}
   */
   readonly rates11AcSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_mcs_map ObjectWirelesscontrollerVap#rates_11ax_mcs_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_mcs_map ObjectWirelesscontrollerVap#rates_11ax_mcs_map}
   */
   readonly rates11AxMcsMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss12 ObjectWirelesscontrollerVap#rates_11ax_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss12 ObjectWirelesscontrollerVap#rates_11ax_ss12}
   */
   readonly rates11AxSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss34 ObjectWirelesscontrollerVap#rates_11ax_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss34 ObjectWirelesscontrollerVap#rates_11ax_ss34}
   */
   readonly rates11AxSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11bg ObjectWirelesscontrollerVap#rates_11bg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11bg ObjectWirelesscontrollerVap#rates_11bg}
   */
   readonly rates11Bg?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss12 ObjectWirelesscontrollerVap#rates_11n_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss12 ObjectWirelesscontrollerVap#rates_11n_ss12}
   */
   readonly rates11NSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss34 ObjectWirelesscontrollerVap#rates_11n_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss34 ObjectWirelesscontrollerVap#rates_11n_ss34}
   */
   readonly rates11NSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#roaming_acct_interim_update ObjectWirelesscontrollerVap#roaming_acct_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#roaming_acct_interim_update ObjectWirelesscontrollerVap#roaming_acct_interim_update}
   */
   readonly roamingAcctInterimUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_groups ObjectWirelesscontrollerVap#sae_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_groups ObjectWirelesscontrollerVap#sae_groups}
   */
   readonly saeGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_h2e_only ObjectWirelesscontrollerVap#sae_h2e_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_h2e_only ObjectWirelesscontrollerVap#sae_h2e_only}
   */
   readonly saeH2EOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_hnp_only ObjectWirelesscontrollerVap#sae_hnp_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_hnp_only ObjectWirelesscontrollerVap#sae_hnp_only}
   */
   readonly saeHnpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_password ObjectWirelesscontrollerVap#sae_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_password ObjectWirelesscontrollerVap#sae_password}
   */
   readonly saePassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_pk ObjectWirelesscontrollerVap#sae_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_pk ObjectWirelesscontrollerVap#sae_pk}
   */
   readonly saePk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_private_key ObjectWirelesscontrollerVap#sae_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_private_key ObjectWirelesscontrollerVap#sae_private_key}
   */
   readonly saePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#scan_botnet_connections ObjectWirelesscontrollerVap#scan_botnet_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#scan_botnet_connections ObjectWirelesscontrollerVap#scan_botnet_connections}
   */
   readonly scanBotnetConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#schedule ObjectWirelesscontrollerVap#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#schedule ObjectWirelesscontrollerVap#schedule}
   */
   readonly schedule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#scopetype ObjectWirelesscontrollerVap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#scopetype ObjectWirelesscontrollerVap#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#secondary_wag_profile ObjectWirelesscontrollerVap#secondary_wag_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#secondary_wag_profile ObjectWirelesscontrollerVap#secondary_wag_profile}
   */
   readonly secondaryWagProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security ObjectWirelesscontrollerVap#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security ObjectWirelesscontrollerVap#security}
   */
   readonly security?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_exempt_list ObjectWirelesscontrollerVap#security_exempt_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_exempt_list ObjectWirelesscontrollerVap#security_exempt_list}
   */
   readonly securityExemptList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_obsolete_option ObjectWirelesscontrollerVap#security_obsolete_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_obsolete_option ObjectWirelesscontrollerVap#security_obsolete_option}
   */
   readonly securityObsoleteOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_redirect_url ObjectWirelesscontrollerVap#security_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_redirect_url ObjectWirelesscontrollerVap#security_redirect_url}
   */
   readonly securityRedirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#selected_usergroups ObjectWirelesscontrollerVap#selected_usergroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#selected_usergroups ObjectWirelesscontrollerVap#selected_usergroups}
   */
   readonly selectedUsergroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#split_tunneling ObjectWirelesscontrollerVap#split_tunneling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#split_tunneling ObjectWirelesscontrollerVap#split_tunneling}
   */
   readonly splitTunneling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ssid ObjectWirelesscontrollerVap#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ssid ObjectWirelesscontrollerVap#ssid}
   */
   readonly ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_remove ObjectWirelesscontrollerVap#sticky_client_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_remove ObjectWirelesscontrollerVap#sticky_client_remove}
   */
   readonly stickyClientRemove?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_2g ObjectWirelesscontrollerVap#sticky_client_threshold_2g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_2g ObjectWirelesscontrollerVap#sticky_client_threshold_2g}
   */
   readonly stickyClientThreshold2G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_5g ObjectWirelesscontrollerVap#sticky_client_threshold_5g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_5g ObjectWirelesscontrollerVap#sticky_client_threshold_5g}
   */
   readonly stickyClientThreshold5G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_6g ObjectWirelesscontrollerVap#sticky_client_threshold_6g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_6g ObjectWirelesscontrollerVap#sticky_client_threshold_6g}
   */
   readonly stickyClientThreshold6G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#target_wake_time ObjectWirelesscontrollerVap#target_wake_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#target_wake_time ObjectWirelesscontrollerVap#target_wake_time}
   */
   readonly targetWakeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tkip_counter_measure ObjectWirelesscontrollerVap#tkip_counter_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tkip_counter_measure ObjectWirelesscontrollerVap#tkip_counter_measure}
   */
   readonly tkipCounterMeasure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tunnel_echo_interval ObjectWirelesscontrollerVap#tunnel_echo_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tunnel_echo_interval ObjectWirelesscontrollerVap#tunnel_echo_interval}
   */
   readonly tunnelEchoInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tunnel_fallback_interval ObjectWirelesscontrollerVap#tunnel_fallback_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tunnel_fallback_interval ObjectWirelesscontrollerVap#tunnel_fallback_interval}
   */
   readonly tunnelFallbackInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#usergroup ObjectWirelesscontrollerVap#usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#usergroup ObjectWirelesscontrollerVap#usergroup}
   */
   readonly usergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_log ObjectWirelesscontrollerVap#utm_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_log ObjectWirelesscontrollerVap#utm_log}
   */
   readonly utmLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_profile ObjectWirelesscontrollerVap#utm_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_profile ObjectWirelesscontrollerVap#utm_profile}
   */
   readonly utmProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_status ObjectWirelesscontrollerVap#utm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_status ObjectWirelesscontrollerVap#utm_status}
   */
   readonly utmStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
   */
   readonly vdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_auto ObjectWirelesscontrollerVap#vlan_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_auto ObjectWirelesscontrollerVap#vlan_auto}
   */
   readonly vlanAuto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_pooling ObjectWirelesscontrollerVap#vlan_pooling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_pooling ObjectWirelesscontrollerVap#vlan_pooling}
   */
   readonly vlanPooling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlanid ObjectWirelesscontrollerVap#vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlanid ObjectWirelesscontrollerVap#vlanid}
   */
   readonly vlanid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#voice_enterprise ObjectWirelesscontrollerVap#voice_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#voice_enterprise ObjectWirelesscontrollerVap#voice_enterprise}
   */
   readonly voiceEnterprise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#webfilter_profile ObjectWirelesscontrollerVap#webfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#webfilter_profile ObjectWirelesscontrollerVap#webfilter_profile}
   */
   readonly webfilterProfile?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dynamic_mapping ObjectWirelesscontrollerVap#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dynamic_mapping ObjectWirelesscontrollerVap#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectWirelesscontrollerVapDynamicMapping[] | cdktf.IResolvable;
   /**
   * mac_filter_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter_list ObjectWirelesscontrollerVap#mac_filter_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter_list ObjectWirelesscontrollerVap#mac_filter_list}
   */
   readonly macFilterList?: ObjectWirelesscontrollerVapMacFilterListStruct[] | cdktf.IResolvable;
   /**
   * mpsk_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_key ObjectWirelesscontrollerVap#mpsk_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_key ObjectWirelesscontrollerVap#mpsk_key}
   */
   readonly mpskKey?: ObjectWirelesscontrollerVapMpskKey[] | cdktf.IResolvable;
   /**
   * portal_message_overrides block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#portal_message_overrides ObjectWirelesscontrollerVap#portal_message_overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#portal_message_overrides ObjectWirelesscontrollerVap#portal_message_overrides}
   */
   readonly portalMessageOverrides?: ObjectWirelesscontrollerVapPortalMessageOverrides;
   /**
   * vlan_name block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_name ObjectWirelesscontrollerVap#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_name ObjectWirelesscontrollerVap#vlan_name}
   */
   readonly vlanName?: ObjectWirelesscontrollerVapVlanName[] | cdktf.IResolvable;
   /**
   * vlan_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_pool ObjectWirelesscontrollerVap#vlan_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_pool ObjectWirelesscontrollerVap#vlan_pool}
   */
   readonly vlanPool?: ObjectWirelesscontrollerVapVlanPool[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerVapDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
   */
   readonly vdom?: string;
 }
@@ -982,781 +982,781 @@ export class ObjectWirelesscontrollerVapDynamicMappingScopeList extends cdktf.Co
 }
 export interface ObjectWirelesscontrollerVapDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_centmgmt ObjectWirelesscontrollerVap#_centmgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_centmgmt ObjectWirelesscontrollerVap#_centmgmt}
   */
   readonly centmgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_dhcp_svr_id ObjectWirelesscontrollerVap#_dhcp_svr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_dhcp_svr_id ObjectWirelesscontrollerVap#_dhcp_svr_id}
   */
   readonly dhcpSvrId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_allowaccess ObjectWirelesscontrollerVap#_intf_allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_allowaccess ObjectWirelesscontrollerVap#_intf_allowaccess}
   */
   readonly intfAllowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_access_list ObjectWirelesscontrollerVap#_intf_device_access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_access_list ObjectWirelesscontrollerVap#_intf_device_access_list}
   */
   readonly intfDeviceAccessList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_identification ObjectWirelesscontrollerVap#_intf_device_identification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_identification ObjectWirelesscontrollerVap#_intf_device_identification}
   */
   readonly intfDeviceIdentification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_device_netscan ObjectWirelesscontrollerVap#_intf_device_netscan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_device_netscan ObjectWirelesscontrollerVap#_intf_device_netscan}
   */
   readonly intfDeviceNetscan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp6_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp6_relay_ip}
   */
   readonly intfDhcp6RelayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_service ObjectWirelesscontrollerVap#_intf_dhcp6_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_service ObjectWirelesscontrollerVap#_intf_dhcp6_relay_service}
   */
   readonly intfDhcp6RelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_type ObjectWirelesscontrollerVap#_intf_dhcp6_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp6_relay_type ObjectWirelesscontrollerVap#_intf_dhcp6_relay_type}
   */
   readonly intfDhcp6RelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_ip ObjectWirelesscontrollerVap#_intf_dhcp_relay_ip}
   */
   readonly intfDhcpRelayIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_service ObjectWirelesscontrollerVap#_intf_dhcp_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_service ObjectWirelesscontrollerVap#_intf_dhcp_relay_service}
   */
   readonly intfDhcpRelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_type ObjectWirelesscontrollerVap#_intf_dhcp_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_dhcp_relay_type ObjectWirelesscontrollerVap#_intf_dhcp_relay_type}
   */
   readonly intfDhcpRelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip ObjectWirelesscontrollerVap#_intf_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip ObjectWirelesscontrollerVap#_intf_ip}
   */
   readonly intfIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_address ObjectWirelesscontrollerVap#_intf_ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_address ObjectWirelesscontrollerVap#_intf_ip6_address}
   */
   readonly intfIp6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_allowaccess ObjectWirelesscontrollerVap#_intf_ip6_allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_ip6_allowaccess ObjectWirelesscontrollerVap#_intf_ip6_allowaccess}
   */
   readonly intfIp6Allowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_intf_listen_forticlient_connection ObjectWirelesscontrollerVap#_intf_listen_forticlient_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_intf_listen_forticlient_connection ObjectWirelesscontrollerVap#_intf_listen_forticlient_connection}
   */
   readonly intfListenForticlientConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_is_factory_setting ObjectWirelesscontrollerVap#_is_factory_setting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_is_factory_setting ObjectWirelesscontrollerVap#_is_factory_setting}
   */
   readonly isFactorySetting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#access_control_list ObjectWirelesscontrollerVap#access_control_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#access_control_list ObjectWirelesscontrollerVap#access_control_list}
   */
   readonly accessControlList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#acct_interim_interval ObjectWirelesscontrollerVap#acct_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#acct_interim_interval ObjectWirelesscontrollerVap#acct_interim_interval}
   */
   readonly acctInterimInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#additional_akms ObjectWirelesscontrollerVap#additional_akms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#additional_akms ObjectWirelesscontrollerVap#additional_akms}
   */
   readonly additionalAkms?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#address_group ObjectWirelesscontrollerVap#address_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#address_group ObjectWirelesscontrollerVap#address_group}
   */
   readonly addressGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#address_group_policy ObjectWirelesscontrollerVap#address_group_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#address_group_policy ObjectWirelesscontrollerVap#address_group_policy}
   */
   readonly addressGroupPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#alias ObjectWirelesscontrollerVap#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#alias ObjectWirelesscontrollerVap#alias}
   */
   readonly alias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#antivirus_profile ObjectWirelesscontrollerVap#antivirus_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#antivirus_profile ObjectWirelesscontrollerVap#antivirus_profile}
   */
   readonly antivirusProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_detection_engine ObjectWirelesscontrollerVap#application_detection_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_detection_engine ObjectWirelesscontrollerVap#application_detection_engine}
   */
   readonly applicationDetectionEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_dscp_marking ObjectWirelesscontrollerVap#application_dscp_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_dscp_marking ObjectWirelesscontrollerVap#application_dscp_marking}
   */
   readonly applicationDscpMarking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_list ObjectWirelesscontrollerVap#application_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_list ObjectWirelesscontrollerVap#application_list}
   */
   readonly applicationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#application_report_intv ObjectWirelesscontrollerVap#application_report_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#application_report_intv ObjectWirelesscontrollerVap#application_report_intv}
   */
   readonly applicationReportIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#atf_weight ObjectWirelesscontrollerVap#atf_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#atf_weight ObjectWirelesscontrollerVap#atf_weight}
   */
   readonly atfWeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth ObjectWirelesscontrollerVap#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth ObjectWirelesscontrollerVap#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_cert ObjectWirelesscontrollerVap#auth_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_cert ObjectWirelesscontrollerVap#auth_cert}
   */
   readonly authCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_portal_addr ObjectWirelesscontrollerVap#auth_portal_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_portal_addr ObjectWirelesscontrollerVap#auth_portal_addr}
   */
   readonly authPortalAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#beacon_advertising ObjectWirelesscontrollerVap#beacon_advertising}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#beacon_advertising ObjectWirelesscontrollerVap#beacon_advertising}
   */
   readonly beaconAdvertising?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#broadcast_ssid ObjectWirelesscontrollerVap#broadcast_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#broadcast_ssid ObjectWirelesscontrollerVap#broadcast_ssid}
   */
   readonly broadcastSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#broadcast_suppression ObjectWirelesscontrollerVap#broadcast_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#broadcast_suppression ObjectWirelesscontrollerVap#broadcast_suppression}
   */
   readonly broadcastSuppression?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bss_color_partial ObjectWirelesscontrollerVap#bss_color_partial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bss_color_partial ObjectWirelesscontrollerVap#bss_color_partial}
   */
   readonly bssColorPartial?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_disassociation_imminent ObjectWirelesscontrollerVap#bstm_disassociation_imminent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_disassociation_imminent ObjectWirelesscontrollerVap#bstm_disassociation_imminent}
   */
   readonly bstmDisassociationImminent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_load_balancing_disassoc_timer ObjectWirelesscontrollerVap#bstm_load_balancing_disassoc_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_load_balancing_disassoc_timer ObjectWirelesscontrollerVap#bstm_load_balancing_disassoc_timer}
   */
   readonly bstmLoadBalancingDisassocTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#bstm_rssi_disassoc_timer ObjectWirelesscontrollerVap#bstm_rssi_disassoc_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#bstm_rssi_disassoc_timer ObjectWirelesscontrollerVap#bstm_rssi_disassoc_timer}
   */
   readonly bstmRssiDisassocTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_ac_name ObjectWirelesscontrollerVap#captive_portal_ac_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_ac_name ObjectWirelesscontrollerVap#captive_portal_ac_name}
   */
   readonly captivePortalAcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_auth_timeout ObjectWirelesscontrollerVap#captive_portal_auth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_auth_timeout ObjectWirelesscontrollerVap#captive_portal_auth_timeout}
   */
   readonly captivePortalAuthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_fw_accounting ObjectWirelesscontrollerVap#captive_portal_fw_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_fw_accounting ObjectWirelesscontrollerVap#captive_portal_fw_accounting}
   */
   readonly captivePortalFwAccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_secret ObjectWirelesscontrollerVap#captive_portal_macauth_radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_secret ObjectWirelesscontrollerVap#captive_portal_macauth_radius_secret}
   */
   readonly captivePortalMacauthRadiusSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_server ObjectWirelesscontrollerVap#captive_portal_macauth_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_macauth_radius_server ObjectWirelesscontrollerVap#captive_portal_macauth_radius_server}
   */
   readonly captivePortalMacauthRadiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_secret ObjectWirelesscontrollerVap#captive_portal_radius_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_secret ObjectWirelesscontrollerVap#captive_portal_radius_secret}
   */
   readonly captivePortalRadiusSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_server ObjectWirelesscontrollerVap#captive_portal_radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_radius_server ObjectWirelesscontrollerVap#captive_portal_radius_server}
   */
   readonly captivePortalRadiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#captive_portal_session_timeout_interval ObjectWirelesscontrollerVap#captive_portal_session_timeout_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#captive_portal_session_timeout_interval ObjectWirelesscontrollerVap#captive_portal_session_timeout_interval}
   */
   readonly captivePortalSessionTimeoutInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#client_count ObjectWirelesscontrollerVap#client_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#client_count ObjectWirelesscontrollerVap#client_count}
   */
   readonly clientCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_address_enforcement ObjectWirelesscontrollerVap#dhcp_address_enforcement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_address_enforcement ObjectWirelesscontrollerVap#dhcp_address_enforcement}
   */
   readonly dhcpAddressEnforcement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_lease_time ObjectWirelesscontrollerVap#dhcp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_lease_time ObjectWirelesscontrollerVap#dhcp_lease_time}
   */
   readonly dhcpLeaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option43_insertion ObjectWirelesscontrollerVap#dhcp_option43_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option43_insertion ObjectWirelesscontrollerVap#dhcp_option43_insertion}
   */
   readonly dhcpOption43Insertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_circuit_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_circuit_id_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_circuit_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_circuit_id_insertion}
   */
   readonly dhcpOption82CircuitIdInsertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_insertion ObjectWirelesscontrollerVap#dhcp_option82_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_insertion ObjectWirelesscontrollerVap#dhcp_option82_insertion}
   */
   readonly dhcpOption82Insertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_remote_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_remote_id_insertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dhcp_option82_remote_id_insertion ObjectWirelesscontrollerVap#dhcp_option82_remote_id_insertion}
   */
   readonly dhcpOption82RemoteIdInsertion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#dynamic_vlan ObjectWirelesscontrollerVap#dynamic_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#dynamic_vlan ObjectWirelesscontrollerVap#dynamic_vlan}
   */
   readonly dynamicVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eap_reauth ObjectWirelesscontrollerVap#eap_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eap_reauth ObjectWirelesscontrollerVap#eap_reauth}
   */
   readonly eapReauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eap_reauth_intv ObjectWirelesscontrollerVap#eap_reauth_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eap_reauth_intv ObjectWirelesscontrollerVap#eap_reauth_intv}
   */
   readonly eapReauthIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#eapol_key_retries ObjectWirelesscontrollerVap#eapol_key_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#eapol_key_retries ObjectWirelesscontrollerVap#eapol_key_retries}
   */
   readonly eapolKeyRetries?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#encrypt ObjectWirelesscontrollerVap#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#encrypt ObjectWirelesscontrollerVap#encrypt}
   */
   readonly encrypt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_fast_roaming ObjectWirelesscontrollerVap#external_fast_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_fast_roaming ObjectWirelesscontrollerVap#external_fast_roaming}
   */
   readonly externalFastRoaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_logout ObjectWirelesscontrollerVap#external_logout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_logout ObjectWirelesscontrollerVap#external_logout}
   */
   readonly externalLogout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_web ObjectWirelesscontrollerVap#external_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_web ObjectWirelesscontrollerVap#external_web}
   */
   readonly externalWeb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#external_web_format ObjectWirelesscontrollerVap#external_web_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#external_web_format ObjectWirelesscontrollerVap#external_web_format}
   */
   readonly externalWebFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#fast_bss_transition ObjectWirelesscontrollerVap#fast_bss_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#fast_bss_transition ObjectWirelesscontrollerVap#fast_bss_transition}
   */
   readonly fastBssTransition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#fast_roaming ObjectWirelesscontrollerVap#fast_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#fast_roaming ObjectWirelesscontrollerVap#fast_roaming}
   */
   readonly fastRoaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_mobility_domain ObjectWirelesscontrollerVap#ft_mobility_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_mobility_domain ObjectWirelesscontrollerVap#ft_mobility_domain}
   */
   readonly ftMobilityDomain?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_over_ds ObjectWirelesscontrollerVap#ft_over_ds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_over_ds ObjectWirelesscontrollerVap#ft_over_ds}
   */
   readonly ftOverDs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ft_r0_key_lifetime ObjectWirelesscontrollerVap#ft_r0_key_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ft_r0_key_lifetime ObjectWirelesscontrollerVap#ft_r0_key_lifetime}
   */
   readonly ftR0KeyLifetime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gas_comeback_delay ObjectWirelesscontrollerVap#gas_comeback_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gas_comeback_delay ObjectWirelesscontrollerVap#gas_comeback_delay}
   */
   readonly gasComebackDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gas_fragmentation_limit ObjectWirelesscontrollerVap#gas_fragmentation_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gas_fragmentation_limit ObjectWirelesscontrollerVap#gas_fragmentation_limit}
   */
   readonly gasFragmentationLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey ObjectWirelesscontrollerVap#gtk_rekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey ObjectWirelesscontrollerVap#gtk_rekey}
   */
   readonly gtkRekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey_intv ObjectWirelesscontrollerVap#gtk_rekey_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#gtk_rekey_intv ObjectWirelesscontrollerVap#gtk_rekey_intv}
   */
   readonly gtkRekeyIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#high_efficiency ObjectWirelesscontrollerVap#high_efficiency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#high_efficiency ObjectWirelesscontrollerVap#high_efficiency}
   */
   readonly highEfficiency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#hotspot20_profile ObjectWirelesscontrollerVap#hotspot20_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#hotspot20_profile ObjectWirelesscontrollerVap#hotspot20_profile}
   */
   readonly hotspot20Profile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#igmp_snooping ObjectWirelesscontrollerVap#igmp_snooping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#igmp_snooping ObjectWirelesscontrollerVap#igmp_snooping}
   */
   readonly igmpSnooping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#intra_vap_privacy ObjectWirelesscontrollerVap#intra_vap_privacy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#intra_vap_privacy ObjectWirelesscontrollerVap#intra_vap_privacy}
   */
   readonly intraVapPrivacy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ip ObjectWirelesscontrollerVap#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ip ObjectWirelesscontrollerVap#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ips_sensor ObjectWirelesscontrollerVap#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ips_sensor ObjectWirelesscontrollerVap#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ipv6_rules ObjectWirelesscontrollerVap#ipv6_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ipv6_rules ObjectWirelesscontrollerVap#ipv6_rules}
   */
   readonly ipv6Rules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#key ObjectWirelesscontrollerVap#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#key ObjectWirelesscontrollerVap#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#keyindex ObjectWirelesscontrollerVap#keyindex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#keyindex ObjectWirelesscontrollerVap#keyindex}
   */
   readonly keyindex?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#l3_roaming ObjectWirelesscontrollerVap#l3_roaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#l3_roaming ObjectWirelesscontrollerVap#l3_roaming}
   */
   readonly l3Roaming?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#l3_roaming_mode ObjectWirelesscontrollerVap#l3_roaming_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#l3_roaming_mode ObjectWirelesscontrollerVap#l3_roaming_mode}
   */
   readonly l3RoamingMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ldpc ObjectWirelesscontrollerVap#ldpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ldpc ObjectWirelesscontrollerVap#ldpc}
   */
   readonly ldpc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_authentication ObjectWirelesscontrollerVap#local_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_authentication ObjectWirelesscontrollerVap#local_authentication}
   */
   readonly localAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_bridging ObjectWirelesscontrollerVap#local_bridging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_bridging ObjectWirelesscontrollerVap#local_bridging}
   */
   readonly localBridging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_lan ObjectWirelesscontrollerVap#local_lan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_lan ObjectWirelesscontrollerVap#local_lan}
   */
   readonly localLan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone ObjectWirelesscontrollerVap#local_standalone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone ObjectWirelesscontrollerVap#local_standalone}
   */
   readonly localStandalone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns ObjectWirelesscontrollerVap#local_standalone_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns ObjectWirelesscontrollerVap#local_standalone_dns}
   */
   readonly localStandaloneDns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns_ip ObjectWirelesscontrollerVap#local_standalone_dns_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_dns_ip ObjectWirelesscontrollerVap#local_standalone_dns_ip}
   */
   readonly localStandaloneDnsIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_standalone_nat ObjectWirelesscontrollerVap#local_standalone_nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_standalone_nat ObjectWirelesscontrollerVap#local_standalone_nat}
   */
   readonly localStandaloneNat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#local_switching ObjectWirelesscontrollerVap#local_switching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#local_switching ObjectWirelesscontrollerVap#local_switching}
   */
   readonly localSwitching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_auth_bypass ObjectWirelesscontrollerVap#mac_auth_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_auth_bypass ObjectWirelesscontrollerVap#mac_auth_bypass}
   */
   readonly macAuthBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_called_station_delimiter ObjectWirelesscontrollerVap#mac_called_station_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_called_station_delimiter ObjectWirelesscontrollerVap#mac_called_station_delimiter}
   */
   readonly macCalledStationDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_calling_station_delimiter ObjectWirelesscontrollerVap#mac_calling_station_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_calling_station_delimiter ObjectWirelesscontrollerVap#mac_calling_station_delimiter}
   */
   readonly macCallingStationDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_case ObjectWirelesscontrollerVap#mac_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_case ObjectWirelesscontrollerVap#mac_case}
   */
   readonly macCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter ObjectWirelesscontrollerVap#mac_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter ObjectWirelesscontrollerVap#mac_filter}
   */
   readonly macFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy_other ObjectWirelesscontrollerVap#mac_filter_policy_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy_other ObjectWirelesscontrollerVap#mac_filter_policy_other}
   */
   readonly macFilterPolicyOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_password_delimiter ObjectWirelesscontrollerVap#mac_password_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_password_delimiter ObjectWirelesscontrollerVap#mac_password_delimiter}
   */
   readonly macPasswordDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_username_delimiter ObjectWirelesscontrollerVap#mac_username_delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_username_delimiter ObjectWirelesscontrollerVap#mac_username_delimiter}
   */
   readonly macUsernameDelimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#max_clients ObjectWirelesscontrollerVap#max_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#max_clients ObjectWirelesscontrollerVap#max_clients}
   */
   readonly maxClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#max_clients_ap ObjectWirelesscontrollerVap#max_clients_ap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#max_clients_ap ObjectWirelesscontrollerVap#max_clients_ap}
   */
   readonly maxClientsAp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mbo ObjectWirelesscontrollerVap#mbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mbo ObjectWirelesscontrollerVap#mbo}
   */
   readonly mbo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mbo_cell_data_conn_pref ObjectWirelesscontrollerVap#mbo_cell_data_conn_pref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mbo_cell_data_conn_pref ObjectWirelesscontrollerVap#mbo_cell_data_conn_pref}
   */
   readonly mboCellDataConnPref?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#me_disable_thresh ObjectWirelesscontrollerVap#me_disable_thresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#me_disable_thresh ObjectWirelesscontrollerVap#me_disable_thresh}
   */
   readonly meDisableThresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mesh_backhaul ObjectWirelesscontrollerVap#mesh_backhaul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mesh_backhaul ObjectWirelesscontrollerVap#mesh_backhaul}
   */
   readonly meshBackhaul?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk ObjectWirelesscontrollerVap#mpsk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk ObjectWirelesscontrollerVap#mpsk}
   */
   readonly mpsk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_concurrent_clients ObjectWirelesscontrollerVap#mpsk_concurrent_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_concurrent_clients ObjectWirelesscontrollerVap#mpsk_concurrent_clients}
   */
   readonly mpskConcurrentClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_profile ObjectWirelesscontrollerVap#mpsk_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_profile ObjectWirelesscontrollerVap#mpsk_profile}
   */
   readonly mpskProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mu_mimo ObjectWirelesscontrollerVap#mu_mimo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mu_mimo ObjectWirelesscontrollerVap#mu_mimo}
   */
   readonly muMimo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#multicast_enhance ObjectWirelesscontrollerVap#multicast_enhance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#multicast_enhance ObjectWirelesscontrollerVap#multicast_enhance}
   */
   readonly multicastEnhance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#multicast_rate ObjectWirelesscontrollerVap#multicast_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#multicast_rate ObjectWirelesscontrollerVap#multicast_rate}
   */
   readonly multicastRate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#n80211k ObjectWirelesscontrollerVap#n80211k}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#n80211k ObjectWirelesscontrollerVap#n80211k}
   */
   readonly n80211K?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#n80211v ObjectWirelesscontrollerVap#n80211v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#n80211v ObjectWirelesscontrollerVap#n80211v}
   */
   readonly n80211V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#nac ObjectWirelesscontrollerVap#nac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#nac ObjectWirelesscontrollerVap#nac}
   */
   readonly nac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#nac_profile ObjectWirelesscontrollerVap#nac_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#nac_profile ObjectWirelesscontrollerVap#nac_profile}
   */
   readonly nacProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#neighbor_report_dual_band ObjectWirelesscontrollerVap#neighbor_report_dual_band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#neighbor_report_dual_band ObjectWirelesscontrollerVap#neighbor_report_dual_band}
   */
   readonly neighborReportDualBand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#okc ObjectWirelesscontrollerVap#okc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#okc ObjectWirelesscontrollerVap#okc}
   */
   readonly okc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#osen ObjectWirelesscontrollerVap#osen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#osen ObjectWirelesscontrollerVap#osen}
   */
   readonly osen?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_groups ObjectWirelesscontrollerVap#owe_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_groups ObjectWirelesscontrollerVap#owe_groups}
   */
   readonly oweGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_transition ObjectWirelesscontrollerVap#owe_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_transition ObjectWirelesscontrollerVap#owe_transition}
   */
   readonly oweTransition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#owe_transition_ssid ObjectWirelesscontrollerVap#owe_transition_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#owe_transition_ssid ObjectWirelesscontrollerVap#owe_transition_ssid}
   */
   readonly oweTransitionSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
   */
   readonly passphrase?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf ObjectWirelesscontrollerVap#pmf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf ObjectWirelesscontrollerVap#pmf}
   */
   readonly pmf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf_assoc_comeback_timeout ObjectWirelesscontrollerVap#pmf_assoc_comeback_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf_assoc_comeback_timeout ObjectWirelesscontrollerVap#pmf_assoc_comeback_timeout}
   */
   readonly pmfAssocComebackTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#pmf_sa_query_retry_timeout ObjectWirelesscontrollerVap#pmf_sa_query_retry_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#pmf_sa_query_retry_timeout ObjectWirelesscontrollerVap#pmf_sa_query_retry_timeout}
   */
   readonly pmfSaQueryRetryTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth ObjectWirelesscontrollerVap#port_macauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth ObjectWirelesscontrollerVap#port_macauth}
   */
   readonly portMacauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth_reauth_timeout ObjectWirelesscontrollerVap#port_macauth_reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth_reauth_timeout ObjectWirelesscontrollerVap#port_macauth_reauth_timeout}
   */
   readonly portMacauthReauthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#port_macauth_timeout ObjectWirelesscontrollerVap#port_macauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#port_macauth_timeout ObjectWirelesscontrollerVap#port_macauth_timeout}
   */
   readonly portMacauthTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#portal_message_override_group ObjectWirelesscontrollerVap#portal_message_override_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#portal_message_override_group ObjectWirelesscontrollerVap#portal_message_override_group}
   */
   readonly portalMessageOverrideGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#portal_type ObjectWirelesscontrollerVap#portal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#portal_type ObjectWirelesscontrollerVap#portal_type}
   */
   readonly portalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#primary_wag_profile ObjectWirelesscontrollerVap#primary_wag_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#primary_wag_profile ObjectWirelesscontrollerVap#primary_wag_profile}
   */
   readonly primaryWagProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#probe_resp_suppression ObjectWirelesscontrollerVap#probe_resp_suppression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#probe_resp_suppression ObjectWirelesscontrollerVap#probe_resp_suppression}
   */
   readonly probeRespSuppression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#probe_resp_threshold ObjectWirelesscontrollerVap#probe_resp_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#probe_resp_threshold ObjectWirelesscontrollerVap#probe_resp_threshold}
   */
   readonly probeRespThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey ObjectWirelesscontrollerVap#ptk_rekey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey ObjectWirelesscontrollerVap#ptk_rekey}
   */
   readonly ptkRekey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey_intv ObjectWirelesscontrollerVap#ptk_rekey_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ptk_rekey_intv ObjectWirelesscontrollerVap#ptk_rekey_intv}
   */
   readonly ptkRekeyIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#qos_profile ObjectWirelesscontrollerVap#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#qos_profile ObjectWirelesscontrollerVap#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#quarantine ObjectWirelesscontrollerVap#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#quarantine ObjectWirelesscontrollerVap#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_2g_threshold ObjectWirelesscontrollerVap#radio_2g_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_2g_threshold ObjectWirelesscontrollerVap#radio_2g_threshold}
   */
   readonly radio2GThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_5g_threshold ObjectWirelesscontrollerVap#radio_5g_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_5g_threshold ObjectWirelesscontrollerVap#radio_5g_threshold}
   */
   readonly radio5GThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radio_sensitivity ObjectWirelesscontrollerVap#radio_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radio_sensitivity ObjectWirelesscontrollerVap#radio_sensitivity}
   */
   readonly radioSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth ObjectWirelesscontrollerVap#radius_mac_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth ObjectWirelesscontrollerVap#radius_mac_auth}
   */
   readonly radiusMacAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_block_interval ObjectWirelesscontrollerVap#radius_mac_auth_block_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_block_interval ObjectWirelesscontrollerVap#radius_mac_auth_block_interval}
   */
   readonly radiusMacAuthBlockInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_server ObjectWirelesscontrollerVap#radius_mac_auth_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_server ObjectWirelesscontrollerVap#radius_mac_auth_server}
   */
   readonly radiusMacAuthServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_usergroups ObjectWirelesscontrollerVap#radius_mac_auth_usergroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_auth_usergroups ObjectWirelesscontrollerVap#radius_mac_auth_usergroups}
   */
   readonly radiusMacAuthUsergroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_auth ObjectWirelesscontrollerVap#radius_mac_mpsk_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_auth ObjectWirelesscontrollerVap#radius_mac_mpsk_auth}
   */
   readonly radiusMacMpskAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_timeout ObjectWirelesscontrollerVap#radius_mac_mpsk_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_mac_mpsk_timeout ObjectWirelesscontrollerVap#radius_mac_mpsk_timeout}
   */
   readonly radiusMacMpskTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#radius_server ObjectWirelesscontrollerVap#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#radius_server ObjectWirelesscontrollerVap#radius_server}
   */
   readonly radiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11a ObjectWirelesscontrollerVap#rates_11a}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11a ObjectWirelesscontrollerVap#rates_11a}
   */
   readonly rates11A?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_mcs_map ObjectWirelesscontrollerVap#rates_11ac_mcs_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_mcs_map ObjectWirelesscontrollerVap#rates_11ac_mcs_map}
   */
   readonly rates11AcMcsMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss12 ObjectWirelesscontrollerVap#rates_11ac_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss12 ObjectWirelesscontrollerVap#rates_11ac_ss12}
   */
   readonly rates11AcSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss34 ObjectWirelesscontrollerVap#rates_11ac_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ac_ss34 ObjectWirelesscontrollerVap#rates_11ac_ss34}
   */
   readonly rates11AcSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_mcs_map ObjectWirelesscontrollerVap#rates_11ax_mcs_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_mcs_map ObjectWirelesscontrollerVap#rates_11ax_mcs_map}
   */
   readonly rates11AxMcsMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss12 ObjectWirelesscontrollerVap#rates_11ax_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss12 ObjectWirelesscontrollerVap#rates_11ax_ss12}
   */
   readonly rates11AxSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss34 ObjectWirelesscontrollerVap#rates_11ax_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11ax_ss34 ObjectWirelesscontrollerVap#rates_11ax_ss34}
   */
   readonly rates11AxSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11bg ObjectWirelesscontrollerVap#rates_11bg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11bg ObjectWirelesscontrollerVap#rates_11bg}
   */
   readonly rates11Bg?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss12 ObjectWirelesscontrollerVap#rates_11n_ss12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss12 ObjectWirelesscontrollerVap#rates_11n_ss12}
   */
   readonly rates11NSs12?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss34 ObjectWirelesscontrollerVap#rates_11n_ss34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#rates_11n_ss34 ObjectWirelesscontrollerVap#rates_11n_ss34}
   */
   readonly rates11NSs34?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#roaming_acct_interim_update ObjectWirelesscontrollerVap#roaming_acct_interim_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#roaming_acct_interim_update ObjectWirelesscontrollerVap#roaming_acct_interim_update}
   */
   readonly roamingAcctInterimUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_groups ObjectWirelesscontrollerVap#sae_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_groups ObjectWirelesscontrollerVap#sae_groups}
   */
   readonly saeGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_h2e_only ObjectWirelesscontrollerVap#sae_h2e_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_h2e_only ObjectWirelesscontrollerVap#sae_h2e_only}
   */
   readonly saeH2EOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_hnp_only ObjectWirelesscontrollerVap#sae_hnp_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_hnp_only ObjectWirelesscontrollerVap#sae_hnp_only}
   */
   readonly saeHnpOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_password ObjectWirelesscontrollerVap#sae_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_password ObjectWirelesscontrollerVap#sae_password}
   */
   readonly saePassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_pk ObjectWirelesscontrollerVap#sae_pk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_pk ObjectWirelesscontrollerVap#sae_pk}
   */
   readonly saePk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sae_private_key ObjectWirelesscontrollerVap#sae_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sae_private_key ObjectWirelesscontrollerVap#sae_private_key}
   */
   readonly saePrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#scan_botnet_connections ObjectWirelesscontrollerVap#scan_botnet_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#scan_botnet_connections ObjectWirelesscontrollerVap#scan_botnet_connections}
   */
   readonly scanBotnetConnections?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#schedule ObjectWirelesscontrollerVap#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#schedule ObjectWirelesscontrollerVap#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#secondary_wag_profile ObjectWirelesscontrollerVap#secondary_wag_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#secondary_wag_profile ObjectWirelesscontrollerVap#secondary_wag_profile}
   */
   readonly secondaryWagProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security ObjectWirelesscontrollerVap#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security ObjectWirelesscontrollerVap#security}
   */
   readonly security?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_exempt_list ObjectWirelesscontrollerVap#security_exempt_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_exempt_list ObjectWirelesscontrollerVap#security_exempt_list}
   */
   readonly securityExemptList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_obsolete_option ObjectWirelesscontrollerVap#security_obsolete_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_obsolete_option ObjectWirelesscontrollerVap#security_obsolete_option}
   */
   readonly securityObsoleteOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#security_redirect_url ObjectWirelesscontrollerVap#security_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#security_redirect_url ObjectWirelesscontrollerVap#security_redirect_url}
   */
   readonly securityRedirectUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#selected_usergroups ObjectWirelesscontrollerVap#selected_usergroups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#selected_usergroups ObjectWirelesscontrollerVap#selected_usergroups}
   */
   readonly selectedUsergroups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#split_tunneling ObjectWirelesscontrollerVap#split_tunneling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#split_tunneling ObjectWirelesscontrollerVap#split_tunneling}
   */
   readonly splitTunneling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#ssid ObjectWirelesscontrollerVap#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#ssid ObjectWirelesscontrollerVap#ssid}
   */
   readonly ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_remove ObjectWirelesscontrollerVap#sticky_client_remove}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_remove ObjectWirelesscontrollerVap#sticky_client_remove}
   */
   readonly stickyClientRemove?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_2g ObjectWirelesscontrollerVap#sticky_client_threshold_2g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_2g ObjectWirelesscontrollerVap#sticky_client_threshold_2g}
   */
   readonly stickyClientThreshold2G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_5g ObjectWirelesscontrollerVap#sticky_client_threshold_5g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_5g ObjectWirelesscontrollerVap#sticky_client_threshold_5g}
   */
   readonly stickyClientThreshold5G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_6g ObjectWirelesscontrollerVap#sticky_client_threshold_6g}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#sticky_client_threshold_6g ObjectWirelesscontrollerVap#sticky_client_threshold_6g}
   */
   readonly stickyClientThreshold6G?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#target_wake_time ObjectWirelesscontrollerVap#target_wake_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#target_wake_time ObjectWirelesscontrollerVap#target_wake_time}
   */
   readonly targetWakeTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tkip_counter_measure ObjectWirelesscontrollerVap#tkip_counter_measure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tkip_counter_measure ObjectWirelesscontrollerVap#tkip_counter_measure}
   */
   readonly tkipCounterMeasure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tunnel_echo_interval ObjectWirelesscontrollerVap#tunnel_echo_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tunnel_echo_interval ObjectWirelesscontrollerVap#tunnel_echo_interval}
   */
   readonly tunnelEchoInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#tunnel_fallback_interval ObjectWirelesscontrollerVap#tunnel_fallback_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#tunnel_fallback_interval ObjectWirelesscontrollerVap#tunnel_fallback_interval}
   */
   readonly tunnelFallbackInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#usergroup ObjectWirelesscontrollerVap#usergroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#usergroup ObjectWirelesscontrollerVap#usergroup}
   */
   readonly usergroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_log ObjectWirelesscontrollerVap#utm_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_log ObjectWirelesscontrollerVap#utm_log}
   */
   readonly utmLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_profile ObjectWirelesscontrollerVap#utm_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_profile ObjectWirelesscontrollerVap#utm_profile}
   */
   readonly utmProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#utm_status ObjectWirelesscontrollerVap#utm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#utm_status ObjectWirelesscontrollerVap#utm_status}
   */
   readonly utmStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vdom ObjectWirelesscontrollerVap#vdom}
   */
   readonly vdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_auto ObjectWirelesscontrollerVap#vlan_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_auto ObjectWirelesscontrollerVap#vlan_auto}
   */
   readonly vlanAuto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_pooling ObjectWirelesscontrollerVap#vlan_pooling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_pooling ObjectWirelesscontrollerVap#vlan_pooling}
   */
   readonly vlanPooling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlanid ObjectWirelesscontrollerVap#vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlanid ObjectWirelesscontrollerVap#vlanid}
   */
   readonly vlanid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#voice_enterprise ObjectWirelesscontrollerVap#voice_enterprise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#voice_enterprise ObjectWirelesscontrollerVap#voice_enterprise}
   */
   readonly voiceEnterprise?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#webfilter_profile ObjectWirelesscontrollerVap#webfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#webfilter_profile ObjectWirelesscontrollerVap#webfilter_profile}
   */
   readonly webfilterProfile?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_scope ObjectWirelesscontrollerVap#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_scope ObjectWirelesscontrollerVap#_scope}
   */
   readonly scope?: ObjectWirelesscontrollerVapDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -7469,18 +7469,18 @@ export class ObjectWirelesscontrollerVapDynamicMappingList extends cdktf.Complex
 }
 export interface ObjectWirelesscontrollerVapMacFilterListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac ObjectWirelesscontrollerVap#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac ObjectWirelesscontrollerVap#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy ObjectWirelesscontrollerVap#mac_filter_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mac_filter_policy ObjectWirelesscontrollerVap#mac_filter_policy}
   */
   readonly macFilterPolicy?: string;
 }
@@ -7654,23 +7654,23 @@ export class ObjectWirelesscontrollerVapMacFilterListStructList extends cdktf.Co
 }
 export interface ObjectWirelesscontrollerVapMpskKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#comment ObjectWirelesscontrollerVap#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#comment ObjectWirelesscontrollerVap#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#concurrent_clients ObjectWirelesscontrollerVap#concurrent_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#concurrent_clients ObjectWirelesscontrollerVap#concurrent_clients}
   */
   readonly concurrentClients?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#key_name ObjectWirelesscontrollerVap#key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#key_name ObjectWirelesscontrollerVap#key_name}
   */
   readonly keyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#mpsk_schedules ObjectWirelesscontrollerVap#mpsk_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#mpsk_schedules ObjectWirelesscontrollerVap#mpsk_schedules}
   */
   readonly mpskSchedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#passphrase ObjectWirelesscontrollerVap#passphrase}
   */
   readonly passphrase?: string[];
 }
@@ -7902,19 +7902,19 @@ export class ObjectWirelesscontrollerVapMpskKeyList extends cdktf.ComplexList {
 }
 export interface ObjectWirelesscontrollerVapPortalMessageOverrides {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_disclaimer_page ObjectWirelesscontrollerVap#auth_disclaimer_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_disclaimer_page ObjectWirelesscontrollerVap#auth_disclaimer_page}
   */
   readonly authDisclaimerPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_login_failed_page ObjectWirelesscontrollerVap#auth_login_failed_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_login_failed_page ObjectWirelesscontrollerVap#auth_login_failed_page}
   */
   readonly authLoginFailedPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_login_page ObjectWirelesscontrollerVap#auth_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_login_page ObjectWirelesscontrollerVap#auth_login_page}
   */
   readonly authLoginPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#auth_reject_page ObjectWirelesscontrollerVap#auth_reject_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#auth_reject_page ObjectWirelesscontrollerVap#auth_reject_page}
   */
   readonly authRejectPage?: string;
 }
@@ -8085,11 +8085,11 @@ export class ObjectWirelesscontrollerVapPortalMessageOverridesOutputReference ex
 }
 export interface ObjectWirelesscontrollerVapVlanName {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#name ObjectWirelesscontrollerVap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#vlan_id ObjectWirelesscontrollerVap#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#vlan_id ObjectWirelesscontrollerVap#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -8234,11 +8234,11 @@ export class ObjectWirelesscontrollerVapVlanNameList extends cdktf.ComplexList {
 }
 export interface ObjectWirelesscontrollerVapVlanPool {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#_wtp_group ObjectWirelesscontrollerVap#_wtp_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#_wtp_group ObjectWirelesscontrollerVap#_wtp_group}
   */
   readonly wtpGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#id ObjectWirelesscontrollerVap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -8386,7 +8386,7 @@ export class ObjectWirelesscontrollerVapVlanPoolList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap fortimanager_object_wirelesscontroller_vap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap fortimanager_object_wirelesscontroller_vap}
 */
 export class ObjectWirelesscontrollerVap extends cdktf.TerraformResource {
 
@@ -8402,7 +8402,7 @@ export class ObjectWirelesscontrollerVap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWirelesscontrollerVap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerVap to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerVap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerVap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerVap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8414,7 +8414,7 @@ export class ObjectWirelesscontrollerVap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap fortimanager_object_wirelesscontroller_vap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap fortimanager_object_wirelesscontroller_vap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8425,8 +8425,8 @@ export class ObjectWirelesscontrollerVap extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_wirelesscontroller_vap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

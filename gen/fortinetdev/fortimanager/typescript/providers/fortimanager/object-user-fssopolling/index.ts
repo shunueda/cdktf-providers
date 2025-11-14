@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserFssopollingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#_gui_meta ObjectUserFssopolling#_gui_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#_gui_meta ObjectUserFssopolling#_gui_meta}
   */
   readonly guiMeta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#adom ObjectUserFssopolling#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#adom ObjectUserFssopolling#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#default_domain ObjectUserFssopolling#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#default_domain ObjectUserFssopolling#default_domain}
   */
   readonly defaultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#dynamic_sort_subtable ObjectUserFssopolling#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#dynamic_sort_subtable ObjectUserFssopolling#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#fosid ObjectUserFssopolling#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#fosid ObjectUserFssopolling#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#id ObjectUserFssopolling#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#id ObjectUserFssopolling#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#ldap_server ObjectUserFssopolling#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#ldap_server ObjectUserFssopolling#ldap_server}
   */
   readonly ldapServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#logon_history ObjectUserFssopolling#logon_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#logon_history ObjectUserFssopolling#logon_history}
   */
   readonly logonHistory?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#password ObjectUserFssopolling#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#password ObjectUserFssopolling#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#polling_frequency ObjectUserFssopolling#polling_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#polling_frequency ObjectUserFssopolling#polling_frequency}
   */
   readonly pollingFrequency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#port ObjectUserFssopolling#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#port ObjectUserFssopolling#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#scopetype ObjectUserFssopolling#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#scopetype ObjectUserFssopolling#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#server ObjectUserFssopolling#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#server ObjectUserFssopolling#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#smb_ntlmv1_auth ObjectUserFssopolling#smb_ntlmv1_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#smb_ntlmv1_auth ObjectUserFssopolling#smb_ntlmv1_auth}
   */
   readonly smbNtlmv1Auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#smbv1 ObjectUserFssopolling#smbv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#smbv1 ObjectUserFssopolling#smbv1}
   */
   readonly smbv1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#status ObjectUserFssopolling#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#status ObjectUserFssopolling#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#user ObjectUserFssopolling#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#user ObjectUserFssopolling#user}
   */
   readonly user?: string;
   /**
   * adgrp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#adgrp ObjectUserFssopolling#adgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#adgrp ObjectUserFssopolling#adgrp}
   */
   readonly adgrp?: ObjectUserFssopollingAdgrp[] | cdktf.IResolvable;
 }
 export interface ObjectUserFssopollingAdgrp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#name ObjectUserFssopolling#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#name ObjectUserFssopolling#name}
   */
   readonly name?: string;
 }
@@ -203,7 +203,7 @@ export class ObjectUserFssopollingAdgrpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling fortimanager_object_user_fssopolling}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling fortimanager_object_user_fssopolling}
 */
 export class ObjectUserFssopolling extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class ObjectUserFssopolling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserFssopolling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserFssopolling to import
-  * @param importFromId The id of the existing ObjectUserFssopolling that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserFssopolling that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserFssopolling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class ObjectUserFssopolling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fssopolling fortimanager_object_user_fssopolling} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fssopolling fortimanager_object_user_fssopolling} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class ObjectUserFssopolling extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_fssopolling',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

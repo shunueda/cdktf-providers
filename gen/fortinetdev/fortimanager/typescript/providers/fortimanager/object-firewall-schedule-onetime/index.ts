@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallScheduleOnetimeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#adom ObjectFirewallScheduleOnetime#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#adom ObjectFirewallScheduleOnetime#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#color ObjectFirewallScheduleOnetime#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#color ObjectFirewallScheduleOnetime#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#end ObjectFirewallScheduleOnetime#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#end ObjectFirewallScheduleOnetime#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#end_utc ObjectFirewallScheduleOnetime#end_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#end_utc ObjectFirewallScheduleOnetime#end_utc}
   */
   readonly endUtc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#expiration_days ObjectFirewallScheduleOnetime#expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#expiration_days ObjectFirewallScheduleOnetime#expiration_days}
   */
   readonly expirationDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#fabric_object ObjectFirewallScheduleOnetime#fabric_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#fabric_object ObjectFirewallScheduleOnetime#fabric_object}
   */
   readonly fabricObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#global_object ObjectFirewallScheduleOnetime#global_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#global_object ObjectFirewallScheduleOnetime#global_object}
   */
   readonly globalObject?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#id ObjectFirewallScheduleOnetime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#id ObjectFirewallScheduleOnetime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#name ObjectFirewallScheduleOnetime#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#name ObjectFirewallScheduleOnetime#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#scopetype ObjectFirewallScheduleOnetime#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#scopetype ObjectFirewallScheduleOnetime#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#start ObjectFirewallScheduleOnetime#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#start ObjectFirewallScheduleOnetime#start}
   */
   readonly start?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#start_utc ObjectFirewallScheduleOnetime#start_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#start_utc ObjectFirewallScheduleOnetime#start_utc}
   */
   readonly startUtc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#uuid ObjectFirewallScheduleOnetime#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#uuid ObjectFirewallScheduleOnetime#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime fortimanager_object_firewall_schedule_onetime}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime fortimanager_object_firewall_schedule_onetime}
 */
 export class ObjectFirewallScheduleOnetime extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectFirewallScheduleOnetime extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallScheduleOnetime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallScheduleOnetime to import
-  * @param importFromId The id of the existing ObjectFirewallScheduleOnetime that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallScheduleOnetime that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallScheduleOnetime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectFirewallScheduleOnetime extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_schedule_onetime fortimanager_object_firewall_schedule_onetime} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_schedule_onetime fortimanager_object_firewall_schedule_onetime} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectFirewallScheduleOnetime extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_schedule_onetime',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

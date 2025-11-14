@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerMpskprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#adom ObjectWirelesscontrollerMpskprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#adom ObjectWirelesscontrollerMpskprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#dynamic_sort_subtable ObjectWirelesscontrollerMpskprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#dynamic_sort_subtable ObjectWirelesscontrollerMpskprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#id ObjectWirelesscontrollerMpskprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#id ObjectWirelesscontrollerMpskprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_concurrent_clients ObjectWirelesscontrollerMpskprofile#mpsk_concurrent_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_concurrent_clients ObjectWirelesscontrollerMpskprofile#mpsk_concurrent_clients}
   */
   readonly mpskConcurrentClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#scopetype ObjectWirelesscontrollerMpskprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#scopetype ObjectWirelesscontrollerMpskprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#ssid ObjectWirelesscontrollerMpskprofile#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#ssid ObjectWirelesscontrollerMpskprofile#ssid}
   */
   readonly ssid?: string;
   /**
   * mpsk_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_group ObjectWirelesscontrollerMpskprofile#mpsk_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_group ObjectWirelesscontrollerMpskprofile#mpsk_group}
   */
   readonly mpskGroup?: ObjectWirelesscontrollerMpskprofileMpskGroup[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerMpskprofileMpskGroupMpskKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#comment ObjectWirelesscontrollerMpskprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#comment ObjectWirelesscontrollerMpskprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#concurrent_client_limit_type ObjectWirelesscontrollerMpskprofile#concurrent_client_limit_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#concurrent_client_limit_type ObjectWirelesscontrollerMpskprofile#concurrent_client_limit_type}
   */
   readonly concurrentClientLimitType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#concurrent_clients ObjectWirelesscontrollerMpskprofile#concurrent_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#concurrent_clients ObjectWirelesscontrollerMpskprofile#concurrent_clients}
   */
   readonly concurrentClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#mac ObjectWirelesscontrollerMpskprofile#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#mac ObjectWirelesscontrollerMpskprofile#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_schedules ObjectWirelesscontrollerMpskprofile#mpsk_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_schedules ObjectWirelesscontrollerMpskprofile#mpsk_schedules}
   */
   readonly mpskSchedules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#passphrase ObjectWirelesscontrollerMpskprofile#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#passphrase ObjectWirelesscontrollerMpskprofile#passphrase}
   */
   readonly passphrase?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#pmk ObjectWirelesscontrollerMpskprofile#pmk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#pmk ObjectWirelesscontrollerMpskprofile#pmk}
   */
   readonly pmk?: string[];
 }
@@ -394,21 +394,21 @@ export class ObjectWirelesscontrollerMpskprofileMpskGroupMpskKeyList extends cdk
 }
 export interface ObjectWirelesscontrollerMpskprofileMpskGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#name ObjectWirelesscontrollerMpskprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#vlan_id ObjectWirelesscontrollerMpskprofile#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#vlan_id ObjectWirelesscontrollerMpskprofile#vlan_id}
   */
   readonly vlanId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#vlan_type ObjectWirelesscontrollerMpskprofile#vlan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#vlan_type ObjectWirelesscontrollerMpskprofile#vlan_type}
   */
   readonly vlanType?: string;
   /**
   * mpsk_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_key ObjectWirelesscontrollerMpskprofile#mpsk_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#mpsk_key ObjectWirelesscontrollerMpskprofile#mpsk_key}
   */
   readonly mpskKey?: ObjectWirelesscontrollerMpskprofileMpskGroupMpskKey[] | cdktf.IResolvable;
 }
@@ -611,7 +611,7 @@ export class ObjectWirelesscontrollerMpskprofileMpskGroupList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile fortimanager_object_wirelesscontroller_mpskprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile fortimanager_object_wirelesscontroller_mpskprofile}
 */
 export class ObjectWirelesscontrollerMpskprofile extends cdktf.TerraformResource {
 
@@ -627,7 +627,7 @@ export class ObjectWirelesscontrollerMpskprofile extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectWirelesscontrollerMpskprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerMpskprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerMpskprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerMpskprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerMpskprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -639,7 +639,7 @@ export class ObjectWirelesscontrollerMpskprofile extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_mpskprofile fortimanager_object_wirelesscontroller_mpskprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_mpskprofile fortimanager_object_wirelesscontroller_mpskprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -650,8 +650,8 @@ export class ObjectWirelesscontrollerMpskprofile extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_wirelesscontroller_mpskprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

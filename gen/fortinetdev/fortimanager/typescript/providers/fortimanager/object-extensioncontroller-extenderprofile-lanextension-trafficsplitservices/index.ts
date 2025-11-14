@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#address ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#address ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#address}
   */
   readonly address?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#adom ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#adom ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#id ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#id ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#name ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#name ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#service ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#service ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#service}
   */
   readonly service?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#vsdb ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#vsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#vsdb ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices#vsdb}
   */
   readonly vsdb?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices fortimanager_object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices fortimanager_object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices}
 */
 export class ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitser
   * Generates CDKTF code for importing a ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices to import
-  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitservices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitser
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices fortimanager_object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices fortimanager_object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionTrafficsplitser
       terraformResourceType: 'fortimanager_object_extensioncontroller_extenderprofile_lanextension_trafficsplitservices',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

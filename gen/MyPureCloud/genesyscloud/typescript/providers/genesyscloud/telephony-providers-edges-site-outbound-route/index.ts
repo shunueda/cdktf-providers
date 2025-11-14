@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TelephonyProvidersEdgesSiteOutboundRouteConfig extends cdktf.Te
   /**
   * Used to classify this outbound route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#classification_types TelephonyProvidersEdgesSiteOutboundRoute#classification_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#classification_types TelephonyProvidersEdgesSiteOutboundRoute#classification_types}
   */
   readonly classificationTypes: string[];
   /**
   * The resource's description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#description TelephonyProvidersEdgesSiteOutboundRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#description TelephonyProvidersEdgesSiteOutboundRoute#description}
   */
   readonly description?: string;
   /**
   * Valid values: SEQUENTIAL, RANDOM. Defaults to `SEQUENTIAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#distribution TelephonyProvidersEdgesSiteOutboundRoute#distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#distribution TelephonyProvidersEdgesSiteOutboundRoute#distribution}
   */
   readonly distribution?: string;
   /**
   * Enable or disable the outbound route Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#enabled TelephonyProvidersEdgesSiteOutboundRoute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#enabled TelephonyProvidersEdgesSiteOutboundRoute#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Trunk base settings of trunkType "EXTERNAL". This base must also be set on an edge logical interface for correct routing. The order of the IDs determines the distribution if "distribution" is set to "SEQUENTIAL"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#external_trunk_base_ids TelephonyProvidersEdgesSiteOutboundRoute#external_trunk_base_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#external_trunk_base_ids TelephonyProvidersEdgesSiteOutboundRoute#external_trunk_base_ids}
   */
   readonly externalTrunkBaseIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#id TelephonyProvidersEdgesSiteOutboundRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#id TelephonyProvidersEdgesSiteOutboundRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,19 +47,19 @@ export interface TelephonyProvidersEdgesSiteOutboundRouteConfig extends cdktf.Te
   /**
   * The name of the entity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#name TelephonyProvidersEdgesSiteOutboundRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#name TelephonyProvidersEdgesSiteOutboundRoute#name}
   */
   readonly name: string;
   /**
   * The Id of the site to which the outbound routes belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#site_id TelephonyProvidersEdgesSiteOutboundRoute#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#site_id TelephonyProvidersEdgesSiteOutboundRoute#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route}
 */
 export class TelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class TelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformRes
   * Generates CDKTF code for importing a TelephonyProvidersEdgesSiteOutboundRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TelephonyProvidersEdgesSiteOutboundRoute to import
-  * @param importFromId The id of the existing TelephonyProvidersEdgesSiteOutboundRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TelephonyProvidersEdgesSiteOutboundRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TelephonyProvidersEdgesSiteOutboundRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class TelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/telephony_providers_edges_site_outbound_route genesyscloud_telephony_providers_edges_site_outbound_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class TelephonyProvidersEdgesSiteOutboundRoute extends cdktf.TerraformRes
       terraformResourceType: 'genesyscloud_telephony_providers_edges_site_outbound_route',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

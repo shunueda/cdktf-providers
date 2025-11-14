@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,96 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWafProfileConstraintExceptionAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#address ObjectWafProfileConstraintExceptionA#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#address ObjectWafProfileConstraintExceptionA#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#adom ObjectWafProfileConstraintExceptionA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#adom ObjectWafProfileConstraintExceptionA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#content_length ObjectWafProfileConstraintExceptionA#content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#content_length ObjectWafProfileConstraintExceptionA#content_length}
   */
   readonly contentLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#fosid ObjectWafProfileConstraintExceptionA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#fosid ObjectWafProfileConstraintExceptionA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#header_length ObjectWafProfileConstraintExceptionA#header_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#header_length ObjectWafProfileConstraintExceptionA#header_length}
   */
   readonly headerLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#hostname ObjectWafProfileConstraintExceptionA#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#hostname ObjectWafProfileConstraintExceptionA#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#id ObjectWafProfileConstraintExceptionA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#id ObjectWafProfileConstraintExceptionA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#line_length ObjectWafProfileConstraintExceptionA#line_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#line_length ObjectWafProfileConstraintExceptionA#line_length}
   */
   readonly lineLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#malformed ObjectWafProfileConstraintExceptionA#malformed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#malformed ObjectWafProfileConstraintExceptionA#malformed}
   */
   readonly malformed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#max_cookie ObjectWafProfileConstraintExceptionA#max_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#max_cookie ObjectWafProfileConstraintExceptionA#max_cookie}
   */
   readonly maxCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#max_header_line ObjectWafProfileConstraintExceptionA#max_header_line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#max_header_line ObjectWafProfileConstraintExceptionA#max_header_line}
   */
   readonly maxHeaderLine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#max_range_segment ObjectWafProfileConstraintExceptionA#max_range_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#max_range_segment ObjectWafProfileConstraintExceptionA#max_range_segment}
   */
   readonly maxRangeSegment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#max_url_param ObjectWafProfileConstraintExceptionA#max_url_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#max_url_param ObjectWafProfileConstraintExceptionA#max_url_param}
   */
   readonly maxUrlParam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#method ObjectWafProfileConstraintExceptionA#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#method ObjectWafProfileConstraintExceptionA#method}
   */
   readonly method?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#param_length ObjectWafProfileConstraintExceptionA#param_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#param_length ObjectWafProfileConstraintExceptionA#param_length}
   */
   readonly paramLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#pattern ObjectWafProfileConstraintExceptionA#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#pattern ObjectWafProfileConstraintExceptionA#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#profile ObjectWafProfileConstraintExceptionA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#profile ObjectWafProfileConstraintExceptionA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#regex ObjectWafProfileConstraintExceptionA#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#regex ObjectWafProfileConstraintExceptionA#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#scopetype ObjectWafProfileConstraintExceptionA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#scopetype ObjectWafProfileConstraintExceptionA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#url_param_length ObjectWafProfileConstraintExceptionA#url_param_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#url_param_length ObjectWafProfileConstraintExceptionA#url_param_length}
   */
   readonly urlParamLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#version ObjectWafProfileConstraintExceptionA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#version ObjectWafProfileConstraintExceptionA#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception fortimanager_object_waf_profile_constraint_exception}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception fortimanager_object_waf_profile_constraint_exception}
 */
 export class ObjectWafProfileConstraintExceptionA extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class ObjectWafProfileConstraintExceptionA extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectWafProfileConstraintExceptionA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWafProfileConstraintExceptionA to import
-  * @param importFromId The id of the existing ObjectWafProfileConstraintExceptionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWafProfileConstraintExceptionA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWafProfileConstraintExceptionA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class ObjectWafProfileConstraintExceptionA extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_exception fortimanager_object_waf_profile_constraint_exception} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_exception fortimanager_object_waf_profile_constraint_exception} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class ObjectWafProfileConstraintExceptionA extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_waf_profile_constraint_exception',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

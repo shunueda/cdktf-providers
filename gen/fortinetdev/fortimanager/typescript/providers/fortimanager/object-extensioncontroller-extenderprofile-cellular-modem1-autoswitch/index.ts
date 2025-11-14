@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtensioncontrollerExtenderprofileCellularModem1AutoswitchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#adom ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#adom ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#dataplan ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#dataplan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#dataplan ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#dataplan}
   */
   readonly dataplan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect}
   */
   readonly disconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect_period ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect_period ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect_period}
   */
   readonly disconnectPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect_threshold ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#disconnect_threshold ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#disconnect_threshold}
   */
   readonly disconnectThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#extender_profile ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#extender_profile ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#id ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#id ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#scopetype ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#scopetype ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#signal ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#signal ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#signal}
   */
   readonly signal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back}
   */
   readonly switchBack?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back_time ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back_time ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back_time}
   */
   readonly switchBackTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back_timer ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#switch_back_timer ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch#switch_back_timer}
   */
   readonly switchBackTimer?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch fortimanager_object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch fortimanager_object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch}
 */
 export class ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch ex
   * Generates CDKTF code for importing a ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch to import
-  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch fortimanager_object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch fortimanager_object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectExtensioncontrollerExtenderprofileCellularModem1Autoswitch ex
       terraformResourceType: 'fortimanager_object_extensioncontroller_extenderprofile_cellular_modem1_autoswitch',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

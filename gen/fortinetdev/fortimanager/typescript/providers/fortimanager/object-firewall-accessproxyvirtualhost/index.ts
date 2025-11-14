@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxyvirtualhostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#adom ObjectFirewallAccessproxyvirtualhost#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#adom ObjectFirewallAccessproxyvirtualhost#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#client_cert ObjectFirewallAccessproxyvirtualhost#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#client_cert ObjectFirewallAccessproxyvirtualhost#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#empty_cert_action ObjectFirewallAccessproxyvirtualhost#empty_cert_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#empty_cert_action ObjectFirewallAccessproxyvirtualhost#empty_cert_action}
   */
   readonly emptyCertAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#host ObjectFirewallAccessproxyvirtualhost#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#host ObjectFirewallAccessproxyvirtualhost#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#host_type ObjectFirewallAccessproxyvirtualhost#host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#host_type ObjectFirewallAccessproxyvirtualhost#host_type}
   */
   readonly hostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#id ObjectFirewallAccessproxyvirtualhost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#id ObjectFirewallAccessproxyvirtualhost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#name ObjectFirewallAccessproxyvirtualhost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#name ObjectFirewallAccessproxyvirtualhost#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#replacemsg_group ObjectFirewallAccessproxyvirtualhost#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#replacemsg_group ObjectFirewallAccessproxyvirtualhost#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#scopetype ObjectFirewallAccessproxyvirtualhost#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#scopetype ObjectFirewallAccessproxyvirtualhost#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#ssl_certificate ObjectFirewallAccessproxyvirtualhost#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#ssl_certificate ObjectFirewallAccessproxyvirtualhost#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#user_agent_detect ObjectFirewallAccessproxyvirtualhost#user_agent_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#user_agent_detect ObjectFirewallAccessproxyvirtualhost#user_agent_detect}
   */
   readonly userAgentDetect?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost fortimanager_object_firewall_accessproxyvirtualhost}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost fortimanager_object_firewall_accessproxyvirtualhost}
 */
 export class ObjectFirewallAccessproxyvirtualhost extends cdktf.TerraformResource {
 
@@ -73,7 +73,7 @@ export class ObjectFirewallAccessproxyvirtualhost extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectFirewallAccessproxyvirtualhost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxyvirtualhost to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxyvirtualhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxyvirtualhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxyvirtualhost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +85,7 @@ export class ObjectFirewallAccessproxyvirtualhost extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxyvirtualhost fortimanager_object_firewall_accessproxyvirtualhost} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxyvirtualhost fortimanager_object_firewall_accessproxyvirtualhost} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +96,8 @@ export class ObjectFirewallAccessproxyvirtualhost extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_firewall_accessproxyvirtualhost',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

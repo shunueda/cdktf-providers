@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogRatelimitDeviceAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#device SystemLogRatelimitDeviceA#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#device SystemLogRatelimitDeviceA#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#filter_type SystemLogRatelimitDeviceA#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#filter_type SystemLogRatelimitDeviceA#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#fosid SystemLogRatelimitDeviceA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#fosid SystemLogRatelimitDeviceA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#id SystemLogRatelimitDeviceA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#id SystemLogRatelimitDeviceA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#ratelimit SystemLogRatelimitDeviceA#ratelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#ratelimit SystemLogRatelimitDeviceA#ratelimit}
   */
   readonly ratelimit?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device fortimanager_system_log_ratelimit_device}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device fortimanager_system_log_ratelimit_device}
 */
 export class SystemLogRatelimitDeviceA extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SystemLogRatelimitDeviceA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogRatelimitDeviceA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogRatelimitDeviceA to import
-  * @param importFromId The id of the existing SystemLogRatelimitDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogRatelimitDeviceA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogRatelimitDeviceA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SystemLogRatelimitDeviceA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_ratelimit_device fortimanager_system_log_ratelimit_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_ratelimit_device fortimanager_system_log_ratelimit_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SystemLogRatelimitDeviceA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_log_ratelimit_device',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

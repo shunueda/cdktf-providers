@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerArrpprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#adom ObjectWirelesscontrollerArrpprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#adom ObjectWirelesscontrollerArrpprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#comment ObjectWirelesscontrollerArrpprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#comment ObjectWirelesscontrollerArrpprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#darrp_optimize ObjectWirelesscontrollerArrpprofile#darrp_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#darrp_optimize ObjectWirelesscontrollerArrpprofile#darrp_optimize}
   */
   readonly darrpOptimize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#darrp_optimize_schedules ObjectWirelesscontrollerArrpprofile#darrp_optimize_schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#darrp_optimize_schedules ObjectWirelesscontrollerArrpprofile#darrp_optimize_schedules}
   */
   readonly darrpOptimizeSchedules?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#id ObjectWirelesscontrollerArrpprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#id ObjectWirelesscontrollerArrpprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#include_dfs_channel ObjectWirelesscontrollerArrpprofile#include_dfs_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#include_dfs_channel ObjectWirelesscontrollerArrpprofile#include_dfs_channel}
   */
   readonly includeDfsChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#include_weather_channel ObjectWirelesscontrollerArrpprofile#include_weather_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#include_weather_channel ObjectWirelesscontrollerArrpprofile#include_weather_channel}
   */
   readonly includeWeatherChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#monitor_period ObjectWirelesscontrollerArrpprofile#monitor_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#monitor_period ObjectWirelesscontrollerArrpprofile#monitor_period}
   */
   readonly monitorPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#name ObjectWirelesscontrollerArrpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#name ObjectWirelesscontrollerArrpprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#override_darrp_optimize ObjectWirelesscontrollerArrpprofile#override_darrp_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#override_darrp_optimize ObjectWirelesscontrollerArrpprofile#override_darrp_optimize}
   */
   readonly overrideDarrpOptimize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#scopetype ObjectWirelesscontrollerArrpprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#scopetype ObjectWirelesscontrollerArrpprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#selection_period ObjectWirelesscontrollerArrpprofile#selection_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#selection_period ObjectWirelesscontrollerArrpprofile#selection_period}
   */
   readonly selectionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_ap ObjectWirelesscontrollerArrpprofile#threshold_ap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_ap ObjectWirelesscontrollerArrpprofile#threshold_ap}
   */
   readonly thresholdAp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_channel_load ObjectWirelesscontrollerArrpprofile#threshold_channel_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_channel_load ObjectWirelesscontrollerArrpprofile#threshold_channel_load}
   */
   readonly thresholdChannelLoad?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_noise_floor ObjectWirelesscontrollerArrpprofile#threshold_noise_floor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_noise_floor ObjectWirelesscontrollerArrpprofile#threshold_noise_floor}
   */
   readonly thresholdNoiseFloor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_rx_errors ObjectWirelesscontrollerArrpprofile#threshold_rx_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_rx_errors ObjectWirelesscontrollerArrpprofile#threshold_rx_errors}
   */
   readonly thresholdRxErrors?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_spectral_rssi ObjectWirelesscontrollerArrpprofile#threshold_spectral_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_spectral_rssi ObjectWirelesscontrollerArrpprofile#threshold_spectral_rssi}
   */
   readonly thresholdSpectralRssi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_tx_retries ObjectWirelesscontrollerArrpprofile#threshold_tx_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#threshold_tx_retries ObjectWirelesscontrollerArrpprofile#threshold_tx_retries}
   */
   readonly thresholdTxRetries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_channel_load ObjectWirelesscontrollerArrpprofile#weight_channel_load}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_channel_load ObjectWirelesscontrollerArrpprofile#weight_channel_load}
   */
   readonly weightChannelLoad?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_dfs_channel ObjectWirelesscontrollerArrpprofile#weight_dfs_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_dfs_channel ObjectWirelesscontrollerArrpprofile#weight_dfs_channel}
   */
   readonly weightDfsChannel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_managed_ap ObjectWirelesscontrollerArrpprofile#weight_managed_ap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_managed_ap ObjectWirelesscontrollerArrpprofile#weight_managed_ap}
   */
   readonly weightManagedAp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_noise_floor ObjectWirelesscontrollerArrpprofile#weight_noise_floor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_noise_floor ObjectWirelesscontrollerArrpprofile#weight_noise_floor}
   */
   readonly weightNoiseFloor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_rogue_ap ObjectWirelesscontrollerArrpprofile#weight_rogue_ap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_rogue_ap ObjectWirelesscontrollerArrpprofile#weight_rogue_ap}
   */
   readonly weightRogueAp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_spectral_rssi ObjectWirelesscontrollerArrpprofile#weight_spectral_rssi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_spectral_rssi ObjectWirelesscontrollerArrpprofile#weight_spectral_rssi}
   */
   readonly weightSpectralRssi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_weather_channel ObjectWirelesscontrollerArrpprofile#weight_weather_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#weight_weather_channel ObjectWirelesscontrollerArrpprofile#weight_weather_channel}
   */
   readonly weightWeatherChannel?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile fortimanager_object_wirelesscontroller_arrpprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile fortimanager_object_wirelesscontroller_arrpprofile}
 */
 export class ObjectWirelesscontrollerArrpprofile extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class ObjectWirelesscontrollerArrpprofile extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectWirelesscontrollerArrpprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerArrpprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerArrpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerArrpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerArrpprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class ObjectWirelesscontrollerArrpprofile extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_arrpprofile fortimanager_object_wirelesscontroller_arrpprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_arrpprofile fortimanager_object_wirelesscontroller_arrpprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class ObjectWirelesscontrollerArrpprofile extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_wirelesscontroller_arrpprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,238 +8,238 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallSslsshprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#adom ObjectFirewallSslsshprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#adom ObjectFirewallSslsshprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allowlist ObjectFirewallSslsshprofile#allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allowlist ObjectFirewallSslsshprofile#allowlist}
   */
   readonly allowlist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#block_blacklisted_certificates ObjectFirewallSslsshprofile#block_blacklisted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#block_blacklisted_certificates ObjectFirewallSslsshprofile#block_blacklisted_certificates}
   */
   readonly blockBlacklistedCertificates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#block_blocklisted_certificates ObjectFirewallSslsshprofile#block_blocklisted_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#block_blocklisted_certificates ObjectFirewallSslsshprofile#block_blocklisted_certificates}
   */
   readonly blockBlocklistedCertificates?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#caname ObjectFirewallSslsshprofile#caname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#caname ObjectFirewallSslsshprofile#caname}
   */
   readonly caname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#comment ObjectFirewallSslsshprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#comment ObjectFirewallSslsshprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#dynamic_sort_subtable ObjectFirewallSslsshprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#dynamic_sort_subtable ObjectFirewallSslsshprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#mapi_over_https ObjectFirewallSslsshprofile#mapi_over_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#mapi_over_https ObjectFirewallSslsshprofile#mapi_over_https}
   */
   readonly mapiOverHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#name ObjectFirewallSslsshprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#name ObjectFirewallSslsshprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#rpc_over_https ObjectFirewallSslsshprofile#rpc_over_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#rpc_over_https ObjectFirewallSslsshprofile#rpc_over_https}
   */
   readonly rpcOverHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#scopetype ObjectFirewallSslsshprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#scopetype ObjectFirewallSslsshprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#server_cert ObjectFirewallSslsshprofile#server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#server_cert ObjectFirewallSslsshprofile#server_cert}
   */
   readonly serverCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#server_cert_mode ObjectFirewallSslsshprofile#server_cert_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#server_cert_mode ObjectFirewallSslsshprofile#server_cert_mode}
   */
   readonly serverCertMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_anomalies_log ObjectFirewallSslsshprofile#ssl_anomalies_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_anomalies_log ObjectFirewallSslsshprofile#ssl_anomalies_log}
   */
   readonly sslAnomaliesLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_anomaly_log ObjectFirewallSslsshprofile#ssl_anomaly_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_anomaly_log ObjectFirewallSslsshprofile#ssl_anomaly_log}
   */
   readonly sslAnomalyLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_exemption_ip_rating ObjectFirewallSslsshprofile#ssl_exemption_ip_rating}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_exemption_ip_rating ObjectFirewallSslsshprofile#ssl_exemption_ip_rating}
   */
   readonly sslExemptionIpRating?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_exemption_log ObjectFirewallSslsshprofile#ssl_exemption_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_exemption_log ObjectFirewallSslsshprofile#ssl_exemption_log}
   */
   readonly sslExemptionLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_exemptions_log ObjectFirewallSslsshprofile#ssl_exemptions_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_exemptions_log ObjectFirewallSslsshprofile#ssl_exemptions_log}
   */
   readonly sslExemptionsLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_handshake_log ObjectFirewallSslsshprofile#ssl_handshake_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_handshake_log ObjectFirewallSslsshprofile#ssl_handshake_log}
   */
   readonly sslHandshakeLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_negotiation_log ObjectFirewallSslsshprofile#ssl_negotiation_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_negotiation_log ObjectFirewallSslsshprofile#ssl_negotiation_log}
   */
   readonly sslNegotiationLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_server_cert_log ObjectFirewallSslsshprofile#ssl_server_cert_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_server_cert_log ObjectFirewallSslsshprofile#ssl_server_cert_log}
   */
   readonly sslServerCertLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#supported_alpn ObjectFirewallSslsshprofile#supported_alpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#supported_alpn ObjectFirewallSslsshprofile#supported_alpn}
   */
   readonly supportedAlpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_caname ObjectFirewallSslsshprofile#untrusted_caname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_caname ObjectFirewallSslsshprofile#untrusted_caname}
   */
   readonly untrustedCaname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#use_ssl_server ObjectFirewallSslsshprofile#use_ssl_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#use_ssl_server ObjectFirewallSslsshprofile#use_ssl_server}
   */
   readonly useSslServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#whitelist ObjectFirewallSslsshprofile#whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#whitelist ObjectFirewallSslsshprofile#whitelist}
   */
   readonly whitelist?: string;
   /**
   * dot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#dot ObjectFirewallSslsshprofile#dot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#dot ObjectFirewallSslsshprofile#dot}
   */
   readonly dot?: ObjectFirewallSslsshprofileDot;
   /**
   * ech_outer_sni block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ech_outer_sni ObjectFirewallSslsshprofile#ech_outer_sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ech_outer_sni ObjectFirewallSslsshprofile#ech_outer_sni}
   */
   readonly echOuterSni?: ObjectFirewallSslsshprofileEchOuterSni[] | cdktf.IResolvable;
   /**
   * ftps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ftps ObjectFirewallSslsshprofile#ftps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ftps ObjectFirewallSslsshprofile#ftps}
   */
   readonly ftps?: ObjectFirewallSslsshprofileFtps;
   /**
   * https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#https ObjectFirewallSslsshprofile#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#https ObjectFirewallSslsshprofile#https}
   */
   readonly https?: ObjectFirewallSslsshprofileHttps;
   /**
   * imaps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#imaps ObjectFirewallSslsshprofile#imaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#imaps ObjectFirewallSslsshprofile#imaps}
   */
   readonly imaps?: ObjectFirewallSslsshprofileImaps;
   /**
   * pop3s block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#pop3s ObjectFirewallSslsshprofile#pop3s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#pop3s ObjectFirewallSslsshprofile#pop3s}
   */
   readonly pop3S?: ObjectFirewallSslsshprofilePop3S;
   /**
   * smtps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#smtps ObjectFirewallSslsshprofile#smtps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#smtps ObjectFirewallSslsshprofile#smtps}
   */
   readonly smtps?: ObjectFirewallSslsshprofileSmtps;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssh ObjectFirewallSslsshprofile#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssh ObjectFirewallSslsshprofile#ssh}
   */
   readonly ssh?: ObjectFirewallSslsshprofileSsh;
   /**
   * ssl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl ObjectFirewallSslsshprofile#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl ObjectFirewallSslsshprofile#ssl}
   */
   readonly ssl?: ObjectFirewallSslsshprofileSsl;
   /**
   * ssl_exempt block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_exempt ObjectFirewallSslsshprofile#ssl_exempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_exempt ObjectFirewallSslsshprofile#ssl_exempt}
   */
   readonly sslExempt?: ObjectFirewallSslsshprofileSslExempt[] | cdktf.IResolvable;
   /**
   * ssl_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_server ObjectFirewallSslsshprofile#ssl_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_server ObjectFirewallSslsshprofile#ssl_server}
   */
   readonly sslServer?: ObjectFirewallSslsshprofileSslServer[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallSslsshprofileDot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#quic ObjectFirewallSslsshprofile#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#quic ObjectFirewallSslsshprofile#quic}
   */
   readonly quic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#udp_not_quic ObjectFirewallSslsshprofile#udp_not_quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#udp_not_quic ObjectFirewallSslsshprofile#udp_not_quic}
   */
   readonly udpNotQuic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -729,11 +729,11 @@ export class ObjectFirewallSslsshprofileDotOutputReference extends cdktf.Complex
 }
 export interface ObjectFirewallSslsshprofileEchOuterSni {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#name ObjectFirewallSslsshprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#name ObjectFirewallSslsshprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni ObjectFirewallSslsshprofile#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni ObjectFirewallSslsshprofile#sni}
   */
   readonly sni?: string;
 }
@@ -878,75 +878,75 @@ export class ObjectFirewallSslsshprofileEchOuterSniList extends cdktf.ComplexLis
 }
 export interface ObjectFirewallSslsshprofileFtps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -1523,95 +1523,95 @@ export class ObjectFirewallSslsshprofileFtpsOutputReference extends cdktf.Comple
 }
 export interface ObjectFirewallSslsshprofileHttps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_probe_failure ObjectFirewallSslsshprofile#cert_probe_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_probe_failure ObjectFirewallSslsshprofile#cert_probe_failure}
   */
   readonly certProbeFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#encrypted_client_hello ObjectFirewallSslsshprofile#encrypted_client_hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#encrypted_client_hello ObjectFirewallSslsshprofile#encrypted_client_hello}
   */
   readonly encryptedClientHello?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#quic ObjectFirewallSslsshprofile#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#quic ObjectFirewallSslsshprofile#quic}
   */
   readonly quic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#udp_not_quic ObjectFirewallSslsshprofile#udp_not_quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#udp_not_quic ObjectFirewallSslsshprofile#udp_not_quic}
   */
   readonly udpNotQuic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -2333,79 +2333,79 @@ export class ObjectFirewallSslsshprofileHttpsOutputReference extends cdktf.Compl
 }
 export interface ObjectFirewallSslsshprofileImaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -3011,79 +3011,79 @@ export class ObjectFirewallSslsshprofileImapsOutputReference extends cdktf.Compl
 }
 export interface ObjectFirewallSslsshprofilePop3S {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -3689,79 +3689,79 @@ export class ObjectFirewallSslsshprofilePop3SOutputReference extends cdktf.Compl
 }
 export interface ObjectFirewallSslsshprofileSmtps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -4367,35 +4367,35 @@ export class ObjectFirewallSslsshprofileSmtpsOutputReference extends cdktf.Compl
 }
 export interface ObjectFirewallSslsshprofileSsh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#inspect_all ObjectFirewallSslsshprofile#inspect_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#inspect_all ObjectFirewallSslsshprofile#inspect_all}
   */
   readonly inspectAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ports ObjectFirewallSslsshprofile#ports}
   */
   readonly ports?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#proxy_after_tcp_handshake ObjectFirewallSslsshprofile#proxy_after_tcp_handshake}
   */
   readonly proxyAfterTcpHandshake?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssh_algorithm ObjectFirewallSslsshprofile#ssh_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssh_algorithm ObjectFirewallSslsshprofile#ssh_algorithm}
   */
   readonly sshAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssh_policy_check ObjectFirewallSslsshprofile#ssh_policy_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssh_policy_check ObjectFirewallSslsshprofile#ssh_policy_check}
   */
   readonly sshPolicyCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssh_tun_policy_check ObjectFirewallSslsshprofile#ssh_tun_policy_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssh_tun_policy_check ObjectFirewallSslsshprofile#ssh_tun_policy_check}
   */
   readonly sshTunPolicyCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#status ObjectFirewallSslsshprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_version ObjectFirewallSslsshprofile#unsupported_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_version ObjectFirewallSslsshprofile#unsupported_version}
   */
   readonly unsupportedVersion?: string;
 }
@@ -4682,79 +4682,79 @@ export class ObjectFirewallSslsshprofileSshOutputReference extends cdktf.Complex
 }
 export interface ObjectFirewallSslsshprofileSsl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#allow_invalid_server_cert ObjectFirewallSslsshprofile#allow_invalid_server_cert}
   */
   readonly allowInvalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_probe_failure ObjectFirewallSslsshprofile#cert_probe_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_probe_failure ObjectFirewallSslsshprofile#cert_probe_failure}
   */
   readonly certProbeFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_failure ObjectFirewallSslsshprofile#cert_validation_failure}
   */
   readonly certValidationFailure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#cert_validation_timeout ObjectFirewallSslsshprofile#cert_validation_timeout}
   */
   readonly certValidationTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_cert_request ObjectFirewallSslsshprofile#client_cert_request}
   */
   readonly clientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#client_certificate ObjectFirewallSslsshprofile#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#encrypted_client_hello ObjectFirewallSslsshprofile#encrypted_client_hello}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#encrypted_client_hello ObjectFirewallSslsshprofile#encrypted_client_hello}
   */
   readonly encryptedClientHello?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#expired_server_cert ObjectFirewallSslsshprofile#expired_server_cert}
   */
   readonly expiredServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#inspect_all ObjectFirewallSslsshprofile#inspect_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#inspect_all ObjectFirewallSslsshprofile#inspect_all}
   */
   readonly inspectAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#invalid_server_cert ObjectFirewallSslsshprofile#invalid_server_cert}
   */
   readonly invalidServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#min_allowed_ssl_version ObjectFirewallSslsshprofile#min_allowed_ssl_version}
   */
   readonly minAllowedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#revoked_server_cert ObjectFirewallSslsshprofile#revoked_server_cert}
   */
   readonly revokedServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#sni_server_cert_check ObjectFirewallSslsshprofile#sni_server_cert_check}
   */
   readonly sniServerCertCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl ObjectFirewallSslsshprofile#unsupported_ssl}
   */
   readonly unsupportedSsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_cipher ObjectFirewallSslsshprofile#unsupported_ssl_cipher}
   */
   readonly unsupportedSslCipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_negotiation ObjectFirewallSslsshprofile#unsupported_ssl_negotiation}
   */
   readonly unsupportedSslNegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#unsupported_ssl_version ObjectFirewallSslsshprofile#unsupported_ssl_version}
   */
   readonly unsupportedSslVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_cert ObjectFirewallSslsshprofile#untrusted_cert}
   */
   readonly untrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#untrusted_server_cert ObjectFirewallSslsshprofile#untrusted_server_cert}
   */
   readonly untrustedServerCert?: string;
 }
@@ -5360,34 +5360,34 @@ export class ObjectFirewallSslsshprofileSslOutputReference extends cdktf.Complex
 }
 export interface ObjectFirewallSslsshprofileSslExempt {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#address ObjectFirewallSslsshprofile#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#address ObjectFirewallSslsshprofile#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#address6 ObjectFirewallSslsshprofile#address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#address6 ObjectFirewallSslsshprofile#address6}
   */
   readonly address6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#fortiguard_category ObjectFirewallSslsshprofile#fortiguard_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#fortiguard_category ObjectFirewallSslsshprofile#fortiguard_category}
   */
   readonly fortiguardCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#regex ObjectFirewallSslsshprofile#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#regex ObjectFirewallSslsshprofile#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#type ObjectFirewallSslsshprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#type ObjectFirewallSslsshprofile#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#wildcard_fqdn ObjectFirewallSslsshprofile#wildcard_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#wildcard_fqdn ObjectFirewallSslsshprofile#wildcard_fqdn}
   */
   readonly wildcardFqdn?: string[];
 }
@@ -5677,62 +5677,62 @@ export class ObjectFirewallSslsshprofileSslExemptList extends cdktf.ComplexList 
 }
 export interface ObjectFirewallSslsshprofileSslServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ftps_client_cert_request ObjectFirewallSslsshprofile#ftps_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ftps_client_cert_request ObjectFirewallSslsshprofile#ftps_client_cert_request}
   */
   readonly ftpsClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ftps_client_certificate ObjectFirewallSslsshprofile#ftps_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ftps_client_certificate ObjectFirewallSslsshprofile#ftps_client_certificate}
   */
   readonly ftpsClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#https_client_cert_request ObjectFirewallSslsshprofile#https_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#https_client_cert_request ObjectFirewallSslsshprofile#https_client_cert_request}
   */
   readonly httpsClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#https_client_certificate ObjectFirewallSslsshprofile#https_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#https_client_certificate ObjectFirewallSslsshprofile#https_client_certificate}
   */
   readonly httpsClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#id ObjectFirewallSslsshprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#imaps_client_cert_request ObjectFirewallSslsshprofile#imaps_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#imaps_client_cert_request ObjectFirewallSslsshprofile#imaps_client_cert_request}
   */
   readonly imapsClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#imaps_client_certificate ObjectFirewallSslsshprofile#imaps_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#imaps_client_certificate ObjectFirewallSslsshprofile#imaps_client_certificate}
   */
   readonly imapsClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ip ObjectFirewallSslsshprofile#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ip ObjectFirewallSslsshprofile#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#pop3s_client_cert_request ObjectFirewallSslsshprofile#pop3s_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#pop3s_client_cert_request ObjectFirewallSslsshprofile#pop3s_client_cert_request}
   */
   readonly pop3SClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#pop3s_client_certificate ObjectFirewallSslsshprofile#pop3s_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#pop3s_client_certificate ObjectFirewallSslsshprofile#pop3s_client_certificate}
   */
   readonly pop3SClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#smtps_client_cert_request ObjectFirewallSslsshprofile#smtps_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#smtps_client_cert_request ObjectFirewallSslsshprofile#smtps_client_cert_request}
   */
   readonly smtpsClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#smtps_client_certificate ObjectFirewallSslsshprofile#smtps_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#smtps_client_certificate ObjectFirewallSslsshprofile#smtps_client_certificate}
   */
   readonly smtpsClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_other_client_cert_request ObjectFirewallSslsshprofile#ssl_other_client_cert_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_other_client_cert_request ObjectFirewallSslsshprofile#ssl_other_client_cert_request}
   */
   readonly sslOtherClientCertRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#ssl_other_client_certificate ObjectFirewallSslsshprofile#ssl_other_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#ssl_other_client_certificate ObjectFirewallSslsshprofile#ssl_other_client_certificate}
   */
   readonly sslOtherClientCertificate?: string;
 }
@@ -6225,7 +6225,7 @@ export class ObjectFirewallSslsshprofileSslServerList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile fortimanager_object_firewall_sslsshprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile fortimanager_object_firewall_sslsshprofile}
 */
 export class ObjectFirewallSslsshprofile extends cdktf.TerraformResource {
 
@@ -6241,7 +6241,7 @@ export class ObjectFirewallSslsshprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallSslsshprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallSslsshprofile to import
-  * @param importFromId The id of the existing ObjectFirewallSslsshprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallSslsshprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallSslsshprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6253,7 +6253,7 @@ export class ObjectFirewallSslsshprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile fortimanager_object_firewall_sslsshprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile fortimanager_object_firewall_sslsshprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6264,8 +6264,8 @@ export class ObjectFirewallSslsshprofile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_sslsshprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

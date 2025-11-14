@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerQosQueuepolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#adom ObjectSwitchcontrollerQosQueuepolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#adom ObjectSwitchcontrollerQosQueuepolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#dynamic_sort_subtable ObjectSwitchcontrollerQosQueuepolicy#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#dynamic_sort_subtable ObjectSwitchcontrollerQosQueuepolicy#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#id ObjectSwitchcontrollerQosQueuepolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#id ObjectSwitchcontrollerQosQueuepolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#name ObjectSwitchcontrollerQosQueuepolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#name ObjectSwitchcontrollerQosQueuepolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#rate_by ObjectSwitchcontrollerQosQueuepolicy#rate_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#rate_by ObjectSwitchcontrollerQosQueuepolicy#rate_by}
   */
   readonly rateBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#schedule ObjectSwitchcontrollerQosQueuepolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#schedule ObjectSwitchcontrollerQosQueuepolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#scopetype ObjectSwitchcontrollerQosQueuepolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#scopetype ObjectSwitchcontrollerQosQueuepolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
   * cos_queue block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#cos_queue ObjectSwitchcontrollerQosQueuepolicy#cos_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#cos_queue ObjectSwitchcontrollerQosQueuepolicy#cos_queue}
   */
   readonly cosQueue?: ObjectSwitchcontrollerQosQueuepolicyCosQueue[] | cdktf.IResolvable;
 }
 export interface ObjectSwitchcontrollerQosQueuepolicyCosQueue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#description ObjectSwitchcontrollerQosQueuepolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#description ObjectSwitchcontrollerQosQueuepolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#drop_policy ObjectSwitchcontrollerQosQueuepolicy#drop_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#drop_policy ObjectSwitchcontrollerQosQueuepolicy#drop_policy}
   */
   readonly dropPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#ecn ObjectSwitchcontrollerQosQueuepolicy#ecn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#ecn ObjectSwitchcontrollerQosQueuepolicy#ecn}
   */
   readonly ecn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#max_rate ObjectSwitchcontrollerQosQueuepolicy#max_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#max_rate ObjectSwitchcontrollerQosQueuepolicy#max_rate}
   */
   readonly maxRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#max_rate_percent ObjectSwitchcontrollerQosQueuepolicy#max_rate_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#max_rate_percent ObjectSwitchcontrollerQosQueuepolicy#max_rate_percent}
   */
   readonly maxRatePercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#min_rate ObjectSwitchcontrollerQosQueuepolicy#min_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#min_rate ObjectSwitchcontrollerQosQueuepolicy#min_rate}
   */
   readonly minRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#min_rate_percent ObjectSwitchcontrollerQosQueuepolicy#min_rate_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#min_rate_percent ObjectSwitchcontrollerQosQueuepolicy#min_rate_percent}
   */
   readonly minRatePercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#name ObjectSwitchcontrollerQosQueuepolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#name ObjectSwitchcontrollerQosQueuepolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#weight ObjectSwitchcontrollerQosQueuepolicy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#weight ObjectSwitchcontrollerQosQueuepolicy#weight}
   */
   readonly weight?: number;
 }
@@ -427,7 +427,7 @@ export class ObjectSwitchcontrollerQosQueuepolicyCosQueueList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy fortimanager_object_switchcontroller_qos_queuepolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy fortimanager_object_switchcontroller_qos_queuepolicy}
 */
 export class ObjectSwitchcontrollerQosQueuepolicy extends cdktf.TerraformResource {
 
@@ -443,7 +443,7 @@ export class ObjectSwitchcontrollerQosQueuepolicy extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectSwitchcontrollerQosQueuepolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerQosQueuepolicy to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerQosQueuepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerQosQueuepolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerQosQueuepolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -455,7 +455,7 @@ export class ObjectSwitchcontrollerQosQueuepolicy extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_queuepolicy fortimanager_object_switchcontroller_qos_queuepolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_queuepolicy fortimanager_object_switchcontroller_qos_queuepolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -466,8 +466,8 @@ export class ObjectSwitchcontrollerQosQueuepolicy extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_queuepolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

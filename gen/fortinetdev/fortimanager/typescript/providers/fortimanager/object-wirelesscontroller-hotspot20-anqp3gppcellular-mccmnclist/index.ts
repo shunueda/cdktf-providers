@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#adom ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#adom ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#anqp_3gpp_cellular ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#anqp_3gpp_cellular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#anqp_3gpp_cellular ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#anqp_3gpp_cellular}
   */
   readonly anqp3GppCellular: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#fosid ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#fosid ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#id ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#id ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#mcc ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#mcc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#mcc ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#mcc}
   */
   readonly mcc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#mnc ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#mnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#mnc ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#mnc}
   */
   readonly mnc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#scopetype ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#scopetype ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist}
 */
 export class ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist extends
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectWirelesscontrollerHotspot20Anqp3GppcellularMccmnclist extends
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_anqp3gppcellular_mccmnclist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

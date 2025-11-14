@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,77 +8,77 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWafProfileUrlaccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#action ObjectWafProfileUrlaccess#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#action ObjectWafProfileUrlaccess#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#address ObjectWafProfileUrlaccess#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#address ObjectWafProfileUrlaccess#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#adom ObjectWafProfileUrlaccess#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#adom ObjectWafProfileUrlaccess#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#dynamic_sort_subtable ObjectWafProfileUrlaccess#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#dynamic_sort_subtable ObjectWafProfileUrlaccess#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#fosid ObjectWafProfileUrlaccess#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#fosid ObjectWafProfileUrlaccess#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#id ObjectWafProfileUrlaccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#id ObjectWafProfileUrlaccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#log ObjectWafProfileUrlaccess#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#log ObjectWafProfileUrlaccess#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#profile ObjectWafProfileUrlaccess#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#profile ObjectWafProfileUrlaccess#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#scopetype ObjectWafProfileUrlaccess#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#scopetype ObjectWafProfileUrlaccess#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#severity ObjectWafProfileUrlaccess#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#severity ObjectWafProfileUrlaccess#severity}
   */
   readonly severity?: string;
   /**
   * access_pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#access_pattern ObjectWafProfileUrlaccess#access_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#access_pattern ObjectWafProfileUrlaccess#access_pattern}
   */
   readonly accessPattern?: ObjectWafProfileUrlaccessAccessPattern[] | cdktf.IResolvable;
 }
 export interface ObjectWafProfileUrlaccessAccessPattern {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#id ObjectWafProfileUrlaccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#id ObjectWafProfileUrlaccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#negate ObjectWafProfileUrlaccess#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#negate ObjectWafProfileUrlaccess#negate}
   */
   readonly negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#pattern ObjectWafProfileUrlaccess#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#pattern ObjectWafProfileUrlaccess#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#regex ObjectWafProfileUrlaccess#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#regex ObjectWafProfileUrlaccess#regex}
   */
   readonly regex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#srcaddr ObjectWafProfileUrlaccess#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#srcaddr ObjectWafProfileUrlaccess#srcaddr}
   */
   readonly srcaddr?: string;
 }
@@ -310,7 +310,7 @@ export class ObjectWafProfileUrlaccessAccessPatternList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess fortimanager_object_waf_profile_urlaccess}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess fortimanager_object_waf_profile_urlaccess}
 */
 export class ObjectWafProfileUrlaccess extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class ObjectWafProfileUrlaccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWafProfileUrlaccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWafProfileUrlaccess to import
-  * @param importFromId The id of the existing ObjectWafProfileUrlaccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWafProfileUrlaccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWafProfileUrlaccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class ObjectWafProfileUrlaccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_urlaccess fortimanager_object_waf_profile_urlaccess} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_urlaccess fortimanager_object_waf_profile_urlaccess} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class ObjectWafProfileUrlaccess extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_waf_profile_urlaccess',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TaskManagementWorktypeFlowOnattributechangeRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#id TaskManagementWorktypeFlowOnattributechangeRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#id TaskManagementWorktypeFlowOnattributechangeRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TaskManagementWorktypeFlowOnattributechangeRuleConfig extends c
   /**
   * The name of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#name TaskManagementWorktypeFlowOnattributechangeRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#name TaskManagementWorktypeFlowOnattributechangeRule#name}
   */
   readonly name: string;
   /**
   * The Worktype ID of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#worktype_id TaskManagementWorktypeFlowOnattributechangeRule#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#worktype_id TaskManagementWorktypeFlowOnattributechangeRule#worktype_id}
   */
   readonly worktypeId: string;
   /**
   * condition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#condition TaskManagementWorktypeFlowOnattributechangeRule#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#condition TaskManagementWorktypeFlowOnattributechangeRule#condition}
   */
   readonly condition: TaskManagementWorktypeFlowOnattributechangeRuleCondition;
 }
@@ -37,19 +37,19 @@ export interface TaskManagementWorktypeFlowOnattributechangeRuleCondition {
   /**
   * The name of the workitem attribute whose change will be evaluated as part of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#attribute TaskManagementWorktypeFlowOnattributechangeRule#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#attribute TaskManagementWorktypeFlowOnattributechangeRule#attribute}
   */
   readonly attribute: string;
   /**
   * The new value of the attribute. If the attribute is updated to this value this part of the condition will be met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#new_value TaskManagementWorktypeFlowOnattributechangeRule#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#new_value TaskManagementWorktypeFlowOnattributechangeRule#new_value}
   */
   readonly newValue: string;
   /**
   * The old value of the attribute. If the attribute was updated from this value this part of the condition will be met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#old_value TaskManagementWorktypeFlowOnattributechangeRule#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#old_value TaskManagementWorktypeFlowOnattributechangeRule#old_value}
   */
   readonly oldValue?: string;
 }
@@ -185,7 +185,7 @@ export class TaskManagementWorktypeFlowOnattributechangeRuleConditionOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule genesyscloud_task_management_worktype_flow_onattributechange_rule}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule genesyscloud_task_management_worktype_flow_onattributechange_rule}
 */
 export class TaskManagementWorktypeFlowOnattributechangeRule extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class TaskManagementWorktypeFlowOnattributechangeRule extends cdktf.Terra
   * Generates CDKTF code for importing a TaskManagementWorktypeFlowOnattributechangeRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskManagementWorktypeFlowOnattributechangeRule to import
-  * @param importFromId The id of the existing TaskManagementWorktypeFlowOnattributechangeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskManagementWorktypeFlowOnattributechangeRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskManagementWorktypeFlowOnattributechangeRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class TaskManagementWorktypeFlowOnattributechangeRule extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_onattributechange_rule genesyscloud_task_management_worktype_flow_onattributechange_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_onattributechange_rule genesyscloud_task_management_worktype_flow_onattributechange_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class TaskManagementWorktypeFlowOnattributechangeRule extends cdktf.Terra
       terraformResourceType: 'genesyscloud_task_management_worktype_flow_onattributechange_rule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

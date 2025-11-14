@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#adom ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#adom ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#h2qp_advice_of_charge ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#h2qp_advice_of_charge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#h2qp_advice_of_charge ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#h2qp_advice_of_charge}
   */
   readonly h2QpAdviceOfCharge: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#id ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#id ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#nai_realm ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#nai_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#nai_realm ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#nai_realm}
   */
   readonly naiRealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#nai_realm_encoding ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#nai_realm_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#nai_realm_encoding ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#nai_realm_encoding}
   */
   readonly naiRealmEncoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#name ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#name ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#scopetype ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#scopetype ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#type ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#type ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#type}
   */
   readonly type?: string;
   /**
   * plan_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#plan_info ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#plan_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#plan_info ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#plan_info}
   */
   readonly planInfo?: ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclistPlanInfo[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclistPlanInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#currency ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#currency ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#currency}
   */
   readonly currency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#info_file ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#info_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#info_file ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#info_file}
   */
   readonly infoFile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#lang ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#lang ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#name ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#name ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist#name}
   */
   readonly name?: string;
 }
@@ -270,7 +270,7 @@ export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclistPlanInfoL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist}
 */
 export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist extends 
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class ObjectWirelesscontrollerHotspot20H2QpadviceofchargeAoclist extends 
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_h2qpadviceofcharge_aoclist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

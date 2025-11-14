@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCertificateTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#adom ObjectCertificateTemplate#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#adom ObjectCertificateTemplate#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#city ObjectCertificateTemplate#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#city ObjectCertificateTemplate#city}
   */
   readonly city?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#country ObjectCertificateTemplate#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#country ObjectCertificateTemplate#country}
   */
   readonly country?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#curve_name ObjectCertificateTemplate#curve_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#curve_name ObjectCertificateTemplate#curve_name}
   */
   readonly curveName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#digest_type ObjectCertificateTemplate#digest_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#digest_type ObjectCertificateTemplate#digest_type}
   */
   readonly digestType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#email ObjectCertificateTemplate#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#email ObjectCertificateTemplate#email}
   */
   readonly email?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#id ObjectCertificateTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#id ObjectCertificateTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#id_type ObjectCertificateTemplate#id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#id_type ObjectCertificateTemplate#id_type}
   */
   readonly idType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#key_size ObjectCertificateTemplate#key_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#key_size ObjectCertificateTemplate#key_size}
   */
   readonly keySize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#key_type ObjectCertificateTemplate#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#key_type ObjectCertificateTemplate#key_type}
   */
   readonly keyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#name ObjectCertificateTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#name ObjectCertificateTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#organization ObjectCertificateTemplate#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#organization ObjectCertificateTemplate#organization}
   */
   readonly organization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#organization_unit ObjectCertificateTemplate#organization_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#organization_unit ObjectCertificateTemplate#organization_unit}
   */
   readonly organizationUnit?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#scep_ca_identifier ObjectCertificateTemplate#scep_ca_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#scep_ca_identifier ObjectCertificateTemplate#scep_ca_identifier}
   */
   readonly scepCaIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#scep_password ObjectCertificateTemplate#scep_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#scep_password ObjectCertificateTemplate#scep_password}
   */
   readonly scepPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#scep_server ObjectCertificateTemplate#scep_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#scep_server ObjectCertificateTemplate#scep_server}
   */
   readonly scepServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#scopetype ObjectCertificateTemplate#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#scopetype ObjectCertificateTemplate#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#state ObjectCertificateTemplate#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#state ObjectCertificateTemplate#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#subject_name ObjectCertificateTemplate#subject_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#subject_alt_name ObjectCertificateTemplate#subject_alt_name}
+  */
+  readonly subjectAltName?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#subject_name ObjectCertificateTemplate#subject_name}
   */
   readonly subjectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#type ObjectCertificateTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#type ObjectCertificateTemplate#type}
   */
   readonly type?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template fortimanager_object_certificate_template}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template fortimanager_object_certificate_template}
 */
 export class ObjectCertificateTemplate extends cdktf.TerraformResource {
 
@@ -109,7 +113,7 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCertificateTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCertificateTemplate to import
-  * @param importFromId The id of the existing ObjectCertificateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCertificateTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCertificateTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +125,7 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_certificate_template fortimanager_object_certificate_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_certificate_template fortimanager_object_certificate_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +136,8 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_certificate_template',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -161,6 +165,7 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
     this._scepServer = config.scepServer;
     this._scopetype = config.scopetype;
     this._state = config.state;
+    this._subjectAltName = config.subjectAltName;
     this._subjectName = config.subjectName;
     this._type = config.type;
   }
@@ -457,6 +462,22 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
     return this._state;
   }
 
+  // subject_alt_name - computed: false, optional: true, required: false
+  private _subjectAltName?: string; 
+  public get subjectAltName() {
+    return this.getStringAttribute('subject_alt_name');
+  }
+  public set subjectAltName(value: string) {
+    this._subjectAltName = value;
+  }
+  public resetSubjectAltName() {
+    this._subjectAltName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subjectAltNameInput() {
+    return this._subjectAltName;
+  }
+
   // subject_name - computed: false, optional: true, required: false
   private _subjectName?: string; 
   public get subjectName() {
@@ -513,6 +534,7 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
       scep_server: cdktf.stringToTerraform(this._scepServer),
       scopetype: cdktf.stringToTerraform(this._scopetype),
       state: cdktf.stringToTerraform(this._state),
+      subject_alt_name: cdktf.stringToTerraform(this._subjectAltName),
       subject_name: cdktf.stringToTerraform(this._subjectName),
       type: cdktf.stringToTerraform(this._type),
     };
@@ -624,6 +646,12 @@ export class ObjectCertificateTemplate extends cdktf.TerraformResource {
       },
       state: {
         value: cdktf.stringToHclTerraform(this._state),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      subject_alt_name: {
+        value: cdktf.stringToHclTerraform(this._subjectAltName),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallLocalinpolicy6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#action PackagesFirewallLocalinpolicy6#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#action PackagesFirewallLocalinpolicy6#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#adom PackagesFirewallLocalinpolicy6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#adom PackagesFirewallLocalinpolicy6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#comments PackagesFirewallLocalinpolicy6#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#comments PackagesFirewallLocalinpolicy6#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#dstaddr PackagesFirewallLocalinpolicy6#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#dstaddr PackagesFirewallLocalinpolicy6#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#dstaddr_negate PackagesFirewallLocalinpolicy6#dstaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#dstaddr_negate PackagesFirewallLocalinpolicy6#dstaddr_negate}
   */
   readonly dstaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#id PackagesFirewallLocalinpolicy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#id PackagesFirewallLocalinpolicy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src PackagesFirewallLocalinpolicy6#internet_service6_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src PackagesFirewallLocalinpolicy6#internet_service6_src}
   */
   readonly internetService6Src?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_custom PackagesFirewallLocalinpolicy6#internet_service6_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_custom PackagesFirewallLocalinpolicy6#internet_service6_src_custom}
   */
   readonly internetService6SrcCustom?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_custom_group PackagesFirewallLocalinpolicy6#internet_service6_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_custom_group PackagesFirewallLocalinpolicy6#internet_service6_src_custom_group}
   */
   readonly internetService6SrcCustomGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_group PackagesFirewallLocalinpolicy6#internet_service6_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_fortiguard PackagesFirewallLocalinpolicy6#internet_service6_src_fortiguard}
+  */
+  readonly internetService6SrcFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_group PackagesFirewallLocalinpolicy6#internet_service6_src_group}
   */
   readonly internetService6SrcGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_name PackagesFirewallLocalinpolicy6#internet_service6_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_name PackagesFirewallLocalinpolicy6#internet_service6_src_name}
   */
   readonly internetService6SrcName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_negate PackagesFirewallLocalinpolicy6#internet_service6_src_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#internet_service6_src_negate PackagesFirewallLocalinpolicy6#internet_service6_src_negate}
   */
   readonly internetService6SrcNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#intf PackagesFirewallLocalinpolicy6#intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#intf PackagesFirewallLocalinpolicy6#intf}
   */
   readonly intf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#logtraffic PackagesFirewallLocalinpolicy6#logtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#logtraffic PackagesFirewallLocalinpolicy6#logtraffic}
   */
   readonly logtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#pkg PackagesFirewallLocalinpolicy6#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#pkg PackagesFirewallLocalinpolicy6#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#pkg_folder_path PackagesFirewallLocalinpolicy6#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#pkg_folder_path PackagesFirewallLocalinpolicy6#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#policyid PackagesFirewallLocalinpolicy6#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#policyid PackagesFirewallLocalinpolicy6#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#schedule PackagesFirewallLocalinpolicy6#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#schedule PackagesFirewallLocalinpolicy6#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#scopetype PackagesFirewallLocalinpolicy6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#scopetype PackagesFirewallLocalinpolicy6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#service PackagesFirewallLocalinpolicy6#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#service PackagesFirewallLocalinpolicy6#service}
   */
   readonly service?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#service_negate PackagesFirewallLocalinpolicy6#service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#service_negate PackagesFirewallLocalinpolicy6#service_negate}
   */
   readonly serviceNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#srcaddr PackagesFirewallLocalinpolicy6#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#srcaddr PackagesFirewallLocalinpolicy6#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#srcaddr_negate PackagesFirewallLocalinpolicy6#srcaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#srcaddr_negate PackagesFirewallLocalinpolicy6#srcaddr_negate}
   */
   readonly srcaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#status PackagesFirewallLocalinpolicy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#status PackagesFirewallLocalinpolicy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#uuid PackagesFirewallLocalinpolicy6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#uuid PackagesFirewallLocalinpolicy6#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#virtual_patch PackagesFirewallLocalinpolicy6#virtual_patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#virtual_patch PackagesFirewallLocalinpolicy6#virtual_patch}
   */
   readonly virtualPatch?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6 fortimanager_packages_firewall_localinpolicy6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6 fortimanager_packages_firewall_localinpolicy6}
 */
 export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
 
@@ -133,7 +137,7 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallLocalinpolicy6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallLocalinpolicy6 to import
-  * @param importFromId The id of the existing PackagesFirewallLocalinpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallLocalinpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallLocalinpolicy6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +149,7 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_localinpolicy6 fortimanager_packages_firewall_localinpolicy6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_localinpolicy6 fortimanager_packages_firewall_localinpolicy6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +160,8 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_localinpolicy6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -176,6 +180,7 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
     this._internetService6Src = config.internetService6Src;
     this._internetService6SrcCustom = config.internetService6SrcCustom;
     this._internetService6SrcCustomGroup = config.internetService6SrcCustomGroup;
+    this._internetService6SrcFortiguard = config.internetService6SrcFortiguard;
     this._internetService6SrcGroup = config.internetService6SrcGroup;
     this._internetService6SrcName = config.internetService6SrcName;
     this._internetService6SrcNegate = config.internetService6SrcNegate;
@@ -341,6 +346,22 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get internetService6SrcCustomGroupInput() {
     return this._internetService6SrcCustomGroup;
+  }
+
+  // internet_service6_src_fortiguard - computed: true, optional: true, required: false
+  private _internetService6SrcFortiguard?: string[]; 
+  public get internetService6SrcFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service6_src_fortiguard'));
+  }
+  public set internetService6SrcFortiguard(value: string[]) {
+    this._internetService6SrcFortiguard = value;
+  }
+  public resetInternetService6SrcFortiguard() {
+    this._internetService6SrcFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetService6SrcFortiguardInput() {
+    return this._internetService6SrcFortiguard;
   }
 
   // internet_service6_src_group - computed: true, optional: true, required: false
@@ -627,6 +648,7 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
       internet_service6_src: cdktf.stringToTerraform(this._internetService6Src),
       internet_service6_src_custom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcCustom),
       internet_service6_src_custom_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcCustomGroup),
+      internet_service6_src_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcFortiguard),
       internet_service6_src_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcGroup),
       internet_service6_src_name: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcName),
       internet_service6_src_negate: cdktf.stringToTerraform(this._internetService6SrcNegate),
@@ -699,6 +721,12 @@ export class PackagesFirewallLocalinpolicy6 extends cdktf.TerraformResource {
       },
       internet_service6_src_custom_group: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6SrcCustomGroup),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      internet_service6_src_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6SrcFortiguard),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",

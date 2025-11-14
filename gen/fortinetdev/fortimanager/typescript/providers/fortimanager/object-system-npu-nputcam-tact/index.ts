@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,172 +8,172 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuNputcamTactAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#act ObjectSystemNpuNputcamTactA#act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#act ObjectSystemNpuNputcamTactA#act}
   */
   readonly act?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#act_v ObjectSystemNpuNputcamTactA#act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#act_v ObjectSystemNpuNputcamTactA#act_v}
   */
   readonly actV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#adom ObjectSystemNpuNputcamTactA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#adom ObjectSystemNpuNputcamTactA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#fmtuv4_s ObjectSystemNpuNputcamTactA#fmtuv4_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#fmtuv4_s ObjectSystemNpuNputcamTactA#fmtuv4_s}
   */
   readonly fmtuv4S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#fmtuv4_s_v ObjectSystemNpuNputcamTactA#fmtuv4_s_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#fmtuv4_s_v ObjectSystemNpuNputcamTactA#fmtuv4_s_v}
   */
   readonly fmtuv4SV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#fmtuv6_s ObjectSystemNpuNputcamTactA#fmtuv6_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#fmtuv6_s ObjectSystemNpuNputcamTactA#fmtuv6_s}
   */
   readonly fmtuv6S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#fmtuv6_s_v ObjectSystemNpuNputcamTactA#fmtuv6_s_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#fmtuv6_s_v ObjectSystemNpuNputcamTactA#fmtuv6_s_v}
   */
   readonly fmtuv6SV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#id ObjectSystemNpuNputcamTactA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#id ObjectSystemNpuNputcamTactA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#lnkid ObjectSystemNpuNputcamTactA#lnkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#lnkid ObjectSystemNpuNputcamTactA#lnkid}
   */
   readonly lnkid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#lnkid_v ObjectSystemNpuNputcamTactA#lnkid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#lnkid_v ObjectSystemNpuNputcamTactA#lnkid_v}
   */
   readonly lnkidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mac_id ObjectSystemNpuNputcamTactA#mac_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mac_id ObjectSystemNpuNputcamTactA#mac_id}
   */
   readonly macId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mac_id_v ObjectSystemNpuNputcamTactA#mac_id_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mac_id_v ObjectSystemNpuNputcamTactA#mac_id_v}
   */
   readonly macIdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mss_t ObjectSystemNpuNputcamTactA#mss_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mss_t ObjectSystemNpuNputcamTactA#mss_t}
   */
   readonly mssT?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mss_t_v ObjectSystemNpuNputcamTactA#mss_t_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mss_t_v ObjectSystemNpuNputcamTactA#mss_t_v}
   */
   readonly mssTV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mtuv4 ObjectSystemNpuNputcamTactA#mtuv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mtuv4 ObjectSystemNpuNputcamTactA#mtuv4}
   */
   readonly mtuv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mtuv4_v ObjectSystemNpuNputcamTactA#mtuv4_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mtuv4_v ObjectSystemNpuNputcamTactA#mtuv4_v}
   */
   readonly mtuv4V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mtuv6 ObjectSystemNpuNputcamTactA#mtuv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mtuv6 ObjectSystemNpuNputcamTactA#mtuv6}
   */
   readonly mtuv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#mtuv6_v ObjectSystemNpuNputcamTactA#mtuv6_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#mtuv6_v ObjectSystemNpuNputcamTactA#mtuv6_v}
   */
   readonly mtuv6V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#npu_tcam ObjectSystemNpuNputcamTactA#npu_tcam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#npu_tcam ObjectSystemNpuNputcamTactA#npu_tcam}
   */
   readonly npuTcam: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#scopetype ObjectSystemNpuNputcamTactA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#scopetype ObjectSystemNpuNputcamTactA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#slif_act ObjectSystemNpuNputcamTactA#slif_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#slif_act ObjectSystemNpuNputcamTactA#slif_act}
   */
   readonly slifAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#slif_act_v ObjectSystemNpuNputcamTactA#slif_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#slif_act_v ObjectSystemNpuNputcamTactA#slif_act_v}
   */
   readonly slifActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#sublnkid ObjectSystemNpuNputcamTactA#sublnkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#sublnkid ObjectSystemNpuNputcamTactA#sublnkid}
   */
   readonly sublnkid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#sublnkid_v ObjectSystemNpuNputcamTactA#sublnkid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#sublnkid_v ObjectSystemNpuNputcamTactA#sublnkid_v}
   */
   readonly sublnkidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tgtv_act ObjectSystemNpuNputcamTactA#tgtv_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tgtv_act ObjectSystemNpuNputcamTactA#tgtv_act}
   */
   readonly tgtvAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tgtv_act_v ObjectSystemNpuNputcamTactA#tgtv_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tgtv_act_v ObjectSystemNpuNputcamTactA#tgtv_act_v}
   */
   readonly tgtvActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tlif_act ObjectSystemNpuNputcamTactA#tlif_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tlif_act ObjectSystemNpuNputcamTactA#tlif_act}
   */
   readonly tlifAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tlif_act_v ObjectSystemNpuNputcamTactA#tlif_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tlif_act_v ObjectSystemNpuNputcamTactA#tlif_act_v}
   */
   readonly tlifActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tpeid ObjectSystemNpuNputcamTactA#tpeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tpeid ObjectSystemNpuNputcamTactA#tpeid}
   */
   readonly tpeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#tpeid_v ObjectSystemNpuNputcamTactA#tpeid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#tpeid_v ObjectSystemNpuNputcamTactA#tpeid_v}
   */
   readonly tpeidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#v6fe ObjectSystemNpuNputcamTactA#v6fe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#v6fe ObjectSystemNpuNputcamTactA#v6fe}
   */
   readonly v6Fe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#v6fe_v ObjectSystemNpuNputcamTactA#v6fe_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#v6fe_v ObjectSystemNpuNputcamTactA#v6fe_v}
   */
   readonly v6FeV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#vep_en ObjectSystemNpuNputcamTactA#vep_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#vep_en ObjectSystemNpuNputcamTactA#vep_en}
   */
   readonly vepEn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#vep_en_v ObjectSystemNpuNputcamTactA#vep_en_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#vep_en_v ObjectSystemNpuNputcamTactA#vep_en_v}
   */
   readonly vepEnV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#vep_slid ObjectSystemNpuNputcamTactA#vep_slid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#vep_slid ObjectSystemNpuNputcamTactA#vep_slid}
   */
   readonly vepSlid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#vep_slid_v ObjectSystemNpuNputcamTactA#vep_slid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#vep_slid_v ObjectSystemNpuNputcamTactA#vep_slid_v}
   */
   readonly vepSlidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#xlt_lif ObjectSystemNpuNputcamTactA#xlt_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#xlt_lif ObjectSystemNpuNputcamTactA#xlt_lif}
   */
   readonly xltLif?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#xlt_lif_v ObjectSystemNpuNputcamTactA#xlt_lif_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#xlt_lif_v ObjectSystemNpuNputcamTactA#xlt_lif_v}
   */
   readonly xltLifV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#xlt_vid ObjectSystemNpuNputcamTactA#xlt_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#xlt_vid ObjectSystemNpuNputcamTactA#xlt_vid}
   */
   readonly xltVid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#xlt_vid_v ObjectSystemNpuNputcamTactA#xlt_vid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#xlt_vid_v ObjectSystemNpuNputcamTactA#xlt_vid_v}
   */
   readonly xltVidV?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact fortimanager_object_system_npu_nputcam_tact}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact fortimanager_object_system_npu_nputcam_tact}
 */
 export class ObjectSystemNpuNputcamTactA extends cdktf.TerraformResource {
 
@@ -189,7 +189,7 @@ export class ObjectSystemNpuNputcamTactA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuNputcamTactA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuNputcamTactA to import
-  * @param importFromId The id of the existing ObjectSystemNpuNputcamTactA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuNputcamTactA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuNputcamTactA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -201,7 +201,7 @@ export class ObjectSystemNpuNputcamTactA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_tact fortimanager_object_system_npu_nputcam_tact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_tact fortimanager_object_system_npu_nputcam_tact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -212,8 +212,8 @@ export class ObjectSystemNpuNputcamTactA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_nputcam_tact',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

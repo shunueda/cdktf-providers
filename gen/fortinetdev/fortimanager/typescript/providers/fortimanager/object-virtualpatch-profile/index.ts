@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,69 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVirtualpatchProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#action ObjectVirtualpatchProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#action ObjectVirtualpatchProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#adom ObjectVirtualpatchProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#adom ObjectVirtualpatchProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#comment ObjectVirtualpatchProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#comment ObjectVirtualpatchProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#dynamic_sort_subtable ObjectVirtualpatchProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#dynamic_sort_subtable ObjectVirtualpatchProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#id ObjectVirtualpatchProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#id ObjectVirtualpatchProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#log ObjectVirtualpatchProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#log ObjectVirtualpatchProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#name ObjectVirtualpatchProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#name ObjectVirtualpatchProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#scopetype ObjectVirtualpatchProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#scopetype ObjectVirtualpatchProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#severity ObjectVirtualpatchProfile#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#severity ObjectVirtualpatchProfile#severity}
   */
   readonly severity?: string[];
   /**
   * exemption block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#exemption ObjectVirtualpatchProfile#exemption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#exemption ObjectVirtualpatchProfile#exemption}
   */
   readonly exemption?: ObjectVirtualpatchProfileExemption[] | cdktf.IResolvable;
 }
 export interface ObjectVirtualpatchProfileExemption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#device ObjectVirtualpatchProfile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#device ObjectVirtualpatchProfile#device}
   */
   readonly device?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#id ObjectVirtualpatchProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#id ObjectVirtualpatchProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#rule ObjectVirtualpatchProfile#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#rule ObjectVirtualpatchProfile#rule}
   */
   readonly rule?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#status ObjectVirtualpatchProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#status ObjectVirtualpatchProfile#status}
   */
   readonly status?: string;
 }
@@ -273,7 +273,7 @@ export class ObjectVirtualpatchProfileExemptionList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile fortimanager_object_virtualpatch_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile fortimanager_object_virtualpatch_profile}
 */
 export class ObjectVirtualpatchProfile extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ObjectVirtualpatchProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVirtualpatchProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVirtualpatchProfile to import
-  * @param importFromId The id of the existing ObjectVirtualpatchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVirtualpatchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVirtualpatchProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ObjectVirtualpatchProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_virtualpatch_profile fortimanager_object_virtualpatch_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_virtualpatch_profile fortimanager_object_virtualpatch_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ObjectVirtualpatchProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_virtualpatch_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

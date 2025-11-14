@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtendercontrollerSimProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#adom ObjectExtendercontrollerSimProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#adom ObjectExtendercontrollerSimProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#conn_status ObjectExtendercontrollerSimProfile#conn_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#conn_status ObjectExtendercontrollerSimProfile#conn_status}
   */
   readonly connStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#default_sim ObjectExtendercontrollerSimProfile#default_sim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#default_sim ObjectExtendercontrollerSimProfile#default_sim}
   */
   readonly defaultSim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#description ObjectExtendercontrollerSimProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#description ObjectExtendercontrollerSimProfile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#gps ObjectExtendercontrollerSimProfile#gps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#gps ObjectExtendercontrollerSimProfile#gps}
   */
   readonly gps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#id ObjectExtendercontrollerSimProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#id ObjectExtendercontrollerSimProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#modem_id ObjectExtendercontrollerSimProfile#modem_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#modem_id ObjectExtendercontrollerSimProfile#modem_id}
   */
   readonly modemId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#name ObjectExtendercontrollerSimProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#name ObjectExtendercontrollerSimProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#preferred_carrier ObjectExtendercontrollerSimProfile#preferred_carrier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#preferred_carrier ObjectExtendercontrollerSimProfile#preferred_carrier}
   */
   readonly preferredCarrier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#redundant_intf ObjectExtendercontrollerSimProfile#redundant_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#redundant_intf ObjectExtendercontrollerSimProfile#redundant_intf}
   */
   readonly redundantIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#redundant_mode ObjectExtendercontrollerSimProfile#redundant_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#redundant_mode ObjectExtendercontrollerSimProfile#redundant_mode}
   */
   readonly redundantMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#scopetype ObjectExtendercontrollerSimProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#scopetype ObjectExtendercontrollerSimProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#sim1_pin ObjectExtendercontrollerSimProfile#sim1_pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#sim1_pin ObjectExtendercontrollerSimProfile#sim1_pin}
   */
   readonly sim1Pin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#sim1_pin_code ObjectExtendercontrollerSimProfile#sim1_pin_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#sim1_pin_code ObjectExtendercontrollerSimProfile#sim1_pin_code}
   */
   readonly sim1PinCode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#sim2_pin ObjectExtendercontrollerSimProfile#sim2_pin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#sim2_pin ObjectExtendercontrollerSimProfile#sim2_pin}
   */
   readonly sim2Pin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#sim2_pin_code ObjectExtendercontrollerSimProfile#sim2_pin_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#sim2_pin_code ObjectExtendercontrollerSimProfile#sim2_pin_code}
   */
   readonly sim2PinCode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#status ObjectExtendercontrollerSimProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#status ObjectExtendercontrollerSimProfile#status}
   */
   readonly status?: string;
   /**
   * auto_switch_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#auto_switch_profile ObjectExtendercontrollerSimProfile#auto_switch_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#auto_switch_profile ObjectExtendercontrollerSimProfile#auto_switch_profile}
   */
   readonly autoSwitchProfile?: ObjectExtendercontrollerSimProfileAutoSwitchProfile;
 }
 export interface ObjectExtendercontrollerSimProfileAutoSwitchProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#dataplan ObjectExtendercontrollerSimProfile#dataplan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#dataplan ObjectExtendercontrollerSimProfile#dataplan}
   */
   readonly dataplan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#disconnect ObjectExtendercontrollerSimProfile#disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#disconnect ObjectExtendercontrollerSimProfile#disconnect}
   */
   readonly disconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#disconnect_period ObjectExtendercontrollerSimProfile#disconnect_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#disconnect_period ObjectExtendercontrollerSimProfile#disconnect_period}
   */
   readonly disconnectPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#disconnect_threshold ObjectExtendercontrollerSimProfile#disconnect_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#disconnect_threshold ObjectExtendercontrollerSimProfile#disconnect_threshold}
   */
   readonly disconnectThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#signal ObjectExtendercontrollerSimProfile#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#signal ObjectExtendercontrollerSimProfile#signal}
   */
   readonly signal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#status ObjectExtendercontrollerSimProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#status ObjectExtendercontrollerSimProfile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#switch_back ObjectExtendercontrollerSimProfile#switch_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#switch_back ObjectExtendercontrollerSimProfile#switch_back}
   */
   readonly switchBack?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#switch_back_time ObjectExtendercontrollerSimProfile#switch_back_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#switch_back_time ObjectExtendercontrollerSimProfile#switch_back_time}
   */
   readonly switchBackTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#switch_back_timer ObjectExtendercontrollerSimProfile#switch_back_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#switch_back_timer ObjectExtendercontrollerSimProfile#switch_back_timer}
   */
   readonly switchBackTimer?: number;
 }
@@ -435,7 +435,7 @@ export class ObjectExtendercontrollerSimProfileAutoSwitchProfileOutputReference 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile fortimanager_object_extendercontroller_sim_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile fortimanager_object_extendercontroller_sim_profile}
 */
 export class ObjectExtendercontrollerSimProfile extends cdktf.TerraformResource {
 
@@ -451,7 +451,7 @@ export class ObjectExtendercontrollerSimProfile extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectExtendercontrollerSimProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtendercontrollerSimProfile to import
-  * @param importFromId The id of the existing ObjectExtendercontrollerSimProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtendercontrollerSimProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtendercontrollerSimProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class ObjectExtendercontrollerSimProfile extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile fortimanager_object_extendercontroller_sim_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile fortimanager_object_extendercontroller_sim_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class ObjectExtendercontrollerSimProfile extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_extendercontroller_sim_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogSyslogd2SettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#cert SystemLocallogSyslogd2Setting#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#cert SystemLocallogSyslogd2Setting#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#csv SystemLocallogSyslogd2Setting#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#csv SystemLocallogSyslogd2Setting#csv}
   */
   readonly csv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#facility SystemLocallogSyslogd2Setting#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#facility SystemLocallogSyslogd2Setting#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#id SystemLocallogSyslogd2Setting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#id SystemLocallogSyslogd2Setting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#reliable SystemLocallogSyslogd2Setting#reliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#reliable SystemLocallogSyslogd2Setting#reliable}
   */
   readonly reliable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#secure_connection SystemLocallogSyslogd2Setting#secure_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#secure_connection SystemLocallogSyslogd2Setting#secure_connection}
   */
   readonly secureConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#severity SystemLocallogSyslogd2Setting#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#severity SystemLocallogSyslogd2Setting#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#status SystemLocallogSyslogd2Setting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#status SystemLocallogSyslogd2Setting#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#syslog_name SystemLocallogSyslogd2Setting#syslog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#syslog_name SystemLocallogSyslogd2Setting#syslog_name}
   */
   readonly syslogName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting fortimanager_system_locallog_syslogd2_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting fortimanager_system_locallog_syslogd2_setting}
 */
 export class SystemLocallogSyslogd2Setting extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SystemLocallogSyslogd2Setting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocallogSyslogd2Setting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogSyslogd2Setting to import
-  * @param importFromId The id of the existing SystemLocallogSyslogd2Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogSyslogd2Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogSyslogd2Setting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SystemLocallogSyslogd2Setting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_syslogd2_setting fortimanager_system_locallog_syslogd2_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_syslogd2_setting fortimanager_system_locallog_syslogd2_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SystemLocallogSyslogd2Setting extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_locallog_syslogd2_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

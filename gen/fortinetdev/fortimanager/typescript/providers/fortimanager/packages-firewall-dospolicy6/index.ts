@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,138 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallDospolicy6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#adom PackagesFirewallDospolicy6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#adom PackagesFirewallDospolicy6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#comments PackagesFirewallDospolicy6#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#comments PackagesFirewallDospolicy6#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#dstaddr PackagesFirewallDospolicy6#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#dstaddr PackagesFirewallDospolicy6#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#dynamic_sort_subtable PackagesFirewallDospolicy6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#dynamic_sort_subtable PackagesFirewallDospolicy6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#id PackagesFirewallDospolicy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#id PackagesFirewallDospolicy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#interface PackagesFirewallDospolicy6#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#interface PackagesFirewallDospolicy6#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#name PackagesFirewallDospolicy6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#name PackagesFirewallDospolicy6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#pkg PackagesFirewallDospolicy6#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#pkg PackagesFirewallDospolicy6#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#pkg_folder_path PackagesFirewallDospolicy6#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#pkg_folder_path PackagesFirewallDospolicy6#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#policyid PackagesFirewallDospolicy6#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#policyid PackagesFirewallDospolicy6#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#scopetype PackagesFirewallDospolicy6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#scopetype PackagesFirewallDospolicy6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#service PackagesFirewallDospolicy6#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#service PackagesFirewallDospolicy6#service}
   */
   readonly service?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#srcaddr PackagesFirewallDospolicy6#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#srcaddr PackagesFirewallDospolicy6#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#status PackagesFirewallDospolicy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#status PackagesFirewallDospolicy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#uuid PackagesFirewallDospolicy6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#uuid PackagesFirewallDospolicy6#uuid}
   */
   readonly uuid?: string;
   /**
   * anomaly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#anomaly PackagesFirewallDospolicy6#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#anomaly PackagesFirewallDospolicy6#anomaly}
   */
   readonly anomaly?: PackagesFirewallDospolicy6Anomaly[] | cdktf.IResolvable;
 }
 export interface PackagesFirewallDospolicy6Anomaly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#action PackagesFirewallDospolicy6#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#action PackagesFirewallDospolicy6#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#log PackagesFirewallDospolicy6#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#log PackagesFirewallDospolicy6#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#name PackagesFirewallDospolicy6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#name PackagesFirewallDospolicy6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#quarantine PackagesFirewallDospolicy6#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#quarantine PackagesFirewallDospolicy6#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#quarantine_expiry PackagesFirewallDospolicy6#quarantine_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#quarantine_expiry PackagesFirewallDospolicy6#quarantine_expiry}
   */
   readonly quarantineExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#quarantine_log PackagesFirewallDospolicy6#quarantine_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#quarantine_log PackagesFirewallDospolicy6#quarantine_log}
   */
   readonly quarantineLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#status PackagesFirewallDospolicy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#status PackagesFirewallDospolicy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_mss PackagesFirewallDospolicy6#synproxy_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_mss PackagesFirewallDospolicy6#synproxy_tcp_mss}
   */
   readonly synproxyTcpMss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_sack PackagesFirewallDospolicy6#synproxy_tcp_sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_sack PackagesFirewallDospolicy6#synproxy_tcp_sack}
   */
   readonly synproxyTcpSack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_timestamp PackagesFirewallDospolicy6#synproxy_tcp_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_timestamp PackagesFirewallDospolicy6#synproxy_tcp_timestamp}
   */
   readonly synproxyTcpTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_window PackagesFirewallDospolicy6#synproxy_tcp_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_window PackagesFirewallDospolicy6#synproxy_tcp_window}
   */
   readonly synproxyTcpWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_windowscale PackagesFirewallDospolicy6#synproxy_tcp_windowscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tcp_windowscale PackagesFirewallDospolicy6#synproxy_tcp_windowscale}
   */
   readonly synproxyTcpWindowscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_tos PackagesFirewallDospolicy6#synproxy_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_tos PackagesFirewallDospolicy6#synproxy_tos}
   */
   readonly synproxyTos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#synproxy_ttl PackagesFirewallDospolicy6#synproxy_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#synproxy_ttl PackagesFirewallDospolicy6#synproxy_ttl}
   */
   readonly synproxyTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#threshold PackagesFirewallDospolicy6#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#threshold PackagesFirewallDospolicy6#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#thresholddefault PackagesFirewallDospolicy6#thresholddefault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#thresholddefault PackagesFirewallDospolicy6#thresholddefault}
   */
   readonly thresholddefault?: number;
 }
@@ -690,7 +690,7 @@ export class PackagesFirewallDospolicy6AnomalyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6 fortimanager_packages_firewall_dospolicy6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6 fortimanager_packages_firewall_dospolicy6}
 */
 export class PackagesFirewallDospolicy6 extends cdktf.TerraformResource {
 
@@ -706,7 +706,7 @@ export class PackagesFirewallDospolicy6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallDospolicy6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallDospolicy6 to import
-  * @param importFromId The id of the existing PackagesFirewallDospolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallDospolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallDospolicy6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -718,7 +718,7 @@ export class PackagesFirewallDospolicy6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6 fortimanager_packages_firewall_dospolicy6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6 fortimanager_packages_firewall_dospolicy6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -729,8 +729,8 @@ export class PackagesFirewallDospolicy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_dospolicy6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

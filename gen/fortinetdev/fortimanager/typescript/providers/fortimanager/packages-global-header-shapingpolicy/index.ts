@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,220 +8,232 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesGlobalHeaderShapingpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#app_category PackagesGlobalHeaderShapingpolicy#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#app_category PackagesGlobalHeaderShapingpolicy#app_category}
   */
   readonly appCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#app_group PackagesGlobalHeaderShapingpolicy#app_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#app_group PackagesGlobalHeaderShapingpolicy#app_group}
   */
   readonly appGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#application PackagesGlobalHeaderShapingpolicy#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#application PackagesGlobalHeaderShapingpolicy#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#class_id PackagesGlobalHeaderShapingpolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#class_id PackagesGlobalHeaderShapingpolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#class_id_reverse PackagesGlobalHeaderShapingpolicy#class_id_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#class_id_reverse PackagesGlobalHeaderShapingpolicy#class_id_reverse}
   */
   readonly classIdReverse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#comment PackagesGlobalHeaderShapingpolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#comment PackagesGlobalHeaderShapingpolicy#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#cos PackagesGlobalHeaderShapingpolicy#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#cos PackagesGlobalHeaderShapingpolicy#cos}
   */
   readonly cos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#cos_mask PackagesGlobalHeaderShapingpolicy#cos_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#cos_mask PackagesGlobalHeaderShapingpolicy#cos_mask}
   */
   readonly cosMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#diffserv_forward PackagesGlobalHeaderShapingpolicy#diffserv_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#diffserv_forward PackagesGlobalHeaderShapingpolicy#diffserv_forward}
   */
   readonly diffservForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#diffserv_reverse PackagesGlobalHeaderShapingpolicy#diffserv_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#diffserv_reverse PackagesGlobalHeaderShapingpolicy#diffserv_reverse}
   */
   readonly diffservReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#diffservcode_forward PackagesGlobalHeaderShapingpolicy#diffservcode_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#diffservcode_forward PackagesGlobalHeaderShapingpolicy#diffservcode_forward}
   */
   readonly diffservcodeForward?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#diffservcode_rev PackagesGlobalHeaderShapingpolicy#diffservcode_rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#diffservcode_rev PackagesGlobalHeaderShapingpolicy#diffservcode_rev}
   */
   readonly diffservcodeRev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#dstaddr PackagesGlobalHeaderShapingpolicy#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#dstaddr PackagesGlobalHeaderShapingpolicy#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#dstaddr6 PackagesGlobalHeaderShapingpolicy#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#dstaddr6 PackagesGlobalHeaderShapingpolicy#dstaddr6}
   */
   readonly dstaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#dstintf PackagesGlobalHeaderShapingpolicy#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#dstintf PackagesGlobalHeaderShapingpolicy#dstintf}
   */
   readonly dstintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#fosid PackagesGlobalHeaderShapingpolicy#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#fosid PackagesGlobalHeaderShapingpolicy#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#groups PackagesGlobalHeaderShapingpolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#groups PackagesGlobalHeaderShapingpolicy#groups}
   */
   readonly groups?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#id PackagesGlobalHeaderShapingpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#http_response_match PackagesGlobalHeaderShapingpolicy#http_response_match}
+  */
+  readonly httpResponseMatch?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#id PackagesGlobalHeaderShapingpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service PackagesGlobalHeaderShapingpolicy#internet_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service PackagesGlobalHeaderShapingpolicy#internet_service}
   */
   readonly internetService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_custom PackagesGlobalHeaderShapingpolicy#internet_service_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_custom PackagesGlobalHeaderShapingpolicy#internet_service_custom}
   */
   readonly internetServiceCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_custom_group PackagesGlobalHeaderShapingpolicy#internet_service_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_custom_group PackagesGlobalHeaderShapingpolicy#internet_service_custom_group}
   */
   readonly internetServiceCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_group PackagesGlobalHeaderShapingpolicy#internet_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_fortiguard PackagesGlobalHeaderShapingpolicy#internet_service_fortiguard}
+  */
+  readonly internetServiceFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_group PackagesGlobalHeaderShapingpolicy#internet_service_group}
   */
   readonly internetServiceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_id PackagesGlobalHeaderShapingpolicy#internet_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_id PackagesGlobalHeaderShapingpolicy#internet_service_id}
   */
   readonly internetServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_name PackagesGlobalHeaderShapingpolicy#internet_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_name PackagesGlobalHeaderShapingpolicy#internet_service_name}
   */
   readonly internetServiceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src PackagesGlobalHeaderShapingpolicy#internet_service_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src PackagesGlobalHeaderShapingpolicy#internet_service_src}
   */
   readonly internetServiceSrc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_custom PackagesGlobalHeaderShapingpolicy#internet_service_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_custom PackagesGlobalHeaderShapingpolicy#internet_service_src_custom}
   */
   readonly internetServiceSrcCustom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_custom_group PackagesGlobalHeaderShapingpolicy#internet_service_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_custom_group PackagesGlobalHeaderShapingpolicy#internet_service_src_custom_group}
   */
   readonly internetServiceSrcCustomGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_group PackagesGlobalHeaderShapingpolicy#internet_service_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_fortiguard PackagesGlobalHeaderShapingpolicy#internet_service_src_fortiguard}
+  */
+  readonly internetServiceSrcFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_group PackagesGlobalHeaderShapingpolicy#internet_service_src_group}
   */
   readonly internetServiceSrcGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_id PackagesGlobalHeaderShapingpolicy#internet_service_src_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_id PackagesGlobalHeaderShapingpolicy#internet_service_src_id}
   */
   readonly internetServiceSrcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_name PackagesGlobalHeaderShapingpolicy#internet_service_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#internet_service_src_name PackagesGlobalHeaderShapingpolicy#internet_service_src_name}
   */
   readonly internetServiceSrcName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#ip_version PackagesGlobalHeaderShapingpolicy#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#ip_version PackagesGlobalHeaderShapingpolicy#ip_version}
   */
   readonly ipVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#name PackagesGlobalHeaderShapingpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#name PackagesGlobalHeaderShapingpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#per_ip_shaper PackagesGlobalHeaderShapingpolicy#per_ip_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#per_ip_shaper PackagesGlobalHeaderShapingpolicy#per_ip_shaper}
   */
   readonly perIpShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#pkg PackagesGlobalHeaderShapingpolicy#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#pkg PackagesGlobalHeaderShapingpolicy#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#pkg_folder_path PackagesGlobalHeaderShapingpolicy#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#pkg_folder_path PackagesGlobalHeaderShapingpolicy#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#schedule PackagesGlobalHeaderShapingpolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#schedule PackagesGlobalHeaderShapingpolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#service PackagesGlobalHeaderShapingpolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#service PackagesGlobalHeaderShapingpolicy#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#service_type PackagesGlobalHeaderShapingpolicy#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#service_type PackagesGlobalHeaderShapingpolicy#service_type}
   */
   readonly serviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#srcaddr PackagesGlobalHeaderShapingpolicy#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#srcaddr PackagesGlobalHeaderShapingpolicy#srcaddr}
   */
   readonly srcaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#srcaddr6 PackagesGlobalHeaderShapingpolicy#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#srcaddr6 PackagesGlobalHeaderShapingpolicy#srcaddr6}
   */
   readonly srcaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#srcintf PackagesGlobalHeaderShapingpolicy#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#srcintf PackagesGlobalHeaderShapingpolicy#srcintf}
   */
   readonly srcintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#status PackagesGlobalHeaderShapingpolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#status PackagesGlobalHeaderShapingpolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#tos PackagesGlobalHeaderShapingpolicy#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#tos PackagesGlobalHeaderShapingpolicy#tos}
   */
   readonly tos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#tos_mask PackagesGlobalHeaderShapingpolicy#tos_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#tos_mask PackagesGlobalHeaderShapingpolicy#tos_mask}
   */
   readonly tosMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#tos_negate PackagesGlobalHeaderShapingpolicy#tos_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#tos_negate PackagesGlobalHeaderShapingpolicy#tos_negate}
   */
   readonly tosNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#traffic_shaper PackagesGlobalHeaderShapingpolicy#traffic_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#traffic_shaper PackagesGlobalHeaderShapingpolicy#traffic_shaper}
   */
   readonly trafficShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#traffic_shaper_reverse PackagesGlobalHeaderShapingpolicy#traffic_shaper_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#traffic_shaper_reverse PackagesGlobalHeaderShapingpolicy#traffic_shaper_reverse}
   */
   readonly trafficShaperReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#traffic_type PackagesGlobalHeaderShapingpolicy#traffic_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#traffic_type PackagesGlobalHeaderShapingpolicy#traffic_type}
   */
   readonly trafficType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#url_category PackagesGlobalHeaderShapingpolicy#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#url_category PackagesGlobalHeaderShapingpolicy#url_category}
   */
   readonly urlCategory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#users PackagesGlobalHeaderShapingpolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#users PackagesGlobalHeaderShapingpolicy#users}
   */
   readonly users?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#uuid PackagesGlobalHeaderShapingpolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#uuid PackagesGlobalHeaderShapingpolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#uuid_idx PackagesGlobalHeaderShapingpolicy#uuid_idx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#uuid_idx PackagesGlobalHeaderShapingpolicy#uuid_idx}
   */
   readonly uuidIdx?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy fortimanager_packages_global_header_shapingpolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy fortimanager_packages_global_header_shapingpolicy}
 */
 export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
 
@@ -237,7 +249,7 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesGlobalHeaderShapingpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesGlobalHeaderShapingpolicy to import
-  * @param importFromId The id of the existing PackagesGlobalHeaderShapingpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesGlobalHeaderShapingpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesGlobalHeaderShapingpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +261,7 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_global_header_shapingpolicy fortimanager_packages_global_header_shapingpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_global_header_shapingpolicy fortimanager_packages_global_header_shapingpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +272,8 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_global_header_shapingpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -288,16 +300,19 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
     this._dstintf = config.dstintf;
     this._fosid = config.fosid;
     this._groups = config.groups;
+    this._httpResponseMatch = config.httpResponseMatch;
     this._id = config.id;
     this._internetService = config.internetService;
     this._internetServiceCustom = config.internetServiceCustom;
     this._internetServiceCustomGroup = config.internetServiceCustomGroup;
+    this._internetServiceFortiguard = config.internetServiceFortiguard;
     this._internetServiceGroup = config.internetServiceGroup;
     this._internetServiceId = config.internetServiceId;
     this._internetServiceName = config.internetServiceName;
     this._internetServiceSrc = config.internetServiceSrc;
     this._internetServiceSrcCustom = config.internetServiceSrcCustom;
     this._internetServiceSrcCustomGroup = config.internetServiceSrcCustomGroup;
+    this._internetServiceSrcFortiguard = config.internetServiceSrcFortiguard;
     this._internetServiceSrcGroup = config.internetServiceSrcGroup;
     this._internetServiceSrcId = config.internetServiceSrcId;
     this._internetServiceSrcName = config.internetServiceSrcName;
@@ -601,6 +616,22 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
     return this._groups;
   }
 
+  // http_response_match - computed: false, optional: true, required: false
+  private _httpResponseMatch?: string; 
+  public get httpResponseMatch() {
+    return this.getStringAttribute('http_response_match');
+  }
+  public set httpResponseMatch(value: string) {
+    this._httpResponseMatch = value;
+  }
+  public resetHttpResponseMatch() {
+    this._httpResponseMatch = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get httpResponseMatchInput() {
+    return this._httpResponseMatch;
+  }
+
   // id - computed: true, optional: true, required: false
   private _id?: string; 
   public get id() {
@@ -663,6 +694,22 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get internetServiceCustomGroupInput() {
     return this._internetServiceCustomGroup;
+  }
+
+  // internet_service_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceFortiguard?: string[]; 
+  public get internetServiceFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_fortiguard'));
+  }
+  public set internetServiceFortiguard(value: string[]) {
+    this._internetServiceFortiguard = value;
+  }
+  public resetInternetServiceFortiguard() {
+    this._internetServiceFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceFortiguardInput() {
+    return this._internetServiceFortiguard;
   }
 
   // internet_service_group - computed: false, optional: true, required: false
@@ -759,6 +806,22 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get internetServiceSrcCustomGroupInput() {
     return this._internetServiceSrcCustomGroup;
+  }
+
+  // internet_service_src_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceSrcFortiguard?: string[]; 
+  public get internetServiceSrcFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_src_fortiguard'));
+  }
+  public set internetServiceSrcFortiguard(value: string[]) {
+    this._internetServiceSrcFortiguard = value;
+  }
+  public resetInternetServiceSrcFortiguard() {
+    this._internetServiceSrcFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceSrcFortiguardInput() {
+    return this._internetServiceSrcFortiguard;
   }
 
   // internet_service_src_group - computed: false, optional: true, required: false
@@ -1181,16 +1244,19 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
       dstintf: cdktf.stringToTerraform(this._dstintf),
       fosid: cdktf.numberToTerraform(this._fosid),
       groups: cdktf.stringToTerraform(this._groups),
+      http_response_match: cdktf.stringToTerraform(this._httpResponseMatch),
       id: cdktf.stringToTerraform(this._id),
       internet_service: cdktf.stringToTerraform(this._internetService),
       internet_service_custom: cdktf.stringToTerraform(this._internetServiceCustom),
       internet_service_custom_group: cdktf.stringToTerraform(this._internetServiceCustomGroup),
+      internet_service_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceFortiguard),
       internet_service_group: cdktf.stringToTerraform(this._internetServiceGroup),
       internet_service_id: cdktf.stringToTerraform(this._internetServiceId),
       internet_service_name: cdktf.stringToTerraform(this._internetServiceName),
       internet_service_src: cdktf.stringToTerraform(this._internetServiceSrc),
       internet_service_src_custom: cdktf.stringToTerraform(this._internetServiceSrcCustom),
       internet_service_src_custom_group: cdktf.stringToTerraform(this._internetServiceSrcCustomGroup),
+      internet_service_src_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcFortiguard),
       internet_service_src_group: cdktf.stringToTerraform(this._internetServiceSrcGroup),
       internet_service_src_id: cdktf.stringToTerraform(this._internetServiceSrcId),
       internet_service_src_name: cdktf.stringToTerraform(this._internetServiceSrcName),
@@ -1323,6 +1389,12 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      http_response_match: {
+        value: cdktf.stringToHclTerraform(this._httpResponseMatch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       id: {
         value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
@@ -1346,6 +1418,12 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      internet_service_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceFortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       internet_service_group: {
         value: cdktf.stringToHclTerraform(this._internetServiceGroup),
@@ -1382,6 +1460,12 @@ export class PackagesGlobalHeaderShapingpolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      internet_service_src_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceSrcFortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       internet_service_src_group: {
         value: cdktf.stringToHclTerraform(this._internetServiceSrcGroup),

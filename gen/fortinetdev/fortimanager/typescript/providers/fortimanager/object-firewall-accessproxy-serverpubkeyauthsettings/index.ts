@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxyServerpubkeyauthsettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#access_proxy ObjectFirewallAccessproxyServerpubkeyauthsettings#access_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#access_proxy ObjectFirewallAccessproxyServerpubkeyauthsettings#access_proxy}
   */
   readonly accessProxy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#adom ObjectFirewallAccessproxyServerpubkeyauthsettings#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#adom ObjectFirewallAccessproxyServerpubkeyauthsettings#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#auth_ca ObjectFirewallAccessproxyServerpubkeyauthsettings#auth_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#auth_ca ObjectFirewallAccessproxyServerpubkeyauthsettings#auth_ca}
   */
   readonly authCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#dynamic_sort_subtable ObjectFirewallAccessproxyServerpubkeyauthsettings#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#dynamic_sort_subtable ObjectFirewallAccessproxyServerpubkeyauthsettings#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#id ObjectFirewallAccessproxyServerpubkeyauthsettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#id ObjectFirewallAccessproxyServerpubkeyauthsettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_agent_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_agent_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_agent_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_agent_forwarding}
   */
   readonly permitAgentForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_port_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_port_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_port_forwarding}
   */
   readonly permitPortForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_pty ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_pty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_pty ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_pty}
   */
   readonly permitPty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_user_rc ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_user_rc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_user_rc ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_user_rc}
   */
   readonly permitUserRc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_x11_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_x11_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#permit_x11_forwarding ObjectFirewallAccessproxyServerpubkeyauthsettings#permit_x11_forwarding}
   */
   readonly permitX11Forwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#scopetype ObjectFirewallAccessproxyServerpubkeyauthsettings#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#scopetype ObjectFirewallAccessproxyServerpubkeyauthsettings#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#source_address ObjectFirewallAccessproxyServerpubkeyauthsettings#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#source_address ObjectFirewallAccessproxyServerpubkeyauthsettings#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * cert_extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#cert_extension ObjectFirewallAccessproxyServerpubkeyauthsettings#cert_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#cert_extension ObjectFirewallAccessproxyServerpubkeyauthsettings#cert_extension}
   */
   readonly certExtension?: ObjectFirewallAccessproxyServerpubkeyauthsettingsCertExtension[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAccessproxyServerpubkeyauthsettingsCertExtension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#critical ObjectFirewallAccessproxyServerpubkeyauthsettings#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#critical ObjectFirewallAccessproxyServerpubkeyauthsettings#critical}
   */
   readonly critical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#data ObjectFirewallAccessproxyServerpubkeyauthsettings#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#data ObjectFirewallAccessproxyServerpubkeyauthsettings#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#name ObjectFirewallAccessproxyServerpubkeyauthsettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#name ObjectFirewallAccessproxyServerpubkeyauthsettings#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#type ObjectFirewallAccessproxyServerpubkeyauthsettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#type ObjectFirewallAccessproxyServerpubkeyauthsettings#type}
   */
   readonly type?: string;
 }
@@ -282,7 +282,7 @@ export class ObjectFirewallAccessproxyServerpubkeyauthsettingsCertExtensionList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings fortimanager_object_firewall_accessproxy_serverpubkeyauthsettings}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings fortimanager_object_firewall_accessproxy_serverpubkeyauthsettings}
 */
 export class ObjectFirewallAccessproxyServerpubkeyauthsettings extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class ObjectFirewallAccessproxyServerpubkeyauthsettings extends cdktf.Ter
   * Generates CDKTF code for importing a ObjectFirewallAccessproxyServerpubkeyauthsettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxyServerpubkeyauthsettings to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxyServerpubkeyauthsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxyServerpubkeyauthsettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxyServerpubkeyauthsettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class ObjectFirewallAccessproxyServerpubkeyauthsettings extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings fortimanager_object_firewall_accessproxy_serverpubkeyauthsettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_serverpubkeyauthsettings fortimanager_object_firewall_accessproxy_serverpubkeyauthsettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class ObjectFirewallAccessproxyServerpubkeyauthsettings extends cdktf.Ter
       terraformResourceType: 'fortimanager_object_firewall_accessproxy_serverpubkeyauthsettings',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectIpsSensorEntriesExemptipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#adom ObjectIpsSensorEntriesExemptip#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#adom ObjectIpsSensorEntriesExemptip#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#dst_ip ObjectIpsSensorEntriesExemptip#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#dst_ip ObjectIpsSensorEntriesExemptip#dst_ip}
   */
   readonly dstIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#entries ObjectIpsSensorEntriesExemptip#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#entries ObjectIpsSensorEntriesExemptip#entries}
   */
   readonly entries: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#fosid ObjectIpsSensorEntriesExemptip#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#fosid ObjectIpsSensorEntriesExemptip#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#id ObjectIpsSensorEntriesExemptip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#id ObjectIpsSensorEntriesExemptip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#scopetype ObjectIpsSensorEntriesExemptip#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#scopetype ObjectIpsSensorEntriesExemptip#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#sensor ObjectIpsSensorEntriesExemptip#sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#sensor ObjectIpsSensorEntriesExemptip#sensor}
   */
   readonly sensor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#src_ip ObjectIpsSensorEntriesExemptip#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#src_ip ObjectIpsSensorEntriesExemptip#src_ip}
   */
   readonly srcIp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip fortimanager_object_ips_sensor_entries_exemptip}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip fortimanager_object_ips_sensor_entries_exemptip}
 */
 export class ObjectIpsSensorEntriesExemptip extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectIpsSensorEntriesExemptip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectIpsSensorEntriesExemptip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectIpsSensorEntriesExemptip to import
-  * @param importFromId The id of the existing ObjectIpsSensorEntriesExemptip that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectIpsSensorEntriesExemptip that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectIpsSensorEntriesExemptip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectIpsSensorEntriesExemptip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries_exemptip fortimanager_object_ips_sensor_entries_exemptip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries_exemptip fortimanager_object_ips_sensor_entries_exemptip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectIpsSensorEntriesExemptip extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_ips_sensor_entries_exemptip',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserSecurityexemptlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#adom ObjectUserSecurityexemptlist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#adom ObjectUserSecurityexemptlist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#description ObjectUserSecurityexemptlist#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#description ObjectUserSecurityexemptlist#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#dynamic_sort_subtable ObjectUserSecurityexemptlist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#dynamic_sort_subtable ObjectUserSecurityexemptlist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#id ObjectUserSecurityexemptlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#id ObjectUserSecurityexemptlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#name ObjectUserSecurityexemptlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#name ObjectUserSecurityexemptlist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#scopetype ObjectUserSecurityexemptlist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#scopetype ObjectUserSecurityexemptlist#scopetype}
   */
   readonly scopetype?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#rule ObjectUserSecurityexemptlist#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#rule ObjectUserSecurityexemptlist#rule}
   */
   readonly rule?: ObjectUserSecurityexemptlistRule[] | cdktf.IResolvable;
 }
 export interface ObjectUserSecurityexemptlistRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#devices ObjectUserSecurityexemptlist#devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#devices ObjectUserSecurityexemptlist#devices}
   */
   readonly devices?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#dstaddr ObjectUserSecurityexemptlist#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#dstaddr ObjectUserSecurityexemptlist#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#id ObjectUserSecurityexemptlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#id ObjectUserSecurityexemptlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#service ObjectUserSecurityexemptlist#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#service ObjectUserSecurityexemptlist#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#srcaddr ObjectUserSecurityexemptlist#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#srcaddr ObjectUserSecurityexemptlist#srcaddr}
   */
   readonly srcaddr?: string;
 }
@@ -294,7 +294,7 @@ export class ObjectUserSecurityexemptlistRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist fortimanager_object_user_securityexemptlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist fortimanager_object_user_securityexemptlist}
 */
 export class ObjectUserSecurityexemptlist extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class ObjectUserSecurityexemptlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserSecurityexemptlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserSecurityexemptlist to import
-  * @param importFromId The id of the existing ObjectUserSecurityexemptlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserSecurityexemptlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserSecurityexemptlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class ObjectUserSecurityexemptlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_securityexemptlist fortimanager_object_user_securityexemptlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_securityexemptlist fortimanager_object_user_securityexemptlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class ObjectUserSecurityexemptlist extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_securityexemptlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

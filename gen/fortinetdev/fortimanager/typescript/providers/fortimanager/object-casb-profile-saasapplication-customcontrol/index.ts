@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbProfileSaasapplicationCustomcontrolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#adom ObjectCasbProfileSaasapplicationCustomcontrol#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#adom ObjectCasbProfileSaasapplicationCustomcontrol#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#dynamic_sort_subtable ObjectCasbProfileSaasapplicationCustomcontrol#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#dynamic_sort_subtable ObjectCasbProfileSaasapplicationCustomcontrol#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#id ObjectCasbProfileSaasapplicationCustomcontrol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#id ObjectCasbProfileSaasapplicationCustomcontrol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#name ObjectCasbProfileSaasapplicationCustomcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#name ObjectCasbProfileSaasapplicationCustomcontrol#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#profile ObjectCasbProfileSaasapplicationCustomcontrol#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#profile ObjectCasbProfileSaasapplicationCustomcontrol#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#saas_application ObjectCasbProfileSaasapplicationCustomcontrol#saas_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#saas_application ObjectCasbProfileSaasapplicationCustomcontrol#saas_application}
   */
   readonly saasApplication: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#scopetype ObjectCasbProfileSaasapplicationCustomcontrol#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#scopetype ObjectCasbProfileSaasapplicationCustomcontrol#scopetype}
   */
   readonly scopetype?: string;
   /**
   * attribute_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#attribute_filter ObjectCasbProfileSaasapplicationCustomcontrol#attribute_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#attribute_filter ObjectCasbProfileSaasapplicationCustomcontrol#attribute_filter}
   */
   readonly attributeFilter?: ObjectCasbProfileSaasapplicationCustomcontrolAttributeFilter[] | cdktf.IResolvable;
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#option ObjectCasbProfileSaasapplicationCustomcontrol#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#option ObjectCasbProfileSaasapplicationCustomcontrol#option}
   */
   readonly option?: ObjectCasbProfileSaasapplicationCustomcontrolOption[] | cdktf.IResolvable;
 }
 export interface ObjectCasbProfileSaasapplicationCustomcontrolAttributeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#action ObjectCasbProfileSaasapplicationCustomcontrol#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#action ObjectCasbProfileSaasapplicationCustomcontrol#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#attribute_match ObjectCasbProfileSaasapplicationCustomcontrol#attribute_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#attribute_match ObjectCasbProfileSaasapplicationCustomcontrol#attribute_match}
   */
   readonly attributeMatch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#id ObjectCasbProfileSaasapplicationCustomcontrol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#id ObjectCasbProfileSaasapplicationCustomcontrol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -238,11 +238,11 @@ export class ObjectCasbProfileSaasapplicationCustomcontrolAttributeFilterList ex
 }
 export interface ObjectCasbProfileSaasapplicationCustomcontrolOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#name ObjectCasbProfileSaasapplicationCustomcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#name ObjectCasbProfileSaasapplicationCustomcontrol#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#user_input ObjectCasbProfileSaasapplicationCustomcontrol#user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#user_input ObjectCasbProfileSaasapplicationCustomcontrol#user_input}
   */
   readonly userInput?: string[];
 }
@@ -387,7 +387,7 @@ export class ObjectCasbProfileSaasapplicationCustomcontrolOptionList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol fortimanager_object_casb_profile_saasapplication_customcontrol}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol fortimanager_object_casb_profile_saasapplication_customcontrol}
 */
 export class ObjectCasbProfileSaasapplicationCustomcontrol extends cdktf.TerraformResource {
 
@@ -403,7 +403,7 @@ export class ObjectCasbProfileSaasapplicationCustomcontrol extends cdktf.Terrafo
   * Generates CDKTF code for importing a ObjectCasbProfileSaasapplicationCustomcontrol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbProfileSaasapplicationCustomcontrol to import
-  * @param importFromId The id of the existing ObjectCasbProfileSaasapplicationCustomcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbProfileSaasapplicationCustomcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbProfileSaasapplicationCustomcontrol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +415,7 @@ export class ObjectCasbProfileSaasapplicationCustomcontrol extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile_saasapplication_customcontrol fortimanager_object_casb_profile_saasapplication_customcontrol} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile_saasapplication_customcontrol fortimanager_object_casb_profile_saasapplication_customcontrol} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +426,8 @@ export class ObjectCasbProfileSaasapplicationCustomcontrol extends cdktf.Terrafo
       terraformResourceType: 'fortimanager_object_casb_profile_saasapplication_customcontrol',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

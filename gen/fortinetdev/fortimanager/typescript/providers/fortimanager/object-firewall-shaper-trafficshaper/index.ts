@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallShaperTrafficshaperConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#adom ObjectFirewallShaperTrafficshaper#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#adom ObjectFirewallShaperTrafficshaper#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#bandwidth_unit ObjectFirewallShaperTrafficshaper#bandwidth_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#bandwidth_unit ObjectFirewallShaperTrafficshaper#bandwidth_unit}
   */
   readonly bandwidthUnit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#cos ObjectFirewallShaperTrafficshaper#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#cos ObjectFirewallShaperTrafficshaper#cos}
   */
   readonly cos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#cos_marking ObjectFirewallShaperTrafficshaper#cos_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#cos_marking ObjectFirewallShaperTrafficshaper#cos_marking}
   */
   readonly cosMarking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#cos_marking_method ObjectFirewallShaperTrafficshaper#cos_marking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#cos_marking_method ObjectFirewallShaperTrafficshaper#cos_marking_method}
   */
   readonly cosMarkingMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#diffserv ObjectFirewallShaperTrafficshaper#diffserv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#diffserv ObjectFirewallShaperTrafficshaper#diffserv}
   */
   readonly diffserv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#diffservcode ObjectFirewallShaperTrafficshaper#diffservcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#diffservcode ObjectFirewallShaperTrafficshaper#diffservcode}
   */
   readonly diffservcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#dscp_marking_method ObjectFirewallShaperTrafficshaper#dscp_marking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#dscp_marking_method ObjectFirewallShaperTrafficshaper#dscp_marking_method}
   */
   readonly dscpMarkingMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_bandwidth ObjectFirewallShaperTrafficshaper#exceed_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_bandwidth ObjectFirewallShaperTrafficshaper#exceed_bandwidth}
   */
   readonly exceedBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_class_id ObjectFirewallShaperTrafficshaper#exceed_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_class_id ObjectFirewallShaperTrafficshaper#exceed_class_id}
   */
   readonly exceedClassId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_cos ObjectFirewallShaperTrafficshaper#exceed_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_cos ObjectFirewallShaperTrafficshaper#exceed_cos}
   */
   readonly exceedCos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_dscp ObjectFirewallShaperTrafficshaper#exceed_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#exceed_dscp ObjectFirewallShaperTrafficshaper#exceed_dscp}
   */
   readonly exceedDscp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#guaranteed_bandwidth ObjectFirewallShaperTrafficshaper#guaranteed_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#guaranteed_bandwidth ObjectFirewallShaperTrafficshaper#guaranteed_bandwidth}
   */
   readonly guaranteedBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#id ObjectFirewallShaperTrafficshaper#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#id ObjectFirewallShaperTrafficshaper#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_bandwidth ObjectFirewallShaperTrafficshaper#maximum_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_bandwidth ObjectFirewallShaperTrafficshaper#maximum_bandwidth}
   */
   readonly maximumBandwidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_cos ObjectFirewallShaperTrafficshaper#maximum_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_cos ObjectFirewallShaperTrafficshaper#maximum_cos}
   */
   readonly maximumCos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_dscp ObjectFirewallShaperTrafficshaper#maximum_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#maximum_dscp ObjectFirewallShaperTrafficshaper#maximum_dscp}
   */
   readonly maximumDscp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#name ObjectFirewallShaperTrafficshaper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#name ObjectFirewallShaperTrafficshaper#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#overhead ObjectFirewallShaperTrafficshaper#overhead}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#overhead ObjectFirewallShaperTrafficshaper#overhead}
   */
   readonly overhead?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#per_policy ObjectFirewallShaperTrafficshaper#per_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#per_policy ObjectFirewallShaperTrafficshaper#per_policy}
   */
   readonly perPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#priority ObjectFirewallShaperTrafficshaper#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#priority ObjectFirewallShaperTrafficshaper#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#scopetype ObjectFirewallShaperTrafficshaper#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#scopetype ObjectFirewallShaperTrafficshaper#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper fortimanager_object_firewall_shaper_trafficshaper}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper fortimanager_object_firewall_shaper_trafficshaper}
 */
 export class ObjectFirewallShaperTrafficshaper extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ObjectFirewallShaperTrafficshaper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallShaperTrafficshaper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallShaperTrafficshaper to import
-  * @param importFromId The id of the existing ObjectFirewallShaperTrafficshaper that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallShaperTrafficshaper that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallShaperTrafficshaper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ObjectFirewallShaperTrafficshaper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shaper_trafficshaper fortimanager_object_firewall_shaper_trafficshaper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shaper_trafficshaper fortimanager_object_firewall_shaper_trafficshaper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class ObjectFirewallShaperTrafficshaper extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_shaper_trafficshaper',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

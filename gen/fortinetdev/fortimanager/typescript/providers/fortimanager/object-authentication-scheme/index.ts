@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,96 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAuthenticationSchemeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#adom ObjectAuthenticationScheme#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#adom ObjectAuthenticationScheme#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#domain_controller ObjectAuthenticationScheme#domain_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#digest_algo ObjectAuthenticationScheme#digest_algo}
+  */
+  readonly digestAlgo?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#digest_rfc2069 ObjectAuthenticationScheme#digest_rfc2069}
+  */
+  readonly digestRfc2069?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#domain_controller ObjectAuthenticationScheme#domain_controller}
   */
   readonly domainController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#ems_device_owner ObjectAuthenticationScheme#ems_device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#ems_device_owner ObjectAuthenticationScheme#ems_device_owner}
   */
   readonly emsDeviceOwner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#external_idp ObjectAuthenticationScheme#external_idp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#external_idp ObjectAuthenticationScheme#external_idp}
   */
   readonly externalIdp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#fsso_agent_for_ntlm ObjectAuthenticationScheme#fsso_agent_for_ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#fsso_agent_for_ntlm ObjectAuthenticationScheme#fsso_agent_for_ntlm}
   */
   readonly fssoAgentForNtlm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#fsso_guest ObjectAuthenticationScheme#fsso_guest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#fsso_guest ObjectAuthenticationScheme#fsso_guest}
   */
   readonly fssoGuest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#id ObjectAuthenticationScheme#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#group_attr_type ObjectAuthenticationScheme#group_attr_type}
+  */
+  readonly groupAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#id ObjectAuthenticationScheme#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#kerberos_keytab ObjectAuthenticationScheme#kerberos_keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#kerberos_keytab ObjectAuthenticationScheme#kerberos_keytab}
   */
   readonly kerberosKeytab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#method ObjectAuthenticationScheme#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#method ObjectAuthenticationScheme#method}
   */
   readonly method?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#name ObjectAuthenticationScheme#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#name ObjectAuthenticationScheme#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#negotiate_ntlm ObjectAuthenticationScheme#negotiate_ntlm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#negotiate_ntlm ObjectAuthenticationScheme#negotiate_ntlm}
   */
   readonly negotiateNtlm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#require_tfa ObjectAuthenticationScheme#require_tfa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#require_tfa ObjectAuthenticationScheme#require_tfa}
   */
   readonly requireTfa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#saml_server ObjectAuthenticationScheme#saml_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#saml_server ObjectAuthenticationScheme#saml_server}
   */
   readonly samlServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#saml_timeout ObjectAuthenticationScheme#saml_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#saml_timeout ObjectAuthenticationScheme#saml_timeout}
   */
   readonly samlTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#scopetype ObjectAuthenticationScheme#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#scopetype ObjectAuthenticationScheme#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#ssh_ca ObjectAuthenticationScheme#ssh_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#ssh_ca ObjectAuthenticationScheme#ssh_ca}
   */
   readonly sshCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#user_cert ObjectAuthenticationScheme#user_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#user_cert ObjectAuthenticationScheme#user_cert}
   */
   readonly userCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#user_database ObjectAuthenticationScheme#user_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#user_database ObjectAuthenticationScheme#user_database}
   */
   readonly userDatabase?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme fortimanager_object_authentication_scheme}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme fortimanager_object_authentication_scheme}
 */
 export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
 
@@ -101,7 +113,7 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectAuthenticationScheme resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAuthenticationScheme to import
-  * @param importFromId The id of the existing ObjectAuthenticationScheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAuthenticationScheme that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAuthenticationScheme to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +125,7 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_authentication_scheme fortimanager_object_authentication_scheme} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_authentication_scheme fortimanager_object_authentication_scheme} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +136,8 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_authentication_scheme',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -136,11 +148,14 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._adom = config.adom;
+    this._digestAlgo = config.digestAlgo;
+    this._digestRfc2069 = config.digestRfc2069;
     this._domainController = config.domainController;
     this._emsDeviceOwner = config.emsDeviceOwner;
     this._externalIdp = config.externalIdp;
     this._fssoAgentForNtlm = config.fssoAgentForNtlm;
     this._fssoGuest = config.fssoGuest;
+    this._groupAttrType = config.groupAttrType;
     this._id = config.id;
     this._kerberosKeytab = config.kerberosKeytab;
     this._method = config.method;
@@ -173,6 +188,38 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get adomInput() {
     return this._adom;
+  }
+
+  // digest_algo - computed: true, optional: true, required: false
+  private _digestAlgo?: string[]; 
+  public get digestAlgo() {
+    return cdktf.Fn.tolist(this.getListAttribute('digest_algo'));
+  }
+  public set digestAlgo(value: string[]) {
+    this._digestAlgo = value;
+  }
+  public resetDigestAlgo() {
+    this._digestAlgo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestAlgoInput() {
+    return this._digestAlgo;
+  }
+
+  // digest_rfc2069 - computed: false, optional: true, required: false
+  private _digestRfc2069?: string; 
+  public get digestRfc2069() {
+    return this.getStringAttribute('digest_rfc2069');
+  }
+  public set digestRfc2069(value: string) {
+    this._digestRfc2069 = value;
+  }
+  public resetDigestRfc2069() {
+    this._digestRfc2069 = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get digestRfc2069Input() {
+    return this._digestRfc2069;
   }
 
   // domain_controller - computed: false, optional: true, required: false
@@ -253,6 +300,22 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get fssoGuestInput() {
     return this._fssoGuest;
+  }
+
+  // group_attr_type - computed: false, optional: true, required: false
+  private _groupAttrType?: string; 
+  public get groupAttrType() {
+    return this.getStringAttribute('group_attr_type');
+  }
+  public set groupAttrType(value: string) {
+    this._groupAttrType = value;
+  }
+  public resetGroupAttrType() {
+    this._groupAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get groupAttrTypeInput() {
+    return this._groupAttrType;
   }
 
   // id - computed: true, optional: true, required: false
@@ -454,11 +517,14 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       adom: cdktf.stringToTerraform(this._adom),
+      digest_algo: cdktf.listMapper(cdktf.stringToTerraform, false)(this._digestAlgo),
+      digest_rfc2069: cdktf.stringToTerraform(this._digestRfc2069),
       domain_controller: cdktf.stringToTerraform(this._domainController),
       ems_device_owner: cdktf.stringToTerraform(this._emsDeviceOwner),
       external_idp: cdktf.listMapper(cdktf.stringToTerraform, false)(this._externalIdp),
       fsso_agent_for_ntlm: cdktf.stringToTerraform(this._fssoAgentForNtlm),
       fsso_guest: cdktf.stringToTerraform(this._fssoGuest),
+      group_attr_type: cdktf.stringToTerraform(this._groupAttrType),
       id: cdktf.stringToTerraform(this._id),
       kerberos_keytab: cdktf.stringToTerraform(this._kerberosKeytab),
       method: cdktf.listMapper(cdktf.stringToTerraform, false)(this._method),
@@ -478,6 +544,18 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
     const attrs = {
       adom: {
         value: cdktf.stringToHclTerraform(this._adom),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      digest_algo: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._digestAlgo),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      digest_rfc2069: {
+        value: cdktf.stringToHclTerraform(this._digestRfc2069),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -508,6 +586,12 @@ export class ObjectAuthenticationScheme extends cdktf.TerraformResource {
       },
       fsso_guest: {
         value: cdktf.stringToHclTerraform(this._fssoGuest),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      group_attr_type: {
+        value: cdktf.stringToHclTerraform(this._groupAttrType),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

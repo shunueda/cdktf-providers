@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,275 +8,275 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemDhcpServerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#adom ObjectSystemDhcpServer#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#adom ObjectSystemDhcpServer#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#auto_configuration ObjectSystemDhcpServer#auto_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#auto_configuration ObjectSystemDhcpServer#auto_configuration}
   */
   readonly autoConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#auto_managed_status ObjectSystemDhcpServer#auto_managed_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#auto_managed_status ObjectSystemDhcpServer#auto_managed_status}
   */
   readonly autoManagedStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#conflicted_ip_timeout ObjectSystemDhcpServer#conflicted_ip_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#conflicted_ip_timeout ObjectSystemDhcpServer#conflicted_ip_timeout}
   */
   readonly conflictedIpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_auth ObjectSystemDhcpServer#ddns_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_auth ObjectSystemDhcpServer#ddns_auth}
   */
   readonly ddnsAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_key ObjectSystemDhcpServer#ddns_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_key ObjectSystemDhcpServer#ddns_key}
   */
   readonly ddnsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_keyname ObjectSystemDhcpServer#ddns_keyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_keyname ObjectSystemDhcpServer#ddns_keyname}
   */
   readonly ddnsKeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_server_ip ObjectSystemDhcpServer#ddns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_server_ip ObjectSystemDhcpServer#ddns_server_ip}
   */
   readonly ddnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_ttl ObjectSystemDhcpServer#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_ttl ObjectSystemDhcpServer#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_update ObjectSystemDhcpServer#ddns_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_update ObjectSystemDhcpServer#ddns_update}
   */
   readonly ddnsUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_update_override ObjectSystemDhcpServer#ddns_update_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_update_override ObjectSystemDhcpServer#ddns_update_override}
   */
   readonly ddnsUpdateOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ddns_zone ObjectSystemDhcpServer#ddns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ddns_zone ObjectSystemDhcpServer#ddns_zone}
   */
   readonly ddnsZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#default_gateway ObjectSystemDhcpServer#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#default_gateway ObjectSystemDhcpServer#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dhcp_settings_from_fortiipam ObjectSystemDhcpServer#dhcp_settings_from_fortiipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dhcp_settings_from_fortiipam ObjectSystemDhcpServer#dhcp_settings_from_fortiipam}
   */
   readonly dhcpSettingsFromFortiipam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dns_server1 ObjectSystemDhcpServer#dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dns_server1 ObjectSystemDhcpServer#dns_server1}
   */
   readonly dnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dns_server2 ObjectSystemDhcpServer#dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dns_server2 ObjectSystemDhcpServer#dns_server2}
   */
   readonly dnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dns_server3 ObjectSystemDhcpServer#dns_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dns_server3 ObjectSystemDhcpServer#dns_server3}
   */
   readonly dnsServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dns_server4 ObjectSystemDhcpServer#dns_server4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dns_server4 ObjectSystemDhcpServer#dns_server4}
   */
   readonly dnsServer4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dns_service ObjectSystemDhcpServer#dns_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dns_service ObjectSystemDhcpServer#dns_service}
   */
   readonly dnsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#domain ObjectSystemDhcpServer#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#domain ObjectSystemDhcpServer#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#dynamic_sort_subtable ObjectSystemDhcpServer#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#dynamic_sort_subtable ObjectSystemDhcpServer#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#filename ObjectSystemDhcpServer#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#filename ObjectSystemDhcpServer#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#forticlient_on_net_status ObjectSystemDhcpServer#forticlient_on_net_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#forticlient_on_net_status ObjectSystemDhcpServer#forticlient_on_net_status}
   */
   readonly forticlientOnNetStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#fosid ObjectSystemDhcpServer#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#fosid ObjectSystemDhcpServer#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#interface ObjectSystemDhcpServer#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#interface ObjectSystemDhcpServer#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ip_mode ObjectSystemDhcpServer#ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ip_mode ObjectSystemDhcpServer#ip_mode}
   */
   readonly ipMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ipsec_lease_hold ObjectSystemDhcpServer#ipsec_lease_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ipsec_lease_hold ObjectSystemDhcpServer#ipsec_lease_hold}
   */
   readonly ipsecLeaseHold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#mac_acl_default_action ObjectSystemDhcpServer#mac_acl_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#mac_acl_default_action ObjectSystemDhcpServer#mac_acl_default_action}
   */
   readonly macAclDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#netmask ObjectSystemDhcpServer#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#netmask ObjectSystemDhcpServer#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#next_server ObjectSystemDhcpServer#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#next_server ObjectSystemDhcpServer#next_server}
   */
   readonly nextServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ntp_server1 ObjectSystemDhcpServer#ntp_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ntp_server1 ObjectSystemDhcpServer#ntp_server1}
   */
   readonly ntpServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ntp_server2 ObjectSystemDhcpServer#ntp_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ntp_server2 ObjectSystemDhcpServer#ntp_server2}
   */
   readonly ntpServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ntp_server3 ObjectSystemDhcpServer#ntp_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ntp_server3 ObjectSystemDhcpServer#ntp_server3}
   */
   readonly ntpServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ntp_service ObjectSystemDhcpServer#ntp_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ntp_service ObjectSystemDhcpServer#ntp_service}
   */
   readonly ntpService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#relay_agent ObjectSystemDhcpServer#relay_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#relay_agent ObjectSystemDhcpServer#relay_agent}
   */
   readonly relayAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#scopetype ObjectSystemDhcpServer#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#scopetype ObjectSystemDhcpServer#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#server_type ObjectSystemDhcpServer#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#server_type ObjectSystemDhcpServer#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#shared_subnet ObjectSystemDhcpServer#shared_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#shared_subnet ObjectSystemDhcpServer#shared_subnet}
   */
   readonly sharedSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#status ObjectSystemDhcpServer#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#status ObjectSystemDhcpServer#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#tftp_server ObjectSystemDhcpServer#tftp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#tftp_server ObjectSystemDhcpServer#tftp_server}
   */
   readonly tftpServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#timezone ObjectSystemDhcpServer#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#timezone ObjectSystemDhcpServer#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#timezone_option ObjectSystemDhcpServer#timezone_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#timezone_option ObjectSystemDhcpServer#timezone_option}
   */
   readonly timezoneOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
   */
   readonly vciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wifi_ac1 ObjectSystemDhcpServer#wifi_ac1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wifi_ac1 ObjectSystemDhcpServer#wifi_ac1}
   */
   readonly wifiAc1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wifi_ac2 ObjectSystemDhcpServer#wifi_ac2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wifi_ac2 ObjectSystemDhcpServer#wifi_ac2}
   */
   readonly wifiAc2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wifi_ac3 ObjectSystemDhcpServer#wifi_ac3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wifi_ac3 ObjectSystemDhcpServer#wifi_ac3}
   */
   readonly wifiAc3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wifi_ac_service ObjectSystemDhcpServer#wifi_ac_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wifi_ac_service ObjectSystemDhcpServer#wifi_ac_service}
   */
   readonly wifiAcService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wins_server1 ObjectSystemDhcpServer#wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wins_server1 ObjectSystemDhcpServer#wins_server1}
   */
   readonly winsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#wins_server2 ObjectSystemDhcpServer#wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#wins_server2 ObjectSystemDhcpServer#wins_server2}
   */
   readonly winsServer2?: string;
   /**
   * exclude_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#exclude_range ObjectSystemDhcpServer#exclude_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#exclude_range ObjectSystemDhcpServer#exclude_range}
   */
   readonly excludeRange?: ObjectSystemDhcpServerExcludeRange[] | cdktf.IResolvable;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ip_range ObjectSystemDhcpServer#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ip_range ObjectSystemDhcpServer#ip_range}
   */
   readonly ipRange?: ObjectSystemDhcpServerIpRange[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#options ObjectSystemDhcpServer#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#options ObjectSystemDhcpServer#options}
   */
   readonly options?: ObjectSystemDhcpServerOptions[] | cdktf.IResolvable;
   /**
   * reserved_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#reserved_address ObjectSystemDhcpServer#reserved_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#reserved_address ObjectSystemDhcpServer#reserved_address}
   */
   readonly reservedAddress?: ObjectSystemDhcpServerReservedAddress[] | cdktf.IResolvable;
 }
 export interface ObjectSystemDhcpServerExcludeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#end_ip ObjectSystemDhcpServer#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#end_ip ObjectSystemDhcpServer#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#start_ip ObjectSystemDhcpServer#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#start_ip ObjectSystemDhcpServer#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -595,38 +595,38 @@ export class ObjectSystemDhcpServerExcludeRangeList extends cdktf.ComplexList {
 }
 export interface ObjectSystemDhcpServerIpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#end_ip ObjectSystemDhcpServer#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#end_ip ObjectSystemDhcpServer#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#lease_time ObjectSystemDhcpServer#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#start_ip ObjectSystemDhcpServer#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#start_ip ObjectSystemDhcpServer#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -945,42 +945,42 @@ export class ObjectSystemDhcpServerIpRangeList extends cdktf.ComplexList {
 }
 export interface ObjectSystemDhcpServerOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#code ObjectSystemDhcpServer#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#code ObjectSystemDhcpServer#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ip ObjectSystemDhcpServer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ip ObjectSystemDhcpServer#ip}
   */
   readonly ip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#type ObjectSystemDhcpServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#type ObjectSystemDhcpServer#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_match ObjectSystemDhcpServer#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#uci_string ObjectSystemDhcpServer#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#value ObjectSystemDhcpServer#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#value ObjectSystemDhcpServer#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_match ObjectSystemDhcpServer#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#vci_string ObjectSystemDhcpServer#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -1328,46 +1328,46 @@ export class ObjectSystemDhcpServerOptionsList extends cdktf.ComplexList {
 }
 export interface ObjectSystemDhcpServerReservedAddress {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#action ObjectSystemDhcpServer#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#action ObjectSystemDhcpServer#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#circuit_id ObjectSystemDhcpServer#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#circuit_id ObjectSystemDhcpServer#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#circuit_id_type ObjectSystemDhcpServer#circuit_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#circuit_id_type ObjectSystemDhcpServer#circuit_id_type}
   */
   readonly circuitIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#description ObjectSystemDhcpServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#description ObjectSystemDhcpServer#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#id ObjectSystemDhcpServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#ip ObjectSystemDhcpServer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#ip ObjectSystemDhcpServer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#mac ObjectSystemDhcpServer#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#mac ObjectSystemDhcpServer#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#remote_id ObjectSystemDhcpServer#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#remote_id ObjectSystemDhcpServer#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#remote_id_type ObjectSystemDhcpServer#remote_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#remote_id_type ObjectSystemDhcpServer#remote_id_type}
   */
   readonly remoteIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#type ObjectSystemDhcpServer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#type ObjectSystemDhcpServer#type}
   */
   readonly type?: string;
 }
@@ -1744,7 +1744,7 @@ export class ObjectSystemDhcpServerReservedAddressList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server fortimanager_object_system_dhcp_server}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server fortimanager_object_system_dhcp_server}
 */
 export class ObjectSystemDhcpServer extends cdktf.TerraformResource {
 
@@ -1760,7 +1760,7 @@ export class ObjectSystemDhcpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemDhcpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemDhcpServer to import
-  * @param importFromId The id of the existing ObjectSystemDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemDhcpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemDhcpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1772,7 +1772,7 @@ export class ObjectSystemDhcpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_dhcp_server fortimanager_object_system_dhcp_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_dhcp_server fortimanager_object_system_dhcp_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1783,8 +1783,8 @@ export class ObjectSystemDhcpServer extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_dhcp_server',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

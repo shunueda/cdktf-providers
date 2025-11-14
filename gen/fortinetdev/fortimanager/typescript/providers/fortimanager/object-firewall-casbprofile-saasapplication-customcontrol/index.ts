@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallCasbprofileSaasapplicationCustomcontrolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#adom ObjectFirewallCasbprofileSaasapplicationCustomcontrol#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#adom ObjectFirewallCasbprofileSaasapplicationCustomcontrol#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#casb_profile ObjectFirewallCasbprofileSaasapplicationCustomcontrol#casb_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#casb_profile ObjectFirewallCasbprofileSaasapplicationCustomcontrol#casb_profile}
   */
   readonly casbProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#dynamic_sort_subtable ObjectFirewallCasbprofileSaasapplicationCustomcontrol#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#dynamic_sort_subtable ObjectFirewallCasbprofileSaasapplicationCustomcontrol#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#id ObjectFirewallCasbprofileSaasapplicationCustomcontrol#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#id ObjectFirewallCasbprofileSaasapplicationCustomcontrol#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#name ObjectFirewallCasbprofileSaasapplicationCustomcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#name ObjectFirewallCasbprofileSaasapplicationCustomcontrol#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#saas_application ObjectFirewallCasbprofileSaasapplicationCustomcontrol#saas_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#saas_application ObjectFirewallCasbprofileSaasapplicationCustomcontrol#saas_application}
   */
   readonly saasApplication: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#scopetype ObjectFirewallCasbprofileSaasapplicationCustomcontrol#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#scopetype ObjectFirewallCasbprofileSaasapplicationCustomcontrol#scopetype}
   */
   readonly scopetype?: string;
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#option ObjectFirewallCasbprofileSaasapplicationCustomcontrol#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#option ObjectFirewallCasbprofileSaasapplicationCustomcontrol#option}
   */
   readonly option?: ObjectFirewallCasbprofileSaasapplicationCustomcontrolOption[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallCasbprofileSaasapplicationCustomcontrolOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#name ObjectFirewallCasbprofileSaasapplicationCustomcontrol#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#name ObjectFirewallCasbprofileSaasapplicationCustomcontrol#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#user_input ObjectFirewallCasbprofileSaasapplicationCustomcontrol#user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#user_input ObjectFirewallCasbprofileSaasapplicationCustomcontrol#user_input}
   */
   readonly userInput?: string[];
 }
@@ -196,7 +196,7 @@ export class ObjectFirewallCasbprofileSaasapplicationCustomcontrolOptionList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol fortimanager_object_firewall_casbprofile_saasapplication_customcontrol}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol fortimanager_object_firewall_casbprofile_saasapplication_customcontrol}
 */
 export class ObjectFirewallCasbprofileSaasapplicationCustomcontrol extends cdktf.TerraformResource {
 
@@ -212,7 +212,7 @@ export class ObjectFirewallCasbprofileSaasapplicationCustomcontrol extends cdktf
   * Generates CDKTF code for importing a ObjectFirewallCasbprofileSaasapplicationCustomcontrol resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallCasbprofileSaasapplicationCustomcontrol to import
-  * @param importFromId The id of the existing ObjectFirewallCasbprofileSaasapplicationCustomcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallCasbprofileSaasapplicationCustomcontrol that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallCasbprofileSaasapplicationCustomcontrol to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -224,7 +224,7 @@ export class ObjectFirewallCasbprofileSaasapplicationCustomcontrol extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol fortimanager_object_firewall_casbprofile_saasapplication_customcontrol} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_customcontrol fortimanager_object_firewall_casbprofile_saasapplication_customcontrol} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -235,8 +235,8 @@ export class ObjectFirewallCasbprofileSaasapplicationCustomcontrol extends cdktf
       terraformResourceType: 'fortimanager_object_firewall_casbprofile_saasapplication_customcontrol',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

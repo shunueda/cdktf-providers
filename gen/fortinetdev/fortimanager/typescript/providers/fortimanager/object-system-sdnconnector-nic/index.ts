@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemSdnconnectorNicAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#adom ObjectSystemSdnconnectorNicA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#adom ObjectSystemSdnconnectorNicA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#dynamic_sort_subtable ObjectSystemSdnconnectorNicA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#dynamic_sort_subtable ObjectSystemSdnconnectorNicA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#id ObjectSystemSdnconnectorNicA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#id ObjectSystemSdnconnectorNicA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#name ObjectSystemSdnconnectorNicA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#name ObjectSystemSdnconnectorNicA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#peer_nic ObjectSystemSdnconnectorNicA#peer_nic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#peer_nic ObjectSystemSdnconnectorNicA#peer_nic}
   */
   readonly peerNic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#scopetype ObjectSystemSdnconnectorNicA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#scopetype ObjectSystemSdnconnectorNicA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#sdn_connector ObjectSystemSdnconnectorNicA#sdn_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#sdn_connector ObjectSystemSdnconnectorNicA#sdn_connector}
   */
   readonly sdnConnector: string;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#ip ObjectSystemSdnconnectorNicA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#ip ObjectSystemSdnconnectorNicA#ip}
   */
   readonly ip?: ObjectSystemSdnconnectorNicIpA[] | cdktf.IResolvable;
 }
 export interface ObjectSystemSdnconnectorNicIpA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#name ObjectSystemSdnconnectorNicA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#name ObjectSystemSdnconnectorNicA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#private_ip ObjectSystemSdnconnectorNicA#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#private_ip ObjectSystemSdnconnectorNicA#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#public_ip ObjectSystemSdnconnectorNicA#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#public_ip ObjectSystemSdnconnectorNicA#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#resource_group ObjectSystemSdnconnectorNicA#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#resource_group ObjectSystemSdnconnectorNicA#resource_group}
   */
   readonly resourceGroup?: string;
 }
@@ -262,7 +262,7 @@ export class ObjectSystemSdnconnectorNicIpAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic fortimanager_object_system_sdnconnector_nic}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic fortimanager_object_system_sdnconnector_nic}
 */
 export class ObjectSystemSdnconnectorNicA extends cdktf.TerraformResource {
 
@@ -278,7 +278,7 @@ export class ObjectSystemSdnconnectorNicA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemSdnconnectorNicA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemSdnconnectorNicA to import
-  * @param importFromId The id of the existing ObjectSystemSdnconnectorNicA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemSdnconnectorNicA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemSdnconnectorNicA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -290,7 +290,7 @@ export class ObjectSystemSdnconnectorNicA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_sdnconnector_nic fortimanager_object_system_sdnconnector_nic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_sdnconnector_nic fortimanager_object_system_sdnconnector_nic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -301,8 +301,8 @@ export class ObjectSystemSdnconnectorNicA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_sdnconnector_nic',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

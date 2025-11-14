@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWafProfileConstraintMaxurlparamConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#action ObjectWafProfileConstraintMaxurlparam#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#action ObjectWafProfileConstraintMaxurlparam#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#adom ObjectWafProfileConstraintMaxurlparam#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#adom ObjectWafProfileConstraintMaxurlparam#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#id ObjectWafProfileConstraintMaxurlparam#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#id ObjectWafProfileConstraintMaxurlparam#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#log ObjectWafProfileConstraintMaxurlparam#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#log ObjectWafProfileConstraintMaxurlparam#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#max_url_param ObjectWafProfileConstraintMaxurlparam#max_url_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#max_url_param ObjectWafProfileConstraintMaxurlparam#max_url_param}
   */
   readonly maxUrlParam?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#profile ObjectWafProfileConstraintMaxurlparam#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#profile ObjectWafProfileConstraintMaxurlparam#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#scopetype ObjectWafProfileConstraintMaxurlparam#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#scopetype ObjectWafProfileConstraintMaxurlparam#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#severity ObjectWafProfileConstraintMaxurlparam#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#severity ObjectWafProfileConstraintMaxurlparam#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#status ObjectWafProfileConstraintMaxurlparam#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#status ObjectWafProfileConstraintMaxurlparam#status}
   */
   readonly status?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam fortimanager_object_waf_profile_constraint_maxurlparam}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam fortimanager_object_waf_profile_constraint_maxurlparam}
 */
 export class ObjectWafProfileConstraintMaxurlparam extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ObjectWafProfileConstraintMaxurlparam extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ObjectWafProfileConstraintMaxurlparam resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWafProfileConstraintMaxurlparam to import
-  * @param importFromId The id of the existing ObjectWafProfileConstraintMaxurlparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWafProfileConstraintMaxurlparam that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWafProfileConstraintMaxurlparam to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ObjectWafProfileConstraintMaxurlparam extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_waf_profile_constraint_maxurlparam fortimanager_object_waf_profile_constraint_maxurlparam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_waf_profile_constraint_maxurlparam fortimanager_object_waf_profile_constraint_maxurlparam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ObjectWafProfileConstraintMaxurlparam extends cdktf.TerraformResour
       terraformResourceType: 'fortimanager_object_waf_profile_constraint_maxurlparam',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

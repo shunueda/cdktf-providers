@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtendercontrollerSimProfileAutoswitchProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#adom ObjectExtendercontrollerSimProfileAutoswitchProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#adom ObjectExtendercontrollerSimProfileAutoswitchProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#dataplan ObjectExtendercontrollerSimProfileAutoswitchProfile#dataplan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#dataplan ObjectExtendercontrollerSimProfileAutoswitchProfile#dataplan}
   */
   readonly dataplan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect}
   */
   readonly disconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect_period ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect_period ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect_period}
   */
   readonly disconnectPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect_threshold ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#disconnect_threshold ObjectExtendercontrollerSimProfileAutoswitchProfile#disconnect_threshold}
   */
   readonly disconnectThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#id ObjectExtendercontrollerSimProfileAutoswitchProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#id ObjectExtendercontrollerSimProfileAutoswitchProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#scopetype ObjectExtendercontrollerSimProfileAutoswitchProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#scopetype ObjectExtendercontrollerSimProfileAutoswitchProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#signal ObjectExtendercontrollerSimProfileAutoswitchProfile#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#signal ObjectExtendercontrollerSimProfileAutoswitchProfile#signal}
   */
   readonly signal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#sim_profile ObjectExtendercontrollerSimProfileAutoswitchProfile#sim_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#sim_profile ObjectExtendercontrollerSimProfileAutoswitchProfile#sim_profile}
   */
   readonly simProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#status ObjectExtendercontrollerSimProfileAutoswitchProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#status ObjectExtendercontrollerSimProfileAutoswitchProfile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back}
   */
   readonly switchBack?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back_time ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back_time ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back_time}
   */
   readonly switchBackTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back_timer ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#switch_back_timer ObjectExtendercontrollerSimProfileAutoswitchProfile#switch_back_timer}
   */
   readonly switchBackTimer?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile fortimanager_object_extendercontroller_sim_profile_autoswitch_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile fortimanager_object_extendercontroller_sim_profile_autoswitch_profile}
 */
 export class ObjectExtendercontrollerSimProfileAutoswitchProfile extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectExtendercontrollerSimProfileAutoswitchProfile extends cdktf.T
   * Generates CDKTF code for importing a ObjectExtendercontrollerSimProfileAutoswitchProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtendercontrollerSimProfileAutoswitchProfile to import
-  * @param importFromId The id of the existing ObjectExtendercontrollerSimProfileAutoswitchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtendercontrollerSimProfileAutoswitchProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtendercontrollerSimProfileAutoswitchProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectExtendercontrollerSimProfileAutoswitchProfile extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile fortimanager_object_extendercontroller_sim_profile_autoswitch_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_sim_profile_autoswitch_profile fortimanager_object_extendercontroller_sim_profile_autoswitch_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectExtendercontrollerSimProfileAutoswitchProfile extends cdktf.T
       terraformResourceType: 'fortimanager_object_extendercontroller_sim_profile_autoswitch_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface IosDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Secure Device Connector (SDC) that will be used to communicate with the device. This value is not required if the connector type selected is Cloud Device Gateway (CDG).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#connector_name IosDevice#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#connector_name IosDevice#connector_name}
   */
   readonly connectorName: string;
   /**
   * Specify a set of grouped labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#grouped_labels IosDevice#grouped_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#grouped_labels IosDevice#grouped_labels}
   */
   readonly groupedLabels?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Set this attribute to true if you do not want CDO to validate the certificate of this device before onboarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#ignore_certificate IosDevice#ignore_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#ignore_certificate IosDevice#ignore_certificate}
   */
   readonly ignoreCertificate: boolean | cdktf.IResolvable;
   /**
   * Specify a set of labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#labels IosDevice#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#labels IosDevice#labels}
   */
   readonly labels?: string[];
   /**
   * A human-readable name for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#name IosDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#name IosDevice#name}
   */
   readonly name: string;
   /**
   * The password used to authenticate with the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#password IosDevice#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#password IosDevice#password}
   */
   readonly password: string;
   /**
   * The address of the device to onboard, specified in the format `host:port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#socket_address IosDevice#socket_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#socket_address IosDevice#socket_address}
   */
   readonly socketAddress: string;
   /**
   * The username used to authenticate with the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#username IosDevice#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#username IosDevice#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device sccfm_ios_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device sccfm_ios_device}
 */
 export class IosDevice extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class IosDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IosDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IosDevice to import
-  * @param importFromId The id of the existing IosDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IosDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IosDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class IosDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ios_device sccfm_ios_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ios_device sccfm_ios_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class IosDevice extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_ios_device',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

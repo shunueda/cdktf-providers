@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityconsoleAssignPackageConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#dynamic_sort_subtable SecurityconsoleAssignPackage#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#dynamic_sort_subtable SecurityconsoleAssignPackage#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#flags SecurityconsoleAssignPackage#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#flags SecurityconsoleAssignPackage#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#force_recreate SecurityconsoleAssignPackage#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#force_recreate SecurityconsoleAssignPackage#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#id SecurityconsoleAssignPackage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#id SecurityconsoleAssignPackage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#pkg SecurityconsoleAssignPackage#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#pkg SecurityconsoleAssignPackage#pkg}
   */
   readonly pkg?: string;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#target SecurityconsoleAssignPackage#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#target SecurityconsoleAssignPackage#target}
   */
   readonly target?: SecurityconsoleAssignPackageTarget[] | cdktf.IResolvable;
 }
 export interface SecurityconsoleAssignPackageTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#adom SecurityconsoleAssignPackage#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#adom SecurityconsoleAssignPackage#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#excluded SecurityconsoleAssignPackage#excluded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#excluded SecurityconsoleAssignPackage#excluded}
   */
   readonly excluded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#pkg SecurityconsoleAssignPackage#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#pkg SecurityconsoleAssignPackage#pkg}
   */
   readonly pkg?: string;
 }
@@ -221,7 +221,7 @@ export class SecurityconsoleAssignPackageTargetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package fortimanager_securityconsole_assign_package}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package fortimanager_securityconsole_assign_package}
 */
 export class SecurityconsoleAssignPackage extends cdktf.TerraformResource {
 
@@ -237,7 +237,7 @@ export class SecurityconsoleAssignPackage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityconsoleAssignPackage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityconsoleAssignPackage to import
-  * @param importFromId The id of the existing SecurityconsoleAssignPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityconsoleAssignPackage that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityconsoleAssignPackage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -249,7 +249,7 @@ export class SecurityconsoleAssignPackage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_assign_package fortimanager_securityconsole_assign_package} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_assign_package fortimanager_securityconsole_assign_package} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -260,8 +260,8 @@ export class SecurityconsoleAssignPackage extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_securityconsole_assign_package',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

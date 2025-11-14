@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnSslWebHostchecksoftwareCheckitemlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#action ObjectVpnSslWebHostchecksoftwareCheckitemlist#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#action ObjectVpnSslWebHostchecksoftwareCheckitemlist#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#adom ObjectVpnSslWebHostchecksoftwareCheckitemlist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#adom ObjectVpnSslWebHostchecksoftwareCheckitemlist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#fosid ObjectVpnSslWebHostchecksoftwareCheckitemlist#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#fosid ObjectVpnSslWebHostchecksoftwareCheckitemlist#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#host_check_software ObjectVpnSslWebHostchecksoftwareCheckitemlist#host_check_software}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#host_check_software ObjectVpnSslWebHostchecksoftwareCheckitemlist#host_check_software}
   */
   readonly hostCheckSoftware: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#id ObjectVpnSslWebHostchecksoftwareCheckitemlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#id ObjectVpnSslWebHostchecksoftwareCheckitemlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#md5s ObjectVpnSslWebHostchecksoftwareCheckitemlist#md5s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#md5s ObjectVpnSslWebHostchecksoftwareCheckitemlist#md5s}
   */
   readonly md5S?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#scopetype ObjectVpnSslWebHostchecksoftwareCheckitemlist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#scopetype ObjectVpnSslWebHostchecksoftwareCheckitemlist#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#target ObjectVpnSslWebHostchecksoftwareCheckitemlist#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#target ObjectVpnSslWebHostchecksoftwareCheckitemlist#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#type ObjectVpnSslWebHostchecksoftwareCheckitemlist#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#type ObjectVpnSslWebHostchecksoftwareCheckitemlist#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#version ObjectVpnSslWebHostchecksoftwareCheckitemlist#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#version ObjectVpnSslWebHostchecksoftwareCheckitemlist#version}
   */
   readonly version?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist fortimanager_object_vpn_ssl_web_hostchecksoftware_checkitemlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist fortimanager_object_vpn_ssl_web_hostchecksoftware_checkitemlist}
 */
 export class ObjectVpnSslWebHostchecksoftwareCheckitemlist extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ObjectVpnSslWebHostchecksoftwareCheckitemlist extends cdktf.Terrafo
   * Generates CDKTF code for importing a ObjectVpnSslWebHostchecksoftwareCheckitemlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnSslWebHostchecksoftwareCheckitemlist to import
-  * @param importFromId The id of the existing ObjectVpnSslWebHostchecksoftwareCheckitemlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnSslWebHostchecksoftwareCheckitemlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnSslWebHostchecksoftwareCheckitemlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ObjectVpnSslWebHostchecksoftwareCheckitemlist extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist fortimanager_object_vpn_ssl_web_hostchecksoftware_checkitemlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_hostchecksoftware_checkitemlist fortimanager_object_vpn_ssl_web_hostchecksoftware_checkitemlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ObjectVpnSslWebHostchecksoftwareCheckitemlist extends cdktf.Terrafo
       terraformResourceType: 'fortimanager_object_vpn_ssl_web_hostchecksoftware_checkitemlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

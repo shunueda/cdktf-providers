@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SystempSystemCentralmanagementServerlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#addr_type SystempSystemCentralmanagementServerlist#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#addr_type SystempSystemCentralmanagementServerlist#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#adom SystempSystemCentralmanagementServerlist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#adom SystempSystemCentralmanagementServerlist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#devprof SystempSystemCentralmanagementServerlist#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#devprof SystempSystemCentralmanagementServerlist#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#fosid SystempSystemCentralmanagementServerlist#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#fosid SystempSystemCentralmanagementServerlist#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#fqdn SystempSystemCentralmanagementServerlist#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#fqdn SystempSystemCentralmanagementServerlist#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#id SystempSystemCentralmanagementServerlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#id SystempSystemCentralmanagementServerlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#scopetype SystempSystemCentralmanagementServerlist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#scopetype SystempSystemCentralmanagementServerlist#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#server_address SystempSystemCentralmanagementServerlist#server_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#server_address SystempSystemCentralmanagementServerlist#server_address}
   */
   readonly serverAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#server_address6 SystempSystemCentralmanagementServerlist#server_address6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#server_address6 SystempSystemCentralmanagementServerlist#server_address6}
   */
   readonly serverAddress6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#server_type SystempSystemCentralmanagementServerlist#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#server_type SystempSystemCentralmanagementServerlist#server_type}
   */
   readonly serverType?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist fortimanager_systemp_system_centralmanagement_serverlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist fortimanager_systemp_system_centralmanagement_serverlist}
 */
 export class SystempSystemCentralmanagementServerlist extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SystempSystemCentralmanagementServerlist extends cdktf.TerraformRes
   * Generates CDKTF code for importing a SystempSystemCentralmanagementServerlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempSystemCentralmanagementServerlist to import
-  * @param importFromId The id of the existing SystempSystemCentralmanagementServerlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempSystemCentralmanagementServerlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempSystemCentralmanagementServerlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SystempSystemCentralmanagementServerlist extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_centralmanagement_serverlist fortimanager_systemp_system_centralmanagement_serverlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_centralmanagement_serverlist fortimanager_systemp_system_centralmanagement_serverlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SystempSystemCentralmanagementServerlist extends cdktf.TerraformRes
       terraformResourceType: 'fortimanager_systemp_system_centralmanagement_serverlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

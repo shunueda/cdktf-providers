@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSctpfilterProfilePpidfiltersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#action ObjectSctpfilterProfilePpidfilters#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#action ObjectSctpfilterProfilePpidfilters#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#adom ObjectSctpfilterProfilePpidfilters#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#adom ObjectSctpfilterProfilePpidfilters#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#comment ObjectSctpfilterProfilePpidfilters#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#comment ObjectSctpfilterProfilePpidfilters#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#fosid ObjectSctpfilterProfilePpidfilters#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#fosid ObjectSctpfilterProfilePpidfilters#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#id ObjectSctpfilterProfilePpidfilters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#id ObjectSctpfilterProfilePpidfilters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#ppid ObjectSctpfilterProfilePpidfilters#ppid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#ppid ObjectSctpfilterProfilePpidfilters#ppid}
   */
   readonly ppid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#profile ObjectSctpfilterProfilePpidfilters#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#profile ObjectSctpfilterProfilePpidfilters#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#scopetype ObjectSctpfilterProfilePpidfilters#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#scopetype ObjectSctpfilterProfilePpidfilters#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters fortimanager_object_sctpfilter_profile_ppidfilters}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters fortimanager_object_sctpfilter_profile_ppidfilters}
 */
 export class ObjectSctpfilterProfilePpidfilters extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectSctpfilterProfilePpidfilters extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectSctpfilterProfilePpidfilters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSctpfilterProfilePpidfilters to import
-  * @param importFromId The id of the existing ObjectSctpfilterProfilePpidfilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSctpfilterProfilePpidfilters that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSctpfilterProfilePpidfilters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectSctpfilterProfilePpidfilters extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_sctpfilter_profile_ppidfilters fortimanager_object_sctpfilter_profile_ppidfilters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_sctpfilter_profile_ppidfilters fortimanager_object_sctpfilter_profile_ppidfilters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectSctpfilterProfilePpidfilters extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_sctpfilter_profile_ppidfilters',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

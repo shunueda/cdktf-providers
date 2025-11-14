@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxy6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#add_vhost_domain_to_dnsdb ObjectFirewallAccessproxy6#add_vhost_domain_to_dnsdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#add_vhost_domain_to_dnsdb ObjectFirewallAccessproxy6#add_vhost_domain_to_dnsdb}
   */
   readonly addVhostDomainToDnsdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#adom ObjectFirewallAccessproxy6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#adom ObjectFirewallAccessproxy6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#auth_portal ObjectFirewallAccessproxy6#auth_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#auth_portal ObjectFirewallAccessproxy6#auth_portal}
   */
   readonly authPortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#auth_virtual_host ObjectFirewallAccessproxy6#auth_virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#auth_virtual_host ObjectFirewallAccessproxy6#auth_virtual_host}
   */
   readonly authVirtualHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#client_cert ObjectFirewallAccessproxy6#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#client_cert ObjectFirewallAccessproxy6#client_cert}
   */
   readonly clientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#decrypted_traffic_mirror ObjectFirewallAccessproxy6#decrypted_traffic_mirror}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#decrypted_traffic_mirror ObjectFirewallAccessproxy6#decrypted_traffic_mirror}
   */
   readonly decryptedTrafficMirror?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#dynamic_sort_subtable ObjectFirewallAccessproxy6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#dynamic_sort_subtable ObjectFirewallAccessproxy6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#empty_cert_action ObjectFirewallAccessproxy6#empty_cert_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#empty_cert_action ObjectFirewallAccessproxy6#empty_cert_action}
   */
   readonly emptyCertAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_supported_max_version ObjectFirewallAccessproxy6#http_supported_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_supported_max_version ObjectFirewallAccessproxy6#http_supported_max_version}
   */
   readonly httpSupportedMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#log_blocked_traffic ObjectFirewallAccessproxy6#log_blocked_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#log_blocked_traffic ObjectFirewallAccessproxy6#log_blocked_traffic}
   */
   readonly logBlockedTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#name ObjectFirewallAccessproxy6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#name ObjectFirewallAccessproxy6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#scopetype ObjectFirewallAccessproxy6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#scopetype ObjectFirewallAccessproxy6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#svr_pool_multiplex ObjectFirewallAccessproxy6#svr_pool_multiplex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#svr_pool_multiplex ObjectFirewallAccessproxy6#svr_pool_multiplex}
   */
   readonly svrPoolMultiplex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#svr_pool_server_max_concurrent_request ObjectFirewallAccessproxy6#svr_pool_server_max_concurrent_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#svr_pool_server_max_concurrent_request ObjectFirewallAccessproxy6#svr_pool_server_max_concurrent_request}
   */
   readonly svrPoolServerMaxConcurrentRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#svr_pool_server_max_request ObjectFirewallAccessproxy6#svr_pool_server_max_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#svr_pool_server_max_request ObjectFirewallAccessproxy6#svr_pool_server_max_request}
   */
   readonly svrPoolServerMaxRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#svr_pool_ttl ObjectFirewallAccessproxy6#svr_pool_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#svr_pool_ttl ObjectFirewallAccessproxy6#svr_pool_ttl}
   */
   readonly svrPoolTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#user_agent_detect ObjectFirewallAccessproxy6#user_agent_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#user_agent_detect ObjectFirewallAccessproxy6#user_agent_detect}
   */
   readonly userAgentDetect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#vip ObjectFirewallAccessproxy6#vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#vip ObjectFirewallAccessproxy6#vip}
   */
   readonly vip?: string;
   /**
   * api_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#api_gateway ObjectFirewallAccessproxy6#api_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#api_gateway ObjectFirewallAccessproxy6#api_gateway}
   */
   readonly apiGateway?: ObjectFirewallAccessproxy6ApiGateway[] | cdktf.IResolvable;
   /**
   * api_gateway6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#api_gateway6 ObjectFirewallAccessproxy6#api_gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#api_gateway6 ObjectFirewallAccessproxy6#api_gateway6}
   */
   readonly apiGateway6?: ObjectFirewallAccessproxy6ApiGateway6[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAccessproxy6ApiGatewayQuic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ack_delay_exponent ObjectFirewallAccessproxy6#ack_delay_exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ack_delay_exponent ObjectFirewallAccessproxy6#ack_delay_exponent}
   */
   readonly ackDelayExponent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#active_connection_id_limit ObjectFirewallAccessproxy6#active_connection_id_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#active_connection_id_limit ObjectFirewallAccessproxy6#active_connection_id_limit}
   */
   readonly activeConnectionIdLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#active_migration ObjectFirewallAccessproxy6#active_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#active_migration ObjectFirewallAccessproxy6#active_migration}
   */
   readonly activeMigration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#grease_quic_bit ObjectFirewallAccessproxy6#grease_quic_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#grease_quic_bit ObjectFirewallAccessproxy6#grease_quic_bit}
   */
   readonly greaseQuicBit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_ack_delay ObjectFirewallAccessproxy6#max_ack_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_ack_delay ObjectFirewallAccessproxy6#max_ack_delay}
   */
   readonly maxAckDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_datagram_frame_size ObjectFirewallAccessproxy6#max_datagram_frame_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_datagram_frame_size ObjectFirewallAccessproxy6#max_datagram_frame_size}
   */
   readonly maxDatagramFrameSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_idle_timeout ObjectFirewallAccessproxy6#max_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_idle_timeout ObjectFirewallAccessproxy6#max_idle_timeout}
   */
   readonly maxIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_udp_payload_size ObjectFirewallAccessproxy6#max_udp_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_udp_payload_size ObjectFirewallAccessproxy6#max_udp_payload_size}
   */
   readonly maxUdpPayloadSize?: number;
 }
@@ -416,86 +416,90 @@ export class ObjectFirewallAccessproxy6ApiGatewayQuicOutputReference extends cdk
 }
 export interface ObjectFirewallAccessproxy6ApiGatewayRealservers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#addr_type ObjectFirewallAccessproxy6#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#addr_type ObjectFirewallAccessproxy6#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#address ObjectFirewallAccessproxy6#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#address ObjectFirewallAccessproxy6#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#domain ObjectFirewallAccessproxy6#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#domain ObjectFirewallAccessproxy6#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#external_auth ObjectFirewallAccessproxy6#external_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#external_auth ObjectFirewallAccessproxy6#external_auth}
   */
   readonly externalAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#health_check ObjectFirewallAccessproxy6#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#health_check ObjectFirewallAccessproxy6#health_check}
   */
   readonly healthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#health_check_proto ObjectFirewallAccessproxy6#health_check_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#health_check_proto ObjectFirewallAccessproxy6#health_check_proto}
   */
   readonly healthCheckProto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#holddown_interval ObjectFirewallAccessproxy6#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#holddown_interval ObjectFirewallAccessproxy6#holddown_interval}
   */
   readonly holddownInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_host ObjectFirewallAccessproxy6#http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_host ObjectFirewallAccessproxy6#http_host}
   */
   readonly httpHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ip ObjectFirewallAccessproxy6#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ip ObjectFirewallAccessproxy6#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#mappedport ObjectFirewallAccessproxy6#mappedport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#mappedport ObjectFirewallAccessproxy6#mappedport}
   */
   readonly mappedport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#port ObjectFirewallAccessproxy6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#port ObjectFirewallAccessproxy6#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_client_cert ObjectFirewallAccessproxy6#ssh_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_client_cert ObjectFirewallAccessproxy6#ssh_client_cert}
   */
   readonly sshClientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_host_key ObjectFirewallAccessproxy6#ssh_host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_host_key ObjectFirewallAccessproxy6#ssh_host_key}
   */
   readonly sshHostKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_host_key_validation ObjectFirewallAccessproxy6#ssh_host_key_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_host_key_validation ObjectFirewallAccessproxy6#ssh_host_key_validation}
   */
   readonly sshHostKeyValidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#status ObjectFirewallAccessproxy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#status ObjectFirewallAccessproxy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#translate_host ObjectFirewallAccessproxy6#translate_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#translate_host ObjectFirewallAccessproxy6#translate_host}
   */
   readonly translateHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#tunnel_encryption ObjectFirewallAccessproxy6#tunnel_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#tunnel_encryption ObjectFirewallAccessproxy6#tunnel_encryption}
   */
   readonly tunnelEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#type ObjectFirewallAccessproxy6#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#type ObjectFirewallAccessproxy6#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#weight ObjectFirewallAccessproxy6#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#verify_cert ObjectFirewallAccessproxy6#verify_cert}
+  */
+  readonly verifyCert?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#weight ObjectFirewallAccessproxy6#weight}
   */
   readonly weight?: number;
 }
@@ -525,6 +529,7 @@ export function objectFirewallAccessproxy6ApiGatewayRealserversToTerraform(struc
     translate_host: cdktf.stringToTerraform(struct!.translateHost),
     tunnel_encryption: cdktf.stringToTerraform(struct!.tunnelEncryption),
     type: cdktf.stringToTerraform(struct!.type),
+    verify_cert: cdktf.stringToTerraform(struct!.verifyCert),
     weight: cdktf.numberToTerraform(struct!.weight),
   }
 }
@@ -650,6 +655,12 @@ export function objectFirewallAccessproxy6ApiGatewayRealserversToHclTerraform(st
       type: "simple",
       storageClassType: "string",
     },
+    verify_cert: {
+      value: cdktf.stringToHclTerraform(struct!.verifyCert),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     weight: {
       value: cdktf.numberToHclTerraform(struct!.weight),
       isBlock: false,
@@ -758,6 +769,10 @@ export class ObjectFirewallAccessproxy6ApiGatewayRealserversOutputReference exte
       hasAnyValues = true;
       internalValueResult.type = this._type;
     }
+    if (this._verifyCert !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifyCert = this._verifyCert;
+    }
     if (this._weight !== undefined) {
       hasAnyValues = true;
       internalValueResult.weight = this._weight;
@@ -788,6 +803,7 @@ export class ObjectFirewallAccessproxy6ApiGatewayRealserversOutputReference exte
       this._translateHost = undefined;
       this._tunnelEncryption = undefined;
       this._type = undefined;
+      this._verifyCert = undefined;
       this._weight = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -816,6 +832,7 @@ export class ObjectFirewallAccessproxy6ApiGatewayRealserversOutputReference exte
       this._translateHost = value.translateHost;
       this._tunnelEncryption = value.tunnelEncryption;
       this._type = value.type;
+      this._verifyCert = value.verifyCert;
       this._weight = value.weight;
     }
   }
@@ -1124,6 +1141,22 @@ export class ObjectFirewallAccessproxy6ApiGatewayRealserversOutputReference exte
     return this._type;
   }
 
+  // verify_cert - computed: false, optional: true, required: false
+  private _verifyCert?: string; 
+  public get verifyCert() {
+    return this.getStringAttribute('verify_cert');
+  }
+  public set verifyCert(value: string) {
+    this._verifyCert = value;
+  }
+  public resetVerifyCert() {
+    this._verifyCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifyCertInput() {
+    return this._verifyCert;
+  }
+
   // weight - computed: true, optional: true, required: false
   private _weight?: number; 
   public get weight() {
@@ -1162,15 +1195,15 @@ export class ObjectFirewallAccessproxy6ApiGatewayRealserversList extends cdktf.C
 }
 export interface ObjectFirewallAccessproxy6ApiGatewaySslCipherSuites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#cipher ObjectFirewallAccessproxy6#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#cipher ObjectFirewallAccessproxy6#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#priority ObjectFirewallAccessproxy6#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#priority ObjectFirewallAccessproxy6#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#versions ObjectFirewallAccessproxy6#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#versions ObjectFirewallAccessproxy6#versions}
   */
   readonly versions?: string[];
 }
@@ -1344,124 +1377,124 @@ export class ObjectFirewallAccessproxy6ApiGatewaySslCipherSuitesList extends cdk
 }
 export interface ObjectFirewallAccessproxy6ApiGateway {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#application ObjectFirewallAccessproxy6#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#application ObjectFirewallAccessproxy6#application}
   */
   readonly application?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#h2_support ObjectFirewallAccessproxy6#h2_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#h2_support ObjectFirewallAccessproxy6#h2_support}
   */
   readonly h2Support?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#h3_support ObjectFirewallAccessproxy6#h3_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#h3_support ObjectFirewallAccessproxy6#h3_support}
   */
   readonly h3Support?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_age ObjectFirewallAccessproxy6#http_cookie_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_age ObjectFirewallAccessproxy6#http_cookie_age}
   */
   readonly httpCookieAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain ObjectFirewallAccessproxy6#http_cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain ObjectFirewallAccessproxy6#http_cookie_domain}
   */
   readonly httpCookieDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain_from_host ObjectFirewallAccessproxy6#http_cookie_domain_from_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain_from_host ObjectFirewallAccessproxy6#http_cookie_domain_from_host}
   */
   readonly httpCookieDomainFromHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_generation ObjectFirewallAccessproxy6#http_cookie_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_generation ObjectFirewallAccessproxy6#http_cookie_generation}
   */
   readonly httpCookieGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_path ObjectFirewallAccessproxy6#http_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_path ObjectFirewallAccessproxy6#http_cookie_path}
   */
   readonly httpCookiePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_share ObjectFirewallAccessproxy6#http_cookie_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_share ObjectFirewallAccessproxy6#http_cookie_share}
   */
   readonly httpCookieShare?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#https_cookie_secure ObjectFirewallAccessproxy6#https_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#https_cookie_secure ObjectFirewallAccessproxy6#https_cookie_secure}
   */
   readonly httpsCookieSecure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ldb_method ObjectFirewallAccessproxy6#ldb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ldb_method ObjectFirewallAccessproxy6#ldb_method}
   */
   readonly ldbMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#persistence ObjectFirewallAccessproxy6#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#persistence ObjectFirewallAccessproxy6#persistence}
   */
   readonly persistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#saml_redirect ObjectFirewallAccessproxy6#saml_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#saml_redirect ObjectFirewallAccessproxy6#saml_redirect}
   */
   readonly samlRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#saml_server ObjectFirewallAccessproxy6#saml_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#saml_server ObjectFirewallAccessproxy6#saml_server}
   */
   readonly samlServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#service ObjectFirewallAccessproxy6#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#service ObjectFirewallAccessproxy6#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_algorithm ObjectFirewallAccessproxy6#ssl_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_algorithm ObjectFirewallAccessproxy6#ssl_algorithm}
   */
   readonly sslAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_dh_bits ObjectFirewallAccessproxy6#ssl_dh_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_dh_bits ObjectFirewallAccessproxy6#ssl_dh_bits}
   */
   readonly sslDhBits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_max_version ObjectFirewallAccessproxy6#ssl_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_max_version ObjectFirewallAccessproxy6#ssl_max_version}
   */
   readonly sslMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_min_version ObjectFirewallAccessproxy6#ssl_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_min_version ObjectFirewallAccessproxy6#ssl_min_version}
   */
   readonly sslMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_renegotiation ObjectFirewallAccessproxy6#ssl_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_renegotiation ObjectFirewallAccessproxy6#ssl_renegotiation}
   */
   readonly sslRenegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_vpn_web_portal ObjectFirewallAccessproxy6#ssl_vpn_web_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_vpn_web_portal ObjectFirewallAccessproxy6#ssl_vpn_web_portal}
   */
   readonly sslVpnWebPortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#url_map ObjectFirewallAccessproxy6#url_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#url_map ObjectFirewallAccessproxy6#url_map}
   */
   readonly urlMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#url_map_type ObjectFirewallAccessproxy6#url_map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#url_map_type ObjectFirewallAccessproxy6#url_map_type}
   */
   readonly urlMapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#virtual_host ObjectFirewallAccessproxy6#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#virtual_host ObjectFirewallAccessproxy6#virtual_host}
   */
   readonly virtualHost?: string;
   /**
   * quic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#quic ObjectFirewallAccessproxy6#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#quic ObjectFirewallAccessproxy6#quic}
   */
   readonly quic?: ObjectFirewallAccessproxy6ApiGatewayQuic;
   /**
   * realservers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#realservers ObjectFirewallAccessproxy6#realservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#realservers ObjectFirewallAccessproxy6#realservers}
   */
   readonly realservers?: ObjectFirewallAccessproxy6ApiGatewayRealservers[] | cdktf.IResolvable;
   /**
   * ssl_cipher_suites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_cipher_suites ObjectFirewallAccessproxy6#ssl_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_cipher_suites ObjectFirewallAccessproxy6#ssl_cipher_suites}
   */
   readonly sslCipherSuites?: ObjectFirewallAccessproxy6ApiGatewaySslCipherSuites[] | cdktf.IResolvable;
 }
@@ -2360,35 +2393,35 @@ export class ObjectFirewallAccessproxy6ApiGatewayList extends cdktf.ComplexList 
 }
 export interface ObjectFirewallAccessproxy6ApiGateway6Quic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ack_delay_exponent ObjectFirewallAccessproxy6#ack_delay_exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ack_delay_exponent ObjectFirewallAccessproxy6#ack_delay_exponent}
   */
   readonly ackDelayExponent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#active_connection_id_limit ObjectFirewallAccessproxy6#active_connection_id_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#active_connection_id_limit ObjectFirewallAccessproxy6#active_connection_id_limit}
   */
   readonly activeConnectionIdLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#active_migration ObjectFirewallAccessproxy6#active_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#active_migration ObjectFirewallAccessproxy6#active_migration}
   */
   readonly activeMigration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#grease_quic_bit ObjectFirewallAccessproxy6#grease_quic_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#grease_quic_bit ObjectFirewallAccessproxy6#grease_quic_bit}
   */
   readonly greaseQuicBit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_ack_delay ObjectFirewallAccessproxy6#max_ack_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_ack_delay ObjectFirewallAccessproxy6#max_ack_delay}
   */
   readonly maxAckDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_datagram_frame_size ObjectFirewallAccessproxy6#max_datagram_frame_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_datagram_frame_size ObjectFirewallAccessproxy6#max_datagram_frame_size}
   */
   readonly maxDatagramFrameSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_idle_timeout ObjectFirewallAccessproxy6#max_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_idle_timeout ObjectFirewallAccessproxy6#max_idle_timeout}
   */
   readonly maxIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#max_udp_payload_size ObjectFirewallAccessproxy6#max_udp_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#max_udp_payload_size ObjectFirewallAccessproxy6#max_udp_payload_size}
   */
   readonly maxUdpPayloadSize?: number;
 }
@@ -2675,86 +2708,90 @@ export class ObjectFirewallAccessproxy6ApiGateway6QuicOutputReference extends cd
 }
 export interface ObjectFirewallAccessproxy6ApiGateway6Realservers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#addr_type ObjectFirewallAccessproxy6#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#addr_type ObjectFirewallAccessproxy6#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#address ObjectFirewallAccessproxy6#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#address ObjectFirewallAccessproxy6#address}
   */
   readonly address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#domain ObjectFirewallAccessproxy6#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#domain ObjectFirewallAccessproxy6#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#external_auth ObjectFirewallAccessproxy6#external_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#external_auth ObjectFirewallAccessproxy6#external_auth}
   */
   readonly externalAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#health_check ObjectFirewallAccessproxy6#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#health_check ObjectFirewallAccessproxy6#health_check}
   */
   readonly healthCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#health_check_proto ObjectFirewallAccessproxy6#health_check_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#health_check_proto ObjectFirewallAccessproxy6#health_check_proto}
   */
   readonly healthCheckProto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#holddown_interval ObjectFirewallAccessproxy6#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#holddown_interval ObjectFirewallAccessproxy6#holddown_interval}
   */
   readonly holddownInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_host ObjectFirewallAccessproxy6#http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_host ObjectFirewallAccessproxy6#http_host}
   */
   readonly httpHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ip ObjectFirewallAccessproxy6#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ip ObjectFirewallAccessproxy6#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#mappedport ObjectFirewallAccessproxy6#mappedport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#mappedport ObjectFirewallAccessproxy6#mappedport}
   */
   readonly mappedport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#port ObjectFirewallAccessproxy6#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#port ObjectFirewallAccessproxy6#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_client_cert ObjectFirewallAccessproxy6#ssh_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_client_cert ObjectFirewallAccessproxy6#ssh_client_cert}
   */
   readonly sshClientCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_host_key ObjectFirewallAccessproxy6#ssh_host_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_host_key ObjectFirewallAccessproxy6#ssh_host_key}
   */
   readonly sshHostKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssh_host_key_validation ObjectFirewallAccessproxy6#ssh_host_key_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssh_host_key_validation ObjectFirewallAccessproxy6#ssh_host_key_validation}
   */
   readonly sshHostKeyValidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#status ObjectFirewallAccessproxy6#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#status ObjectFirewallAccessproxy6#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#translate_host ObjectFirewallAccessproxy6#translate_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#translate_host ObjectFirewallAccessproxy6#translate_host}
   */
   readonly translateHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#tunnel_encryption ObjectFirewallAccessproxy6#tunnel_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#tunnel_encryption ObjectFirewallAccessproxy6#tunnel_encryption}
   */
   readonly tunnelEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#type ObjectFirewallAccessproxy6#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#type ObjectFirewallAccessproxy6#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#weight ObjectFirewallAccessproxy6#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#verify_cert ObjectFirewallAccessproxy6#verify_cert}
+  */
+  readonly verifyCert?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#weight ObjectFirewallAccessproxy6#weight}
   */
   readonly weight?: number;
 }
@@ -2784,6 +2821,7 @@ export function objectFirewallAccessproxy6ApiGateway6RealserversToTerraform(stru
     translate_host: cdktf.stringToTerraform(struct!.translateHost),
     tunnel_encryption: cdktf.stringToTerraform(struct!.tunnelEncryption),
     type: cdktf.stringToTerraform(struct!.type),
+    verify_cert: cdktf.stringToTerraform(struct!.verifyCert),
     weight: cdktf.numberToTerraform(struct!.weight),
   }
 }
@@ -2909,6 +2947,12 @@ export function objectFirewallAccessproxy6ApiGateway6RealserversToHclTerraform(s
       type: "simple",
       storageClassType: "string",
     },
+    verify_cert: {
+      value: cdktf.stringToHclTerraform(struct!.verifyCert),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     weight: {
       value: cdktf.numberToHclTerraform(struct!.weight),
       isBlock: false,
@@ -3017,6 +3061,10 @@ export class ObjectFirewallAccessproxy6ApiGateway6RealserversOutputReference ext
       hasAnyValues = true;
       internalValueResult.type = this._type;
     }
+    if (this._verifyCert !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.verifyCert = this._verifyCert;
+    }
     if (this._weight !== undefined) {
       hasAnyValues = true;
       internalValueResult.weight = this._weight;
@@ -3047,6 +3095,7 @@ export class ObjectFirewallAccessproxy6ApiGateway6RealserversOutputReference ext
       this._translateHost = undefined;
       this._tunnelEncryption = undefined;
       this._type = undefined;
+      this._verifyCert = undefined;
       this._weight = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -3075,6 +3124,7 @@ export class ObjectFirewallAccessproxy6ApiGateway6RealserversOutputReference ext
       this._translateHost = value.translateHost;
       this._tunnelEncryption = value.tunnelEncryption;
       this._type = value.type;
+      this._verifyCert = value.verifyCert;
       this._weight = value.weight;
     }
   }
@@ -3383,6 +3433,22 @@ export class ObjectFirewallAccessproxy6ApiGateway6RealserversOutputReference ext
     return this._type;
   }
 
+  // verify_cert - computed: false, optional: true, required: false
+  private _verifyCert?: string; 
+  public get verifyCert() {
+    return this.getStringAttribute('verify_cert');
+  }
+  public set verifyCert(value: string) {
+    this._verifyCert = value;
+  }
+  public resetVerifyCert() {
+    this._verifyCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifyCertInput() {
+    return this._verifyCert;
+  }
+
   // weight - computed: true, optional: true, required: false
   private _weight?: number; 
   public get weight() {
@@ -3421,15 +3487,15 @@ export class ObjectFirewallAccessproxy6ApiGateway6RealserversList extends cdktf.
 }
 export interface ObjectFirewallAccessproxy6ApiGateway6SslCipherSuites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#cipher ObjectFirewallAccessproxy6#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#cipher ObjectFirewallAccessproxy6#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#priority ObjectFirewallAccessproxy6#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#priority ObjectFirewallAccessproxy6#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#versions ObjectFirewallAccessproxy6#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#versions ObjectFirewallAccessproxy6#versions}
   */
   readonly versions?: string[];
 }
@@ -3603,124 +3669,124 @@ export class ObjectFirewallAccessproxy6ApiGateway6SslCipherSuitesList extends cd
 }
 export interface ObjectFirewallAccessproxy6ApiGateway6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#application ObjectFirewallAccessproxy6#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#application ObjectFirewallAccessproxy6#application}
   */
   readonly application?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#h2_support ObjectFirewallAccessproxy6#h2_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#h2_support ObjectFirewallAccessproxy6#h2_support}
   */
   readonly h2Support?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#h3_support ObjectFirewallAccessproxy6#h3_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#h3_support ObjectFirewallAccessproxy6#h3_support}
   */
   readonly h3Support?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_age ObjectFirewallAccessproxy6#http_cookie_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_age ObjectFirewallAccessproxy6#http_cookie_age}
   */
   readonly httpCookieAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain ObjectFirewallAccessproxy6#http_cookie_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain ObjectFirewallAccessproxy6#http_cookie_domain}
   */
   readonly httpCookieDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain_from_host ObjectFirewallAccessproxy6#http_cookie_domain_from_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_domain_from_host ObjectFirewallAccessproxy6#http_cookie_domain_from_host}
   */
   readonly httpCookieDomainFromHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_generation ObjectFirewallAccessproxy6#http_cookie_generation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_generation ObjectFirewallAccessproxy6#http_cookie_generation}
   */
   readonly httpCookieGeneration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_path ObjectFirewallAccessproxy6#http_cookie_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_path ObjectFirewallAccessproxy6#http_cookie_path}
   */
   readonly httpCookiePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#http_cookie_share ObjectFirewallAccessproxy6#http_cookie_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#http_cookie_share ObjectFirewallAccessproxy6#http_cookie_share}
   */
   readonly httpCookieShare?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#https_cookie_secure ObjectFirewallAccessproxy6#https_cookie_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#https_cookie_secure ObjectFirewallAccessproxy6#https_cookie_secure}
   */
   readonly httpsCookieSecure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#id ObjectFirewallAccessproxy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ldb_method ObjectFirewallAccessproxy6#ldb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ldb_method ObjectFirewallAccessproxy6#ldb_method}
   */
   readonly ldbMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#persistence ObjectFirewallAccessproxy6#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#persistence ObjectFirewallAccessproxy6#persistence}
   */
   readonly persistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#saml_redirect ObjectFirewallAccessproxy6#saml_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#saml_redirect ObjectFirewallAccessproxy6#saml_redirect}
   */
   readonly samlRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#saml_server ObjectFirewallAccessproxy6#saml_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#saml_server ObjectFirewallAccessproxy6#saml_server}
   */
   readonly samlServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#service ObjectFirewallAccessproxy6#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#service ObjectFirewallAccessproxy6#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_algorithm ObjectFirewallAccessproxy6#ssl_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_algorithm ObjectFirewallAccessproxy6#ssl_algorithm}
   */
   readonly sslAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_dh_bits ObjectFirewallAccessproxy6#ssl_dh_bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_dh_bits ObjectFirewallAccessproxy6#ssl_dh_bits}
   */
   readonly sslDhBits?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_max_version ObjectFirewallAccessproxy6#ssl_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_max_version ObjectFirewallAccessproxy6#ssl_max_version}
   */
   readonly sslMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_min_version ObjectFirewallAccessproxy6#ssl_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_min_version ObjectFirewallAccessproxy6#ssl_min_version}
   */
   readonly sslMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_renegotiation ObjectFirewallAccessproxy6#ssl_renegotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_renegotiation ObjectFirewallAccessproxy6#ssl_renegotiation}
   */
   readonly sslRenegotiation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_vpn_web_portal ObjectFirewallAccessproxy6#ssl_vpn_web_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_vpn_web_portal ObjectFirewallAccessproxy6#ssl_vpn_web_portal}
   */
   readonly sslVpnWebPortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#url_map ObjectFirewallAccessproxy6#url_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#url_map ObjectFirewallAccessproxy6#url_map}
   */
   readonly urlMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#url_map_type ObjectFirewallAccessproxy6#url_map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#url_map_type ObjectFirewallAccessproxy6#url_map_type}
   */
   readonly urlMapType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#virtual_host ObjectFirewallAccessproxy6#virtual_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#virtual_host ObjectFirewallAccessproxy6#virtual_host}
   */
   readonly virtualHost?: string;
   /**
   * quic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#quic ObjectFirewallAccessproxy6#quic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#quic ObjectFirewallAccessproxy6#quic}
   */
   readonly quic?: ObjectFirewallAccessproxy6ApiGateway6Quic;
   /**
   * realservers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#realservers ObjectFirewallAccessproxy6#realservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#realservers ObjectFirewallAccessproxy6#realservers}
   */
   readonly realservers?: ObjectFirewallAccessproxy6ApiGateway6Realservers[] | cdktf.IResolvable;
   /**
   * ssl_cipher_suites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#ssl_cipher_suites ObjectFirewallAccessproxy6#ssl_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#ssl_cipher_suites ObjectFirewallAccessproxy6#ssl_cipher_suites}
   */
   readonly sslCipherSuites?: ObjectFirewallAccessproxy6ApiGateway6SslCipherSuites[] | cdktf.IResolvable;
 }
@@ -4619,7 +4685,7 @@ export class ObjectFirewallAccessproxy6ApiGateway6List extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6 fortimanager_object_firewall_accessproxy6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6 fortimanager_object_firewall_accessproxy6}
 */
 export class ObjectFirewallAccessproxy6 extends cdktf.TerraformResource {
 
@@ -4635,7 +4701,7 @@ export class ObjectFirewallAccessproxy6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallAccessproxy6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxy6 to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxy6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4647,7 +4713,7 @@ export class ObjectFirewallAccessproxy6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy6 fortimanager_object_firewall_accessproxy6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy6 fortimanager_object_firewall_accessproxy6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4658,8 +4724,8 @@ export class ObjectFirewallAccessproxy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_accessproxy6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

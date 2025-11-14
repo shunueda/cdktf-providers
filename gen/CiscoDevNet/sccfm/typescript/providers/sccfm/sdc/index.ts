@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/sdc
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/sdc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SdcConfig extends cdktf.TerraformMetaArguments {
   /**
   * A human-readable name for the Secure Device Connector (SDC). This name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/sdc#name Sdc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/sdc#name Sdc#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/sdc sccfm_sdc}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/sdc sccfm_sdc}
 */
 export class Sdc extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class Sdc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sdc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sdc to import
-  * @param importFromId The id of the existing Sdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/sdc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sdc that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/sdc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sdc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class Sdc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/sdc sccfm_sdc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/sdc sccfm_sdc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class Sdc extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_sdc',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

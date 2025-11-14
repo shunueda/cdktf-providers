@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDynamicMulticastInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#adom ObjectDynamicMulticastInterface#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#adom ObjectDynamicMulticastInterface#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#default_mapping ObjectDynamicMulticastInterface#default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#default_mapping ObjectDynamicMulticastInterface#default_mapping}
   */
   readonly defaultMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#defmap_intf ObjectDynamicMulticastInterface#defmap_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#defmap_intf ObjectDynamicMulticastInterface#defmap_intf}
   */
   readonly defmapIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#description ObjectDynamicMulticastInterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#description ObjectDynamicMulticastInterface#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#dynamic_sort_subtable ObjectDynamicMulticastInterface#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#dynamic_sort_subtable ObjectDynamicMulticastInterface#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#id ObjectDynamicMulticastInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#id ObjectDynamicMulticastInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#name ObjectDynamicMulticastInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#name ObjectDynamicMulticastInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#scopetype ObjectDynamicMulticastInterface#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#scopetype ObjectDynamicMulticastInterface#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#zone_only ObjectDynamicMulticastInterface#zone_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#zone_only ObjectDynamicMulticastInterface#zone_only}
   */
   readonly zoneOnly?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#dynamic_mapping ObjectDynamicMulticastInterface#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#dynamic_mapping ObjectDynamicMulticastInterface#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectDynamicMulticastInterfaceDynamicMapping[] | cdktf.IResolvable;
 }
 export interface ObjectDynamicMulticastInterfaceDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#name ObjectDynamicMulticastInterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#name ObjectDynamicMulticastInterface#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#vdom ObjectDynamicMulticastInterface#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#vdom ObjectDynamicMulticastInterface#vdom}
   */
   readonly vdom?: string;
 }
@@ -204,13 +204,13 @@ export class ObjectDynamicMulticastInterfaceDynamicMappingScopeList extends cdkt
 }
 export interface ObjectDynamicMulticastInterfaceDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#local_intf ObjectDynamicMulticastInterface#local_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#local_intf ObjectDynamicMulticastInterface#local_intf}
   */
   readonly localIntf?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#_scope ObjectDynamicMulticastInterface#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#_scope ObjectDynamicMulticastInterface#_scope}
   */
   readonly scope?: ObjectDynamicMulticastInterfaceDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -355,7 +355,7 @@ export class ObjectDynamicMulticastInterfaceDynamicMappingList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface fortimanager_object_dynamic_multicast_interface}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface fortimanager_object_dynamic_multicast_interface}
 */
 export class ObjectDynamicMulticastInterface extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class ObjectDynamicMulticastInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectDynamicMulticastInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDynamicMulticastInterface to import
-  * @param importFromId The id of the existing ObjectDynamicMulticastInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDynamicMulticastInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDynamicMulticastInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class ObjectDynamicMulticastInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_multicast_interface fortimanager_object_dynamic_multicast_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_multicast_interface fortimanager_object_dynamic_multicast_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class ObjectDynamicMulticastInterface extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_dynamic_multicast_interface',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

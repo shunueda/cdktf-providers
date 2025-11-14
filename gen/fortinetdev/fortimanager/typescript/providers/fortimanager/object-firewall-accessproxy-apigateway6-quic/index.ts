@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxyApigateway6QuicAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#access_proxy ObjectFirewallAccessproxyApigateway6QuicA#access_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#access_proxy ObjectFirewallAccessproxyApigateway6QuicA#access_proxy}
   */
   readonly accessProxy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#ack_delay_exponent ObjectFirewallAccessproxyApigateway6QuicA#ack_delay_exponent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#ack_delay_exponent ObjectFirewallAccessproxyApigateway6QuicA#ack_delay_exponent}
   */
   readonly ackDelayExponent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#active_connection_id_limit ObjectFirewallAccessproxyApigateway6QuicA#active_connection_id_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#active_connection_id_limit ObjectFirewallAccessproxyApigateway6QuicA#active_connection_id_limit}
   */
   readonly activeConnectionIdLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#active_migration ObjectFirewallAccessproxyApigateway6QuicA#active_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#active_migration ObjectFirewallAccessproxyApigateway6QuicA#active_migration}
   */
   readonly activeMigration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#adom ObjectFirewallAccessproxyApigateway6QuicA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#adom ObjectFirewallAccessproxyApigateway6QuicA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#api_gateway6 ObjectFirewallAccessproxyApigateway6QuicA#api_gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#api_gateway6 ObjectFirewallAccessproxyApigateway6QuicA#api_gateway6}
   */
   readonly apiGateway6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#grease_quic_bit ObjectFirewallAccessproxyApigateway6QuicA#grease_quic_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#grease_quic_bit ObjectFirewallAccessproxyApigateway6QuicA#grease_quic_bit}
   */
   readonly greaseQuicBit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#id ObjectFirewallAccessproxyApigateway6QuicA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#id ObjectFirewallAccessproxyApigateway6QuicA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_ack_delay ObjectFirewallAccessproxyApigateway6QuicA#max_ack_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_ack_delay ObjectFirewallAccessproxyApigateway6QuicA#max_ack_delay}
   */
   readonly maxAckDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_datagram_frame_size ObjectFirewallAccessproxyApigateway6QuicA#max_datagram_frame_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_datagram_frame_size ObjectFirewallAccessproxyApigateway6QuicA#max_datagram_frame_size}
   */
   readonly maxDatagramFrameSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_idle_timeout ObjectFirewallAccessproxyApigateway6QuicA#max_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_idle_timeout ObjectFirewallAccessproxyApigateway6QuicA#max_idle_timeout}
   */
   readonly maxIdleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_udp_payload_size ObjectFirewallAccessproxyApigateway6QuicA#max_udp_payload_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#max_udp_payload_size ObjectFirewallAccessproxyApigateway6QuicA#max_udp_payload_size}
   */
   readonly maxUdpPayloadSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#scopetype ObjectFirewallAccessproxyApigateway6QuicA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#scopetype ObjectFirewallAccessproxyApigateway6QuicA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic fortimanager_object_firewall_accessproxy_apigateway6_quic}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic fortimanager_object_firewall_accessproxy_apigateway6_quic}
 */
 export class ObjectFirewallAccessproxyApigateway6QuicA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectFirewallAccessproxyApigateway6QuicA extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ObjectFirewallAccessproxyApigateway6QuicA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxyApigateway6QuicA to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxyApigateway6QuicA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxyApigateway6QuicA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxyApigateway6QuicA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectFirewallAccessproxyApigateway6QuicA extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_quic fortimanager_object_firewall_accessproxy_apigateway6_quic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_quic fortimanager_object_firewall_accessproxy_apigateway6_quic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectFirewallAccessproxyApigateway6QuicA extends cdktf.TerraformRe
       terraformResourceType: 'fortimanager_object_firewall_accessproxy_apigateway6_quic',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

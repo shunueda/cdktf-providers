@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,88 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAddrgrp6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#_image_base64 ObjectFirewallAddrgrp6#_image_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#_image_base64 ObjectFirewallAddrgrp6#_image_base64}
   */
   readonly imageBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#adom ObjectFirewallAddrgrp6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#adom ObjectFirewallAddrgrp6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#color ObjectFirewallAddrgrp6#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#color ObjectFirewallAddrgrp6#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#comment ObjectFirewallAddrgrp6#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#comment ObjectFirewallAddrgrp6#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#dynamic_sort_subtable ObjectFirewallAddrgrp6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#dynamic_sort_subtable ObjectFirewallAddrgrp6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#exclude ObjectFirewallAddrgrp6#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#exclude ObjectFirewallAddrgrp6#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#exclude_member ObjectFirewallAddrgrp6#exclude_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#exclude_member ObjectFirewallAddrgrp6#exclude_member}
   */
   readonly excludeMember?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#fabric_object ObjectFirewallAddrgrp6#fabric_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#fabric_object ObjectFirewallAddrgrp6#fabric_object}
   */
   readonly fabricObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#global_object ObjectFirewallAddrgrp6#global_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#global_object ObjectFirewallAddrgrp6#global_object}
   */
   readonly globalObject?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#id ObjectFirewallAddrgrp6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#id ObjectFirewallAddrgrp6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#member ObjectFirewallAddrgrp6#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#member ObjectFirewallAddrgrp6#member}
   */
   readonly member?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#scopetype ObjectFirewallAddrgrp6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#scopetype ObjectFirewallAddrgrp6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#uuid ObjectFirewallAddrgrp6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#uuid ObjectFirewallAddrgrp6#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#visibility ObjectFirewallAddrgrp6#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#visibility ObjectFirewallAddrgrp6#visibility}
   */
   readonly visibility?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#dynamic_mapping ObjectFirewallAddrgrp6#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#dynamic_mapping ObjectFirewallAddrgrp6#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectFirewallAddrgrp6DynamicMapping[] | cdktf.IResolvable;
   /**
   * tagging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#tagging ObjectFirewallAddrgrp6#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#tagging ObjectFirewallAddrgrp6#tagging}
   */
   readonly tagging?: ObjectFirewallAddrgrp6Tagging[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAddrgrp6DynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#vdom ObjectFirewallAddrgrp6#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#vdom ObjectFirewallAddrgrp6#vdom}
   */
   readonly vdom?: string;
 }
@@ -234,53 +234,53 @@ export class ObjectFirewallAddrgrp6DynamicMappingScopeList extends cdktf.Complex
 }
 export interface ObjectFirewallAddrgrp6DynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#_image_base64 ObjectFirewallAddrgrp6#_image_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#_image_base64 ObjectFirewallAddrgrp6#_image_base64}
   */
   readonly imageBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#color ObjectFirewallAddrgrp6#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#color ObjectFirewallAddrgrp6#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#comment ObjectFirewallAddrgrp6#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#comment ObjectFirewallAddrgrp6#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#exclude ObjectFirewallAddrgrp6#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#exclude ObjectFirewallAddrgrp6#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#exclude_member ObjectFirewallAddrgrp6#exclude_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#exclude_member ObjectFirewallAddrgrp6#exclude_member}
   */
   readonly excludeMember?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#fabric_object ObjectFirewallAddrgrp6#fabric_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#fabric_object ObjectFirewallAddrgrp6#fabric_object}
   */
   readonly fabricObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#global_object ObjectFirewallAddrgrp6#global_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#global_object ObjectFirewallAddrgrp6#global_object}
   */
   readonly globalObject?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#member ObjectFirewallAddrgrp6#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#member ObjectFirewallAddrgrp6#member}
   */
   readonly member?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#tags ObjectFirewallAddrgrp6#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#tags ObjectFirewallAddrgrp6#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#uuid ObjectFirewallAddrgrp6#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#uuid ObjectFirewallAddrgrp6#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#visibility ObjectFirewallAddrgrp6#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#visibility ObjectFirewallAddrgrp6#visibility}
   */
   readonly visibility?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#_scope ObjectFirewallAddrgrp6#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#_scope ObjectFirewallAddrgrp6#_scope}
   */
   readonly scope?: ObjectFirewallAddrgrp6DynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -715,15 +715,15 @@ export class ObjectFirewallAddrgrp6DynamicMappingList extends cdktf.ComplexList 
 }
 export interface ObjectFirewallAddrgrp6Tagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#category ObjectFirewallAddrgrp6#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#category ObjectFirewallAddrgrp6#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#name ObjectFirewallAddrgrp6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#tags ObjectFirewallAddrgrp6#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#tags ObjectFirewallAddrgrp6#tags}
   */
   readonly tags?: string[];
 }
@@ -897,7 +897,7 @@ export class ObjectFirewallAddrgrp6TaggingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6 fortimanager_object_firewall_addrgrp6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6 fortimanager_object_firewall_addrgrp6}
 */
 export class ObjectFirewallAddrgrp6 extends cdktf.TerraformResource {
 
@@ -913,7 +913,7 @@ export class ObjectFirewallAddrgrp6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallAddrgrp6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAddrgrp6 to import
-  * @param importFromId The id of the existing ObjectFirewallAddrgrp6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAddrgrp6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAddrgrp6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -925,7 +925,7 @@ export class ObjectFirewallAddrgrp6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6 fortimanager_object_firewall_addrgrp6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6 fortimanager_object_firewall_addrgrp6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -936,8 +936,8 @@ export class ObjectFirewallAddrgrp6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_addrgrp6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

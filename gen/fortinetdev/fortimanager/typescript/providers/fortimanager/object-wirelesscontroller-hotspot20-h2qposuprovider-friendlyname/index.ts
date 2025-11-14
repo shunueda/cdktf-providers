@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlynameConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#adom ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#adom ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#friendly_name ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#friendly_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#friendly_name ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#friendly_name}
   */
   readonly friendlyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#h2qp_osu_provider ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#h2qp_osu_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#h2qp_osu_provider ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#h2qp_osu_provider}
   */
   readonly h2QpOsuProvider: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#id ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#id ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#index ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#index ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#lang ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#lang ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#lang}
   */
   readonly lang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#scopetype ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#scopetype ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname fortimanager_object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname fortimanager_object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname}
 */
 export class ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname extend
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname fortimanager_object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname fortimanager_object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectWirelesscontrollerHotspot20H2QposuproviderFriendlyname extend
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_h2qposuprovider_friendlyname',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

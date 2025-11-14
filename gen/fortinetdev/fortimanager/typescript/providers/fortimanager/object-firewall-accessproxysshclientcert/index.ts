@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,78 +8,78 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxysshclientcertConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#adom ObjectFirewallAccessproxysshclientcert#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#adom ObjectFirewallAccessproxysshclientcert#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#auth_ca ObjectFirewallAccessproxysshclientcert#auth_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#auth_ca ObjectFirewallAccessproxysshclientcert#auth_ca}
   */
   readonly authCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#dynamic_sort_subtable ObjectFirewallAccessproxysshclientcert#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#dynamic_sort_subtable ObjectFirewallAccessproxysshclientcert#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#id ObjectFirewallAccessproxysshclientcert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#id ObjectFirewallAccessproxysshclientcert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#name ObjectFirewallAccessproxysshclientcert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#name ObjectFirewallAccessproxysshclientcert#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#permit_agent_forwarding ObjectFirewallAccessproxysshclientcert#permit_agent_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#permit_agent_forwarding ObjectFirewallAccessproxysshclientcert#permit_agent_forwarding}
   */
   readonly permitAgentForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#permit_port_forwarding ObjectFirewallAccessproxysshclientcert#permit_port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#permit_port_forwarding ObjectFirewallAccessproxysshclientcert#permit_port_forwarding}
   */
   readonly permitPortForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#permit_pty ObjectFirewallAccessproxysshclientcert#permit_pty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#permit_pty ObjectFirewallAccessproxysshclientcert#permit_pty}
   */
   readonly permitPty?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#permit_user_rc ObjectFirewallAccessproxysshclientcert#permit_user_rc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#permit_user_rc ObjectFirewallAccessproxysshclientcert#permit_user_rc}
   */
   readonly permitUserRc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#permit_x11_forwarding ObjectFirewallAccessproxysshclientcert#permit_x11_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#permit_x11_forwarding ObjectFirewallAccessproxysshclientcert#permit_x11_forwarding}
   */
   readonly permitX11Forwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#scopetype ObjectFirewallAccessproxysshclientcert#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#scopetype ObjectFirewallAccessproxysshclientcert#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#source_address ObjectFirewallAccessproxysshclientcert#source_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#source_address ObjectFirewallAccessproxysshclientcert#source_address}
   */
   readonly sourceAddress?: string;
   /**
   * cert_extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#cert_extension ObjectFirewallAccessproxysshclientcert#cert_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#cert_extension ObjectFirewallAccessproxysshclientcert#cert_extension}
   */
   readonly certExtension?: ObjectFirewallAccessproxysshclientcertCertExtension[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAccessproxysshclientcertCertExtension {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#critical ObjectFirewallAccessproxysshclientcert#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#critical ObjectFirewallAccessproxysshclientcert#critical}
   */
   readonly critical?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#data ObjectFirewallAccessproxysshclientcert#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#data ObjectFirewallAccessproxysshclientcert#data}
   */
   readonly data?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#name ObjectFirewallAccessproxysshclientcert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#name ObjectFirewallAccessproxysshclientcert#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#type ObjectFirewallAccessproxysshclientcert#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#type ObjectFirewallAccessproxysshclientcert#type}
   */
   readonly type?: string;
 }
@@ -282,7 +282,7 @@ export class ObjectFirewallAccessproxysshclientcertCertExtensionList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert fortimanager_object_firewall_accessproxysshclientcert}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert fortimanager_object_firewall_accessproxysshclientcert}
 */
 export class ObjectFirewallAccessproxysshclientcert extends cdktf.TerraformResource {
 
@@ -298,7 +298,7 @@ export class ObjectFirewallAccessproxysshclientcert extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectFirewallAccessproxysshclientcert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxysshclientcert to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxysshclientcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxysshclientcert that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxysshclientcert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -310,7 +310,7 @@ export class ObjectFirewallAccessproxysshclientcert extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxysshclientcert fortimanager_object_firewall_accessproxysshclientcert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxysshclientcert fortimanager_object_firewall_accessproxysshclientcert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -321,8 +321,8 @@ export class ObjectFirewallAccessproxysshclientcert extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_firewall_accessproxysshclientcert',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

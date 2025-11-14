@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KnowledgeCategoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#id KnowledgeCategory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#id KnowledgeCategory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface KnowledgeCategoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Knowledge base id of the category
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#knowledge_base_id KnowledgeCategory#knowledge_base_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#knowledge_base_id KnowledgeCategory#knowledge_base_id}
   */
   readonly knowledgeBaseId: string;
   /**
   * knowledge_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#knowledge_category KnowledgeCategory#knowledge_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#knowledge_category KnowledgeCategory#knowledge_category}
   */
   readonly knowledgeCategory: KnowledgeCategoryKnowledgeCategory;
 }
@@ -31,19 +31,19 @@ export interface KnowledgeCategoryKnowledgeCategory {
   /**
   * Knowledge base description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#description KnowledgeCategory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#description KnowledgeCategory#description}
   */
   readonly description?: string;
   /**
   * Knowledge base name. Changing the name attribute will cause the knowledge_category resource to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#name KnowledgeCategory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#name KnowledgeCategory#name}
   */
   readonly name: string;
   /**
   * Knowledge category parent id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#parent_id KnowledgeCategory#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#parent_id KnowledgeCategory#parent_id}
   */
   readonly parentId?: string;
 }
@@ -182,7 +182,7 @@ export class KnowledgeCategoryKnowledgeCategoryOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category genesyscloud_knowledge_category}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category genesyscloud_knowledge_category}
 */
 export class KnowledgeCategory extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class KnowledgeCategory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KnowledgeCategory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KnowledgeCategory to import
-  * @param importFromId The id of the existing KnowledgeCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KnowledgeCategory that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KnowledgeCategory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class KnowledgeCategory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/knowledge_category genesyscloud_knowledge_category} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/knowledge_category genesyscloud_knowledge_category} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class KnowledgeCategory extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_knowledge_category',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

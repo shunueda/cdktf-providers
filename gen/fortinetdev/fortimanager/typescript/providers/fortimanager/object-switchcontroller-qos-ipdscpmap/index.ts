@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerQosIpdscpmapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#adom ObjectSwitchcontrollerQosIpdscpmap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#adom ObjectSwitchcontrollerQosIpdscpmap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#description ObjectSwitchcontrollerQosIpdscpmap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#description ObjectSwitchcontrollerQosIpdscpmap#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#dynamic_sort_subtable ObjectSwitchcontrollerQosIpdscpmap#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#dynamic_sort_subtable ObjectSwitchcontrollerQosIpdscpmap#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#id ObjectSwitchcontrollerQosIpdscpmap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#id ObjectSwitchcontrollerQosIpdscpmap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#name ObjectSwitchcontrollerQosIpdscpmap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#name ObjectSwitchcontrollerQosIpdscpmap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#scopetype ObjectSwitchcontrollerQosIpdscpmap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#scopetype ObjectSwitchcontrollerQosIpdscpmap#scopetype}
   */
   readonly scopetype?: string;
   /**
   * map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#map ObjectSwitchcontrollerQosIpdscpmap#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#map ObjectSwitchcontrollerQosIpdscpmap#map}
   */
   readonly map?: ObjectSwitchcontrollerQosIpdscpmapMap[] | cdktf.IResolvable;
 }
 export interface ObjectSwitchcontrollerQosIpdscpmapMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#cos_queue ObjectSwitchcontrollerQosIpdscpmap#cos_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#cos_queue ObjectSwitchcontrollerQosIpdscpmap#cos_queue}
   */
   readonly cosQueue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#diffserv ObjectSwitchcontrollerQosIpdscpmap#diffserv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#diffserv ObjectSwitchcontrollerQosIpdscpmap#diffserv}
   */
   readonly diffserv?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#ip_precedence ObjectSwitchcontrollerQosIpdscpmap#ip_precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#ip_precedence ObjectSwitchcontrollerQosIpdscpmap#ip_precedence}
   */
   readonly ipPrecedence?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#name ObjectSwitchcontrollerQosIpdscpmap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#name ObjectSwitchcontrollerQosIpdscpmap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#value ObjectSwitchcontrollerQosIpdscpmap#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#value ObjectSwitchcontrollerQosIpdscpmap#value}
   */
   readonly value?: string;
 }
@@ -291,7 +291,7 @@ export class ObjectSwitchcontrollerQosIpdscpmapMapList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap fortimanager_object_switchcontroller_qos_ipdscpmap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap fortimanager_object_switchcontroller_qos_ipdscpmap}
 */
 export class ObjectSwitchcontrollerQosIpdscpmap extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class ObjectSwitchcontrollerQosIpdscpmap extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectSwitchcontrollerQosIpdscpmap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerQosIpdscpmap to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerQosIpdscpmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerQosIpdscpmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerQosIpdscpmap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class ObjectSwitchcontrollerQosIpdscpmap extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_ipdscpmap fortimanager_object_switchcontroller_qos_ipdscpmap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_ipdscpmap fortimanager_object_switchcontroller_qos_ipdscpmap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class ObjectSwitchcontrollerQosIpdscpmap extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_ipdscpmap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

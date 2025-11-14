@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallProxyaddrgrpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#_image_base64 ObjectFirewallProxyaddrgrp#_image_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#_image_base64 ObjectFirewallProxyaddrgrp#_image_base64}
   */
   readonly imageBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#adom ObjectFirewallProxyaddrgrp#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#adom ObjectFirewallProxyaddrgrp#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#color ObjectFirewallProxyaddrgrp#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#color ObjectFirewallProxyaddrgrp#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#comment ObjectFirewallProxyaddrgrp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#comment ObjectFirewallProxyaddrgrp#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#dynamic_sort_subtable ObjectFirewallProxyaddrgrp#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#dynamic_sort_subtable ObjectFirewallProxyaddrgrp#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#id ObjectFirewallProxyaddrgrp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#id ObjectFirewallProxyaddrgrp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#member ObjectFirewallProxyaddrgrp#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#member ObjectFirewallProxyaddrgrp#member}
   */
   readonly member?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#name ObjectFirewallProxyaddrgrp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#name ObjectFirewallProxyaddrgrp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#scopetype ObjectFirewallProxyaddrgrp#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#scopetype ObjectFirewallProxyaddrgrp#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#type ObjectFirewallProxyaddrgrp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#type ObjectFirewallProxyaddrgrp#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#uuid ObjectFirewallProxyaddrgrp#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#uuid ObjectFirewallProxyaddrgrp#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#visibility ObjectFirewallProxyaddrgrp#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#visibility ObjectFirewallProxyaddrgrp#visibility}
   */
   readonly visibility?: string;
   /**
   * tagging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#tagging ObjectFirewallProxyaddrgrp#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#tagging ObjectFirewallProxyaddrgrp#tagging}
   */
   readonly tagging?: ObjectFirewallProxyaddrgrpTagging[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallProxyaddrgrpTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#category ObjectFirewallProxyaddrgrp#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#category ObjectFirewallProxyaddrgrp#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#name ObjectFirewallProxyaddrgrp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#name ObjectFirewallProxyaddrgrp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#tags ObjectFirewallProxyaddrgrp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#tags ObjectFirewallProxyaddrgrp#tags}
   */
   readonly tags?: string[];
 }
@@ -249,7 +249,7 @@ export class ObjectFirewallProxyaddrgrpTaggingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp fortimanager_object_firewall_proxyaddrgrp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp fortimanager_object_firewall_proxyaddrgrp}
 */
 export class ObjectFirewallProxyaddrgrp extends cdktf.TerraformResource {
 
@@ -265,7 +265,7 @@ export class ObjectFirewallProxyaddrgrp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallProxyaddrgrp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallProxyaddrgrp to import
-  * @param importFromId The id of the existing ObjectFirewallProxyaddrgrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallProxyaddrgrp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallProxyaddrgrp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class ObjectFirewallProxyaddrgrp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_proxyaddrgrp fortimanager_object_firewall_proxyaddrgrp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_proxyaddrgrp fortimanager_object_firewall_proxyaddrgrp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class ObjectFirewallProxyaddrgrp extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_proxyaddrgrp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SystemAutodeleteDlpfilesautodeletionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#id SystemAutodeleteDlpfilesautodeletion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#id SystemAutodeleteDlpfilesautodeletion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#retention SystemAutodeleteDlpfilesautodeletion#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#retention SystemAutodeleteDlpfilesautodeletion#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#runat SystemAutodeleteDlpfilesautodeletion#runat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#runat SystemAutodeleteDlpfilesautodeletion#runat}
   */
   readonly runat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#status SystemAutodeleteDlpfilesautodeletion#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#status SystemAutodeleteDlpfilesautodeletion#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#value SystemAutodeleteDlpfilesautodeletion#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#value SystemAutodeleteDlpfilesautodeletion#value}
   */
   readonly value?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion fortimanager_system_autodelete_dlpfilesautodeletion}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion fortimanager_system_autodelete_dlpfilesautodeletion}
 */
 export class SystemAutodeleteDlpfilesautodeletion extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SystemAutodeleteDlpfilesautodeletion extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a SystemAutodeleteDlpfilesautodeletion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAutodeleteDlpfilesautodeletion to import
-  * @param importFromId The id of the existing SystemAutodeleteDlpfilesautodeletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAutodeleteDlpfilesautodeletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAutodeleteDlpfilesautodeletion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SystemAutodeleteDlpfilesautodeletion extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete_dlpfilesautodeletion fortimanager_system_autodelete_dlpfilesautodeletion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete_dlpfilesautodeletion fortimanager_system_autodelete_dlpfilesautodeletion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SystemAutodeleteDlpfilesautodeletion extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_system_autodelete_dlpfilesautodeletion',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

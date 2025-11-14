@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,115 +8,115 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVideofilterProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#adom ObjectVideofilterProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#adom ObjectVideofilterProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#comment ObjectVideofilterProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#comment ObjectVideofilterProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#dailymotion ObjectVideofilterProfile#dailymotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#dailymotion ObjectVideofilterProfile#dailymotion}
   */
   readonly dailymotion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#default_action ObjectVideofilterProfile#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#default_action ObjectVideofilterProfile#default_action}
   */
   readonly defaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#dynamic_sort_subtable ObjectVideofilterProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#dynamic_sort_subtable ObjectVideofilterProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#name ObjectVideofilterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#name ObjectVideofilterProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#replacemsg_group ObjectVideofilterProfile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#replacemsg_group ObjectVideofilterProfile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#scopetype ObjectVideofilterProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#scopetype ObjectVideofilterProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#vimeo ObjectVideofilterProfile#vimeo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#vimeo ObjectVideofilterProfile#vimeo}
   */
   readonly vimeo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#vimeo_restrict ObjectVideofilterProfile#vimeo_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#vimeo_restrict ObjectVideofilterProfile#vimeo_restrict}
   */
   readonly vimeoRestrict?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#youtube ObjectVideofilterProfile#youtube}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#youtube ObjectVideofilterProfile#youtube}
   */
   readonly youtube?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#youtube_channel_filter ObjectVideofilterProfile#youtube_channel_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#youtube_channel_filter ObjectVideofilterProfile#youtube_channel_filter}
   */
   readonly youtubeChannelFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#youtube_restrict ObjectVideofilterProfile#youtube_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#youtube_restrict ObjectVideofilterProfile#youtube_restrict}
   */
   readonly youtubeRestrict?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#filters ObjectVideofilterProfile#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#filters ObjectVideofilterProfile#filters}
   */
   readonly filters?: ObjectVideofilterProfileFilters[] | cdktf.IResolvable;
   /**
   * fortiguard_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#fortiguard_category ObjectVideofilterProfile#fortiguard_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#fortiguard_category ObjectVideofilterProfile#fortiguard_category}
   */
   readonly fortiguardCategory?: ObjectVideofilterProfileFortiguardCategory;
 }
 export interface ObjectVideofilterProfileFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#action ObjectVideofilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#action ObjectVideofilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#category ObjectVideofilterProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#category ObjectVideofilterProfile#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#channel ObjectVideofilterProfile#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#channel ObjectVideofilterProfile#channel}
   */
   readonly channel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#comment ObjectVideofilterProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#comment ObjectVideofilterProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#keyword ObjectVideofilterProfile#keyword}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#keyword ObjectVideofilterProfile#keyword}
   */
   readonly keyword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#type ObjectVideofilterProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#type ObjectVideofilterProfile#type}
   */
   readonly type?: string;
 }
@@ -435,22 +435,22 @@ export class ObjectVideofilterProfileFiltersList extends cdktf.ComplexList {
 }
 export interface ObjectVideofilterProfileFortiguardCategoryFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#action ObjectVideofilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#action ObjectVideofilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#category_id ObjectVideofilterProfile#category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#category_id ObjectVideofilterProfile#category_id}
   */
   readonly categoryId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#id ObjectVideofilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#log ObjectVideofilterProfile#log}
   */
   readonly log?: string;
 }
@@ -655,7 +655,7 @@ export interface ObjectVideofilterProfileFortiguardCategory {
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#filters ObjectVideofilterProfile#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#filters ObjectVideofilterProfile#filters}
   */
   readonly filters?: ObjectVideofilterProfileFortiguardCategoryFilters[] | cdktf.IResolvable;
 }
@@ -739,7 +739,7 @@ export class ObjectVideofilterProfileFortiguardCategoryOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile fortimanager_object_videofilter_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile fortimanager_object_videofilter_profile}
 */
 export class ObjectVideofilterProfile extends cdktf.TerraformResource {
 
@@ -755,7 +755,7 @@ export class ObjectVideofilterProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVideofilterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVideofilterProfile to import
-  * @param importFromId The id of the existing ObjectVideofilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVideofilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVideofilterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -767,7 +767,7 @@ export class ObjectVideofilterProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile fortimanager_object_videofilter_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile fortimanager_object_videofilter_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -778,8 +778,8 @@ export class ObjectVideofilterProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_videofilter_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

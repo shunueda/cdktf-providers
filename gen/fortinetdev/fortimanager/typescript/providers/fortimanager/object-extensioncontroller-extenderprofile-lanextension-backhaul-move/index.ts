@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#adom ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#adom ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#backhaul ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#backhaul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#backhaul ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#backhaul}
   */
   readonly backhaul: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#id ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#id ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#option ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#option ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#option}
   */
   readonly option: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#state_pos ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#state_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#state_pos ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#state_pos}
   */
   readonly statePos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#target ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#target ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move fortimanager_object_extensioncontroller_extenderprofile_lanextension_backhaul_move}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move fortimanager_object_extensioncontroller_extenderprofile_lanextension_backhaul_move}
 */
 export class ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove ex
   * Generates CDKTF code for importing a ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove to import
-  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove ex
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move fortimanager_object_extensioncontroller_extenderprofile_lanextension_backhaul_move} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_backhaul_move fortimanager_object_extensioncontroller_extenderprofile_lanextension_backhaul_move} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionBackhaulMove ex
       terraformResourceType: 'fortimanager_object_extensioncontroller_extenderprofile_lanextension_backhaul_move',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

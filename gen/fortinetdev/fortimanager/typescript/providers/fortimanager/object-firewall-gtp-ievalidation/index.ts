@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallGtpIevalidationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#adom ObjectFirewallGtpIevalidation#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#adom ObjectFirewallGtpIevalidation#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#apn_restriction ObjectFirewallGtpIevalidation#apn_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#apn_restriction ObjectFirewallGtpIevalidation#apn_restriction}
   */
   readonly apnRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#charging_gateway_addr ObjectFirewallGtpIevalidation#charging_gateway_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#charging_gateway_addr ObjectFirewallGtpIevalidation#charging_gateway_addr}
   */
   readonly chargingGatewayAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#charging_id ObjectFirewallGtpIevalidation#charging_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#charging_id ObjectFirewallGtpIevalidation#charging_id}
   */
   readonly chargingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#end_user_addr ObjectFirewallGtpIevalidation#end_user_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#end_user_addr ObjectFirewallGtpIevalidation#end_user_addr}
   */
   readonly endUserAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#gsn_addr ObjectFirewallGtpIevalidation#gsn_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#gsn_addr ObjectFirewallGtpIevalidation#gsn_addr}
   */
   readonly gsnAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#gtp ObjectFirewallGtpIevalidation#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#gtp ObjectFirewallGtpIevalidation#gtp}
   */
   readonly gtp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#id ObjectFirewallGtpIevalidation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#id ObjectFirewallGtpIevalidation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#imei ObjectFirewallGtpIevalidation#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#imei ObjectFirewallGtpIevalidation#imei}
   */
   readonly imei?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#imsi ObjectFirewallGtpIevalidation#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#imsi ObjectFirewallGtpIevalidation#imsi}
   */
   readonly imsi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#mm_context ObjectFirewallGtpIevalidation#mm_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#mm_context ObjectFirewallGtpIevalidation#mm_context}
   */
   readonly mmContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#ms_tzone ObjectFirewallGtpIevalidation#ms_tzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#ms_tzone ObjectFirewallGtpIevalidation#ms_tzone}
   */
   readonly msTzone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#ms_validated ObjectFirewallGtpIevalidation#ms_validated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#ms_validated ObjectFirewallGtpIevalidation#ms_validated}
   */
   readonly msValidated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#msisdn ObjectFirewallGtpIevalidation#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#msisdn ObjectFirewallGtpIevalidation#msisdn}
   */
   readonly msisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#nsapi ObjectFirewallGtpIevalidation#nsapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#nsapi ObjectFirewallGtpIevalidation#nsapi}
   */
   readonly nsapi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#pdp_context ObjectFirewallGtpIevalidation#pdp_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#pdp_context ObjectFirewallGtpIevalidation#pdp_context}
   */
   readonly pdpContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#qos_profile ObjectFirewallGtpIevalidation#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#qos_profile ObjectFirewallGtpIevalidation#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#rai ObjectFirewallGtpIevalidation#rai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#rai ObjectFirewallGtpIevalidation#rai}
   */
   readonly rai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#rat_type ObjectFirewallGtpIevalidation#rat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#rat_type ObjectFirewallGtpIevalidation#rat_type}
   */
   readonly ratType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#reordering_required ObjectFirewallGtpIevalidation#reordering_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#reordering_required ObjectFirewallGtpIevalidation#reordering_required}
   */
   readonly reorderingRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#scopetype ObjectFirewallGtpIevalidation#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#scopetype ObjectFirewallGtpIevalidation#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#selection_mode ObjectFirewallGtpIevalidation#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#selection_mode ObjectFirewallGtpIevalidation#selection_mode}
   */
   readonly selectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#uli ObjectFirewallGtpIevalidation#uli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#uli ObjectFirewallGtpIevalidation#uli}
   */
   readonly uli?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation fortimanager_object_firewall_gtp_ievalidation}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation fortimanager_object_firewall_gtp_ievalidation}
 */
 export class ObjectFirewallGtpIevalidation extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class ObjectFirewallGtpIevalidation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallGtpIevalidation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallGtpIevalidation to import
-  * @param importFromId The id of the existing ObjectFirewallGtpIevalidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallGtpIevalidation that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallGtpIevalidation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class ObjectFirewallGtpIevalidation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp_ievalidation fortimanager_object_firewall_gtp_ievalidation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp_ievalidation fortimanager_object_firewall_gtp_ievalidation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class ObjectFirewallGtpIevalidation extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_gtp_ievalidation',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

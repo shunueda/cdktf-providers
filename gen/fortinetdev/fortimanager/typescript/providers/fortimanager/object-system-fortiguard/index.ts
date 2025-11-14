@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,284 +8,288 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemFortiguardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#adom ObjectSystemFortiguard#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#adom ObjectSystemFortiguard#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_cache ObjectSystemFortiguard#antispam_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_cache ObjectSystemFortiguard#antispam_cache}
   */
   readonly antispamCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_cache_mpercent ObjectSystemFortiguard#antispam_cache_mpercent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_cache_mpercent ObjectSystemFortiguard#antispam_cache_mpercent}
   */
   readonly antispamCacheMpercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_cache_mpermille ObjectSystemFortiguard#antispam_cache_mpermille}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_cache_mpermille ObjectSystemFortiguard#antispam_cache_mpermille}
   */
   readonly antispamCacheMpermille?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_cache_ttl ObjectSystemFortiguard#antispam_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_cache_ttl ObjectSystemFortiguard#antispam_cache_ttl}
   */
   readonly antispamCacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_expiration ObjectSystemFortiguard#antispam_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_expiration ObjectSystemFortiguard#antispam_expiration}
   */
   readonly antispamExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_force_off ObjectSystemFortiguard#antispam_force_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_force_off ObjectSystemFortiguard#antispam_force_off}
   */
   readonly antispamForceOff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_license ObjectSystemFortiguard#antispam_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_license ObjectSystemFortiguard#antispam_license}
   */
   readonly antispamLicense?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#antispam_timeout ObjectSystemFortiguard#antispam_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#antispam_timeout ObjectSystemFortiguard#antispam_timeout}
   */
   readonly antispamTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#anycast_sdns_server_ip ObjectSystemFortiguard#anycast_sdns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#anycast_sdns_server_ip ObjectSystemFortiguard#anycast_sdns_server_ip}
   */
   readonly anycastSdnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#anycast_sdns_server_port ObjectSystemFortiguard#anycast_sdns_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#anycast_sdns_server_port ObjectSystemFortiguard#anycast_sdns_server_port}
   */
   readonly anycastSdnsServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade ObjectSystemFortiguard#auto_firmware_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade ObjectSystemFortiguard#auto_firmware_upgrade}
   */
   readonly autoFirmwareUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_day ObjectSystemFortiguard#auto_firmware_upgrade_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_day ObjectSystemFortiguard#auto_firmware_upgrade_day}
   */
   readonly autoFirmwareUpgradeDay?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_delay ObjectSystemFortiguard#auto_firmware_upgrade_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_delay ObjectSystemFortiguard#auto_firmware_upgrade_delay}
   */
   readonly autoFirmwareUpgradeDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_end_hour ObjectSystemFortiguard#auto_firmware_upgrade_end_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_end_hour ObjectSystemFortiguard#auto_firmware_upgrade_end_hour}
   */
   readonly autoFirmwareUpgradeEndHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_start_hour ObjectSystemFortiguard#auto_firmware_upgrade_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_firmware_upgrade_start_hour ObjectSystemFortiguard#auto_firmware_upgrade_start_hour}
   */
   readonly autoFirmwareUpgradeStartHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#auto_join_forticloud ObjectSystemFortiguard#auto_join_forticloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#auto_join_forticloud ObjectSystemFortiguard#auto_join_forticloud}
   */
   readonly autoJoinForticloud?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#ddns_server_ip ObjectSystemFortiguard#ddns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#ddns_server_ip ObjectSystemFortiguard#ddns_server_ip}
   */
   readonly ddnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#ddns_server_ip6 ObjectSystemFortiguard#ddns_server_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#ddns_server_ip6 ObjectSystemFortiguard#ddns_server_ip6}
   */
   readonly ddnsServerIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#ddns_server_port ObjectSystemFortiguard#ddns_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#ddns_server_port ObjectSystemFortiguard#ddns_server_port}
   */
   readonly ddnsServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#fds_license_expiring_days ObjectSystemFortiguard#fds_license_expiring_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#fds_license_expiring_days ObjectSystemFortiguard#fds_license_expiring_days}
   */
   readonly fdsLicenseExpiringDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#fortiguard_anycast ObjectSystemFortiguard#fortiguard_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#fortiguard_anycast ObjectSystemFortiguard#fortiguard_anycast}
   */
   readonly fortiguardAnycast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#fortiguard_anycast_source ObjectSystemFortiguard#fortiguard_anycast_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#fortiguard_anycast_source ObjectSystemFortiguard#fortiguard_anycast_source}
   */
   readonly fortiguardAnycastSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#gui_prompt_auto_upgrade ObjectSystemFortiguard#gui_prompt_auto_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#gui_prompt_auto_upgrade ObjectSystemFortiguard#gui_prompt_auto_upgrade}
   */
   readonly guiPromptAutoUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#id ObjectSystemFortiguard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#id ObjectSystemFortiguard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#interface ObjectSystemFortiguard#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#interface ObjectSystemFortiguard#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#interface_select_method ObjectSystemFortiguard#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#interface_select_method ObjectSystemFortiguard#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#load_balance_servers ObjectSystemFortiguard#load_balance_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#load_balance_servers ObjectSystemFortiguard#load_balance_servers}
   */
   readonly loadBalanceServers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache ObjectSystemFortiguard#outbreak_prevention_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache ObjectSystemFortiguard#outbreak_prevention_cache}
   */
   readonly outbreakPreventionCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_mpercent ObjectSystemFortiguard#outbreak_prevention_cache_mpercent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_mpercent ObjectSystemFortiguard#outbreak_prevention_cache_mpercent}
   */
   readonly outbreakPreventionCacheMpercent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_mpermille ObjectSystemFortiguard#outbreak_prevention_cache_mpermille}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_mpermille ObjectSystemFortiguard#outbreak_prevention_cache_mpermille}
   */
   readonly outbreakPreventionCacheMpermille?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_ttl ObjectSystemFortiguard#outbreak_prevention_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_cache_ttl ObjectSystemFortiguard#outbreak_prevention_cache_ttl}
   */
   readonly outbreakPreventionCacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_expiration ObjectSystemFortiguard#outbreak_prevention_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_expiration ObjectSystemFortiguard#outbreak_prevention_expiration}
   */
   readonly outbreakPreventionExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_force_off ObjectSystemFortiguard#outbreak_prevention_force_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_force_off ObjectSystemFortiguard#outbreak_prevention_force_off}
   */
   readonly outbreakPreventionForceOff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_license ObjectSystemFortiguard#outbreak_prevention_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_license ObjectSystemFortiguard#outbreak_prevention_license}
   */
   readonly outbreakPreventionLicense?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#outbreak_prevention_timeout ObjectSystemFortiguard#outbreak_prevention_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#outbreak_prevention_timeout ObjectSystemFortiguard#outbreak_prevention_timeout}
   */
   readonly outbreakPreventionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#persistent_connection ObjectSystemFortiguard#persistent_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#persistent_connection ObjectSystemFortiguard#persistent_connection}
   */
   readonly persistentConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#port ObjectSystemFortiguard#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#port ObjectSystemFortiguard#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#protocol ObjectSystemFortiguard#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#protocol ObjectSystemFortiguard#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#proxy_password ObjectSystemFortiguard#proxy_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#proxy_password ObjectSystemFortiguard#proxy_password}
   */
   readonly proxyPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#proxy_server_ip ObjectSystemFortiguard#proxy_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#proxy_server_ip ObjectSystemFortiguard#proxy_server_ip}
   */
   readonly proxyServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#proxy_server_port ObjectSystemFortiguard#proxy_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#proxy_server_port ObjectSystemFortiguard#proxy_server_port}
   */
   readonly proxyServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#proxy_username ObjectSystemFortiguard#proxy_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#proxy_username ObjectSystemFortiguard#proxy_username}
   */
   readonly proxyUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#sandbox_inline_scan ObjectSystemFortiguard#sandbox_inline_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#sandbox_inline_scan ObjectSystemFortiguard#sandbox_inline_scan}
   */
   readonly sandboxInlineScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#sandbox_region ObjectSystemFortiguard#sandbox_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#sandbox_region ObjectSystemFortiguard#sandbox_region}
   */
   readonly sandboxRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#scopetype ObjectSystemFortiguard#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#scopetype ObjectSystemFortiguard#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#sdns_options ObjectSystemFortiguard#sdns_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#sdns_options ObjectSystemFortiguard#sdns_options}
   */
   readonly sdnsOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#sdns_server_ip ObjectSystemFortiguard#sdns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#sdns_server_ip ObjectSystemFortiguard#sdns_server_ip}
   */
   readonly sdnsServerIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#sdns_server_port ObjectSystemFortiguard#sdns_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#sdns_server_port ObjectSystemFortiguard#sdns_server_port}
   */
   readonly sdnsServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#service_account_id ObjectSystemFortiguard#service_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#service_account_id ObjectSystemFortiguard#service_account_id}
   */
   readonly serviceAccountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#source_ip ObjectSystemFortiguard#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#source_ip ObjectSystemFortiguard#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#source_ip6 ObjectSystemFortiguard#source_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#source_ip6 ObjectSystemFortiguard#source_ip6}
   */
   readonly sourceIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_build_proxy ObjectSystemFortiguard#update_build_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#subscribe_update_notification ObjectSystemFortiguard#subscribe_update_notification}
+  */
+  readonly subscribeUpdateNotification?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_build_proxy ObjectSystemFortiguard#update_build_proxy}
   */
   readonly updateBuildProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_dldb ObjectSystemFortiguard#update_dldb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_dldb ObjectSystemFortiguard#update_dldb}
   */
   readonly updateDldb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_extdb ObjectSystemFortiguard#update_extdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_extdb ObjectSystemFortiguard#update_extdb}
   */
   readonly updateExtdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_ffdb ObjectSystemFortiguard#update_ffdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_ffdb ObjectSystemFortiguard#update_ffdb}
   */
   readonly updateFfdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_server_location ObjectSystemFortiguard#update_server_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_server_location ObjectSystemFortiguard#update_server_location}
   */
   readonly updateServerLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#update_uwdb ObjectSystemFortiguard#update_uwdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#update_uwdb ObjectSystemFortiguard#update_uwdb}
   */
   readonly updateUwdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#vdom ObjectSystemFortiguard#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#vdom ObjectSystemFortiguard#vdom}
   */
   readonly vdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#videofilter_expiration ObjectSystemFortiguard#videofilter_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#videofilter_expiration ObjectSystemFortiguard#videofilter_expiration}
   */
   readonly videofilterExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#videofilter_license ObjectSystemFortiguard#videofilter_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#videofilter_license ObjectSystemFortiguard#videofilter_license}
   */
   readonly videofilterLicense?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#vrf_select ObjectSystemFortiguard#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#vrf_select ObjectSystemFortiguard#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_cache ObjectSystemFortiguard#webfilter_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_cache ObjectSystemFortiguard#webfilter_cache}
   */
   readonly webfilterCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_cache_ttl ObjectSystemFortiguard#webfilter_cache_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_cache_ttl ObjectSystemFortiguard#webfilter_cache_ttl}
   */
   readonly webfilterCacheTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_expiration ObjectSystemFortiguard#webfilter_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_expiration ObjectSystemFortiguard#webfilter_expiration}
   */
   readonly webfilterExpiration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_force_off ObjectSystemFortiguard#webfilter_force_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_force_off ObjectSystemFortiguard#webfilter_force_off}
   */
   readonly webfilterForceOff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_license ObjectSystemFortiguard#webfilter_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_license ObjectSystemFortiguard#webfilter_license}
   */
   readonly webfilterLicense?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#webfilter_timeout ObjectSystemFortiguard#webfilter_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#webfilter_timeout ObjectSystemFortiguard#webfilter_timeout}
   */
   readonly webfilterTimeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard fortimanager_object_system_fortiguard}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard fortimanager_object_system_fortiguard}
 */
 export class ObjectSystemFortiguard extends cdktf.TerraformResource {
 
@@ -301,7 +305,7 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemFortiguard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemFortiguard to import
-  * @param importFromId The id of the existing ObjectSystemFortiguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemFortiguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemFortiguard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +317,7 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_fortiguard fortimanager_object_system_fortiguard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_fortiguard fortimanager_object_system_fortiguard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +328,8 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_fortiguard',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -387,6 +391,7 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
     this._serviceAccountId = config.serviceAccountId;
     this._sourceIp = config.sourceIp;
     this._sourceIp6 = config.sourceIp6;
+    this._subscribeUpdateNotification = config.subscribeUpdateNotification;
     this._updateBuildProxy = config.updateBuildProxy;
     this._updateDldb = config.updateDldb;
     this._updateExtdb = config.updateExtdb;
@@ -1241,6 +1246,22 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
     return this._sourceIp6;
   }
 
+  // subscribe_update_notification - computed: false, optional: true, required: false
+  private _subscribeUpdateNotification?: string; 
+  public get subscribeUpdateNotification() {
+    return this.getStringAttribute('subscribe_update_notification');
+  }
+  public set subscribeUpdateNotification(value: string) {
+    this._subscribeUpdateNotification = value;
+  }
+  public resetSubscribeUpdateNotification() {
+    this._subscribeUpdateNotification = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subscribeUpdateNotificationInput() {
+    return this._subscribeUpdateNotification;
+  }
+
   // update_build_proxy - computed: true, optional: true, required: false
   private _updateBuildProxy?: string; 
   public get updateBuildProxy() {
@@ -1555,6 +1576,7 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
       service_account_id: cdktf.stringToTerraform(this._serviceAccountId),
       source_ip: cdktf.stringToTerraform(this._sourceIp),
       source_ip6: cdktf.stringToTerraform(this._sourceIp6),
+      subscribe_update_notification: cdktf.stringToTerraform(this._subscribeUpdateNotification),
       update_build_proxy: cdktf.stringToTerraform(this._updateBuildProxy),
       update_dldb: cdktf.stringToTerraform(this._updateDldb),
       update_extdb: cdktf.stringToTerraform(this._updateExtdb),
@@ -1884,6 +1906,12 @@ export class ObjectSystemFortiguard extends cdktf.TerraformResource {
       },
       source_ip6: {
         value: cdktf.stringToHclTerraform(this._sourceIp6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      subscribe_update_notification: {
+        value: cdktf.stringToHclTerraform(this._subscribeUpdateNotification),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

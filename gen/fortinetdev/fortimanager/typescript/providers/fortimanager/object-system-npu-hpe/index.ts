@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuHpeAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#adom ObjectSystemNpuHpeA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#adom ObjectSystemNpuHpeA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#all_protocol ObjectSystemNpuHpeA#all_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#all_protocol ObjectSystemNpuHpeA#all_protocol}
   */
   readonly allProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#arp_max ObjectSystemNpuHpeA#arp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#arp_max ObjectSystemNpuHpeA#arp_max}
   */
   readonly arpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#enable_queue_shaper ObjectSystemNpuHpeA#enable_queue_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#enable_queue_shaper ObjectSystemNpuHpeA#enable_queue_shaper}
   */
   readonly enableQueueShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#enable_shaper ObjectSystemNpuHpeA#enable_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#enable_shaper ObjectSystemNpuHpeA#enable_shaper}
   */
   readonly enableShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#esp_max ObjectSystemNpuHpeA#esp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#esp_max ObjectSystemNpuHpeA#esp_max}
   */
   readonly espMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#exception_code ObjectSystemNpuHpeA#exception_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#exception_code ObjectSystemNpuHpeA#exception_code}
   */
   readonly exceptionCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#fragment_with_sess ObjectSystemNpuHpeA#fragment_with_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#fragment_with_sess ObjectSystemNpuHpeA#fragment_with_sess}
   */
   readonly fragmentWithSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#fragment_without_session ObjectSystemNpuHpeA#fragment_without_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#fragment_without_session ObjectSystemNpuHpeA#fragment_without_session}
   */
   readonly fragmentWithoutSession?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#high_priority ObjectSystemNpuHpeA#high_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#high_priority ObjectSystemNpuHpeA#high_priority}
   */
   readonly highPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#icmp_max ObjectSystemNpuHpeA#icmp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#icmp_max ObjectSystemNpuHpeA#icmp_max}
   */
   readonly icmpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#id ObjectSystemNpuHpeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#id ObjectSystemNpuHpeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#ip_frag_max ObjectSystemNpuHpeA#ip_frag_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#ip_frag_max ObjectSystemNpuHpeA#ip_frag_max}
   */
   readonly ipFragMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#ip_others_max ObjectSystemNpuHpeA#ip_others_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#ip_others_max ObjectSystemNpuHpeA#ip_others_max}
   */
   readonly ipOthersMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#l2_others_max ObjectSystemNpuHpeA#l2_others_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#l2_others_max ObjectSystemNpuHpeA#l2_others_max}
   */
   readonly l2OthersMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#pri_type_max ObjectSystemNpuHpeA#pri_type_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#pri_type_max ObjectSystemNpuHpeA#pri_type_max}
   */
   readonly priTypeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#queue_shaper_max ObjectSystemNpuHpeA#queue_shaper_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#queue_shaper_max ObjectSystemNpuHpeA#queue_shaper_max}
   */
   readonly queueShaperMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#scopetype ObjectSystemNpuHpeA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#scopetype ObjectSystemNpuHpeA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#sctp_max ObjectSystemNpuHpeA#sctp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#sctp_max ObjectSystemNpuHpeA#sctp_max}
   */
   readonly sctpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#tcp_max ObjectSystemNpuHpeA#tcp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#tcp_max ObjectSystemNpuHpeA#tcp_max}
   */
   readonly tcpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#tcpfin_rst_max ObjectSystemNpuHpeA#tcpfin_rst_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#tcpfin_rst_max ObjectSystemNpuHpeA#tcpfin_rst_max}
   */
   readonly tcpfinRstMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#tcpsyn_ack_max ObjectSystemNpuHpeA#tcpsyn_ack_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#tcpsyn_ack_max ObjectSystemNpuHpeA#tcpsyn_ack_max}
   */
   readonly tcpsynAckMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#tcpsyn_max ObjectSystemNpuHpeA#tcpsyn_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#tcpsyn_max ObjectSystemNpuHpeA#tcpsyn_max}
   */
   readonly tcpsynMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#udp_max ObjectSystemNpuHpeA#udp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#udp_max ObjectSystemNpuHpeA#udp_max}
   */
   readonly udpMax?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe fortimanager_object_system_npu_hpe}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe fortimanager_object_system_npu_hpe}
 */
 export class ObjectSystemNpuHpeA extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class ObjectSystemNpuHpeA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuHpeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuHpeA to import
-  * @param importFromId The id of the existing ObjectSystemNpuHpeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuHpeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuHpeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class ObjectSystemNpuHpeA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_hpe fortimanager_object_system_npu_hpe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_hpe fortimanager_object_system_npu_hpe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class ObjectSystemNpuHpeA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_hpe',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,188 +8,188 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogDiskFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#aid SystemLocallogDiskFilter#aid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#aid SystemLocallogDiskFilter#aid}
   */
   readonly aid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#controller SystemLocallogDiskFilter#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#controller SystemLocallogDiskFilter#controller}
   */
   readonly controller?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#devcfg SystemLocallogDiskFilter#devcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#devcfg SystemLocallogDiskFilter#devcfg}
   */
   readonly devcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#devops SystemLocallogDiskFilter#devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#devops SystemLocallogDiskFilter#devops}
   */
   readonly devops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#diskquota SystemLocallogDiskFilter#diskquota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#diskquota SystemLocallogDiskFilter#diskquota}
   */
   readonly diskquota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#dm SystemLocallogDiskFilter#dm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#dm SystemLocallogDiskFilter#dm}
   */
   readonly dm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#docker SystemLocallogDiskFilter#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#docker SystemLocallogDiskFilter#docker}
   */
   readonly docker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#dvm SystemLocallogDiskFilter#dvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#dvm SystemLocallogDiskFilter#dvm}
   */
   readonly dvm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#ediscovery SystemLocallogDiskFilter#ediscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#ediscovery SystemLocallogDiskFilter#ediscovery}
   */
   readonly ediscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#epmgr SystemLocallogDiskFilter#epmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#epmgr SystemLocallogDiskFilter#epmgr}
   */
   readonly epmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#event SystemLocallogDiskFilter#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#event SystemLocallogDiskFilter#event}
   */
   readonly event?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#eventmgmt SystemLocallogDiskFilter#eventmgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#eventmgmt SystemLocallogDiskFilter#eventmgmt}
   */
   readonly eventmgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#faz SystemLocallogDiskFilter#faz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#faz SystemLocallogDiskFilter#faz}
   */
   readonly faz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fazha SystemLocallogDiskFilter#fazha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fazha SystemLocallogDiskFilter#fazha}
   */
   readonly fazha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fazsys SystemLocallogDiskFilter#fazsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fazsys SystemLocallogDiskFilter#fazsys}
   */
   readonly fazsys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fgd SystemLocallogDiskFilter#fgd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fgd SystemLocallogDiskFilter#fgd}
   */
   readonly fgd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fgfm SystemLocallogDiskFilter#fgfm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fgfm SystemLocallogDiskFilter#fgfm}
   */
   readonly fgfm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fips SystemLocallogDiskFilter#fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fips SystemLocallogDiskFilter#fips}
   */
   readonly fips?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fmgws SystemLocallogDiskFilter#fmgws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fmgws SystemLocallogDiskFilter#fmgws}
   */
   readonly fmgws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fmlmgr SystemLocallogDiskFilter#fmlmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fmlmgr SystemLocallogDiskFilter#fmlmgr}
   */
   readonly fmlmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fmwmgr SystemLocallogDiskFilter#fmwmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fmwmgr SystemLocallogDiskFilter#fmwmgr}
   */
   readonly fmwmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#fortiview SystemLocallogDiskFilter#fortiview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#fortiview SystemLocallogDiskFilter#fortiview}
   */
   readonly fortiview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#glbcfg SystemLocallogDiskFilter#glbcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#glbcfg SystemLocallogDiskFilter#glbcfg}
   */
   readonly glbcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#ha SystemLocallogDiskFilter#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#ha SystemLocallogDiskFilter#ha}
   */
   readonly ha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#hcache SystemLocallogDiskFilter#hcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#hcache SystemLocallogDiskFilter#hcache}
   */
   readonly hcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#id SystemLocallogDiskFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#id SystemLocallogDiskFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#incident SystemLocallogDiskFilter#incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#incident SystemLocallogDiskFilter#incident}
   */
   readonly incident?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#iolog SystemLocallogDiskFilter#iolog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#iolog SystemLocallogDiskFilter#iolog}
   */
   readonly iolog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#logd SystemLocallogDiskFilter#logd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#logd SystemLocallogDiskFilter#logd}
   */
   readonly logd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#logdb SystemLocallogDiskFilter#logdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#logdb SystemLocallogDiskFilter#logdb}
   */
   readonly logdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#logdev SystemLocallogDiskFilter#logdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#logdev SystemLocallogDiskFilter#logdev}
   */
   readonly logdev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#logfile SystemLocallogDiskFilter#logfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#logfile SystemLocallogDiskFilter#logfile}
   */
   readonly logfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#logging SystemLocallogDiskFilter#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#logging SystemLocallogDiskFilter#logging}
   */
   readonly logging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#lrmgr SystemLocallogDiskFilter#lrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#lrmgr SystemLocallogDiskFilter#lrmgr}
   */
   readonly lrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#objcfg SystemLocallogDiskFilter#objcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#objcfg SystemLocallogDiskFilter#objcfg}
   */
   readonly objcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#report SystemLocallogDiskFilter#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#report SystemLocallogDiskFilter#report}
   */
   readonly report?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#rev SystemLocallogDiskFilter#rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#rev SystemLocallogDiskFilter#rev}
   */
   readonly rev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#rtmon SystemLocallogDiskFilter#rtmon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#rtmon SystemLocallogDiskFilter#rtmon}
   */
   readonly rtmon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#scfw SystemLocallogDiskFilter#scfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#scfw SystemLocallogDiskFilter#scfw}
   */
   readonly scfw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#scply SystemLocallogDiskFilter#scply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#scply SystemLocallogDiskFilter#scply}
   */
   readonly scply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#scrmgr SystemLocallogDiskFilter#scrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#scrmgr SystemLocallogDiskFilter#scrmgr}
   */
   readonly scrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#scvpn SystemLocallogDiskFilter#scvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#scvpn SystemLocallogDiskFilter#scvpn}
   */
   readonly scvpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#system SystemLocallogDiskFilter#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#system SystemLocallogDiskFilter#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#webport SystemLocallogDiskFilter#webport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#webport SystemLocallogDiskFilter#webport}
   */
   readonly webport?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter fortimanager_system_locallog_disk_filter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter fortimanager_system_locallog_disk_filter}
 */
 export class SystemLocallogDiskFilter extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class SystemLocallogDiskFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocallogDiskFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogDiskFilter to import
-  * @param importFromId The id of the existing SystemLocallogDiskFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogDiskFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogDiskFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class SystemLocallogDiskFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_disk_filter fortimanager_system_locallog_disk_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_disk_filter fortimanager_system_locallog_disk_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class SystemLocallogDiskFilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_locallog_disk_filter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

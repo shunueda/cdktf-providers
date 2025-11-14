@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallProfileprotocoloptionsCifsServerkeytabConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#adom ObjectFirewallProfileprotocoloptionsCifsServerkeytab#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#adom ObjectFirewallProfileprotocoloptionsCifsServerkeytab#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#id ObjectFirewallProfileprotocoloptionsCifsServerkeytab#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#id ObjectFirewallProfileprotocoloptionsCifsServerkeytab#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#keytab ObjectFirewallProfileprotocoloptionsCifsServerkeytab#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#keytab ObjectFirewallProfileprotocoloptionsCifsServerkeytab#keytab}
   */
   readonly keytab?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#password ObjectFirewallProfileprotocoloptionsCifsServerkeytab#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#password ObjectFirewallProfileprotocoloptionsCifsServerkeytab#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#principal ObjectFirewallProfileprotocoloptionsCifsServerkeytab#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#principal ObjectFirewallProfileprotocoloptionsCifsServerkeytab#principal}
   */
   readonly principal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#profile_protocol_options ObjectFirewallProfileprotocoloptionsCifsServerkeytab#profile_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#profile_protocol_options ObjectFirewallProfileprotocoloptionsCifsServerkeytab#profile_protocol_options}
   */
   readonly profileProtocolOptions: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#scopetype ObjectFirewallProfileprotocoloptionsCifsServerkeytab#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#scopetype ObjectFirewallProfileprotocoloptionsCifsServerkeytab#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab fortimanager_object_firewall_profileprotocoloptions_cifs_serverkeytab}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab fortimanager_object_firewall_profileprotocoloptions_cifs_serverkeytab}
 */
 export class ObjectFirewallProfileprotocoloptionsCifsServerkeytab extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectFirewallProfileprotocoloptionsCifsServerkeytab extends cdktf.
   * Generates CDKTF code for importing a ObjectFirewallProfileprotocoloptionsCifsServerkeytab resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallProfileprotocoloptionsCifsServerkeytab to import
-  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsCifsServerkeytab that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallProfileprotocoloptionsCifsServerkeytab that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallProfileprotocoloptionsCifsServerkeytab to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectFirewallProfileprotocoloptionsCifsServerkeytab extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab fortimanager_object_firewall_profileprotocoloptions_cifs_serverkeytab} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_profileprotocoloptions_cifs_serverkeytab fortimanager_object_firewall_profileprotocoloptions_cifs_serverkeytab} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectFirewallProfileprotocoloptionsCifsServerkeytab extends cdktf.
       terraformResourceType: 'fortimanager_object_firewall_profileprotocoloptions_cifs_serverkeytab',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

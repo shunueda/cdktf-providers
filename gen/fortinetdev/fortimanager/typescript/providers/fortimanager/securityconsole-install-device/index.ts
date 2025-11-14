@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityconsoleInstallDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#dev_rev_comments SecurityconsoleInstallDevice#dev_rev_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#dev_rev_comments SecurityconsoleInstallDevice#dev_rev_comments}
   */
   readonly devRevComments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#dynamic_sort_subtable SecurityconsoleInstallDevice#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#dynamic_sort_subtable SecurityconsoleInstallDevice#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#flags SecurityconsoleInstallDevice#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#flags SecurityconsoleInstallDevice#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#fmgadom SecurityconsoleInstallDevice#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#fmgadom SecurityconsoleInstallDevice#fmgadom}
   */
   readonly fmgadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#force_recreate SecurityconsoleInstallDevice#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#force_recreate SecurityconsoleInstallDevice#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#id SecurityconsoleInstallDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#id SecurityconsoleInstallDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,17 +37,17 @@ export interface SecurityconsoleInstallDeviceConfig extends cdktf.TerraformMetaA
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#scope SecurityconsoleInstallDevice#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#scope SecurityconsoleInstallDevice#scope}
   */
   readonly scope?: SecurityconsoleInstallDeviceScope[] | cdktf.IResolvable;
 }
 export interface SecurityconsoleInstallDeviceScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#name SecurityconsoleInstallDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#name SecurityconsoleInstallDevice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#vdom SecurityconsoleInstallDevice#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#vdom SecurityconsoleInstallDevice#vdom}
   */
   readonly vdom?: string;
 }
@@ -192,7 +192,7 @@ export class SecurityconsoleInstallDeviceScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device fortimanager_securityconsole_install_device}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device fortimanager_securityconsole_install_device}
 */
 export class SecurityconsoleInstallDevice extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class SecurityconsoleInstallDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityconsoleInstallDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityconsoleInstallDevice to import
-  * @param importFromId The id of the existing SecurityconsoleInstallDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityconsoleInstallDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityconsoleInstallDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class SecurityconsoleInstallDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_install_device fortimanager_securityconsole_install_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_install_device fortimanager_securityconsole_install_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class SecurityconsoleInstallDevice extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_securityconsole_install_device',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

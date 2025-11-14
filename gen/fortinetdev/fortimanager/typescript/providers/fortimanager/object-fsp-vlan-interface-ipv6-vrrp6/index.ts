@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanInterfaceIpv6Vrrp6AConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#accept_mode ObjectFspVlanInterfaceIpv6Vrrp6A#accept_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#accept_mode ObjectFspVlanInterfaceIpv6Vrrp6A#accept_mode}
   */
   readonly acceptMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#adom ObjectFspVlanInterfaceIpv6Vrrp6A#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#adom ObjectFspVlanInterfaceIpv6Vrrp6A#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#adv_interval ObjectFspVlanInterfaceIpv6Vrrp6A#adv_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#adv_interval ObjectFspVlanInterfaceIpv6Vrrp6A#adv_interval}
   */
   readonly advInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#id ObjectFspVlanInterfaceIpv6Vrrp6A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#id ObjectFspVlanInterfaceIpv6Vrrp6A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#ignore_default_route ObjectFspVlanInterfaceIpv6Vrrp6A#ignore_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#ignore_default_route ObjectFspVlanInterfaceIpv6Vrrp6A#ignore_default_route}
   */
   readonly ignoreDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#preempt ObjectFspVlanInterfaceIpv6Vrrp6A#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#preempt ObjectFspVlanInterfaceIpv6Vrrp6A#preempt}
   */
   readonly preempt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#priority ObjectFspVlanInterfaceIpv6Vrrp6A#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#priority ObjectFspVlanInterfaceIpv6Vrrp6A#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#scopetype ObjectFspVlanInterfaceIpv6Vrrp6A#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#scopetype ObjectFspVlanInterfaceIpv6Vrrp6A#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#start_time ObjectFspVlanInterfaceIpv6Vrrp6A#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#start_time ObjectFspVlanInterfaceIpv6Vrrp6A#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#status ObjectFspVlanInterfaceIpv6Vrrp6A#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#status ObjectFspVlanInterfaceIpv6Vrrp6A#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vlan ObjectFspVlanInterfaceIpv6Vrrp6A#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vlan ObjectFspVlanInterfaceIpv6Vrrp6A#vlan}
   */
   readonly vlan: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrdst6 ObjectFspVlanInterfaceIpv6Vrrp6A#vrdst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrdst6 ObjectFspVlanInterfaceIpv6Vrrp6A#vrdst6}
   */
   readonly vrdst6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrgrp ObjectFspVlanInterfaceIpv6Vrrp6A#vrgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrgrp ObjectFspVlanInterfaceIpv6Vrrp6A#vrgrp}
   */
   readonly vrgrp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrid ObjectFspVlanInterfaceIpv6Vrrp6A#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrid ObjectFspVlanInterfaceIpv6Vrrp6A#vrid}
   */
   readonly vrid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrip6 ObjectFspVlanInterfaceIpv6Vrrp6A#vrip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#vrip6 ObjectFspVlanInterfaceIpv6Vrrp6A#vrip6}
   */
   readonly vrip6?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6 fortimanager_object_fsp_vlan_interface_ipv6_vrrp6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6 fortimanager_object_fsp_vlan_interface_ipv6_vrrp6}
 */
 export class ObjectFspVlanInterfaceIpv6Vrrp6A extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ObjectFspVlanInterfaceIpv6Vrrp6A extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFspVlanInterfaceIpv6Vrrp6A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanInterfaceIpv6Vrrp6A to import
-  * @param importFromId The id of the existing ObjectFspVlanInterfaceIpv6Vrrp6A that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanInterfaceIpv6Vrrp6A that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanInterfaceIpv6Vrrp6A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ObjectFspVlanInterfaceIpv6Vrrp6A extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6 fortimanager_object_fsp_vlan_interface_ipv6_vrrp6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_ipv6_vrrp6 fortimanager_object_fsp_vlan_interface_ipv6_vrrp6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ObjectFspVlanInterfaceIpv6Vrrp6A extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_fsp_vlan_interface_ipv6_vrrp6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

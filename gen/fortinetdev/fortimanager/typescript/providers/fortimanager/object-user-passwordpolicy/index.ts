@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserPasswordpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#adom ObjectUserPasswordpolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#adom ObjectUserPasswordpolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#expire_days ObjectUserPasswordpolicy#expire_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#expire_days ObjectUserPasswordpolicy#expire_days}
   */
   readonly expireDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#expire_status ObjectUserPasswordpolicy#expire_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#expire_status ObjectUserPasswordpolicy#expire_status}
   */
   readonly expireStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#expired_password_renewal ObjectUserPasswordpolicy#expired_password_renewal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#expired_password_renewal ObjectUserPasswordpolicy#expired_password_renewal}
   */
   readonly expiredPasswordRenewal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#id ObjectUserPasswordpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#id ObjectUserPasswordpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#min_change_characters ObjectUserPasswordpolicy#min_change_characters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#min_change_characters ObjectUserPasswordpolicy#min_change_characters}
   */
   readonly minChangeCharacters?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#min_lower_case_letter ObjectUserPasswordpolicy#min_lower_case_letter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#min_lower_case_letter ObjectUserPasswordpolicy#min_lower_case_letter}
   */
   readonly minLowerCaseLetter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#min_non_alphanumeric ObjectUserPasswordpolicy#min_non_alphanumeric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#min_non_alphanumeric ObjectUserPasswordpolicy#min_non_alphanumeric}
   */
   readonly minNonAlphanumeric?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#min_number ObjectUserPasswordpolicy#min_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#min_number ObjectUserPasswordpolicy#min_number}
   */
   readonly minNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#min_upper_case_letter ObjectUserPasswordpolicy#min_upper_case_letter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#min_upper_case_letter ObjectUserPasswordpolicy#min_upper_case_letter}
   */
   readonly minUpperCaseLetter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#minimum_length ObjectUserPasswordpolicy#minimum_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#minimum_length ObjectUserPasswordpolicy#minimum_length}
   */
   readonly minimumLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#name ObjectUserPasswordpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#name ObjectUserPasswordpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#reuse_password ObjectUserPasswordpolicy#reuse_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#reuse_password ObjectUserPasswordpolicy#reuse_password}
   */
   readonly reusePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#reuse_password_limit ObjectUserPasswordpolicy#reuse_password_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#reuse_password_limit ObjectUserPasswordpolicy#reuse_password_limit}
   */
   readonly reusePasswordLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#scopetype ObjectUserPasswordpolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#scopetype ObjectUserPasswordpolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#warn_days ObjectUserPasswordpolicy#warn_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#warn_days ObjectUserPasswordpolicy#warn_days}
   */
   readonly warnDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy fortimanager_object_user_passwordpolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy fortimanager_object_user_passwordpolicy}
 */
 export class ObjectUserPasswordpolicy extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ObjectUserPasswordpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserPasswordpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserPasswordpolicy to import
-  * @param importFromId The id of the existing ObjectUserPasswordpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserPasswordpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserPasswordpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ObjectUserPasswordpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_passwordpolicy fortimanager_object_user_passwordpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_passwordpolicy fortimanager_object_user_passwordpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ObjectUserPasswordpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_passwordpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

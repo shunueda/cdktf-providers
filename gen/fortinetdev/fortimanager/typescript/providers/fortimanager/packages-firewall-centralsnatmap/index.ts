@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallCentralsnatmapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#adom PackagesFirewallCentralsnatmap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#adom PackagesFirewallCentralsnatmap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#comments PackagesFirewallCentralsnatmap#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#comments PackagesFirewallCentralsnatmap#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#dst_addr PackagesFirewallCentralsnatmap#dst_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#dst_addr PackagesFirewallCentralsnatmap#dst_addr}
   */
   readonly dstAddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#dst_addr6 PackagesFirewallCentralsnatmap#dst_addr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#dst_addr6 PackagesFirewallCentralsnatmap#dst_addr6}
   */
   readonly dstAddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#dst_port PackagesFirewallCentralsnatmap#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#dst_port PackagesFirewallCentralsnatmap#dst_port}
   */
   readonly dstPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#dstintf PackagesFirewallCentralsnatmap#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#dstintf PackagesFirewallCentralsnatmap#dstintf}
   */
   readonly dstintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#id PackagesFirewallCentralsnatmap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#id PackagesFirewallCentralsnatmap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat PackagesFirewallCentralsnatmap#nat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat PackagesFirewallCentralsnatmap#nat}
   */
   readonly nat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat46 PackagesFirewallCentralsnatmap#nat46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat46 PackagesFirewallCentralsnatmap#nat46}
   */
   readonly nat46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat64 PackagesFirewallCentralsnatmap#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat64 PackagesFirewallCentralsnatmap#nat64}
   */
   readonly nat64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat_ippool PackagesFirewallCentralsnatmap#nat_ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat_ippool PackagesFirewallCentralsnatmap#nat_ippool}
   */
   readonly natIppool?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat_ippool6 PackagesFirewallCentralsnatmap#nat_ippool6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat_ippool6 PackagesFirewallCentralsnatmap#nat_ippool6}
   */
   readonly natIppool6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#nat_port PackagesFirewallCentralsnatmap#nat_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#nat_port PackagesFirewallCentralsnatmap#nat_port}
   */
   readonly natPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#orig_addr PackagesFirewallCentralsnatmap#orig_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#orig_addr PackagesFirewallCentralsnatmap#orig_addr}
   */
   readonly origAddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#orig_addr6 PackagesFirewallCentralsnatmap#orig_addr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#orig_addr6 PackagesFirewallCentralsnatmap#orig_addr6}
   */
   readonly origAddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#orig_port PackagesFirewallCentralsnatmap#orig_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#orig_port PackagesFirewallCentralsnatmap#orig_port}
   */
   readonly origPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#pkg PackagesFirewallCentralsnatmap#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#pkg PackagesFirewallCentralsnatmap#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#pkg_folder_path PackagesFirewallCentralsnatmap#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#pkg_folder_path PackagesFirewallCentralsnatmap#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#policyid PackagesFirewallCentralsnatmap#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#policyid PackagesFirewallCentralsnatmap#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#port_preserve PackagesFirewallCentralsnatmap#port_preserve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#port_preserve PackagesFirewallCentralsnatmap#port_preserve}
   */
   readonly portPreserve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#port_random PackagesFirewallCentralsnatmap#port_random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#port_random PackagesFirewallCentralsnatmap#port_random}
   */
   readonly portRandom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#protocol PackagesFirewallCentralsnatmap#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#protocol PackagesFirewallCentralsnatmap#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#scopetype PackagesFirewallCentralsnatmap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#scopetype PackagesFirewallCentralsnatmap#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#srcintf PackagesFirewallCentralsnatmap#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#srcintf PackagesFirewallCentralsnatmap#srcintf}
   */
   readonly srcintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#status PackagesFirewallCentralsnatmap#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#status PackagesFirewallCentralsnatmap#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#type PackagesFirewallCentralsnatmap#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#type PackagesFirewallCentralsnatmap#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#uuid PackagesFirewallCentralsnatmap#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#uuid PackagesFirewallCentralsnatmap#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap fortimanager_packages_firewall_centralsnatmap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap fortimanager_packages_firewall_centralsnatmap}
 */
 export class PackagesFirewallCentralsnatmap extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class PackagesFirewallCentralsnatmap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesFirewallCentralsnatmap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallCentralsnatmap to import
-  * @param importFromId The id of the existing PackagesFirewallCentralsnatmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallCentralsnatmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallCentralsnatmap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class PackagesFirewallCentralsnatmap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_centralsnatmap fortimanager_packages_firewall_centralsnatmap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_centralsnatmap fortimanager_packages_firewall_centralsnatmap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class PackagesFirewallCentralsnatmap extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_firewall_centralsnatmap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

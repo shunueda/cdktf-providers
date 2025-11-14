@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,196 +8,196 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemReplacemsggroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#adom ObjectSystemReplacemsggroup#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#adom ObjectSystemReplacemsggroup#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#comment ObjectSystemReplacemsggroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#comment ObjectSystemReplacemsggroup#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#dynamic_sort_subtable ObjectSystemReplacemsggroup#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#dynamic_sort_subtable ObjectSystemReplacemsggroup#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#group_type ObjectSystemReplacemsggroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#group_type ObjectSystemReplacemsggroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#name ObjectSystemReplacemsggroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#name ObjectSystemReplacemsggroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#scopetype ObjectSystemReplacemsggroup#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#scopetype ObjectSystemReplacemsggroup#scopetype}
   */
   readonly scopetype?: string;
   /**
   * admin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#admin ObjectSystemReplacemsggroup#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#admin ObjectSystemReplacemsggroup#admin}
   */
   readonly admin?: ObjectSystemReplacemsggroupAdmin[] | cdktf.IResolvable;
   /**
   * alertmail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#alertmail ObjectSystemReplacemsggroup#alertmail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#alertmail ObjectSystemReplacemsggroup#alertmail}
   */
   readonly alertmail?: ObjectSystemReplacemsggroupAlertmail[] | cdktf.IResolvable;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#auth ObjectSystemReplacemsggroup#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#auth ObjectSystemReplacemsggroup#auth}
   */
   readonly auth?: ObjectSystemReplacemsggroupAuth[] | cdktf.IResolvable;
   /**
   * automation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#automation ObjectSystemReplacemsggroup#automation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#automation ObjectSystemReplacemsggroup#automation}
   */
   readonly automation?: ObjectSystemReplacemsggroupAutomation[] | cdktf.IResolvable;
   /**
   * custom_message block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#custom_message ObjectSystemReplacemsggroup#custom_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#custom_message ObjectSystemReplacemsggroup#custom_message}
   */
   readonly customMessage?: ObjectSystemReplacemsggroupCustomMessage[] | cdktf.IResolvable;
   /**
   * device_detection_portal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#device_detection_portal ObjectSystemReplacemsggroup#device_detection_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#device_detection_portal ObjectSystemReplacemsggroup#device_detection_portal}
   */
   readonly deviceDetectionPortal?: ObjectSystemReplacemsggroupDeviceDetectionPortal[] | cdktf.IResolvable;
   /**
   * ec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#ec ObjectSystemReplacemsggroup#ec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#ec ObjectSystemReplacemsggroup#ec}
   */
   readonly ec?: ObjectSystemReplacemsggroupEc[] | cdktf.IResolvable;
   /**
   * fortiguard_wf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#fortiguard_wf ObjectSystemReplacemsggroup#fortiguard_wf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#fortiguard_wf ObjectSystemReplacemsggroup#fortiguard_wf}
   */
   readonly fortiguardWf?: ObjectSystemReplacemsggroupFortiguardWf[] | cdktf.IResolvable;
   /**
   * ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#ftp ObjectSystemReplacemsggroup#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#ftp ObjectSystemReplacemsggroup#ftp}
   */
   readonly ftp?: ObjectSystemReplacemsggroupFtp[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#http ObjectSystemReplacemsggroup#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#http ObjectSystemReplacemsggroup#http}
   */
   readonly http?: ObjectSystemReplacemsggroupHttp[] | cdktf.IResolvable;
   /**
   * icap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#icap ObjectSystemReplacemsggroup#icap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#icap ObjectSystemReplacemsggroup#icap}
   */
   readonly icap?: ObjectSystemReplacemsggroupIcap[] | cdktf.IResolvable;
   /**
   * mail block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mail ObjectSystemReplacemsggroup#mail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mail ObjectSystemReplacemsggroup#mail}
   */
   readonly mail?: ObjectSystemReplacemsggroupMail[] | cdktf.IResolvable;
   /**
   * mm1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mm1 ObjectSystemReplacemsggroup#mm1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mm1 ObjectSystemReplacemsggroup#mm1}
   */
   readonly mm1?: ObjectSystemReplacemsggroupMm1[] | cdktf.IResolvable;
   /**
   * mm3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mm3 ObjectSystemReplacemsggroup#mm3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mm3 ObjectSystemReplacemsggroup#mm3}
   */
   readonly mm3?: ObjectSystemReplacemsggroupMm3[] | cdktf.IResolvable;
   /**
   * mm4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mm4 ObjectSystemReplacemsggroup#mm4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mm4 ObjectSystemReplacemsggroup#mm4}
   */
   readonly mm4?: ObjectSystemReplacemsggroupMm4[] | cdktf.IResolvable;
   /**
   * mm7 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mm7 ObjectSystemReplacemsggroup#mm7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mm7 ObjectSystemReplacemsggroup#mm7}
   */
   readonly mm7?: ObjectSystemReplacemsggroupMm7[] | cdktf.IResolvable;
   /**
   * mms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#mms ObjectSystemReplacemsggroup#mms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#mms ObjectSystemReplacemsggroup#mms}
   */
   readonly mms?: ObjectSystemReplacemsggroupMms[] | cdktf.IResolvable;
   /**
   * nac_quar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#nac_quar ObjectSystemReplacemsggroup#nac_quar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#nac_quar ObjectSystemReplacemsggroup#nac_quar}
   */
   readonly nacQuar?: ObjectSystemReplacemsggroupNacQuar[] | cdktf.IResolvable;
   /**
   * nntp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#nntp ObjectSystemReplacemsggroup#nntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#nntp ObjectSystemReplacemsggroup#nntp}
   */
   readonly nntp?: ObjectSystemReplacemsggroupNntp[] | cdktf.IResolvable;
   /**
   * spam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#spam ObjectSystemReplacemsggroup#spam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#spam ObjectSystemReplacemsggroup#spam}
   */
   readonly spam?: ObjectSystemReplacemsggroupSpam[] | cdktf.IResolvable;
   /**
   * sslvpn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#sslvpn ObjectSystemReplacemsggroup#sslvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#sslvpn ObjectSystemReplacemsggroup#sslvpn}
   */
   readonly sslvpn?: ObjectSystemReplacemsggroupSslvpn[] | cdktf.IResolvable;
   /**
   * traffic_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#traffic_quota ObjectSystemReplacemsggroup#traffic_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#traffic_quota ObjectSystemReplacemsggroup#traffic_quota}
   */
   readonly trafficQuota?: ObjectSystemReplacemsggroupTrafficQuota[] | cdktf.IResolvable;
   /**
   * utm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#utm ObjectSystemReplacemsggroup#utm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#utm ObjectSystemReplacemsggroup#utm}
   */
   readonly utm?: ObjectSystemReplacemsggroupUtm[] | cdktf.IResolvable;
   /**
   * webproxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#webproxy ObjectSystemReplacemsggroup#webproxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#webproxy ObjectSystemReplacemsggroup#webproxy}
   */
   readonly webproxy?: ObjectSystemReplacemsggroupWebproxy[] | cdktf.IResolvable;
 }
 export interface ObjectSystemReplacemsggroupAdmin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -400,26 +400,26 @@ export class ObjectSystemReplacemsggroupAdminList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupAlertmail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -651,19 +651,19 @@ export class ObjectSystemReplacemsggroupAlertmailList extends cdktf.ComplexList 
 }
 export interface ObjectSystemReplacemsggroupAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -866,19 +866,19 @@ export class ObjectSystemReplacemsggroupAuthList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupAutomation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -1081,19 +1081,19 @@ export class ObjectSystemReplacemsggroupAutomationList extends cdktf.ComplexList
 }
 export interface ObjectSystemReplacemsggroupCustomMessage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -1296,19 +1296,19 @@ export class ObjectSystemReplacemsggroupCustomMessageList extends cdktf.ComplexL
 }
 export interface ObjectSystemReplacemsggroupDeviceDetectionPortal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -1511,19 +1511,19 @@ export class ObjectSystemReplacemsggroupDeviceDetectionPortalList extends cdktf.
 }
 export interface ObjectSystemReplacemsggroupEc {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -1726,19 +1726,19 @@ export class ObjectSystemReplacemsggroupEcList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupFortiguardWf {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -1941,19 +1941,19 @@ export class ObjectSystemReplacemsggroupFortiguardWfList extends cdktf.ComplexLi
 }
 export interface ObjectSystemReplacemsggroupFtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -2156,19 +2156,19 @@ export class ObjectSystemReplacemsggroupFtpList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -2371,19 +2371,19 @@ export class ObjectSystemReplacemsggroupHttpList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupIcap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -2586,19 +2586,19 @@ export class ObjectSystemReplacemsggroupIcapList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMail {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -2801,67 +2801,67 @@ export class ObjectSystemReplacemsggroupMailList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMm1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
   */
   readonly addSmil?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
   */
   readonly fromSender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
   */
   readonly rspStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#rsp_text ObjectSystemReplacemsggroup#rsp_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#rsp_text ObjectSystemReplacemsggroup#rsp_text}
   */
   readonly rspText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#sender_visibility ObjectSystemReplacemsggroup#sender_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#sender_visibility ObjectSystemReplacemsggroup#sender_visibility}
   */
   readonly senderVisibility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
   */
   readonly smilPart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
   */
   readonly subject?: string;
 }
@@ -3412,51 +3412,51 @@ export class ObjectSystemReplacemsggroupMm1List extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMm3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#add_html ObjectSystemReplacemsggroup#add_html}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#add_html ObjectSystemReplacemsggroup#add_html}
   */
   readonly addHtml?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
   */
   readonly fromSender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#html_part ObjectSystemReplacemsggroup#html_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#html_part ObjectSystemReplacemsggroup#html_part}
   */
   readonly htmlPart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
   */
   readonly subject?: string;
 }
@@ -3891,63 +3891,63 @@ export class ObjectSystemReplacemsggroupMm3List extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMm4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
   */
   readonly addSmil?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#domain ObjectSystemReplacemsggroup#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#domain ObjectSystemReplacemsggroup#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
   */
   readonly fromSender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
   */
   readonly rspStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
   */
   readonly smilPart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
   */
   readonly subject?: string;
 }
@@ -4469,67 +4469,67 @@ export class ObjectSystemReplacemsggroupMm4List extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMm7 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#add_smil ObjectSystemReplacemsggroup#add_smil}
   */
   readonly addSmil?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#addr_type ObjectSystemReplacemsggroup#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#addr_type ObjectSystemReplacemsggroup#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#allow_content_adaptation ObjectSystemReplacemsggroup#allow_content_adaptation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#allow_content_adaptation ObjectSystemReplacemsggroup#allow_content_adaptation}
   */
   readonly allowContentAdaptation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#class ObjectSystemReplacemsggroup#class}
   */
   readonly class?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from ObjectSystemReplacemsggroup#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#from_sender ObjectSystemReplacemsggroup#from_sender}
   */
   readonly fromSender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#message ObjectSystemReplacemsggroup#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#priority ObjectSystemReplacemsggroup#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#rsp_status ObjectSystemReplacemsggroup#rsp_status}
   */
   readonly rspStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#smil_part ObjectSystemReplacemsggroup#smil_part}
   */
   readonly smilPart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#subject ObjectSystemReplacemsggroup#subject}
   */
   readonly subject?: string;
 }
@@ -5080,27 +5080,27 @@ export class ObjectSystemReplacemsggroupMm7List extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupMms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#charset ObjectSystemReplacemsggroup#charset}
   */
   readonly charset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#image ObjectSystemReplacemsggroup#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -5361,26 +5361,26 @@ export class ObjectSystemReplacemsggroupMmsList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupNacQuar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#id ObjectSystemReplacemsggroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -5612,19 +5612,19 @@ export class ObjectSystemReplacemsggroupNacQuarList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupNntp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -5827,19 +5827,19 @@ export class ObjectSystemReplacemsggroupNntpList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupSpam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -6042,19 +6042,19 @@ export class ObjectSystemReplacemsggroupSpamList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupSslvpn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -6257,19 +6257,19 @@ export class ObjectSystemReplacemsggroupSslvpnList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupTrafficQuota {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -6472,19 +6472,19 @@ export class ObjectSystemReplacemsggroupTrafficQuotaList extends cdktf.ComplexLi
 }
 export interface ObjectSystemReplacemsggroupUtm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -6687,19 +6687,19 @@ export class ObjectSystemReplacemsggroupUtmList extends cdktf.ComplexList {
 }
 export interface ObjectSystemReplacemsggroupWebproxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#buffer ObjectSystemReplacemsggroup#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#format ObjectSystemReplacemsggroup#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#header ObjectSystemReplacemsggroup#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#msg_type ObjectSystemReplacemsggroup#msg_type}
   */
   readonly msgType?: string;
 }
@@ -6902,7 +6902,7 @@ export class ObjectSystemReplacemsggroupWebproxyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup fortimanager_object_system_replacemsggroup}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup fortimanager_object_system_replacemsggroup}
 */
 export class ObjectSystemReplacemsggroup extends cdktf.TerraformResource {
 
@@ -6918,7 +6918,7 @@ export class ObjectSystemReplacemsggroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemReplacemsggroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemReplacemsggroup to import
-  * @param importFromId The id of the existing ObjectSystemReplacemsggroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemReplacemsggroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemReplacemsggroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6930,7 +6930,7 @@ export class ObjectSystemReplacemsggroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup fortimanager_object_system_replacemsggroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup fortimanager_object_system_replacemsggroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6941,8 +6941,8 @@ export class ObjectSystemReplacemsggroup extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_replacemsggroup',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

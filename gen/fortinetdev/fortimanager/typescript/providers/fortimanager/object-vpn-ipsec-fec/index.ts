@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnIpsecFecConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#adom ObjectVpnIpsecFec#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#adom ObjectVpnIpsecFec#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#dynamic_sort_subtable ObjectVpnIpsecFec#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#dynamic_sort_subtable ObjectVpnIpsecFec#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#id ObjectVpnIpsecFec#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#id ObjectVpnIpsecFec#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#name ObjectVpnIpsecFec#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#name ObjectVpnIpsecFec#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#scopetype ObjectVpnIpsecFec#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#scopetype ObjectVpnIpsecFec#scopetype}
   */
   readonly scopetype?: string;
   /**
   * mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#mappings ObjectVpnIpsecFec#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#mappings ObjectVpnIpsecFec#mappings}
   */
   readonly mappings?: ObjectVpnIpsecFecMappings[] | cdktf.IResolvable;
 }
 export interface ObjectVpnIpsecFecMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#bandwidth_bi_threshold ObjectVpnIpsecFec#bandwidth_bi_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#bandwidth_bi_threshold ObjectVpnIpsecFec#bandwidth_bi_threshold}
   */
   readonly bandwidthBiThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#bandwidth_down_threshold ObjectVpnIpsecFec#bandwidth_down_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#bandwidth_down_threshold ObjectVpnIpsecFec#bandwidth_down_threshold}
   */
   readonly bandwidthDownThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#bandwidth_up_threshold ObjectVpnIpsecFec#bandwidth_up_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#bandwidth_up_threshold ObjectVpnIpsecFec#bandwidth_up_threshold}
   */
   readonly bandwidthUpThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#base ObjectVpnIpsecFec#base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#base ObjectVpnIpsecFec#base}
   */
   readonly base?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#latency_threshold ObjectVpnIpsecFec#latency_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#latency_threshold ObjectVpnIpsecFec#latency_threshold}
   */
   readonly latencyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#packet_loss_threshold ObjectVpnIpsecFec#packet_loss_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#packet_loss_threshold ObjectVpnIpsecFec#packet_loss_threshold}
   */
   readonly packetLossThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#redundant ObjectVpnIpsecFec#redundant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#redundant ObjectVpnIpsecFec#redundant}
   */
   readonly redundant?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#seqno ObjectVpnIpsecFec#seqno}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#seqno ObjectVpnIpsecFec#seqno}
   */
   readonly seqno?: number;
 }
@@ -386,7 +386,7 @@ export class ObjectVpnIpsecFecMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec fortimanager_object_vpn_ipsec_fec}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec fortimanager_object_vpn_ipsec_fec}
 */
 export class ObjectVpnIpsecFec extends cdktf.TerraformResource {
 
@@ -402,7 +402,7 @@ export class ObjectVpnIpsecFec extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVpnIpsecFec resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnIpsecFec to import
-  * @param importFromId The id of the existing ObjectVpnIpsecFec that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnIpsecFec that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnIpsecFec to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -414,7 +414,7 @@ export class ObjectVpnIpsecFec extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ipsec_fec fortimanager_object_vpn_ipsec_fec} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ipsec_fec fortimanager_object_vpn_ipsec_fec} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -425,8 +425,8 @@ export class ObjectVpnIpsecFec extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_vpn_ipsec_fec',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

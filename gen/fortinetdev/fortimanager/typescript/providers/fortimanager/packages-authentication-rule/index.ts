@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesAuthenticationRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#active_auth_method PackagesAuthenticationRule#active_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#active_auth_method PackagesAuthenticationRule#active_auth_method}
   */
   readonly activeAuthMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#adom PackagesAuthenticationRule#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#adom PackagesAuthenticationRule#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#cert_auth_cookie PackagesAuthenticationRule#cert_auth_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#cert_auth_cookie PackagesAuthenticationRule#cert_auth_cookie}
   */
   readonly certAuthCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#comments PackagesAuthenticationRule#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#comments PackagesAuthenticationRule#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#cors_depth PackagesAuthenticationRule#cors_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#cors_depth PackagesAuthenticationRule#cors_depth}
   */
   readonly corsDepth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#cors_stateful PackagesAuthenticationRule#cors_stateful}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#cors_stateful PackagesAuthenticationRule#cors_stateful}
   */
   readonly corsStateful?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#dstaddr PackagesAuthenticationRule#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#dstaddr PackagesAuthenticationRule#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#dstaddr6 PackagesAuthenticationRule#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#dstaddr6 PackagesAuthenticationRule#dstaddr6}
   */
   readonly dstaddr6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#id PackagesAuthenticationRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#id PackagesAuthenticationRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#ip_based PackagesAuthenticationRule#ip_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#ip_based PackagesAuthenticationRule#ip_based}
   */
   readonly ipBased?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#name PackagesAuthenticationRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#name PackagesAuthenticationRule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#pkg PackagesAuthenticationRule#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#pkg PackagesAuthenticationRule#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#pkg_folder_path PackagesAuthenticationRule#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#pkg_folder_path PackagesAuthenticationRule#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#protocol PackagesAuthenticationRule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#protocol PackagesAuthenticationRule#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#scopetype PackagesAuthenticationRule#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#scopetype PackagesAuthenticationRule#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#srcaddr PackagesAuthenticationRule#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#srcaddr PackagesAuthenticationRule#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#srcaddr6 PackagesAuthenticationRule#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#srcaddr6 PackagesAuthenticationRule#srcaddr6}
   */
   readonly srcaddr6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#srcintf PackagesAuthenticationRule#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#srcintf PackagesAuthenticationRule#srcintf}
   */
   readonly srcintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#sso_auth_method PackagesAuthenticationRule#sso_auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#sso_auth_method PackagesAuthenticationRule#sso_auth_method}
   */
   readonly ssoAuthMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#status PackagesAuthenticationRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#status PackagesAuthenticationRule#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#transaction_based PackagesAuthenticationRule#transaction_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#transaction_based PackagesAuthenticationRule#transaction_based}
   */
   readonly transactionBased?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#web_auth_cookie PackagesAuthenticationRule#web_auth_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#web_auth_cookie PackagesAuthenticationRule#web_auth_cookie}
   */
   readonly webAuthCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#web_portal PackagesAuthenticationRule#web_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#web_portal PackagesAuthenticationRule#web_portal}
   */
   readonly webPortal?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule fortimanager_packages_authentication_rule}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule fortimanager_packages_authentication_rule}
 */
 export class PackagesAuthenticationRule extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class PackagesAuthenticationRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesAuthenticationRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesAuthenticationRule to import
-  * @param importFromId The id of the existing PackagesAuthenticationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesAuthenticationRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesAuthenticationRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class PackagesAuthenticationRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_rule fortimanager_packages_authentication_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_rule fortimanager_packages_authentication_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class PackagesAuthenticationRule extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_authentication_rule',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

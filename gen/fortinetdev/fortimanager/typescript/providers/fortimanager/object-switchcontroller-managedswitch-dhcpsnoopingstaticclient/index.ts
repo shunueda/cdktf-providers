@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#adom ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#adom ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#id ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#id ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#ip ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#ip ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#mac ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#mac ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#managed_switch ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#managed_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#managed_switch ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#managed_switch}
   */
   readonly managedSwitch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#name ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#name ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#port ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#port ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#scopetype ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#scopetype ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#vlan ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#vlan ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient#vlan}
   */
   readonly vlan?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient fortimanager_object_switchcontroller_managedswitch_dhcpsnoopingstaticclient}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient fortimanager_object_switchcontroller_managedswitch_dhcpsnoopingstaticclient}
 */
 export class ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient extends
   * Generates CDKTF code for importing a ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient fortimanager_object_switchcontroller_managedswitch_dhcpsnoopingstaticclient} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_managedswitch_dhcpsnoopingstaticclient fortimanager_object_switchcontroller_managedswitch_dhcpsnoopingstaticclient} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ObjectSwitchcontrollerManagedswitchDhcpsnoopingstaticclient extends
       terraformResourceType: 'fortimanager_object_switchcontroller_managedswitch_dhcpsnoopingstaticclient',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

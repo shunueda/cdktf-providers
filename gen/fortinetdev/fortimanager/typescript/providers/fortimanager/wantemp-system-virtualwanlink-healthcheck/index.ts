@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,181 +8,181 @@ import * as cdktf from 'cdktf';
 
 export interface WantempSystemVirtualwanlinkHealthcheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#_dynamic_server WantempSystemVirtualwanlinkHealthcheck#_dynamic_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#_dynamic_server WantempSystemVirtualwanlinkHealthcheck#_dynamic_server}
   */
   readonly dynamicServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#addr_mode WantempSystemVirtualwanlinkHealthcheck#addr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#addr_mode WantempSystemVirtualwanlinkHealthcheck#addr_mode}
   */
   readonly addrMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#adom WantempSystemVirtualwanlinkHealthcheck#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#adom WantempSystemVirtualwanlinkHealthcheck#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#diffservcode WantempSystemVirtualwanlinkHealthcheck#diffservcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#diffservcode WantempSystemVirtualwanlinkHealthcheck#diffservcode}
   */
   readonly diffservcode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#dynamic_sort_subtable WantempSystemVirtualwanlinkHealthcheck#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#dynamic_sort_subtable WantempSystemVirtualwanlinkHealthcheck#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#failtime WantempSystemVirtualwanlinkHealthcheck#failtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#failtime WantempSystemVirtualwanlinkHealthcheck#failtime}
   */
   readonly failtime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#ha_priority WantempSystemVirtualwanlinkHealthcheck#ha_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#ha_priority WantempSystemVirtualwanlinkHealthcheck#ha_priority}
   */
   readonly haPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_agent WantempSystemVirtualwanlinkHealthcheck#http_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_agent WantempSystemVirtualwanlinkHealthcheck#http_agent}
   */
   readonly httpAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_get WantempSystemVirtualwanlinkHealthcheck#http_get}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_get WantempSystemVirtualwanlinkHealthcheck#http_get}
   */
   readonly httpGet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_match WantempSystemVirtualwanlinkHealthcheck#http_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#http_match WantempSystemVirtualwanlinkHealthcheck#http_match}
   */
   readonly httpMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#id WantempSystemVirtualwanlinkHealthcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#id WantempSystemVirtualwanlinkHealthcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#internet_service_id WantempSystemVirtualwanlinkHealthcheck#internet_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#internet_service_id WantempSystemVirtualwanlinkHealthcheck#internet_service_id}
   */
   readonly internetServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#interval WantempSystemVirtualwanlinkHealthcheck#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#interval WantempSystemVirtualwanlinkHealthcheck#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#members WantempSystemVirtualwanlinkHealthcheck#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#members WantempSystemVirtualwanlinkHealthcheck#members}
   */
   readonly members?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#name WantempSystemVirtualwanlinkHealthcheck#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#name WantempSystemVirtualwanlinkHealthcheck#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#packet_size WantempSystemVirtualwanlinkHealthcheck#packet_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#packet_size WantempSystemVirtualwanlinkHealthcheck#packet_size}
   */
   readonly packetSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#password WantempSystemVirtualwanlinkHealthcheck#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#password WantempSystemVirtualwanlinkHealthcheck#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#port WantempSystemVirtualwanlinkHealthcheck#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#port WantempSystemVirtualwanlinkHealthcheck#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#probe_packets WantempSystemVirtualwanlinkHealthcheck#probe_packets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#probe_packets WantempSystemVirtualwanlinkHealthcheck#probe_packets}
   */
   readonly probePackets?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#probe_timeout WantempSystemVirtualwanlinkHealthcheck#probe_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#probe_timeout WantempSystemVirtualwanlinkHealthcheck#probe_timeout}
   */
   readonly probeTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#protocol WantempSystemVirtualwanlinkHealthcheck#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#protocol WantempSystemVirtualwanlinkHealthcheck#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#recoverytime WantempSystemVirtualwanlinkHealthcheck#recoverytime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#recoverytime WantempSystemVirtualwanlinkHealthcheck#recoverytime}
   */
   readonly recoverytime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#scopetype WantempSystemVirtualwanlinkHealthcheck#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#scopetype WantempSystemVirtualwanlinkHealthcheck#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#security_mode WantempSystemVirtualwanlinkHealthcheck#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#security_mode WantempSystemVirtualwanlinkHealthcheck#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#server WantempSystemVirtualwanlinkHealthcheck#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#server WantempSystemVirtualwanlinkHealthcheck#server}
   */
   readonly server?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla_fail_log_period WantempSystemVirtualwanlinkHealthcheck#sla_fail_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla_fail_log_period WantempSystemVirtualwanlinkHealthcheck#sla_fail_log_period}
   */
   readonly slaFailLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla_pass_log_period WantempSystemVirtualwanlinkHealthcheck#sla_pass_log_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla_pass_log_period WantempSystemVirtualwanlinkHealthcheck#sla_pass_log_period}
   */
   readonly slaPassLogPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_jitter WantempSystemVirtualwanlinkHealthcheck#threshold_alert_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_jitter WantempSystemVirtualwanlinkHealthcheck#threshold_alert_jitter}
   */
   readonly thresholdAlertJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_latency WantempSystemVirtualwanlinkHealthcheck#threshold_alert_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_latency WantempSystemVirtualwanlinkHealthcheck#threshold_alert_latency}
   */
   readonly thresholdAlertLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_packetloss WantempSystemVirtualwanlinkHealthcheck#threshold_alert_packetloss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_alert_packetloss WantempSystemVirtualwanlinkHealthcheck#threshold_alert_packetloss}
   */
   readonly thresholdAlertPacketloss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_jitter WantempSystemVirtualwanlinkHealthcheck#threshold_warning_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_jitter WantempSystemVirtualwanlinkHealthcheck#threshold_warning_jitter}
   */
   readonly thresholdWarningJitter?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_latency WantempSystemVirtualwanlinkHealthcheck#threshold_warning_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_latency WantempSystemVirtualwanlinkHealthcheck#threshold_warning_latency}
   */
   readonly thresholdWarningLatency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_packetloss WantempSystemVirtualwanlinkHealthcheck#threshold_warning_packetloss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#threshold_warning_packetloss WantempSystemVirtualwanlinkHealthcheck#threshold_warning_packetloss}
   */
   readonly thresholdWarningPacketloss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#update_cascade_interface WantempSystemVirtualwanlinkHealthcheck#update_cascade_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#update_cascade_interface WantempSystemVirtualwanlinkHealthcheck#update_cascade_interface}
   */
   readonly updateCascadeInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#update_static_route WantempSystemVirtualwanlinkHealthcheck#update_static_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#update_static_route WantempSystemVirtualwanlinkHealthcheck#update_static_route}
   */
   readonly updateStaticRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#wanprof WantempSystemVirtualwanlinkHealthcheck#wanprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#wanprof WantempSystemVirtualwanlinkHealthcheck#wanprof}
   */
   readonly wanprof: string;
   /**
   * sla block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla WantempSystemVirtualwanlinkHealthcheck#sla}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#sla WantempSystemVirtualwanlinkHealthcheck#sla}
   */
   readonly sla?: WantempSystemVirtualwanlinkHealthcheckSla[] | cdktf.IResolvable;
 }
 export interface WantempSystemVirtualwanlinkHealthcheckSla {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#id WantempSystemVirtualwanlinkHealthcheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#id WantempSystemVirtualwanlinkHealthcheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#jitter_threshold WantempSystemVirtualwanlinkHealthcheck#jitter_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#jitter_threshold WantempSystemVirtualwanlinkHealthcheck#jitter_threshold}
   */
   readonly jitterThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#latency_threshold WantempSystemVirtualwanlinkHealthcheck#latency_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#latency_threshold WantempSystemVirtualwanlinkHealthcheck#latency_threshold}
   */
   readonly latencyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#link_cost_factor WantempSystemVirtualwanlinkHealthcheck#link_cost_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#link_cost_factor WantempSystemVirtualwanlinkHealthcheck#link_cost_factor}
   */
   readonly linkCostFactor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#packetloss_threshold WantempSystemVirtualwanlinkHealthcheck#packetloss_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#packetloss_threshold WantempSystemVirtualwanlinkHealthcheck#packetloss_threshold}
   */
   readonly packetlossThreshold?: number;
 }
@@ -414,7 +414,7 @@ export class WantempSystemVirtualwanlinkHealthcheckSlaList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck fortimanager_wantemp_system_virtualwanlink_healthcheck}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck fortimanager_wantemp_system_virtualwanlink_healthcheck}
 */
 export class WantempSystemVirtualwanlinkHealthcheck extends cdktf.TerraformResource {
 
@@ -430,7 +430,7 @@ export class WantempSystemVirtualwanlinkHealthcheck extends cdktf.TerraformResou
   * Generates CDKTF code for importing a WantempSystemVirtualwanlinkHealthcheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WantempSystemVirtualwanlinkHealthcheck to import
-  * @param importFromId The id of the existing WantempSystemVirtualwanlinkHealthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WantempSystemVirtualwanlinkHealthcheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WantempSystemVirtualwanlinkHealthcheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -442,7 +442,7 @@ export class WantempSystemVirtualwanlinkHealthcheck extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/wantemp_system_virtualwanlink_healthcheck fortimanager_wantemp_system_virtualwanlink_healthcheck} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/wantemp_system_virtualwanlink_healthcheck fortimanager_wantemp_system_virtualwanlink_healthcheck} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -453,8 +453,8 @@ export class WantempSystemVirtualwanlinkHealthcheck extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_wantemp_system_virtualwanlink_healthcheck',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

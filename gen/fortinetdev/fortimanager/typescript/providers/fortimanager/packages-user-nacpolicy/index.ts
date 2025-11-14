@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,140 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesUserNacpolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#adom PackagesUserNacpolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#adom PackagesUserNacpolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#category PackagesUserNacpolicy#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#category PackagesUserNacpolicy#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#description PackagesUserNacpolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#description PackagesUserNacpolicy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#ems_tag PackagesUserNacpolicy#ems_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#ems_tag PackagesUserNacpolicy#ems_tag}
   */
   readonly emsTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#family PackagesUserNacpolicy#family}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#family PackagesUserNacpolicy#family}
   */
   readonly family?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#firewall_address PackagesUserNacpolicy#firewall_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#firewall_address PackagesUserNacpolicy#firewall_address}
   */
   readonly firewallAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#fortivoice_tag PackagesUserNacpolicy#fortivoice_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#fortivoice_tag PackagesUserNacpolicy#fortivoice_tag}
   */
   readonly fortivoiceTag?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#host PackagesUserNacpolicy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#host PackagesUserNacpolicy#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#hw_vendor PackagesUserNacpolicy#hw_vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#hw_vendor PackagesUserNacpolicy#hw_vendor}
   */
   readonly hwVendor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#hw_version PackagesUserNacpolicy#hw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#hw_version PackagesUserNacpolicy#hw_version}
   */
   readonly hwVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#id PackagesUserNacpolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#id PackagesUserNacpolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#mac PackagesUserNacpolicy#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#mac PackagesUserNacpolicy#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#match_period PackagesUserNacpolicy#match_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#match_period PackagesUserNacpolicy#match_period}
   */
   readonly matchPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#match_type PackagesUserNacpolicy#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#match_remove PackagesUserNacpolicy#match_remove}
+  */
+  readonly matchRemove?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#match_type PackagesUserNacpolicy#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#name PackagesUserNacpolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#name PackagesUserNacpolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#os PackagesUserNacpolicy#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#os PackagesUserNacpolicy#os}
   */
   readonly os?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#pkg PackagesUserNacpolicy#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#pkg PackagesUserNacpolicy#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#pkg_folder_path PackagesUserNacpolicy#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#pkg_folder_path PackagesUserNacpolicy#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#scopetype PackagesUserNacpolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#scopetype PackagesUserNacpolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#severity PackagesUserNacpolicy#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#severity PackagesUserNacpolicy#severity}
   */
   readonly severity?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#src PackagesUserNacpolicy#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#src PackagesUserNacpolicy#src}
   */
   readonly src?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#ssid_policy PackagesUserNacpolicy#ssid_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#ssid_policy PackagesUserNacpolicy#ssid_policy}
   */
   readonly ssidPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#status PackagesUserNacpolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#status PackagesUserNacpolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#sw_version PackagesUserNacpolicy#sw_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#sw_version PackagesUserNacpolicy#sw_version}
   */
   readonly swVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#switch_fortilink PackagesUserNacpolicy#switch_fortilink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#switch_fortilink PackagesUserNacpolicy#switch_fortilink}
   */
   readonly switchFortilink?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#switch_group PackagesUserNacpolicy#switch_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#switch_group PackagesUserNacpolicy#switch_group}
   */
   readonly switchGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#switch_mac_policy PackagesUserNacpolicy#switch_mac_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#switch_mac_policy PackagesUserNacpolicy#switch_mac_policy}
   */
   readonly switchMacPolicy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#switch_scope PackagesUserNacpolicy#switch_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#switch_scope PackagesUserNacpolicy#switch_scope}
   */
   readonly switchScope?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#type PackagesUserNacpolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#type PackagesUserNacpolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#user PackagesUserNacpolicy#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#user PackagesUserNacpolicy#user}
   */
   readonly user?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#user_group PackagesUserNacpolicy#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#user_group PackagesUserNacpolicy#user_group}
   */
   readonly userGroup?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy fortimanager_packages_user_nacpolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy fortimanager_packages_user_nacpolicy}
 */
 export class PackagesUserNacpolicy extends cdktf.TerraformResource {
 
@@ -153,7 +157,7 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesUserNacpolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesUserNacpolicy to import
-  * @param importFromId The id of the existing PackagesUserNacpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesUserNacpolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesUserNacpolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +169,7 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_user_nacpolicy fortimanager_packages_user_nacpolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_user_nacpolicy fortimanager_packages_user_nacpolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +180,8 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_user_nacpolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -200,6 +204,7 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
     this._id = config.id;
     this._mac = config.mac;
     this._matchPeriod = config.matchPeriod;
+    this._matchRemove = config.matchRemove;
     this._matchType = config.matchType;
     this._name = config.name;
     this._os = config.os;
@@ -430,6 +435,22 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get matchPeriodInput() {
     return this._matchPeriod;
+  }
+
+  // match_remove - computed: false, optional: true, required: false
+  private _matchRemove?: string; 
+  public get matchRemove() {
+    return this.getStringAttribute('match_remove');
+  }
+  public set matchRemove(value: string) {
+    this._matchRemove = value;
+  }
+  public resetMatchRemove() {
+    this._matchRemove = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get matchRemoveInput() {
+    return this._matchRemove;
   }
 
   // match_type - computed: true, optional: true, required: false
@@ -736,6 +757,7 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
       id: cdktf.stringToTerraform(this._id),
       mac: cdktf.stringToTerraform(this._mac),
       match_period: cdktf.numberToTerraform(this._matchPeriod),
+      match_remove: cdktf.stringToTerraform(this._matchRemove),
       match_type: cdktf.stringToTerraform(this._matchType),
       name: cdktf.stringToTerraform(this._name),
       os: cdktf.stringToTerraform(this._os),
@@ -836,6 +858,12 @@ export class PackagesUserNacpolicy extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      match_remove: {
+        value: cdktf.stringToHclTerraform(this._matchRemove),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       match_type: {
         value: cdktf.stringToHclTerraform(this._matchType),

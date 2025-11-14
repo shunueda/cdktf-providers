@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerSecuritypolicy8021XConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#adom ObjectSwitchcontrollerSecuritypolicy8021X#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#adom ObjectSwitchcontrollerSecuritypolicy8021X#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlan ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlan ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlan}
   */
   readonly authFailVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlan_id ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlan_id ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlan_id}
   */
   readonly authFailVlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#auth_fail_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#auth_fail_vlanid}
   */
   readonly authFailVlanid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_period ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_period ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_period}
   */
   readonly authserverTimeoutPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_vlan ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_vlan ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_vlan}
   */
   readonly authserverTimeoutVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#authserver_timeout_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#authserver_timeout_vlanid}
   */
   readonly authserverTimeoutVlanid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#eap_auto_untagged_vlans ObjectSwitchcontrollerSecuritypolicy8021X#eap_auto_untagged_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#eap_auto_untagged_vlans ObjectSwitchcontrollerSecuritypolicy8021X#eap_auto_untagged_vlans}
   */
   readonly eapAutoUntaggedVlans?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#eap_passthru ObjectSwitchcontrollerSecuritypolicy8021X#eap_passthru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#eap_passthru ObjectSwitchcontrollerSecuritypolicy8021X#eap_passthru}
   */
   readonly eapPassthru?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#framevid_apply ObjectSwitchcontrollerSecuritypolicy8021X#framevid_apply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#framevid_apply ObjectSwitchcontrollerSecuritypolicy8021X#framevid_apply}
   */
   readonly framevidApply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_auth_delay ObjectSwitchcontrollerSecuritypolicy8021X#guest_auth_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_auth_delay ObjectSwitchcontrollerSecuritypolicy8021X#guest_auth_delay}
   */
   readonly guestAuthDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlan ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlan ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlan}
   */
   readonly guestVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlan_id ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlan_id ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlan_id}
   */
   readonly guestVlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#guest_vlanid ObjectSwitchcontrollerSecuritypolicy8021X#guest_vlanid}
   */
   readonly guestVlanid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#id ObjectSwitchcontrollerSecuritypolicy8021X#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#id ObjectSwitchcontrollerSecuritypolicy8021X#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#mac_auth_bypass ObjectSwitchcontrollerSecuritypolicy8021X#mac_auth_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#mac_auth_bypass ObjectSwitchcontrollerSecuritypolicy8021X#mac_auth_bypass}
   */
   readonly macAuthBypass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#name ObjectSwitchcontrollerSecuritypolicy8021X#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#name ObjectSwitchcontrollerSecuritypolicy8021X#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#open_auth ObjectSwitchcontrollerSecuritypolicy8021X#open_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#open_auth ObjectSwitchcontrollerSecuritypolicy8021X#open_auth}
   */
   readonly openAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#policy_type ObjectSwitchcontrollerSecuritypolicy8021X#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#policy_type ObjectSwitchcontrollerSecuritypolicy8021X#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#radius_timeout_overwrite ObjectSwitchcontrollerSecuritypolicy8021X#radius_timeout_overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#radius_timeout_overwrite ObjectSwitchcontrollerSecuritypolicy8021X#radius_timeout_overwrite}
   */
   readonly radiusTimeoutOverwrite?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#scopetype ObjectSwitchcontrollerSecuritypolicy8021X#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#scopetype ObjectSwitchcontrollerSecuritypolicy8021X#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#security_mode ObjectSwitchcontrollerSecuritypolicy8021X#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#security_mode ObjectSwitchcontrollerSecuritypolicy8021X#security_mode}
   */
   readonly securityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#user_group ObjectSwitchcontrollerSecuritypolicy8021X#user_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#user_group ObjectSwitchcontrollerSecuritypolicy8021X#user_group}
   */
   readonly userGroup?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x fortimanager_object_switchcontroller_securitypolicy_8021x}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x fortimanager_object_switchcontroller_securitypolicy_8021x}
 */
 export class ObjectSwitchcontrollerSecuritypolicy8021X extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class ObjectSwitchcontrollerSecuritypolicy8021X extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ObjectSwitchcontrollerSecuritypolicy8021X resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerSecuritypolicy8021X to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerSecuritypolicy8021X that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerSecuritypolicy8021X that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerSecuritypolicy8021X to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class ObjectSwitchcontrollerSecuritypolicy8021X extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_securitypolicy_8021x fortimanager_object_switchcontroller_securitypolicy_8021x} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_securitypolicy_8021x fortimanager_object_switchcontroller_securitypolicy_8021x} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class ObjectSwitchcontrollerSecuritypolicy8021X extends cdktf.TerraformRe
       terraformResourceType: 'fortimanager_object_switchcontroller_securitypolicy_8021x',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

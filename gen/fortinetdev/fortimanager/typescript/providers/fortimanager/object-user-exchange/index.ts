@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,88 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserExchangeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#addr_type ObjectUserExchange#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#addr_type ObjectUserExchange#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#adom ObjectUserExchange#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#adom ObjectUserExchange#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#auth_level ObjectUserExchange#auth_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#auth_level ObjectUserExchange#auth_level}
   */
   readonly authLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#auth_type ObjectUserExchange#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#auth_type ObjectUserExchange#auth_type}
   */
   readonly authType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#auto_discover_kdc ObjectUserExchange#auto_discover_kdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#auto_discover_kdc ObjectUserExchange#auto_discover_kdc}
   */
   readonly autoDiscoverKdc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#connect_protocol ObjectUserExchange#connect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#connect_protocol ObjectUserExchange#connect_protocol}
   */
   readonly connectProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#domain_name ObjectUserExchange#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#domain_name ObjectUserExchange#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#http_auth_type ObjectUserExchange#http_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#http_auth_type ObjectUserExchange#http_auth_type}
   */
   readonly httpAuthType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#id ObjectUserExchange#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#id ObjectUserExchange#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#ip ObjectUserExchange#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#ip ObjectUserExchange#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#ip6 ObjectUserExchange#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#ip6 ObjectUserExchange#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#kdc_ip ObjectUserExchange#kdc_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#kdc_ip ObjectUserExchange#kdc_ip}
   */
   readonly kdcIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#name ObjectUserExchange#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#name ObjectUserExchange#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#password ObjectUserExchange#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#password ObjectUserExchange#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#scopetype ObjectUserExchange#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#scopetype ObjectUserExchange#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#server_name ObjectUserExchange#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#server_name ObjectUserExchange#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#ssl_min_proto_version ObjectUserExchange#ssl_min_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#ssl_min_proto_version ObjectUserExchange#ssl_min_proto_version}
   */
   readonly sslMinProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#username ObjectUserExchange#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#username ObjectUserExchange#username}
   */
   readonly username?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#validate_server_certificate ObjectUserExchange#validate_server_certificate}
+  */
+  readonly validateServerCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange fortimanager_object_user_exchange}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange fortimanager_object_user_exchange}
 */
 export class ObjectUserExchange extends cdktf.TerraformResource {
 
@@ -101,7 +105,7 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserExchange resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserExchange to import
-  * @param importFromId The id of the existing ObjectUserExchange that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserExchange that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserExchange to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +117,7 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_exchange fortimanager_object_user_exchange} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_exchange fortimanager_object_user_exchange} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +128,8 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_exchange',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -153,6 +157,7 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
     this._serverName = config.serverName;
     this._sslMinProtoVersion = config.sslMinProtoVersion;
     this._username = config.username;
+    this._validateServerCertificate = config.validateServerCertificate;
   }
 
   // ==========
@@ -447,6 +452,22 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
     return this._username;
   }
 
+  // validate_server_certificate - computed: false, optional: true, required: false
+  private _validateServerCertificate?: string; 
+  public get validateServerCertificate() {
+    return this.getStringAttribute('validate_server_certificate');
+  }
+  public set validateServerCertificate(value: string) {
+    this._validateServerCertificate = value;
+  }
+  public resetValidateServerCertificate() {
+    this._validateServerCertificate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get validateServerCertificateInput() {
+    return this._validateServerCertificate;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -471,6 +492,7 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
       server_name: cdktf.stringToTerraform(this._serverName),
       ssl_min_proto_version: cdktf.stringToTerraform(this._sslMinProtoVersion),
       username: cdktf.stringToTerraform(this._username),
+      validate_server_certificate: cdktf.stringToTerraform(this._validateServerCertificate),
     };
   }
 
@@ -580,6 +602,12 @@ export class ObjectUserExchange extends cdktf.TerraformResource {
       },
       username: {
         value: cdktf.stringToHclTerraform(this._username),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      validate_server_certificate: {
+        value: cdktf.stringToHclTerraform(this._validateServerCertificate),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

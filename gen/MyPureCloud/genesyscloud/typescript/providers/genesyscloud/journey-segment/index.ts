@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface JourneySegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Time, in days, from when the segment is assigned until it is automatically unassigned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#assignment_expiration_days JourneySegment#assignment_expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#assignment_expiration_days JourneySegment#assignment_expiration_days}
   */
   readonly assignmentExpirationDays?: number;
   /**
   * The hexadecimal color value of the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#color JourneySegment#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#color JourneySegment#color}
   */
   readonly color: string;
   /**
   * A description of the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#description JourneySegment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#description JourneySegment#description}
   */
   readonly description?: string;
   /**
   * The display name of the segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#display_name JourneySegment#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#display_name JourneySegment#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#id JourneySegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#id JourneySegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface JourneySegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the segment is active. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#is_active JourneySegment#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#is_active JourneySegment#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the segment should be displayed to agent/supervisor users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#should_display_to_agent JourneySegment#should_display_to_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#should_display_to_agent JourneySegment#should_display_to_agent}
   */
   readonly shouldDisplayToAgent?: boolean | cdktf.IResolvable;
   /**
   * context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#context JourneySegment#context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#context JourneySegment#context}
   */
   readonly context?: JourneySegmentContext;
   /**
   * journey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#journey JourneySegment#journey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#journey JourneySegment#journey}
   */
   readonly journey?: JourneySegmentJourney;
 }
@@ -67,31 +67,31 @@ export interface JourneySegmentContextPatternsCriteria {
   /**
   * The entity to match the pattern against.Valid values: visit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#entity_type JourneySegment#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#entity_type JourneySegment#entity_type}
   */
   readonly entityType: string;
   /**
   * The criteria key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#key JourneySegment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#key JourneySegment#key}
   */
   readonly key: string;
   /**
   * The comparison operator. Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith. Defaults to `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#operator JourneySegment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#operator JourneySegment#operator}
   */
   readonly operator?: string;
   /**
   * Should criteria be case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#should_ignore_case JourneySegment#should_ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#should_ignore_case JourneySegment#should_ignore_case}
   */
   readonly shouldIgnoreCase: boolean | cdktf.IResolvable;
   /**
   * The criteria values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#values JourneySegment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#values JourneySegment#values}
   */
   readonly values: string[];
 }
@@ -313,7 +313,7 @@ export interface JourneySegmentContextPatterns {
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#criteria JourneySegment#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#criteria JourneySegment#criteria}
   */
   readonly criteria: JourneySegmentContextPatternsCriteria[] | cdktf.IResolvable;
 }
@@ -428,7 +428,7 @@ export interface JourneySegmentContext {
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#patterns JourneySegment#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#patterns JourneySegment#patterns}
   */
   readonly patterns: JourneySegmentContextPatterns[] | cdktf.IResolvable;
 }
@@ -511,25 +511,25 @@ export interface JourneySegmentJourneyPatternsCriteria {
   /**
   * The criteria key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#key JourneySegment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#key JourneySegment#key}
   */
   readonly key: string;
   /**
   * The comparison operator.Valid values: containsAll, containsAny, notContainsAll, notContainsAny, equal, notEqual, greaterThan, greaterThanOrEqual, lessThan, lessThanOrEqual, startsWith, endsWith. Defaults to `equal`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#operator JourneySegment#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#operator JourneySegment#operator}
   */
   readonly operator?: string;
   /**
   * Should criteria be case insensitive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#should_ignore_case JourneySegment#should_ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#should_ignore_case JourneySegment#should_ignore_case}
   */
   readonly shouldIgnoreCase: boolean | cdktf.IResolvable;
   /**
   * The criteria values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#values JourneySegment#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#values JourneySegment#values}
   */
   readonly values: string[];
 }
@@ -725,31 +725,31 @@ export interface JourneySegmentJourneyPatterns {
   /**
   * The number of times the pattern must match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#count JourneySegment#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#count JourneySegment#count}
   */
   readonly count: number;
   /**
   * The name of the event for which this pattern can be matched on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#event_name JourneySegment#event_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#event_name JourneySegment#event_name}
   */
   readonly eventName?: string;
   /**
   * The session type for which this pattern can be matched on. Valid values: web, app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#session_type JourneySegment#session_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#session_type JourneySegment#session_type}
   */
   readonly sessionType: string;
   /**
   * The stream type for which this pattern can be matched on. Valid values: Web, App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#stream_type JourneySegment#stream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#stream_type JourneySegment#stream_type}
   */
   readonly streamType: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#criteria JourneySegment#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#criteria JourneySegment#criteria}
   */
   readonly criteria: JourneySegmentJourneyPatternsCriteria[] | cdktf.IResolvable;
 }
@@ -971,7 +971,7 @@ export interface JourneySegmentJourney {
   /**
   * patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#patterns JourneySegment#patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#patterns JourneySegment#patterns}
   */
   readonly patterns: JourneySegmentJourneyPatterns[] | cdktf.IResolvable;
 }
@@ -1052,7 +1052,7 @@ export class JourneySegmentJourneyOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment genesyscloud_journey_segment}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment genesyscloud_journey_segment}
 */
 export class JourneySegment extends cdktf.TerraformResource {
 
@@ -1068,7 +1068,7 @@ export class JourneySegment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JourneySegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JourneySegment to import
-  * @param importFromId The id of the existing JourneySegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JourneySegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JourneySegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1080,7 +1080,7 @@ export class JourneySegment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/journey_segment genesyscloud_journey_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/journey_segment genesyscloud_journey_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1091,8 +1091,8 @@ export class JourneySegment extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_journey_segment',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

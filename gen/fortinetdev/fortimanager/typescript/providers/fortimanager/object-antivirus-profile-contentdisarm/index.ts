@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAntivirusProfileContentdisarmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#adom ObjectAntivirusProfileContentdisarm#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#adom ObjectAntivirusProfileContentdisarm#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#analytics_suspicious ObjectAntivirusProfileContentdisarm#analytics_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#analytics_suspicious ObjectAntivirusProfileContentdisarm#analytics_suspicious}
   */
   readonly analyticsSuspicious?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#cover_page ObjectAntivirusProfileContentdisarm#cover_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#cover_page ObjectAntivirusProfileContentdisarm#cover_page}
   */
   readonly coverPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#detect_only ObjectAntivirusProfileContentdisarm#detect_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#detect_only ObjectAntivirusProfileContentdisarm#detect_only}
   */
   readonly detectOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#error_action ObjectAntivirusProfileContentdisarm#error_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#error_action ObjectAntivirusProfileContentdisarm#error_action}
   */
   readonly errorAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#id ObjectAntivirusProfileContentdisarm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#id ObjectAntivirusProfileContentdisarm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_action ObjectAntivirusProfileContentdisarm#office_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_action ObjectAntivirusProfileContentdisarm#office_action}
   */
   readonly officeAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_dde ObjectAntivirusProfileContentdisarm#office_dde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_dde ObjectAntivirusProfileContentdisarm#office_dde}
   */
   readonly officeDde?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_embed ObjectAntivirusProfileContentdisarm#office_embed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_embed ObjectAntivirusProfileContentdisarm#office_embed}
   */
   readonly officeEmbed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_hylink ObjectAntivirusProfileContentdisarm#office_hylink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_hylink ObjectAntivirusProfileContentdisarm#office_hylink}
   */
   readonly officeHylink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_linked ObjectAntivirusProfileContentdisarm#office_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_linked ObjectAntivirusProfileContentdisarm#office_linked}
   */
   readonly officeLinked?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#office_macro ObjectAntivirusProfileContentdisarm#office_macro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#office_macro ObjectAntivirusProfileContentdisarm#office_macro}
   */
   readonly officeMacro?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#original_file_destination ObjectAntivirusProfileContentdisarm#original_file_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#original_file_destination ObjectAntivirusProfileContentdisarm#original_file_destination}
   */
   readonly originalFileDestination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_form ObjectAntivirusProfileContentdisarm#pdf_act_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_form ObjectAntivirusProfileContentdisarm#pdf_act_form}
   */
   readonly pdfActForm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_gotor ObjectAntivirusProfileContentdisarm#pdf_act_gotor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_gotor ObjectAntivirusProfileContentdisarm#pdf_act_gotor}
   */
   readonly pdfActGotor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_java ObjectAntivirusProfileContentdisarm#pdf_act_java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_java ObjectAntivirusProfileContentdisarm#pdf_act_java}
   */
   readonly pdfActJava?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_launch ObjectAntivirusProfileContentdisarm#pdf_act_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_launch ObjectAntivirusProfileContentdisarm#pdf_act_launch}
   */
   readonly pdfActLaunch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_movie ObjectAntivirusProfileContentdisarm#pdf_act_movie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_movie ObjectAntivirusProfileContentdisarm#pdf_act_movie}
   */
   readonly pdfActMovie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_sound ObjectAntivirusProfileContentdisarm#pdf_act_sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_act_sound ObjectAntivirusProfileContentdisarm#pdf_act_sound}
   */
   readonly pdfActSound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_embedfile ObjectAntivirusProfileContentdisarm#pdf_embedfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_embedfile ObjectAntivirusProfileContentdisarm#pdf_embedfile}
   */
   readonly pdfEmbedfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_hyperlink ObjectAntivirusProfileContentdisarm#pdf_hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_hyperlink ObjectAntivirusProfileContentdisarm#pdf_hyperlink}
   */
   readonly pdfHyperlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_javacode ObjectAntivirusProfileContentdisarm#pdf_javacode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#pdf_javacode ObjectAntivirusProfileContentdisarm#pdf_javacode}
   */
   readonly pdfJavacode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#profile ObjectAntivirusProfileContentdisarm#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#profile ObjectAntivirusProfileContentdisarm#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#scopetype ObjectAntivirusProfileContentdisarm#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#scopetype ObjectAntivirusProfileContentdisarm#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm fortimanager_object_antivirus_profile_contentdisarm}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm fortimanager_object_antivirus_profile_contentdisarm}
 */
 export class ObjectAntivirusProfileContentdisarm extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class ObjectAntivirusProfileContentdisarm extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectAntivirusProfileContentdisarm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAntivirusProfileContentdisarm to import
-  * @param importFromId The id of the existing ObjectAntivirusProfileContentdisarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAntivirusProfileContentdisarm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAntivirusProfileContentdisarm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class ObjectAntivirusProfileContentdisarm extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile_contentdisarm fortimanager_object_antivirus_profile_contentdisarm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile_contentdisarm fortimanager_object_antivirus_profile_contentdisarm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class ObjectAntivirusProfileContentdisarm extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_antivirus_profile_contentdisarm',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

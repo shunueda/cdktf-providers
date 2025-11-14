@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/data-sources/msp_managed_tenant
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/data-sources/msp_managed_tenant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSccfmMspManagedTenantConfig extends cdktf.TerraformMetaArgu
   /**
   * Name of the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/data-sources/msp_managed_tenant#name DataSccfmMspManagedTenant#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/data-sources/msp_managed_tenant#name DataSccfmMspManagedTenant#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/data-sources/msp_managed_tenant sccfm_msp_managed_tenant}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/data-sources/msp_managed_tenant sccfm_msp_managed_tenant}
 */
 export class DataSccfmMspManagedTenant extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataSccfmMspManagedTenant extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSccfmMspManagedTenant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSccfmMspManagedTenant to import
-  * @param importFromId The id of the existing DataSccfmMspManagedTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/data-sources/msp_managed_tenant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSccfmMspManagedTenant that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/data-sources/msp_managed_tenant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSccfmMspManagedTenant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataSccfmMspManagedTenant extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/data-sources/msp_managed_tenant sccfm_msp_managed_tenant} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/data-sources/msp_managed_tenant sccfm_msp_managed_tenant} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataSccfmMspManagedTenant extends cdktf.TerraformDataSource {
       terraformResourceType: 'sccfm_msp_managed_tenant',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

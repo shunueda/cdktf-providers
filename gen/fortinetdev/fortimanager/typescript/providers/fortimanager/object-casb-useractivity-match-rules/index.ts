@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbUseractivityMatchRulesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#adom ObjectCasbUseractivityMatchRulesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#adom ObjectCasbUseractivityMatchRulesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#body_type ObjectCasbUseractivityMatchRulesA#body_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#body_type ObjectCasbUseractivityMatchRulesA#body_type}
   */
   readonly bodyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#case_sensitive ObjectCasbUseractivityMatchRulesA#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#case_sensitive ObjectCasbUseractivityMatchRulesA#case_sensitive}
   */
   readonly caseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#domains ObjectCasbUseractivityMatchRulesA#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#domains ObjectCasbUseractivityMatchRulesA#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#fosid ObjectCasbUseractivityMatchRulesA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#fosid ObjectCasbUseractivityMatchRulesA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#header_name ObjectCasbUseractivityMatchRulesA#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#header_name ObjectCasbUseractivityMatchRulesA#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#id ObjectCasbUseractivityMatchRulesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#id ObjectCasbUseractivityMatchRulesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#jq ObjectCasbUseractivityMatchRulesA#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#jq ObjectCasbUseractivityMatchRulesA#jq}
   */
   readonly jq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#match ObjectCasbUseractivityMatchRulesA#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#match ObjectCasbUseractivityMatchRulesA#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#match_pattern ObjectCasbUseractivityMatchRulesA#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#match_pattern ObjectCasbUseractivityMatchRulesA#match_pattern}
   */
   readonly matchPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#match_value ObjectCasbUseractivityMatchRulesA#match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#match_value ObjectCasbUseractivityMatchRulesA#match_value}
   */
   readonly matchValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#methods ObjectCasbUseractivityMatchRulesA#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#methods ObjectCasbUseractivityMatchRulesA#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#negate ObjectCasbUseractivityMatchRulesA#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#negate ObjectCasbUseractivityMatchRulesA#negate}
   */
   readonly negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#scopetype ObjectCasbUseractivityMatchRulesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#scopetype ObjectCasbUseractivityMatchRulesA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#type ObjectCasbUseractivityMatchRulesA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#type ObjectCasbUseractivityMatchRulesA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#user_activity ObjectCasbUseractivityMatchRulesA#user_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#user_activity ObjectCasbUseractivityMatchRulesA#user_activity}
   */
   readonly userActivity: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules fortimanager_object_casb_useractivity_match_rules}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules fortimanager_object_casb_useractivity_match_rules}
 */
 export class ObjectCasbUseractivityMatchRulesA extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ObjectCasbUseractivityMatchRulesA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCasbUseractivityMatchRulesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbUseractivityMatchRulesA to import
-  * @param importFromId The id of the existing ObjectCasbUseractivityMatchRulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbUseractivityMatchRulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbUseractivityMatchRulesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ObjectCasbUseractivityMatchRulesA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_rules fortimanager_object_casb_useractivity_match_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_rules fortimanager_object_casb_useractivity_match_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ObjectCasbUseractivityMatchRulesA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_casb_useractivity_match_rules',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

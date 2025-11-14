@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemReplacemsggroupDevicedetectionportalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#adom ObjectSystemReplacemsggroupDevicedetectionportal#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#adom ObjectSystemReplacemsggroupDevicedetectionportal#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#buffer ObjectSystemReplacemsggroupDevicedetectionportal#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#buffer ObjectSystemReplacemsggroupDevicedetectionportal#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#format ObjectSystemReplacemsggroupDevicedetectionportal#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#format ObjectSystemReplacemsggroupDevicedetectionportal#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#header ObjectSystemReplacemsggroupDevicedetectionportal#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#header ObjectSystemReplacemsggroupDevicedetectionportal#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#id ObjectSystemReplacemsggroupDevicedetectionportal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#id ObjectSystemReplacemsggroupDevicedetectionportal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#msg_type ObjectSystemReplacemsggroupDevicedetectionportal#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#msg_type ObjectSystemReplacemsggroupDevicedetectionportal#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#replacemsg_group ObjectSystemReplacemsggroupDevicedetectionportal#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#replacemsg_group ObjectSystemReplacemsggroupDevicedetectionportal#replacemsg_group}
   */
   readonly replacemsgGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#scopetype ObjectSystemReplacemsggroupDevicedetectionportal#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#scopetype ObjectSystemReplacemsggroupDevicedetectionportal#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal fortimanager_object_system_replacemsggroup_devicedetectionportal}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal fortimanager_object_system_replacemsggroup_devicedetectionportal}
 */
 export class ObjectSystemReplacemsggroupDevicedetectionportal extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectSystemReplacemsggroupDevicedetectionportal extends cdktf.Terr
   * Generates CDKTF code for importing a ObjectSystemReplacemsggroupDevicedetectionportal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemReplacemsggroupDevicedetectionportal to import
-  * @param importFromId The id of the existing ObjectSystemReplacemsggroupDevicedetectionportal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemReplacemsggroupDevicedetectionportal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemReplacemsggroupDevicedetectionportal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectSystemReplacemsggroupDevicedetectionportal extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_devicedetectionportal fortimanager_object_system_replacemsggroup_devicedetectionportal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_devicedetectionportal fortimanager_object_system_replacemsggroup_devicedetectionportal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectSystemReplacemsggroupDevicedetectionportal extends cdktf.Terr
       terraformResourceType: 'fortimanager_object_system_replacemsggroup_devicedetectionportal',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

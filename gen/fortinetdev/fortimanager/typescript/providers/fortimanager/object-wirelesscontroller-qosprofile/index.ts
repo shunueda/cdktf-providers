@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerQosprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#adom ObjectWirelesscontrollerQosprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#adom ObjectWirelesscontrollerQosprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#bandwidth_admission_control ObjectWirelesscontrollerQosprofile#bandwidth_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#bandwidth_admission_control ObjectWirelesscontrollerQosprofile#bandwidth_admission_control}
   */
   readonly bandwidthAdmissionControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#bandwidth_capacity ObjectWirelesscontrollerQosprofile#bandwidth_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#bandwidth_capacity ObjectWirelesscontrollerQosprofile#bandwidth_capacity}
   */
   readonly bandwidthCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#burst ObjectWirelesscontrollerQosprofile#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#burst ObjectWirelesscontrollerQosprofile#burst}
   */
   readonly burst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#call_admission_control ObjectWirelesscontrollerQosprofile#call_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#call_admission_control ObjectWirelesscontrollerQosprofile#call_admission_control}
   */
   readonly callAdmissionControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#call_capacity ObjectWirelesscontrollerQosprofile#call_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#call_capacity ObjectWirelesscontrollerQosprofile#call_capacity}
   */
   readonly callCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#comment ObjectWirelesscontrollerQosprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#comment ObjectWirelesscontrollerQosprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#downlink ObjectWirelesscontrollerQosprofile#downlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#downlink ObjectWirelesscontrollerQosprofile#downlink}
   */
   readonly downlink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#downlink_sta ObjectWirelesscontrollerQosprofile#downlink_sta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#downlink_sta ObjectWirelesscontrollerQosprofile#downlink_sta}
   */
   readonly downlinkSta?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_be ObjectWirelesscontrollerQosprofile#dscp_wmm_be}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_be ObjectWirelesscontrollerQosprofile#dscp_wmm_be}
   */
   readonly dscpWmmBe?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_bk ObjectWirelesscontrollerQosprofile#dscp_wmm_bk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_bk ObjectWirelesscontrollerQosprofile#dscp_wmm_bk}
   */
   readonly dscpWmmBk?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_mapping ObjectWirelesscontrollerQosprofile#dscp_wmm_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_mapping ObjectWirelesscontrollerQosprofile#dscp_wmm_mapping}
   */
   readonly dscpWmmMapping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_vi ObjectWirelesscontrollerQosprofile#dscp_wmm_vi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_vi ObjectWirelesscontrollerQosprofile#dscp_wmm_vi}
   */
   readonly dscpWmmVi?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_vo ObjectWirelesscontrollerQosprofile#dscp_wmm_vo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#dscp_wmm_vo ObjectWirelesscontrollerQosprofile#dscp_wmm_vo}
   */
   readonly dscpWmmVo?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#id ObjectWirelesscontrollerQosprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#id ObjectWirelesscontrollerQosprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#name ObjectWirelesscontrollerQosprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#name ObjectWirelesscontrollerQosprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#scopetype ObjectWirelesscontrollerQosprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#scopetype ObjectWirelesscontrollerQosprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#uplink ObjectWirelesscontrollerQosprofile#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#uplink ObjectWirelesscontrollerQosprofile#uplink}
   */
   readonly uplink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#uplink_sta ObjectWirelesscontrollerQosprofile#uplink_sta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#uplink_sta ObjectWirelesscontrollerQosprofile#uplink_sta}
   */
   readonly uplinkSta?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm ObjectWirelesscontrollerQosprofile#wmm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm ObjectWirelesscontrollerQosprofile#wmm}
   */
   readonly wmm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_be_dscp ObjectWirelesscontrollerQosprofile#wmm_be_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_be_dscp ObjectWirelesscontrollerQosprofile#wmm_be_dscp}
   */
   readonly wmmBeDscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_bk_dscp ObjectWirelesscontrollerQosprofile#wmm_bk_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_bk_dscp ObjectWirelesscontrollerQosprofile#wmm_bk_dscp}
   */
   readonly wmmBkDscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_dscp_marking ObjectWirelesscontrollerQosprofile#wmm_dscp_marking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_dscp_marking ObjectWirelesscontrollerQosprofile#wmm_dscp_marking}
   */
   readonly wmmDscpMarking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_uapsd ObjectWirelesscontrollerQosprofile#wmm_uapsd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_uapsd ObjectWirelesscontrollerQosprofile#wmm_uapsd}
   */
   readonly wmmUapsd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_vi_dscp ObjectWirelesscontrollerQosprofile#wmm_vi_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_vi_dscp ObjectWirelesscontrollerQosprofile#wmm_vi_dscp}
   */
   readonly wmmViDscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_vo_dscp ObjectWirelesscontrollerQosprofile#wmm_vo_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#wmm_vo_dscp ObjectWirelesscontrollerQosprofile#wmm_vo_dscp}
   */
   readonly wmmVoDscp?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile fortimanager_object_wirelesscontroller_qosprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile fortimanager_object_wirelesscontroller_qosprofile}
 */
 export class ObjectWirelesscontrollerQosprofile extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class ObjectWirelesscontrollerQosprofile extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectWirelesscontrollerQosprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerQosprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerQosprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerQosprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerQosprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class ObjectWirelesscontrollerQosprofile extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_qosprofile fortimanager_object_wirelesscontroller_qosprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_qosprofile fortimanager_object_wirelesscontroller_qosprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class ObjectWirelesscontrollerQosprofile extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_wirelesscontroller_qosprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

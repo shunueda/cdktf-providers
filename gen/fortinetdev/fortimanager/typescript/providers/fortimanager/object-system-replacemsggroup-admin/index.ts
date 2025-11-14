@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemReplacemsggroupAdminAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#adom ObjectSystemReplacemsggroupAdminA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#adom ObjectSystemReplacemsggroupAdminA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#buffer ObjectSystemReplacemsggroupAdminA#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#buffer ObjectSystemReplacemsggroupAdminA#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#format ObjectSystemReplacemsggroupAdminA#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#format ObjectSystemReplacemsggroupAdminA#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#header ObjectSystemReplacemsggroupAdminA#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#header ObjectSystemReplacemsggroupAdminA#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#id ObjectSystemReplacemsggroupAdminA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#id ObjectSystemReplacemsggroupAdminA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#msg_type ObjectSystemReplacemsggroupAdminA#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#msg_type ObjectSystemReplacemsggroupAdminA#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#replacemsg_group ObjectSystemReplacemsggroupAdminA#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#replacemsg_group ObjectSystemReplacemsggroupAdminA#replacemsg_group}
   */
   readonly replacemsgGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#scopetype ObjectSystemReplacemsggroupAdminA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#scopetype ObjectSystemReplacemsggroupAdminA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin fortimanager_object_system_replacemsggroup_admin}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin fortimanager_object_system_replacemsggroup_admin}
 */
 export class ObjectSystemReplacemsggroupAdminA extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectSystemReplacemsggroupAdminA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemReplacemsggroupAdminA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemReplacemsggroupAdminA to import
-  * @param importFromId The id of the existing ObjectSystemReplacemsggroupAdminA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemReplacemsggroupAdminA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemReplacemsggroupAdminA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectSystemReplacemsggroupAdminA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_replacemsggroup_admin fortimanager_object_system_replacemsggroup_admin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_replacemsggroup_admin fortimanager_object_system_replacemsggroup_admin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectSystemReplacemsggroupAdminA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_replacemsggroup_admin',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

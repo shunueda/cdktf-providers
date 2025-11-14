@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,128 @@ import * as cdktf from 'cdktf';
 
 export interface SystemDmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#concurrent_install_image_limit SystemDm#concurrent_install_image_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#concurrent_install_image_limit SystemDm#concurrent_install_image_limit}
   */
   readonly concurrentInstallImageLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#concurrent_install_limit SystemDm#concurrent_install_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#concurrent_install_limit SystemDm#concurrent_install_limit}
   */
   readonly concurrentInstallLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#concurrent_install_script_limit SystemDm#concurrent_install_script_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#concurrent_install_script_limit SystemDm#concurrent_install_script_limit}
   */
   readonly concurrentInstallScriptLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#conf_merge_after_script SystemDm#conf_merge_after_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#conf_merge_after_script SystemDm#conf_merge_after_script}
   */
   readonly confMergeAfterScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#discover_timeout SystemDm#discover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#discover_timeout SystemDm#discover_timeout}
   */
   readonly discoverTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#dpm_logsize SystemDm#dpm_logsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#dpm_logsize SystemDm#dpm_logsize}
   */
   readonly dpmLogsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fgfm_auto_retrieve_timeout SystemDm#fgfm_auto_retrieve_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fgfm_auto_retrieve_timeout SystemDm#fgfm_auto_retrieve_timeout}
   */
   readonly fgfmAutoRetrieveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fgfm_install_refresh_count SystemDm#fgfm_install_refresh_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fgfm_install_refresh_count SystemDm#fgfm_install_refresh_count}
   */
   readonly fgfmInstallRefreshCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fgfm_keepalive_itvl SystemDm#fgfm_keepalive_itvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fgfm_keepalive_itvl SystemDm#fgfm_keepalive_itvl}
   */
   readonly fgfmKeepaliveItvl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fgfm_sock_timeout SystemDm#fgfm_sock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fgfm_sock_timeout SystemDm#fgfm_sock_timeout}
   */
   readonly fgfmSockTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#force_remote_diff SystemDm#force_remote_diff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#force_remote_diff SystemDm#force_remote_diff}
   */
   readonly forceRemoteDiff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fortiap_refresh_cnt SystemDm#fortiap_refresh_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fortiap_refresh_cnt SystemDm#fortiap_refresh_cnt}
   */
   readonly fortiapRefreshCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fortiap_refresh_itvl SystemDm#fortiap_refresh_itvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fortiap_refresh_itvl SystemDm#fortiap_refresh_itvl}
   */
   readonly fortiapRefreshItvl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#fortiext_refresh_cnt SystemDm#fortiext_refresh_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#fortiext_refresh_cnt SystemDm#fortiext_refresh_cnt}
   */
   readonly fortiextRefreshCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#id SystemDm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#handle_nonhasync_config SystemDm#handle_nonhasync_config}
+  */
+  readonly handleNonhasyncConfig?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#id SystemDm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#install_fds_timeout SystemDm#install_fds_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#install_fds_timeout SystemDm#install_fds_timeout}
   */
   readonly installFdsTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#install_image_timeout SystemDm#install_image_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#install_image_timeout SystemDm#install_image_timeout}
   */
   readonly installImageTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#install_tunnel_retry_itvl SystemDm#install_tunnel_retry_itvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#install_tunnel_retry_itvl SystemDm#install_tunnel_retry_itvl}
   */
   readonly installTunnelRetryItvl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#log_autoupdate SystemDm#log_autoupdate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#log_autoupdate SystemDm#log_autoupdate}
   */
   readonly logAutoupdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#max_revs SystemDm#max_revs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#max_revs SystemDm#max_revs}
   */
   readonly maxRevs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#nr_retry SystemDm#nr_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#nr_retry SystemDm#nr_retry}
   */
   readonly nrRetry?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#retry SystemDm#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#retry SystemDm#retry}
   */
   readonly retry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#retry_intvl SystemDm#retry_intvl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#retry_intvl SystemDm#retry_intvl}
   */
   readonly retryIntvl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#rollback_allow_reboot SystemDm#rollback_allow_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#rollback_allow_reboot SystemDm#rollback_allow_reboot}
   */
   readonly rollbackAllowReboot?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#script_logsize SystemDm#script_logsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#script_logsize SystemDm#script_logsize}
   */
   readonly scriptLogsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#skip_scep_check SystemDm#skip_scep_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#skip_scep_check SystemDm#skip_scep_check}
   */
   readonly skipScepCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#skip_tunnel_fcp_req SystemDm#skip_tunnel_fcp_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#skip_tunnel_fcp_req SystemDm#skip_tunnel_fcp_req}
   */
   readonly skipTunnelFcpReq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#verify_install SystemDm#verify_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#verify_install SystemDm#verify_install}
   */
   readonly verifyInstall?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm fortimanager_system_dm}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm fortimanager_system_dm}
 */
 export class SystemDm extends cdktf.TerraformResource {
 
@@ -141,7 +145,7 @@ export class SystemDm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemDm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemDm to import
-  * @param importFromId The id of the existing SystemDm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemDm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemDm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +157,7 @@ export class SystemDm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_dm fortimanager_system_dm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_dm fortimanager_system_dm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +168,8 @@ export class SystemDm extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_dm',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -189,6 +193,7 @@ export class SystemDm extends cdktf.TerraformResource {
     this._fortiapRefreshCnt = config.fortiapRefreshCnt;
     this._fortiapRefreshItvl = config.fortiapRefreshItvl;
     this._fortiextRefreshCnt = config.fortiextRefreshCnt;
+    this._handleNonhasyncConfig = config.handleNonhasyncConfig;
     this._id = config.id;
     this._installFdsTimeout = config.installFdsTimeout;
     this._installImageTimeout = config.installImageTimeout;
@@ -431,6 +436,22 @@ export class SystemDm extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get fortiextRefreshCntInput() {
     return this._fortiextRefreshCnt;
+  }
+
+  // handle_nonhasync_config - computed: true, optional: true, required: false
+  private _handleNonhasyncConfig?: string; 
+  public get handleNonhasyncConfig() {
+    return this.getStringAttribute('handle_nonhasync_config');
+  }
+  public set handleNonhasyncConfig(value: string) {
+    this._handleNonhasyncConfig = value;
+  }
+  public resetHandleNonhasyncConfig() {
+    this._handleNonhasyncConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get handleNonhasyncConfigInput() {
+    return this._handleNonhasyncConfig;
   }
 
   // id - computed: true, optional: true, required: false
@@ -677,6 +698,7 @@ export class SystemDm extends cdktf.TerraformResource {
       fortiap_refresh_cnt: cdktf.numberToTerraform(this._fortiapRefreshCnt),
       fortiap_refresh_itvl: cdktf.numberToTerraform(this._fortiapRefreshItvl),
       fortiext_refresh_cnt: cdktf.numberToTerraform(this._fortiextRefreshCnt),
+      handle_nonhasync_config: cdktf.stringToTerraform(this._handleNonhasyncConfig),
       id: cdktf.stringToTerraform(this._id),
       install_fds_timeout: cdktf.numberToTerraform(this._installFdsTimeout),
       install_image_timeout: cdktf.numberToTerraform(this._installImageTimeout),
@@ -779,6 +801,12 @@ export class SystemDm extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      handle_nonhasync_config: {
+        value: cdktf.stringToHclTerraform(this._handleNonhasyncConfig),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       id: {
         value: cdktf.stringToHclTerraform(this._id),

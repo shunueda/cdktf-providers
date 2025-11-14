@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * A ContactList to provide user-interface suggestions for contact columns on relevant conditions and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_list_id OutboundRuleset#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_list_id OutboundRuleset#contact_list_id}
   */
   readonly contactListId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#id OutboundRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#id OutboundRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface OutboundRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the RuleSet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#name OutboundRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#name OutboundRuleset#name}
   */
   readonly name: string;
   /**
   * A Queue to provide user-interface suggestions for wrap-up codes on relevant conditions and actions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#queue_id OutboundRuleset#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#queue_id OutboundRuleset#queue_id}
   */
   readonly queueId?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#rules OutboundRuleset#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#rules OutboundRuleset#rules}
   */
   readonly rules?: OutboundRulesetRules[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface OutboundRulesetRulesActionsContactColumnToDataActionFieldMappin
   /**
   * The name of a contact column whose data will be passed to the data action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
   */
   readonly contactColumnName: string;
   /**
   * The name of an input field from the data action that the contact column data will be passed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
   */
   readonly dataActionField: string;
 }
@@ -190,55 +190,55 @@ export interface OutboundRulesetRulesActions {
   /**
   * Additional type specification for this DialerAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#action_type_name OutboundRuleset#action_type_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#action_type_name OutboundRuleset#action_type_name}
   */
   readonly actionTypeName: string;
   /**
   * The input field from the data action that the agentWrapup will be passed to for this condition. Valid for a wrapup dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
   */
   readonly agentWrapupField?: string;
   /**
   * The input field from the data action that the callAnalysisResult will be passed to for this condition. Valid for a wrapup dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
   */
   readonly callAnalysisResultField?: string;
   /**
   * The input field from the data action that the contactId will be passed to for this condition. Valid for a dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
   */
   readonly contactIdField?: string;
   /**
   * The Data Action to use for this action. Required for a dataActionBehavior.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
   */
   readonly dataActionId?: string;
   /**
   * A map of key-value pairs pertinent to the DialerAction. Different types of DialerActions require different properties. MODIFY_CONTACT_ATTRIBUTE with an updateOption of SET takes a contact column as the key and accepts any value. SCHEDULE_CALLBACK takes a key 'callbackOffset' that specifies how far in the future the callback should be scheduled, in minutes. SET_CALLER_ID takes two keys: 'callerAddress', which should be the caller id phone number, and 'callerName'. For either key, you can also specify a column on the contact to get the value from. To do this, specify 'contact.Column', where 'Column' is the name of the contact column from which to get the value. SET_SKILLS takes a key 'skills' with an array of skill ids wrapped into a string (Example: {'skills': '['skillIdHere']'} ).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#properties OutboundRuleset#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#properties OutboundRuleset#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The type of this DialerAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#type OutboundRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#type OutboundRuleset#type}
   */
   readonly type: string;
   /**
   * Specifies how a contact attribute should be updated. Required for MODIFY_CONTACT_ATTRIBUTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#update_option OutboundRuleset#update_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#update_option OutboundRuleset#update_option}
   */
   readonly updateOption?: string;
   /**
   * contact_column_to_data_action_field_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
   */
   readonly contactColumnToDataActionFieldMappings?: OutboundRulesetRulesActionsContactColumnToDataActionFieldMappings[] | cdktf.IResolvable;
 }
@@ -582,13 +582,13 @@ export interface OutboundRulesetRulesConditionsContactColumnToDataActionFieldMap
   /**
   * The name of a contact column whose data will be passed to the data action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_name OutboundRuleset#contact_column_name}
   */
   readonly contactColumnName: string;
   /**
   * The name of an input field from the data action that the contact column data will be passed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_field OutboundRuleset#data_action_field}
   */
   readonly dataActionField: string;
 }
@@ -729,31 +729,31 @@ export interface OutboundRulesetRulesConditionsPredicates {
   /**
   * The value to compare against for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#comparison_value OutboundRuleset#comparison_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#comparison_value OutboundRuleset#comparison_value}
   */
   readonly comparisonValue: string;
   /**
   * If true, inverts the result of evaluating this Predicate. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
   */
   readonly inverted: boolean | cdktf.IResolvable;
   /**
   * The name of an output field from the data action's output to use for this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#output_field OutboundRuleset#output_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_field OutboundRuleset#output_field}
   */
   readonly outputField: string;
   /**
   * The result of this predicate if the requested output field is missing from the data action's result
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#output_field_missing_resolution OutboundRuleset#output_field_missing_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_field_missing_resolution OutboundRuleset#output_field_missing_resolution}
   */
   readonly outputFieldMissingResolution: boolean | cdktf.IResolvable;
   /**
   * The operation with which to evaluate this condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#output_operator OutboundRuleset#output_operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#output_operator OutboundRuleset#output_operator}
   */
   readonly outputOperator: string;
 }
@@ -972,97 +972,97 @@ export interface OutboundRulesetRulesConditions {
   /**
   * The input field from the data action that the agentWrapup will be passed to for this condition. Valid for a wrapup dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#agent_wrapup_field OutboundRuleset#agent_wrapup_field}
   */
   readonly agentWrapupField?: string;
   /**
   * An attribute name associated with this Condition. Required for a contactAttributeCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#attribute_name OutboundRuleset#attribute_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#attribute_name OutboundRuleset#attribute_name}
   */
   readonly attributeName?: string;
   /**
   * The input field from the data action that the callAnalysisResult will be passed to for this condition. Valid for a wrapup dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#call_analysis_result_field OutboundRuleset#call_analysis_result_field}
   */
   readonly callAnalysisResultField?: string;
   /**
   * List of wrap-up code identifiers. Required for a wrapupCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#codes OutboundRuleset#codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#codes OutboundRuleset#codes}
   */
   readonly codes?: string[];
   /**
   * The input field from the data action that the contactId will be passed to for this condition. Valid for a dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_id_field OutboundRuleset#contact_id_field}
   */
   readonly contactIdField?: string;
   /**
   * The Data Action to use for this condition. Required for a dataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_action_id OutboundRuleset#data_action_id}
   */
   readonly dataActionId?: string;
   /**
   * The result of this condition if the data action returns a result indicating there was no data. Required for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#data_not_found_resolution OutboundRuleset#data_not_found_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#data_not_found_resolution OutboundRuleset#data_not_found_resolution}
   */
   readonly dataNotFoundResolution?: boolean | cdktf.IResolvable;
   /**
   * If true, inverts the result of evaluating this Condition. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#inverted OutboundRuleset#inverted}
   */
   readonly inverted?: boolean | cdktf.IResolvable;
   /**
   * An operation with which to evaluate the Condition. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#operator OutboundRuleset#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#operator OutboundRuleset#operator}
   */
   readonly operator?: string;
   /**
   * A value associated with the property type of this Condition. Required for a contactPropertyCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#property OutboundRuleset#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#property OutboundRuleset#property}
   */
   readonly property?: string;
   /**
   * The type of the property associated with this Condition. Required for a contactPropertyCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#property_type OutboundRuleset#property_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#property_type OutboundRuleset#property_type}
   */
   readonly propertyType?: string;
   /**
   * The type of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#type OutboundRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#type OutboundRuleset#type}
   */
   readonly type?: string;
   /**
   * A value associated with this Condition. This could be text, a number, or a relative time. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#value OutboundRuleset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#value OutboundRuleset#value}
   */
   readonly value?: string;
   /**
   * The type of the value associated with this Condition. Not used for a DataActionCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#value_type OutboundRuleset#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#value_type OutboundRuleset#value_type}
   */
   readonly valueType?: string;
   /**
   * contact_column_to_data_action_field_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#contact_column_to_data_action_field_mappings OutboundRuleset#contact_column_to_data_action_field_mappings}
   */
   readonly contactColumnToDataActionFieldMappings?: OutboundRulesetRulesConditionsContactColumnToDataActionFieldMappings[] | cdktf.IResolvable;
   /**
   * predicates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#predicates OutboundRuleset#predicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#predicates OutboundRuleset#predicates}
   */
   readonly predicates?: OutboundRulesetRulesConditionsPredicates[] | cdktf.IResolvable;
 }
@@ -1615,31 +1615,31 @@ export interface OutboundRulesetRules {
   /**
   * The category of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#category OutboundRuleset#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#category OutboundRuleset#category}
   */
   readonly category: string;
   /**
   * The name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#name OutboundRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#name OutboundRuleset#name}
   */
   readonly name: string;
   /**
   * The ranked order of the rule. Rules are processed from lowest number to highest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#order OutboundRuleset#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#order OutboundRuleset#order}
   */
   readonly order?: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#actions OutboundRuleset#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#actions OutboundRuleset#actions}
   */
   readonly actions: OutboundRulesetRulesActions[] | cdktf.IResolvable;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#conditions OutboundRuleset#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#conditions OutboundRuleset#conditions}
   */
   readonly conditions: OutboundRulesetRulesConditions[] | cdktf.IResolvable;
 }
@@ -1859,7 +1859,7 @@ export class OutboundRulesetRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset}
 */
 export class OutboundRuleset extends cdktf.TerraformResource {
 
@@ -1875,7 +1875,7 @@ export class OutboundRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundRuleset to import
-  * @param importFromId The id of the existing OutboundRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1887,7 +1887,7 @@ export class OutboundRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_ruleset genesyscloud_outbound_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1898,8 +1898,8 @@ export class OutboundRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

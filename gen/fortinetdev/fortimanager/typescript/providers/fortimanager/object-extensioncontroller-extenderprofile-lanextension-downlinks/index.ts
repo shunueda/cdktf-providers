@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#adom ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#adom ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#extender_profile ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#id ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#id ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#name ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#name ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#port ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#port ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#pvid ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#pvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#pvid ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#pvid}
   */
   readonly pvid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#scopetype ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#type ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#type ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#vap ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#vap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#vap ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#vap}
   */
   readonly vap?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#vids ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA#vids}
+  */
+  readonly vids?: number[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks fortimanager_object_extensioncontroller_extenderprofile_lanextension_downlinks}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks fortimanager_object_extensioncontroller_extenderprofile_lanextension_downlinks}
 */
 export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA extends cdktf.TerraformResource {
 
@@ -65,7 +69,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
   * Generates CDKTF code for importing a ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA to import
-  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +81,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks fortimanager_object_extensioncontroller_extenderprofile_lanextension_downlinks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extensioncontroller_extenderprofile_lanextension_downlinks fortimanager_object_extensioncontroller_extenderprofile_lanextension_downlinks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +92,8 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
       terraformResourceType: 'fortimanager_object_extensioncontroller_extenderprofile_lanextension_downlinks',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -108,6 +112,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
     this._scopetype = config.scopetype;
     this._type = config.type;
     this._vap = config.vap;
+    this._vids = config.vids;
   }
 
   // ==========
@@ -191,7 +196,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
     return this._port;
   }
 
-  // pvid - computed: false, optional: true, required: false
+  // pvid - computed: true, optional: true, required: false
   private _pvid?: number; 
   public get pvid() {
     return this.getNumberAttribute('pvid');
@@ -255,6 +260,22 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
     return this._vap;
   }
 
+  // vids - computed: true, optional: true, required: false
+  private _vids?: number[]; 
+  public get vids() {
+    return cdktf.Token.asNumberList(cdktf.Fn.tolist(this.getNumberListAttribute('vids')));
+  }
+  public set vids(value: number[]) {
+    this._vids = value;
+  }
+  public resetVids() {
+    this._vids = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vidsInput() {
+    return this._vids;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -270,6 +291,7 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
       scopetype: cdktf.stringToTerraform(this._scopetype),
       type: cdktf.stringToTerraform(this._type),
       vap: cdktf.listMapper(cdktf.stringToTerraform, false)(this._vap),
+      vids: cdktf.listMapper(cdktf.numberToTerraform, false)(this._vids),
     };
   }
 
@@ -328,6 +350,12 @@ export class ObjectExtensioncontrollerExtenderprofileLanextensionDownlinksA exte
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
+      },
+      vids: {
+        value: cdktf.listMapperHcl(cdktf.numberToHclTerraform, false)(this._vids),
+        isBlock: false,
+        type: "set",
+        storageClassType: "numberList",
       },
     };
 

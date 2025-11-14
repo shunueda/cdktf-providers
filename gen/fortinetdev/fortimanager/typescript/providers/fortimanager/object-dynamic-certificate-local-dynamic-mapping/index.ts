@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDynamicCertificateLocalDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#adom ObjectDynamicCertificateLocalDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#adom ObjectDynamicCertificateLocalDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#dynamic_sort_subtable ObjectDynamicCertificateLocalDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#dynamic_sort_subtable ObjectDynamicCertificateLocalDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#id ObjectDynamicCertificateLocalDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#id ObjectDynamicCertificateLocalDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#local ObjectDynamicCertificateLocalDynamicMappingA#local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#local ObjectDynamicCertificateLocalDynamicMappingA#local}
   */
   readonly local: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#local_cert ObjectDynamicCertificateLocalDynamicMappingA#local_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#local_cert ObjectDynamicCertificateLocalDynamicMappingA#local_cert}
   */
   readonly localCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#scopetype ObjectDynamicCertificateLocalDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#scopetype ObjectDynamicCertificateLocalDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#_scope ObjectDynamicCertificateLocalDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#_scope ObjectDynamicCertificateLocalDynamicMappingA#_scope}
   */
   readonly scope?: ObjectDynamicCertificateLocalDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectDynamicCertificateLocalDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#name ObjectDynamicCertificateLocalDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#name ObjectDynamicCertificateLocalDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#vdom ObjectDynamicCertificateLocalDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#vdom ObjectDynamicCertificateLocalDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -192,7 +192,7 @@ export class ObjectDynamicCertificateLocalDynamicMappingScopeAList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping fortimanager_object_dynamic_certificate_local_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping fortimanager_object_dynamic_certificate_local_dynamic_mapping}
 */
 export class ObjectDynamicCertificateLocalDynamicMappingA extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class ObjectDynamicCertificateLocalDynamicMappingA extends cdktf.Terrafor
   * Generates CDKTF code for importing a ObjectDynamicCertificateLocalDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDynamicCertificateLocalDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectDynamicCertificateLocalDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDynamicCertificateLocalDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDynamicCertificateLocalDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class ObjectDynamicCertificateLocalDynamicMappingA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping fortimanager_object_dynamic_certificate_local_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_certificate_local_dynamic_mapping fortimanager_object_dynamic_certificate_local_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class ObjectDynamicCertificateLocalDynamicMappingA extends cdktf.Terrafor
       terraformResourceType: 'fortimanager_object_dynamic_certificate_local_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuNpqueuesIpserviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#adom ObjectSystemNpuNpqueuesIpservice#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#adom ObjectSystemNpuNpqueuesIpservice#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#dport ObjectSystemNpuNpqueuesIpservice#dport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#dport ObjectSystemNpuNpqueuesIpservice#dport}
   */
   readonly dport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#id ObjectSystemNpuNpqueuesIpservice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#id ObjectSystemNpuNpqueuesIpservice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#name ObjectSystemNpuNpqueuesIpservice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#name ObjectSystemNpuNpqueuesIpservice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#protocol ObjectSystemNpuNpqueuesIpservice#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#protocol ObjectSystemNpuNpqueuesIpservice#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#queue ObjectSystemNpuNpqueuesIpservice#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#queue ObjectSystemNpuNpqueuesIpservice#queue}
   */
   readonly queue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#scopetype ObjectSystemNpuNpqueuesIpservice#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#scopetype ObjectSystemNpuNpqueuesIpservice#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#sport ObjectSystemNpuNpqueuesIpservice#sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#sport ObjectSystemNpuNpqueuesIpservice#sport}
   */
   readonly sport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#weight ObjectSystemNpuNpqueuesIpservice#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#weight ObjectSystemNpuNpqueuesIpservice#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice fortimanager_object_system_npu_npqueues_ipservice}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice fortimanager_object_system_npu_npqueues_ipservice}
 */
 export class ObjectSystemNpuNpqueuesIpservice extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ObjectSystemNpuNpqueuesIpservice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuNpqueuesIpservice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuNpqueuesIpservice to import
-  * @param importFromId The id of the existing ObjectSystemNpuNpqueuesIpservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuNpqueuesIpservice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuNpqueuesIpservice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ObjectSystemNpuNpqueuesIpservice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_ipservice fortimanager_object_system_npu_npqueues_ipservice} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_ipservice fortimanager_object_system_npu_npqueues_ipservice} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ObjectSystemNpuNpqueuesIpservice extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_npqueues_ipservice',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

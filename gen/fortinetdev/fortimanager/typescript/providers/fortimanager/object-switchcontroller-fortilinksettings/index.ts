@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerFortilinksettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#access_vlan_mode ObjectSwitchcontrollerFortilinksettings#access_vlan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#access_vlan_mode ObjectSwitchcontrollerFortilinksettings#access_vlan_mode}
   */
   readonly accessVlanMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#adom ObjectSwitchcontrollerFortilinksettings#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#adom ObjectSwitchcontrollerFortilinksettings#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#fortilink ObjectSwitchcontrollerFortilinksettings#fortilink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#fortilink ObjectSwitchcontrollerFortilinksettings#fortilink}
   */
   readonly fortilink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#id ObjectSwitchcontrollerFortilinksettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#id ObjectSwitchcontrollerFortilinksettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#inactive_timer ObjectSwitchcontrollerFortilinksettings#inactive_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#inactive_timer ObjectSwitchcontrollerFortilinksettings#inactive_timer}
   */
   readonly inactiveTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#link_down_flush ObjectSwitchcontrollerFortilinksettings#link_down_flush}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#link_down_flush ObjectSwitchcontrollerFortilinksettings#link_down_flush}
   */
   readonly linkDownFlush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#name ObjectSwitchcontrollerFortilinksettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#name ObjectSwitchcontrollerFortilinksettings#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#scopetype ObjectSwitchcontrollerFortilinksettings#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#scopetype ObjectSwitchcontrollerFortilinksettings#scopetype}
   */
   readonly scopetype?: string;
   /**
   * nac_ports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#nac_ports ObjectSwitchcontrollerFortilinksettings#nac_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#nac_ports ObjectSwitchcontrollerFortilinksettings#nac_ports}
   */
   readonly nacPorts?: ObjectSwitchcontrollerFortilinksettingsNacPorts;
 }
 export interface ObjectSwitchcontrollerFortilinksettingsNacPorts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#bounce_nac_port ObjectSwitchcontrollerFortilinksettings#bounce_nac_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#bounce_nac_port ObjectSwitchcontrollerFortilinksettings#bounce_nac_port}
   */
   readonly bounceNacPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#lan_segment ObjectSwitchcontrollerFortilinksettings#lan_segment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#lan_segment ObjectSwitchcontrollerFortilinksettings#lan_segment}
   */
   readonly lanSegment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#member_change ObjectSwitchcontrollerFortilinksettings#member_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#member_change ObjectSwitchcontrollerFortilinksettings#member_change}
   */
   readonly memberChange?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#nac_lan_interface ObjectSwitchcontrollerFortilinksettings#nac_lan_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#nac_lan_interface ObjectSwitchcontrollerFortilinksettings#nac_lan_interface}
   */
   readonly nacLanInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#nac_segment_vlans ObjectSwitchcontrollerFortilinksettings#nac_segment_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#nac_segment_vlans ObjectSwitchcontrollerFortilinksettings#nac_segment_vlans}
   */
   readonly nacSegmentVlans?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#onboarding_vlan ObjectSwitchcontrollerFortilinksettings#onboarding_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#onboarding_vlan ObjectSwitchcontrollerFortilinksettings#onboarding_vlan}
   */
   readonly onboardingVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#parent_key ObjectSwitchcontrollerFortilinksettings#parent_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#parent_key ObjectSwitchcontrollerFortilinksettings#parent_key}
   */
   readonly parentKey?: string;
 }
@@ -333,7 +333,7 @@ export class ObjectSwitchcontrollerFortilinksettingsNacPortsOutputReference exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings fortimanager_object_switchcontroller_fortilinksettings}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings fortimanager_object_switchcontroller_fortilinksettings}
 */
 export class ObjectSwitchcontrollerFortilinksettings extends cdktf.TerraformResource {
 
@@ -349,7 +349,7 @@ export class ObjectSwitchcontrollerFortilinksettings extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ObjectSwitchcontrollerFortilinksettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerFortilinksettings to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerFortilinksettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerFortilinksettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerFortilinksettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +361,7 @@ export class ObjectSwitchcontrollerFortilinksettings extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_fortilinksettings fortimanager_object_switchcontroller_fortilinksettings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_fortilinksettings fortimanager_object_switchcontroller_fortilinksettings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,8 +372,8 @@ export class ObjectSwitchcontrollerFortilinksettings extends cdktf.TerraformReso
       terraformResourceType: 'fortimanager_object_switchcontroller_fortilinksettings',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

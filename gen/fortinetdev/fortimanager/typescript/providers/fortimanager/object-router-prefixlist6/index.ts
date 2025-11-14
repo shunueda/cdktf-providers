@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,65 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectRouterPrefixlist6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#adom ObjectRouterPrefixlist6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#adom ObjectRouterPrefixlist6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#comments ObjectRouterPrefixlist6#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#comments ObjectRouterPrefixlist6#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#dynamic_sort_subtable ObjectRouterPrefixlist6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#dynamic_sort_subtable ObjectRouterPrefixlist6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#id ObjectRouterPrefixlist6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#id ObjectRouterPrefixlist6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#name ObjectRouterPrefixlist6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#name ObjectRouterPrefixlist6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#scopetype ObjectRouterPrefixlist6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#scopetype ObjectRouterPrefixlist6#scopetype}
   */
   readonly scopetype?: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#rule ObjectRouterPrefixlist6#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#rule ObjectRouterPrefixlist6#rule}
   */
   readonly rule?: ObjectRouterPrefixlist6Rule[] | cdktf.IResolvable;
 }
 export interface ObjectRouterPrefixlist6Rule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#action ObjectRouterPrefixlist6#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#action ObjectRouterPrefixlist6#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#flags ObjectRouterPrefixlist6#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#flags ObjectRouterPrefixlist6#flags}
   */
   readonly flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#ge ObjectRouterPrefixlist6#ge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#ge ObjectRouterPrefixlist6#ge}
   */
   readonly ge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#id ObjectRouterPrefixlist6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#id ObjectRouterPrefixlist6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#le ObjectRouterPrefixlist6#le}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#le ObjectRouterPrefixlist6#le}
   */
   readonly le?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#prefix6 ObjectRouterPrefixlist6#prefix6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#prefix6 ObjectRouterPrefixlist6#prefix6}
   */
   readonly prefix6?: string;
 }
@@ -327,7 +327,7 @@ export class ObjectRouterPrefixlist6RuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6 fortimanager_object_router_prefixlist6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6 fortimanager_object_router_prefixlist6}
 */
 export class ObjectRouterPrefixlist6 extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class ObjectRouterPrefixlist6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectRouterPrefixlist6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectRouterPrefixlist6 to import
-  * @param importFromId The id of the existing ObjectRouterPrefixlist6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectRouterPrefixlist6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectRouterPrefixlist6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class ObjectRouterPrefixlist6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_prefixlist6 fortimanager_object_router_prefixlist6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_prefixlist6 fortimanager_object_router_prefixlist6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class ObjectRouterPrefixlist6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_router_prefixlist6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerWtpprofileLanAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#adom ObjectWirelesscontrollerWtpprofileLanA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#adom ObjectWirelesscontrollerWtpprofileLanA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#id ObjectWirelesscontrollerWtpprofileLanA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#id ObjectWirelesscontrollerWtpprofileLanA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port1_mode ObjectWirelesscontrollerWtpprofileLanA#port1_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port1_mode ObjectWirelesscontrollerWtpprofileLanA#port1_mode}
   */
   readonly port1Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port1_ssid ObjectWirelesscontrollerWtpprofileLanA#port1_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port1_ssid ObjectWirelesscontrollerWtpprofileLanA#port1_ssid}
   */
   readonly port1Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port2_mode ObjectWirelesscontrollerWtpprofileLanA#port2_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port2_mode ObjectWirelesscontrollerWtpprofileLanA#port2_mode}
   */
   readonly port2Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port2_ssid ObjectWirelesscontrollerWtpprofileLanA#port2_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port2_ssid ObjectWirelesscontrollerWtpprofileLanA#port2_ssid}
   */
   readonly port2Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port3_mode ObjectWirelesscontrollerWtpprofileLanA#port3_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port3_mode ObjectWirelesscontrollerWtpprofileLanA#port3_mode}
   */
   readonly port3Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port3_ssid ObjectWirelesscontrollerWtpprofileLanA#port3_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port3_ssid ObjectWirelesscontrollerWtpprofileLanA#port3_ssid}
   */
   readonly port3Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port4_mode ObjectWirelesscontrollerWtpprofileLanA#port4_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port4_mode ObjectWirelesscontrollerWtpprofileLanA#port4_mode}
   */
   readonly port4Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port4_ssid ObjectWirelesscontrollerWtpprofileLanA#port4_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port4_ssid ObjectWirelesscontrollerWtpprofileLanA#port4_ssid}
   */
   readonly port4Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port5_mode ObjectWirelesscontrollerWtpprofileLanA#port5_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port5_mode ObjectWirelesscontrollerWtpprofileLanA#port5_mode}
   */
   readonly port5Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port5_ssid ObjectWirelesscontrollerWtpprofileLanA#port5_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port5_ssid ObjectWirelesscontrollerWtpprofileLanA#port5_ssid}
   */
   readonly port5Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port6_mode ObjectWirelesscontrollerWtpprofileLanA#port6_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port6_mode ObjectWirelesscontrollerWtpprofileLanA#port6_mode}
   */
   readonly port6Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port6_ssid ObjectWirelesscontrollerWtpprofileLanA#port6_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port6_ssid ObjectWirelesscontrollerWtpprofileLanA#port6_ssid}
   */
   readonly port6Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port7_mode ObjectWirelesscontrollerWtpprofileLanA#port7_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port7_mode ObjectWirelesscontrollerWtpprofileLanA#port7_mode}
   */
   readonly port7Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port7_ssid ObjectWirelesscontrollerWtpprofileLanA#port7_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port7_ssid ObjectWirelesscontrollerWtpprofileLanA#port7_ssid}
   */
   readonly port7Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port8_mode ObjectWirelesscontrollerWtpprofileLanA#port8_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port8_mode ObjectWirelesscontrollerWtpprofileLanA#port8_mode}
   */
   readonly port8Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port8_ssid ObjectWirelesscontrollerWtpprofileLanA#port8_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port8_ssid ObjectWirelesscontrollerWtpprofileLanA#port8_ssid}
   */
   readonly port8Ssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_esl_mode ObjectWirelesscontrollerWtpprofileLanA#port_esl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_esl_mode ObjectWirelesscontrollerWtpprofileLanA#port_esl_mode}
   */
   readonly portEslMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_esl_ssid ObjectWirelesscontrollerWtpprofileLanA#port_esl_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_esl_ssid ObjectWirelesscontrollerWtpprofileLanA#port_esl_ssid}
   */
   readonly portEslSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_mode ObjectWirelesscontrollerWtpprofileLanA#port_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_mode ObjectWirelesscontrollerWtpprofileLanA#port_mode}
   */
   readonly portMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_ssid ObjectWirelesscontrollerWtpprofileLanA#port_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#port_ssid ObjectWirelesscontrollerWtpprofileLanA#port_ssid}
   */
   readonly portSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#scopetype ObjectWirelesscontrollerWtpprofileLanA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#scopetype ObjectWirelesscontrollerWtpprofileLanA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#wtp_profile ObjectWirelesscontrollerWtpprofileLanA#wtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#wtp_profile ObjectWirelesscontrollerWtpprofileLanA#wtp_profile}
   */
   readonly wtpProfile: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan fortimanager_object_wirelesscontroller_wtpprofile_lan}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan fortimanager_object_wirelesscontroller_wtpprofile_lan}
 */
 export class ObjectWirelesscontrollerWtpprofileLanA extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class ObjectWirelesscontrollerWtpprofileLanA extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectWirelesscontrollerWtpprofileLanA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerWtpprofileLanA to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileLanA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileLanA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerWtpprofileLanA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class ObjectWirelesscontrollerWtpprofileLanA extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_lan fortimanager_object_wirelesscontroller_wtpprofile_lan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_lan fortimanager_object_wirelesscontroller_wtpprofile_lan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class ObjectWirelesscontrollerWtpprofileLanA extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_wirelesscontroller_wtpprofile_lan',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

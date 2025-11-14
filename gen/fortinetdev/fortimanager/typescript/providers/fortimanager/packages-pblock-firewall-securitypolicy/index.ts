@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,380 +8,400 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesPblockFirewallSecuritypolicyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#_policy_block PackagesPblockFirewallSecuritypolicy#_policy_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#_policy_block PackagesPblockFirewallSecuritypolicy#_policy_block}
   */
   readonly policyBlock?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#action PackagesPblockFirewallSecuritypolicy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#action PackagesPblockFirewallSecuritypolicy#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#adom PackagesPblockFirewallSecuritypolicy#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#adom PackagesPblockFirewallSecuritypolicy#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#app_category PackagesPblockFirewallSecuritypolicy#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#app_category PackagesPblockFirewallSecuritypolicy#app_category}
   */
   readonly appCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#app_group PackagesPblockFirewallSecuritypolicy#app_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#app_group PackagesPblockFirewallSecuritypolicy#app_group}
   */
   readonly appGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#application PackagesPblockFirewallSecuritypolicy#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#application PackagesPblockFirewallSecuritypolicy#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#application_list PackagesPblockFirewallSecuritypolicy#application_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#application_list PackagesPblockFirewallSecuritypolicy#application_list}
   */
   readonly applicationList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#av_profile PackagesPblockFirewallSecuritypolicy#av_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#av_profile PackagesPblockFirewallSecuritypolicy#av_profile}
   */
   readonly avProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#casb_profile PackagesPblockFirewallSecuritypolicy#casb_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#casb_profile PackagesPblockFirewallSecuritypolicy#casb_profile}
   */
   readonly casbProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#cifs_profile PackagesPblockFirewallSecuritypolicy#cifs_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#cifs_profile PackagesPblockFirewallSecuritypolicy#cifs_profile}
   */
   readonly cifsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#comments PackagesPblockFirewallSecuritypolicy#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#comments PackagesPblockFirewallSecuritypolicy#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#diameter_filter_profile PackagesPblockFirewallSecuritypolicy#diameter_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#diameter_filter_profile PackagesPblockFirewallSecuritypolicy#diameter_filter_profile}
   */
   readonly diameterFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dlp_profile PackagesPblockFirewallSecuritypolicy#dlp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dlp_profile PackagesPblockFirewallSecuritypolicy#dlp_profile}
   */
   readonly dlpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dlp_sensor PackagesPblockFirewallSecuritypolicy#dlp_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dlp_sensor PackagesPblockFirewallSecuritypolicy#dlp_sensor}
   */
   readonly dlpSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dnsfilter_profile PackagesPblockFirewallSecuritypolicy#dnsfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dnsfilter_profile PackagesPblockFirewallSecuritypolicy#dnsfilter_profile}
   */
   readonly dnsfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr PackagesPblockFirewallSecuritypolicy#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr PackagesPblockFirewallSecuritypolicy#dstaddr}
   */
   readonly dstaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr4 PackagesPblockFirewallSecuritypolicy#dstaddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr4 PackagesPblockFirewallSecuritypolicy#dstaddr4}
   */
   readonly dstaddr4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr6 PackagesPblockFirewallSecuritypolicy#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr6 PackagesPblockFirewallSecuritypolicy#dstaddr6}
   */
   readonly dstaddr6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr6_negate PackagesPblockFirewallSecuritypolicy#dstaddr6_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr6_negate PackagesPblockFirewallSecuritypolicy#dstaddr6_negate}
   */
   readonly dstaddr6Negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr_negate PackagesPblockFirewallSecuritypolicy#dstaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstaddr_negate PackagesPblockFirewallSecuritypolicy#dstaddr_negate}
   */
   readonly dstaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#dstintf PackagesPblockFirewallSecuritypolicy#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#dstintf PackagesPblockFirewallSecuritypolicy#dstintf}
   */
   readonly dstintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#emailfilter_profile PackagesPblockFirewallSecuritypolicy#emailfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#emailfilter_profile PackagesPblockFirewallSecuritypolicy#emailfilter_profile}
   */
   readonly emailfilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#enforce_default_app_port PackagesPblockFirewallSecuritypolicy#enforce_default_app_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#enforce_default_app_port PackagesPblockFirewallSecuritypolicy#enforce_default_app_port}
   */
   readonly enforceDefaultAppPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#file_filter_profile PackagesPblockFirewallSecuritypolicy#file_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#file_filter_profile PackagesPblockFirewallSecuritypolicy#file_filter_profile}
   */
   readonly fileFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#fsso_groups PackagesPblockFirewallSecuritypolicy#fsso_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#fsso_groups PackagesPblockFirewallSecuritypolicy#fsso_groups}
   */
   readonly fssoGroups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#global_label PackagesPblockFirewallSecuritypolicy#global_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#global_label PackagesPblockFirewallSecuritypolicy#global_label}
   */
   readonly globalLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#groups PackagesPblockFirewallSecuritypolicy#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#groups PackagesPblockFirewallSecuritypolicy#groups}
   */
   readonly groups?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#icap_profile PackagesPblockFirewallSecuritypolicy#icap_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#icap_profile PackagesPblockFirewallSecuritypolicy#icap_profile}
   */
   readonly icapProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#id PackagesPblockFirewallSecuritypolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#id PackagesPblockFirewallSecuritypolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service PackagesPblockFirewallSecuritypolicy#internet_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service PackagesPblockFirewallSecuritypolicy#internet_service}
   */
   readonly internetService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6 PackagesPblockFirewallSecuritypolicy#internet_service6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6 PackagesPblockFirewallSecuritypolicy#internet_service6}
   */
   readonly internetService6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_custom PackagesPblockFirewallSecuritypolicy#internet_service6_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_custom PackagesPblockFirewallSecuritypolicy#internet_service6_custom}
   */
   readonly internetService6Custom?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_custom_group PackagesPblockFirewallSecuritypolicy#internet_service6_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_custom_group PackagesPblockFirewallSecuritypolicy#internet_service6_custom_group}
   */
   readonly internetService6CustomGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_group PackagesPblockFirewallSecuritypolicy#internet_service6_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_fortiguard PackagesPblockFirewallSecuritypolicy#internet_service6_fortiguard}
+  */
+  readonly internetService6Fortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_group PackagesPblockFirewallSecuritypolicy#internet_service6_group}
   */
   readonly internetService6Group?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_name PackagesPblockFirewallSecuritypolicy#internet_service6_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_name PackagesPblockFirewallSecuritypolicy#internet_service6_name}
   */
   readonly internetService6Name?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_negate PackagesPblockFirewallSecuritypolicy#internet_service6_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_negate PackagesPblockFirewallSecuritypolicy#internet_service6_negate}
   */
   readonly internetService6Negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src PackagesPblockFirewallSecuritypolicy#internet_service6_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src PackagesPblockFirewallSecuritypolicy#internet_service6_src}
   */
   readonly internetService6Src?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_custom PackagesPblockFirewallSecuritypolicy#internet_service6_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_custom PackagesPblockFirewallSecuritypolicy#internet_service6_src_custom}
   */
   readonly internetService6SrcCustom?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_custom_group PackagesPblockFirewallSecuritypolicy#internet_service6_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_custom_group PackagesPblockFirewallSecuritypolicy#internet_service6_src_custom_group}
   */
   readonly internetService6SrcCustomGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_group PackagesPblockFirewallSecuritypolicy#internet_service6_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_fortiguard PackagesPblockFirewallSecuritypolicy#internet_service6_src_fortiguard}
+  */
+  readonly internetService6SrcFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_group PackagesPblockFirewallSecuritypolicy#internet_service6_src_group}
   */
   readonly internetService6SrcGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_name PackagesPblockFirewallSecuritypolicy#internet_service6_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_name PackagesPblockFirewallSecuritypolicy#internet_service6_src_name}
   */
   readonly internetService6SrcName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_negate PackagesPblockFirewallSecuritypolicy#internet_service6_src_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service6_src_negate PackagesPblockFirewallSecuritypolicy#internet_service6_src_negate}
   */
   readonly internetService6SrcNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_custom PackagesPblockFirewallSecuritypolicy#internet_service_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_custom PackagesPblockFirewallSecuritypolicy#internet_service_custom}
   */
   readonly internetServiceCustom?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_custom_group PackagesPblockFirewallSecuritypolicy#internet_service_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_custom_group PackagesPblockFirewallSecuritypolicy#internet_service_custom_group}
   */
   readonly internetServiceCustomGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_group PackagesPblockFirewallSecuritypolicy#internet_service_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_fortiguard PackagesPblockFirewallSecuritypolicy#internet_service_fortiguard}
+  */
+  readonly internetServiceFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_group PackagesPblockFirewallSecuritypolicy#internet_service_group}
   */
   readonly internetServiceGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_id PackagesPblockFirewallSecuritypolicy#internet_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_id PackagesPblockFirewallSecuritypolicy#internet_service_id}
   */
   readonly internetServiceId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_name PackagesPblockFirewallSecuritypolicy#internet_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_name PackagesPblockFirewallSecuritypolicy#internet_service_name}
   */
   readonly internetServiceName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_negate PackagesPblockFirewallSecuritypolicy#internet_service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_negate PackagesPblockFirewallSecuritypolicy#internet_service_negate}
   */
   readonly internetServiceNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src PackagesPblockFirewallSecuritypolicy#internet_service_src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src PackagesPblockFirewallSecuritypolicy#internet_service_src}
   */
   readonly internetServiceSrc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_custom PackagesPblockFirewallSecuritypolicy#internet_service_src_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_custom PackagesPblockFirewallSecuritypolicy#internet_service_src_custom}
   */
   readonly internetServiceSrcCustom?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_custom_group PackagesPblockFirewallSecuritypolicy#internet_service_src_custom_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_custom_group PackagesPblockFirewallSecuritypolicy#internet_service_src_custom_group}
   */
   readonly internetServiceSrcCustomGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_group PackagesPblockFirewallSecuritypolicy#internet_service_src_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_fortiguard PackagesPblockFirewallSecuritypolicy#internet_service_src_fortiguard}
+  */
+  readonly internetServiceSrcFortiguard?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_group PackagesPblockFirewallSecuritypolicy#internet_service_src_group}
   */
   readonly internetServiceSrcGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_id PackagesPblockFirewallSecuritypolicy#internet_service_src_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_id PackagesPblockFirewallSecuritypolicy#internet_service_src_id}
   */
   readonly internetServiceSrcId?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_name PackagesPblockFirewallSecuritypolicy#internet_service_src_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_name PackagesPblockFirewallSecuritypolicy#internet_service_src_name}
   */
   readonly internetServiceSrcName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_negate PackagesPblockFirewallSecuritypolicy#internet_service_src_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#internet_service_src_negate PackagesPblockFirewallSecuritypolicy#internet_service_src_negate}
   */
   readonly internetServiceSrcNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#ips_sensor PackagesPblockFirewallSecuritypolicy#ips_sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#ips_sensor PackagesPblockFirewallSecuritypolicy#ips_sensor}
   */
   readonly ipsSensor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#ips_voip_filter PackagesPblockFirewallSecuritypolicy#ips_voip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#ips_voip_filter PackagesPblockFirewallSecuritypolicy#ips_voip_filter}
   */
   readonly ipsVoipFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#learning_mode PackagesPblockFirewallSecuritypolicy#learning_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#learning_mode PackagesPblockFirewallSecuritypolicy#learning_mode}
   */
   readonly learningMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#logtraffic PackagesPblockFirewallSecuritypolicy#logtraffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#logtraffic PackagesPblockFirewallSecuritypolicy#logtraffic}
   */
   readonly logtraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#logtraffic_start PackagesPblockFirewallSecuritypolicy#logtraffic_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#logtraffic_start PackagesPblockFirewallSecuritypolicy#logtraffic_start}
   */
   readonly logtrafficStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#mms_profile PackagesPblockFirewallSecuritypolicy#mms_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#mms_profile PackagesPblockFirewallSecuritypolicy#mms_profile}
   */
   readonly mmsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#name PackagesPblockFirewallSecuritypolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#name PackagesPblockFirewallSecuritypolicy#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#nat46 PackagesPblockFirewallSecuritypolicy#nat46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#nat46 PackagesPblockFirewallSecuritypolicy#nat46}
   */
   readonly nat46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#nat64 PackagesPblockFirewallSecuritypolicy#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#nat64 PackagesPblockFirewallSecuritypolicy#nat64}
   */
   readonly nat64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#pblock PackagesPblockFirewallSecuritypolicy#pblock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#pblock PackagesPblockFirewallSecuritypolicy#pblock}
   */
   readonly pblock: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#policyid PackagesPblockFirewallSecuritypolicy#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#policyid PackagesPblockFirewallSecuritypolicy#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_group PackagesPblockFirewallSecuritypolicy#profile_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_group PackagesPblockFirewallSecuritypolicy#profile_group}
   */
   readonly profileGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_protocol_options PackagesPblockFirewallSecuritypolicy#profile_protocol_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_protocol_options PackagesPblockFirewallSecuritypolicy#profile_protocol_options}
   */
   readonly profileProtocolOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_type PackagesPblockFirewallSecuritypolicy#profile_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#profile_type PackagesPblockFirewallSecuritypolicy#profile_type}
   */
   readonly profileType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#schedule PackagesPblockFirewallSecuritypolicy#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#schedule PackagesPblockFirewallSecuritypolicy#schedule}
   */
   readonly schedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#scopetype PackagesPblockFirewallSecuritypolicy#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#scopetype PackagesPblockFirewallSecuritypolicy#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#sctp_filter_profile PackagesPblockFirewallSecuritypolicy#sctp_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#sctp_filter_profile PackagesPblockFirewallSecuritypolicy#sctp_filter_profile}
   */
   readonly sctpFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#send_deny_packet PackagesPblockFirewallSecuritypolicy#send_deny_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#send_deny_packet PackagesPblockFirewallSecuritypolicy#send_deny_packet}
   */
   readonly sendDenyPacket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#service PackagesPblockFirewallSecuritypolicy#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#service PackagesPblockFirewallSecuritypolicy#service}
   */
   readonly service?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#service_negate PackagesPblockFirewallSecuritypolicy#service_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#service_negate PackagesPblockFirewallSecuritypolicy#service_negate}
   */
   readonly serviceNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr PackagesPblockFirewallSecuritypolicy#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr PackagesPblockFirewallSecuritypolicy#srcaddr}
   */
   readonly srcaddr?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr4 PackagesPblockFirewallSecuritypolicy#srcaddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr4 PackagesPblockFirewallSecuritypolicy#srcaddr4}
   */
   readonly srcaddr4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr6 PackagesPblockFirewallSecuritypolicy#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr6 PackagesPblockFirewallSecuritypolicy#srcaddr6}
   */
   readonly srcaddr6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr6_negate PackagesPblockFirewallSecuritypolicy#srcaddr6_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr6_negate PackagesPblockFirewallSecuritypolicy#srcaddr6_negate}
   */
   readonly srcaddr6Negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr_negate PackagesPblockFirewallSecuritypolicy#srcaddr_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcaddr_negate PackagesPblockFirewallSecuritypolicy#srcaddr_negate}
   */
   readonly srcaddrNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#srcintf PackagesPblockFirewallSecuritypolicy#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#srcintf PackagesPblockFirewallSecuritypolicy#srcintf}
   */
   readonly srcintf?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#ssh_filter_profile PackagesPblockFirewallSecuritypolicy#ssh_filter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#ssh_filter_profile PackagesPblockFirewallSecuritypolicy#ssh_filter_profile}
   */
   readonly sshFilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#ssl_ssh_profile PackagesPblockFirewallSecuritypolicy#ssl_ssh_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#ssl_ssh_profile PackagesPblockFirewallSecuritypolicy#ssl_ssh_profile}
   */
   readonly sslSshProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#status PackagesPblockFirewallSecuritypolicy#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#status PackagesPblockFirewallSecuritypolicy#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#url_category PackagesPblockFirewallSecuritypolicy#url_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#telemetry_profile PackagesPblockFirewallSecuritypolicy#telemetry_profile}
+  */
+  readonly telemetryProfile?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#url_category PackagesPblockFirewallSecuritypolicy#url_category}
   */
   readonly urlCategory?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#users PackagesPblockFirewallSecuritypolicy#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#users PackagesPblockFirewallSecuritypolicy#users}
   */
   readonly users?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#utm_status PackagesPblockFirewallSecuritypolicy#utm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#utm_status PackagesPblockFirewallSecuritypolicy#utm_status}
   */
   readonly utmStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#uuid PackagesPblockFirewallSecuritypolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#uuid PackagesPblockFirewallSecuritypolicy#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#videofilter_profile PackagesPblockFirewallSecuritypolicy#videofilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#videofilter_profile PackagesPblockFirewallSecuritypolicy#videofilter_profile}
   */
   readonly videofilterProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#virtual_patch_profile PackagesPblockFirewallSecuritypolicy#virtual_patch_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#virtual_patch_profile PackagesPblockFirewallSecuritypolicy#virtual_patch_profile}
   */
   readonly virtualPatchProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#voip_profile PackagesPblockFirewallSecuritypolicy#voip_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#voip_profile PackagesPblockFirewallSecuritypolicy#voip_profile}
   */
   readonly voipProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#webfilter_profile PackagesPblockFirewallSecuritypolicy#webfilter_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#webfilter_profile PackagesPblockFirewallSecuritypolicy#webfilter_profile}
   */
   readonly webfilterProfile?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy fortimanager_packages_pblock_firewall_securitypolicy}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy fortimanager_packages_pblock_firewall_securitypolicy}
 */
 export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResource {
 
@@ -397,7 +417,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PackagesPblockFirewallSecuritypolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesPblockFirewallSecuritypolicy to import
-  * @param importFromId The id of the existing PackagesPblockFirewallSecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesPblockFirewallSecuritypolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesPblockFirewallSecuritypolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +429,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_pblock_firewall_securitypolicy fortimanager_packages_pblock_firewall_securitypolicy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_pblock_firewall_securitypolicy fortimanager_packages_pblock_firewall_securitypolicy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +440,8 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_packages_pblock_firewall_securitypolicy',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -464,17 +484,20 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     this._internetService6 = config.internetService6;
     this._internetService6Custom = config.internetService6Custom;
     this._internetService6CustomGroup = config.internetService6CustomGroup;
+    this._internetService6Fortiguard = config.internetService6Fortiguard;
     this._internetService6Group = config.internetService6Group;
     this._internetService6Name = config.internetService6Name;
     this._internetService6Negate = config.internetService6Negate;
     this._internetService6Src = config.internetService6Src;
     this._internetService6SrcCustom = config.internetService6SrcCustom;
     this._internetService6SrcCustomGroup = config.internetService6SrcCustomGroup;
+    this._internetService6SrcFortiguard = config.internetService6SrcFortiguard;
     this._internetService6SrcGroup = config.internetService6SrcGroup;
     this._internetService6SrcName = config.internetService6SrcName;
     this._internetService6SrcNegate = config.internetService6SrcNegate;
     this._internetServiceCustom = config.internetServiceCustom;
     this._internetServiceCustomGroup = config.internetServiceCustomGroup;
+    this._internetServiceFortiguard = config.internetServiceFortiguard;
     this._internetServiceGroup = config.internetServiceGroup;
     this._internetServiceId = config.internetServiceId;
     this._internetServiceName = config.internetServiceName;
@@ -482,6 +505,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     this._internetServiceSrc = config.internetServiceSrc;
     this._internetServiceSrcCustom = config.internetServiceSrcCustom;
     this._internetServiceSrcCustomGroup = config.internetServiceSrcCustomGroup;
+    this._internetServiceSrcFortiguard = config.internetServiceSrcFortiguard;
     this._internetServiceSrcGroup = config.internetServiceSrcGroup;
     this._internetServiceSrcId = config.internetServiceSrcId;
     this._internetServiceSrcName = config.internetServiceSrcName;
@@ -515,6 +539,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     this._sshFilterProfile = config.sshFilterProfile;
     this._sslSshProfile = config.sslSshProfile;
     this._status = config.status;
+    this._telemetryProfile = config.telemetryProfile;
     this._urlCategory = config.urlCategory;
     this._users = config.users;
     this._utmStatus = config.utmStatus;
@@ -1057,6 +1082,22 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     return this._internetService6CustomGroup;
   }
 
+  // internet_service6_fortiguard - computed: true, optional: true, required: false
+  private _internetService6Fortiguard?: string[]; 
+  public get internetService6Fortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service6_fortiguard'));
+  }
+  public set internetService6Fortiguard(value: string[]) {
+    this._internetService6Fortiguard = value;
+  }
+  public resetInternetService6Fortiguard() {
+    this._internetService6Fortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetService6FortiguardInput() {
+    return this._internetService6Fortiguard;
+  }
+
   // internet_service6_group - computed: true, optional: true, required: false
   private _internetService6Group?: string[]; 
   public get internetService6Group() {
@@ -1153,6 +1194,22 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     return this._internetService6SrcCustomGroup;
   }
 
+  // internet_service6_src_fortiguard - computed: true, optional: true, required: false
+  private _internetService6SrcFortiguard?: string[]; 
+  public get internetService6SrcFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service6_src_fortiguard'));
+  }
+  public set internetService6SrcFortiguard(value: string[]) {
+    this._internetService6SrcFortiguard = value;
+  }
+  public resetInternetService6SrcFortiguard() {
+    this._internetService6SrcFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetService6SrcFortiguardInput() {
+    return this._internetService6SrcFortiguard;
+  }
+
   // internet_service6_src_group - computed: true, optional: true, required: false
   private _internetService6SrcGroup?: string[]; 
   public get internetService6SrcGroup() {
@@ -1231,6 +1288,22 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
   // Temporarily expose input value. Use with caution.
   public get internetServiceCustomGroupInput() {
     return this._internetServiceCustomGroup;
+  }
+
+  // internet_service_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceFortiguard?: string[]; 
+  public get internetServiceFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_fortiguard'));
+  }
+  public set internetServiceFortiguard(value: string[]) {
+    this._internetServiceFortiguard = value;
+  }
+  public resetInternetServiceFortiguard() {
+    this._internetServiceFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceFortiguardInput() {
+    return this._internetServiceFortiguard;
   }
 
   // internet_service_group - computed: true, optional: true, required: false
@@ -1343,6 +1416,22 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
   // Temporarily expose input value. Use with caution.
   public get internetServiceSrcCustomGroupInput() {
     return this._internetServiceSrcCustomGroup;
+  }
+
+  // internet_service_src_fortiguard - computed: true, optional: true, required: false
+  private _internetServiceSrcFortiguard?: string[]; 
+  public get internetServiceSrcFortiguard() {
+    return cdktf.Fn.tolist(this.getListAttribute('internet_service_src_fortiguard'));
+  }
+  public set internetServiceSrcFortiguard(value: string[]) {
+    this._internetServiceSrcFortiguard = value;
+  }
+  public resetInternetServiceSrcFortiguard() {
+    this._internetServiceSrcFortiguard = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get internetServiceSrcFortiguardInput() {
+    return this._internetServiceSrcFortiguard;
   }
 
   // internet_service_src_group - computed: true, optional: true, required: false
@@ -1870,6 +1959,22 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
     return this._status;
   }
 
+  // telemetry_profile - computed: true, optional: true, required: false
+  private _telemetryProfile?: string[]; 
+  public get telemetryProfile() {
+    return cdktf.Fn.tolist(this.getListAttribute('telemetry_profile'));
+  }
+  public set telemetryProfile(value: string[]) {
+    this._telemetryProfile = value;
+  }
+  public resetTelemetryProfile() {
+    this._telemetryProfile = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get telemetryProfileInput() {
+    return this._telemetryProfile;
+  }
+
   // url_category - computed: true, optional: true, required: false
   private _urlCategory?: string[]; 
   public get urlCategory() {
@@ -2037,17 +2142,20 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       internet_service6: cdktf.stringToTerraform(this._internetService6),
       internet_service6_custom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6Custom),
       internet_service6_custom_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6CustomGroup),
+      internet_service6_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6Fortiguard),
       internet_service6_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6Group),
       internet_service6_name: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6Name),
       internet_service6_negate: cdktf.stringToTerraform(this._internetService6Negate),
       internet_service6_src: cdktf.stringToTerraform(this._internetService6Src),
       internet_service6_src_custom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcCustom),
       internet_service6_src_custom_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcCustomGroup),
+      internet_service6_src_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcFortiguard),
       internet_service6_src_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcGroup),
       internet_service6_src_name: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetService6SrcName),
       internet_service6_src_negate: cdktf.stringToTerraform(this._internetService6SrcNegate),
       internet_service_custom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceCustom),
       internet_service_custom_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceCustomGroup),
+      internet_service_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceFortiguard),
       internet_service_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceGroup),
       internet_service_id: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceId),
       internet_service_name: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceName),
@@ -2055,6 +2163,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       internet_service_src: cdktf.stringToTerraform(this._internetServiceSrc),
       internet_service_src_custom: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcCustom),
       internet_service_src_custom_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcCustomGroup),
+      internet_service_src_fortiguard: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcFortiguard),
       internet_service_src_group: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcGroup),
       internet_service_src_id: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcId),
       internet_service_src_name: cdktf.listMapper(cdktf.stringToTerraform, false)(this._internetServiceSrcName),
@@ -2088,6 +2197,7 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       ssh_filter_profile: cdktf.stringToTerraform(this._sshFilterProfile),
       ssl_ssh_profile: cdktf.stringToTerraform(this._sslSshProfile),
       status: cdktf.stringToTerraform(this._status),
+      telemetry_profile: cdktf.listMapper(cdktf.stringToTerraform, false)(this._telemetryProfile),
       url_category: cdktf.listMapper(cdktf.stringToTerraform, false)(this._urlCategory),
       users: cdktf.listMapper(cdktf.stringToTerraform, false)(this._users),
       utm_status: cdktf.stringToTerraform(this._utmStatus),
@@ -2299,6 +2409,12 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
         type: "set",
         storageClassType: "stringList",
       },
+      internet_service6_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6Fortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
       internet_service6_group: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6Group),
         isBlock: false,
@@ -2335,6 +2451,12 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
         type: "set",
         storageClassType: "stringList",
       },
+      internet_service6_src_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6SrcFortiguard),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
       internet_service6_src_group: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetService6SrcGroup),
         isBlock: false,
@@ -2361,6 +2483,12 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       },
       internet_service_custom_group: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceCustomGroup),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      internet_service_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceFortiguard),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
@@ -2403,6 +2531,12 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
       },
       internet_service_src_custom_group: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceSrcCustomGroup),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      internet_service_src_fortiguard: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._internetServiceSrcFortiguard),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
@@ -2604,6 +2738,12 @@ export class PackagesPblockFirewallSecuritypolicy extends cdktf.TerraformResourc
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      telemetry_profile: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._telemetryProfile),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       url_category: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._urlCategory),

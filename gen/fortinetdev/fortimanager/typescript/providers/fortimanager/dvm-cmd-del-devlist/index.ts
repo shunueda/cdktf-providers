@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DvmCmdDelDevlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#dynamic_sort_subtable DvmCmdDelDevlist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#dynamic_sort_subtable DvmCmdDelDevlist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#flags DvmCmdDelDevlist#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#flags DvmCmdDelDevlist#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#fmgadom DvmCmdDelDevlist#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#fmgadom DvmCmdDelDevlist#fmgadom}
   */
   readonly fmgadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#force_recreate DvmCmdDelDevlist#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#force_recreate DvmCmdDelDevlist#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#id DvmCmdDelDevlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#id DvmCmdDelDevlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,17 +33,17 @@ export interface DvmCmdDelDevlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * del_dev_member_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#del_dev_member_list DvmCmdDelDevlist#del_dev_member_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#del_dev_member_list DvmCmdDelDevlist#del_dev_member_list}
   */
   readonly delDevMemberList?: DvmCmdDelDevlistDelDevMemberListStruct[] | cdktf.IResolvable;
 }
 export interface DvmCmdDelDevlistDelDevMemberListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#name DvmCmdDelDevlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#name DvmCmdDelDevlist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#vdom DvmCmdDelDevlist#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#vdom DvmCmdDelDevlist#vdom}
   */
   readonly vdom?: string;
 }
@@ -188,7 +188,7 @@ export class DvmCmdDelDevlistDelDevMemberListStructList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist fortimanager_dvm_cmd_del_devlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist fortimanager_dvm_cmd_del_devlist}
 */
 export class DvmCmdDelDevlist extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class DvmCmdDelDevlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DvmCmdDelDevlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DvmCmdDelDevlist to import
-  * @param importFromId The id of the existing DvmCmdDelDevlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DvmCmdDelDevlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DvmCmdDelDevlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class DvmCmdDelDevlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_del_devlist fortimanager_dvm_cmd_del_devlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_del_devlist fortimanager_dvm_cmd_del_devlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class DvmCmdDelDevlist extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_dvm_cmd_del_devlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

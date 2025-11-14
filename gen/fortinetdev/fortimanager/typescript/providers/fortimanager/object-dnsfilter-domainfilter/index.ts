@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,65 +8,69 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDnsfilterDomainfilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#adom ObjectDnsfilterDomainfilter#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#adom ObjectDnsfilterDomainfilter#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#comment ObjectDnsfilterDomainfilter#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#comment ObjectDnsfilterDomainfilter#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#dynamic_sort_subtable ObjectDnsfilterDomainfilter#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#dynamic_sort_subtable ObjectDnsfilterDomainfilter#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#fosid ObjectDnsfilterDomainfilter#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#fosid ObjectDnsfilterDomainfilter#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#id ObjectDnsfilterDomainfilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#id ObjectDnsfilterDomainfilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#name ObjectDnsfilterDomainfilter#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#name ObjectDnsfilterDomainfilter#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#scopetype ObjectDnsfilterDomainfilter#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#scopetype ObjectDnsfilterDomainfilter#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#entries ObjectDnsfilterDomainfilter#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#entries ObjectDnsfilterDomainfilter#entries}
   */
   readonly entries?: ObjectDnsfilterDomainfilterEntries[] | cdktf.IResolvable;
 }
 export interface ObjectDnsfilterDomainfilterEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#action ObjectDnsfilterDomainfilter#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#action ObjectDnsfilterDomainfilter#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#domain ObjectDnsfilterDomainfilter#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#comment ObjectDnsfilterDomainfilter#comment}
+  */
+  readonly comment?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#domain ObjectDnsfilterDomainfilter#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#id ObjectDnsfilterDomainfilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#id ObjectDnsfilterDomainfilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#status ObjectDnsfilterDomainfilter#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#status ObjectDnsfilterDomainfilter#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#type ObjectDnsfilterDomainfilter#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#type ObjectDnsfilterDomainfilter#type}
   */
   readonly type?: string;
 }
@@ -78,6 +82,7 @@ export function objectDnsfilterDomainfilterEntriesToTerraform(struct?: ObjectDns
   }
   return {
     action: cdktf.stringToTerraform(struct!.action),
+    comment: cdktf.stringToTerraform(struct!.comment),
     domain: cdktf.stringToTerraform(struct!.domain),
     id: cdktf.numberToTerraform(struct!.id),
     status: cdktf.stringToTerraform(struct!.status),
@@ -94,6 +99,12 @@ export function objectDnsfilterDomainfilterEntriesToHclTerraform(struct?: Object
   const attrs = {
     action: {
       value: cdktf.stringToHclTerraform(struct!.action),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    comment: {
+      value: cdktf.stringToHclTerraform(struct!.comment),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -152,6 +163,10 @@ export class ObjectDnsfilterDomainfilterEntriesOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.action = this._action;
     }
+    if (this._comment !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.comment = this._comment;
+    }
     if (this._domain !== undefined) {
       hasAnyValues = true;
       internalValueResult.domain = this._domain;
@@ -176,6 +191,7 @@ export class ObjectDnsfilterDomainfilterEntriesOutputReference extends cdktf.Com
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._action = undefined;
+      this._comment = undefined;
       this._domain = undefined;
       this._id = undefined;
       this._status = undefined;
@@ -189,6 +205,7 @@ export class ObjectDnsfilterDomainfilterEntriesOutputReference extends cdktf.Com
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._action = value.action;
+      this._comment = value.comment;
       this._domain = value.domain;
       this._id = value.id;
       this._status = value.status;
@@ -210,6 +227,22 @@ export class ObjectDnsfilterDomainfilterEntriesOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get actionInput() {
     return this._action;
+  }
+
+  // comment - computed: false, optional: true, required: false
+  private _comment?: string; 
+  public get comment() {
+    return this.getStringAttribute('comment');
+  }
+  public set comment(value: string) {
+    this._comment = value;
+  }
+  public resetComment() {
+    this._comment = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get commentInput() {
+    return this._comment;
   }
 
   // domain - computed: false, optional: true, required: false
@@ -298,7 +331,7 @@ export class ObjectDnsfilterDomainfilterEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter fortimanager_object_dnsfilter_domainfilter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter fortimanager_object_dnsfilter_domainfilter}
 */
 export class ObjectDnsfilterDomainfilter extends cdktf.TerraformResource {
 
@@ -314,7 +347,7 @@ export class ObjectDnsfilterDomainfilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectDnsfilterDomainfilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDnsfilterDomainfilter to import
-  * @param importFromId The id of the existing ObjectDnsfilterDomainfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDnsfilterDomainfilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDnsfilterDomainfilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +359,7 @@ export class ObjectDnsfilterDomainfilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_domainfilter fortimanager_object_dnsfilter_domainfilter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_domainfilter fortimanager_object_dnsfilter_domainfilter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +370,8 @@ export class ObjectDnsfilterDomainfilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_dnsfilter_domainfilter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

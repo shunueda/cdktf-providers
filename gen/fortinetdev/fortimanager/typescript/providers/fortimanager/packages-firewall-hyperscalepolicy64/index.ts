@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallHyperscalepolicy64Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#action PackagesFirewallHyperscalepolicy64#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#action PackagesFirewallHyperscalepolicy64#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#adom PackagesFirewallHyperscalepolicy64#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#adom PackagesFirewallHyperscalepolicy64#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_eif PackagesFirewallHyperscalepolicy64#cgn_eif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_eif PackagesFirewallHyperscalepolicy64#cgn_eif}
   */
   readonly cgnEif?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_eim PackagesFirewallHyperscalepolicy64#cgn_eim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_eim PackagesFirewallHyperscalepolicy64#cgn_eim}
   */
   readonly cgnEim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_log_server_grp PackagesFirewallHyperscalepolicy64#cgn_log_server_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_log_server_grp PackagesFirewallHyperscalepolicy64#cgn_log_server_grp}
   */
   readonly cgnLogServerGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_resource_quota PackagesFirewallHyperscalepolicy64#cgn_resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_resource_quota PackagesFirewallHyperscalepolicy64#cgn_resource_quota}
   */
   readonly cgnResourceQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_session_quota PackagesFirewallHyperscalepolicy64#cgn_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#cgn_session_quota PackagesFirewallHyperscalepolicy64#cgn_session_quota}
   */
   readonly cgnSessionQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#comments PackagesFirewallHyperscalepolicy64#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#comments PackagesFirewallHyperscalepolicy64#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#dstaddr PackagesFirewallHyperscalepolicy64#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#dstaddr PackagesFirewallHyperscalepolicy64#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#dstintf PackagesFirewallHyperscalepolicy64#dstintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#dstintf PackagesFirewallHyperscalepolicy64#dstintf}
   */
   readonly dstintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#id PackagesFirewallHyperscalepolicy64#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#id PackagesFirewallHyperscalepolicy64#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#ippool PackagesFirewallHyperscalepolicy64#ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#ippool PackagesFirewallHyperscalepolicy64#ippool}
   */
   readonly ippool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#name PackagesFirewallHyperscalepolicy64#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#name PackagesFirewallHyperscalepolicy64#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#pkg PackagesFirewallHyperscalepolicy64#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#pkg PackagesFirewallHyperscalepolicy64#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#pkg_folder_path PackagesFirewallHyperscalepolicy64#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#pkg_folder_path PackagesFirewallHyperscalepolicy64#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#policy_offload PackagesFirewallHyperscalepolicy64#policy_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#policy_offload PackagesFirewallHyperscalepolicy64#policy_offload}
   */
   readonly policyOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#policyid PackagesFirewallHyperscalepolicy64#policyid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#policyid PackagesFirewallHyperscalepolicy64#policyid}
   */
   readonly policyid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#poolname PackagesFirewallHyperscalepolicy64#poolname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#poolname PackagesFirewallHyperscalepolicy64#poolname}
   */
   readonly poolname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#scopetype PackagesFirewallHyperscalepolicy64#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#scopetype PackagesFirewallHyperscalepolicy64#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#service PackagesFirewallHyperscalepolicy64#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#service PackagesFirewallHyperscalepolicy64#service}
   */
   readonly service?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#srcaddr PackagesFirewallHyperscalepolicy64#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#srcaddr PackagesFirewallHyperscalepolicy64#srcaddr}
   */
   readonly srcaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#srcintf PackagesFirewallHyperscalepolicy64#srcintf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#srcintf PackagesFirewallHyperscalepolicy64#srcintf}
   */
   readonly srcintf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#status PackagesFirewallHyperscalepolicy64#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#status PackagesFirewallHyperscalepolicy64#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#tcp_timeout_pid PackagesFirewallHyperscalepolicy64#tcp_timeout_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#tcp_timeout_pid PackagesFirewallHyperscalepolicy64#tcp_timeout_pid}
   */
   readonly tcpTimeoutPid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#traffic_shaper PackagesFirewallHyperscalepolicy64#traffic_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#traffic_shaper PackagesFirewallHyperscalepolicy64#traffic_shaper}
   */
   readonly trafficShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#traffic_shaper_reverse PackagesFirewallHyperscalepolicy64#traffic_shaper_reverse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#traffic_shaper_reverse PackagesFirewallHyperscalepolicy64#traffic_shaper_reverse}
   */
   readonly trafficShaperReverse?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#udp_timeout_pid PackagesFirewallHyperscalepolicy64#udp_timeout_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#udp_timeout_pid PackagesFirewallHyperscalepolicy64#udp_timeout_pid}
   */
   readonly udpTimeoutPid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#uuid PackagesFirewallHyperscalepolicy64#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#uuid PackagesFirewallHyperscalepolicy64#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64 fortimanager_packages_firewall_hyperscalepolicy64}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64 fortimanager_packages_firewall_hyperscalepolicy64}
 */
 export class PackagesFirewallHyperscalepolicy64 extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class PackagesFirewallHyperscalepolicy64 extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PackagesFirewallHyperscalepolicy64 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallHyperscalepolicy64 to import
-  * @param importFromId The id of the existing PackagesFirewallHyperscalepolicy64 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallHyperscalepolicy64 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallHyperscalepolicy64 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class PackagesFirewallHyperscalepolicy64 extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_hyperscalepolicy64 fortimanager_packages_firewall_hyperscalepolicy64} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_hyperscalepolicy64 fortimanager_packages_firewall_hyperscalepolicy64} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class PackagesFirewallHyperscalepolicy64 extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_packages_firewall_hyperscalepolicy64',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

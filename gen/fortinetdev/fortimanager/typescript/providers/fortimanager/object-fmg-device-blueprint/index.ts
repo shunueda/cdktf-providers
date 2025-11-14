@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,116 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFmgDeviceBlueprintConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#adom ObjectFmgDeviceBlueprint#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#adom ObjectFmgDeviceBlueprint#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#auth_template ObjectFmgDeviceBlueprint#auth_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#auth_template ObjectFmgDeviceBlueprint#auth_template}
   */
   readonly authTemplate?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#cliprofs ObjectFmgDeviceBlueprint#cliprofs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#cliprofs ObjectFmgDeviceBlueprint#cliprofs}
   */
   readonly cliprofs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#description ObjectFmgDeviceBlueprint#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#description ObjectFmgDeviceBlueprint#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#dev_group ObjectFmgDeviceBlueprint#dev_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#dev_group ObjectFmgDeviceBlueprint#dev_group}
   */
   readonly devGroup?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#enforce_device_config ObjectFmgDeviceBlueprint#enforce_device_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#enforce_device_config ObjectFmgDeviceBlueprint#enforce_device_config}
   */
   readonly enforceDeviceConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#folder ObjectFmgDeviceBlueprint#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#folder ObjectFmgDeviceBlueprint#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#ha_config ObjectFmgDeviceBlueprint#ha_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#ha_config ObjectFmgDeviceBlueprint#ha_config}
   */
   readonly haConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#ha_hbdev ObjectFmgDeviceBlueprint#ha_hbdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#ha_hbdev ObjectFmgDeviceBlueprint#ha_hbdev}
   */
   readonly haHbdev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#ha_monitor ObjectFmgDeviceBlueprint#ha_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#ha_monitor ObjectFmgDeviceBlueprint#ha_monitor}
   */
   readonly haMonitor?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#ha_password ObjectFmgDeviceBlueprint#ha_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#ha_password ObjectFmgDeviceBlueprint#ha_password}
   */
   readonly haPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#id ObjectFmgDeviceBlueprint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#id ObjectFmgDeviceBlueprint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#linked_to_model ObjectFmgDeviceBlueprint#linked_to_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#linked_to_model ObjectFmgDeviceBlueprint#linked_to_model}
   */
   readonly linkedToModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#name ObjectFmgDeviceBlueprint#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#name ObjectFmgDeviceBlueprint#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#pkg ObjectFmgDeviceBlueprint#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#pkg ObjectFmgDeviceBlueprint#pkg}
   */
   readonly pkg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#platform ObjectFmgDeviceBlueprint#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#platform ObjectFmgDeviceBlueprint#platform}
   */
   readonly platform?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#port_provisioning ObjectFmgDeviceBlueprint#port_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#port_provisioning ObjectFmgDeviceBlueprint#port_provisioning}
   */
   readonly portProvisioning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#prefer_img_ver ObjectFmgDeviceBlueprint#prefer_img_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#prefer_img_ver ObjectFmgDeviceBlueprint#prefer_img_ver}
   */
   readonly preferImgVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#prerun_cliprof ObjectFmgDeviceBlueprint#prerun_cliprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#prerun_cliprof ObjectFmgDeviceBlueprint#prerun_cliprof}
   */
   readonly prerunCliprof?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#prov_type ObjectFmgDeviceBlueprint#prov_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#prov_type ObjectFmgDeviceBlueprint#prov_type}
   */
   readonly provType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#scopetype ObjectFmgDeviceBlueprint#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#scopetype ObjectFmgDeviceBlueprint#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#sdwan_management ObjectFmgDeviceBlueprint#sdwan_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#sdwan_management ObjectFmgDeviceBlueprint#sdwan_management}
   */
   readonly sdwanManagement?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#split_switch_port ObjectFmgDeviceBlueprint#split_switch_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#split_switch_port ObjectFmgDeviceBlueprint#split_switch_port}
   */
   readonly splitSwitchPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#template_group ObjectFmgDeviceBlueprint#template_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#template_group ObjectFmgDeviceBlueprint#template_group}
   */
   readonly templateGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#templates ObjectFmgDeviceBlueprint#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#templates ObjectFmgDeviceBlueprint#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#vm_log_disk ObjectFmgDeviceBlueprint#vm_log_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#vm_log_disk ObjectFmgDeviceBlueprint#vm_log_disk}
   */
   readonly vmLogDisk?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint fortimanager_object_fmg_device_blueprint}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint fortimanager_object_fmg_device_blueprint}
 */
 export class ObjectFmgDeviceBlueprint extends cdktf.TerraformResource {
 
@@ -133,7 +133,7 @@ export class ObjectFmgDeviceBlueprint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFmgDeviceBlueprint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFmgDeviceBlueprint to import
-  * @param importFromId The id of the existing ObjectFmgDeviceBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFmgDeviceBlueprint that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFmgDeviceBlueprint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class ObjectFmgDeviceBlueprint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_device_blueprint fortimanager_object_fmg_device_blueprint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_device_blueprint fortimanager_object_fmg_device_blueprint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class ObjectFmgDeviceBlueprint extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_fmg_device_blueprint',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

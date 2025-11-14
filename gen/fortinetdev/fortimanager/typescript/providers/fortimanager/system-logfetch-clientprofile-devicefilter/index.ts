@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogfetchClientprofileDevicefilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#client_profile SystemLogfetchClientprofileDevicefilter#client_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#client_profile SystemLogfetchClientprofileDevicefilter#client_profile}
   */
   readonly clientProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#device SystemLogfetchClientprofileDevicefilter#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#device SystemLogfetchClientprofileDevicefilter#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#fmgadom SystemLogfetchClientprofileDevicefilter#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#fmgadom SystemLogfetchClientprofileDevicefilter#fmgadom}
   */
   readonly fmgadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#fosid SystemLogfetchClientprofileDevicefilter#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#fosid SystemLogfetchClientprofileDevicefilter#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#id SystemLogfetchClientprofileDevicefilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#id SystemLogfetchClientprofileDevicefilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#vdom SystemLogfetchClientprofileDevicefilter#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#vdom SystemLogfetchClientprofileDevicefilter#vdom}
   */
   readonly vdom?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter fortimanager_system_logfetch_clientprofile_devicefilter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter fortimanager_system_logfetch_clientprofile_devicefilter}
 */
 export class SystemLogfetchClientprofileDevicefilter extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class SystemLogfetchClientprofileDevicefilter extends cdktf.TerraformReso
   * Generates CDKTF code for importing a SystemLogfetchClientprofileDevicefilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogfetchClientprofileDevicefilter to import
-  * @param importFromId The id of the existing SystemLogfetchClientprofileDevicefilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogfetchClientprofileDevicefilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogfetchClientprofileDevicefilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class SystemLogfetchClientprofileDevicefilter extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_logfetch_clientprofile_devicefilter fortimanager_system_logfetch_clientprofile_devicefilter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_logfetch_clientprofile_devicefilter fortimanager_system_logfetch_clientprofile_devicefilter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class SystemLogfetchClientprofileDevicefilter extends cdktf.TerraformReso
       terraformResourceType: 'fortimanager_system_logfetch_clientprofile_devicefilter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

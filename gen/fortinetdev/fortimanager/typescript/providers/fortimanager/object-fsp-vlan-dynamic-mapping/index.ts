@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#_dhcp_status ObjectFspVlanDynamicMappingA#_dhcp_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#_dhcp_status ObjectFspVlanDynamicMappingA#_dhcp_status}
   */
   readonly dhcpStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#adom ObjectFspVlanDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#adom ObjectFspVlanDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dynamic_sort_subtable ObjectFspVlanDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dynamic_sort_subtable ObjectFspVlanDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#scopetype ObjectFspVlanDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#scopetype ObjectFspVlanDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vlan ObjectFspVlanDynamicMappingA#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vlan ObjectFspVlanDynamicMappingA#vlan}
   */
   readonly vlan: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#_scope ObjectFspVlanDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#_scope ObjectFspVlanDynamicMappingA#_scope}
   */
   readonly scope?: ObjectFspVlanDynamicMappingScopeA[] | cdktf.IResolvable;
   /**
   * dhcp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_server ObjectFspVlanDynamicMappingA#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_server ObjectFspVlanDynamicMappingA#dhcp_server}
   */
   readonly dhcpServer?: ObjectFspVlanDynamicMappingDhcpServerA;
   /**
   * interface block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#interface ObjectFspVlanDynamicMappingA#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#interface ObjectFspVlanDynamicMappingA#interface}
   */
   readonly interface?: ObjectFspVlanDynamicMappingInterfaceA;
 }
 export interface ObjectFspVlanDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#name ObjectFspVlanDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#name ObjectFspVlanDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vdom ObjectFspVlanDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vdom ObjectFspVlanDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -204,38 +204,38 @@ export class ObjectFspVlanDynamicMappingScopeAList extends cdktf.ComplexList {
 }
 export interface ObjectFspVlanDynamicMappingDhcpServerExcludeRangeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#end_ip ObjectFspVlanDynamicMappingA#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#end_ip ObjectFspVlanDynamicMappingA#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_ip ObjectFspVlanDynamicMappingA#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_ip ObjectFspVlanDynamicMappingA#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -554,38 +554,38 @@ export class ObjectFspVlanDynamicMappingDhcpServerExcludeRangeAList extends cdkt
 }
 export interface ObjectFspVlanDynamicMappingDhcpServerIpRangeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#end_ip ObjectFspVlanDynamicMappingA#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#end_ip ObjectFspVlanDynamicMappingA#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_ip ObjectFspVlanDynamicMappingA#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_ip ObjectFspVlanDynamicMappingA#start_ip}
   */
   readonly startIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -904,42 +904,42 @@ export class ObjectFspVlanDynamicMappingDhcpServerIpRangeAList extends cdktf.Com
 }
 export interface ObjectFspVlanDynamicMappingDhcpServerOptionsA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#code ObjectFspVlanDynamicMappingA#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#code ObjectFspVlanDynamicMappingA#code}
   */
   readonly code?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
   */
   readonly ip?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#type ObjectFspVlanDynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#type ObjectFspVlanDynamicMappingA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_match ObjectFspVlanDynamicMappingA#uci_match}
   */
   readonly uciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#uci_string ObjectFspVlanDynamicMappingA#uci_string}
   */
   readonly uciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#value ObjectFspVlanDynamicMappingA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#value ObjectFspVlanDynamicMappingA#value}
   */
   readonly value?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
   */
   readonly vciString?: string[];
 }
@@ -1287,46 +1287,46 @@ export class ObjectFspVlanDynamicMappingDhcpServerOptionsAList extends cdktf.Com
 }
 export interface ObjectFspVlanDynamicMappingDhcpServerReservedAddressA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#action ObjectFspVlanDynamicMappingA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#action ObjectFspVlanDynamicMappingA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#circuit_id ObjectFspVlanDynamicMappingA#circuit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#circuit_id ObjectFspVlanDynamicMappingA#circuit_id}
   */
   readonly circuitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#circuit_id_type ObjectFspVlanDynamicMappingA#circuit_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#circuit_id_type ObjectFspVlanDynamicMappingA#circuit_id_type}
   */
   readonly circuitIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#description ObjectFspVlanDynamicMappingA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#description ObjectFspVlanDynamicMappingA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#mac ObjectFspVlanDynamicMappingA#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#mac ObjectFspVlanDynamicMappingA#mac}
   */
   readonly mac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#remote_id ObjectFspVlanDynamicMappingA#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#remote_id ObjectFspVlanDynamicMappingA#remote_id}
   */
   readonly remoteId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#remote_id_type ObjectFspVlanDynamicMappingA#remote_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#remote_id_type ObjectFspVlanDynamicMappingA#remote_id_type}
   */
   readonly remoteIdType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#type ObjectFspVlanDynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#type ObjectFspVlanDynamicMappingA#type}
   */
   readonly type?: string;
 }
@@ -1703,246 +1703,246 @@ export class ObjectFspVlanDynamicMappingDhcpServerReservedAddressAList extends c
 }
 export interface ObjectFspVlanDynamicMappingDhcpServerA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#auto_configuration ObjectFspVlanDynamicMappingA#auto_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#auto_configuration ObjectFspVlanDynamicMappingA#auto_configuration}
   */
   readonly autoConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#auto_managed_status ObjectFspVlanDynamicMappingA#auto_managed_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#auto_managed_status ObjectFspVlanDynamicMappingA#auto_managed_status}
   */
   readonly autoManagedStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#conflicted_ip_timeout ObjectFspVlanDynamicMappingA#conflicted_ip_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#conflicted_ip_timeout ObjectFspVlanDynamicMappingA#conflicted_ip_timeout}
   */
   readonly conflictedIpTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_auth ObjectFspVlanDynamicMappingA#ddns_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_auth ObjectFspVlanDynamicMappingA#ddns_auth}
   */
   readonly ddnsAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_key ObjectFspVlanDynamicMappingA#ddns_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_key ObjectFspVlanDynamicMappingA#ddns_key}
   */
   readonly ddnsKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_keyname ObjectFspVlanDynamicMappingA#ddns_keyname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_keyname ObjectFspVlanDynamicMappingA#ddns_keyname}
   */
   readonly ddnsKeyname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_server_ip ObjectFspVlanDynamicMappingA#ddns_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_server_ip ObjectFspVlanDynamicMappingA#ddns_server_ip}
   */
   readonly ddnsServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_ttl ObjectFspVlanDynamicMappingA#ddns_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_ttl ObjectFspVlanDynamicMappingA#ddns_ttl}
   */
   readonly ddnsTtl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_update ObjectFspVlanDynamicMappingA#ddns_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_update ObjectFspVlanDynamicMappingA#ddns_update}
   */
   readonly ddnsUpdate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_update_override ObjectFspVlanDynamicMappingA#ddns_update_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_update_override ObjectFspVlanDynamicMappingA#ddns_update_override}
   */
   readonly ddnsUpdateOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_zone ObjectFspVlanDynamicMappingA#ddns_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ddns_zone ObjectFspVlanDynamicMappingA#ddns_zone}
   */
   readonly ddnsZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#default_gateway ObjectFspVlanDynamicMappingA#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#default_gateway ObjectFspVlanDynamicMappingA#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_settings_from_fortiipam ObjectFspVlanDynamicMappingA#dhcp_settings_from_fortiipam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_settings_from_fortiipam ObjectFspVlanDynamicMappingA#dhcp_settings_from_fortiipam}
   */
   readonly dhcpSettingsFromFortiipam?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server1 ObjectFspVlanDynamicMappingA#dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server1 ObjectFspVlanDynamicMappingA#dns_server1}
   */
   readonly dnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server2 ObjectFspVlanDynamicMappingA#dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server2 ObjectFspVlanDynamicMappingA#dns_server2}
   */
   readonly dnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server3 ObjectFspVlanDynamicMappingA#dns_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server3 ObjectFspVlanDynamicMappingA#dns_server3}
   */
   readonly dnsServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server4 ObjectFspVlanDynamicMappingA#dns_server4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_server4 ObjectFspVlanDynamicMappingA#dns_server4}
   */
   readonly dnsServer4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_service ObjectFspVlanDynamicMappingA#dns_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dns_service ObjectFspVlanDynamicMappingA#dns_service}
   */
   readonly dnsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#domain ObjectFspVlanDynamicMappingA#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#domain ObjectFspVlanDynamicMappingA#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#enable ObjectFspVlanDynamicMappingA#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#enable ObjectFspVlanDynamicMappingA#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#filename ObjectFspVlanDynamicMappingA#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#filename ObjectFspVlanDynamicMappingA#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#forticlient_on_net_status ObjectFspVlanDynamicMappingA#forticlient_on_net_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#forticlient_on_net_status ObjectFspVlanDynamicMappingA#forticlient_on_net_status}
   */
   readonly forticlientOnNetStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip_mode ObjectFspVlanDynamicMappingA#ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip_mode ObjectFspVlanDynamicMappingA#ip_mode}
   */
   readonly ipMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ipsec_lease_hold ObjectFspVlanDynamicMappingA#ipsec_lease_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ipsec_lease_hold ObjectFspVlanDynamicMappingA#ipsec_lease_hold}
   */
   readonly ipsecLeaseHold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#lease_time ObjectFspVlanDynamicMappingA#lease_time}
   */
   readonly leaseTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#mac_acl_default_action ObjectFspVlanDynamicMappingA#mac_acl_default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#mac_acl_default_action ObjectFspVlanDynamicMappingA#mac_acl_default_action}
   */
   readonly macAclDefaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#netmask ObjectFspVlanDynamicMappingA#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#netmask ObjectFspVlanDynamicMappingA#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#next_server ObjectFspVlanDynamicMappingA#next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#next_server ObjectFspVlanDynamicMappingA#next_server}
   */
   readonly nextServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server1 ObjectFspVlanDynamicMappingA#ntp_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server1 ObjectFspVlanDynamicMappingA#ntp_server1}
   */
   readonly ntpServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server2 ObjectFspVlanDynamicMappingA#ntp_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server2 ObjectFspVlanDynamicMappingA#ntp_server2}
   */
   readonly ntpServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server3 ObjectFspVlanDynamicMappingA#ntp_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_server3 ObjectFspVlanDynamicMappingA#ntp_server3}
   */
   readonly ntpServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_service ObjectFspVlanDynamicMappingA#ntp_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ntp_service ObjectFspVlanDynamicMappingA#ntp_service}
   */
   readonly ntpService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option1 ObjectFspVlanDynamicMappingA#option1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option1 ObjectFspVlanDynamicMappingA#option1}
   */
   readonly option1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option2 ObjectFspVlanDynamicMappingA#option2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option2 ObjectFspVlanDynamicMappingA#option2}
   */
   readonly option2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option3 ObjectFspVlanDynamicMappingA#option3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option3 ObjectFspVlanDynamicMappingA#option3}
   */
   readonly option3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option4 ObjectFspVlanDynamicMappingA#option4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option4 ObjectFspVlanDynamicMappingA#option4}
   */
   readonly option4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option5 ObjectFspVlanDynamicMappingA#option5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option5 ObjectFspVlanDynamicMappingA#option5}
   */
   readonly option5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#option6 ObjectFspVlanDynamicMappingA#option6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#option6 ObjectFspVlanDynamicMappingA#option6}
   */
   readonly option6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#relay_agent ObjectFspVlanDynamicMappingA#relay_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#relay_agent ObjectFspVlanDynamicMappingA#relay_agent}
   */
   readonly relayAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#server_type ObjectFspVlanDynamicMappingA#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#server_type ObjectFspVlanDynamicMappingA#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#shared_subnet ObjectFspVlanDynamicMappingA#shared_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#shared_subnet ObjectFspVlanDynamicMappingA#shared_subnet}
   */
   readonly sharedSubnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#tftp_server ObjectFspVlanDynamicMappingA#tftp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#tftp_server ObjectFspVlanDynamicMappingA#tftp_server}
   */
   readonly tftpServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#timezone ObjectFspVlanDynamicMappingA#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#timezone ObjectFspVlanDynamicMappingA#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#timezone_option ObjectFspVlanDynamicMappingA#timezone_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#timezone_option ObjectFspVlanDynamicMappingA#timezone_option}
   */
   readonly timezoneOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_match ObjectFspVlanDynamicMappingA#vci_match}
   */
   readonly vciMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vci_string ObjectFspVlanDynamicMappingA#vci_string}
   */
   readonly vciString?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac1 ObjectFspVlanDynamicMappingA#wifi_ac1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac1 ObjectFspVlanDynamicMappingA#wifi_ac1}
   */
   readonly wifiAc1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac2 ObjectFspVlanDynamicMappingA#wifi_ac2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac2 ObjectFspVlanDynamicMappingA#wifi_ac2}
   */
   readonly wifiAc2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac3 ObjectFspVlanDynamicMappingA#wifi_ac3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac3 ObjectFspVlanDynamicMappingA#wifi_ac3}
   */
   readonly wifiAc3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac_service ObjectFspVlanDynamicMappingA#wifi_ac_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wifi_ac_service ObjectFspVlanDynamicMappingA#wifi_ac_service}
   */
   readonly wifiAcService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wins_server1 ObjectFspVlanDynamicMappingA#wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wins_server1 ObjectFspVlanDynamicMappingA#wins_server1}
   */
   readonly winsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#wins_server2 ObjectFspVlanDynamicMappingA#wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#wins_server2 ObjectFspVlanDynamicMappingA#wins_server2}
   */
   readonly winsServer2?: string;
   /**
   * exclude_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#exclude_range ObjectFspVlanDynamicMappingA#exclude_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#exclude_range ObjectFspVlanDynamicMappingA#exclude_range}
   */
   readonly excludeRange?: ObjectFspVlanDynamicMappingDhcpServerExcludeRangeA[] | cdktf.IResolvable;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip_range ObjectFspVlanDynamicMappingA#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip_range ObjectFspVlanDynamicMappingA#ip_range}
   */
   readonly ipRange?: ObjectFspVlanDynamicMappingDhcpServerIpRangeA[] | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#options ObjectFspVlanDynamicMappingA#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#options ObjectFspVlanDynamicMappingA#options}
   */
   readonly options?: ObjectFspVlanDynamicMappingDhcpServerOptionsA[] | cdktf.IResolvable;
   /**
   * reserved_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#reserved_address ObjectFspVlanDynamicMappingA#reserved_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#reserved_address ObjectFspVlanDynamicMappingA#reserved_address}
   */
   readonly reservedAddress?: ObjectFspVlanDynamicMappingDhcpServerReservedAddressA[] | cdktf.IResolvable;
 }
@@ -3679,35 +3679,35 @@ export class ObjectFspVlanDynamicMappingDhcpServerAOutputReference extends cdktf
 }
 export interface ObjectFspVlanDynamicMappingInterfaceIpv6Ip6DelegatedPrefixListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#autonomous_flag ObjectFspVlanDynamicMappingA#autonomous_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#autonomous_flag ObjectFspVlanDynamicMappingA#autonomous_flag}
   */
   readonly autonomousFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#delegated_prefix_iaid ObjectFspVlanDynamicMappingA#delegated_prefix_iaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#delegated_prefix_iaid ObjectFspVlanDynamicMappingA#delegated_prefix_iaid}
   */
   readonly delegatedPrefixIaid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#onlink_flag ObjectFspVlanDynamicMappingA#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#onlink_flag ObjectFspVlanDynamicMappingA#onlink_flag}
   */
   readonly onlinkFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix_id ObjectFspVlanDynamicMappingA#prefix_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix_id ObjectFspVlanDynamicMappingA#prefix_id}
   */
   readonly prefixId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss ObjectFspVlanDynamicMappingA#rdnss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss ObjectFspVlanDynamicMappingA#rdnss}
   */
   readonly rdnss?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss_service ObjectFspVlanDynamicMappingA#rdnss_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss_service ObjectFspVlanDynamicMappingA#rdnss_service}
   */
   readonly rdnssService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#subnet ObjectFspVlanDynamicMappingA#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#subnet ObjectFspVlanDynamicMappingA#subnet}
   */
   readonly subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#upstream_interface ObjectFspVlanDynamicMappingA#upstream_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#upstream_interface ObjectFspVlanDynamicMappingA#upstream_interface}
   */
   readonly upstreamInterface?: string;
 }
@@ -4026,7 +4026,7 @@ export class ObjectFspVlanDynamicMappingInterfaceIpv6Ip6DelegatedPrefixListStruc
 }
 export interface ObjectFspVlanDynamicMappingInterfaceIpv6Ip6ExtraAddrA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix ObjectFspVlanDynamicMappingA#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix ObjectFspVlanDynamicMappingA#prefix}
   */
   readonly prefix?: string;
 }
@@ -4142,31 +4142,31 @@ export class ObjectFspVlanDynamicMappingInterfaceIpv6Ip6ExtraAddrAList extends c
 }
 export interface ObjectFspVlanDynamicMappingInterfaceIpv6Ip6PrefixListStructA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#autonomous_flag ObjectFspVlanDynamicMappingA#autonomous_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#autonomous_flag ObjectFspVlanDynamicMappingA#autonomous_flag}
   */
   readonly autonomousFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dnssl ObjectFspVlanDynamicMappingA#dnssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dnssl ObjectFspVlanDynamicMappingA#dnssl}
   */
   readonly dnssl?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#onlink_flag ObjectFspVlanDynamicMappingA#onlink_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#onlink_flag ObjectFspVlanDynamicMappingA#onlink_flag}
   */
   readonly onlinkFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#preferred_life_time ObjectFspVlanDynamicMappingA#preferred_life_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#preferred_life_time ObjectFspVlanDynamicMappingA#preferred_life_time}
   */
   readonly preferredLifeTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix ObjectFspVlanDynamicMappingA#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#prefix ObjectFspVlanDynamicMappingA#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss ObjectFspVlanDynamicMappingA#rdnss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#rdnss ObjectFspVlanDynamicMappingA#rdnss}
   */
   readonly rdnss?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#valid_life_time ObjectFspVlanDynamicMappingA#valid_life_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#valid_life_time ObjectFspVlanDynamicMappingA#valid_life_time}
   */
   readonly validLifeTime?: number;
 }
@@ -4456,47 +4456,47 @@ export class ObjectFspVlanDynamicMappingInterfaceIpv6Ip6PrefixListStructAList ex
 }
 export interface ObjectFspVlanDynamicMappingInterfaceIpv6Vrrp6A {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#accept_mode ObjectFspVlanDynamicMappingA#accept_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#accept_mode ObjectFspVlanDynamicMappingA#accept_mode}
   */
   readonly acceptMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#adv_interval ObjectFspVlanDynamicMappingA#adv_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#adv_interval ObjectFspVlanDynamicMappingA#adv_interval}
   */
   readonly advInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ignore_default_route ObjectFspVlanDynamicMappingA#ignore_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ignore_default_route ObjectFspVlanDynamicMappingA#ignore_default_route}
   */
   readonly ignoreDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#preempt ObjectFspVlanDynamicMappingA#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#preempt ObjectFspVlanDynamicMappingA#preempt}
   */
   readonly preempt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#priority ObjectFspVlanDynamicMappingA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#priority ObjectFspVlanDynamicMappingA#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_time ObjectFspVlanDynamicMappingA#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_time ObjectFspVlanDynamicMappingA#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst6 ObjectFspVlanDynamicMappingA#vrdst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst6 ObjectFspVlanDynamicMappingA#vrdst6}
   */
   readonly vrdst6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrgrp ObjectFspVlanDynamicMappingA#vrgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrgrp ObjectFspVlanDynamicMappingA#vrgrp}
   */
   readonly vrgrp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrid ObjectFspVlanDynamicMappingA#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrid ObjectFspVlanDynamicMappingA#vrid}
   */
   readonly vrid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip6 ObjectFspVlanDynamicMappingA#vrip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip6 ObjectFspVlanDynamicMappingA#vrip6}
   */
   readonly vrip6?: string;
 }
@@ -4902,203 +4902,203 @@ export class ObjectFspVlanDynamicMappingInterfaceIpv6Vrrp6AList extends cdktf.Co
 }
 export interface ObjectFspVlanDynamicMappingInterfaceIpv6A {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#autoconf ObjectFspVlanDynamicMappingA#autoconf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#autoconf ObjectFspVlanDynamicMappingA#autoconf}
   */
   readonly autoconf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#cli_conn6_status ObjectFspVlanDynamicMappingA#cli_conn6_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#cli_conn6_status ObjectFspVlanDynamicMappingA#cli_conn6_status}
   */
   readonly cliConn6Status?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_client_options ObjectFspVlanDynamicMappingA#dhcp6_client_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_client_options ObjectFspVlanDynamicMappingA#dhcp6_client_options}
   */
   readonly dhcp6ClientOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_information_request ObjectFspVlanDynamicMappingA#dhcp6_information_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_information_request ObjectFspVlanDynamicMappingA#dhcp6_information_request}
   */
   readonly dhcp6InformationRequest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_delegation ObjectFspVlanDynamicMappingA#dhcp6_prefix_delegation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_delegation ObjectFspVlanDynamicMappingA#dhcp6_prefix_delegation}
   */
   readonly dhcp6PrefixDelegation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint}
   */
   readonly dhcp6PrefixHint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint_plt ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint_plt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint_plt ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint_plt}
   */
   readonly dhcp6PrefixHintPlt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint_vlt ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint_vlt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_prefix_hint_vlt ObjectFspVlanDynamicMappingA#dhcp6_prefix_hint_vlt}
   */
   readonly dhcp6PrefixHintVlt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_interface_id ObjectFspVlanDynamicMappingA#dhcp6_relay_interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_interface_id ObjectFspVlanDynamicMappingA#dhcp6_relay_interface_id}
   */
   readonly dhcp6RelayInterfaceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_ip ObjectFspVlanDynamicMappingA#dhcp6_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_ip ObjectFspVlanDynamicMappingA#dhcp6_relay_ip}
   */
   readonly dhcp6RelayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_service ObjectFspVlanDynamicMappingA#dhcp6_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_service ObjectFspVlanDynamicMappingA#dhcp6_relay_service}
   */
   readonly dhcp6RelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_source_interface ObjectFspVlanDynamicMappingA#dhcp6_relay_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_source_interface ObjectFspVlanDynamicMappingA#dhcp6_relay_source_interface}
   */
   readonly dhcp6RelaySourceInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_source_ip ObjectFspVlanDynamicMappingA#dhcp6_relay_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_source_ip ObjectFspVlanDynamicMappingA#dhcp6_relay_source_ip}
   */
   readonly dhcp6RelaySourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_type ObjectFspVlanDynamicMappingA#dhcp6_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp6_relay_type ObjectFspVlanDynamicMappingA#dhcp6_relay_type}
   */
   readonly dhcp6RelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#icmp6_send_redirect ObjectFspVlanDynamicMappingA#icmp6_send_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#icmp6_send_redirect ObjectFspVlanDynamicMappingA#icmp6_send_redirect}
   */
   readonly icmp6SendRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#interface_identifier ObjectFspVlanDynamicMappingA#interface_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#interface_identifier ObjectFspVlanDynamicMappingA#interface_identifier}
   */
   readonly interfaceIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_address ObjectFspVlanDynamicMappingA#ip6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_address ObjectFspVlanDynamicMappingA#ip6_address}
   */
   readonly ip6Address?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_allowaccess ObjectFspVlanDynamicMappingA#ip6_allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_allowaccess ObjectFspVlanDynamicMappingA#ip6_allowaccess}
   */
   readonly ip6Allowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_default_life ObjectFspVlanDynamicMappingA#ip6_default_life}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_default_life ObjectFspVlanDynamicMappingA#ip6_default_life}
   */
   readonly ip6DefaultLife?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_delegated_prefix_iaid ObjectFspVlanDynamicMappingA#ip6_delegated_prefix_iaid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_delegated_prefix_iaid ObjectFspVlanDynamicMappingA#ip6_delegated_prefix_iaid}
   */
   readonly ip6DelegatedPrefixIaid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_dns_server_override ObjectFspVlanDynamicMappingA#ip6_dns_server_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_dns_server_override ObjectFspVlanDynamicMappingA#ip6_dns_server_override}
   */
   readonly ip6DnsServerOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_hop_limit ObjectFspVlanDynamicMappingA#ip6_hop_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_hop_limit ObjectFspVlanDynamicMappingA#ip6_hop_limit}
   */
   readonly ip6HopLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_link_mtu ObjectFspVlanDynamicMappingA#ip6_link_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_link_mtu ObjectFspVlanDynamicMappingA#ip6_link_mtu}
   */
   readonly ip6LinkMtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_manage_flag ObjectFspVlanDynamicMappingA#ip6_manage_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_manage_flag ObjectFspVlanDynamicMappingA#ip6_manage_flag}
   */
   readonly ip6ManageFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_max_interval ObjectFspVlanDynamicMappingA#ip6_max_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_max_interval ObjectFspVlanDynamicMappingA#ip6_max_interval}
   */
   readonly ip6MaxInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_min_interval ObjectFspVlanDynamicMappingA#ip6_min_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_min_interval ObjectFspVlanDynamicMappingA#ip6_min_interval}
   */
   readonly ip6MinInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_mode ObjectFspVlanDynamicMappingA#ip6_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_mode ObjectFspVlanDynamicMappingA#ip6_mode}
   */
   readonly ip6Mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_other_flag ObjectFspVlanDynamicMappingA#ip6_other_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_other_flag ObjectFspVlanDynamicMappingA#ip6_other_flag}
   */
   readonly ip6OtherFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_prefix_mode ObjectFspVlanDynamicMappingA#ip6_prefix_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_prefix_mode ObjectFspVlanDynamicMappingA#ip6_prefix_mode}
   */
   readonly ip6PrefixMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_reachable_time ObjectFspVlanDynamicMappingA#ip6_reachable_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_reachable_time ObjectFspVlanDynamicMappingA#ip6_reachable_time}
   */
   readonly ip6ReachableTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_retrans_time ObjectFspVlanDynamicMappingA#ip6_retrans_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_retrans_time ObjectFspVlanDynamicMappingA#ip6_retrans_time}
   */
   readonly ip6RetransTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_send_adv ObjectFspVlanDynamicMappingA#ip6_send_adv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_send_adv ObjectFspVlanDynamicMappingA#ip6_send_adv}
   */
   readonly ip6SendAdv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_subnet ObjectFspVlanDynamicMappingA#ip6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_subnet ObjectFspVlanDynamicMappingA#ip6_subnet}
   */
   readonly ip6Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_upstream_interface ObjectFspVlanDynamicMappingA#ip6_upstream_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_upstream_interface ObjectFspVlanDynamicMappingA#ip6_upstream_interface}
   */
   readonly ip6UpstreamInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_cert ObjectFspVlanDynamicMappingA#nd_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_cert ObjectFspVlanDynamicMappingA#nd_cert}
   */
   readonly ndCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_cga_modifier ObjectFspVlanDynamicMappingA#nd_cga_modifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_cga_modifier ObjectFspVlanDynamicMappingA#nd_cga_modifier}
   */
   readonly ndCgaModifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_mode ObjectFspVlanDynamicMappingA#nd_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_mode ObjectFspVlanDynamicMappingA#nd_mode}
   */
   readonly ndMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_security_level ObjectFspVlanDynamicMappingA#nd_security_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_security_level ObjectFspVlanDynamicMappingA#nd_security_level}
   */
   readonly ndSecurityLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_timestamp_delta ObjectFspVlanDynamicMappingA#nd_timestamp_delta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_timestamp_delta ObjectFspVlanDynamicMappingA#nd_timestamp_delta}
   */
   readonly ndTimestampDelta?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_timestamp_fuzz ObjectFspVlanDynamicMappingA#nd_timestamp_fuzz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#nd_timestamp_fuzz ObjectFspVlanDynamicMappingA#nd_timestamp_fuzz}
   */
   readonly ndTimestampFuzz?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ra_send_mtu ObjectFspVlanDynamicMappingA#ra_send_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ra_send_mtu ObjectFspVlanDynamicMappingA#ra_send_mtu}
   */
   readonly raSendMtu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#unique_autoconf_addr ObjectFspVlanDynamicMappingA#unique_autoconf_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#unique_autoconf_addr ObjectFspVlanDynamicMappingA#unique_autoconf_addr}
   */
   readonly uniqueAutoconfAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip6_link_local ObjectFspVlanDynamicMappingA#vrip6_link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip6_link_local ObjectFspVlanDynamicMappingA#vrip6_link_local}
   */
   readonly vrip6LinkLocal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp_virtual_mac6 ObjectFspVlanDynamicMappingA#vrrp_virtual_mac6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp_virtual_mac6 ObjectFspVlanDynamicMappingA#vrrp_virtual_mac6}
   */
   readonly vrrpVirtualMac6?: string;
   /**
   * ip6_delegated_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_delegated_prefix_list ObjectFspVlanDynamicMappingA#ip6_delegated_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_delegated_prefix_list ObjectFspVlanDynamicMappingA#ip6_delegated_prefix_list}
   */
   readonly ip6DelegatedPrefixList?: ObjectFspVlanDynamicMappingInterfaceIpv6Ip6DelegatedPrefixListStructA[] | cdktf.IResolvable;
   /**
   * ip6_extra_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_extra_addr ObjectFspVlanDynamicMappingA#ip6_extra_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_extra_addr ObjectFspVlanDynamicMappingA#ip6_extra_addr}
   */
   readonly ip6ExtraAddr?: ObjectFspVlanDynamicMappingInterfaceIpv6Ip6ExtraAddrA[] | cdktf.IResolvable;
   /**
   * ip6_prefix_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_prefix_list ObjectFspVlanDynamicMappingA#ip6_prefix_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip6_prefix_list ObjectFspVlanDynamicMappingA#ip6_prefix_list}
   */
   readonly ip6PrefixList?: ObjectFspVlanDynamicMappingInterfaceIpv6Ip6PrefixListStructA[] | cdktf.IResolvable;
   /**
   * vrrp6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp6 ObjectFspVlanDynamicMappingA#vrrp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp6 ObjectFspVlanDynamicMappingA#vrrp6}
   */
   readonly vrrp6?: ObjectFspVlanDynamicMappingInterfaceIpv6Vrrp6A[] | cdktf.IResolvable;
 }
@@ -6545,46 +6545,46 @@ export class ObjectFspVlanDynamicMappingInterfaceIpv6AOutputReference extends cd
 }
 export interface ObjectFspVlanDynamicMappingInterfaceSecondaryipA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#allowaccess ObjectFspVlanDynamicMappingA#allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#allowaccess ObjectFspVlanDynamicMappingA#allowaccess}
   */
   readonly allowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#detectprotocol ObjectFspVlanDynamicMappingA#detectprotocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#detectprotocol ObjectFspVlanDynamicMappingA#detectprotocol}
   */
   readonly detectprotocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#detectserver ObjectFspVlanDynamicMappingA#detectserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#detectserver ObjectFspVlanDynamicMappingA#detectserver}
   */
   readonly detectserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#gwdetect ObjectFspVlanDynamicMappingA#gwdetect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#gwdetect ObjectFspVlanDynamicMappingA#gwdetect}
   */
   readonly gwdetect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ha_priority ObjectFspVlanDynamicMappingA#ha_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ha_priority ObjectFspVlanDynamicMappingA#ha_priority}
   */
   readonly haPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ping_serv_status ObjectFspVlanDynamicMappingA#ping_serv_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ping_serv_status ObjectFspVlanDynamicMappingA#ping_serv_status}
   */
   readonly pingServStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#secip_relay_ip ObjectFspVlanDynamicMappingA#secip_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#secip_relay_ip ObjectFspVlanDynamicMappingA#secip_relay_ip}
   */
   readonly secipRelayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#seq ObjectFspVlanDynamicMappingA#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#seq ObjectFspVlanDynamicMappingA#seq}
   */
   readonly seq?: number;
 }
@@ -6961,14 +6961,14 @@ export class ObjectFspVlanDynamicMappingInterfaceSecondaryipAList extends cdktf.
 }
 export interface ObjectFspVlanDynamicMappingInterfaceVrrpProxyArpA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#id ObjectFspVlanDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
   */
   readonly ip?: string;
 }
@@ -7113,61 +7113,61 @@ export class ObjectFspVlanDynamicMappingInterfaceVrrpProxyArpAList extends cdktf
 }
 export interface ObjectFspVlanDynamicMappingInterfaceVrrpA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#accept_mode ObjectFspVlanDynamicMappingA#accept_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#accept_mode ObjectFspVlanDynamicMappingA#accept_mode}
   */
   readonly acceptMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#adv_interval ObjectFspVlanDynamicMappingA#adv_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#adv_interval ObjectFspVlanDynamicMappingA#adv_interval}
   */
   readonly advInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ignore_default_route ObjectFspVlanDynamicMappingA#ignore_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ignore_default_route ObjectFspVlanDynamicMappingA#ignore_default_route}
   */
   readonly ignoreDefaultRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#preempt ObjectFspVlanDynamicMappingA#preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#preempt ObjectFspVlanDynamicMappingA#preempt}
   */
   readonly preempt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#priority ObjectFspVlanDynamicMappingA#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#priority ObjectFspVlanDynamicMappingA#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_time ObjectFspVlanDynamicMappingA#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#start_time ObjectFspVlanDynamicMappingA#start_time}
   */
   readonly startTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#status ObjectFspVlanDynamicMappingA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#version ObjectFspVlanDynamicMappingA#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#version ObjectFspVlanDynamicMappingA#version}
   */
   readonly version?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst ObjectFspVlanDynamicMappingA#vrdst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst ObjectFspVlanDynamicMappingA#vrdst}
   */
   readonly vrdst?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst_priority ObjectFspVlanDynamicMappingA#vrdst_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrdst_priority ObjectFspVlanDynamicMappingA#vrdst_priority}
   */
   readonly vrdstPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrgrp ObjectFspVlanDynamicMappingA#vrgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrgrp ObjectFspVlanDynamicMappingA#vrgrp}
   */
   readonly vrgrp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrid ObjectFspVlanDynamicMappingA#vrid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrid ObjectFspVlanDynamicMappingA#vrid}
   */
   readonly vrid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip ObjectFspVlanDynamicMappingA#vrip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrip ObjectFspVlanDynamicMappingA#vrip}
   */
   readonly vrip?: string;
   /**
   * proxy_arp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#proxy_arp ObjectFspVlanDynamicMappingA#proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#proxy_arp ObjectFspVlanDynamicMappingA#proxy_arp}
   */
   readonly proxyArp?: ObjectFspVlanDynamicMappingInterfaceVrrpProxyArpA[] | cdktf.IResolvable;
 }
@@ -7660,53 +7660,53 @@ export class ObjectFspVlanDynamicMappingInterfaceVrrpAList extends cdktf.Complex
 }
 export interface ObjectFspVlanDynamicMappingInterfaceA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_agent_option ObjectFspVlanDynamicMappingA#dhcp_relay_agent_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_agent_option ObjectFspVlanDynamicMappingA#dhcp_relay_agent_option}
   */
   readonly dhcpRelayAgentOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_interface_select_method ObjectFspVlanDynamicMappingA#dhcp_relay_interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_interface_select_method ObjectFspVlanDynamicMappingA#dhcp_relay_interface_select_method}
   */
   readonly dhcpRelayInterfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_ip ObjectFspVlanDynamicMappingA#dhcp_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_ip ObjectFspVlanDynamicMappingA#dhcp_relay_ip}
   */
   readonly dhcpRelayIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_service ObjectFspVlanDynamicMappingA#dhcp_relay_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_service ObjectFspVlanDynamicMappingA#dhcp_relay_service}
   */
   readonly dhcpRelayService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_type ObjectFspVlanDynamicMappingA#dhcp_relay_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#dhcp_relay_type ObjectFspVlanDynamicMappingA#dhcp_relay_type}
   */
   readonly dhcpRelayType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ip ObjectFspVlanDynamicMappingA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#secondary_ip ObjectFspVlanDynamicMappingA#secondary_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#secondary_ip ObjectFspVlanDynamicMappingA#secondary_ip}
   */
   readonly secondaryIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vlanid ObjectFspVlanDynamicMappingA#vlanid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vlanid ObjectFspVlanDynamicMappingA#vlanid}
   */
   readonly vlanid?: number;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#ipv6 ObjectFspVlanDynamicMappingA#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#ipv6 ObjectFspVlanDynamicMappingA#ipv6}
   */
   readonly ipv6?: ObjectFspVlanDynamicMappingInterfaceIpv6A;
   /**
   * secondaryip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#secondaryip ObjectFspVlanDynamicMappingA#secondaryip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#secondaryip ObjectFspVlanDynamicMappingA#secondaryip}
   */
   readonly secondaryip?: ObjectFspVlanDynamicMappingInterfaceSecondaryipA[] | cdktf.IResolvable;
   /**
   * vrrp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp ObjectFspVlanDynamicMappingA#vrrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#vrrp ObjectFspVlanDynamicMappingA#vrrp}
   */
   readonly vrrp?: ObjectFspVlanDynamicMappingInterfaceVrrpA[] | cdktf.IResolvable;
 }
@@ -8080,7 +8080,7 @@ export class ObjectFspVlanDynamicMappingInterfaceAOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping fortimanager_object_fsp_vlan_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping fortimanager_object_fsp_vlan_dynamic_mapping}
 */
 export class ObjectFspVlanDynamicMappingA extends cdktf.TerraformResource {
 
@@ -8096,7 +8096,7 @@ export class ObjectFspVlanDynamicMappingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFspVlanDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectFspVlanDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8108,7 +8108,7 @@ export class ObjectFspVlanDynamicMappingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_dynamic_mapping fortimanager_object_fsp_vlan_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_dynamic_mapping fortimanager_object_fsp_vlan_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8119,8 +8119,8 @@ export class ObjectFspVlanDynamicMappingA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_fsp_vlan_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,145 +8,145 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectIpsSensorEntriesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#action ObjectIpsSensorEntriesA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#action ObjectIpsSensorEntriesA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#adom ObjectIpsSensorEntriesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#adom ObjectIpsSensorEntriesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#application ObjectIpsSensorEntriesA#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#application ObjectIpsSensorEntriesA#application}
   */
   readonly application?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#cve ObjectIpsSensorEntriesA#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#cve ObjectIpsSensorEntriesA#cve}
   */
   readonly cve?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#default_action ObjectIpsSensorEntriesA#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#default_action ObjectIpsSensorEntriesA#default_action}
   */
   readonly defaultAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#default_status ObjectIpsSensorEntriesA#default_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#default_status ObjectIpsSensorEntriesA#default_status}
   */
   readonly defaultStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#dynamic_sort_subtable ObjectIpsSensorEntriesA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#dynamic_sort_subtable ObjectIpsSensorEntriesA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#fosid ObjectIpsSensorEntriesA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#fosid ObjectIpsSensorEntriesA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#id ObjectIpsSensorEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#id ObjectIpsSensorEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#last_modified ObjectIpsSensorEntriesA#last_modified}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#last_modified ObjectIpsSensorEntriesA#last_modified}
   */
   readonly lastModified?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#location ObjectIpsSensorEntriesA#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#location ObjectIpsSensorEntriesA#location}
   */
   readonly location?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#log ObjectIpsSensorEntriesA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#log ObjectIpsSensorEntriesA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#log_attack_context ObjectIpsSensorEntriesA#log_attack_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#log_attack_context ObjectIpsSensorEntriesA#log_attack_context}
   */
   readonly logAttackContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#log_packet ObjectIpsSensorEntriesA#log_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#log_packet ObjectIpsSensorEntriesA#log_packet}
   */
   readonly logPacket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#os ObjectIpsSensorEntriesA#os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#os ObjectIpsSensorEntriesA#os}
   */
   readonly os?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#protocol ObjectIpsSensorEntriesA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#protocol ObjectIpsSensorEntriesA#protocol}
   */
   readonly protocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#quarantine ObjectIpsSensorEntriesA#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#quarantine ObjectIpsSensorEntriesA#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#quarantine_expiry ObjectIpsSensorEntriesA#quarantine_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#quarantine_expiry ObjectIpsSensorEntriesA#quarantine_expiry}
   */
   readonly quarantineExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#quarantine_log ObjectIpsSensorEntriesA#quarantine_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#quarantine_log ObjectIpsSensorEntriesA#quarantine_log}
   */
   readonly quarantineLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#rate_count ObjectIpsSensorEntriesA#rate_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#rate_count ObjectIpsSensorEntriesA#rate_count}
   */
   readonly rateCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#rate_duration ObjectIpsSensorEntriesA#rate_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#rate_duration ObjectIpsSensorEntriesA#rate_duration}
   */
   readonly rateDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#rate_mode ObjectIpsSensorEntriesA#rate_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#rate_mode ObjectIpsSensorEntriesA#rate_mode}
   */
   readonly rateMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#rate_track ObjectIpsSensorEntriesA#rate_track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#rate_track ObjectIpsSensorEntriesA#rate_track}
   */
   readonly rateTrack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#rule ObjectIpsSensorEntriesA#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#rule ObjectIpsSensorEntriesA#rule}
   */
   readonly rule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#scopetype ObjectIpsSensorEntriesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#scopetype ObjectIpsSensorEntriesA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#sensor ObjectIpsSensorEntriesA#sensor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#sensor ObjectIpsSensorEntriesA#sensor}
   */
   readonly sensor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#severity ObjectIpsSensorEntriesA#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#severity ObjectIpsSensorEntriesA#severity}
   */
   readonly severity?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#status ObjectIpsSensorEntriesA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#status ObjectIpsSensorEntriesA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#vuln_type ObjectIpsSensorEntriesA#vuln_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#vuln_type ObjectIpsSensorEntriesA#vuln_type}
   */
   readonly vulnType?: number[];
   /**
   * exempt_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#exempt_ip ObjectIpsSensorEntriesA#exempt_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#exempt_ip ObjectIpsSensorEntriesA#exempt_ip}
   */
   readonly exemptIp?: ObjectIpsSensorEntriesExemptIpA[] | cdktf.IResolvable;
 }
 export interface ObjectIpsSensorEntriesExemptIpA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#dst_ip ObjectIpsSensorEntriesA#dst_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#dst_ip ObjectIpsSensorEntriesA#dst_ip}
   */
   readonly dstIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#id ObjectIpsSensorEntriesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#id ObjectIpsSensorEntriesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#src_ip ObjectIpsSensorEntriesA#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#src_ip ObjectIpsSensorEntriesA#src_ip}
   */
   readonly srcIp?: string;
 }
@@ -320,7 +320,7 @@ export class ObjectIpsSensorEntriesExemptIpAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries fortimanager_object_ips_sensor_entries}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries fortimanager_object_ips_sensor_entries}
 */
 export class ObjectIpsSensorEntriesA extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class ObjectIpsSensorEntriesA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectIpsSensorEntriesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectIpsSensorEntriesA to import
-  * @param importFromId The id of the existing ObjectIpsSensorEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectIpsSensorEntriesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectIpsSensorEntriesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class ObjectIpsSensorEntriesA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_ips_sensor_entries fortimanager_object_ips_sensor_entries} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_ips_sensor_entries fortimanager_object_ips_sensor_entries} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class ObjectIpsSensorEntriesA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_ips_sensor_entries',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

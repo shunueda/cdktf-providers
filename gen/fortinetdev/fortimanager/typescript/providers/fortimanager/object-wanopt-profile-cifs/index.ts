@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWanoptProfileCifsAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#adom ObjectWanoptProfileCifsA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#adom ObjectWanoptProfileCifsA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#byte_caching ObjectWanoptProfileCifsA#byte_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#byte_caching ObjectWanoptProfileCifsA#byte_caching}
   */
   readonly byteCaching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#id ObjectWanoptProfileCifsA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#id ObjectWanoptProfileCifsA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#log_traffic ObjectWanoptProfileCifsA#log_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#log_traffic ObjectWanoptProfileCifsA#log_traffic}
   */
   readonly logTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#port ObjectWanoptProfileCifsA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#port ObjectWanoptProfileCifsA#port}
   */
   readonly port?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#prefer_chunking ObjectWanoptProfileCifsA#prefer_chunking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#prefer_chunking ObjectWanoptProfileCifsA#prefer_chunking}
   */
   readonly preferChunking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#profile ObjectWanoptProfileCifsA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#profile ObjectWanoptProfileCifsA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#protocol_opt ObjectWanoptProfileCifsA#protocol_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#protocol_opt ObjectWanoptProfileCifsA#protocol_opt}
   */
   readonly protocolOpt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#scopetype ObjectWanoptProfileCifsA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#scopetype ObjectWanoptProfileCifsA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#secure_tunnel ObjectWanoptProfileCifsA#secure_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#secure_tunnel ObjectWanoptProfileCifsA#secure_tunnel}
   */
   readonly secureTunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#status ObjectWanoptProfileCifsA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#status ObjectWanoptProfileCifsA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#tunnel_sharing ObjectWanoptProfileCifsA#tunnel_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#tunnel_sharing ObjectWanoptProfileCifsA#tunnel_sharing}
   */
   readonly tunnelSharing?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs fortimanager_object_wanopt_profile_cifs}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs fortimanager_object_wanopt_profile_cifs}
 */
 export class ObjectWanoptProfileCifsA extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectWanoptProfileCifsA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWanoptProfileCifsA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWanoptProfileCifsA to import
-  * @param importFromId The id of the existing ObjectWanoptProfileCifsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWanoptProfileCifsA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWanoptProfileCifsA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectWanoptProfileCifsA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_cifs fortimanager_object_wanopt_profile_cifs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_cifs fortimanager_object_wanopt_profile_cifs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectWanoptProfileCifsA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_wanopt_profile_cifs',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

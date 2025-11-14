@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface SystempSystemSnmpCommunityHosts6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#adom SystempSystemSnmpCommunityHosts6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#adom SystempSystemSnmpCommunityHosts6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#community SystempSystemSnmpCommunityHosts6#community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#community SystempSystemSnmpCommunityHosts6#community}
   */
   readonly community: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#devprof SystempSystemSnmpCommunityHosts6#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#devprof SystempSystemSnmpCommunityHosts6#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#fosid SystempSystemSnmpCommunityHosts6#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#fosid SystempSystemSnmpCommunityHosts6#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#ha_direct SystempSystemSnmpCommunityHosts6#ha_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#ha_direct SystempSystemSnmpCommunityHosts6#ha_direct}
   */
   readonly haDirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#host_type SystempSystemSnmpCommunityHosts6#host_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#host_type SystempSystemSnmpCommunityHosts6#host_type}
   */
   readonly hostType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#id SystempSystemSnmpCommunityHosts6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#id SystempSystemSnmpCommunityHosts6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#interface SystempSystemSnmpCommunityHosts6#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#interface SystempSystemSnmpCommunityHosts6#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#interface_select_method SystempSystemSnmpCommunityHosts6#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#interface_select_method SystempSystemSnmpCommunityHosts6#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#ipv6 SystempSystemSnmpCommunityHosts6#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#ipv6 SystempSystemSnmpCommunityHosts6#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#scopetype SystempSystemSnmpCommunityHosts6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#scopetype SystempSystemSnmpCommunityHosts6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#source_ipv6 SystempSystemSnmpCommunityHosts6#source_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#source_ipv6 SystempSystemSnmpCommunityHosts6#source_ipv6}
   */
   readonly sourceIpv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#vrf_select SystempSystemSnmpCommunityHosts6#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#vrf_select SystempSystemSnmpCommunityHosts6#vrf_select}
   */
   readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6 fortimanager_systemp_system_snmp_community_hosts6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6 fortimanager_systemp_system_snmp_community_hosts6}
 */
 export class SystempSystemSnmpCommunityHosts6 extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class SystempSystemSnmpCommunityHosts6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempSystemSnmpCommunityHosts6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempSystemSnmpCommunityHosts6 to import
-  * @param importFromId The id of the existing SystempSystemSnmpCommunityHosts6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempSystemSnmpCommunityHosts6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempSystemSnmpCommunityHosts6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class SystempSystemSnmpCommunityHosts6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_snmp_community_hosts6 fortimanager_systemp_system_snmp_community_hosts6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_snmp_community_hosts6 fortimanager_systemp_system_snmp_community_hosts6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class SystempSystemSnmpCommunityHosts6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_system_snmp_community_hosts6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ConversationsMessagingSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#id ConversationsMessagingSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#id ConversationsMessagingSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ConversationsMessagingSettingsConfig extends cdktf.TerraformMet
   /**
   * The messaging Setting profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#name ConversationsMessagingSettings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#name ConversationsMessagingSettings#name}
   */
   readonly name: string;
   /**
   * content block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#content ConversationsMessagingSettings#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#content ConversationsMessagingSettings#content}
   */
   readonly content?: ConversationsMessagingSettingsContent;
   /**
   * event block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#event ConversationsMessagingSettings#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#event ConversationsMessagingSettings#event}
   */
   readonly event?: ConversationsMessagingSettingsEvent;
 }
@@ -37,7 +37,7 @@ export interface ConversationsMessagingSettingsContentStoryMention {
   /**
   * Valid values: Enabled, Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
   */
   readonly inbound?: string;
 }
@@ -123,7 +123,7 @@ export interface ConversationsMessagingSettingsContentStoryReply {
   /**
   * Valid values: Enabled, Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
   */
   readonly inbound?: string;
 }
@@ -209,13 +209,13 @@ export interface ConversationsMessagingSettingsContentStory {
   /**
   * mention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#mention ConversationsMessagingSettings#mention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#mention ConversationsMessagingSettings#mention}
   */
   readonly mention?: ConversationsMessagingSettingsContentStoryMention;
   /**
   * reply block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#reply ConversationsMessagingSettings#reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#reply ConversationsMessagingSettings#reply}
   */
   readonly reply?: ConversationsMessagingSettingsContentStoryReply;
 }
@@ -330,7 +330,7 @@ export interface ConversationsMessagingSettingsContent {
   /**
   * story block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#story ConversationsMessagingSettings#story}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#story ConversationsMessagingSettings#story}
   */
   readonly story?: ConversationsMessagingSettingsContentStory;
 }
@@ -416,13 +416,13 @@ export interface ConversationsMessagingSettingsEventTypingOn {
   /**
   * Status for the Inbound Direction. Valid values: Enabled, Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#inbound ConversationsMessagingSettings#inbound}
   */
   readonly inbound?: string;
   /**
   * Status for the outbound Direction. Valid values: Enabled, Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#outbound ConversationsMessagingSettings#outbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#outbound ConversationsMessagingSettings#outbound}
   */
   readonly outbound?: string;
 }
@@ -537,7 +537,7 @@ export interface ConversationsMessagingSettingsEventTyping {
   /**
   * on block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#on ConversationsMessagingSettings#on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#on ConversationsMessagingSettings#on}
   */
   readonly on?: ConversationsMessagingSettingsEventTypingOn;
 }
@@ -623,7 +623,7 @@ export interface ConversationsMessagingSettingsEvent {
   /**
   * typing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#typing ConversationsMessagingSettings#typing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#typing ConversationsMessagingSettings#typing}
   */
   readonly typing?: ConversationsMessagingSettingsEventTyping;
 }
@@ -707,7 +707,7 @@ export class ConversationsMessagingSettingsEventOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings genesyscloud_conversations_messaging_settings}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings genesyscloud_conversations_messaging_settings}
 */
 export class ConversationsMessagingSettings extends cdktf.TerraformResource {
 
@@ -723,7 +723,7 @@ export class ConversationsMessagingSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConversationsMessagingSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConversationsMessagingSettings to import
-  * @param importFromId The id of the existing ConversationsMessagingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConversationsMessagingSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConversationsMessagingSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -735,7 +735,7 @@ export class ConversationsMessagingSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/conversations_messaging_settings genesyscloud_conversations_messaging_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/conversations_messaging_settings genesyscloud_conversations_messaging_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -746,8 +746,8 @@ export class ConversationsMessagingSettings extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_conversations_messaging_settings',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

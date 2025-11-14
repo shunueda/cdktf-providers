@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,384 +8,384 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerWtpprofileRadio1AConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#adom ObjectWirelesscontrollerWtpprofileRadio1A#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#adom ObjectWirelesscontrollerWtpprofileRadio1A#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#airtime_fairness ObjectWirelesscontrollerWtpprofileRadio1A#airtime_fairness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#airtime_fairness ObjectWirelesscontrollerWtpprofileRadio1A#airtime_fairness}
   */
   readonly airtimeFairness?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#amsdu ObjectWirelesscontrollerWtpprofileRadio1A#amsdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#amsdu ObjectWirelesscontrollerWtpprofileRadio1A#amsdu}
   */
   readonly amsdu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_handoff ObjectWirelesscontrollerWtpprofileRadio1A#ap_handoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_handoff ObjectWirelesscontrollerWtpprofileRadio1A#ap_handoff}
   */
   readonly apHandoff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_addr ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_addr ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_addr}
   */
   readonly apSnifferAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_bufsize ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_bufsize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_bufsize ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_bufsize}
   */
   readonly apSnifferBufsize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_chan ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_chan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_chan ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_chan}
   */
   readonly apSnifferChan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_ctl ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_ctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_ctl ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_ctl}
   */
   readonly apSnifferCtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_data ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_data ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_data}
   */
   readonly apSnifferData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_beacon ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_beacon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_beacon ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_beacon}
   */
   readonly apSnifferMgmtBeacon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_other ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_other ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_other}
   */
   readonly apSnifferMgmtOther?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_probe ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#ap_sniffer_mgmt_probe ObjectWirelesscontrollerWtpprofileRadio1A#ap_sniffer_mgmt_probe}
   */
   readonly apSnifferMgmtProbe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#arrp_profile ObjectWirelesscontrollerWtpprofileRadio1A#arrp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#arrp_profile ObjectWirelesscontrollerWtpprofileRadio1A#arrp_profile}
   */
   readonly arrpProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_high ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_high ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_high}
   */
   readonly autoPowerHigh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_level ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_level ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_level}
   */
   readonly autoPowerLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_low ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_low ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_low}
   */
   readonly autoPowerLow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_target ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#auto_power_target ObjectWirelesscontrollerWtpprofileRadio1A#auto_power_target}
   */
   readonly autoPowerTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#band ObjectWirelesscontrollerWtpprofileRadio1A#band}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#band ObjectWirelesscontrollerWtpprofileRadio1A#band}
   */
   readonly band?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#band_5g_type ObjectWirelesscontrollerWtpprofileRadio1A#band_5g_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#band_5g_type ObjectWirelesscontrollerWtpprofileRadio1A#band_5g_type}
   */
   readonly band5GType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bandwidth_admission_control ObjectWirelesscontrollerWtpprofileRadio1A#bandwidth_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bandwidth_admission_control ObjectWirelesscontrollerWtpprofileRadio1A#bandwidth_admission_control}
   */
   readonly bandwidthAdmissionControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bandwidth_capacity ObjectWirelesscontrollerWtpprofileRadio1A#bandwidth_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bandwidth_capacity ObjectWirelesscontrollerWtpprofileRadio1A#bandwidth_capacity}
   */
   readonly bandwidthCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#beacon_interval ObjectWirelesscontrollerWtpprofileRadio1A#beacon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#beacon_interval ObjectWirelesscontrollerWtpprofileRadio1A#beacon_interval}
   */
   readonly beaconInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bss_color ObjectWirelesscontrollerWtpprofileRadio1A#bss_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bss_color ObjectWirelesscontrollerWtpprofileRadio1A#bss_color}
   */
   readonly bssColor?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bss_color_mode ObjectWirelesscontrollerWtpprofileRadio1A#bss_color_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#bss_color_mode ObjectWirelesscontrollerWtpprofileRadio1A#bss_color_mode}
   */
   readonly bssColorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#call_admission_control ObjectWirelesscontrollerWtpprofileRadio1A#call_admission_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#call_admission_control ObjectWirelesscontrollerWtpprofileRadio1A#call_admission_control}
   */
   readonly callAdmissionControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#call_capacity ObjectWirelesscontrollerWtpprofileRadio1A#call_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#call_capacity ObjectWirelesscontrollerWtpprofileRadio1A#call_capacity}
   */
   readonly callCapacity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel ObjectWirelesscontrollerWtpprofileRadio1A#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel ObjectWirelesscontrollerWtpprofileRadio1A#channel}
   */
   readonly channel?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel_bonding ObjectWirelesscontrollerWtpprofileRadio1A#channel_bonding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel_bonding ObjectWirelesscontrollerWtpprofileRadio1A#channel_bonding}
   */
   readonly channelBonding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel_utilization ObjectWirelesscontrollerWtpprofileRadio1A#channel_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#channel_utilization ObjectWirelesscontrollerWtpprofileRadio1A#channel_utilization}
   */
   readonly channelUtilization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#coexistence ObjectWirelesscontrollerWtpprofileRadio1A#coexistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#coexistence ObjectWirelesscontrollerWtpprofileRadio1A#coexistence}
   */
   readonly coexistence?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#darrp ObjectWirelesscontrollerWtpprofileRadio1A#darrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#darrp ObjectWirelesscontrollerWtpprofileRadio1A#darrp}
   */
   readonly darrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#drma ObjectWirelesscontrollerWtpprofileRadio1A#drma}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#drma ObjectWirelesscontrollerWtpprofileRadio1A#drma}
   */
   readonly drma?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#drma_sensitivity ObjectWirelesscontrollerWtpprofileRadio1A#drma_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#drma_sensitivity ObjectWirelesscontrollerWtpprofileRadio1A#drma_sensitivity}
   */
   readonly drmaSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#dtim ObjectWirelesscontrollerWtpprofileRadio1A#dtim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#dtim ObjectWirelesscontrollerWtpprofileRadio1A#dtim}
   */
   readonly dtim?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#frag_threshold ObjectWirelesscontrollerWtpprofileRadio1A#frag_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#frag_threshold ObjectWirelesscontrollerWtpprofileRadio1A#frag_threshold}
   */
   readonly fragThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#frequency_handoff ObjectWirelesscontrollerWtpprofileRadio1A#frequency_handoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#frequency_handoff ObjectWirelesscontrollerWtpprofileRadio1A#frequency_handoff}
   */
   readonly frequencyHandoff?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#id ObjectWirelesscontrollerWtpprofileRadio1A#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#id ObjectWirelesscontrollerWtpprofileRadio1A#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#iperf_protocol ObjectWirelesscontrollerWtpprofileRadio1A#iperf_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#iperf_protocol ObjectWirelesscontrollerWtpprofileRadio1A#iperf_protocol}
   */
   readonly iperfProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#iperf_server_port ObjectWirelesscontrollerWtpprofileRadio1A#iperf_server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#iperf_server_port ObjectWirelesscontrollerWtpprofileRadio1A#iperf_server_port}
   */
   readonly iperfServerPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#max_clients ObjectWirelesscontrollerWtpprofileRadio1A#max_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#max_clients ObjectWirelesscontrollerWtpprofileRadio1A#max_clients}
   */
   readonly maxClients?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#max_distance ObjectWirelesscontrollerWtpprofileRadio1A#max_distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#max_distance ObjectWirelesscontrollerWtpprofileRadio1A#max_distance}
   */
   readonly maxDistance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#mimo_mode ObjectWirelesscontrollerWtpprofileRadio1A#mimo_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#mimo_mode ObjectWirelesscontrollerWtpprofileRadio1A#mimo_mode}
   */
   readonly mimoMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#mode ObjectWirelesscontrollerWtpprofileRadio1A#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#mode ObjectWirelesscontrollerWtpprofileRadio1A#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#n80211d ObjectWirelesscontrollerWtpprofileRadio1A#n80211d}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#n80211d ObjectWirelesscontrollerWtpprofileRadio1A#n80211d}
   */
   readonly n80211D?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#optional_antenna ObjectWirelesscontrollerWtpprofileRadio1A#optional_antenna}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#optional_antenna ObjectWirelesscontrollerWtpprofileRadio1A#optional_antenna}
   */
   readonly optionalAntenna?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#optional_antenna_gain ObjectWirelesscontrollerWtpprofileRadio1A#optional_antenna_gain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#optional_antenna_gain ObjectWirelesscontrollerWtpprofileRadio1A#optional_antenna_gain}
   */
   readonly optionalAntennaGain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_level ObjectWirelesscontrollerWtpprofileRadio1A#power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_level ObjectWirelesscontrollerWtpprofileRadio1A#power_level}
   */
   readonly powerLevel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_mode ObjectWirelesscontrollerWtpprofileRadio1A#power_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_mode ObjectWirelesscontrollerWtpprofileRadio1A#power_mode}
   */
   readonly powerMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_value ObjectWirelesscontrollerWtpprofileRadio1A#power_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#power_value ObjectWirelesscontrollerWtpprofileRadio1A#power_value}
   */
   readonly powerValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#powersave_optimize ObjectWirelesscontrollerWtpprofileRadio1A#powersave_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#powersave_optimize ObjectWirelesscontrollerWtpprofileRadio1A#powersave_optimize}
   */
   readonly powersaveOptimize?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#protection_mode ObjectWirelesscontrollerWtpprofileRadio1A#protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#protection_mode ObjectWirelesscontrollerWtpprofileRadio1A#protection_mode}
   */
   readonly protectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#radio_id ObjectWirelesscontrollerWtpprofileRadio1A#radio_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#radio_id ObjectWirelesscontrollerWtpprofileRadio1A#radio_id}
   */
   readonly radioId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#rts_threshold ObjectWirelesscontrollerWtpprofileRadio1A#rts_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#rts_threshold ObjectWirelesscontrollerWtpprofileRadio1A#rts_threshold}
   */
   readonly rtsThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_bssid ObjectWirelesscontrollerWtpprofileRadio1A#sam_bssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_bssid ObjectWirelesscontrollerWtpprofileRadio1A#sam_bssid}
   */
   readonly samBssid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_ca_certificate ObjectWirelesscontrollerWtpprofileRadio1A#sam_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_ca_certificate ObjectWirelesscontrollerWtpprofileRadio1A#sam_ca_certificate}
   */
   readonly samCaCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_captive_portal ObjectWirelesscontrollerWtpprofileRadio1A#sam_captive_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_captive_portal ObjectWirelesscontrollerWtpprofileRadio1A#sam_captive_portal}
   */
   readonly samCaptivePortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_client_certificate ObjectWirelesscontrollerWtpprofileRadio1A#sam_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_client_certificate ObjectWirelesscontrollerWtpprofileRadio1A#sam_client_certificate}
   */
   readonly samClientCertificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_failure_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_failure_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_failure_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_failure_string}
   */
   readonly samCwpFailureString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_match_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_match_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_match_string}
   */
   readonly samCwpMatchString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_password}
   */
   readonly samCwpPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_success_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_success_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_success_string ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_success_string}
   */
   readonly samCwpSuccessString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_test_url ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_test_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_test_url ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_test_url}
   */
   readonly samCwpTestUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_username ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_cwp_username ObjectWirelesscontrollerWtpprofileRadio1A#sam_cwp_username}
   */
   readonly samCwpUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_eap_method ObjectWirelesscontrollerWtpprofileRadio1A#sam_eap_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_eap_method ObjectWirelesscontrollerWtpprofileRadio1A#sam_eap_method}
   */
   readonly samEapMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_password}
   */
   readonly samPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_private_key ObjectWirelesscontrollerWtpprofileRadio1A#sam_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_private_key ObjectWirelesscontrollerWtpprofileRadio1A#sam_private_key}
   */
   readonly samPrivateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_private_key_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_private_key_password ObjectWirelesscontrollerWtpprofileRadio1A#sam_private_key_password}
   */
   readonly samPrivateKeyPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_report_intv ObjectWirelesscontrollerWtpprofileRadio1A#sam_report_intv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_report_intv ObjectWirelesscontrollerWtpprofileRadio1A#sam_report_intv}
   */
   readonly samReportIntv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_security_type ObjectWirelesscontrollerWtpprofileRadio1A#sam_security_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_security_type ObjectWirelesscontrollerWtpprofileRadio1A#sam_security_type}
   */
   readonly samSecurityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server ObjectWirelesscontrollerWtpprofileRadio1A#sam_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server ObjectWirelesscontrollerWtpprofileRadio1A#sam_server}
   */
   readonly samServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_fqdn ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_fqdn ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_fqdn}
   */
   readonly samServerFqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_ip ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_ip ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_ip}
   */
   readonly samServerIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_type ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_server_type ObjectWirelesscontrollerWtpprofileRadio1A#sam_server_type}
   */
   readonly samServerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_ssid ObjectWirelesscontrollerWtpprofileRadio1A#sam_ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_ssid ObjectWirelesscontrollerWtpprofileRadio1A#sam_ssid}
   */
   readonly samSsid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_test ObjectWirelesscontrollerWtpprofileRadio1A#sam_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_test ObjectWirelesscontrollerWtpprofileRadio1A#sam_test}
   */
   readonly samTest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_username ObjectWirelesscontrollerWtpprofileRadio1A#sam_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#sam_username ObjectWirelesscontrollerWtpprofileRadio1A#sam_username}
   */
   readonly samUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#scopetype ObjectWirelesscontrollerWtpprofileRadio1A#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#scopetype ObjectWirelesscontrollerWtpprofileRadio1A#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#short_guard_interval ObjectWirelesscontrollerWtpprofileRadio1A#short_guard_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#short_guard_interval ObjectWirelesscontrollerWtpprofileRadio1A#short_guard_interval}
   */
   readonly shortGuardInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#spectrum_analysis ObjectWirelesscontrollerWtpprofileRadio1A#spectrum_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#spectrum_analysis ObjectWirelesscontrollerWtpprofileRadio1A#spectrum_analysis}
   */
   readonly spectrumAnalysis?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#transmit_optimize ObjectWirelesscontrollerWtpprofileRadio1A#transmit_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#transmit_optimize ObjectWirelesscontrollerWtpprofileRadio1A#transmit_optimize}
   */
   readonly transmitOptimize?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap1 ObjectWirelesscontrollerWtpprofileRadio1A#vap1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap1 ObjectWirelesscontrollerWtpprofileRadio1A#vap1}
   */
   readonly vap1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap2 ObjectWirelesscontrollerWtpprofileRadio1A#vap2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap2 ObjectWirelesscontrollerWtpprofileRadio1A#vap2}
   */
   readonly vap2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap3 ObjectWirelesscontrollerWtpprofileRadio1A#vap3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap3 ObjectWirelesscontrollerWtpprofileRadio1A#vap3}
   */
   readonly vap3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap4 ObjectWirelesscontrollerWtpprofileRadio1A#vap4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap4 ObjectWirelesscontrollerWtpprofileRadio1A#vap4}
   */
   readonly vap4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap5 ObjectWirelesscontrollerWtpprofileRadio1A#vap5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap5 ObjectWirelesscontrollerWtpprofileRadio1A#vap5}
   */
   readonly vap5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap6 ObjectWirelesscontrollerWtpprofileRadio1A#vap6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap6 ObjectWirelesscontrollerWtpprofileRadio1A#vap6}
   */
   readonly vap6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap7 ObjectWirelesscontrollerWtpprofileRadio1A#vap7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap7 ObjectWirelesscontrollerWtpprofileRadio1A#vap7}
   */
   readonly vap7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap8 ObjectWirelesscontrollerWtpprofileRadio1A#vap8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap8 ObjectWirelesscontrollerWtpprofileRadio1A#vap8}
   */
   readonly vap8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap_all ObjectWirelesscontrollerWtpprofileRadio1A#vap_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vap_all ObjectWirelesscontrollerWtpprofileRadio1A#vap_all}
   */
   readonly vapAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vaps ObjectWirelesscontrollerWtpprofileRadio1A#vaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#vaps ObjectWirelesscontrollerWtpprofileRadio1A#vaps}
   */
   readonly vaps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#wids_profile ObjectWirelesscontrollerWtpprofileRadio1A#wids_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#wids_profile ObjectWirelesscontrollerWtpprofileRadio1A#wids_profile}
   */
   readonly widsProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#wtp_profile ObjectWirelesscontrollerWtpprofileRadio1A#wtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#wtp_profile ObjectWirelesscontrollerWtpprofileRadio1A#wtp_profile}
   */
   readonly wtpProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#zero_wait_dfs ObjectWirelesscontrollerWtpprofileRadio1A#zero_wait_dfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#zero_wait_dfs ObjectWirelesscontrollerWtpprofileRadio1A#zero_wait_dfs}
   */
   readonly zeroWaitDfs?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1 fortimanager_object_wirelesscontroller_wtpprofile_radio1}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1 fortimanager_object_wirelesscontroller_wtpprofile_radio1}
 */
 export class ObjectWirelesscontrollerWtpprofileRadio1A extends cdktf.TerraformResource {
 
@@ -401,7 +401,7 @@ export class ObjectWirelesscontrollerWtpprofileRadio1A extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ObjectWirelesscontrollerWtpprofileRadio1A resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerWtpprofileRadio1A to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileRadio1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileRadio1A that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerWtpprofileRadio1A to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -413,7 +413,7 @@ export class ObjectWirelesscontrollerWtpprofileRadio1A extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1 fortimanager_object_wirelesscontroller_wtpprofile_radio1} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_radio1 fortimanager_object_wirelesscontroller_wtpprofile_radio1} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -424,8 +424,8 @@ export class ObjectWirelesscontrollerWtpprofileRadio1A extends cdktf.TerraformRe
       terraformResourceType: 'fortimanager_object_wirelesscontroller_wtpprofile_radio1',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,288 +8,288 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuFpanomalyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#adom ObjectSystemNpuFpanomaly#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#adom ObjectSystemNpuFpanomaly#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#capwap_minlen_err ObjectSystemNpuFpanomaly#capwap_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#capwap_minlen_err ObjectSystemNpuFpanomaly#capwap_minlen_err}
   */
   readonly capwapMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#esp_minlen_err ObjectSystemNpuFpanomaly#esp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#esp_minlen_err ObjectSystemNpuFpanomaly#esp_minlen_err}
   */
   readonly espMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#gre_csum_err ObjectSystemNpuFpanomaly#gre_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#gre_csum_err ObjectSystemNpuFpanomaly#gre_csum_err}
   */
   readonly greCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#gtpu_plen_err ObjectSystemNpuFpanomaly#gtpu_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#gtpu_plen_err ObjectSystemNpuFpanomaly#gtpu_plen_err}
   */
   readonly gtpuPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#icmp_csum_err ObjectSystemNpuFpanomaly#icmp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#icmp_csum_err ObjectSystemNpuFpanomaly#icmp_csum_err}
   */
   readonly icmpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#icmp_frag ObjectSystemNpuFpanomaly#icmp_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#icmp_frag ObjectSystemNpuFpanomaly#icmp_frag}
   */
   readonly icmpFrag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#icmp_land ObjectSystemNpuFpanomaly#icmp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#icmp_land ObjectSystemNpuFpanomaly#icmp_land}
   */
   readonly icmpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#icmp_minlen_err ObjectSystemNpuFpanomaly#icmp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#icmp_minlen_err ObjectSystemNpuFpanomaly#icmp_minlen_err}
   */
   readonly icmpMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#id ObjectSystemNpuFpanomaly#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#id ObjectSystemNpuFpanomaly#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_csum_err ObjectSystemNpuFpanomaly#ipv4_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_csum_err ObjectSystemNpuFpanomaly#ipv4_csum_err}
   */
   readonly ipv4CsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_ihl_err ObjectSystemNpuFpanomaly#ipv4_ihl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_ihl_err ObjectSystemNpuFpanomaly#ipv4_ihl_err}
   */
   readonly ipv4IhlErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_land ObjectSystemNpuFpanomaly#ipv4_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_land ObjectSystemNpuFpanomaly#ipv4_land}
   */
   readonly ipv4Land?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_len_err ObjectSystemNpuFpanomaly#ipv4_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_len_err ObjectSystemNpuFpanomaly#ipv4_len_err}
   */
   readonly ipv4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_opt_err ObjectSystemNpuFpanomaly#ipv4_opt_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_opt_err ObjectSystemNpuFpanomaly#ipv4_opt_err}
   */
   readonly ipv4OptErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_optlsrr ObjectSystemNpuFpanomaly#ipv4_optlsrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_optlsrr ObjectSystemNpuFpanomaly#ipv4_optlsrr}
   */
   readonly ipv4Optlsrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_optrr ObjectSystemNpuFpanomaly#ipv4_optrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_optrr ObjectSystemNpuFpanomaly#ipv4_optrr}
   */
   readonly ipv4Optrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_optsecurity ObjectSystemNpuFpanomaly#ipv4_optsecurity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_optsecurity ObjectSystemNpuFpanomaly#ipv4_optsecurity}
   */
   readonly ipv4Optsecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_optssrr ObjectSystemNpuFpanomaly#ipv4_optssrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_optssrr ObjectSystemNpuFpanomaly#ipv4_optssrr}
   */
   readonly ipv4Optssrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_optstream ObjectSystemNpuFpanomaly#ipv4_optstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_optstream ObjectSystemNpuFpanomaly#ipv4_optstream}
   */
   readonly ipv4Optstream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_opttimestamp ObjectSystemNpuFpanomaly#ipv4_opttimestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_opttimestamp ObjectSystemNpuFpanomaly#ipv4_opttimestamp}
   */
   readonly ipv4Opttimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_proto_err ObjectSystemNpuFpanomaly#ipv4_proto_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_proto_err ObjectSystemNpuFpanomaly#ipv4_proto_err}
   */
   readonly ipv4ProtoErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_ttlzero_err ObjectSystemNpuFpanomaly#ipv4_ttlzero_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_ttlzero_err ObjectSystemNpuFpanomaly#ipv4_ttlzero_err}
   */
   readonly ipv4TtlzeroErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_unknopt ObjectSystemNpuFpanomaly#ipv4_unknopt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_unknopt ObjectSystemNpuFpanomaly#ipv4_unknopt}
   */
   readonly ipv4Unknopt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv4_ver_err ObjectSystemNpuFpanomaly#ipv4_ver_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv4_ver_err ObjectSystemNpuFpanomaly#ipv4_ver_err}
   */
   readonly ipv4VerErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_daddr_err ObjectSystemNpuFpanomaly#ipv6_daddr_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_daddr_err ObjectSystemNpuFpanomaly#ipv6_daddr_err}
   */
   readonly ipv6DaddrErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_exthdr_len_err ObjectSystemNpuFpanomaly#ipv6_exthdr_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_exthdr_len_err ObjectSystemNpuFpanomaly#ipv6_exthdr_len_err}
   */
   readonly ipv6ExthdrLenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_exthdr_order_err ObjectSystemNpuFpanomaly#ipv6_exthdr_order_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_exthdr_order_err ObjectSystemNpuFpanomaly#ipv6_exthdr_order_err}
   */
   readonly ipv6ExthdrOrderErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_ihl_err ObjectSystemNpuFpanomaly#ipv6_ihl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_ihl_err ObjectSystemNpuFpanomaly#ipv6_ihl_err}
   */
   readonly ipv6IhlErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_land ObjectSystemNpuFpanomaly#ipv6_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_land ObjectSystemNpuFpanomaly#ipv6_land}
   */
   readonly ipv6Land?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_optendpid ObjectSystemNpuFpanomaly#ipv6_optendpid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_optendpid ObjectSystemNpuFpanomaly#ipv6_optendpid}
   */
   readonly ipv6Optendpid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_opthomeaddr ObjectSystemNpuFpanomaly#ipv6_opthomeaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_opthomeaddr ObjectSystemNpuFpanomaly#ipv6_opthomeaddr}
   */
   readonly ipv6Opthomeaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_optinvld ObjectSystemNpuFpanomaly#ipv6_optinvld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_optinvld ObjectSystemNpuFpanomaly#ipv6_optinvld}
   */
   readonly ipv6Optinvld?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_optjumbo ObjectSystemNpuFpanomaly#ipv6_optjumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_optjumbo ObjectSystemNpuFpanomaly#ipv6_optjumbo}
   */
   readonly ipv6Optjumbo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_optnsap ObjectSystemNpuFpanomaly#ipv6_optnsap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_optnsap ObjectSystemNpuFpanomaly#ipv6_optnsap}
   */
   readonly ipv6Optnsap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_optralert ObjectSystemNpuFpanomaly#ipv6_optralert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_optralert ObjectSystemNpuFpanomaly#ipv6_optralert}
   */
   readonly ipv6Optralert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_opttunnel ObjectSystemNpuFpanomaly#ipv6_opttunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_opttunnel ObjectSystemNpuFpanomaly#ipv6_opttunnel}
   */
   readonly ipv6Opttunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_plen_zero ObjectSystemNpuFpanomaly#ipv6_plen_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_plen_zero ObjectSystemNpuFpanomaly#ipv6_plen_zero}
   */
   readonly ipv6PlenZero?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_proto_err ObjectSystemNpuFpanomaly#ipv6_proto_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_proto_err ObjectSystemNpuFpanomaly#ipv6_proto_err}
   */
   readonly ipv6ProtoErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_saddr_err ObjectSystemNpuFpanomaly#ipv6_saddr_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_saddr_err ObjectSystemNpuFpanomaly#ipv6_saddr_err}
   */
   readonly ipv6SaddrErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_unknopt ObjectSystemNpuFpanomaly#ipv6_unknopt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_unknopt ObjectSystemNpuFpanomaly#ipv6_unknopt}
   */
   readonly ipv6Unknopt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#ipv6_ver_err ObjectSystemNpuFpanomaly#ipv6_ver_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#ipv6_ver_err ObjectSystemNpuFpanomaly#ipv6_ver_err}
   */
   readonly ipv6VerErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#nvgre_minlen_err ObjectSystemNpuFpanomaly#nvgre_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#nvgre_minlen_err ObjectSystemNpuFpanomaly#nvgre_minlen_err}
   */
   readonly nvgreMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#scopetype ObjectSystemNpuFpanomaly#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#scopetype ObjectSystemNpuFpanomaly#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#sctp_clen_err ObjectSystemNpuFpanomaly#sctp_clen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#sctp_clen_err ObjectSystemNpuFpanomaly#sctp_clen_err}
   */
   readonly sctpClenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#sctp_crc_err ObjectSystemNpuFpanomaly#sctp_crc_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#sctp_crc_err ObjectSystemNpuFpanomaly#sctp_crc_err}
   */
   readonly sctpCrcErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#sctp_csum_err ObjectSystemNpuFpanomaly#sctp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#sctp_csum_err ObjectSystemNpuFpanomaly#sctp_csum_err}
   */
   readonly sctpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#sctp_l4len_err ObjectSystemNpuFpanomaly#sctp_l4len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#sctp_l4len_err ObjectSystemNpuFpanomaly#sctp_l4len_err}
   */
   readonly sctpL4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_csum_err ObjectSystemNpuFpanomaly#tcp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_csum_err ObjectSystemNpuFpanomaly#tcp_csum_err}
   */
   readonly tcpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_fin_noack ObjectSystemNpuFpanomaly#tcp_fin_noack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_fin_noack ObjectSystemNpuFpanomaly#tcp_fin_noack}
   */
   readonly tcpFinNoack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_fin_only ObjectSystemNpuFpanomaly#tcp_fin_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_fin_only ObjectSystemNpuFpanomaly#tcp_fin_only}
   */
   readonly tcpFinOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_hlen_err ObjectSystemNpuFpanomaly#tcp_hlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_hlen_err ObjectSystemNpuFpanomaly#tcp_hlen_err}
   */
   readonly tcpHlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_hlenvsl4len_err ObjectSystemNpuFpanomaly#tcp_hlenvsl4len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_hlenvsl4len_err ObjectSystemNpuFpanomaly#tcp_hlenvsl4len_err}
   */
   readonly tcpHlenvsl4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_land ObjectSystemNpuFpanomaly#tcp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_land ObjectSystemNpuFpanomaly#tcp_land}
   */
   readonly tcpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_no_flag ObjectSystemNpuFpanomaly#tcp_no_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_no_flag ObjectSystemNpuFpanomaly#tcp_no_flag}
   */
   readonly tcpNoFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_plen_err ObjectSystemNpuFpanomaly#tcp_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_plen_err ObjectSystemNpuFpanomaly#tcp_plen_err}
   */
   readonly tcpPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_syn_data ObjectSystemNpuFpanomaly#tcp_syn_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_syn_data ObjectSystemNpuFpanomaly#tcp_syn_data}
   */
   readonly tcpSynData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_syn_fin ObjectSystemNpuFpanomaly#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_syn_fin ObjectSystemNpuFpanomaly#tcp_syn_fin}
   */
   readonly tcpSynFin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#tcp_winnuke ObjectSystemNpuFpanomaly#tcp_winnuke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#tcp_winnuke ObjectSystemNpuFpanomaly#tcp_winnuke}
   */
   readonly tcpWinnuke?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udp_csum_err ObjectSystemNpuFpanomaly#udp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udp_csum_err ObjectSystemNpuFpanomaly#udp_csum_err}
   */
   readonly udpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udp_hlen_err ObjectSystemNpuFpanomaly#udp_hlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udp_hlen_err ObjectSystemNpuFpanomaly#udp_hlen_err}
   */
   readonly udpHlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udp_land ObjectSystemNpuFpanomaly#udp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udp_land ObjectSystemNpuFpanomaly#udp_land}
   */
   readonly udpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udp_len_err ObjectSystemNpuFpanomaly#udp_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udp_len_err ObjectSystemNpuFpanomaly#udp_len_err}
   */
   readonly udpLenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udp_plen_err ObjectSystemNpuFpanomaly#udp_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udp_plen_err ObjectSystemNpuFpanomaly#udp_plen_err}
   */
   readonly udpPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udplite_cover_err ObjectSystemNpuFpanomaly#udplite_cover_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udplite_cover_err ObjectSystemNpuFpanomaly#udplite_cover_err}
   */
   readonly udpliteCoverErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#udplite_csum_err ObjectSystemNpuFpanomaly#udplite_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#udplite_csum_err ObjectSystemNpuFpanomaly#udplite_csum_err}
   */
   readonly udpliteCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#uesp_minlen_err ObjectSystemNpuFpanomaly#uesp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#uesp_minlen_err ObjectSystemNpuFpanomaly#uesp_minlen_err}
   */
   readonly uespMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#unknproto_minlen_err ObjectSystemNpuFpanomaly#unknproto_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#unknproto_minlen_err ObjectSystemNpuFpanomaly#unknproto_minlen_err}
   */
   readonly unknprotoMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#vxlan_minlen_err ObjectSystemNpuFpanomaly#vxlan_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#vxlan_minlen_err ObjectSystemNpuFpanomaly#vxlan_minlen_err}
   */
   readonly vxlanMinlenErr?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly fortimanager_object_system_npu_fpanomaly}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly fortimanager_object_system_npu_fpanomaly}
 */
 export class ObjectSystemNpuFpanomaly extends cdktf.TerraformResource {
 
@@ -305,7 +305,7 @@ export class ObjectSystemNpuFpanomaly extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuFpanomaly resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuFpanomaly to import
-  * @param importFromId The id of the existing ObjectSystemNpuFpanomaly that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuFpanomaly that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuFpanomaly to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -317,7 +317,7 @@ export class ObjectSystemNpuFpanomaly extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_fpanomaly fortimanager_object_system_npu_fpanomaly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_fpanomaly fortimanager_object_system_npu_fpanomaly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -328,8 +328,8 @@ export class ObjectSystemNpuFpanomaly extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_fpanomaly',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

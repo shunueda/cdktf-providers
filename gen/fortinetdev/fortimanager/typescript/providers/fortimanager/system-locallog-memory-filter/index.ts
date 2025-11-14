@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,188 +8,188 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogMemoryFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#aid SystemLocallogMemoryFilter#aid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#aid SystemLocallogMemoryFilter#aid}
   */
   readonly aid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#controller SystemLocallogMemoryFilter#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#controller SystemLocallogMemoryFilter#controller}
   */
   readonly controller?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#devcfg SystemLocallogMemoryFilter#devcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#devcfg SystemLocallogMemoryFilter#devcfg}
   */
   readonly devcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#devops SystemLocallogMemoryFilter#devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#devops SystemLocallogMemoryFilter#devops}
   */
   readonly devops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#diskquota SystemLocallogMemoryFilter#diskquota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#diskquota SystemLocallogMemoryFilter#diskquota}
   */
   readonly diskquota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#dm SystemLocallogMemoryFilter#dm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#dm SystemLocallogMemoryFilter#dm}
   */
   readonly dm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#docker SystemLocallogMemoryFilter#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#docker SystemLocallogMemoryFilter#docker}
   */
   readonly docker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#dvm SystemLocallogMemoryFilter#dvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#dvm SystemLocallogMemoryFilter#dvm}
   */
   readonly dvm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#ediscovery SystemLocallogMemoryFilter#ediscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#ediscovery SystemLocallogMemoryFilter#ediscovery}
   */
   readonly ediscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#epmgr SystemLocallogMemoryFilter#epmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#epmgr SystemLocallogMemoryFilter#epmgr}
   */
   readonly epmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#event SystemLocallogMemoryFilter#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#event SystemLocallogMemoryFilter#event}
   */
   readonly event?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#eventmgmt SystemLocallogMemoryFilter#eventmgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#eventmgmt SystemLocallogMemoryFilter#eventmgmt}
   */
   readonly eventmgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#faz SystemLocallogMemoryFilter#faz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#faz SystemLocallogMemoryFilter#faz}
   */
   readonly faz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fazha SystemLocallogMemoryFilter#fazha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fazha SystemLocallogMemoryFilter#fazha}
   */
   readonly fazha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fazsys SystemLocallogMemoryFilter#fazsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fazsys SystemLocallogMemoryFilter#fazsys}
   */
   readonly fazsys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fgd SystemLocallogMemoryFilter#fgd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fgd SystemLocallogMemoryFilter#fgd}
   */
   readonly fgd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fgfm SystemLocallogMemoryFilter#fgfm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fgfm SystemLocallogMemoryFilter#fgfm}
   */
   readonly fgfm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fips SystemLocallogMemoryFilter#fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fips SystemLocallogMemoryFilter#fips}
   */
   readonly fips?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fmgws SystemLocallogMemoryFilter#fmgws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fmgws SystemLocallogMemoryFilter#fmgws}
   */
   readonly fmgws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fmlmgr SystemLocallogMemoryFilter#fmlmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fmlmgr SystemLocallogMemoryFilter#fmlmgr}
   */
   readonly fmlmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fmwmgr SystemLocallogMemoryFilter#fmwmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fmwmgr SystemLocallogMemoryFilter#fmwmgr}
   */
   readonly fmwmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#fortiview SystemLocallogMemoryFilter#fortiview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#fortiview SystemLocallogMemoryFilter#fortiview}
   */
   readonly fortiview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#glbcfg SystemLocallogMemoryFilter#glbcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#glbcfg SystemLocallogMemoryFilter#glbcfg}
   */
   readonly glbcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#ha SystemLocallogMemoryFilter#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#ha SystemLocallogMemoryFilter#ha}
   */
   readonly ha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#hcache SystemLocallogMemoryFilter#hcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#hcache SystemLocallogMemoryFilter#hcache}
   */
   readonly hcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#id SystemLocallogMemoryFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#id SystemLocallogMemoryFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#incident SystemLocallogMemoryFilter#incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#incident SystemLocallogMemoryFilter#incident}
   */
   readonly incident?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#iolog SystemLocallogMemoryFilter#iolog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#iolog SystemLocallogMemoryFilter#iolog}
   */
   readonly iolog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#logd SystemLocallogMemoryFilter#logd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#logd SystemLocallogMemoryFilter#logd}
   */
   readonly logd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#logdb SystemLocallogMemoryFilter#logdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#logdb SystemLocallogMemoryFilter#logdb}
   */
   readonly logdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#logdev SystemLocallogMemoryFilter#logdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#logdev SystemLocallogMemoryFilter#logdev}
   */
   readonly logdev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#logfile SystemLocallogMemoryFilter#logfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#logfile SystemLocallogMemoryFilter#logfile}
   */
   readonly logfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#logging SystemLocallogMemoryFilter#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#logging SystemLocallogMemoryFilter#logging}
   */
   readonly logging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#lrmgr SystemLocallogMemoryFilter#lrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#lrmgr SystemLocallogMemoryFilter#lrmgr}
   */
   readonly lrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#objcfg SystemLocallogMemoryFilter#objcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#objcfg SystemLocallogMemoryFilter#objcfg}
   */
   readonly objcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#report SystemLocallogMemoryFilter#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#report SystemLocallogMemoryFilter#report}
   */
   readonly report?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#rev SystemLocallogMemoryFilter#rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#rev SystemLocallogMemoryFilter#rev}
   */
   readonly rev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#rtmon SystemLocallogMemoryFilter#rtmon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#rtmon SystemLocallogMemoryFilter#rtmon}
   */
   readonly rtmon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#scfw SystemLocallogMemoryFilter#scfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#scfw SystemLocallogMemoryFilter#scfw}
   */
   readonly scfw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#scply SystemLocallogMemoryFilter#scply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#scply SystemLocallogMemoryFilter#scply}
   */
   readonly scply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#scrmgr SystemLocallogMemoryFilter#scrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#scrmgr SystemLocallogMemoryFilter#scrmgr}
   */
   readonly scrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#scvpn SystemLocallogMemoryFilter#scvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#scvpn SystemLocallogMemoryFilter#scvpn}
   */
   readonly scvpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#system SystemLocallogMemoryFilter#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#system SystemLocallogMemoryFilter#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#webport SystemLocallogMemoryFilter#webport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#webport SystemLocallogMemoryFilter#webport}
   */
   readonly webport?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter fortimanager_system_locallog_memory_filter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter fortimanager_system_locallog_memory_filter}
 */
 export class SystemLocallogMemoryFilter extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class SystemLocallogMemoryFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocallogMemoryFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogMemoryFilter to import
-  * @param importFromId The id of the existing SystemLocallogMemoryFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogMemoryFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogMemoryFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class SystemLocallogMemoryFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_locallog_memory_filter fortimanager_system_locallog_memory_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_locallog_memory_filter fortimanager_system_locallog_memory_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class SystemLocallogMemoryFilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_locallog_memory_filter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OutboundCallanalysisresponsesetConfig extends cdktf.TerraformMe
   /**
   * Whether to enable answering machine detection Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#amd_speech_distinguish_enabled OutboundCallanalysisresponseset#amd_speech_distinguish_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#amd_speech_distinguish_enabled OutboundCallanalysisresponseset#amd_speech_distinguish_enabled}
   */
   readonly amdSpeechDistinguishEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable answering machine beep detection Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#beep_detection_enabled OutboundCallanalysisresponseset#beep_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#beep_detection_enabled OutboundCallanalysisresponseset#beep_detection_enabled}
   */
   readonly beepDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#id OutboundCallanalysisresponseset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#id OutboundCallanalysisresponseset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface OutboundCallanalysisresponsesetConfig extends cdktf.TerraformMe
   /**
   * Setting level of live speaker detection based on ringbacks. Valid values: Disabled, Low, Medium, High.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#live_speaker_detection_mode OutboundCallanalysisresponseset#live_speaker_detection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#live_speaker_detection_mode OutboundCallanalysisresponseset#live_speaker_detection_mode}
   */
   readonly liveSpeakerDetectionMode?: string;
   /**
   * The name of the Response Set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name: string;
   /**
   * responses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#responses OutboundCallanalysisresponseset#responses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#responses OutboundCallanalysisresponseset#responses}
   */
   readonly responses?: OutboundCallanalysisresponsesetResponses;
 }
@@ -49,19 +49,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableBusy {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -202,19 +202,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableDisconnect {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -355,19 +355,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableFax {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -508,19 +508,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableLineconnected {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -661,19 +661,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableMachine {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -814,19 +814,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableNoanswer {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -967,19 +967,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallablePerson {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -1120,19 +1120,19 @@ export interface OutboundCallanalysisresponsesetResponsesCallableSit {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -1273,19 +1273,19 @@ export interface OutboundCallanalysisresponsesetResponsesUncallableNotfound {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -1426,19 +1426,19 @@ export interface OutboundCallanalysisresponsesetResponsesUncallableSit {
   /**
   * Parameter for this reaction. For transfer_flow, this would be the outbound flow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#data OutboundCallanalysisresponseset#data}
   */
   readonly data?: string;
   /**
   * Name of the parameter for this reaction. For transfer_flow, this would be the outbound flow name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#name OutboundCallanalysisresponseset#name}
   */
   readonly name?: string;
   /**
   * The reaction to take for a given call analysis result.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#reaction_type OutboundCallanalysisresponseset#reaction_type}
   */
   readonly reactionType: string;
 }
@@ -1579,61 +1579,61 @@ export interface OutboundCallanalysisresponsesetResponses {
   /**
   * callable_busy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_busy OutboundCallanalysisresponseset#callable_busy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_busy OutboundCallanalysisresponseset#callable_busy}
   */
   readonly callableBusy?: OutboundCallanalysisresponsesetResponsesCallableBusy;
   /**
   * callable_disconnect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_disconnect OutboundCallanalysisresponseset#callable_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_disconnect OutboundCallanalysisresponseset#callable_disconnect}
   */
   readonly callableDisconnect?: OutboundCallanalysisresponsesetResponsesCallableDisconnect;
   /**
   * callable_fax block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_fax OutboundCallanalysisresponseset#callable_fax}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_fax OutboundCallanalysisresponseset#callable_fax}
   */
   readonly callableFax?: OutboundCallanalysisresponsesetResponsesCallableFax;
   /**
   * callable_lineconnected block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_lineconnected OutboundCallanalysisresponseset#callable_lineconnected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_lineconnected OutboundCallanalysisresponseset#callable_lineconnected}
   */
   readonly callableLineconnected?: OutboundCallanalysisresponsesetResponsesCallableLineconnected;
   /**
   * callable_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_machine OutboundCallanalysisresponseset#callable_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_machine OutboundCallanalysisresponseset#callable_machine}
   */
   readonly callableMachine?: OutboundCallanalysisresponsesetResponsesCallableMachine;
   /**
   * callable_noanswer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_noanswer OutboundCallanalysisresponseset#callable_noanswer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_noanswer OutboundCallanalysisresponseset#callable_noanswer}
   */
   readonly callableNoanswer?: OutboundCallanalysisresponsesetResponsesCallableNoanswer;
   /**
   * callable_person block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_person OutboundCallanalysisresponseset#callable_person}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_person OutboundCallanalysisresponseset#callable_person}
   */
   readonly callablePerson?: OutboundCallanalysisresponsesetResponsesCallablePerson;
   /**
   * callable_sit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#callable_sit OutboundCallanalysisresponseset#callable_sit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#callable_sit OutboundCallanalysisresponseset#callable_sit}
   */
   readonly callableSit?: OutboundCallanalysisresponsesetResponsesCallableSit;
   /**
   * uncallable_notfound block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#uncallable_notfound OutboundCallanalysisresponseset#uncallable_notfound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#uncallable_notfound OutboundCallanalysisresponseset#uncallable_notfound}
   */
   readonly uncallableNotfound?: OutboundCallanalysisresponsesetResponsesUncallableNotfound;
   /**
   * uncallable_sit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#uncallable_sit OutboundCallanalysisresponseset#uncallable_sit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#uncallable_sit OutboundCallanalysisresponseset#uncallable_sit}
   */
   readonly uncallableSit?: OutboundCallanalysisresponsesetResponsesUncallableSit;
 }
@@ -1978,7 +1978,7 @@ export class OutboundCallanalysisresponsesetResponsesOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset genesyscloud_outbound_callanalysisresponseset}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset genesyscloud_outbound_callanalysisresponseset}
 */
 export class OutboundCallanalysisresponseset extends cdktf.TerraformResource {
 
@@ -1994,7 +1994,7 @@ export class OutboundCallanalysisresponseset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundCallanalysisresponseset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundCallanalysisresponseset to import
-  * @param importFromId The id of the existing OutboundCallanalysisresponseset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundCallanalysisresponseset that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundCallanalysisresponseset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2006,7 +2006,7 @@ export class OutboundCallanalysisresponseset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_callanalysisresponseset genesyscloud_outbound_callanalysisresponseset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_callanalysisresponseset genesyscloud_outbound_callanalysisresponseset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2017,8 +2017,8 @@ export class OutboundCallanalysisresponseset extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_callanalysisresponseset',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

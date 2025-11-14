@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuBackgroundssescanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#adom ObjectSystemNpuBackgroundssescan#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#adom ObjectSystemNpuBackgroundssescan#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#id ObjectSystemNpuBackgroundssescan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#id ObjectSystemNpuBackgroundssescan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#scan ObjectSystemNpuBackgroundssescan#scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#scan ObjectSystemNpuBackgroundssescan#scan}
   */
   readonly scan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#scan_stale ObjectSystemNpuBackgroundssescan#scan_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#scan_stale ObjectSystemNpuBackgroundssescan#scan_stale}
   */
   readonly scanStale?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#scan_vt ObjectSystemNpuBackgroundssescan#scan_vt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#scan_vt ObjectSystemNpuBackgroundssescan#scan_vt}
   */
   readonly scanVt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#scopetype ObjectSystemNpuBackgroundssescan#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#scopetype ObjectSystemNpuBackgroundssescan#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#stats_qual_access ObjectSystemNpuBackgroundssescan#stats_qual_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#stats_qual_access ObjectSystemNpuBackgroundssescan#stats_qual_access}
   */
   readonly statsQualAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#stats_qual_duration ObjectSystemNpuBackgroundssescan#stats_qual_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#stats_qual_duration ObjectSystemNpuBackgroundssescan#stats_qual_duration}
   */
   readonly statsQualDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#stats_update_interval ObjectSystemNpuBackgroundssescan#stats_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#stats_update_interval ObjectSystemNpuBackgroundssescan#stats_update_interval}
   */
   readonly statsUpdateInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#udp_keepalive_interval ObjectSystemNpuBackgroundssescan#udp_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#udp_keepalive_interval ObjectSystemNpuBackgroundssescan#udp_keepalive_interval}
   */
   readonly udpKeepaliveInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#udp_qual_access ObjectSystemNpuBackgroundssescan#udp_qual_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#udp_qual_access ObjectSystemNpuBackgroundssescan#udp_qual_access}
   */
   readonly udpQualAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#udp_qual_duration ObjectSystemNpuBackgroundssescan#udp_qual_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#udp_qual_duration ObjectSystemNpuBackgroundssescan#udp_qual_duration}
   */
   readonly udpQualDuration?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan fortimanager_object_system_npu_backgroundssescan}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan fortimanager_object_system_npu_backgroundssescan}
 */
 export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuBackgroundssescan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuBackgroundssescan to import
-  * @param importFromId The id of the existing ObjectSystemNpuBackgroundssescan that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuBackgroundssescan that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuBackgroundssescan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_backgroundssescan fortimanager_object_system_npu_backgroundssescan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_backgroundssescan fortimanager_object_system_npu_backgroundssescan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_backgroundssescan',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -193,7 +193,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._scanStale;
   }
 
-  // scan_vt - computed: false, optional: true, required: false
+  // scan_vt - computed: true, optional: true, required: false
   private _scanVt?: number; 
   public get scanVt() {
     return this.getNumberAttribute('scan_vt');
@@ -225,7 +225,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._scopetype;
   }
 
-  // stats_qual_access - computed: false, optional: true, required: false
+  // stats_qual_access - computed: true, optional: true, required: false
   private _statsQualAccess?: number; 
   public get statsQualAccess() {
     return this.getNumberAttribute('stats_qual_access');
@@ -241,7 +241,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._statsQualAccess;
   }
 
-  // stats_qual_duration - computed: false, optional: true, required: false
+  // stats_qual_duration - computed: true, optional: true, required: false
   private _statsQualDuration?: number; 
   public get statsQualDuration() {
     return this.getNumberAttribute('stats_qual_duration');
@@ -257,7 +257,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._statsQualDuration;
   }
 
-  // stats_update_interval - computed: false, optional: true, required: false
+  // stats_update_interval - computed: true, optional: true, required: false
   private _statsUpdateInterval?: number; 
   public get statsUpdateInterval() {
     return this.getNumberAttribute('stats_update_interval');
@@ -273,7 +273,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._statsUpdateInterval;
   }
 
-  // udp_keepalive_interval - computed: false, optional: true, required: false
+  // udp_keepalive_interval - computed: true, optional: true, required: false
   private _udpKeepaliveInterval?: number; 
   public get udpKeepaliveInterval() {
     return this.getNumberAttribute('udp_keepalive_interval');
@@ -289,7 +289,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._udpKeepaliveInterval;
   }
 
-  // udp_qual_access - computed: false, optional: true, required: false
+  // udp_qual_access - computed: true, optional: true, required: false
   private _udpQualAccess?: number; 
   public get udpQualAccess() {
     return this.getNumberAttribute('udp_qual_access');
@@ -305,7 +305,7 @@ export class ObjectSystemNpuBackgroundssescan extends cdktf.TerraformResource {
     return this._udpQualAccess;
   }
 
-  // udp_qual_duration - computed: false, optional: true, required: false
+  // udp_qual_duration - computed: true, optional: true, required: false
   private _udpQualDuration?: number; 
   public get udpQualDuration() {
     return this.getNumberAttribute('udp_qual_duration');

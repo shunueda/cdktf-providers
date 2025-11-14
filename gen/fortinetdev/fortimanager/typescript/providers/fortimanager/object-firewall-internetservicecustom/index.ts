@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,71 +8,71 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallInternetservicecustomConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#adom ObjectFirewallInternetservicecustom#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#adom ObjectFirewallInternetservicecustom#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#comment ObjectFirewallInternetservicecustom#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#comment ObjectFirewallInternetservicecustom#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#dynamic_sort_subtable ObjectFirewallInternetservicecustom#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#dynamic_sort_subtable ObjectFirewallInternetservicecustom#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#fosid ObjectFirewallInternetservicecustom#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#fosid ObjectFirewallInternetservicecustom#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#master_service_id ObjectFirewallInternetservicecustom#master_service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#master_service_id ObjectFirewallInternetservicecustom#master_service_id}
   */
   readonly masterServiceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#name ObjectFirewallInternetservicecustom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#name ObjectFirewallInternetservicecustom#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#reputation ObjectFirewallInternetservicecustom#reputation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#reputation ObjectFirewallInternetservicecustom#reputation}
   */
   readonly reputation?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#scopetype ObjectFirewallInternetservicecustom#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#scopetype ObjectFirewallInternetservicecustom#scopetype}
   */
   readonly scopetype?: string;
   /**
   * disable_entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#disable_entry ObjectFirewallInternetservicecustom#disable_entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#disable_entry ObjectFirewallInternetservicecustom#disable_entry}
   */
   readonly disableEntry?: ObjectFirewallInternetservicecustomDisableEntry[] | cdktf.IResolvable;
   /**
   * entry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#entry ObjectFirewallInternetservicecustom#entry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#entry ObjectFirewallInternetservicecustom#entry}
   */
   readonly entry?: ObjectFirewallInternetservicecustomEntry[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallInternetservicecustomDisableEntryIpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#end_ip ObjectFirewallInternetservicecustom#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#end_ip ObjectFirewallInternetservicecustom#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#start_ip ObjectFirewallInternetservicecustom#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#start_ip ObjectFirewallInternetservicecustom#start_ip}
   */
   readonly startIp?: string;
 }
@@ -246,24 +246,24 @@ export class ObjectFirewallInternetservicecustomDisableEntryIpRangeList extends 
 }
 export interface ObjectFirewallInternetservicecustomDisableEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#port ObjectFirewallInternetservicecustom#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#port ObjectFirewallInternetservicecustom#port}
   */
   readonly port?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#protocol ObjectFirewallInternetservicecustom#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#protocol ObjectFirewallInternetservicecustom#protocol}
   */
   readonly protocol?: number;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#ip_range ObjectFirewallInternetservicecustom#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#ip_range ObjectFirewallInternetservicecustom#ip_range}
   */
   readonly ipRange?: ObjectFirewallInternetservicecustomDisableEntryIpRange[] | cdktf.IResolvable;
 }
@@ -466,18 +466,18 @@ export class ObjectFirewallInternetservicecustomDisableEntryList extends cdktf.C
 }
 export interface ObjectFirewallInternetservicecustomEntryPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#end_port ObjectFirewallInternetservicecustom#end_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#end_port ObjectFirewallInternetservicecustom#end_port}
   */
   readonly endPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#start_port ObjectFirewallInternetservicecustom#start_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#start_port ObjectFirewallInternetservicecustom#start_port}
   */
   readonly startPort?: number;
 }
@@ -651,32 +651,32 @@ export class ObjectFirewallInternetservicecustomEntryPortRangeList extends cdktf
 }
 export interface ObjectFirewallInternetservicecustomEntry {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#addr_mode ObjectFirewallInternetservicecustom#addr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#addr_mode ObjectFirewallInternetservicecustom#addr_mode}
   */
   readonly addrMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#dst ObjectFirewallInternetservicecustom#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#dst ObjectFirewallInternetservicecustom#dst}
   */
   readonly dst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#dst6 ObjectFirewallInternetservicecustom#dst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#dst6 ObjectFirewallInternetservicecustom#dst6}
   */
   readonly dst6?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#id ObjectFirewallInternetservicecustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#protocol ObjectFirewallInternetservicecustom#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#protocol ObjectFirewallInternetservicecustom#protocol}
   */
   readonly protocol?: number;
   /**
   * port_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#port_range ObjectFirewallInternetservicecustom#port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#port_range ObjectFirewallInternetservicecustom#port_range}
   */
   readonly portRange?: ObjectFirewallInternetservicecustomEntryPortRange[] | cdktf.IResolvable;
 }
@@ -937,7 +937,7 @@ export class ObjectFirewallInternetservicecustomEntryList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom fortimanager_object_firewall_internetservicecustom}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom fortimanager_object_firewall_internetservicecustom}
 */
 export class ObjectFirewallInternetservicecustom extends cdktf.TerraformResource {
 
@@ -953,7 +953,7 @@ export class ObjectFirewallInternetservicecustom extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectFirewallInternetservicecustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallInternetservicecustom to import
-  * @param importFromId The id of the existing ObjectFirewallInternetservicecustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallInternetservicecustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallInternetservicecustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -965,7 +965,7 @@ export class ObjectFirewallInternetservicecustom extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_internetservicecustom fortimanager_object_firewall_internetservicecustom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_internetservicecustom fortimanager_object_firewall_internetservicecustom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -976,8 +976,8 @@ export class ObjectFirewallInternetservicecustom extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_firewall_internetservicecustom',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

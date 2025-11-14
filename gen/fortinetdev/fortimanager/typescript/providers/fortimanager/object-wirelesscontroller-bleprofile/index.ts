@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerBleprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#adom ObjectWirelesscontrollerBleprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#adom ObjectWirelesscontrollerBleprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#advertising ObjectWirelesscontrollerBleprofile#advertising}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#advertising ObjectWirelesscontrollerBleprofile#advertising}
   */
   readonly advertising?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#beacon_interval ObjectWirelesscontrollerBleprofile#beacon_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#beacon_interval ObjectWirelesscontrollerBleprofile#beacon_interval}
   */
   readonly beaconInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#ble_scanning ObjectWirelesscontrollerBleprofile#ble_scanning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#ble_scanning ObjectWirelesscontrollerBleprofile#ble_scanning}
   */
   readonly bleScanning?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#comment ObjectWirelesscontrollerBleprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#comment ObjectWirelesscontrollerBleprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_instance ObjectWirelesscontrollerBleprofile#eddystone_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_instance ObjectWirelesscontrollerBleprofile#eddystone_instance}
   */
   readonly eddystoneInstance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_namespace ObjectWirelesscontrollerBleprofile#eddystone_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_namespace ObjectWirelesscontrollerBleprofile#eddystone_namespace}
   */
   readonly eddystoneNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_url ObjectWirelesscontrollerBleprofile#eddystone_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_url ObjectWirelesscontrollerBleprofile#eddystone_url}
   */
   readonly eddystoneUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_url_encode_hex ObjectWirelesscontrollerBleprofile#eddystone_url_encode_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#eddystone_url_encode_hex ObjectWirelesscontrollerBleprofile#eddystone_url_encode_hex}
   */
   readonly eddystoneUrlEncodeHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#ibeacon_uuid ObjectWirelesscontrollerBleprofile#ibeacon_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#ibeacon_uuid ObjectWirelesscontrollerBleprofile#ibeacon_uuid}
   */
   readonly ibeaconUuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#id ObjectWirelesscontrollerBleprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#id ObjectWirelesscontrollerBleprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#major_id ObjectWirelesscontrollerBleprofile#major_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#major_id ObjectWirelesscontrollerBleprofile#major_id}
   */
   readonly majorId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#minor_id ObjectWirelesscontrollerBleprofile#minor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#minor_id ObjectWirelesscontrollerBleprofile#minor_id}
   */
   readonly minorId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#name ObjectWirelesscontrollerBleprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#name ObjectWirelesscontrollerBleprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_interval ObjectWirelesscontrollerBleprofile#scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_interval ObjectWirelesscontrollerBleprofile#scan_interval}
   */
   readonly scanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_period ObjectWirelesscontrollerBleprofile#scan_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_period ObjectWirelesscontrollerBleprofile#scan_period}
   */
   readonly scanPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_threshold ObjectWirelesscontrollerBleprofile#scan_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_threshold ObjectWirelesscontrollerBleprofile#scan_threshold}
   */
   readonly scanThreshold?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_time ObjectWirelesscontrollerBleprofile#scan_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_time ObjectWirelesscontrollerBleprofile#scan_time}
   */
   readonly scanTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_type ObjectWirelesscontrollerBleprofile#scan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_type ObjectWirelesscontrollerBleprofile#scan_type}
   */
   readonly scanType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scan_window ObjectWirelesscontrollerBleprofile#scan_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scan_window ObjectWirelesscontrollerBleprofile#scan_window}
   */
   readonly scanWindow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#scopetype ObjectWirelesscontrollerBleprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#scopetype ObjectWirelesscontrollerBleprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#txpower ObjectWirelesscontrollerBleprofile#txpower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#txpower ObjectWirelesscontrollerBleprofile#txpower}
   */
   readonly txpower?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile fortimanager_object_wirelesscontroller_bleprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile fortimanager_object_wirelesscontroller_bleprofile}
 */
 export class ObjectWirelesscontrollerBleprofile extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class ObjectWirelesscontrollerBleprofile extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectWirelesscontrollerBleprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerBleprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerBleprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerBleprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerBleprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class ObjectWirelesscontrollerBleprofile extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bleprofile fortimanager_object_wirelesscontroller_bleprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bleprofile fortimanager_object_wirelesscontroller_bleprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class ObjectWirelesscontrollerBleprofile extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_wirelesscontroller_bleprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

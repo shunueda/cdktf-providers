@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserGroupDynamicMappingMatchAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#_gui_meta ObjectUserGroupDynamicMappingMatchA#_gui_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#_gui_meta ObjectUserGroupDynamicMappingMatchA#_gui_meta}
   */
   readonly guiMeta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#adom ObjectUserGroupDynamicMappingMatchA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#adom ObjectUserGroupDynamicMappingMatchA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#dynamic_mapping_name ObjectUserGroupDynamicMappingMatchA#dynamic_mapping_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#dynamic_mapping_name ObjectUserGroupDynamicMappingMatchA#dynamic_mapping_name}
   */
   readonly dynamicMappingName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#dynamic_mapping_vdom ObjectUserGroupDynamicMappingMatchA#dynamic_mapping_vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#dynamic_mapping_vdom ObjectUserGroupDynamicMappingMatchA#dynamic_mapping_vdom}
   */
   readonly dynamicMappingVdom: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#fosid ObjectUserGroupDynamicMappingMatchA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#fosid ObjectUserGroupDynamicMappingMatchA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#group ObjectUserGroupDynamicMappingMatchA#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#group ObjectUserGroupDynamicMappingMatchA#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#group_name ObjectUserGroupDynamicMappingMatchA#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#group_name ObjectUserGroupDynamicMappingMatchA#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#id ObjectUserGroupDynamicMappingMatchA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#id ObjectUserGroupDynamicMappingMatchA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#scopetype ObjectUserGroupDynamicMappingMatchA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#scopetype ObjectUserGroupDynamicMappingMatchA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#server_name ObjectUserGroupDynamicMappingMatchA#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#server_name ObjectUserGroupDynamicMappingMatchA#server_name}
   */
   readonly serverName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match fortimanager_object_user_group_dynamic_mapping_match}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match fortimanager_object_user_group_dynamic_mapping_match}
 */
 export class ObjectUserGroupDynamicMappingMatchA extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ObjectUserGroupDynamicMappingMatchA extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectUserGroupDynamicMappingMatchA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserGroupDynamicMappingMatchA to import
-  * @param importFromId The id of the existing ObjectUserGroupDynamicMappingMatchA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserGroupDynamicMappingMatchA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserGroupDynamicMappingMatchA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ObjectUserGroupDynamicMappingMatchA extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_group_dynamic_mapping_match fortimanager_object_user_group_dynamic_mapping_match} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_group_dynamic_mapping_match fortimanager_object_user_group_dynamic_mapping_match} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ObjectUserGroupDynamicMappingMatchA extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_user_group_dynamic_mapping_match',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

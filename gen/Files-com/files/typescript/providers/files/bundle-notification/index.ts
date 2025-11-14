@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification
+// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface BundleNotificationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Bundle ID to notify on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#bundle_id BundleNotification#bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#bundle_id BundleNotification#bundle_id}
   */
   readonly bundleId: number;
   /**
   * Triggers bundle notification when a registration action occurs for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#notify_on_registration BundleNotification#notify_on_registration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#notify_on_registration BundleNotification#notify_on_registration}
   */
   readonly notifyOnRegistration?: boolean | cdktf.IResolvable;
   /**
   * Triggers bundle notification when a upload action occurs for it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#notify_on_upload BundleNotification#notify_on_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#notify_on_upload BundleNotification#notify_on_upload}
   */
   readonly notifyOnUpload?: boolean | cdktf.IResolvable;
   /**
   * The id of the user to notify.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#notify_user_id BundleNotification#notify_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#notify_user_id BundleNotification#notify_user_id}
   */
   readonly notifyUserId?: number;
   /**
   * User ID.  Provide a value of `0` to operate the current session's user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#user_id BundleNotification#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#user_id BundleNotification#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification files_bundle_notification}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification files_bundle_notification}
 */
 export class BundleNotification extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class BundleNotification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BundleNotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BundleNotification to import
-  * @param importFromId The id of the existing BundleNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BundleNotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BundleNotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class BundleNotification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/bundle_notification files_bundle_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/bundle_notification files_bundle_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class BundleNotification extends cdktf.TerraformResource {
       terraformResourceType: 'files_bundle_notification',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.377',
-        providerVersionConstraint: '0.1.377'
+        providerVersion: '0.1.379',
+        providerVersionConstraint: '0.1.379'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

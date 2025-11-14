@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,170 +8,170 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnSslWebPortalBookmarkgroupBookmarksAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#additional_params ObjectVpnSslWebPortalBookmarkgroupBookmarksA#additional_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#additional_params ObjectVpnSslWebPortalBookmarkgroupBookmarksA#additional_params}
   */
   readonly additionalParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#adom ObjectVpnSslWebPortalBookmarkgroupBookmarksA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#adom ObjectVpnSslWebPortalBookmarkgroupBookmarksA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#apptype ObjectVpnSslWebPortalBookmarkgroupBookmarksA#apptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#apptype ObjectVpnSslWebPortalBookmarkgroupBookmarksA#apptype}
   */
   readonly apptype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#bookmark_group ObjectVpnSslWebPortalBookmarkgroupBookmarksA#bookmark_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#bookmark_group ObjectVpnSslWebPortalBookmarkgroupBookmarksA#bookmark_group}
   */
   readonly bookmarkGroup: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#color_depth ObjectVpnSslWebPortalBookmarkgroupBookmarksA#color_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#color_depth ObjectVpnSslWebPortalBookmarkgroupBookmarksA#color_depth}
   */
   readonly colorDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#description ObjectVpnSslWebPortalBookmarkgroupBookmarksA#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#description ObjectVpnSslWebPortalBookmarkgroupBookmarksA#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#domain ObjectVpnSslWebPortalBookmarkgroupBookmarksA#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#domain ObjectVpnSslWebPortalBookmarkgroupBookmarksA#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#dynamic_sort_subtable ObjectVpnSslWebPortalBookmarkgroupBookmarksA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#dynamic_sort_subtable ObjectVpnSslWebPortalBookmarkgroupBookmarksA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#folder ObjectVpnSslWebPortalBookmarkgroupBookmarksA#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#folder ObjectVpnSslWebPortalBookmarkgroupBookmarksA#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#height ObjectVpnSslWebPortalBookmarkgroupBookmarksA#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#height ObjectVpnSslWebPortalBookmarkgroupBookmarksA#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#host ObjectVpnSslWebPortalBookmarkgroupBookmarksA#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#host ObjectVpnSslWebPortalBookmarkgroupBookmarksA#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#keyboard_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#keyboard_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#keyboard_layout}
   */
   readonly keyboardLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#listening_port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#listening_port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#listening_port}
   */
   readonly listeningPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#load_balancing_info ObjectVpnSslWebPortalBookmarkgroupBookmarksA#load_balancing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#load_balancing_info ObjectVpnSslWebPortalBookmarkgroupBookmarksA#load_balancing_info}
   */
   readonly loadBalancingInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#logon_password ObjectVpnSslWebPortalBookmarkgroupBookmarksA#logon_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#logon_password ObjectVpnSslWebPortalBookmarkgroupBookmarksA#logon_password}
   */
   readonly logonPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#logon_user ObjectVpnSslWebPortalBookmarkgroupBookmarksA#logon_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#logon_user ObjectVpnSslWebPortalBookmarkgroupBookmarksA#logon_user}
   */
   readonly logonUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#name ObjectVpnSslWebPortalBookmarkgroupBookmarksA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#name ObjectVpnSslWebPortalBookmarkgroupBookmarksA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#portal ObjectVpnSslWebPortalBookmarkgroupBookmarksA#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#portal ObjectVpnSslWebPortalBookmarkgroupBookmarksA#portal}
   */
   readonly portal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#preconnection_blob ObjectVpnSslWebPortalBookmarkgroupBookmarksA#preconnection_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#preconnection_blob ObjectVpnSslWebPortalBookmarkgroupBookmarksA#preconnection_blob}
   */
   readonly preconnectionBlob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#preconnection_id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#preconnection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#preconnection_id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#preconnection_id}
   */
   readonly preconnectionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#remote_port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#remote_port ObjectVpnSslWebPortalBookmarkgroupBookmarksA#remote_port}
   */
   readonly remotePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#restricted_admin ObjectVpnSslWebPortalBookmarkgroupBookmarksA#restricted_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#restricted_admin ObjectVpnSslWebPortalBookmarkgroupBookmarksA#restricted_admin}
   */
   readonly restrictedAdmin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#scopetype ObjectVpnSslWebPortalBookmarkgroupBookmarksA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#scopetype ObjectVpnSslWebPortalBookmarkgroupBookmarksA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#security ObjectVpnSslWebPortalBookmarkgroupBookmarksA#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#security ObjectVpnSslWebPortalBookmarkgroupBookmarksA#security}
   */
   readonly security?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#send_preconnection_id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#send_preconnection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#send_preconnection_id ObjectVpnSslWebPortalBookmarkgroupBookmarksA#send_preconnection_id}
   */
   readonly sendPreconnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#server_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#server_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#server_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#server_layout}
   */
   readonly serverLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#show_status_window ObjectVpnSslWebPortalBookmarkgroupBookmarksA#show_status_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#show_status_window ObjectVpnSslWebPortalBookmarkgroupBookmarksA#show_status_window}
   */
   readonly showStatusWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_credential ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_credential ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_credential}
   */
   readonly ssoCredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_credential_sent_once ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_credential_sent_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_credential_sent_once ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_credential_sent_once}
   */
   readonly ssoCredentialSentOnce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_password ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_password ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_password}
   */
   readonly ssoPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_username ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#sso_username ObjectVpnSslWebPortalBookmarkgroupBookmarksA#sso_username}
   */
   readonly ssoUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#url ObjectVpnSslWebPortalBookmarkgroupBookmarksA#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#url ObjectVpnSslWebPortalBookmarkgroupBookmarksA#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#vnc_keyboard_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#vnc_keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#vnc_keyboard_layout ObjectVpnSslWebPortalBookmarkgroupBookmarksA#vnc_keyboard_layout}
   */
   readonly vncKeyboardLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#width ObjectVpnSslWebPortalBookmarkgroupBookmarksA#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#width ObjectVpnSslWebPortalBookmarkgroupBookmarksA#width}
   */
   readonly width?: number;
   /**
   * form_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#form_data ObjectVpnSslWebPortalBookmarkgroupBookmarksA#form_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#form_data ObjectVpnSslWebPortalBookmarkgroupBookmarksA#form_data}
   */
   readonly formData?: ObjectVpnSslWebPortalBookmarkgroupBookmarksFormDataA[] | cdktf.IResolvable;
 }
 export interface ObjectVpnSslWebPortalBookmarkgroupBookmarksFormDataA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#name ObjectVpnSslWebPortalBookmarkgroupBookmarksA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#name ObjectVpnSslWebPortalBookmarkgroupBookmarksA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#value ObjectVpnSslWebPortalBookmarkgroupBookmarksA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#value ObjectVpnSslWebPortalBookmarkgroupBookmarksA#value}
   */
   readonly value?: string;
 }
@@ -316,7 +316,7 @@ export class ObjectVpnSslWebPortalBookmarkgroupBookmarksFormDataAList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_bookmarks}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_bookmarks}
 */
 export class ObjectVpnSslWebPortalBookmarkgroupBookmarksA extends cdktf.TerraformResource {
 
@@ -332,7 +332,7 @@ export class ObjectVpnSslWebPortalBookmarkgroupBookmarksA extends cdktf.Terrafor
   * Generates CDKTF code for importing a ObjectVpnSslWebPortalBookmarkgroupBookmarksA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnSslWebPortalBookmarkgroupBookmarksA to import
-  * @param importFromId The id of the existing ObjectVpnSslWebPortalBookmarkgroupBookmarksA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnSslWebPortalBookmarkgroupBookmarksA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnSslWebPortalBookmarkgroupBookmarksA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -344,7 +344,7 @@ export class ObjectVpnSslWebPortalBookmarkgroupBookmarksA extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_bookmarks} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_bookmarkgroup_bookmarks fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_bookmarks} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -355,8 +355,8 @@ export class ObjectVpnSslWebPortalBookmarkgroupBookmarksA extends cdktf.Terrafor
       terraformResourceType: 'fortimanager_object_vpn_ssl_web_portal_bookmarkgroup_bookmarks',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

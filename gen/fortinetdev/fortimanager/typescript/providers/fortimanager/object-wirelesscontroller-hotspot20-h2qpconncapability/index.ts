@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20H2QpconncapabilityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#adom ObjectWirelesscontrollerHotspot20H2Qpconncapability#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#adom ObjectWirelesscontrollerHotspot20H2Qpconncapability#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#esp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#esp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#esp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#esp_port}
   */
   readonly espPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ftp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ftp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ftp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ftp_port}
   */
   readonly ftpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#http_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#http_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#http_port}
   */
   readonly httpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#icmp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#icmp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#icmp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#icmp_port}
   */
   readonly icmpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#id ObjectWirelesscontrollerHotspot20H2Qpconncapability#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#id ObjectWirelesscontrollerHotspot20H2Qpconncapability#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ikev2_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ikev2_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ikev2_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ikev2_port}
   */
   readonly ikev2Port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ikev2_xx_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ikev2_xx_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ikev2_xx_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ikev2_xx_port}
   */
   readonly ikev2XxPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#name ObjectWirelesscontrollerHotspot20H2Qpconncapability#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#name ObjectWirelesscontrollerHotspot20H2Qpconncapability#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#pptp_vpn_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#pptp_vpn_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#pptp_vpn_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#pptp_vpn_port}
   */
   readonly pptpVpnPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#scopetype ObjectWirelesscontrollerHotspot20H2Qpconncapability#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#scopetype ObjectWirelesscontrollerHotspot20H2Qpconncapability#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ssh_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#ssh_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#ssh_port}
   */
   readonly sshPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#tls_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#tls_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#tls_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#tls_port}
   */
   readonly tlsPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#voip_tcp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#voip_tcp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#voip_tcp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#voip_tcp_port}
   */
   readonly voipTcpPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#voip_udp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#voip_udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#voip_udp_port ObjectWirelesscontrollerHotspot20H2Qpconncapability#voip_udp_port}
   */
   readonly voipUdpPort?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability}
 */
 export class ObjectWirelesscontrollerHotspot20H2Qpconncapability extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ObjectWirelesscontrollerHotspot20H2Qpconncapability extends cdktf.T
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20H2Qpconncapability resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20H2Qpconncapability to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2Qpconncapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20H2Qpconncapability that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20H2Qpconncapability to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ObjectWirelesscontrollerHotspot20H2Qpconncapability extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_h2qpconncapability fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ObjectWirelesscontrollerHotspot20H2Qpconncapability extends cdktf.T
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_h2qpconncapability',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

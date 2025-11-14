@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFspVlanInterfaceSecondaryipAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#adom ObjectFspVlanInterfaceSecondaryipA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#adom ObjectFspVlanInterfaceSecondaryipA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#allowaccess ObjectFspVlanInterfaceSecondaryipA#allowaccess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#allowaccess ObjectFspVlanInterfaceSecondaryipA#allowaccess}
   */
   readonly allowaccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#detectprotocol ObjectFspVlanInterfaceSecondaryipA#detectprotocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#detectprotocol ObjectFspVlanInterfaceSecondaryipA#detectprotocol}
   */
   readonly detectprotocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#detectserver ObjectFspVlanInterfaceSecondaryipA#detectserver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#detectserver ObjectFspVlanInterfaceSecondaryipA#detectserver}
   */
   readonly detectserver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#fosid ObjectFspVlanInterfaceSecondaryipA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#fosid ObjectFspVlanInterfaceSecondaryipA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#gwdetect ObjectFspVlanInterfaceSecondaryipA#gwdetect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#gwdetect ObjectFspVlanInterfaceSecondaryipA#gwdetect}
   */
   readonly gwdetect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#ha_priority ObjectFspVlanInterfaceSecondaryipA#ha_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#ha_priority ObjectFspVlanInterfaceSecondaryipA#ha_priority}
   */
   readonly haPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#id ObjectFspVlanInterfaceSecondaryipA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#id ObjectFspVlanInterfaceSecondaryipA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#ip ObjectFspVlanInterfaceSecondaryipA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#ip ObjectFspVlanInterfaceSecondaryipA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#ping_serv_status ObjectFspVlanInterfaceSecondaryipA#ping_serv_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#ping_serv_status ObjectFspVlanInterfaceSecondaryipA#ping_serv_status}
   */
   readonly pingServStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#scopetype ObjectFspVlanInterfaceSecondaryipA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#scopetype ObjectFspVlanInterfaceSecondaryipA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#secip_relay_ip ObjectFspVlanInterfaceSecondaryipA#secip_relay_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#secip_relay_ip ObjectFspVlanInterfaceSecondaryipA#secip_relay_ip}
   */
   readonly secipRelayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#seq ObjectFspVlanInterfaceSecondaryipA#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#seq ObjectFspVlanInterfaceSecondaryipA#seq}
   */
   readonly seq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#vlan ObjectFspVlanInterfaceSecondaryipA#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#vlan ObjectFspVlanInterfaceSecondaryipA#vlan}
   */
   readonly vlan: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip fortimanager_object_fsp_vlan_interface_secondaryip}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip fortimanager_object_fsp_vlan_interface_secondaryip}
 */
 export class ObjectFspVlanInterfaceSecondaryipA extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class ObjectFspVlanInterfaceSecondaryipA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectFspVlanInterfaceSecondaryipA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFspVlanInterfaceSecondaryipA to import
-  * @param importFromId The id of the existing ObjectFspVlanInterfaceSecondaryipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFspVlanInterfaceSecondaryipA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFspVlanInterfaceSecondaryipA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class ObjectFspVlanInterfaceSecondaryipA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fsp_vlan_interface_secondaryip fortimanager_object_fsp_vlan_interface_secondaryip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fsp_vlan_interface_secondaryip fortimanager_object_fsp_vlan_interface_secondaryip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class ObjectFspVlanInterfaceSecondaryipA extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_fsp_vlan_interface_secondaryip',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

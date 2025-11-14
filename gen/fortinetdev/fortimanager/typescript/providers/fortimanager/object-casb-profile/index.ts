@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#adom ObjectCasbProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#adom ObjectCasbProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#comment ObjectCasbProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#comment ObjectCasbProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#dynamic_sort_subtable ObjectCasbProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#dynamic_sort_subtable ObjectCasbProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#scopetype ObjectCasbProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#scopetype ObjectCasbProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * saas_application block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#saas_application ObjectCasbProfile#saas_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#saas_application ObjectCasbProfile#saas_application}
   */
   readonly saasApplication?: ObjectCasbProfileSaasApplication[] | cdktf.IResolvable;
 }
 export interface ObjectCasbProfileSaasApplicationAccessRuleAttributeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#attribute_match ObjectCasbProfile#attribute_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#attribute_match ObjectCasbProfile#attribute_match}
   */
   readonly attributeMatch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -228,21 +228,21 @@ export class ObjectCasbProfileSaasApplicationAccessRuleAttributeFilterList exten
 }
 export interface ObjectCasbProfileSaasApplicationAccessRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#bypass ObjectCasbProfile#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#bypass ObjectCasbProfile#bypass}
   */
   readonly bypass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
   /**
   * attribute_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#attribute_filter ObjectCasbProfile#attribute_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#attribute_filter ObjectCasbProfile#attribute_filter}
   */
   readonly attributeFilter?: ObjectCasbProfileSaasApplicationAccessRuleAttributeFilter[] | cdktf.IResolvable;
 }
@@ -445,11 +445,11 @@ export class ObjectCasbProfileSaasApplicationAccessRuleList extends cdktf.Comple
 }
 export interface ObjectCasbProfileSaasApplicationAdvancedTenantControlAttribute {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#input ObjectCasbProfile#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#input ObjectCasbProfile#input}
   */
   readonly input?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
 }
@@ -594,13 +594,13 @@ export class ObjectCasbProfileSaasApplicationAdvancedTenantControlAttributeList 
 }
 export interface ObjectCasbProfileSaasApplicationAdvancedTenantControl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string[];
   /**
   * attribute block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#attribute ObjectCasbProfile#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#attribute ObjectCasbProfile#attribute}
   */
   readonly attribute?: ObjectCasbProfileSaasApplicationAdvancedTenantControlAttribute[] | cdktf.IResolvable;
 }
@@ -745,15 +745,15 @@ export class ObjectCasbProfileSaasApplicationAdvancedTenantControlList extends c
 }
 export interface ObjectCasbProfileSaasApplicationCustomControlAttributeFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#action ObjectCasbProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#attribute_match ObjectCasbProfile#attribute_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#attribute_match ObjectCasbProfile#attribute_match}
   */
   readonly attributeMatch?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#id ObjectCasbProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -930,11 +930,11 @@ export class ObjectCasbProfileSaasApplicationCustomControlAttributeFilterList ex
 }
 export interface ObjectCasbProfileSaasApplicationCustomControlOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#user_input ObjectCasbProfile#user_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#user_input ObjectCasbProfile#user_input}
   */
   readonly userInput?: string[];
 }
@@ -1079,19 +1079,19 @@ export class ObjectCasbProfileSaasApplicationCustomControlOptionList extends cdk
 }
 export interface ObjectCasbProfileSaasApplicationCustomControl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
   /**
   * attribute_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#attribute_filter ObjectCasbProfile#attribute_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#attribute_filter ObjectCasbProfile#attribute_filter}
   */
   readonly attributeFilter?: ObjectCasbProfileSaasApplicationCustomControlAttributeFilter[] | cdktf.IResolvable;
   /**
   * option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#option ObjectCasbProfile#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#option ObjectCasbProfile#option}
   */
   readonly option?: ObjectCasbProfileSaasApplicationCustomControlOption[] | cdktf.IResolvable;
 }
@@ -1265,57 +1265,57 @@ export class ObjectCasbProfileSaasApplicationCustomControlList extends cdktf.Com
 }
 export interface ObjectCasbProfileSaasApplication {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#domain_control ObjectCasbProfile#domain_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#domain_control ObjectCasbProfile#domain_control}
   */
   readonly domainControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#domain_control_domains ObjectCasbProfile#domain_control_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#domain_control_domains ObjectCasbProfile#domain_control_domains}
   */
   readonly domainControlDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#log ObjectCasbProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#log ObjectCasbProfile#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#name ObjectCasbProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#safe_search ObjectCasbProfile#safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#safe_search ObjectCasbProfile#safe_search}
   */
   readonly safeSearch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#safe_search_control ObjectCasbProfile#safe_search_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#safe_search_control ObjectCasbProfile#safe_search_control}
   */
   readonly safeSearchControl?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#status ObjectCasbProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#status ObjectCasbProfile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#tenant_control ObjectCasbProfile#tenant_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#tenant_control ObjectCasbProfile#tenant_control}
   */
   readonly tenantControl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#tenant_control_tenants ObjectCasbProfile#tenant_control_tenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#tenant_control_tenants ObjectCasbProfile#tenant_control_tenants}
   */
   readonly tenantControlTenants?: string[];
   /**
   * access_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#access_rule ObjectCasbProfile#access_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#access_rule ObjectCasbProfile#access_rule}
   */
   readonly accessRule?: ObjectCasbProfileSaasApplicationAccessRule[] | cdktf.IResolvable;
   /**
   * advanced_tenant_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#advanced_tenant_control ObjectCasbProfile#advanced_tenant_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#advanced_tenant_control ObjectCasbProfile#advanced_tenant_control}
   */
   readonly advancedTenantControl?: ObjectCasbProfileSaasApplicationAdvancedTenantControl[] | cdktf.IResolvable;
   /**
   * custom_control block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#custom_control ObjectCasbProfile#custom_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#custom_control ObjectCasbProfile#custom_control}
   */
   readonly customControl?: ObjectCasbProfileSaasApplicationCustomControl[] | cdktf.IResolvable;
 }
@@ -1750,7 +1750,7 @@ export class ObjectCasbProfileSaasApplicationList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile fortimanager_object_casb_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile fortimanager_object_casb_profile}
 */
 export class ObjectCasbProfile extends cdktf.TerraformResource {
 
@@ -1766,7 +1766,7 @@ export class ObjectCasbProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCasbProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbProfile to import
-  * @param importFromId The id of the existing ObjectCasbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1778,7 +1778,7 @@ export class ObjectCasbProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_profile fortimanager_object_casb_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_profile fortimanager_object_casb_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1789,8 +1789,8 @@ export class ObjectCasbProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_casb_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

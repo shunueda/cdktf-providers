@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtendercontrollerExtenderprofileCellularSmsnotificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#adom ObjectExtendercontrollerExtenderprofileCellularSmsnotification#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#adom ObjectExtendercontrollerExtenderprofileCellularSmsnotification#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#dynamic_sort_subtable ObjectExtendercontrollerExtenderprofileCellularSmsnotification#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#dynamic_sort_subtable ObjectExtendercontrollerExtenderprofileCellularSmsnotification#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#extender_profile ObjectExtendercontrollerExtenderprofileCellularSmsnotification#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#extender_profile ObjectExtendercontrollerExtenderprofileCellularSmsnotification#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#id ObjectExtendercontrollerExtenderprofileCellularSmsnotification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#id ObjectExtendercontrollerExtenderprofileCellularSmsnotification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#scopetype ObjectExtendercontrollerExtenderprofileCellularSmsnotification#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#scopetype ObjectExtendercontrollerExtenderprofileCellularSmsnotification#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#status ObjectExtendercontrollerExtenderprofileCellularSmsnotification#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#status ObjectExtendercontrollerExtenderprofileCellularSmsnotification#status}
   */
   readonly status?: string;
   /**
   * alert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#alert ObjectExtendercontrollerExtenderprofileCellularSmsnotification#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#alert ObjectExtendercontrollerExtenderprofileCellularSmsnotification#alert}
   */
   readonly alert?: ObjectExtendercontrollerExtenderprofileCellularSmsnotificationAlert;
   /**
   * receiver block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#receiver ObjectExtendercontrollerExtenderprofileCellularSmsnotification#receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#receiver ObjectExtendercontrollerExtenderprofileCellularSmsnotification#receiver}
   */
   readonly receiver?: ObjectExtendercontrollerExtenderprofileCellularSmsnotificationReceiver[] | cdktf.IResolvable;
 }
 export interface ObjectExtendercontrollerExtenderprofileCellularSmsnotificationAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#data_exhausted ObjectExtendercontrollerExtenderprofileCellularSmsnotification#data_exhausted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#data_exhausted ObjectExtendercontrollerExtenderprofileCellularSmsnotification#data_exhausted}
   */
   readonly dataExhausted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#fgt_backup_mode_switch ObjectExtendercontrollerExtenderprofileCellularSmsnotification#fgt_backup_mode_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#fgt_backup_mode_switch ObjectExtendercontrollerExtenderprofileCellularSmsnotification#fgt_backup_mode_switch}
   */
   readonly fgtBackupModeSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#low_signal_strength ObjectExtendercontrollerExtenderprofileCellularSmsnotification#low_signal_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#low_signal_strength ObjectExtendercontrollerExtenderprofileCellularSmsnotification#low_signal_strength}
   */
   readonly lowSignalStrength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#mode_switch ObjectExtendercontrollerExtenderprofileCellularSmsnotification#mode_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#mode_switch ObjectExtendercontrollerExtenderprofileCellularSmsnotification#mode_switch}
   */
   readonly modeSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#os_image_fallback ObjectExtendercontrollerExtenderprofileCellularSmsnotification#os_image_fallback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#os_image_fallback ObjectExtendercontrollerExtenderprofileCellularSmsnotification#os_image_fallback}
   */
   readonly osImageFallback?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#session_disconnect ObjectExtendercontrollerExtenderprofileCellularSmsnotification#session_disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#session_disconnect ObjectExtendercontrollerExtenderprofileCellularSmsnotification#session_disconnect}
   */
   readonly sessionDisconnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#system_reboot ObjectExtendercontrollerExtenderprofileCellularSmsnotification#system_reboot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#system_reboot ObjectExtendercontrollerExtenderprofileCellularSmsnotification#system_reboot}
   */
   readonly systemReboot?: string;
 }
@@ -331,19 +331,19 @@ export class ObjectExtendercontrollerExtenderprofileCellularSmsnotificationAlert
 }
 export interface ObjectExtendercontrollerExtenderprofileCellularSmsnotificationReceiver {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#alert ObjectExtendercontrollerExtenderprofileCellularSmsnotification#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#alert ObjectExtendercontrollerExtenderprofileCellularSmsnotification#alert}
   */
   readonly alert?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#name ObjectExtendercontrollerExtenderprofileCellularSmsnotification#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#name ObjectExtendercontrollerExtenderprofileCellularSmsnotification#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#phone_number ObjectExtendercontrollerExtenderprofileCellularSmsnotification#phone_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#phone_number ObjectExtendercontrollerExtenderprofileCellularSmsnotification#phone_number}
   */
   readonly phoneNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#status ObjectExtendercontrollerExtenderprofileCellularSmsnotification#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#status ObjectExtendercontrollerExtenderprofileCellularSmsnotification#status}
   */
   readonly status?: string;
 }
@@ -546,7 +546,7 @@ export class ObjectExtendercontrollerExtenderprofileCellularSmsnotificationRecei
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification fortimanager_object_extendercontroller_extenderprofile_cellular_smsnotification}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification fortimanager_object_extendercontroller_extenderprofile_cellular_smsnotification}
 */
 export class ObjectExtendercontrollerExtenderprofileCellularSmsnotification extends cdktf.TerraformResource {
 
@@ -562,7 +562,7 @@ export class ObjectExtendercontrollerExtenderprofileCellularSmsnotification exte
   * Generates CDKTF code for importing a ObjectExtendercontrollerExtenderprofileCellularSmsnotification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtendercontrollerExtenderprofileCellularSmsnotification to import
-  * @param importFromId The id of the existing ObjectExtendercontrollerExtenderprofileCellularSmsnotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtendercontrollerExtenderprofileCellularSmsnotification that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtendercontrollerExtenderprofileCellularSmsnotification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -574,7 +574,7 @@ export class ObjectExtendercontrollerExtenderprofileCellularSmsnotification exte
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification fortimanager_object_extendercontroller_extenderprofile_cellular_smsnotification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_cellular_smsnotification fortimanager_object_extendercontroller_extenderprofile_cellular_smsnotification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -585,8 +585,8 @@ export class ObjectExtendercontrollerExtenderprofileCellularSmsnotification exte
       terraformResourceType: 'fortimanager_object_extendercontroller_extenderprofile_cellular_smsnotification',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

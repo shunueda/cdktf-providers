@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDynamicVpntunnelDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#adom ObjectDynamicVpntunnelDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#adom ObjectDynamicVpntunnelDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#dynamic_sort_subtable ObjectDynamicVpntunnelDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#dynamic_sort_subtable ObjectDynamicVpntunnelDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#id ObjectDynamicVpntunnelDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#id ObjectDynamicVpntunnelDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#local_ipsec ObjectDynamicVpntunnelDynamicMappingA#local_ipsec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#local_ipsec ObjectDynamicVpntunnelDynamicMappingA#local_ipsec}
   */
   readonly localIpsec?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#scopetype ObjectDynamicVpntunnelDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#scopetype ObjectDynamicVpntunnelDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#vpntunnel ObjectDynamicVpntunnelDynamicMappingA#vpntunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#vpntunnel ObjectDynamicVpntunnelDynamicMappingA#vpntunnel}
   */
   readonly vpntunnel: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#_scope ObjectDynamicVpntunnelDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#_scope ObjectDynamicVpntunnelDynamicMappingA#_scope}
   */
   readonly scope?: ObjectDynamicVpntunnelDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectDynamicVpntunnelDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#name ObjectDynamicVpntunnelDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#name ObjectDynamicVpntunnelDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#vdom ObjectDynamicVpntunnelDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#vdom ObjectDynamicVpntunnelDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -192,7 +192,7 @@ export class ObjectDynamicVpntunnelDynamicMappingScopeAList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping fortimanager_object_dynamic_vpntunnel_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping fortimanager_object_dynamic_vpntunnel_dynamic_mapping}
 */
 export class ObjectDynamicVpntunnelDynamicMappingA extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class ObjectDynamicVpntunnelDynamicMappingA extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ObjectDynamicVpntunnelDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDynamicVpntunnelDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectDynamicVpntunnelDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDynamicVpntunnelDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDynamicVpntunnelDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class ObjectDynamicVpntunnelDynamicMappingA extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping fortimanager_object_dynamic_vpntunnel_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dynamic_vpntunnel_dynamic_mapping fortimanager_object_dynamic_vpntunnel_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class ObjectDynamicVpntunnelDynamicMappingA extends cdktf.TerraformResour
       terraformResourceType: 'fortimanager_object_dynamic_vpntunnel_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnSslWebPortalLandingpageFormdataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#adom ObjectVpnSslWebPortalLandingpageFormdata#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#adom ObjectVpnSslWebPortalLandingpageFormdata#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#id ObjectVpnSslWebPortalLandingpageFormdata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#id ObjectVpnSslWebPortalLandingpageFormdata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#name ObjectVpnSslWebPortalLandingpageFormdata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#name ObjectVpnSslWebPortalLandingpageFormdata#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#portal ObjectVpnSslWebPortalLandingpageFormdata#portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#portal ObjectVpnSslWebPortalLandingpageFormdata#portal}
   */
   readonly portal: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#scopetype ObjectVpnSslWebPortalLandingpageFormdata#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#scopetype ObjectVpnSslWebPortalLandingpageFormdata#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#value ObjectVpnSslWebPortalLandingpageFormdata#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#value ObjectVpnSslWebPortalLandingpageFormdata#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata fortimanager_object_vpn_ssl_web_portal_landingpage_formdata}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata fortimanager_object_vpn_ssl_web_portal_landingpage_formdata}
 */
 export class ObjectVpnSslWebPortalLandingpageFormdata extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ObjectVpnSslWebPortalLandingpageFormdata extends cdktf.TerraformRes
   * Generates CDKTF code for importing a ObjectVpnSslWebPortalLandingpageFormdata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnSslWebPortalLandingpageFormdata to import
-  * @param importFromId The id of the existing ObjectVpnSslWebPortalLandingpageFormdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnSslWebPortalLandingpageFormdata that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnSslWebPortalLandingpageFormdata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ObjectVpnSslWebPortalLandingpageFormdata extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata fortimanager_object_vpn_ssl_web_portal_landingpage_formdata} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal_landingpage_formdata fortimanager_object_vpn_ssl_web_portal_landingpage_formdata} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ObjectVpnSslWebPortalLandingpageFormdata extends cdktf.TerraformRes
       terraformResourceType: 'fortimanager_object_vpn_ssl_web_portal_landingpage_formdata',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

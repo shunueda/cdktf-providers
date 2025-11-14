@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SystemNtpNtpserverAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#authentication SystemNtpNtpserverA#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#authentication SystemNtpNtpserverA#authentication}
   */
   readonly authentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#fosid SystemNtpNtpserverA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#fosid SystemNtpNtpserverA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#id SystemNtpNtpserverA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#id SystemNtpNtpserverA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#key SystemNtpNtpserverA#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#key SystemNtpNtpserverA#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#key_id SystemNtpNtpserverA#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#key_id SystemNtpNtpserverA#key_id}
   */
   readonly keyId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#maxpoll SystemNtpNtpserverA#maxpoll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#maxpoll SystemNtpNtpserverA#maxpoll}
   */
   readonly maxpoll?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#minpoll SystemNtpNtpserverA#minpoll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#minpoll SystemNtpNtpserverA#minpoll}
   */
   readonly minpoll?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#ntpv3 SystemNtpNtpserverA#ntpv3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#ntpv3 SystemNtpNtpserverA#ntpv3}
   */
   readonly ntpv3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#server SystemNtpNtpserverA#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#server SystemNtpNtpserverA#server}
   */
   readonly server?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver fortimanager_system_ntp_ntpserver}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver fortimanager_system_ntp_ntpserver}
 */
 export class SystemNtpNtpserverA extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SystemNtpNtpserverA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemNtpNtpserverA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemNtpNtpserverA to import
-  * @param importFromId The id of the existing SystemNtpNtpserverA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemNtpNtpserverA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemNtpNtpserverA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SystemNtpNtpserverA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_ntp_ntpserver fortimanager_system_ntp_ntpserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_ntp_ntpserver fortimanager_system_ntp_ntpserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SystemNtpNtpserverA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_ntp_ntpserver',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

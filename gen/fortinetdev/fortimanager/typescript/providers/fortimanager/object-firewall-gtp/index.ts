@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,421 +8,425 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallGtpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#addr_notify ObjectFirewallGtp#addr_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#addr_notify ObjectFirewallGtp#addr_notify}
   */
   readonly addrNotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#adom ObjectFirewallGtp#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#adom ObjectFirewallGtp#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn_filter ObjectFirewallGtp#apn_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn_filter ObjectFirewallGtp#apn_filter}
   */
   readonly apnFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#authorized_ggsns ObjectFirewallGtp#authorized_ggsns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#authorized_ggsns ObjectFirewallGtp#authorized_ggsns}
   */
   readonly authorizedGgsns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#authorized_ggsns6 ObjectFirewallGtp#authorized_ggsns6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#authorized_ggsns6 ObjectFirewallGtp#authorized_ggsns6}
   */
   readonly authorizedGgsns6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#authorized_sgsns ObjectFirewallGtp#authorized_sgsns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#authorized_sgsns ObjectFirewallGtp#authorized_sgsns}
   */
   readonly authorizedSgsns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#authorized_sgsns6 ObjectFirewallGtp#authorized_sgsns6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#authorized_sgsns6 ObjectFirewallGtp#authorized_sgsns6}
   */
   readonly authorizedSgsns6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#comment ObjectFirewallGtp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#comment ObjectFirewallGtp#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#context_id ObjectFirewallGtp#context_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#context_id ObjectFirewallGtp#context_id}
   */
   readonly contextId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#control_plane_message_rate_limit ObjectFirewallGtp#control_plane_message_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#control_plane_message_rate_limit ObjectFirewallGtp#control_plane_message_rate_limit}
   */
   readonly controlPlaneMessageRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#default_apn_action ObjectFirewallGtp#default_apn_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#default_apn_action ObjectFirewallGtp#default_apn_action}
   */
   readonly defaultApnAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#default_imsi_action ObjectFirewallGtp#default_imsi_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#default_imsi_action ObjectFirewallGtp#default_imsi_action}
   */
   readonly defaultImsiAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#default_ip_action ObjectFirewallGtp#default_ip_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#default_ip_action ObjectFirewallGtp#default_ip_action}
   */
   readonly defaultIpAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#default_noip_action ObjectFirewallGtp#default_noip_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#default_noip_action ObjectFirewallGtp#default_noip_action}
   */
   readonly defaultNoipAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#default_policy_action ObjectFirewallGtp#default_policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#default_policy_action ObjectFirewallGtp#default_policy_action}
   */
   readonly defaultPolicyAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#denied_log ObjectFirewallGtp#denied_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#denied_log ObjectFirewallGtp#denied_log}
   */
   readonly deniedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#dynamic_sort_subtable ObjectFirewallGtp#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#dynamic_sort_subtable ObjectFirewallGtp#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_request_interval ObjectFirewallGtp#echo_request_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_request_interval ObjectFirewallGtp#echo_request_interval}
   */
   readonly echoRequestInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#extension_log ObjectFirewallGtp#extension_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_requires_path_in_use ObjectFirewallGtp#echo_requires_path_in_use}
+  */
+  readonly echoRequiresPathInUse?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#extension_log ObjectFirewallGtp#extension_log}
   */
   readonly extensionLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#forwarded_log ObjectFirewallGtp#forwarded_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#forwarded_log ObjectFirewallGtp#forwarded_log}
   */
   readonly forwardedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#global_tunnel_limit ObjectFirewallGtp#global_tunnel_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#global_tunnel_limit ObjectFirewallGtp#global_tunnel_limit}
   */
   readonly globalTunnelLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gtp_in_gtp ObjectFirewallGtp#gtp_in_gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gtp_in_gtp ObjectFirewallGtp#gtp_in_gtp}
   */
   readonly gtpInGtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gtpu_denied_log ObjectFirewallGtp#gtpu_denied_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gtpu_denied_log ObjectFirewallGtp#gtpu_denied_log}
   */
   readonly gtpuDeniedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gtpu_forwarded_log ObjectFirewallGtp#gtpu_forwarded_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gtpu_forwarded_log ObjectFirewallGtp#gtpu_forwarded_log}
   */
   readonly gtpuForwardedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gtpu_log_freq ObjectFirewallGtp#gtpu_log_freq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gtpu_log_freq ObjectFirewallGtp#gtpu_log_freq}
   */
   readonly gtpuLogFreq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gtpv0 ObjectFirewallGtp#gtpv0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gtpv0 ObjectFirewallGtp#gtpv0}
   */
   readonly gtpv0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#half_close_timeout ObjectFirewallGtp#half_close_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#half_close_timeout ObjectFirewallGtp#half_close_timeout}
   */
   readonly halfCloseTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#half_open_timeout ObjectFirewallGtp#half_open_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#half_open_timeout ObjectFirewallGtp#half_open_timeout}
   */
   readonly halfOpenTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#handover_group ObjectFirewallGtp#handover_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#handover_group ObjectFirewallGtp#handover_group}
   */
   readonly handoverGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#handover_group6 ObjectFirewallGtp#handover_group6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#handover_group6 ObjectFirewallGtp#handover_group6}
   */
   readonly handoverGroup6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_allow_list_v0v1 ObjectFirewallGtp#ie_allow_list_v0v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_allow_list_v0v1 ObjectFirewallGtp#ie_allow_list_v0v1}
   */
   readonly ieAllowListV0V1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_allow_list_v2 ObjectFirewallGtp#ie_allow_list_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_allow_list_v2 ObjectFirewallGtp#ie_allow_list_v2}
   */
   readonly ieAllowListV2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_remover ObjectFirewallGtp#ie_remover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_remover ObjectFirewallGtp#ie_remover}
   */
   readonly ieRemover?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_white_list_v0v1 ObjectFirewallGtp#ie_white_list_v0v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_white_list_v0v1 ObjectFirewallGtp#ie_white_list_v0v1}
   */
   readonly ieWhiteListV0V1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_white_list_v2 ObjectFirewallGtp#ie_white_list_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_white_list_v2 ObjectFirewallGtp#ie_white_list_v2}
   */
   readonly ieWhiteListV2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi_filter ObjectFirewallGtp#imsi_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi_filter ObjectFirewallGtp#imsi_filter}
   */
   readonly imsiFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#interface_notify ObjectFirewallGtp#interface_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#interface_notify ObjectFirewallGtp#interface_notify}
   */
   readonly interfaceNotify?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#invalid_reserved_field ObjectFirewallGtp#invalid_reserved_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#invalid_reserved_field ObjectFirewallGtp#invalid_reserved_field}
   */
   readonly invalidReservedField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#invalid_sgsns6_to_log ObjectFirewallGtp#invalid_sgsns6_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#invalid_sgsns6_to_log ObjectFirewallGtp#invalid_sgsns6_to_log}
   */
   readonly invalidSgsns6ToLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#invalid_sgsns_to_log ObjectFirewallGtp#invalid_sgsns_to_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#invalid_sgsns_to_log ObjectFirewallGtp#invalid_sgsns_to_log}
   */
   readonly invalidSgsnsToLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ip_filter ObjectFirewallGtp#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ip_filter ObjectFirewallGtp#ip_filter}
   */
   readonly ipFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#log_freq ObjectFirewallGtp#log_freq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#log_freq ObjectFirewallGtp#log_freq}
   */
   readonly logFreq?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#log_gtpu_limit ObjectFirewallGtp#log_gtpu_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#log_gtpu_limit ObjectFirewallGtp#log_gtpu_limit}
   */
   readonly logGtpuLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#log_imsi_prefix ObjectFirewallGtp#log_imsi_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#log_imsi_prefix ObjectFirewallGtp#log_imsi_prefix}
   */
   readonly logImsiPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#log_msisdn_prefix ObjectFirewallGtp#log_msisdn_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#log_msisdn_prefix ObjectFirewallGtp#log_msisdn_prefix}
   */
   readonly logMsisdnPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#max_message_length ObjectFirewallGtp#max_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#max_message_length ObjectFirewallGtp#max_message_length}
   */
   readonly maxMessageLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_filter_v0v1 ObjectFirewallGtp#message_filter_v0v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_filter_v0v1 ObjectFirewallGtp#message_filter_v0v1}
   */
   readonly messageFilterV0V1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_filter_v2 ObjectFirewallGtp#message_filter_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_filter_v2 ObjectFirewallGtp#message_filter_v2}
   */
   readonly messageFilterV2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#min_message_length ObjectFirewallGtp#min_message_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#min_message_length ObjectFirewallGtp#min_message_length}
   */
   readonly minMessageLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#miss_must_ie ObjectFirewallGtp#miss_must_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#miss_must_ie ObjectFirewallGtp#miss_must_ie}
   */
   readonly missMustIe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#monitor_mode ObjectFirewallGtp#monitor_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#monitor_mode ObjectFirewallGtp#monitor_mode}
   */
   readonly monitorMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#name ObjectFirewallGtp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#name ObjectFirewallGtp#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#noip_filter ObjectFirewallGtp#noip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#noip_filter ObjectFirewallGtp#noip_filter}
   */
   readonly noipFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#out_of_state_ie ObjectFirewallGtp#out_of_state_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#out_of_state_ie ObjectFirewallGtp#out_of_state_ie}
   */
   readonly outOfStateIe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#out_of_state_message ObjectFirewallGtp#out_of_state_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#out_of_state_message ObjectFirewallGtp#out_of_state_message}
   */
   readonly outOfStateMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#policy_filter ObjectFirewallGtp#policy_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#policy_filter ObjectFirewallGtp#policy_filter}
   */
   readonly policyFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#port_notify ObjectFirewallGtp#port_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#port_notify ObjectFirewallGtp#port_notify}
   */
   readonly portNotify?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rat_timeout_profile ObjectFirewallGtp#rat_timeout_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rat_timeout_profile ObjectFirewallGtp#rat_timeout_profile}
   */
   readonly ratTimeoutProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rate_limit_mode ObjectFirewallGtp#rate_limit_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rate_limit_mode ObjectFirewallGtp#rate_limit_mode}
   */
   readonly rateLimitMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rate_limited_log ObjectFirewallGtp#rate_limited_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rate_limited_log ObjectFirewallGtp#rate_limited_log}
   */
   readonly rateLimitedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rate_sampling_interval ObjectFirewallGtp#rate_sampling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rate_sampling_interval ObjectFirewallGtp#rate_sampling_interval}
   */
   readonly rateSamplingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#remove_if_echo_expires ObjectFirewallGtp#remove_if_echo_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#remove_if_echo_expires ObjectFirewallGtp#remove_if_echo_expires}
   */
   readonly removeIfEchoExpires?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#remove_if_recovery_differ ObjectFirewallGtp#remove_if_recovery_differ}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#remove_if_recovery_differ ObjectFirewallGtp#remove_if_recovery_differ}
   */
   readonly removeIfRecoveryDiffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#reserved_ie ObjectFirewallGtp#reserved_ie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#reserved_ie ObjectFirewallGtp#reserved_ie}
   */
   readonly reservedIe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#scopetype ObjectFirewallGtp#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#scopetype ObjectFirewallGtp#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#send_delete_when_timeout ObjectFirewallGtp#send_delete_when_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#send_delete_when_timeout ObjectFirewallGtp#send_delete_when_timeout}
   */
   readonly sendDeleteWhenTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#send_delete_when_timeout_v2 ObjectFirewallGtp#send_delete_when_timeout_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#send_delete_when_timeout_v2 ObjectFirewallGtp#send_delete_when_timeout_v2}
   */
   readonly sendDeleteWhenTimeoutV2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#spoof_src_addr ObjectFirewallGtp#spoof_src_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#spoof_src_addr ObjectFirewallGtp#spoof_src_addr}
   */
   readonly spoofSrcAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#state_invalid_log ObjectFirewallGtp#state_invalid_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#state_invalid_log ObjectFirewallGtp#state_invalid_log}
   */
   readonly stateInvalidLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sub_second_interval ObjectFirewallGtp#sub_second_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sub_second_interval ObjectFirewallGtp#sub_second_interval}
   */
   readonly subSecondInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sub_second_sampling ObjectFirewallGtp#sub_second_sampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sub_second_sampling ObjectFirewallGtp#sub_second_sampling}
   */
   readonly subSecondSampling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#traffic_count_log ObjectFirewallGtp#traffic_count_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#traffic_count_log ObjectFirewallGtp#traffic_count_log}
   */
   readonly trafficCountLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#tunnel_limit ObjectFirewallGtp#tunnel_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#tunnel_limit ObjectFirewallGtp#tunnel_limit}
   */
   readonly tunnelLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#tunnel_limit_log ObjectFirewallGtp#tunnel_limit_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#tunnel_limit_log ObjectFirewallGtp#tunnel_limit_log}
   */
   readonly tunnelLimitLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#tunnel_timeout ObjectFirewallGtp#tunnel_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#tunnel_timeout ObjectFirewallGtp#tunnel_timeout}
   */
   readonly tunnelTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#unknown_version_action ObjectFirewallGtp#unknown_version_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#unknown_version_action ObjectFirewallGtp#unknown_version_action}
   */
   readonly unknownVersionAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#user_plane_message_rate_limit ObjectFirewallGtp#user_plane_message_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#user_plane_message_rate_limit ObjectFirewallGtp#user_plane_message_rate_limit}
   */
   readonly userPlaneMessageRateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#warning_threshold ObjectFirewallGtp#warning_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#warning_threshold ObjectFirewallGtp#warning_threshold}
   */
   readonly warningThreshold?: number;
   /**
   * apn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn ObjectFirewallGtp#apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn ObjectFirewallGtp#apn}
   */
   readonly apn?: ObjectFirewallGtpApn[] | cdktf.IResolvable;
   /**
   * ie_remove_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_remove_policy ObjectFirewallGtp#ie_remove_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_remove_policy ObjectFirewallGtp#ie_remove_policy}
   */
   readonly ieRemovePolicy?: ObjectFirewallGtpIeRemovePolicy[] | cdktf.IResolvable;
   /**
   * ie_validation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ie_validation ObjectFirewallGtp#ie_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ie_validation ObjectFirewallGtp#ie_validation}
   */
   readonly ieValidation?: ObjectFirewallGtpIeValidation;
   /**
   * imsi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
   */
   readonly imsi?: ObjectFirewallGtpImsi[] | cdktf.IResolvable;
   /**
   * ip_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ip_policy ObjectFirewallGtp#ip_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ip_policy ObjectFirewallGtp#ip_policy}
   */
   readonly ipPolicy?: ObjectFirewallGtpIpPolicy[] | cdktf.IResolvable;
   /**
   * message_rate_limit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_rate_limit ObjectFirewallGtp#message_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_rate_limit ObjectFirewallGtp#message_rate_limit}
   */
   readonly messageRateLimit?: ObjectFirewallGtpMessageRateLimit;
   /**
   * message_rate_limit_v0 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_rate_limit_v0 ObjectFirewallGtp#message_rate_limit_v0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_rate_limit_v0 ObjectFirewallGtp#message_rate_limit_v0}
   */
   readonly messageRateLimitV0?: ObjectFirewallGtpMessageRateLimitV0;
   /**
   * message_rate_limit_v1 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_rate_limit_v1 ObjectFirewallGtp#message_rate_limit_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_rate_limit_v1 ObjectFirewallGtp#message_rate_limit_v1}
   */
   readonly messageRateLimitV1?: ObjectFirewallGtpMessageRateLimitV1;
   /**
   * message_rate_limit_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#message_rate_limit_v2 ObjectFirewallGtp#message_rate_limit_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#message_rate_limit_v2 ObjectFirewallGtp#message_rate_limit_v2}
   */
   readonly messageRateLimitV2?: ObjectFirewallGtpMessageRateLimitV2;
   /**
   * noip_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#noip_policy ObjectFirewallGtp#noip_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#noip_policy ObjectFirewallGtp#noip_policy}
   */
   readonly noipPolicy?: ObjectFirewallGtpNoipPolicy[] | cdktf.IResolvable;
   /**
   * per_apn_shaper block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#per_apn_shaper ObjectFirewallGtp#per_apn_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#per_apn_shaper ObjectFirewallGtp#per_apn_shaper}
   */
   readonly perApnShaper?: ObjectFirewallGtpPerApnShaper[] | cdktf.IResolvable;
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#policy ObjectFirewallGtp#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#policy ObjectFirewallGtp#policy}
   */
   readonly policy?: ObjectFirewallGtpPolicy[] | cdktf.IResolvable;
   /**
   * policy_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#policy_v2 ObjectFirewallGtp#policy_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#policy_v2 ObjectFirewallGtp#policy_v2}
   */
   readonly policyV2?: ObjectFirewallGtpPolicyV2[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallGtpApn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
   */
   readonly apnmember?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
   */
   readonly selectionMode?: string[];
 }
@@ -625,22 +629,22 @@ export class ObjectFirewallGtpApnList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpIeRemovePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#remove_ies ObjectFirewallGtp#remove_ies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#remove_ies ObjectFirewallGtp#remove_ies}
   */
   readonly removeIes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sgsn_addr ObjectFirewallGtp#sgsn_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sgsn_addr ObjectFirewallGtp#sgsn_addr}
   */
   readonly sgsnAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sgsn_addr6 ObjectFirewallGtp#sgsn_addr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sgsn_addr6 ObjectFirewallGtp#sgsn_addr6}
   */
   readonly sgsnAddr6?: string;
 }
@@ -843,79 +847,79 @@ export class ObjectFirewallGtpIeRemovePolicyList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpIeValidation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn_restriction ObjectFirewallGtp#apn_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn_restriction ObjectFirewallGtp#apn_restriction}
   */
   readonly apnRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#charging_gateway_addr ObjectFirewallGtp#charging_gateway_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#charging_gateway_addr ObjectFirewallGtp#charging_gateway_addr}
   */
   readonly chargingGatewayAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#charging_id ObjectFirewallGtp#charging_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#charging_id ObjectFirewallGtp#charging_id}
   */
   readonly chargingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#end_user_addr ObjectFirewallGtp#end_user_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#end_user_addr ObjectFirewallGtp#end_user_addr}
   */
   readonly endUserAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#gsn_addr ObjectFirewallGtp#gsn_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#gsn_addr ObjectFirewallGtp#gsn_addr}
   */
   readonly gsnAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imei ObjectFirewallGtp#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imei ObjectFirewallGtp#imei}
   */
   readonly imei?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
   */
   readonly imsi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mm_context ObjectFirewallGtp#mm_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mm_context ObjectFirewallGtp#mm_context}
   */
   readonly mmContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ms_tzone ObjectFirewallGtp#ms_tzone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ms_tzone ObjectFirewallGtp#ms_tzone}
   */
   readonly msTzone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ms_validated ObjectFirewallGtp#ms_validated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ms_validated ObjectFirewallGtp#ms_validated}
   */
   readonly msValidated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#msisdn ObjectFirewallGtp#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#msisdn ObjectFirewallGtp#msisdn}
   */
   readonly msisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#nsapi ObjectFirewallGtp#nsapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#nsapi ObjectFirewallGtp#nsapi}
   */
   readonly nsapi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#pdp_context ObjectFirewallGtp#pdp_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#pdp_context ObjectFirewallGtp#pdp_context}
   */
   readonly pdpContext?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#qos_profile ObjectFirewallGtp#qos_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#qos_profile ObjectFirewallGtp#qos_profile}
   */
   readonly qosProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rai ObjectFirewallGtp#rai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rai ObjectFirewallGtp#rai}
   */
   readonly rai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
   */
   readonly ratType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#reordering_required ObjectFirewallGtp#reordering_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#reordering_required ObjectFirewallGtp#reordering_required}
   */
   readonly reorderingRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
   */
   readonly selectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
   */
   readonly uli?: string;
 }
@@ -1521,30 +1525,30 @@ export class ObjectFirewallGtpIeValidationOutputReference extends cdktf.ComplexO
 }
 export interface ObjectFirewallGtpImsi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
   */
   readonly apnmember?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mcc_mnc ObjectFirewallGtp#mcc_mnc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mcc_mnc ObjectFirewallGtp#mcc_mnc}
   */
   readonly mccMnc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
   */
   readonly msisdnPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#selection_mode ObjectFirewallGtp#selection_mode}
   */
   readonly selectionMode?: string[];
 }
@@ -1805,30 +1809,30 @@ export class ObjectFirewallGtpImsiList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpIpPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#dstaddr ObjectFirewallGtp#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#dstaddr ObjectFirewallGtp#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#dstaddr6 ObjectFirewallGtp#dstaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#dstaddr6 ObjectFirewallGtp#dstaddr6}
   */
   readonly dstaddr6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#srcaddr ObjectFirewallGtp#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#srcaddr ObjectFirewallGtp#srcaddr}
   */
   readonly srcaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#srcaddr6 ObjectFirewallGtp#srcaddr6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#srcaddr6 ObjectFirewallGtp#srcaddr6}
   */
   readonly srcaddr6?: string;
 }
@@ -2089,239 +2093,239 @@ export class ObjectFirewallGtpIpPolicyList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpMessageRateLimit {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_aa_pdp_request ObjectFirewallGtp#create_aa_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_aa_pdp_request ObjectFirewallGtp#create_aa_pdp_request}
   */
   readonly createAaPdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_aa_pdp_response ObjectFirewallGtp#create_aa_pdp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_aa_pdp_response ObjectFirewallGtp#create_aa_pdp_response}
   */
   readonly createAaPdpResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_mbms_request ObjectFirewallGtp#create_mbms_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_mbms_request ObjectFirewallGtp#create_mbms_request}
   */
   readonly createMbmsRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_mbms_response ObjectFirewallGtp#create_mbms_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_mbms_response ObjectFirewallGtp#create_mbms_response}
   */
   readonly createMbmsResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
   */
   readonly createPdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_pdp_response ObjectFirewallGtp#create_pdp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_pdp_response ObjectFirewallGtp#create_pdp_response}
   */
   readonly createPdpResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_aa_pdp_request ObjectFirewallGtp#delete_aa_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_aa_pdp_request ObjectFirewallGtp#delete_aa_pdp_request}
   */
   readonly deleteAaPdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_aa_pdp_response ObjectFirewallGtp#delete_aa_pdp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_aa_pdp_response ObjectFirewallGtp#delete_aa_pdp_response}
   */
   readonly deleteAaPdpResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_mbms_request ObjectFirewallGtp#delete_mbms_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_mbms_request ObjectFirewallGtp#delete_mbms_request}
   */
   readonly deleteMbmsRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_mbms_response ObjectFirewallGtp#delete_mbms_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_mbms_response ObjectFirewallGtp#delete_mbms_response}
   */
   readonly deleteMbmsResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
   */
   readonly deletePdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_pdp_response ObjectFirewallGtp#delete_pdp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_pdp_response ObjectFirewallGtp#delete_pdp_response}
   */
   readonly deletePdpResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_reponse ObjectFirewallGtp#echo_reponse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_reponse ObjectFirewallGtp#echo_reponse}
   */
   readonly echoReponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
   */
   readonly echoRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_response ObjectFirewallGtp#echo_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_response ObjectFirewallGtp#echo_response}
   */
   readonly echoResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#error_indication ObjectFirewallGtp#error_indication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#error_indication ObjectFirewallGtp#error_indication}
   */
   readonly errorIndication?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#failure_report_request ObjectFirewallGtp#failure_report_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#failure_report_request ObjectFirewallGtp#failure_report_request}
   */
   readonly failureReportRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#failure_report_response ObjectFirewallGtp#failure_report_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#failure_report_response ObjectFirewallGtp#failure_report_response}
   */
   readonly failureReportResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_reloc_complete_ack ObjectFirewallGtp#fwd_reloc_complete_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_reloc_complete_ack ObjectFirewallGtp#fwd_reloc_complete_ack}
   */
   readonly fwdRelocCompleteAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_relocation_complete ObjectFirewallGtp#fwd_relocation_complete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_relocation_complete ObjectFirewallGtp#fwd_relocation_complete}
   */
   readonly fwdRelocationComplete?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_relocation_request ObjectFirewallGtp#fwd_relocation_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_relocation_request ObjectFirewallGtp#fwd_relocation_request}
   */
   readonly fwdRelocationRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_relocation_response ObjectFirewallGtp#fwd_relocation_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_relocation_response ObjectFirewallGtp#fwd_relocation_response}
   */
   readonly fwdRelocationResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_srns_context ObjectFirewallGtp#fwd_srns_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_srns_context ObjectFirewallGtp#fwd_srns_context}
   */
   readonly fwdSrnsContext?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#fwd_srns_context_ack ObjectFirewallGtp#fwd_srns_context_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#fwd_srns_context_ack ObjectFirewallGtp#fwd_srns_context_ack}
   */
   readonly fwdSrnsContextAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#g_pdu ObjectFirewallGtp#g_pdu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#g_pdu ObjectFirewallGtp#g_pdu}
   */
   readonly gPdu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#identification_request ObjectFirewallGtp#identification_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#identification_request ObjectFirewallGtp#identification_request}
   */
   readonly identificationRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#identification_response ObjectFirewallGtp#identification_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#identification_response ObjectFirewallGtp#identification_response}
   */
   readonly identificationResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_de_reg_request ObjectFirewallGtp#mbms_de_reg_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_de_reg_request ObjectFirewallGtp#mbms_de_reg_request}
   */
   readonly mbmsDeRegRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_de_reg_response ObjectFirewallGtp#mbms_de_reg_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_de_reg_response ObjectFirewallGtp#mbms_de_reg_response}
   */
   readonly mbmsDeRegResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_notify_rej_request ObjectFirewallGtp#mbms_notify_rej_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_notify_rej_request ObjectFirewallGtp#mbms_notify_rej_request}
   */
   readonly mbmsNotifyRejRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_notify_rej_response ObjectFirewallGtp#mbms_notify_rej_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_notify_rej_response ObjectFirewallGtp#mbms_notify_rej_response}
   */
   readonly mbmsNotifyRejResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_notify_request ObjectFirewallGtp#mbms_notify_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_notify_request ObjectFirewallGtp#mbms_notify_request}
   */
   readonly mbmsNotifyRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_notify_response ObjectFirewallGtp#mbms_notify_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_notify_response ObjectFirewallGtp#mbms_notify_response}
   */
   readonly mbmsNotifyResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_reg_request ObjectFirewallGtp#mbms_reg_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_reg_request ObjectFirewallGtp#mbms_reg_request}
   */
   readonly mbmsRegRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_reg_response ObjectFirewallGtp#mbms_reg_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_reg_response ObjectFirewallGtp#mbms_reg_response}
   */
   readonly mbmsRegResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_ses_start_request ObjectFirewallGtp#mbms_ses_start_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_ses_start_request ObjectFirewallGtp#mbms_ses_start_request}
   */
   readonly mbmsSesStartRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_ses_start_response ObjectFirewallGtp#mbms_ses_start_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_ses_start_response ObjectFirewallGtp#mbms_ses_start_response}
   */
   readonly mbmsSesStartResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_ses_stop_request ObjectFirewallGtp#mbms_ses_stop_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_ses_stop_request ObjectFirewallGtp#mbms_ses_stop_request}
   */
   readonly mbmsSesStopRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mbms_ses_stop_response ObjectFirewallGtp#mbms_ses_stop_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mbms_ses_stop_response ObjectFirewallGtp#mbms_ses_stop_response}
   */
   readonly mbmsSesStopResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#note_ms_request ObjectFirewallGtp#note_ms_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#note_ms_request ObjectFirewallGtp#note_ms_request}
   */
   readonly noteMsRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#note_ms_response ObjectFirewallGtp#note_ms_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#note_ms_response ObjectFirewallGtp#note_ms_response}
   */
   readonly noteMsResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#pdu_notify_rej_request ObjectFirewallGtp#pdu_notify_rej_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#pdu_notify_rej_request ObjectFirewallGtp#pdu_notify_rej_request}
   */
   readonly pduNotifyRejRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#pdu_notify_rej_response ObjectFirewallGtp#pdu_notify_rej_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#pdu_notify_rej_response ObjectFirewallGtp#pdu_notify_rej_response}
   */
   readonly pduNotifyRejResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#pdu_notify_request ObjectFirewallGtp#pdu_notify_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#pdu_notify_request ObjectFirewallGtp#pdu_notify_request}
   */
   readonly pduNotifyRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#pdu_notify_response ObjectFirewallGtp#pdu_notify_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#pdu_notify_response ObjectFirewallGtp#pdu_notify_response}
   */
   readonly pduNotifyResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#ran_info ObjectFirewallGtp#ran_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#ran_info ObjectFirewallGtp#ran_info}
   */
   readonly ranInfo?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#relocation_cancel_request ObjectFirewallGtp#relocation_cancel_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#relocation_cancel_request ObjectFirewallGtp#relocation_cancel_request}
   */
   readonly relocationCancelRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#relocation_cancel_response ObjectFirewallGtp#relocation_cancel_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#relocation_cancel_response ObjectFirewallGtp#relocation_cancel_response}
   */
   readonly relocationCancelResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#send_route_request ObjectFirewallGtp#send_route_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#send_route_request ObjectFirewallGtp#send_route_request}
   */
   readonly sendRouteRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#send_route_response ObjectFirewallGtp#send_route_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#send_route_response ObjectFirewallGtp#send_route_response}
   */
   readonly sendRouteResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sgsn_context_ack ObjectFirewallGtp#sgsn_context_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sgsn_context_ack ObjectFirewallGtp#sgsn_context_ack}
   */
   readonly sgsnContextAck?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sgsn_context_request ObjectFirewallGtp#sgsn_context_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sgsn_context_request ObjectFirewallGtp#sgsn_context_request}
   */
   readonly sgsnContextRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#sgsn_context_response ObjectFirewallGtp#sgsn_context_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#sgsn_context_response ObjectFirewallGtp#sgsn_context_response}
   */
   readonly sgsnContextResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#support_ext_hdr_notify ObjectFirewallGtp#support_ext_hdr_notify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#support_ext_hdr_notify ObjectFirewallGtp#support_ext_hdr_notify}
   */
   readonly supportExtHdrNotify?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#update_mbms_request ObjectFirewallGtp#update_mbms_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#update_mbms_request ObjectFirewallGtp#update_mbms_request}
   */
   readonly updateMbmsRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#update_mbms_response ObjectFirewallGtp#update_mbms_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#update_mbms_response ObjectFirewallGtp#update_mbms_response}
   */
   readonly updateMbmsResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#update_pdp_request ObjectFirewallGtp#update_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#update_pdp_request ObjectFirewallGtp#update_pdp_request}
   */
   readonly updatePdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#update_pdp_response ObjectFirewallGtp#update_pdp_response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#update_pdp_response ObjectFirewallGtp#update_pdp_response}
   */
   readonly updatePdpResponse?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#version_not_support ObjectFirewallGtp#version_not_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#version_not_support ObjectFirewallGtp#version_not_support}
   */
   readonly versionNotSupport?: number;
 }
@@ -4087,15 +4091,15 @@ export class ObjectFirewallGtpMessageRateLimitOutputReference extends cdktf.Comp
 }
 export interface ObjectFirewallGtpMessageRateLimitV0 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
   */
   readonly createPdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
   */
   readonly deletePdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
   */
   readonly echoRequest?: number;
 }
@@ -4237,15 +4241,15 @@ export class ObjectFirewallGtpMessageRateLimitV0OutputReference extends cdktf.Co
 }
 export interface ObjectFirewallGtpMessageRateLimitV1 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_pdp_request ObjectFirewallGtp#create_pdp_request}
   */
   readonly createPdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_pdp_request ObjectFirewallGtp#delete_pdp_request}
   */
   readonly deletePdpRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
   */
   readonly echoRequest?: number;
 }
@@ -4387,15 +4391,15 @@ export class ObjectFirewallGtpMessageRateLimitV1OutputReference extends cdktf.Co
 }
 export interface ObjectFirewallGtpMessageRateLimitV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#create_session_request ObjectFirewallGtp#create_session_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#create_session_request ObjectFirewallGtp#create_session_request}
   */
   readonly createSessionRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#delete_session_request ObjectFirewallGtp#delete_session_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#delete_session_request ObjectFirewallGtp#delete_session_request}
   */
   readonly deleteSessionRequest?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#echo_request ObjectFirewallGtp#echo_request}
   */
   readonly echoRequest?: number;
 }
@@ -4537,26 +4541,26 @@ export class ObjectFirewallGtpMessageRateLimitV2OutputReference extends cdktf.Co
 }
 export interface ObjectFirewallGtpNoipPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#end ObjectFirewallGtp#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#end ObjectFirewallGtp#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#start ObjectFirewallGtp#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#start ObjectFirewallGtp#start}
   */
   readonly start?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#type ObjectFirewallGtp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#type ObjectFirewallGtp#type}
   */
   readonly type?: string;
 }
@@ -4788,22 +4792,22 @@ export class ObjectFirewallGtpNoipPolicyList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpPerApnShaper {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn ObjectFirewallGtp#apn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn ObjectFirewallGtp#apn}
   */
   readonly apn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rate_limit ObjectFirewallGtp#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rate_limit ObjectFirewallGtp#rate_limit}
   */
   readonly rateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#version ObjectFirewallGtp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#version ObjectFirewallGtp#version}
   */
   readonly version?: number;
 }
@@ -5006,62 +5010,62 @@ export class ObjectFirewallGtpPerApnShaperList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn_sel_mode ObjectFirewallGtp#apn_sel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn_sel_mode ObjectFirewallGtp#apn_sel_mode}
   */
   readonly apnSelMode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
   */
   readonly apnmember?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imei ObjectFirewallGtp#imei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imei ObjectFirewallGtp#imei}
   */
   readonly imei?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi ObjectFirewallGtp#imsi}
   */
   readonly imsi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi_prefix ObjectFirewallGtp#imsi_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi_prefix ObjectFirewallGtp#imsi_prefix}
   */
   readonly imsiPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#max_apn_restriction ObjectFirewallGtp#max_apn_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#max_apn_restriction ObjectFirewallGtp#max_apn_restriction}
   */
   readonly maxApnRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#messages ObjectFirewallGtp#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#messages ObjectFirewallGtp#messages}
   */
   readonly messages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#msisdn ObjectFirewallGtp#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#msisdn ObjectFirewallGtp#msisdn}
   */
   readonly msisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
   */
   readonly msisdnPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rai ObjectFirewallGtp#rai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rai ObjectFirewallGtp#rai}
   */
   readonly rai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
   */
   readonly ratType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
   */
   readonly uli?: string;
 }
@@ -5554,50 +5558,50 @@ export class ObjectFirewallGtpPolicyList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallGtpPolicyV2 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#action ObjectFirewallGtp#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apn_sel_mode ObjectFirewallGtp#apn_sel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apn_sel_mode ObjectFirewallGtp#apn_sel_mode}
   */
   readonly apnSelMode?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#apnmember ObjectFirewallGtp#apnmember}
   */
   readonly apnmember?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#id ObjectFirewallGtp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#imsi_prefix ObjectFirewallGtp#imsi_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#imsi_prefix ObjectFirewallGtp#imsi_prefix}
   */
   readonly imsiPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#max_apn_restriction ObjectFirewallGtp#max_apn_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#max_apn_restriction ObjectFirewallGtp#max_apn_restriction}
   */
   readonly maxApnRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#mei ObjectFirewallGtp#mei}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#mei ObjectFirewallGtp#mei}
   */
   readonly mei?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#messages ObjectFirewallGtp#messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#messages ObjectFirewallGtp#messages}
   */
   readonly messages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#msisdn_prefix ObjectFirewallGtp#msisdn_prefix}
   */
   readonly msisdnPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#rat_type ObjectFirewallGtp#rat_type}
   */
   readonly ratType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#uli ObjectFirewallGtp#uli}
   */
   readonly uli?: string[];
 }
@@ -6003,7 +6007,7 @@ export class ObjectFirewallGtpPolicyV2List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp fortimanager_object_firewall_gtp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp fortimanager_object_firewall_gtp}
 */
 export class ObjectFirewallGtp extends cdktf.TerraformResource {
 
@@ -6019,7 +6023,7 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallGtp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallGtp to import
-  * @param importFromId The id of the existing ObjectFirewallGtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallGtp that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallGtp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6031,7 +6035,7 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_gtp fortimanager_object_firewall_gtp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_gtp fortimanager_object_firewall_gtp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6042,8 +6046,8 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_gtp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -6071,6 +6075,7 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
     this._deniedLog = config.deniedLog;
     this._dynamicSortSubtable = config.dynamicSortSubtable;
     this._echoRequestInterval = config.echoRequestInterval;
+    this._echoRequiresPathInUse = config.echoRequiresPathInUse;
     this._extensionLog = config.extensionLog;
     this._forwardedLog = config.forwardedLog;
     this._globalTunnelLimit = config.globalTunnelLimit;
@@ -6437,6 +6442,22 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get echoRequestIntervalInput() {
     return this._echoRequestInterval;
+  }
+
+  // echo_requires_path_in_use - computed: false, optional: true, required: false
+  private _echoRequiresPathInUse?: string; 
+  public get echoRequiresPathInUse() {
+    return this.getStringAttribute('echo_requires_path_in_use');
+  }
+  public set echoRequiresPathInUse(value: string) {
+    this._echoRequiresPathInUse = value;
+  }
+  public resetEchoRequiresPathInUse() {
+    this._echoRequiresPathInUse = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get echoRequiresPathInUseInput() {
+    return this._echoRequiresPathInUse;
   }
 
   // extension_log - computed: false, optional: true, required: false
@@ -7647,6 +7668,7 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
       denied_log: cdktf.stringToTerraform(this._deniedLog),
       dynamic_sort_subtable: cdktf.stringToTerraform(this._dynamicSortSubtable),
       echo_request_interval: cdktf.numberToTerraform(this._echoRequestInterval),
+      echo_requires_path_in_use: cdktf.stringToTerraform(this._echoRequiresPathInUse),
       extension_log: cdktf.stringToTerraform(this._extensionLog),
       forwarded_log: cdktf.stringToTerraform(this._forwardedLog),
       global_tunnel_limit: cdktf.stringToTerraform(this._globalTunnelLimit),
@@ -7833,6 +7855,12 @@ export class ObjectFirewallGtp extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      echo_requires_path_in_use: {
+        value: cdktf.stringToHclTerraform(this._echoRequiresPathInUse),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       extension_log: {
         value: cdktf.stringToHclTerraform(this._extensionLog),

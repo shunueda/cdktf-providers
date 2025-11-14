@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityconsoleTemplateCliPreviewConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#dynamic_sort_subtable SecurityconsoleTemplateCliPreview#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#dynamic_sort_subtable SecurityconsoleTemplateCliPreview#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#filename SecurityconsoleTemplateCliPreview#filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#filename SecurityconsoleTemplateCliPreview#filename}
   */
   readonly filename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#fmgadom SecurityconsoleTemplateCliPreview#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#fmgadom SecurityconsoleTemplateCliPreview#fmgadom}
   */
   readonly fmgadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#force_recreate SecurityconsoleTemplateCliPreview#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#force_recreate SecurityconsoleTemplateCliPreview#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#id SecurityconsoleTemplateCliPreview#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#id SecurityconsoleTemplateCliPreview#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#pkg SecurityconsoleTemplateCliPreview#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#pkg SecurityconsoleTemplateCliPreview#pkg}
   */
   readonly pkg?: string;
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#scope SecurityconsoleTemplateCliPreview#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#scope SecurityconsoleTemplateCliPreview#scope}
   */
   readonly scope?: SecurityconsoleTemplateCliPreviewScope[] | cdktf.IResolvable;
 }
 export interface SecurityconsoleTemplateCliPreviewScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#name SecurityconsoleTemplateCliPreview#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#name SecurityconsoleTemplateCliPreview#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#vdom SecurityconsoleTemplateCliPreview#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#vdom SecurityconsoleTemplateCliPreview#vdom}
   */
   readonly vdom?: string;
 }
@@ -192,7 +192,7 @@ export class SecurityconsoleTemplateCliPreviewScopeList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview fortimanager_securityconsole_template_cli_preview}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview fortimanager_securityconsole_template_cli_preview}
 */
 export class SecurityconsoleTemplateCliPreview extends cdktf.TerraformResource {
 
@@ -208,7 +208,7 @@ export class SecurityconsoleTemplateCliPreview extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityconsoleTemplateCliPreview resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityconsoleTemplateCliPreview to import
-  * @param importFromId The id of the existing SecurityconsoleTemplateCliPreview that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityconsoleTemplateCliPreview that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityconsoleTemplateCliPreview to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class SecurityconsoleTemplateCliPreview extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/securityconsole_template_cli_preview fortimanager_securityconsole_template_cli_preview} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/securityconsole_template_cli_preview fortimanager_securityconsole_template_cli_preview} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class SecurityconsoleTemplateCliPreview extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_securityconsole_template_cli_preview',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

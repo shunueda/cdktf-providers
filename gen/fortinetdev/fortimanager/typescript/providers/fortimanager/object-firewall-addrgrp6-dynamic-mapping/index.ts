@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAddrgrp6DynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#_image_base64 ObjectFirewallAddrgrp6DynamicMappingA#_image_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#_image_base64 ObjectFirewallAddrgrp6DynamicMappingA#_image_base64}
   */
   readonly imageBase64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#addrgrp6 ObjectFirewallAddrgrp6DynamicMappingA#addrgrp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#addrgrp6 ObjectFirewallAddrgrp6DynamicMappingA#addrgrp6}
   */
   readonly addrgrp6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#adom ObjectFirewallAddrgrp6DynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#adom ObjectFirewallAddrgrp6DynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#color ObjectFirewallAddrgrp6DynamicMappingA#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#color ObjectFirewallAddrgrp6DynamicMappingA#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#comment ObjectFirewallAddrgrp6DynamicMappingA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#comment ObjectFirewallAddrgrp6DynamicMappingA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#dynamic_sort_subtable ObjectFirewallAddrgrp6DynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#dynamic_sort_subtable ObjectFirewallAddrgrp6DynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#exclude ObjectFirewallAddrgrp6DynamicMappingA#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#exclude ObjectFirewallAddrgrp6DynamicMappingA#exclude}
   */
   readonly exclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#exclude_member ObjectFirewallAddrgrp6DynamicMappingA#exclude_member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#exclude_member ObjectFirewallAddrgrp6DynamicMappingA#exclude_member}
   */
   readonly excludeMember?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#fabric_object ObjectFirewallAddrgrp6DynamicMappingA#fabric_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#fabric_object ObjectFirewallAddrgrp6DynamicMappingA#fabric_object}
   */
   readonly fabricObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#global_object ObjectFirewallAddrgrp6DynamicMappingA#global_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#global_object ObjectFirewallAddrgrp6DynamicMappingA#global_object}
   */
   readonly globalObject?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#id ObjectFirewallAddrgrp6DynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#id ObjectFirewallAddrgrp6DynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#member ObjectFirewallAddrgrp6DynamicMappingA#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#member ObjectFirewallAddrgrp6DynamicMappingA#member}
   */
   readonly member?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#scopetype ObjectFirewallAddrgrp6DynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#scopetype ObjectFirewallAddrgrp6DynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#tags ObjectFirewallAddrgrp6DynamicMappingA#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#tags ObjectFirewallAddrgrp6DynamicMappingA#tags}
   */
   readonly tags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#uuid ObjectFirewallAddrgrp6DynamicMappingA#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#uuid ObjectFirewallAddrgrp6DynamicMappingA#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#visibility ObjectFirewallAddrgrp6DynamicMappingA#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#visibility ObjectFirewallAddrgrp6DynamicMappingA#visibility}
   */
   readonly visibility?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#_scope ObjectFirewallAddrgrp6DynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#_scope ObjectFirewallAddrgrp6DynamicMappingA#_scope}
   */
   readonly scope?: ObjectFirewallAddrgrp6DynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallAddrgrp6DynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#name ObjectFirewallAddrgrp6DynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#name ObjectFirewallAddrgrp6DynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#vdom ObjectFirewallAddrgrp6DynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#vdom ObjectFirewallAddrgrp6DynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -232,7 +232,7 @@ export class ObjectFirewallAddrgrp6DynamicMappingScopeAList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping fortimanager_object_firewall_addrgrp6_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping fortimanager_object_firewall_addrgrp6_dynamic_mapping}
 */
 export class ObjectFirewallAddrgrp6DynamicMappingA extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class ObjectFirewallAddrgrp6DynamicMappingA extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ObjectFirewallAddrgrp6DynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAddrgrp6DynamicMappingA to import
-  * @param importFromId The id of the existing ObjectFirewallAddrgrp6DynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAddrgrp6DynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAddrgrp6DynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class ObjectFirewallAddrgrp6DynamicMappingA extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping fortimanager_object_firewall_addrgrp6_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_addrgrp6_dynamic_mapping fortimanager_object_firewall_addrgrp6_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class ObjectFirewallAddrgrp6DynamicMappingA extends cdktf.TerraformResour
       terraformResourceType: 'fortimanager_object_firewall_addrgrp6_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface OauthClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of seconds, between 5mins and 48hrs, until tokens created with this client expire. Only clients using Genesys Cloud SCIM (Identity Management) can have a maximum duration of 38880000secs/450 days. Defaults to `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#access_token_validity_seconds OauthClient#access_token_validity_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#access_token_validity_seconds OauthClient#access_token_validity_seconds}
   */
   readonly accessTokenValiditySeconds?: number;
   /**
   * The OAuth Grant/Client type supported by this client (CODE | TOKEN | SAML2-BEARER | PASSWORD | CLIENT-CREDENTIALS).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#authorized_grant_type OauthClient#authorized_grant_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#authorized_grant_type OauthClient#authorized_grant_type}
   */
   readonly authorizedGrantType: string;
   /**
   * Place holder that can be referred in integration_credential fields. Sensitive info. Only populated when expose_client_secret is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#client_secret OauthClient#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#client_secret OauthClient#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The description of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#description OauthClient#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#description OauthClient#description}
   */
   readonly description?: string;
   /**
   * Directory where the secret can be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#directory_client_secret OauthClient#directory_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#directory_client_secret OauthClient#directory_client_secret}
   */
   readonly directoryClientSecret?: string;
   /**
   * Set this attribute to true to expose the client_secret as a sensitive output. This stores the secret in the Terraform state Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#expose_client_secret OauthClient#expose_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#expose_client_secret OauthClient#expose_client_secret}
   */
   readonly exposeClientSecret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#id OauthClient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#id OauthClient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface OauthClientConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optionally, a Name of a Integration Credential (with credential type pureCloudOAuthClient) to be created using this new OAuth Client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#integration_credential_name OauthClient#integration_credential_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#integration_credential_name OauthClient#integration_credential_name}
   */
   readonly integrationCredentialName?: string;
   /**
   * The name of the OAuth client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#name OauthClient#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#name OauthClient#name}
   */
   readonly name: string;
   /**
   * List of allowed callbacks for this client. For example: https://myapp.example.com/auth/callback.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#registered_redirect_uris OauthClient#registered_redirect_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#registered_redirect_uris OauthClient#registered_redirect_uris}
   */
   readonly registeredRedirectUris?: string[];
   /**
   * The scopes requested by this client. Scopes must be set for clients not using the CLIENT-CREDENTIALS grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#scopes OauthClient#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#scopes OauthClient#scopes}
   */
   readonly scopes?: string[];
   /**
   * The state of the OAuth client (active | inactive). Access tokens cannot be created with inactive clients. Defaults to `active`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#state OauthClient#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#state OauthClient#state}
   */
   readonly state?: string;
   /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#roles OauthClient#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#roles OauthClient#roles}
   */
   readonly roles?: OauthClientRoles[] | cdktf.IResolvable;
 }
@@ -91,13 +91,13 @@ export interface OauthClientRoles {
   /**
   * Division associated with the given role which forms a grant. If not set, the home division will be used. '*' may be set for all divisions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#division_id OauthClient#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#division_id OauthClient#division_id}
   */
   readonly divisionId?: string;
   /**
   * Role to be associated with the given division which forms a grant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#role_id OauthClient#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#role_id OauthClient#role_id}
   */
   readonly roleId: string;
 }
@@ -239,7 +239,7 @@ export class OauthClientRolesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client genesyscloud_oauth_client}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client genesyscloud_oauth_client}
 */
 export class OauthClient extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class OauthClient extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OauthClient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OauthClient to import
-  * @param importFromId The id of the existing OauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OauthClient that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OauthClient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class OauthClient extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/oauth_client genesyscloud_oauth_client} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/oauth_client genesyscloud_oauth_client} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class OauthClient extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_oauth_client',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

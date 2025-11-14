@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user
+// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataFilesGroupUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user#group_id DataFilesGroupUser#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user#group_id DataFilesGroupUser#group_id}
   */
   readonly groupId: number;
   /**
   * User ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user#user_id DataFilesGroupUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user#user_id DataFilesGroupUser#user_id}
   */
   readonly userId: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user files_group_user}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user files_group_user}
 */
 export class DataFilesGroupUser extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataFilesGroupUser extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFilesGroupUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFilesGroupUser to import
-  * @param importFromId The id of the existing DataFilesGroupUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFilesGroupUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFilesGroupUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataFilesGroupUser extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/data-sources/group_user files_group_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/data-sources/group_user files_group_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataFilesGroupUser extends cdktf.TerraformDataSource {
       terraformResourceType: 'files_group_user',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.377',
-        providerVersionConstraint: '0.1.377'
+        providerVersion: '0.1.379',
+        providerVersionConstraint: '0.1.379'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

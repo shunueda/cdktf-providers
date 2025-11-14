@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DvmCmdAddDevlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#dynamic_sort_subtable DvmCmdAddDevlist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#dynamic_sort_subtable DvmCmdAddDevlist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#flags DvmCmdAddDevlist#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#flags DvmCmdAddDevlist#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#fmgadom DvmCmdAddDevlist#fmgadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#fmgadom DvmCmdAddDevlist#fmgadom}
   */
   readonly fmgadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#force_recreate DvmCmdAddDevlist#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#force_recreate DvmCmdAddDevlist#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#id DvmCmdAddDevlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#id DvmCmdAddDevlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,77 +33,77 @@ export interface DvmCmdAddDevlistConfig extends cdktf.TerraformMetaArguments {
   /**
   * add_dev_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#add_dev_list DvmCmdAddDevlist#add_dev_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#add_dev_list DvmCmdAddDevlist#add_dev_list}
   */
   readonly addDevList?: DvmCmdAddDevlistAddDevListStruct[] | cdktf.IResolvable;
 }
 export interface DvmCmdAddDevlistAddDevListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#adm_pass DvmCmdAddDevlist#adm_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#adm_pass DvmCmdAddDevlist#adm_pass}
   */
   readonly admPass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#adm_usr DvmCmdAddDevlist#adm_usr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#adm_usr DvmCmdAddDevlist#adm_usr}
   */
   readonly admUsr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#authorizationtemplate DvmCmdAddDevlist#authorizationtemplate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#authorizationtemplate DvmCmdAddDevlist#authorizationtemplate}
   */
   readonly authorizationtemplate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#desc DvmCmdAddDevlist#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#desc DvmCmdAddDevlist#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#deviceaction DvmCmdAddDevlist#deviceaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#deviceaction DvmCmdAddDevlist#deviceaction}
   */
   readonly deviceaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#deviceblueprint DvmCmdAddDevlist#deviceblueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#deviceblueprint DvmCmdAddDevlist#deviceblueprint}
   */
   readonly deviceblueprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#fazquota DvmCmdAddDevlist#fazquota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#fazquota DvmCmdAddDevlist#fazquota}
   */
   readonly fazquota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#ip DvmCmdAddDevlist#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#ip DvmCmdAddDevlist#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#metafields DvmCmdAddDevlist#metafields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#metafields DvmCmdAddDevlist#metafields}
   */
   readonly metafields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#mgmt_mode DvmCmdAddDevlist#mgmt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#mgmt_mode DvmCmdAddDevlist#mgmt_mode}
   */
   readonly mgmtMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#mr DvmCmdAddDevlist#mr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#mr DvmCmdAddDevlist#mr}
   */
   readonly mr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#name DvmCmdAddDevlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#name DvmCmdAddDevlist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#os_type DvmCmdAddDevlist#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#os_type DvmCmdAddDevlist#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#os_ver DvmCmdAddDevlist#os_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#os_ver DvmCmdAddDevlist#os_ver}
   */
   readonly osVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#patch DvmCmdAddDevlist#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#patch DvmCmdAddDevlist#patch}
   */
   readonly patch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#platform_str DvmCmdAddDevlist#platform_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#platform_str DvmCmdAddDevlist#platform_str}
   */
   readonly platformStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#sn DvmCmdAddDevlist#sn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#sn DvmCmdAddDevlist#sn}
   */
   readonly sn?: string;
 }
@@ -683,7 +683,7 @@ export class DvmCmdAddDevlistAddDevListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist fortimanager_dvm_cmd_add_devlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist fortimanager_dvm_cmd_add_devlist}
 */
 export class DvmCmdAddDevlist extends cdktf.TerraformResource {
 
@@ -699,7 +699,7 @@ export class DvmCmdAddDevlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DvmCmdAddDevlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DvmCmdAddDevlist to import
-  * @param importFromId The id of the existing DvmCmdAddDevlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DvmCmdAddDevlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DvmCmdAddDevlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -711,7 +711,7 @@ export class DvmCmdAddDevlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/dvm_cmd_add_devlist fortimanager_dvm_cmd_add_devlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/dvm_cmd_add_devlist fortimanager_dvm_cmd_add_devlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -722,8 +722,8 @@ export class DvmCmdAddDevlist extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_dvm_cmd_add_devlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

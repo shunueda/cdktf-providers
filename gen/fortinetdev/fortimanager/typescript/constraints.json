@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "fortimanager": "1.14.0"
+    "fortimanager": "1.15.0"
   }
 }

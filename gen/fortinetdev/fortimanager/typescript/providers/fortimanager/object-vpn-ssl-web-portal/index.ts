@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,362 +8,362 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnSslWebPortalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#adom ObjectVpnSslWebPortal#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#adom ObjectVpnSslWebPortal#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#allow_user_access ObjectVpnSslWebPortal#allow_user_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#allow_user_access ObjectVpnSslWebPortal#allow_user_access}
   */
   readonly allowUserAccess?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#auto_connect ObjectVpnSslWebPortal#auto_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#auto_connect ObjectVpnSslWebPortal#auto_connect}
   */
   readonly autoConnect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#client_src_range ObjectVpnSslWebPortal#client_src_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#client_src_range ObjectVpnSslWebPortal#client_src_range}
   */
   readonly clientSrcRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#clipboard ObjectVpnSslWebPortal#clipboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#clipboard ObjectVpnSslWebPortal#clipboard}
   */
   readonly clipboard?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#custom_lang ObjectVpnSslWebPortal#custom_lang}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#custom_lang ObjectVpnSslWebPortal#custom_lang}
   */
   readonly customLang?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#customize_forticlient_download_url ObjectVpnSslWebPortal#customize_forticlient_download_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#customize_forticlient_download_url ObjectVpnSslWebPortal#customize_forticlient_download_url}
   */
   readonly customizeForticlientDownloadUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#default_protocol ObjectVpnSslWebPortal#default_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#default_protocol ObjectVpnSslWebPortal#default_protocol}
   */
   readonly defaultProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#default_window_height ObjectVpnSslWebPortal#default_window_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#default_window_height ObjectVpnSslWebPortal#default_window_height}
   */
   readonly defaultWindowHeight?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#default_window_width ObjectVpnSslWebPortal#default_window_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#default_window_width ObjectVpnSslWebPortal#default_window_width}
   */
   readonly defaultWindowWidth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dhcp6_ra_linkaddr ObjectVpnSslWebPortal#dhcp6_ra_linkaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dhcp6_ra_linkaddr ObjectVpnSslWebPortal#dhcp6_ra_linkaddr}
   */
   readonly dhcp6RaLinkaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dhcp_ip_overlap ObjectVpnSslWebPortal#dhcp_ip_overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dhcp_ip_overlap ObjectVpnSslWebPortal#dhcp_ip_overlap}
   */
   readonly dhcpIpOverlap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dhcp_ra_giaddr ObjectVpnSslWebPortal#dhcp_ra_giaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dhcp_ra_giaddr ObjectVpnSslWebPortal#dhcp_ra_giaddr}
   */
   readonly dhcpRaGiaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dhcp_reservation ObjectVpnSslWebPortal#dhcp_reservation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dhcp_reservation ObjectVpnSslWebPortal#dhcp_reservation}
   */
   readonly dhcpReservation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#display_bookmark ObjectVpnSslWebPortal#display_bookmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#display_bookmark ObjectVpnSslWebPortal#display_bookmark}
   */
   readonly displayBookmark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#display_connection_tools ObjectVpnSslWebPortal#display_connection_tools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#display_connection_tools ObjectVpnSslWebPortal#display_connection_tools}
   */
   readonly displayConnectionTools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#display_history ObjectVpnSslWebPortal#display_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#display_history ObjectVpnSslWebPortal#display_history}
   */
   readonly displayHistory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#display_status ObjectVpnSslWebPortal#display_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#display_status ObjectVpnSslWebPortal#display_status}
   */
   readonly displayStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dns_server1 ObjectVpnSslWebPortal#dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dns_server1 ObjectVpnSslWebPortal#dns_server1}
   */
   readonly dnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dns_server2 ObjectVpnSslWebPortal#dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dns_server2 ObjectVpnSslWebPortal#dns_server2}
   */
   readonly dnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dns_suffix ObjectVpnSslWebPortal#dns_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dns_suffix ObjectVpnSslWebPortal#dns_suffix}
   */
   readonly dnsSuffix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dynamic_sort_subtable ObjectVpnSslWebPortal#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dynamic_sort_subtable ObjectVpnSslWebPortal#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#exclusive_routing ObjectVpnSslWebPortal#exclusive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#exclusive_routing ObjectVpnSslWebPortal#exclusive_routing}
   */
   readonly exclusiveRouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#focus_bookmark ObjectVpnSslWebPortal#focus_bookmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#focus_bookmark ObjectVpnSslWebPortal#focus_bookmark}
   */
   readonly focusBookmark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#forticlient_download ObjectVpnSslWebPortal#forticlient_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#forticlient_download ObjectVpnSslWebPortal#forticlient_download}
   */
   readonly forticlientDownload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#forticlient_download_method ObjectVpnSslWebPortal#forticlient_download_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#forticlient_download_method ObjectVpnSslWebPortal#forticlient_download_method}
   */
   readonly forticlientDownloadMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#heading ObjectVpnSslWebPortal#heading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#heading ObjectVpnSslWebPortal#heading}
   */
   readonly heading?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#hide_sso_credential ObjectVpnSslWebPortal#hide_sso_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#hide_sso_credential ObjectVpnSslWebPortal#hide_sso_credential}
   */
   readonly hideSsoCredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#host_check ObjectVpnSslWebPortal#host_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#host_check ObjectVpnSslWebPortal#host_check}
   */
   readonly hostCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#host_check_interval ObjectVpnSslWebPortal#host_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#host_check_interval ObjectVpnSslWebPortal#host_check_interval}
   */
   readonly hostCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#host_check_policy ObjectVpnSslWebPortal#host_check_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#host_check_policy ObjectVpnSslWebPortal#host_check_policy}
   */
   readonly hostCheckPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#id ObjectVpnSslWebPortal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#id ObjectVpnSslWebPortal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ip_mode ObjectVpnSslWebPortal#ip_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ip_mode ObjectVpnSslWebPortal#ip_mode}
   */
   readonly ipMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ip_pools ObjectVpnSslWebPortal#ip_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ip_pools ObjectVpnSslWebPortal#ip_pools}
   */
   readonly ipPools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server1 ObjectVpnSslWebPortal#ipv6_dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server1 ObjectVpnSslWebPortal#ipv6_dns_server1}
   */
   readonly ipv6DnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server2 ObjectVpnSslWebPortal#ipv6_dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server2 ObjectVpnSslWebPortal#ipv6_dns_server2}
   */
   readonly ipv6DnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_exclusive_routing ObjectVpnSslWebPortal#ipv6_exclusive_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_exclusive_routing ObjectVpnSslWebPortal#ipv6_exclusive_routing}
   */
   readonly ipv6ExclusiveRouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_pools ObjectVpnSslWebPortal#ipv6_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_pools ObjectVpnSslWebPortal#ipv6_pools}
   */
   readonly ipv6Pools?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_service_restriction ObjectVpnSslWebPortal#ipv6_service_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_service_restriction ObjectVpnSslWebPortal#ipv6_service_restriction}
   */
   readonly ipv6ServiceRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling ObjectVpnSslWebPortal#ipv6_split_tunneling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling ObjectVpnSslWebPortal#ipv6_split_tunneling}
   */
   readonly ipv6SplitTunneling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling_routing_address ObjectVpnSslWebPortal#ipv6_split_tunneling_routing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling_routing_address ObjectVpnSslWebPortal#ipv6_split_tunneling_routing_address}
   */
   readonly ipv6SplitTunnelingRoutingAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling_routing_negate ObjectVpnSslWebPortal#ipv6_split_tunneling_routing_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_split_tunneling_routing_negate ObjectVpnSslWebPortal#ipv6_split_tunneling_routing_negate}
   */
   readonly ipv6SplitTunnelingRoutingNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_tunnel_mode ObjectVpnSslWebPortal#ipv6_tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_tunnel_mode ObjectVpnSslWebPortal#ipv6_tunnel_mode}
   */
   readonly ipv6TunnelMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_wins_server1 ObjectVpnSslWebPortal#ipv6_wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_wins_server1 ObjectVpnSslWebPortal#ipv6_wins_server1}
   */
   readonly ipv6WinsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_wins_server2 ObjectVpnSslWebPortal#ipv6_wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_wins_server2 ObjectVpnSslWebPortal#ipv6_wins_server2}
   */
   readonly ipv6WinsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#keep_alive ObjectVpnSslWebPortal#keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#keep_alive ObjectVpnSslWebPortal#keep_alive}
   */
   readonly keepAlive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#landing_page_mode ObjectVpnSslWebPortal#landing_page_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#landing_page_mode ObjectVpnSslWebPortal#landing_page_mode}
   */
   readonly landingPageMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#limit_user_logins ObjectVpnSslWebPortal#limit_user_logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#limit_user_logins ObjectVpnSslWebPortal#limit_user_logins}
   */
   readonly limitUserLogins?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_action ObjectVpnSslWebPortal#mac_addr_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_action ObjectVpnSslWebPortal#mac_addr_action}
   */
   readonly macAddrAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_check ObjectVpnSslWebPortal#mac_addr_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_check ObjectVpnSslWebPortal#mac_addr_check}
   */
   readonly macAddrCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#macos_forticlient_download_url ObjectVpnSslWebPortal#macos_forticlient_download_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#macos_forticlient_download_url ObjectVpnSslWebPortal#macos_forticlient_download_url}
   */
   readonly macosForticlientDownloadUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#os_check ObjectVpnSslWebPortal#os_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#os_check ObjectVpnSslWebPortal#os_check}
   */
   readonly osCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#prefer_ipv6_dns ObjectVpnSslWebPortal#prefer_ipv6_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#prefer_ipv6_dns ObjectVpnSslWebPortal#prefer_ipv6_dns}
   */
   readonly preferIpv6Dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#redir_url ObjectVpnSslWebPortal#redir_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#redir_url ObjectVpnSslWebPortal#redir_url}
   */
   readonly redirUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#rewrite_ip_uri_ui ObjectVpnSslWebPortal#rewrite_ip_uri_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#rewrite_ip_uri_ui ObjectVpnSslWebPortal#rewrite_ip_uri_ui}
   */
   readonly rewriteIpUriUi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#save_password ObjectVpnSslWebPortal#save_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#save_password ObjectVpnSslWebPortal#save_password}
   */
   readonly savePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#scopetype ObjectVpnSslWebPortal#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#scopetype ObjectVpnSslWebPortal#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#service_restriction ObjectVpnSslWebPortal#service_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#service_restriction ObjectVpnSslWebPortal#service_restriction}
   */
   readonly serviceRestriction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_browser ObjectVpnSslWebPortal#skip_check_for_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_browser ObjectVpnSslWebPortal#skip_check_for_browser}
   */
   readonly skipCheckForBrowser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_unsupported_browser ObjectVpnSslWebPortal#skip_check_for_unsupported_browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_unsupported_browser ObjectVpnSslWebPortal#skip_check_for_unsupported_browser}
   */
   readonly skipCheckForUnsupportedBrowser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_unsupported_os ObjectVpnSslWebPortal#skip_check_for_unsupported_os}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#skip_check_for_unsupported_os ObjectVpnSslWebPortal#skip_check_for_unsupported_os}
   */
   readonly skipCheckForUnsupportedOs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#smb_max_version ObjectVpnSslWebPortal#smb_max_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#smb_max_version ObjectVpnSslWebPortal#smb_max_version}
   */
   readonly smbMaxVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#smb_min_version ObjectVpnSslWebPortal#smb_min_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#smb_min_version ObjectVpnSslWebPortal#smb_min_version}
   */
   readonly smbMinVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#smb_ntlmv1_auth ObjectVpnSslWebPortal#smb_ntlmv1_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#smb_ntlmv1_auth ObjectVpnSslWebPortal#smb_ntlmv1_auth}
   */
   readonly smbNtlmv1Auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#smbv1 ObjectVpnSslWebPortal#smbv1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#smbv1 ObjectVpnSslWebPortal#smbv1}
   */
   readonly smbv1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling ObjectVpnSslWebPortal#split_tunneling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling ObjectVpnSslWebPortal#split_tunneling}
   */
   readonly splitTunneling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling_routing_address ObjectVpnSslWebPortal#split_tunneling_routing_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling_routing_address ObjectVpnSslWebPortal#split_tunneling_routing_address}
   */
   readonly splitTunnelingRoutingAddress?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling_routing_negate ObjectVpnSslWebPortal#split_tunneling_routing_negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#split_tunneling_routing_negate ObjectVpnSslWebPortal#split_tunneling_routing_negate}
   */
   readonly splitTunnelingRoutingNegate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#theme ObjectVpnSslWebPortal#theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#theme ObjectVpnSslWebPortal#theme}
   */
   readonly theme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#transform_backward_slashes ObjectVpnSslWebPortal#transform_backward_slashes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#transform_backward_slashes ObjectVpnSslWebPortal#transform_backward_slashes}
   */
   readonly transformBackwardSlashes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#tunnel_mode ObjectVpnSslWebPortal#tunnel_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#tunnel_mode ObjectVpnSslWebPortal#tunnel_mode}
   */
   readonly tunnelMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#use_sdwan ObjectVpnSslWebPortal#use_sdwan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#use_sdwan ObjectVpnSslWebPortal#use_sdwan}
   */
   readonly useSdwan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#user_bookmark ObjectVpnSslWebPortal#user_bookmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#user_bookmark ObjectVpnSslWebPortal#user_bookmark}
   */
   readonly userBookmark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#user_group_bookmark ObjectVpnSslWebPortal#user_group_bookmark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#user_group_bookmark ObjectVpnSslWebPortal#user_group_bookmark}
   */
   readonly userGroupBookmark?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#web_mode ObjectVpnSslWebPortal#web_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#web_mode ObjectVpnSslWebPortal#web_mode}
   */
   readonly webMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#windows_forticlient_download_url ObjectVpnSslWebPortal#windows_forticlient_download_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#windows_forticlient_download_url ObjectVpnSslWebPortal#windows_forticlient_download_url}
   */
   readonly windowsForticlientDownloadUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#wins_server1 ObjectVpnSslWebPortal#wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#wins_server1 ObjectVpnSslWebPortal#wins_server1}
   */
   readonly winsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#wins_server2 ObjectVpnSslWebPortal#wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#wins_server2 ObjectVpnSslWebPortal#wins_server2}
   */
   readonly winsServer2?: string;
   /**
   * bookmark_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#bookmark_group ObjectVpnSslWebPortal#bookmark_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#bookmark_group ObjectVpnSslWebPortal#bookmark_group}
   */
   readonly bookmarkGroup?: ObjectVpnSslWebPortalBookmarkGroup[] | cdktf.IResolvable;
   /**
   * landing_page block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#landing_page ObjectVpnSslWebPortal#landing_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#landing_page ObjectVpnSslWebPortal#landing_page}
   */
   readonly landingPage?: ObjectVpnSslWebPortalLandingPage;
   /**
   * mac_addr_check_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_check_rule ObjectVpnSslWebPortal#mac_addr_check_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_check_rule ObjectVpnSslWebPortal#mac_addr_check_rule}
   */
   readonly macAddrCheckRule?: ObjectVpnSslWebPortalMacAddrCheckRule[] | cdktf.IResolvable;
   /**
   * os_check_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#os_check_list ObjectVpnSslWebPortal#os_check_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#os_check_list ObjectVpnSslWebPortal#os_check_list}
   */
   readonly osCheckList?: ObjectVpnSslWebPortalOsCheckListStruct;
   /**
   * split_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#split_dns ObjectVpnSslWebPortal#split_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#split_dns ObjectVpnSslWebPortal#split_dns}
   */
   readonly splitDns?: ObjectVpnSslWebPortalSplitDns[] | cdktf.IResolvable;
 }
 export interface ObjectVpnSslWebPortalBookmarkGroupBookmarksFormData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#value ObjectVpnSslWebPortal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#value ObjectVpnSslWebPortal#value}
   */
   readonly value?: string;
 }
@@ -508,133 +508,133 @@ export class ObjectVpnSslWebPortalBookmarkGroupBookmarksFormDataList extends cdk
 }
 export interface ObjectVpnSslWebPortalBookmarkGroupBookmarks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#additional_params ObjectVpnSslWebPortal#additional_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#additional_params ObjectVpnSslWebPortal#additional_params}
   */
   readonly additionalParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#apptype ObjectVpnSslWebPortal#apptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#apptype ObjectVpnSslWebPortal#apptype}
   */
   readonly apptype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#color_depth ObjectVpnSslWebPortal#color_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#color_depth ObjectVpnSslWebPortal#color_depth}
   */
   readonly colorDepth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#description ObjectVpnSslWebPortal#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#description ObjectVpnSslWebPortal#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#domain ObjectVpnSslWebPortal#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#domain ObjectVpnSslWebPortal#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#folder ObjectVpnSslWebPortal#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#folder ObjectVpnSslWebPortal#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#height ObjectVpnSslWebPortal#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#height ObjectVpnSslWebPortal#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#host ObjectVpnSslWebPortal#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#host ObjectVpnSslWebPortal#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#keyboard_layout ObjectVpnSslWebPortal#keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#keyboard_layout ObjectVpnSslWebPortal#keyboard_layout}
   */
   readonly keyboardLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#listening_port ObjectVpnSslWebPortal#listening_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#listening_port ObjectVpnSslWebPortal#listening_port}
   */
   readonly listeningPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#load_balancing_info ObjectVpnSslWebPortal#load_balancing_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#load_balancing_info ObjectVpnSslWebPortal#load_balancing_info}
   */
   readonly loadBalancingInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#logon_password ObjectVpnSslWebPortal#logon_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#logon_password ObjectVpnSslWebPortal#logon_password}
   */
   readonly logonPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#logon_user ObjectVpnSslWebPortal#logon_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#logon_user ObjectVpnSslWebPortal#logon_user}
   */
   readonly logonUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#port ObjectVpnSslWebPortal#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#port ObjectVpnSslWebPortal#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#preconnection_blob ObjectVpnSslWebPortal#preconnection_blob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#preconnection_blob ObjectVpnSslWebPortal#preconnection_blob}
   */
   readonly preconnectionBlob?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#preconnection_id ObjectVpnSslWebPortal#preconnection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#preconnection_id ObjectVpnSslWebPortal#preconnection_id}
   */
   readonly preconnectionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#remote_port ObjectVpnSslWebPortal#remote_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#remote_port ObjectVpnSslWebPortal#remote_port}
   */
   readonly remotePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#restricted_admin ObjectVpnSslWebPortal#restricted_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#restricted_admin ObjectVpnSslWebPortal#restricted_admin}
   */
   readonly restrictedAdmin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#security ObjectVpnSslWebPortal#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#security ObjectVpnSslWebPortal#security}
   */
   readonly security?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#send_preconnection_id ObjectVpnSslWebPortal#send_preconnection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#send_preconnection_id ObjectVpnSslWebPortal#send_preconnection_id}
   */
   readonly sendPreconnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#server_layout ObjectVpnSslWebPortal#server_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#server_layout ObjectVpnSslWebPortal#server_layout}
   */
   readonly serverLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#show_status_window ObjectVpnSslWebPortal#show_status_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#show_status_window ObjectVpnSslWebPortal#show_status_window}
   */
   readonly showStatusWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso ObjectVpnSslWebPortal#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso ObjectVpnSslWebPortal#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_credential ObjectVpnSslWebPortal#sso_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_credential ObjectVpnSslWebPortal#sso_credential}
   */
   readonly ssoCredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_credential_sent_once ObjectVpnSslWebPortal#sso_credential_sent_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_credential_sent_once ObjectVpnSslWebPortal#sso_credential_sent_once}
   */
   readonly ssoCredentialSentOnce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_password ObjectVpnSslWebPortal#sso_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_password ObjectVpnSslWebPortal#sso_password}
   */
   readonly ssoPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_username ObjectVpnSslWebPortal#sso_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_username ObjectVpnSslWebPortal#sso_username}
   */
   readonly ssoUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#url ObjectVpnSslWebPortal#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#url ObjectVpnSslWebPortal#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#vnc_keyboard_layout ObjectVpnSslWebPortal#vnc_keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#vnc_keyboard_layout ObjectVpnSslWebPortal#vnc_keyboard_layout}
   */
   readonly vncKeyboardLayout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#width ObjectVpnSslWebPortal#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#width ObjectVpnSslWebPortal#width}
   */
   readonly width?: number;
   /**
   * form_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#form_data ObjectVpnSslWebPortal#form_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#form_data ObjectVpnSslWebPortal#form_data}
   */
   readonly formData?: ObjectVpnSslWebPortalBookmarkGroupBookmarksFormData[] | cdktf.IResolvable;
 }
@@ -1649,13 +1649,13 @@ export class ObjectVpnSslWebPortalBookmarkGroupBookmarksList extends cdktf.Compl
 }
 export interface ObjectVpnSslWebPortalBookmarkGroup {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
   * bookmarks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#bookmarks ObjectVpnSslWebPortal#bookmarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#bookmarks ObjectVpnSslWebPortal#bookmarks}
   */
   readonly bookmarks?: ObjectVpnSslWebPortalBookmarkGroupBookmarks[] | cdktf.IResolvable;
 }
@@ -1800,11 +1800,11 @@ export class ObjectVpnSslWebPortalBookmarkGroupList extends cdktf.ComplexList {
 }
 export interface ObjectVpnSslWebPortalLandingPageFormData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#value ObjectVpnSslWebPortal#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#value ObjectVpnSslWebPortal#value}
   */
   readonly value?: string;
 }
@@ -1949,33 +1949,33 @@ export class ObjectVpnSslWebPortalLandingPageFormDataList extends cdktf.ComplexL
 }
 export interface ObjectVpnSslWebPortalLandingPage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#logout_url ObjectVpnSslWebPortal#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#logout_url ObjectVpnSslWebPortal#logout_url}
   */
   readonly logoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso ObjectVpnSslWebPortal#sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso ObjectVpnSslWebPortal#sso}
   */
   readonly sso?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_credential ObjectVpnSslWebPortal#sso_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_credential ObjectVpnSslWebPortal#sso_credential}
   */
   readonly ssoCredential?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_password ObjectVpnSslWebPortal#sso_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_password ObjectVpnSslWebPortal#sso_password}
   */
   readonly ssoPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#sso_username ObjectVpnSslWebPortal#sso_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#sso_username ObjectVpnSslWebPortal#sso_username}
   */
   readonly ssoUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#url ObjectVpnSslWebPortal#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#url ObjectVpnSslWebPortal#url}
   */
   readonly url?: string;
   /**
   * form_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#form_data ObjectVpnSslWebPortal#form_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#form_data ObjectVpnSslWebPortal#form_data}
   */
   readonly formData?: ObjectVpnSslWebPortalLandingPageFormData[] | cdktf.IResolvable;
 }
@@ -2233,15 +2233,15 @@ export class ObjectVpnSslWebPortalLandingPageOutputReference extends cdktf.Compl
 }
 export interface ObjectVpnSslWebPortalMacAddrCheckRule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_list ObjectVpnSslWebPortal#mac_addr_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_list ObjectVpnSslWebPortal#mac_addr_list}
   */
   readonly macAddrList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_mask ObjectVpnSslWebPortal#mac_addr_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#mac_addr_mask ObjectVpnSslWebPortal#mac_addr_mask}
   */
   readonly macAddrMask?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
 }
@@ -2415,23 +2415,23 @@ export class ObjectVpnSslWebPortalMacAddrCheckRuleList extends cdktf.ComplexList
 }
 export interface ObjectVpnSslWebPortalOsCheckListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#action ObjectVpnSslWebPortal#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#action ObjectVpnSslWebPortal#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#latest_patch_level ObjectVpnSslWebPortal#latest_patch_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#latest_patch_level ObjectVpnSslWebPortal#latest_patch_level}
   */
   readonly latestPatchLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#minor_version ObjectVpnSslWebPortal#minor_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#minor_version ObjectVpnSslWebPortal#minor_version}
   */
   readonly minorVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#name ObjectVpnSslWebPortal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#tolerance ObjectVpnSslWebPortal#tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#tolerance ObjectVpnSslWebPortal#tolerance}
   */
   readonly tolerance?: number;
 }
@@ -2631,30 +2631,30 @@ export class ObjectVpnSslWebPortalOsCheckListStructOutputReference extends cdktf
 }
 export interface ObjectVpnSslWebPortalSplitDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dns_server1 ObjectVpnSslWebPortal#dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dns_server1 ObjectVpnSslWebPortal#dns_server1}
   */
   readonly dnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#dns_server2 ObjectVpnSslWebPortal#dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#dns_server2 ObjectVpnSslWebPortal#dns_server2}
   */
   readonly dnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#domains ObjectVpnSslWebPortal#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#domains ObjectVpnSslWebPortal#domains}
   */
   readonly domains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#id ObjectVpnSslWebPortal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#id ObjectVpnSslWebPortal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server1 ObjectVpnSslWebPortal#ipv6_dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server1 ObjectVpnSslWebPortal#ipv6_dns_server1}
   */
   readonly ipv6DnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server2 ObjectVpnSslWebPortal#ipv6_dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#ipv6_dns_server2 ObjectVpnSslWebPortal#ipv6_dns_server2}
   */
   readonly ipv6DnsServer2?: string;
 }
@@ -2915,7 +2915,7 @@ export class ObjectVpnSslWebPortalSplitDnsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal fortimanager_object_vpn_ssl_web_portal}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal fortimanager_object_vpn_ssl_web_portal}
 */
 export class ObjectVpnSslWebPortal extends cdktf.TerraformResource {
 
@@ -2931,7 +2931,7 @@ export class ObjectVpnSslWebPortal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVpnSslWebPortal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnSslWebPortal to import
-  * @param importFromId The id of the existing ObjectVpnSslWebPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnSslWebPortal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnSslWebPortal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2943,7 +2943,7 @@ export class ObjectVpnSslWebPortal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_ssl_web_portal fortimanager_object_vpn_ssl_web_portal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_ssl_web_portal fortimanager_object_vpn_ssl_web_portal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2954,8 +2954,8 @@ export class ObjectVpnSslWebPortal extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_vpn_ssl_web_portal',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

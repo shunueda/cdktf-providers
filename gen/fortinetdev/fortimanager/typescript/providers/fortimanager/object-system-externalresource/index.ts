@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,134 +8,138 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemExternalresourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#address_comment_field ObjectSystemExternalresource#address_comment_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#address_comment_field ObjectSystemExternalresource#address_comment_field}
   */
   readonly addressCommentField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#address_data_field ObjectSystemExternalresource#address_data_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#address_data_field ObjectSystemExternalresource#address_data_field}
   */
   readonly addressDataField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#address_name_field ObjectSystemExternalresource#address_name_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#address_name_field ObjectSystemExternalresource#address_name_field}
   */
   readonly addressNameField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#adom ObjectSystemExternalresource#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#adom ObjectSystemExternalresource#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#category ObjectSystemExternalresource#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#category ObjectSystemExternalresource#category}
   */
   readonly category?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#client_cert ObjectSystemExternalresource#client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#client_cert ObjectSystemExternalresource#client_cert}
   */
   readonly clientCert?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#client_cert_auth ObjectSystemExternalresource#client_cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#client_cert_auth ObjectSystemExternalresource#client_cert_auth}
   */
   readonly clientCertAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#comments ObjectSystemExternalresource#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#comments ObjectSystemExternalresource#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#dynamic_sort_subtable ObjectSystemExternalresource#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#dynamic_sort_subtable ObjectSystemExternalresource#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#id ObjectSystemExternalresource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#id ObjectSystemExternalresource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#interface ObjectSystemExternalresource#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#interface ObjectSystemExternalresource#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#interface_select_method ObjectSystemExternalresource#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#interface_select_method ObjectSystemExternalresource#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#name ObjectSystemExternalresource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#name ObjectSystemExternalresource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#namespace ObjectSystemExternalresource#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#namespace ObjectSystemExternalresource#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#object_array_path ObjectSystemExternalresource#object_array_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#object_array_path ObjectSystemExternalresource#object_array_path}
   */
   readonly objectArrayPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#password ObjectSystemExternalresource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#password ObjectSystemExternalresource#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#refresh_rate ObjectSystemExternalresource#refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#refresh_rate ObjectSystemExternalresource#refresh_rate}
   */
   readonly refreshRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#resource ObjectSystemExternalresource#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#resource ObjectSystemExternalresource#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#scopetype ObjectSystemExternalresource#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#scopetype ObjectSystemExternalresource#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#server_identity_check ObjectSystemExternalresource#server_identity_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#server_identity_check ObjectSystemExternalresource#server_identity_check}
   */
   readonly serverIdentityCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#source_ip ObjectSystemExternalresource#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#source_ip ObjectSystemExternalresource#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#status ObjectSystemExternalresource#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#source_ip_interface ObjectSystemExternalresource#source_ip_interface}
+  */
+  readonly sourceIpInterface?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#status ObjectSystemExternalresource#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#type ObjectSystemExternalresource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#type ObjectSystemExternalresource#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#update_method ObjectSystemExternalresource#update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#update_method ObjectSystemExternalresource#update_method}
   */
   readonly updateMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#user_agent ObjectSystemExternalresource#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#user_agent ObjectSystemExternalresource#user_agent}
   */
   readonly userAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#username ObjectSystemExternalresource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#username ObjectSystemExternalresource#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#uuid ObjectSystemExternalresource#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#uuid ObjectSystemExternalresource#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#vrf_select ObjectSystemExternalresource#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#vrf_select ObjectSystemExternalresource#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#dynamic_mapping ObjectSystemExternalresource#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#dynamic_mapping ObjectSystemExternalresource#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectSystemExternalresourceDynamicMapping[] | cdktf.IResolvable;
 }
 export interface ObjectSystemExternalresourceDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#name ObjectSystemExternalresource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#name ObjectSystemExternalresource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#vdom ObjectSystemExternalresource#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#vdom ObjectSystemExternalresource#vdom}
   */
   readonly vdom?: string;
 }
@@ -280,13 +284,13 @@ export class ObjectSystemExternalresourceDynamicMappingScopeList extends cdktf.C
 }
 export interface ObjectSystemExternalresourceDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#source_ip ObjectSystemExternalresource#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#source_ip ObjectSystemExternalresource#source_ip}
   */
   readonly sourceIp?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#_scope ObjectSystemExternalresource#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#_scope ObjectSystemExternalresource#_scope}
   */
   readonly scope?: ObjectSystemExternalresourceDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -431,7 +435,7 @@ export class ObjectSystemExternalresourceDynamicMappingList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource fortimanager_object_system_externalresource}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource fortimanager_object_system_externalresource}
 */
 export class ObjectSystemExternalresource extends cdktf.TerraformResource {
 
@@ -447,7 +451,7 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemExternalresource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemExternalresource to import
-  * @param importFromId The id of the existing ObjectSystemExternalresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemExternalresource that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemExternalresource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -459,7 +463,7 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_externalresource fortimanager_object_system_externalresource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_externalresource fortimanager_object_system_externalresource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -470,8 +474,8 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_externalresource',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -502,6 +506,7 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
     this._scopetype = config.scopetype;
     this._serverIdentityCheck = config.serverIdentityCheck;
     this._sourceIp = config.sourceIp;
+    this._sourceIpInterface = config.sourceIpInterface;
     this._status = config.status;
     this._type = config.type;
     this._updateMethod = config.updateMethod;
@@ -852,6 +857,22 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
     return this._sourceIp;
   }
 
+  // source_ip_interface - computed: true, optional: true, required: false
+  private _sourceIpInterface?: string[]; 
+  public get sourceIpInterface() {
+    return cdktf.Fn.tolist(this.getListAttribute('source_ip_interface'));
+  }
+  public set sourceIpInterface(value: string[]) {
+    this._sourceIpInterface = value;
+  }
+  public resetSourceIpInterface() {
+    this._sourceIpInterface = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sourceIpInterfaceInput() {
+    return this._sourceIpInterface;
+  }
+
   // status - computed: true, optional: true, required: false
   private _status?: string; 
   public get status() {
@@ -1007,6 +1028,7 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
       scopetype: cdktf.stringToTerraform(this._scopetype),
       server_identity_check: cdktf.stringToTerraform(this._serverIdentityCheck),
       source_ip: cdktf.stringToTerraform(this._sourceIp),
+      source_ip_interface: cdktf.listMapper(cdktf.stringToTerraform, false)(this._sourceIpInterface),
       status: cdktf.stringToTerraform(this._status),
       type: cdktf.stringToTerraform(this._type),
       update_method: cdktf.stringToTerraform(this._updateMethod),
@@ -1145,6 +1167,12 @@ export class ObjectSystemExternalresource extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      source_ip_interface: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._sourceIpInterface),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       status: {
         value: cdktf.stringToHclTerraform(this._status),

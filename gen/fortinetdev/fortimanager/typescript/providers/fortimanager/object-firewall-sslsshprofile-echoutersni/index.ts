@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallSslsshprofileEchoutersniConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#adom ObjectFirewallSslsshprofileEchoutersni#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#adom ObjectFirewallSslsshprofileEchoutersni#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#id ObjectFirewallSslsshprofileEchoutersni#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#id ObjectFirewallSslsshprofileEchoutersni#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#name ObjectFirewallSslsshprofileEchoutersni#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#name ObjectFirewallSslsshprofileEchoutersni#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#scopetype ObjectFirewallSslsshprofileEchoutersni#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#scopetype ObjectFirewallSslsshprofileEchoutersni#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#sni ObjectFirewallSslsshprofileEchoutersni#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#sni ObjectFirewallSslsshprofileEchoutersni#sni}
   */
   readonly sni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#ssl_ssh_profile ObjectFirewallSslsshprofileEchoutersni#ssl_ssh_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#ssl_ssh_profile ObjectFirewallSslsshprofileEchoutersni#ssl_ssh_profile}
   */
   readonly sslSshProfile: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni fortimanager_object_firewall_sslsshprofile_echoutersni}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni fortimanager_object_firewall_sslsshprofile_echoutersni}
 */
 export class ObjectFirewallSslsshprofileEchoutersni extends cdktf.TerraformResource {
 
@@ -53,7 +53,7 @@ export class ObjectFirewallSslsshprofileEchoutersni extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectFirewallSslsshprofileEchoutersni resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallSslsshprofileEchoutersni to import
-  * @param importFromId The id of the existing ObjectFirewallSslsshprofileEchoutersni that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallSslsshprofileEchoutersni that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallSslsshprofileEchoutersni to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class ObjectFirewallSslsshprofileEchoutersni extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_sslsshprofile_echoutersni fortimanager_object_firewall_sslsshprofile_echoutersni} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_sslsshprofile_echoutersni fortimanager_object_firewall_sslsshprofile_echoutersni} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class ObjectFirewallSslsshprofileEchoutersni extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_firewall_sslsshprofile_echoutersni',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

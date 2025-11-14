@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,85 +8,85 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectEmailfilterBlockallowlistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#adom ObjectEmailfilterBlockallowlist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#adom ObjectEmailfilterBlockallowlist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#comment ObjectEmailfilterBlockallowlist#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#comment ObjectEmailfilterBlockallowlist#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#dynamic_sort_subtable ObjectEmailfilterBlockallowlist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#dynamic_sort_subtable ObjectEmailfilterBlockallowlist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#fosid ObjectEmailfilterBlockallowlist#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#fosid ObjectEmailfilterBlockallowlist#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#id ObjectEmailfilterBlockallowlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#id ObjectEmailfilterBlockallowlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#name ObjectEmailfilterBlockallowlist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#name ObjectEmailfilterBlockallowlist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#scopetype ObjectEmailfilterBlockallowlist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#scopetype ObjectEmailfilterBlockallowlist#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#entries ObjectEmailfilterBlockallowlist#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#entries ObjectEmailfilterBlockallowlist#entries}
   */
   readonly entries?: ObjectEmailfilterBlockallowlistEntries[] | cdktf.IResolvable;
 }
 export interface ObjectEmailfilterBlockallowlistEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#action ObjectEmailfilterBlockallowlist#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#action ObjectEmailfilterBlockallowlist#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#addr_type ObjectEmailfilterBlockallowlist#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#addr_type ObjectEmailfilterBlockallowlist#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#email_pattern ObjectEmailfilterBlockallowlist#email_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#email_pattern ObjectEmailfilterBlockallowlist#email_pattern}
   */
   readonly emailPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#id ObjectEmailfilterBlockallowlist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#id ObjectEmailfilterBlockallowlist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#ip4_subnet ObjectEmailfilterBlockallowlist#ip4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#ip4_subnet ObjectEmailfilterBlockallowlist#ip4_subnet}
   */
   readonly ip4Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#ip6_subnet ObjectEmailfilterBlockallowlist#ip6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#ip6_subnet ObjectEmailfilterBlockallowlist#ip6_subnet}
   */
   readonly ip6Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#pattern ObjectEmailfilterBlockallowlist#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#pattern ObjectEmailfilterBlockallowlist#pattern}
   */
   readonly pattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#pattern_type ObjectEmailfilterBlockallowlist#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#pattern_type ObjectEmailfilterBlockallowlist#pattern_type}
   */
   readonly patternType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#status ObjectEmailfilterBlockallowlist#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#status ObjectEmailfilterBlockallowlist#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#type ObjectEmailfilterBlockallowlist#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#type ObjectEmailfilterBlockallowlist#type}
   */
   readonly type?: string;
 }
@@ -463,7 +463,7 @@ export class ObjectEmailfilterBlockallowlistEntriesList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist fortimanager_object_emailfilter_blockallowlist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist fortimanager_object_emailfilter_blockallowlist}
 */
 export class ObjectEmailfilterBlockallowlist extends cdktf.TerraformResource {
 
@@ -479,7 +479,7 @@ export class ObjectEmailfilterBlockallowlist extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectEmailfilterBlockallowlist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectEmailfilterBlockallowlist to import
-  * @param importFromId The id of the existing ObjectEmailfilterBlockallowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectEmailfilterBlockallowlist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectEmailfilterBlockallowlist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -491,7 +491,7 @@ export class ObjectEmailfilterBlockallowlist extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_emailfilter_blockallowlist fortimanager_object_emailfilter_blockallowlist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_emailfilter_blockallowlist fortimanager_object_emailfilter_blockallowlist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -502,8 +502,8 @@ export class ObjectEmailfilterBlockallowlist extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_emailfilter_blockallowlist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

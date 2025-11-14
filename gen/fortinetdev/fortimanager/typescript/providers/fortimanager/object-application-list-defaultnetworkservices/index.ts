@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectApplicationListDefaultnetworkservicesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#adom ObjectApplicationListDefaultnetworkservices#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#adom ObjectApplicationListDefaultnetworkservices#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#fosid ObjectApplicationListDefaultnetworkservices#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#fosid ObjectApplicationListDefaultnetworkservices#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#id ObjectApplicationListDefaultnetworkservices#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#id ObjectApplicationListDefaultnetworkservices#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#list ObjectApplicationListDefaultnetworkservices#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#list ObjectApplicationListDefaultnetworkservices#list}
   */
   readonly list: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#port ObjectApplicationListDefaultnetworkservices#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#port ObjectApplicationListDefaultnetworkservices#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#scopetype ObjectApplicationListDefaultnetworkservices#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#scopetype ObjectApplicationListDefaultnetworkservices#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#services ObjectApplicationListDefaultnetworkservices#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#services ObjectApplicationListDefaultnetworkservices#services}
   */
   readonly services?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#violation_action ObjectApplicationListDefaultnetworkservices#violation_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#violation_action ObjectApplicationListDefaultnetworkservices#violation_action}
   */
   readonly violationAction?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices fortimanager_object_application_list_defaultnetworkservices}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices fortimanager_object_application_list_defaultnetworkservices}
 */
 export class ObjectApplicationListDefaultnetworkservices extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectApplicationListDefaultnetworkservices extends cdktf.Terraform
   * Generates CDKTF code for importing a ObjectApplicationListDefaultnetworkservices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectApplicationListDefaultnetworkservices to import
-  * @param importFromId The id of the existing ObjectApplicationListDefaultnetworkservices that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectApplicationListDefaultnetworkservices that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectApplicationListDefaultnetworkservices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectApplicationListDefaultnetworkservices extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_defaultnetworkservices fortimanager_object_application_list_defaultnetworkservices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_defaultnetworkservices fortimanager_object_application_list_defaultnetworkservices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectApplicationListDefaultnetworkservices extends cdktf.Terraform
       terraformResourceType: 'fortimanager_object_application_list_defaultnetworkservices',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

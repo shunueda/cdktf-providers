@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWanoptProfileFtpAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#adom ObjectWanoptProfileFtpA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#adom ObjectWanoptProfileFtpA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#byte_caching ObjectWanoptProfileFtpA#byte_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#byte_caching ObjectWanoptProfileFtpA#byte_caching}
   */
   readonly byteCaching?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#id ObjectWanoptProfileFtpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#id ObjectWanoptProfileFtpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#log_traffic ObjectWanoptProfileFtpA#log_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#log_traffic ObjectWanoptProfileFtpA#log_traffic}
   */
   readonly logTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#port ObjectWanoptProfileFtpA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#port ObjectWanoptProfileFtpA#port}
   */
   readonly port?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#prefer_chunking ObjectWanoptProfileFtpA#prefer_chunking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#prefer_chunking ObjectWanoptProfileFtpA#prefer_chunking}
   */
   readonly preferChunking?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#profile ObjectWanoptProfileFtpA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#profile ObjectWanoptProfileFtpA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#protocol_opt ObjectWanoptProfileFtpA#protocol_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#protocol_opt ObjectWanoptProfileFtpA#protocol_opt}
   */
   readonly protocolOpt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#scopetype ObjectWanoptProfileFtpA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#scopetype ObjectWanoptProfileFtpA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#secure_tunnel ObjectWanoptProfileFtpA#secure_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#secure_tunnel ObjectWanoptProfileFtpA#secure_tunnel}
   */
   readonly secureTunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#ssl ObjectWanoptProfileFtpA#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#ssl ObjectWanoptProfileFtpA#ssl}
   */
   readonly ssl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#status ObjectWanoptProfileFtpA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#status ObjectWanoptProfileFtpA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#tunnel_sharing ObjectWanoptProfileFtpA#tunnel_sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#tunnel_sharing ObjectWanoptProfileFtpA#tunnel_sharing}
   */
   readonly tunnelSharing?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp fortimanager_object_wanopt_profile_ftp}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp fortimanager_object_wanopt_profile_ftp}
 */
 export class ObjectWanoptProfileFtpA extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class ObjectWanoptProfileFtpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWanoptProfileFtpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWanoptProfileFtpA to import
-  * @param importFromId The id of the existing ObjectWanoptProfileFtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWanoptProfileFtpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWanoptProfileFtpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class ObjectWanoptProfileFtpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wanopt_profile_ftp fortimanager_object_wanopt_profile_ftp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wanopt_profile_ftp fortimanager_object_wanopt_profile_ftp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class ObjectWanoptProfileFtpA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_wanopt_profile_ftp',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

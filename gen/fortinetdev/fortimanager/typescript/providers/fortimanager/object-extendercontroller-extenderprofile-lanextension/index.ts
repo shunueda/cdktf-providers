@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectExtendercontrollerExtenderprofileLanextensionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#adom ObjectExtendercontrollerExtenderprofileLanextension#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#adom ObjectExtendercontrollerExtenderprofileLanextension#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul_interface ObjectExtendercontrollerExtenderprofileLanextension#backhaul_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul_interface ObjectExtendercontrollerExtenderprofileLanextension#backhaul_interface}
   */
   readonly backhaulInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul_ip ObjectExtendercontrollerExtenderprofileLanextension#backhaul_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul_ip ObjectExtendercontrollerExtenderprofileLanextension#backhaul_ip}
   */
   readonly backhaulIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#dynamic_sort_subtable ObjectExtendercontrollerExtenderprofileLanextension#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#dynamic_sort_subtable ObjectExtendercontrollerExtenderprofileLanextension#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#extender_profile ObjectExtendercontrollerExtenderprofileLanextension#extender_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#extender_profile ObjectExtendercontrollerExtenderprofileLanextension#extender_profile}
   */
   readonly extenderProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#id ObjectExtendercontrollerExtenderprofileLanextension#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#id ObjectExtendercontrollerExtenderprofileLanextension#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#ipsec_tunnel ObjectExtendercontrollerExtenderprofileLanextension#ipsec_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#ipsec_tunnel ObjectExtendercontrollerExtenderprofileLanextension#ipsec_tunnel}
   */
   readonly ipsecTunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#link_loadbalance ObjectExtendercontrollerExtenderprofileLanextension#link_loadbalance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#link_loadbalance ObjectExtendercontrollerExtenderprofileLanextension#link_loadbalance}
   */
   readonly linkLoadbalance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#scopetype ObjectExtendercontrollerExtenderprofileLanextension#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#scopetype ObjectExtendercontrollerExtenderprofileLanextension#scopetype}
   */
   readonly scopetype?: string;
   /**
   * backhaul block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul ObjectExtendercontrollerExtenderprofileLanextension#backhaul}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#backhaul ObjectExtendercontrollerExtenderprofileLanextension#backhaul}
   */
   readonly backhaul?: ObjectExtendercontrollerExtenderprofileLanextensionBackhaul[] | cdktf.IResolvable;
 }
 export interface ObjectExtendercontrollerExtenderprofileLanextensionBackhaul {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#name ObjectExtendercontrollerExtenderprofileLanextension#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#name ObjectExtendercontrollerExtenderprofileLanextension#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#port ObjectExtendercontrollerExtenderprofileLanextension#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#port ObjectExtendercontrollerExtenderprofileLanextension#port}
   */
   readonly port?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#role ObjectExtendercontrollerExtenderprofileLanextension#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#role ObjectExtendercontrollerExtenderprofileLanextension#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#weight ObjectExtendercontrollerExtenderprofileLanextension#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#weight ObjectExtendercontrollerExtenderprofileLanextension#weight}
   */
   readonly weight?: number;
 }
@@ -270,7 +270,7 @@ export class ObjectExtendercontrollerExtenderprofileLanextensionBackhaulList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension fortimanager_object_extendercontroller_extenderprofile_lanextension}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension fortimanager_object_extendercontroller_extenderprofile_lanextension}
 */
 export class ObjectExtendercontrollerExtenderprofileLanextension extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class ObjectExtendercontrollerExtenderprofileLanextension extends cdktf.T
   * Generates CDKTF code for importing a ObjectExtendercontrollerExtenderprofileLanextension resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectExtendercontrollerExtenderprofileLanextension to import
-  * @param importFromId The id of the existing ObjectExtendercontrollerExtenderprofileLanextension that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectExtendercontrollerExtenderprofileLanextension that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectExtendercontrollerExtenderprofileLanextension to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class ObjectExtendercontrollerExtenderprofileLanextension extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_extendercontroller_extenderprofile_lanextension fortimanager_object_extendercontroller_extenderprofile_lanextension} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_extendercontroller_extenderprofile_lanextension fortimanager_object_extendercontroller_extenderprofile_lanextension} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class ObjectExtendercontrollerExtenderprofileLanextension extends cdktf.T
       terraformResourceType: 'fortimanager_object_extendercontroller_extenderprofile_lanextension',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

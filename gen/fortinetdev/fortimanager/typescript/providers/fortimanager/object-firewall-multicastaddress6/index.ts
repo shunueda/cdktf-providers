@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallMulticastaddress6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#adom ObjectFirewallMulticastaddress6#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#adom ObjectFirewallMulticastaddress6#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#color ObjectFirewallMulticastaddress6#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#color ObjectFirewallMulticastaddress6#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#comment ObjectFirewallMulticastaddress6#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#comment ObjectFirewallMulticastaddress6#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#dynamic_sort_subtable ObjectFirewallMulticastaddress6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#dynamic_sort_subtable ObjectFirewallMulticastaddress6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#id ObjectFirewallMulticastaddress6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#id ObjectFirewallMulticastaddress6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#ip6 ObjectFirewallMulticastaddress6#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#ip6 ObjectFirewallMulticastaddress6#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#name ObjectFirewallMulticastaddress6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#name ObjectFirewallMulticastaddress6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#scopetype ObjectFirewallMulticastaddress6#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#scopetype ObjectFirewallMulticastaddress6#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#visibility ObjectFirewallMulticastaddress6#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#visibility ObjectFirewallMulticastaddress6#visibility}
   */
   readonly visibility?: string;
   /**
   * tagging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#tagging ObjectFirewallMulticastaddress6#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#tagging ObjectFirewallMulticastaddress6#tagging}
   */
   readonly tagging?: ObjectFirewallMulticastaddress6Tagging[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallMulticastaddress6Tagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#category ObjectFirewallMulticastaddress6#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#category ObjectFirewallMulticastaddress6#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#name ObjectFirewallMulticastaddress6#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#name ObjectFirewallMulticastaddress6#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#tags ObjectFirewallMulticastaddress6#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#tags ObjectFirewallMulticastaddress6#tags}
   */
   readonly tags?: string;
 }
@@ -237,7 +237,7 @@ export class ObjectFirewallMulticastaddress6TaggingList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6 fortimanager_object_firewall_multicastaddress6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6 fortimanager_object_firewall_multicastaddress6}
 */
 export class ObjectFirewallMulticastaddress6 extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class ObjectFirewallMulticastaddress6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallMulticastaddress6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallMulticastaddress6 to import
-  * @param importFromId The id of the existing ObjectFirewallMulticastaddress6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallMulticastaddress6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallMulticastaddress6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class ObjectFirewallMulticastaddress6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_multicastaddress6 fortimanager_object_firewall_multicastaddress6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_multicastaddress6 fortimanager_object_firewall_multicastaddress6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class ObjectFirewallMulticastaddress6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_multicastaddress6',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

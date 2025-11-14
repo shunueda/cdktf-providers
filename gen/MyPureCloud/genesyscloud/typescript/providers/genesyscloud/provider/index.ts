@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GenesyscloudProviderConfig {
   /**
   * A string that the OAuth client uses to make requests. Can be set with the `GENESYSCLOUD_ACCESS_TOKEN` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#access_token GenesyscloudProvider#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#access_token GenesyscloudProvider#access_token}
   */
   readonly accessToken?: string;
   /**
   * AWS region where org exists. e.g. us-east-1. Can be set with the `GENESYSCLOUD_REGION` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#aws_region GenesyscloudProvider#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#aws_region GenesyscloudProvider#aws_region}
   */
   readonly awsRegion?: string;
   /**
@@ -25,85 +25,85 @@ export interface GenesyscloudProviderConfig {
   * "Root object was present, but now absent." Can be set with the GENESYSCLOUD_LOG_STACK_TRACES environment variable. **WARNING**: This is a debugging feature that may cause your Terraform state to become out of sync with the API.
   * If you encounter any stack traces, please report them so we can address the underlying issues.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#log_stack_traces GenesyscloudProvider#log_stack_traces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#log_stack_traces GenesyscloudProvider#log_stack_traces}
   */
   readonly logStackTraces?: boolean | cdktf.IResolvable;
   /**
   * Specifies the file path for the stack trace logs. Can be set with the `GENESYSCLOUD_LOG_STACK_TRACES_FILE_PATH` environment variable. Default value is genesyscloud_stack_traces.log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#log_stack_traces_file_path GenesyscloudProvider#log_stack_traces_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#log_stack_traces_file_path GenesyscloudProvider#log_stack_traces_file_path}
   */
   readonly logStackTracesFilePath?: string;
   /**
   * OAuthClient ID found on the OAuth page of Admin UI. Can be set with the `GENESYSCLOUD_OAUTHCLIENT_ID` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#oauthclient_id GenesyscloudProvider#oauthclient_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#oauthclient_id GenesyscloudProvider#oauthclient_id}
   */
   readonly oauthclientId?: string;
   /**
   * OAuthClient secret found on the OAuth page of Admin UI. Can be set with the `GENESYSCLOUD_OAUTHCLIENT_SECRET` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#oauthclient_secret GenesyscloudProvider#oauthclient_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#oauthclient_secret GenesyscloudProvider#oauthclient_secret}
   */
   readonly oauthclientSecret?: string;
   /**
   * Enables debug tracing in the Genesys Cloud SDK client pool. Output will be written to standard log output. Can be set with the `GENESYSCLOUD_SDK_CLIENT_POOL_DEBUG` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#sdk_client_pool_debug GenesyscloudProvider#sdk_client_pool_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#sdk_client_pool_debug GenesyscloudProvider#sdk_client_pool_debug}
   */
   readonly sdkClientPoolDebug?: boolean | cdktf.IResolvable;
   /**
   * Enables debug tracing in the Genesys Cloud SDK. Output will be written to the local file 'sdk_debug.log'. Can be set with the `GENESYSCLOUD_SDK_DEBUG` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#sdk_debug GenesyscloudProvider#sdk_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#sdk_debug GenesyscloudProvider#sdk_debug}
   */
   readonly sdkDebug?: boolean | cdktf.IResolvable;
   /**
   * Specifies the file path for the log file. Can be set with the `GENESYSCLOUD_SDK_DEBUG_FILE_PATH` environment variable. Default value is sdk_debug.log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#sdk_debug_file_path GenesyscloudProvider#sdk_debug_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#sdk_debug_file_path GenesyscloudProvider#sdk_debug_file_path}
   */
   readonly sdkDebugFilePath?: string;
   /**
   * Specifies the data format of the 'sdk_debug.log'. Only applicable if sdk_debug is true. Can be set with the `GENESYSCLOUD_SDK_DEBUG_FORMAT` environment variable. Default value is Text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#sdk_debug_format GenesyscloudProvider#sdk_debug_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#sdk_debug_format GenesyscloudProvider#sdk_debug_format}
   */
   readonly sdkDebugFormat?: string;
   /**
   * Timeout for acquiring a token from the pool. Can be set with the `GENESYSCLOUD_TOKEN_ACQUIRE_TIMEOUT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#token_acquire_timeout GenesyscloudProvider#token_acquire_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#token_acquire_timeout GenesyscloudProvider#token_acquire_timeout}
   */
   readonly tokenAcquireTimeout?: string;
   /**
   * Timeout for initializing the token pool. Can be set with the `GENESYSCLOUD_TOKEN_INIT_TIMEOUT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#token_init_timeout GenesyscloudProvider#token_init_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#token_init_timeout GenesyscloudProvider#token_init_timeout}
   */
   readonly tokenInitTimeout?: string;
   /**
   * Max number of OAuth tokens in the token pool. Can be set with the `GENESYSCLOUD_TOKEN_POOL_SIZE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#token_pool_size GenesyscloudProvider#token_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#token_pool_size GenesyscloudProvider#token_pool_size}
   */
   readonly tokenPoolSize?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#alias GenesyscloudProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#alias GenesyscloudProvider#alias}
   */
   readonly alias?: string;
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#gateway GenesyscloudProvider#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#gateway GenesyscloudProvider#gateway}
   */
   readonly gateway?: GenesyscloudProviderGateway[] | cdktf.IResolvable;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#proxy GenesyscloudProvider#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#proxy GenesyscloudProvider#proxy}
   */
   readonly proxy?: GenesyscloudProviderProxy;
 }
@@ -111,13 +111,13 @@ export interface GenesyscloudProviderGatewayAuth {
   /**
   * Password for the Auth can be set with the `GENESYSCLOUD_PROXY_AUTH_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#password GenesyscloudProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#password GenesyscloudProvider#password}
   */
   readonly password?: string;
   /**
   * UserName for the Auth can be set with the `GENESYSCLOUD_PROXY_AUTH_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#username GenesyscloudProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#username GenesyscloudProvider#username}
   */
   readonly username?: string;
 }
@@ -162,13 +162,13 @@ export interface GenesyscloudProviderGatewayPathParams {
   /**
   * Path name for Gateway Path Params can be set with the `GENESYSCLOUD_GATEWAY_PATH_NAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#path_name GenesyscloudProvider#path_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#path_name GenesyscloudProvider#path_name}
   */
   readonly pathName: string;
   /**
   * Path value for Gateway Path Params can be set with the `GENESYSCLOUD_GATEWAY_PATH_VALUE` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#path_value GenesyscloudProvider#path_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#path_value GenesyscloudProvider#path_value}
   */
   readonly pathValue: string;
 }
@@ -213,31 +213,31 @@ export interface GenesyscloudProviderGateway {
   /**
   * Host for the gateway can be set with the `GENESYSCLOUD_GATEWAY_HOST` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#host GenesyscloudProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#host GenesyscloudProvider#host}
   */
   readonly host?: string;
   /**
   * Port for the gateway can be set with the `GENESYSCLOUD_GATEWAY_PORT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#port GenesyscloudProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#port GenesyscloudProvider#port}
   */
   readonly port?: string;
   /**
   * Protocol for the gateway can be set with the `GENESYSCLOUD_GATEWAY_PROTOCOL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#protocol GenesyscloudProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#protocol GenesyscloudProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#auth GenesyscloudProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#auth GenesyscloudProvider#auth}
   */
   readonly auth?: GenesyscloudProviderGatewayAuth;
   /**
   * path_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#path_params GenesyscloudProvider#path_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#path_params GenesyscloudProvider#path_params}
   */
   readonly pathParams?: GenesyscloudProviderGatewayPathParams[] | cdktf.IResolvable;
 }
@@ -303,13 +303,13 @@ export interface GenesyscloudProviderProxyAuth {
   /**
   * Password for the Auth can be set with the `GENESYSCLOUD_PROXY_AUTH_PASSWORD` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#password GenesyscloudProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#password GenesyscloudProvider#password}
   */
   readonly password?: string;
   /**
   * UserName for the Auth can be set with the `GENESYSCLOUD_PROXY_AUTH_USERNAME` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#username GenesyscloudProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#username GenesyscloudProvider#username}
   */
   readonly username?: string;
 }
@@ -354,25 +354,25 @@ export interface GenesyscloudProviderProxy {
   /**
   * Host for the proxy can be set with the `GENESYSCLOUD_PROXY_HOST` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#host GenesyscloudProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#host GenesyscloudProvider#host}
   */
   readonly host?: string;
   /**
   * Port for the proxy can be set with the `GENESYSCLOUD_PROXY_PORT` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#port GenesyscloudProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#port GenesyscloudProvider#port}
   */
   readonly port?: string;
   /**
   * Protocol for the proxy can be set with the `GENESYSCLOUD_PROXY_PROTOCOL` environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#protocol GenesyscloudProvider#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#protocol GenesyscloudProvider#protocol}
   */
   readonly protocol?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#auth GenesyscloudProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#auth GenesyscloudProvider#auth}
   */
   readonly auth?: GenesyscloudProviderProxyAuth;
 }
@@ -429,7 +429,7 @@ export function genesyscloudProviderProxyToHclTerraform(struct?: GenesyscloudPro
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs genesyscloud}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs genesyscloud}
 */
 export class GenesyscloudProvider extends cdktf.TerraformProvider {
 
@@ -445,7 +445,7 @@ export class GenesyscloudProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a GenesyscloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GenesyscloudProvider to import
-  * @param importFromId The id of the existing GenesyscloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GenesyscloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GenesyscloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -457,7 +457,7 @@ export class GenesyscloudProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs genesyscloud} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs genesyscloud} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -468,8 +468,8 @@ export class GenesyscloudProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'genesyscloud',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       terraformProviderSource: 'MyPureCloud/genesyscloud'
     });

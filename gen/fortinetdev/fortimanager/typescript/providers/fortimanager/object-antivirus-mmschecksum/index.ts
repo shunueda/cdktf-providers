@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAntivirusMmschecksumConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#adom ObjectAntivirusMmschecksum#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#adom ObjectAntivirusMmschecksum#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#comment ObjectAntivirusMmschecksum#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#comment ObjectAntivirusMmschecksum#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#dynamic_sort_subtable ObjectAntivirusMmschecksum#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#dynamic_sort_subtable ObjectAntivirusMmschecksum#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#fosid ObjectAntivirusMmschecksum#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#fosid ObjectAntivirusMmschecksum#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#id ObjectAntivirusMmschecksum#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#id ObjectAntivirusMmschecksum#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#name ObjectAntivirusMmschecksum#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#name ObjectAntivirusMmschecksum#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#scopetype ObjectAntivirusMmschecksum#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#scopetype ObjectAntivirusMmschecksum#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#entries ObjectAntivirusMmschecksum#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#entries ObjectAntivirusMmschecksum#entries}
   */
   readonly entries?: ObjectAntivirusMmschecksumEntries[] | cdktf.IResolvable;
 }
 export interface ObjectAntivirusMmschecksumEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#checksum ObjectAntivirusMmschecksum#checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#checksum ObjectAntivirusMmschecksum#checksum}
   */
   readonly checksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#name ObjectAntivirusMmschecksum#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#name ObjectAntivirusMmschecksum#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#status ObjectAntivirusMmschecksum#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#status ObjectAntivirusMmschecksum#status}
   */
   readonly status?: string;
 }
@@ -229,7 +229,7 @@ export class ObjectAntivirusMmschecksumEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum fortimanager_object_antivirus_mmschecksum}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum fortimanager_object_antivirus_mmschecksum}
 */
 export class ObjectAntivirusMmschecksum extends cdktf.TerraformResource {
 
@@ -245,7 +245,7 @@ export class ObjectAntivirusMmschecksum extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectAntivirusMmschecksum resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAntivirusMmschecksum to import
-  * @param importFromId The id of the existing ObjectAntivirusMmschecksum that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAntivirusMmschecksum that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAntivirusMmschecksum to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -257,7 +257,7 @@ export class ObjectAntivirusMmschecksum extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_mmschecksum fortimanager_object_antivirus_mmschecksum} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_mmschecksum fortimanager_object_antivirus_mmschecksum} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -268,8 +268,8 @@ export class ObjectAntivirusMmschecksum extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_antivirus_mmschecksum',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

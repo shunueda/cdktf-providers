@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallMulticastpolicy6MoveConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#adom PackagesFirewallMulticastpolicy6Move#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#adom PackagesFirewallMulticastpolicy6Move#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#id PackagesFirewallMulticastpolicy6Move#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#id PackagesFirewallMulticastpolicy6Move#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#multicast_policy6 PackagesFirewallMulticastpolicy6Move#multicast_policy6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#multicast_policy6 PackagesFirewallMulticastpolicy6Move#multicast_policy6}
   */
   readonly multicastPolicy6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#option PackagesFirewallMulticastpolicy6Move#option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#option PackagesFirewallMulticastpolicy6Move#option}
   */
   readonly option: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#pkg PackagesFirewallMulticastpolicy6Move#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#pkg PackagesFirewallMulticastpolicy6Move#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#pkg_folder_path PackagesFirewallMulticastpolicy6Move#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#pkg_folder_path PackagesFirewallMulticastpolicy6Move#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#scopetype PackagesFirewallMulticastpolicy6Move#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#scopetype PackagesFirewallMulticastpolicy6Move#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#state_pos PackagesFirewallMulticastpolicy6Move#state_pos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#state_pos PackagesFirewallMulticastpolicy6Move#state_pos}
   */
   readonly statePos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#target PackagesFirewallMulticastpolicy6Move#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#target PackagesFirewallMulticastpolicy6Move#target}
   */
   readonly target: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move fortimanager_packages_firewall_multicastpolicy6_move}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move fortimanager_packages_firewall_multicastpolicy6_move}
 */
 export class PackagesFirewallMulticastpolicy6Move extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class PackagesFirewallMulticastpolicy6Move extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a PackagesFirewallMulticastpolicy6Move resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallMulticastpolicy6Move to import
-  * @param importFromId The id of the existing PackagesFirewallMulticastpolicy6Move that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallMulticastpolicy6Move that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallMulticastpolicy6Move to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class PackagesFirewallMulticastpolicy6Move extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_multicastpolicy6_move fortimanager_packages_firewall_multicastpolicy6_move} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_multicastpolicy6_move fortimanager_packages_firewall_multicastpolicy6_move} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class PackagesFirewallMulticastpolicy6Move extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_packages_firewall_multicastpolicy6_move',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

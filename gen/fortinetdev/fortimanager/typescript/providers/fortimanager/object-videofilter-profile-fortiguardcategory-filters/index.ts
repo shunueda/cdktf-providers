@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVideofilterProfileFortiguardcategoryFiltersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#action ObjectVideofilterProfileFortiguardcategoryFiltersA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#action ObjectVideofilterProfileFortiguardcategoryFiltersA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#adom ObjectVideofilterProfileFortiguardcategoryFiltersA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#adom ObjectVideofilterProfileFortiguardcategoryFiltersA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#category_id ObjectVideofilterProfileFortiguardcategoryFiltersA#category_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#category_id ObjectVideofilterProfileFortiguardcategoryFiltersA#category_id}
   */
   readonly categoryId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#fosid ObjectVideofilterProfileFortiguardcategoryFiltersA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#fosid ObjectVideofilterProfileFortiguardcategoryFiltersA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#id ObjectVideofilterProfileFortiguardcategoryFiltersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#id ObjectVideofilterProfileFortiguardcategoryFiltersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#log ObjectVideofilterProfileFortiguardcategoryFiltersA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#log ObjectVideofilterProfileFortiguardcategoryFiltersA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#profile ObjectVideofilterProfileFortiguardcategoryFiltersA#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#profile ObjectVideofilterProfileFortiguardcategoryFiltersA#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#scopetype ObjectVideofilterProfileFortiguardcategoryFiltersA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#scopetype ObjectVideofilterProfileFortiguardcategoryFiltersA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters fortimanager_object_videofilter_profile_fortiguardcategory_filters}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters fortimanager_object_videofilter_profile_fortiguardcategory_filters}
 */
 export class ObjectVideofilterProfileFortiguardcategoryFiltersA extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectVideofilterProfileFortiguardcategoryFiltersA extends cdktf.Te
   * Generates CDKTF code for importing a ObjectVideofilterProfileFortiguardcategoryFiltersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVideofilterProfileFortiguardcategoryFiltersA to import
-  * @param importFromId The id of the existing ObjectVideofilterProfileFortiguardcategoryFiltersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVideofilterProfileFortiguardcategoryFiltersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVideofilterProfileFortiguardcategoryFiltersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectVideofilterProfileFortiguardcategoryFiltersA extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters fortimanager_object_videofilter_profile_fortiguardcategory_filters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_videofilter_profile_fortiguardcategory_filters fortimanager_object_videofilter_profile_fortiguardcategory_filters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectVideofilterProfileFortiguardcategoryFiltersA extends cdktf.Te
       terraformResourceType: 'fortimanager_object_videofilter_profile_fortiguardcategory_filters',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

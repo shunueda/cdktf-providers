@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,100 +8,100 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesFirewallDospolicy6AnomalyAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#action PackagesFirewallDospolicy6AnomalyA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#action PackagesFirewallDospolicy6AnomalyA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#adom PackagesFirewallDospolicy6AnomalyA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#adom PackagesFirewallDospolicy6AnomalyA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#dos_policy6 PackagesFirewallDospolicy6AnomalyA#dos_policy6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#dos_policy6 PackagesFirewallDospolicy6AnomalyA#dos_policy6}
   */
   readonly dosPolicy6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#id PackagesFirewallDospolicy6AnomalyA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#id PackagesFirewallDospolicy6AnomalyA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#log PackagesFirewallDospolicy6AnomalyA#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#log PackagesFirewallDospolicy6AnomalyA#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#name PackagesFirewallDospolicy6AnomalyA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#name PackagesFirewallDospolicy6AnomalyA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#pkg PackagesFirewallDospolicy6AnomalyA#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#pkg PackagesFirewallDospolicy6AnomalyA#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#pkg_folder_path PackagesFirewallDospolicy6AnomalyA#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#pkg_folder_path PackagesFirewallDospolicy6AnomalyA#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine PackagesFirewallDospolicy6AnomalyA#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine PackagesFirewallDospolicy6AnomalyA#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine_expiry PackagesFirewallDospolicy6AnomalyA#quarantine_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine_expiry PackagesFirewallDospolicy6AnomalyA#quarantine_expiry}
   */
   readonly quarantineExpiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine_log PackagesFirewallDospolicy6AnomalyA#quarantine_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#quarantine_log PackagesFirewallDospolicy6AnomalyA#quarantine_log}
   */
   readonly quarantineLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#scopetype PackagesFirewallDospolicy6AnomalyA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#scopetype PackagesFirewallDospolicy6AnomalyA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#status PackagesFirewallDospolicy6AnomalyA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#status PackagesFirewallDospolicy6AnomalyA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_mss PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_mss PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_mss}
   */
   readonly synproxyTcpMss?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_sack PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_sack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_sack PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_sack}
   */
   readonly synproxyTcpSack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_timestamp PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_timestamp PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_timestamp}
   */
   readonly synproxyTcpTimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_window PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_window PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_window}
   */
   readonly synproxyTcpWindow?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_windowscale PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_windowscale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tcp_windowscale PackagesFirewallDospolicy6AnomalyA#synproxy_tcp_windowscale}
   */
   readonly synproxyTcpWindowscale?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tos PackagesFirewallDospolicy6AnomalyA#synproxy_tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_tos PackagesFirewallDospolicy6AnomalyA#synproxy_tos}
   */
   readonly synproxyTos?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_ttl PackagesFirewallDospolicy6AnomalyA#synproxy_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#synproxy_ttl PackagesFirewallDospolicy6AnomalyA#synproxy_ttl}
   */
   readonly synproxyTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#threshold PackagesFirewallDospolicy6AnomalyA#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#threshold PackagesFirewallDospolicy6AnomalyA#threshold}
   */
   readonly threshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#thresholddefault PackagesFirewallDospolicy6AnomalyA#thresholddefault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#thresholddefault PackagesFirewallDospolicy6AnomalyA#thresholddefault}
   */
   readonly thresholddefault?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly fortimanager_packages_firewall_dospolicy6_anomaly}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly fortimanager_packages_firewall_dospolicy6_anomaly}
 */
 export class PackagesFirewallDospolicy6AnomalyA extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class PackagesFirewallDospolicy6AnomalyA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PackagesFirewallDospolicy6AnomalyA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesFirewallDospolicy6AnomalyA to import
-  * @param importFromId The id of the existing PackagesFirewallDospolicy6AnomalyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesFirewallDospolicy6AnomalyA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesFirewallDospolicy6AnomalyA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class PackagesFirewallDospolicy6AnomalyA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_firewall_dospolicy6_anomaly fortimanager_packages_firewall_dospolicy6_anomaly} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_firewall_dospolicy6_anomaly fortimanager_packages_firewall_dospolicy6_anomaly} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class PackagesFirewallDospolicy6AnomalyA extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_packages_firewall_dospolicy6_anomaly',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

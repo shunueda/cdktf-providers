@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,324 +8,324 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuNpqueuesProfileAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#adom ObjectSystemNpuNpqueuesProfileA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#adom ObjectSystemNpuNpqueuesProfileA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos0 ObjectSystemNpuNpqueuesProfileA#cos0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos0 ObjectSystemNpuNpqueuesProfileA#cos0}
   */
   readonly cos0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos1 ObjectSystemNpuNpqueuesProfileA#cos1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos1 ObjectSystemNpuNpqueuesProfileA#cos1}
   */
   readonly cos1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos2 ObjectSystemNpuNpqueuesProfileA#cos2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos2 ObjectSystemNpuNpqueuesProfileA#cos2}
   */
   readonly cos2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos3 ObjectSystemNpuNpqueuesProfileA#cos3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos3 ObjectSystemNpuNpqueuesProfileA#cos3}
   */
   readonly cos3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos4 ObjectSystemNpuNpqueuesProfileA#cos4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos4 ObjectSystemNpuNpqueuesProfileA#cos4}
   */
   readonly cos4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos5 ObjectSystemNpuNpqueuesProfileA#cos5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos5 ObjectSystemNpuNpqueuesProfileA#cos5}
   */
   readonly cos5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos6 ObjectSystemNpuNpqueuesProfileA#cos6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos6 ObjectSystemNpuNpqueuesProfileA#cos6}
   */
   readonly cos6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#cos7 ObjectSystemNpuNpqueuesProfileA#cos7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#cos7 ObjectSystemNpuNpqueuesProfileA#cos7}
   */
   readonly cos7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp0 ObjectSystemNpuNpqueuesProfileA#dscp0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp0 ObjectSystemNpuNpqueuesProfileA#dscp0}
   */
   readonly dscp0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp1 ObjectSystemNpuNpqueuesProfileA#dscp1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp1 ObjectSystemNpuNpqueuesProfileA#dscp1}
   */
   readonly dscp1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp10 ObjectSystemNpuNpqueuesProfileA#dscp10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp10 ObjectSystemNpuNpqueuesProfileA#dscp10}
   */
   readonly dscp10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp11 ObjectSystemNpuNpqueuesProfileA#dscp11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp11 ObjectSystemNpuNpqueuesProfileA#dscp11}
   */
   readonly dscp11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp12 ObjectSystemNpuNpqueuesProfileA#dscp12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp12 ObjectSystemNpuNpqueuesProfileA#dscp12}
   */
   readonly dscp12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp13 ObjectSystemNpuNpqueuesProfileA#dscp13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp13 ObjectSystemNpuNpqueuesProfileA#dscp13}
   */
   readonly dscp13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp14 ObjectSystemNpuNpqueuesProfileA#dscp14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp14 ObjectSystemNpuNpqueuesProfileA#dscp14}
   */
   readonly dscp14?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp15 ObjectSystemNpuNpqueuesProfileA#dscp15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp15 ObjectSystemNpuNpqueuesProfileA#dscp15}
   */
   readonly dscp15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp16 ObjectSystemNpuNpqueuesProfileA#dscp16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp16 ObjectSystemNpuNpqueuesProfileA#dscp16}
   */
   readonly dscp16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp17 ObjectSystemNpuNpqueuesProfileA#dscp17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp17 ObjectSystemNpuNpqueuesProfileA#dscp17}
   */
   readonly dscp17?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp18 ObjectSystemNpuNpqueuesProfileA#dscp18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp18 ObjectSystemNpuNpqueuesProfileA#dscp18}
   */
   readonly dscp18?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp19 ObjectSystemNpuNpqueuesProfileA#dscp19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp19 ObjectSystemNpuNpqueuesProfileA#dscp19}
   */
   readonly dscp19?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp2 ObjectSystemNpuNpqueuesProfileA#dscp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp2 ObjectSystemNpuNpqueuesProfileA#dscp2}
   */
   readonly dscp2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp20 ObjectSystemNpuNpqueuesProfileA#dscp20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp20 ObjectSystemNpuNpqueuesProfileA#dscp20}
   */
   readonly dscp20?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp21 ObjectSystemNpuNpqueuesProfileA#dscp21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp21 ObjectSystemNpuNpqueuesProfileA#dscp21}
   */
   readonly dscp21?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp22 ObjectSystemNpuNpqueuesProfileA#dscp22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp22 ObjectSystemNpuNpqueuesProfileA#dscp22}
   */
   readonly dscp22?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp23 ObjectSystemNpuNpqueuesProfileA#dscp23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp23 ObjectSystemNpuNpqueuesProfileA#dscp23}
   */
   readonly dscp23?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp24 ObjectSystemNpuNpqueuesProfileA#dscp24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp24 ObjectSystemNpuNpqueuesProfileA#dscp24}
   */
   readonly dscp24?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp25 ObjectSystemNpuNpqueuesProfileA#dscp25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp25 ObjectSystemNpuNpqueuesProfileA#dscp25}
   */
   readonly dscp25?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp26 ObjectSystemNpuNpqueuesProfileA#dscp26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp26 ObjectSystemNpuNpqueuesProfileA#dscp26}
   */
   readonly dscp26?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp27 ObjectSystemNpuNpqueuesProfileA#dscp27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp27 ObjectSystemNpuNpqueuesProfileA#dscp27}
   */
   readonly dscp27?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp28 ObjectSystemNpuNpqueuesProfileA#dscp28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp28 ObjectSystemNpuNpqueuesProfileA#dscp28}
   */
   readonly dscp28?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp29 ObjectSystemNpuNpqueuesProfileA#dscp29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp29 ObjectSystemNpuNpqueuesProfileA#dscp29}
   */
   readonly dscp29?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp3 ObjectSystemNpuNpqueuesProfileA#dscp3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp3 ObjectSystemNpuNpqueuesProfileA#dscp3}
   */
   readonly dscp3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp30 ObjectSystemNpuNpqueuesProfileA#dscp30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp30 ObjectSystemNpuNpqueuesProfileA#dscp30}
   */
   readonly dscp30?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp31 ObjectSystemNpuNpqueuesProfileA#dscp31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp31 ObjectSystemNpuNpqueuesProfileA#dscp31}
   */
   readonly dscp31?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp32 ObjectSystemNpuNpqueuesProfileA#dscp32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp32 ObjectSystemNpuNpqueuesProfileA#dscp32}
   */
   readonly dscp32?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp33 ObjectSystemNpuNpqueuesProfileA#dscp33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp33 ObjectSystemNpuNpqueuesProfileA#dscp33}
   */
   readonly dscp33?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp34 ObjectSystemNpuNpqueuesProfileA#dscp34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp34 ObjectSystemNpuNpqueuesProfileA#dscp34}
   */
   readonly dscp34?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp35 ObjectSystemNpuNpqueuesProfileA#dscp35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp35 ObjectSystemNpuNpqueuesProfileA#dscp35}
   */
   readonly dscp35?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp36 ObjectSystemNpuNpqueuesProfileA#dscp36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp36 ObjectSystemNpuNpqueuesProfileA#dscp36}
   */
   readonly dscp36?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp37 ObjectSystemNpuNpqueuesProfileA#dscp37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp37 ObjectSystemNpuNpqueuesProfileA#dscp37}
   */
   readonly dscp37?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp38 ObjectSystemNpuNpqueuesProfileA#dscp38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp38 ObjectSystemNpuNpqueuesProfileA#dscp38}
   */
   readonly dscp38?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp39 ObjectSystemNpuNpqueuesProfileA#dscp39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp39 ObjectSystemNpuNpqueuesProfileA#dscp39}
   */
   readonly dscp39?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp4 ObjectSystemNpuNpqueuesProfileA#dscp4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp4 ObjectSystemNpuNpqueuesProfileA#dscp4}
   */
   readonly dscp4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp40 ObjectSystemNpuNpqueuesProfileA#dscp40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp40 ObjectSystemNpuNpqueuesProfileA#dscp40}
   */
   readonly dscp40?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp41 ObjectSystemNpuNpqueuesProfileA#dscp41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp41 ObjectSystemNpuNpqueuesProfileA#dscp41}
   */
   readonly dscp41?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp42 ObjectSystemNpuNpqueuesProfileA#dscp42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp42 ObjectSystemNpuNpqueuesProfileA#dscp42}
   */
   readonly dscp42?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp43 ObjectSystemNpuNpqueuesProfileA#dscp43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp43 ObjectSystemNpuNpqueuesProfileA#dscp43}
   */
   readonly dscp43?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp44 ObjectSystemNpuNpqueuesProfileA#dscp44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp44 ObjectSystemNpuNpqueuesProfileA#dscp44}
   */
   readonly dscp44?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp45 ObjectSystemNpuNpqueuesProfileA#dscp45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp45 ObjectSystemNpuNpqueuesProfileA#dscp45}
   */
   readonly dscp45?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp46 ObjectSystemNpuNpqueuesProfileA#dscp46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp46 ObjectSystemNpuNpqueuesProfileA#dscp46}
   */
   readonly dscp46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp47 ObjectSystemNpuNpqueuesProfileA#dscp47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp47 ObjectSystemNpuNpqueuesProfileA#dscp47}
   */
   readonly dscp47?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp48 ObjectSystemNpuNpqueuesProfileA#dscp48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp48 ObjectSystemNpuNpqueuesProfileA#dscp48}
   */
   readonly dscp48?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp49 ObjectSystemNpuNpqueuesProfileA#dscp49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp49 ObjectSystemNpuNpqueuesProfileA#dscp49}
   */
   readonly dscp49?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp5 ObjectSystemNpuNpqueuesProfileA#dscp5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp5 ObjectSystemNpuNpqueuesProfileA#dscp5}
   */
   readonly dscp5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp50 ObjectSystemNpuNpqueuesProfileA#dscp50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp50 ObjectSystemNpuNpqueuesProfileA#dscp50}
   */
   readonly dscp50?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp51 ObjectSystemNpuNpqueuesProfileA#dscp51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp51 ObjectSystemNpuNpqueuesProfileA#dscp51}
   */
   readonly dscp51?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp52 ObjectSystemNpuNpqueuesProfileA#dscp52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp52 ObjectSystemNpuNpqueuesProfileA#dscp52}
   */
   readonly dscp52?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp53 ObjectSystemNpuNpqueuesProfileA#dscp53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp53 ObjectSystemNpuNpqueuesProfileA#dscp53}
   */
   readonly dscp53?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp54 ObjectSystemNpuNpqueuesProfileA#dscp54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp54 ObjectSystemNpuNpqueuesProfileA#dscp54}
   */
   readonly dscp54?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp55 ObjectSystemNpuNpqueuesProfileA#dscp55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp55 ObjectSystemNpuNpqueuesProfileA#dscp55}
   */
   readonly dscp55?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp56 ObjectSystemNpuNpqueuesProfileA#dscp56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp56 ObjectSystemNpuNpqueuesProfileA#dscp56}
   */
   readonly dscp56?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp57 ObjectSystemNpuNpqueuesProfileA#dscp57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp57 ObjectSystemNpuNpqueuesProfileA#dscp57}
   */
   readonly dscp57?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp58 ObjectSystemNpuNpqueuesProfileA#dscp58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp58 ObjectSystemNpuNpqueuesProfileA#dscp58}
   */
   readonly dscp58?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp59 ObjectSystemNpuNpqueuesProfileA#dscp59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp59 ObjectSystemNpuNpqueuesProfileA#dscp59}
   */
   readonly dscp59?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp6 ObjectSystemNpuNpqueuesProfileA#dscp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp6 ObjectSystemNpuNpqueuesProfileA#dscp6}
   */
   readonly dscp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp60 ObjectSystemNpuNpqueuesProfileA#dscp60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp60 ObjectSystemNpuNpqueuesProfileA#dscp60}
   */
   readonly dscp60?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp61 ObjectSystemNpuNpqueuesProfileA#dscp61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp61 ObjectSystemNpuNpqueuesProfileA#dscp61}
   */
   readonly dscp61?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp62 ObjectSystemNpuNpqueuesProfileA#dscp62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp62 ObjectSystemNpuNpqueuesProfileA#dscp62}
   */
   readonly dscp62?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp63 ObjectSystemNpuNpqueuesProfileA#dscp63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp63 ObjectSystemNpuNpqueuesProfileA#dscp63}
   */
   readonly dscp63?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp7 ObjectSystemNpuNpqueuesProfileA#dscp7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp7 ObjectSystemNpuNpqueuesProfileA#dscp7}
   */
   readonly dscp7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp8 ObjectSystemNpuNpqueuesProfileA#dscp8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp8 ObjectSystemNpuNpqueuesProfileA#dscp8}
   */
   readonly dscp8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#dscp9 ObjectSystemNpuNpqueuesProfileA#dscp9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#dscp9 ObjectSystemNpuNpqueuesProfileA#dscp9}
   */
   readonly dscp9?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#fosid ObjectSystemNpuNpqueuesProfileA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#fosid ObjectSystemNpuNpqueuesProfileA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#id ObjectSystemNpuNpqueuesProfileA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#id ObjectSystemNpuNpqueuesProfileA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#scopetype ObjectSystemNpuNpqueuesProfileA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#scopetype ObjectSystemNpuNpqueuesProfileA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#type ObjectSystemNpuNpqueuesProfileA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#type ObjectSystemNpuNpqueuesProfileA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#weight ObjectSystemNpuNpqueuesProfileA#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#weight ObjectSystemNpuNpqueuesProfileA#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile fortimanager_object_system_npu_npqueues_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile fortimanager_object_system_npu_npqueues_profile}
 */
 export class ObjectSystemNpuNpqueuesProfileA extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class ObjectSystemNpuNpqueuesProfileA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuNpqueuesProfileA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuNpqueuesProfileA to import
-  * @param importFromId The id of the existing ObjectSystemNpuNpqueuesProfileA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuNpqueuesProfileA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuNpqueuesProfileA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class ObjectSystemNpuNpqueuesProfileA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_npqueues_profile fortimanager_object_system_npu_npqueues_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_npqueues_profile fortimanager_object_system_npu_npqueues_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class ObjectSystemNpuNpqueuesProfileA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_npqueues_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

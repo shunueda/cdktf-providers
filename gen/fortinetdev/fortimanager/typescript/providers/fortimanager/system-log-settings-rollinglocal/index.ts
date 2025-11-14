@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,136 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogSettingsRollinglocalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#days SystemLogSettingsRollinglocal#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#days SystemLogSettingsRollinglocal#days}
   */
   readonly days?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#del_files SystemLogSettingsRollinglocal#del_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#del_files SystemLogSettingsRollinglocal#del_files}
   */
   readonly delFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#directory SystemLogSettingsRollinglocal#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#directory SystemLogSettingsRollinglocal#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#file_size SystemLogSettingsRollinglocal#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#file_size SystemLogSettingsRollinglocal#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#gzip_format SystemLogSettingsRollinglocal#gzip_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#gzip_format SystemLogSettingsRollinglocal#gzip_format}
   */
   readonly gzipFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#hour SystemLogSettingsRollinglocal#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#hour SystemLogSettingsRollinglocal#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#id SystemLogSettingsRollinglocal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#id SystemLogSettingsRollinglocal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#ip SystemLogSettingsRollinglocal#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#ip SystemLogSettingsRollinglocal#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#ip2 SystemLogSettingsRollinglocal#ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#ip2 SystemLogSettingsRollinglocal#ip2}
   */
   readonly ip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#ip3 SystemLogSettingsRollinglocal#ip3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#ip3 SystemLogSettingsRollinglocal#ip3}
   */
   readonly ip3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#log_format SystemLogSettingsRollinglocal#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#log_format SystemLogSettingsRollinglocal#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#min SystemLogSettingsRollinglocal#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#min SystemLogSettingsRollinglocal#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#password SystemLogSettingsRollinglocal#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#password SystemLogSettingsRollinglocal#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#password2 SystemLogSettingsRollinglocal#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#password2 SystemLogSettingsRollinglocal#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#password3 SystemLogSettingsRollinglocal#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#password3 SystemLogSettingsRollinglocal#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#port SystemLogSettingsRollinglocal#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#port SystemLogSettingsRollinglocal#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#port2 SystemLogSettingsRollinglocal#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#port2 SystemLogSettingsRollinglocal#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#port3 SystemLogSettingsRollinglocal#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#port3 SystemLogSettingsRollinglocal#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#rolling_upgrade_status SystemLogSettingsRollinglocal#rolling_upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#rolling_upgrade_status SystemLogSettingsRollinglocal#rolling_upgrade_status}
   */
   readonly rollingUpgradeStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#server SystemLogSettingsRollinglocal#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#server SystemLogSettingsRollinglocal#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#server2 SystemLogSettingsRollinglocal#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#server2 SystemLogSettingsRollinglocal#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#server3 SystemLogSettingsRollinglocal#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#server3 SystemLogSettingsRollinglocal#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#server_type SystemLogSettingsRollinglocal#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#server_type SystemLogSettingsRollinglocal#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#upload SystemLogSettingsRollinglocal#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#upload SystemLogSettingsRollinglocal#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#upload_hour SystemLogSettingsRollinglocal#upload_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#upload_hour SystemLogSettingsRollinglocal#upload_hour}
   */
   readonly uploadHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#upload_mode SystemLogSettingsRollinglocal#upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#upload_mode SystemLogSettingsRollinglocal#upload_mode}
   */
   readonly uploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#upload_trigger SystemLogSettingsRollinglocal#upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#upload_trigger SystemLogSettingsRollinglocal#upload_trigger}
   */
   readonly uploadTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#username SystemLogSettingsRollinglocal#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#username SystemLogSettingsRollinglocal#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#username2 SystemLogSettingsRollinglocal#username2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#username2 SystemLogSettingsRollinglocal#username2}
   */
   readonly username2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#username3 SystemLogSettingsRollinglocal#username3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#username3 SystemLogSettingsRollinglocal#username3}
   */
   readonly username3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#when SystemLogSettingsRollinglocal#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#when SystemLogSettingsRollinglocal#when}
   */
   readonly when?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal fortimanager_system_log_settings_rollinglocal}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal fortimanager_system_log_settings_rollinglocal}
 */
 export class SystemLogSettingsRollinglocal extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class SystemLogSettingsRollinglocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogSettingsRollinglocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogSettingsRollinglocal to import
-  * @param importFromId The id of the existing SystemLogSettingsRollinglocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogSettingsRollinglocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogSettingsRollinglocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class SystemLogSettingsRollinglocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings_rollinglocal fortimanager_system_log_settings_rollinglocal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings_rollinglocal fortimanager_system_log_settings_rollinglocal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class SystemLogSettingsRollinglocal extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_log_settings_rollinglocal',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

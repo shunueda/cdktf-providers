@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,302 +8,302 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallMmsprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#adom ObjectFirewallMmsprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#adom ObjectFirewallMmsprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#avnotificationtable ObjectFirewallMmsprofile#avnotificationtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#avnotificationtable ObjectFirewallMmsprofile#avnotificationtable}
   */
   readonly avnotificationtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#bwordtable ObjectFirewallMmsprofile#bwordtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#bwordtable ObjectFirewallMmsprofile#bwordtable}
   */
   readonly bwordtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix ObjectFirewallMmsprofile#carrier_endpoint_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix ObjectFirewallMmsprofile#carrier_endpoint_prefix}
   */
   readonly carrierEndpointPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_range_max ObjectFirewallMmsprofile#carrier_endpoint_prefix_range_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_range_max ObjectFirewallMmsprofile#carrier_endpoint_prefix_range_max}
   */
   readonly carrierEndpointPrefixRangeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_range_min ObjectFirewallMmsprofile#carrier_endpoint_prefix_range_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_range_min ObjectFirewallMmsprofile#carrier_endpoint_prefix_range_min}
   */
   readonly carrierEndpointPrefixRangeMin?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_string ObjectFirewallMmsprofile#carrier_endpoint_prefix_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_prefix_string ObjectFirewallMmsprofile#carrier_endpoint_prefix_string}
   */
   readonly carrierEndpointPrefixString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrierendpointbwltable ObjectFirewallMmsprofile#carrierendpointbwltable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrierendpointbwltable ObjectFirewallMmsprofile#carrierendpointbwltable}
   */
   readonly carrierendpointbwltable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#comment ObjectFirewallMmsprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#comment ObjectFirewallMmsprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#dynamic_sort_subtable ObjectFirewallMmsprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#dynamic_sort_subtable ObjectFirewallMmsprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#extended_utm_log ObjectFirewallMmsprofile#extended_utm_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#extended_utm_log ObjectFirewallMmsprofile#extended_utm_log}
   */
   readonly extendedUtmLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#id ObjectFirewallMmsprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#id ObjectFirewallMmsprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1 ObjectFirewallMmsprofile#mm1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1 ObjectFirewallMmsprofile#mm1}
   */
   readonly mm1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_addr_hdr ObjectFirewallMmsprofile#mm1_addr_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_addr_hdr ObjectFirewallMmsprofile#mm1_addr_hdr}
   */
   readonly mm1AddrHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_addr_source ObjectFirewallMmsprofile#mm1_addr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_addr_source ObjectFirewallMmsprofile#mm1_addr_source}
   */
   readonly mm1AddrSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_convert_hex ObjectFirewallMmsprofile#mm1_convert_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_convert_hex ObjectFirewallMmsprofile#mm1_convert_hex}
   */
   readonly mm1ConvertHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_outbreak_prevention ObjectFirewallMmsprofile#mm1_outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_outbreak_prevention ObjectFirewallMmsprofile#mm1_outbreak_prevention}
   */
   readonly mm1OutbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_retr_dupe ObjectFirewallMmsprofile#mm1_retr_dupe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_retr_dupe ObjectFirewallMmsprofile#mm1_retr_dupe}
   */
   readonly mm1RetrDupe?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1_retrieve_scan ObjectFirewallMmsprofile#mm1_retrieve_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1_retrieve_scan ObjectFirewallMmsprofile#mm1_retrieve_scan}
   */
   readonly mm1RetrieveScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1comfortamount ObjectFirewallMmsprofile#mm1comfortamount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1comfortamount ObjectFirewallMmsprofile#mm1comfortamount}
   */
   readonly mm1Comfortamount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1comfortinterval ObjectFirewallMmsprofile#mm1comfortinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1comfortinterval ObjectFirewallMmsprofile#mm1comfortinterval}
   */
   readonly mm1Comfortinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm1oversizelimit ObjectFirewallMmsprofile#mm1oversizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm1oversizelimit ObjectFirewallMmsprofile#mm1oversizelimit}
   */
   readonly mm1Oversizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm3 ObjectFirewallMmsprofile#mm3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm3 ObjectFirewallMmsprofile#mm3}
   */
   readonly mm3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm3_outbreak_prevention ObjectFirewallMmsprofile#mm3_outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm3_outbreak_prevention ObjectFirewallMmsprofile#mm3_outbreak_prevention}
   */
   readonly mm3OutbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm3oversizelimit ObjectFirewallMmsprofile#mm3oversizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm3oversizelimit ObjectFirewallMmsprofile#mm3oversizelimit}
   */
   readonly mm3Oversizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm4 ObjectFirewallMmsprofile#mm4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm4 ObjectFirewallMmsprofile#mm4}
   */
   readonly mm4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm4_outbreak_prevention ObjectFirewallMmsprofile#mm4_outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm4_outbreak_prevention ObjectFirewallMmsprofile#mm4_outbreak_prevention}
   */
   readonly mm4OutbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm4oversizelimit ObjectFirewallMmsprofile#mm4oversizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm4oversizelimit ObjectFirewallMmsprofile#mm4oversizelimit}
   */
   readonly mm4Oversizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7 ObjectFirewallMmsprofile#mm7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7 ObjectFirewallMmsprofile#mm7}
   */
   readonly mm7?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7_addr_hdr ObjectFirewallMmsprofile#mm7_addr_hdr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7_addr_hdr ObjectFirewallMmsprofile#mm7_addr_hdr}
   */
   readonly mm7AddrHdr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7_addr_source ObjectFirewallMmsprofile#mm7_addr_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7_addr_source ObjectFirewallMmsprofile#mm7_addr_source}
   */
   readonly mm7AddrSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7_convert_hex ObjectFirewallMmsprofile#mm7_convert_hex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7_convert_hex ObjectFirewallMmsprofile#mm7_convert_hex}
   */
   readonly mm7ConvertHex?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7_outbreak_prevention ObjectFirewallMmsprofile#mm7_outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7_outbreak_prevention ObjectFirewallMmsprofile#mm7_outbreak_prevention}
   */
   readonly mm7OutbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7comfortamount ObjectFirewallMmsprofile#mm7comfortamount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7comfortamount ObjectFirewallMmsprofile#mm7comfortamount}
   */
   readonly mm7Comfortamount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7comfortinterval ObjectFirewallMmsprofile#mm7comfortinterval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7comfortinterval ObjectFirewallMmsprofile#mm7comfortinterval}
   */
   readonly mm7Comfortinterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mm7oversizelimit ObjectFirewallMmsprofile#mm7oversizelimit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mm7oversizelimit ObjectFirewallMmsprofile#mm7oversizelimit}
   */
   readonly mm7Oversizelimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_antispam_mass_log ObjectFirewallMmsprofile#mms_antispam_mass_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_antispam_mass_log ObjectFirewallMmsprofile#mms_antispam_mass_log}
   */
   readonly mmsAntispamMassLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_av_block_log ObjectFirewallMmsprofile#mms_av_block_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_av_block_log ObjectFirewallMmsprofile#mms_av_block_log}
   */
   readonly mmsAvBlockLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_av_oversize_log ObjectFirewallMmsprofile#mms_av_oversize_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_av_oversize_log ObjectFirewallMmsprofile#mms_av_oversize_log}
   */
   readonly mmsAvOversizeLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_av_virus_log ObjectFirewallMmsprofile#mms_av_virus_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_av_virus_log ObjectFirewallMmsprofile#mms_av_virus_log}
   */
   readonly mmsAvVirusLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_carrier_endpoint_filter_log ObjectFirewallMmsprofile#mms_carrier_endpoint_filter_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_carrier_endpoint_filter_log ObjectFirewallMmsprofile#mms_carrier_endpoint_filter_log}
   */
   readonly mmsCarrierEndpointFilterLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_checksum_log ObjectFirewallMmsprofile#mms_checksum_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_checksum_log ObjectFirewallMmsprofile#mms_checksum_log}
   */
   readonly mmsChecksumLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_checksum_table ObjectFirewallMmsprofile#mms_checksum_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_checksum_table ObjectFirewallMmsprofile#mms_checksum_table}
   */
   readonly mmsChecksumTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_notification_log ObjectFirewallMmsprofile#mms_notification_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_notification_log ObjectFirewallMmsprofile#mms_notification_log}
   */
   readonly mmsNotificationLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_web_content_log ObjectFirewallMmsprofile#mms_web_content_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_web_content_log ObjectFirewallMmsprofile#mms_web_content_log}
   */
   readonly mmsWebContentLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsbwordthreshold ObjectFirewallMmsprofile#mmsbwordthreshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsbwordthreshold ObjectFirewallMmsprofile#mmsbwordthreshold}
   */
   readonly mmsbwordthreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#name ObjectFirewallMmsprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#name ObjectFirewallMmsprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#remove_blocked_const_length ObjectFirewallMmsprofile#remove_blocked_const_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#remove_blocked_const_length ObjectFirewallMmsprofile#remove_blocked_const_length}
   */
   readonly removeBlockedConstLength?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#replacemsg_group ObjectFirewallMmsprofile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#replacemsg_group ObjectFirewallMmsprofile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#scopetype ObjectFirewallMmsprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#scopetype ObjectFirewallMmsprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * dupe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#dupe ObjectFirewallMmsprofile#dupe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#dupe ObjectFirewallMmsprofile#dupe}
   */
   readonly dupe?: ObjectFirewallMmsprofileDupe;
   /**
   * flood block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#flood ObjectFirewallMmsprofile#flood}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#flood ObjectFirewallMmsprofile#flood}
   */
   readonly flood?: ObjectFirewallMmsprofileFlood;
   /**
   * notif_msisdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#notif_msisdn ObjectFirewallMmsprofile#notif_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#notif_msisdn ObjectFirewallMmsprofile#notif_msisdn}
   */
   readonly notifMsisdn?: ObjectFirewallMmsprofileNotifMsisdn[] | cdktf.IResolvable;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#notification ObjectFirewallMmsprofile#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#notification ObjectFirewallMmsprofile#notification}
   */
   readonly notification?: ObjectFirewallMmsprofileNotification;
   /**
   * outbreak_prevention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#outbreak_prevention ObjectFirewallMmsprofile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#outbreak_prevention ObjectFirewallMmsprofile#outbreak_prevention}
   */
   readonly outbreakPrevention?: ObjectFirewallMmsprofileOutbreakPrevention;
 }
 export interface ObjectFirewallMmsprofileDupe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action1 ObjectFirewallMmsprofile#action1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action1 ObjectFirewallMmsprofile#action1}
   */
   readonly action1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action2 ObjectFirewallMmsprofile#action2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action2 ObjectFirewallMmsprofile#action2}
   */
   readonly action2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action3 ObjectFirewallMmsprofile#action3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action3 ObjectFirewallMmsprofile#action3}
   */
   readonly action3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time1 ObjectFirewallMmsprofile#block_time1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time1 ObjectFirewallMmsprofile#block_time1}
   */
   readonly blockTime1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time2 ObjectFirewallMmsprofile#block_time2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time2 ObjectFirewallMmsprofile#block_time2}
   */
   readonly blockTime2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time3 ObjectFirewallMmsprofile#block_time3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time3 ObjectFirewallMmsprofile#block_time3}
   */
   readonly blockTime3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit1 ObjectFirewallMmsprofile#limit1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit1 ObjectFirewallMmsprofile#limit1}
   */
   readonly limit1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit2 ObjectFirewallMmsprofile#limit2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit2 ObjectFirewallMmsprofile#limit2}
   */
   readonly limit2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit3 ObjectFirewallMmsprofile#limit3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit3 ObjectFirewallMmsprofile#limit3}
   */
   readonly limit3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status1 ObjectFirewallMmsprofile#status1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status1 ObjectFirewallMmsprofile#status1}
   */
   readonly status1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status2 ObjectFirewallMmsprofile#status2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status2 ObjectFirewallMmsprofile#status2}
   */
   readonly status2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status3 ObjectFirewallMmsprofile#status3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status3 ObjectFirewallMmsprofile#status3}
   */
   readonly status3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window1 ObjectFirewallMmsprofile#window1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window1 ObjectFirewallMmsprofile#window1}
   */
   readonly window1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window2 ObjectFirewallMmsprofile#window2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window2 ObjectFirewallMmsprofile#window2}
   */
   readonly window2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window3 ObjectFirewallMmsprofile#window3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window3 ObjectFirewallMmsprofile#window3}
   */
   readonly window3?: number;
 }
@@ -822,67 +822,67 @@ export class ObjectFirewallMmsprofileDupeOutputReference extends cdktf.ComplexOb
 }
 export interface ObjectFirewallMmsprofileFlood {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action1 ObjectFirewallMmsprofile#action1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action1 ObjectFirewallMmsprofile#action1}
   */
   readonly action1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action2 ObjectFirewallMmsprofile#action2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action2 ObjectFirewallMmsprofile#action2}
   */
   readonly action2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#action3 ObjectFirewallMmsprofile#action3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#action3 ObjectFirewallMmsprofile#action3}
   */
   readonly action3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time1 ObjectFirewallMmsprofile#block_time1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time1 ObjectFirewallMmsprofile#block_time1}
   */
   readonly blockTime1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time2 ObjectFirewallMmsprofile#block_time2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time2 ObjectFirewallMmsprofile#block_time2}
   */
   readonly blockTime2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#block_time3 ObjectFirewallMmsprofile#block_time3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#block_time3 ObjectFirewallMmsprofile#block_time3}
   */
   readonly blockTime3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit1 ObjectFirewallMmsprofile#limit1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit1 ObjectFirewallMmsprofile#limit1}
   */
   readonly limit1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit2 ObjectFirewallMmsprofile#limit2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit2 ObjectFirewallMmsprofile#limit2}
   */
   readonly limit2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#limit3 ObjectFirewallMmsprofile#limit3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#limit3 ObjectFirewallMmsprofile#limit3}
   */
   readonly limit3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status1 ObjectFirewallMmsprofile#status1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status1 ObjectFirewallMmsprofile#status1}
   */
   readonly status1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status2 ObjectFirewallMmsprofile#status2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status2 ObjectFirewallMmsprofile#status2}
   */
   readonly status2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#status3 ObjectFirewallMmsprofile#status3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#status3 ObjectFirewallMmsprofile#status3}
   */
   readonly status3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window1 ObjectFirewallMmsprofile#window1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window1 ObjectFirewallMmsprofile#window1}
   */
   readonly window1?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window2 ObjectFirewallMmsprofile#window2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window2 ObjectFirewallMmsprofile#window2}
   */
   readonly window2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#window3 ObjectFirewallMmsprofile#window3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#window3 ObjectFirewallMmsprofile#window3}
   */
   readonly window3?: number;
 }
@@ -1401,11 +1401,11 @@ export class ObjectFirewallMmsprofileFloodOutputReference extends cdktf.ComplexO
 }
 export interface ObjectFirewallMmsprofileNotifMsisdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#msisdn ObjectFirewallMmsprofile#msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#msisdn ObjectFirewallMmsprofile#msisdn}
   */
   readonly msisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#threshold ObjectFirewallMmsprofile#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#threshold ObjectFirewallMmsprofile#threshold}
   */
   readonly threshold?: string[];
 }
@@ -1550,175 +1550,175 @@ export class ObjectFirewallMmsprofileNotifMsisdnList extends cdktf.ComplexList {
 }
 export interface ObjectFirewallMmsprofileNotification {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#alert_int ObjectFirewallMmsprofile#alert_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#alert_int ObjectFirewallMmsprofile#alert_int}
   */
   readonly alertInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#alert_int_mode ObjectFirewallMmsprofile#alert_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#alert_int_mode ObjectFirewallMmsprofile#alert_int_mode}
   */
   readonly alertIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#alert_src_msisdn ObjectFirewallMmsprofile#alert_src_msisdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#alert_src_msisdn ObjectFirewallMmsprofile#alert_src_msisdn}
   */
   readonly alertSrcMsisdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#alert_status ObjectFirewallMmsprofile#alert_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#alert_status ObjectFirewallMmsprofile#alert_status}
   */
   readonly alertStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#bword_int ObjectFirewallMmsprofile#bword_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#bword_int ObjectFirewallMmsprofile#bword_int}
   */
   readonly bwordInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#bword_int_mode ObjectFirewallMmsprofile#bword_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#bword_int_mode ObjectFirewallMmsprofile#bword_int_mode}
   */
   readonly bwordIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#bword_status ObjectFirewallMmsprofile#bword_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#bword_status ObjectFirewallMmsprofile#bword_status}
   */
   readonly bwordStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_int ObjectFirewallMmsprofile#carrier_endpoint_bwl_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_int ObjectFirewallMmsprofile#carrier_endpoint_bwl_int}
   */
   readonly carrierEndpointBwlInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_int_mode ObjectFirewallMmsprofile#carrier_endpoint_bwl_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_int_mode ObjectFirewallMmsprofile#carrier_endpoint_bwl_int_mode}
   */
   readonly carrierEndpointBwlIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_status ObjectFirewallMmsprofile#carrier_endpoint_bwl_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#carrier_endpoint_bwl_status ObjectFirewallMmsprofile#carrier_endpoint_bwl_status}
   */
   readonly carrierEndpointBwlStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#days_allowed ObjectFirewallMmsprofile#days_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#days_allowed ObjectFirewallMmsprofile#days_allowed}
   */
   readonly daysAllowed?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#detect_server ObjectFirewallMmsprofile#detect_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#detect_server ObjectFirewallMmsprofile#detect_server}
   */
   readonly detectServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#dupe_int ObjectFirewallMmsprofile#dupe_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#dupe_int ObjectFirewallMmsprofile#dupe_int}
   */
   readonly dupeInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#dupe_int_mode ObjectFirewallMmsprofile#dupe_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#dupe_int_mode ObjectFirewallMmsprofile#dupe_int_mode}
   */
   readonly dupeIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#dupe_status ObjectFirewallMmsprofile#dupe_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#dupe_status ObjectFirewallMmsprofile#dupe_status}
   */
   readonly dupeStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#file_block_int ObjectFirewallMmsprofile#file_block_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#file_block_int ObjectFirewallMmsprofile#file_block_int}
   */
   readonly fileBlockInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#file_block_int_mode ObjectFirewallMmsprofile#file_block_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#file_block_int_mode ObjectFirewallMmsprofile#file_block_int_mode}
   */
   readonly fileBlockIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#file_block_status ObjectFirewallMmsprofile#file_block_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#file_block_status ObjectFirewallMmsprofile#file_block_status}
   */
   readonly fileBlockStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#flood_int ObjectFirewallMmsprofile#flood_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#flood_int ObjectFirewallMmsprofile#flood_int}
   */
   readonly floodInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#flood_int_mode ObjectFirewallMmsprofile#flood_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#flood_int_mode ObjectFirewallMmsprofile#flood_int_mode}
   */
   readonly floodIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#flood_status ObjectFirewallMmsprofile#flood_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#flood_status ObjectFirewallMmsprofile#flood_status}
   */
   readonly floodStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#from_in_header ObjectFirewallMmsprofile#from_in_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#from_in_header ObjectFirewallMmsprofile#from_in_header}
   */
   readonly fromInHeader?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_checksum_int ObjectFirewallMmsprofile#mms_checksum_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_checksum_int ObjectFirewallMmsprofile#mms_checksum_int}
   */
   readonly mmsChecksumInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_checksum_int_mode ObjectFirewallMmsprofile#mms_checksum_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_checksum_int_mode ObjectFirewallMmsprofile#mms_checksum_int_mode}
   */
   readonly mmsChecksumIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mms_checksum_status ObjectFirewallMmsprofile#mms_checksum_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mms_checksum_status ObjectFirewallMmsprofile#mms_checksum_status}
   */
   readonly mmsChecksumStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsc_hostname ObjectFirewallMmsprofile#mmsc_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsc_hostname ObjectFirewallMmsprofile#mmsc_hostname}
   */
   readonly mmscHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsc_password ObjectFirewallMmsprofile#mmsc_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsc_password ObjectFirewallMmsprofile#mmsc_password}
   */
   readonly mmscPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsc_port ObjectFirewallMmsprofile#mmsc_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsc_port ObjectFirewallMmsprofile#mmsc_port}
   */
   readonly mmscPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsc_url ObjectFirewallMmsprofile#mmsc_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsc_url ObjectFirewallMmsprofile#mmsc_url}
   */
   readonly mmscUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#mmsc_username ObjectFirewallMmsprofile#mmsc_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#mmsc_username ObjectFirewallMmsprofile#mmsc_username}
   */
   readonly mmscUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#msg_protocol ObjectFirewallMmsprofile#msg_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#msg_protocol ObjectFirewallMmsprofile#msg_protocol}
   */
   readonly msgProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#msg_type ObjectFirewallMmsprofile#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#msg_type ObjectFirewallMmsprofile#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#protocol ObjectFirewallMmsprofile#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#rate_limit ObjectFirewallMmsprofile#rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#rate_limit ObjectFirewallMmsprofile#rate_limit}
   */
   readonly rateLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#tod_window_duration ObjectFirewallMmsprofile#tod_window_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#tod_window_duration ObjectFirewallMmsprofile#tod_window_duration}
   */
   readonly todWindowDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#tod_window_end ObjectFirewallMmsprofile#tod_window_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#tod_window_end ObjectFirewallMmsprofile#tod_window_end}
   */
   readonly todWindowEnd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#tod_window_start ObjectFirewallMmsprofile#tod_window_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#tod_window_start ObjectFirewallMmsprofile#tod_window_start}
   */
   readonly todWindowStart?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#user_domain ObjectFirewallMmsprofile#user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#user_domain ObjectFirewallMmsprofile#user_domain}
   */
   readonly userDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#vas_id ObjectFirewallMmsprofile#vas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#vas_id ObjectFirewallMmsprofile#vas_id}
   */
   readonly vasId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#vasp_id ObjectFirewallMmsprofile#vasp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#vasp_id ObjectFirewallMmsprofile#vasp_id}
   */
   readonly vaspId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#virus_int ObjectFirewallMmsprofile#virus_int}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#virus_int ObjectFirewallMmsprofile#virus_int}
   */
   readonly virusInt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#virus_int_mode ObjectFirewallMmsprofile#virus_int_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#virus_int_mode ObjectFirewallMmsprofile#virus_int_mode}
   */
   readonly virusIntMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#virus_status ObjectFirewallMmsprofile#virus_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#virus_status ObjectFirewallMmsprofile#virus_status}
   */
   readonly virusStatus?: string;
 }
@@ -3020,11 +3020,11 @@ export class ObjectFirewallMmsprofileNotificationOutputReference extends cdktf.C
 }
 export interface ObjectFirewallMmsprofileOutbreakPrevention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#external_blocklist ObjectFirewallMmsprofile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#external_blocklist ObjectFirewallMmsprofile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#ftgd_service ObjectFirewallMmsprofile#ftgd_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#ftgd_service ObjectFirewallMmsprofile#ftgd_service}
   */
   readonly ftgdService?: string;
 }
@@ -3137,7 +3137,7 @@ export class ObjectFirewallMmsprofileOutbreakPreventionOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile fortimanager_object_firewall_mmsprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile fortimanager_object_firewall_mmsprofile}
 */
 export class ObjectFirewallMmsprofile extends cdktf.TerraformResource {
 
@@ -3153,7 +3153,7 @@ export class ObjectFirewallMmsprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallMmsprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallMmsprofile to import
-  * @param importFromId The id of the existing ObjectFirewallMmsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallMmsprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallMmsprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3165,7 +3165,7 @@ export class ObjectFirewallMmsprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_mmsprofile fortimanager_object_firewall_mmsprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_mmsprofile fortimanager_object_firewall_mmsprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3176,8 +3176,8 @@ export class ObjectFirewallMmsprofile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_mmsprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

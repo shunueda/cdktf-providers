@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,117 +8,117 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebfilterProfileFtgdwfConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#adom ObjectWebfilterProfileFtgdwf#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#adom ObjectWebfilterProfileFtgdwf#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#dynamic_sort_subtable ObjectWebfilterProfileFtgdwf#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#dynamic_sort_subtable ObjectWebfilterProfileFtgdwf#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#exempt_quota ObjectWebfilterProfileFtgdwf#exempt_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#exempt_quota ObjectWebfilterProfileFtgdwf#exempt_quota}
   */
   readonly exemptQuota?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#max_quota_timeout ObjectWebfilterProfileFtgdwf#max_quota_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#max_quota_timeout ObjectWebfilterProfileFtgdwf#max_quota_timeout}
   */
   readonly maxQuotaTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#options ObjectWebfilterProfileFtgdwf#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#options ObjectWebfilterProfileFtgdwf#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#ovrd ObjectWebfilterProfileFtgdwf#ovrd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#ovrd ObjectWebfilterProfileFtgdwf#ovrd}
   */
   readonly ovrd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#profile ObjectWebfilterProfileFtgdwf#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#profile ObjectWebfilterProfileFtgdwf#profile}
   */
   readonly profile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#rate_crl_urls ObjectWebfilterProfileFtgdwf#rate_crl_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#rate_crl_urls ObjectWebfilterProfileFtgdwf#rate_crl_urls}
   */
   readonly rateCrlUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#rate_css_urls ObjectWebfilterProfileFtgdwf#rate_css_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#rate_css_urls ObjectWebfilterProfileFtgdwf#rate_css_urls}
   */
   readonly rateCssUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#rate_image_urls ObjectWebfilterProfileFtgdwf#rate_image_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#rate_image_urls ObjectWebfilterProfileFtgdwf#rate_image_urls}
   */
   readonly rateImageUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#rate_javascript_urls ObjectWebfilterProfileFtgdwf#rate_javascript_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#rate_javascript_urls ObjectWebfilterProfileFtgdwf#rate_javascript_urls}
   */
   readonly rateJavascriptUrls?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#scopetype ObjectWebfilterProfileFtgdwf#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#scopetype ObjectWebfilterProfileFtgdwf#scopetype}
   */
   readonly scopetype?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#filters ObjectWebfilterProfileFtgdwf#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#filters ObjectWebfilterProfileFtgdwf#filters}
   */
   readonly filters?: ObjectWebfilterProfileFtgdwfFilters[] | cdktf.IResolvable;
   /**
   * quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#quota ObjectWebfilterProfileFtgdwf#quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#quota ObjectWebfilterProfileFtgdwf#quota}
   */
   readonly quota?: ObjectWebfilterProfileFtgdwfQuota[] | cdktf.IResolvable;
   /**
   * risk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#risk ObjectWebfilterProfileFtgdwf#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#risk ObjectWebfilterProfileFtgdwf#risk}
   */
   readonly risk?: ObjectWebfilterProfileFtgdwfRisk[] | cdktf.IResolvable;
 }
 export interface ObjectWebfilterProfileFtgdwfFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#action ObjectWebfilterProfileFtgdwf#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#action ObjectWebfilterProfileFtgdwf#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#auth_usr_grp ObjectWebfilterProfileFtgdwf#auth_usr_grp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#auth_usr_grp ObjectWebfilterProfileFtgdwf#auth_usr_grp}
   */
   readonly authUsrGrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#category ObjectWebfilterProfileFtgdwf#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#category ObjectWebfilterProfileFtgdwf#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#log ObjectWebfilterProfileFtgdwf#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#log ObjectWebfilterProfileFtgdwf#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#override_replacemsg ObjectWebfilterProfileFtgdwf#override_replacemsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#override_replacemsg ObjectWebfilterProfileFtgdwf#override_replacemsg}
   */
   readonly overrideReplacemsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#warn_duration ObjectWebfilterProfileFtgdwf#warn_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#warn_duration ObjectWebfilterProfileFtgdwf#warn_duration}
   */
   readonly warnDuration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#warning_duration_type ObjectWebfilterProfileFtgdwf#warning_duration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#warning_duration_type ObjectWebfilterProfileFtgdwf#warning_duration_type}
   */
   readonly warningDurationType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#warning_prompt ObjectWebfilterProfileFtgdwf#warning_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#warning_prompt ObjectWebfilterProfileFtgdwf#warning_prompt}
   */
   readonly warningPrompt?: string;
 }
@@ -466,34 +466,34 @@ export class ObjectWebfilterProfileFtgdwfFiltersList extends cdktf.ComplexList {
 }
 export interface ObjectWebfilterProfileFtgdwfQuota {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#category ObjectWebfilterProfileFtgdwf#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#category ObjectWebfilterProfileFtgdwf#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#duration ObjectWebfilterProfileFtgdwf#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#duration ObjectWebfilterProfileFtgdwf#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#override_replacemsg ObjectWebfilterProfileFtgdwf#override_replacemsg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#override_replacemsg ObjectWebfilterProfileFtgdwf#override_replacemsg}
   */
   readonly overrideReplacemsg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#type ObjectWebfilterProfileFtgdwf#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#type ObjectWebfilterProfileFtgdwf#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#unit ObjectWebfilterProfileFtgdwf#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#unit ObjectWebfilterProfileFtgdwf#unit}
   */
   readonly unit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#value ObjectWebfilterProfileFtgdwf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#value ObjectWebfilterProfileFtgdwf#value}
   */
   readonly value?: number;
 }
@@ -783,22 +783,22 @@ export class ObjectWebfilterProfileFtgdwfQuotaList extends cdktf.ComplexList {
 }
 export interface ObjectWebfilterProfileFtgdwfRisk {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#action ObjectWebfilterProfileFtgdwf#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#action ObjectWebfilterProfileFtgdwf#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#id ObjectWebfilterProfileFtgdwf#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#log ObjectWebfilterProfileFtgdwf#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#log ObjectWebfilterProfileFtgdwf#log}
   */
   readonly log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#risk_level ObjectWebfilterProfileFtgdwf#risk_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#risk_level ObjectWebfilterProfileFtgdwf#risk_level}
   */
   readonly riskLevel?: string[];
 }
@@ -1001,7 +1001,7 @@ export class ObjectWebfilterProfileFtgdwfRiskList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf fortimanager_object_webfilter_profile_ftgdwf}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf fortimanager_object_webfilter_profile_ftgdwf}
 */
 export class ObjectWebfilterProfileFtgdwf extends cdktf.TerraformResource {
 
@@ -1017,7 +1017,7 @@ export class ObjectWebfilterProfileFtgdwf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebfilterProfileFtgdwf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebfilterProfileFtgdwf to import
-  * @param importFromId The id of the existing ObjectWebfilterProfileFtgdwf that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebfilterProfileFtgdwf that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebfilterProfileFtgdwf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1029,7 +1029,7 @@ export class ObjectWebfilterProfileFtgdwf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webfilter_profile_ftgdwf fortimanager_object_webfilter_profile_ftgdwf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webfilter_profile_ftgdwf fortimanager_object_webfilter_profile_ftgdwf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1040,8 +1040,8 @@ export class ObjectWebfilterProfileFtgdwf extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webfilter_profile_ftgdwf',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

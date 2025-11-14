@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerWtpprofileEslsesdongleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#adom ObjectWirelesscontrollerWtpprofileEslsesdongle#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#adom ObjectWirelesscontrollerWtpprofileEslsesdongle#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_addr_type ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_addr_type ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_addr_type}
   */
   readonly apcAddrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_fqdn ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_fqdn ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_fqdn}
   */
   readonly apcFqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_ip ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_ip ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_ip}
   */
   readonly apcIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_port ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#apc_port ObjectWirelesscontrollerWtpprofileEslsesdongle#apc_port}
   */
   readonly apcPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#coex_level ObjectWirelesscontrollerWtpprofileEslsesdongle#coex_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#coex_level ObjectWirelesscontrollerWtpprofileEslsesdongle#coex_level}
   */
   readonly coexLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#compliance_level ObjectWirelesscontrollerWtpprofileEslsesdongle#compliance_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#compliance_level ObjectWirelesscontrollerWtpprofileEslsesdongle#compliance_level}
   */
   readonly complianceLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#esl_channel ObjectWirelesscontrollerWtpprofileEslsesdongle#esl_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#esl_channel ObjectWirelesscontrollerWtpprofileEslsesdongle#esl_channel}
   */
   readonly eslChannel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#id ObjectWirelesscontrollerWtpprofileEslsesdongle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#id ObjectWirelesscontrollerWtpprofileEslsesdongle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#output_power ObjectWirelesscontrollerWtpprofileEslsesdongle#output_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#output_power ObjectWirelesscontrollerWtpprofileEslsesdongle#output_power}
   */
   readonly outputPower?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#scd_enable ObjectWirelesscontrollerWtpprofileEslsesdongle#scd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#scd_enable ObjectWirelesscontrollerWtpprofileEslsesdongle#scd_enable}
   */
   readonly scdEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#scopetype ObjectWirelesscontrollerWtpprofileEslsesdongle#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#scopetype ObjectWirelesscontrollerWtpprofileEslsesdongle#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#tls_cert_verification ObjectWirelesscontrollerWtpprofileEslsesdongle#tls_cert_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#tls_cert_verification ObjectWirelesscontrollerWtpprofileEslsesdongle#tls_cert_verification}
   */
   readonly tlsCertVerification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#tls_fqdn_verification ObjectWirelesscontrollerWtpprofileEslsesdongle#tls_fqdn_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#tls_fqdn_verification ObjectWirelesscontrollerWtpprofileEslsesdongle#tls_fqdn_verification}
   */
   readonly tlsFqdnVerification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#wtp_profile ObjectWirelesscontrollerWtpprofileEslsesdongle#wtp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#wtp_profile ObjectWirelesscontrollerWtpprofileEslsesdongle#wtp_profile}
   */
   readonly wtpProfile: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle fortimanager_object_wirelesscontroller_wtpprofile_eslsesdongle}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle fortimanager_object_wirelesscontroller_wtpprofile_eslsesdongle}
 */
 export class ObjectWirelesscontrollerWtpprofileEslsesdongle extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ObjectWirelesscontrollerWtpprofileEslsesdongle extends cdktf.Terraf
   * Generates CDKTF code for importing a ObjectWirelesscontrollerWtpprofileEslsesdongle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerWtpprofileEslsesdongle to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileEslsesdongle that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerWtpprofileEslsesdongle that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerWtpprofileEslsesdongle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ObjectWirelesscontrollerWtpprofileEslsesdongle extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle fortimanager_object_wirelesscontroller_wtpprofile_eslsesdongle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_wtpprofile_eslsesdongle fortimanager_object_wirelesscontroller_wtpprofile_eslsesdongle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ObjectWirelesscontrollerWtpprofileEslsesdongle extends cdktf.Terraf
       terraformResourceType: 'fortimanager_object_wirelesscontroller_wtpprofile_eslsesdongle',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

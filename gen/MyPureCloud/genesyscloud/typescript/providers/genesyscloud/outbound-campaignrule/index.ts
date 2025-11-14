@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OutboundCampaignruleConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether or not this campaign rule is currently enabled. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#enabled OutboundCampaignrule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#enabled OutboundCampaignrule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface OutboundCampaignruleConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether actions are executed if any condition is met, or only when all conditions are met. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#match_any_conditions OutboundCampaignrule#match_any_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#match_any_conditions OutboundCampaignrule#match_any_conditions}
   */
   readonly matchAnyConditions?: boolean | cdktf.IResolvable;
   /**
   * The name of the campaign rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#name OutboundCampaignrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#name OutboundCampaignrule#name}
   */
   readonly name: string;
   /**
   * campaign_rule_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_rule_actions OutboundCampaignrule#campaign_rule_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_rule_actions OutboundCampaignrule#campaign_rule_actions}
   */
   readonly campaignRuleActions: OutboundCampaignruleCampaignRuleActions[] | cdktf.IResolvable;
   /**
   * campaign_rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_rule_conditions OutboundCampaignrule#campaign_rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_rule_conditions OutboundCampaignrule#campaign_rule_conditions}
   */
   readonly campaignRuleConditions: OutboundCampaignruleCampaignRuleConditions[] | cdktf.IResolvable;
   /**
   * campaign_rule_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_rule_entities OutboundCampaignrule#campaign_rule_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_rule_entities OutboundCampaignrule#campaign_rule_entities}
   */
   readonly campaignRuleEntities: OutboundCampaignruleCampaignRuleEntities;
 }
@@ -55,19 +55,19 @@ export interface OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntiti
   /**
   * The list of campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
   */
   readonly campaignIds?: string[];
   /**
   * The list of sequences for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a sequence. Changing the outboundCampaignRuleEntitySequenceRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
   */
   readonly sequenceIds?: string[];
   /**
   * If true, the CampaignRuleAction will apply to the same entity that triggered the CampaignRuleCondition. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#use_triggering_entity OutboundCampaignrule#use_triggering_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#use_triggering_entity OutboundCampaignrule#use_triggering_entity}
   */
   readonly useTriggeringEntity?: boolean | cdktf.IResolvable;
 }
@@ -243,25 +243,25 @@ export interface OutboundCampaignruleCampaignRuleActionsParameters {
   /**
   * The dialing mode to set a campaign to. Required for the 'setCampaignDialingMode' action (agentless | preview | power | predictive | progressive | external).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
   */
   readonly dialingMode?: string;
   /**
   * The operator for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
   */
   readonly operator?: string;
   /**
   * The priority to set a campaign to (1 | 2 | 3 | 4 | 5). Required for the 'setCampaignPriority' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
   */
   readonly priority?: string;
   /**
   * The value for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
   */
   readonly value?: string;
 }
@@ -467,13 +467,13 @@ export interface OutboundCampaignruleCampaignRuleActions {
   * The action to take on the campaignRuleActionEntities
   * (turnOnCampaign | turnOffCampaign | turnOnSequence | turnOffSequence | setCampaignPriority | recycleCampaign | setCampaignDialingMode).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#action_type OutboundCampaignrule#action_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#action_type OutboundCampaignrule#action_type}
   */
   readonly actionType: string;
   /**
   * The ID of the CampaignRuleAction.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -482,13 +482,13 @@ export interface OutboundCampaignruleCampaignRuleActions {
   /**
   * campaign_rule_action_entities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_rule_action_entities OutboundCampaignrule#campaign_rule_action_entities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_rule_action_entities OutboundCampaignrule#campaign_rule_action_entities}
   */
   readonly campaignRuleActionEntities: OutboundCampaignruleCampaignRuleActionsCampaignRuleActionEntities[] | cdktf.IResolvable;
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
   */
   readonly parameters?: OutboundCampaignruleCampaignRuleActionsParameters[] | cdktf.IResolvable;
 }
@@ -687,25 +687,25 @@ export interface OutboundCampaignruleCampaignRuleConditionsParameters {
   /**
   * The dialing mode to set a campaign to. Required for the 'setCampaignDialingMode' action (agentless | preview | power | predictive | progressive | external).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#dialing_mode OutboundCampaignrule#dialing_mode}
   */
   readonly dialingMode?: string;
   /**
   * The operator for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#operator OutboundCampaignrule#operator}
   */
   readonly operator?: string;
   /**
   * The priority to set a campaign to (1 | 2 | 3 | 4 | 5). Required for the 'setCampaignPriority' action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#priority OutboundCampaignrule#priority}
   */
   readonly priority?: string;
   /**
   * The value for comparison. Required for a CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#value OutboundCampaignrule#value}
   */
   readonly value?: string;
 }
@@ -910,13 +910,13 @@ export interface OutboundCampaignruleCampaignRuleConditions {
   /**
   * The type of condition to evaluate (campaignProgress | campaignAgents).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#condition_type OutboundCampaignrule#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#condition_type OutboundCampaignrule#condition_type}
   */
   readonly conditionType: string;
   /**
   * The ID of the CampaignRuleCondition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#id OutboundCampaignrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -925,7 +925,7 @@ export interface OutboundCampaignruleCampaignRuleConditions {
   /**
   * parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#parameters OutboundCampaignrule#parameters}
   */
   readonly parameters: OutboundCampaignruleCampaignRuleConditionsParameters[] | cdktf.IResolvable;
 }
@@ -1095,13 +1095,13 @@ export interface OutboundCampaignruleCampaignRuleEntities {
   /**
   * The list of campaigns for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a campaign. Changing the outboundCampaignRuleEntityCampaignRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#campaign_ids OutboundCampaignrule#campaign_ids}
   */
   readonly campaignIds?: string[];
   /**
   * The list of sequences for a CampaignRule to monitor. Required if the CampaignRule has any conditions that run on a sequence. Changing the outboundCampaignRuleEntitySequenceRuleId attribute will cause the outbound_campaignrule object to be dropped and recreated with a new ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#sequence_ids OutboundCampaignrule#sequence_ids}
   */
   readonly sequenceIds?: string[];
 }
@@ -1214,7 +1214,7 @@ export class OutboundCampaignruleCampaignRuleEntitiesOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule}
 */
 export class OutboundCampaignrule extends cdktf.TerraformResource {
 
@@ -1230,7 +1230,7 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundCampaignrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundCampaignrule to import
-  * @param importFromId The id of the existing OutboundCampaignrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundCampaignrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundCampaignrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1242,7 +1242,7 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaignrule genesyscloud_outbound_campaignrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1253,8 +1253,8 @@ export class OutboundCampaignrule extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_campaignrule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

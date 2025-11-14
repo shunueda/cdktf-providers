@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,79 +8,79 @@ import * as cdktf from 'cdktf';
 
 export interface FortimanagerProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#adom FortimanagerProvider#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#adom FortimanagerProvider#adom}
   */
   readonly adom?: string;
   /**
   * CA Bundle file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#cabundlefile FortimanagerProvider#cabundlefile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#cabundlefile FortimanagerProvider#cabundlefile}
   */
   readonly cabundlefile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#clean_session FortimanagerProvider#clean_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#clean_session FortimanagerProvider#clean_session}
   */
   readonly cleanSession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#fmg_cloud_token FortimanagerProvider#fmg_cloud_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#fmg_cloud_token FortimanagerProvider#fmg_cloud_token}
   */
   readonly fmgCloudToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#fmg_type FortimanagerProvider#fmg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#fmg_type FortimanagerProvider#fmg_type}
   */
   readonly fmgType?: string;
   /**
   * The hostname/IP address of the FORTIMANAGER to be connected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#hostname FortimanagerProvider#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#hostname FortimanagerProvider#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#import_options FortimanagerProvider#import_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#import_options FortimanagerProvider#import_options}
   */
   readonly importOptions?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#insecure FortimanagerProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#insecure FortimanagerProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#logsession FortimanagerProvider#logsession}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#logsession FortimanagerProvider#logsession}
   */
   readonly logsession?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#password FortimanagerProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#password FortimanagerProvider#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#presession FortimanagerProvider#presession}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#presession FortimanagerProvider#presession}
   */
   readonly presession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#scopetype FortimanagerProvider#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#scopetype FortimanagerProvider#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#token FortimanagerProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#token FortimanagerProvider#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#username FortimanagerProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#username FortimanagerProvider#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#workspace_mode FortimanagerProvider#workspace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#workspace_mode FortimanagerProvider#workspace_mode}
   */
   readonly workspaceMode?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#alias FortimanagerProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#alias FortimanagerProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs fortimanager}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs fortimanager}
 */
 export class FortimanagerProvider extends cdktf.TerraformProvider {
 
@@ -96,7 +96,7 @@ export class FortimanagerProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a FortimanagerProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FortimanagerProvider to import
-  * @param importFromId The id of the existing FortimanagerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FortimanagerProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FortimanagerProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -108,7 +108,7 @@ export class FortimanagerProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs fortimanager} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs fortimanager} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -119,8 +119,8 @@ export class FortimanagerProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'fortimanager',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       terraformProviderSource: 'fortinetdev/fortimanager'
     });

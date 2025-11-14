@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,145 +8,145 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserDomaincontrollerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#ad_mode ObjectUserDomaincontroller#ad_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#ad_mode ObjectUserDomaincontroller#ad_mode}
   */
   readonly adMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#adlds_dn ObjectUserDomaincontroller#adlds_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#adlds_dn ObjectUserDomaincontroller#adlds_dn}
   */
   readonly adldsDn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#adlds_ip6 ObjectUserDomaincontroller#adlds_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#adlds_ip6 ObjectUserDomaincontroller#adlds_ip6}
   */
   readonly adldsIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#adlds_ip_address ObjectUserDomaincontroller#adlds_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#adlds_ip_address ObjectUserDomaincontroller#adlds_ip_address}
   */
   readonly adldsIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#adlds_port ObjectUserDomaincontroller#adlds_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#adlds_port ObjectUserDomaincontroller#adlds_port}
   */
   readonly adldsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#adom ObjectUserDomaincontroller#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#adom ObjectUserDomaincontroller#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#change_detection ObjectUserDomaincontroller#change_detection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#change_detection ObjectUserDomaincontroller#change_detection}
   */
   readonly changeDetection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#change_detection_period ObjectUserDomaincontroller#change_detection_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#change_detection_period ObjectUserDomaincontroller#change_detection_period}
   */
   readonly changeDetectionPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#dns_srv_lookup ObjectUserDomaincontroller#dns_srv_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#dns_srv_lookup ObjectUserDomaincontroller#dns_srv_lookup}
   */
   readonly dnsSrvLookup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#domain_name ObjectUserDomaincontroller#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#domain_name ObjectUserDomaincontroller#domain_name}
   */
   readonly domainName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#dynamic_sort_subtable ObjectUserDomaincontroller#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#dynamic_sort_subtable ObjectUserDomaincontroller#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#hostname ObjectUserDomaincontroller#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#hostname ObjectUserDomaincontroller#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#id ObjectUserDomaincontroller#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#id ObjectUserDomaincontroller#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#interface ObjectUserDomaincontroller#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#interface ObjectUserDomaincontroller#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#interface_select_method ObjectUserDomaincontroller#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#interface_select_method ObjectUserDomaincontroller#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#ip6 ObjectUserDomaincontroller#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#ip6 ObjectUserDomaincontroller#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#ip_address ObjectUserDomaincontroller#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#ip_address ObjectUserDomaincontroller#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#ldap_server ObjectUserDomaincontroller#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#ldap_server ObjectUserDomaincontroller#ldap_server}
   */
   readonly ldapServer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#name ObjectUserDomaincontroller#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#name ObjectUserDomaincontroller#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#password ObjectUserDomaincontroller#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#password ObjectUserDomaincontroller#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#port ObjectUserDomaincontroller#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#port ObjectUserDomaincontroller#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#replication_port ObjectUserDomaincontroller#replication_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#replication_port ObjectUserDomaincontroller#replication_port}
   */
   readonly replicationPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#scopetype ObjectUserDomaincontroller#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#scopetype ObjectUserDomaincontroller#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#source_ip6 ObjectUserDomaincontroller#source_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#source_ip6 ObjectUserDomaincontroller#source_ip6}
   */
   readonly sourceIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#source_ip_address ObjectUserDomaincontroller#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#source_ip_address ObjectUserDomaincontroller#source_ip_address}
   */
   readonly sourceIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#source_port ObjectUserDomaincontroller#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#source_port ObjectUserDomaincontroller#source_port}
   */
   readonly sourcePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#username ObjectUserDomaincontroller#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#username ObjectUserDomaincontroller#username}
   */
   readonly username?: string;
   /**
   * extra_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#extra_server ObjectUserDomaincontroller#extra_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#extra_server ObjectUserDomaincontroller#extra_server}
   */
   readonly extraServer?: ObjectUserDomaincontrollerExtraServer[] | cdktf.IResolvable;
 }
 export interface ObjectUserDomaincontrollerExtraServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#id ObjectUserDomaincontroller#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#id ObjectUserDomaincontroller#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#ip_address ObjectUserDomaincontroller#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#ip_address ObjectUserDomaincontroller#ip_address}
   */
   readonly ipAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#port ObjectUserDomaincontroller#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#port ObjectUserDomaincontroller#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#source_ip_address ObjectUserDomaincontroller#source_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#source_ip_address ObjectUserDomaincontroller#source_ip_address}
   */
   readonly sourceIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#source_port ObjectUserDomaincontroller#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#source_port ObjectUserDomaincontroller#source_port}
   */
   readonly sourcePort?: number;
 }
@@ -378,7 +378,7 @@ export class ObjectUserDomaincontrollerExtraServerList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller fortimanager_object_user_domaincontroller}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller fortimanager_object_user_domaincontroller}
 */
 export class ObjectUserDomaincontroller extends cdktf.TerraformResource {
 
@@ -394,7 +394,7 @@ export class ObjectUserDomaincontroller extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserDomaincontroller resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserDomaincontroller to import
-  * @param importFromId The id of the existing ObjectUserDomaincontroller that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserDomaincontroller that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserDomaincontroller to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class ObjectUserDomaincontroller extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_domaincontroller fortimanager_object_user_domaincontroller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_domaincontroller fortimanager_object_user_domaincontroller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class ObjectUserDomaincontroller extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_domaincontroller',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

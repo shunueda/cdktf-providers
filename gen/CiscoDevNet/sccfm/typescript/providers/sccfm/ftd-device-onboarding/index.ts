@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device_onboarding
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device_onboarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface FtdDeviceOnboardingConfig extends cdktf.TerraformMetaArguments 
   /**
   * The ID of the FTD to add to the cdFMC. This value is returned by the `id` attribute of the `cdo_ftd_device` resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device_onboarding#ftd_uid FtdDeviceOnboarding#ftd_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device_onboarding#ftd_uid FtdDeviceOnboarding#ftd_uid}
   */
   readonly ftdUid: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device_onboarding sccfm_ftd_device_onboarding}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device_onboarding sccfm_ftd_device_onboarding}
 */
 export class FtdDeviceOnboarding extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class FtdDeviceOnboarding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FtdDeviceOnboarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FtdDeviceOnboarding to import
-  * @param importFromId The id of the existing FtdDeviceOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device_onboarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FtdDeviceOnboarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device_onboarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FtdDeviceOnboarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class FtdDeviceOnboarding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device_onboarding sccfm_ftd_device_onboarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device_onboarding sccfm_ftd_device_onboarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class FtdDeviceOnboarding extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_ftd_device_onboarding',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

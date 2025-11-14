@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group
+// https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comma-delimited list of user IDs who are group administrators (separated by commas)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#admin_ids Group#admin_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#admin_ids Group#admin_ids}
   */
   readonly adminIds?: string;
   /**
   * A list of allowed IPs if applicable.  Newline delimited
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#allowed_ips Group#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#allowed_ips Group#allowed_ips}
   */
   readonly allowedIps?: string;
   /**
   * If true, users in this group can use WebDAV to login.  This will override a false value of `dav_permission` on the user level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#dav_permission Group#dav_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#dav_permission Group#dav_permission}
   */
   readonly davPermission?: boolean | cdktf.IResolvable;
   /**
   * If true, users in this group can use FTP to login.  This will override a false value of `ftp_permission` on the user level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#ftp_permission Group#ftp_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#ftp_permission Group#ftp_permission}
   */
   readonly ftpPermission?: boolean | cdktf.IResolvable;
   /**
   * Group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * Notes about this group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#notes Group#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#notes Group#notes}
   */
   readonly notes?: string;
   /**
   * If true, users in this group can use the REST API to login.  This will override a false value of `restapi_permission` on the user level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#restapi_permission Group#restapi_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#restapi_permission Group#restapi_permission}
   */
   readonly restapiPermission?: boolean | cdktf.IResolvable;
   /**
   * If true, users in this group can use SFTP to login.  This will override a false value of `sftp_permission` on the user level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#sftp_permission Group#sftp_permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#sftp_permission Group#sftp_permission}
   */
   readonly sftpPermission?: boolean | cdktf.IResolvable;
   /**
   * Comma-delimited list of user IDs who belong to this group (separated by commas)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#user_ids Group#user_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#user_ids Group#user_ids}
   */
   readonly userIds?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group files_group}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group files_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/group files_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/group files_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'files_group',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.377',
-        providerVersionConstraint: '0.1.377'
+        providerVersion: '0.1.379',
+        providerVersionConstraint: '0.1.379'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

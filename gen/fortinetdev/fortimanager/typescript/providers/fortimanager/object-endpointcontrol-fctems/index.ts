@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,160 +8,160 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectEndpointcontrolFctemsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#admin_password ObjectEndpointcontrolFctems#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#admin_password ObjectEndpointcontrolFctems#admin_password}
   */
   readonly adminPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#admin_username ObjectEndpointcontrolFctems#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#admin_username ObjectEndpointcontrolFctems#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#adom ObjectEndpointcontrolFctems#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#adom ObjectEndpointcontrolFctems#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#ca_cn_info ObjectEndpointcontrolFctems#ca_cn_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#ca_cn_info ObjectEndpointcontrolFctems#ca_cn_info}
   */
   readonly caCnInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#call_timeout ObjectEndpointcontrolFctems#call_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#call_timeout ObjectEndpointcontrolFctems#call_timeout}
   */
   readonly callTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#capabilities ObjectEndpointcontrolFctems#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#capabilities ObjectEndpointcontrolFctems#capabilities}
   */
   readonly capabilities?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#certificate ObjectEndpointcontrolFctems#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#certificate ObjectEndpointcontrolFctems#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#certificate_fingerprint ObjectEndpointcontrolFctems#certificate_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#certificate_fingerprint ObjectEndpointcontrolFctems#certificate_fingerprint}
   */
   readonly certificateFingerprint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#cloud_authentication_access_key ObjectEndpointcontrolFctems#cloud_authentication_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#cloud_authentication_access_key ObjectEndpointcontrolFctems#cloud_authentication_access_key}
   */
   readonly cloudAuthenticationAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#cloud_server_type ObjectEndpointcontrolFctems#cloud_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#cloud_server_type ObjectEndpointcontrolFctems#cloud_server_type}
   */
   readonly cloudServerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#dirty_reason ObjectEndpointcontrolFctems#dirty_reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#dirty_reason ObjectEndpointcontrolFctems#dirty_reason}
   */
   readonly dirtyReason?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#ems_id ObjectEndpointcontrolFctems#ems_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#ems_id ObjectEndpointcontrolFctems#ems_id}
   */
   readonly emsId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#fortinetone_cloud_authentication ObjectEndpointcontrolFctems#fortinetone_cloud_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#fortinetone_cloud_authentication ObjectEndpointcontrolFctems#fortinetone_cloud_authentication}
   */
   readonly fortinetoneCloudAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#https_port ObjectEndpointcontrolFctems#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#https_port ObjectEndpointcontrolFctems#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#id ObjectEndpointcontrolFctems#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#id ObjectEndpointcontrolFctems#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#interface ObjectEndpointcontrolFctems#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#interface ObjectEndpointcontrolFctems#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#interface_select_method ObjectEndpointcontrolFctems#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#interface_select_method ObjectEndpointcontrolFctems#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#name ObjectEndpointcontrolFctems#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#name ObjectEndpointcontrolFctems#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#out_of_sync_threshold ObjectEndpointcontrolFctems#out_of_sync_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#out_of_sync_threshold ObjectEndpointcontrolFctems#out_of_sync_threshold}
   */
   readonly outOfSyncThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#preserve_ssl_session ObjectEndpointcontrolFctems#preserve_ssl_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#preserve_ssl_session ObjectEndpointcontrolFctems#preserve_ssl_session}
   */
   readonly preserveSslSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#pull_avatars ObjectEndpointcontrolFctems#pull_avatars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#pull_avatars ObjectEndpointcontrolFctems#pull_avatars}
   */
   readonly pullAvatars?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#pull_malware_hash ObjectEndpointcontrolFctems#pull_malware_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#pull_malware_hash ObjectEndpointcontrolFctems#pull_malware_hash}
   */
   readonly pullMalwareHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#pull_sysinfo ObjectEndpointcontrolFctems#pull_sysinfo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#pull_sysinfo ObjectEndpointcontrolFctems#pull_sysinfo}
   */
   readonly pullSysinfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#pull_tags ObjectEndpointcontrolFctems#pull_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#pull_tags ObjectEndpointcontrolFctems#pull_tags}
   */
   readonly pullTags?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#pull_vulnerabilities ObjectEndpointcontrolFctems#pull_vulnerabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#pull_vulnerabilities ObjectEndpointcontrolFctems#pull_vulnerabilities}
   */
   readonly pullVulnerabilities?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#scopetype ObjectEndpointcontrolFctems#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#scopetype ObjectEndpointcontrolFctems#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#send_tags_to_all_vdoms ObjectEndpointcontrolFctems#send_tags_to_all_vdoms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#send_tags_to_all_vdoms ObjectEndpointcontrolFctems#send_tags_to_all_vdoms}
   */
   readonly sendTagsToAllVdoms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#serial_number ObjectEndpointcontrolFctems#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#serial_number ObjectEndpointcontrolFctems#serial_number}
   */
   readonly serialNumber?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#server ObjectEndpointcontrolFctems#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#server ObjectEndpointcontrolFctems#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#source_ip ObjectEndpointcontrolFctems#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#source_ip ObjectEndpointcontrolFctems#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#status ObjectEndpointcontrolFctems#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#status ObjectEndpointcontrolFctems#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#status_check_interval ObjectEndpointcontrolFctems#status_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#status_check_interval ObjectEndpointcontrolFctems#status_check_interval}
   */
   readonly statusCheckInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#tenant_id ObjectEndpointcontrolFctems#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#tenant_id ObjectEndpointcontrolFctems#tenant_id}
   */
   readonly tenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#trust_ca_cn ObjectEndpointcontrolFctems#trust_ca_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#trust_ca_cn ObjectEndpointcontrolFctems#trust_ca_cn}
   */
   readonly trustCaCn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#verified_cn ObjectEndpointcontrolFctems#verified_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#verified_cn ObjectEndpointcontrolFctems#verified_cn}
   */
   readonly verifiedCn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#verifying_ca ObjectEndpointcontrolFctems#verifying_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#verifying_ca ObjectEndpointcontrolFctems#verifying_ca}
   */
   readonly verifyingCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#websocket_override ObjectEndpointcontrolFctems#websocket_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#websocket_override ObjectEndpointcontrolFctems#websocket_override}
   */
   readonly websocketOverride?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems fortimanager_object_endpointcontrol_fctems}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems fortimanager_object_endpointcontrol_fctems}
 */
 export class ObjectEndpointcontrolFctems extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class ObjectEndpointcontrolFctems extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectEndpointcontrolFctems resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectEndpointcontrolFctems to import
-  * @param importFromId The id of the existing ObjectEndpointcontrolFctems that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectEndpointcontrolFctems that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectEndpointcontrolFctems to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class ObjectEndpointcontrolFctems extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_endpointcontrol_fctems fortimanager_object_endpointcontrol_fctems} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_endpointcontrol_fctems fortimanager_object_endpointcontrol_fctems} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class ObjectEndpointcontrolFctems extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_endpointcontrol_fctems',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

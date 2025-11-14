@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemGeoipoverrideIp6RangeAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#adom ObjectSystemGeoipoverrideIp6RangeA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#adom ObjectSystemGeoipoverrideIp6RangeA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#end_ip ObjectSystemGeoipoverrideIp6RangeA#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#end_ip ObjectSystemGeoipoverrideIp6RangeA#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#fosid ObjectSystemGeoipoverrideIp6RangeA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#fosid ObjectSystemGeoipoverrideIp6RangeA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#geoip_override ObjectSystemGeoipoverrideIp6RangeA#geoip_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#geoip_override ObjectSystemGeoipoverrideIp6RangeA#geoip_override}
   */
   readonly geoipOverride: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#id ObjectSystemGeoipoverrideIp6RangeA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#id ObjectSystemGeoipoverrideIp6RangeA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#scopetype ObjectSystemGeoipoverrideIp6RangeA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#scopetype ObjectSystemGeoipoverrideIp6RangeA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#start_ip ObjectSystemGeoipoverrideIp6RangeA#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#start_ip ObjectSystemGeoipoverrideIp6RangeA#start_ip}
   */
   readonly startIp?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range fortimanager_object_system_geoipoverride_ip6range}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range fortimanager_object_system_geoipoverride_ip6range}
 */
 export class ObjectSystemGeoipoverrideIp6RangeA extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ObjectSystemGeoipoverrideIp6RangeA extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ObjectSystemGeoipoverrideIp6RangeA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemGeoipoverrideIp6RangeA to import
-  * @param importFromId The id of the existing ObjectSystemGeoipoverrideIp6RangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemGeoipoverrideIp6RangeA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemGeoipoverrideIp6RangeA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ObjectSystemGeoipoverrideIp6RangeA extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_geoipoverride_ip6range fortimanager_object_system_geoipoverride_ip6range} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_geoipoverride_ip6range fortimanager_object_system_geoipoverride_ip6range} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ObjectSystemGeoipoverrideIp6RangeA extends cdktf.TerraformResource 
       terraformResourceType: 'fortimanager_object_system_geoipoverride_ip6range',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnCertificateCaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#_private_key ObjectVpnCertificateCa#_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#_private_key ObjectVpnCertificateCa#_private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#adom ObjectVpnCertificateCa#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#adom ObjectVpnCertificateCa#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#auto_update_days ObjectVpnCertificateCa#auto_update_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#auto_update_days ObjectVpnCertificateCa#auto_update_days}
   */
   readonly autoUpdateDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#auto_update_days_warning ObjectVpnCertificateCa#auto_update_days_warning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#auto_update_days_warning ObjectVpnCertificateCa#auto_update_days_warning}
   */
   readonly autoUpdateDaysWarning?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#ca ObjectVpnCertificateCa#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#ca ObjectVpnCertificateCa#ca}
   */
   readonly ca?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#ca_identifier ObjectVpnCertificateCa#ca_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#ca_identifier ObjectVpnCertificateCa#ca_identifier}
   */
   readonly caIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#est_url ObjectVpnCertificateCa#est_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#est_url ObjectVpnCertificateCa#est_url}
   */
   readonly estUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#fabric_ca ObjectVpnCertificateCa#fabric_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#fabric_ca ObjectVpnCertificateCa#fabric_ca}
   */
   readonly fabricCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#id ObjectVpnCertificateCa#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#id ObjectVpnCertificateCa#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#last_updated ObjectVpnCertificateCa#last_updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#last_updated ObjectVpnCertificateCa#last_updated}
   */
   readonly lastUpdated?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#name ObjectVpnCertificateCa#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#name ObjectVpnCertificateCa#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#non_fabric_name ObjectVpnCertificateCa#non_fabric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#non_fabric_name ObjectVpnCertificateCa#non_fabric_name}
   */
   readonly nonFabricName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#obsolete ObjectVpnCertificateCa#obsolete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#obsolete ObjectVpnCertificateCa#obsolete}
   */
   readonly obsolete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#range ObjectVpnCertificateCa#range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#range ObjectVpnCertificateCa#range}
   */
   readonly range?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#scep_url ObjectVpnCertificateCa#scep_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#scep_url ObjectVpnCertificateCa#scep_url}
   */
   readonly scepUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#scopetype ObjectVpnCertificateCa#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#scopetype ObjectVpnCertificateCa#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#source ObjectVpnCertificateCa#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#source ObjectVpnCertificateCa#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#source_ip ObjectVpnCertificateCa#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#source_ip ObjectVpnCertificateCa#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#ssl_inspection_trusted ObjectVpnCertificateCa#ssl_inspection_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#ssl_inspection_trusted ObjectVpnCertificateCa#ssl_inspection_trusted}
   */
   readonly sslInspectionTrusted?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#trusted ObjectVpnCertificateCa#trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#trusted ObjectVpnCertificateCa#trusted}
   */
   readonly trusted?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca fortimanager_object_vpn_certificate_ca}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca fortimanager_object_vpn_certificate_ca}
 */
 export class ObjectVpnCertificateCa extends cdktf.TerraformResource {
 
@@ -109,7 +109,7 @@ export class ObjectVpnCertificateCa extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVpnCertificateCa resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnCertificateCa to import
-  * @param importFromId The id of the existing ObjectVpnCertificateCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnCertificateCa that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnCertificateCa to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class ObjectVpnCertificateCa extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpn_certificate_ca fortimanager_object_vpn_certificate_ca} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpn_certificate_ca fortimanager_object_vpn_certificate_ca} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class ObjectVpnCertificateCa extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_vpn_certificate_ca',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

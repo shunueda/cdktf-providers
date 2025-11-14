@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,72 +8,72 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserRadiusDynamicMappingAccountingserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#adom ObjectUserRadiusDynamicMappingAccountingserver#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#adom ObjectUserRadiusDynamicMappingAccountingserver#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#dynamic_mapping_name ObjectUserRadiusDynamicMappingAccountingserver#dynamic_mapping_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#dynamic_mapping_name ObjectUserRadiusDynamicMappingAccountingserver#dynamic_mapping_name}
   */
   readonly dynamicMappingName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#dynamic_mapping_vdom ObjectUserRadiusDynamicMappingAccountingserver#dynamic_mapping_vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#dynamic_mapping_vdom ObjectUserRadiusDynamicMappingAccountingserver#dynamic_mapping_vdom}
   */
   readonly dynamicMappingVdom: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#fosid ObjectUserRadiusDynamicMappingAccountingserver#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#fosid ObjectUserRadiusDynamicMappingAccountingserver#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#id ObjectUserRadiusDynamicMappingAccountingserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#id ObjectUserRadiusDynamicMappingAccountingserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#interface ObjectUserRadiusDynamicMappingAccountingserver#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#interface ObjectUserRadiusDynamicMappingAccountingserver#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#interface_select_method ObjectUserRadiusDynamicMappingAccountingserver#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#interface_select_method ObjectUserRadiusDynamicMappingAccountingserver#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#port ObjectUserRadiusDynamicMappingAccountingserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#port ObjectUserRadiusDynamicMappingAccountingserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#radius ObjectUserRadiusDynamicMappingAccountingserver#radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#radius ObjectUserRadiusDynamicMappingAccountingserver#radius}
   */
   readonly radius: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#scopetype ObjectUserRadiusDynamicMappingAccountingserver#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#scopetype ObjectUserRadiusDynamicMappingAccountingserver#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#secret ObjectUserRadiusDynamicMappingAccountingserver#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#secret ObjectUserRadiusDynamicMappingAccountingserver#secret}
   */
   readonly secret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#server ObjectUserRadiusDynamicMappingAccountingserver#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#server ObjectUserRadiusDynamicMappingAccountingserver#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#source_ip ObjectUserRadiusDynamicMappingAccountingserver#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#source_ip ObjectUserRadiusDynamicMappingAccountingserver#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#status ObjectUserRadiusDynamicMappingAccountingserver#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#status ObjectUserRadiusDynamicMappingAccountingserver#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#vrf_select ObjectUserRadiusDynamicMappingAccountingserver#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#vrf_select ObjectUserRadiusDynamicMappingAccountingserver#vrf_select}
   */
   readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver fortimanager_object_user_radius_dynamic_mapping_accountingserver}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver fortimanager_object_user_radius_dynamic_mapping_accountingserver}
 */
 export class ObjectUserRadiusDynamicMappingAccountingserver extends cdktf.TerraformResource {
 
@@ -89,7 +89,7 @@ export class ObjectUserRadiusDynamicMappingAccountingserver extends cdktf.Terraf
   * Generates CDKTF code for importing a ObjectUserRadiusDynamicMappingAccountingserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserRadiusDynamicMappingAccountingserver to import
-  * @param importFromId The id of the existing ObjectUserRadiusDynamicMappingAccountingserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserRadiusDynamicMappingAccountingserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserRadiusDynamicMappingAccountingserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -101,7 +101,7 @@ export class ObjectUserRadiusDynamicMappingAccountingserver extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver fortimanager_object_user_radius_dynamic_mapping_accountingserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_radius_dynamic_mapping_accountingserver fortimanager_object_user_radius_dynamic_mapping_accountingserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -112,8 +112,8 @@ export class ObjectUserRadiusDynamicMappingAccountingserver extends cdktf.Terraf
       terraformResourceType: 'fortimanager_object_user_radius_dynamic_mapping_accountingserver',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

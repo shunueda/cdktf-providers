@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,321 +8,321 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectVpnmgrNodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#add_route ObjectVpnmgrNode#add_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#add_route ObjectVpnmgrNode#add_route}
   */
   readonly addRoute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#adom ObjectVpnmgrNode#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#adom ObjectVpnmgrNode#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#assign_ip ObjectVpnmgrNode#assign_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#assign_ip ObjectVpnmgrNode#assign_ip}
   */
   readonly assignIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#assign_ip_from ObjectVpnmgrNode#assign_ip_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#assign_ip_from ObjectVpnmgrNode#assign_ip_from}
   */
   readonly assignIpFrom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#authpasswd ObjectVpnmgrNode#authpasswd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#authpasswd ObjectVpnmgrNode#authpasswd}
   */
   readonly authpasswd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#authusr ObjectVpnmgrNode#authusr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#authusr ObjectVpnmgrNode#authusr}
   */
   readonly authusr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#authusrgrp ObjectVpnmgrNode#authusrgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#authusrgrp ObjectVpnmgrNode#authusrgrp}
   */
   readonly authusrgrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#auto_configuration ObjectVpnmgrNode#auto_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#auto_configuration ObjectVpnmgrNode#auto_configuration}
   */
   readonly autoConfiguration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#auto_discovery_receiver ObjectVpnmgrNode#auto_discovery_receiver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#auto_discovery_receiver ObjectVpnmgrNode#auto_discovery_receiver}
   */
   readonly autoDiscoveryReceiver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#auto_discovery_sender ObjectVpnmgrNode#auto_discovery_sender}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#auto_discovery_sender ObjectVpnmgrNode#auto_discovery_sender}
   */
   readonly autoDiscoverySender?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#automatic_routing ObjectVpnmgrNode#automatic_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#automatic_routing ObjectVpnmgrNode#automatic_routing}
   */
   readonly automaticRouting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#banner ObjectVpnmgrNode#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#banner ObjectVpnmgrNode#banner}
   */
   readonly banner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#default_gateway ObjectVpnmgrNode#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#default_gateway ObjectVpnmgrNode#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#dhcp_ra_giaddr ObjectVpnmgrNode#dhcp_ra_giaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#dhcp_ra_giaddr ObjectVpnmgrNode#dhcp_ra_giaddr}
   */
   readonly dhcpRaGiaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#dhcp_server ObjectVpnmgrNode#dhcp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#dhcp_server ObjectVpnmgrNode#dhcp_server}
   */
   readonly dhcpServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#dns_mode ObjectVpnmgrNode#dns_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#dns_mode ObjectVpnmgrNode#dns_mode}
   */
   readonly dnsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#dns_service ObjectVpnmgrNode#dns_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#dns_service ObjectVpnmgrNode#dns_service}
   */
   readonly dnsService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#domain ObjectVpnmgrNode#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#domain ObjectVpnmgrNode#domain}
   */
   readonly domain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#dynamic_sort_subtable ObjectVpnmgrNode#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#dynamic_sort_subtable ObjectVpnmgrNode#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#encapsulation ObjectVpnmgrNode#encapsulation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#encapsulation ObjectVpnmgrNode#encapsulation}
   */
   readonly encapsulation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#exchange_interface_ip ObjectVpnmgrNode#exchange_interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#exchange_interface_ip ObjectVpnmgrNode#exchange_interface_ip}
   */
   readonly exchangeInterfaceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#extgw ObjectVpnmgrNode#extgw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#extgw ObjectVpnmgrNode#extgw}
   */
   readonly extgw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#extgw_hubip ObjectVpnmgrNode#extgw_hubip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#extgw_hubip ObjectVpnmgrNode#extgw_hubip}
   */
   readonly extgwHubip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#extgw_p2_per_net ObjectVpnmgrNode#extgw_p2_per_net}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#extgw_p2_per_net ObjectVpnmgrNode#extgw_p2_per_net}
   */
   readonly extgwP2PerNet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#extgwip ObjectVpnmgrNode#extgwip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#extgwip ObjectVpnmgrNode#extgwip}
   */
   readonly extgwip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#fosid ObjectVpnmgrNode#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#fosid ObjectVpnmgrNode#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#hub_iface ObjectVpnmgrNode#hub_iface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#hub_iface ObjectVpnmgrNode#hub_iface}
   */
   readonly hubIface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#hub_public_ip ObjectVpnmgrNode#hub_public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#hub_public_ip ObjectVpnmgrNode#hub_public_ip}
   */
   readonly hubPublicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#iface ObjectVpnmgrNode#iface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#iface ObjectVpnmgrNode#iface}
   */
   readonly iface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipsec_lease_hold ObjectVpnmgrNode#ipsec_lease_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipsec_lease_hold ObjectVpnmgrNode#ipsec_lease_hold}
   */
   readonly ipsecLeaseHold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_dns_server1 ObjectVpnmgrNode#ipv4_dns_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_dns_server1 ObjectVpnmgrNode#ipv4_dns_server1}
   */
   readonly ipv4DnsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_dns_server2 ObjectVpnmgrNode#ipv4_dns_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_dns_server2 ObjectVpnmgrNode#ipv4_dns_server2}
   */
   readonly ipv4DnsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_dns_server3 ObjectVpnmgrNode#ipv4_dns_server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_dns_server3 ObjectVpnmgrNode#ipv4_dns_server3}
   */
   readonly ipv4DnsServer3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_end_ip ObjectVpnmgrNode#ipv4_end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_end_ip ObjectVpnmgrNode#ipv4_end_ip}
   */
   readonly ipv4EndIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_name ObjectVpnmgrNode#ipv4_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_name ObjectVpnmgrNode#ipv4_name}
   */
   readonly ipv4Name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_netmask ObjectVpnmgrNode#ipv4_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_netmask ObjectVpnmgrNode#ipv4_netmask}
   */
   readonly ipv4Netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_split_exclude ObjectVpnmgrNode#ipv4_split_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_split_exclude ObjectVpnmgrNode#ipv4_split_exclude}
   */
   readonly ipv4SplitExclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_split_include ObjectVpnmgrNode#ipv4_split_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_split_include ObjectVpnmgrNode#ipv4_split_include}
   */
   readonly ipv4SplitInclude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_start_ip ObjectVpnmgrNode#ipv4_start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_start_ip ObjectVpnmgrNode#ipv4_start_ip}
   */
   readonly ipv4StartIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_wins_server1 ObjectVpnmgrNode#ipv4_wins_server1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_wins_server1 ObjectVpnmgrNode#ipv4_wins_server1}
   */
   readonly ipv4WinsServer1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_wins_server2 ObjectVpnmgrNode#ipv4_wins_server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_wins_server2 ObjectVpnmgrNode#ipv4_wins_server2}
   */
   readonly ipv4WinsServer2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#l2tp ObjectVpnmgrNode#l2tp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#l2tp ObjectVpnmgrNode#l2tp}
   */
   readonly l2Tp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#local_gw ObjectVpnmgrNode#local_gw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#local_gw ObjectVpnmgrNode#local_gw}
   */
   readonly localGw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#localid ObjectVpnmgrNode#localid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#localid ObjectVpnmgrNode#localid}
   */
   readonly localid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#mode_cfg ObjectVpnmgrNode#mode_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#mode_cfg ObjectVpnmgrNode#mode_cfg}
   */
   readonly modeCfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#mode_cfg_ip_version ObjectVpnmgrNode#mode_cfg_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#mode_cfg_ip_version ObjectVpnmgrNode#mode_cfg_ip_version}
   */
   readonly modeCfgIpVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#net_device ObjectVpnmgrNode#net_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#net_device ObjectVpnmgrNode#net_device}
   */
   readonly netDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#network_id ObjectVpnmgrNode#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#network_id ObjectVpnmgrNode#network_id}
   */
   readonly networkId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#network_overlay ObjectVpnmgrNode#network_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#network_overlay ObjectVpnmgrNode#network_overlay}
   */
   readonly networkOverlay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#peer ObjectVpnmgrNode#peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#peer ObjectVpnmgrNode#peer}
   */
   readonly peer?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#peergrp ObjectVpnmgrNode#peergrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#peergrp ObjectVpnmgrNode#peergrp}
   */
   readonly peergrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#peerid ObjectVpnmgrNode#peerid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#peerid ObjectVpnmgrNode#peerid}
   */
   readonly peerid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#peertype ObjectVpnmgrNode#peertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#peertype ObjectVpnmgrNode#peertype}
   */
   readonly peertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#protocol ObjectVpnmgrNode#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#protocol ObjectVpnmgrNode#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#public_ip ObjectVpnmgrNode#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#public_ip ObjectVpnmgrNode#public_ip}
   */
   readonly publicIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#role ObjectVpnmgrNode#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#role ObjectVpnmgrNode#role}
   */
   readonly role?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#route_overlap ObjectVpnmgrNode#route_overlap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#route_overlap ObjectVpnmgrNode#route_overlap}
   */
   readonly routeOverlap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#scopetype ObjectVpnmgrNode#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#scopetype ObjectVpnmgrNode#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#spoke_zone ObjectVpnmgrNode#spoke_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#spoke_zone ObjectVpnmgrNode#spoke_zone}
   */
   readonly spokeZone?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#tunnel_search ObjectVpnmgrNode#tunnel_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#tunnel_search ObjectVpnmgrNode#tunnel_search}
   */
   readonly tunnelSearch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#unity_support ObjectVpnmgrNode#unity_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#unity_support ObjectVpnmgrNode#unity_support}
   */
   readonly unitySupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#usrgrp ObjectVpnmgrNode#usrgrp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#usrgrp ObjectVpnmgrNode#usrgrp}
   */
   readonly usrgrp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#vpn_interface_priority ObjectVpnmgrNode#vpn_interface_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#vpn_interface_priority ObjectVpnmgrNode#vpn_interface_priority}
   */
   readonly vpnInterfacePriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#vpn_zone ObjectVpnmgrNode#vpn_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#vpn_zone ObjectVpnmgrNode#vpn_zone}
   */
   readonly vpnZone?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#vpntable ObjectVpnmgrNode#vpntable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#vpntable ObjectVpnmgrNode#vpntable}
   */
   readonly vpntable?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#xauthtype ObjectVpnmgrNode#xauthtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#xauthtype ObjectVpnmgrNode#xauthtype}
   */
   readonly xauthtype?: string;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ip_range ObjectVpnmgrNode#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ip_range ObjectVpnmgrNode#ip_range}
   */
   readonly ipRange?: ObjectVpnmgrNodeIpRange[] | cdktf.IResolvable;
   /**
   * ipv4_exclude_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#ipv4_exclude_range ObjectVpnmgrNode#ipv4_exclude_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#ipv4_exclude_range ObjectVpnmgrNode#ipv4_exclude_range}
   */
   readonly ipv4ExcludeRange?: ObjectVpnmgrNodeIpv4ExcludeRange[] | cdktf.IResolvable;
   /**
   * protected_subnet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#protected_subnet ObjectVpnmgrNode#protected_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#protected_subnet ObjectVpnmgrNode#protected_subnet}
   */
   readonly protectedSubnet?: ObjectVpnmgrNodeProtectedSubnet[] | cdktf.IResolvable;
   /**
   * scopemember block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#scopemember ObjectVpnmgrNode#scopemember}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#scopemember ObjectVpnmgrNode#scopemember}
   */
   readonly scopemember?: ObjectVpnmgrNodeScopemember[] | cdktf.IResolvable;
   /**
   * summary_addr block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#summary_addr ObjectVpnmgrNode#summary_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#summary_addr ObjectVpnmgrNode#summary_addr}
   */
   readonly summaryAddr?: ObjectVpnmgrNodeSummaryAddr[] | cdktf.IResolvable;
 }
 export interface ObjectVpnmgrNodeIpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#end_ip ObjectVpnmgrNode#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#end_ip ObjectVpnmgrNode#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#start_ip ObjectVpnmgrNode#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#start_ip ObjectVpnmgrNode#start_ip}
   */
   readonly startIp?: string;
 }
@@ -496,18 +496,18 @@ export class ObjectVpnmgrNodeIpRangeList extends cdktf.ComplexList {
 }
 export interface ObjectVpnmgrNodeIpv4ExcludeRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#end_ip ObjectVpnmgrNode#end_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#end_ip ObjectVpnmgrNode#end_ip}
   */
   readonly endIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#id ObjectVpnmgrNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#start_ip ObjectVpnmgrNode#start_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#start_ip ObjectVpnmgrNode#start_ip}
   */
   readonly startIp?: string;
 }
@@ -681,11 +681,11 @@ export class ObjectVpnmgrNodeIpv4ExcludeRangeList extends cdktf.ComplexList {
 }
 export interface ObjectVpnmgrNodeProtectedSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#addr ObjectVpnmgrNode#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#addr ObjectVpnmgrNode#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#seq ObjectVpnmgrNode#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#seq ObjectVpnmgrNode#seq}
   */
   readonly seq?: number;
 }
@@ -830,11 +830,11 @@ export class ObjectVpnmgrNodeProtectedSubnetList extends cdktf.ComplexList {
 }
 export interface ObjectVpnmgrNodeScopemember {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#name ObjectVpnmgrNode#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#name ObjectVpnmgrNode#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#vdom ObjectVpnmgrNode#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#vdom ObjectVpnmgrNode#vdom}
   */
   readonly vdom?: string;
 }
@@ -979,15 +979,15 @@ export class ObjectVpnmgrNodeScopememberList extends cdktf.ComplexList {
 }
 export interface ObjectVpnmgrNodeSummaryAddr {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#addr ObjectVpnmgrNode#addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#addr ObjectVpnmgrNode#addr}
   */
   readonly addr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#priority ObjectVpnmgrNode#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#priority ObjectVpnmgrNode#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#seq ObjectVpnmgrNode#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#seq ObjectVpnmgrNode#seq}
   */
   readonly seq?: number;
 }
@@ -1161,7 +1161,7 @@ export class ObjectVpnmgrNodeSummaryAddrList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node fortimanager_object_vpnmgr_node}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node fortimanager_object_vpnmgr_node}
 */
 export class ObjectVpnmgrNode extends cdktf.TerraformResource {
 
@@ -1177,7 +1177,7 @@ export class ObjectVpnmgrNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectVpnmgrNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectVpnmgrNode to import
-  * @param importFromId The id of the existing ObjectVpnmgrNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectVpnmgrNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectVpnmgrNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1189,7 +1189,7 @@ export class ObjectVpnmgrNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_vpnmgr_node fortimanager_object_vpnmgr_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_vpnmgr_node fortimanager_object_vpnmgr_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1200,8 +1200,8 @@ export class ObjectVpnmgrNode extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_vpnmgr_node',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

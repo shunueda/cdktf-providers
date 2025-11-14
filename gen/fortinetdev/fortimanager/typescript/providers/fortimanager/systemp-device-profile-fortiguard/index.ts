@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface SystempDeviceProfileFortiguardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#adom SystempDeviceProfileFortiguard#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#adom SystempDeviceProfileFortiguard#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade SystempDeviceProfileFortiguard#auto_firmware_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade SystempDeviceProfileFortiguard#auto_firmware_upgrade}
   */
   readonly autoFirmwareUpgrade?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_day SystempDeviceProfileFortiguard#auto_firmware_upgrade_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_day SystempDeviceProfileFortiguard#auto_firmware_upgrade_day}
   */
   readonly autoFirmwareUpgradeDay?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_delay SystempDeviceProfileFortiguard#auto_firmware_upgrade_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_delay SystempDeviceProfileFortiguard#auto_firmware_upgrade_delay}
   */
   readonly autoFirmwareUpgradeDelay?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_end_hour SystempDeviceProfileFortiguard#auto_firmware_upgrade_end_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_end_hour SystempDeviceProfileFortiguard#auto_firmware_upgrade_end_hour}
   */
   readonly autoFirmwareUpgradeEndHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_start_hour SystempDeviceProfileFortiguard#auto_firmware_upgrade_start_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#auto_firmware_upgrade_start_hour SystempDeviceProfileFortiguard#auto_firmware_upgrade_start_hour}
   */
   readonly autoFirmwareUpgradeStartHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#devprof SystempDeviceProfileFortiguard#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#devprof SystempDeviceProfileFortiguard#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#id SystempDeviceProfileFortiguard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#id SystempDeviceProfileFortiguard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#scopetype SystempDeviceProfileFortiguard#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#scopetype SystempDeviceProfileFortiguard#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#target SystempDeviceProfileFortiguard#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#target SystempDeviceProfileFortiguard#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#target_ip SystempDeviceProfileFortiguard#target_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#target_ip SystempDeviceProfileFortiguard#target_ip}
   */
   readonly targetIp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#vrf_select SystempDeviceProfileFortiguard#vrf_select}
+  */
+  readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard fortimanager_systemp_device_profile_fortiguard}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard fortimanager_systemp_device_profile_fortiguard}
 */
 export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
 
@@ -73,7 +77,7 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempDeviceProfileFortiguard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempDeviceProfileFortiguard to import
-  * @param importFromId The id of the existing SystempDeviceProfileFortiguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempDeviceProfileFortiguard that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempDeviceProfileFortiguard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -85,7 +89,7 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_device_profile_fortiguard fortimanager_systemp_device_profile_fortiguard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_device_profile_fortiguard fortimanager_systemp_device_profile_fortiguard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -96,8 +100,8 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_device_profile_fortiguard',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -118,6 +122,7 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
     this._scopetype = config.scopetype;
     this._target = config.target;
     this._targetIp = config.targetIp;
+    this._vrfSelect = config.vrfSelect;
   }
 
   // ==========
@@ -297,6 +302,22 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
     return this._targetIp;
   }
 
+  // vrf_select - computed: false, optional: true, required: false
+  private _vrfSelect?: number; 
+  public get vrfSelect() {
+    return this.getNumberAttribute('vrf_select');
+  }
+  public set vrfSelect(value: number) {
+    this._vrfSelect = value;
+  }
+  public resetVrfSelect() {
+    this._vrfSelect = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get vrfSelectInput() {
+    return this._vrfSelect;
+  }
+
   // =========
   // SYNTHESIS
   // =========
@@ -314,6 +335,7 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
       scopetype: cdktf.stringToTerraform(this._scopetype),
       target: cdktf.stringToTerraform(this._target),
       target_ip: cdktf.stringToTerraform(this._targetIp),
+      vrf_select: cdktf.numberToTerraform(this._vrfSelect),
     };
   }
 
@@ -384,6 +406,12 @@ export class SystempDeviceProfileFortiguard extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      vrf_select: {
+        value: cdktf.numberToHclTerraform(this._vrfSelect),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
     };
 

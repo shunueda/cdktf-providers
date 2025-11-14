@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,262 +8,266 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectAntivirusProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#adom ObjectAntivirusProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#adom ObjectAntivirusProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_accept_filetype ObjectAntivirusProfile#analytics_accept_filetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_accept_filetype ObjectAntivirusProfile#analytics_accept_filetype}
   */
   readonly analyticsAcceptFiletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_bl_filetype ObjectAntivirusProfile#analytics_bl_filetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_bl_filetype ObjectAntivirusProfile#analytics_bl_filetype}
   */
   readonly analyticsBlFiletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_db ObjectAntivirusProfile#analytics_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_db ObjectAntivirusProfile#analytics_db}
   */
   readonly analyticsDb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_ignore_filetype ObjectAntivirusProfile#analytics_ignore_filetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_ignore_filetype ObjectAntivirusProfile#analytics_ignore_filetype}
   */
   readonly analyticsIgnoreFiletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_max_upload ObjectAntivirusProfile#analytics_max_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_max_upload ObjectAntivirusProfile#analytics_max_upload}
   */
   readonly analyticsMaxUpload?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_wl_filetype ObjectAntivirusProfile#analytics_wl_filetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_wl_filetype ObjectAntivirusProfile#analytics_wl_filetype}
   */
   readonly analyticsWlFiletype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_block_log ObjectAntivirusProfile#av_block_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_block_log ObjectAntivirusProfile#av_block_log}
   */
   readonly avBlockLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_virus_log ObjectAntivirusProfile#av_virus_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_virus_log ObjectAntivirusProfile#av_virus_log}
   */
   readonly avVirusLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#comment ObjectAntivirusProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#comment ObjectAntivirusProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#ems_threat_feed ObjectAntivirusProfile#ems_threat_feed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#ems_threat_feed ObjectAntivirusProfile#ems_threat_feed}
   */
   readonly emsThreatFeed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#extended_log ObjectAntivirusProfile#extended_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#extended_log ObjectAntivirusProfile#extended_log}
   */
   readonly extendedLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist_archive_scan ObjectAntivirusProfile#external_blocklist_archive_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist_archive_scan ObjectAntivirusProfile#external_blocklist_archive_scan}
   */
   readonly externalBlocklistArchiveScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist_enable_all ObjectAntivirusProfile#external_blocklist_enable_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist_enable_all ObjectAntivirusProfile#external_blocklist_enable_all}
   */
   readonly externalBlocklistEnableAll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#feature_set ObjectAntivirusProfile#feature_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#feature_set ObjectAntivirusProfile#feature_set}
   */
   readonly featureSet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai_error_action ObjectAntivirusProfile#fortiai_error_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai_error_action ObjectAntivirusProfile#fortiai_error_action}
   */
   readonly fortiaiErrorAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai_timeout_action ObjectAntivirusProfile#fortiai_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai_timeout_action ObjectAntivirusProfile#fortiai_timeout_action}
   */
   readonly fortiaiTimeoutAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr_error_action ObjectAntivirusProfile#fortindr_error_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr_error_action ObjectAntivirusProfile#fortindr_error_action}
   */
   readonly fortindrErrorAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr_timeout_action ObjectAntivirusProfile#fortindr_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr_timeout_action ObjectAntivirusProfile#fortindr_timeout_action}
   */
   readonly fortindrTimeoutAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox_error_action ObjectAntivirusProfile#fortisandbox_error_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox_error_action ObjectAntivirusProfile#fortisandbox_error_action}
   */
   readonly fortisandboxErrorAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox_max_upload ObjectAntivirusProfile#fortisandbox_max_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox_max_upload ObjectAntivirusProfile#fortisandbox_max_upload}
   */
   readonly fortisandboxMaxUpload?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox_mode ObjectAntivirusProfile#fortisandbox_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox_mode ObjectAntivirusProfile#fortisandbox_mode}
   */
   readonly fortisandboxMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox_timeout_action ObjectAntivirusProfile#fortisandbox_timeout_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox_timeout_action ObjectAntivirusProfile#fortisandbox_timeout_action}
   */
   readonly fortisandboxTimeoutAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#ftgd_analytics ObjectAntivirusProfile#ftgd_analytics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#ftgd_analytics ObjectAntivirusProfile#ftgd_analytics}
   */
   readonly ftgdAnalytics?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#id ObjectAntivirusProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#id ObjectAntivirusProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#inspection_mode ObjectAntivirusProfile#inspection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#inspection_mode ObjectAntivirusProfile#inspection_mode}
   */
   readonly inspectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#mobile_malware_db ObjectAntivirusProfile#mobile_malware_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#mobile_malware_db ObjectAntivirusProfile#mobile_malware_db}
   */
   readonly mobileMalwareDb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#name ObjectAntivirusProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#name ObjectAntivirusProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention_archive_scan ObjectAntivirusProfile#outbreak_prevention_archive_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention_archive_scan ObjectAntivirusProfile#outbreak_prevention_archive_scan}
   */
   readonly outbreakPreventionArchiveScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#replacemsg_group ObjectAntivirusProfile#replacemsg_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#replacemsg_group ObjectAntivirusProfile#replacemsg_group}
   */
   readonly replacemsgGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#scan_mode ObjectAntivirusProfile#scan_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#scan_mode ObjectAntivirusProfile#scan_mode}
   */
   readonly scanMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#scopetype ObjectAntivirusProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#scopetype ObjectAntivirusProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * cifs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#cifs ObjectAntivirusProfile#cifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#cifs ObjectAntivirusProfile#cifs}
   */
   readonly cifs?: ObjectAntivirusProfileCifs;
   /**
   * content_disarm block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
   */
   readonly contentDisarm?: ObjectAntivirusProfileContentDisarm;
   /**
   * ftp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#ftp ObjectAntivirusProfile#ftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#ftp ObjectAntivirusProfile#ftp}
   */
   readonly ftp?: ObjectAntivirusProfileFtp;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#http ObjectAntivirusProfile#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#http ObjectAntivirusProfile#http}
   */
   readonly http?: ObjectAntivirusProfileHttp;
   /**
   * imap block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#imap ObjectAntivirusProfile#imap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#imap ObjectAntivirusProfile#imap}
   */
   readonly imap?: ObjectAntivirusProfileImap;
   /**
   * mapi block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#mapi ObjectAntivirusProfile#mapi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#mapi ObjectAntivirusProfile#mapi}
   */
   readonly mapi?: ObjectAntivirusProfileMapi;
   /**
   * nac_quar block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#nac_quar ObjectAntivirusProfile#nac_quar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#nac_quar ObjectAntivirusProfile#nac_quar}
   */
   readonly nacQuar?: ObjectAntivirusProfileNacQuar;
   /**
   * nntp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#nntp ObjectAntivirusProfile#nntp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#nntp ObjectAntivirusProfile#nntp}
   */
   readonly nntp?: ObjectAntivirusProfileNntp;
   /**
   * outbreak_prevention block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: ObjectAntivirusProfileOutbreakPrevention;
   /**
   * pop3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pop3 ObjectAntivirusProfile#pop3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pop3 ObjectAntivirusProfile#pop3}
   */
   readonly pop3?: ObjectAntivirusProfilePop3;
   /**
   * smb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#smb ObjectAntivirusProfile#smb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#smb ObjectAntivirusProfile#smb}
   */
   readonly smb?: ObjectAntivirusProfileSmb;
   /**
   * smtp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#smtp ObjectAntivirusProfile#smtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#smtp ObjectAntivirusProfile#smtp}
   */
   readonly smtp?: ObjectAntivirusProfileSmtp;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#ssh ObjectAntivirusProfile#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#ssh ObjectAntivirusProfile#ssh}
   */
   readonly ssh?: ObjectAntivirusProfileSsh;
 }
 export interface ObjectAntivirusProfileCifs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -282,6 +286,7 @@ export function objectAntivirusProfileCifsToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -339,6 +344,12 @@ export function objectAntivirusProfileCifsToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -413,6 +424,10 @@ export class ObjectAntivirusProfileCifsOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -439,6 +454,7 @@ export class ObjectAntivirusProfileCifsOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -453,6 +469,7 @@ export class ObjectAntivirusProfileCifsOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -587,6 +604,22 @@ export class ObjectAntivirusProfileCifsOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -637,83 +670,83 @@ export class ObjectAntivirusProfileCifsOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileContentDisarm {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#analytics_suspicious ObjectAntivirusProfile#analytics_suspicious}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#analytics_suspicious ObjectAntivirusProfile#analytics_suspicious}
   */
   readonly analyticsSuspicious?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#cover_page ObjectAntivirusProfile#cover_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#cover_page ObjectAntivirusProfile#cover_page}
   */
   readonly coverPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#detect_only ObjectAntivirusProfile#detect_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#detect_only ObjectAntivirusProfile#detect_only}
   */
   readonly detectOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#error_action ObjectAntivirusProfile#error_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#error_action ObjectAntivirusProfile#error_action}
   */
   readonly errorAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_action ObjectAntivirusProfile#office_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_action ObjectAntivirusProfile#office_action}
   */
   readonly officeAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_dde ObjectAntivirusProfile#office_dde}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_dde ObjectAntivirusProfile#office_dde}
   */
   readonly officeDde?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_embed ObjectAntivirusProfile#office_embed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_embed ObjectAntivirusProfile#office_embed}
   */
   readonly officeEmbed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_hylink ObjectAntivirusProfile#office_hylink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_hylink ObjectAntivirusProfile#office_hylink}
   */
   readonly officeHylink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_linked ObjectAntivirusProfile#office_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_linked ObjectAntivirusProfile#office_linked}
   */
   readonly officeLinked?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#office_macro ObjectAntivirusProfile#office_macro}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#office_macro ObjectAntivirusProfile#office_macro}
   */
   readonly officeMacro?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#original_file_destination ObjectAntivirusProfile#original_file_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#original_file_destination ObjectAntivirusProfile#original_file_destination}
   */
   readonly originalFileDestination?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_form ObjectAntivirusProfile#pdf_act_form}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_form ObjectAntivirusProfile#pdf_act_form}
   */
   readonly pdfActForm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_gotor ObjectAntivirusProfile#pdf_act_gotor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_gotor ObjectAntivirusProfile#pdf_act_gotor}
   */
   readonly pdfActGotor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_java ObjectAntivirusProfile#pdf_act_java}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_java ObjectAntivirusProfile#pdf_act_java}
   */
   readonly pdfActJava?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_launch ObjectAntivirusProfile#pdf_act_launch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_launch ObjectAntivirusProfile#pdf_act_launch}
   */
   readonly pdfActLaunch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_movie ObjectAntivirusProfile#pdf_act_movie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_movie ObjectAntivirusProfile#pdf_act_movie}
   */
   readonly pdfActMovie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_act_sound ObjectAntivirusProfile#pdf_act_sound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_act_sound ObjectAntivirusProfile#pdf_act_sound}
   */
   readonly pdfActSound?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_embedfile ObjectAntivirusProfile#pdf_embedfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_embedfile ObjectAntivirusProfile#pdf_embedfile}
   */
   readonly pdfEmbedfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_hyperlink ObjectAntivirusProfile#pdf_hyperlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_hyperlink ObjectAntivirusProfile#pdf_hyperlink}
   */
   readonly pdfHyperlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#pdf_javacode ObjectAntivirusProfile#pdf_javacode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#pdf_javacode ObjectAntivirusProfile#pdf_javacode}
   */
   readonly pdfJavacode?: string;
 }
@@ -1348,47 +1381,51 @@ export class ObjectAntivirusProfileContentDisarmOutputReference extends cdktf.Co
 }
 export interface ObjectAntivirusProfileFtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -1407,6 +1444,7 @@ export function objectAntivirusProfileFtpToTerraform(struct?: ObjectAntivirusPro
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -1464,6 +1502,12 @@ export function objectAntivirusProfileFtpToHclTerraform(struct?: ObjectAntivirus
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1538,6 +1582,10 @@ export class ObjectAntivirusProfileFtpOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -1564,6 +1612,7 @@ export class ObjectAntivirusProfileFtpOutputReference extends cdktf.ComplexObjec
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -1578,6 +1627,7 @@ export class ObjectAntivirusProfileFtpOutputReference extends cdktf.ComplexObjec
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -1712,6 +1762,22 @@ export class ObjectAntivirusProfileFtpOutputReference extends cdktf.ComplexObjec
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -1762,59 +1828,63 @@ export class ObjectAntivirusProfileFtpOutputReference extends cdktf.ComplexObjec
 }
 export interface ObjectAntivirusProfileHttp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_optimize ObjectAntivirusProfile#av_optimize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_optimize ObjectAntivirusProfile#av_optimize}
   */
   readonly avOptimize?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
   */
   readonly contentDisarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#unknown_content_encoding ObjectAntivirusProfile#unknown_content_encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#unknown_content_encoding ObjectAntivirusProfile#unknown_content_encoding}
   */
   readonly unknownContentEncoding?: string;
 }
@@ -1835,6 +1905,7 @@ export function objectAntivirusProfileHttpToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -1905,6 +1976,12 @@ export function objectAntivirusProfileHttpToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -1993,6 +2070,10 @@ export class ObjectAntivirusProfileHttpOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -2025,6 +2106,7 @@ export class ObjectAntivirusProfileHttpOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -2042,6 +2124,7 @@ export class ObjectAntivirusProfileHttpOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -2209,6 +2292,22 @@ export class ObjectAntivirusProfileHttpOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -2275,55 +2374,59 @@ export class ObjectAntivirusProfileHttpOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileImap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
   */
   readonly contentDisarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
   */
   readonly executables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -2344,6 +2447,7 @@ export function objectAntivirusProfileImapToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -2413,6 +2517,12 @@ export function objectAntivirusProfileImapToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2495,6 +2605,10 @@ export class ObjectAntivirusProfileImapOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -2523,6 +2637,7 @@ export class ObjectAntivirusProfileImapOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -2539,6 +2654,7 @@ export class ObjectAntivirusProfileImapOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -2705,6 +2821,22 @@ export class ObjectAntivirusProfileImapOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -2755,51 +2887,55 @@ export class ObjectAntivirusProfileImapOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileMapi {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
   */
   readonly executables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -2819,6 +2955,7 @@ export function objectAntivirusProfileMapiToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -2882,6 +3019,12 @@ export function objectAntivirusProfileMapiToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -2960,6 +3103,10 @@ export class ObjectAntivirusProfileMapiOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -2987,6 +3134,7 @@ export class ObjectAntivirusProfileMapiOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -3002,6 +3150,7 @@ export class ObjectAntivirusProfileMapiOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -3152,6 +3301,22 @@ export class ObjectAntivirusProfileMapiOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -3202,15 +3367,15 @@ export class ObjectAntivirusProfileMapiOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileNacQuar {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#expiry ObjectAntivirusProfile#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#expiry ObjectAntivirusProfile#expiry}
   */
   readonly expiry?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#infected ObjectAntivirusProfile#infected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#infected ObjectAntivirusProfile#infected}
   */
   readonly infected?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#log ObjectAntivirusProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#log ObjectAntivirusProfile#log}
   */
   readonly log?: string;
 }
@@ -3352,47 +3517,51 @@ export class ObjectAntivirusProfileNacQuarOutputReference extends cdktf.ComplexO
 }
 export interface ObjectAntivirusProfileNntp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -3411,6 +3580,7 @@ export function objectAntivirusProfileNntpToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -3468,6 +3638,12 @@ export function objectAntivirusProfileNntpToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -3542,6 +3718,10 @@ export class ObjectAntivirusProfileNntpOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -3568,6 +3748,7 @@ export class ObjectAntivirusProfileNntpOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -3582,6 +3763,7 @@ export class ObjectAntivirusProfileNntpOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -3716,6 +3898,22 @@ export class ObjectAntivirusProfileNntpOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -3766,11 +3964,11 @@ export class ObjectAntivirusProfileNntpOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileOutbreakPrevention {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#ftgd_service ObjectAntivirusProfile#ftgd_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#ftgd_service ObjectAntivirusProfile#ftgd_service}
   */
   readonly ftgdService?: string;
 }
@@ -3883,55 +4081,59 @@ export class ObjectAntivirusProfileOutbreakPreventionOutputReference extends cdk
 }
 export interface ObjectAntivirusProfilePop3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
   */
   readonly contentDisarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
   */
   readonly executables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -3952,6 +4154,7 @@ export function objectAntivirusProfilePop3ToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -4021,6 +4224,12 @@ export function objectAntivirusProfilePop3ToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4103,6 +4312,10 @@ export class ObjectAntivirusProfilePop3OutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -4131,6 +4344,7 @@ export class ObjectAntivirusProfilePop3OutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -4147,6 +4361,7 @@ export class ObjectAntivirusProfilePop3OutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -4313,6 +4528,22 @@ export class ObjectAntivirusProfilePop3OutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -4363,23 +4594,23 @@ export class ObjectAntivirusProfilePop3OutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileSmb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
 }
@@ -4579,55 +4810,59 @@ export class ObjectAntivirusProfileSmbOutputReference extends cdktf.ComplexObjec
 }
 export interface ObjectAntivirusProfileSmtp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#content_disarm ObjectAntivirusProfile#content_disarm}
   */
   readonly contentDisarm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#executables ObjectAntivirusProfile#executables}
   */
   readonly executables?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -4648,6 +4883,7 @@ export function objectAntivirusProfileSmtpToTerraform(struct?: ObjectAntivirusPr
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -4717,6 +4953,12 @@ export function objectAntivirusProfileSmtpToHclTerraform(struct?: ObjectAntiviru
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -4799,6 +5041,10 @@ export class ObjectAntivirusProfileSmtpOutputReference extends cdktf.ComplexObje
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -4827,6 +5073,7 @@ export class ObjectAntivirusProfileSmtpOutputReference extends cdktf.ComplexObje
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -4843,6 +5090,7 @@ export class ObjectAntivirusProfileSmtpOutputReference extends cdktf.ComplexObje
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -5009,6 +5257,22 @@ export class ObjectAntivirusProfileSmtpOutputReference extends cdktf.ComplexObje
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -5059,47 +5323,51 @@ export class ObjectAntivirusProfileSmtpOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectAntivirusProfileSsh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_block ObjectAntivirusProfile#archive_block}
   */
   readonly archiveBlock?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#archive_log ObjectAntivirusProfile#archive_log}
   */
   readonly archiveLog?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#av_scan ObjectAntivirusProfile#av_scan}
   */
   readonly avScan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#emulator ObjectAntivirusProfile#emulator}
   */
   readonly emulator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#external_blocklist ObjectAntivirusProfile#external_blocklist}
   */
   readonly externalBlocklist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortiai ObjectAntivirusProfile#fortiai}
   */
   readonly fortiai?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortindr ObjectAntivirusProfile#fortindr}
   */
   readonly fortindr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#fortisandbox ObjectAntivirusProfile#fortisandbox}
   */
   readonly fortisandbox?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#malware_stream ObjectAntivirusProfile#malware_stream}
+  */
+  readonly malwareStream?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#options ObjectAntivirusProfile#options}
   */
   readonly options?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#outbreak_prevention ObjectAntivirusProfile#outbreak_prevention}
   */
   readonly outbreakPrevention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#quarantine ObjectAntivirusProfile#quarantine}
   */
   readonly quarantine?: string;
 }
@@ -5118,6 +5386,7 @@ export function objectAntivirusProfileSshToTerraform(struct?: ObjectAntivirusPro
     fortiai: cdktf.stringToTerraform(struct!.fortiai),
     fortindr: cdktf.stringToTerraform(struct!.fortindr),
     fortisandbox: cdktf.stringToTerraform(struct!.fortisandbox),
+    malware_stream: cdktf.stringToTerraform(struct!.malwareStream),
     options: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.options),
     outbreak_prevention: cdktf.stringToTerraform(struct!.outbreakPrevention),
     quarantine: cdktf.stringToTerraform(struct!.quarantine),
@@ -5175,6 +5444,12 @@ export function objectAntivirusProfileSshToHclTerraform(struct?: ObjectAntivirus
     },
     fortisandbox: {
       value: cdktf.stringToHclTerraform(struct!.fortisandbox),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    malware_stream: {
+      value: cdktf.stringToHclTerraform(struct!.malwareStream),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -5249,6 +5524,10 @@ export class ObjectAntivirusProfileSshOutputReference extends cdktf.ComplexObjec
       hasAnyValues = true;
       internalValueResult.fortisandbox = this._fortisandbox;
     }
+    if (this._malwareStream !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.malwareStream = this._malwareStream;
+    }
     if (this._options !== undefined) {
       hasAnyValues = true;
       internalValueResult.options = this._options;
@@ -5275,6 +5554,7 @@ export class ObjectAntivirusProfileSshOutputReference extends cdktf.ComplexObjec
       this._fortiai = undefined;
       this._fortindr = undefined;
       this._fortisandbox = undefined;
+      this._malwareStream = undefined;
       this._options = undefined;
       this._outbreakPrevention = undefined;
       this._quarantine = undefined;
@@ -5289,6 +5569,7 @@ export class ObjectAntivirusProfileSshOutputReference extends cdktf.ComplexObjec
       this._fortiai = value.fortiai;
       this._fortindr = value.fortindr;
       this._fortisandbox = value.fortisandbox;
+      this._malwareStream = value.malwareStream;
       this._options = value.options;
       this._outbreakPrevention = value.outbreakPrevention;
       this._quarantine = value.quarantine;
@@ -5423,6 +5704,22 @@ export class ObjectAntivirusProfileSshOutputReference extends cdktf.ComplexObjec
     return this._fortisandbox;
   }
 
+  // malware_stream - computed: false, optional: true, required: false
+  private _malwareStream?: string; 
+  public get malwareStream() {
+    return this.getStringAttribute('malware_stream');
+  }
+  public set malwareStream(value: string) {
+    this._malwareStream = value;
+  }
+  public resetMalwareStream() {
+    this._malwareStream = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get malwareStreamInput() {
+    return this._malwareStream;
+  }
+
   // options - computed: true, optional: true, required: false
   private _options?: string[]; 
   public get options() {
@@ -5473,7 +5770,7 @@ export class ObjectAntivirusProfileSshOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile fortimanager_object_antivirus_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile fortimanager_object_antivirus_profile}
 */
 export class ObjectAntivirusProfile extends cdktf.TerraformResource {
 
@@ -5489,7 +5786,7 @@ export class ObjectAntivirusProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectAntivirusProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectAntivirusProfile to import
-  * @param importFromId The id of the existing ObjectAntivirusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectAntivirusProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectAntivirusProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5501,7 +5798,7 @@ export class ObjectAntivirusProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_antivirus_profile fortimanager_object_antivirus_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_antivirus_profile fortimanager_object_antivirus_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5512,8 +5809,8 @@ export class ObjectAntivirusProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_antivirus_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

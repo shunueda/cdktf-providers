@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,124 +8,124 @@ import * as cdktf from 'cdktf';
 
 export interface SystempLogFortianalyzerSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#access_config SystempLogFortianalyzerSetting#access_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#access_config SystempLogFortianalyzerSetting#access_config}
   */
   readonly accessConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#adom SystempLogFortianalyzerSetting#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#adom SystempLogFortianalyzerSetting#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#alt_server SystempLogFortianalyzerSetting#alt_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#alt_server SystempLogFortianalyzerSetting#alt_server}
   */
   readonly altServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#certificate SystempLogFortianalyzerSetting#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#certificate SystempLogFortianalyzerSetting#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#certificate_verification SystempLogFortianalyzerSetting#certificate_verification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#certificate_verification SystempLogFortianalyzerSetting#certificate_verification}
   */
   readonly certificateVerification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#conn_timeout SystempLogFortianalyzerSetting#conn_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#conn_timeout SystempLogFortianalyzerSetting#conn_timeout}
   */
   readonly connTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#devprof SystempLogFortianalyzerSetting#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#devprof SystempLogFortianalyzerSetting#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#enc_algorithm SystempLogFortianalyzerSetting#enc_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#enc_algorithm SystempLogFortianalyzerSetting#enc_algorithm}
   */
   readonly encAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#fallback_to_primary SystempLogFortianalyzerSetting#fallback_to_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#fallback_to_primary SystempLogFortianalyzerSetting#fallback_to_primary}
   */
   readonly fallbackToPrimary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#hmac_algorithm SystempLogFortianalyzerSetting#hmac_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#hmac_algorithm SystempLogFortianalyzerSetting#hmac_algorithm}
   */
   readonly hmacAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#id SystempLogFortianalyzerSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#id SystempLogFortianalyzerSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#interface SystempLogFortianalyzerSetting#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#interface SystempLogFortianalyzerSetting#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#interface_select_method SystempLogFortianalyzerSetting#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#interface_select_method SystempLogFortianalyzerSetting#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#ips_archive SystempLogFortianalyzerSetting#ips_archive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#ips_archive SystempLogFortianalyzerSetting#ips_archive}
   */
   readonly ipsArchive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#max_log_rate SystempLogFortianalyzerSetting#max_log_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#max_log_rate SystempLogFortianalyzerSetting#max_log_rate}
   */
   readonly maxLogRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#monitor_failure_retry_period SystempLogFortianalyzerSetting#monitor_failure_retry_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#monitor_failure_retry_period SystempLogFortianalyzerSetting#monitor_failure_retry_period}
   */
   readonly monitorFailureRetryPeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#monitor_keepalive_period SystempLogFortianalyzerSetting#monitor_keepalive_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#monitor_keepalive_period SystempLogFortianalyzerSetting#monitor_keepalive_period}
   */
   readonly monitorKeepalivePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#preshared_key SystempLogFortianalyzerSetting#preshared_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#preshared_key SystempLogFortianalyzerSetting#preshared_key}
   */
   readonly presharedKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#priority SystempLogFortianalyzerSetting#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#priority SystempLogFortianalyzerSetting#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#reliable SystempLogFortianalyzerSetting#reliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#reliable SystempLogFortianalyzerSetting#reliable}
   */
   readonly reliable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#scopetype SystempLogFortianalyzerSetting#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#scopetype SystempLogFortianalyzerSetting#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#server_cert_ca SystempLogFortianalyzerSetting#server_cert_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#server_cert_ca SystempLogFortianalyzerSetting#server_cert_ca}
   */
   readonly serverCertCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#ssl_min_proto_version SystempLogFortianalyzerSetting#ssl_min_proto_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#ssl_min_proto_version SystempLogFortianalyzerSetting#ssl_min_proto_version}
   */
   readonly sslMinProtoVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#upload_day SystempLogFortianalyzerSetting#upload_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#upload_day SystempLogFortianalyzerSetting#upload_day}
   */
   readonly uploadDay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#upload_interval SystempLogFortianalyzerSetting#upload_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#upload_interval SystempLogFortianalyzerSetting#upload_interval}
   */
   readonly uploadInterval?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#upload_option SystempLogFortianalyzerSetting#upload_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#upload_option SystempLogFortianalyzerSetting#upload_option}
   */
   readonly uploadOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#upload_time SystempLogFortianalyzerSetting#upload_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#upload_time SystempLogFortianalyzerSetting#upload_time}
   */
   readonly uploadTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#vrf_select SystempLogFortianalyzerSetting#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#vrf_select SystempLogFortianalyzerSetting#vrf_select}
   */
   readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting fortimanager_systemp_log_fortianalyzer_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting fortimanager_systemp_log_fortianalyzer_setting}
 */
 export class SystempLogFortianalyzerSetting extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class SystempLogFortianalyzerSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempLogFortianalyzerSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempLogFortianalyzerSetting to import
-  * @param importFromId The id of the existing SystempLogFortianalyzerSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempLogFortianalyzerSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempLogFortianalyzerSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class SystempLogFortianalyzerSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_fortianalyzer_setting fortimanager_systemp_log_fortianalyzer_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_fortianalyzer_setting fortimanager_systemp_log_fortianalyzer_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class SystempLogFortianalyzerSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_log_fortianalyzer_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

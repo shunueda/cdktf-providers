@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,118 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerLldpprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#adom ObjectSwitchcontrollerLldpprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#adom ObjectSwitchcontrollerLldpprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl ObjectSwitchcontrollerLldpprofile#auto_isl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl ObjectSwitchcontrollerLldpprofile#auto_isl}
   */
   readonly autoIsl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth ObjectSwitchcontrollerLldpprofile#auto_isl_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth ObjectSwitchcontrollerLldpprofile#auto_isl_auth}
   */
   readonly autoIslAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_encrypt ObjectSwitchcontrollerLldpprofile#auto_isl_auth_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_encrypt ObjectSwitchcontrollerLldpprofile#auto_isl_auth_encrypt}
   */
   readonly autoIslAuthEncrypt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_identity ObjectSwitchcontrollerLldpprofile#auto_isl_auth_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_identity ObjectSwitchcontrollerLldpprofile#auto_isl_auth_identity}
   */
   readonly autoIslAuthIdentity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_macsec_profile ObjectSwitchcontrollerLldpprofile#auto_isl_auth_macsec_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_macsec_profile ObjectSwitchcontrollerLldpprofile#auto_isl_auth_macsec_profile}
   */
   readonly autoIslAuthMacsecProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_reauth ObjectSwitchcontrollerLldpprofile#auto_isl_auth_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_reauth ObjectSwitchcontrollerLldpprofile#auto_isl_auth_reauth}
   */
   readonly autoIslAuthReauth?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_user ObjectSwitchcontrollerLldpprofile#auto_isl_auth_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_auth_user ObjectSwitchcontrollerLldpprofile#auto_isl_auth_user}
   */
   readonly autoIslAuthUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_hello_timer ObjectSwitchcontrollerLldpprofile#auto_isl_hello_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_hello_timer ObjectSwitchcontrollerLldpprofile#auto_isl_hello_timer}
   */
   readonly autoIslHelloTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_port_group ObjectSwitchcontrollerLldpprofile#auto_isl_port_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_port_group ObjectSwitchcontrollerLldpprofile#auto_isl_port_group}
   */
   readonly autoIslPortGroup?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_receive_timeout ObjectSwitchcontrollerLldpprofile#auto_isl_receive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_isl_receive_timeout ObjectSwitchcontrollerLldpprofile#auto_isl_receive_timeout}
   */
   readonly autoIslReceiveTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#auto_mclag_icl ObjectSwitchcontrollerLldpprofile#auto_mclag_icl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#auto_mclag_icl ObjectSwitchcontrollerLldpprofile#auto_mclag_icl}
   */
   readonly autoMclagIcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#dynamic_sort_subtable ObjectSwitchcontrollerLldpprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#dynamic_sort_subtable ObjectSwitchcontrollerLldpprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#id ObjectSwitchcontrollerLldpprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#id ObjectSwitchcontrollerLldpprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#med_tlvs ObjectSwitchcontrollerLldpprofile#med_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#med_tlvs ObjectSwitchcontrollerLldpprofile#med_tlvs}
   */
   readonly medTlvs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#n8021_tlvs ObjectSwitchcontrollerLldpprofile#n8021_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#n8021_tlvs ObjectSwitchcontrollerLldpprofile#n8021_tlvs}
   */
   readonly n8021Tlvs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#n8023_tlvs ObjectSwitchcontrollerLldpprofile#n8023_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#n8023_tlvs ObjectSwitchcontrollerLldpprofile#n8023_tlvs}
   */
   readonly n8023Tlvs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#scopetype ObjectSwitchcontrollerLldpprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#scopetype ObjectSwitchcontrollerLldpprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * custom_tlvs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#custom_tlvs ObjectSwitchcontrollerLldpprofile#custom_tlvs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#custom_tlvs ObjectSwitchcontrollerLldpprofile#custom_tlvs}
   */
   readonly customTlvs?: ObjectSwitchcontrollerLldpprofileCustomTlvs[] | cdktf.IResolvable;
   /**
   * med_location_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#med_location_service ObjectSwitchcontrollerLldpprofile#med_location_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#med_location_service ObjectSwitchcontrollerLldpprofile#med_location_service}
   */
   readonly medLocationService?: ObjectSwitchcontrollerLldpprofileMedLocationService[] | cdktf.IResolvable;
   /**
   * med_network_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#med_network_policy ObjectSwitchcontrollerLldpprofile#med_network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#med_network_policy ObjectSwitchcontrollerLldpprofile#med_network_policy}
   */
   readonly medNetworkPolicy?: ObjectSwitchcontrollerLldpprofileMedNetworkPolicy[] | cdktf.IResolvable;
 }
 export interface ObjectSwitchcontrollerLldpprofileCustomTlvs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#information_string ObjectSwitchcontrollerLldpprofile#information_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#information_string ObjectSwitchcontrollerLldpprofile#information_string}
   */
   readonly informationString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#oui ObjectSwitchcontrollerLldpprofile#oui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#oui ObjectSwitchcontrollerLldpprofile#oui}
   */
   readonly oui?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#subtype ObjectSwitchcontrollerLldpprofile#subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#subtype ObjectSwitchcontrollerLldpprofile#subtype}
   */
   readonly subtype?: number;
 }
@@ -322,15 +322,15 @@ export class ObjectSwitchcontrollerLldpprofileCustomTlvsList extends cdktf.Compl
 }
 export interface ObjectSwitchcontrollerLldpprofileMedLocationService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#status ObjectSwitchcontrollerLldpprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#status ObjectSwitchcontrollerLldpprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#sys_location_id ObjectSwitchcontrollerLldpprofile#sys_location_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#sys_location_id ObjectSwitchcontrollerLldpprofile#sys_location_id}
   */
   readonly sysLocationId?: string;
 }
@@ -504,31 +504,31 @@ export class ObjectSwitchcontrollerLldpprofileMedLocationServiceList extends cdk
 }
 export interface ObjectSwitchcontrollerLldpprofileMedNetworkPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#assign_vlan ObjectSwitchcontrollerLldpprofile#assign_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#assign_vlan ObjectSwitchcontrollerLldpprofile#assign_vlan}
   */
   readonly assignVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#dscp ObjectSwitchcontrollerLldpprofile#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#dscp ObjectSwitchcontrollerLldpprofile#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#name ObjectSwitchcontrollerLldpprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#priority ObjectSwitchcontrollerLldpprofile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#priority ObjectSwitchcontrollerLldpprofile#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#status ObjectSwitchcontrollerLldpprofile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#status ObjectSwitchcontrollerLldpprofile#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#vlan ObjectSwitchcontrollerLldpprofile#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#vlan ObjectSwitchcontrollerLldpprofile#vlan}
   */
   readonly vlan?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#vlan_intf ObjectSwitchcontrollerLldpprofile#vlan_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#vlan_intf ObjectSwitchcontrollerLldpprofile#vlan_intf}
   */
   readonly vlanIntf?: string;
 }
@@ -818,7 +818,7 @@ export class ObjectSwitchcontrollerLldpprofileMedNetworkPolicyList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile fortimanager_object_switchcontroller_lldpprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile fortimanager_object_switchcontroller_lldpprofile}
 */
 export class ObjectSwitchcontrollerLldpprofile extends cdktf.TerraformResource {
 
@@ -834,7 +834,7 @@ export class ObjectSwitchcontrollerLldpprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSwitchcontrollerLldpprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerLldpprofile to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerLldpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerLldpprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerLldpprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -846,7 +846,7 @@ export class ObjectSwitchcontrollerLldpprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_lldpprofile fortimanager_object_switchcontroller_lldpprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_lldpprofile fortimanager_object_switchcontroller_lldpprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -857,8 +857,8 @@ export class ObjectSwitchcontrollerLldpprofile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_switchcontroller_lldpprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

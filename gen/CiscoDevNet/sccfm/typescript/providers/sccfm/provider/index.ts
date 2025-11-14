@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SccfmProviderConfig {
   /**
   * The API token used to authenticate with SCC Firewall Manager. [See here](https://docs.manage.security.cisco.com/c_api-tokens.html#!t-generatean-api-token.html) to learn how to generate an API token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs#api_token SccfmProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs#api_token SccfmProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * The base SCC Firewall Manager URL. This is the URL you enter when logging into your SCC Firewall Manager account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs#base_url SccfmProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs#base_url SccfmProvider#base_url}
   */
   readonly baseUrl: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs#alias SccfmProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs#alias SccfmProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs sccfm}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs sccfm}
 */
 export class SccfmProvider extends cdktf.TerraformProvider {
 
@@ -44,7 +44,7 @@ export class SccfmProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SccfmProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SccfmProvider to import
-  * @param importFromId The id of the existing SccfmProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SccfmProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SccfmProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SccfmProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs sccfm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs sccfm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SccfmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sccfm',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       terraformProviderSource: 'CiscoDevNet/sccfm'
     });

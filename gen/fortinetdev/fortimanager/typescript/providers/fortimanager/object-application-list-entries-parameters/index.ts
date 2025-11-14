@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectApplicationListEntriesParametersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#adom ObjectApplicationListEntriesParametersA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#adom ObjectApplicationListEntriesParametersA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#dynamic_sort_subtable ObjectApplicationListEntriesParametersA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#dynamic_sort_subtable ObjectApplicationListEntriesParametersA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#entries ObjectApplicationListEntriesParametersA#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#entries ObjectApplicationListEntriesParametersA#entries}
   */
   readonly entries: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#fosid ObjectApplicationListEntriesParametersA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#fosid ObjectApplicationListEntriesParametersA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#id ObjectApplicationListEntriesParametersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#id ObjectApplicationListEntriesParametersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#list ObjectApplicationListEntriesParametersA#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#list ObjectApplicationListEntriesParametersA#list}
   */
   readonly list: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#scopetype ObjectApplicationListEntriesParametersA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#scopetype ObjectApplicationListEntriesParametersA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#value ObjectApplicationListEntriesParametersA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#value ObjectApplicationListEntriesParametersA#value}
   */
   readonly value?: string;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#members ObjectApplicationListEntriesParametersA#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#members ObjectApplicationListEntriesParametersA#members}
   */
   readonly members?: ObjectApplicationListEntriesParametersMembersA[] | cdktf.IResolvable;
 }
 export interface ObjectApplicationListEntriesParametersMembersA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#id ObjectApplicationListEntriesParametersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#id ObjectApplicationListEntriesParametersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#name ObjectApplicationListEntriesParametersA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#name ObjectApplicationListEntriesParametersA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#value ObjectApplicationListEntriesParametersA#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#value ObjectApplicationListEntriesParametersA#value}
   */
   readonly value?: string;
 }
@@ -236,7 +236,7 @@ export class ObjectApplicationListEntriesParametersMembersAList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters fortimanager_object_application_list_entries_parameters}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters fortimanager_object_application_list_entries_parameters}
 */
 export class ObjectApplicationListEntriesParametersA extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class ObjectApplicationListEntriesParametersA extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ObjectApplicationListEntriesParametersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectApplicationListEntriesParametersA to import
-  * @param importFromId The id of the existing ObjectApplicationListEntriesParametersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectApplicationListEntriesParametersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectApplicationListEntriesParametersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class ObjectApplicationListEntriesParametersA extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_application_list_entries_parameters fortimanager_object_application_list_entries_parameters} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_application_list_entries_parameters fortimanager_object_application_list_entries_parameters} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class ObjectApplicationListEntriesParametersA extends cdktf.TerraformReso
       terraformResourceType: 'fortimanager_object_application_list_entries_parameters',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

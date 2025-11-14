@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,68 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerQosDot1PmapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#adom ObjectSwitchcontrollerQosDot1Pmap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#adom ObjectSwitchcontrollerQosDot1Pmap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#description ObjectSwitchcontrollerQosDot1Pmap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#description ObjectSwitchcontrollerQosDot1Pmap#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#egress_pri_tagging ObjectSwitchcontrollerQosDot1Pmap#egress_pri_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#egress_pri_tagging ObjectSwitchcontrollerQosDot1Pmap#egress_pri_tagging}
   */
   readonly egressPriTagging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#id ObjectSwitchcontrollerQosDot1Pmap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#id ObjectSwitchcontrollerQosDot1Pmap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#name ObjectSwitchcontrollerQosDot1Pmap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#name ObjectSwitchcontrollerQosDot1Pmap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_0 ObjectSwitchcontrollerQosDot1Pmap#priority_0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_0 ObjectSwitchcontrollerQosDot1Pmap#priority_0}
   */
   readonly priority0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_1 ObjectSwitchcontrollerQosDot1Pmap#priority_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_1 ObjectSwitchcontrollerQosDot1Pmap#priority_1}
   */
   readonly priority1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_2 ObjectSwitchcontrollerQosDot1Pmap#priority_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_2 ObjectSwitchcontrollerQosDot1Pmap#priority_2}
   */
   readonly priority2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_3 ObjectSwitchcontrollerQosDot1Pmap#priority_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_3 ObjectSwitchcontrollerQosDot1Pmap#priority_3}
   */
   readonly priority3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_4 ObjectSwitchcontrollerQosDot1Pmap#priority_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_4 ObjectSwitchcontrollerQosDot1Pmap#priority_4}
   */
   readonly priority4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_5 ObjectSwitchcontrollerQosDot1Pmap#priority_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_5 ObjectSwitchcontrollerQosDot1Pmap#priority_5}
   */
   readonly priority5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_6 ObjectSwitchcontrollerQosDot1Pmap#priority_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_6 ObjectSwitchcontrollerQosDot1Pmap#priority_6}
   */
   readonly priority6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_7 ObjectSwitchcontrollerQosDot1Pmap#priority_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#priority_7 ObjectSwitchcontrollerQosDot1Pmap#priority_7}
   */
   readonly priority7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#scopetype ObjectSwitchcontrollerQosDot1Pmap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#scopetype ObjectSwitchcontrollerQosDot1Pmap#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap fortimanager_object_switchcontroller_qos_dot1pmap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap fortimanager_object_switchcontroller_qos_dot1pmap}
 */
 export class ObjectSwitchcontrollerQosDot1Pmap extends cdktf.TerraformResource {
 
@@ -85,7 +85,7 @@ export class ObjectSwitchcontrollerQosDot1Pmap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSwitchcontrollerQosDot1Pmap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerQosDot1Pmap to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerQosDot1Pmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerQosDot1Pmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerQosDot1Pmap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -97,7 +97,7 @@ export class ObjectSwitchcontrollerQosDot1Pmap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_qos_dot1pmap fortimanager_object_switchcontroller_qos_dot1pmap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_qos_dot1pmap fortimanager_object_switchcontroller_qos_dot1pmap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -108,8 +108,8 @@ export class ObjectSwitchcontrollerQosDot1Pmap extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_switchcontroller_qos_dot1pmap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

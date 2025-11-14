@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,174 +8,174 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserFssoDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#_gui_meta ObjectUserFssoDynamicMappingA#_gui_meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#_gui_meta ObjectUserFssoDynamicMappingA#_gui_meta}
   */
   readonly guiMeta?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#adom ObjectUserFssoDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#adom ObjectUserFssoDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#dynamic_sort_subtable ObjectUserFssoDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#dynamic_sort_subtable ObjectUserFssoDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#fsso ObjectUserFssoDynamicMappingA#fsso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#fsso ObjectUserFssoDynamicMappingA#fsso}
   */
   readonly fsso: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#group_poll_interval ObjectUserFssoDynamicMappingA#group_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#group_poll_interval ObjectUserFssoDynamicMappingA#group_poll_interval}
   */
   readonly groupPollInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#id ObjectUserFssoDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#id ObjectUserFssoDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#interface ObjectUserFssoDynamicMappingA#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#interface ObjectUserFssoDynamicMappingA#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#interface_select_method ObjectUserFssoDynamicMappingA#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#interface_select_method ObjectUserFssoDynamicMappingA#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll ObjectUserFssoDynamicMappingA#ldap_poll}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll ObjectUserFssoDynamicMappingA#ldap_poll}
   */
   readonly ldapPoll?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll_filter ObjectUserFssoDynamicMappingA#ldap_poll_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll_filter ObjectUserFssoDynamicMappingA#ldap_poll_filter}
   */
   readonly ldapPollFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll_interval ObjectUserFssoDynamicMappingA#ldap_poll_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_poll_interval ObjectUserFssoDynamicMappingA#ldap_poll_interval}
   */
   readonly ldapPollInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_server ObjectUserFssoDynamicMappingA#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ldap_server ObjectUserFssoDynamicMappingA#ldap_server}
   */
   readonly ldapServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#logon_timeout ObjectUserFssoDynamicMappingA#logon_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#logon_timeout ObjectUserFssoDynamicMappingA#logon_timeout}
   */
   readonly logonTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#password ObjectUserFssoDynamicMappingA#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#password ObjectUserFssoDynamicMappingA#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#password2 ObjectUserFssoDynamicMappingA#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#password2 ObjectUserFssoDynamicMappingA#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#password3 ObjectUserFssoDynamicMappingA#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#password3 ObjectUserFssoDynamicMappingA#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#password4 ObjectUserFssoDynamicMappingA#password4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#password4 ObjectUserFssoDynamicMappingA#password4}
   */
   readonly password4?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#password5 ObjectUserFssoDynamicMappingA#password5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#password5 ObjectUserFssoDynamicMappingA#password5}
   */
   readonly password5?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#port ObjectUserFssoDynamicMappingA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#port ObjectUserFssoDynamicMappingA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#port2 ObjectUserFssoDynamicMappingA#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#port2 ObjectUserFssoDynamicMappingA#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#port3 ObjectUserFssoDynamicMappingA#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#port3 ObjectUserFssoDynamicMappingA#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#port4 ObjectUserFssoDynamicMappingA#port4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#port4 ObjectUserFssoDynamicMappingA#port4}
   */
   readonly port4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#port5 ObjectUserFssoDynamicMappingA#port5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#port5 ObjectUserFssoDynamicMappingA#port5}
   */
   readonly port5?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#scopetype ObjectUserFssoDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#scopetype ObjectUserFssoDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#server ObjectUserFssoDynamicMappingA#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#server ObjectUserFssoDynamicMappingA#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#server2 ObjectUserFssoDynamicMappingA#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#server2 ObjectUserFssoDynamicMappingA#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#server3 ObjectUserFssoDynamicMappingA#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#server3 ObjectUserFssoDynamicMappingA#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#server4 ObjectUserFssoDynamicMappingA#server4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#server4 ObjectUserFssoDynamicMappingA#server4}
   */
   readonly server4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#server5 ObjectUserFssoDynamicMappingA#server5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#server5 ObjectUserFssoDynamicMappingA#server5}
   */
   readonly server5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#sni ObjectUserFssoDynamicMappingA#sni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#sni ObjectUserFssoDynamicMappingA#sni}
   */
   readonly sni?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#source_ip ObjectUserFssoDynamicMappingA#source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#source_ip ObjectUserFssoDynamicMappingA#source_ip}
   */
   readonly sourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#source_ip6 ObjectUserFssoDynamicMappingA#source_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#source_ip6 ObjectUserFssoDynamicMappingA#source_ip6}
   */
   readonly sourceIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ssl ObjectUserFssoDynamicMappingA#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ssl ObjectUserFssoDynamicMappingA#ssl}
   */
   readonly ssl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ssl_server_host_ip_check ObjectUserFssoDynamicMappingA#ssl_server_host_ip_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ssl_server_host_ip_check ObjectUserFssoDynamicMappingA#ssl_server_host_ip_check}
   */
   readonly sslServerHostIpCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#ssl_trusted_cert ObjectUserFssoDynamicMappingA#ssl_trusted_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#ssl_trusted_cert ObjectUserFssoDynamicMappingA#ssl_trusted_cert}
   */
   readonly sslTrustedCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#type ObjectUserFssoDynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#type ObjectUserFssoDynamicMappingA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#user_info_server ObjectUserFssoDynamicMappingA#user_info_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#user_info_server ObjectUserFssoDynamicMappingA#user_info_server}
   */
   readonly userInfoServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#vrf_select ObjectUserFssoDynamicMappingA#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#vrf_select ObjectUserFssoDynamicMappingA#vrf_select}
   */
   readonly vrfSelect?: number;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#_scope ObjectUserFssoDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#_scope ObjectUserFssoDynamicMappingA#_scope}
   */
   readonly scope?: ObjectUserFssoDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectUserFssoDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#name ObjectUserFssoDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#name ObjectUserFssoDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#vdom ObjectUserFssoDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#vdom ObjectUserFssoDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -320,7 +320,7 @@ export class ObjectUserFssoDynamicMappingScopeAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping fortimanager_object_user_fsso_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping fortimanager_object_user_fsso_dynamic_mapping}
 */
 export class ObjectUserFssoDynamicMappingA extends cdktf.TerraformResource {
 
@@ -336,7 +336,7 @@ export class ObjectUserFssoDynamicMappingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserFssoDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserFssoDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectUserFssoDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserFssoDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserFssoDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -348,7 +348,7 @@ export class ObjectUserFssoDynamicMappingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_fsso_dynamic_mapping fortimanager_object_user_fsso_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_fsso_dynamic_mapping fortimanager_object_user_fsso_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -359,8 +359,8 @@ export class ObjectUserFssoDynamicMappingA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_fsso_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

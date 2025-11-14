@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,208 +8,208 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCloudOrchestawstemplateAutoscaletgwnewvpcConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#adom ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#adom ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#availability_zones ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#availability_zones ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#availability_zones}
   */
   readonly availabilityZones?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#bgp_asn ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#bgp_asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#bgp_asn ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#bgp_asn}
   */
   readonly bgpAsn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_asset_container ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_asset_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_asset_container ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_asset_container}
   */
   readonly customAssetContainer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_asset_directory ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_asset_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_asset_directory ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_asset_directory}
   */
   readonly customAssetDirectory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_identifier ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#custom_identifier ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#custom_identifier}
   */
   readonly customIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_autoscale_admin_password ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_autoscale_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_autoscale_admin_password ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_autoscale_admin_password}
   */
   readonly fazAutoscaleAdminPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_autoscale_admin_username ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_autoscale_admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_autoscale_admin_username ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_autoscale_admin_username}
   */
   readonly fazAutoscaleAdminUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_custom_private_ipaddress ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_custom_private_ipaddress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_custom_private_ipaddress ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_custom_private_ipaddress}
   */
   readonly fazCustomPrivateIpaddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_instance_type ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_instance_type ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_instance_type}
   */
   readonly fazInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_integration_options ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_integration_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_integration_options ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_integration_options}
   */
   readonly fazIntegrationOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_version ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#faz_version ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#faz_version}
   */
   readonly fazVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_admin_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_admin_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_admin_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_admin_cidr}
   */
   readonly fgtAdminCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_admin_port ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_admin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_admin_port ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_admin_port}
   */
   readonly fgtAdminPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_instance_type ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_instance_type ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_instance_type}
   */
   readonly fgtInstanceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_psk_secret ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_psk_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgt_psk_secret ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgt_psk_secret}
   */
   readonly fgtPskSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_cool_down ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_cool_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_cool_down ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_cool_down}
   */
   readonly fgtasgCoolDown?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_desired_capacity_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_desired_capacity_byol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_desired_capacity_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_desired_capacity_byol}
   */
   readonly fgtasgDesiredCapacityByol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_desired_capacity_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_desired_capacity_payg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_desired_capacity_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_desired_capacity_payg}
   */
   readonly fgtasgDesiredCapacityPayg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_health_check_grace_period ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_health_check_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_health_check_grace_period ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_health_check_grace_period}
   */
   readonly fgtasgHealthCheckGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_max_size_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_max_size_byol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_max_size_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_max_size_byol}
   */
   readonly fgtasgMaxSizeByol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_max_size_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_max_size_payg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_max_size_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_max_size_payg}
   */
   readonly fgtasgMaxSizePayg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_min_size_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_min_size_byol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_min_size_byol ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_min_size_byol}
   */
   readonly fgtasgMinSizeByol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_min_size_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_min_size_payg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_min_size_payg ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_min_size_payg}
   */
   readonly fgtasgMinSizePayg?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_scale_in_threshold ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_scale_in_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_scale_in_threshold ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_scale_in_threshold}
   */
   readonly fgtasgScaleInThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_scale_out_threshold ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_scale_out_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fgtasg_scale_out_threshold ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fgtasg_scale_out_threshold}
   */
   readonly fgtasgScaleOutThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fos_version ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fos_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#fos_version ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#fos_version}
   */
   readonly fosVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#get_license_grace_period ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#get_license_grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#get_license_grace_period ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#get_license_grace_period}
   */
   readonly fetchLicenseGracePeriod?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_delay_allowance ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_delay_allowance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_delay_allowance ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_delay_allowance}
   */
   readonly heartbeatDelayAllowance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_interval ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_interval ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_interval}
   */
   readonly heartbeatInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_loss_count ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_loss_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#heartbeat_loss_count ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#heartbeat_loss_count}
   */
   readonly heartbeatLossCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#id ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#id ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#key_pair_name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#key_pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#key_pair_name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#key_pair_name}
   */
   readonly keyPairName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#lifecycle_hook_timeout ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#lifecycle_hook_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#lifecycle_hook_timeout ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#lifecycle_hook_timeout}
   */
   readonly lifecycleHookTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#notification_email ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#notification_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#notification_email ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#notification_email}
   */
   readonly notificationEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#primary_election_timeout ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#primary_election_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#primary_election_timeout ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#primary_election_timeout}
   */
   readonly primaryElectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#public_subnet1_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#public_subnet1_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#public_subnet1_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#public_subnet1_cidr}
   */
   readonly publicSubnet1Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#public_subnet2_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#public_subnet2_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#public_subnet2_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#public_subnet2_cidr}
   */
   readonly publicSubnet2Cidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#resource_tag_prefix ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#resource_tag_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#resource_tag_prefix ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#resource_tag_prefix}
   */
   readonly resourceTagPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#s3_bucket_name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#s3_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#s3_bucket_name ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#s3_bucket_name}
   */
   readonly s3BucketName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#s3_key_prefix ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#s3_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#s3_key_prefix ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#s3_key_prefix}
   */
   readonly s3KeyPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#scopetype ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#scopetype ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#sync_recovery_count ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#sync_recovery_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#sync_recovery_count ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#sync_recovery_count}
   */
   readonly syncRecoveryCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#terminate_unhealthy_vm ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#terminate_unhealthy_vm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#terminate_unhealthy_vm ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#terminate_unhealthy_vm}
   */
   readonly terminateUnhealthyVm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#transit_gateway_id ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#transit_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#transit_gateway_id ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#transit_gateway_id}
   */
   readonly transitGatewayId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#transit_gateway_support_options ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#transit_gateway_support_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#transit_gateway_support_options ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#transit_gateway_support_options}
   */
   readonly transitGatewaySupportOptions?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#use_custom_asset_location ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#use_custom_asset_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#use_custom_asset_location ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#use_custom_asset_location}
   */
   readonly useCustomAssetLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#vpc_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#vpc_cidr ObjectCloudOrchestawstemplateAutoscaletgwnewvpc#vpc_cidr}
   */
   readonly vpcCidr?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc fortimanager_object_cloud_orchestawstemplate_autoscaletgwnewvpc}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc fortimanager_object_cloud_orchestawstemplate_autoscaletgwnewvpc}
 */
 export class ObjectCloudOrchestawstemplateAutoscaletgwnewvpc extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class ObjectCloudOrchestawstemplateAutoscaletgwnewvpc extends cdktf.Terra
   * Generates CDKTF code for importing a ObjectCloudOrchestawstemplateAutoscaletgwnewvpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCloudOrchestawstemplateAutoscaletgwnewvpc to import
-  * @param importFromId The id of the existing ObjectCloudOrchestawstemplateAutoscaletgwnewvpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCloudOrchestawstemplateAutoscaletgwnewvpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCloudOrchestawstemplateAutoscaletgwnewvpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class ObjectCloudOrchestawstemplateAutoscaletgwnewvpc extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc fortimanager_object_cloud_orchestawstemplate_autoscaletgwnewvpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_cloud_orchestawstemplate_autoscaletgwnewvpc fortimanager_object_cloud_orchestawstemplate_autoscaletgwnewvpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class ObjectCloudOrchestawstemplateAutoscaletgwnewvpc extends cdktf.Terra
       terraformResourceType: 'fortimanager_object_cloud_orchestawstemplate_autoscaletgwnewvpc',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

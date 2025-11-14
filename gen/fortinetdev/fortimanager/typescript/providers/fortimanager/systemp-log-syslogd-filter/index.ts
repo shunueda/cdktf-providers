@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,132 @@ import * as cdktf from 'cdktf';
 
 export interface SystempLogSyslogdFilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#adom SystempLogSyslogdFilter#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#adom SystempLogSyslogdFilter#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#anomaly SystempLogSyslogdFilter#anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#anomaly SystempLogSyslogdFilter#anomaly}
   */
   readonly anomaly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#cifs SystempLogSyslogdFilter#cifs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#cifs SystempLogSyslogdFilter#cifs}
   */
   readonly cifs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#devprof SystempLogSyslogdFilter#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#debug SystempLogSyslogdFilter#debug}
+  */
+  readonly debug?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#devprof SystempLogSyslogdFilter#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#dns SystempLogSyslogdFilter#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#dns SystempLogSyslogdFilter#dns}
   */
   readonly dns?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#dynamic_sort_subtable SystempLogSyslogdFilter#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#dynamic_sort_subtable SystempLogSyslogdFilter#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#filter SystempLogSyslogdFilter#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#filter SystempLogSyslogdFilter#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#filter_type SystempLogSyslogdFilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#filter_type SystempLogSyslogdFilter#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#forti_switch SystempLogSyslogdFilter#forti_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#forti_switch SystempLogSyslogdFilter#forti_switch}
   */
   readonly fortiSwitch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#forward_traffic SystempLogSyslogdFilter#forward_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#forward_traffic SystempLogSyslogdFilter#forward_traffic}
   */
   readonly forwardTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#gtp SystempLogSyslogdFilter#gtp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#gtp SystempLogSyslogdFilter#gtp}
   */
   readonly gtp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#http_transaction SystempLogSyslogdFilter#http_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#http_transaction SystempLogSyslogdFilter#http_transaction}
   */
   readonly httpTransaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#local_traffic SystempLogSyslogdFilter#local_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#local_traffic SystempLogSyslogdFilter#local_traffic}
   */
   readonly localTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#multicast_traffic SystempLogSyslogdFilter#multicast_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#multicast_traffic SystempLogSyslogdFilter#multicast_traffic}
   */
   readonly multicastTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#netscan_discovery SystempLogSyslogdFilter#netscan_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#netscan_discovery SystempLogSyslogdFilter#netscan_discovery}
   */
   readonly netscanDiscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#netscan_vulnerability SystempLogSyslogdFilter#netscan_vulnerability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#netscan_vulnerability SystempLogSyslogdFilter#netscan_vulnerability}
   */
   readonly netscanVulnerability?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#scopetype SystempLogSyslogdFilter#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#scopetype SystempLogSyslogdFilter#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#severity SystempLogSyslogdFilter#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#severity SystempLogSyslogdFilter#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#sniffer_traffic SystempLogSyslogdFilter#sniffer_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#sniffer_traffic SystempLogSyslogdFilter#sniffer_traffic}
   */
   readonly snifferTraffic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#ssh SystempLogSyslogdFilter#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#ssh SystempLogSyslogdFilter#ssh}
   */
   readonly ssh?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#ssl SystempLogSyslogdFilter#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#ssl SystempLogSyslogdFilter#ssl}
   */
   readonly ssl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#voip SystempLogSyslogdFilter#voip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#voip SystempLogSyslogdFilter#voip}
   */
   readonly voip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#ztna_traffic SystempLogSyslogdFilter#ztna_traffic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#ztna_traffic SystempLogSyslogdFilter#ztna_traffic}
   */
   readonly ztnaTraffic?: string;
   /**
   * exclude_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#exclude_list SystempLogSyslogdFilter#exclude_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#exclude_list SystempLogSyslogdFilter#exclude_list}
   */
   readonly excludeList?: SystempLogSyslogdFilterExcludeListStruct[] | cdktf.IResolvable;
   /**
   * free_style block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#free_style SystempLogSyslogdFilter#free_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#free_style SystempLogSyslogdFilter#free_style}
   */
   readonly freeStyle?: SystempLogSyslogdFilterFreeStyle[] | cdktf.IResolvable;
 }
 export interface SystempLogSyslogdFilterExcludeListFields {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#args SystempLogSyslogdFilter#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#args SystempLogSyslogdFilter#args}
   */
   readonly args?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#field SystempLogSyslogdFilter#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#field SystempLogSyslogdFilter#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#negate SystempLogSyslogdFilter#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#negate SystempLogSyslogdFilter#negate}
   */
   readonly negate?: string;
 }
@@ -303,11 +307,11 @@ export class SystempLogSyslogdFilterExcludeListFieldsList extends cdktf.ComplexL
 }
 export interface SystempLogSyslogdFilterExcludeListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#category SystempLogSyslogdFilter#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#category SystempLogSyslogdFilter#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -316,7 +320,7 @@ export interface SystempLogSyslogdFilterExcludeListStruct {
   /**
   * fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#fields SystempLogSyslogdFilter#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#fields SystempLogSyslogdFilter#fields}
   */
   readonly fields?: SystempLogSyslogdFilterExcludeListFields[] | cdktf.IResolvable;
 }
@@ -490,19 +494,19 @@ export class SystempLogSyslogdFilterExcludeListStructList extends cdktf.ComplexL
 }
 export interface SystempLogSyslogdFilterFreeStyle {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#category SystempLogSyslogdFilter#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#category SystempLogSyslogdFilter#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#filter SystempLogSyslogdFilter#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#filter SystempLogSyslogdFilter#filter}
   */
   readonly filter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#filter_type SystempLogSyslogdFilter#filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#filter_type SystempLogSyslogdFilter#filter_type}
   */
   readonly filterType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#id SystempLogSyslogdFilter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -708,7 +712,7 @@ export class SystempLogSyslogdFilterFreeStyleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter fortimanager_systemp_log_syslogd_filter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter fortimanager_systemp_log_syslogd_filter}
 */
 export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
 
@@ -724,7 +728,7 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystempLogSyslogdFilter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempLogSyslogdFilter to import
-  * @param importFromId The id of the existing SystempLogSyslogdFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempLogSyslogdFilter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempLogSyslogdFilter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -736,7 +740,7 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_log_syslogd_filter fortimanager_systemp_log_syslogd_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_log_syslogd_filter fortimanager_systemp_log_syslogd_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,8 +751,8 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_systemp_log_syslogd_filter',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -761,6 +765,7 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
     this._adom = config.adom;
     this._anomaly = config.anomaly;
     this._cifs = config.cifs;
+    this._debug = config.debug;
     this._devprof = config.devprof;
     this._dns = config.dns;
     this._dynamicSortSubtable = config.dynamicSortSubtable;
@@ -836,6 +841,22 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get cifsInput() {
     return this._cifs;
+  }
+
+  // debug - computed: false, optional: true, required: false
+  private _debug?: string; 
+  public get debug() {
+    return this.getStringAttribute('debug');
+  }
+  public set debug(value: string) {
+    this._debug = value;
+  }
+  public resetDebug() {
+    this._debug = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get debugInput() {
+    return this._debug;
   }
 
   // devprof - computed: false, optional: false, required: true
@@ -1212,6 +1233,7 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
       adom: cdktf.stringToTerraform(this._adom),
       anomaly: cdktf.stringToTerraform(this._anomaly),
       cifs: cdktf.stringToTerraform(this._cifs),
+      debug: cdktf.stringToTerraform(this._debug),
       devprof: cdktf.stringToTerraform(this._devprof),
       dns: cdktf.stringToTerraform(this._dns),
       dynamic_sort_subtable: cdktf.stringToTerraform(this._dynamicSortSubtable),
@@ -1254,6 +1276,12 @@ export class SystempLogSyslogdFilter extends cdktf.TerraformResource {
       },
       cifs: {
         value: cdktf.stringToHclTerraform(this._cifs),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      debug: {
+        value: cdktf.stringToHclTerraform(this._debug),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectRouterAccesslist6RuleAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#access_list6 ObjectRouterAccesslist6RuleA#access_list6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#access_list6 ObjectRouterAccesslist6RuleA#access_list6}
   */
   readonly accessList6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#action ObjectRouterAccesslist6RuleA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#action ObjectRouterAccesslist6RuleA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#adom ObjectRouterAccesslist6RuleA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#adom ObjectRouterAccesslist6RuleA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#exact_match ObjectRouterAccesslist6RuleA#exact_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#exact_match ObjectRouterAccesslist6RuleA#exact_match}
   */
   readonly exactMatch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#flags ObjectRouterAccesslist6RuleA#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#flags ObjectRouterAccesslist6RuleA#flags}
   */
   readonly flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#fosid ObjectRouterAccesslist6RuleA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#fosid ObjectRouterAccesslist6RuleA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#id ObjectRouterAccesslist6RuleA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#id ObjectRouterAccesslist6RuleA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#prefix6 ObjectRouterAccesslist6RuleA#prefix6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#prefix6 ObjectRouterAccesslist6RuleA#prefix6}
   */
   readonly prefix6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#scopetype ObjectRouterAccesslist6RuleA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#scopetype ObjectRouterAccesslist6RuleA#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule fortimanager_object_router_accesslist6_rule}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule fortimanager_object_router_accesslist6_rule}
 */
 export class ObjectRouterAccesslist6RuleA extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class ObjectRouterAccesslist6RuleA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectRouterAccesslist6RuleA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectRouterAccesslist6RuleA to import
-  * @param importFromId The id of the existing ObjectRouterAccesslist6RuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectRouterAccesslist6RuleA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectRouterAccesslist6RuleA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class ObjectRouterAccesslist6RuleA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_router_accesslist6_rule fortimanager_object_router_accesslist6_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_router_accesslist6_rule fortimanager_object_router_accesslist6_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class ObjectRouterAccesslist6RuleA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_router_accesslist6_rule',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

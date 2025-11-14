@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserFlexvmConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#adom ObjectUserFlexvm#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#adom ObjectUserFlexvm#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#config ObjectUserFlexvm#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#config ObjectUserFlexvm#config}
   */
   readonly config?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#folder ObjectUserFlexvm#folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#default_config ObjectUserFlexvm#default_config}
+  */
+  readonly defaultConfig?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#folder ObjectUserFlexvm#folder}
   */
   readonly folder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#id ObjectUserFlexvm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#id ObjectUserFlexvm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#name ObjectUserFlexvm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#name ObjectUserFlexvm#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#password ObjectUserFlexvm#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#password ObjectUserFlexvm#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#program ObjectUserFlexvm#program}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#program ObjectUserFlexvm#program}
   */
   readonly program?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#scopetype ObjectUserFlexvm#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#scopetype ObjectUserFlexvm#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#status ObjectUserFlexvm#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#status ObjectUserFlexvm#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#user ObjectUserFlexvm#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#user ObjectUserFlexvm#user}
   */
   readonly user?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm fortimanager_object_user_flexvm}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm fortimanager_object_user_flexvm}
 */
 export class ObjectUserFlexvm extends cdktf.TerraformResource {
 
@@ -69,7 +73,7 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserFlexvm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserFlexvm to import
-  * @param importFromId The id of the existing ObjectUserFlexvm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserFlexvm that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserFlexvm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +85,7 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_flexvm fortimanager_object_user_flexvm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_flexvm fortimanager_object_user_flexvm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +96,8 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_flexvm',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -105,6 +109,7 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
     });
     this._adom = config.adom;
     this._config = config.config;
+    this._defaultConfig = config.defaultConfig;
     this._folder = config.folder;
     this._id = config.id;
     this._name = config.name;
@@ -149,6 +154,22 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get configInput() {
     return this._config;
+  }
+
+  // default_config - computed: false, optional: true, required: false
+  private _defaultConfig?: number; 
+  public get defaultConfig() {
+    return this.getNumberAttribute('default_config');
+  }
+  public set defaultConfig(value: number) {
+    this._defaultConfig = value;
+  }
+  public resetDefaultConfig() {
+    this._defaultConfig = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get defaultConfigInput() {
+    return this._defaultConfig;
   }
 
   // folder - computed: false, optional: true, required: false
@@ -287,6 +308,7 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
     return {
       adom: cdktf.stringToTerraform(this._adom),
       config: cdktf.stringToTerraform(this._config),
+      default_config: cdktf.numberToTerraform(this._defaultConfig),
       folder: cdktf.stringToTerraform(this._folder),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
@@ -311,6 +333,12 @@ export class ObjectUserFlexvm extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      default_config: {
+        value: cdktf.numberToHclTerraform(this._defaultConfig),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       folder: {
         value: cdktf.stringToHclTerraform(this._folder),

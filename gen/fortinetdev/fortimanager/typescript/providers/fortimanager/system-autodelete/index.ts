@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface SystemAutodeleteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#id SystemAutodelete#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#id SystemAutodelete#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#status_fake SystemAutodelete#status_fake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#status_fake SystemAutodelete#status_fake}
   */
   readonly statusFake?: number;
   /**
   * dlp_files_auto_deletion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#dlp_files_auto_deletion SystemAutodelete#dlp_files_auto_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#dlp_files_auto_deletion SystemAutodelete#dlp_files_auto_deletion}
   */
   readonly dlpFilesAutoDeletion?: SystemAutodeleteDlpFilesAutoDeletion;
   /**
   * log_auto_deletion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#log_auto_deletion SystemAutodelete#log_auto_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#log_auto_deletion SystemAutodelete#log_auto_deletion}
   */
   readonly logAutoDeletion?: SystemAutodeleteLogAutoDeletion;
   /**
   * quarantine_files_auto_deletion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#quarantine_files_auto_deletion SystemAutodelete#quarantine_files_auto_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#quarantine_files_auto_deletion SystemAutodelete#quarantine_files_auto_deletion}
   */
   readonly quarantineFilesAutoDeletion?: SystemAutodeleteQuarantineFilesAutoDeletion;
   /**
   * report_auto_deletion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#report_auto_deletion SystemAutodelete#report_auto_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#report_auto_deletion SystemAutodelete#report_auto_deletion}
   */
   readonly reportAutoDeletion?: SystemAutodeleteReportAutoDeletion;
 }
 export interface SystemAutodeleteDlpFilesAutoDeletion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
   */
   readonly runat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#status SystemAutodelete#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#status SystemAutodelete#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#value SystemAutodelete#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#value SystemAutodelete#value}
   */
   readonly value?: number;
 }
@@ -228,19 +228,19 @@ export class SystemAutodeleteDlpFilesAutoDeletionOutputReference extends cdktf.C
 }
 export interface SystemAutodeleteLogAutoDeletion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
   */
   readonly runat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#status SystemAutodelete#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#status SystemAutodelete#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#value SystemAutodelete#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#value SystemAutodelete#value}
   */
   readonly value?: number;
 }
@@ -411,19 +411,19 @@ export class SystemAutodeleteLogAutoDeletionOutputReference extends cdktf.Comple
 }
 export interface SystemAutodeleteQuarantineFilesAutoDeletion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
   */
   readonly runat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#status SystemAutodelete#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#status SystemAutodelete#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#value SystemAutodelete#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#value SystemAutodelete#value}
   */
   readonly value?: number;
 }
@@ -594,19 +594,19 @@ export class SystemAutodeleteQuarantineFilesAutoDeletionOutputReference extends 
 }
 export interface SystemAutodeleteReportAutoDeletion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#retention SystemAutodelete#retention}
   */
   readonly retention?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#runat SystemAutodelete#runat}
   */
   readonly runat?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#status SystemAutodelete#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#status SystemAutodelete#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#value SystemAutodelete#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#value SystemAutodelete#value}
   */
   readonly value?: number;
 }
@@ -777,7 +777,7 @@ export class SystemAutodeleteReportAutoDeletionOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete fortimanager_system_autodelete}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete fortimanager_system_autodelete}
 */
 export class SystemAutodelete extends cdktf.TerraformResource {
 
@@ -793,7 +793,7 @@ export class SystemAutodelete extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemAutodelete resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAutodelete to import
-  * @param importFromId The id of the existing SystemAutodelete that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAutodelete that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAutodelete to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -805,7 +805,7 @@ export class SystemAutodelete extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_autodelete fortimanager_system_autodelete} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_autodelete fortimanager_system_autodelete} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -816,8 +816,8 @@ export class SystemAutodelete extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_autodelete',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

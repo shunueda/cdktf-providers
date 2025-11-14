@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFmgFabricAuthorizationTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#adom ObjectFmgFabricAuthorizationTemplate#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#adom ObjectFmgFabricAuthorizationTemplate#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#description ObjectFmgFabricAuthorizationTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#description ObjectFmgFabricAuthorizationTemplate#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#dynamic_sort_subtable ObjectFmgFabricAuthorizationTemplate#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#dynamic_sort_subtable ObjectFmgFabricAuthorizationTemplate#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#extender_controller ObjectFmgFabricAuthorizationTemplate#extender_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#extender_controller ObjectFmgFabricAuthorizationTemplate#extender_controller}
   */
   readonly extenderController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#id ObjectFmgFabricAuthorizationTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#id ObjectFmgFabricAuthorizationTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#name ObjectFmgFabricAuthorizationTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#name ObjectFmgFabricAuthorizationTemplate#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#scopetype ObjectFmgFabricAuthorizationTemplate#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#scopetype ObjectFmgFabricAuthorizationTemplate#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#switch_controller ObjectFmgFabricAuthorizationTemplate#switch_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#switch_controller ObjectFmgFabricAuthorizationTemplate#switch_controller}
   */
   readonly switchController?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#wireless_controller ObjectFmgFabricAuthorizationTemplate#wireless_controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#wireless_controller ObjectFmgFabricAuthorizationTemplate#wireless_controller}
   */
   readonly wirelessController?: string;
   /**
   * platforms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#platforms ObjectFmgFabricAuthorizationTemplate#platforms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#platforms ObjectFmgFabricAuthorizationTemplate#platforms}
   */
   readonly platforms?: ObjectFmgFabricAuthorizationTemplatePlatforms[] | cdktf.IResolvable;
 }
 export interface ObjectFmgFabricAuthorizationTemplatePlatforms {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#count ObjectFmgFabricAuthorizationTemplate#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#count ObjectFmgFabricAuthorizationTemplate#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#extension_type ObjectFmgFabricAuthorizationTemplate#extension_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#extension_type ObjectFmgFabricAuthorizationTemplate#extension_type}
   */
   readonly extensionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#fortilink ObjectFmgFabricAuthorizationTemplate#fortilink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#fortilink ObjectFmgFabricAuthorizationTemplate#fortilink}
   */
   readonly fortilink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#prefix ObjectFmgFabricAuthorizationTemplate#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#prefix ObjectFmgFabricAuthorizationTemplate#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#type ObjectFmgFabricAuthorizationTemplate#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#type ObjectFmgFabricAuthorizationTemplate#type}
   */
   readonly type?: string;
 }
@@ -303,7 +303,7 @@ export class ObjectFmgFabricAuthorizationTemplatePlatformsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template fortimanager_object_fmg_fabric_authorization_template}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template fortimanager_object_fmg_fabric_authorization_template}
 */
 export class ObjectFmgFabricAuthorizationTemplate extends cdktf.TerraformResource {
 
@@ -319,7 +319,7 @@ export class ObjectFmgFabricAuthorizationTemplate extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ObjectFmgFabricAuthorizationTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFmgFabricAuthorizationTemplate to import
-  * @param importFromId The id of the existing ObjectFmgFabricAuthorizationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFmgFabricAuthorizationTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFmgFabricAuthorizationTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class ObjectFmgFabricAuthorizationTemplate extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_fmg_fabric_authorization_template fortimanager_object_fmg_fabric_authorization_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_fmg_fabric_authorization_template fortimanager_object_fmg_fabric_authorization_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class ObjectFmgFabricAuthorizationTemplate extends cdktf.TerraformResourc
       terraformResourceType: 'fortimanager_object_fmg_fabric_authorization_template',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

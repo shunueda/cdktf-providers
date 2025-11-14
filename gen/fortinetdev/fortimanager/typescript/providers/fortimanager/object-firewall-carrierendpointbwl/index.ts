@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallCarrierendpointbwlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#adom ObjectFirewallCarrierendpointbwl#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#adom ObjectFirewallCarrierendpointbwl#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#comment ObjectFirewallCarrierendpointbwl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#comment ObjectFirewallCarrierendpointbwl#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#dynamic_sort_subtable ObjectFirewallCarrierendpointbwl#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#dynamic_sort_subtable ObjectFirewallCarrierendpointbwl#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#fosid ObjectFirewallCarrierendpointbwl#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#fosid ObjectFirewallCarrierendpointbwl#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#id ObjectFirewallCarrierendpointbwl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#id ObjectFirewallCarrierendpointbwl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#name ObjectFirewallCarrierendpointbwl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#name ObjectFirewallCarrierendpointbwl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#scopetype ObjectFirewallCarrierendpointbwl#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#scopetype ObjectFirewallCarrierendpointbwl#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#entries ObjectFirewallCarrierendpointbwl#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#entries ObjectFirewallCarrierendpointbwl#entries}
   */
   readonly entries?: ObjectFirewallCarrierendpointbwlEntries[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallCarrierendpointbwlEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#action ObjectFirewallCarrierendpointbwl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#action ObjectFirewallCarrierendpointbwl#action}
   */
   readonly action?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#carrier_endpoint ObjectFirewallCarrierendpointbwl#carrier_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#carrier_endpoint ObjectFirewallCarrierendpointbwl#carrier_endpoint}
   */
   readonly carrierEndpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#log_action ObjectFirewallCarrierendpointbwl#log_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#log_action ObjectFirewallCarrierendpointbwl#log_action}
   */
   readonly logAction?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#pattern_type ObjectFirewallCarrierendpointbwl#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#pattern_type ObjectFirewallCarrierendpointbwl#pattern_type}
   */
   readonly patternType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#status ObjectFirewallCarrierendpointbwl#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#status ObjectFirewallCarrierendpointbwl#status}
   */
   readonly status?: string;
 }
@@ -295,7 +295,7 @@ export class ObjectFirewallCarrierendpointbwlEntriesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl fortimanager_object_firewall_carrierendpointbwl}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl fortimanager_object_firewall_carrierendpointbwl}
 */
 export class ObjectFirewallCarrierendpointbwl extends cdktf.TerraformResource {
 
@@ -311,7 +311,7 @@ export class ObjectFirewallCarrierendpointbwl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallCarrierendpointbwl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallCarrierendpointbwl to import
-  * @param importFromId The id of the existing ObjectFirewallCarrierendpointbwl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallCarrierendpointbwl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallCarrierendpointbwl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -323,7 +323,7 @@ export class ObjectFirewallCarrierendpointbwl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_carrierendpointbwl fortimanager_object_firewall_carrierendpointbwl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_carrierendpointbwl fortimanager_object_firewall_carrierendpointbwl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -334,8 +334,8 @@ export class ObjectFirewallCarrierendpointbwl extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_carrierendpointbwl',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

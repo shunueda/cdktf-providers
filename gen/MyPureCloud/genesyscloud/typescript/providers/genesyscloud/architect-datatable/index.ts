@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ArchitectDatatableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the architect_datatable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#description ArchitectDatatable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#description ArchitectDatatable#description}
   */
   readonly description?: string;
   /**
   * The division to which this architect_datatable will belong. If not set, the home division will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#division_id ArchitectDatatable#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#division_id ArchitectDatatable#division_id}
   */
   readonly divisionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#id ArchitectDatatable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#id ArchitectDatatable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface ArchitectDatatableConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the architect_datatable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#name ArchitectDatatable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#name ArchitectDatatable#name}
   */
   readonly name: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#properties ArchitectDatatable#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#properties ArchitectDatatable#properties}
   */
   readonly properties: ArchitectDatatableProperties[] | cdktf.IResolvable;
 }
@@ -43,25 +43,25 @@ export interface ArchitectDatatableProperties {
   /**
   * Default value of the property. This is converted to the proper type for non-strings (e.g. set 'true' or 'false' for booleans).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#default ArchitectDatatable#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#default ArchitectDatatable#default}
   */
   readonly default?: string;
   /**
   * Name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#name ArchitectDatatable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#name ArchitectDatatable#name}
   */
   readonly name: string;
   /**
   * Display title of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#title ArchitectDatatable#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#title ArchitectDatatable#title}
   */
   readonly title?: string;
   /**
   * Type of the property (boolean | string | integer | number).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#type ArchitectDatatable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#type ArchitectDatatable#type}
   */
   readonly type: string;
 }
@@ -258,7 +258,7 @@ export class ArchitectDatatablePropertiesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable genesyscloud_architect_datatable}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable genesyscloud_architect_datatable}
 */
 export class ArchitectDatatable extends cdktf.TerraformResource {
 
@@ -274,7 +274,7 @@ export class ArchitectDatatable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectDatatable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectDatatable to import
-  * @param importFromId The id of the existing ArchitectDatatable that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectDatatable that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectDatatable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -286,7 +286,7 @@ export class ArchitectDatatable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_datatable genesyscloud_architect_datatable} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_datatable genesyscloud_architect_datatable} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -297,8 +297,8 @@ export class ArchitectDatatable extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_datatable',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface OutboundContactListContactConfig extends cdktf.TerraformMetaArg
   /**
   * Indicates whether or not the contact can be called. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#callable OutboundContactListContact#callable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#callable OutboundContactListContact#callable}
   */
   readonly callable?: boolean | cdktf.IResolvable;
   /**
   * Clear system data. True means the system columns (attempts, callable status, etc) stored on the contact will be cleared if the contact already exists; false means they won't.
   * Only applicable on the creation of a contact, so updating this field will force the contact to be deleted from the contact list and re-uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#clear_system_data OutboundContactListContact#clear_system_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#clear_system_data OutboundContactListContact#clear_system_data}
   */
   readonly clearSystemData?: boolean | cdktf.IResolvable;
   /**
   * The identifier of the contact list. This is usually a generated guid and not modifiable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#contact_id OutboundContactListContact#contact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#contact_id OutboundContactListContact#contact_id}
   */
   readonly contactId?: string;
   /**
   * The identifier of the contact list containing this contact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#contact_list_id OutboundContactListContact#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#contact_list_id OutboundContactListContact#contact_list_id}
   */
   readonly contactListId: string;
   /**
   * An ordered map of the contact's columns and corresponding values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#data OutboundContactListContact#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#data OutboundContactListContact#data}
   */
   readonly data: { [key: string]: string };
   /**
@@ -43,11 +43,11 @@ export interface OutboundContactListContactConfig extends cdktf.TerraformMetaArg
   * For new contacts, this parameter has no effect; False means that updated contacts will be re-queued, according to the 'priority' parameter.
   * Only applicable on the creation of a contact, so updating this field will force the contact to be deleted from the contact list and re-uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#do_not_queue OutboundContactListContact#do_not_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#do_not_queue OutboundContactListContact#do_not_queue}
   */
   readonly doNotQueue?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#id OutboundContactListContact#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#id OutboundContactListContact#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -57,19 +57,19 @@ export interface OutboundContactListContactConfig extends cdktf.TerraformMetaArg
   * Contact priority. True means the contact(s) will be dialed next; false means the contact will go to the end of the contact queue.
   * Only applicable on the creation of a contact, so updating this field will force the contact to be deleted from the contact list and re-uploaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#priority OutboundContactListContact#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#priority OutboundContactListContact#priority}
   */
   readonly priority?: boolean | cdktf.IResolvable;
   /**
   * contactable_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#contactable_status OutboundContactListContact#contactable_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#contactable_status OutboundContactListContact#contactable_status}
   */
   readonly contactableStatus?: OutboundContactListContactContactableStatus[] | cdktf.IResolvable;
   /**
   * phone_number_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#phone_number_status OutboundContactListContact#phone_number_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#phone_number_status OutboundContactListContact#phone_number_status}
   */
   readonly phoneNumberStatus?: OutboundContactListContactPhoneNumberStatus[] | cdktf.IResolvable;
 }
@@ -77,13 +77,13 @@ export interface OutboundContactListContactContactableStatusColumnStatus {
   /**
   * The key which identifies the contact method column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#column OutboundContactListContact#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#column OutboundContactListContact#column}
   */
   readonly column: string;
   /**
   * Indicates whether or not an individual contact method column is contactable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#contactable OutboundContactListContact#contactable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#contactable OutboundContactListContact#contactable}
   */
   readonly contactable: boolean | cdktf.IResolvable;
 }
@@ -224,19 +224,19 @@ export interface OutboundContactListContactContactableStatus {
   /**
   * Indicates whether or not the entire contact is contactable for the associated media type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#contactable OutboundContactListContact#contactable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#contactable OutboundContactListContact#contactable}
   */
   readonly contactable: boolean | cdktf.IResolvable;
   /**
   * The key which identifies the media type (Voice, SMS and Email).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#media_type OutboundContactListContact#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#media_type OutboundContactListContact#media_type}
   */
   readonly mediaType: string;
   /**
   * column_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#column_status OutboundContactListContact#column_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#column_status OutboundContactListContact#column_status}
   */
   readonly columnStatus?: OutboundContactListContactContactableStatusColumnStatus[] | cdktf.IResolvable;
 }
@@ -406,13 +406,13 @@ export interface OutboundContactListContactPhoneNumberStatus {
   /**
   * Indicates whether or not a phone number is callable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#callable OutboundContactListContact#callable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#callable OutboundContactListContact#callable}
   */
   readonly callable: boolean | cdktf.IResolvable;
   /**
   * Phone number column identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#key OutboundContactListContact#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#key OutboundContactListContact#key}
   */
   readonly key: string;
 }
@@ -551,7 +551,7 @@ export class OutboundContactListContactPhoneNumberStatusList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact genesyscloud_outbound_contact_list_contact}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact genesyscloud_outbound_contact_list_contact}
 */
 export class OutboundContactListContact extends cdktf.TerraformResource {
 
@@ -567,7 +567,7 @@ export class OutboundContactListContact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundContactListContact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundContactListContact to import
-  * @param importFromId The id of the existing OutboundContactListContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundContactListContact that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundContactListContact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -579,7 +579,7 @@ export class OutboundContactListContact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_contact_list_contact genesyscloud_outbound_contact_list_contact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_contact_list_contact genesyscloud_outbound_contact_list_contact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -590,8 +590,8 @@ export class OutboundContactListContact extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_contact_list_contact',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

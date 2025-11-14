@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSwitchcontrollerAclIngressConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#adom ObjectSwitchcontrollerAclIngress#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#adom ObjectSwitchcontrollerAclIngress#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#description ObjectSwitchcontrollerAclIngress#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#description ObjectSwitchcontrollerAclIngress#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#fosid ObjectSwitchcontrollerAclIngress#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#fosid ObjectSwitchcontrollerAclIngress#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#id ObjectSwitchcontrollerAclIngress#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#id ObjectSwitchcontrollerAclIngress#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#scopetype ObjectSwitchcontrollerAclIngress#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#scopetype ObjectSwitchcontrollerAclIngress#scopetype}
   */
   readonly scopetype?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#action ObjectSwitchcontrollerAclIngress#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#action ObjectSwitchcontrollerAclIngress#action}
   */
   readonly action?: ObjectSwitchcontrollerAclIngressAction;
   /**
   * classifier block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#classifier ObjectSwitchcontrollerAclIngress#classifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#classifier ObjectSwitchcontrollerAclIngress#classifier}
   */
   readonly classifier?: ObjectSwitchcontrollerAclIngressClassifier;
 }
 export interface ObjectSwitchcontrollerAclIngressAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#count ObjectSwitchcontrollerAclIngress#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#count ObjectSwitchcontrollerAclIngress#count}
   */
   readonly count?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#drop ObjectSwitchcontrollerAclIngress#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#drop ObjectSwitchcontrollerAclIngress#drop}
   */
   readonly drop?: string;
 }
@@ -162,23 +162,23 @@ export class ObjectSwitchcontrollerAclIngressActionOutputReference extends cdktf
 }
 export interface ObjectSwitchcontrollerAclIngressClassifier {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#dst_ip_prefix ObjectSwitchcontrollerAclIngress#dst_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#dst_ip_prefix ObjectSwitchcontrollerAclIngress#dst_ip_prefix}
   */
   readonly dstIpPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#dst_mac ObjectSwitchcontrollerAclIngress#dst_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#dst_mac ObjectSwitchcontrollerAclIngress#dst_mac}
   */
   readonly dstMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#src_ip_prefix ObjectSwitchcontrollerAclIngress#src_ip_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#src_ip_prefix ObjectSwitchcontrollerAclIngress#src_ip_prefix}
   */
   readonly srcIpPrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#src_mac ObjectSwitchcontrollerAclIngress#src_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#src_mac ObjectSwitchcontrollerAclIngress#src_mac}
   */
   readonly srcMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#vlan ObjectSwitchcontrollerAclIngress#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#vlan ObjectSwitchcontrollerAclIngress#vlan}
   */
   readonly vlan?: number;
 }
@@ -378,7 +378,7 @@ export class ObjectSwitchcontrollerAclIngressClassifierOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress fortimanager_object_switchcontroller_acl_ingress}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress fortimanager_object_switchcontroller_acl_ingress}
 */
 export class ObjectSwitchcontrollerAclIngress extends cdktf.TerraformResource {
 
@@ -394,7 +394,7 @@ export class ObjectSwitchcontrollerAclIngress extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSwitchcontrollerAclIngress resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSwitchcontrollerAclIngress to import
-  * @param importFromId The id of the existing ObjectSwitchcontrollerAclIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSwitchcontrollerAclIngress that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSwitchcontrollerAclIngress to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -406,7 +406,7 @@ export class ObjectSwitchcontrollerAclIngress extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_switchcontroller_acl_ingress fortimanager_object_switchcontroller_acl_ingress} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_switchcontroller_acl_ingress fortimanager_object_switchcontroller_acl_ingress} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -417,8 +417,8 @@ export class ObjectSwitchcontrollerAclIngress extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_switchcontroller_acl_ingress',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

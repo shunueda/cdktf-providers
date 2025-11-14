@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,92 +8,92 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbSaasapplicationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#adom ObjectCasbSaasapplication#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#adom ObjectCasbSaasapplication#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#casb_name ObjectCasbSaasapplication#casb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#casb_name ObjectCasbSaasapplication#casb_name}
   */
   readonly casbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#domains ObjectCasbSaasapplication#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#domains ObjectCasbSaasapplication#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#dynamic_sort_subtable ObjectCasbSaasapplication#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#dynamic_sort_subtable ObjectCasbSaasapplication#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#id ObjectCasbSaasapplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#id ObjectCasbSaasapplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#scopetype ObjectCasbSaasapplication#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#scopetype ObjectCasbSaasapplication#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#status ObjectCasbSaasapplication#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#status ObjectCasbSaasapplication#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#uuid ObjectCasbSaasapplication#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#uuid ObjectCasbSaasapplication#uuid}
   */
   readonly uuid?: string;
   /**
   * input_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#input_attributes ObjectCasbSaasapplication#input_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#input_attributes ObjectCasbSaasapplication#input_attributes}
   */
   readonly inputAttributes?: ObjectCasbSaasapplicationInputAttributes[] | cdktf.IResolvable;
   /**
   * output_attributes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#output_attributes ObjectCasbSaasapplication#output_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#output_attributes ObjectCasbSaasapplication#output_attributes}
   */
   readonly outputAttributes?: ObjectCasbSaasapplicationOutputAttributes[] | cdktf.IResolvable;
 }
 export interface ObjectCasbSaasapplicationInputAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#attr_type ObjectCasbSaasapplication#attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#attr_type ObjectCasbSaasapplication#attr_type}
   */
   readonly attrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#default ObjectCasbSaasapplication#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#default ObjectCasbSaasapplication#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#fallback_input ObjectCasbSaasapplication#fallback_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#fallback_input ObjectCasbSaasapplication#fallback_input}
   */
   readonly fallbackInput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#required ObjectCasbSaasapplication#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#required ObjectCasbSaasapplication#required}
   */
   readonly required?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
   */
   readonly type?: string;
 }
@@ -383,23 +383,27 @@ export class ObjectCasbSaasapplicationInputAttributesList extends cdktf.ComplexL
 }
 export interface ObjectCasbSaasapplicationOutputAttributes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#attr_type ObjectCasbSaasapplication#attr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#attr_type ObjectCasbSaasapplication#attr_type}
   */
   readonly attrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#description ObjectCasbSaasapplication#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#name ObjectCasbSaasapplication#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#required ObjectCasbSaasapplication#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#optional ObjectCasbSaasapplication#optional}
+  */
+  readonly optional?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#required ObjectCasbSaasapplication#required}
   */
   readonly required?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#type ObjectCasbSaasapplication#type}
   */
   readonly type?: string;
 }
@@ -413,6 +417,7 @@ export function objectCasbSaasapplicationOutputAttributesToTerraform(struct?: Ob
     attr_type: cdktf.stringToTerraform(struct!.attrType),
     description: cdktf.stringToTerraform(struct!.description),
     name: cdktf.stringToTerraform(struct!.name),
+    optional: cdktf.stringToTerraform(struct!.optional),
     required: cdktf.stringToTerraform(struct!.required),
     type: cdktf.stringToTerraform(struct!.type),
   }
@@ -439,6 +444,12 @@ export function objectCasbSaasapplicationOutputAttributesToHclTerraform(struct?:
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    optional: {
+      value: cdktf.stringToHclTerraform(struct!.optional),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -493,6 +504,10 @@ export class ObjectCasbSaasapplicationOutputAttributesOutputReference extends cd
       hasAnyValues = true;
       internalValueResult.name = this._name;
     }
+    if (this._optional !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.optional = this._optional;
+    }
     if (this._required !== undefined) {
       hasAnyValues = true;
       internalValueResult.required = this._required;
@@ -511,6 +526,7 @@ export class ObjectCasbSaasapplicationOutputAttributesOutputReference extends cd
       this._attrType = undefined;
       this._description = undefined;
       this._name = undefined;
+      this._optional = undefined;
       this._required = undefined;
       this._type = undefined;
     }
@@ -524,6 +540,7 @@ export class ObjectCasbSaasapplicationOutputAttributesOutputReference extends cd
       this._attrType = value.attrType;
       this._description = value.description;
       this._name = value.name;
+      this._optional = value.optional;
       this._required = value.required;
       this._type = value.type;
     }
@@ -575,6 +592,22 @@ export class ObjectCasbSaasapplicationOutputAttributesOutputReference extends cd
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
+  }
+
+  // optional - computed: false, optional: true, required: false
+  private _optional?: string; 
+  public get optional() {
+    return this.getStringAttribute('optional');
+  }
+  public set optional(value: string) {
+    this._optional = value;
+  }
+  public resetOptional() {
+    this._optional = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get optionalInput() {
+    return this._optional;
   }
 
   // required - computed: true, optional: true, required: false
@@ -631,7 +664,7 @@ export class ObjectCasbSaasapplicationOutputAttributesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication fortimanager_object_casb_saasapplication}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication fortimanager_object_casb_saasapplication}
 */
 export class ObjectCasbSaasapplication extends cdktf.TerraformResource {
 
@@ -647,7 +680,7 @@ export class ObjectCasbSaasapplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCasbSaasapplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbSaasapplication to import
-  * @param importFromId The id of the existing ObjectCasbSaasapplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbSaasapplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbSaasapplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -659,7 +692,7 @@ export class ObjectCasbSaasapplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_saasapplication fortimanager_object_casb_saasapplication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_saasapplication fortimanager_object_casb_saasapplication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -670,8 +703,8 @@ export class ObjectCasbSaasapplication extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_casb_saasapplication',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

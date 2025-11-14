@@ -1,3 +1,3 @@
 # `files_lock`
 
-Refer to the Terraform Registry for docs: [`files_lock`](https://registry.terraform.io/providers/files-com/files/0.1.377/docs/resources/lock).
+Refer to the Terraform Registry for docs: [`files_lock`](https://registry.terraform.io/providers/files-com/files/0.1.379/docs/resources/lock).

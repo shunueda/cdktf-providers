@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallVip6RealserversAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#adom ObjectFirewallVip6RealserversA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#adom ObjectFirewallVip6RealserversA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#client_ip ObjectFirewallVip6RealserversA#client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#client_ip ObjectFirewallVip6RealserversA#client_ip}
   */
   readonly clientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#fosid ObjectFirewallVip6RealserversA#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#fosid ObjectFirewallVip6RealserversA#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#healthcheck ObjectFirewallVip6RealserversA#healthcheck}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#healthcheck ObjectFirewallVip6RealserversA#healthcheck}
   */
   readonly healthcheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#holddown_interval ObjectFirewallVip6RealserversA#holddown_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#holddown_interval ObjectFirewallVip6RealserversA#holddown_interval}
   */
   readonly holddownInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#http_host ObjectFirewallVip6RealserversA#http_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#http_host ObjectFirewallVip6RealserversA#http_host}
   */
   readonly httpHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#id ObjectFirewallVip6RealserversA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#id ObjectFirewallVip6RealserversA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#ip ObjectFirewallVip6RealserversA#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#ip ObjectFirewallVip6RealserversA#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#max_connections ObjectFirewallVip6RealserversA#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#max_connections ObjectFirewallVip6RealserversA#max_connections}
   */
   readonly maxConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#monitor ObjectFirewallVip6RealserversA#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#monitor ObjectFirewallVip6RealserversA#monitor}
   */
   readonly monitor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#port ObjectFirewallVip6RealserversA#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#port ObjectFirewallVip6RealserversA#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#scopetype ObjectFirewallVip6RealserversA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#scopetype ObjectFirewallVip6RealserversA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#status ObjectFirewallVip6RealserversA#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#status ObjectFirewallVip6RealserversA#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#translate_host ObjectFirewallVip6RealserversA#translate_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#translate_host ObjectFirewallVip6RealserversA#translate_host}
   */
   readonly translateHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#vip6 ObjectFirewallVip6RealserversA#vip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#verify_cert ObjectFirewallVip6RealserversA#verify_cert}
+  */
+  readonly verifyCert?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#vip6 ObjectFirewallVip6RealserversA#vip6}
   */
   readonly vip6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#weight ObjectFirewallVip6RealserversA#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#weight ObjectFirewallVip6RealserversA#weight}
   */
   readonly weight?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers fortimanager_object_firewall_vip6_realservers}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers fortimanager_object_firewall_vip6_realservers}
 */
 export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
 
@@ -93,7 +97,7 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallVip6RealserversA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallVip6RealserversA to import
-  * @param importFromId The id of the existing ObjectFirewallVip6RealserversA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallVip6RealserversA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallVip6RealserversA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +109,7 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_vip6_realservers fortimanager_object_firewall_vip6_realservers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_vip6_realservers fortimanager_object_firewall_vip6_realservers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +120,8 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_vip6_realservers',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -141,6 +145,7 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
     this._scopetype = config.scopetype;
     this._status = config.status;
     this._translateHost = config.translateHost;
+    this._verifyCert = config.verifyCert;
     this._vip6 = config.vip6;
     this._weight = config.weight;
   }
@@ -373,6 +378,22 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
     return this._translateHost;
   }
 
+  // verify_cert - computed: false, optional: true, required: false
+  private _verifyCert?: string; 
+  public get verifyCert() {
+    return this.getStringAttribute('verify_cert');
+  }
+  public set verifyCert(value: string) {
+    this._verifyCert = value;
+  }
+  public resetVerifyCert() {
+    this._verifyCert = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get verifyCertInput() {
+    return this._verifyCert;
+  }
+
   // vip6 - computed: false, optional: false, required: true
   private _vip6?: string; 
   public get vip6() {
@@ -422,6 +443,7 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
       scopetype: cdktf.stringToTerraform(this._scopetype),
       status: cdktf.stringToTerraform(this._status),
       translate_host: cdktf.stringToTerraform(this._translateHost),
+      verify_cert: cdktf.stringToTerraform(this._verifyCert),
       vip6: cdktf.stringToTerraform(this._vip6),
       weight: cdktf.numberToTerraform(this._weight),
     };
@@ -509,6 +531,12 @@ export class ObjectFirewallVip6RealserversA extends cdktf.TerraformResource {
       },
       translate_host: {
         value: cdktf.stringToHclTerraform(this._translateHost),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      verify_cert: {
+        value: cdktf.stringToHclTerraform(this._verifyCert),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

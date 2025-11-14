@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateFdssettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#fds_clt_ssl_protocol FmupdateFdssetting#fds_clt_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#fds_clt_ssl_protocol FmupdateFdssetting#fds_clt_ssl_protocol}
   */
   readonly fdsCltSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#fds_ssl_protocol FmupdateFdssetting#fds_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#fds_ssl_protocol FmupdateFdssetting#fds_ssl_protocol}
   */
   readonly fdsSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#fmtr_log FmupdateFdssetting#fmtr_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#fmtr_log FmupdateFdssetting#fmtr_log}
   */
   readonly fmtrLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#fortiguard_anycast FmupdateFdssetting#fortiguard_anycast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#fortiguard_anycast FmupdateFdssetting#fortiguard_anycast}
   */
   readonly fortiguardAnycast?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#fortiguard_anycast_source FmupdateFdssetting#fortiguard_anycast_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#fortiguard_anycast_source FmupdateFdssetting#fortiguard_anycast_source}
   */
   readonly fortiguardAnycastSource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#linkd_log FmupdateFdssetting#linkd_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#linkd_log FmupdateFdssetting#linkd_log}
   */
   readonly linkdLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#max_av_ips_version FmupdateFdssetting#max_av_ips_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#max_av_ips_version FmupdateFdssetting#max_av_ips_version}
   */
   readonly maxAvIpsVersion?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#max_work FmupdateFdssetting#max_work}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#max_work FmupdateFdssetting#max_work}
   */
   readonly maxWork?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#send_report FmupdateFdssetting#send_report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#send_report FmupdateFdssetting#send_report}
   */
   readonly sendReport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#send_setup FmupdateFdssetting#send_setup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#send_setup FmupdateFdssetting#send_setup}
   */
   readonly sendSetup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fai FmupdateFdssetting#system_support_fai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fai FmupdateFdssetting#system_support_fai}
   */
   readonly systemSupportFai?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_faz FmupdateFdssetting#system_support_faz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_faz FmupdateFdssetting#system_support_faz}
   */
   readonly systemSupportFaz?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fct FmupdateFdssetting#system_support_fct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fct FmupdateFdssetting#system_support_fct}
   */
   readonly systemSupportFct?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fdc FmupdateFdssetting#system_support_fdc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fdc FmupdateFdssetting#system_support_fdc}
   */
   readonly systemSupportFdc?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fgt FmupdateFdssetting#system_support_fgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fgt FmupdateFdssetting#system_support_fgt}
   */
   readonly systemSupportFgt?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fis FmupdateFdssetting#system_support_fis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fis FmupdateFdssetting#system_support_fis}
   */
   readonly systemSupportFis?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fml FmupdateFdssetting#system_support_fml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fml FmupdateFdssetting#system_support_fml}
   */
   readonly systemSupportFml?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fsa FmupdateFdssetting#system_support_fsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fsa FmupdateFdssetting#system_support_fsa}
   */
   readonly systemSupportFsa?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fsw FmupdateFdssetting#system_support_fsw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fsw FmupdateFdssetting#system_support_fsw}
   */
   readonly systemSupportFsw?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#system_support_fts FmupdateFdssetting#system_support_fts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#system_support_fts FmupdateFdssetting#system_support_fts}
   */
   readonly systemSupportFts?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#umsvc_log FmupdateFdssetting#umsvc_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#umsvc_log FmupdateFdssetting#umsvc_log}
   */
   readonly umsvcLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#unreg_dev_option FmupdateFdssetting#unreg_dev_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#unreg_dev_option FmupdateFdssetting#unreg_dev_option}
   */
   readonly unregDevOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#user_agent FmupdateFdssetting#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#user_agent FmupdateFdssetting#user_agent}
   */
   readonly userAgent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#wanip_query_mode FmupdateFdssetting#wanip_query_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#wanip_query_mode FmupdateFdssetting#wanip_query_mode}
   */
   readonly wanipQueryMode?: string;
   /**
   * push_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#push_override FmupdateFdssetting#push_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#push_override FmupdateFdssetting#push_override}
   */
   readonly pushOverride?: FmupdateFdssettingPushOverride;
   /**
   * push_override_to_client block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#push_override_to_client FmupdateFdssetting#push_override_to_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#push_override_to_client FmupdateFdssetting#push_override_to_client}
   */
   readonly pushOverrideToClient?: FmupdateFdssettingPushOverrideToClient;
   /**
   * server_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#server_override FmupdateFdssetting#server_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#server_override FmupdateFdssetting#server_override}
   */
   readonly serverOverride?: FmupdateFdssettingServerOverride;
   /**
   * update_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#update_schedule FmupdateFdssetting#update_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#update_schedule FmupdateFdssetting#update_schedule}
   */
   readonly updateSchedule?: FmupdateFdssettingUpdateSchedule;
 }
 export interface FmupdateFdssettingPushOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
   */
   readonly status?: string;
 }
@@ -287,18 +287,18 @@ export class FmupdateFdssettingPushOverrideOutputReference extends cdktf.Complex
 }
 export interface FmupdateFdssettingPushOverrideToClientAnnounceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
   */
   readonly port?: number;
 }
@@ -472,13 +472,13 @@ export class FmupdateFdssettingPushOverrideToClientAnnounceIpList extends cdktf.
 }
 export interface FmupdateFdssettingPushOverrideToClient {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
   */
   readonly status?: string;
   /**
   * announce_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#announce_ip FmupdateFdssetting#announce_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#announce_ip FmupdateFdssetting#announce_ip}
   */
   readonly announceIp?: FmupdateFdssettingPushOverrideToClientAnnounceIp[] | cdktf.IResolvable;
 }
@@ -591,26 +591,26 @@ export class FmupdateFdssettingPushOverrideToClientOutputReference extends cdktf
 }
 export interface FmupdateFdssettingServerOverrideServlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#id FmupdateFdssetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#ip FmupdateFdssetting#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#ip6 FmupdateFdssetting#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#ip6 FmupdateFdssetting#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#port FmupdateFdssetting#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#service_type FmupdateFdssetting#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#service_type FmupdateFdssetting#service_type}
   */
   readonly serviceType?: string;
 }
@@ -842,13 +842,13 @@ export class FmupdateFdssettingServerOverrideServlistStructList extends cdktf.Co
 }
 export interface FmupdateFdssettingServerOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
   */
   readonly status?: string;
   /**
   * servlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#servlist FmupdateFdssetting#servlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#servlist FmupdateFdssetting#servlist}
   */
   readonly servlist?: FmupdateFdssettingServerOverrideServlistStruct[] | cdktf.IResolvable;
 }
@@ -961,19 +961,19 @@ export class FmupdateFdssettingServerOverrideOutputReference extends cdktf.Compl
 }
 export interface FmupdateFdssettingUpdateSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#day FmupdateFdssetting#day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#day FmupdateFdssetting#day}
   */
   readonly day?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#frequency FmupdateFdssetting#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#frequency FmupdateFdssetting#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#status FmupdateFdssetting#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#time FmupdateFdssetting#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#time FmupdateFdssetting#time}
   */
   readonly time?: string[];
 }
@@ -1144,7 +1144,7 @@ export class FmupdateFdssettingUpdateScheduleOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting fortimanager_fmupdate_fdssetting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting fortimanager_fmupdate_fdssetting}
 */
 export class FmupdateFdssetting extends cdktf.TerraformResource {
 
@@ -1160,7 +1160,7 @@ export class FmupdateFdssetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FmupdateFdssetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateFdssetting to import
-  * @param importFromId The id of the existing FmupdateFdssetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateFdssetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateFdssetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1172,7 +1172,7 @@ export class FmupdateFdssetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/fmupdate_fdssetting fortimanager_fmupdate_fdssetting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/fmupdate_fdssetting fortimanager_fmupdate_fdssetting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1183,8 +1183,8 @@ export class FmupdateFdssetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_fmupdate_fdssetting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,140 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserLocalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#adom ObjectUserLocal#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#adom ObjectUserLocal#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#auth_concurrent_override ObjectUserLocal#auth_concurrent_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#auth_concurrent_override ObjectUserLocal#auth_concurrent_override}
   */
   readonly authConcurrentOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#auth_concurrent_value ObjectUserLocal#auth_concurrent_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#auth_concurrent_value ObjectUserLocal#auth_concurrent_value}
   */
   readonly authConcurrentValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#authtimeout ObjectUserLocal#authtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#authtimeout ObjectUserLocal#authtimeout}
   */
   readonly authtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#email_to ObjectUserLocal#email_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#email_to ObjectUserLocal#email_to}
   */
   readonly emailTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#fortitoken ObjectUserLocal#fortitoken}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#fortitoken ObjectUserLocal#fortitoken}
   */
   readonly fortitoken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#fosid ObjectUserLocal#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#fosid ObjectUserLocal#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#history0 ObjectUserLocal#history0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#history0 ObjectUserLocal#history0}
   */
   readonly history0?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#history1 ObjectUserLocal#history1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#history1 ObjectUserLocal#history1}
   */
   readonly history1?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#id ObjectUserLocal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#id ObjectUserLocal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#ldap_server ObjectUserLocal#ldap_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#ldap_server ObjectUserLocal#ldap_server}
   */
   readonly ldapServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#name ObjectUserLocal#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#name ObjectUserLocal#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#passwd ObjectUserLocal#passwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#passwd ObjectUserLocal#passwd}
   */
   readonly passwd?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#passwd_policy ObjectUserLocal#passwd_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#passwd_policy ObjectUserLocal#passwd_policy}
   */
   readonly passwdPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#ppk_identity ObjectUserLocal#ppk_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#ppk_identity ObjectUserLocal#ppk_identity}
   */
   readonly ppkIdentity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#ppk_secret ObjectUserLocal#ppk_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#ppk_secret ObjectUserLocal#ppk_secret}
   */
   readonly ppkSecret?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#qkd_profile ObjectUserLocal#qkd_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#qkd_profile ObjectUserLocal#qkd_profile}
   */
   readonly qkdProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#radius_server ObjectUserLocal#radius_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#radius_server ObjectUserLocal#radius_server}
   */
   readonly radiusServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#scopetype ObjectUserLocal#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#saml_server ObjectUserLocal#saml_server}
+  */
+  readonly samlServer?: string[];
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#scopetype ObjectUserLocal#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#sms_custom_server ObjectUserLocal#sms_custom_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#sms_custom_server ObjectUserLocal#sms_custom_server}
   */
   readonly smsCustomServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#sms_phone ObjectUserLocal#sms_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#sms_phone ObjectUserLocal#sms_phone}
   */
   readonly smsPhone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#sms_server ObjectUserLocal#sms_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#sms_server ObjectUserLocal#sms_server}
   */
   readonly smsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#status ObjectUserLocal#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#status ObjectUserLocal#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#tacacs_server ObjectUserLocal#tacacs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#tacacs_server ObjectUserLocal#tacacs_server}
   */
   readonly tacacsServer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#two_factor ObjectUserLocal#two_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#two_factor ObjectUserLocal#two_factor}
   */
   readonly twoFactor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#two_factor_authentication ObjectUserLocal#two_factor_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#two_factor_authentication ObjectUserLocal#two_factor_authentication}
   */
   readonly twoFactorAuthentication?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#two_factor_notification ObjectUserLocal#two_factor_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#two_factor_notification ObjectUserLocal#two_factor_notification}
   */
   readonly twoFactorNotification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#type ObjectUserLocal#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#type ObjectUserLocal#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#username_case_insensitivity ObjectUserLocal#username_case_insensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#username_case_insensitivity ObjectUserLocal#username_case_insensitivity}
   */
   readonly usernameCaseInsensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#username_case_sensitivity ObjectUserLocal#username_case_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#username_case_sensitivity ObjectUserLocal#username_case_sensitivity}
   */
   readonly usernameCaseSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#username_sensitivity ObjectUserLocal#username_sensitivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#username_sensitivity ObjectUserLocal#username_sensitivity}
   */
   readonly usernameSensitivity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#workstation ObjectUserLocal#workstation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#workstation ObjectUserLocal#workstation}
   */
   readonly workstation?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local fortimanager_object_user_local}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local fortimanager_object_user_local}
 */
 export class ObjectUserLocal extends cdktf.TerraformResource {
 
@@ -157,7 +161,7 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserLocal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserLocal to import
-  * @param importFromId The id of the existing ObjectUserLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserLocal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserLocal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +173,7 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_local fortimanager_object_user_local} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_local fortimanager_object_user_local} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +184,8 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_local',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -209,6 +213,7 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
     this._ppkSecret = config.ppkSecret;
     this._qkdProfile = config.qkdProfile;
     this._radiusServer = config.radiusServer;
+    this._samlServer = config.samlServer;
     this._scopetype = config.scopetype;
     this._smsCustomServer = config.smsCustomServer;
     this._smsPhone = config.smsPhone;
@@ -517,6 +522,22 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
     return this._radiusServer;
   }
 
+  // saml_server - computed: true, optional: true, required: false
+  private _samlServer?: string[]; 
+  public get samlServer() {
+    return cdktf.Fn.tolist(this.getListAttribute('saml_server'));
+  }
+  public set samlServer(value: string[]) {
+    this._samlServer = value;
+  }
+  public resetSamlServer() {
+    this._samlServer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get samlServerInput() {
+    return this._samlServer;
+  }
+
   // scopetype - computed: false, optional: true, required: false
   private _scopetype?: string; 
   public get scopetype() {
@@ -765,6 +786,7 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
       ppk_secret: cdktf.listMapper(cdktf.stringToTerraform, false)(this._ppkSecret),
       qkd_profile: cdktf.stringToTerraform(this._qkdProfile),
       radius_server: cdktf.stringToTerraform(this._radiusServer),
+      saml_server: cdktf.listMapper(cdktf.stringToTerraform, false)(this._samlServer),
       scopetype: cdktf.stringToTerraform(this._scopetype),
       sms_custom_server: cdktf.stringToTerraform(this._smsCustomServer),
       sms_phone: cdktf.stringToTerraform(this._smsPhone),
@@ -891,6 +913,12 @@ export class ObjectUserLocal extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      saml_server: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._samlServer),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
       },
       scopetype: {
         value: cdktf.stringToHclTerraform(this._scopetype),

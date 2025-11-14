@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface OutboundCampaignConfig extends cdktf.TerraformMetaArguments {
   /**
   * The targeted abandon rate percentage. Required for progressive, power, and predictive campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#abandon_rate OutboundCampaign#abandon_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#abandon_rate OutboundCampaign#abandon_rate}
   */
   readonly abandonRate?: number;
   /**
   * Indicates (when true) that the campaign will remain on after contacts are depleted, allowing additional contacts to be appended/added to the contact list and processed by the still-running campaign. The campaign can still be turned off manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#always_running OutboundCampaign#always_running}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#always_running OutboundCampaign#always_running}
   */
   readonly alwaysRunning?: boolean | cdktf.IResolvable;
   /**
   * The option manages the auto-answer callback calls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#auto_answer OutboundCampaign#auto_answer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#auto_answer OutboundCampaign#auto_answer}
   */
   readonly autoAnswer?: boolean | cdktf.IResolvable;
   /**
   * The language the edge will use to analyze the call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#call_analysis_language OutboundCampaign#call_analysis_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#call_analysis_language OutboundCampaign#call_analysis_language}
   */
   readonly callAnalysisLanguage?: string;
   /**
   * The call analysis response set to handle call analysis results from the edge. Required for all dialing modes except preview.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#call_analysis_response_set_id OutboundCampaign#call_analysis_response_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#call_analysis_response_set_id OutboundCampaign#call_analysis_response_set_id}
   */
   readonly callAnalysisResponseSetId?: string;
   /**
   * The callable time set for this campaign to check before placing a call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#callable_time_set_id OutboundCampaign#callable_time_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#callable_time_set_id OutboundCampaign#callable_time_set_id}
   */
   readonly callableTimeSetId?: string;
   /**
   * The caller id phone number to be displayed on the outbound call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#caller_address OutboundCampaign#caller_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#caller_address OutboundCampaign#caller_address}
   */
   readonly callerAddress?: string;
   /**
   * The caller id name to be displayed on the outbound call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#caller_name OutboundCampaign#caller_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#caller_name OutboundCampaign#caller_name}
   */
   readonly callerName?: string;
   /**
   * The current status of the Campaign. A Campaign may be turned 'on' or 'off' (default). If this value is changed alongside other changes to the resource, a subsequent update will occur immediately afterwards to set the campaign status. This is due to behavioral requirements in the Genesys Cloud API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#campaign_status OutboundCampaign#campaign_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#campaign_status OutboundCampaign#campaign_status}
   */
   readonly campaignStatus?: string;
   /**
   * Filter to apply to the contact list before dialing. Currently a campaign can only have one filter applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#contact_list_filter_ids OutboundCampaign#contact_list_filter_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#contact_list_filter_ids OutboundCampaign#contact_list_filter_ids}
   */
   readonly contactListFilterIds?: string[];
   /**
   * The ContactList for this Campaign to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#contact_list_id OutboundCampaign#contact_list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#contact_list_id OutboundCampaign#contact_list_id}
   */
   readonly contactListId: string;
   /**
   * The strategy this Campaign will use for dialing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#dialing_mode OutboundCampaign#dialing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#dialing_mode OutboundCampaign#dialing_mode}
   */
   readonly dialingMode: string;
   /**
   * The division this campaign belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#division_id OutboundCampaign#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#division_id OutboundCampaign#division_id}
   */
   readonly divisionId?: string;
   /**
   * DncLists for this Campaign to check before placing a call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#dnc_list_ids OutboundCampaign#dnc_list_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#dnc_list_ids OutboundCampaign#dnc_list_ids}
   */
   readonly dncListIds?: string[];
   /**
   * The EdgeGroup that will place the calls. Required for all dialing modes except preview.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#edge_group_id OutboundCampaign#edge_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#edge_group_id OutboundCampaign#edge_group_id}
   */
   readonly edgeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#id OutboundCampaign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#id OutboundCampaign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,97 +107,97 @@ export interface OutboundCampaignConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum number of calls that can be placed per agent on this campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#max_calls_per_agent OutboundCampaign#max_calls_per_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#max_calls_per_agent OutboundCampaign#max_calls_per_agent}
   */
   readonly maxCallsPerAgent?: number;
   /**
   * The name of the Campaign.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#name OutboundCampaign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#name OutboundCampaign#name}
   */
   readonly name: string;
   /**
   * How long to wait before dispositioning a call as 'no-answer'. Default 30 seconds. Only applicable to non-preview campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#no_answer_timeout OutboundCampaign#no_answer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#no_answer_timeout OutboundCampaign#no_answer_timeout}
   */
   readonly noAnswerTimeout?: number;
   /**
   * The number of outbound lines to be concurrently dialed. Only applicable to non-preview campaigns; only required for agentless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#outbound_line_count OutboundCampaign#outbound_line_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#outbound_line_count OutboundCampaign#outbound_line_count}
   */
   readonly outboundLineCount?: number;
   /**
   * The number of seconds before a call will be automatically placed on a preview. A value of 0 indicates no automatic placement of calls. Only applicable to preview campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#preview_time_out_seconds OutboundCampaign#preview_time_out_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#preview_time_out_seconds OutboundCampaign#preview_time_out_seconds}
   */
   readonly previewTimeOutSeconds?: number;
   /**
   * The priority of this campaign relative to other campaigns that are running on the same queue. 5 is the highest priority, 1 the lowest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#priority OutboundCampaign#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#priority OutboundCampaign#priority}
   */
   readonly priority?: number;
   /**
   * The Queue for this Campaign to route calls to. Required for all dialing modes except agentless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#queue_id OutboundCampaign#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#queue_id OutboundCampaign#queue_id}
   */
   readonly queueId?: string;
   /**
   * Rule sets to be applied while this campaign is dialing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#rule_set_ids OutboundCampaign#rule_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#rule_set_ids OutboundCampaign#rule_set_ids}
   */
   readonly ruleSetIds?: string[];
   /**
   * The Script to be displayed to agents that are handling outbound calls. Required for all dialing modes except agentless.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#script_id OutboundCampaign#script_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#script_id OutboundCampaign#script_id}
   */
   readonly scriptId?: string;
   /**
   * The identifier of the site to be used for dialing; can be set in place of an edge group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#site_id OutboundCampaign#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#site_id OutboundCampaign#site_id}
   */
   readonly siteId?: string;
   /**
   * The skill columns on the ContactList that this Campaign should take into account when dialing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#skill_columns OutboundCampaign#skill_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#skill_columns OutboundCampaign#skill_columns}
   */
   readonly skillColumns?: string[];
   /**
   * Whether or not agents can skip previews without placing a call. Only applicable for preview campaigns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#skip_preview_disabled OutboundCampaign#skip_preview_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#skip_preview_disabled OutboundCampaign#skip_preview_disabled}
   */
   readonly skipPreviewDisabled?: boolean | cdktf.IResolvable;
   /**
   * contact_sorts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#contact_sorts OutboundCampaign#contact_sorts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#contact_sorts OutboundCampaign#contact_sorts}
   */
   readonly contactSorts?: OutboundCampaignContactSorts[] | cdktf.IResolvable;
   /**
   * dynamic_contact_queueing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#dynamic_contact_queueing_settings OutboundCampaign#dynamic_contact_queueing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#dynamic_contact_queueing_settings OutboundCampaign#dynamic_contact_queueing_settings}
   */
   readonly dynamicContactQueueingSettings?: OutboundCampaignDynamicContactQueueingSettings;
   /**
   * dynamic_line_balancing_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#dynamic_line_balancing_settings OutboundCampaign#dynamic_line_balancing_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#dynamic_line_balancing_settings OutboundCampaign#dynamic_line_balancing_settings}
   */
   readonly dynamicLineBalancingSettings?: OutboundCampaignDynamicLineBalancingSettings;
   /**
   * phone_columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#phone_columns OutboundCampaign#phone_columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#phone_columns OutboundCampaign#phone_columns}
   */
   readonly phoneColumns: OutboundCampaignPhoneColumns[] | cdktf.IResolvable;
 }
@@ -205,19 +205,19 @@ export interface OutboundCampaignContactSorts {
   /**
   * The direction in which to sort contacts. Defaults to `ASC`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#direction OutboundCampaign#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#direction OutboundCampaign#direction}
   */
   readonly direction?: string;
   /**
   * The field name by which to sort contacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#field_name OutboundCampaign#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#field_name OutboundCampaign#field_name}
   */
   readonly fieldName: string;
   /**
   * Whether or not the column contains numeric data. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#numeric OutboundCampaign#numeric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#numeric OutboundCampaign#numeric}
   */
   readonly numeric?: boolean | cdktf.IResolvable;
 }
@@ -390,13 +390,13 @@ export interface OutboundCampaignDynamicContactQueueingSettings {
   /**
   * Whether to filter contacts dynamically. Note: Changing the filter value will cause the outbound campaign to be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#filter OutboundCampaign#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#filter OutboundCampaign#filter}
   */
   readonly filter?: boolean | cdktf.IResolvable;
   /**
   * Whether to sort contacts dynamically. Note: Changing the sort value will cause the outbound campaign to be dropped and recreated with a new ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#sort OutboundCampaign#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#sort OutboundCampaign#sort}
   */
   readonly sort?: boolean | cdktf.IResolvable;
 }
@@ -511,13 +511,13 @@ export interface OutboundCampaignDynamicLineBalancingSettings {
   /**
   * Indicates that this campaign is subject of dynamic line balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#enabled OutboundCampaign#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#enabled OutboundCampaign#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Relative weight of this campaign in dynamic line balancing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#relative_weight OutboundCampaign#relative_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#relative_weight OutboundCampaign#relative_weight}
   */
   readonly relativeWeight?: number;
 }
@@ -632,7 +632,7 @@ export interface OutboundCampaignPhoneColumns {
   /**
   * The name of the phone column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#column_name OutboundCampaign#column_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#column_name OutboundCampaign#column_name}
   */
   readonly columnName: string;
 }
@@ -745,7 +745,7 @@ export class OutboundCampaignPhoneColumnsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign genesyscloud_outbound_campaign}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign genesyscloud_outbound_campaign}
 */
 export class OutboundCampaign extends cdktf.TerraformResource {
 
@@ -761,7 +761,7 @@ export class OutboundCampaign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OutboundCampaign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OutboundCampaign to import
-  * @param importFromId The id of the existing OutboundCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OutboundCampaign that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OutboundCampaign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -773,7 +773,7 @@ export class OutboundCampaign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/outbound_campaign genesyscloud_outbound_campaign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/outbound_campaign genesyscloud_outbound_campaign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -784,8 +784,8 @@ export class OutboundCampaign extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_outbound_campaign',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

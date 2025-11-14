@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface SystempSystemReplacemsgDevicedetectionportalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#adom SystempSystemReplacemsgDevicedetectionportal#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#adom SystempSystemReplacemsgDevicedetectionportal#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#buffer SystempSystemReplacemsgDevicedetectionportal#buffer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#buffer SystempSystemReplacemsgDevicedetectionportal#buffer}
   */
   readonly buffer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#devprof SystempSystemReplacemsgDevicedetectionportal#devprof}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#devprof SystempSystemReplacemsgDevicedetectionportal#devprof}
   */
   readonly devprof: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#format SystempSystemReplacemsgDevicedetectionportal#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#format SystempSystemReplacemsgDevicedetectionportal#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#header SystempSystemReplacemsgDevicedetectionportal#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#header SystempSystemReplacemsgDevicedetectionportal#header}
   */
   readonly header?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#id SystempSystemReplacemsgDevicedetectionportal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#id SystempSystemReplacemsgDevicedetectionportal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#msg_type SystempSystemReplacemsgDevicedetectionportal#msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#msg_type SystempSystemReplacemsgDevicedetectionportal#msg_type}
   */
   readonly msgType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#scopetype SystempSystemReplacemsgDevicedetectionportal#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#scopetype SystempSystemReplacemsgDevicedetectionportal#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal fortimanager_systemp_system_replacemsg_devicedetectionportal}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal fortimanager_systemp_system_replacemsg_devicedetectionportal}
 */
 export class SystempSystemReplacemsgDevicedetectionportal extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class SystempSystemReplacemsgDevicedetectionportal extends cdktf.Terrafor
   * Generates CDKTF code for importing a SystempSystemReplacemsgDevicedetectionportal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystempSystemReplacemsgDevicedetectionportal to import
-  * @param importFromId The id of the existing SystempSystemReplacemsgDevicedetectionportal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystempSystemReplacemsgDevicedetectionportal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystempSystemReplacemsgDevicedetectionportal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class SystempSystemReplacemsgDevicedetectionportal extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/systemp_system_replacemsg_devicedetectionportal fortimanager_systemp_system_replacemsg_devicedetectionportal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/systemp_system_replacemsg_devicedetectionportal fortimanager_systemp_system_replacemsg_devicedetectionportal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class SystempSystemReplacemsgDevicedetectionportal extends cdktf.Terrafor
       terraformResourceType: 'fortimanager_systemp_system_replacemsg_devicedetectionportal',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UserConfig extends cdktf.TerraformMetaArguments {
   /**
   * The first name of the user. This is only used for non-API users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#first_name User#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#first_name User#first_name}
   */
   readonly firstName?: string;
   /**
   * Indicate whether this user is an [API only user](https://www.cisco.com/c/en/us/td/docs/security/cdo/managing-ftd-with-cdo/managing-ftd-with-cisco-defense-orchestrator/basics-of-cisco-defense-orchestrator.html?bookSearch=true#Cisco_Task.dita_d5ae397b-5aa5-4de0-82c1-a4aff63c5ba1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#is_api_only_user User#is_api_only_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#is_api_only_user User#is_api_only_user}
   */
   readonly isApiOnlyUser: boolean | cdktf.IResolvable;
   /**
   * The last name of the user. This is only used for non-API users.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#last_name User#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#last_name User#last_name}
   */
   readonly lastName?: string;
   /**
   * The username. If the user is not an [API only user](https://www.cisco.com/c/en/us/td/docs/security/cdo/managing-ftd-with-cdo/managing-ftd-with-cisco-defense-orchestrator/basics-of-cisco-defense-orchestrator.html?bookSearch=true#Cisco_Task.dita_d5ae397b-5aa5-4de0-82c1-a4aff63c5ba1), it must be an e-mail address; if the user is an API-only user, it must not be an email address, and CDO will generate a name for the user prefixed by the value provided here (see `generated_username`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#name User#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#name User#name}
   */
   readonly name: string;
   /**
   * There are a variety of user roles in Cisco Defense Orchestrator (CDO). User roles are configured for each user on each tenant. See [User Roles in CDO](https://www.cisco.com/c/en/us/td/docs/security/cdo/managing-asa-with-cdo/managing-asa-with-cisco-defense-orchestrator/basics-of-cisco-defense-orchestrator.html#User_Roles) to learn more. Valid Values: (ROLE_READ_ONLY, ROLE_ADMIN, ROLE_SUPER_ADMIN, ROLE_DEPLOY_ONLY, ROLE_EDIT_ONLY, ROLE_VPN_SESSIONS_MANAGER)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#role User#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#role User#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user sccfm_user}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user sccfm_user}
 */
 export class User extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class User extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a User resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the User to import
-  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing User that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the User to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class User extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/user sccfm_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/user sccfm_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class User extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_user',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

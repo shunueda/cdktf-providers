@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserDevicegroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#_if_unmanaged ObjectUserDevicegroup#_if_unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#_if_unmanaged ObjectUserDevicegroup#_if_unmanaged}
   */
   readonly ifUnmanaged?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#adom ObjectUserDevicegroup#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#adom ObjectUserDevicegroup#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#comment ObjectUserDevicegroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#comment ObjectUserDevicegroup#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#dynamic_sort_subtable ObjectUserDevicegroup#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#dynamic_sort_subtable ObjectUserDevicegroup#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#id ObjectUserDevicegroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#id ObjectUserDevicegroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#member ObjectUserDevicegroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#member ObjectUserDevicegroup#member}
   */
   readonly member?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#scopetype ObjectUserDevicegroup#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#scopetype ObjectUserDevicegroup#scopetype}
   */
   readonly scopetype?: string;
   /**
   * dynamic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#dynamic_mapping ObjectUserDevicegroup#dynamic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#dynamic_mapping ObjectUserDevicegroup#dynamic_mapping}
   */
   readonly dynamicMapping?: ObjectUserDevicegroupDynamicMapping[] | cdktf.IResolvable;
   /**
   * tagging block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#tagging ObjectUserDevicegroup#tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#tagging ObjectUserDevicegroup#tagging}
   */
   readonly tagging?: ObjectUserDevicegroupTagging[] | cdktf.IResolvable;
 }
 export interface ObjectUserDevicegroupDynamicMappingScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#vdom ObjectUserDevicegroup#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#vdom ObjectUserDevicegroup#vdom}
   */
   readonly vdom?: string;
 }
@@ -206,21 +206,21 @@ export class ObjectUserDevicegroupDynamicMappingScopeList extends cdktf.ComplexL
 }
 export interface ObjectUserDevicegroupDynamicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#_if_unmanaged ObjectUserDevicegroup#_if_unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#_if_unmanaged ObjectUserDevicegroup#_if_unmanaged}
   */
   readonly ifUnmanaged?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#comment ObjectUserDevicegroup#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#comment ObjectUserDevicegroup#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#member ObjectUserDevicegroup#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#member ObjectUserDevicegroup#member}
   */
   readonly member?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#_scope ObjectUserDevicegroup#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#_scope ObjectUserDevicegroup#_scope}
   */
   readonly scope?: ObjectUserDevicegroupDynamicMappingScope[] | cdktf.IResolvable;
 }
@@ -423,15 +423,15 @@ export class ObjectUserDevicegroupDynamicMappingList extends cdktf.ComplexList {
 }
 export interface ObjectUserDevicegroupTagging {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#category ObjectUserDevicegroup#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#category ObjectUserDevicegroup#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#name ObjectUserDevicegroup#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#tags ObjectUserDevicegroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#tags ObjectUserDevicegroup#tags}
   */
   readonly tags?: string[];
 }
@@ -605,7 +605,7 @@ export class ObjectUserDevicegroupTaggingList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup fortimanager_object_user_devicegroup}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup fortimanager_object_user_devicegroup}
 */
 export class ObjectUserDevicegroup extends cdktf.TerraformResource {
 
@@ -621,7 +621,7 @@ export class ObjectUserDevicegroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserDevicegroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserDevicegroup to import
-  * @param importFromId The id of the existing ObjectUserDevicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserDevicegroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserDevicegroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -633,7 +633,7 @@ export class ObjectUserDevicegroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_devicegroup fortimanager_object_user_devicegroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_devicegroup fortimanager_object_user_devicegroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -644,8 +644,8 @@ export class ObjectUserDevicegroup extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_devicegroup',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

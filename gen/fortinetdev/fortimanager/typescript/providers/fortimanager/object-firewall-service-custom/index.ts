@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallServiceCustomConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#adom ObjectFirewallServiceCustom#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#adom ObjectFirewallServiceCustom#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#app_category ObjectFirewallServiceCustom#app_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#app_category ObjectFirewallServiceCustom#app_category}
   */
   readonly appCategory?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#app_service_type ObjectFirewallServiceCustom#app_service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#app_service_type ObjectFirewallServiceCustom#app_service_type}
   */
   readonly appServiceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#application ObjectFirewallServiceCustom#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#application ObjectFirewallServiceCustom#application}
   */
   readonly application?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#category ObjectFirewallServiceCustom#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#category ObjectFirewallServiceCustom#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#check_reset_range ObjectFirewallServiceCustom#check_reset_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#check_reset_range ObjectFirewallServiceCustom#check_reset_range}
   */
   readonly checkResetRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#color ObjectFirewallServiceCustom#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#color ObjectFirewallServiceCustom#color}
   */
   readonly color?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#comment ObjectFirewallServiceCustom#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#comment ObjectFirewallServiceCustom#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#fabric_object ObjectFirewallServiceCustom#fabric_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#fabric_object ObjectFirewallServiceCustom#fabric_object}
   */
   readonly fabricObject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#fqdn ObjectFirewallServiceCustom#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#fqdn ObjectFirewallServiceCustom#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#global_object ObjectFirewallServiceCustom#global_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#global_object ObjectFirewallServiceCustom#global_object}
   */
   readonly globalObject?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#helper ObjectFirewallServiceCustom#helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#helper ObjectFirewallServiceCustom#helper}
   */
   readonly helper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#icmpcode ObjectFirewallServiceCustom#icmpcode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#icmpcode ObjectFirewallServiceCustom#icmpcode}
   */
   readonly icmpcode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#icmptype ObjectFirewallServiceCustom#icmptype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#icmptype ObjectFirewallServiceCustom#icmptype}
   */
   readonly icmptype?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#id ObjectFirewallServiceCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#id ObjectFirewallServiceCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#iprange ObjectFirewallServiceCustom#iprange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#iprange ObjectFirewallServiceCustom#iprange}
   */
   readonly iprange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#name ObjectFirewallServiceCustom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#name ObjectFirewallServiceCustom#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#protocol ObjectFirewallServiceCustom#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#protocol ObjectFirewallServiceCustom#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#protocol_number ObjectFirewallServiceCustom#protocol_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#protocol_number ObjectFirewallServiceCustom#protocol_number}
   */
   readonly protocolNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#proxy ObjectFirewallServiceCustom#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#proxy ObjectFirewallServiceCustom#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#scopetype ObjectFirewallServiceCustom#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#scopetype ObjectFirewallServiceCustom#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#sctp_portrange ObjectFirewallServiceCustom#sctp_portrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#sctp_portrange ObjectFirewallServiceCustom#sctp_portrange}
   */
   readonly sctpPortrange?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#session_ttl ObjectFirewallServiceCustom#session_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#session_ttl ObjectFirewallServiceCustom#session_ttl}
   */
   readonly sessionTtl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#tcp_halfclose_timer ObjectFirewallServiceCustom#tcp_halfclose_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#tcp_halfclose_timer ObjectFirewallServiceCustom#tcp_halfclose_timer}
   */
   readonly tcpHalfcloseTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#tcp_halfopen_timer ObjectFirewallServiceCustom#tcp_halfopen_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#tcp_halfopen_timer ObjectFirewallServiceCustom#tcp_halfopen_timer}
   */
   readonly tcpHalfopenTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#tcp_portrange ObjectFirewallServiceCustom#tcp_portrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#tcp_portrange ObjectFirewallServiceCustom#tcp_portrange}
   */
   readonly tcpPortrange?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#tcp_rst_timer ObjectFirewallServiceCustom#tcp_rst_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#tcp_rst_timer ObjectFirewallServiceCustom#tcp_rst_timer}
   */
   readonly tcpRstTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#tcp_timewait_timer ObjectFirewallServiceCustom#tcp_timewait_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#tcp_timewait_timer ObjectFirewallServiceCustom#tcp_timewait_timer}
   */
   readonly tcpTimewaitTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#udp_idle_timer ObjectFirewallServiceCustom#udp_idle_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#udp_idle_timer ObjectFirewallServiceCustom#udp_idle_timer}
   */
   readonly udpIdleTimer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#udp_portrange ObjectFirewallServiceCustom#udp_portrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#udp_portrange ObjectFirewallServiceCustom#udp_portrange}
   */
   readonly udpPortrange?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#udplite_portrange ObjectFirewallServiceCustom#udplite_portrange}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#udplite_portrange ObjectFirewallServiceCustom#udplite_portrange}
   */
   readonly udplitePortrange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#uuid ObjectFirewallServiceCustom#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#uuid ObjectFirewallServiceCustom#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#visibility ObjectFirewallServiceCustom#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#visibility ObjectFirewallServiceCustom#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom fortimanager_object_firewall_service_custom}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom fortimanager_object_firewall_service_custom}
 */
 export class ObjectFirewallServiceCustom extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class ObjectFirewallServiceCustom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallServiceCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallServiceCustom to import
-  * @param importFromId The id of the existing ObjectFirewallServiceCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallServiceCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallServiceCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class ObjectFirewallServiceCustom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_service_custom fortimanager_object_firewall_service_custom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_service_custom fortimanager_object_firewall_service_custom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class ObjectFirewallServiceCustom extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_service_custom',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

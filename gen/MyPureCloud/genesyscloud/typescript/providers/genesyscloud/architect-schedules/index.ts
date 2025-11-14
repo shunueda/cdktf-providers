@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ArchitectSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#description ArchitectSchedules#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#description ArchitectSchedules#description}
   */
   readonly description?: string;
   /**
   * The division to which this schedule group will belong. If not set, the home division will be used. If set, you must have all divisions and future divisions selected in your OAuth client role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#division_id ArchitectSchedules#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#division_id ArchitectSchedules#division_id}
   */
   readonly divisionId?: string;
   /**
   * Date time is represented as an ISO-8601 string without a timezone. For example: 2006-01-02T15:04:05.000000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#end ArchitectSchedules#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#end ArchitectSchedules#end}
   */
   readonly end: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#id ArchitectSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#id ArchitectSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface ArchitectSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#name ArchitectSchedules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#name ArchitectSchedules#name}
   */
   readonly name: string;
   /**
   * An iCal Recurrence Rule (RRULE) string. It is required to be set for schedules determining when upgrades to the Edge software can be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#rrule ArchitectSchedules#rrule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#rrule ArchitectSchedules#rrule}
   */
   readonly rrule?: string;
   /**
   * Date time is represented as an ISO-8601 string without a timezone. For example: 2006-01-02T15:04:05.000000. The start date should be applicable to the schedule's recurrence rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#start ArchitectSchedules#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#start ArchitectSchedules#start}
   */
   readonly start: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules genesyscloud_architect_schedules}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules genesyscloud_architect_schedules}
 */
 export class ArchitectSchedules extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class ArchitectSchedules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArchitectSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArchitectSchedules to import
-  * @param importFromId The id of the existing ArchitectSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArchitectSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArchitectSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class ArchitectSchedules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/architect_schedules genesyscloud_architect_schedules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/architect_schedules genesyscloud_architect_schedules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class ArchitectSchedules extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_architect_schedules',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

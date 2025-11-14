@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallCasbprofileSaasapplicationAccessruleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#action ObjectFirewallCasbprofileSaasapplicationAccessrule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#action ObjectFirewallCasbprofileSaasapplicationAccessrule#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#adom ObjectFirewallCasbprofileSaasapplicationAccessrule#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#adom ObjectFirewallCasbprofileSaasapplicationAccessrule#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#bypass ObjectFirewallCasbprofileSaasapplicationAccessrule#bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#bypass ObjectFirewallCasbprofileSaasapplicationAccessrule#bypass}
   */
   readonly bypass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#casb_profile ObjectFirewallCasbprofileSaasapplicationAccessrule#casb_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#casb_profile ObjectFirewallCasbprofileSaasapplicationAccessrule#casb_profile}
   */
   readonly casbProfile: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#id ObjectFirewallCasbprofileSaasapplicationAccessrule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#id ObjectFirewallCasbprofileSaasapplicationAccessrule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#name ObjectFirewallCasbprofileSaasapplicationAccessrule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#name ObjectFirewallCasbprofileSaasapplicationAccessrule#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#saas_application ObjectFirewallCasbprofileSaasapplicationAccessrule#saas_application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#saas_application ObjectFirewallCasbprofileSaasapplicationAccessrule#saas_application}
   */
   readonly saasApplication: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#scopetype ObjectFirewallCasbprofileSaasapplicationAccessrule#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#scopetype ObjectFirewallCasbprofileSaasapplicationAccessrule#scopetype}
   */
   readonly scopetype?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule fortimanager_object_firewall_casbprofile_saasapplication_accessrule}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule fortimanager_object_firewall_casbprofile_saasapplication_accessrule}
 */
 export class ObjectFirewallCasbprofileSaasapplicationAccessrule extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectFirewallCasbprofileSaasapplicationAccessrule extends cdktf.Te
   * Generates CDKTF code for importing a ObjectFirewallCasbprofileSaasapplicationAccessrule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallCasbprofileSaasapplicationAccessrule to import
-  * @param importFromId The id of the existing ObjectFirewallCasbprofileSaasapplicationAccessrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallCasbprofileSaasapplicationAccessrule that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallCasbprofileSaasapplicationAccessrule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectFirewallCasbprofileSaasapplicationAccessrule extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule fortimanager_object_firewall_casbprofile_saasapplication_accessrule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_casbprofile_saasapplication_accessrule fortimanager_object_firewall_casbprofile_saasapplication_accessrule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectFirewallCasbprofileSaasapplicationAccessrule extends cdktf.Te
       terraformResourceType: 'fortimanager_object_firewall_casbprofile_saasapplication_accessrule',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

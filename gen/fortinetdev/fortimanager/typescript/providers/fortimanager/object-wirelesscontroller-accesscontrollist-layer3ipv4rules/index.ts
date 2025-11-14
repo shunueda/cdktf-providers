@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#access_control_list ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#access_control_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#access_control_list ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#access_control_list}
   */
   readonly accessControlList: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#action ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#action ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#adom ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#adom ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#comment ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#comment ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#dstaddr ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#dstaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#dstaddr ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#dstaddr}
   */
   readonly dstaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#dstport ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#dstport ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#id ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#id ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#protocol ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#protocol ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#rule_id ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#rule_id ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#rule_id}
   */
   readonly ruleId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#scopetype ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#scopetype ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#srcaddr ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#srcaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#srcaddr ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#srcaddr}
   */
   readonly srcaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#srcport ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#srcport ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA#srcport}
   */
   readonly srcport?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules fortimanager_object_wirelesscontroller_accesscontrollist_layer3ipv4rules}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules fortimanager_object_wirelesscontroller_accesscontrollist_layer3ipv4rules}
 */
 export class ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA extends c
   * Generates CDKTF code for importing a ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA extends c
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules fortimanager_object_wirelesscontroller_accesscontrollist_layer3ipv4rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_accesscontrollist_layer3ipv4rules fortimanager_object_wirelesscontroller_accesscontrollist_layer3ipv4rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectWirelesscontrollerAccesscontrollistLayer3Ipv4RulesA extends c
       terraformResourceType: 'fortimanager_object_wirelesscontroller_accesscontrollist_layer3ipv4rules',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

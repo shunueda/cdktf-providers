@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,81 +8,81 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSpamfilterBwlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#adom ObjectSpamfilterBwl#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#adom ObjectSpamfilterBwl#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#comment ObjectSpamfilterBwl#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#comment ObjectSpamfilterBwl#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#dynamic_sort_subtable ObjectSpamfilterBwl#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#dynamic_sort_subtable ObjectSpamfilterBwl#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#fosid ObjectSpamfilterBwl#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#fosid ObjectSpamfilterBwl#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#id ObjectSpamfilterBwl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#id ObjectSpamfilterBwl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#name ObjectSpamfilterBwl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#name ObjectSpamfilterBwl#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#scopetype ObjectSpamfilterBwl#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#scopetype ObjectSpamfilterBwl#scopetype}
   */
   readonly scopetype?: string;
   /**
   * entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#entries ObjectSpamfilterBwl#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#entries ObjectSpamfilterBwl#entries}
   */
   readonly entries?: ObjectSpamfilterBwlEntries[] | cdktf.IResolvable;
 }
 export interface ObjectSpamfilterBwlEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#action ObjectSpamfilterBwl#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#action ObjectSpamfilterBwl#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#addr_type ObjectSpamfilterBwl#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#addr_type ObjectSpamfilterBwl#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#email_pattern ObjectSpamfilterBwl#email_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#email_pattern ObjectSpamfilterBwl#email_pattern}
   */
   readonly emailPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#id ObjectSpamfilterBwl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#id ObjectSpamfilterBwl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#ip4_subnet ObjectSpamfilterBwl#ip4_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#ip4_subnet ObjectSpamfilterBwl#ip4_subnet}
   */
   readonly ip4Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#ip6_subnet ObjectSpamfilterBwl#ip6_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#ip6_subnet ObjectSpamfilterBwl#ip6_subnet}
   */
   readonly ip6Subnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#pattern_type ObjectSpamfilterBwl#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#pattern_type ObjectSpamfilterBwl#pattern_type}
   */
   readonly patternType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#status ObjectSpamfilterBwl#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#status ObjectSpamfilterBwl#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#type ObjectSpamfilterBwl#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#type ObjectSpamfilterBwl#type}
   */
   readonly type?: string;
 }
@@ -430,7 +430,7 @@ export class ObjectSpamfilterBwlEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl fortimanager_object_spamfilter_bwl}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl fortimanager_object_spamfilter_bwl}
 */
 export class ObjectSpamfilterBwl extends cdktf.TerraformResource {
 
@@ -446,7 +446,7 @@ export class ObjectSpamfilterBwl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSpamfilterBwl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSpamfilterBwl to import
-  * @param importFromId The id of the existing ObjectSpamfilterBwl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSpamfilterBwl that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSpamfilterBwl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class ObjectSpamfilterBwl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_spamfilter_bwl fortimanager_object_spamfilter_bwl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_spamfilter_bwl fortimanager_object_spamfilter_bwl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class ObjectSpamfilterBwl extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_spamfilter_bwl',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TaskManagementWorktypeFlowOncreateRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule#id TaskManagementWorktypeFlowOncreateRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule#id TaskManagementWorktypeFlowOncreateRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface TaskManagementWorktypeFlowOncreateRuleConfig extends cdktf.Terr
   /**
   * The name of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule#name TaskManagementWorktypeFlowOncreateRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule#name TaskManagementWorktypeFlowOncreateRule#name}
   */
   readonly name: string;
   /**
   * The Worktype ID of the Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule#worktype_id TaskManagementWorktypeFlowOncreateRule#worktype_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule#worktype_id TaskManagementWorktypeFlowOncreateRule#worktype_id}
   */
   readonly worktypeId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule genesyscloud_task_management_worktype_flow_oncreate_rule}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule genesyscloud_task_management_worktype_flow_oncreate_rule}
 */
 export class TaskManagementWorktypeFlowOncreateRule extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class TaskManagementWorktypeFlowOncreateRule extends cdktf.TerraformResou
   * Generates CDKTF code for importing a TaskManagementWorktypeFlowOncreateRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TaskManagementWorktypeFlowOncreateRule to import
-  * @param importFromId The id of the existing TaskManagementWorktypeFlowOncreateRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TaskManagementWorktypeFlowOncreateRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TaskManagementWorktypeFlowOncreateRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class TaskManagementWorktypeFlowOncreateRule extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/task_management_worktype_flow_oncreate_rule genesyscloud_task_management_worktype_flow_oncreate_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/task_management_worktype_flow_oncreate_rule genesyscloud_task_management_worktype_flow_oncreate_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class TaskManagementWorktypeFlowOncreateRule extends cdktf.TerraformResou
       terraformResourceType: 'genesyscloud_task_management_worktype_flow_oncreate_rule',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

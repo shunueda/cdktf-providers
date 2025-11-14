@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,244 +8,244 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuNputcamDataAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#adom ObjectSystemNpuNputcamDataA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#adom ObjectSystemNpuNputcamDataA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#df ObjectSystemNpuNputcamDataA#df}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#df ObjectSystemNpuNputcamDataA#df}
   */
   readonly df?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#dstip ObjectSystemNpuNputcamDataA#dstip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#dstip ObjectSystemNpuNputcamDataA#dstip}
   */
   readonly dstip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#dstipv6 ObjectSystemNpuNputcamDataA#dstipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#dstipv6 ObjectSystemNpuNputcamDataA#dstipv6}
   */
   readonly dstipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#dstmac ObjectSystemNpuNputcamDataA#dstmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#dstmac ObjectSystemNpuNputcamDataA#dstmac}
   */
   readonly dstmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#dstport ObjectSystemNpuNputcamDataA#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#dstport ObjectSystemNpuNputcamDataA#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ethertype ObjectSystemNpuNputcamDataA#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ethertype ObjectSystemNpuNputcamDataA#ethertype}
   */
   readonly ethertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ext_tag ObjectSystemNpuNputcamDataA#ext_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ext_tag ObjectSystemNpuNputcamDataA#ext_tag}
   */
   readonly extTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#frag_off ObjectSystemNpuNputcamDataA#frag_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#frag_off ObjectSystemNpuNputcamDataA#frag_off}
   */
   readonly fragOff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_buf_cnt ObjectSystemNpuNputcamDataA#gen_buf_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_buf_cnt ObjectSystemNpuNputcamDataA#gen_buf_cnt}
   */
   readonly genBufCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_iv ObjectSystemNpuNputcamDataA#gen_iv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_iv ObjectSystemNpuNputcamDataA#gen_iv}
   */
   readonly genIv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_l3_flags ObjectSystemNpuNputcamDataA#gen_l3_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_l3_flags ObjectSystemNpuNputcamDataA#gen_l3_flags}
   */
   readonly genL3Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_l4_flags ObjectSystemNpuNputcamDataA#gen_l4_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_l4_flags ObjectSystemNpuNputcamDataA#gen_l4_flags}
   */
   readonly genL4Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_pkt_ctrl ObjectSystemNpuNputcamDataA#gen_pkt_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_pkt_ctrl ObjectSystemNpuNputcamDataA#gen_pkt_ctrl}
   */
   readonly genPktCtrl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_pri ObjectSystemNpuNputcamDataA#gen_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_pri ObjectSystemNpuNputcamDataA#gen_pri}
   */
   readonly genPri?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_pri_v ObjectSystemNpuNputcamDataA#gen_pri_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_pri_v ObjectSystemNpuNputcamDataA#gen_pri_v}
   */
   readonly genPriV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#gen_tv ObjectSystemNpuNputcamDataA#gen_tv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#gen_tv ObjectSystemNpuNputcamDataA#gen_tv}
   */
   readonly genTv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#id ObjectSystemNpuNputcamDataA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#id ObjectSystemNpuNputcamDataA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ihl ObjectSystemNpuNputcamDataA#ihl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ihl ObjectSystemNpuNputcamDataA#ihl}
   */
   readonly ihl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ip4_id ObjectSystemNpuNputcamDataA#ip4_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ip4_id ObjectSystemNpuNputcamDataA#ip4_id}
   */
   readonly ip4Id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ip6_fl ObjectSystemNpuNputcamDataA#ip6_fl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ip6_fl ObjectSystemNpuNputcamDataA#ip6_fl}
   */
   readonly ip6Fl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ipver ObjectSystemNpuNputcamDataA#ipver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ipver ObjectSystemNpuNputcamDataA#ipver}
   */
   readonly ipver?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#l4_wd10 ObjectSystemNpuNputcamDataA#l4_wd10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#l4_wd10 ObjectSystemNpuNputcamDataA#l4_wd10}
   */
   readonly l4Wd10?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#l4_wd11 ObjectSystemNpuNputcamDataA#l4_wd11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#l4_wd11 ObjectSystemNpuNputcamDataA#l4_wd11}
   */
   readonly l4Wd11?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#l4_wd8 ObjectSystemNpuNputcamDataA#l4_wd8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#l4_wd8 ObjectSystemNpuNputcamDataA#l4_wd8}
   */
   readonly l4Wd8?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#l4_wd9 ObjectSystemNpuNputcamDataA#l4_wd9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#l4_wd9 ObjectSystemNpuNputcamDataA#l4_wd9}
   */
   readonly l4Wd9?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#mf ObjectSystemNpuNputcamDataA#mf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#mf ObjectSystemNpuNputcamDataA#mf}
   */
   readonly mf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#npu_tcam ObjectSystemNpuNputcamDataA#npu_tcam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#npu_tcam ObjectSystemNpuNputcamDataA#npu_tcam}
   */
   readonly npuTcam: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#protocol ObjectSystemNpuNputcamDataA#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#protocol ObjectSystemNpuNputcamDataA#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#scopetype ObjectSystemNpuNputcamDataA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#scopetype ObjectSystemNpuNputcamDataA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#slink ObjectSystemNpuNputcamDataA#slink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#slink ObjectSystemNpuNputcamDataA#slink}
   */
   readonly slink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#smac_change ObjectSystemNpuNputcamDataA#smac_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#smac_change ObjectSystemNpuNputcamDataA#smac_change}
   */
   readonly smacChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#sp ObjectSystemNpuNputcamDataA#sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#sp ObjectSystemNpuNputcamDataA#sp}
   */
   readonly sp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#src_cfi ObjectSystemNpuNputcamDataA#src_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#src_cfi ObjectSystemNpuNputcamDataA#src_cfi}
   */
   readonly srcCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#src_prio ObjectSystemNpuNputcamDataA#src_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#src_prio ObjectSystemNpuNputcamDataA#src_prio}
   */
   readonly srcPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#src_updt ObjectSystemNpuNputcamDataA#src_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#src_updt ObjectSystemNpuNputcamDataA#src_updt}
   */
   readonly srcUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#srcip ObjectSystemNpuNputcamDataA#srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#srcip ObjectSystemNpuNputcamDataA#srcip}
   */
   readonly srcip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#srcipv6 ObjectSystemNpuNputcamDataA#srcipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#srcipv6 ObjectSystemNpuNputcamDataA#srcipv6}
   */
   readonly srcipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#srcmac ObjectSystemNpuNputcamDataA#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#srcmac ObjectSystemNpuNputcamDataA#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#srcport ObjectSystemNpuNputcamDataA#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#srcport ObjectSystemNpuNputcamDataA#srcport}
   */
   readonly srcport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#svid ObjectSystemNpuNputcamDataA#svid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#svid ObjectSystemNpuNputcamDataA#svid}
   */
   readonly svid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_ack ObjectSystemNpuNputcamDataA#tcp_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_ack ObjectSystemNpuNputcamDataA#tcp_ack}
   */
   readonly tcpAck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_cwr ObjectSystemNpuNputcamDataA#tcp_cwr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_cwr ObjectSystemNpuNputcamDataA#tcp_cwr}
   */
   readonly tcpCwr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_ece ObjectSystemNpuNputcamDataA#tcp_ece}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_ece ObjectSystemNpuNputcamDataA#tcp_ece}
   */
   readonly tcpEce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_fin ObjectSystemNpuNputcamDataA#tcp_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_fin ObjectSystemNpuNputcamDataA#tcp_fin}
   */
   readonly tcpFin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_push ObjectSystemNpuNputcamDataA#tcp_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_push ObjectSystemNpuNputcamDataA#tcp_push}
   */
   readonly tcpPush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_rst ObjectSystemNpuNputcamDataA#tcp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_rst ObjectSystemNpuNputcamDataA#tcp_rst}
   */
   readonly tcpRst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_syn ObjectSystemNpuNputcamDataA#tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_syn ObjectSystemNpuNputcamDataA#tcp_syn}
   */
   readonly tcpSyn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tcp_urg ObjectSystemNpuNputcamDataA#tcp_urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tcp_urg ObjectSystemNpuNputcamDataA#tcp_urg}
   */
   readonly tcpUrg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tgt_cfi ObjectSystemNpuNputcamDataA#tgt_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tgt_cfi ObjectSystemNpuNputcamDataA#tgt_cfi}
   */
   readonly tgtCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tgt_prio ObjectSystemNpuNputcamDataA#tgt_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tgt_prio ObjectSystemNpuNputcamDataA#tgt_prio}
   */
   readonly tgtPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tgt_updt ObjectSystemNpuNputcamDataA#tgt_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tgt_updt ObjectSystemNpuNputcamDataA#tgt_updt}
   */
   readonly tgtUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tgt_v ObjectSystemNpuNputcamDataA#tgt_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tgt_v ObjectSystemNpuNputcamDataA#tgt_v}
   */
   readonly tgtV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tos ObjectSystemNpuNputcamDataA#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tos ObjectSystemNpuNputcamDataA#tos}
   */
   readonly tos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tp ObjectSystemNpuNputcamDataA#tp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tp ObjectSystemNpuNputcamDataA#tp}
   */
   readonly tp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#ttl ObjectSystemNpuNputcamDataA#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#ttl ObjectSystemNpuNputcamDataA#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#tvid ObjectSystemNpuNputcamDataA#tvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#tvid ObjectSystemNpuNputcamDataA#tvid}
   */
   readonly tvid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#vdid ObjectSystemNpuNputcamDataA#vdid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#vdid ObjectSystemNpuNputcamDataA#vdid}
   */
   readonly vdid?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data fortimanager_object_system_npu_nputcam_data}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data fortimanager_object_system_npu_nputcam_data}
 */
 export class ObjectSystemNpuNputcamDataA extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class ObjectSystemNpuNputcamDataA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpuNputcamDataA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpuNputcamDataA to import
-  * @param importFromId The id of the existing ObjectSystemNpuNputcamDataA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpuNputcamDataA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpuNputcamDataA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class ObjectSystemNpuNputcamDataA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu_nputcam_data fortimanager_object_system_npu_nputcam_data} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu_nputcam_data fortimanager_object_system_npu_nputcam_data} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class ObjectSystemNpuNputcamDataA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu_nputcam_data',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

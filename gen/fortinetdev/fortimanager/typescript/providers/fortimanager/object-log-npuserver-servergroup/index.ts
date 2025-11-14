@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectLogNpuserverServergroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#adom ObjectLogNpuserverServergroup#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#adom ObjectLogNpuserverServergroup#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#group_name ObjectLogNpuserverServergroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#group_name ObjectLogNpuserverServergroup#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#id ObjectLogNpuserverServergroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#id ObjectLogNpuserverServergroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#log_format ObjectLogNpuserverServergroup#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#log_format ObjectLogNpuserverServergroup#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#log_gen_event ObjectLogNpuserverServergroup#log_gen_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#log_gen_event ObjectLogNpuserverServergroup#log_gen_event}
   */
   readonly logGenEvent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#log_mode ObjectLogNpuserverServergroup#log_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#log_mode ObjectLogNpuserverServergroup#log_mode}
   */
   readonly logMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#log_tx_mode ObjectLogNpuserverServergroup#log_tx_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#log_tx_mode ObjectLogNpuserverServergroup#log_tx_mode}
   */
   readonly logTxMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#log_user_info ObjectLogNpuserverServergroup#log_user_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#log_user_info ObjectLogNpuserverServergroup#log_user_info}
   */
   readonly logUserInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#scopetype ObjectLogNpuserverServergroup#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#scopetype ObjectLogNpuserverServergroup#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#server_number ObjectLogNpuserverServergroup#server_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#server_number ObjectLogNpuserverServergroup#server_number}
   */
   readonly serverNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#server_start_id ObjectLogNpuserverServergroup#server_start_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#server_start_id ObjectLogNpuserverServergroup#server_start_id}
   */
   readonly serverStartId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#sw_log_flags ObjectLogNpuserverServergroup#sw_log_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#sw_log_flags ObjectLogNpuserverServergroup#sw_log_flags}
   */
   readonly swLogFlags?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup fortimanager_object_log_npuserver_servergroup}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup fortimanager_object_log_npuserver_servergroup}
 */
 export class ObjectLogNpuserverServergroup extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class ObjectLogNpuserverServergroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectLogNpuserverServergroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectLogNpuserverServergroup to import
-  * @param importFromId The id of the existing ObjectLogNpuserverServergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectLogNpuserverServergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectLogNpuserverServergroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class ObjectLogNpuserverServergroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_log_npuserver_servergroup fortimanager_object_log_npuserver_servergroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_log_npuserver_servergroup fortimanager_object_log_npuserver_servergroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class ObjectLogNpuserverServergroup extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_log_npuserver_servergroup',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

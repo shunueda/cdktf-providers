@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,246 +8,250 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#browse_max_logfiles SystemLogSettings#browse_max_logfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#browse_max_logfiles SystemLogSettings#browse_max_logfiles}
   */
   readonly browseMaxLogfiles?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#device_auto_detect SystemLogSettings#device_auto_detect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#device_auto_detect SystemLogSettings#device_auto_detect}
   */
   readonly deviceAutoDetect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#dns_resolve_dstip SystemLogSettings#dns_resolve_dstip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#dns_resolve_dstip SystemLogSettings#dns_resolve_dstip}
   */
   readonly dnsResolveDstip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#download_max_logs SystemLogSettings#download_max_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#download_max_logs SystemLogSettings#download_max_logs}
   */
   readonly downloadMaxLogs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fac_custom_field1 SystemLogSettings#fac_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fac_custom_field1 SystemLogSettings#fac_custom_field1}
   */
   readonly facCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#faz_custom_field1 SystemLogSettings#faz_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#faz_custom_field1 SystemLogSettings#faz_custom_field1}
   */
   readonly fazCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fch_custom_field1 SystemLogSettings#fch_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fch_custom_field1 SystemLogSettings#fch_custom_field1}
   */
   readonly fchCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fct_custom_field1 SystemLogSettings#fct_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fct_custom_field1 SystemLogSettings#fct_custom_field1}
   */
   readonly fctCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fdd_custom_field1 SystemLogSettings#fdd_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fdd_custom_field1 SystemLogSettings#fdd_custom_field1}
   */
   readonly fddCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fgt_custom_field1 SystemLogSettings#fgt_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fgt_custom_field1 SystemLogSettings#fgt_custom_field1}
   */
   readonly fgtCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fmg_custom_field1 SystemLogSettings#fmg_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fmg_custom_field1 SystemLogSettings#fmg_custom_field1}
   */
   readonly fmgCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fml_custom_field1 SystemLogSettings#fml_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fml_custom_field1 SystemLogSettings#fml_custom_field1}
   */
   readonly fmlCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fpx_custom_field1 SystemLogSettings#fpx_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fpx_custom_field1 SystemLogSettings#fpx_custom_field1}
   */
   readonly fpxCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fsa_custom_field1 SystemLogSettings#fsa_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fsa_custom_field1 SystemLogSettings#fsa_custom_field1}
   */
   readonly fsaCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#fwb_custom_field1 SystemLogSettings#fwb_custom_field1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#fwb_custom_field1 SystemLogSettings#fwb_custom_field1}
   */
   readonly fwbCustomField1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ha_auto_migrate SystemLogSettings#ha_auto_migrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ha_auto_migrate SystemLogSettings#ha_auto_migrate}
   */
   readonly haAutoMigrate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#id SystemLogSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#id SystemLogSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#import_max_logfiles SystemLogSettings#import_max_logfiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#import_max_logfiles SystemLogSettings#import_max_logfiles}
   */
   readonly importMaxLogfiles?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#keep_dev_logs SystemLogSettings#keep_dev_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#keep_dev_logs SystemLogSettings#keep_dev_logs}
   */
   readonly keepDevLogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#legacy_auth_mode SystemLogSettings#legacy_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#legacy_auth_mode SystemLogSettings#legacy_auth_mode}
   */
   readonly legacyAuthMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_file_archive_name SystemLogSettings#log_file_archive_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_file_archive_name SystemLogSettings#log_file_archive_name}
   */
   readonly logFileArchiveName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_interval_dev_no_logging SystemLogSettings#log_interval_dev_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_interval_dev_no_logging SystemLogSettings#log_interval_dev_no_logging}
   */
   readonly logIntervalDevNoLogging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_upload_interval_dev_no_logging SystemLogSettings#log_upload_interval_dev_no_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_process_fast_mode SystemLogSettings#log_process_fast_mode}
+  */
+  readonly logProcessFastMode?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_upload_interval_dev_no_logging SystemLogSettings#log_upload_interval_dev_no_logging}
   */
   readonly logUploadIntervalDevNoLogging?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#sync_search_timeout SystemLogSettings#sync_search_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#sync_search_timeout SystemLogSettings#sync_search_timeout}
   */
   readonly syncSearchTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#unencrypted_logging SystemLogSettings#unencrypted_logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#unencrypted_logging SystemLogSettings#unencrypted_logging}
   */
   readonly unencryptedLogging?: string;
   /**
   * rolling_analyzer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_analyzer SystemLogSettings#rolling_analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_analyzer SystemLogSettings#rolling_analyzer}
   */
   readonly rollingAnalyzer?: SystemLogSettingsRollingAnalyzer;
   /**
   * rolling_local block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_local SystemLogSettings#rolling_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_local SystemLogSettings#rolling_local}
   */
   readonly rollingLocal?: SystemLogSettingsRollingLocal;
   /**
   * rolling_regular block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_regular SystemLogSettings#rolling_regular}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_regular SystemLogSettings#rolling_regular}
   */
   readonly rollingRegular?: SystemLogSettingsRollingRegular;
 }
 export interface SystemLogSettingsRollingAnalyzer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#days SystemLogSettings#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#days SystemLogSettings#days}
   */
   readonly days?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
   */
   readonly delFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
   */
   readonly gzipFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
   */
   readonly ip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
   */
   readonly ip3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#min SystemLogSettings#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#min SystemLogSettings#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password SystemLogSettings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password SystemLogSettings#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port SystemLogSettings#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port SystemLogSettings#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
   */
   readonly rollingUpgradeStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server SystemLogSettings#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server SystemLogSettings#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
   */
   readonly uploadHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
   */
   readonly uploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
   */
   readonly uploadTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username SystemLogSettings#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username SystemLogSettings#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
   */
   readonly username2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
   */
   readonly username3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#when SystemLogSettings#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#when SystemLogSettings#when}
   */
   readonly when?: string;
 }
@@ -1172,123 +1176,123 @@ export class SystemLogSettingsRollingAnalyzerOutputReference extends cdktf.Compl
 }
 export interface SystemLogSettingsRollingLocal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#days SystemLogSettings#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#days SystemLogSettings#days}
   */
   readonly days?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
   */
   readonly delFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
   */
   readonly gzipFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
   */
   readonly ip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
   */
   readonly ip3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#min SystemLogSettings#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#min SystemLogSettings#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password SystemLogSettings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password SystemLogSettings#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port SystemLogSettings#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port SystemLogSettings#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
   */
   readonly rollingUpgradeStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server SystemLogSettings#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server SystemLogSettings#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
   */
   readonly uploadHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
   */
   readonly uploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
   */
   readonly uploadTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username SystemLogSettings#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username SystemLogSettings#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
   */
   readonly username2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
   */
   readonly username3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#when SystemLogSettings#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#when SystemLogSettings#when}
   */
   readonly when?: string;
 }
@@ -2213,123 +2217,123 @@ export class SystemLogSettingsRollingLocalOutputReference extends cdktf.ComplexO
 }
 export interface SystemLogSettingsRollingRegular {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#days SystemLogSettings#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#days SystemLogSettings#days}
   */
   readonly days?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#del_files SystemLogSettings#del_files}
   */
   readonly delFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#directory SystemLogSettings#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#file_size SystemLogSettings#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#gzip_format SystemLogSettings#gzip_format}
   */
   readonly gzipFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#hour SystemLogSettings#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip SystemLogSettings#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip2 SystemLogSettings#ip2}
   */
   readonly ip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#ip3 SystemLogSettings#ip3}
   */
   readonly ip3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#log_format SystemLogSettings#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#min SystemLogSettings#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#min SystemLogSettings#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password SystemLogSettings#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password SystemLogSettings#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password2 SystemLogSettings#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#password3 SystemLogSettings#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port SystemLogSettings#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port SystemLogSettings#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port2 SystemLogSettings#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#port3 SystemLogSettings#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#rolling_upgrade_status SystemLogSettings#rolling_upgrade_status}
   */
   readonly rollingUpgradeStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server SystemLogSettings#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server SystemLogSettings#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server2 SystemLogSettings#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server3 SystemLogSettings#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#server_type SystemLogSettings#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload SystemLogSettings#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_hour SystemLogSettings#upload_hour}
   */
   readonly uploadHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_mode SystemLogSettings#upload_mode}
   */
   readonly uploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#upload_trigger SystemLogSettings#upload_trigger}
   */
   readonly uploadTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username SystemLogSettings#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username SystemLogSettings#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username2 SystemLogSettings#username2}
   */
   readonly username2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#username3 SystemLogSettings#username3}
   */
   readonly username3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#when SystemLogSettings#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#when SystemLogSettings#when}
   */
   readonly when?: string;
 }
@@ -3254,7 +3258,7 @@ export class SystemLogSettingsRollingRegularOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings fortimanager_system_log_settings}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings fortimanager_system_log_settings}
 */
 export class SystemLogSettings extends cdktf.TerraformResource {
 
@@ -3270,7 +3274,7 @@ export class SystemLogSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogSettings to import
-  * @param importFromId The id of the existing SystemLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3282,7 +3286,7 @@ export class SystemLogSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_log_settings fortimanager_system_log_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_log_settings fortimanager_system_log_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3293,8 +3297,8 @@ export class SystemLogSettings extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_log_settings',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -3326,6 +3330,7 @@ export class SystemLogSettings extends cdktf.TerraformResource {
     this._legacyAuthMode = config.legacyAuthMode;
     this._logFileArchiveName = config.logFileArchiveName;
     this._logIntervalDevNoLogging = config.logIntervalDevNoLogging;
+    this._logProcessFastMode = config.logProcessFastMode;
     this._logUploadIntervalDevNoLogging = config.logUploadIntervalDevNoLogging;
     this._syncSearchTimeout = config.syncSearchTimeout;
     this._unencryptedLogging = config.unencryptedLogging;
@@ -3690,6 +3695,22 @@ export class SystemLogSettings extends cdktf.TerraformResource {
     return this._logIntervalDevNoLogging;
   }
 
+  // log_process_fast_mode - computed: true, optional: true, required: false
+  private _logProcessFastMode?: string; 
+  public get logProcessFastMode() {
+    return this.getStringAttribute('log_process_fast_mode');
+  }
+  public set logProcessFastMode(value: string) {
+    this._logProcessFastMode = value;
+  }
+  public resetLogProcessFastMode() {
+    this._logProcessFastMode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logProcessFastModeInput() {
+    return this._logProcessFastMode;
+  }
+
   // log_upload_interval_dev_no_logging - computed: true, optional: true, required: false
   private _logUploadIntervalDevNoLogging?: number; 
   public get logUploadIntervalDevNoLogging() {
@@ -3814,6 +3835,7 @@ export class SystemLogSettings extends cdktf.TerraformResource {
       legacy_auth_mode: cdktf.stringToTerraform(this._legacyAuthMode),
       log_file_archive_name: cdktf.stringToTerraform(this._logFileArchiveName),
       log_interval_dev_no_logging: cdktf.numberToTerraform(this._logIntervalDevNoLogging),
+      log_process_fast_mode: cdktf.stringToTerraform(this._logProcessFastMode),
       log_upload_interval_dev_no_logging: cdktf.numberToTerraform(this._logUploadIntervalDevNoLogging),
       sync_search_timeout: cdktf.numberToTerraform(this._syncSearchTimeout),
       unencrypted_logging: cdktf.stringToTerraform(this._unencryptedLogging),
@@ -3956,6 +3978,12 @@ export class SystemLogSettings extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      log_process_fast_mode: {
+        value: cdktf.stringToHclTerraform(this._logProcessFastMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       log_upload_interval_dev_no_logging: {
         value: cdktf.numberToHclTerraform(this._logUploadIntervalDevNoLogging),

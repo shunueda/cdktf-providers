@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,120 +8,120 @@ import * as cdktf from 'cdktf';
 
 export interface PackagesAuthenticationSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#active_auth_scheme PackagesAuthenticationSetting#active_auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#active_auth_scheme PackagesAuthenticationSetting#active_auth_scheme}
   */
   readonly activeAuthScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#adom PackagesAuthenticationSetting#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#adom PackagesAuthenticationSetting#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#auth_https PackagesAuthenticationSetting#auth_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#auth_https PackagesAuthenticationSetting#auth_https}
   */
   readonly authHttps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal PackagesAuthenticationSetting#captive_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal PackagesAuthenticationSetting#captive_portal}
   */
   readonly captivePortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal6 PackagesAuthenticationSetting#captive_portal6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal6 PackagesAuthenticationSetting#captive_portal6}
   */
   readonly captivePortal6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal_ip PackagesAuthenticationSetting#captive_portal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal_ip PackagesAuthenticationSetting#captive_portal_ip}
   */
   readonly captivePortalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal_ip6 PackagesAuthenticationSetting#captive_portal_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal_ip6 PackagesAuthenticationSetting#captive_portal_ip6}
   */
   readonly captivePortalIp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal_port PackagesAuthenticationSetting#captive_portal_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal_port PackagesAuthenticationSetting#captive_portal_port}
   */
   readonly captivePortalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal_ssl_port PackagesAuthenticationSetting#captive_portal_ssl_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal_ssl_port PackagesAuthenticationSetting#captive_portal_ssl_port}
   */
   readonly captivePortalSslPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#captive_portal_type PackagesAuthenticationSetting#captive_portal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#captive_portal_type PackagesAuthenticationSetting#captive_portal_type}
   */
   readonly captivePortalType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cert_auth PackagesAuthenticationSetting#cert_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cert_auth PackagesAuthenticationSetting#cert_auth}
   */
   readonly certAuth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cert_captive_portal PackagesAuthenticationSetting#cert_captive_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cert_captive_portal PackagesAuthenticationSetting#cert_captive_portal}
   */
   readonly certCaptivePortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cert_captive_portal_ip PackagesAuthenticationSetting#cert_captive_portal_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cert_captive_portal_ip PackagesAuthenticationSetting#cert_captive_portal_ip}
   */
   readonly certCaptivePortalIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cert_captive_portal_port PackagesAuthenticationSetting#cert_captive_portal_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cert_captive_portal_port PackagesAuthenticationSetting#cert_captive_portal_port}
   */
   readonly certCaptivePortalPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cookie_max_age PackagesAuthenticationSetting#cookie_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cookie_max_age PackagesAuthenticationSetting#cookie_max_age}
   */
   readonly cookieMaxAge?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#cookie_refresh_div PackagesAuthenticationSetting#cookie_refresh_div}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#cookie_refresh_div PackagesAuthenticationSetting#cookie_refresh_div}
   */
   readonly cookieRefreshDiv?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#dev_range PackagesAuthenticationSetting#dev_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#dev_range PackagesAuthenticationSetting#dev_range}
   */
   readonly devRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#id PackagesAuthenticationSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#id PackagesAuthenticationSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#ip_auth_cookie PackagesAuthenticationSetting#ip_auth_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#ip_auth_cookie PackagesAuthenticationSetting#ip_auth_cookie}
   */
   readonly ipAuthCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#persistent_cookie PackagesAuthenticationSetting#persistent_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#persistent_cookie PackagesAuthenticationSetting#persistent_cookie}
   */
   readonly persistentCookie?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#pkg PackagesAuthenticationSetting#pkg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#pkg PackagesAuthenticationSetting#pkg}
   */
   readonly pkg: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#pkg_folder_path PackagesAuthenticationSetting#pkg_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#pkg_folder_path PackagesAuthenticationSetting#pkg_folder_path}
   */
   readonly pkgFolderPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#rewrite_https_port PackagesAuthenticationSetting#rewrite_https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#rewrite_https_port PackagesAuthenticationSetting#rewrite_https_port}
   */
   readonly rewriteHttpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#scopetype PackagesAuthenticationSetting#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#scopetype PackagesAuthenticationSetting#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#sso_auth_scheme PackagesAuthenticationSetting#sso_auth_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#sso_auth_scheme PackagesAuthenticationSetting#sso_auth_scheme}
   */
   readonly ssoAuthScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#update_time PackagesAuthenticationSetting#update_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#update_time PackagesAuthenticationSetting#update_time}
   */
   readonly updateTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#user_cert_ca PackagesAuthenticationSetting#user_cert_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#user_cert_ca PackagesAuthenticationSetting#user_cert_ca}
   */
   readonly userCertCa?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting fortimanager_packages_authentication_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting fortimanager_packages_authentication_setting}
 */
 export class PackagesAuthenticationSetting extends cdktf.TerraformResource {
 
@@ -137,7 +137,7 @@ export class PackagesAuthenticationSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackagesAuthenticationSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackagesAuthenticationSetting to import
-  * @param importFromId The id of the existing PackagesAuthenticationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackagesAuthenticationSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackagesAuthenticationSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class PackagesAuthenticationSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/packages_authentication_setting fortimanager_packages_authentication_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/packages_authentication_setting fortimanager_packages_authentication_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class PackagesAuthenticationSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_packages_authentication_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

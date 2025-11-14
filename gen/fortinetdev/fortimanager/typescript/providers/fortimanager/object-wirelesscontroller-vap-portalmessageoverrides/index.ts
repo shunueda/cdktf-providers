@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerVapPortalmessageoverridesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#adom ObjectWirelesscontrollerVapPortalmessageoverrides#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#adom ObjectWirelesscontrollerVapPortalmessageoverrides#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_disclaimer_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_disclaimer_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_disclaimer_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_disclaimer_page}
   */
   readonly authDisclaimerPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_login_failed_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_login_failed_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_login_failed_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_login_failed_page}
   */
   readonly authLoginFailedPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_login_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_login_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_login_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_login_page}
   */
   readonly authLoginPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_reject_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_reject_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#auth_reject_page ObjectWirelesscontrollerVapPortalmessageoverrides#auth_reject_page}
   */
   readonly authRejectPage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#id ObjectWirelesscontrollerVapPortalmessageoverrides#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#id ObjectWirelesscontrollerVapPortalmessageoverrides#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#scopetype ObjectWirelesscontrollerVapPortalmessageoverrides#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#scopetype ObjectWirelesscontrollerVapPortalmessageoverrides#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#vap ObjectWirelesscontrollerVapPortalmessageoverrides#vap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#vap ObjectWirelesscontrollerVapPortalmessageoverrides#vap}
   */
   readonly vap: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides fortimanager_object_wirelesscontroller_vap_portalmessageoverrides}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides fortimanager_object_wirelesscontroller_vap_portalmessageoverrides}
 */
 export class ObjectWirelesscontrollerVapPortalmessageoverrides extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectWirelesscontrollerVapPortalmessageoverrides extends cdktf.Ter
   * Generates CDKTF code for importing a ObjectWirelesscontrollerVapPortalmessageoverrides resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerVapPortalmessageoverrides to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerVapPortalmessageoverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerVapPortalmessageoverrides that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerVapPortalmessageoverrides to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectWirelesscontrollerVapPortalmessageoverrides extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides fortimanager_object_wirelesscontroller_vap_portalmessageoverrides} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_vap_portalmessageoverrides fortimanager_object_wirelesscontroller_vap_portalmessageoverrides} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectWirelesscontrollerVapPortalmessageoverrides extends cdktf.Ter
       terraformResourceType: 'fortimanager_object_wirelesscontroller_vap_portalmessageoverrides',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

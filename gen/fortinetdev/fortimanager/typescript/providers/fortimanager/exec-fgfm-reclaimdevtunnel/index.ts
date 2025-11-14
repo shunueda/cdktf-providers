@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface ExecFgfmReclaimdevtunnelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel#device_name ExecFgfmReclaimdevtunnel#device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel#device_name ExecFgfmReclaimdevtunnel#device_name}
   */
   readonly deviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel#flags ExecFgfmReclaimdevtunnel#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel#flags ExecFgfmReclaimdevtunnel#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel#force_recreate ExecFgfmReclaimdevtunnel#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel#force_recreate ExecFgfmReclaimdevtunnel#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel#id ExecFgfmReclaimdevtunnel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel#id ExecFgfmReclaimdevtunnel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,7 +29,7 @@ export interface ExecFgfmReclaimdevtunnelConfig extends cdktf.TerraformMetaArgum
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel fortimanager_exec_fgfm_reclaimdevtunnel}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel fortimanager_exec_fgfm_reclaimdevtunnel}
 */
 export class ExecFgfmReclaimdevtunnel extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class ExecFgfmReclaimdevtunnel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExecFgfmReclaimdevtunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExecFgfmReclaimdevtunnel to import
-  * @param importFromId The id of the existing ExecFgfmReclaimdevtunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExecFgfmReclaimdevtunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExecFgfmReclaimdevtunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class ExecFgfmReclaimdevtunnel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/exec_fgfm_reclaimdevtunnel fortimanager_exec_fgfm_reclaimdevtunnel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/exec_fgfm_reclaimdevtunnel fortimanager_exec_fgfm_reclaimdevtunnel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class ExecFgfmReclaimdevtunnel extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_exec_fgfm_reclaimdevtunnel',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

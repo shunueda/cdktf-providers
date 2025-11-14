@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,137 +8,137 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectDnsfilterProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#adom ObjectDnsfilterProfile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#adom ObjectDnsfilterProfile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#block_action ObjectDnsfilterProfile#block_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#block_action ObjectDnsfilterProfile#block_action}
   */
   readonly blockAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#block_botnet ObjectDnsfilterProfile#block_botnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#block_botnet ObjectDnsfilterProfile#block_botnet}
   */
   readonly blockBotnet?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#comment ObjectDnsfilterProfile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#comment ObjectDnsfilterProfile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#dynamic_sort_subtable ObjectDnsfilterProfile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#dynamic_sort_subtable ObjectDnsfilterProfile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#external_ip_blocklist ObjectDnsfilterProfile#external_ip_blocklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#external_ip_blocklist ObjectDnsfilterProfile#external_ip_blocklist}
   */
   readonly externalIpBlocklist?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#log_all_domain ObjectDnsfilterProfile#log_all_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#log_all_domain ObjectDnsfilterProfile#log_all_domain}
   */
   readonly logAllDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#name ObjectDnsfilterProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#name ObjectDnsfilterProfile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#redirect_portal ObjectDnsfilterProfile#redirect_portal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#redirect_portal ObjectDnsfilterProfile#redirect_portal}
   */
   readonly redirectPortal?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#redirect_portal6 ObjectDnsfilterProfile#redirect_portal6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#redirect_portal6 ObjectDnsfilterProfile#redirect_portal6}
   */
   readonly redirectPortal6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#safe_search ObjectDnsfilterProfile#safe_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#safe_search ObjectDnsfilterProfile#safe_search}
   */
   readonly safeSearch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#scopetype ObjectDnsfilterProfile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#scopetype ObjectDnsfilterProfile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#sdns_domain_log ObjectDnsfilterProfile#sdns_domain_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#sdns_domain_log ObjectDnsfilterProfile#sdns_domain_log}
   */
   readonly sdnsDomainLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#sdns_ftgd_err_log ObjectDnsfilterProfile#sdns_ftgd_err_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#sdns_ftgd_err_log ObjectDnsfilterProfile#sdns_ftgd_err_log}
   */
   readonly sdnsFtgdErrLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#strip_ech ObjectDnsfilterProfile#strip_ech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#strip_ech ObjectDnsfilterProfile#strip_ech}
   */
   readonly stripEch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#transparent_dns_database ObjectDnsfilterProfile#transparent_dns_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#transparent_dns_database ObjectDnsfilterProfile#transparent_dns_database}
   */
   readonly transparentDnsDatabase?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#youtube_restrict ObjectDnsfilterProfile#youtube_restrict}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#youtube_restrict ObjectDnsfilterProfile#youtube_restrict}
   */
   readonly youtubeRestrict?: string;
   /**
   * dns_translation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#dns_translation ObjectDnsfilterProfile#dns_translation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#dns_translation ObjectDnsfilterProfile#dns_translation}
   */
   readonly dnsTranslation?: ObjectDnsfilterProfileDnsTranslation[] | cdktf.IResolvable;
   /**
   * domain_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#domain_filter ObjectDnsfilterProfile#domain_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#domain_filter ObjectDnsfilterProfile#domain_filter}
   */
   readonly domainFilter?: ObjectDnsfilterProfileDomainFilter;
   /**
   * ftgd_dns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#ftgd_dns ObjectDnsfilterProfile#ftgd_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#ftgd_dns ObjectDnsfilterProfile#ftgd_dns}
   */
   readonly ftgdDns?: ObjectDnsfilterProfileFtgdDns;
 }
 export interface ObjectDnsfilterProfileDnsTranslation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#addr_type ObjectDnsfilterProfile#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#addr_type ObjectDnsfilterProfile#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#dst ObjectDnsfilterProfile#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#dst ObjectDnsfilterProfile#dst}
   */
   readonly dst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#dst6 ObjectDnsfilterProfile#dst6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#dst6 ObjectDnsfilterProfile#dst6}
   */
   readonly dst6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#netmask ObjectDnsfilterProfile#netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#netmask ObjectDnsfilterProfile#netmask}
   */
   readonly netmask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#prefix ObjectDnsfilterProfile#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#prefix ObjectDnsfilterProfile#prefix}
   */
   readonly prefix?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#src ObjectDnsfilterProfile#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#src ObjectDnsfilterProfile#src}
   */
   readonly src?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#src6 ObjectDnsfilterProfile#src6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#src6 ObjectDnsfilterProfile#src6}
   */
   readonly src6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#status ObjectDnsfilterProfile#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#status ObjectDnsfilterProfile#status}
   */
   readonly status?: string;
 }
@@ -486,7 +486,7 @@ export class ObjectDnsfilterProfileDnsTranslationList extends cdktf.ComplexList 
 }
 export interface ObjectDnsfilterProfileDomainFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#domain_filter_table ObjectDnsfilterProfile#domain_filter_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#domain_filter_table ObjectDnsfilterProfile#domain_filter_table}
   */
   readonly domainFilterTable?: number;
 }
@@ -570,22 +570,22 @@ export class ObjectDnsfilterProfileDomainFilterOutputReference extends cdktf.Com
 }
 export interface ObjectDnsfilterProfileFtgdDnsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#action ObjectDnsfilterProfile#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#action ObjectDnsfilterProfile#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#category ObjectDnsfilterProfile#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#category ObjectDnsfilterProfile#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#id ObjectDnsfilterProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#log ObjectDnsfilterProfile#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#log ObjectDnsfilterProfile#log}
   */
   readonly log?: string;
 }
@@ -788,13 +788,13 @@ export class ObjectDnsfilterProfileFtgdDnsFiltersList extends cdktf.ComplexList 
 }
 export interface ObjectDnsfilterProfileFtgdDns {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#options ObjectDnsfilterProfile#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#options ObjectDnsfilterProfile#options}
   */
   readonly options?: string[];
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#filters ObjectDnsfilterProfile#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#filters ObjectDnsfilterProfile#filters}
   */
   readonly filters?: ObjectDnsfilterProfileFtgdDnsFilters[] | cdktf.IResolvable;
 }
@@ -907,7 +907,7 @@ export class ObjectDnsfilterProfileFtgdDnsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile fortimanager_object_dnsfilter_profile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile fortimanager_object_dnsfilter_profile}
 */
 export class ObjectDnsfilterProfile extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class ObjectDnsfilterProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectDnsfilterProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectDnsfilterProfile to import
-  * @param importFromId The id of the existing ObjectDnsfilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectDnsfilterProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectDnsfilterProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class ObjectDnsfilterProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_dnsfilter_profile fortimanager_object_dnsfilter_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_dnsfilter_profile fortimanager_object_dnsfilter_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class ObjectDnsfilterProfile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_dnsfilter_profile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

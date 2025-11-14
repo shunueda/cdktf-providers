@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface SystemSamlServiceprovidersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#id SystemSamlServiceproviders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#id SystemSamlServiceproviders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#idp_entity_id SystemSamlServiceproviders#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#idp_entity_id SystemSamlServiceproviders#idp_entity_id}
   */
   readonly idpEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#idp_single_logout_url SystemSamlServiceproviders#idp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#idp_single_logout_url SystemSamlServiceproviders#idp_single_logout_url}
   */
   readonly idpSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#idp_single_sign_on_url SystemSamlServiceproviders#idp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#idp_single_sign_on_url SystemSamlServiceproviders#idp_single_sign_on_url}
   */
   readonly idpSingleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#name SystemSamlServiceproviders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#name SystemSamlServiceproviders#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#prefix SystemSamlServiceproviders#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#prefix SystemSamlServiceproviders#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_adom SystemSamlServiceproviders#sp_adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_adom SystemSamlServiceproviders#sp_adom}
   */
   readonly spAdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_cert SystemSamlServiceproviders#sp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_cert SystemSamlServiceproviders#sp_cert}
   */
   readonly spCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_entity_id SystemSamlServiceproviders#sp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_entity_id SystemSamlServiceproviders#sp_entity_id}
   */
   readonly spEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_profile SystemSamlServiceproviders#sp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_profile SystemSamlServiceproviders#sp_profile}
   */
   readonly spProfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_single_logout_url SystemSamlServiceproviders#sp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_single_logout_url SystemSamlServiceproviders#sp_single_logout_url}
   */
   readonly spSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#sp_single_sign_on_url SystemSamlServiceproviders#sp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#sp_single_sign_on_url SystemSamlServiceproviders#sp_single_sign_on_url}
   */
   readonly spSingleSignOnUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders fortimanager_system_saml_serviceproviders}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders fortimanager_system_saml_serviceproviders}
 */
 export class SystemSamlServiceproviders extends cdktf.TerraformResource {
 
@@ -77,7 +77,7 @@ export class SystemSamlServiceproviders extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSamlServiceproviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSamlServiceproviders to import
-  * @param importFromId The id of the existing SystemSamlServiceproviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSamlServiceproviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSamlServiceproviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -89,7 +89,7 @@ export class SystemSamlServiceproviders extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/system_saml_serviceproviders fortimanager_system_saml_serviceproviders} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/system_saml_serviceproviders fortimanager_system_saml_serviceproviders} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -100,8 +100,8 @@ export class SystemSamlServiceproviders extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_system_saml_serviceproviders',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

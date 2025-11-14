@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,546 +8,570 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectSystemNpuConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#adom ObjectSystemNpu#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#adom ObjectSystemNpu#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#capwap_offload ObjectSystemNpu#capwap_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#capwap_offload ObjectSystemNpu#capwap_offload}
   */
   readonly capwapOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dedicated_lacp_queue ObjectSystemNpu#dedicated_lacp_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dedicated_lacp_queue ObjectSystemNpu#dedicated_lacp_queue}
   */
   readonly dedicatedLacpQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dedicated_management_affinity ObjectSystemNpu#dedicated_management_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dedicated_management_affinity ObjectSystemNpu#dedicated_management_affinity}
   */
   readonly dedicatedManagementAffinity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dedicated_management_cpu ObjectSystemNpu#dedicated_management_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dedicated_management_cpu ObjectSystemNpu#dedicated_management_cpu}
   */
   readonly dedicatedManagementCpu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#default_qos_type ObjectSystemNpu#default_qos_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#default_qos_type ObjectSystemNpu#default_qos_type}
   */
   readonly defaultQosType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#default_tcp_refresh_dir ObjectSystemNpu#default_tcp_refresh_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#default_tcp_refresh_dir ObjectSystemNpu#default_tcp_refresh_dir}
   */
   readonly defaultTcpRefreshDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#default_udp_refresh_dir ObjectSystemNpu#default_udp_refresh_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#default_udp_refresh_dir ObjectSystemNpu#default_udp_refresh_dir}
   */
   readonly defaultUdpRefreshDir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#double_level_mcast_offload ObjectSystemNpu#double_level_mcast_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#double_level_mcast_offload ObjectSystemNpu#double_level_mcast_offload}
   */
   readonly doubleLevelMcastOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dse_timeout ObjectSystemNpu#dse_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dse_timeout ObjectSystemNpu#dse_timeout}
   */
   readonly dseTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dynamic_sort_subtable ObjectSystemNpu#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dynamic_sort_subtable ObjectSystemNpu#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fastpath ObjectSystemNpu#fastpath}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fastpath ObjectSystemNpu#fastpath}
   */
   readonly fastpath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gtp_enhanced_cpu_range ObjectSystemNpu#gtp_enhanced_cpu_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gtp_enhanced_cpu_range ObjectSystemNpu#gtp_enhanced_cpu_range}
   */
   readonly gtpEnhancedCpuRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gtp_enhanced_mode ObjectSystemNpu#gtp_enhanced_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gtp_enhanced_mode ObjectSystemNpu#gtp_enhanced_mode}
   */
   readonly gtpEnhancedMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gtp_support ObjectSystemNpu#gtp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gtp_support ObjectSystemNpu#gtp_support}
   */
   readonly gtpSupport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#hash_config ObjectSystemNpu#hash_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#hash_config ObjectSystemNpu#hash_config}
   */
   readonly hashConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#hash_ipv6_sel ObjectSystemNpu#hash_ipv6_sel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#hash_ipv6_sel ObjectSystemNpu#hash_ipv6_sel}
   */
   readonly hashIpv6Sel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#hash_tbl_spread ObjectSystemNpu#hash_tbl_spread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#hash_tbl_spread ObjectSystemNpu#hash_tbl_spread}
   */
   readonly hashTblSpread?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#host_shortcut_mode ObjectSystemNpu#host_shortcut_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#host_shortcut_mode ObjectSystemNpu#host_shortcut_mode}
   */
   readonly hostShortcutMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#htab_dedi_queue_nr ObjectSystemNpu#htab_dedi_queue_nr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#htab_dedi_queue_nr ObjectSystemNpu#htab_dedi_queue_nr}
   */
   readonly htabDediQueueNr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#htab_msg_queue ObjectSystemNpu#htab_msg_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#htab_msg_queue ObjectSystemNpu#htab_msg_queue}
   */
   readonly htabMsgQueue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#htx_gtse_quota ObjectSystemNpu#htx_gtse_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#htx_gtse_quota ObjectSystemNpu#htx_gtse_quota}
   */
   readonly htxGtseQuota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#htx_icmp_csum_chk ObjectSystemNpu#htx_icmp_csum_chk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#htx_icmp_csum_chk ObjectSystemNpu#htx_icmp_csum_chk}
   */
   readonly htxIcmpCsumChk?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#hw_ha_scan_interval ObjectSystemNpu#hw_ha_scan_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#hw_ha_scan_interval ObjectSystemNpu#hw_ha_scan_interval}
   */
   readonly hwHaScanInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#inbound_dscp_copy ObjectSystemNpu#inbound_dscp_copy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#inbound_dscp_copy ObjectSystemNpu#inbound_dscp_copy}
   */
   readonly inboundDscpCopy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#inbound_dscp_copy_port ObjectSystemNpu#inbound_dscp_copy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#inbound_dscp_copy_port ObjectSystemNpu#inbound_dscp_copy_port}
   */
   readonly inboundDscpCopyPort?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#intf_shaping_offload ObjectSystemNpu#intf_shaping_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#intf_shaping_offload ObjectSystemNpu#intf_shaping_offload}
   */
   readonly intfShapingOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_fragment_offload ObjectSystemNpu#ip_fragment_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_fragment_offload ObjectSystemNpu#ip_fragment_offload}
   */
   readonly ipFragmentOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#iph_rsvd_re_cksum ObjectSystemNpu#iph_rsvd_re_cksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#iph_rsvd_re_cksum ObjectSystemNpu#iph_rsvd_re_cksum}
   */
   readonly iphRsvdReCksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ippool_overload_high ObjectSystemNpu#ippool_overload_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ippool_overload_high ObjectSystemNpu#ippool_overload_high}
   */
   readonly ippoolOverloadHigh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ippool_overload_low ObjectSystemNpu#ippool_overload_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ippool_overload_low ObjectSystemNpu#ippool_overload_low}
   */
   readonly ippoolOverloadLow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_dec_subengine_mask ObjectSystemNpu#ipsec_dec_subengine_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_dec_subengine_mask ObjectSystemNpu#ipsec_dec_subengine_mask}
   */
   readonly ipsecDecSubengineMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_enc_subengine_mask ObjectSystemNpu#ipsec_enc_subengine_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_enc_subengine_mask ObjectSystemNpu#ipsec_enc_subengine_mask}
   */
   readonly ipsecEncSubengineMask?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_host_dfclr ObjectSystemNpu#ipsec_host_dfclr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_host_dfclr ObjectSystemNpu#ipsec_host_dfclr}
   */
   readonly ipsecHostDfclr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_inbound_cache ObjectSystemNpu#ipsec_inbound_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_inbound_cache ObjectSystemNpu#ipsec_inbound_cache}
   */
   readonly ipsecInboundCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_local_uesp_port ObjectSystemNpu#ipsec_local_uesp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_local_uesp_port ObjectSystemNpu#ipsec_local_uesp_port}
   */
   readonly ipsecLocalUespPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_mtu_override ObjectSystemNpu#ipsec_mtu_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_mtu_override ObjectSystemNpu#ipsec_mtu_override}
   */
   readonly ipsecMtuOverride?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_ob_np_sel ObjectSystemNpu#ipsec_ob_np_sel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_ob_np_sel ObjectSystemNpu#ipsec_ob_np_sel}
   */
   readonly ipsecObNpSel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_over_vlink ObjectSystemNpu#ipsec_over_vlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_ordering ObjectSystemNpu#ipsec_ordering}
+  */
+  readonly ipsecOrdering?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_over_vlink ObjectSystemNpu#ipsec_over_vlink}
   */
   readonly ipsecOverVlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_sts_timeout ObjectSystemNpu#ipsec_sts_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_sts_timeout ObjectSystemNpu#ipsec_sts_timeout}
   */
   readonly ipsecStsTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipsec_throughput_msg_frequency ObjectSystemNpu#ipsec_throughput_msg_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipsec_throughput_msg_frequency ObjectSystemNpu#ipsec_throughput_msg_frequency}
   */
   readonly ipsecThroughputMsgFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipt_sts_timeout ObjectSystemNpu#ipt_sts_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipt_sts_timeout ObjectSystemNpu#ipt_sts_timeout}
   */
   readonly iptStsTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipt_throughput_msg_frequency ObjectSystemNpu#ipt_throughput_msg_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipt_throughput_msg_frequency ObjectSystemNpu#ipt_throughput_msg_frequency}
   */
   readonly iptThroughputMsgFrequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_session_quota ObjectSystemNpu#ipv4_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_session_quota ObjectSystemNpu#ipv4_session_quota}
   */
   readonly ipv4SessionQuota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_session_quota_high ObjectSystemNpu#ipv4_session_quota_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_session_quota_high ObjectSystemNpu#ipv4_session_quota_high}
   */
   readonly ipv4SessionQuotaHigh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_session_quota_low ObjectSystemNpu#ipv4_session_quota_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_session_quota_low ObjectSystemNpu#ipv4_session_quota_low}
   */
   readonly ipv4SessionQuotaLow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_prefix_session_quota ObjectSystemNpu#ipv6_prefix_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_prefix_session_quota ObjectSystemNpu#ipv6_prefix_session_quota}
   */
   readonly ipv6PrefixSessionQuota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_prefix_session_quota_high ObjectSystemNpu#ipv6_prefix_session_quota_high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_prefix_session_quota_high ObjectSystemNpu#ipv6_prefix_session_quota_high}
   */
   readonly ipv6PrefixSessionQuotaHigh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_prefix_session_quota_low ObjectSystemNpu#ipv6_prefix_session_quota_low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_prefix_session_quota_low ObjectSystemNpu#ipv6_prefix_session_quota_low}
   */
   readonly ipv6PrefixSessionQuotaLow?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#isf_np_rx_tr_distr ObjectSystemNpu#isf_np_rx_tr_distr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#isf_np_rx_tr_distr ObjectSystemNpu#isf_np_rx_tr_distr}
   */
   readonly isfNpRxTrDistr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#lag_out_port_select ObjectSystemNpu#lag_out_port_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#lag_hash_gre ObjectSystemNpu#lag_hash_gre}
+  */
+  readonly lagHashGre?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#lag_out_port_select ObjectSystemNpu#lag_out_port_select}
   */
   readonly lagOutPortSelect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#max_receive_unit ObjectSystemNpu#max_receive_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#max_receive_unit ObjectSystemNpu#max_receive_unit}
   */
   readonly maxReceiveUnit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#max_session_timeout ObjectSystemNpu#max_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#max_session_timeout ObjectSystemNpu#max_session_timeout}
   */
   readonly maxSessionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mcast_session_accounting ObjectSystemNpu#mcast_session_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mcast_session_accounting ObjectSystemNpu#mcast_session_accounting}
   */
   readonly mcastSessionAccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mcast_session_counting ObjectSystemNpu#mcast_session_counting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mcast_session_counting ObjectSystemNpu#mcast_session_counting}
   */
   readonly mcastSessionCounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mcast_session_counting6 ObjectSystemNpu#mcast_session_counting6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mcast_session_counting6 ObjectSystemNpu#mcast_session_counting6}
   */
   readonly mcastSessionCounting6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#napi_break_interval ObjectSystemNpu#napi_break_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#napi_break_interval ObjectSystemNpu#napi_break_interval}
   */
   readonly napiBreakInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#nat46_force_ipv4_packet_forwarding ObjectSystemNpu#nat46_force_ipv4_packet_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#nat46_force_ipv4_packet_forwarding ObjectSystemNpu#nat46_force_ipv4_packet_forwarding}
   */
   readonly nat46ForceIpv4PacketForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#np6_cps_optimization_mode ObjectSystemNpu#np6_cps_optimization_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#np6_cps_optimization_mode ObjectSystemNpu#np6_cps_optimization_mode}
   */
   readonly np6CpsOptimizationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_group_effective_scope ObjectSystemNpu#npu_group_effective_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_group_effective_scope ObjectSystemNpu#npu_group_effective_scope}
   */
   readonly npuGroupEffectiveScope?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#nss_threads_option ObjectSystemNpu#nss_threads_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#nss_threads_option ObjectSystemNpu#nss_threads_option}
   */
   readonly nssThreadsOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pba_eim ObjectSystemNpu#pba_eim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pba_eim ObjectSystemNpu#pba_eim}
   */
   readonly pbaEim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pba_port_select_mode ObjectSystemNpu#pba_port_select_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pba_port_select_mode ObjectSystemNpu#pba_port_select_mode}
   */
   readonly pbaPortSelectMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#per_policy_accounting ObjectSystemNpu#per_policy_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#per_policy_accounting ObjectSystemNpu#per_policy_accounting}
   */
   readonly perPolicyAccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#per_session_accounting ObjectSystemNpu#per_session_accounting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#per_session_accounting ObjectSystemNpu#per_session_accounting}
   */
   readonly perSessionAccounting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ple_non_syn_tcp_action ObjectSystemNpu#ple_non_syn_tcp_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ple_non_syn_tcp_action ObjectSystemNpu#ple_non_syn_tcp_action}
   */
   readonly pleNonSynTcpAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#policy_offload_level ObjectSystemNpu#policy_offload_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#policy_offload_level ObjectSystemNpu#policy_offload_level}
   */
   readonly policyOffloadLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#process_icmp_by_host ObjectSystemNpu#process_icmp_by_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#process_icmp_by_host ObjectSystemNpu#process_icmp_by_host}
   */
   readonly processIcmpByHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#prp_port_in ObjectSystemNpu#prp_port_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#prp_port_in ObjectSystemNpu#prp_port_in}
   */
   readonly prpPortIn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#prp_port_out ObjectSystemNpu#prp_port_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#prp_port_out ObjectSystemNpu#prp_port_out}
   */
   readonly prpPortOut?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#prp_session_clear_mode ObjectSystemNpu#prp_session_clear_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#prp_session_clear_mode ObjectSystemNpu#prp_session_clear_mode}
   */
   readonly prpSessionClearMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#qos_mode ObjectSystemNpu#qos_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#qos_mode ObjectSystemNpu#qos_mode}
   */
   readonly qosMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#qtm_buf_mode ObjectSystemNpu#qtm_buf_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#qtm_buf_mode ObjectSystemNpu#qtm_buf_mode}
   */
   readonly qtmBufMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#rdp_offload ObjectSystemNpu#rdp_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#rdp_offload ObjectSystemNpu#rdp_offload}
   */
   readonly rdpOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#recover_np6_link ObjectSystemNpu#recover_np6_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#recover_np6_link ObjectSystemNpu#recover_np6_link}
   */
   readonly recoverNp6Link?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#rps_mode ObjectSystemNpu#rps_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#rps_mode ObjectSystemNpu#rps_mode}
   */
   readonly rpsMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#scopetype ObjectSystemNpu#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#scopetype ObjectSystemNpu#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#session_acct_interval ObjectSystemNpu#session_acct_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#session_acct_interval ObjectSystemNpu#session_acct_interval}
   */
   readonly sessionAcctInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#session_denied_offload ObjectSystemNpu#session_denied_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#session_denied_offload ObjectSystemNpu#session_denied_offload}
   */
   readonly sessionDeniedOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#shaping_stats ObjectSystemNpu#shaping_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#shaping_stats ObjectSystemNpu#shaping_stats}
   */
   readonly shapingStats?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#spa_port_select_mode ObjectSystemNpu#spa_port_select_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#spa_port_select_mode ObjectSystemNpu#spa_port_select_mode}
   */
   readonly spaPortSelectMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#split_ipsec_engines ObjectSystemNpu#split_ipsec_engines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#split_ipsec_engines ObjectSystemNpu#split_ipsec_engines}
   */
   readonly splitIpsecEngines?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sse_backpressure ObjectSystemNpu#sse_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sse_backpressure ObjectSystemNpu#sse_backpressure}
   */
   readonly sseBackpressure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#strip_clear_text_padding ObjectSystemNpu#strip_clear_text_padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#strip_clear_text_padding ObjectSystemNpu#strip_clear_text_padding}
   */
   readonly stripClearTextPadding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#strip_esp_padding ObjectSystemNpu#strip_esp_padding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#strip_esp_padding ObjectSystemNpu#strip_esp_padding}
   */
   readonly stripEspPadding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sw_np_bandwidth ObjectSystemNpu#sw_np_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_np_bandwidth ObjectSystemNpu#sw_np_bandwidth}
   */
   readonly swNpBandwidth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#switch_np_hash ObjectSystemNpu#switch_np_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_np_pause ObjectSystemNpu#sw_np_pause}
+  */
+  readonly swNpPause?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_np_rate ObjectSystemNpu#sw_np_rate}
+  */
+  readonly swNpRate?: number;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_np_rate_unit ObjectSystemNpu#sw_np_rate_unit}
+  */
+  readonly swNpRateUnit?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#switch_np_hash ObjectSystemNpu#switch_np_hash}
   */
   readonly switchNpHash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_rst_timeout ObjectSystemNpu#tcp_rst_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_rst_timeout ObjectSystemNpu#tcp_rst_timeout}
   */
   readonly tcpRstTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tunnel_over_vlink ObjectSystemNpu#tunnel_over_vlink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tunnel_over_vlink ObjectSystemNpu#tunnel_over_vlink}
   */
   readonly tunnelOverVlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#uesp_offload ObjectSystemNpu#uesp_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#uesp_offload ObjectSystemNpu#uesp_offload}
   */
   readonly uespOffload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ull_port_mode ObjectSystemNpu#ull_port_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ull_port_mode ObjectSystemNpu#ull_port_mode}
   */
   readonly ullPortMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vlan_lookup_cache ObjectSystemNpu#vlan_lookup_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#use_mse_oft ObjectSystemNpu#use_mse_oft}
+  */
+  readonly useMseOft?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vlan_lookup_cache ObjectSystemNpu#vlan_lookup_cache}
   */
   readonly vlanLookupCache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vxlan_offload ObjectSystemNpu#vxlan_offload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vxlan_offload ObjectSystemNpu#vxlan_offload}
   */
   readonly vxlanOffload?: string;
   /**
   * background_sse_scan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#background_sse_scan ObjectSystemNpu#background_sse_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#background_sse_scan ObjectSystemNpu#background_sse_scan}
   */
   readonly backgroundSseScan?: ObjectSystemNpuBackgroundSseScan;
   /**
   * dos_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dos_options ObjectSystemNpu#dos_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dos_options ObjectSystemNpu#dos_options}
   */
   readonly dosOptions?: ObjectSystemNpuDosOptions;
   /**
   * dsw_dts_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dsw_dts_profile ObjectSystemNpu#dsw_dts_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dsw_dts_profile ObjectSystemNpu#dsw_dts_profile}
   */
   readonly dswDtsProfile?: ObjectSystemNpuDswDtsProfile[] | cdktf.IResolvable;
   /**
   * dsw_queue_dts_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dsw_queue_dts_profile ObjectSystemNpu#dsw_queue_dts_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dsw_queue_dts_profile ObjectSystemNpu#dsw_queue_dts_profile}
   */
   readonly dswQueueDtsProfile?: ObjectSystemNpuDswQueueDtsProfile[] | cdktf.IResolvable;
   /**
   * fp_anomaly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fp_anomaly ObjectSystemNpu#fp_anomaly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fp_anomaly ObjectSystemNpu#fp_anomaly}
   */
   readonly fpAnomaly?: ObjectSystemNpuFpAnomaly;
   /**
   * hpe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#hpe ObjectSystemNpu#hpe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#hpe ObjectSystemNpu#hpe}
   */
   readonly hpe?: ObjectSystemNpuHpe;
   /**
   * icmp_error_rate_ctrl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_error_rate_ctrl ObjectSystemNpu#icmp_error_rate_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_error_rate_ctrl ObjectSystemNpu#icmp_error_rate_ctrl}
   */
   readonly icmpErrorRateCtrl?: ObjectSystemNpuIcmpErrorRateCtrl;
   /**
   * icmp_rate_ctrl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_rate_ctrl ObjectSystemNpu#icmp_rate_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_rate_ctrl ObjectSystemNpu#icmp_rate_ctrl}
   */
   readonly icmpRateCtrl?: ObjectSystemNpuIcmpRateCtrl;
   /**
   * ip_reassembly block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_reassembly ObjectSystemNpu#ip_reassembly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_reassembly ObjectSystemNpu#ip_reassembly}
   */
   readonly ipReassembly?: ObjectSystemNpuIpReassembly;
   /**
   * isf_np_queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#isf_np_queues ObjectSystemNpu#isf_np_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#isf_np_queues ObjectSystemNpu#isf_np_queues}
   */
   readonly isfNpQueues?: ObjectSystemNpuIsfNpQueues;
   /**
   * np_queues block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#np_queues ObjectSystemNpu#np_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#np_queues ObjectSystemNpu#np_queues}
   */
   readonly npQueues?: ObjectSystemNpuNpQueues;
   /**
   * npu_tcam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_tcam ObjectSystemNpu#npu_tcam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_tcam ObjectSystemNpu#npu_tcam}
   */
   readonly npuTcam?: ObjectSystemNpuNpuTcam[] | cdktf.IResolvable;
   /**
   * port_cpu_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#port_cpu_map ObjectSystemNpu#port_cpu_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#port_cpu_map ObjectSystemNpu#port_cpu_map}
   */
   readonly portCpuMap?: ObjectSystemNpuPortCpuMap[] | cdktf.IResolvable;
   /**
   * port_npu_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#port_npu_map ObjectSystemNpu#port_npu_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#port_npu_map ObjectSystemNpu#port_npu_map}
   */
   readonly portNpuMap?: ObjectSystemNpuPortNpuMap[] | cdktf.IResolvable;
   /**
   * port_path_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#port_path_option ObjectSystemNpu#port_path_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#port_path_option ObjectSystemNpu#port_path_option}
   */
   readonly portPathOption?: ObjectSystemNpuPortPathOption;
   /**
   * priority_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#priority_protocol ObjectSystemNpu#priority_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#priority_protocol ObjectSystemNpu#priority_protocol}
   */
   readonly priorityProtocol?: ObjectSystemNpuPriorityProtocol;
   /**
   * sse_ha_scan block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sse_ha_scan ObjectSystemNpu#sse_ha_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sse_ha_scan ObjectSystemNpu#sse_ha_scan}
   */
   readonly sseHaScan?: ObjectSystemNpuSseHaScan;
   /**
   * sw_eh_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sw_eh_hash ObjectSystemNpu#sw_eh_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_eh_hash ObjectSystemNpu#sw_eh_hash}
   */
   readonly swEhHash?: ObjectSystemNpuSwEhHash;
   /**
   * sw_tr_hash block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sw_tr_hash ObjectSystemNpu#sw_tr_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sw_tr_hash ObjectSystemNpu#sw_tr_hash}
   */
   readonly swTrHash?: ObjectSystemNpuSwTrHash;
   /**
   * tcp_timeout_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_timeout_profile ObjectSystemNpu#tcp_timeout_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_timeout_profile ObjectSystemNpu#tcp_timeout_profile}
   */
   readonly tcpTimeoutProfile?: ObjectSystemNpuTcpTimeoutProfile[] | cdktf.IResolvable;
   /**
   * udp_timeout_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_timeout_profile ObjectSystemNpu#udp_timeout_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_timeout_profile ObjectSystemNpu#udp_timeout_profile}
   */
   readonly udpTimeoutProfile?: ObjectSystemNpuUdpTimeoutProfile[] | cdktf.IResolvable;
 }
 export interface ObjectSystemNpuBackgroundSseScan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#scan ObjectSystemNpu#scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#scan ObjectSystemNpu#scan}
   */
   readonly scan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#scan_stale ObjectSystemNpu#scan_stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#scan_stale ObjectSystemNpu#scan_stale}
   */
   readonly scanStale?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#scan_vt ObjectSystemNpu#scan_vt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#scan_vt ObjectSystemNpu#scan_vt}
   */
   readonly scanVt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#stats_qual_access ObjectSystemNpu#stats_qual_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#stats_qual_access ObjectSystemNpu#stats_qual_access}
   */
   readonly statsQualAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#stats_qual_duration ObjectSystemNpu#stats_qual_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#stats_qual_duration ObjectSystemNpu#stats_qual_duration}
   */
   readonly statsQualDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#stats_update_interval ObjectSystemNpu#stats_update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#stats_update_interval ObjectSystemNpu#stats_update_interval}
   */
   readonly statsUpdateInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_keepalive_interval ObjectSystemNpu#udp_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_keepalive_interval ObjectSystemNpu#udp_keepalive_interval}
   */
   readonly udpKeepaliveInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_qual_access ObjectSystemNpu#udp_qual_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_qual_access ObjectSystemNpu#udp_qual_access}
   */
   readonly udpQualAccess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_qual_duration ObjectSystemNpu#udp_qual_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_qual_duration ObjectSystemNpu#udp_qual_duration}
   */
   readonly udpQualDuration?: number;
 }
@@ -749,7 +773,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._scanStale;
   }
 
-  // scan_vt - computed: false, optional: true, required: false
+  // scan_vt - computed: true, optional: true, required: false
   private _scanVt?: number; 
   public get scanVt() {
     return this.getNumberAttribute('scan_vt');
@@ -765,7 +789,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._scanVt;
   }
 
-  // stats_qual_access - computed: false, optional: true, required: false
+  // stats_qual_access - computed: true, optional: true, required: false
   private _statsQualAccess?: number; 
   public get statsQualAccess() {
     return this.getNumberAttribute('stats_qual_access');
@@ -781,7 +805,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._statsQualAccess;
   }
 
-  // stats_qual_duration - computed: false, optional: true, required: false
+  // stats_qual_duration - computed: true, optional: true, required: false
   private _statsQualDuration?: number; 
   public get statsQualDuration() {
     return this.getNumberAttribute('stats_qual_duration');
@@ -797,7 +821,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._statsQualDuration;
   }
 
-  // stats_update_interval - computed: false, optional: true, required: false
+  // stats_update_interval - computed: true, optional: true, required: false
   private _statsUpdateInterval?: number; 
   public get statsUpdateInterval() {
     return this.getNumberAttribute('stats_update_interval');
@@ -813,7 +837,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._statsUpdateInterval;
   }
 
-  // udp_keepalive_interval - computed: false, optional: true, required: false
+  // udp_keepalive_interval - computed: true, optional: true, required: false
   private _udpKeepaliveInterval?: number; 
   public get udpKeepaliveInterval() {
     return this.getNumberAttribute('udp_keepalive_interval');
@@ -829,7 +853,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._udpKeepaliveInterval;
   }
 
-  // udp_qual_access - computed: false, optional: true, required: false
+  // udp_qual_access - computed: true, optional: true, required: false
   private _udpQualAccess?: number; 
   public get udpQualAccess() {
     return this.getNumberAttribute('udp_qual_access');
@@ -845,7 +869,7 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
     return this._udpQualAccess;
   }
 
-  // udp_qual_duration - computed: false, optional: true, required: false
+  // udp_qual_duration - computed: true, optional: true, required: false
   private _udpQualDuration?: number; 
   public get udpQualDuration() {
     return this.getNumberAttribute('udp_qual_duration');
@@ -863,15 +887,15 @@ export class ObjectSystemNpuBackgroundSseScanOutputReference extends cdktf.Compl
 }
 export interface ObjectSystemNpuDosOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_dos_meter_mode ObjectSystemNpu#npu_dos_meter_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_dos_meter_mode ObjectSystemNpu#npu_dos_meter_mode}
   */
   readonly npuDosMeterMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_dos_synproxy_mode ObjectSystemNpu#npu_dos_synproxy_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_dos_synproxy_mode ObjectSystemNpu#npu_dos_synproxy_mode}
   */
   readonly npuDosSynproxyMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_dos_tpe_mode ObjectSystemNpu#npu_dos_tpe_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_dos_tpe_mode ObjectSystemNpu#npu_dos_tpe_mode}
   */
   readonly npuDosTpeMode?: string;
 }
@@ -1013,19 +1037,19 @@ export class ObjectSystemNpuDosOptionsOutputReference extends cdktf.ComplexObjec
 }
 export interface ObjectSystemNpuDswDtsProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#action ObjectSystemNpu#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#action ObjectSystemNpu#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#min_limit ObjectSystemNpu#min_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#min_limit ObjectSystemNpu#min_limit}
   */
   readonly minLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#profile_id ObjectSystemNpu#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#profile_id ObjectSystemNpu#profile_id}
   */
   readonly profileId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#step ObjectSystemNpu#step}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#step ObjectSystemNpu#step}
   */
   readonly step?: number;
 }
@@ -1228,23 +1252,23 @@ export class ObjectSystemNpuDswDtsProfileList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuDswQueueDtsProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#iport ObjectSystemNpu#iport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#iport ObjectSystemNpu#iport}
   */
   readonly iport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#oport ObjectSystemNpu#oport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#oport ObjectSystemNpu#oport}
   */
   readonly oport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#profile_id ObjectSystemNpu#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#profile_id ObjectSystemNpu#profile_id}
   */
   readonly profileId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#queue_select ObjectSystemNpu#queue_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#queue_select ObjectSystemNpu#queue_select}
   */
   readonly queueSelect?: number;
 }
@@ -1476,267 +1500,267 @@ export class ObjectSystemNpuDswQueueDtsProfileList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuFpAnomaly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#capwap_minlen_err ObjectSystemNpu#capwap_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#capwap_minlen_err ObjectSystemNpu#capwap_minlen_err}
   */
   readonly capwapMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#esp_minlen_err ObjectSystemNpu#esp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#esp_minlen_err ObjectSystemNpu#esp_minlen_err}
   */
   readonly espMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gre_csum_err ObjectSystemNpu#gre_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gre_csum_err ObjectSystemNpu#gre_csum_err}
   */
   readonly greCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gtpu_plen_err ObjectSystemNpu#gtpu_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gtpu_plen_err ObjectSystemNpu#gtpu_plen_err}
   */
   readonly gtpuPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_csum_err ObjectSystemNpu#icmp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_csum_err ObjectSystemNpu#icmp_csum_err}
   */
   readonly icmpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_frag ObjectSystemNpu#icmp_frag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_frag ObjectSystemNpu#icmp_frag}
   */
   readonly icmpFrag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_land ObjectSystemNpu#icmp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_land ObjectSystemNpu#icmp_land}
   */
   readonly icmpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_minlen_err ObjectSystemNpu#icmp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_minlen_err ObjectSystemNpu#icmp_minlen_err}
   */
   readonly icmpMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_csum_err ObjectSystemNpu#ipv4_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_csum_err ObjectSystemNpu#ipv4_csum_err}
   */
   readonly ipv4CsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_ihl_err ObjectSystemNpu#ipv4_ihl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_ihl_err ObjectSystemNpu#ipv4_ihl_err}
   */
   readonly ipv4IhlErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_land ObjectSystemNpu#ipv4_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_land ObjectSystemNpu#ipv4_land}
   */
   readonly ipv4Land?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_len_err ObjectSystemNpu#ipv4_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_len_err ObjectSystemNpu#ipv4_len_err}
   */
   readonly ipv4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_opt_err ObjectSystemNpu#ipv4_opt_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_opt_err ObjectSystemNpu#ipv4_opt_err}
   */
   readonly ipv4OptErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_optlsrr ObjectSystemNpu#ipv4_optlsrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_optlsrr ObjectSystemNpu#ipv4_optlsrr}
   */
   readonly ipv4Optlsrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_optrr ObjectSystemNpu#ipv4_optrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_optrr ObjectSystemNpu#ipv4_optrr}
   */
   readonly ipv4Optrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_optsecurity ObjectSystemNpu#ipv4_optsecurity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_optsecurity ObjectSystemNpu#ipv4_optsecurity}
   */
   readonly ipv4Optsecurity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_optssrr ObjectSystemNpu#ipv4_optssrr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_optssrr ObjectSystemNpu#ipv4_optssrr}
   */
   readonly ipv4Optssrr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_optstream ObjectSystemNpu#ipv4_optstream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_optstream ObjectSystemNpu#ipv4_optstream}
   */
   readonly ipv4Optstream?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_opttimestamp ObjectSystemNpu#ipv4_opttimestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_opttimestamp ObjectSystemNpu#ipv4_opttimestamp}
   */
   readonly ipv4Opttimestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_proto_err ObjectSystemNpu#ipv4_proto_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_proto_err ObjectSystemNpu#ipv4_proto_err}
   */
   readonly ipv4ProtoErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_ttlzero_err ObjectSystemNpu#ipv4_ttlzero_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_ttlzero_err ObjectSystemNpu#ipv4_ttlzero_err}
   */
   readonly ipv4TtlzeroErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_unknopt ObjectSystemNpu#ipv4_unknopt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_unknopt ObjectSystemNpu#ipv4_unknopt}
   */
   readonly ipv4Unknopt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv4_ver_err ObjectSystemNpu#ipv4_ver_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv4_ver_err ObjectSystemNpu#ipv4_ver_err}
   */
   readonly ipv4VerErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_daddr_err ObjectSystemNpu#ipv6_daddr_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_daddr_err ObjectSystemNpu#ipv6_daddr_err}
   */
   readonly ipv6DaddrErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_exthdr_len_err ObjectSystemNpu#ipv6_exthdr_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_exthdr_len_err ObjectSystemNpu#ipv6_exthdr_len_err}
   */
   readonly ipv6ExthdrLenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_exthdr_order_err ObjectSystemNpu#ipv6_exthdr_order_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_exthdr_order_err ObjectSystemNpu#ipv6_exthdr_order_err}
   */
   readonly ipv6ExthdrOrderErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_ihl_err ObjectSystemNpu#ipv6_ihl_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_ihl_err ObjectSystemNpu#ipv6_ihl_err}
   */
   readonly ipv6IhlErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_land ObjectSystemNpu#ipv6_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_land ObjectSystemNpu#ipv6_land}
   */
   readonly ipv6Land?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_optendpid ObjectSystemNpu#ipv6_optendpid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_optendpid ObjectSystemNpu#ipv6_optendpid}
   */
   readonly ipv6Optendpid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_opthomeaddr ObjectSystemNpu#ipv6_opthomeaddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_opthomeaddr ObjectSystemNpu#ipv6_opthomeaddr}
   */
   readonly ipv6Opthomeaddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_optinvld ObjectSystemNpu#ipv6_optinvld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_optinvld ObjectSystemNpu#ipv6_optinvld}
   */
   readonly ipv6Optinvld?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_optjumbo ObjectSystemNpu#ipv6_optjumbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_optjumbo ObjectSystemNpu#ipv6_optjumbo}
   */
   readonly ipv6Optjumbo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_optnsap ObjectSystemNpu#ipv6_optnsap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_optnsap ObjectSystemNpu#ipv6_optnsap}
   */
   readonly ipv6Optnsap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_optralert ObjectSystemNpu#ipv6_optralert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_optralert ObjectSystemNpu#ipv6_optralert}
   */
   readonly ipv6Optralert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_opttunnel ObjectSystemNpu#ipv6_opttunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_opttunnel ObjectSystemNpu#ipv6_opttunnel}
   */
   readonly ipv6Opttunnel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_plen_zero ObjectSystemNpu#ipv6_plen_zero}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_plen_zero ObjectSystemNpu#ipv6_plen_zero}
   */
   readonly ipv6PlenZero?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_proto_err ObjectSystemNpu#ipv6_proto_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_proto_err ObjectSystemNpu#ipv6_proto_err}
   */
   readonly ipv6ProtoErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_saddr_err ObjectSystemNpu#ipv6_saddr_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_saddr_err ObjectSystemNpu#ipv6_saddr_err}
   */
   readonly ipv6SaddrErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_unknopt ObjectSystemNpu#ipv6_unknopt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_unknopt ObjectSystemNpu#ipv6_unknopt}
   */
   readonly ipv6Unknopt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipv6_ver_err ObjectSystemNpu#ipv6_ver_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipv6_ver_err ObjectSystemNpu#ipv6_ver_err}
   */
   readonly ipv6VerErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#nvgre_minlen_err ObjectSystemNpu#nvgre_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#nvgre_minlen_err ObjectSystemNpu#nvgre_minlen_err}
   */
   readonly nvgreMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sctp_clen_err ObjectSystemNpu#sctp_clen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sctp_clen_err ObjectSystemNpu#sctp_clen_err}
   */
   readonly sctpClenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sctp_crc_err ObjectSystemNpu#sctp_crc_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sctp_crc_err ObjectSystemNpu#sctp_crc_err}
   */
   readonly sctpCrcErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sctp_csum_err ObjectSystemNpu#sctp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sctp_csum_err ObjectSystemNpu#sctp_csum_err}
   */
   readonly sctpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sctp_l4len_err ObjectSystemNpu#sctp_l4len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sctp_l4len_err ObjectSystemNpu#sctp_l4len_err}
   */
   readonly sctpL4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_csum_err ObjectSystemNpu#tcp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_csum_err ObjectSystemNpu#tcp_csum_err}
   */
   readonly tcpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_fin_noack ObjectSystemNpu#tcp_fin_noack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_fin_noack ObjectSystemNpu#tcp_fin_noack}
   */
   readonly tcpFinNoack?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_fin_only ObjectSystemNpu#tcp_fin_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_fin_only ObjectSystemNpu#tcp_fin_only}
   */
   readonly tcpFinOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_hlen_err ObjectSystemNpu#tcp_hlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_hlen_err ObjectSystemNpu#tcp_hlen_err}
   */
   readonly tcpHlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_hlenvsl4len_err ObjectSystemNpu#tcp_hlenvsl4len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_hlenvsl4len_err ObjectSystemNpu#tcp_hlenvsl4len_err}
   */
   readonly tcpHlenvsl4LenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_land ObjectSystemNpu#tcp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_land ObjectSystemNpu#tcp_land}
   */
   readonly tcpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_no_flag ObjectSystemNpu#tcp_no_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_no_flag ObjectSystemNpu#tcp_no_flag}
   */
   readonly tcpNoFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_plen_err ObjectSystemNpu#tcp_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_plen_err ObjectSystemNpu#tcp_plen_err}
   */
   readonly tcpPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_syn_data ObjectSystemNpu#tcp_syn_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_syn_data ObjectSystemNpu#tcp_syn_data}
   */
   readonly tcpSynData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_syn_fin ObjectSystemNpu#tcp_syn_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_syn_fin ObjectSystemNpu#tcp_syn_fin}
   */
   readonly tcpSynFin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_winnuke ObjectSystemNpu#tcp_winnuke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_winnuke ObjectSystemNpu#tcp_winnuke}
   */
   readonly tcpWinnuke?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_csum_err ObjectSystemNpu#udp_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_csum_err ObjectSystemNpu#udp_csum_err}
   */
   readonly udpCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_hlen_err ObjectSystemNpu#udp_hlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_hlen_err ObjectSystemNpu#udp_hlen_err}
   */
   readonly udpHlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_land ObjectSystemNpu#udp_land}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_land ObjectSystemNpu#udp_land}
   */
   readonly udpLand?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_len_err ObjectSystemNpu#udp_len_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_len_err ObjectSystemNpu#udp_len_err}
   */
   readonly udpLenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_plen_err ObjectSystemNpu#udp_plen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_plen_err ObjectSystemNpu#udp_plen_err}
   */
   readonly udpPlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udplite_cover_err ObjectSystemNpu#udplite_cover_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udplite_cover_err ObjectSystemNpu#udplite_cover_err}
   */
   readonly udpliteCoverErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udplite_csum_err ObjectSystemNpu#udplite_csum_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udplite_csum_err ObjectSystemNpu#udplite_csum_err}
   */
   readonly udpliteCsumErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#uesp_minlen_err ObjectSystemNpu#uesp_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#uesp_minlen_err ObjectSystemNpu#uesp_minlen_err}
   */
   readonly uespMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#unknproto_minlen_err ObjectSystemNpu#unknproto_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#unknproto_minlen_err ObjectSystemNpu#unknproto_minlen_err}
   */
   readonly unknprotoMinlenErr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vxlan_minlen_err ObjectSystemNpu#vxlan_minlen_err}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vxlan_minlen_err ObjectSystemNpu#vxlan_minlen_err}
   */
   readonly vxlanMinlenErr?: string;
 }
@@ -3705,87 +3729,87 @@ export class ObjectSystemNpuFpAnomalyOutputReference extends cdktf.ComplexObject
 }
 export interface ObjectSystemNpuHpe {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#all_protocol ObjectSystemNpu#all_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#all_protocol ObjectSystemNpu#all_protocol}
   */
   readonly allProtocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#arp_max ObjectSystemNpu#arp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#arp_max ObjectSystemNpu#arp_max}
   */
   readonly arpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#enable_queue_shaper ObjectSystemNpu#enable_queue_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#enable_queue_shaper ObjectSystemNpu#enable_queue_shaper}
   */
   readonly enableQueueShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#enable_shaper ObjectSystemNpu#enable_shaper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#enable_shaper ObjectSystemNpu#enable_shaper}
   */
   readonly enableShaper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#esp_max ObjectSystemNpu#esp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#esp_max ObjectSystemNpu#esp_max}
   */
   readonly espMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#exception_code ObjectSystemNpu#exception_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#exception_code ObjectSystemNpu#exception_code}
   */
   readonly exceptionCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fragment_with_sess ObjectSystemNpu#fragment_with_sess}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fragment_with_sess ObjectSystemNpu#fragment_with_sess}
   */
   readonly fragmentWithSess?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fragment_without_session ObjectSystemNpu#fragment_without_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fragment_without_session ObjectSystemNpu#fragment_without_session}
   */
   readonly fragmentWithoutSession?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#high_priority ObjectSystemNpu#high_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#high_priority ObjectSystemNpu#high_priority}
   */
   readonly highPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_max ObjectSystemNpu#icmp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_max ObjectSystemNpu#icmp_max}
   */
   readonly icmpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_frag_max ObjectSystemNpu#ip_frag_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_frag_max ObjectSystemNpu#ip_frag_max}
   */
   readonly ipFragMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_others_max ObjectSystemNpu#ip_others_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_others_max ObjectSystemNpu#ip_others_max}
   */
   readonly ipOthersMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l2_others_max ObjectSystemNpu#l2_others_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l2_others_max ObjectSystemNpu#l2_others_max}
   */
   readonly l2OthersMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pri_type_max ObjectSystemNpu#pri_type_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pri_type_max ObjectSystemNpu#pri_type_max}
   */
   readonly priTypeMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#queue_shaper_max ObjectSystemNpu#queue_shaper_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#queue_shaper_max ObjectSystemNpu#queue_shaper_max}
   */
   readonly queueShaperMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sctp_max ObjectSystemNpu#sctp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sctp_max ObjectSystemNpu#sctp_max}
   */
   readonly sctpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_max ObjectSystemNpu#tcp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_max ObjectSystemNpu#tcp_max}
   */
   readonly tcpMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcpfin_rst_max ObjectSystemNpu#tcpfin_rst_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcpfin_rst_max ObjectSystemNpu#tcpfin_rst_max}
   */
   readonly tcpfinRstMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcpsyn_ack_max ObjectSystemNpu#tcpsyn_ack_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcpsyn_ack_max ObjectSystemNpu#tcpsyn_ack_max}
   */
   readonly tcpsynAckMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcpsyn_max ObjectSystemNpu#tcpsyn_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcpsyn_max ObjectSystemNpu#tcpsyn_max}
   */
   readonly tcpsynMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_max ObjectSystemNpu#udp_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_max ObjectSystemNpu#udp_max}
   */
   readonly udpMax?: number;
 }
@@ -4449,27 +4473,27 @@ export class ObjectSystemNpuHpeOutputReference extends cdktf.ComplexObject {
 }
 export interface ObjectSystemNpuIcmpErrorRateCtrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv4_error_bucket_size ObjectSystemNpu#icmpv4_error_bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv4_error_bucket_size ObjectSystemNpu#icmpv4_error_bucket_size}
   */
   readonly icmpv4ErrorBucketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv4_error_rate ObjectSystemNpu#icmpv4_error_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv4_error_rate ObjectSystemNpu#icmpv4_error_rate}
   */
   readonly icmpv4ErrorRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv4_error_rate_limit ObjectSystemNpu#icmpv4_error_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv4_error_rate_limit ObjectSystemNpu#icmpv4_error_rate_limit}
   */
   readonly icmpv4ErrorRateLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv6_error_bucket_size ObjectSystemNpu#icmpv6_error_bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv6_error_bucket_size ObjectSystemNpu#icmpv6_error_bucket_size}
   */
   readonly icmpv6ErrorBucketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv6_error_rate ObjectSystemNpu#icmpv6_error_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv6_error_rate ObjectSystemNpu#icmpv6_error_rate}
   */
   readonly icmpv6ErrorRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmpv6_error_rate_limit ObjectSystemNpu#icmpv6_error_rate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmpv6_error_rate_limit ObjectSystemNpu#icmpv6_error_rate_limit}
   */
   readonly icmpv6ErrorRateLimit?: string;
 }
@@ -4698,19 +4722,19 @@ export class ObjectSystemNpuIcmpErrorRateCtrlOutputReference extends cdktf.Compl
 }
 export interface ObjectSystemNpuIcmpRateCtrl {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_v4_bucket_size ObjectSystemNpu#icmp_v4_bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_v4_bucket_size ObjectSystemNpu#icmp_v4_bucket_size}
   */
   readonly icmpV4BucketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_v4_rate ObjectSystemNpu#icmp_v4_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_v4_rate ObjectSystemNpu#icmp_v4_rate}
   */
   readonly icmpV4Rate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_v6_bucket_size ObjectSystemNpu#icmp_v6_bucket_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_v6_bucket_size ObjectSystemNpu#icmp_v6_bucket_size}
   */
   readonly icmpV6BucketSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icmp_v6_rate ObjectSystemNpu#icmp_v6_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icmp_v6_rate ObjectSystemNpu#icmp_v6_rate}
   */
   readonly icmpV6Rate?: number;
 }
@@ -4881,15 +4905,15 @@ export class ObjectSystemNpuIcmpRateCtrlOutputReference extends cdktf.ComplexObj
 }
 export interface ObjectSystemNpuIpReassembly {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#max_timeout ObjectSystemNpu#max_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#max_timeout ObjectSystemNpu#max_timeout}
   */
   readonly maxTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#min_timeout ObjectSystemNpu#min_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#min_timeout ObjectSystemNpu#min_timeout}
   */
   readonly minTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#status ObjectSystemNpu#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#status ObjectSystemNpu#status}
   */
   readonly status?: string;
 }
@@ -5031,35 +5055,35 @@ export class ObjectSystemNpuIpReassemblyOutputReference extends cdktf.ComplexObj
 }
 export interface ObjectSystemNpuIsfNpQueues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos0 ObjectSystemNpu#cos0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos0 ObjectSystemNpu#cos0}
   */
   readonly cos0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos1 ObjectSystemNpu#cos1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos1 ObjectSystemNpu#cos1}
   */
   readonly cos1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos2 ObjectSystemNpu#cos2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos2 ObjectSystemNpu#cos2}
   */
   readonly cos2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos3 ObjectSystemNpu#cos3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos3 ObjectSystemNpu#cos3}
   */
   readonly cos3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos4 ObjectSystemNpu#cos4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos4 ObjectSystemNpu#cos4}
   */
   readonly cos4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos5 ObjectSystemNpu#cos5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos5 ObjectSystemNpu#cos5}
   */
   readonly cos5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos6 ObjectSystemNpu#cos6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos6 ObjectSystemNpu#cos6}
   */
   readonly cos6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos7 ObjectSystemNpu#cos7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos7 ObjectSystemNpu#cos7}
   */
   readonly cos7?: string;
 }
@@ -5346,19 +5370,19 @@ export class ObjectSystemNpuIsfNpQueuesOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectSystemNpuNpQueuesEthernetType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
   */
   readonly queue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
   */
   readonly type?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
   */
   readonly weight?: number;
 }
@@ -5561,19 +5585,19 @@ export class ObjectSystemNpuNpQueuesEthernetTypeList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuNpQueuesIpProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
   */
   readonly queue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
   */
   readonly weight?: number;
 }
@@ -5776,27 +5800,27 @@ export class ObjectSystemNpuNpQueuesIpProtocolList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuNpQueuesIpService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dport ObjectSystemNpu#dport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dport ObjectSystemNpu#dport}
   */
   readonly dport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#queue ObjectSystemNpu#queue}
   */
   readonly queue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sport ObjectSystemNpu#sport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sport ObjectSystemNpu#sport}
   */
   readonly sport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
   */
   readonly weight?: number;
 }
@@ -6057,306 +6081,306 @@ export class ObjectSystemNpuNpQueuesIpServiceList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuNpQueuesProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos0 ObjectSystemNpu#cos0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos0 ObjectSystemNpu#cos0}
   */
   readonly cos0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos1 ObjectSystemNpu#cos1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos1 ObjectSystemNpu#cos1}
   */
   readonly cos1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos2 ObjectSystemNpu#cos2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos2 ObjectSystemNpu#cos2}
   */
   readonly cos2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos3 ObjectSystemNpu#cos3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos3 ObjectSystemNpu#cos3}
   */
   readonly cos3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos4 ObjectSystemNpu#cos4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos4 ObjectSystemNpu#cos4}
   */
   readonly cos4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos5 ObjectSystemNpu#cos5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos5 ObjectSystemNpu#cos5}
   */
   readonly cos5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos6 ObjectSystemNpu#cos6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos6 ObjectSystemNpu#cos6}
   */
   readonly cos6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cos7 ObjectSystemNpu#cos7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cos7 ObjectSystemNpu#cos7}
   */
   readonly cos7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp0 ObjectSystemNpu#dscp0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp0 ObjectSystemNpu#dscp0}
   */
   readonly dscp0?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp1 ObjectSystemNpu#dscp1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp1 ObjectSystemNpu#dscp1}
   */
   readonly dscp1?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp10 ObjectSystemNpu#dscp10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp10 ObjectSystemNpu#dscp10}
   */
   readonly dscp10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp11 ObjectSystemNpu#dscp11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp11 ObjectSystemNpu#dscp11}
   */
   readonly dscp11?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp12 ObjectSystemNpu#dscp12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp12 ObjectSystemNpu#dscp12}
   */
   readonly dscp12?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp13 ObjectSystemNpu#dscp13}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp13 ObjectSystemNpu#dscp13}
   */
   readonly dscp13?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp14 ObjectSystemNpu#dscp14}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp14 ObjectSystemNpu#dscp14}
   */
   readonly dscp14?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp15 ObjectSystemNpu#dscp15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp15 ObjectSystemNpu#dscp15}
   */
   readonly dscp15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp16 ObjectSystemNpu#dscp16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp16 ObjectSystemNpu#dscp16}
   */
   readonly dscp16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp17 ObjectSystemNpu#dscp17}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp17 ObjectSystemNpu#dscp17}
   */
   readonly dscp17?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp18 ObjectSystemNpu#dscp18}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp18 ObjectSystemNpu#dscp18}
   */
   readonly dscp18?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp19 ObjectSystemNpu#dscp19}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp19 ObjectSystemNpu#dscp19}
   */
   readonly dscp19?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp2 ObjectSystemNpu#dscp2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp2 ObjectSystemNpu#dscp2}
   */
   readonly dscp2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp20 ObjectSystemNpu#dscp20}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp20 ObjectSystemNpu#dscp20}
   */
   readonly dscp20?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp21 ObjectSystemNpu#dscp21}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp21 ObjectSystemNpu#dscp21}
   */
   readonly dscp21?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp22 ObjectSystemNpu#dscp22}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp22 ObjectSystemNpu#dscp22}
   */
   readonly dscp22?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp23 ObjectSystemNpu#dscp23}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp23 ObjectSystemNpu#dscp23}
   */
   readonly dscp23?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp24 ObjectSystemNpu#dscp24}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp24 ObjectSystemNpu#dscp24}
   */
   readonly dscp24?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp25 ObjectSystemNpu#dscp25}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp25 ObjectSystemNpu#dscp25}
   */
   readonly dscp25?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp26 ObjectSystemNpu#dscp26}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp26 ObjectSystemNpu#dscp26}
   */
   readonly dscp26?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp27 ObjectSystemNpu#dscp27}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp27 ObjectSystemNpu#dscp27}
   */
   readonly dscp27?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp28 ObjectSystemNpu#dscp28}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp28 ObjectSystemNpu#dscp28}
   */
   readonly dscp28?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp29 ObjectSystemNpu#dscp29}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp29 ObjectSystemNpu#dscp29}
   */
   readonly dscp29?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp3 ObjectSystemNpu#dscp3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp3 ObjectSystemNpu#dscp3}
   */
   readonly dscp3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp30 ObjectSystemNpu#dscp30}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp30 ObjectSystemNpu#dscp30}
   */
   readonly dscp30?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp31 ObjectSystemNpu#dscp31}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp31 ObjectSystemNpu#dscp31}
   */
   readonly dscp31?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp32 ObjectSystemNpu#dscp32}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp32 ObjectSystemNpu#dscp32}
   */
   readonly dscp32?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp33 ObjectSystemNpu#dscp33}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp33 ObjectSystemNpu#dscp33}
   */
   readonly dscp33?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp34 ObjectSystemNpu#dscp34}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp34 ObjectSystemNpu#dscp34}
   */
   readonly dscp34?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp35 ObjectSystemNpu#dscp35}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp35 ObjectSystemNpu#dscp35}
   */
   readonly dscp35?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp36 ObjectSystemNpu#dscp36}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp36 ObjectSystemNpu#dscp36}
   */
   readonly dscp36?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp37 ObjectSystemNpu#dscp37}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp37 ObjectSystemNpu#dscp37}
   */
   readonly dscp37?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp38 ObjectSystemNpu#dscp38}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp38 ObjectSystemNpu#dscp38}
   */
   readonly dscp38?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp39 ObjectSystemNpu#dscp39}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp39 ObjectSystemNpu#dscp39}
   */
   readonly dscp39?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp4 ObjectSystemNpu#dscp4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp4 ObjectSystemNpu#dscp4}
   */
   readonly dscp4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp40 ObjectSystemNpu#dscp40}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp40 ObjectSystemNpu#dscp40}
   */
   readonly dscp40?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp41 ObjectSystemNpu#dscp41}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp41 ObjectSystemNpu#dscp41}
   */
   readonly dscp41?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp42 ObjectSystemNpu#dscp42}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp42 ObjectSystemNpu#dscp42}
   */
   readonly dscp42?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp43 ObjectSystemNpu#dscp43}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp43 ObjectSystemNpu#dscp43}
   */
   readonly dscp43?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp44 ObjectSystemNpu#dscp44}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp44 ObjectSystemNpu#dscp44}
   */
   readonly dscp44?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp45 ObjectSystemNpu#dscp45}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp45 ObjectSystemNpu#dscp45}
   */
   readonly dscp45?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp46 ObjectSystemNpu#dscp46}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp46 ObjectSystemNpu#dscp46}
   */
   readonly dscp46?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp47 ObjectSystemNpu#dscp47}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp47 ObjectSystemNpu#dscp47}
   */
   readonly dscp47?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp48 ObjectSystemNpu#dscp48}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp48 ObjectSystemNpu#dscp48}
   */
   readonly dscp48?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp49 ObjectSystemNpu#dscp49}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp49 ObjectSystemNpu#dscp49}
   */
   readonly dscp49?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp5 ObjectSystemNpu#dscp5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp5 ObjectSystemNpu#dscp5}
   */
   readonly dscp5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp50 ObjectSystemNpu#dscp50}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp50 ObjectSystemNpu#dscp50}
   */
   readonly dscp50?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp51 ObjectSystemNpu#dscp51}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp51 ObjectSystemNpu#dscp51}
   */
   readonly dscp51?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp52 ObjectSystemNpu#dscp52}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp52 ObjectSystemNpu#dscp52}
   */
   readonly dscp52?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp53 ObjectSystemNpu#dscp53}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp53 ObjectSystemNpu#dscp53}
   */
   readonly dscp53?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp54 ObjectSystemNpu#dscp54}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp54 ObjectSystemNpu#dscp54}
   */
   readonly dscp54?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp55 ObjectSystemNpu#dscp55}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp55 ObjectSystemNpu#dscp55}
   */
   readonly dscp55?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp56 ObjectSystemNpu#dscp56}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp56 ObjectSystemNpu#dscp56}
   */
   readonly dscp56?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp57 ObjectSystemNpu#dscp57}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp57 ObjectSystemNpu#dscp57}
   */
   readonly dscp57?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp58 ObjectSystemNpu#dscp58}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp58 ObjectSystemNpu#dscp58}
   */
   readonly dscp58?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp59 ObjectSystemNpu#dscp59}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp59 ObjectSystemNpu#dscp59}
   */
   readonly dscp59?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp6 ObjectSystemNpu#dscp6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp6 ObjectSystemNpu#dscp6}
   */
   readonly dscp6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp60 ObjectSystemNpu#dscp60}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp60 ObjectSystemNpu#dscp60}
   */
   readonly dscp60?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp61 ObjectSystemNpu#dscp61}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp61 ObjectSystemNpu#dscp61}
   */
   readonly dscp61?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp62 ObjectSystemNpu#dscp62}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp62 ObjectSystemNpu#dscp62}
   */
   readonly dscp62?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp63 ObjectSystemNpu#dscp63}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp63 ObjectSystemNpu#dscp63}
   */
   readonly dscp63?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp7 ObjectSystemNpu#dscp7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp7 ObjectSystemNpu#dscp7}
   */
   readonly dscp7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp8 ObjectSystemNpu#dscp8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp8 ObjectSystemNpu#dscp8}
   */
   readonly dscp8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dscp9 ObjectSystemNpu#dscp9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dscp9 ObjectSystemNpu#dscp9}
   */
   readonly dscp9?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
   */
   readonly weight?: number;
 }
@@ -8618,11 +8642,11 @@ export class ObjectSystemNpuNpQueuesProfileList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuNpQueuesScheduler {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mode ObjectSystemNpu#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mode ObjectSystemNpu#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
 }
@@ -8767,33 +8791,37 @@ export class ObjectSystemNpuNpQueuesSchedulerList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuNpQueues {
   /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#custom_etype_lookup ObjectSystemNpu#custom_etype_lookup}
+  */
+  readonly customEtypeLookup?: string;
+  /**
   * ethernet_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ethernet_type ObjectSystemNpu#ethernet_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ethernet_type ObjectSystemNpu#ethernet_type}
   */
   readonly ethernetType?: ObjectSystemNpuNpQueuesEthernetType[] | cdktf.IResolvable;
   /**
   * ip_protocol block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_protocol ObjectSystemNpu#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_protocol ObjectSystemNpu#ip_protocol}
   */
   readonly ipProtocol?: ObjectSystemNpuNpQueuesIpProtocol[] | cdktf.IResolvable;
   /**
   * ip_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_service ObjectSystemNpu#ip_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_service ObjectSystemNpu#ip_service}
   */
   readonly ipService?: ObjectSystemNpuNpQueuesIpService[] | cdktf.IResolvable;
   /**
   * profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#profile ObjectSystemNpu#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#profile ObjectSystemNpu#profile}
   */
   readonly profile?: ObjectSystemNpuNpQueuesProfile[] | cdktf.IResolvable;
   /**
   * scheduler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#scheduler ObjectSystemNpu#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#scheduler ObjectSystemNpu#scheduler}
   */
   readonly scheduler?: ObjectSystemNpuNpQueuesScheduler[] | cdktf.IResolvable;
 }
@@ -8804,6 +8832,7 @@ export function objectSystemNpuNpQueuesToTerraform(struct?: ObjectSystemNpuNpQue
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    custom_etype_lookup: cdktf.stringToTerraform(struct!.customEtypeLookup),
     ethernet_type: cdktf.listMapper(objectSystemNpuNpQueuesEthernetTypeToTerraform, true)(struct!.ethernetType),
     ip_protocol: cdktf.listMapper(objectSystemNpuNpQueuesIpProtocolToTerraform, true)(struct!.ipProtocol),
     ip_service: cdktf.listMapper(objectSystemNpuNpQueuesIpServiceToTerraform, true)(struct!.ipService),
@@ -8819,6 +8848,12 @@ export function objectSystemNpuNpQueuesToHclTerraform(struct?: ObjectSystemNpuNp
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    custom_etype_lookup: {
+      value: cdktf.stringToHclTerraform(struct!.customEtypeLookup),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     ethernet_type: {
       value: cdktf.listMapperHcl(objectSystemNpuNpQueuesEthernetTypeToHclTerraform, true)(struct!.ethernetType),
       isBlock: true,
@@ -8869,6 +8904,10 @@ export class ObjectSystemNpuNpQueuesOutputReference extends cdktf.ComplexObject 
   public get internalValue(): ObjectSystemNpuNpQueues | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._customEtypeLookup !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.customEtypeLookup = this._customEtypeLookup;
+    }
     if (this._ethernetType?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.ethernetType = this._ethernetType?.internalValue;
@@ -8895,6 +8934,7 @@ export class ObjectSystemNpuNpQueuesOutputReference extends cdktf.ComplexObject 
   public set internalValue(value: ObjectSystemNpuNpQueues | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this._customEtypeLookup = undefined;
       this._ethernetType.internalValue = undefined;
       this._ipProtocol.internalValue = undefined;
       this._ipService.internalValue = undefined;
@@ -8903,12 +8943,29 @@ export class ObjectSystemNpuNpQueuesOutputReference extends cdktf.ComplexObject 
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this._customEtypeLookup = value.customEtypeLookup;
       this._ethernetType.internalValue = value.ethernetType;
       this._ipProtocol.internalValue = value.ipProtocol;
       this._ipService.internalValue = value.ipService;
       this._profile.internalValue = value.profile;
       this._scheduler.internalValue = value.scheduler;
     }
+  }
+
+  // custom_etype_lookup - computed: false, optional: true, required: false
+  private _customEtypeLookup?: string; 
+  public get customEtypeLookup() {
+    return this.getStringAttribute('custom_etype_lookup');
+  }
+  public set customEtypeLookup(value: string) {
+    this._customEtypeLookup = value;
+  }
+  public resetCustomEtypeLookup() {
+    this._customEtypeLookup = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get customEtypeLookupInput() {
+    return this._customEtypeLookup;
   }
 
   // ethernet_type - computed: false, optional: true, required: false
@@ -8993,219 +9050,219 @@ export class ObjectSystemNpuNpQueuesOutputReference extends cdktf.ComplexObject 
 }
 export interface ObjectSystemNpuNpuTcamData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#df ObjectSystemNpu#df}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#df ObjectSystemNpu#df}
   */
   readonly df?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstip ObjectSystemNpu#dstip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstip ObjectSystemNpu#dstip}
   */
   readonly dstip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstipv6 ObjectSystemNpu#dstipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstipv6 ObjectSystemNpu#dstipv6}
   */
   readonly dstipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstmac ObjectSystemNpu#dstmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstmac ObjectSystemNpu#dstmac}
   */
   readonly dstmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstport ObjectSystemNpu#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstport ObjectSystemNpu#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ethertype ObjectSystemNpu#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ethertype ObjectSystemNpu#ethertype}
   */
   readonly ethertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ext_tag ObjectSystemNpu#ext_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ext_tag ObjectSystemNpu#ext_tag}
   */
   readonly extTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#frag_off ObjectSystemNpu#frag_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#frag_off ObjectSystemNpu#frag_off}
   */
   readonly fragOff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_buf_cnt ObjectSystemNpu#gen_buf_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_buf_cnt ObjectSystemNpu#gen_buf_cnt}
   */
   readonly genBufCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_iv ObjectSystemNpu#gen_iv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_iv ObjectSystemNpu#gen_iv}
   */
   readonly genIv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_l3_flags ObjectSystemNpu#gen_l3_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_l3_flags ObjectSystemNpu#gen_l3_flags}
   */
   readonly genL3Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_l4_flags ObjectSystemNpu#gen_l4_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_l4_flags ObjectSystemNpu#gen_l4_flags}
   */
   readonly genL4Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pkt_ctrl ObjectSystemNpu#gen_pkt_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pkt_ctrl ObjectSystemNpu#gen_pkt_ctrl}
   */
   readonly genPktCtrl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pri ObjectSystemNpu#gen_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pri ObjectSystemNpu#gen_pri}
   */
   readonly genPri?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pri_v ObjectSystemNpu#gen_pri_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pri_v ObjectSystemNpu#gen_pri_v}
   */
   readonly genPriV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_tv ObjectSystemNpu#gen_tv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_tv ObjectSystemNpu#gen_tv}
   */
   readonly genTv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ihl ObjectSystemNpu#ihl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ihl ObjectSystemNpu#ihl}
   */
   readonly ihl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip4_id ObjectSystemNpu#ip4_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip4_id ObjectSystemNpu#ip4_id}
   */
   readonly ip4Id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip6_fl ObjectSystemNpu#ip6_fl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip6_fl ObjectSystemNpu#ip6_fl}
   */
   readonly ip6Fl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipver ObjectSystemNpu#ipver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipver ObjectSystemNpu#ipver}
   */
   readonly ipver?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd10 ObjectSystemNpu#l4_wd10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd10 ObjectSystemNpu#l4_wd10}
   */
   readonly l4Wd10?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd11 ObjectSystemNpu#l4_wd11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd11 ObjectSystemNpu#l4_wd11}
   */
   readonly l4Wd11?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd8 ObjectSystemNpu#l4_wd8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd8 ObjectSystemNpu#l4_wd8}
   */
   readonly l4Wd8?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd9 ObjectSystemNpu#l4_wd9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd9 ObjectSystemNpu#l4_wd9}
   */
   readonly l4Wd9?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mf ObjectSystemNpu#mf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mf ObjectSystemNpu#mf}
   */
   readonly mf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#slink ObjectSystemNpu#slink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#slink ObjectSystemNpu#slink}
   */
   readonly slink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#smac_change ObjectSystemNpu#smac_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#smac_change ObjectSystemNpu#smac_change}
   */
   readonly smacChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sp ObjectSystemNpu#sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sp ObjectSystemNpu#sp}
   */
   readonly sp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_cfi ObjectSystemNpu#src_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_cfi ObjectSystemNpu#src_cfi}
   */
   readonly srcCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_prio ObjectSystemNpu#src_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_prio ObjectSystemNpu#src_prio}
   */
   readonly srcPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_updt ObjectSystemNpu#src_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_updt ObjectSystemNpu#src_updt}
   */
   readonly srcUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcip ObjectSystemNpu#srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcip ObjectSystemNpu#srcip}
   */
   readonly srcip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcipv6 ObjectSystemNpu#srcipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcipv6 ObjectSystemNpu#srcipv6}
   */
   readonly srcipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcmac ObjectSystemNpu#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcmac ObjectSystemNpu#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcport ObjectSystemNpu#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcport ObjectSystemNpu#srcport}
   */
   readonly srcport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#svid ObjectSystemNpu#svid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#svid ObjectSystemNpu#svid}
   */
   readonly svid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_ack ObjectSystemNpu#tcp_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_ack ObjectSystemNpu#tcp_ack}
   */
   readonly tcpAck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_cwr ObjectSystemNpu#tcp_cwr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_cwr ObjectSystemNpu#tcp_cwr}
   */
   readonly tcpCwr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_ece ObjectSystemNpu#tcp_ece}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_ece ObjectSystemNpu#tcp_ece}
   */
   readonly tcpEce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_fin ObjectSystemNpu#tcp_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_fin ObjectSystemNpu#tcp_fin}
   */
   readonly tcpFin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_push ObjectSystemNpu#tcp_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_push ObjectSystemNpu#tcp_push}
   */
   readonly tcpPush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_rst ObjectSystemNpu#tcp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_rst ObjectSystemNpu#tcp_rst}
   */
   readonly tcpRst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_syn ObjectSystemNpu#tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_syn ObjectSystemNpu#tcp_syn}
   */
   readonly tcpSyn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_urg ObjectSystemNpu#tcp_urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_urg ObjectSystemNpu#tcp_urg}
   */
   readonly tcpUrg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_cfi ObjectSystemNpu#tgt_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_cfi ObjectSystemNpu#tgt_cfi}
   */
   readonly tgtCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_prio ObjectSystemNpu#tgt_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_prio ObjectSystemNpu#tgt_prio}
   */
   readonly tgtPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_updt ObjectSystemNpu#tgt_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_updt ObjectSystemNpu#tgt_updt}
   */
   readonly tgtUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_v ObjectSystemNpu#tgt_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_v ObjectSystemNpu#tgt_v}
   */
   readonly tgtV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tos ObjectSystemNpu#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tos ObjectSystemNpu#tos}
   */
   readonly tos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tp ObjectSystemNpu#tp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tp ObjectSystemNpu#tp}
   */
   readonly tp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ttl ObjectSystemNpu#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ttl ObjectSystemNpu#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tvid ObjectSystemNpu#tvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tvid ObjectSystemNpu#tvid}
   */
   readonly tvid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdid ObjectSystemNpu#vdid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdid ObjectSystemNpu#vdid}
   */
   readonly vdid?: number;
 }
@@ -10826,219 +10883,219 @@ export class ObjectSystemNpuNpuTcamDataOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectSystemNpuNpuTcamMask {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#df ObjectSystemNpu#df}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#df ObjectSystemNpu#df}
   */
   readonly df?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstip ObjectSystemNpu#dstip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstip ObjectSystemNpu#dstip}
   */
   readonly dstip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstipv6 ObjectSystemNpu#dstipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstipv6 ObjectSystemNpu#dstipv6}
   */
   readonly dstipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstmac ObjectSystemNpu#dstmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstmac ObjectSystemNpu#dstmac}
   */
   readonly dstmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dstport ObjectSystemNpu#dstport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dstport ObjectSystemNpu#dstport}
   */
   readonly dstport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ethertype ObjectSystemNpu#ethertype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ethertype ObjectSystemNpu#ethertype}
   */
   readonly ethertype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ext_tag ObjectSystemNpu#ext_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ext_tag ObjectSystemNpu#ext_tag}
   */
   readonly extTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#frag_off ObjectSystemNpu#frag_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#frag_off ObjectSystemNpu#frag_off}
   */
   readonly fragOff?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_buf_cnt ObjectSystemNpu#gen_buf_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_buf_cnt ObjectSystemNpu#gen_buf_cnt}
   */
   readonly genBufCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_iv ObjectSystemNpu#gen_iv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_iv ObjectSystemNpu#gen_iv}
   */
   readonly genIv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_l3_flags ObjectSystemNpu#gen_l3_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_l3_flags ObjectSystemNpu#gen_l3_flags}
   */
   readonly genL3Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_l4_flags ObjectSystemNpu#gen_l4_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_l4_flags ObjectSystemNpu#gen_l4_flags}
   */
   readonly genL4Flags?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pkt_ctrl ObjectSystemNpu#gen_pkt_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pkt_ctrl ObjectSystemNpu#gen_pkt_ctrl}
   */
   readonly genPktCtrl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pri ObjectSystemNpu#gen_pri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pri ObjectSystemNpu#gen_pri}
   */
   readonly genPri?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_pri_v ObjectSystemNpu#gen_pri_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_pri_v ObjectSystemNpu#gen_pri_v}
   */
   readonly genPriV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gen_tv ObjectSystemNpu#gen_tv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gen_tv ObjectSystemNpu#gen_tv}
   */
   readonly genTv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ihl ObjectSystemNpu#ihl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ihl ObjectSystemNpu#ihl}
   */
   readonly ihl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip4_id ObjectSystemNpu#ip4_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip4_id ObjectSystemNpu#ip4_id}
   */
   readonly ip4Id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip6_fl ObjectSystemNpu#ip6_fl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip6_fl ObjectSystemNpu#ip6_fl}
   */
   readonly ip6Fl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ipver ObjectSystemNpu#ipver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ipver ObjectSystemNpu#ipver}
   */
   readonly ipver?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd10 ObjectSystemNpu#l4_wd10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd10 ObjectSystemNpu#l4_wd10}
   */
   readonly l4Wd10?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd11 ObjectSystemNpu#l4_wd11}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd11 ObjectSystemNpu#l4_wd11}
   */
   readonly l4Wd11?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd8 ObjectSystemNpu#l4_wd8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd8 ObjectSystemNpu#l4_wd8}
   */
   readonly l4Wd8?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#l4_wd9 ObjectSystemNpu#l4_wd9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#l4_wd9 ObjectSystemNpu#l4_wd9}
   */
   readonly l4Wd9?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mf ObjectSystemNpu#mf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mf ObjectSystemNpu#mf}
   */
   readonly mf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#protocol ObjectSystemNpu#protocol}
   */
   readonly protocol?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#slink ObjectSystemNpu#slink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#slink ObjectSystemNpu#slink}
   */
   readonly slink?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#smac_change ObjectSystemNpu#smac_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#smac_change ObjectSystemNpu#smac_change}
   */
   readonly smacChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sp ObjectSystemNpu#sp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sp ObjectSystemNpu#sp}
   */
   readonly sp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_cfi ObjectSystemNpu#src_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_cfi ObjectSystemNpu#src_cfi}
   */
   readonly srcCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_prio ObjectSystemNpu#src_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_prio ObjectSystemNpu#src_prio}
   */
   readonly srcPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#src_updt ObjectSystemNpu#src_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#src_updt ObjectSystemNpu#src_updt}
   */
   readonly srcUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcip ObjectSystemNpu#srcip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcip ObjectSystemNpu#srcip}
   */
   readonly srcip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcipv6 ObjectSystemNpu#srcipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcipv6 ObjectSystemNpu#srcipv6}
   */
   readonly srcipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcmac ObjectSystemNpu#srcmac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcmac ObjectSystemNpu#srcmac}
   */
   readonly srcmac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#srcport ObjectSystemNpu#srcport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#srcport ObjectSystemNpu#srcport}
   */
   readonly srcport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#svid ObjectSystemNpu#svid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#svid ObjectSystemNpu#svid}
   */
   readonly svid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_ack ObjectSystemNpu#tcp_ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_ack ObjectSystemNpu#tcp_ack}
   */
   readonly tcpAck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_cwr ObjectSystemNpu#tcp_cwr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_cwr ObjectSystemNpu#tcp_cwr}
   */
   readonly tcpCwr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_ece ObjectSystemNpu#tcp_ece}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_ece ObjectSystemNpu#tcp_ece}
   */
   readonly tcpEce?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_fin ObjectSystemNpu#tcp_fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_fin ObjectSystemNpu#tcp_fin}
   */
   readonly tcpFin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_push ObjectSystemNpu#tcp_push}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_push ObjectSystemNpu#tcp_push}
   */
   readonly tcpPush?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_rst ObjectSystemNpu#tcp_rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_rst ObjectSystemNpu#tcp_rst}
   */
   readonly tcpRst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_syn ObjectSystemNpu#tcp_syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_syn ObjectSystemNpu#tcp_syn}
   */
   readonly tcpSyn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_urg ObjectSystemNpu#tcp_urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_urg ObjectSystemNpu#tcp_urg}
   */
   readonly tcpUrg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_cfi ObjectSystemNpu#tgt_cfi}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_cfi ObjectSystemNpu#tgt_cfi}
   */
   readonly tgtCfi?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_prio ObjectSystemNpu#tgt_prio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_prio ObjectSystemNpu#tgt_prio}
   */
   readonly tgtPrio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_updt ObjectSystemNpu#tgt_updt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_updt ObjectSystemNpu#tgt_updt}
   */
   readonly tgtUpdt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgt_v ObjectSystemNpu#tgt_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgt_v ObjectSystemNpu#tgt_v}
   */
   readonly tgtV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tos ObjectSystemNpu#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tos ObjectSystemNpu#tos}
   */
   readonly tos?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tp ObjectSystemNpu#tp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tp ObjectSystemNpu#tp}
   */
   readonly tp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ttl ObjectSystemNpu#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ttl ObjectSystemNpu#ttl}
   */
   readonly ttl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tvid ObjectSystemNpu#tvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tvid ObjectSystemNpu#tvid}
   */
   readonly tvid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdid ObjectSystemNpu#vdid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdid ObjectSystemNpu#vdid}
   */
   readonly vdid?: number;
 }
@@ -12659,7 +12716,7 @@ export class ObjectSystemNpuNpuTcamMaskOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectSystemNpuNpuTcamMirAct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vlif ObjectSystemNpu#vlif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vlif ObjectSystemNpu#vlif}
   */
   readonly vlif?: number;
 }
@@ -12743,11 +12800,11 @@ export class ObjectSystemNpuNpuTcamMirActOutputReference extends cdktf.ComplexOb
 }
 export interface ObjectSystemNpuNpuTcamPriAct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#priority ObjectSystemNpu#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#priority ObjectSystemNpu#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#weight ObjectSystemNpu#weight}
   */
   readonly weight?: number;
 }
@@ -12860,227 +12917,227 @@ export class ObjectSystemNpuNpuTcamPriActOutputReference extends cdktf.ComplexOb
 }
 export interface ObjectSystemNpuNpuTcamSact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#act ObjectSystemNpu#act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#act ObjectSystemNpu#act}
   */
   readonly act?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#act_v ObjectSystemNpu#act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#act_v ObjectSystemNpu#act_v}
   */
   readonly actV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#bmproc ObjectSystemNpu#bmproc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#bmproc ObjectSystemNpu#bmproc}
   */
   readonly bmproc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#bmproc_v ObjectSystemNpu#bmproc_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#bmproc_v ObjectSystemNpu#bmproc_v}
   */
   readonly bmprocV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#df_lif ObjectSystemNpu#df_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#df_lif ObjectSystemNpu#df_lif}
   */
   readonly dfLif?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#df_lif_v ObjectSystemNpu#df_lif_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#df_lif_v ObjectSystemNpu#df_lif_v}
   */
   readonly dfLifV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dfr ObjectSystemNpu#dfr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dfr ObjectSystemNpu#dfr}
   */
   readonly dfr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dfr_v ObjectSystemNpu#dfr_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dfr_v ObjectSystemNpu#dfr_v}
   */
   readonly dfrV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dmac_skip ObjectSystemNpu#dmac_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dmac_skip ObjectSystemNpu#dmac_skip}
   */
   readonly dmacSkip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dmac_skip_v ObjectSystemNpu#dmac_skip_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dmac_skip_v ObjectSystemNpu#dmac_skip_v}
   */
   readonly dmacSkipV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dosen ObjectSystemNpu#dosen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dosen ObjectSystemNpu#dosen}
   */
   readonly dosen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dosen_v ObjectSystemNpu#dosen_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dosen_v ObjectSystemNpu#dosen_v}
   */
   readonly dosenV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#espff_proc ObjectSystemNpu#espff_proc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#espff_proc ObjectSystemNpu#espff_proc}
   */
   readonly espffProc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#espff_proc_v ObjectSystemNpu#espff_proc_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#espff_proc_v ObjectSystemNpu#espff_proc_v}
   */
   readonly espffProcV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#etype_pid ObjectSystemNpu#etype_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#etype_pid ObjectSystemNpu#etype_pid}
   */
   readonly etypePid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#etype_pid_v ObjectSystemNpu#etype_pid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#etype_pid_v ObjectSystemNpu#etype_pid_v}
   */
   readonly etypePidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#frag_proc ObjectSystemNpu#frag_proc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#frag_proc ObjectSystemNpu#frag_proc}
   */
   readonly fragProc?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#frag_proc_v ObjectSystemNpu#frag_proc_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#frag_proc_v ObjectSystemNpu#frag_proc_v}
   */
   readonly fragProcV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd ObjectSystemNpu#fwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd ObjectSystemNpu#fwd}
   */
   readonly fwd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd_lif ObjectSystemNpu#fwd_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd_lif ObjectSystemNpu#fwd_lif}
   */
   readonly fwdLif?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd_lif_v ObjectSystemNpu#fwd_lif_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd_lif_v ObjectSystemNpu#fwd_lif_v}
   */
   readonly fwdLifV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd_tvid ObjectSystemNpu#fwd_tvid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd_tvid ObjectSystemNpu#fwd_tvid}
   */
   readonly fwdTvid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd_tvid_v ObjectSystemNpu#fwd_tvid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd_tvid_v ObjectSystemNpu#fwd_tvid_v}
   */
   readonly fwdTvidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fwd_v ObjectSystemNpu#fwd_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fwd_v ObjectSystemNpu#fwd_v}
   */
   readonly fwdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icpen ObjectSystemNpu#icpen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icpen ObjectSystemNpu#icpen}
   */
   readonly icpen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#icpen_v ObjectSystemNpu#icpen_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#icpen_v ObjectSystemNpu#icpen_v}
   */
   readonly icpenV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#igmp_mld_snp ObjectSystemNpu#igmp_mld_snp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#igmp_mld_snp ObjectSystemNpu#igmp_mld_snp}
   */
   readonly igmpMldSnp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#igmp_mld_snp_v ObjectSystemNpu#igmp_mld_snp_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#igmp_mld_snp_v ObjectSystemNpu#igmp_mld_snp_v}
   */
   readonly igmpMldSnpV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#learn ObjectSystemNpu#learn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#learn ObjectSystemNpu#learn}
   */
   readonly learn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#learn_v ObjectSystemNpu#learn_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#learn_v ObjectSystemNpu#learn_v}
   */
   readonly learnV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#m_srh_ctrl ObjectSystemNpu#m_srh_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#m_srh_ctrl ObjectSystemNpu#m_srh_ctrl}
   */
   readonly mSrhCtrl?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#m_srh_ctrl_v ObjectSystemNpu#m_srh_ctrl_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#m_srh_ctrl_v ObjectSystemNpu#m_srh_ctrl_v}
   */
   readonly mSrhCtrlV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mac_id ObjectSystemNpu#mac_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mac_id ObjectSystemNpu#mac_id}
   */
   readonly macId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mac_id_v ObjectSystemNpu#mac_id_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mac_id_v ObjectSystemNpu#mac_id_v}
   */
   readonly macIdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mss ObjectSystemNpu#mss}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mss ObjectSystemNpu#mss}
   */
   readonly mss?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mss_v ObjectSystemNpu#mss_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mss_v ObjectSystemNpu#mss_v}
   */
   readonly mssV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pleen ObjectSystemNpu#pleen}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pleen ObjectSystemNpu#pleen}
   */
   readonly pleen?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pleen_v ObjectSystemNpu#pleen_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pleen_v ObjectSystemNpu#pleen_v}
   */
   readonly pleenV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#prio_pid ObjectSystemNpu#prio_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#prio_pid ObjectSystemNpu#prio_pid}
   */
   readonly prioPid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#prio_pid_v ObjectSystemNpu#prio_pid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#prio_pid_v ObjectSystemNpu#prio_pid_v}
   */
   readonly prioPidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#promis ObjectSystemNpu#promis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#promis ObjectSystemNpu#promis}
   */
   readonly promis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#promis_v ObjectSystemNpu#promis_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#promis_v ObjectSystemNpu#promis_v}
   */
   readonly promisV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#rfsh ObjectSystemNpu#rfsh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#rfsh ObjectSystemNpu#rfsh}
   */
   readonly rfsh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#rfsh_v ObjectSystemNpu#rfsh_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#rfsh_v ObjectSystemNpu#rfsh_v}
   */
   readonly rfshV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#smac_skip ObjectSystemNpu#smac_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#smac_skip ObjectSystemNpu#smac_skip}
   */
   readonly smacSkip?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#smac_skip_v ObjectSystemNpu#smac_skip_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#smac_skip_v ObjectSystemNpu#smac_skip_v}
   */
   readonly smacSkipV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tp_smchk ObjectSystemNpu#tp_smchk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tp_smchk ObjectSystemNpu#tp_smchk}
   */
   readonly tpSmchk?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tp_smchk_v ObjectSystemNpu#tp_smchk_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tp_smchk_v ObjectSystemNpu#tp_smchk_v}
   */
   readonly tpSmchkV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tpe_id ObjectSystemNpu#tpe_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tpe_id ObjectSystemNpu#tpe_id}
   */
   readonly tpeId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tpe_id_v ObjectSystemNpu#tpe_id_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tpe_id_v ObjectSystemNpu#tpe_id_v}
   */
   readonly tpeIdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdm ObjectSystemNpu#vdm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdm ObjectSystemNpu#vdm}
   */
   readonly vdm?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdm_v ObjectSystemNpu#vdm_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdm_v ObjectSystemNpu#vdm_v}
   */
   readonly vdmV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdom_id ObjectSystemNpu#vdom_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdom_id ObjectSystemNpu#vdom_id}
   */
   readonly vdomId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vdom_id_v ObjectSystemNpu#vdom_id_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vdom_id_v ObjectSystemNpu#vdom_id_v}
   */
   readonly vdomIdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#x_mode ObjectSystemNpu#x_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#x_mode ObjectSystemNpu#x_mode}
   */
   readonly xMode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#x_mode_v ObjectSystemNpu#x_mode_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#x_mode_v ObjectSystemNpu#x_mode_v}
   */
   readonly xModeV?: string;
 }
@@ -14759,147 +14816,147 @@ export class ObjectSystemNpuNpuTcamSactOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectSystemNpuNpuTcamTact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#act ObjectSystemNpu#act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#act ObjectSystemNpu#act}
   */
   readonly act?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#act_v ObjectSystemNpu#act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#act_v ObjectSystemNpu#act_v}
   */
   readonly actV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fmtuv4_s ObjectSystemNpu#fmtuv4_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fmtuv4_s ObjectSystemNpu#fmtuv4_s}
   */
   readonly fmtuv4S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fmtuv4_s_v ObjectSystemNpu#fmtuv4_s_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fmtuv4_s_v ObjectSystemNpu#fmtuv4_s_v}
   */
   readonly fmtuv4SV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fmtuv6_s ObjectSystemNpu#fmtuv6_s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fmtuv6_s ObjectSystemNpu#fmtuv6_s}
   */
   readonly fmtuv6S?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fmtuv6_s_v ObjectSystemNpu#fmtuv6_s_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fmtuv6_s_v ObjectSystemNpu#fmtuv6_s_v}
   */
   readonly fmtuv6SV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#lnkid ObjectSystemNpu#lnkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#lnkid ObjectSystemNpu#lnkid}
   */
   readonly lnkid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#lnkid_v ObjectSystemNpu#lnkid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#lnkid_v ObjectSystemNpu#lnkid_v}
   */
   readonly lnkidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mac_id ObjectSystemNpu#mac_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mac_id ObjectSystemNpu#mac_id}
   */
   readonly macId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mac_id_v ObjectSystemNpu#mac_id_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mac_id_v ObjectSystemNpu#mac_id_v}
   */
   readonly macIdV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mss_t ObjectSystemNpu#mss_t}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mss_t ObjectSystemNpu#mss_t}
   */
   readonly mssT?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mss_t_v ObjectSystemNpu#mss_t_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mss_t_v ObjectSystemNpu#mss_t_v}
   */
   readonly mssTV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mtuv4 ObjectSystemNpu#mtuv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mtuv4 ObjectSystemNpu#mtuv4}
   */
   readonly mtuv4?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mtuv4_v ObjectSystemNpu#mtuv4_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mtuv4_v ObjectSystemNpu#mtuv4_v}
   */
   readonly mtuv4V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mtuv6 ObjectSystemNpu#mtuv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mtuv6 ObjectSystemNpu#mtuv6}
   */
   readonly mtuv6?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mtuv6_v ObjectSystemNpu#mtuv6_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mtuv6_v ObjectSystemNpu#mtuv6_v}
   */
   readonly mtuv6V?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#slif_act ObjectSystemNpu#slif_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#slif_act ObjectSystemNpu#slif_act}
   */
   readonly slifAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#slif_act_v ObjectSystemNpu#slif_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#slif_act_v ObjectSystemNpu#slif_act_v}
   */
   readonly slifActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sublnkid ObjectSystemNpu#sublnkid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sublnkid ObjectSystemNpu#sublnkid}
   */
   readonly sublnkid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sublnkid_v ObjectSystemNpu#sublnkid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sublnkid_v ObjectSystemNpu#sublnkid_v}
   */
   readonly sublnkidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgtv_act ObjectSystemNpu#tgtv_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgtv_act ObjectSystemNpu#tgtv_act}
   */
   readonly tgtvAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tgtv_act_v ObjectSystemNpu#tgtv_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tgtv_act_v ObjectSystemNpu#tgtv_act_v}
   */
   readonly tgtvActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tlif_act ObjectSystemNpu#tlif_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tlif_act ObjectSystemNpu#tlif_act}
   */
   readonly tlifAct?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tlif_act_v ObjectSystemNpu#tlif_act_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tlif_act_v ObjectSystemNpu#tlif_act_v}
   */
   readonly tlifActV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tpeid ObjectSystemNpu#tpeid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tpeid ObjectSystemNpu#tpeid}
   */
   readonly tpeid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tpeid_v ObjectSystemNpu#tpeid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tpeid_v ObjectSystemNpu#tpeid_v}
   */
   readonly tpeidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#v6fe ObjectSystemNpu#v6fe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#v6fe ObjectSystemNpu#v6fe}
   */
   readonly v6Fe?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#v6fe_v ObjectSystemNpu#v6fe_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#v6fe_v ObjectSystemNpu#v6fe_v}
   */
   readonly v6FeV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vep_en ObjectSystemNpu#vep_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vep_en ObjectSystemNpu#vep_en}
   */
   readonly vepEn?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vep_en_v ObjectSystemNpu#vep_en_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vep_en_v ObjectSystemNpu#vep_en_v}
   */
   readonly vepEnV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vep_slid ObjectSystemNpu#vep_slid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vep_slid ObjectSystemNpu#vep_slid}
   */
   readonly vepSlid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vep_slid_v ObjectSystemNpu#vep_slid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vep_slid_v ObjectSystemNpu#vep_slid_v}
   */
   readonly vepSlidV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#xlt_lif ObjectSystemNpu#xlt_lif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#xlt_lif ObjectSystemNpu#xlt_lif}
   */
   readonly xltLif?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#xlt_lif_v ObjectSystemNpu#xlt_lif_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#xlt_lif_v ObjectSystemNpu#xlt_lif_v}
   */
   readonly xltLifV?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#xlt_vid ObjectSystemNpu#xlt_vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#xlt_vid ObjectSystemNpu#xlt_vid}
   */
   readonly xltVid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#xlt_vid_v ObjectSystemNpu#xlt_vid_v}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#xlt_vid_v ObjectSystemNpu#xlt_vid_v}
   */
   readonly xltVidV?: string;
 }
@@ -15998,59 +16055,59 @@ export class ObjectSystemNpuNpuTcamTactOutputReference extends cdktf.ComplexObje
 }
 export interface ObjectSystemNpuNpuTcam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#dbg_dump ObjectSystemNpu#dbg_dump}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#dbg_dump ObjectSystemNpu#dbg_dump}
   */
   readonly dbgDump?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#name ObjectSystemNpu#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#oid ObjectSystemNpu#oid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#oid ObjectSystemNpu#oid}
   */
   readonly oid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#type ObjectSystemNpu#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#vid ObjectSystemNpu#vid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#vid ObjectSystemNpu#vid}
   */
   readonly vid?: number;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#data ObjectSystemNpu#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#data ObjectSystemNpu#data}
   */
   readonly data?: ObjectSystemNpuNpuTcamData;
   /**
   * mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mask ObjectSystemNpu#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mask ObjectSystemNpu#mask}
   */
   readonly mask?: ObjectSystemNpuNpuTcamMask;
   /**
   * mir_act block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#mir_act ObjectSystemNpu#mir_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#mir_act ObjectSystemNpu#mir_act}
   */
   readonly mirAct?: ObjectSystemNpuNpuTcamMirAct;
   /**
   * pri_act block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#pri_act ObjectSystemNpu#pri_act}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#pri_act ObjectSystemNpu#pri_act}
   */
   readonly priAct?: ObjectSystemNpuNpuTcamPriAct;
   /**
   * sact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#sact ObjectSystemNpu#sact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#sact ObjectSystemNpu#sact}
   */
   readonly sact?: ObjectSystemNpuNpuTcamSact;
   /**
   * tact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tact ObjectSystemNpu#tact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tact ObjectSystemNpu#tact}
   */
   readonly tact?: ObjectSystemNpuNpuTcamTact;
 }
@@ -16456,11 +16513,11 @@ export class ObjectSystemNpuNpuTcamList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuPortCpuMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#cpu_core ObjectSystemNpu#cpu_core}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#cpu_core ObjectSystemNpu#cpu_core}
   */
   readonly cpuCore?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#interface ObjectSystemNpu#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#interface ObjectSystemNpu#interface}
   */
   readonly interface?: string;
 }
@@ -16605,11 +16662,11 @@ export class ObjectSystemNpuPortCpuMapList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuPortNpuMap {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#interface ObjectSystemNpu#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#interface ObjectSystemNpu#interface}
   */
   readonly interface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#npu_group_index ObjectSystemNpu#npu_group_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#npu_group_index ObjectSystemNpu#npu_group_index}
   */
   readonly npuGroupIndex?: number;
 }
@@ -16754,7 +16811,7 @@ export class ObjectSystemNpuPortNpuMapList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuPortPathOption {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ports_using_npu ObjectSystemNpu#ports_using_npu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ports_using_npu ObjectSystemNpu#ports_using_npu}
   */
   readonly portsUsingNpu?: string[];
 }
@@ -16838,15 +16895,15 @@ export class ObjectSystemNpuPortPathOptionOutputReference extends cdktf.ComplexO
 }
 export interface ObjectSystemNpuPriorityProtocol {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#bfd ObjectSystemNpu#bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#bfd ObjectSystemNpu#bfd}
   */
   readonly bfd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#bgp ObjectSystemNpu#bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#bgp ObjectSystemNpu#bgp}
   */
   readonly bgp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#slbc ObjectSystemNpu#slbc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#slbc ObjectSystemNpu#slbc}
   */
   readonly slbc?: string;
 }
@@ -16988,15 +17045,15 @@ export class ObjectSystemNpuPriorityProtocolOutputReference extends cdktf.Comple
 }
 export interface ObjectSystemNpuSseHaScan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#gap ObjectSystemNpu#gap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#gap ObjectSystemNpu#gap}
   */
   readonly gap?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#max_session_cnt ObjectSystemNpu#max_session_cnt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#max_session_cnt ObjectSystemNpu#max_session_cnt}
   */
   readonly maxSessionCnt?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#min_duration ObjectSystemNpu#min_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#min_duration ObjectSystemNpu#min_duration}
   */
   readonly minDuration?: number;
 }
@@ -17138,39 +17195,39 @@ export class ObjectSystemNpuSseHaScanOutputReference extends cdktf.ComplexObject
 }
 export interface ObjectSystemNpuSwEhHash {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#computation ObjectSystemNpu#computation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#computation ObjectSystemNpu#computation}
   */
   readonly computation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#destination_ip_lower_16 ObjectSystemNpu#destination_ip_lower_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#destination_ip_lower_16 ObjectSystemNpu#destination_ip_lower_16}
   */
   readonly destinationIpLower16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#destination_ip_upper_16 ObjectSystemNpu#destination_ip_upper_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#destination_ip_upper_16 ObjectSystemNpu#destination_ip_upper_16}
   */
   readonly destinationIpUpper16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#destination_port ObjectSystemNpu#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#destination_port ObjectSystemNpu#destination_port}
   */
   readonly destinationPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#ip_protocol ObjectSystemNpu#ip_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#ip_protocol ObjectSystemNpu#ip_protocol}
   */
   readonly ipProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#netmask_length ObjectSystemNpu#netmask_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#netmask_length ObjectSystemNpu#netmask_length}
   */
   readonly netmaskLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#source_ip_lower_16 ObjectSystemNpu#source_ip_lower_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#source_ip_lower_16 ObjectSystemNpu#source_ip_lower_16}
   */
   readonly sourceIpLower16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#source_ip_upper_16 ObjectSystemNpu#source_ip_upper_16}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#source_ip_upper_16 ObjectSystemNpu#source_ip_upper_16}
   */
   readonly sourceIpUpper16?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#source_port ObjectSystemNpu#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#source_port ObjectSystemNpu#source_port}
   */
   readonly sourcePort?: string;
 }
@@ -17486,11 +17543,11 @@ export class ObjectSystemNpuSwEhHashOutputReference extends cdktf.ComplexObject 
 }
 export interface ObjectSystemNpuSwTrHash {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#draco15 ObjectSystemNpu#draco15}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#draco15 ObjectSystemNpu#draco15}
   */
   readonly draco15?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_udp_port ObjectSystemNpu#tcp_udp_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_udp_port ObjectSystemNpu#tcp_udp_port}
   */
   readonly tcpUdpPort?: string;
 }
@@ -17603,34 +17660,34 @@ export class ObjectSystemNpuSwTrHashOutputReference extends cdktf.ComplexObject 
 }
 export interface ObjectSystemNpuTcpTimeoutProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#close_wait ObjectSystemNpu#close_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#close_wait ObjectSystemNpu#close_wait}
   */
   readonly closeWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#fin_wait ObjectSystemNpu#fin_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#fin_wait ObjectSystemNpu#fin_wait}
   */
   readonly finWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#syn_sent ObjectSystemNpu#syn_sent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#syn_sent ObjectSystemNpu#syn_sent}
   */
   readonly synSent?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#syn_wait ObjectSystemNpu#syn_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#syn_wait ObjectSystemNpu#syn_wait}
   */
   readonly synWait?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#tcp_idle ObjectSystemNpu#tcp_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#tcp_idle ObjectSystemNpu#tcp_idle}
   */
   readonly tcpIdle?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#time_wait ObjectSystemNpu#time_wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#time_wait ObjectSystemNpu#time_wait}
   */
   readonly timeWait?: number;
 }
@@ -17920,14 +17977,14 @@ export class ObjectSystemNpuTcpTimeoutProfileList extends cdktf.ComplexList {
 }
 export interface ObjectSystemNpuUdpTimeoutProfile {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#id ObjectSystemNpu#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#udp_idle ObjectSystemNpu#udp_idle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#udp_idle ObjectSystemNpu#udp_idle}
   */
   readonly udpIdle?: number;
 }
@@ -18072,7 +18129,7 @@ export class ObjectSystemNpuUdpTimeoutProfileList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu fortimanager_object_system_npu}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu fortimanager_object_system_npu}
 */
 export class ObjectSystemNpu extends cdktf.TerraformResource {
 
@@ -18088,7 +18145,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectSystemNpu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectSystemNpu to import
-  * @param importFromId The id of the existing ObjectSystemNpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectSystemNpu that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectSystemNpu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -18100,7 +18157,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_system_npu fortimanager_object_system_npu} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_system_npu fortimanager_object_system_npu} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -18111,8 +18168,8 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_system_npu',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -18161,6 +18218,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     this._ipsecLocalUespPort = config.ipsecLocalUespPort;
     this._ipsecMtuOverride = config.ipsecMtuOverride;
     this._ipsecObNpSel = config.ipsecObNpSel;
+    this._ipsecOrdering = config.ipsecOrdering;
     this._ipsecOverVlink = config.ipsecOverVlink;
     this._ipsecStsTimeout = config.ipsecStsTimeout;
     this._ipsecThroughputMsgFrequency = config.ipsecThroughputMsgFrequency;
@@ -18173,6 +18231,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     this._ipv6PrefixSessionQuotaHigh = config.ipv6PrefixSessionQuotaHigh;
     this._ipv6PrefixSessionQuotaLow = config.ipv6PrefixSessionQuotaLow;
     this._isfNpRxTrDistr = config.isfNpRxTrDistr;
+    this._lagHashGre = config.lagHashGre;
     this._lagOutPortSelect = config.lagOutPortSelect;
     this._maxReceiveUnit = config.maxReceiveUnit;
     this._maxSessionTimeout = config.maxSessionTimeout;
@@ -18209,11 +18268,15 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     this._stripClearTextPadding = config.stripClearTextPadding;
     this._stripEspPadding = config.stripEspPadding;
     this._swNpBandwidth = config.swNpBandwidth;
+    this._swNpPause = config.swNpPause;
+    this._swNpRate = config.swNpRate;
+    this._swNpRateUnit = config.swNpRateUnit;
     this._switchNpHash = config.switchNpHash;
     this._tcpRstTimeout = config.tcpRstTimeout;
     this._tunnelOverVlink = config.tunnelOverVlink;
     this._uespOffload = config.uespOffload;
     this._ullPortMode = config.ullPortMode;
+    this._useMseOft = config.useMseOft;
     this._vlanLookupCache = config.vlanLookupCache;
     this._vxlanOffload = config.vxlanOffload;
     this._backgroundSseScan.internalValue = config.backgroundSseScan;
@@ -18387,7 +18450,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._doubleLevelMcastOffload;
   }
 
-  // dse_timeout - computed: false, optional: true, required: false
+  // dse_timeout - computed: true, optional: true, required: false
   private _dseTimeout?: number; 
   public get dseTimeout() {
     return this.getNumberAttribute('dse_timeout');
@@ -18483,7 +18546,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._gtpSupport;
   }
 
-  // hash_config - computed: false, optional: true, required: false
+  // hash_config - computed: true, optional: true, required: false
   private _hashConfig?: string; 
   public get hashConfig() {
     return this.getStringAttribute('hash_config');
@@ -18723,7 +18786,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._iphRsvdReCksum;
   }
 
-  // ippool_overload_high - computed: false, optional: true, required: false
+  // ippool_overload_high - computed: true, optional: true, required: false
   private _ippoolOverloadHigh?: number; 
   public get ippoolOverloadHigh() {
     return this.getNumberAttribute('ippool_overload_high');
@@ -18739,7 +18802,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._ippoolOverloadHigh;
   }
 
-  // ippool_overload_low - computed: false, optional: true, required: false
+  // ippool_overload_low - computed: true, optional: true, required: false
   private _ippoolOverloadLow?: number; 
   public get ippoolOverloadLow() {
     return this.getNumberAttribute('ippool_overload_low');
@@ -18865,6 +18928,22 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ipsecObNpSelInput() {
     return this._ipsecObNpSel;
+  }
+
+  // ipsec_ordering - computed: false, optional: true, required: false
+  private _ipsecOrdering?: string; 
+  public get ipsecOrdering() {
+    return this.getStringAttribute('ipsec_ordering');
+  }
+  public set ipsecOrdering(value: string) {
+    this._ipsecOrdering = value;
+  }
+  public resetIpsecOrdering() {
+    this._ipsecOrdering = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipsecOrderingInput() {
+    return this._ipsecOrdering;
   }
 
   // ipsec_over_vlink - computed: true, optional: true, required: false
@@ -19059,6 +19138,22 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._isfNpRxTrDistr;
   }
 
+  // lag_hash_gre - computed: false, optional: true, required: false
+  private _lagHashGre?: string; 
+  public get lagHashGre() {
+    return this.getStringAttribute('lag_hash_gre');
+  }
+  public set lagHashGre(value: string) {
+    this._lagHashGre = value;
+  }
+  public resetLagHashGre() {
+    this._lagHashGre = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get lagHashGreInput() {
+    return this._lagHashGre;
+  }
+
   // lag_out_port_select - computed: true, optional: true, required: false
   private _lagOutPortSelect?: string; 
   public get lagOutPortSelect() {
@@ -19235,7 +19330,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._nssThreadsOption;
   }
 
-  // pba_eim - computed: false, optional: true, required: false
+  // pba_eim - computed: true, optional: true, required: false
   private _pbaEim?: string; 
   public get pbaEim() {
     return this.getStringAttribute('pba_eim');
@@ -19635,6 +19730,54 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
     return this._swNpBandwidth;
   }
 
+  // sw_np_pause - computed: false, optional: true, required: false
+  private _swNpPause?: string; 
+  public get swNpPause() {
+    return this.getStringAttribute('sw_np_pause');
+  }
+  public set swNpPause(value: string) {
+    this._swNpPause = value;
+  }
+  public resetSwNpPause() {
+    this._swNpPause = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swNpPauseInput() {
+    return this._swNpPause;
+  }
+
+  // sw_np_rate - computed: false, optional: true, required: false
+  private _swNpRate?: number; 
+  public get swNpRate() {
+    return this.getNumberAttribute('sw_np_rate');
+  }
+  public set swNpRate(value: number) {
+    this._swNpRate = value;
+  }
+  public resetSwNpRate() {
+    this._swNpRate = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swNpRateInput() {
+    return this._swNpRate;
+  }
+
+  // sw_np_rate_unit - computed: false, optional: true, required: false
+  private _swNpRateUnit?: string; 
+  public get swNpRateUnit() {
+    return this.getStringAttribute('sw_np_rate_unit');
+  }
+  public set swNpRateUnit(value: string) {
+    this._swNpRateUnit = value;
+  }
+  public resetSwNpRateUnit() {
+    this._swNpRateUnit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get swNpRateUnitInput() {
+    return this._swNpRateUnit;
+  }
+
   // switch_np_hash - computed: true, optional: true, required: false
   private _switchNpHash?: string; 
   public get switchNpHash() {
@@ -19713,6 +19856,22 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get ullPortModeInput() {
     return this._ullPortMode;
+  }
+
+  // use_mse_oft - computed: false, optional: true, required: false
+  private _useMseOft?: string; 
+  public get useMseOft() {
+    return this.getStringAttribute('use_mse_oft');
+  }
+  public set useMseOft(value: string) {
+    this._useMseOft = value;
+  }
+  public resetUseMseOft() {
+    this._useMseOft = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get useMseOftInput() {
+    return this._useMseOft;
   }
 
   // vlan_lookup_cache - computed: true, optional: true, required: false
@@ -20128,6 +20287,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       ipsec_local_uesp_port: cdktf.numberToTerraform(this._ipsecLocalUespPort),
       ipsec_mtu_override: cdktf.stringToTerraform(this._ipsecMtuOverride),
       ipsec_ob_np_sel: cdktf.stringToTerraform(this._ipsecObNpSel),
+      ipsec_ordering: cdktf.stringToTerraform(this._ipsecOrdering),
       ipsec_over_vlink: cdktf.stringToTerraform(this._ipsecOverVlink),
       ipsec_sts_timeout: cdktf.stringToTerraform(this._ipsecStsTimeout),
       ipsec_throughput_msg_frequency: cdktf.stringToTerraform(this._ipsecThroughputMsgFrequency),
@@ -20140,6 +20300,7 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       ipv6_prefix_session_quota_high: cdktf.numberToTerraform(this._ipv6PrefixSessionQuotaHigh),
       ipv6_prefix_session_quota_low: cdktf.numberToTerraform(this._ipv6PrefixSessionQuotaLow),
       isf_np_rx_tr_distr: cdktf.stringToTerraform(this._isfNpRxTrDistr),
+      lag_hash_gre: cdktf.stringToTerraform(this._lagHashGre),
       lag_out_port_select: cdktf.stringToTerraform(this._lagOutPortSelect),
       max_receive_unit: cdktf.numberToTerraform(this._maxReceiveUnit),
       max_session_timeout: cdktf.numberToTerraform(this._maxSessionTimeout),
@@ -20176,11 +20337,15 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       strip_clear_text_padding: cdktf.stringToTerraform(this._stripClearTextPadding),
       strip_esp_padding: cdktf.stringToTerraform(this._stripEspPadding),
       sw_np_bandwidth: cdktf.stringToTerraform(this._swNpBandwidth),
+      sw_np_pause: cdktf.stringToTerraform(this._swNpPause),
+      sw_np_rate: cdktf.numberToTerraform(this._swNpRate),
+      sw_np_rate_unit: cdktf.stringToTerraform(this._swNpRateUnit),
       switch_np_hash: cdktf.stringToTerraform(this._switchNpHash),
       tcp_rst_timeout: cdktf.numberToTerraform(this._tcpRstTimeout),
       tunnel_over_vlink: cdktf.stringToTerraform(this._tunnelOverVlink),
       uesp_offload: cdktf.stringToTerraform(this._uespOffload),
       ull_port_mode: cdktf.stringToTerraform(this._ullPortMode),
+      use_mse_oft: cdktf.stringToTerraform(this._useMseOft),
       vlan_lookup_cache: cdktf.stringToTerraform(this._vlanLookupCache),
       vxlan_offload: cdktf.stringToTerraform(this._vxlanOffload),
       background_sse_scan: objectSystemNpuBackgroundSseScanToTerraform(this._backgroundSseScan.internalValue),
@@ -20443,6 +20608,12 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      ipsec_ordering: {
+        value: cdktf.stringToHclTerraform(this._ipsecOrdering),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       ipsec_over_vlink: {
         value: cdktf.stringToHclTerraform(this._ipsecOverVlink),
         isBlock: false,
@@ -20511,6 +20682,12 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       },
       isf_np_rx_tr_distr: {
         value: cdktf.stringToHclTerraform(this._isfNpRxTrDistr),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      lag_hash_gre: {
+        value: cdktf.stringToHclTerraform(this._lagHashGre),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -20731,6 +20908,24 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      sw_np_pause: {
+        value: cdktf.stringToHclTerraform(this._swNpPause),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      sw_np_rate: {
+        value: cdktf.numberToHclTerraform(this._swNpRate),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
+      },
+      sw_np_rate_unit: {
+        value: cdktf.stringToHclTerraform(this._swNpRateUnit),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       switch_np_hash: {
         value: cdktf.stringToHclTerraform(this._switchNpHash),
         isBlock: false,
@@ -20757,6 +20952,12 @@ export class ObjectSystemNpu extends cdktf.TerraformResource {
       },
       ull_port_mode: {
         value: cdktf.stringToHclTerraform(this._ullPortMode),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      use_mse_oft: {
+        value: cdktf.stringToHclTerraform(this._useMseOft),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,118 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectUserSamlDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#adfs_claim ObjectUserSamlDynamicMappingA#adfs_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#adfs_claim ObjectUserSamlDynamicMappingA#adfs_claim}
   */
   readonly adfsClaim?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#adom ObjectUserSamlDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#adom ObjectUserSamlDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#auth_url ObjectUserSamlDynamicMappingA#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#auth_url ObjectUserSamlDynamicMappingA#auth_url}
   */
   readonly authUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#cert ObjectUserSamlDynamicMappingA#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#cert ObjectUserSamlDynamicMappingA#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#clock_tolerance ObjectUserSamlDynamicMappingA#clock_tolerance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#clock_tolerance ObjectUserSamlDynamicMappingA#clock_tolerance}
   */
   readonly clockTolerance?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#digest_method ObjectUserSamlDynamicMappingA#digest_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#digest_method ObjectUserSamlDynamicMappingA#digest_method}
   */
   readonly digestMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#dynamic_sort_subtable ObjectUserSamlDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#dynamic_sort_subtable ObjectUserSamlDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#entity_id ObjectUserSamlDynamicMappingA#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#entity_id ObjectUserSamlDynamicMappingA#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#group_claim_type ObjectUserSamlDynamicMappingA#group_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#group_claim_type ObjectUserSamlDynamicMappingA#group_claim_type}
   */
   readonly groupClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#group_name ObjectUserSamlDynamicMappingA#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#group_name ObjectUserSamlDynamicMappingA#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#id ObjectUserSamlDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#id ObjectUserSamlDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#idp_cert ObjectUserSamlDynamicMappingA#idp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#idp_cert ObjectUserSamlDynamicMappingA#idp_cert}
   */
   readonly idpCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#idp_entity_id ObjectUserSamlDynamicMappingA#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#idp_entity_id ObjectUserSamlDynamicMappingA#idp_entity_id}
   */
   readonly idpEntityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#idp_single_logout_url ObjectUserSamlDynamicMappingA#idp_single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#idp_single_logout_url ObjectUserSamlDynamicMappingA#idp_single_logout_url}
   */
   readonly idpSingleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#idp_single_sign_on_url ObjectUserSamlDynamicMappingA#idp_single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#idp_single_sign_on_url ObjectUserSamlDynamicMappingA#idp_single_sign_on_url}
   */
   readonly idpSingleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#limit_relaystate ObjectUserSamlDynamicMappingA#limit_relaystate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#limit_relaystate ObjectUserSamlDynamicMappingA#limit_relaystate}
   */
   readonly limitRelaystate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#reauth ObjectUserSamlDynamicMappingA#reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#reauth ObjectUserSamlDynamicMappingA#reauth}
   */
   readonly reauth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#saml ObjectUserSamlDynamicMappingA#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#saml ObjectUserSamlDynamicMappingA#saml}
   */
   readonly saml: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#scim_client ObjectUserSamlDynamicMappingA#scim_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#scim_client ObjectUserSamlDynamicMappingA#scim_client}
   */
   readonly scimClient?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#scopetype ObjectUserSamlDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#scim_group_attr_type ObjectUserSamlDynamicMappingA#scim_group_attr_type}
+  */
+  readonly scimGroupAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#scim_user_attr_type ObjectUserSamlDynamicMappingA#scim_user_attr_type}
+  */
+  readonly scimUserAttrType?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#scopetype ObjectUserSamlDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#single_logout_url ObjectUserSamlDynamicMappingA#single_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#single_logout_url ObjectUserSamlDynamicMappingA#single_logout_url}
   */
   readonly singleLogoutUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#single_sign_on_url ObjectUserSamlDynamicMappingA#single_sign_on_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#single_sign_on_url ObjectUserSamlDynamicMappingA#single_sign_on_url}
   */
   readonly singleSignOnUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#user_claim_type ObjectUserSamlDynamicMappingA#user_claim_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#user_claim_type ObjectUserSamlDynamicMappingA#user_claim_type}
   */
   readonly userClaimType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#user_name ObjectUserSamlDynamicMappingA#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#user_name ObjectUserSamlDynamicMappingA#user_name}
   */
   readonly userName?: string;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#_scope ObjectUserSamlDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#_scope ObjectUserSamlDynamicMappingA#_scope}
   */
   readonly scope?: ObjectUserSamlDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectUserSamlDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#name ObjectUserSamlDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#name ObjectUserSamlDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#vdom ObjectUserSamlDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#vdom ObjectUserSamlDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -264,7 +272,7 @@ export class ObjectUserSamlDynamicMappingScopeAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping fortimanager_object_user_saml_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping fortimanager_object_user_saml_dynamic_mapping}
 */
 export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
 
@@ -280,7 +288,7 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectUserSamlDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectUserSamlDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectUserSamlDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectUserSamlDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectUserSamlDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +300,7 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_user_saml_dynamic_mapping fortimanager_object_user_saml_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_user_saml_dynamic_mapping fortimanager_object_user_saml_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +311,8 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_user_saml_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -333,6 +341,8 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
     this._reauth = config.reauth;
     this._saml = config.saml;
     this._scimClient = config.scimClient;
+    this._scimGroupAttrType = config.scimGroupAttrType;
+    this._scimUserAttrType = config.scimUserAttrType;
     this._scopetype = config.scopetype;
     this._singleLogoutUrl = config.singleLogoutUrl;
     this._singleSignOnUrl = config.singleSignOnUrl;
@@ -646,6 +656,38 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
     return this._scimClient;
   }
 
+  // scim_group_attr_type - computed: false, optional: true, required: false
+  private _scimGroupAttrType?: string; 
+  public get scimGroupAttrType() {
+    return this.getStringAttribute('scim_group_attr_type');
+  }
+  public set scimGroupAttrType(value: string) {
+    this._scimGroupAttrType = value;
+  }
+  public resetScimGroupAttrType() {
+    this._scimGroupAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimGroupAttrTypeInput() {
+    return this._scimGroupAttrType;
+  }
+
+  // scim_user_attr_type - computed: false, optional: true, required: false
+  private _scimUserAttrType?: string; 
+  public get scimUserAttrType() {
+    return this.getStringAttribute('scim_user_attr_type');
+  }
+  public set scimUserAttrType(value: string) {
+    this._scimUserAttrType = value;
+  }
+  public resetScimUserAttrType() {
+    this._scimUserAttrType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get scimUserAttrTypeInput() {
+    return this._scimUserAttrType;
+  }
+
   // scopetype - computed: false, optional: true, required: false
   private _scopetype?: string; 
   public get scopetype() {
@@ -767,6 +809,8 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
       reauth: cdktf.stringToTerraform(this._reauth),
       saml: cdktf.stringToTerraform(this._saml),
       scim_client: cdktf.listMapper(cdktf.stringToTerraform, false)(this._scimClient),
+      scim_group_attr_type: cdktf.stringToTerraform(this._scimGroupAttrType),
+      scim_user_attr_type: cdktf.stringToTerraform(this._scimUserAttrType),
       scopetype: cdktf.stringToTerraform(this._scopetype),
       single_logout_url: cdktf.stringToTerraform(this._singleLogoutUrl),
       single_sign_on_url: cdktf.stringToTerraform(this._singleSignOnUrl),
@@ -891,6 +935,18 @@ export class ObjectUserSamlDynamicMappingA extends cdktf.TerraformResource {
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
+      },
+      scim_group_attr_type: {
+        value: cdktf.stringToHclTerraform(this._scimGroupAttrType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      scim_user_attr_type: {
+        value: cdktf.stringToHclTerraform(this._scimUserAttrType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       scopetype: {
         value: cdktf.stringToHclTerraform(this._scopetype),

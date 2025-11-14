@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,97 +8,97 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallShapingprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#adom ObjectFirewallShapingprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#adom ObjectFirewallShapingprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#comment ObjectFirewallShapingprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#comment ObjectFirewallShapingprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#default_class_id ObjectFirewallShapingprofile#default_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#default_class_id ObjectFirewallShapingprofile#default_class_id}
   */
   readonly defaultClassId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#dynamic_sort_subtable ObjectFirewallShapingprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#dynamic_sort_subtable ObjectFirewallShapingprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#id ObjectFirewallShapingprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#id ObjectFirewallShapingprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#npu_offloading ObjectFirewallShapingprofile#npu_offloading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#npu_offloading ObjectFirewallShapingprofile#npu_offloading}
   */
   readonly npuOffloading?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#profile_name ObjectFirewallShapingprofile#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#profile_name ObjectFirewallShapingprofile#profile_name}
   */
   readonly profileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#scopetype ObjectFirewallShapingprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#scopetype ObjectFirewallShapingprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#type ObjectFirewallShapingprofile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#type ObjectFirewallShapingprofile#type}
   */
   readonly type?: string;
   /**
   * shaping_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#shaping_entries ObjectFirewallShapingprofile#shaping_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#shaping_entries ObjectFirewallShapingprofile#shaping_entries}
   */
   readonly shapingEntries?: ObjectFirewallShapingprofileShapingEntries[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallShapingprofileShapingEntries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#burst_in_msec ObjectFirewallShapingprofile#burst_in_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#burst_in_msec ObjectFirewallShapingprofile#burst_in_msec}
   */
   readonly burstInMsec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#cburst_in_msec ObjectFirewallShapingprofile#cburst_in_msec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#cburst_in_msec ObjectFirewallShapingprofile#cburst_in_msec}
   */
   readonly cburstInMsec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#class_id ObjectFirewallShapingprofile#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#class_id ObjectFirewallShapingprofile#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#guaranteed_bandwidth_percentage ObjectFirewallShapingprofile#guaranteed_bandwidth_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#guaranteed_bandwidth_percentage ObjectFirewallShapingprofile#guaranteed_bandwidth_percentage}
   */
   readonly guaranteedBandwidthPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#id ObjectFirewallShapingprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#id ObjectFirewallShapingprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#limit ObjectFirewallShapingprofile#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#limit ObjectFirewallShapingprofile#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#max ObjectFirewallShapingprofile#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#max ObjectFirewallShapingprofile#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#maximum_bandwidth_percentage ObjectFirewallShapingprofile#maximum_bandwidth_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#maximum_bandwidth_percentage ObjectFirewallShapingprofile#maximum_bandwidth_percentage}
   */
   readonly maximumBandwidthPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#min ObjectFirewallShapingprofile#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#min ObjectFirewallShapingprofile#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#priority ObjectFirewallShapingprofile#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#priority ObjectFirewallShapingprofile#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#red_probability ObjectFirewallShapingprofile#red_probability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#red_probability ObjectFirewallShapingprofile#red_probability}
   */
   readonly redProbability?: number;
 }
@@ -504,7 +504,7 @@ export class ObjectFirewallShapingprofileShapingEntriesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile fortimanager_object_firewall_shapingprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile fortimanager_object_firewall_shapingprofile}
 */
 export class ObjectFirewallShapingprofile extends cdktf.TerraformResource {
 
@@ -520,7 +520,7 @@ export class ObjectFirewallShapingprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectFirewallShapingprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallShapingprofile to import
-  * @param importFromId The id of the existing ObjectFirewallShapingprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallShapingprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallShapingprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -532,7 +532,7 @@ export class ObjectFirewallShapingprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_shapingprofile fortimanager_object_firewall_shapingprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_shapingprofile fortimanager_object_firewall_shapingprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -543,8 +543,8 @@ export class ObjectFirewallShapingprofile extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_firewall_shapingprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,116 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbUseractivityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#adom ObjectCasbUseractivity#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#adom ObjectCasbUseractivity#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#application ObjectCasbUseractivity#application}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#application ObjectCasbUseractivity#application}
   */
   readonly application?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#casb_name ObjectCasbUseractivity#casb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#casb_name ObjectCasbUseractivity#casb_name}
   */
   readonly casbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#category ObjectCasbUseractivity#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#category ObjectCasbUseractivity#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#description ObjectCasbUseractivity#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#description ObjectCasbUseractivity#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#dynamic_sort_subtable ObjectCasbUseractivity#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#dynamic_sort_subtable ObjectCasbUseractivity#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#match_strategy ObjectCasbUseractivity#match_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#match_strategy ObjectCasbUseractivity#match_strategy}
   */
   readonly matchStrategy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#scopetype ObjectCasbUseractivity#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#scopetype ObjectCasbUseractivity#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#uuid ObjectCasbUseractivity#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#uuid ObjectCasbUseractivity#uuid}
   */
   readonly uuid?: string;
   /**
   * control_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#control_options ObjectCasbUseractivity#control_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#control_options ObjectCasbUseractivity#control_options}
   */
   readonly controlOptions?: ObjectCasbUseractivityControlOptions[] | cdktf.IResolvable;
   /**
   * match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#match ObjectCasbUseractivity#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#match ObjectCasbUseractivity#match}
   */
   readonly match?: ObjectCasbUseractivityMatch[] | cdktf.IResolvable;
 }
 export interface ObjectCasbUseractivityControlOptionsOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#action ObjectCasbUseractivity#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#action ObjectCasbUseractivity#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#case_sensitive ObjectCasbUseractivity#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#case_sensitive ObjectCasbUseractivity#case_sensitive}
   */
   readonly caseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#direction ObjectCasbUseractivity#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#direction ObjectCasbUseractivity#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#search_key ObjectCasbUseractivity#search_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#search_key ObjectCasbUseractivity#search_key}
   */
   readonly searchKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#search_pattern ObjectCasbUseractivity#search_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#search_pattern ObjectCasbUseractivity#search_pattern}
   */
   readonly searchPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#target ObjectCasbUseractivity#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#target ObjectCasbUseractivity#target}
   */
   readonly target?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#value_from_input ObjectCasbUseractivity#value_from_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#value_from_input ObjectCasbUseractivity#value_from_input}
   */
   readonly valueFromInput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#values ObjectCasbUseractivity#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#value_name_from_input ObjectCasbUseractivity#value_name_from_input}
+  */
+  readonly valueNameFromInput?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#values ObjectCasbUseractivity#values}
   */
   readonly values?: string[];
 }
@@ -133,6 +137,7 @@ export function objectCasbUseractivityControlOptionsOperationsToTerraform(struct
     search_pattern: cdktf.stringToTerraform(struct!.searchPattern),
     target: cdktf.stringToTerraform(struct!.target),
     value_from_input: cdktf.stringToTerraform(struct!.valueFromInput),
+    value_name_from_input: cdktf.stringToTerraform(struct!.valueNameFromInput),
     values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
   }
 }
@@ -194,6 +199,12 @@ export function objectCasbUseractivityControlOptionsOperationsToHclTerraform(str
     },
     value_from_input: {
       value: cdktf.stringToHclTerraform(struct!.valueFromInput),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    value_name_from_input: {
+      value: cdktf.stringToHclTerraform(struct!.valueNameFromInput),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -266,6 +277,10 @@ export class ObjectCasbUseractivityControlOptionsOperationsOutputReference exten
       hasAnyValues = true;
       internalValueResult.valueFromInput = this._valueFromInput;
     }
+    if (this._valueNameFromInput !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.valueNameFromInput = this._valueNameFromInput;
+    }
     if (this._values !== undefined) {
       hasAnyValues = true;
       internalValueResult.values = this._values;
@@ -286,6 +301,7 @@ export class ObjectCasbUseractivityControlOptionsOperationsOutputReference exten
       this._searchPattern = undefined;
       this._target = undefined;
       this._valueFromInput = undefined;
+      this._valueNameFromInput = undefined;
       this._values = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
@@ -304,6 +320,7 @@ export class ObjectCasbUseractivityControlOptionsOperationsOutputReference exten
       this._searchPattern = value.searchPattern;
       this._target = value.target;
       this._valueFromInput = value.valueFromInput;
+      this._valueNameFromInput = value.valueNameFromInput;
       this._values = value.values;
     }
   }
@@ -452,6 +469,22 @@ export class ObjectCasbUseractivityControlOptionsOperationsOutputReference exten
     return this._valueFromInput;
   }
 
+  // value_name_from_input - computed: false, optional: true, required: false
+  private _valueNameFromInput?: string; 
+  public get valueNameFromInput() {
+    return this.getStringAttribute('value_name_from_input');
+  }
+  public set valueNameFromInput(value: string) {
+    this._valueNameFromInput = value;
+  }
+  public resetValueNameFromInput() {
+    this._valueNameFromInput = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valueNameFromInputInput() {
+    return this._valueNameFromInput;
+  }
+
   // values - computed: true, optional: true, required: false
   private _values?: string[]; 
   public get values() {
@@ -490,17 +523,17 @@ export class ObjectCasbUseractivityControlOptionsOperationsList extends cdktf.Co
 }
 export interface ObjectCasbUseractivityControlOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#name ObjectCasbUseractivity#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
   */
   readonly status?: string;
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#operations ObjectCasbUseractivity#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#operations ObjectCasbUseractivity#operations}
   */
   readonly operations?: ObjectCasbUseractivityControlOptionsOperations[] | cdktf.IResolvable;
 }
@@ -674,50 +707,50 @@ export class ObjectCasbUseractivityControlOptionsList extends cdktf.ComplexList 
 }
 export interface ObjectCasbUseractivityMatchRules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#body_type ObjectCasbUseractivity#body_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#body_type ObjectCasbUseractivity#body_type}
   */
   readonly bodyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#case_sensitive ObjectCasbUseractivity#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#case_sensitive ObjectCasbUseractivity#case_sensitive}
   */
   readonly caseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#domains ObjectCasbUseractivity#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#domains ObjectCasbUseractivity#domains}
   */
   readonly domains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#jq ObjectCasbUseractivity#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#jq ObjectCasbUseractivity#jq}
   */
   readonly jq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#match_pattern ObjectCasbUseractivity#match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#match_pattern ObjectCasbUseractivity#match_pattern}
   */
   readonly matchPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#match_value ObjectCasbUseractivity#match_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#match_value ObjectCasbUseractivity#match_value}
   */
   readonly matchValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#methods ObjectCasbUseractivity#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#methods ObjectCasbUseractivity#methods}
   */
   readonly methods?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#negate ObjectCasbUseractivity#negate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#negate ObjectCasbUseractivity#negate}
   */
   readonly negate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
   */
   readonly type?: string;
 }
@@ -1123,26 +1156,26 @@ export class ObjectCasbUseractivityMatchRulesList extends cdktf.ComplexList {
 }
 export interface ObjectCasbUseractivityMatchTenantExtractionFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#body_type ObjectCasbUseractivity#body_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#body_type ObjectCasbUseractivity#body_type}
   */
   readonly bodyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#direction ObjectCasbUseractivity#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#direction ObjectCasbUseractivity#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#header_name ObjectCasbUseractivity#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#place ObjectCasbUseractivity#place}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#place ObjectCasbUseractivity#place}
   */
   readonly place?: string;
 }
@@ -1374,21 +1407,21 @@ export class ObjectCasbUseractivityMatchTenantExtractionFiltersList extends cdkt
 }
 export interface ObjectCasbUseractivityMatchTenantExtraction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#jq ObjectCasbUseractivity#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#jq ObjectCasbUseractivity#jq}
   */
   readonly jq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#status ObjectCasbUseractivity#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#type ObjectCasbUseractivity#type}
   */
   readonly type?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#filters ObjectCasbUseractivity#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#filters ObjectCasbUseractivity#filters}
   */
   readonly filters?: ObjectCasbUseractivityMatchTenantExtractionFilters[] | cdktf.IResolvable;
 }
@@ -1559,26 +1592,26 @@ export class ObjectCasbUseractivityMatchTenantExtractionOutputReference extends 
 }
 export interface ObjectCasbUseractivityMatch {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#id ObjectCasbUseractivity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#strategy ObjectCasbUseractivity#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#strategy ObjectCasbUseractivity#strategy}
   */
   readonly strategy?: string;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#rules ObjectCasbUseractivity#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#rules ObjectCasbUseractivity#rules}
   */
   readonly rules?: ObjectCasbUseractivityMatchRules[] | cdktf.IResolvable;
   /**
   * tenant_extraction block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#tenant_extraction ObjectCasbUseractivity#tenant_extraction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#tenant_extraction ObjectCasbUseractivity#tenant_extraction}
   */
   readonly tenantExtraction?: ObjectCasbUseractivityMatchTenantExtraction;
 }
@@ -1781,7 +1814,7 @@ export class ObjectCasbUseractivityMatchList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity fortimanager_object_casb_useractivity}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity fortimanager_object_casb_useractivity}
 */
 export class ObjectCasbUseractivity extends cdktf.TerraformResource {
 
@@ -1797,7 +1830,7 @@ export class ObjectCasbUseractivity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectCasbUseractivity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbUseractivity to import
-  * @param importFromId The id of the existing ObjectCasbUseractivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbUseractivity that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbUseractivity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1809,7 +1842,7 @@ export class ObjectCasbUseractivity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity fortimanager_object_casb_useractivity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity fortimanager_object_casb_useractivity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1820,8 +1853,8 @@ export class ObjectCasbUseractivity extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_casb_useractivity',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

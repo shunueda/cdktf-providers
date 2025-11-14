@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallAccessproxyApigateway6SslciphersuitesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#access_proxy ObjectFirewallAccessproxyApigateway6Sslciphersuites#access_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#access_proxy ObjectFirewallAccessproxyApigateway6Sslciphersuites#access_proxy}
   */
   readonly accessProxy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#adom ObjectFirewallAccessproxyApigateway6Sslciphersuites#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#adom ObjectFirewallAccessproxyApigateway6Sslciphersuites#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#api_gateway6 ObjectFirewallAccessproxyApigateway6Sslciphersuites#api_gateway6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#api_gateway6 ObjectFirewallAccessproxyApigateway6Sslciphersuites#api_gateway6}
   */
   readonly apiGateway6: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#cipher ObjectFirewallAccessproxyApigateway6Sslciphersuites#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#cipher ObjectFirewallAccessproxyApigateway6Sslciphersuites#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#id ObjectFirewallAccessproxyApigateway6Sslciphersuites#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#id ObjectFirewallAccessproxyApigateway6Sslciphersuites#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#priority ObjectFirewallAccessproxyApigateway6Sslciphersuites#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#priority ObjectFirewallAccessproxyApigateway6Sslciphersuites#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#scopetype ObjectFirewallAccessproxyApigateway6Sslciphersuites#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#scopetype ObjectFirewallAccessproxyApigateway6Sslciphersuites#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#versions ObjectFirewallAccessproxyApigateway6Sslciphersuites#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#versions ObjectFirewallAccessproxyApigateway6Sslciphersuites#versions}
   */
   readonly versions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites fortimanager_object_firewall_accessproxy_apigateway6_sslciphersuites}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites fortimanager_object_firewall_accessproxy_apigateway6_sslciphersuites}
 */
 export class ObjectFirewallAccessproxyApigateway6Sslciphersuites extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class ObjectFirewallAccessproxyApigateway6Sslciphersuites extends cdktf.T
   * Generates CDKTF code for importing a ObjectFirewallAccessproxyApigateway6Sslciphersuites resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallAccessproxyApigateway6Sslciphersuites to import
-  * @param importFromId The id of the existing ObjectFirewallAccessproxyApigateway6Sslciphersuites that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallAccessproxyApigateway6Sslciphersuites that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallAccessproxyApigateway6Sslciphersuites to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class ObjectFirewallAccessproxyApigateway6Sslciphersuites extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites fortimanager_object_firewall_accessproxy_apigateway6_sslciphersuites} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_accessproxy_apigateway6_sslciphersuites fortimanager_object_firewall_accessproxy_apigateway6_sslciphersuites} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class ObjectFirewallAccessproxyApigateway6Sslciphersuites extends cdktf.T
       terraformResourceType: 'fortimanager_object_firewall_accessproxy_apigateway6_sslciphersuites',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,73 +8,73 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectCasbUseractivityMatchTenantextractionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#adom ObjectCasbUseractivityMatchTenantextraction#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#adom ObjectCasbUseractivityMatchTenantextraction#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#dynamic_sort_subtable ObjectCasbUseractivityMatchTenantextraction#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#dynamic_sort_subtable ObjectCasbUseractivityMatchTenantextraction#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#id ObjectCasbUseractivityMatchTenantextraction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#id ObjectCasbUseractivityMatchTenantextraction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#jq ObjectCasbUseractivityMatchTenantextraction#jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#jq ObjectCasbUseractivityMatchTenantextraction#jq}
   */
   readonly jq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#match ObjectCasbUseractivityMatchTenantextraction#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#match ObjectCasbUseractivityMatchTenantextraction#match}
   */
   readonly match: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#scopetype ObjectCasbUseractivityMatchTenantextraction#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#scopetype ObjectCasbUseractivityMatchTenantextraction#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#status ObjectCasbUseractivityMatchTenantextraction#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#status ObjectCasbUseractivityMatchTenantextraction#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#type ObjectCasbUseractivityMatchTenantextraction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#type ObjectCasbUseractivityMatchTenantextraction#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#user_activity ObjectCasbUseractivityMatchTenantextraction#user_activity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#user_activity ObjectCasbUseractivityMatchTenantextraction#user_activity}
   */
   readonly userActivity: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#filters ObjectCasbUseractivityMatchTenantextraction#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#filters ObjectCasbUseractivityMatchTenantextraction#filters}
   */
   readonly filters?: ObjectCasbUseractivityMatchTenantextractionFilters[] | cdktf.IResolvable;
 }
 export interface ObjectCasbUseractivityMatchTenantextractionFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#body_type ObjectCasbUseractivityMatchTenantextraction#body_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#body_type ObjectCasbUseractivityMatchTenantextraction#body_type}
   */
   readonly bodyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#direction ObjectCasbUseractivityMatchTenantextraction#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#direction ObjectCasbUseractivityMatchTenantextraction#direction}
   */
   readonly direction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#header_name ObjectCasbUseractivityMatchTenantextraction#header_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#header_name ObjectCasbUseractivityMatchTenantextraction#header_name}
   */
   readonly headerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#id ObjectCasbUseractivityMatchTenantextraction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#id ObjectCasbUseractivityMatchTenantextraction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#place ObjectCasbUseractivityMatchTenantextraction#place}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#place ObjectCasbUseractivityMatchTenantextraction#place}
   */
   readonly place?: string;
 }
@@ -306,7 +306,7 @@ export class ObjectCasbUseractivityMatchTenantextractionFiltersList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction fortimanager_object_casb_useractivity_match_tenantextraction}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction fortimanager_object_casb_useractivity_match_tenantextraction}
 */
 export class ObjectCasbUseractivityMatchTenantextraction extends cdktf.TerraformResource {
 
@@ -322,7 +322,7 @@ export class ObjectCasbUseractivityMatchTenantextraction extends cdktf.Terraform
   * Generates CDKTF code for importing a ObjectCasbUseractivityMatchTenantextraction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectCasbUseractivityMatchTenantextraction to import
-  * @param importFromId The id of the existing ObjectCasbUseractivityMatchTenantextraction that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectCasbUseractivityMatchTenantextraction that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectCasbUseractivityMatchTenantextraction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -334,7 +334,7 @@ export class ObjectCasbUseractivityMatchTenantextraction extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_casb_useractivity_match_tenantextraction fortimanager_object_casb_useractivity_match_tenantextraction} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_casb_useractivity_match_tenantextraction fortimanager_object_casb_useractivity_match_tenantextraction} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,8 +345,8 @@ export class ObjectCasbUseractivityMatchTenantextraction extends cdktf.Terraform
       terraformResourceType: 'fortimanager_object_casb_useractivity_match_tenantextraction',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

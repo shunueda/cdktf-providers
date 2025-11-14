@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface FtdDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the Cloud-Delivered FMC (cdFMC) access policy that will be used by the FTD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#access_policy_name FtdDevice#access_policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#access_policy_name FtdDevice#access_policy_name}
   */
   readonly accessPolicyName: string;
   /**
   * Specify a map of grouped labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in SCC Firewall Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#grouped_labels FtdDevice#grouped_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#grouped_labels FtdDevice#grouped_labels}
   */
   readonly groupedLabels?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Specify a set of labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in SCC Firewall Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#labels FtdDevice#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#labels FtdDevice#labels}
   */
   readonly labels?: string[];
   /**
   * Comma-separated list of licenses to apply to this FTD. You must enable at least the "BASE" license. Allowed values are: ["BASE", "CARRIER", "THREAT", "MALWARE", "URLFilter",].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#licenses FtdDevice#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#licenses FtdDevice#licenses}
   */
   readonly licenses: string[];
   /**
   * A human-readable name for the Firewall Threat Defense (FTD). This name must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#name FtdDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#name FtdDevice#name}
   */
   readonly name: string;
   /**
   * The performance tier of the virtual FTD, if virtual is set to false, this field is ignored as performance tiers are not applicable to physical FTD devices. Allowed values are: ["FTDv5", "FTDv10", "FTDv20", "FTDv30", "FTDv50", "FTDv100", "FTDv"].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#performance_tier FtdDevice#performance_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#performance_tier FtdDevice#performance_tier}
   */
   readonly performanceTier?: string;
   /**
   * This determines if this FTD is virtual. If false, performance_tier is ignored as performance tiers are not applicable to physical FTD devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#virtual FtdDevice#virtual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#virtual FtdDevice#virtual}
   */
   readonly virtual: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device sccfm_ftd_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device sccfm_ftd_device}
 */
 export class FtdDevice extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class FtdDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FtdDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FtdDevice to import
-  * @param importFromId The id of the existing FtdDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FtdDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FtdDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class FtdDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/ftd_device sccfm_ftd_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/ftd_device sccfm_ftd_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class FtdDevice extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_ftd_device',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

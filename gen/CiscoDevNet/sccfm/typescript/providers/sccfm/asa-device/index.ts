@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device
+// https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface AsaDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * The version of the ASDM on the ASA device. If this attribute is set during resource creation and the version of ASDM on the ASA is not the same as that specified, resource creation will fail. If the version attribute is updated following the creation of a resource, the CDO terraform provider will attempt to upgrade the ASDM on the device to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#asdm_version AsaDevice#asdm_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#asdm_version AsaDevice#asdm_version}
   */
   readonly asdmVersion?: string;
   /**
   * The name of the Secure Device Connector (SDC) that will be used to communicate with the device. This value is not required if the connector type selected is Cloud Connector (CDG).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#connector_name AsaDevice#connector_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#connector_name AsaDevice#connector_name}
   */
   readonly connectorName?: string;
   /**
   * The type of the connector that will be used to communicate with the device. CDO can communicate with your device using either a Cloud Connector (CDG) or a Secure Device Connector (SDC); see [the SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/c-connect-cisco-defense-orchestratortor-the-secure-device-connector.html) to learn more (Valid values: [CDG, SDC]).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#connector_type AsaDevice#connector_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#connector_type AsaDevice#connector_type}
   */
   readonly connectorType: string;
   /**
   * Specify a map of grouped labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#grouped_labels AsaDevice#grouped_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#grouped_labels AsaDevice#grouped_labels}
   */
   readonly groupedLabels?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Set this attribute to true if you do not want CDO to validate the certificate of this device before onboarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#ignore_certificate AsaDevice#ignore_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#ignore_certificate AsaDevice#ignore_certificate}
   */
   readonly ignoreCertificate: boolean | cdktf.IResolvable;
   /**
   * Specify a set of labels to identify the device as part of a group. Refer to the [SCC Firewall Manager documentation](https://docs.manage.security.cisco.com/t-applying-labels-to-devices-and-objects.html#!c-labels-and-filtering.html) for details on how labels are used in CDO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#labels AsaDevice#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#labels AsaDevice#labels}
   */
   readonly labels?: string[];
   /**
   * A human-readable name for the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#name AsaDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#name AsaDevice#name}
   */
   readonly name: string;
   /**
   * The password used to authenticate with the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#password AsaDevice#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#password AsaDevice#password}
   */
   readonly password: string;
   /**
   * The address of the device to onboard, specified in the format `host:port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#socket_address AsaDevice#socket_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#socket_address AsaDevice#socket_address}
   */
   readonly socketAddress: string;
   /**
   * The version of the ASA device. If this attribute is set during resource creation and the version of the ASA is not the same as that specified, resource creation will fail. If the version attribute is updated following the creation of a resource, the CDO terraform provider will attempt to upgrade the device to the specified version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#software_version AsaDevice#software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#software_version AsaDevice#software_version}
   */
   readonly softwareVersion?: string;
   /**
   * The username used to authenticate with the device.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#username AsaDevice#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#username AsaDevice#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device sccfm_asa_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device sccfm_asa_device}
 */
 export class AsaDevice extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class AsaDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AsaDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AsaDevice to import
-  * @param importFromId The id of the existing AsaDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AsaDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AsaDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class AsaDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.0/docs/resources/asa_device sccfm_asa_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/sccfm/0.3.2/docs/resources/asa_device sccfm_asa_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class AsaDevice extends cdktf.TerraformResource {
       terraformResourceType: 'sccfm_asa_device',
       terraformGeneratorMetadata: {
         providerName: 'sccfm',
-        providerVersion: '0.3.0',
-        providerVersionConstraint: '0.3.0'
+        providerVersion: '0.3.2',
+        providerVersionConstraint: '0.3.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

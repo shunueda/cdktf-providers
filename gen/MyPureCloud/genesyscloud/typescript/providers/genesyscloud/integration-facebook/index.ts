@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IntegrationFacebookConfig extends cdktf.TerraformMetaArguments 
   /**
   * The app Id of Facebook app. The appId is required when a customer wants to use their own approved Facebook app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#app_id IntegrationFacebook#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#app_id IntegrationFacebook#app_id}
   */
   readonly appId?: string;
   /**
   * The app Secret of Facebook app. The appSecret is required when appId is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#app_secret IntegrationFacebook#app_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#app_secret IntegrationFacebook#app_secret}
   */
   readonly appSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#id IntegrationFacebook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#id IntegrationFacebook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,13 +29,13 @@ export interface IntegrationFacebookConfig extends cdktf.TerraformMetaArguments 
   /**
   * The messaging Setting unique identifier associated with this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#messaging_setting_id IntegrationFacebook#messaging_setting_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#messaging_setting_id IntegrationFacebook#messaging_setting_id}
   */
   readonly messagingSettingId?: string;
   /**
   * The name of the Facebook Integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#name IntegrationFacebook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#name IntegrationFacebook#name}
   */
   readonly name: string;
   /**
@@ -43,19 +43,19 @@ export interface IntegrationFacebookConfig extends cdktf.TerraformMetaArguments 
   * 			See https://developers.facebook.com/docs/facebook-login/access-tokens.
   * 			Either pageAccessToken or userAccessToken should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#page_access_token IntegrationFacebook#page_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#page_access_token IntegrationFacebook#page_access_token}
   */
   readonly pageAccessToken?: string;
   /**
   * The page Id of Facebook page. The pageId is required when userAccessToken is provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#page_id IntegrationFacebook#page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#page_id IntegrationFacebook#page_id}
   */
   readonly pageId?: string;
   /**
   * The SupportedContent unique identifier associated with this integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#supported_content_id IntegrationFacebook#supported_content_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#supported_content_id IntegrationFacebook#supported_content_id}
   */
   readonly supportedContentId?: string;
   /**
@@ -63,23 +63,23 @@ export interface IntegrationFacebookConfig extends cdktf.TerraformMetaArguments 
   * 			See https://developers.facebook.com/docs/facebook-login/access-tokens.
   * 			Either pageAccessToken or userAccessToken should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#user_access_token IntegrationFacebook#user_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#user_access_token IntegrationFacebook#user_access_token}
   */
   readonly userAccessToken?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#timeouts IntegrationFacebook#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#timeouts IntegrationFacebook#timeouts}
   */
   readonly timeouts?: IntegrationFacebookTimeouts;
 }
 export interface IntegrationFacebookTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#read IntegrationFacebook#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#read IntegrationFacebook#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#update IntegrationFacebook#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#update IntegrationFacebook#update}
   */
   readonly update?: string;
 }
@@ -202,7 +202,7 @@ export class IntegrationFacebookTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook genesyscloud_integration_facebook}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook genesyscloud_integration_facebook}
 */
 export class IntegrationFacebook extends cdktf.TerraformResource {
 
@@ -218,7 +218,7 @@ export class IntegrationFacebook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationFacebook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationFacebook to import
-  * @param importFromId The id of the existing IntegrationFacebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationFacebook that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationFacebook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -230,7 +230,7 @@ export class IntegrationFacebook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/integration_facebook genesyscloud_integration_facebook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/integration_facebook genesyscloud_integration_facebook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -241,8 +241,8 @@ export class IntegrationFacebook extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_integration_facebook',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

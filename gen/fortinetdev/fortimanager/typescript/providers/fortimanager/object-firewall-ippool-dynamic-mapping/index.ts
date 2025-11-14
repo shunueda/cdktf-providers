@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,194 +8,194 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectFirewallIppoolDynamicMappingAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#add_nat64_route ObjectFirewallIppoolDynamicMappingA#add_nat64_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#add_nat64_route ObjectFirewallIppoolDynamicMappingA#add_nat64_route}
   */
   readonly addNat64Route?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#adom ObjectFirewallIppoolDynamicMappingA#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#adom ObjectFirewallIppoolDynamicMappingA#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#arp_intf ObjectFirewallIppoolDynamicMappingA#arp_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#arp_intf ObjectFirewallIppoolDynamicMappingA#arp_intf}
   */
   readonly arpIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#arp_reply ObjectFirewallIppoolDynamicMappingA#arp_reply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#arp_reply ObjectFirewallIppoolDynamicMappingA#arp_reply}
   */
   readonly arpReply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#associated_interface ObjectFirewallIppoolDynamicMappingA#associated_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#associated_interface ObjectFirewallIppoolDynamicMappingA#associated_interface}
   */
   readonly associatedInterface?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#block_size ObjectFirewallIppoolDynamicMappingA#block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#block_size ObjectFirewallIppoolDynamicMappingA#block_size}
   */
   readonly blockSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_block_size ObjectFirewallIppoolDynamicMappingA#cgn_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_block_size ObjectFirewallIppoolDynamicMappingA#cgn_block_size}
   */
   readonly cgnBlockSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_endip ObjectFirewallIppoolDynamicMappingA#cgn_client_endip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_endip ObjectFirewallIppoolDynamicMappingA#cgn_client_endip}
   */
   readonly cgnClientEndip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_ipv6shift ObjectFirewallIppoolDynamicMappingA#cgn_client_ipv6shift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_ipv6shift ObjectFirewallIppoolDynamicMappingA#cgn_client_ipv6shift}
   */
   readonly cgnClientIpv6Shift?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_startip ObjectFirewallIppoolDynamicMappingA#cgn_client_startip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_client_startip ObjectFirewallIppoolDynamicMappingA#cgn_client_startip}
   */
   readonly cgnClientStartip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_fixedalloc ObjectFirewallIppoolDynamicMappingA#cgn_fixedalloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_fixedalloc ObjectFirewallIppoolDynamicMappingA#cgn_fixedalloc}
   */
   readonly cgnFixedalloc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_overload ObjectFirewallIppoolDynamicMappingA#cgn_overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_overload ObjectFirewallIppoolDynamicMappingA#cgn_overload}
   */
   readonly cgnOverload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_port_end ObjectFirewallIppoolDynamicMappingA#cgn_port_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_port_end ObjectFirewallIppoolDynamicMappingA#cgn_port_end}
   */
   readonly cgnPortEnd?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_port_start ObjectFirewallIppoolDynamicMappingA#cgn_port_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_port_start ObjectFirewallIppoolDynamicMappingA#cgn_port_start}
   */
   readonly cgnPortStart?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_spa ObjectFirewallIppoolDynamicMappingA#cgn_spa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#cgn_spa ObjectFirewallIppoolDynamicMappingA#cgn_spa}
   */
   readonly cgnSpa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#client_prefix_length ObjectFirewallIppoolDynamicMappingA#client_prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#client_prefix_length ObjectFirewallIppoolDynamicMappingA#client_prefix_length}
   */
   readonly clientPrefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#comments ObjectFirewallIppoolDynamicMappingA#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#comments ObjectFirewallIppoolDynamicMappingA#comments}
   */
   readonly comments?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#dynamic_sort_subtable ObjectFirewallIppoolDynamicMappingA#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#dynamic_sort_subtable ObjectFirewallIppoolDynamicMappingA#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#endip ObjectFirewallIppoolDynamicMappingA#endip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#endip ObjectFirewallIppoolDynamicMappingA#endip}
   */
   readonly endip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#endport ObjectFirewallIppoolDynamicMappingA#endport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#endport ObjectFirewallIppoolDynamicMappingA#endport}
   */
   readonly endport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#exclude_ip ObjectFirewallIppoolDynamicMappingA#exclude_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#exclude_ip ObjectFirewallIppoolDynamicMappingA#exclude_ip}
   */
   readonly excludeIp?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#icmp_session_quota ObjectFirewallIppoolDynamicMappingA#icmp_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#icmp_session_quota ObjectFirewallIppoolDynamicMappingA#icmp_session_quota}
   */
   readonly icmpSessionQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#id ObjectFirewallIppoolDynamicMappingA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#id ObjectFirewallIppoolDynamicMappingA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#ippool ObjectFirewallIppoolDynamicMappingA#ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#ippool ObjectFirewallIppoolDynamicMappingA#ippool}
   */
   readonly ippool: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#nat64 ObjectFirewallIppoolDynamicMappingA#nat64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#nat64 ObjectFirewallIppoolDynamicMappingA#nat64}
   */
   readonly nat64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#num_blocks_per_user ObjectFirewallIppoolDynamicMappingA#num_blocks_per_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#num_blocks_per_user ObjectFirewallIppoolDynamicMappingA#num_blocks_per_user}
   */
   readonly numBlocksPerUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#pba_interim_log ObjectFirewallIppoolDynamicMappingA#pba_interim_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#pba_interim_log ObjectFirewallIppoolDynamicMappingA#pba_interim_log}
   */
   readonly pbaInterimLog?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#pba_timeout ObjectFirewallIppoolDynamicMappingA#pba_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#pba_timeout ObjectFirewallIppoolDynamicMappingA#pba_timeout}
   */
   readonly pbaTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#permit_any_host ObjectFirewallIppoolDynamicMappingA#permit_any_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#permit_any_host ObjectFirewallIppoolDynamicMappingA#permit_any_host}
   */
   readonly permitAnyHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#port_per_user ObjectFirewallIppoolDynamicMappingA#port_per_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#port_per_user ObjectFirewallIppoolDynamicMappingA#port_per_user}
   */
   readonly portPerUser?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#privileged_port_use_pba ObjectFirewallIppoolDynamicMappingA#privileged_port_use_pba}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#privileged_port_use_pba ObjectFirewallIppoolDynamicMappingA#privileged_port_use_pba}
   */
   readonly privilegedPortUsePba?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#scopetype ObjectFirewallIppoolDynamicMappingA#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#scopetype ObjectFirewallIppoolDynamicMappingA#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_endip ObjectFirewallIppoolDynamicMappingA#source_endip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_endip ObjectFirewallIppoolDynamicMappingA#source_endip}
   */
   readonly sourceEndip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_prefix6 ObjectFirewallIppoolDynamicMappingA#source_prefix6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_prefix6 ObjectFirewallIppoolDynamicMappingA#source_prefix6}
   */
   readonly sourcePrefix6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_startip ObjectFirewallIppoolDynamicMappingA#source_startip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#source_startip ObjectFirewallIppoolDynamicMappingA#source_startip}
   */
   readonly sourceStartip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#startip ObjectFirewallIppoolDynamicMappingA#startip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#startip ObjectFirewallIppoolDynamicMappingA#startip}
   */
   readonly startip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#startport ObjectFirewallIppoolDynamicMappingA#startport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#startport ObjectFirewallIppoolDynamicMappingA#startport}
   */
   readonly startport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#subnet_broadcast_in_ippool ObjectFirewallIppoolDynamicMappingA#subnet_broadcast_in_ippool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#subnet_broadcast_in_ippool ObjectFirewallIppoolDynamicMappingA#subnet_broadcast_in_ippool}
   */
   readonly subnetBroadcastInIppool?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#tcp_session_quota ObjectFirewallIppoolDynamicMappingA#tcp_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#tcp_session_quota ObjectFirewallIppoolDynamicMappingA#tcp_session_quota}
   */
   readonly tcpSessionQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#type ObjectFirewallIppoolDynamicMappingA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#type ObjectFirewallIppoolDynamicMappingA#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#udp_session_quota ObjectFirewallIppoolDynamicMappingA#udp_session_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#udp_session_quota ObjectFirewallIppoolDynamicMappingA#udp_session_quota}
   */
   readonly udpSessionQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#utilization_alarm_clear ObjectFirewallIppoolDynamicMappingA#utilization_alarm_clear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#utilization_alarm_clear ObjectFirewallIppoolDynamicMappingA#utilization_alarm_clear}
   */
   readonly utilizationAlarmClear?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#utilization_alarm_raise ObjectFirewallIppoolDynamicMappingA#utilization_alarm_raise}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#utilization_alarm_raise ObjectFirewallIppoolDynamicMappingA#utilization_alarm_raise}
   */
   readonly utilizationAlarmRaise?: number;
   /**
   * _scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#_scope ObjectFirewallIppoolDynamicMappingA#_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#_scope ObjectFirewallIppoolDynamicMappingA#_scope}
   */
   readonly scope?: ObjectFirewallIppoolDynamicMappingScopeA[] | cdktf.IResolvable;
 }
 export interface ObjectFirewallIppoolDynamicMappingScopeA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#name ObjectFirewallIppoolDynamicMappingA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#name ObjectFirewallIppoolDynamicMappingA#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#vdom ObjectFirewallIppoolDynamicMappingA#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#vdom ObjectFirewallIppoolDynamicMappingA#vdom}
   */
   readonly vdom?: string;
 }
@@ -340,7 +340,7 @@ export class ObjectFirewallIppoolDynamicMappingScopeAList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping fortimanager_object_firewall_ippool_dynamic_mapping}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping fortimanager_object_firewall_ippool_dynamic_mapping}
 */
 export class ObjectFirewallIppoolDynamicMappingA extends cdktf.TerraformResource {
 
@@ -356,7 +356,7 @@ export class ObjectFirewallIppoolDynamicMappingA extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ObjectFirewallIppoolDynamicMappingA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectFirewallIppoolDynamicMappingA to import
-  * @param importFromId The id of the existing ObjectFirewallIppoolDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectFirewallIppoolDynamicMappingA that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectFirewallIppoolDynamicMappingA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class ObjectFirewallIppoolDynamicMappingA extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_firewall_ippool_dynamic_mapping fortimanager_object_firewall_ippool_dynamic_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_firewall_ippool_dynamic_mapping fortimanager_object_firewall_ippool_dynamic_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class ObjectFirewallIppoolDynamicMappingA extends cdktf.TerraformResource
       terraformResourceType: 'fortimanager_object_firewall_ippool_dynamic_mapping',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20QosmapConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#adom ObjectWirelesscontrollerHotspot20Qosmap#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#adom ObjectWirelesscontrollerHotspot20Qosmap#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20Qosmap#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20Qosmap#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#id ObjectWirelesscontrollerHotspot20Qosmap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#id ObjectWirelesscontrollerHotspot20Qosmap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#name ObjectWirelesscontrollerHotspot20Qosmap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#name ObjectWirelesscontrollerHotspot20Qosmap#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#scopetype ObjectWirelesscontrollerHotspot20Qosmap#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#scopetype ObjectWirelesscontrollerHotspot20Qosmap#scopetype}
   */
   readonly scopetype?: string;
   /**
   * dscp_except block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp_except ObjectWirelesscontrollerHotspot20Qosmap#dscp_except}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp_except ObjectWirelesscontrollerHotspot20Qosmap#dscp_except}
   */
   readonly dscpExcept?: ObjectWirelesscontrollerHotspot20QosmapDscpExcept[] | cdktf.IResolvable;
   /**
   * dscp_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp_range ObjectWirelesscontrollerHotspot20Qosmap#dscp_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp_range ObjectWirelesscontrollerHotspot20Qosmap#dscp_range}
   */
   readonly dscpRange?: ObjectWirelesscontrollerHotspot20QosmapDscpRange[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerHotspot20QosmapDscpExcept {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp ObjectWirelesscontrollerHotspot20Qosmap#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#dscp ObjectWirelesscontrollerHotspot20Qosmap#dscp}
   */
   readonly dscp?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#index ObjectWirelesscontrollerHotspot20Qosmap#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#index ObjectWirelesscontrollerHotspot20Qosmap#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#up ObjectWirelesscontrollerHotspot20Qosmap#up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#up ObjectWirelesscontrollerHotspot20Qosmap#up}
   */
   readonly up?: number;
 }
@@ -227,19 +227,19 @@ export class ObjectWirelesscontrollerHotspot20QosmapDscpExceptList extends cdktf
 }
 export interface ObjectWirelesscontrollerHotspot20QosmapDscpRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#high ObjectWirelesscontrollerHotspot20Qosmap#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#high ObjectWirelesscontrollerHotspot20Qosmap#high}
   */
   readonly high?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#index ObjectWirelesscontrollerHotspot20Qosmap#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#index ObjectWirelesscontrollerHotspot20Qosmap#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#low ObjectWirelesscontrollerHotspot20Qosmap#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#low ObjectWirelesscontrollerHotspot20Qosmap#low}
   */
   readonly low?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#up ObjectWirelesscontrollerHotspot20Qosmap#up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#up ObjectWirelesscontrollerHotspot20Qosmap#up}
   */
   readonly up?: number;
 }
@@ -442,7 +442,7 @@ export class ObjectWirelesscontrollerHotspot20QosmapDscpRangeList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap fortimanager_object_wirelesscontroller_hotspot20_qosmap}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap fortimanager_object_wirelesscontroller_hotspot20_qosmap}
 */
 export class ObjectWirelesscontrollerHotspot20Qosmap extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class ObjectWirelesscontrollerHotspot20Qosmap extends cdktf.TerraformReso
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20Qosmap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20Qosmap to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Qosmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20Qosmap that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20Qosmap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class ObjectWirelesscontrollerHotspot20Qosmap extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap fortimanager_object_wirelesscontroller_hotspot20_qosmap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_qosmap fortimanager_object_wirelesscontroller_hotspot20_qosmap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class ObjectWirelesscontrollerHotspot20Qosmap extends cdktf.TerraformReso
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_qosmap',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerBonjourprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#adom ObjectWirelesscontrollerBonjourprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#adom ObjectWirelesscontrollerBonjourprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#comment ObjectWirelesscontrollerBonjourprofile#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#comment ObjectWirelesscontrollerBonjourprofile#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#dynamic_sort_subtable ObjectWirelesscontrollerBonjourprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#dynamic_sort_subtable ObjectWirelesscontrollerBonjourprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#id ObjectWirelesscontrollerBonjourprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#id ObjectWirelesscontrollerBonjourprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#name ObjectWirelesscontrollerBonjourprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#name ObjectWirelesscontrollerBonjourprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#scopetype ObjectWirelesscontrollerBonjourprofile#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#scopetype ObjectWirelesscontrollerBonjourprofile#scopetype}
   */
   readonly scopetype?: string;
   /**
   * policy_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#policy_list ObjectWirelesscontrollerBonjourprofile#policy_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#policy_list ObjectWirelesscontrollerBonjourprofile#policy_list}
   */
   readonly policyList?: ObjectWirelesscontrollerBonjourprofilePolicyListStruct[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerBonjourprofilePolicyListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#description ObjectWirelesscontrollerBonjourprofile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#description ObjectWirelesscontrollerBonjourprofile#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#from_vlan ObjectWirelesscontrollerBonjourprofile#from_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#from_vlan ObjectWirelesscontrollerBonjourprofile#from_vlan}
   */
   readonly fromVlan?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#policy_id ObjectWirelesscontrollerBonjourprofile#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#policy_id ObjectWirelesscontrollerBonjourprofile#policy_id}
   */
   readonly policyId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#services ObjectWirelesscontrollerBonjourprofile#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#services ObjectWirelesscontrollerBonjourprofile#services}
   */
   readonly services?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#to_vlan ObjectWirelesscontrollerBonjourprofile#to_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#to_vlan ObjectWirelesscontrollerBonjourprofile#to_vlan}
   */
   readonly toVlan?: string;
 }
@@ -291,7 +291,7 @@ export class ObjectWirelesscontrollerBonjourprofilePolicyListStructList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile fortimanager_object_wirelesscontroller_bonjourprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile fortimanager_object_wirelesscontroller_bonjourprofile}
 */
 export class ObjectWirelesscontrollerBonjourprofile extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class ObjectWirelesscontrollerBonjourprofile extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ObjectWirelesscontrollerBonjourprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerBonjourprofile to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerBonjourprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerBonjourprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerBonjourprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class ObjectWirelesscontrollerBonjourprofile extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_bonjourprofile fortimanager_object_wirelesscontroller_bonjourprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_bonjourprofile fortimanager_object_wirelesscontroller_bonjourprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class ObjectWirelesscontrollerBonjourprofile extends cdktf.TerraformResou
       terraformResourceType: 'fortimanager_object_wirelesscontroller_bonjourprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table
+// https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface BusinessRulesDecisionTableConfig extends cdktf.TerraformMetaArg
   /**
   * The decision table description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#description BusinessRulesDecisionTable#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#description BusinessRulesDecisionTable#description}
   */
   readonly description?: string;
   /**
   * The ID of the division the decision table belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#division_id BusinessRulesDecisionTable#division_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#division_id BusinessRulesDecisionTable#division_id}
   */
   readonly divisionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#id BusinessRulesDecisionTable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#id BusinessRulesDecisionTable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface BusinessRulesDecisionTableConfig extends cdktf.TerraformMetaArg
   /**
   * The decision table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#name BusinessRulesDecisionTable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#name BusinessRulesDecisionTable#name}
   */
   readonly name: string;
   /**
   * The ID of the rules schema used by the decision table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_id BusinessRulesDecisionTable#schema_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_id BusinessRulesDecisionTable#schema_id}
   */
   readonly schemaId: string;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#columns BusinessRulesDecisionTable#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#columns BusinessRulesDecisionTable#columns}
   */
   readonly columns: BusinessRulesDecisionTableColumns;
   /**
   * rows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#rows BusinessRulesDecisionTable#rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#rows BusinessRulesDecisionTable#rows}
   */
   readonly rows: BusinessRulesDecisionTableRows[] | cdktf.IResolvable;
 }
@@ -55,15 +55,21 @@ export interface BusinessRulesDecisionTableColumnsInputsDefaultsTo {
   /**
   * A default special value enum for this column.Valid values: Wildcard, Null, Empty, CurrentTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#special BusinessRulesDecisionTable#special}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#special BusinessRulesDecisionTable#special}
   */
   readonly special?: string;
   /**
   * A default string value for this column, will be cast to appropriate type according to the relevant contract schema property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
   */
   readonly value?: string;
+  /**
+  * A default list of string values for this column. Used for stringList data types.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#values BusinessRulesDecisionTable#values}
+  */
+  readonly values?: string[];
 }
 
 export function businessRulesDecisionTableColumnsInputsDefaultsToToTerraform(struct?: BusinessRulesDecisionTableColumnsInputsDefaultsToOutputReference | BusinessRulesDecisionTableColumnsInputsDefaultsTo): any {
@@ -74,6 +80,7 @@ export function businessRulesDecisionTableColumnsInputsDefaultsToToTerraform(str
   return {
     special: cdktf.stringToTerraform(struct!.special),
     value: cdktf.stringToTerraform(struct!.value),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
   }
 }
 
@@ -95,6 +102,12 @@ export function businessRulesDecisionTableColumnsInputsDefaultsToToHclTerraform(
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
   };
 
@@ -124,6 +137,10 @@ export class BusinessRulesDecisionTableColumnsInputsDefaultsToOutputReference ex
       hasAnyValues = true;
       internalValueResult.value = this._value;
     }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -132,11 +149,13 @@ export class BusinessRulesDecisionTableColumnsInputsDefaultsToOutputReference ex
       this.isEmptyObject = false;
       this._special = undefined;
       this._value = undefined;
+      this._values = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._special = value.special;
       this._value = value.value;
+      this._values = value.values;
     }
   }
 
@@ -171,12 +190,28 @@ export class BusinessRulesDecisionTableColumnsInputsDefaultsToOutputReference ex
   public get valueInput() {
     return this._value;
   }
+
+  // values - computed: false, optional: true, required: false
+  private _values?: string[]; 
+  public get values() {
+    return this.getListAttribute('values');
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  public resetValues() {
+    this._values = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
 }
 export interface BusinessRulesDecisionTableColumnsInputsExpressionContractualContractualContractual {
   /**
   * The contract schema property key that describes the input value of this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
 }
@@ -259,13 +294,13 @@ export interface BusinessRulesDecisionTableColumnsInputsExpressionContractualCon
   /**
   * The contract schema property key that describes the input value of this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
   /**
   * contractual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
   */
   readonly contractual?: BusinessRulesDecisionTableColumnsInputsExpressionContractualContractualContractual;
 }
@@ -377,13 +412,13 @@ export interface BusinessRulesDecisionTableColumnsInputsExpressionContractual {
   /**
   * The contract schema property key that describes the input value of this column.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
   /**
   * contractual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
   */
   readonly contractual?: BusinessRulesDecisionTableColumnsInputsExpressionContractualContractual;
 }
@@ -493,15 +528,15 @@ export class BusinessRulesDecisionTableColumnsInputsExpressionContractualOutputR
 }
 export interface BusinessRulesDecisionTableColumnsInputsExpression {
   /**
-  * A comparator used to join the left and right sides of a logical condition. Valid values: Equals, NotEquals, GreaterThan, GreaterThanOrEquals, LessThan, LessThanOrEquals, StartsWith, NotStartsWith, EndsWith, NotEndsWith, Contains, NotContains.
+  * A comparator used to join the left and right sides of a logical condition. Valid values: Equals, NotEquals, GreaterThan, GreaterThanOrEquals, LessThan, LessThanOrEquals, StartsWith, NotStartsWith, EndsWith, NotEndsWith, Contains, NotContains, ContainsAny, NotContainsAny, ContainsAll, NotContainsAll, ContainsExactly, NotContainsExactly, ContainsSequence, NotContainsSequence, IsSubset, NotIsSubset, IsSubsequence, NotIsSubsequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#comparator BusinessRulesDecisionTable#comparator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#comparator BusinessRulesDecisionTable#comparator}
   */
   readonly comparator: string;
   /**
   * contractual block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#contractual BusinessRulesDecisionTable#contractual}
   */
   readonly contractual: BusinessRulesDecisionTableColumnsInputsExpressionContractual;
 }
@@ -610,13 +645,13 @@ export interface BusinessRulesDecisionTableColumnsInputs {
   /**
   * defaults_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#defaults_to BusinessRulesDecisionTable#defaults_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#defaults_to BusinessRulesDecisionTable#defaults_to}
   */
   readonly defaultsTo: BusinessRulesDecisionTableColumnsInputsDefaultsTo;
   /**
   * expression block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#expression BusinessRulesDecisionTable#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#expression BusinessRulesDecisionTable#expression}
   */
   readonly expression: BusinessRulesDecisionTableColumnsInputsExpression;
 }
@@ -762,15 +797,21 @@ export interface BusinessRulesDecisionTableColumnsOutputsDefaultsTo {
   /**
   * A default special value enum for this column.Valid values: Wildcard, Null, Empty, CurrentTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#special BusinessRulesDecisionTable#special}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#special BusinessRulesDecisionTable#special}
   */
   readonly special?: string;
   /**
   * A default string value for this column, will be cast to appropriate type according to the relevant contract schema property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
   */
   readonly value?: string;
+  /**
+  * A default list of string values for this column. Used for stringList data types.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#values BusinessRulesDecisionTable#values}
+  */
+  readonly values?: string[];
 }
 
 export function businessRulesDecisionTableColumnsOutputsDefaultsToToTerraform(struct?: BusinessRulesDecisionTableColumnsOutputsDefaultsToOutputReference | BusinessRulesDecisionTableColumnsOutputsDefaultsTo): any {
@@ -781,6 +822,7 @@ export function businessRulesDecisionTableColumnsOutputsDefaultsToToTerraform(st
   return {
     special: cdktf.stringToTerraform(struct!.special),
     value: cdktf.stringToTerraform(struct!.value),
+    values: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.values),
   }
 }
 
@@ -802,6 +844,12 @@ export function businessRulesDecisionTableColumnsOutputsDefaultsToToHclTerraform
       isBlock: false,
       type: "simple",
       storageClassType: "string",
+    },
+    values: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.values),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
   };
 
@@ -831,6 +879,10 @@ export class BusinessRulesDecisionTableColumnsOutputsDefaultsToOutputReference e
       hasAnyValues = true;
       internalValueResult.value = this._value;
     }
+    if (this._values !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.values = this._values;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -839,11 +891,13 @@ export class BusinessRulesDecisionTableColumnsOutputsDefaultsToOutputReference e
       this.isEmptyObject = false;
       this._special = undefined;
       this._value = undefined;
+      this._values = undefined;
     }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._special = value.special;
       this._value = value.value;
+      this._values = value.values;
     }
   }
 
@@ -878,12 +932,28 @@ export class BusinessRulesDecisionTableColumnsOutputsDefaultsToOutputReference e
   public get valueInput() {
     return this._value;
   }
+
+  // values - computed: false, optional: true, required: false
+  private _values?: string[]; 
+  public get values() {
+    return this.getListAttribute('values');
+  }
+  public set values(value: string[]) {
+    this._values = value;
+  }
+  public resetValues() {
+    this._values = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get valuesInput() {
+    return this._values;
+  }
 }
 export interface BusinessRulesDecisionTableColumnsOutputsValuePropertiesPropertiesProperties {
   /**
   * The contract schema property key that describes the nested property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
 }
@@ -998,13 +1068,13 @@ export interface BusinessRulesDecisionTableColumnsOutputsValuePropertiesProperti
   /**
   * The contract schema property key that describes the nested property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
   */
   readonly properties?: BusinessRulesDecisionTableColumnsOutputsValuePropertiesPropertiesProperties[] | cdktf.IResolvable;
 }
@@ -1148,13 +1218,13 @@ export interface BusinessRulesDecisionTableColumnsOutputsValueProperties {
   /**
   * The contract schema property key that describes the nested property value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
   */
   readonly properties?: BusinessRulesDecisionTableColumnsOutputsValuePropertiesProperties[] | cdktf.IResolvable;
 }
@@ -1298,13 +1368,13 @@ export interface BusinessRulesDecisionTableColumnsOutputsValue {
   /**
   * The contract schema property key that describes the output value of this column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#schema_property_key BusinessRulesDecisionTable#schema_property_key}
   */
   readonly schemaPropertyKey: string;
   /**
   * properties block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#properties BusinessRulesDecisionTable#properties}
   */
   readonly properties?: BusinessRulesDecisionTableColumnsOutputsValueProperties[] | cdktf.IResolvable;
 }
@@ -1416,13 +1486,13 @@ export interface BusinessRulesDecisionTableColumnsOutputs {
   /**
   * defaults_to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#defaults_to BusinessRulesDecisionTable#defaults_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#defaults_to BusinessRulesDecisionTable#defaults_to}
   */
   readonly defaultsTo: BusinessRulesDecisionTableColumnsOutputsDefaultsTo;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
   */
   readonly value: BusinessRulesDecisionTableColumnsOutputsValue;
 }
@@ -1568,13 +1638,13 @@ export interface BusinessRulesDecisionTableColumns {
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#inputs BusinessRulesDecisionTable#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#inputs BusinessRulesDecisionTable#inputs}
   */
   readonly inputs: BusinessRulesDecisionTableColumnsInputs[] | cdktf.IResolvable;
   /**
   * outputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#outputs BusinessRulesDecisionTable#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#outputs BusinessRulesDecisionTable#outputs}
   */
   readonly outputs: BusinessRulesDecisionTableColumnsOutputs[] | cdktf.IResolvable;
 }
@@ -1691,9 +1761,10 @@ export interface BusinessRulesDecisionTableRowsInputsLiteral {
   * 								- datetime: A date time value, must be in the format of yyyy-MM-dd'T'HH:mm:ss.SSSZ, e.g. 2024-10-02T01:01:01.111Z. Date time is represented as an ISO-8601 string
   * 								- special: A special value enum, such as Wildcard, Null, etc. Valid values: Wildcard, Null, Empty, CurrentTime
   * 								- boolean: A boolean value
+  * 								- stringList: A list of string values, provided as comma-separated string
   * 								- "": An empty string "" to use column default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#type BusinessRulesDecisionTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#type BusinessRulesDecisionTable#type}
   */
   readonly type?: string;
   /**
@@ -1708,9 +1779,10 @@ export interface BusinessRulesDecisionTableRowsInputsLiteral {
   * 								- Date: "2023-01-01"
   * 								- DateTime: "2023-01-01T12:00:00.000Z"
   * 								- Special: "Wildcard", "Null", "Empty", "CurrentTime"
+  * 								- StringList: "item1,item2,item3" (comma-separated string)
   * 								- Default: Empty string "" uses column default Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
   */
   readonly value?: string;
 }
@@ -1825,7 +1897,7 @@ export interface BusinessRulesDecisionTableRowsInputs {
   /**
   * literal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#literal BusinessRulesDecisionTable#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#literal BusinessRulesDecisionTable#literal}
   */
   readonly literal: BusinessRulesDecisionTableRowsInputsLiteral;
 }
@@ -1953,9 +2025,10 @@ export interface BusinessRulesDecisionTableRowsOutputsLiteral {
   * 								- datetime: A date time value, must be in the format of yyyy-MM-dd'T'HH:mm:ss.SSSZ, e.g. 2024-10-02T01:01:01.111Z. Date time is represented as an ISO-8601 string
   * 								- special: A special value enum, such as Wildcard, Null, etc. Valid values: Wildcard, Null, Empty, CurrentTime
   * 								- boolean: A boolean value
+  * 								- stringList: A list of string values, provided as comma-separated string
   * 								- "": An empty string "" to use column default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#type BusinessRulesDecisionTable#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#type BusinessRulesDecisionTable#type}
   */
   readonly type?: string;
   /**
@@ -1970,9 +2043,10 @@ export interface BusinessRulesDecisionTableRowsOutputsLiteral {
   * 								- Date: "2023-01-01"
   * 								- DateTime: "2023-01-01T12:00:00.000Z"
   * 								- Special: "Wildcard", "Null", "Empty", "CurrentTime"
+  * 								- StringList: "item1,item2,item3" (comma-separated string)
   * 								- Default: Empty string "" uses column default Defaults to ``.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#value BusinessRulesDecisionTable#value}
   */
   readonly value?: string;
 }
@@ -2087,7 +2161,7 @@ export interface BusinessRulesDecisionTableRowsOutputs {
   /**
   * literal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#literal BusinessRulesDecisionTable#literal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#literal BusinessRulesDecisionTable#literal}
   */
   readonly literal: BusinessRulesDecisionTableRowsOutputsLiteral;
 }
@@ -2207,13 +2281,13 @@ export interface BusinessRulesDecisionTableRows {
   /**
   * inputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#inputs BusinessRulesDecisionTable#inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#inputs BusinessRulesDecisionTable#inputs}
   */
   readonly inputs?: BusinessRulesDecisionTableRowsInputs[] | cdktf.IResolvable;
   /**
   * outputs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#outputs BusinessRulesDecisionTable#outputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#outputs BusinessRulesDecisionTable#outputs}
   */
   readonly outputs?: BusinessRulesDecisionTableRowsOutputs[] | cdktf.IResolvable;
 }
@@ -2368,7 +2442,7 @@ export class BusinessRulesDecisionTableRowsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table genesyscloud_business_rules_decision_table}
+* Represents a {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table genesyscloud_business_rules_decision_table}
 */
 export class BusinessRulesDecisionTable extends cdktf.TerraformResource {
 
@@ -2384,7 +2458,7 @@ export class BusinessRulesDecisionTable extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BusinessRulesDecisionTable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BusinessRulesDecisionTable to import
-  * @param importFromId The id of the existing BusinessRulesDecisionTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BusinessRulesDecisionTable that should be imported. Refer to the {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BusinessRulesDecisionTable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2396,7 +2470,7 @@ export class BusinessRulesDecisionTable extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.70.0/docs/resources/business_rules_decision_table genesyscloud_business_rules_decision_table} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mypurecloud/genesyscloud/1.71.1/docs/resources/business_rules_decision_table genesyscloud_business_rules_decision_table} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2407,8 +2481,8 @@ export class BusinessRulesDecisionTable extends cdktf.TerraformResource {
       terraformResourceType: 'genesyscloud_business_rules_decision_table',
       terraformGeneratorMetadata: {
         providerName: 'genesyscloud',
-        providerVersion: '1.70.0',
-        providerVersionConstraint: '1.70.0'
+        providerVersion: '1.71.1',
+        providerVersionConstraint: '1.71.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,68 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWebproxyIsolatorserverConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#addr_type ObjectWebproxyIsolatorserver#addr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#addr_type ObjectWebproxyIsolatorserver#addr_type}
   */
   readonly addrType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#adom ObjectWebproxyIsolatorserver#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#adom ObjectWebproxyIsolatorserver#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#comment ObjectWebproxyIsolatorserver#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#comment ObjectWebproxyIsolatorserver#comment}
   */
   readonly comment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#fqdn ObjectWebproxyIsolatorserver#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#fqdn ObjectWebproxyIsolatorserver#fqdn}
   */
   readonly fqdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#id ObjectWebproxyIsolatorserver#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#id ObjectWebproxyIsolatorserver#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#interface ObjectWebproxyIsolatorserver#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#interface ObjectWebproxyIsolatorserver#interface}
   */
   readonly interface?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#interface_select_method ObjectWebproxyIsolatorserver#interface_select_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#interface_select_method ObjectWebproxyIsolatorserver#interface_select_method}
   */
   readonly interfaceSelectMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#ip ObjectWebproxyIsolatorserver#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#ip ObjectWebproxyIsolatorserver#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#ipv6 ObjectWebproxyIsolatorserver#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#ipv6 ObjectWebproxyIsolatorserver#ipv6}
   */
   readonly ipv6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#name ObjectWebproxyIsolatorserver#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#masquerade ObjectWebproxyIsolatorserver#masquerade}
+  */
+  readonly masquerade?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#name ObjectWebproxyIsolatorserver#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#port ObjectWebproxyIsolatorserver#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#port ObjectWebproxyIsolatorserver#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#scopetype ObjectWebproxyIsolatorserver#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#scopetype ObjectWebproxyIsolatorserver#scopetype}
   */
   readonly scopetype?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#vrf_select ObjectWebproxyIsolatorserver#vrf_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#vrf_select ObjectWebproxyIsolatorserver#vrf_select}
   */
   readonly vrfSelect?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver fortimanager_object_webproxy_isolatorserver}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver fortimanager_object_webproxy_isolatorserver}
 */
 export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
 
@@ -81,7 +85,7 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectWebproxyIsolatorserver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWebproxyIsolatorserver to import
-  * @param importFromId The id of the existing ObjectWebproxyIsolatorserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWebproxyIsolatorserver that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWebproxyIsolatorserver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +97,7 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_webproxy_isolatorserver fortimanager_object_webproxy_isolatorserver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_webproxy_isolatorserver fortimanager_object_webproxy_isolatorserver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +108,8 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
       terraformResourceType: 'fortimanager_object_webproxy_isolatorserver',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -124,6 +128,7 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
     this._interfaceSelectMethod = config.interfaceSelectMethod;
     this._ip = config.ip;
     this._ipv6 = config.ipv6;
+    this._masquerade = config.masquerade;
     this._name = config.name;
     this._port = config.port;
     this._scopetype = config.scopetype;
@@ -278,6 +283,22 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
     return this._ipv6;
   }
 
+  // masquerade - computed: false, optional: true, required: false
+  private _masquerade?: string; 
+  public get masquerade() {
+    return this.getStringAttribute('masquerade');
+  }
+  public set masquerade(value: string) {
+    this._masquerade = value;
+  }
+  public resetMasquerade() {
+    this._masquerade = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get masqueradeInput() {
+    return this._masquerade;
+  }
+
   // name - computed: false, optional: true, required: false
   private _name?: string; 
   public get name() {
@@ -357,6 +378,7 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
       interface_select_method: cdktf.stringToTerraform(this._interfaceSelectMethod),
       ip: cdktf.stringToTerraform(this._ip),
       ipv6: cdktf.stringToTerraform(this._ipv6),
+      masquerade: cdktf.stringToTerraform(this._masquerade),
       name: cdktf.stringToTerraform(this._name),
       port: cdktf.numberToTerraform(this._port),
       scopetype: cdktf.stringToTerraform(this._scopetype),
@@ -416,6 +438,12 @@ export class ObjectWebproxyIsolatorserver extends cdktf.TerraformResource {
       },
       ipv6: {
         value: cdktf.stringToHclTerraform(this._ipv6),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      masquerade: {
+        value: cdktf.stringToHclTerraform(this._masquerade),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

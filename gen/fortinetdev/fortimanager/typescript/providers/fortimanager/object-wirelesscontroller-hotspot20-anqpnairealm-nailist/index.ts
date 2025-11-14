@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist
+// https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,61 +8,61 @@ import * as cdktf from 'cdktf';
 
 export interface ObjectWirelesscontrollerHotspot20AnqpnairealmNailistConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#adom ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#adom ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#anqp_nai_realm ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#anqp_nai_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#anqp_nai_realm ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#anqp_nai_realm}
   */
   readonly anqpNaiRealm: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#dynamic_sort_subtable ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#encoding ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#encoding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#encoding ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#encoding}
   */
   readonly encoding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#id ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#id ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#nai_realm ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#nai_realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#nai_realm ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#nai_realm}
   */
   readonly naiRealm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#name ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#name ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#scopetype ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#scopetype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#scopetype ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#scopetype}
   */
   readonly scopetype?: string;
   /**
   * eap_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#eap_method ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#eap_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#eap_method ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#eap_method}
   */
   readonly eapMethod?: ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethod[] | cdktf.IResolvable;
 }
 export interface ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethodAuthParam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#id ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#id ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#index ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#index ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#val ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#val}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#val ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#val}
   */
   readonly val?: string;
 }
@@ -236,17 +236,17 @@ export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethodAuthPa
 }
 export interface ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethod {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#index ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#index ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#index}
   */
   readonly index?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#method ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#method ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#method}
   */
   readonly method?: string;
   /**
   * auth_param block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#auth_param ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#auth_param}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#auth_param ObjectWirelesscontrollerHotspot20AnqpnairealmNailist#auth_param}
   */
   readonly authParam?: ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethodAuthParam[] | cdktf.IResolvable;
 }
@@ -420,7 +420,7 @@ export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailistEapMethodList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist fortimanager_object_wirelesscontroller_hotspot20_anqpnairealm_nailist}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist fortimanager_object_wirelesscontroller_hotspot20_anqpnairealm_nailist}
 */
 export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailist extends cdktf.TerraformResource {
 
@@ -436,7 +436,7 @@ export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailist extends cdktf.
   * Generates CDKTF code for importing a ObjectWirelesscontrollerHotspot20AnqpnairealmNailist resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectWirelesscontrollerHotspot20AnqpnairealmNailist to import
-  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20AnqpnairealmNailist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectWirelesscontrollerHotspot20AnqpnairealmNailist that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectWirelesscontrollerHotspot20AnqpnairealmNailist to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -448,7 +448,7 @@ export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailist extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.14.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist fortimanager_object_wirelesscontroller_hotspot20_anqpnairealm_nailist} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortimanager/1.15.0/docs/resources/object_wirelesscontroller_hotspot20_anqpnairealm_nailist fortimanager_object_wirelesscontroller_hotspot20_anqpnairealm_nailist} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -459,8 +459,8 @@ export class ObjectWirelesscontrollerHotspot20AnqpnairealmNailist extends cdktf.
       terraformResourceType: 'fortimanager_object_wirelesscontroller_hotspot20_anqpnairealm_nailist',
       terraformGeneratorMetadata: {
         providerName: 'fortimanager',
-        providerVersion: '1.14.0',
-        providerVersionConstraint: '1.14.0'
+        providerVersion: '1.15.0',
+        providerVersionConstraint: '1.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
