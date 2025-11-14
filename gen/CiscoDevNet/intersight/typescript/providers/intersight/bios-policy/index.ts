@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#account_moid BiosPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#account_moid BiosPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
@@ -19,7 +19,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acpi_srat_sp_flag_en BiosPolicy#acpi_srat_sp_flag_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acpi_srat_sp_flag_en BiosPolicy#acpi_srat_sp_flag_en}
   */
   readonly acpiSratSpFlagEn?: string;
   /**
@@ -28,7 +28,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu1state BiosPolicy#acs_control_gpu1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu1state BiosPolicy#acs_control_gpu1state}
   */
   readonly acsControlGpu1State?: string;
   /**
@@ -37,7 +37,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu2state BiosPolicy#acs_control_gpu2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu2state BiosPolicy#acs_control_gpu2state}
   */
   readonly acsControlGpu2State?: string;
   /**
@@ -46,7 +46,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu3state BiosPolicy#acs_control_gpu3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu3state BiosPolicy#acs_control_gpu3state}
   */
   readonly acsControlGpu3State?: string;
   /**
@@ -55,7 +55,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu4state BiosPolicy#acs_control_gpu4state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu4state BiosPolicy#acs_control_gpu4state}
   */
   readonly acsControlGpu4State?: string;
   /**
@@ -64,7 +64,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu5state BiosPolicy#acs_control_gpu5state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu5state BiosPolicy#acs_control_gpu5state}
   */
   readonly acsControlGpu5State?: string;
   /**
@@ -73,7 +73,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu6state BiosPolicy#acs_control_gpu6state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu6state BiosPolicy#acs_control_gpu6state}
   */
   readonly acsControlGpu6State?: string;
   /**
@@ -82,7 +82,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu7state BiosPolicy#acs_control_gpu7state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu7state BiosPolicy#acs_control_gpu7state}
   */
   readonly acsControlGpu7State?: string;
   /**
@@ -91,7 +91,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_gpu8state BiosPolicy#acs_control_gpu8state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_gpu8state BiosPolicy#acs_control_gpu8state}
   */
   readonly acsControlGpu8State?: string;
   /**
@@ -100,7 +100,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_slot11state BiosPolicy#acs_control_slot11state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_slot11state BiosPolicy#acs_control_slot11state}
   */
   readonly acsControlSlot11State?: string;
   /**
@@ -109,7 +109,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_slot12state BiosPolicy#acs_control_slot12state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_slot12state BiosPolicy#acs_control_slot12state}
   */
   readonly acsControlSlot12State?: string;
   /**
@@ -118,7 +118,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_slot13state BiosPolicy#acs_control_slot13state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_slot13state BiosPolicy#acs_control_slot13state}
   */
   readonly acsControlSlot13State?: string;
   /**
@@ -127,7 +127,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#acs_control_slot14state BiosPolicy#acs_control_slot14state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#acs_control_slot14state BiosPolicy#acs_control_slot14state}
   */
   readonly acsControlSlot14State?: string;
   /**
@@ -138,11 +138,11 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Level B` - Value - Level B for configuring AdaptiveRefreshMgmtLevel token.
   * * `Level C` - Value - Level C for configuring AdaptiveRefreshMgmtLevel token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#adaptive_refresh_mgmt_level BiosPolicy#adaptive_refresh_mgmt_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#adaptive_refresh_mgmt_level BiosPolicy#adaptive_refresh_mgmt_level}
   */
   readonly adaptiveRefreshMgmtLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -151,7 +151,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#adjacent_cache_line_prefetch BiosPolicy#adjacent_cache_line_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#adjacent_cache_line_prefetch BiosPolicy#adjacent_cache_line_prefetch}
   */
   readonly adjacentCacheLinePrefetch?: string;
   /**
@@ -161,7 +161,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring AdvancedMemTest token.
   * * `enabled` - Value - enabled for configuring AdvancedMemTest token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#advanced_mem_test BiosPolicy#advanced_mem_test}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#advanced_mem_test BiosPolicy#advanced_mem_test}
   */
   readonly advancedMemTest?: string;
   /**
@@ -170,7 +170,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#all_usb_devices BiosPolicy#all_usb_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#all_usb_devices BiosPolicy#all_usb_devices}
   */
   readonly allUsbDevices?: string;
   /**
@@ -182,13 +182,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `3000-m` - Value - 3000-m for configuring Altitude token.
   * * `auto` - Value - auto for configuring Altitude token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#altitude BiosPolicy#altitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#altitude BiosPolicy#altitude}
   */
   readonly altitude?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ancestors BiosPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ancestors BiosPolicy#ancestors}
   */
   readonly ancestors?: BiosPolicyAncestors[] | cdktf.IResolvable;
   /**
@@ -199,7 +199,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Force L0s` - Value - Force L0s for configuring AspmSupport token.
   * * `L1 Only` - Value - L1 Only for configuring AspmSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#aspm_support BiosPolicy#aspm_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#aspm_support BiosPolicy#aspm_support}
   */
   readonly aspmSupport?: string;
   /**
@@ -208,7 +208,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#assert_nmi_on_perr BiosPolicy#assert_nmi_on_perr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#assert_nmi_on_perr BiosPolicy#assert_nmi_on_perr}
   */
   readonly assertNmiOnPerr?: string;
   /**
@@ -217,7 +217,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#assert_nmi_on_serr BiosPolicy#assert_nmi_on_serr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#assert_nmi_on_serr BiosPolicy#assert_nmi_on_serr}
   */
   readonly assertNmiOnSerr?: string;
   /**
@@ -226,7 +226,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#auto_cc_state BiosPolicy#auto_cc_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#auto_cc_state BiosPolicy#auto_cc_state}
   */
   readonly autoCcState?: string;
   /**
@@ -235,7 +235,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#autonumous_cstate_enable BiosPolicy#autonumous_cstate_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#autonumous_cstate_enable BiosPolicy#autonumous_cstate_enable}
   */
   readonly autonumousCstateEnable?: string;
   /**
@@ -247,7 +247,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `57600` - Value - 57600 for configuring BaudRate token.
   * * `115200` - Value - 115200 for configuring BaudRate token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#baud_rate BiosPolicy#baud_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#baud_rate BiosPolicy#baud_rate}
   */
   readonly baudRate?: string;
   /**
@@ -256,7 +256,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#bme_dma_mitigation BiosPolicy#bme_dma_mitigation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#bme_dma_mitigation BiosPolicy#bme_dma_mitigation}
   */
   readonly bmeDmaMitigation?: string;
   /**
@@ -266,7 +266,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `13` - Value - 13 for configuring BootOptionNumRetry token.
   * * `Infinite` - Value - Infinite for configuring BootOptionNumRetry token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#boot_option_num_retry BiosPolicy#boot_option_num_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#boot_option_num_retry BiosPolicy#boot_option_num_retry}
   */
   readonly bootOptionNumRetry?: string;
   /**
@@ -276,7 +276,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `45` - Value - 45 for configuring BootOptionReCoolDown token.
   * * `90` - Value - 90 for configuring BootOptionReCoolDown token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#boot_option_re_cool_down BiosPolicy#boot_option_re_cool_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#boot_option_re_cool_down BiosPolicy#boot_option_re_cool_down}
   */
   readonly bootOptionReCoolDown?: string;
   /**
@@ -285,7 +285,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#boot_option_retry BiosPolicy#boot_option_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#boot_option_retry BiosPolicy#boot_option_retry}
   */
   readonly bootOptionRetry?: string;
   /**
@@ -295,7 +295,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Max Performance` - Value - Max Performance for configuring BootPerformanceMode token.
   * * `Set by Intel NM` - Value - Set by Intel NM for configuring BootPerformanceMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#boot_performance_mode BiosPolicy#boot_performance_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#boot_performance_mode BiosPolicy#boot_performance_mode}
   */
   readonly bootPerformanceMode?: string;
   /**
@@ -304,7 +304,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#burst_and_postponed_refresh BiosPolicy#burst_and_postponed_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#burst_and_postponed_refresh BiosPolicy#burst_and_postponed_refresh}
   */
   readonly burstAndPostponedRefresh?: string;
   /**
@@ -314,7 +314,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring C1autoDemotion token.
   * * `enabled` - Value - enabled for configuring C1autoDemotion token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#c1auto_demotion BiosPolicy#c1auto_demotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#c1auto_demotion BiosPolicy#c1auto_demotion}
   */
   readonly c1AutoDemotion?: string;
   /**
@@ -324,7 +324,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring C1autoUnDemotion token.
   * * `enabled` - Value - enabled for configuring C1autoUnDemotion token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#c1auto_un_demotion BiosPolicy#c1auto_un_demotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#c1auto_un_demotion BiosPolicy#c1auto_un_demotion}
   */
   readonly c1AutoUnDemotion?: string;
   /**
@@ -334,13 +334,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1` - Value - 1 for configuring CbsCmnApbdis token.
   * * `Auto` - Value - Auto for configuring CbsCmnApbdis token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_apbdis BiosPolicy#cbs_cmn_apbdis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_apbdis BiosPolicy#cbs_cmn_apbdis}
   */
   readonly cbsCmnApbdis?: string;
   /**
   * BIOS Token for setting Fixed SOC P-State SP5 F19h configuration (0 - 2 P State).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_apbdis_df_pstate_rs BiosPolicy#cbs_cmn_apbdis_df_pstate_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_apbdis_df_pstate_rs BiosPolicy#cbs_cmn_apbdis_df_pstate_rs}
   */
   readonly cbsCmnApbdisDfPstateRs?: string;
   /**
@@ -350,7 +350,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuAvx512 token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuAvx512 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_avx512 BiosPolicy#cbs_cmn_cpu_avx512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_avx512 BiosPolicy#cbs_cmn_cpu_avx512}
   */
   readonly cbsCmnCpuAvx512?: string;
   /**
@@ -359,7 +359,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsCmnCpuCpb token.
   * * `disabled` - Value - disabled for configuring CbsCmnCpuCpb token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_cpb BiosPolicy#cbs_cmn_cpu_cpb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_cpb BiosPolicy#cbs_cmn_cpu_cpb}
   */
   readonly cbsCmnCpuCpb?: string;
   /**
@@ -373,7 +373,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `THREE (3 + 0)` - Value - THREE (3 + 0) for configuring CbsCmnCpuGenDowncoreCtrl token.
   * * `FOUR (4 + 0)` - Value - FOUR (4 + 0) for configuring CbsCmnCpuGenDowncoreCtrl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_gen_downcore_ctrl BiosPolicy#cbs_cmn_cpu_gen_downcore_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_gen_downcore_ctrl BiosPolicy#cbs_cmn_cpu_gen_downcore_ctrl}
   */
   readonly cbsCmnCpuGenDowncoreCtrl?: string;
   /**
@@ -383,7 +383,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuGlobalCstateCtrl token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuGlobalCstateCtrl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_global_cstate_ctrl BiosPolicy#cbs_cmn_cpu_global_cstate_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_global_cstate_ctrl BiosPolicy#cbs_cmn_cpu_global_cstate_ctrl}
   */
   readonly cbsCmnCpuGlobalCstateCtrl?: string;
   /**
@@ -393,7 +393,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuL1streamHwPrefetcher token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuL1streamHwPrefetcher token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_l1stream_hw_prefetcher BiosPolicy#cbs_cmn_cpu_l1stream_hw_prefetcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_l1stream_hw_prefetcher BiosPolicy#cbs_cmn_cpu_l1stream_hw_prefetcher}
   */
   readonly cbsCmnCpuL1StreamHwPrefetcher?: string;
   /**
@@ -403,13 +403,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuL2streamHwPrefetcher token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuL2streamHwPrefetcher token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_l2stream_hw_prefetcher BiosPolicy#cbs_cmn_cpu_l2stream_hw_prefetcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_l2stream_hw_prefetcher BiosPolicy#cbs_cmn_cpu_l2stream_hw_prefetcher}
   */
   readonly cbsCmnCpuL2StreamHwPrefetcher?: string;
   /**
   * BIOS Token for setting SEV-ES ASID Space Limit configuration (1 - 1007 ASIDs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_sev_asid_space_limit BiosPolicy#cbs_cmn_cpu_sev_asid_space_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_sev_asid_space_limit BiosPolicy#cbs_cmn_cpu_sev_asid_space_limit}
   */
   readonly cbsCmnCpuSevAsidSpaceLimit?: string;
   /**
@@ -419,7 +419,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuSmee token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuSmee token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_smee BiosPolicy#cbs_cmn_cpu_smee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_smee BiosPolicy#cbs_cmn_cpu_smee}
   */
   readonly cbsCmnCpuSmee?: string;
   /**
@@ -429,7 +429,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnCpuStreamingStoresCtrl token.
   * * `enabled` - Value - enabled for configuring CbsCmnCpuStreamingStoresCtrl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_cpu_streaming_stores_ctrl BiosPolicy#cbs_cmn_cpu_streaming_stores_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_cpu_streaming_stores_ctrl BiosPolicy#cbs_cmn_cpu_streaming_stores_ctrl}
   */
   readonly cbsCmnCpuStreamingStoresCtrl?: string;
   /**
@@ -439,7 +439,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Performance` - Value - Performance for configuring CbsCmnDeterminismSlider token.
   * * `Power` - Value - Power for configuring CbsCmnDeterminismSlider token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_determinism_slider BiosPolicy#cbs_cmn_determinism_slider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_determinism_slider BiosPolicy#cbs_cmn_determinism_slider}
   */
   readonly cbsCmnDeterminismSlider?: string;
   /**
@@ -449,7 +449,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnEdcControlThrottle token.
   * * `enabled` - Value - enabled for configuring CbsCmnEdcControlThrottle token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_edc_control_throttle BiosPolicy#cbs_cmn_edc_control_throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_edc_control_throttle BiosPolicy#cbs_cmn_edc_control_throttle}
   */
   readonly cbsCmnEdcControlThrottle?: string;
   /**
@@ -458,7 +458,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsCmnEfficiencyModeEn token.
   * * `Enabled` - Value - Enabled for configuring CbsCmnEfficiencyModeEn token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_efficiency_mode_en BiosPolicy#cbs_cmn_efficiency_mode_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_efficiency_mode_en BiosPolicy#cbs_cmn_efficiency_mode_en}
   */
   readonly cbsCmnEfficiencyModeEn?: string;
   /**
@@ -472,7 +472,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `High Performance Mode` - Value - High Performance Mode for configuring CbsCmnEfficiencyModeEnRs token.
   * * `Maximum IO Performance Mode` - Value - Maximum IO Performance Mode for configuring CbsCmnEfficiencyModeEnRs token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_efficiency_mode_en_rs BiosPolicy#cbs_cmn_efficiency_mode_en_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_efficiency_mode_en_rs BiosPolicy#cbs_cmn_efficiency_mode_en_rs}
   */
   readonly cbsCmnEfficiencyModeEnRs?: string;
   /**
@@ -484,7 +484,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `P2` - Value - P2 for configuring CbsCmnFixedSocPstate token.
   * * `P3` - Value - P3 for configuring CbsCmnFixedSocPstate token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_fixed_soc_pstate BiosPolicy#cbs_cmn_fixed_soc_pstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_fixed_soc_pstate BiosPolicy#cbs_cmn_fixed_soc_pstate}
   */
   readonly cbsCmnFixedSocPstate?: string;
   /**
@@ -494,7 +494,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnGnbNbIommu token.
   * * `enabled` - Value - enabled for configuring CbsCmnGnbNbIommu token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_gnb_nb_iommu BiosPolicy#cbs_cmn_gnb_nb_iommu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_gnb_nb_iommu BiosPolicy#cbs_cmn_gnb_nb_iommu}
   */
   readonly cbsCmnGnbNbIommu?: string;
   /**
@@ -504,7 +504,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnGnbSmuDfCstates token.
   * * `enabled` - Value - enabled for configuring CbsCmnGnbSmuDfCstates token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_gnb_smu_df_cstates BiosPolicy#cbs_cmn_gnb_smu_df_cstates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_gnb_smu_df_cstates BiosPolicy#cbs_cmn_gnb_smu_df_cstates}
   */
   readonly cbsCmnGnbSmuDfCstates?: string;
   /**
@@ -514,7 +514,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnGnbSmuDffoRs token.
   * * `enabled` - Value - enabled for configuring CbsCmnGnbSmuDffoRs token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_gnb_smu_dffo_rs BiosPolicy#cbs_cmn_gnb_smu_dffo_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_gnb_smu_dffo_rs BiosPolicy#cbs_cmn_gnb_smu_dffo_rs}
   */
   readonly cbsCmnGnbSmuDffoRs?: string;
   /**
@@ -524,7 +524,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnGnbSmuDlwmSupport token.
   * * `enabled` - Value - enabled for configuring CbsCmnGnbSmuDlwmSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_gnb_smu_dlwm_support BiosPolicy#cbs_cmn_gnb_smu_dlwm_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_gnb_smu_dlwm_support BiosPolicy#cbs_cmn_gnb_smu_dlwm_support}
   */
   readonly cbsCmnGnbSmuDlwmSupport?: string;
   /**
@@ -534,7 +534,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnGnbSmucppc token.
   * * `enabled` - Value - enabled for configuring CbsCmnGnbSmucppc token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_gnb_smucppc BiosPolicy#cbs_cmn_gnb_smucppc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_gnb_smucppc BiosPolicy#cbs_cmn_gnb_smucppc}
   */
   readonly cbsCmnGnbSmucppc?: string;
   /**
@@ -544,7 +544,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnMemCtrlBankGroupSwapDdr4 token.
   * * `enabled` - Value - enabled for configuring CbsCmnMemCtrlBankGroupSwapDdr4 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_mem_ctrl_bank_group_swap_ddr4 BiosPolicy#cbs_cmn_mem_ctrl_bank_group_swap_ddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_mem_ctrl_bank_group_swap_ddr4 BiosPolicy#cbs_cmn_mem_ctrl_bank_group_swap_ddr4}
   */
   readonly cbsCmnMemCtrlBankGroupSwapDdr4?: string;
   /**
@@ -554,7 +554,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnMemCtrllerPwrDnEnDdr token.
   * * `enabled` - Value - enabled for configuring CbsCmnMemCtrllerPwrDnEnDdr token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_mem_ctrller_pwr_dn_en_ddr BiosPolicy#cbs_cmn_mem_ctrller_pwr_dn_en_ddr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_mem_ctrller_pwr_dn_en_ddr BiosPolicy#cbs_cmn_mem_ctrller_pwr_dn_en_ddr}
   */
   readonly cbsCmnMemCtrllerPwrDnEnDdr?: string;
   /**
@@ -564,7 +564,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCmnMemMapBankInterleaveDdr4 token.
   * * `Enabled` - Value - Enabled for configuring CbsCmnMemMapBankInterleaveDdr4 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_mem_map_bank_interleave_ddr4 BiosPolicy#cbs_cmn_mem_map_bank_interleave_ddr4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_mem_map_bank_interleave_ddr4 BiosPolicy#cbs_cmn_mem_map_bank_interleave_ddr4}
   */
   readonly cbsCmnMemMapBankInterleaveDdr4?: string;
   /**
@@ -580,7 +580,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1600MHz` - Value - 1600MHz for configuring CbsCmnMemSpeedDdr47xx2 token.
   * * `Auto` - Value - Auto for configuring CbsCmnMemSpeedDdr47xx2 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_mem_speed_ddr47xx2 BiosPolicy#cbs_cmn_mem_speed_ddr47xx2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_mem_speed_ddr47xx2 BiosPolicy#cbs_cmn_mem_speed_ddr47xx2}
   */
   readonly cbsCmnMemSpeedDdr47Xx2?: string;
   /**
@@ -602,7 +602,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1800MHz` - Value - 1800MHz for configuring CbsCmnMemSpeedDdr47xx3 token.
   * * `Auto` - Value - Auto for configuring CbsCmnMemSpeedDdr47xx3 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_mem_speed_ddr47xx3 BiosPolicy#cbs_cmn_mem_speed_ddr47xx3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_mem_speed_ddr47xx3 BiosPolicy#cbs_cmn_mem_speed_ddr47xx3}
   */
   readonly cbsCmnMemSpeedDdr47Xx3?: string;
   /**
@@ -611,7 +611,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsCmnPreferredIo7xx2 token.
   * * `Manual` - Value - Manual for configuring CbsCmnPreferredIo7xx2 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_preferred_io7xx2 BiosPolicy#cbs_cmn_preferred_io7xx2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_preferred_io7xx2 BiosPolicy#cbs_cmn_preferred_io7xx2}
   */
   readonly cbsCmnPreferredIo7Xx2?: string;
   /**
@@ -620,7 +620,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsCmnPreferredIo7xx3 token.
   * * `Bus` - Value - Bus for configuring CbsCmnPreferredIo7xx3 token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmn_preferred_io7xx3 BiosPolicy#cbs_cmn_preferred_io7xx3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmn_preferred_io7xx3 BiosPolicy#cbs_cmn_preferred_io7xx3}
   */
   readonly cbsCmnPreferredIo7Xx3?: string;
   /**
@@ -629,7 +629,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsCmncTdpCtl token.
   * * `Manual` - Value - Manual for configuring CbsCmncTdpCtl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmnc_tdp_ctl BiosPolicy#cbs_cmnc_tdp_ctl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmnc_tdp_ctl BiosPolicy#cbs_cmnc_tdp_ctl}
   */
   readonly cbsCmncTdpCtl?: string;
   /**
@@ -640,7 +640,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `2` - Value - 2 for configuring CbsCmnxGmiForceLinkWidthRs token.
   * * `Auto` - Value - Auto for configuring CbsCmnxGmiForceLinkWidthRs token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cmnx_gmi_force_link_width_rs BiosPolicy#cbs_cmnx_gmi_force_link_width_rs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cmnx_gmi_force_link_width_rs BiosPolicy#cbs_cmnx_gmi_force_link_width_rs}
   */
   readonly cbsCmnxGmiForceLinkWidthRs?: string;
   /**
@@ -656,7 +656,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `14 CCDs` - Value - 14 CCDs for configuring CbsCpuCcdCtrlSsp token.
   * * `Auto` - Value - Auto for configuring CbsCpuCcdCtrlSsp token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cpu_ccd_ctrl_ssp BiosPolicy#cbs_cpu_ccd_ctrl_ssp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cpu_ccd_ctrl_ssp BiosPolicy#cbs_cpu_ccd_ctrl_ssp}
   */
   readonly cbsCpuCcdCtrlSsp?: string;
   /**
@@ -671,7 +671,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `SIX (6 + 0)` - Value - SIX (6 + 0) for configuring CbsCpuCoreCtrl token.
   * * `SEVEN (7 + 0)` - Value - SEVEN (7 + 0) for configuring CbsCpuCoreCtrl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cpu_core_ctrl BiosPolicy#cbs_cpu_core_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cpu_core_ctrl BiosPolicy#cbs_cpu_core_ctrl}
   */
   readonly cbsCpuCoreCtrl?: string;
   /**
@@ -686,7 +686,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `TWELVE (6 + 6)` - Value - TWELVE (6 + 6) for configuring CbsCpuDownCoreCtrlBergamo token.
   * * `FOURTEEN (7 + 7)` - Value - FOURTEEN (7 + 7) for configuring CbsCpuDownCoreCtrlBergamo token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cpu_down_core_ctrl_bergamo BiosPolicy#cbs_cpu_down_core_ctrl_bergamo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cpu_down_core_ctrl_bergamo BiosPolicy#cbs_cpu_down_core_ctrl_bergamo}
   */
   readonly cbsCpuDownCoreCtrlBergamo?: string;
   /**
@@ -709,7 +709,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `FOURTEEN (14 + 0)` - Value - FOURTEEN (14 + 0) for configuring CbsCpuDownCoreCtrlGenoa token.
   * * `FIFTEEN (15 + 0)` - Value - FIFTEEN (15 + 0) for configuring CbsCpuDownCoreCtrlGenoa token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cpu_down_core_ctrl_genoa BiosPolicy#cbs_cpu_down_core_ctrl_genoa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cpu_down_core_ctrl_genoa BiosPolicy#cbs_cpu_down_core_ctrl_genoa}
   */
   readonly cbsCpuDownCoreCtrlGenoa?: string;
   /**
@@ -719,7 +719,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsCpuSmtCtrl token.
   * * `enabled` - Value - enabled for configuring CbsCpuSmtCtrl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_cpu_smt_ctrl BiosPolicy#cbs_cpu_smt_ctrl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_cpu_smt_ctrl BiosPolicy#cbs_cpu_smt_ctrl}
   */
   readonly cbsCpuSmtCtrl?: string;
   /**
@@ -729,7 +729,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsDbgCpuGenCpuWdt token.
   * * `enabled` - Value - enabled for configuring CbsDbgCpuGenCpuWdt token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_dbg_cpu_gen_cpu_wdt BiosPolicy#cbs_dbg_cpu_gen_cpu_wdt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_dbg_cpu_gen_cpu_wdt BiosPolicy#cbs_dbg_cpu_gen_cpu_wdt}
   */
   readonly cbsDbgCpuGenCpuWdt?: string;
   /**
@@ -740,7 +740,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `X2APIC` - Value - X2APIC for configuring CbsDbgCpuLapicMode token.
   * * `XAPIC` - Value - XAPIC for configuring CbsDbgCpuLapicMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_dbg_cpu_lapic_mode BiosPolicy#cbs_dbg_cpu_lapic_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_dbg_cpu_lapic_mode BiosPolicy#cbs_dbg_cpu_lapic_mode}
   */
   readonly cbsDbgCpuLapicMode?: string;
   /**
@@ -751,13 +751,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsDbgCpuSnpMemCover token.
   * * `enabled` - Value - enabled for configuring CbsDbgCpuSnpMemCover token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_dbg_cpu_snp_mem_cover BiosPolicy#cbs_dbg_cpu_snp_mem_cover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_dbg_cpu_snp_mem_cover BiosPolicy#cbs_dbg_cpu_snp_mem_cover}
   */
   readonly cbsDbgCpuSnpMemCover?: string;
   /**
   * BIOS Token for setting SNP Memory Size to Cover in MiB configuration (0 - 1048576 MiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_dbg_cpu_snp_mem_size_cover BiosPolicy#cbs_dbg_cpu_snp_mem_size_cover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_dbg_cpu_snp_mem_size_cover BiosPolicy#cbs_dbg_cpu_snp_mem_size_cover}
   */
   readonly cbsDbgCpuSnpMemSizeCover?: string;
   /**
@@ -768,7 +768,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `32Gbps` - Value - 32Gbps for configuring CbsDfCmn4linkMaxXgmiSpeed token.
   * * `Auto` - Value - Auto for configuring CbsDfCmn4linkMaxXgmiSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn4link_max_xgmi_speed BiosPolicy#cbs_df_cmn4link_max_xgmi_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn4link_max_xgmi_speed BiosPolicy#cbs_df_cmn4link_max_xgmi_speed}
   */
   readonly cbsDfCmn4LinkMaxXgmiSpeed?: string;
   /**
@@ -778,7 +778,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsDfCmnAcpiSratL3numa token.
   * * `enabled` - Value - enabled for configuring CbsDfCmnAcpiSratL3numa token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_acpi_srat_l3numa BiosPolicy#cbs_df_cmn_acpi_srat_l3numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_acpi_srat_l3numa BiosPolicy#cbs_df_cmn_acpi_srat_l3numa}
   */
   readonly cbsDfCmnAcpiSratL3Numa?: string;
   /**
@@ -790,7 +790,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `NPS2` - Value - NPS2 for configuring CbsDfCmnDramNps token.
   * * `NPS4` - Value - NPS4 for configuring CbsDfCmnDramNps token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_dram_nps BiosPolicy#cbs_df_cmn_dram_nps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_dram_nps BiosPolicy#cbs_df_cmn_dram_nps}
   */
   readonly cbsDfCmnDramNps?: string;
   /**
@@ -807,7 +807,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CbsDfCmnDramScrubTime token.
   * * `Disabled` - Value - Disabled for configuring CbsDfCmnDramScrubTime token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_dram_scrub_time BiosPolicy#cbs_df_cmn_dram_scrub_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_dram_scrub_time BiosPolicy#cbs_df_cmn_dram_scrub_time}
   */
   readonly cbsDfCmnDramScrubTime?: string;
   /**
@@ -819,7 +819,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `None` - Value - None for configuring CbsDfCmnMemIntlv token.
   * * `Socket` - Value - Socket for configuring CbsDfCmnMemIntlv token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_mem_intlv BiosPolicy#cbs_df_cmn_mem_intlv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_mem_intlv BiosPolicy#cbs_df_cmn_mem_intlv}
   */
   readonly cbsDfCmnMemIntlv?: string;
   /**
@@ -829,7 +829,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsDfCmnMemIntlvControl token.
   * * `enabled` - Value - enabled for configuring CbsDfCmnMemIntlvControl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_mem_intlv_control BiosPolicy#cbs_df_cmn_mem_intlv_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_mem_intlv_control BiosPolicy#cbs_df_cmn_mem_intlv_control}
   */
   readonly cbsDfCmnMemIntlvControl?: string;
   /**
@@ -842,7 +842,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `4 KB` - Value - 4 KiB for configuring CbsDfCmnMemIntlvSize token.
   * * `Auto` - Value - Auto for configuring CbsDfCmnMemIntlvSize token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_cmn_mem_intlv_size BiosPolicy#cbs_df_cmn_mem_intlv_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_cmn_mem_intlv_size BiosPolicy#cbs_df_cmn_mem_intlv_size}
   */
   readonly cbsDfCmnMemIntlvSize?: string;
   /**
@@ -853,7 +853,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `4 xGMI Links` - Value - 4 xGMI Links for configuring CbsDfDbgXgmiLinkCfg token.
   * * `Auto` - Value - Auto for configuring CbsDfDbgXgmiLinkCfg token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_df_dbg_xgmi_link_cfg BiosPolicy#cbs_df_dbg_xgmi_link_cfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_df_dbg_xgmi_link_cfg BiosPolicy#cbs_df_dbg_xgmi_link_cfg}
   */
   readonly cbsDfDbgXgmiLinkCfg?: string;
   /**
@@ -863,7 +863,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsGnbDbgPcieTbtSupport token.
   * * `enabled` - Value - enabled for configuring CbsGnbDbgPcieTbtSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_gnb_dbg_pcie_tbt_support BiosPolicy#cbs_gnb_dbg_pcie_tbt_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_gnb_dbg_pcie_tbt_support BiosPolicy#cbs_gnb_dbg_pcie_tbt_support}
   */
   readonly cbsGnbDbgPcieTbtSupport?: string;
   /**
@@ -873,7 +873,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring CbsSevSnpSupport token.
   * * `enabled` - Value - enabled for configuring CbsSevSnpSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cbs_sev_snp_support BiosPolicy#cbs_sev_snp_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cbs_sev_snp_support BiosPolicy#cbs_sev_snp_support}
   */
   readonly cbsSevSnpSupport?: string;
   /**
@@ -882,7 +882,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cdn_enable BiosPolicy#cdn_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cdn_enable BiosPolicy#cdn_enable}
   */
   readonly cdnEnable?: string;
   /**
@@ -892,7 +892,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Value - enabled for configuring CdnSupport token.
   * * `LOMs Only` - Value - LOMs Only for configuring CdnSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cdn_support BiosPolicy#cdn_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cdn_support BiosPolicy#cdn_support}
   */
   readonly cdnSupport?: string;
   /**
@@ -904,7 +904,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `4-way` - Value - 4-way for configuring ChannelInterLeave token.
   * * `auto` - Value - auto for configuring ChannelInterLeave token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#channel_inter_leave BiosPolicy#channel_inter_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#channel_inter_leave BiosPolicy#channel_inter_leave}
   */
   readonly channelInterLeave?: string;
   /**
@@ -913,7 +913,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cisco_adaptive_mem_training BiosPolicy#cisco_adaptive_mem_training}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cisco_adaptive_mem_training BiosPolicy#cisco_adaptive_mem_training}
   */
   readonly ciscoAdaptiveMemTraining?: string;
   /**
@@ -923,7 +923,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Minimum` - Value - Minimum for configuring CiscoDebugLevel token.
   * * `Normal` - Value - Normal for configuring CiscoDebugLevel token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cisco_debug_level BiosPolicy#cisco_debug_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cisco_debug_level BiosPolicy#cisco_debug_level}
   */
   readonly ciscoDebugLevel?: string;
   /**
@@ -932,7 +932,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cisco_oprom_launch_optimization BiosPolicy#cisco_oprom_launch_optimization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cisco_oprom_launch_optimization BiosPolicy#cisco_oprom_launch_optimization}
   */
   readonly ciscoOpromLaunchOptimization?: string;
   /**
@@ -941,7 +941,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cisco_xgmi_max_speed BiosPolicy#cisco_xgmi_max_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cisco_xgmi_max_speed BiosPolicy#cisco_xgmi_max_speed}
   */
   readonly ciscoXgmiMaxSpeed?: string;
   /**
@@ -952,7 +952,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `fast` - Value - fast for configuring CkeLowPolicy token.
   * * `slow` - Value - slow for configuring CkeLowPolicy token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cke_low_policy BiosPolicy#cke_low_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cke_low_policy BiosPolicy#cke_low_policy}
   */
   readonly ckeLowPolicy?: string;
   /**
@@ -960,7 +960,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
@@ -969,7 +969,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#closed_loop_therm_throtl BiosPolicy#closed_loop_therm_throtl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#closed_loop_therm_throtl BiosPolicy#closed_loop_therm_throtl}
   */
   readonly closedLoopThermThrotl?: string;
   /**
@@ -978,7 +978,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cmci_enable BiosPolicy#cmci_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cmci_enable BiosPolicy#cmci_enable}
   */
   readonly cmciEnable?: string;
   /**
@@ -987,7 +987,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#config_tdp BiosPolicy#config_tdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#config_tdp BiosPolicy#config_tdp}
   */
   readonly configTdp?: string;
   /**
@@ -997,7 +997,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Level 2` - Value - Level 2 for configuring ConfigTdpLevel token.
   * * `Normal` - Value - Normal for configuring ConfigTdpLevel token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#config_tdp_level BiosPolicy#config_tdp_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#config_tdp_level BiosPolicy#config_tdp_level}
   */
   readonly configTdpLevel?: string;
   /**
@@ -1009,7 +1009,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Value - enabled for configuring ConsoleRedirection token.
   * * `serial-port-a` - Value - serial-port-a for configuring ConsoleRedirection token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#console_redirection BiosPolicy#console_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#console_redirection BiosPolicy#console_redirection}
   */
   readonly consoleRedirection?: string;
   /**
@@ -1103,7 +1103,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `86` - Value - 86 for configuring CoreMultiProcessing token.
   * * `all` - Value - all for configuring CoreMultiProcessing token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#core_multi_processing BiosPolicy#core_multi_processing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#core_multi_processing BiosPolicy#core_multi_processing}
   */
   readonly coreMultiProcessing?: string;
   /**
@@ -1116,7 +1116,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `performance` - Value - performance for configuring CpuEnergyPerformance token.
   * * `power` - Value - power for configuring CpuEnergyPerformance token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_energy_performance BiosPolicy#cpu_energy_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_energy_performance BiosPolicy#cpu_energy_performance}
   */
   readonly cpuEnergyPerformance?: string;
   /**
@@ -1125,7 +1125,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_frequency_floor BiosPolicy#cpu_frequency_floor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_frequency_floor BiosPolicy#cpu_frequency_floor}
   */
   readonly cpuFrequencyFloor?: string;
   /**
@@ -1134,7 +1134,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_pa_limit BiosPolicy#cpu_pa_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_pa_limit BiosPolicy#cpu_pa_limit}
   */
   readonly cpuPaLimit?: string;
   /**
@@ -1143,7 +1143,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring CpuPerfEnhancement token.
   * * `Disabled` - Value - Disabled for configuring CpuPerfEnhancement token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_perf_enhancement BiosPolicy#cpu_perf_enhancement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_perf_enhancement BiosPolicy#cpu_perf_enhancement}
   */
   readonly cpuPerfEnhancement?: string;
   /**
@@ -1154,7 +1154,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `high-throughput` - Value - high-throughput for configuring CpuPerformance token.
   * * `hpc` - Value - hpc for configuring CpuPerformance token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_performance BiosPolicy#cpu_performance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_performance BiosPolicy#cpu_performance}
   */
   readonly cpuPerformance?: string;
   /**
@@ -1165,7 +1165,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `energy-efficient` - Value - energy-efficient for configuring CpuPowerManagement token.
   * * `performance` - Value - performance for configuring CpuPowerManagement token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cpu_power_management BiosPolicy#cpu_power_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cpu_power_management BiosPolicy#cpu_power_management}
   */
   readonly cpuPowerManagement?: string;
   /**
@@ -1180,13 +1180,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Recipe 2` - Value - Recipe 2 for configuring CrQos token.
   * * `Recipe 3` - Value - Recipe 3 for configuring CrQos token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#cr_qos BiosPolicy#cr_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#cr_qos BiosPolicy#cr_qos}
   */
   readonly crQos?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#create_time BiosPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#create_time BiosPolicy#create_time}
   */
   readonly createTime?: string;
   /**
@@ -1202,7 +1202,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Option 4` - Value - Option 4 for configuring CrfastgoConfig token.
   * * `Option 5` - Value - Option 5 for configuring CrfastgoConfig token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#crfastgo_config BiosPolicy#crfastgo_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#crfastgo_config BiosPolicy#crfastgo_config}
   */
   readonly crfastgoConfig?: string;
   /**
@@ -1211,7 +1211,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dcpmm_firmware_downgrade BiosPolicy#dcpmm_firmware_downgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dcpmm_firmware_downgrade BiosPolicy#dcpmm_firmware_downgrade}
   */
   readonly dcpmmFirmwareDowngrade?: string;
   /**
@@ -1220,13 +1220,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#demand_scrub BiosPolicy#demand_scrub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#demand_scrub BiosPolicy#demand_scrub}
   */
   readonly demandScrub?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#description BiosPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#description BiosPolicy#description}
   */
   readonly description?: string;
   /**
@@ -1236,7 +1236,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring DfxOsbEn token.
   * * `enabled` - Value - enabled for configuring DfxOsbEn token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dfx_osb_en BiosPolicy#dfx_osb_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dfx_osb_en BiosPolicy#dfx_osb_en}
   */
   readonly dfxOsbEn?: string;
   /**
@@ -1246,7 +1246,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring DirectCacheAccess token.
   * * `enabled` - Value - enabled for configuring DirectCacheAccess token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#direct_cache_access BiosPolicy#direct_cache_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#direct_cache_access BiosPolicy#direct_cache_access}
   */
   readonly directCacheAccess?: string;
   /**
@@ -1255,13 +1255,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dma_ctrl_opt_in BiosPolicy#dma_ctrl_opt_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dma_ctrl_opt_in BiosPolicy#dma_ctrl_opt_in}
   */
   readonly dmaCtrlOptIn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#domain_group_moid BiosPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#domain_group_moid BiosPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -1272,7 +1272,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Energy Efficient` - Value - Energy Efficient for configuring DramClockThrottling token.
   * * `Performance` - Value - Performance for configuring DramClockThrottling token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dram_clock_throttling BiosPolicy#dram_clock_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dram_clock_throttling BiosPolicy#dram_clock_throttling}
   */
   readonly dramClockThrottling?: string;
   /**
@@ -1284,7 +1284,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `4x` - Value - 4x for configuring DramRefreshRate token.
   * * `Auto` - Value - Auto for configuring DramRefreshRate token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dram_refresh_rate BiosPolicy#dram_refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dram_refresh_rate BiosPolicy#dram_refresh_rate}
   */
   readonly dramRefreshRate?: string;
   /**
@@ -1293,7 +1293,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#dram_sw_thermal_throttling BiosPolicy#dram_sw_thermal_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#dram_sw_thermal_throttling BiosPolicy#dram_sw_thermal_throttling}
   */
   readonly dramSwThermalThrottling?: string;
   /**
@@ -1303,7 +1303,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring EadrSupport token.
   * * `enabled` - Value - enabled for configuring EadrSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#eadr_support BiosPolicy#eadr_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#eadr_support BiosPolicy#eadr_support}
   */
   readonly eadrSupport?: string;
   /**
@@ -1313,7 +1313,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `On Fatal Error` - Value - On Fatal Error for configuring EdpcEn token.
   * * `On Fatal and Non-Fatal Errors` - Value - On Fatal and Non-Fatal Errors for configuring EdpcEn token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#edpc_en BiosPolicy#edpc_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#edpc_en BiosPolicy#edpc_en}
   */
   readonly edpcEn?: string;
   /**
@@ -1326,7 +1326,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Hardware` - Value - Hardware for configuring EnableClockSpreadSpec token.
   * * `Off` - Value - Off for configuring EnableClockSpreadSpec token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_clock_spread_spec BiosPolicy#enable_clock_spread_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_clock_spread_spec BiosPolicy#enable_clock_spread_spec}
   */
   readonly enableClockSpreadSpec?: string;
   /**
@@ -1335,7 +1335,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_mktme BiosPolicy#enable_mktme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_mktme BiosPolicy#enable_mktme}
   */
   readonly enableMktme?: string;
   /**
@@ -1344,7 +1344,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_rmt BiosPolicy#enable_rmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_rmt BiosPolicy#enable_rmt}
   */
   readonly enableRmt?: string;
   /**
@@ -1353,7 +1353,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_sgx BiosPolicy#enable_sgx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_sgx BiosPolicy#enable_sgx}
   */
   readonly enableSgx?: string;
   /**
@@ -1362,7 +1362,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_tdx BiosPolicy#enable_tdx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_tdx BiosPolicy#enable_tdx}
   */
   readonly enableTdx?: string;
   /**
@@ -1371,7 +1371,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_tdx_seamldr BiosPolicy#enable_tdx_seamldr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_tdx_seamldr BiosPolicy#enable_tdx_seamldr}
   */
   readonly enableTdxSeamldr?: string;
   /**
@@ -1380,7 +1380,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enable_tme BiosPolicy#enable_tme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enable_tme BiosPolicy#enable_tme}
   */
   readonly enableTme?: string;
   /**
@@ -1389,7 +1389,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#energy_efficient_turbo BiosPolicy#energy_efficient_turbo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#energy_efficient_turbo BiosPolicy#energy_efficient_turbo}
   */
   readonly energyEfficientTurbo?: string;
   /**
@@ -1398,7 +1398,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `BIOS` - Value - BIOS for configuring EngPerfTuning token.
   * * `OS` - Value - OS for configuring EngPerfTuning token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#eng_perf_tuning BiosPolicy#eng_perf_tuning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#eng_perf_tuning BiosPolicy#eng_perf_tuning}
   */
   readonly engPerfTuning?: string;
   /**
@@ -1407,7 +1407,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#enhanced_intel_speed_step_tech BiosPolicy#enhanced_intel_speed_step_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#enhanced_intel_speed_step_tech BiosPolicy#enhanced_intel_speed_step_tech}
   */
   readonly enhancedIntelSpeedStepTech?: string;
   /**
@@ -1418,7 +1418,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `SGX Owner EPOCH activated` - Value - SGX Owner EPOCH activated for configuring EpochUpdate token.
   * * `SGX Owner EPOCH deactivated` - Value - SGX Owner EPOCH deactivated for configuring EpochUpdate token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#epoch_update BiosPolicy#epoch_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#epoch_update BiosPolicy#epoch_update}
   */
   readonly epochUpdate?: string;
   /**
@@ -1427,7 +1427,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#epp_enable BiosPolicy#epp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#epp_enable BiosPolicy#epp_enable}
   */
   readonly eppEnable?: string;
   /**
@@ -1438,7 +1438,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Performance` - Value - Performance for configuring EppProfile token.
   * * `Power` - Value - Power for configuring EppProfile token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#epp_profile BiosPolicy#epp_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#epp_profile BiosPolicy#epp_profile}
   */
   readonly eppProfile?: string;
   /**
@@ -1448,7 +1448,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Enabled with Result Collection` - Value - Enabled with Result Collection for configuring ErrorCheckScrub token.
   * * `Enabled without Result Collection` - Value - Enabled without Result Collection for configuring ErrorCheckScrub token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#error_check_scrub BiosPolicy#error_check_scrub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#error_check_scrub BiosPolicy#error_check_scrub}
   */
   readonly errorCheckScrub?: string;
   /**
@@ -1457,7 +1457,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#execute_disable_bit BiosPolicy#execute_disable_bit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#execute_disable_bit BiosPolicy#execute_disable_bit}
   */
   readonly executeDisableBit?: string;
   /**
@@ -1468,7 +1468,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `X2APIC` - Value - X2APIC for configuring ExtendedApic token.
   * * `XAPIC` - Value - XAPIC for configuring ExtendedApic token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#extended_apic BiosPolicy#extended_apic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#extended_apic BiosPolicy#extended_apic}
   */
   readonly extendedApic?: string;
   /**
@@ -1477,7 +1477,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `none` - Value - none for configuring FlowControl token.
   * * `rts-cts` - Value - rts-cts for configuring FlowControl token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#flow_control BiosPolicy#flow_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#flow_control BiosPolicy#flow_control}
   */
   readonly flowControl?: string;
   /**
@@ -1486,7 +1486,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#frb2enable BiosPolicy#frb2enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#frb2enable BiosPolicy#frb2enable}
   */
   readonly frb2Enable?: string;
   /**
@@ -1495,7 +1495,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#gpu_direct_cpu1 BiosPolicy#gpu_direct_cpu1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#gpu_direct_cpu1 BiosPolicy#gpu_direct_cpu1}
   */
   readonly gpuDirectCpu1?: string;
   /**
@@ -1504,7 +1504,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#gpu_direct_cpu2 BiosPolicy#gpu_direct_cpu2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#gpu_direct_cpu2 BiosPolicy#gpu_direct_cpu2}
   */
   readonly gpuDirectCpu2?: string;
   /**
@@ -1513,7 +1513,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#gpu_direct_cpu3 BiosPolicy#gpu_direct_cpu3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#gpu_direct_cpu3 BiosPolicy#gpu_direct_cpu3}
   */
   readonly gpuDirectCpu3?: string;
   /**
@@ -1522,7 +1522,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#gpu_direct_cpu4 BiosPolicy#gpu_direct_cpu4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#gpu_direct_cpu4 BiosPolicy#gpu_direct_cpu4}
   */
   readonly gpuDirectCpu4?: string;
   /**
@@ -1531,7 +1531,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#hardware_prefetch BiosPolicy#hardware_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#hardware_prefetch BiosPolicy#hardware_prefetch}
   */
   readonly hardwarePrefetch?: string;
   /**
@@ -1544,11 +1544,11 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Native Mode with no Legacy` - Value - Native Mode with no Legacy for configuring HwpmEnable token.
   * * `OOB MODE` - Value - OOB MODE for configuring HwpmEnable token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#hwpm_enable BiosPolicy#hwpm_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#hwpm_enable BiosPolicy#hwpm_enable}
   */
   readonly hwpmEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#id BiosPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#id BiosPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1561,7 +1561,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `2-way Interleave` - Value - 2-way Interleave for configuring ImcInterleave token.
   * * `Auto` - Value - Auto for configuring ImcInterleave token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#imc_interleave BiosPolicy#imc_interleave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#imc_interleave BiosPolicy#imc_interleave}
   */
   readonly imcInterleave?: string;
   /**
@@ -1570,7 +1570,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_dynamic_speed_select BiosPolicy#intel_dynamic_speed_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_dynamic_speed_select BiosPolicy#intel_dynamic_speed_select}
   */
   readonly intelDynamicSpeedSelect?: string;
   /**
@@ -1579,7 +1579,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_hyper_threading_tech BiosPolicy#intel_hyper_threading_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_hyper_threading_tech BiosPolicy#intel_hyper_threading_tech}
   */
   readonly intelHyperThreadingTech?: string;
   /**
@@ -1597,7 +1597,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Level 3` - Value - Level 3 for configuring IntelSpeedSelect token.
   * * `Level 4` - Value - Level 4 for configuring IntelSpeedSelect token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_speed_select BiosPolicy#intel_speed_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_speed_select BiosPolicy#intel_speed_select}
   */
   readonly intelSpeedSelect?: string;
   /**
@@ -1606,7 +1606,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_turbo_boost_tech BiosPolicy#intel_turbo_boost_tech}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_turbo_boost_tech BiosPolicy#intel_turbo_boost_tech}
   */
   readonly intelTurboBoostTech?: string;
   /**
@@ -1615,7 +1615,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_virtualization_technology BiosPolicy#intel_virtualization_technology}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_virtualization_technology BiosPolicy#intel_virtualization_technology}
   */
   readonly intelVirtualizationTechnology?: string;
   /**
@@ -1624,7 +1624,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_vt_for_directed_io BiosPolicy#intel_vt_for_directed_io}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_vt_for_directed_io BiosPolicy#intel_vt_for_directed_io}
   */
   readonly intelVtForDirectedIo?: string;
   /**
@@ -1633,7 +1633,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_vtd_coherency_support BiosPolicy#intel_vtd_coherency_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_vtd_coherency_support BiosPolicy#intel_vtd_coherency_support}
   */
   readonly intelVtdCoherencySupport?: string;
   /**
@@ -1642,7 +1642,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_vtd_interrupt_remapping BiosPolicy#intel_vtd_interrupt_remapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_vtd_interrupt_remapping BiosPolicy#intel_vtd_interrupt_remapping}
   */
   readonly intelVtdInterruptRemapping?: string;
   /**
@@ -1651,7 +1651,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_vtd_pass_through_dma_support BiosPolicy#intel_vtd_pass_through_dma_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_vtd_pass_through_dma_support BiosPolicy#intel_vtd_pass_through_dma_support}
   */
   readonly intelVtdPassThroughDmaSupport?: string;
   /**
@@ -1660,7 +1660,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#intel_vtdats_support BiosPolicy#intel_vtdats_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#intel_vtdats_support BiosPolicy#intel_vtdats_support}
   */
   readonly intelVtdatsSupport?: string;
   /**
@@ -1669,7 +1669,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ioat_config_cpm BiosPolicy#ioat_config_cpm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ioat_config_cpm BiosPolicy#ioat_config_cpm}
   */
   readonly ioatConfigCpm?: string;
   /**
@@ -1678,7 +1678,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `No` - Value - No for configuring IohErrorEnable token.
   * * `Yes` - Value - Yes for configuring IohErrorEnable token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ioh_error_enable BiosPolicy#ioh_error_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ioh_error_enable BiosPolicy#ioh_error_enable}
   */
   readonly iohErrorEnable?: string;
   /**
@@ -1690,7 +1690,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `IOH0 48k IOH1 16k` - Value - IOH0 48k IOH1 16k for configuring IohResource token.
   * * `IOH0 56k IOH1 8k` - Value - IOH0 56k IOH1 8k for configuring IohResource token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ioh_resource BiosPolicy#ioh_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ioh_resource BiosPolicy#ioh_resource}
   */
   readonly iohResource?: string;
   /**
@@ -1699,7 +1699,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ip_prefetch BiosPolicy#ip_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ip_prefetch BiosPolicy#ip_prefetch}
   */
   readonly ipPrefetch?: string;
   /**
@@ -1708,7 +1708,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ipv4http BiosPolicy#ipv4http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ipv4http BiosPolicy#ipv4http}
   */
   readonly ipv4Http?: string;
   /**
@@ -1717,7 +1717,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ipv4pxe BiosPolicy#ipv4pxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ipv4pxe BiosPolicy#ipv4pxe}
   */
   readonly ipv4Pxe?: string;
   /**
@@ -1726,7 +1726,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ipv6http BiosPolicy#ipv6http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ipv6http BiosPolicy#ipv6http}
   */
   readonly ipv6Http?: string;
   /**
@@ -1735,7 +1735,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ipv6pxe BiosPolicy#ipv6pxe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ipv6pxe BiosPolicy#ipv6pxe}
   */
   readonly ipv6Pxe?: string;
   /**
@@ -1745,7 +1745,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring KtiPrefetch token.
   * * `enabled` - Value - enabled for configuring KtiPrefetch token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#kti_prefetch BiosPolicy#kti_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#kti_prefetch BiosPolicy#kti_prefetch}
   */
   readonly ktiPrefetch?: string;
   /**
@@ -1754,7 +1754,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#latency_optimized_mode BiosPolicy#latency_optimized_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#latency_optimized_mode BiosPolicy#latency_optimized_mode}
   */
   readonly latencyOptimizedMode?: string;
   /**
@@ -1763,7 +1763,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#legacy_os_redirection BiosPolicy#legacy_os_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#legacy_os_redirection BiosPolicy#legacy_os_redirection}
   */
   readonly legacyOsRedirection?: string;
   /**
@@ -1773,7 +1773,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring LegacyUsbSupport token.
   * * `enabled` - Value - enabled for configuring LegacyUsbSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#legacy_usb_support BiosPolicy#legacy_usb_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#legacy_usb_support BiosPolicy#legacy_usb_support}
   */
   readonly legacyUsbSupport?: string;
   /**
@@ -1783,7 +1783,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring LlcAlloc token.
   * * `enabled` - Value - enabled for configuring LlcAlloc token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#llc_alloc BiosPolicy#llc_alloc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#llc_alloc BiosPolicy#llc_alloc}
   */
   readonly llcAlloc?: string;
   /**
@@ -1792,7 +1792,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#llc_prefetch BiosPolicy#llc_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#llc_prefetch BiosPolicy#llc_prefetch}
   */
   readonly llcPrefetch?: string;
   /**
@@ -1803,7 +1803,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring LomPort0state token.
   * * `UEFI Only` - Value - UEFI Only for configuring LomPort0state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lom_port0state BiosPolicy#lom_port0state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lom_port0state BiosPolicy#lom_port0state}
   */
   readonly lomPort0State?: string;
   /**
@@ -1814,7 +1814,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring LomPort1state token.
   * * `UEFI Only` - Value - UEFI Only for configuring LomPort1state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lom_port1state BiosPolicy#lom_port1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lom_port1state BiosPolicy#lom_port1state}
   */
   readonly lomPort1State?: string;
   /**
@@ -1825,7 +1825,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring LomPort2state token.
   * * `UEFI Only` - Value - UEFI Only for configuring LomPort2state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lom_port2state BiosPolicy#lom_port2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lom_port2state BiosPolicy#lom_port2state}
   */
   readonly lomPort2State?: string;
   /**
@@ -1836,7 +1836,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring LomPort3state token.
   * * `UEFI Only` - Value - UEFI Only for configuring LomPort3state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lom_port3state BiosPolicy#lom_port3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lom_port3state BiosPolicy#lom_port3state}
   */
   readonly lomPort3State?: string;
   /**
@@ -1845,7 +1845,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lom_ports_all_state BiosPolicy#lom_ports_all_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lom_ports_all_state BiosPolicy#lom_ports_all_state}
   */
   readonly lomPortsAllState?: string;
   /**
@@ -1855,7 +1855,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `performance-mode` - Value - performance-mode for configuring LvDdrMode token.
   * * `power-saving-mode` - Value - power-saving-mode for configuring LvDdrMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#lv_ddr_mode BiosPolicy#lv_ddr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#lv_ddr_mode BiosPolicy#lv_ddr_mode}
   */
   readonly lvDdrMode?: string;
   /**
@@ -1864,7 +1864,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#make_device_non_bootable BiosPolicy#make_device_non_bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#make_device_non_bootable BiosPolicy#make_device_non_bootable}
   */
   readonly makeDeviceNonBootable?: string;
   /**
@@ -1873,7 +1873,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_bandwidth_boost BiosPolicy#memory_bandwidth_boost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_bandwidth_boost BiosPolicy#memory_bandwidth_boost}
   */
   readonly memoryBandwidthBoost?: string;
   /**
@@ -1886,7 +1886,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring MemoryInterLeave token.
   * * `enabled` - Value - enabled for configuring MemoryInterLeave token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_inter_leave BiosPolicy#memory_inter_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_inter_leave BiosPolicy#memory_inter_leave}
   */
   readonly memoryInterLeave?: string;
   /**
@@ -1895,7 +1895,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_mapped_io_above4gb BiosPolicy#memory_mapped_io_above4gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_mapped_io_above4gb BiosPolicy#memory_mapped_io_above4gb}
   */
   readonly memoryMappedIoAbove4Gb?: string;
   /**
@@ -1904,13 +1904,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1x Refresh` - Value - 1x Refresh for configuring MemoryRefreshRate token.
   * * `2x Refresh` - Value - 2x Refresh for configuring MemoryRefreshRate token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_refresh_rate BiosPolicy#memory_refresh_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_refresh_rate BiosPolicy#memory_refresh_rate}
   */
   readonly memoryRefreshRate?: string;
   /**
   * BIOS Token for setting Memory Size Limit in GiB configuration (0 - 65535 GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_size_limit BiosPolicy#memory_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_size_limit BiosPolicy#memory_size_limit}
   */
   readonly memorySizeLimit?: string;
   /**
@@ -1919,7 +1919,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `CLTT with PECI` - Value - CLTT with PECI for configuring MemoryThermalThrottling token.
   * * `Disabled` - Value - Disabled for configuring MemoryThermalThrottling token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#memory_thermal_throttling BiosPolicy#memory_thermal_throttling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#memory_thermal_throttling BiosPolicy#memory_thermal_throttling}
   */
   readonly memoryThermalThrottling?: string;
   /**
@@ -1928,7 +1928,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `inter-socket` - Value - inter-socket for configuring MirroringMode token.
   * * `intra-socket` - Value - intra-socket for configuring MirroringMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#mirroring_mode BiosPolicy#mirroring_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#mirroring_mode BiosPolicy#mirroring_mode}
   */
   readonly mirroringMode?: string;
   /**
@@ -1940,7 +1940,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `3 GB` - Value - 3 GiB for configuring MmcfgBase token.
   * * `Auto` - Value - Auto for configuring MmcfgBase token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#mmcfg_base BiosPolicy#mmcfg_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#mmcfg_base BiosPolicy#mmcfg_base}
   */
   readonly mmcfgBase?: string;
   /**
@@ -1957,7 +1957,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `56T` - Value - 56T for configuring MmiohBase token.
   * * `Auto` - Value - Auto for configuring MmiohBase token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#mmioh_base BiosPolicy#mmioh_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#mmioh_base BiosPolicy#mmioh_base}
   */
   readonly mmiohBase?: string;
   /**
@@ -1972,25 +1972,25 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1024G` - Value - 1024G for configuring MmiohSize token.
   * * `Auto` - Value - Auto for configuring MmiohSize token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#mmioh_size BiosPolicy#mmioh_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#mmioh_size BiosPolicy#mmioh_size}
   */
   readonly mmiohSize?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#mod_time BiosPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#mod_time BiosPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#name BiosPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#name BiosPolicy#name}
   */
   readonly name?: string;
   /**
@@ -1999,7 +1999,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#network_stack BiosPolicy#network_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#network_stack BiosPolicy#network_stack}
   */
   readonly networkStack?: string;
   /**
@@ -2008,7 +2008,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#numa_optimized BiosPolicy#numa_optimized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#numa_optimized BiosPolicy#numa_optimized}
   */
   readonly numaOptimized?: string;
   /**
@@ -2018,14 +2018,14 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Balanced Profile` - Value - Balanced Profile for configuring NvmdimmPerformConfig token.
   * * `Latency Optimized` - Value - Latency Optimized for configuring NvmdimmPerformConfig token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#nvmdimm_perform_config BiosPolicy#nvmdimm_perform_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#nvmdimm_perform_config BiosPolicy#nvmdimm_perform_config}
   */
   readonly nvmdimmPerformConfig?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2034,7 +2034,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#onboard10gbit_lom BiosPolicy#onboard10gbit_lom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#onboard10gbit_lom BiosPolicy#onboard10gbit_lom}
   */
   readonly onboard10GbitLom?: string;
   /**
@@ -2043,7 +2043,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#onboard_gbit_lom BiosPolicy#onboard_gbit_lom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#onboard_gbit_lom BiosPolicy#onboard_gbit_lom}
   */
   readonly onboardGbitLom?: string;
   /**
@@ -2052,7 +2052,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#onboard_scu_storage_support BiosPolicy#onboard_scu_storage_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#onboard_scu_storage_support BiosPolicy#onboard_scu_storage_support}
   */
   readonly onboardScuStorageSupport?: string;
   /**
@@ -2061,7 +2061,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Intel RSTe` - Value - Intel RSTe for configuring OnboardScuStorageSwStack token.
   * * `LSI SW RAID` - Value - LSI SW RAID for configuring OnboardScuStorageSwStack token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#onboard_scu_storage_sw_stack BiosPolicy#onboard_scu_storage_sw_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#onboard_scu_storage_sw_stack BiosPolicy#onboard_scu_storage_sw_stack}
   */
   readonly onboardScuStorageSwStack?: string;
   /**
@@ -2070,7 +2070,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Test Only` - Value - Test Only for configuring OperationMode token.
   * * `Test and Repair` - Value - Test and Repair for configuring OperationMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#operation_mode BiosPolicy#operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#operation_mode BiosPolicy#operation_mode}
   */
   readonly operationMode?: string;
   /**
@@ -2079,14 +2079,14 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#optimized_power_mode BiosPolicy#optimized_power_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#optimized_power_mode BiosPolicy#optimized_power_mode}
   */
   readonly optimizedPowerMode?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#organization BiosPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#organization BiosPolicy#organization}
   */
   readonly organization?: BiosPolicyOrganization[] | cdktf.IResolvable;
   /**
@@ -2095,7 +2095,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#os_boot_watchdog_timer BiosPolicy#os_boot_watchdog_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#os_boot_watchdog_timer BiosPolicy#os_boot_watchdog_timer}
   */
   readonly osBootWatchdogTimer?: string;
   /**
@@ -2105,7 +2105,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `power-off` - Value - power-off for configuring OsBootWatchdogTimerPolicy token.
   * * `reset` - Value - reset for configuring OsBootWatchdogTimerPolicy token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#os_boot_watchdog_timer_policy BiosPolicy#os_boot_watchdog_timer_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#os_boot_watchdog_timer_policy BiosPolicy#os_boot_watchdog_timer_policy}
   */
   readonly osBootWatchdogTimerPolicy?: string;
   /**
@@ -2116,7 +2116,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `15-minutes` - Value - 15-minutes for configuring OsBootWatchdogTimerTimeout token.
   * * `20-minutes` - Value - 20-minutes for configuring OsBootWatchdogTimerTimeout token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#os_boot_watchdog_timer_timeout BiosPolicy#os_boot_watchdog_timer_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#os_boot_watchdog_timer_timeout BiosPolicy#os_boot_watchdog_timer_timeout}
   */
   readonly osBootWatchdogTimerTimeout?: string;
   /**
@@ -2125,11 +2125,11 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#out_of_band_mgmt_port BiosPolicy#out_of_band_mgmt_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#out_of_band_mgmt_port BiosPolicy#out_of_band_mgmt_port}
   */
   readonly outOfBandMgmtPort?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#owners BiosPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#owners BiosPolicy#owners}
   */
   readonly owners?: string[];
   /**
@@ -2143,7 +2143,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `C6 Retention` - Value - C6 Retention for configuring PackageCstateLimit token.
   * * `No Limit` - Value - No Limit for configuring PackageCstateLimit token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#package_cstate_limit BiosPolicy#package_cstate_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#package_cstate_limit BiosPolicy#package_cstate_limit}
   */
   readonly packageCstateLimit?: string;
   /**
@@ -2152,14 +2152,14 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `High` - Value - High for configuring PanicHighWatermark token.
   * * `Low` - Value - Low for configuring PanicHighWatermark token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#panic_high_watermark BiosPolicy#panic_high_watermark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#panic_high_watermark BiosPolicy#panic_high_watermark}
   */
   readonly panicHighWatermark?: string;
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#parent BiosPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#parent BiosPolicy#parent}
   */
   readonly parent?: BiosPolicyParent[] | cdktf.IResolvable;
   /**
@@ -2168,7 +2168,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_cache_line_sparing BiosPolicy#partial_cache_line_sparing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_cache_line_sparing BiosPolicy#partial_cache_line_sparing}
   */
   readonly partialCacheLineSparing?: string;
   /**
@@ -2178,37 +2178,37 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Percentage` - Value - Percentage for configuring PartialMirrorModeConfig token.
   * * `Value in GB` - Value - Value in GiB for configuring PartialMirrorModeConfig token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_mode_config BiosPolicy#partial_mirror_mode_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_mode_config BiosPolicy#partial_mirror_mode_config}
   */
   readonly partialMirrorModeConfig?: string;
   /**
   * BIOS Token for setting Partial Mirror Percentage configuration (0.00 - 50.00 Percentage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_percent BiosPolicy#partial_mirror_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_percent BiosPolicy#partial_mirror_percent}
   */
   readonly partialMirrorPercent?: string;
   /**
   * BIOS Token for setting Partial Mirror1 Size in GiB configuration (0 - 65535 GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_value1 BiosPolicy#partial_mirror_value1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_value1 BiosPolicy#partial_mirror_value1}
   */
   readonly partialMirrorValue1?: string;
   /**
   * BIOS Token for setting Partial Mirror2 Size in GiB configuration (0 - 65535 GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_value2 BiosPolicy#partial_mirror_value2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_value2 BiosPolicy#partial_mirror_value2}
   */
   readonly partialMirrorValue2?: string;
   /**
   * BIOS Token for setting Partial Mirror3 Size in GiB configuration (0 - 65535 GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_value3 BiosPolicy#partial_mirror_value3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_value3 BiosPolicy#partial_mirror_value3}
   */
   readonly partialMirrorValue3?: string;
   /**
   * BIOS Token for setting Partial Mirror4 Size in GiB configuration (0 - 65535 GiB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#partial_mirror_value4 BiosPolicy#partial_mirror_value4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#partial_mirror_value4 BiosPolicy#partial_mirror_value4}
   */
   readonly partialMirrorValue4?: string;
   /**
@@ -2218,13 +2218,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Enable at End of POST` - Value - Enable at End of POST for configuring PatrolScrub token.
   * * `enabled` - Value - enabled for configuring PatrolScrub token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#patrol_scrub BiosPolicy#patrol_scrub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#patrol_scrub BiosPolicy#patrol_scrub}
   */
   readonly patrolScrub?: string;
   /**
   * BIOS Token for setting Patrol Scrub Interval configuration (5 - 23 Hour).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#patrol_scrub_duration BiosPolicy#patrol_scrub_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#patrol_scrub_duration BiosPolicy#patrol_scrub_duration}
   */
   readonly patrolScrubDuration?: string;
   /**
@@ -2233,7 +2233,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pc_ie_ras_support BiosPolicy#pc_ie_ras_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pc_ie_ras_support BiosPolicy#pc_ie_ras_support}
   */
   readonly pcIeRasSupport?: string;
   /**
@@ -2242,13 +2242,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pc_ie_ssd_hot_plug_support BiosPolicy#pc_ie_ssd_hot_plug_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pc_ie_ssd_hot_plug_support BiosPolicy#pc_ie_ssd_hot_plug_support}
   */
   readonly pcIeSsdHotPlugSupport?: string;
   /**
   * BIOS Token for setting PCIe PLL SSC Percent configuration (0 - 255 (n/10)%).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pch_pcie_pll_ssc BiosPolicy#pch_pcie_pll_ssc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pch_pcie_pll_ssc BiosPolicy#pch_pcie_pll_ssc}
   */
   readonly pchPciePllSsc?: string;
   /**
@@ -2257,7 +2257,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pch_usb30mode BiosPolicy#pch_usb30mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pch_usb30mode BiosPolicy#pch_usb30mode}
   */
   readonly pchUsb30Mode?: string;
   /**
@@ -2268,7 +2268,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring PciOptionRoMs token.
   * * `UEFI Only` - Value - UEFI Only for configuring PciOptionRoMs token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pci_option_ro_ms BiosPolicy#pci_option_ro_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pci_option_ro_ms BiosPolicy#pci_option_ro_ms}
   */
   readonly pciOptionRoMs?: string;
   /**
@@ -2277,7 +2277,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pci_rom_clp BiosPolicy#pci_rom_clp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pci_rom_clp BiosPolicy#pci_rom_clp}
   */
   readonly pciRomClp?: string;
   /**
@@ -2287,7 +2287,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring PcieAriSupport token.
   * * `enabled` - Value - enabled for configuring PcieAriSupport token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_ari_support BiosPolicy#pcie_ari_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_ari_support BiosPolicy#pcie_ari_support}
   */
   readonly pcieAriSupport?: string;
   /**
@@ -2297,7 +2297,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Disabled` - Value - Disabled for configuring PciePllSsc token.
   * * `ZeroPointFive` - Value - ZeroPointFive for configuring PciePllSsc token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_pll_ssc BiosPolicy#pcie_pll_ssc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_pll_ssc BiosPolicy#pcie_pll_ssc}
   */
   readonly pciePllSsc?: string;
   /**
@@ -2311,7 +2311,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring PcieSlotMraid1linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring PcieSlotMraid1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mraid1link_speed BiosPolicy#pcie_slot_mraid1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mraid1link_speed BiosPolicy#pcie_slot_mraid1link_speed}
   */
   readonly pcieSlotMraid1LinkSpeed?: string;
   /**
@@ -2320,7 +2320,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mraid1option_rom BiosPolicy#pcie_slot_mraid1option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mraid1option_rom BiosPolicy#pcie_slot_mraid1option_rom}
   */
   readonly pcieSlotMraid1OptionRom?: string;
   /**
@@ -2334,7 +2334,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring PcieSlotMraid2linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring PcieSlotMraid2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mraid2link_speed BiosPolicy#pcie_slot_mraid2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mraid2link_speed BiosPolicy#pcie_slot_mraid2link_speed}
   */
   readonly pcieSlotMraid2LinkSpeed?: string;
   /**
@@ -2343,7 +2343,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mraid2option_rom BiosPolicy#pcie_slot_mraid2option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mraid2option_rom BiosPolicy#pcie_slot_mraid2option_rom}
   */
   readonly pcieSlotMraid2OptionRom?: string;
   /**
@@ -2357,7 +2357,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring PcieSlotMstorraidLinkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring PcieSlotMstorraidLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mstorraid_link_speed BiosPolicy#pcie_slot_mstorraid_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mstorraid_link_speed BiosPolicy#pcie_slot_mstorraid_link_speed}
   */
   readonly pcieSlotMstorraidLinkSpeed?: string;
   /**
@@ -2366,7 +2366,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_mstorraid_option_rom BiosPolicy#pcie_slot_mstorraid_option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_mstorraid_option_rom BiosPolicy#pcie_slot_mstorraid_option_rom}
   */
   readonly pcieSlotMstorraidOptionRom?: string;
   /**
@@ -2378,7 +2378,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme1linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme1link_speed BiosPolicy#pcie_slot_nvme1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme1link_speed BiosPolicy#pcie_slot_nvme1link_speed}
   */
   readonly pcieSlotNvme1LinkSpeed?: string;
   /**
@@ -2387,7 +2387,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme1option_rom BiosPolicy#pcie_slot_nvme1option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme1option_rom BiosPolicy#pcie_slot_nvme1option_rom}
   */
   readonly pcieSlotNvme1OptionRom?: string;
   /**
@@ -2399,7 +2399,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme2linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme2link_speed BiosPolicy#pcie_slot_nvme2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme2link_speed BiosPolicy#pcie_slot_nvme2link_speed}
   */
   readonly pcieSlotNvme2LinkSpeed?: string;
   /**
@@ -2408,7 +2408,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme2option_rom BiosPolicy#pcie_slot_nvme2option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme2option_rom BiosPolicy#pcie_slot_nvme2option_rom}
   */
   readonly pcieSlotNvme2OptionRom?: string;
   /**
@@ -2420,7 +2420,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme3linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme3linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme3link_speed BiosPolicy#pcie_slot_nvme3link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme3link_speed BiosPolicy#pcie_slot_nvme3link_speed}
   */
   readonly pcieSlotNvme3LinkSpeed?: string;
   /**
@@ -2429,7 +2429,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme3option_rom BiosPolicy#pcie_slot_nvme3option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme3option_rom BiosPolicy#pcie_slot_nvme3option_rom}
   */
   readonly pcieSlotNvme3OptionRom?: string;
   /**
@@ -2441,7 +2441,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme4linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme4linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme4link_speed BiosPolicy#pcie_slot_nvme4link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme4link_speed BiosPolicy#pcie_slot_nvme4link_speed}
   */
   readonly pcieSlotNvme4LinkSpeed?: string;
   /**
@@ -2450,7 +2450,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme4option_rom BiosPolicy#pcie_slot_nvme4option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme4option_rom BiosPolicy#pcie_slot_nvme4option_rom}
   */
   readonly pcieSlotNvme4OptionRom?: string;
   /**
@@ -2462,7 +2462,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme5linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme5linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme5link_speed BiosPolicy#pcie_slot_nvme5link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme5link_speed BiosPolicy#pcie_slot_nvme5link_speed}
   */
   readonly pcieSlotNvme5LinkSpeed?: string;
   /**
@@ -2471,7 +2471,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme5option_rom BiosPolicy#pcie_slot_nvme5option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme5option_rom BiosPolicy#pcie_slot_nvme5option_rom}
   */
   readonly pcieSlotNvme5OptionRom?: string;
   /**
@@ -2483,7 +2483,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring PcieSlotNvme6linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring PcieSlotNvme6linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme6link_speed BiosPolicy#pcie_slot_nvme6link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme6link_speed BiosPolicy#pcie_slot_nvme6link_speed}
   */
   readonly pcieSlotNvme6LinkSpeed?: string;
   /**
@@ -2492,7 +2492,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slot_nvme6option_rom BiosPolicy#pcie_slot_nvme6option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slot_nvme6option_rom BiosPolicy#pcie_slot_nvme6option_rom}
   */
   readonly pcieSlotNvme6OptionRom?: string;
   /**
@@ -2501,13 +2501,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pcie_slots_cdn_enable BiosPolicy#pcie_slots_cdn_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pcie_slots_cdn_enable BiosPolicy#pcie_slots_cdn_enable}
   */
   readonly pcieSlotsCdnEnable?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#permission_resources BiosPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#permission_resources BiosPolicy#permission_resources}
   */
   readonly permissionResources?: BiosPolicyPermissionResources[] | cdktf.IResolvable;
   /**
@@ -2516,7 +2516,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pop_support BiosPolicy#pop_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pop_support BiosPolicy#pop_support}
   */
   readonly popSupport?: string;
   /**
@@ -2525,7 +2525,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#post_error_pause BiosPolicy#post_error_pause}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#post_error_pause BiosPolicy#post_error_pause}
   */
   readonly postErrorPause?: string;
   /**
@@ -2534,7 +2534,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Disabled` - Value - Disabled for configuring PostPackageRepair token.
   * * `Hard PPR` - Value - Hard PPR for configuring PostPackageRepair token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#post_package_repair BiosPolicy#post_package_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#post_package_repair BiosPolicy#post_package_repair}
   */
   readonly postPackageRepair?: string;
   /**
@@ -2543,7 +2543,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pre_boot_dma_protection BiosPolicy#pre_boot_dma_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pre_boot_dma_protection BiosPolicy#pre_boot_dma_protection}
   */
   readonly preBootDmaProtection?: string;
   /**
@@ -2565,7 +2565,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring PrmrrSize token.
   * * `Invalid Config.` - Value - Invalid Config for configuring PrmrrSize token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#prmrr_size BiosPolicy#prmrr_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#prmrr_size BiosPolicy#prmrr_size}
   */
   readonly prmrrSize?: string;
   /**
@@ -2574,7 +2574,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#processor_c1e BiosPolicy#processor_c1e}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#processor_c1e BiosPolicy#processor_c1e}
   */
   readonly processorC1E?: string;
   /**
@@ -2583,7 +2583,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#processor_c3report BiosPolicy#processor_c3report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#processor_c3report BiosPolicy#processor_c3report}
   */
   readonly processorC3Report?: string;
   /**
@@ -2593,7 +2593,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring ProcessorC6report token.
   * * `enabled` - Value - enabled for configuring ProcessorC6report token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#processor_c6report BiosPolicy#processor_c6report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#processor_c6report BiosPolicy#processor_c6report}
   */
   readonly processorC6Report?: string;
   /**
@@ -2602,13 +2602,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#processor_cstate BiosPolicy#processor_cstate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#processor_cstate BiosPolicy#processor_cstate}
   */
   readonly processorCstate?: string;
   /**
   * An array of relationships to policyAbstractConfigProfile resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#profiles BiosPolicy#profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#profiles BiosPolicy#profiles}
   */
   readonly profiles?: BiosPolicyProfiles[] | cdktf.IResolvable;
   /**
@@ -2618,7 +2618,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Disabled` - Value - Disabled for configuring Psata token.
   * * `LSI SW RAID` - Value - LSI SW RAID for configuring Psata token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#psata BiosPolicy#psata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#psata BiosPolicy#psata}
   */
   readonly psata?: string;
   /**
@@ -2628,7 +2628,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `SW ALL` - Value - SW ALL for configuring PstateCoordType token.
   * * `SW ANY` - Value - SW ANY for configuring PstateCoordType token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pstate_coord_type BiosPolicy#pstate_coord_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pstate_coord_type BiosPolicy#pstate_coord_type}
   */
   readonly pstateCoordType?: string;
   /**
@@ -2641,7 +2641,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `VT400` - Value - VT400 for configuring PuttyKeyPad token.
   * * `XTERMR6` - Value - XTERMR6 for configuring PuttyKeyPad token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#putty_key_pad BiosPolicy#putty_key_pad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#putty_key_pad BiosPolicy#putty_key_pad}
   */
   readonly puttyKeyPad?: string;
   /**
@@ -2651,7 +2651,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `os` - Value - os for configuring PwrPerfTuning token.
   * * `peci` - Value - peci for configuring PwrPerfTuning token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#pwr_perf_tuning BiosPolicy#pwr_perf_tuning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#pwr_perf_tuning BiosPolicy#pwr_perf_tuning}
   */
   readonly pwrPerfTuning?: string;
   /**
@@ -2663,7 +2663,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `9.6-gt/s` - Value - 9.6-gt/s for configuring QpiLinkFrequency token.
   * * `auto` - Value - auto for configuring QpiLinkFrequency token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#qpi_link_frequency BiosPolicy#qpi_link_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#qpi_link_frequency BiosPolicy#qpi_link_frequency}
   */
   readonly qpiLinkFrequency?: string;
   /**
@@ -2680,7 +2680,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring QpiLinkSpeed token.
   * * `Use Per Link Setting` - Value - Use Per Link Setting for configuring QpiLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#qpi_link_speed BiosPolicy#qpi_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#qpi_link_speed BiosPolicy#qpi_link_speed}
   */
   readonly qpiLinkSpeed?: string;
   /**
@@ -2693,7 +2693,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `home-directory-snoop-with-osb` - Value - home-directory-snoop-with-osb for configuring QpiSnoopMode token.
   * * `home-snoop` - Value - home-snoop for configuring QpiSnoopMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#qpi_snoop_mode BiosPolicy#qpi_snoop_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#qpi_snoop_mode BiosPolicy#qpi_snoop_mode}
   */
   readonly qpiSnoopMode?: string;
   /**
@@ -2705,7 +2705,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `8-way` - Value - 8-way for configuring RankInterLeave token.
   * * `auto` - Value - auto for configuring RankInterLeave token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#rank_inter_leave BiosPolicy#rank_inter_leave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#rank_inter_leave BiosPolicy#rank_inter_leave}
   */
   readonly rankInterLeave?: string;
   /**
@@ -2714,7 +2714,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Always Enable` - Value - Always Enable for configuring RedirectionAfterPost token.
   * * `Bootloader` - Value - Bootloader for configuring RedirectionAfterPost token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#redirection_after_post BiosPolicy#redirection_after_post}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#redirection_after_post BiosPolicy#redirection_after_post}
   */
   readonly redirectionAfterPost?: string;
   /**
@@ -2723,7 +2723,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#resize_bar_support BiosPolicy#resize_bar_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#resize_bar_support BiosPolicy#resize_bar_support}
   */
   readonly resizeBarSupport?: string;
   /**
@@ -2732,7 +2732,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#runtime_post_package_repair BiosPolicy#runtime_post_package_repair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#runtime_post_package_repair BiosPolicy#runtime_post_package_repair}
   */
   readonly runtimePostPackageRepair?: string;
   /**
@@ -2742,7 +2742,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Disabled` - Value - Disabled for configuring SataModeSelect token.
   * * `LSI SW RAID` - Value - LSI SW RAID for configuring SataModeSelect token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sata_mode_select BiosPolicy#sata_mode_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sata_mode_select BiosPolicy#sata_mode_select}
   */
   readonly sataModeSelect?: string;
   /**
@@ -2756,7 +2756,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `partial-mirror-mode-1lm` - Value - partial-mirror-mode-1lm for configuring SelectMemoryRasConfiguration token.
   * * `sparing` - Value - sparing for configuring SelectMemoryRasConfiguration token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#select_memory_ras_configuration BiosPolicy#select_memory_ras_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#select_memory_ras_configuration BiosPolicy#select_memory_ras_configuration}
   */
   readonly selectMemoryRasConfiguration?: string;
   /**
@@ -2766,7 +2766,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Hard PPR` - Value - Hard PPR for configuring SelectPprType token.
   * * `Soft PPR` - Value - Soft PPR for configuring SelectPprType token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#select_ppr_type BiosPolicy#select_ppr_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#select_ppr_type BiosPolicy#select_ppr_type}
   */
   readonly selectPprType?: string;
   /**
@@ -2775,7 +2775,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#serial_mux BiosPolicy#serial_mux}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#serial_mux BiosPolicy#serial_mux}
   */
   readonly serialMux?: string;
   /**
@@ -2784,7 +2784,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#serial_port_aenable BiosPolicy#serial_port_aenable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#serial_port_aenable BiosPolicy#serial_port_aenable}
   */
   readonly serialPortAenable?: string;
   /**
@@ -2794,7 +2794,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `509 ASIDs` - Value - 509 ASIDs for configuring Sev token.
   * * `Auto` - Value - Auto for configuring Sev token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sev BiosPolicy#sev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sev BiosPolicy#sev}
   */
   readonly sev?: string;
   /**
@@ -2803,19 +2803,19 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_auto_registration_agent BiosPolicy#sgx_auto_registration_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_auto_registration_agent BiosPolicy#sgx_auto_registration_agent}
   */
   readonly sgxAutoRegistrationAgent?: string;
   /**
   * BIOS Token for setting SGX Epoch 0 configuration (0 - ffffffffffffffff Hash byte 7-0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_epoch0 BiosPolicy#sgx_epoch0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_epoch0 BiosPolicy#sgx_epoch0}
   */
   readonly sgxEpoch0?: string;
   /**
   * BIOS Token for setting SGX Epoch 1 configuration (0 - ffffffffffffffff Hash byte 7-0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_epoch1 BiosPolicy#sgx_epoch1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_epoch1 BiosPolicy#sgx_epoch1}
   */
   readonly sgxEpoch1?: string;
   /**
@@ -2824,31 +2824,31 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_factory_reset BiosPolicy#sgx_factory_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_factory_reset BiosPolicy#sgx_factory_reset}
   */
   readonly sgxFactoryReset?: string;
   /**
   * BIOS Token for setting SGX PubKey Hash0 configuration (0 - ffffffffffffffff Hash byte 7-0).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_le_pub_key_hash0 BiosPolicy#sgx_le_pub_key_hash0}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_le_pub_key_hash0 BiosPolicy#sgx_le_pub_key_hash0}
   */
   readonly sgxLePubKeyHash0?: string;
   /**
   * BIOS Token for setting SGX PubKey Hash1 configuration (0 - ffffffffffffffff Hash byte 15-8).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_le_pub_key_hash1 BiosPolicy#sgx_le_pub_key_hash1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_le_pub_key_hash1 BiosPolicy#sgx_le_pub_key_hash1}
   */
   readonly sgxLePubKeyHash1?: string;
   /**
   * BIOS Token for setting SGX PubKey Hash2 configuration (0 - ffffffffffffffff Hash byte 23-16).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_le_pub_key_hash2 BiosPolicy#sgx_le_pub_key_hash2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_le_pub_key_hash2 BiosPolicy#sgx_le_pub_key_hash2}
   */
   readonly sgxLePubKeyHash2?: string;
   /**
   * BIOS Token for setting SGX PubKey Hash3 configuration (0 - ffffffffffffffff Hash byte 31-24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_le_pub_key_hash3 BiosPolicy#sgx_le_pub_key_hash3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_le_pub_key_hash3 BiosPolicy#sgx_le_pub_key_hash3}
   */
   readonly sgxLePubKeyHash3?: string;
   /**
@@ -2857,7 +2857,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_le_wr BiosPolicy#sgx_le_wr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_le_wr BiosPolicy#sgx_le_wr}
   */
   readonly sgxLeWr?: string;
   /**
@@ -2866,7 +2866,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_package_info_in_band_access BiosPolicy#sgx_package_info_in_band_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_package_info_in_band_access BiosPolicy#sgx_package_info_in_band_access}
   */
   readonly sgxPackageInfoInBandAccess?: string;
   /**
@@ -2875,7 +2875,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sgx_qos BiosPolicy#sgx_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sgx_qos BiosPolicy#sgx_qos}
   */
   readonly sgxQos?: string;
   /**
@@ -2884,7 +2884,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sha1pcr_bank BiosPolicy#sha1pcr_bank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sha1pcr_bank BiosPolicy#sha1pcr_bank}
   */
   readonly sha1PcrBank?: string;
   /**
@@ -2893,7 +2893,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sha256pcr_bank BiosPolicy#sha256pcr_bank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sha256pcr_bank BiosPolicy#sha256pcr_bank}
   */
   readonly sha256PcrBank?: string;
   /**
@@ -2902,14 +2902,14 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sha384pcr_bank BiosPolicy#sha384pcr_bank}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sha384pcr_bank BiosPolicy#sha384pcr_bank}
   */
   readonly sha384PcrBank?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#shared_scope BiosPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#shared_scope BiosPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
@@ -2918,7 +2918,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `No` - Value - No for configuring SinglePctlEnable token.
   * * `Yes` - Value - Yes for configuring SinglePctlEnable token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#single_pctl_enable BiosPolicy#single_pctl_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#single_pctl_enable BiosPolicy#single_pctl_enable}
   */
   readonly singlePctlEnable?: string;
   /**
@@ -2930,7 +2930,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring Slot10linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring Slot10linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot10link_speed BiosPolicy#slot10link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot10link_speed BiosPolicy#slot10link_speed}
   */
   readonly slot10LinkSpeed?: string;
   /**
@@ -2941,7 +2941,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot10state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot10state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot10state BiosPolicy#slot10state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot10state BiosPolicy#slot10state}
   */
   readonly slot10State?: string;
   /**
@@ -2953,7 +2953,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring Slot11linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring Slot11linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot11link_speed BiosPolicy#slot11link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot11link_speed BiosPolicy#slot11link_speed}
   */
   readonly slot11LinkSpeed?: string;
   /**
@@ -2962,7 +2962,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot11state BiosPolicy#slot11state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot11state BiosPolicy#slot11state}
   */
   readonly slot11State?: string;
   /**
@@ -2974,7 +2974,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring Slot12linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring Slot12linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot12link_speed BiosPolicy#slot12link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot12link_speed BiosPolicy#slot12link_speed}
   */
   readonly slot12LinkSpeed?: string;
   /**
@@ -2983,7 +2983,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot12state BiosPolicy#slot12state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot12state BiosPolicy#slot12state}
   */
   readonly slot12State?: string;
   /**
@@ -2992,7 +2992,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot13state BiosPolicy#slot13state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot13state BiosPolicy#slot13state}
   */
   readonly slot13State?: string;
   /**
@@ -3001,7 +3001,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot14state BiosPolicy#slot14state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot14state BiosPolicy#slot14state}
   */
   readonly slot14State?: string;
   /**
@@ -3015,7 +3015,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot1linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot1link_speed BiosPolicy#slot1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot1link_speed BiosPolicy#slot1link_speed}
   */
   readonly slot1LinkSpeed?: string;
   /**
@@ -3026,7 +3026,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot1state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot1state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot1state BiosPolicy#slot1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot1state BiosPolicy#slot1state}
   */
   readonly slot1State?: string;
   /**
@@ -3040,7 +3040,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot2linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot2link_speed BiosPolicy#slot2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot2link_speed BiosPolicy#slot2link_speed}
   */
   readonly slot2LinkSpeed?: string;
   /**
@@ -3051,7 +3051,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot2state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot2state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot2state BiosPolicy#slot2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot2state BiosPolicy#slot2state}
   */
   readonly slot2State?: string;
   /**
@@ -3065,7 +3065,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot3linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot3linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot3link_speed BiosPolicy#slot3link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot3link_speed BiosPolicy#slot3link_speed}
   */
   readonly slot3LinkSpeed?: string;
   /**
@@ -3076,7 +3076,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot3state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot3state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot3state BiosPolicy#slot3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot3state BiosPolicy#slot3state}
   */
   readonly slot3State?: string;
   /**
@@ -3090,7 +3090,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot4linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot4linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot4link_speed BiosPolicy#slot4link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot4link_speed BiosPolicy#slot4link_speed}
   */
   readonly slot4LinkSpeed?: string;
   /**
@@ -3101,7 +3101,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot4state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot4state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot4state BiosPolicy#slot4state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot4state BiosPolicy#slot4state}
   */
   readonly slot4State?: string;
   /**
@@ -3115,7 +3115,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot5linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot5linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot5link_speed BiosPolicy#slot5link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot5link_speed BiosPolicy#slot5link_speed}
   */
   readonly slot5LinkSpeed?: string;
   /**
@@ -3126,7 +3126,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot5state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot5state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot5state BiosPolicy#slot5state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot5state BiosPolicy#slot5state}
   */
   readonly slot5State?: string;
   /**
@@ -3140,7 +3140,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot6linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot6linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot6link_speed BiosPolicy#slot6link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot6link_speed BiosPolicy#slot6link_speed}
   */
   readonly slot6LinkSpeed?: string;
   /**
@@ -3151,7 +3151,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot6state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot6state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot6state BiosPolicy#slot6state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot6state BiosPolicy#slot6state}
   */
   readonly slot6State?: string;
   /**
@@ -3165,7 +3165,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot7linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot7linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot7link_speed BiosPolicy#slot7link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot7link_speed BiosPolicy#slot7link_speed}
   */
   readonly slot7LinkSpeed?: string;
   /**
@@ -3176,7 +3176,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot7state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot7state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot7state BiosPolicy#slot7state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot7state BiosPolicy#slot7state}
   */
   readonly slot7State?: string;
   /**
@@ -3190,7 +3190,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring Slot8linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring Slot8linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot8link_speed BiosPolicy#slot8link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot8link_speed BiosPolicy#slot8link_speed}
   */
   readonly slot8LinkSpeed?: string;
   /**
@@ -3201,7 +3201,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot8state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot8state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot8state BiosPolicy#slot8state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot8state BiosPolicy#slot8state}
   */
   readonly slot8State?: string;
   /**
@@ -3214,7 +3214,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN3` - Value - GEN3 for configuring Slot9linkSpeed token.
   * * `GEN4` - Value - GEN4 for configuring Slot9linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot9link_speed BiosPolicy#slot9link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot9link_speed BiosPolicy#slot9link_speed}
   */
   readonly slot9LinkSpeed?: string;
   /**
@@ -3225,7 +3225,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring Slot9state token.
   * * `UEFI Only` - Value - UEFI Only for configuring Slot9state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot9state BiosPolicy#slot9state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot9state BiosPolicy#slot9state}
   */
   readonly slot9State?: string;
   /**
@@ -3237,7 +3237,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotFlomLinkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotFlomLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_flom_link_speed BiosPolicy#slot_flom_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_flom_link_speed BiosPolicy#slot_flom_link_speed}
   */
   readonly slotFlomLinkSpeed?: string;
   /**
@@ -3251,7 +3251,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme10linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme10linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme10link_speed BiosPolicy#slot_front_nvme10link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme10link_speed BiosPolicy#slot_front_nvme10link_speed}
   */
   readonly slotFrontNvme10LinkSpeed?: string;
   /**
@@ -3260,7 +3260,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme10option_rom BiosPolicy#slot_front_nvme10option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme10option_rom BiosPolicy#slot_front_nvme10option_rom}
   */
   readonly slotFrontNvme10OptionRom?: string;
   /**
@@ -3274,7 +3274,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme11linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme11linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme11link_speed BiosPolicy#slot_front_nvme11link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme11link_speed BiosPolicy#slot_front_nvme11link_speed}
   */
   readonly slotFrontNvme11LinkSpeed?: string;
   /**
@@ -3283,7 +3283,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme11option_rom BiosPolicy#slot_front_nvme11option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme11option_rom BiosPolicy#slot_front_nvme11option_rom}
   */
   readonly slotFrontNvme11OptionRom?: string;
   /**
@@ -3297,7 +3297,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme12linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme12linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme12link_speed BiosPolicy#slot_front_nvme12link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme12link_speed BiosPolicy#slot_front_nvme12link_speed}
   */
   readonly slotFrontNvme12LinkSpeed?: string;
   /**
@@ -3306,7 +3306,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme12option_rom BiosPolicy#slot_front_nvme12option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme12option_rom BiosPolicy#slot_front_nvme12option_rom}
   */
   readonly slotFrontNvme12OptionRom?: string;
   /**
@@ -3320,7 +3320,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme13linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme13linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme13link_speed BiosPolicy#slot_front_nvme13link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme13link_speed BiosPolicy#slot_front_nvme13link_speed}
   */
   readonly slotFrontNvme13LinkSpeed?: string;
   /**
@@ -3329,7 +3329,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme13option_rom BiosPolicy#slot_front_nvme13option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme13option_rom BiosPolicy#slot_front_nvme13option_rom}
   */
   readonly slotFrontNvme13OptionRom?: string;
   /**
@@ -3343,7 +3343,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme14linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme14linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme14link_speed BiosPolicy#slot_front_nvme14link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme14link_speed BiosPolicy#slot_front_nvme14link_speed}
   */
   readonly slotFrontNvme14LinkSpeed?: string;
   /**
@@ -3352,7 +3352,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme14option_rom BiosPolicy#slot_front_nvme14option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme14option_rom BiosPolicy#slot_front_nvme14option_rom}
   */
   readonly slotFrontNvme14OptionRom?: string;
   /**
@@ -3366,7 +3366,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme15linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme15linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme15link_speed BiosPolicy#slot_front_nvme15link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme15link_speed BiosPolicy#slot_front_nvme15link_speed}
   */
   readonly slotFrontNvme15LinkSpeed?: string;
   /**
@@ -3375,7 +3375,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme15option_rom BiosPolicy#slot_front_nvme15option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme15option_rom BiosPolicy#slot_front_nvme15option_rom}
   */
   readonly slotFrontNvme15OptionRom?: string;
   /**
@@ -3389,7 +3389,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme16linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme16linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme16link_speed BiosPolicy#slot_front_nvme16link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme16link_speed BiosPolicy#slot_front_nvme16link_speed}
   */
   readonly slotFrontNvme16LinkSpeed?: string;
   /**
@@ -3398,7 +3398,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme16option_rom BiosPolicy#slot_front_nvme16option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme16option_rom BiosPolicy#slot_front_nvme16option_rom}
   */
   readonly slotFrontNvme16OptionRom?: string;
   /**
@@ -3412,7 +3412,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme17linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme17linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme17link_speed BiosPolicy#slot_front_nvme17link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme17link_speed BiosPolicy#slot_front_nvme17link_speed}
   */
   readonly slotFrontNvme17LinkSpeed?: string;
   /**
@@ -3421,7 +3421,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme17option_rom BiosPolicy#slot_front_nvme17option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme17option_rom BiosPolicy#slot_front_nvme17option_rom}
   */
   readonly slotFrontNvme17OptionRom?: string;
   /**
@@ -3435,7 +3435,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme18linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme18linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme18link_speed BiosPolicy#slot_front_nvme18link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme18link_speed BiosPolicy#slot_front_nvme18link_speed}
   */
   readonly slotFrontNvme18LinkSpeed?: string;
   /**
@@ -3444,7 +3444,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme18option_rom BiosPolicy#slot_front_nvme18option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme18option_rom BiosPolicy#slot_front_nvme18option_rom}
   */
   readonly slotFrontNvme18OptionRom?: string;
   /**
@@ -3458,7 +3458,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme19linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme19linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme19link_speed BiosPolicy#slot_front_nvme19link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme19link_speed BiosPolicy#slot_front_nvme19link_speed}
   */
   readonly slotFrontNvme19LinkSpeed?: string;
   /**
@@ -3467,7 +3467,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme19option_rom BiosPolicy#slot_front_nvme19option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme19option_rom BiosPolicy#slot_front_nvme19option_rom}
   */
   readonly slotFrontNvme19OptionRom?: string;
   /**
@@ -3481,7 +3481,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme1linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme1link_speed BiosPolicy#slot_front_nvme1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme1link_speed BiosPolicy#slot_front_nvme1link_speed}
   */
   readonly slotFrontNvme1LinkSpeed?: string;
   /**
@@ -3490,7 +3490,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme1option_rom BiosPolicy#slot_front_nvme1option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme1option_rom BiosPolicy#slot_front_nvme1option_rom}
   */
   readonly slotFrontNvme1OptionRom?: string;
   /**
@@ -3504,7 +3504,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme20linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme20linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme20link_speed BiosPolicy#slot_front_nvme20link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme20link_speed BiosPolicy#slot_front_nvme20link_speed}
   */
   readonly slotFrontNvme20LinkSpeed?: string;
   /**
@@ -3513,7 +3513,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme20option_rom BiosPolicy#slot_front_nvme20option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme20option_rom BiosPolicy#slot_front_nvme20option_rom}
   */
   readonly slotFrontNvme20OptionRom?: string;
   /**
@@ -3527,7 +3527,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme21linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme21linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme21link_speed BiosPolicy#slot_front_nvme21link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme21link_speed BiosPolicy#slot_front_nvme21link_speed}
   */
   readonly slotFrontNvme21LinkSpeed?: string;
   /**
@@ -3536,7 +3536,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme21option_rom BiosPolicy#slot_front_nvme21option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme21option_rom BiosPolicy#slot_front_nvme21option_rom}
   */
   readonly slotFrontNvme21OptionRom?: string;
   /**
@@ -3550,7 +3550,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme22linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme22linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme22link_speed BiosPolicy#slot_front_nvme22link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme22link_speed BiosPolicy#slot_front_nvme22link_speed}
   */
   readonly slotFrontNvme22LinkSpeed?: string;
   /**
@@ -3559,7 +3559,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme22option_rom BiosPolicy#slot_front_nvme22option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme22option_rom BiosPolicy#slot_front_nvme22option_rom}
   */
   readonly slotFrontNvme22OptionRom?: string;
   /**
@@ -3573,7 +3573,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme23linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme23linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme23link_speed BiosPolicy#slot_front_nvme23link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme23link_speed BiosPolicy#slot_front_nvme23link_speed}
   */
   readonly slotFrontNvme23LinkSpeed?: string;
   /**
@@ -3582,7 +3582,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme23option_rom BiosPolicy#slot_front_nvme23option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme23option_rom BiosPolicy#slot_front_nvme23option_rom}
   */
   readonly slotFrontNvme23OptionRom?: string;
   /**
@@ -3596,7 +3596,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme24linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme24linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme24link_speed BiosPolicy#slot_front_nvme24link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme24link_speed BiosPolicy#slot_front_nvme24link_speed}
   */
   readonly slotFrontNvme24LinkSpeed?: string;
   /**
@@ -3605,7 +3605,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme24option_rom BiosPolicy#slot_front_nvme24option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme24option_rom BiosPolicy#slot_front_nvme24option_rom}
   */
   readonly slotFrontNvme24OptionRom?: string;
   /**
@@ -3619,7 +3619,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme25linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme25linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme25link_speed BiosPolicy#slot_front_nvme25link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme25link_speed BiosPolicy#slot_front_nvme25link_speed}
   */
   readonly slotFrontNvme25LinkSpeed?: string;
   /**
@@ -3628,7 +3628,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme25option_rom BiosPolicy#slot_front_nvme25option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme25option_rom BiosPolicy#slot_front_nvme25option_rom}
   */
   readonly slotFrontNvme25OptionRom?: string;
   /**
@@ -3642,7 +3642,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme26linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme26linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme26link_speed BiosPolicy#slot_front_nvme26link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme26link_speed BiosPolicy#slot_front_nvme26link_speed}
   */
   readonly slotFrontNvme26LinkSpeed?: string;
   /**
@@ -3651,7 +3651,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme26option_rom BiosPolicy#slot_front_nvme26option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme26option_rom BiosPolicy#slot_front_nvme26option_rom}
   */
   readonly slotFrontNvme26OptionRom?: string;
   /**
@@ -3665,7 +3665,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme27linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme27linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme27link_speed BiosPolicy#slot_front_nvme27link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme27link_speed BiosPolicy#slot_front_nvme27link_speed}
   */
   readonly slotFrontNvme27LinkSpeed?: string;
   /**
@@ -3674,7 +3674,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme27option_rom BiosPolicy#slot_front_nvme27option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme27option_rom BiosPolicy#slot_front_nvme27option_rom}
   */
   readonly slotFrontNvme27OptionRom?: string;
   /**
@@ -3688,7 +3688,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme28linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme28linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme28link_speed BiosPolicy#slot_front_nvme28link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme28link_speed BiosPolicy#slot_front_nvme28link_speed}
   */
   readonly slotFrontNvme28LinkSpeed?: string;
   /**
@@ -3697,7 +3697,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme28option_rom BiosPolicy#slot_front_nvme28option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme28option_rom BiosPolicy#slot_front_nvme28option_rom}
   */
   readonly slotFrontNvme28OptionRom?: string;
   /**
@@ -3711,7 +3711,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme29linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme29linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme29link_speed BiosPolicy#slot_front_nvme29link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme29link_speed BiosPolicy#slot_front_nvme29link_speed}
   */
   readonly slotFrontNvme29LinkSpeed?: string;
   /**
@@ -3720,7 +3720,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme29option_rom BiosPolicy#slot_front_nvme29option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme29option_rom BiosPolicy#slot_front_nvme29option_rom}
   */
   readonly slotFrontNvme29OptionRom?: string;
   /**
@@ -3734,7 +3734,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme2linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme2link_speed BiosPolicy#slot_front_nvme2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme2link_speed BiosPolicy#slot_front_nvme2link_speed}
   */
   readonly slotFrontNvme2LinkSpeed?: string;
   /**
@@ -3743,7 +3743,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme2option_rom BiosPolicy#slot_front_nvme2option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme2option_rom BiosPolicy#slot_front_nvme2option_rom}
   */
   readonly slotFrontNvme2OptionRom?: string;
   /**
@@ -3757,7 +3757,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme30linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme30linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme30link_speed BiosPolicy#slot_front_nvme30link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme30link_speed BiosPolicy#slot_front_nvme30link_speed}
   */
   readonly slotFrontNvme30LinkSpeed?: string;
   /**
@@ -3766,7 +3766,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme30option_rom BiosPolicy#slot_front_nvme30option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme30option_rom BiosPolicy#slot_front_nvme30option_rom}
   */
   readonly slotFrontNvme30OptionRom?: string;
   /**
@@ -3780,7 +3780,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme31linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme31linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme31link_speed BiosPolicy#slot_front_nvme31link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme31link_speed BiosPolicy#slot_front_nvme31link_speed}
   */
   readonly slotFrontNvme31LinkSpeed?: string;
   /**
@@ -3789,7 +3789,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme31option_rom BiosPolicy#slot_front_nvme31option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme31option_rom BiosPolicy#slot_front_nvme31option_rom}
   */
   readonly slotFrontNvme31OptionRom?: string;
   /**
@@ -3803,7 +3803,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme32linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme32linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme32link_speed BiosPolicy#slot_front_nvme32link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme32link_speed BiosPolicy#slot_front_nvme32link_speed}
   */
   readonly slotFrontNvme32LinkSpeed?: string;
   /**
@@ -3812,7 +3812,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme32option_rom BiosPolicy#slot_front_nvme32option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme32option_rom BiosPolicy#slot_front_nvme32option_rom}
   */
   readonly slotFrontNvme32OptionRom?: string;
   /**
@@ -3826,7 +3826,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme3linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme3linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme3link_speed BiosPolicy#slot_front_nvme3link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme3link_speed BiosPolicy#slot_front_nvme3link_speed}
   */
   readonly slotFrontNvme3LinkSpeed?: string;
   /**
@@ -3835,7 +3835,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme3option_rom BiosPolicy#slot_front_nvme3option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme3option_rom BiosPolicy#slot_front_nvme3option_rom}
   */
   readonly slotFrontNvme3OptionRom?: string;
   /**
@@ -3849,7 +3849,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme4linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme4linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme4link_speed BiosPolicy#slot_front_nvme4link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme4link_speed BiosPolicy#slot_front_nvme4link_speed}
   */
   readonly slotFrontNvme4LinkSpeed?: string;
   /**
@@ -3858,7 +3858,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme4option_rom BiosPolicy#slot_front_nvme4option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme4option_rom BiosPolicy#slot_front_nvme4option_rom}
   */
   readonly slotFrontNvme4OptionRom?: string;
   /**
@@ -3872,7 +3872,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme5linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme5linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme5link_speed BiosPolicy#slot_front_nvme5link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme5link_speed BiosPolicy#slot_front_nvme5link_speed}
   */
   readonly slotFrontNvme5LinkSpeed?: string;
   /**
@@ -3881,7 +3881,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme5option_rom BiosPolicy#slot_front_nvme5option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme5option_rom BiosPolicy#slot_front_nvme5option_rom}
   */
   readonly slotFrontNvme5OptionRom?: string;
   /**
@@ -3895,7 +3895,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme6linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme6linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme6link_speed BiosPolicy#slot_front_nvme6link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme6link_speed BiosPolicy#slot_front_nvme6link_speed}
   */
   readonly slotFrontNvme6LinkSpeed?: string;
   /**
@@ -3904,7 +3904,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme6option_rom BiosPolicy#slot_front_nvme6option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme6option_rom BiosPolicy#slot_front_nvme6option_rom}
   */
   readonly slotFrontNvme6OptionRom?: string;
   /**
@@ -3918,7 +3918,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme7linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme7linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme7link_speed BiosPolicy#slot_front_nvme7link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme7link_speed BiosPolicy#slot_front_nvme7link_speed}
   */
   readonly slotFrontNvme7LinkSpeed?: string;
   /**
@@ -3927,7 +3927,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme7option_rom BiosPolicy#slot_front_nvme7option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme7option_rom BiosPolicy#slot_front_nvme7option_rom}
   */
   readonly slotFrontNvme7OptionRom?: string;
   /**
@@ -3941,7 +3941,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme8linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme8linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme8link_speed BiosPolicy#slot_front_nvme8link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme8link_speed BiosPolicy#slot_front_nvme8link_speed}
   */
   readonly slotFrontNvme8LinkSpeed?: string;
   /**
@@ -3950,7 +3950,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme8option_rom BiosPolicy#slot_front_nvme8option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme8option_rom BiosPolicy#slot_front_nvme8option_rom}
   */
   readonly slotFrontNvme8OptionRom?: string;
   /**
@@ -3964,7 +3964,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotFrontNvme9linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotFrontNvme9linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme9link_speed BiosPolicy#slot_front_nvme9link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme9link_speed BiosPolicy#slot_front_nvme9link_speed}
   */
   readonly slotFrontNvme9LinkSpeed?: string;
   /**
@@ -3973,7 +3973,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_nvme9option_rom BiosPolicy#slot_front_nvme9option_rom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_nvme9option_rom BiosPolicy#slot_front_nvme9option_rom}
   */
   readonly slotFrontNvme9OptionRom?: string;
   /**
@@ -3985,7 +3985,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotFrontSlot5linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotFrontSlot5linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_slot5link_speed BiosPolicy#slot_front_slot5link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_slot5link_speed BiosPolicy#slot_front_slot5link_speed}
   */
   readonly slotFrontSlot5LinkSpeed?: string;
   /**
@@ -3997,7 +3997,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotFrontSlot6linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotFrontSlot6linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_front_slot6link_speed BiosPolicy#slot_front_slot6link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_front_slot6link_speed BiosPolicy#slot_front_slot6link_speed}
   */
   readonly slotFrontSlot6LinkSpeed?: string;
   /**
@@ -4006,7 +4006,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu1state BiosPolicy#slot_gpu1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu1state BiosPolicy#slot_gpu1state}
   */
   readonly slotGpu1State?: string;
   /**
@@ -4015,7 +4015,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu2state BiosPolicy#slot_gpu2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu2state BiosPolicy#slot_gpu2state}
   */
   readonly slotGpu2State?: string;
   /**
@@ -4024,7 +4024,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu3state BiosPolicy#slot_gpu3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu3state BiosPolicy#slot_gpu3state}
   */
   readonly slotGpu3State?: string;
   /**
@@ -4033,7 +4033,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu4state BiosPolicy#slot_gpu4state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu4state BiosPolicy#slot_gpu4state}
   */
   readonly slotGpu4State?: string;
   /**
@@ -4042,7 +4042,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu5state BiosPolicy#slot_gpu5state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu5state BiosPolicy#slot_gpu5state}
   */
   readonly slotGpu5State?: string;
   /**
@@ -4051,7 +4051,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu6state BiosPolicy#slot_gpu6state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu6state BiosPolicy#slot_gpu6state}
   */
   readonly slotGpu6State?: string;
   /**
@@ -4060,7 +4060,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu7state BiosPolicy#slot_gpu7state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu7state BiosPolicy#slot_gpu7state}
   */
   readonly slotGpu7State?: string;
   /**
@@ -4069,7 +4069,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_gpu8state BiosPolicy#slot_gpu8state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_gpu8state BiosPolicy#slot_gpu8state}
   */
   readonly slotGpu8State?: string;
   /**
@@ -4081,7 +4081,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotHbaLinkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotHbaLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_hba_link_speed BiosPolicy#slot_hba_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_hba_link_speed BiosPolicy#slot_hba_link_speed}
   */
   readonly slotHbaLinkSpeed?: string;
   /**
@@ -4092,7 +4092,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotHbaState token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotHbaState token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_hba_state BiosPolicy#slot_hba_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_hba_state BiosPolicy#slot_hba_state}
   */
   readonly slotHbaState?: string;
   /**
@@ -4101,7 +4101,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_lom1link BiosPolicy#slot_lom1link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_lom1link BiosPolicy#slot_lom1link}
   */
   readonly slotLom1Link?: string;
   /**
@@ -4110,7 +4110,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_lom2link BiosPolicy#slot_lom2link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_lom2link BiosPolicy#slot_lom2link}
   */
   readonly slotLom2Link?: string;
   /**
@@ -4121,7 +4121,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotMezzState token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotMezzState token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_mezz_state BiosPolicy#slot_mezz_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_mezz_state BiosPolicy#slot_mezz_state}
   */
   readonly slotMezzState?: string;
   /**
@@ -4135,7 +4135,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotMlomLinkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotMlomLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_mlom_link_speed BiosPolicy#slot_mlom_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_mlom_link_speed BiosPolicy#slot_mlom_link_speed}
   */
   readonly slotMlomLinkSpeed?: string;
   /**
@@ -4146,7 +4146,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotMlomState token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotMlomState token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_mlom_state BiosPolicy#slot_mlom_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_mlom_state BiosPolicy#slot_mlom_state}
   */
   readonly slotMlomState?: string;
   /**
@@ -4160,7 +4160,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotMraidLinkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotMraidLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_mraid_link_speed BiosPolicy#slot_mraid_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_mraid_link_speed BiosPolicy#slot_mraid_link_speed}
   */
   readonly slotMraidLinkSpeed?: string;
   /**
@@ -4169,7 +4169,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_mraid_state BiosPolicy#slot_mraid_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_mraid_state BiosPolicy#slot_mraid_state}
   */
   readonly slotMraidState?: string;
   /**
@@ -4178,7 +4178,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n10state BiosPolicy#slot_n10state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n10state BiosPolicy#slot_n10state}
   */
   readonly slotN10State?: string;
   /**
@@ -4187,7 +4187,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n11state BiosPolicy#slot_n11state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n11state BiosPolicy#slot_n11state}
   */
   readonly slotN11State?: string;
   /**
@@ -4196,7 +4196,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n12state BiosPolicy#slot_n12state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n12state BiosPolicy#slot_n12state}
   */
   readonly slotN12State?: string;
   /**
@@ -4205,7 +4205,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n13state BiosPolicy#slot_n13state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n13state BiosPolicy#slot_n13state}
   */
   readonly slotN13State?: string;
   /**
@@ -4214,7 +4214,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n14state BiosPolicy#slot_n14state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n14state BiosPolicy#slot_n14state}
   */
   readonly slotN14State?: string;
   /**
@@ -4223,7 +4223,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n15state BiosPolicy#slot_n15state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n15state BiosPolicy#slot_n15state}
   */
   readonly slotN15State?: string;
   /**
@@ -4232,7 +4232,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n16state BiosPolicy#slot_n16state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n16state BiosPolicy#slot_n16state}
   */
   readonly slotN16State?: string;
   /**
@@ -4241,7 +4241,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n17state BiosPolicy#slot_n17state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n17state BiosPolicy#slot_n17state}
   */
   readonly slotN17State?: string;
   /**
@@ -4250,7 +4250,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n18state BiosPolicy#slot_n18state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n18state BiosPolicy#slot_n18state}
   */
   readonly slotN18State?: string;
   /**
@@ -4259,7 +4259,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n19state BiosPolicy#slot_n19state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n19state BiosPolicy#slot_n19state}
   */
   readonly slotN19State?: string;
   /**
@@ -4270,7 +4270,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotN1state token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotN1state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n1state BiosPolicy#slot_n1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n1state BiosPolicy#slot_n1state}
   */
   readonly slotN1State?: string;
   /**
@@ -4279,7 +4279,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n20state BiosPolicy#slot_n20state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n20state BiosPolicy#slot_n20state}
   */
   readonly slotN20State?: string;
   /**
@@ -4288,7 +4288,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n21state BiosPolicy#slot_n21state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n21state BiosPolicy#slot_n21state}
   */
   readonly slotN21State?: string;
   /**
@@ -4297,7 +4297,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n22state BiosPolicy#slot_n22state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n22state BiosPolicy#slot_n22state}
   */
   readonly slotN22State?: string;
   /**
@@ -4306,7 +4306,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n23state BiosPolicy#slot_n23state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n23state BiosPolicy#slot_n23state}
   */
   readonly slotN23State?: string;
   /**
@@ -4315,7 +4315,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n24state BiosPolicy#slot_n24state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n24state BiosPolicy#slot_n24state}
   */
   readonly slotN24State?: string;
   /**
@@ -4326,7 +4326,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotN2state token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotN2state token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n2state BiosPolicy#slot_n2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n2state BiosPolicy#slot_n2state}
   */
   readonly slotN2State?: string;
   /**
@@ -4335,7 +4335,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n3state BiosPolicy#slot_n3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n3state BiosPolicy#slot_n3state}
   */
   readonly slotN3State?: string;
   /**
@@ -4344,7 +4344,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n4state BiosPolicy#slot_n4state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n4state BiosPolicy#slot_n4state}
   */
   readonly slotN4State?: string;
   /**
@@ -4353,7 +4353,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n5state BiosPolicy#slot_n5state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n5state BiosPolicy#slot_n5state}
   */
   readonly slotN5State?: string;
   /**
@@ -4362,7 +4362,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n6state BiosPolicy#slot_n6state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n6state BiosPolicy#slot_n6state}
   */
   readonly slotN6State?: string;
   /**
@@ -4371,7 +4371,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n7state BiosPolicy#slot_n7state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n7state BiosPolicy#slot_n7state}
   */
   readonly slotN7State?: string;
   /**
@@ -4380,7 +4380,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n8state BiosPolicy#slot_n8state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n8state BiosPolicy#slot_n8state}
   */
   readonly slotN8State?: string;
   /**
@@ -4389,7 +4389,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_n9state BiosPolicy#slot_n9state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_n9state BiosPolicy#slot_n9state}
   */
   readonly slotN9State?: string;
   /**
@@ -4401,7 +4401,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRaidLinkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRaidLinkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_raid_link_speed BiosPolicy#slot_raid_link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_raid_link_speed BiosPolicy#slot_raid_link_speed}
   */
   readonly slotRaidLinkSpeed?: string;
   /**
@@ -4410,7 +4410,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_raid_state BiosPolicy#slot_raid_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_raid_state BiosPolicy#slot_raid_state}
   */
   readonly slotRaidState?: string;
   /**
@@ -4424,7 +4424,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotRearNvme1linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotRearNvme1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme1link_speed BiosPolicy#slot_rear_nvme1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme1link_speed BiosPolicy#slot_rear_nvme1link_speed}
   */
   readonly slotRearNvme1LinkSpeed?: string;
   /**
@@ -4433,7 +4433,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme1state BiosPolicy#slot_rear_nvme1state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme1state BiosPolicy#slot_rear_nvme1state}
   */
   readonly slotRearNvme1State?: string;
   /**
@@ -4447,7 +4447,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotRearNvme2linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotRearNvme2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme2link_speed BiosPolicy#slot_rear_nvme2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme2link_speed BiosPolicy#slot_rear_nvme2link_speed}
   */
   readonly slotRearNvme2LinkSpeed?: string;
   /**
@@ -4456,7 +4456,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme2state BiosPolicy#slot_rear_nvme2state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme2state BiosPolicy#slot_rear_nvme2state}
   */
   readonly slotRearNvme2State?: string;
   /**
@@ -4470,7 +4470,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotRearNvme3linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotRearNvme3linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme3link_speed BiosPolicy#slot_rear_nvme3link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme3link_speed BiosPolicy#slot_rear_nvme3link_speed}
   */
   readonly slotRearNvme3LinkSpeed?: string;
   /**
@@ -4479,7 +4479,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme3state BiosPolicy#slot_rear_nvme3state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme3state BiosPolicy#slot_rear_nvme3state}
   */
   readonly slotRearNvme3State?: string;
   /**
@@ -4493,7 +4493,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN4` - Value - GEN4 for configuring SlotRearNvme4linkSpeed token.
   * * `GEN5` - Value - GEN5 for configuring SlotRearNvme4linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme4link_speed BiosPolicy#slot_rear_nvme4link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme4link_speed BiosPolicy#slot_rear_nvme4link_speed}
   */
   readonly slotRearNvme4LinkSpeed?: string;
   /**
@@ -4502,7 +4502,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme4state BiosPolicy#slot_rear_nvme4state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme4state BiosPolicy#slot_rear_nvme4state}
   */
   readonly slotRearNvme4State?: string;
   /**
@@ -4511,7 +4511,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme5state BiosPolicy#slot_rear_nvme5state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme5state BiosPolicy#slot_rear_nvme5state}
   */
   readonly slotRearNvme5State?: string;
   /**
@@ -4520,7 +4520,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme6state BiosPolicy#slot_rear_nvme6state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme6state BiosPolicy#slot_rear_nvme6state}
   */
   readonly slotRearNvme6State?: string;
   /**
@@ -4529,7 +4529,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme7state BiosPolicy#slot_rear_nvme7state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme7state BiosPolicy#slot_rear_nvme7state}
   */
   readonly slotRearNvme7State?: string;
   /**
@@ -4538,7 +4538,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_rear_nvme8state BiosPolicy#slot_rear_nvme8state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_rear_nvme8state BiosPolicy#slot_rear_nvme8state}
   */
   readonly slotRearNvme8State?: string;
   /**
@@ -4550,7 +4550,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser1linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser1link_speed BiosPolicy#slot_riser1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser1link_speed BiosPolicy#slot_riser1link_speed}
   */
   readonly slotRiser1LinkSpeed?: string;
   /**
@@ -4562,7 +4562,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser1slot1linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser1slot1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser1slot1link_speed BiosPolicy#slot_riser1slot1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser1slot1link_speed BiosPolicy#slot_riser1slot1link_speed}
   */
   readonly slotRiser1Slot1LinkSpeed?: string;
   /**
@@ -4574,7 +4574,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser1slot2linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser1slot2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser1slot2link_speed BiosPolicy#slot_riser1slot2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser1slot2link_speed BiosPolicy#slot_riser1slot2link_speed}
   */
   readonly slotRiser1Slot2LinkSpeed?: string;
   /**
@@ -4586,7 +4586,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser1slot3linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser1slot3linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser1slot3link_speed BiosPolicy#slot_riser1slot3link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser1slot3link_speed BiosPolicy#slot_riser1slot3link_speed}
   */
   readonly slotRiser1Slot3LinkSpeed?: string;
   /**
@@ -4598,7 +4598,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser2linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser2link_speed BiosPolicy#slot_riser2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser2link_speed BiosPolicy#slot_riser2link_speed}
   */
   readonly slotRiser2LinkSpeed?: string;
   /**
@@ -4610,7 +4610,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser2slot4linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser2slot4linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser2slot4link_speed BiosPolicy#slot_riser2slot4link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser2slot4link_speed BiosPolicy#slot_riser2slot4link_speed}
   */
   readonly slotRiser2Slot4LinkSpeed?: string;
   /**
@@ -4622,7 +4622,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser2slot5linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser2slot5linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser2slot5link_speed BiosPolicy#slot_riser2slot5link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser2slot5link_speed BiosPolicy#slot_riser2slot5link_speed}
   */
   readonly slotRiser2Slot5LinkSpeed?: string;
   /**
@@ -4634,7 +4634,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotRiser2slot6linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotRiser2slot6linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_riser2slot6link_speed BiosPolicy#slot_riser2slot6link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_riser2slot6link_speed BiosPolicy#slot_riser2slot6link_speed}
   */
   readonly slotRiser2Slot6LinkSpeed?: string;
   /**
@@ -4645,7 +4645,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Legacy Only` - Value - Legacy Only for configuring SlotSasState token.
   * * `UEFI Only` - Value - UEFI Only for configuring SlotSasState token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_sas_state BiosPolicy#slot_sas_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_sas_state BiosPolicy#slot_sas_state}
   */
   readonly slotSasState?: string;
   /**
@@ -4657,7 +4657,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotSsdSlot1linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotSsdSlot1linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_ssd_slot1link_speed BiosPolicy#slot_ssd_slot1link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_ssd_slot1link_speed BiosPolicy#slot_ssd_slot1link_speed}
   */
   readonly slotSsdSlot1LinkSpeed?: string;
   /**
@@ -4669,7 +4669,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `GEN2` - Value - GEN2 for configuring SlotSsdSlot2linkSpeed token.
   * * `GEN3` - Value - GEN3 for configuring SlotSsdSlot2linkSpeed token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#slot_ssd_slot2link_speed BiosPolicy#slot_ssd_slot2link_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#slot_ssd_slot2link_speed BiosPolicy#slot_ssd_slot2link_speed}
   */
   readonly slotSsdSlot2LinkSpeed?: string;
   /**
@@ -4678,7 +4678,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#smee BiosPolicy#smee}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#smee BiosPolicy#smee}
   */
   readonly smee?: string;
   /**
@@ -4687,7 +4687,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Auto` - Value - Auto for configuring SmtMode token.
   * * `Off` - Value - Off for configuring SmtMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#smt_mode BiosPolicy#smt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#smt_mode BiosPolicy#smt_mode}
   */
   readonly smtMode?: string;
   /**
@@ -4699,7 +4699,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `SNC2` - Value - SNC2 for configuring Snc token.
   * * `SNC4` - Value - SNC4 for configuring Snc token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#snc BiosPolicy#snc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#snc BiosPolicy#snc}
   */
   readonly snc?: string;
   /**
@@ -4708,7 +4708,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#snoopy_mode_for2lm BiosPolicy#snoopy_mode_for2lm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#snoopy_mode_for2lm BiosPolicy#snoopy_mode_for2lm}
   */
   readonly snoopyModeFor2Lm?: string;
   /**
@@ -4717,7 +4717,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#snoopy_mode_for_ad BiosPolicy#snoopy_mode_for_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#snoopy_mode_for_ad BiosPolicy#snoopy_mode_for_ad}
   */
   readonly snoopyModeForAd?: string;
   /**
@@ -4726,7 +4726,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `dimm-sparing` - Value - dimm-sparing for configuring SparingMode token.
   * * `rank-sparing` - Value - rank-sparing for configuring SparingMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sparing_mode BiosPolicy#sparing_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sparing_mode BiosPolicy#sparing_mode}
   */
   readonly sparingMode?: string;
   /**
@@ -4735,7 +4735,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#sr_iov BiosPolicy#sr_iov}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sr_iov BiosPolicy#sr_iov}
   */
   readonly srIov?: string;
   /**
@@ -4745,7 +4745,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring StreamerPrefetch token.
   * * `enabled` - Value - enabled for configuring StreamerPrefetch token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#streamer_prefetch BiosPolicy#streamer_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#streamer_prefetch BiosPolicy#streamer_prefetch}
   */
   readonly streamerPrefetch?: string;
   /**
@@ -4754,11 +4754,11 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#svm_mode BiosPolicy#svm_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#svm_mode BiosPolicy#svm_mode}
   */
   readonly svmMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tags BiosPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tags BiosPolicy#tags}
   */
   readonly tags?: BiosPolicyTags[] | cdktf.IResolvable;
   /**
@@ -4769,7 +4769,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `vt100-plus` - Value - vt100-plus for configuring TerminalType token.
   * * `vt-utf8` - Value - vt-utf8 for configuring TerminalType token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#terminal_type BiosPolicy#terminal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#terminal_type BiosPolicy#terminal_type}
   */
   readonly terminalType?: string;
   /**
@@ -4778,7 +4778,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tpm_control BiosPolicy#tpm_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tpm_control BiosPolicy#tpm_control}
   */
   readonly tpmControl?: string;
   /**
@@ -4787,7 +4787,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `None` - Value - None for configuring TpmPendingOperation token.
   * * `TpmClear` - Value - TpmClear for configuring TpmPendingOperation token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tpm_pending_operation BiosPolicy#tpm_pending_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tpm_pending_operation BiosPolicy#tpm_pending_operation}
   */
   readonly tpmPendingOperation?: string;
   /**
@@ -4796,7 +4796,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tpm_ppi_required BiosPolicy#tpm_ppi_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tpm_ppi_required BiosPolicy#tpm_ppi_required}
   */
   readonly tpmPpiRequired?: string;
   /**
@@ -4805,7 +4805,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tpm_support BiosPolicy#tpm_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tpm_support BiosPolicy#tpm_support}
   */
   readonly tpmSupport?: string;
   /**
@@ -4815,7 +4815,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring Tsme token.
   * * `enabled` - Value - enabled for configuring Tsme token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#tsme BiosPolicy#tsme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#tsme BiosPolicy#tsme}
   */
   readonly tsme?: string;
   /**
@@ -4824,7 +4824,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#txt_support BiosPolicy#txt_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#txt_support BiosPolicy#txt_support}
   */
   readonly txtSupport?: string;
   /**
@@ -4833,7 +4833,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Loose` - Value - Loose for configuring UcsmBootOrderRule token.
   * * `Strict` - Value - Strict for configuring UcsmBootOrderRule token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ucsm_boot_order_rule BiosPolicy#ucsm_boot_order_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ucsm_boot_order_rule BiosPolicy#ucsm_boot_order_rule}
   */
   readonly ucsmBootOrderRule?: string;
   /**
@@ -4842,7 +4842,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#uefi_mem_map_sp_flag_en BiosPolicy#uefi_mem_map_sp_flag_en}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#uefi_mem_map_sp_flag_en BiosPolicy#uefi_mem_map_sp_flag_en}
   */
   readonly uefiMemMapSpFlagEn?: string;
   /**
@@ -4853,7 +4853,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Mode 0` - Value - Mode 0 for configuring UfsDisable token.
   * * `Mode 1` - Value - Mode 1 for configuring UfsDisable token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ufs_disable BiosPolicy#ufs_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ufs_disable BiosPolicy#ufs_disable}
   */
   readonly ufsDisable?: string;
   /**
@@ -4863,7 +4863,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Hemisphere (2-clusters)` - Value - Hemisphere (2-clusters) for configuring UmaBasedClustering token.
   * * `Quadrant (4-clusters)` - Value - Quadrant (4-clusters) for configuring UmaBasedClustering token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#uma_based_clustering BiosPolicy#uma_based_clustering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#uma_based_clustering BiosPolicy#uma_based_clustering}
   */
   readonly umaBasedClustering?: string;
   /**
@@ -4874,7 +4874,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `3` - Value - 3 for configuring UpiLinkEnablement token.
   * * `Auto` - Value - Auto for configuring UpiLinkEnablement token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#upi_link_enablement BiosPolicy#upi_link_enablement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#upi_link_enablement BiosPolicy#upi_link_enablement}
   */
   readonly upiLinkEnablement?: string;
   /**
@@ -4883,7 +4883,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#upi_power_management BiosPolicy#upi_power_management}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#upi_power_management BiosPolicy#upi_power_management}
   */
   readonly upiPowerManagement?: string;
   /**
@@ -4892,7 +4892,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_emul6064 BiosPolicy#usb_emul6064}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_emul6064 BiosPolicy#usb_emul6064}
   */
   readonly usbEmul6064?: string;
   /**
@@ -4901,7 +4901,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_front BiosPolicy#usb_port_front}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_front BiosPolicy#usb_port_front}
   */
   readonly usbPortFront?: string;
   /**
@@ -4910,7 +4910,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_internal BiosPolicy#usb_port_internal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_internal BiosPolicy#usb_port_internal}
   */
   readonly usbPortInternal?: string;
   /**
@@ -4919,7 +4919,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_kvm BiosPolicy#usb_port_kvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_kvm BiosPolicy#usb_port_kvm}
   */
   readonly usbPortKvm?: string;
   /**
@@ -4928,7 +4928,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_rear BiosPolicy#usb_port_rear}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_rear BiosPolicy#usb_port_rear}
   */
   readonly usbPortRear?: string;
   /**
@@ -4937,7 +4937,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_sd_card BiosPolicy#usb_port_sd_card}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_sd_card BiosPolicy#usb_port_sd_card}
   */
   readonly usbPortSdCard?: string;
   /**
@@ -4946,7 +4946,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_port_vmedia BiosPolicy#usb_port_vmedia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_port_vmedia BiosPolicy#usb_port_vmedia}
   */
   readonly usbPortVmedia?: string;
   /**
@@ -4955,13 +4955,13 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#usb_xhci_support BiosPolicy#usb_xhci_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#usb_xhci_support BiosPolicy#usb_xhci_support}
   */
   readonly usbXhciSupport?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#version_context BiosPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#version_context BiosPolicy#version_context}
   */
   readonly versionContext?: BiosPolicyVersionContext[] | cdktf.IResolvable;
   /**
@@ -4971,7 +4971,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `Onboard` - Value - Onboard for configuring VgaPriority token.
   * * `Onboard VGA Disabled` - Value - Onboard VGA Disabled for configuring VgaPriority token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#vga_priority BiosPolicy#vga_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#vga_priority BiosPolicy#vga_priority}
   */
   readonly vgaPriority?: string;
   /**
@@ -4980,7 +4980,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#virtual_numa BiosPolicy#virtual_numa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#virtual_numa BiosPolicy#virtual_numa}
   */
   readonly virtualNuma?: string;
   /**
@@ -4989,7 +4989,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#vmd_enable BiosPolicy#vmd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#vmd_enable BiosPolicy#vmd_enable}
   */
   readonly vmdEnable?: string;
   /**
@@ -4998,7 +4998,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `1LM` - Value - 1LM for configuring VolMemoryMode token.
   * * `2LM` - Value - 2LM for configuring VolMemoryMode token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#vol_memory_mode BiosPolicy#vol_memory_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#vol_memory_mode BiosPolicy#vol_memory_mode}
   */
   readonly volMemoryMode?: string;
   /**
@@ -5009,7 +5009,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `NUMA` - Value - NUMA for configuring WorkLoadConfig token.
   * * `UMA` - Value - UMA for configuring WorkLoadConfig token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#work_load_config BiosPolicy#work_load_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#work_load_config BiosPolicy#work_load_config}
   */
   readonly workLoadConfig?: string;
   /**
@@ -5018,7 +5018,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `enabled` - Enables the BIOS setting.
   * * `disabled` - Disables the BIOS setting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#x2apic_opt_out BiosPolicy#x2apic_opt_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#x2apic_opt_out BiosPolicy#x2apic_opt_out}
   */
   readonly x2ApicOptOut?: string;
   /**
@@ -5028,7 +5028,7 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring XptPrefetch token.
   * * `enabled` - Value - enabled for configuring XptPrefetch token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#xpt_prefetch BiosPolicy#xpt_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#xpt_prefetch BiosPolicy#xpt_prefetch}
   */
   readonly xptPrefetch?: string;
   /**
@@ -5038,29 +5038,29 @@ export interface BiosPolicyConfig extends cdktf.TerraformMetaArguments {
   * * `disabled` - Value - disabled for configuring XptRemotePrefetch token.
   * * `enabled` - Value - enabled for configuring XptRemotePrefetch token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#xpt_remote_prefetch BiosPolicy#xpt_remote_prefetch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#xpt_remote_prefetch BiosPolicy#xpt_remote_prefetch}
   */
   readonly xptRemotePrefetch?: string;
 }
 export interface BiosPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5292,23 +5292,23 @@ export class BiosPolicyAncestorsList extends cdktf.ComplexList {
 }
 export interface BiosPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5540,23 +5540,23 @@ export class BiosPolicyOrganizationList extends cdktf.ComplexList {
 }
 export interface BiosPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -5788,23 +5788,23 @@ export class BiosPolicyParentList extends cdktf.ComplexList {
 }
 export interface BiosPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6036,23 +6036,23 @@ export class BiosPolicyPermissionResourcesList extends cdktf.ComplexList {
 }
 export interface BiosPolicyProfiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6284,23 +6284,23 @@ export class BiosPolicyProfilesList extends cdktf.ComplexList {
 }
 export interface BiosPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6532,23 +6532,23 @@ export class BiosPolicyTagsAncestorDefinitionsList extends cdktf.ComplexList {
 }
 export interface BiosPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -6780,31 +6780,35 @@ export class BiosPolicyTagsDefinitionList extends cdktf.ComplexList {
 }
 export interface BiosPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ancestor_definitions BiosPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ancestor_definitions BiosPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: BiosPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#definition BiosPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#definition BiosPolicy#definition}
   */
   readonly definition?: BiosPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#key BiosPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#key BiosPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#propagated BiosPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#propagated BiosPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#type BiosPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#sys_tag BiosPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#type BiosPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#value BiosPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#value BiosPolicy#value}
   */
   readonly value?: string;
 }
@@ -6820,6 +6824,7 @@ export function biosPolicyTagsToTerraform(struct?: BiosPolicyTags | cdktf.IResol
     definition: cdktf.listMapper(biosPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -6858,6 +6863,12 @@ export function biosPolicyTagsToHclTerraform(struct?: BiosPolicyTags | cdktf.IRe
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -6920,6 +6931,10 @@ export class BiosPolicyTagsOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -6940,6 +6955,7 @@ export class BiosPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -6955,6 +6971,7 @@ export class BiosPolicyTagsOutputReference extends cdktf.ComplexObject {
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -7040,6 +7057,22 @@ export class BiosPolicyTagsOutputReference extends cdktf.ComplexObject {
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -7094,23 +7127,23 @@ export class BiosPolicyTagsList extends cdktf.ComplexList {
 }
 export interface BiosPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -7342,23 +7375,23 @@ export class BiosPolicyVersionContextInterestedMosList extends cdktf.ComplexList
 }
 export interface BiosPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#moid BiosPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#moid BiosPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#selector BiosPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#selector BiosPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -7590,39 +7623,39 @@ export class BiosPolicyVersionContextRefMoList extends cdktf.ComplexList {
 }
 export interface BiosPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#additional_properties BiosPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#class_id BiosPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#class_id BiosPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#interested_mos BiosPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#interested_mos BiosPolicy#interested_mos}
   */
   readonly interestedMos?: BiosPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#marked_for_deletion BiosPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#marked_for_deletion BiosPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#nr_version BiosPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#nr_version BiosPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#object_type BiosPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#object_type BiosPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#ref_mo BiosPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#ref_mo BiosPolicy#ref_mo}
   */
   readonly refMo?: BiosPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#timestamp BiosPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#timestamp BiosPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#version_type BiosPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#version_type BiosPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -7970,7 +8003,7 @@ export class BiosPolicyVersionContextList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy intersight_bios_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy intersight_bios_policy}
 */
 export class BiosPolicy extends cdktf.TerraformResource {
 
@@ -7986,7 +8019,7 @@ export class BiosPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BiosPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BiosPolicy to import
-  * @param importFromId The id of the existing BiosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BiosPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BiosPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7998,7 +8031,7 @@ export class BiosPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/bios_policy intersight_bios_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/bios_policy intersight_bios_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8009,8 +8042,8 @@ export class BiosPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_bios_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

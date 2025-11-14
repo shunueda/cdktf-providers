@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#account_moid FabricEthNetworkControlPolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#account_moid FabricEthNetworkControlPolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#ancestors FabricEthNetworkControlPolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#ancestors FabricEthNetworkControlPolicy#ancestors}
   */
   readonly ancestors?: FabricEthNetworkControlPolicyAncestors[] | cdktf.IResolvable;
   /**
   * Enables the CDP on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#cdp_enabled FabricEthNetworkControlPolicy#cdp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#cdp_enabled FabricEthNetworkControlPolicy#cdp_enabled}
   */
   readonly cdpEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -34,25 +34,25 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#create_time FabricEthNetworkControlPolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#create_time FabricEthNetworkControlPolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#description FabricEthNetworkControlPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#description FabricEthNetworkControlPolicy#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#domain_group_moid FabricEthNetworkControlPolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#domain_group_moid FabricEthNetworkControlPolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
@@ -60,11 +60,11 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   * * `allow` - Allows mac forging on an interface.
   * * `deny` - Denies mac forging on an interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#forge_mac FabricEthNetworkControlPolicy#forge_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#forge_mac FabricEthNetworkControlPolicy#forge_mac}
   */
   readonly forgeMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#id FabricEthNetworkControlPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#id FabricEthNetworkControlPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -73,7 +73,7 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   /**
   * Determines the LLDP setting on an interface on the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#lldp_settings FabricEthNetworkControlPolicy#lldp_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#lldp_settings FabricEthNetworkControlPolicy#lldp_settings}
   */
   readonly lldpSettings?: FabricEthNetworkControlPolicyLldpSettings[] | cdktf.IResolvable;
   /**
@@ -81,73 +81,73 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   * * `nativeVlanOnly` - Register only the MAC addresses learnt on the native VLAN.
   * * `allVlans` - Register all the MAC addresses learnt on all the allowed VLANs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#mac_registration_mode FabricEthNetworkControlPolicy#mac_registration_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#mac_registration_mode FabricEthNetworkControlPolicy#mac_registration_mode}
   */
   readonly macRegistrationMode?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#mod_time FabricEthNetworkControlPolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#mod_time FabricEthNetworkControlPolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
   * Name of the concrete policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#name FabricEthNetworkControlPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#name FabricEthNetworkControlPolicy#name}
   */
   readonly name?: string;
   /**
   * An array of relationships to vnicEthNetworkPolicy resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#network_policy FabricEthNetworkControlPolicy#network_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#network_policy FabricEthNetworkControlPolicy#network_policy}
   */
   readonly networkPolicy?: FabricEthNetworkControlPolicyNetworkPolicy[] | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * A reference to a organizationOrganization resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#organization FabricEthNetworkControlPolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#organization FabricEthNetworkControlPolicy#organization}
   */
   readonly organization?: FabricEthNetworkControlPolicyOrganization[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#owners FabricEthNetworkControlPolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#owners FabricEthNetworkControlPolicy#owners}
   */
   readonly owners?: string[];
   /**
   * A reference to a moBaseMo resource.
   * When the $expand query parameter is specified, the referenced resource is returned inline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#parent FabricEthNetworkControlPolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#parent FabricEthNetworkControlPolicy#parent}
   */
   readonly parent?: FabricEthNetworkControlPolicyParent[] | cdktf.IResolvable;
   /**
   * An array of relationships to moBaseMo resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#permission_resources FabricEthNetworkControlPolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#permission_resources FabricEthNetworkControlPolicy#permission_resources}
   */
   readonly permissionResources?: FabricEthNetworkControlPolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#shared_scope FabricEthNetworkControlPolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#shared_scope FabricEthNetworkControlPolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#tags FabricEthNetworkControlPolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#tags FabricEthNetworkControlPolicy#tags}
   */
   readonly tags?: FabricEthNetworkControlPolicyTags[] | cdktf.IResolvable;
   /**
@@ -155,35 +155,35 @@ export interface FabricEthNetworkControlPolicyConfig extends cdktf.TerraformMeta
   * * `linkDown` - The vethernet will go down in case a suitable uplink is not pinned.
   * * `warning` - The vethernet will remain up even if a suitable uplink is not pinned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#uplink_fail_action FabricEthNetworkControlPolicy#uplink_fail_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#uplink_fail_action FabricEthNetworkControlPolicy#uplink_fail_action}
   */
   readonly uplinkFailAction?: string;
   /**
   * The versioning info for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#version_context FabricEthNetworkControlPolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#version_context FabricEthNetworkControlPolicy#version_context}
   */
   readonly versionContext?: FabricEthNetworkControlPolicyVersionContext[] | cdktf.IResolvable;
 }
 export interface FabricEthNetworkControlPolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -415,23 +415,23 @@ export class FabricEthNetworkControlPolicyAncestorsList extends cdktf.ComplexLis
 }
 export interface FabricEthNetworkControlPolicyLldpSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#receive_enabled FabricEthNetworkControlPolicy#receive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#receive_enabled FabricEthNetworkControlPolicy#receive_enabled}
   */
   readonly receiveEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#transmit_enabled FabricEthNetworkControlPolicy#transmit_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#transmit_enabled FabricEthNetworkControlPolicy#transmit_enabled}
   */
   readonly transmitEnabled?: boolean | cdktf.IResolvable;
 }
@@ -663,23 +663,23 @@ export class FabricEthNetworkControlPolicyLldpSettingsList extends cdktf.Complex
 }
 export interface FabricEthNetworkControlPolicyNetworkPolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -911,23 +911,23 @@ export class FabricEthNetworkControlPolicyNetworkPolicyList extends cdktf.Comple
 }
 export interface FabricEthNetworkControlPolicyOrganization {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1159,23 +1159,23 @@ export class FabricEthNetworkControlPolicyOrganizationList extends cdktf.Complex
 }
 export interface FabricEthNetworkControlPolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1407,23 +1407,23 @@ export class FabricEthNetworkControlPolicyParentList extends cdktf.ComplexList {
 }
 export interface FabricEthNetworkControlPolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1655,23 +1655,23 @@ export class FabricEthNetworkControlPolicyPermissionResourcesList extends cdktf.
 }
 export interface FabricEthNetworkControlPolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1903,23 +1903,23 @@ export class FabricEthNetworkControlPolicyTagsAncestorDefinitionsList extends cd
 }
 export interface FabricEthNetworkControlPolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2151,31 +2151,35 @@ export class FabricEthNetworkControlPolicyTagsDefinitionList extends cdktf.Compl
 }
 export interface FabricEthNetworkControlPolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#ancestor_definitions FabricEthNetworkControlPolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#ancestor_definitions FabricEthNetworkControlPolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: FabricEthNetworkControlPolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#definition FabricEthNetworkControlPolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#definition FabricEthNetworkControlPolicy#definition}
   */
   readonly definition?: FabricEthNetworkControlPolicyTagsDefinition[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#key FabricEthNetworkControlPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#key FabricEthNetworkControlPolicy#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#propagated FabricEthNetworkControlPolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#propagated FabricEthNetworkControlPolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#type FabricEthNetworkControlPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#sys_tag FabricEthNetworkControlPolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#type FabricEthNetworkControlPolicy#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#value FabricEthNetworkControlPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#value FabricEthNetworkControlPolicy#value}
   */
   readonly value?: string;
 }
@@ -2191,6 +2195,7 @@ export function fabricEthNetworkControlPolicyTagsToTerraform(struct?: FabricEthN
     definition: cdktf.listMapper(fabricEthNetworkControlPolicyTagsDefinitionToTerraform, false)(struct!.definition),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
   }
@@ -2229,6 +2234,12 @@ export function fabricEthNetworkControlPolicyTagsToHclTerraform(struct?: FabricE
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2291,6 +2302,10 @@ export class FabricEthNetworkControlPolicyTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2311,6 +2326,7 @@ export class FabricEthNetworkControlPolicyTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
     }
@@ -2326,6 +2342,7 @@ export class FabricEthNetworkControlPolicyTagsOutputReference extends cdktf.Comp
       this._definition.internalValue = value.definition;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
     }
@@ -2411,6 +2428,22 @@ export class FabricEthNetworkControlPolicyTagsOutputReference extends cdktf.Comp
     return this._propagated;
   }
 
+  // sys_tag - computed: true, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
+  }
+
   // type - computed: true, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -2465,23 +2498,23 @@ export class FabricEthNetworkControlPolicyTagsList extends cdktf.ComplexList {
 }
 export interface FabricEthNetworkControlPolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2713,23 +2746,23 @@ export class FabricEthNetworkControlPolicyVersionContextInterestedMosList extend
 }
 export interface FabricEthNetworkControlPolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#moid FabricEthNetworkControlPolicy#moid}
   */
   readonly moid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#selector FabricEthNetworkControlPolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2961,39 +2994,39 @@ export class FabricEthNetworkControlPolicyVersionContextRefMoList extends cdktf.
 }
 export interface FabricEthNetworkControlPolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#additional_properties FabricEthNetworkControlPolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#class_id FabricEthNetworkControlPolicy#class_id}
   */
   readonly classId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#interested_mos FabricEthNetworkControlPolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#interested_mos FabricEthNetworkControlPolicy#interested_mos}
   */
   readonly interestedMos?: FabricEthNetworkControlPolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#marked_for_deletion FabricEthNetworkControlPolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#marked_for_deletion FabricEthNetworkControlPolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#nr_version FabricEthNetworkControlPolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#nr_version FabricEthNetworkControlPolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#object_type FabricEthNetworkControlPolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#ref_mo FabricEthNetworkControlPolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#ref_mo FabricEthNetworkControlPolicy#ref_mo}
   */
   readonly refMo?: FabricEthNetworkControlPolicyVersionContextRefMo[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#timestamp FabricEthNetworkControlPolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#timestamp FabricEthNetworkControlPolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#version_type FabricEthNetworkControlPolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#version_type FabricEthNetworkControlPolicy#version_type}
   */
   readonly versionType?: string;
 }
@@ -3341,7 +3374,7 @@ export class FabricEthNetworkControlPolicyVersionContextList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy intersight_fabric_eth_network_control_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy intersight_fabric_eth_network_control_policy}
 */
 export class FabricEthNetworkControlPolicy extends cdktf.TerraformResource {
 
@@ -3357,7 +3390,7 @@ export class FabricEthNetworkControlPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FabricEthNetworkControlPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FabricEthNetworkControlPolicy to import
-  * @param importFromId The id of the existing FabricEthNetworkControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FabricEthNetworkControlPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FabricEthNetworkControlPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3369,7 +3402,7 @@ export class FabricEthNetworkControlPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/resources/fabric_eth_network_control_policy intersight_fabric_eth_network_control_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/resources/fabric_eth_network_control_policy intersight_fabric_eth_network_control_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3380,8 +3413,8 @@ export class FabricEthNetworkControlPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'intersight_fabric_eth_network_control_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

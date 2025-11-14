@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface CouponConfig extends cdktf.TerraformMetaArguments {
   /**
   * Amount (in the currency specified) that will be taken off the subtotal of any invoices for this customer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#amount_off Coupon#amount_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#amount_off Coupon#amount_off}
   */
   readonly amountOff?: number;
   /**
   * A list of product IDs this coupon applies to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#applies_to Coupon#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#applies_to Coupon#applies_to}
   */
   readonly appliesTo?: string[];
   /**
   * Unique string of your choice that will be used to identify this coupon when applying it to a customer. If you don’t want to specify a particular code, you can leave the ID blank and we’ll generate a random code for you.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#coupon_id Coupon#coupon_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#coupon_id Coupon#coupon_id}
   */
   readonly couponId?: string;
   /**
   * If amount_off has been set, the three-letter ISO code for the currency of the amount to take off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#currency Coupon#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#currency Coupon#currency}
   */
   readonly currency?: string;
   /**
   * One of forever, once, and repeating. Describes how long a customer who applies this coupon will get the discount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#duration Coupon#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#duration Coupon#duration}
   */
   readonly duration?: string;
   /**
   * If duration is repeating, the number of months the coupon applies. Null if coupon duration is forever or once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#duration_in_months Coupon#duration_in_months}
   */
   readonly durationInMonths?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#id Coupon#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#id Coupon#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface CouponConfig extends cdktf.TerraformMetaArguments {
   /**
   * Maximum number of times this coupon can be redeemed, in total, across all customers, before it is no longer valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#max_redemptions Coupon#max_redemptions}
   */
   readonly maxRedemptions?: number;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#metadata Coupon#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#metadata Coupon#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * Name of the coupon displayed to customers on for instance invoices or receipts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#name Coupon#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#name Coupon#name}
   */
   readonly name?: string;
   /**
   * Percent that will be taken off the subtotal of any invoices for this customer for the duration of the coupon. For example, a coupon with percent_off of 50 will make a $100 invoice $50 instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#percent_off Coupon#percent_off}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#percent_off Coupon#percent_off}
   */
   readonly percentOff?: number;
   /**
   * Date after which the coupon can no longer be redeemed. Expected format is RFC3339
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#redeem_by Coupon#redeem_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#redeem_by Coupon#redeem_by}
   */
   readonly redeemBy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon stripe_coupon}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon stripe_coupon}
 */
 export class Coupon extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class Coupon extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Coupon resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Coupon to import
-  * @param importFromId The id of the existing Coupon that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Coupon that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Coupon to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class Coupon extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/coupon stripe_coupon} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/coupon stripe_coupon} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class Coupon extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_coupon',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

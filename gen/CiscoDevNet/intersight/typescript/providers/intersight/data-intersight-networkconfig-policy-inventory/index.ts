@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataIntersightNetworkconfigPolicyInventoryConfig extends cdktf.
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#account_moid DataIntersightNetworkconfigPolicyInventory#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#account_moid DataIntersightNetworkconfigPolicyInventory#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * IP address of the secondary DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#alternate_ipv4dns_server DataIntersightNetworkconfigPolicyInventory#alternate_ipv4dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#alternate_ipv4dns_server DataIntersightNetworkconfigPolicyInventory#alternate_ipv4dns_server}
   */
   readonly alternateIpv4DnsServer?: string;
   /**
   * IP address of the secondary DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#alternate_ipv6dns_server DataIntersightNetworkconfigPolicyInventory#alternate_ipv6dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#alternate_ipv6dns_server DataIntersightNetworkconfigPolicyInventory#alternate_ipv6dns_server}
   */
   readonly alternateIpv6DnsServer?: string;
   /**
@@ -34,65 +34,65 @@ export interface DataIntersightNetworkconfigPolicyInventoryConfig extends cdktf.
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#create_time DataIntersightNetworkconfigPolicyInventory#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#create_time DataIntersightNetworkconfigPolicyInventory#create_time}
   */
   readonly createTime?: string;
   /**
   * Description of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#description DataIntersightNetworkconfigPolicyInventory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#description DataIntersightNetworkconfigPolicyInventory#description}
   */
   readonly description?: string;
   /**
   * Device ID of the entity from where inventory is reported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#device_mo_id DataIntersightNetworkconfigPolicyInventory#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#device_mo_id DataIntersightNetworkconfigPolicyInventory#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#domain_group_moid DataIntersightNetworkconfigPolicyInventory#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#domain_group_moid DataIntersightNetworkconfigPolicyInventory#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The domain name appended to a hostname for a Dynamic DNS (DDNS) update. If left blank, only a hostname is sent to the DDNS update request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#dynamic_dns_domain DataIntersightNetworkconfigPolicyInventory#dynamic_dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#dynamic_dns_domain DataIntersightNetworkconfigPolicyInventory#dynamic_dns_domain}
   */
   readonly dynamicDnsDomain?: string;
   /**
   * If enabled, updates the resource records to the DNS from Cisco IMC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#enable_dynamic_dns DataIntersightNetworkconfigPolicyInventory#enable_dynamic_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#enable_dynamic_dns DataIntersightNetworkconfigPolicyInventory#enable_dynamic_dns}
   */
   readonly enableDynamicDns?: boolean | cdktf.IResolvable;
   /**
   * If enabled, Cisco IMC retrieves the DNS server addresses from DHCP. Use DHCP field must be enabled for IPv4 in Cisco IMC to enable it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#enable_ipv4dns_from_dhcp DataIntersightNetworkconfigPolicyInventory#enable_ipv4dns_from_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#enable_ipv4dns_from_dhcp DataIntersightNetworkconfigPolicyInventory#enable_ipv4dns_from_dhcp}
   */
   readonly enableIpv4DnsFromDhcp?: boolean | cdktf.IResolvable;
   /**
   * If enabled, allows to configure IPv6 properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#enable_ipv6 DataIntersightNetworkconfigPolicyInventory#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#enable_ipv6 DataIntersightNetworkconfigPolicyInventory#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
   * If enabled, Cisco IMC retrieves the DNS server addresses from DHCP. Use DHCP field must be enabled for IPv6 in Cisco IMC to enable it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#enable_ipv6dns_from_dhcp DataIntersightNetworkconfigPolicyInventory#enable_ipv6dns_from_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#enable_ipv6dns_from_dhcp DataIntersightNetworkconfigPolicyInventory#enable_ipv6dns_from_dhcp}
   */
   readonly enableIpv6DnsFromDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#id DataIntersightNetworkconfigPolicyInventory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#id DataIntersightNetworkconfigPolicyInventory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -101,85 +101,85 @@ export interface DataIntersightNetworkconfigPolicyInventoryConfig extends cdktf.
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#mod_time DataIntersightNetworkconfigPolicyInventory#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#mod_time DataIntersightNetworkconfigPolicyInventory#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * Name of the inventoried policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#name DataIntersightNetworkconfigPolicyInventory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#name DataIntersightNetworkconfigPolicyInventory#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#owners DataIntersightNetworkconfigPolicyInventory#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#owners DataIntersightNetworkconfigPolicyInventory#owners}
   */
   readonly owners?: string[];
   /**
   * IP address of the primary DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#preferred_ipv4dns_server DataIntersightNetworkconfigPolicyInventory#preferred_ipv4dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#preferred_ipv4dns_server DataIntersightNetworkconfigPolicyInventory#preferred_ipv4dns_server}
   */
   readonly preferredIpv4DnsServer?: string;
   /**
   * IP address of the primary DNS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#preferred_ipv6dns_server DataIntersightNetworkconfigPolicyInventory#preferred_ipv6dns_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#preferred_ipv6dns_server DataIntersightNetworkconfigPolicyInventory#preferred_ipv6dns_server}
   */
   readonly preferredIpv6DnsServer?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#shared_scope DataIntersightNetworkconfigPolicyInventory#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#shared_scope DataIntersightNetworkconfigPolicyInventory#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#ancestors DataIntersightNetworkconfigPolicyInventory#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#ancestors DataIntersightNetworkconfigPolicyInventory#ancestors}
   */
   readonly ancestors?: DataIntersightNetworkconfigPolicyInventoryAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#parent DataIntersightNetworkconfigPolicyInventory#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#parent DataIntersightNetworkconfigPolicyInventory#parent}
   */
   readonly parent?: DataIntersightNetworkconfigPolicyInventoryParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#permission_resources DataIntersightNetworkconfigPolicyInventory#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#permission_resources DataIntersightNetworkconfigPolicyInventory#permission_resources}
   */
   readonly permissionResources?: DataIntersightNetworkconfigPolicyInventoryPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#tags DataIntersightNetworkconfigPolicyInventory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#tags DataIntersightNetworkconfigPolicyInventory#tags}
   */
   readonly tags?: DataIntersightNetworkconfigPolicyInventoryTags[] | cdktf.IResolvable;
   /**
   * target_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#target_mo DataIntersightNetworkconfigPolicyInventory#target_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#target_mo DataIntersightNetworkconfigPolicyInventory#target_mo}
   */
   readonly targetMo?: DataIntersightNetworkconfigPolicyInventoryTargetMo;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#version_context DataIntersightNetworkconfigPolicyInventory#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#version_context DataIntersightNetworkconfigPolicyInventory#version_context}
   */
   readonly versionContext?: DataIntersightNetworkconfigPolicyInventoryVersionContext;
 }
@@ -734,6 +734,11 @@ export class DataIntersightNetworkconfigPolicyInventoryResultsTagsOutputReferenc
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1385,7 +1390,7 @@ export class DataIntersightNetworkconfigPolicyInventoryResultsList extends cdktf
 }
 export interface DataIntersightNetworkconfigPolicyInventoryAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1393,19 +1398,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1418,7 +1423,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1650,7 +1655,7 @@ export class DataIntersightNetworkconfigPolicyInventoryAncestorsList extends cdk
 }
 export interface DataIntersightNetworkconfigPolicyInventoryParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1658,19 +1663,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1683,7 +1688,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -1883,7 +1888,7 @@ export class DataIntersightNetworkconfigPolicyInventoryParentOutputReference ext
 }
 export interface DataIntersightNetworkconfigPolicyInventoryPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1891,19 +1896,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1916,7 +1921,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2148,7 +2153,7 @@ export class DataIntersightNetworkconfigPolicyInventoryPermissionResourcesList e
 }
 export interface DataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2156,19 +2161,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitio
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2181,7 +2186,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitio
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2413,7 +2418,7 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitionsLi
 }
 export interface DataIntersightNetworkconfigPolicyInventoryTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2421,19 +2426,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2446,7 +2451,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -2646,45 +2651,51 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsDefinitionOutputRefer
 }
 export interface DataIntersightNetworkconfigPolicyInventoryTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#key DataIntersightNetworkconfigPolicyInventory#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#key DataIntersightNetworkconfigPolicyInventory#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#propagated DataIntersightNetworkconfigPolicyInventory#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#propagated DataIntersightNetworkconfigPolicyInventory#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#sys_tag DataIntersightNetworkconfigPolicyInventory#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#type DataIntersightNetworkconfigPolicyInventory#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#type DataIntersightNetworkconfigPolicyInventory#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#value DataIntersightNetworkconfigPolicyInventory#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#value DataIntersightNetworkconfigPolicyInventory#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#ancestor_definitions DataIntersightNetworkconfigPolicyInventory#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#ancestor_definitions DataIntersightNetworkconfigPolicyInventory#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#definition DataIntersightNetworkconfigPolicyInventory#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#definition DataIntersightNetworkconfigPolicyInventory#definition}
   */
   readonly definition?: DataIntersightNetworkconfigPolicyInventoryTagsDefinition;
 }
@@ -2698,6 +2709,7 @@ export function dataIntersightNetworkconfigPolicyInventoryTagsToTerraform(struct
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightNetworkconfigPolicyInventoryTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2726,6 +2738,12 @@ export function dataIntersightNetworkconfigPolicyInventoryTagsToHclTerraform(str
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2792,6 +2810,10 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsOutputReference exten
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2818,6 +2840,7 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsOutputReference exten
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -2833,6 +2856,7 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsOutputReference exten
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -2886,6 +2910,22 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsOutputReference exten
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -2974,7 +3014,7 @@ export class DataIntersightNetworkconfigPolicyInventoryTagsList extends cdktf.Co
 }
 export interface DataIntersightNetworkconfigPolicyInventoryTargetMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2982,19 +3022,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryTargetMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3007,7 +3047,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryTargetMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3207,7 +3247,7 @@ export class DataIntersightNetworkconfigPolicyInventoryTargetMoOutputReference e
 }
 export interface DataIntersightNetworkconfigPolicyInventoryVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3215,19 +3255,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContextInteres
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3240,7 +3280,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContextInteres
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3472,7 +3512,7 @@ export class DataIntersightNetworkconfigPolicyInventoryVersionContextInterestedM
 }
 export interface DataIntersightNetworkconfigPolicyInventoryVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3480,19 +3520,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#moid DataIntersightNetworkconfigPolicyInventory#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3505,7 +3545,7 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#selector DataIntersightNetworkconfigPolicyInventory#selector}
   */
   readonly selector?: string;
 }
@@ -3705,7 +3745,7 @@ export class DataIntersightNetworkconfigPolicyInventoryVersionContextRefMoOutput
 }
 export interface DataIntersightNetworkconfigPolicyInventoryVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#additional_properties DataIntersightNetworkconfigPolicyInventory#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3713,32 +3753,32 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#class_id DataIntersightNetworkconfigPolicyInventory#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#marked_for_deletion DataIntersightNetworkconfigPolicyInventory#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#marked_for_deletion DataIntersightNetworkconfigPolicyInventory#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#nr_version DataIntersightNetworkconfigPolicyInventory#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#nr_version DataIntersightNetworkconfigPolicyInventory#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#object_type DataIntersightNetworkconfigPolicyInventory#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#timestamp DataIntersightNetworkconfigPolicyInventory#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#timestamp DataIntersightNetworkconfigPolicyInventory#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3749,19 +3789,19 @@ export interface DataIntersightNetworkconfigPolicyInventoryVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#version_type DataIntersightNetworkconfigPolicyInventory#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#version_type DataIntersightNetworkconfigPolicyInventory#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#interested_mos DataIntersightNetworkconfigPolicyInventory#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#interested_mos DataIntersightNetworkconfigPolicyInventory#interested_mos}
   */
   readonly interestedMos?: DataIntersightNetworkconfigPolicyInventoryVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#ref_mo DataIntersightNetworkconfigPolicyInventory#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#ref_mo DataIntersightNetworkconfigPolicyInventory#ref_mo}
   */
   readonly refMo?: DataIntersightNetworkconfigPolicyInventoryVersionContextRefMo;
 }
@@ -4077,7 +4117,7 @@ export class DataIntersightNetworkconfigPolicyInventoryVersionContextOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory intersight_networkconfig_policy_inventory}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory intersight_networkconfig_policy_inventory}
 */
 export class DataIntersightNetworkconfigPolicyInventory extends cdktf.TerraformDataSource {
 
@@ -4093,7 +4133,7 @@ export class DataIntersightNetworkconfigPolicyInventory extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataIntersightNetworkconfigPolicyInventory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightNetworkconfigPolicyInventory to import
-  * @param importFromId The id of the existing DataIntersightNetworkconfigPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightNetworkconfigPolicyInventory that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightNetworkconfigPolicyInventory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4105,7 +4145,7 @@ export class DataIntersightNetworkconfigPolicyInventory extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/networkconfig_policy_inventory intersight_networkconfig_policy_inventory} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/networkconfig_policy_inventory intersight_networkconfig_policy_inventory} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4116,8 +4156,8 @@ export class DataIntersightNetworkconfigPolicyInventory extends cdktf.TerraformD
       terraformResourceType: 'intersight_networkconfig_policy_inventory',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

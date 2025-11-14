@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,84 +8,84 @@ import * as cdktf from 'cdktf';
 
 export interface OcvpEsxiHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#attach_datastore_cluster_ids OcvpEsxiHost#attach_datastore_cluster_ids}
   */
   readonly attachDatastoreClusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#billing_donor_host_id OcvpEsxiHost#billing_donor_host_id}
   */
   readonly billingDonorHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#capacity_reservation_id OcvpEsxiHost#capacity_reservation_id}
   */
   readonly capacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#cluster_id OcvpEsxiHost#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#compute_availability_domain OcvpEsxiHost#compute_availability_domain}
   */
   readonly computeAvailabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#current_sku OcvpEsxiHost#current_sku}
   */
   readonly currentSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#defined_tags OcvpEsxiHost#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#detach_datastore_cluster_ids OcvpEsxiHost#detach_datastore_cluster_ids}
   */
   readonly detachDatastoreClusterIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#display_name OcvpEsxiHost#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#esxi_software_version OcvpEsxiHost#esxi_software_version}
   */
   readonly esxiSoftwareVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#failed_esxi_host_id OcvpEsxiHost#failed_esxi_host_id}
   */
   readonly failedEsxiHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#freeform_tags OcvpEsxiHost#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#host_ocpu_count OcvpEsxiHost#host_ocpu_count}
   */
   readonly hostOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#host_shape_name OcvpEsxiHost#host_shape_name}
   */
   readonly hostShapeName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#id OcvpEsxiHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#next_sku OcvpEsxiHost#next_sku}
   */
   readonly nextSku?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#non_upgraded_esxi_host_id OcvpEsxiHost#non_upgraded_esxi_host_id}
   */
   readonly nonUpgradedEsxiHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#sddc_id OcvpEsxiHost#sddc_id}
   */
   readonly sddcId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#timeouts OcvpEsxiHost#timeouts}
   */
   readonly timeouts?: OcvpEsxiHostTimeouts;
 }
@@ -186,7 +186,7 @@ export class OcvpEsxiHostDatastoreAttachmentsList extends cdktf.ComplexList {
 }
 export interface OcvpEsxiHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#create OcvpEsxiHost#create}
   */
   readonly create?: string;
 }
@@ -280,7 +280,7 @@ export class OcvpEsxiHostTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host}
 */
 export class OcvpEsxiHost extends cdktf.TerraformResource {
 
@@ -296,7 +296,7 @@ export class OcvpEsxiHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OcvpEsxiHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OcvpEsxiHost to import
-  * @param importFromId The id of the existing OcvpEsxiHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OcvpEsxiHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OcvpEsxiHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -308,7 +308,7 @@ export class OcvpEsxiHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/ocvp_esxi_host oci_ocvp_esxi_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -319,8 +319,8 @@ export class OcvpEsxiHost extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ocvp_esxi_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/iot_digital_twin_adapter
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/iot_digital_twin_adapter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIotDigitalTwinAdapterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/iot_digital_twin_adapter#digital_twin_adapter_id DataOciIotDigitalTwinAdapter#digital_twin_adapter_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/iot_digital_twin_adapter#digital_twin_adapter_id DataOciIotDigitalTwinAdapter#digital_twin_adapter_id}
   */
   readonly digitalTwinAdapterId: string;
 }
@@ -430,7 +430,7 @@ export class DataOciIotDigitalTwinAdapterInboundRoutesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/iot_digital_twin_adapter oci_iot_digital_twin_adapter}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/iot_digital_twin_adapter oci_iot_digital_twin_adapter}
 */
 export class DataOciIotDigitalTwinAdapter extends cdktf.TerraformDataSource {
 
@@ -446,7 +446,7 @@ export class DataOciIotDigitalTwinAdapter extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIotDigitalTwinAdapter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIotDigitalTwinAdapter to import
-  * @param importFromId The id of the existing DataOciIotDigitalTwinAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/iot_digital_twin_adapter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIotDigitalTwinAdapter that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/iot_digital_twin_adapter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIotDigitalTwinAdapter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -458,7 +458,7 @@ export class DataOciIotDigitalTwinAdapter extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/iot_digital_twin_adapter oci_iot_digital_twin_adapter} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/iot_digital_twin_adapter oci_iot_digital_twin_adapter} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -469,8 +469,8 @@ export class DataOciIotDigitalTwinAdapter extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_iot_digital_twin_adapter',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

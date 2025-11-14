@@ -177,11 +177,11 @@ export class FloatingIpV2MetadataList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2AssociationPrivateIpAssociationPrivateIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -326,11 +326,11 @@ export class FloatingIpV2AssociationPrivateIpAssociationPrivateIpIpv4List extend
 }
 export interface FloatingIpV2AssociationPrivateIpAssociationPrivateIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -477,13 +477,13 @@ export interface FloatingIpV2AssociationPrivateIpAssociationPrivateIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2AssociationPrivateIpAssociationPrivateIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2AssociationPrivateIpAssociationPrivateIpIpv6[] | cdktf.IResolvable;
 }
@@ -628,13 +628,13 @@ export class FloatingIpV2AssociationPrivateIpAssociationPrivateIpList extends cd
 }
 export interface FloatingIpV2AssociationPrivateIpAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#vpc_reference FloatingIpV2#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#vpc_reference FloatingIpV2#vpc_reference}
   */
   readonly vpcReference: string;
   /**
   * private_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#private_ip FloatingIpV2#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#private_ip FloatingIpV2#private_ip}
   */
   readonly privateIp: FloatingIpV2AssociationPrivateIpAssociationPrivateIp[] | cdktf.IResolvable;
 }
@@ -773,11 +773,11 @@ export class FloatingIpV2AssociationPrivateIpAssociationList extends cdktf.Compl
 }
 export interface FloatingIpV2AssociationVmNicAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#vm_nic_reference FloatingIpV2#vm_nic_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#vm_nic_reference FloatingIpV2#vm_nic_reference}
   */
   readonly vmNicReference: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#vpc_reference FloatingIpV2#vpc_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#vpc_reference FloatingIpV2#vpc_reference}
   */
   readonly vpcReference?: string;
 }
@@ -921,13 +921,13 @@ export interface FloatingIpV2Association {
   /**
   * private_ip_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#private_ip_association FloatingIpV2#private_ip_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#private_ip_association FloatingIpV2#private_ip_association}
   */
   readonly privateIpAssociation?: FloatingIpV2AssociationPrivateIpAssociation[] | cdktf.IResolvable;
   /**
   * vm_nic_association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#vm_nic_association FloatingIpV2#vm_nic_association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#vm_nic_association FloatingIpV2#vm_nic_association}
   */
   readonly vmNicAssociation?: FloatingIpV2AssociationVmNicAssociation[] | cdktf.IResolvable;
 }
@@ -6461,11 +6461,11 @@ export class FloatingIpV2ExternalSubnetVpcList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2ExternalSubnetReservedIpAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -6610,13 +6610,13 @@ export class FloatingIpV2ExternalSubnetReservedIpAddressesList extends cdktf.Com
 }
 export interface FloatingIpV2ExternalSubnet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ext_id FloatingIpV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ext_id FloatingIpV2#ext_id}
   */
   readonly extId: string;
   /**
   * reserved_ip_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#reserved_ip_addresses FloatingIpV2#reserved_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#reserved_ip_addresses FloatingIpV2#reserved_ip_addresses}
   */
   readonly reservedIpAddresses?: FloatingIpV2ExternalSubnetReservedIpAddresses[] | cdktf.IResolvable;
 }
@@ -6880,11 +6880,11 @@ export class FloatingIpV2ExternalSubnetList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2FloatingIpIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -7029,11 +7029,11 @@ export class FloatingIpV2FloatingIpIpv4List extends cdktf.ComplexList {
 }
 export interface FloatingIpV2FloatingIpIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -7180,13 +7180,13 @@ export interface FloatingIpV2FloatingIp {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2FloatingIpIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2FloatingIpIpv6[] | cdktf.IResolvable;
 }
@@ -7331,7 +7331,7 @@ export class FloatingIpV2FloatingIpList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2VmNic {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#private_ip FloatingIpV2#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#private_ip FloatingIpV2#private_ip}
   */
   readonly privateIp?: string;
 }
@@ -7769,11 +7769,11 @@ export class FloatingIpV2VpcSnatIpsList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2VpcCommonDhcpOptionsDomainNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -7918,11 +7918,11 @@ export class FloatingIpV2VpcCommonDhcpOptionsDomainNameServersIpv4List extends c
 }
 export interface FloatingIpV2VpcCommonDhcpOptionsDomainNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -8069,13 +8069,13 @@ export interface FloatingIpV2VpcCommonDhcpOptionsDomainNameServers {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2VpcCommonDhcpOptionsDomainNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2VpcCommonDhcpOptionsDomainNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -8222,7 +8222,7 @@ export interface FloatingIpV2VpcCommonDhcpOptions {
   /**
   * domain_name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#domain_name_servers FloatingIpV2#domain_name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#domain_name_servers FloatingIpV2#domain_name_servers}
   */
   readonly domainNameServers?: FloatingIpV2VpcCommonDhcpOptionsDomainNameServers[] | cdktf.IResolvable;
 }
@@ -8338,11 +8338,11 @@ export class FloatingIpV2VpcCommonDhcpOptionsList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -8487,11 +8487,11 @@ export class FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4Lis
 }
 export interface FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -8638,13 +8638,13 @@ export interface FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressIpv6[] | cdktf.IResolvable;
 }
@@ -8789,13 +8789,13 @@ export class FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddressList ex
 }
 export interface FloatingIpV2VpcExternalSubnetsActiveGatewayNode {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#node_id FloatingIpV2#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#node_id FloatingIpV2#node_id}
   */
   readonly nodeId?: string;
   /**
   * node_ip_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#node_ip_address FloatingIpV2#node_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#node_ip_address FloatingIpV2#node_ip_address}
   */
   readonly nodeIpAddress?: FloatingIpV2VpcExternalSubnetsActiveGatewayNodeNodeIpAddress[] | cdktf.IResolvable;
 }
@@ -8940,11 +8940,11 @@ export class FloatingIpV2VpcExternalSubnetsActiveGatewayNodeList extends cdktf.C
 }
 export interface FloatingIpV2VpcExternalSubnetsExternalIpsIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -9089,11 +9089,11 @@ export class FloatingIpV2VpcExternalSubnetsExternalIpsIpv4List extends cdktf.Com
 }
 export interface FloatingIpV2VpcExternalSubnetsExternalIpsIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -9240,13 +9240,13 @@ export interface FloatingIpV2VpcExternalSubnetsExternalIps {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2VpcExternalSubnetsExternalIpsIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2VpcExternalSubnetsExternalIpsIpv6[] | cdktf.IResolvable;
 }
@@ -9391,23 +9391,23 @@ export class FloatingIpV2VpcExternalSubnetsExternalIpsList extends cdktf.Complex
 }
 export interface FloatingIpV2VpcExternalSubnets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#gateway_nodes FloatingIpV2#gateway_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#gateway_nodes FloatingIpV2#gateway_nodes}
   */
   readonly gatewayNodes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#subnet_reference FloatingIpV2#subnet_reference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#subnet_reference FloatingIpV2#subnet_reference}
   */
   readonly subnetReference?: string;
   /**
   * active_gateway_node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#active_gateway_node FloatingIpV2#active_gateway_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#active_gateway_node FloatingIpV2#active_gateway_node}
   */
   readonly activeGatewayNode?: FloatingIpV2VpcExternalSubnetsActiveGatewayNode[] | cdktf.IResolvable;
   /**
   * external_ips block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#external_ips FloatingIpV2#external_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#external_ips FloatingIpV2#external_ips}
   */
   readonly externalIps?: FloatingIpV2VpcExternalSubnetsExternalIps[] | cdktf.IResolvable;
 }
@@ -9615,11 +9615,11 @@ export class FloatingIpV2VpcExternalSubnetsList extends cdktf.ComplexList {
 }
 export interface FloatingIpV2VpcExternallyRoutablePrefixesIpv4Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -9764,13 +9764,13 @@ export class FloatingIpV2VpcExternallyRoutablePrefixesIpv4IpList extends cdktf.C
 }
 export interface FloatingIpV2VpcExternallyRoutablePrefixesIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ip FloatingIpV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ip FloatingIpV2#ip}
   */
   readonly ip?: FloatingIpV2VpcExternallyRoutablePrefixesIpv4Ip[] | cdktf.IResolvable;
 }
@@ -9915,11 +9915,11 @@ export class FloatingIpV2VpcExternallyRoutablePrefixesIpv4List extends cdktf.Com
 }
 export interface FloatingIpV2VpcExternallyRoutablePrefixesIpv6Ip {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#value FloatingIpV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#value FloatingIpV2#value}
   */
   readonly value?: string;
 }
@@ -10064,13 +10064,13 @@ export class FloatingIpV2VpcExternallyRoutablePrefixesIpv6IpList extends cdktf.C
 }
 export interface FloatingIpV2VpcExternallyRoutablePrefixesIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#prefix_length FloatingIpV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ip FloatingIpV2#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ip FloatingIpV2#ip}
   */
   readonly ip?: FloatingIpV2VpcExternallyRoutablePrefixesIpv6Ip[] | cdktf.IResolvable;
 }
@@ -10217,13 +10217,13 @@ export interface FloatingIpV2VpcExternallyRoutablePrefixes {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv4 FloatingIpV2#ipv4}
   */
   readonly ipv4?: FloatingIpV2VpcExternallyRoutablePrefixesIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/floating_ip_v2#ipv6 FloatingIpV2#ipv6}
   */
   readonly ipv6?: FloatingIpV2VpcExternallyRoutablePrefixesIpv6[] | cdktf.IResolvable;
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable
+// https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataPrefectVariableConfig extends cdktf.TerraformMetaArguments 
   /**
   * Account ID (UUID), defaults to the account set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable#account_id DataPrefectVariable#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable#account_id DataPrefectVariable#account_id}
   */
   readonly accountId?: string;
   /**
   * Variable ID (UUID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable#id DataPrefectVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable#id DataPrefectVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataPrefectVariableConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable#name DataPrefectVariable#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable#name DataPrefectVariable#name}
   */
   readonly name?: string;
   /**
   * Workspace ID (UUID), defaults to the workspace set in the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable#workspace_id DataPrefectVariable#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable#workspace_id DataPrefectVariable#workspace_id}
   */
   readonly workspaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable prefect_variable}
+* Represents a {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable prefect_variable}
 */
 export class DataPrefectVariable extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataPrefectVariable extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataPrefectVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataPrefectVariable to import
-  * @param importFromId The id of the existing DataPrefectVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataPrefectVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataPrefectVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataPrefectVariable extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.0/docs/data-sources/variable prefect_variable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/prefecthq/prefect/2.90.1/docs/data-sources/variable prefect_variable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataPrefectVariable extends cdktf.TerraformDataSource {
       terraformResourceType: 'prefect_variable',
       terraformGeneratorMetadata: {
         providerName: 'prefect',
-        providerVersion: '2.90.0',
-        providerVersionConstraint: '2.90.0'
+        providerVersion: '2.90.1',
+        providerVersionConstraint: '2.90.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

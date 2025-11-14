@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotConfig 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#account_moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#account_moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,47 +22,47 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotConfig 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#create_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#create_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#create_time}
   */
   readonly createTime?: string;
   /**
   * Snapshot creation time. Time at which snapshot gets created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#creation_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#creation_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#creation_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#creation_time}
   */
   readonly creationTime?: string;
   /**
   * If yes, it determines it is the latest snapshot of the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#current_snapshot DataIntersightVirtualizationVmwareVirtualMachineSnapshot#current_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#current_snapshot DataIntersightVirtualizationVmwareVirtualMachineSnapshot#current_snapshot}
   */
   readonly currentSnapshot?: boolean | cdktf.IResolvable;
   /**
   * User provided description of the virtual machine snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#description DataIntersightVirtualizationVmwareVirtualMachineSnapshot#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#description DataIntersightVirtualizationVmwareVirtualMachineSnapshot#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#domain_group_moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#domain_group_moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * If yes, the virtual machine snapshot cannot be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#golden DataIntersightVirtualizationVmwareVirtualMachineSnapshot#golden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#golden DataIntersightVirtualizationVmwareVirtualMachineSnapshot#golden}
   */
   readonly golden?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,115 +71,115 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotConfig 
   /**
   * The internally generated identity of the snapshot. This entity is not manipulated by users. It aids in uniquely identifying the snapshot object. For VMware, this is a MOR (managed object reference).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#identity DataIntersightVirtualizationVmwareVirtualMachineSnapshot#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#identity DataIntersightVirtualizationVmwareVirtualMachineSnapshot#identity}
   */
   readonly identity?: string;
   /**
   * The internally assigned id/key of virtual machine snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#key DataIntersightVirtualizationVmwareVirtualMachineSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#key DataIntersightVirtualizationVmwareVirtualMachineSnapshot#key}
   */
   readonly key?: number;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#mod_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#mod_time DataIntersightVirtualizationVmwareVirtualMachineSnapshot#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * User name provided to identify the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#name DataIntersightVirtualizationVmwareVirtualMachineSnapshot#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#name DataIntersightVirtualizationVmwareVirtualMachineSnapshot#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#owners DataIntersightVirtualizationVmwareVirtualMachineSnapshot#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#owners DataIntersightVirtualizationVmwareVirtualMachineSnapshot#owners}
   */
   readonly owners?: string[];
   /**
   * Predecessor id is the id of the parent snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#predecessor_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#predecessor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#predecessor_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#predecessor_id}
   */
   readonly predecessorId?: number;
   /**
   * Quiesce pauses all the I/O operations on virtual machine till the snapshot is taken.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#quiesced DataIntersightVirtualizationVmwareVirtualMachineSnapshot#quiesced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#quiesced DataIntersightVirtualizationVmwareVirtualMachineSnapshot#quiesced}
   */
   readonly quiesced?: boolean | cdktf.IResolvable;
   /**
   * Internally assigned MOR reference value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ref_value DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ref_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ref_value DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ref_value}
   */
   readonly refValue?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#shared_scope DataIntersightVirtualizationVmwareVirtualMachineSnapshot#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#shared_scope DataIntersightVirtualizationVmwareVirtualMachineSnapshot#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Size of the snapshot file created of the virtual machine, stored in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#snapshot_size DataIntersightVirtualizationVmwareVirtualMachineSnapshot#snapshot_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#snapshot_size DataIntersightVirtualizationVmwareVirtualMachineSnapshot#snapshot_size}
   */
   readonly snapshotSize?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ancestors DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ancestors DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ancestors}
   */
   readonly ancestors?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#parent DataIntersightVirtualizationVmwareVirtualMachineSnapshot#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#parent DataIntersightVirtualizationVmwareVirtualMachineSnapshot#parent}
   */
   readonly parent?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#permission_resources DataIntersightVirtualizationVmwareVirtualMachineSnapshot#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#permission_resources DataIntersightVirtualizationVmwareVirtualMachineSnapshot#permission_resources}
   */
   readonly permissionResources?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#registered_device DataIntersightVirtualizationVmwareVirtualMachineSnapshot#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#registered_device DataIntersightVirtualizationVmwareVirtualMachineSnapshot#registered_device}
   */
   readonly registeredDevice?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#tags DataIntersightVirtualizationVmwareVirtualMachineSnapshot#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#tags DataIntersightVirtualizationVmwareVirtualMachineSnapshot#tags}
   */
   readonly tags?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#version_context DataIntersightVirtualizationVmwareVirtualMachineSnapshot#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#version_context DataIntersightVirtualizationVmwareVirtualMachineSnapshot#version_context}
   */
   readonly versionContext?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContext;
   /**
   * virtual_machine block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#virtual_machine DataIntersightVirtualizationVmwareVirtualMachineSnapshot#virtual_machine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#virtual_machine DataIntersightVirtualizationVmwareVirtualMachineSnapshot#virtual_machine}
   */
   readonly virtualMachine?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotVirtualMachine;
 }
@@ -829,6 +829,11 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotResultsTags
   // propagated - computed: true, optional: false, required: false
   public get propagated() {
     return this.getBooleanAttribute('propagated');
+  }
+
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
   }
 
   // type - computed: true, optional: false, required: false
@@ -1481,7 +1486,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotResultsList
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1489,19 +1494,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotAncesto
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1514,7 +1519,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotAncesto
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -1746,7 +1751,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotAncestorsLi
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1754,19 +1759,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotParent 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1779,7 +1784,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotParent 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -1979,7 +1984,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotParentOutpu
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1987,19 +1992,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotPermiss
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2012,7 +2017,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotPermiss
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2244,7 +2249,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotPermissionR
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2252,19 +2257,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotRegiste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2277,7 +2282,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotRegiste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2477,7 +2482,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotRegisteredD
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2485,19 +2490,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAnc
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2510,7 +2515,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAnc
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2742,7 +2747,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAncesto
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2750,19 +2755,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2775,7 +2780,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -2975,45 +2980,51 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsDefinit
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#key DataIntersightVirtualizationVmwareVirtualMachineSnapshot#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#key DataIntersightVirtualizationVmwareVirtualMachineSnapshot#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#propagated DataIntersightVirtualizationVmwareVirtualMachineSnapshot#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#propagated DataIntersightVirtualizationVmwareVirtualMachineSnapshot#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#sys_tag DataIntersightVirtualizationVmwareVirtualMachineSnapshot#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#value DataIntersightVirtualizationVmwareVirtualMachineSnapshot#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#value DataIntersightVirtualizationVmwareVirtualMachineSnapshot#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ancestor_definitions DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ancestor_definitions DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#definition DataIntersightVirtualizationVmwareVirtualMachineSnapshot#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#definition DataIntersightVirtualizationVmwareVirtualMachineSnapshot#definition}
   */
   readonly definition?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsDefinition;
 }
@@ -3027,6 +3038,7 @@ export function dataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsToTe
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3055,6 +3067,12 @@ export function dataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsToHc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3121,6 +3139,10 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsOutputR
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3147,6 +3169,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsOutputR
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3162,6 +3185,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsOutputR
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3215,6 +3239,22 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsOutputR
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3303,7 +3343,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotTagsList ex
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3311,19 +3351,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3336,7 +3376,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3568,7 +3608,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionCont
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3576,19 +3616,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3601,7 +3641,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -3801,7 +3841,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionCont
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3809,32 +3849,32 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#marked_for_deletion DataIntersightVirtualizationVmwareVirtualMachineSnapshot#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#marked_for_deletion DataIntersightVirtualizationVmwareVirtualMachineSnapshot#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#nr_version DataIntersightVirtualizationVmwareVirtualMachineSnapshot#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#nr_version DataIntersightVirtualizationVmwareVirtualMachineSnapshot#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#timestamp DataIntersightVirtualizationVmwareVirtualMachineSnapshot#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#timestamp DataIntersightVirtualizationVmwareVirtualMachineSnapshot#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3845,19 +3885,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersion
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#version_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#version_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#interested_mos DataIntersightVirtualizationVmwareVirtualMachineSnapshot#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#interested_mos DataIntersightVirtualizationVmwareVirtualMachineSnapshot#interested_mos}
   */
   readonly interestedMos?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ref_mo DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#ref_mo DataIntersightVirtualizationVmwareVirtualMachineSnapshot#ref_mo}
   */
   readonly refMo?: DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionContextRefMo;
 }
@@ -4173,7 +4213,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotVersionCont
 }
 export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVirtualMachine {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#additional_properties DataIntersightVirtualizationVmwareVirtualMachineSnapshot#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4181,19 +4221,19 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVirtual
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#class_id DataIntersightVirtualizationVmwareVirtualMachineSnapshot#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#moid DataIntersightVirtualizationVmwareVirtualMachineSnapshot#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#object_type DataIntersightVirtualizationVmwareVirtualMachineSnapshot#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4206,7 +4246,7 @@ export interface DataIntersightVirtualizationVmwareVirtualMachineSnapshotVirtual
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#selector DataIntersightVirtualizationVmwareVirtualMachineSnapshot#selector}
   */
   readonly selector?: string;
 }
@@ -4406,7 +4446,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshotVirtualMach
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot intersight_virtualization_vmware_virtual_machine_snapshot}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot intersight_virtualization_vmware_virtual_machine_snapshot}
 */
 export class DataIntersightVirtualizationVmwareVirtualMachineSnapshot extends cdktf.TerraformDataSource {
 
@@ -4422,7 +4462,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshot extends cd
   * Generates CDKTF code for importing a DataIntersightVirtualizationVmwareVirtualMachineSnapshot resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightVirtualizationVmwareVirtualMachineSnapshot to import
-  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualMachineSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightVirtualizationVmwareVirtualMachineSnapshot that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightVirtualizationVmwareVirtualMachineSnapshot to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4434,7 +4474,7 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshot extends cd
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/virtualization_vmware_virtual_machine_snapshot intersight_virtualization_vmware_virtual_machine_snapshot} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/virtualization_vmware_virtual_machine_snapshot intersight_virtualization_vmware_virtual_machine_snapshot} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4445,8 +4485,8 @@ export class DataIntersightVirtualizationVmwareVirtualMachineSnapshot extends cd
       terraformResourceType: 'intersight_virtualization_vmware_virtual_machine_snapshot',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

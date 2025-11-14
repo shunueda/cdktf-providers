@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface FoundationIpmiConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#id FoundationIpmiConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#id FoundationIpmiConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_gateway FoundationIpmiConfig#ipmi_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_gateway FoundationIpmiConfig#ipmi_gateway}
   */
   readonly ipmiGateway: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_netmask FoundationIpmiConfig#ipmi_netmask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_netmask FoundationIpmiConfig#ipmi_netmask}
   */
   readonly ipmiNetmask: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_password FoundationIpmiConfig#ipmi_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_password FoundationIpmiConfig#ipmi_password}
   */
   readonly ipmiPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_user FoundationIpmiConfig#ipmi_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_user FoundationIpmiConfig#ipmi_user}
   */
   readonly ipmiUser: string;
   /**
   * blocks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#blocks FoundationIpmiConfig#blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#blocks FoundationIpmiConfig#blocks}
   */
   readonly blocks: FoundationIpmiConfigBlocks[] | cdktf.IResolvable;
 }
 export interface FoundationIpmiConfigBlocksNodes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_configure_now FoundationIpmiConfig#ipmi_configure_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_configure_now FoundationIpmiConfig#ipmi_configure_now}
   */
   readonly ipmiConfigureNow: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_ip FoundationIpmiConfig#ipmi_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_ip FoundationIpmiConfig#ipmi_ip}
   */
   readonly ipmiIp: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#ipmi_mac FoundationIpmiConfig#ipmi_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#ipmi_mac FoundationIpmiConfig#ipmi_mac}
   */
   readonly ipmiMac: string;
 }
@@ -222,13 +222,13 @@ export class FoundationIpmiConfigBlocksNodesList extends cdktf.ComplexList {
 }
 export interface FoundationIpmiConfigBlocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#block_id FoundationIpmiConfig#block_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#block_id FoundationIpmiConfig#block_id}
   */
   readonly blockId?: string;
   /**
   * nodes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#nodes FoundationIpmiConfig#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#nodes FoundationIpmiConfig#nodes}
   */
   readonly nodes: FoundationIpmiConfigBlocksNodes[] | cdktf.IResolvable;
 }
@@ -370,7 +370,7 @@ export class FoundationIpmiConfigBlocksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config nutanix_foundation_ipmi_config}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config nutanix_foundation_ipmi_config}
 */
 export class FoundationIpmiConfig extends cdktf.TerraformResource {
 
@@ -386,7 +386,7 @@ export class FoundationIpmiConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FoundationIpmiConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FoundationIpmiConfig to import
-  * @param importFromId The id of the existing FoundationIpmiConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FoundationIpmiConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FoundationIpmiConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -398,7 +398,7 @@ export class FoundationIpmiConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/foundation_ipmi_config nutanix_foundation_ipmi_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/foundation_ipmi_config nutanix_foundation_ipmi_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -409,8 +409,8 @@ export class FoundationIpmiConfig extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_foundation_ipmi_config',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

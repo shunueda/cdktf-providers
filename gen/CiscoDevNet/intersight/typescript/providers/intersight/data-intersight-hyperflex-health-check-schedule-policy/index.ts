@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyConfig extends 
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#account_moid DataIntersightHyperflexHealthCheckSchedulePolicy#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#account_moid DataIntersightHyperflexHealthCheckSchedulePolicy#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyConfig extends 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#create_time DataIntersightHyperflexHealthCheckSchedulePolicy#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#create_time DataIntersightHyperflexHealthCheckSchedulePolicy#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#domain_group_moid DataIntersightHyperflexHealthCheckSchedulePolicy#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#domain_group_moid DataIntersightHyperflexHealthCheckSchedulePolicy#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#id DataIntersightHyperflexHealthCheckSchedulePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#id DataIntersightHyperflexHealthCheckSchedulePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,48 +47,48 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyConfig extends 
   /**
   * The date and time when this HealthCheck Policy was last enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#last_scheduled_on DataIntersightHyperflexHealthCheckSchedulePolicy#last_scheduled_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#last_scheduled_on DataIntersightHyperflexHealthCheckSchedulePolicy#last_scheduled_on}
   */
   readonly lastScheduledOn?: string;
   /**
   * The date and time when this HealthCheck Policy was last disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#last_unscheduled_on DataIntersightHyperflexHealthCheckSchedulePolicy#last_unscheduled_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#last_unscheduled_on DataIntersightHyperflexHealthCheckSchedulePolicy#last_unscheduled_on}
   */
   readonly lastUnscheduledOn?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#mod_time DataIntersightHyperflexHealthCheckSchedulePolicy#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#mod_time DataIntersightHyperflexHealthCheckSchedulePolicy#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The date and time when the next health check execution is expected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#next_expected_execution DataIntersightHyperflexHealthCheckSchedulePolicy#next_expected_execution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#next_expected_execution DataIntersightHyperflexHealthCheckSchedulePolicy#next_expected_execution}
   */
   readonly nextExpectedExecution?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#owners DataIntersightHyperflexHealthCheckSchedulePolicy#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#owners DataIntersightHyperflexHealthCheckSchedulePolicy#owners}
   */
   readonly owners?: string[];
   /**
   * Indicates whether HealthCheck schedule policy is enabled on the HyperFlex cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#policy_enabled DataIntersightHyperflexHealthCheckSchedulePolicy#policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#policy_enabled DataIntersightHyperflexHealthCheckSchedulePolicy#policy_enabled}
   */
   readonly policyEnabled?: boolean | cdktf.IResolvable;
   /**
@@ -101,56 +101,56 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyConfig extends 
   * * `300` - Execute the health check every 5 minutes.
   * * `0` - Disable the continuous health check.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#schedule_interval DataIntersightHyperflexHealthCheckSchedulePolicy#schedule_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#schedule_interval DataIntersightHyperflexHealthCheckSchedulePolicy#schedule_interval}
   */
   readonly scheduleInterval?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#shared_scope DataIntersightHyperflexHealthCheckSchedulePolicy#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#shared_scope DataIntersightHyperflexHealthCheckSchedulePolicy#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The unique identifier of the health check policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#uuid DataIntersightHyperflexHealthCheckSchedulePolicy#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#uuid DataIntersightHyperflexHealthCheckSchedulePolicy#uuid}
   */
   readonly uuid?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#ancestors DataIntersightHyperflexHealthCheckSchedulePolicy#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#ancestors DataIntersightHyperflexHealthCheckSchedulePolicy#ancestors}
   */
   readonly ancestors?: DataIntersightHyperflexHealthCheckSchedulePolicyAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#parent DataIntersightHyperflexHealthCheckSchedulePolicy#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#parent DataIntersightHyperflexHealthCheckSchedulePolicy#parent}
   */
   readonly parent?: DataIntersightHyperflexHealthCheckSchedulePolicyParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#permission_resources DataIntersightHyperflexHealthCheckSchedulePolicy#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#permission_resources DataIntersightHyperflexHealthCheckSchedulePolicy#permission_resources}
   */
   readonly permissionResources?: DataIntersightHyperflexHealthCheckSchedulePolicyPermissionResources[] | cdktf.IResolvable;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#registered_device DataIntersightHyperflexHealthCheckSchedulePolicy#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#registered_device DataIntersightHyperflexHealthCheckSchedulePolicy#registered_device}
   */
   readonly registeredDevice?: DataIntersightHyperflexHealthCheckSchedulePolicyRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#tags DataIntersightHyperflexHealthCheckSchedulePolicy#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#tags DataIntersightHyperflexHealthCheckSchedulePolicy#tags}
   */
   readonly tags?: DataIntersightHyperflexHealthCheckSchedulePolicyTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#version_context DataIntersightHyperflexHealthCheckSchedulePolicy#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#version_context DataIntersightHyperflexHealthCheckSchedulePolicy#version_context}
   */
   readonly versionContext?: DataIntersightHyperflexHealthCheckSchedulePolicyVersionContext;
 }
@@ -802,6 +802,11 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyResultsTagsOutputRe
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1326,7 +1331,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyResultsList extends
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1334,19 +1339,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1359,7 +1364,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1591,7 +1596,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyAncestorsList exten
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1599,19 +1604,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1624,7 +1629,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -1824,7 +1829,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyParentOutputReferen
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1832,19 +1837,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyPermissionResou
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1857,7 +1862,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyPermissionResou
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2089,7 +2094,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyPermissionResources
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2097,19 +2102,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyRegisteredDevic
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2122,7 +2127,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyRegisteredDevic
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2322,7 +2327,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyRegisteredDeviceOut
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2330,19 +2335,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDef
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2355,7 +2360,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDef
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2587,7 +2592,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDefinit
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2595,19 +2600,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsDefinition 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2620,7 +2625,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyTagsDefinition 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -2820,45 +2825,51 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsDefinitionOutpu
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#key DataIntersightHyperflexHealthCheckSchedulePolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#key DataIntersightHyperflexHealthCheckSchedulePolicy#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#propagated DataIntersightHyperflexHealthCheckSchedulePolicy#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#propagated DataIntersightHyperflexHealthCheckSchedulePolicy#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#sys_tag DataIntersightHyperflexHealthCheckSchedulePolicy#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#type DataIntersightHyperflexHealthCheckSchedulePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#type DataIntersightHyperflexHealthCheckSchedulePolicy#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#value DataIntersightHyperflexHealthCheckSchedulePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#value DataIntersightHyperflexHealthCheckSchedulePolicy#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#ancestor_definitions DataIntersightHyperflexHealthCheckSchedulePolicy#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#ancestor_definitions DataIntersightHyperflexHealthCheckSchedulePolicy#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#definition DataIntersightHyperflexHealthCheckSchedulePolicy#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#definition DataIntersightHyperflexHealthCheckSchedulePolicy#definition}
   */
   readonly definition?: DataIntersightHyperflexHealthCheckSchedulePolicyTagsDefinition;
 }
@@ -2872,6 +2883,7 @@ export function dataIntersightHyperflexHealthCheckSchedulePolicyTagsToTerraform(
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightHyperflexHealthCheckSchedulePolicyTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2900,6 +2912,12 @@ export function dataIntersightHyperflexHealthCheckSchedulePolicyTagsToHclTerrafo
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2966,6 +2984,10 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsOutputReference
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2992,6 +3014,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsOutputReference
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3007,6 +3030,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsOutputReference
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3060,6 +3084,22 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsOutputReference
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3148,7 +3188,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyTagsList extends cd
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3156,19 +3196,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextI
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3181,7 +3221,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextI
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3413,7 +3453,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextInter
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3421,19 +3461,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextR
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#moid DataIntersightHyperflexHealthCheckSchedulePolicy#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3446,7 +3486,7 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextR
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#selector DataIntersightHyperflexHealthCheckSchedulePolicy#selector}
   */
   readonly selector?: string;
 }
@@ -3646,7 +3686,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextRefMo
 }
 export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#additional_properties DataIntersightHyperflexHealthCheckSchedulePolicy#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3654,32 +3694,32 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContext 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#class_id DataIntersightHyperflexHealthCheckSchedulePolicy#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#marked_for_deletion DataIntersightHyperflexHealthCheckSchedulePolicy#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#marked_for_deletion DataIntersightHyperflexHealthCheckSchedulePolicy#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#nr_version DataIntersightHyperflexHealthCheckSchedulePolicy#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#nr_version DataIntersightHyperflexHealthCheckSchedulePolicy#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#object_type DataIntersightHyperflexHealthCheckSchedulePolicy#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#timestamp DataIntersightHyperflexHealthCheckSchedulePolicy#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#timestamp DataIntersightHyperflexHealthCheckSchedulePolicy#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3690,19 +3730,19 @@ export interface DataIntersightHyperflexHealthCheckSchedulePolicyVersionContext 
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#version_type DataIntersightHyperflexHealthCheckSchedulePolicy#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#version_type DataIntersightHyperflexHealthCheckSchedulePolicy#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#interested_mos DataIntersightHyperflexHealthCheckSchedulePolicy#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#interested_mos DataIntersightHyperflexHealthCheckSchedulePolicy#interested_mos}
   */
   readonly interestedMos?: DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#ref_mo DataIntersightHyperflexHealthCheckSchedulePolicy#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#ref_mo DataIntersightHyperflexHealthCheckSchedulePolicy#ref_mo}
   */
   readonly refMo?: DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextRefMo;
 }
@@ -4018,7 +4058,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicyVersionContextOutpu
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy intersight_hyperflex_health_check_schedule_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy intersight_hyperflex_health_check_schedule_policy}
 */
 export class DataIntersightHyperflexHealthCheckSchedulePolicy extends cdktf.TerraformDataSource {
 
@@ -4034,7 +4074,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicy extends cdktf.Terr
   * Generates CDKTF code for importing a DataIntersightHyperflexHealthCheckSchedulePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightHyperflexHealthCheckSchedulePolicy to import
-  * @param importFromId The id of the existing DataIntersightHyperflexHealthCheckSchedulePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightHyperflexHealthCheckSchedulePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightHyperflexHealthCheckSchedulePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4046,7 +4086,7 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicy extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/hyperflex_health_check_schedule_policy intersight_hyperflex_health_check_schedule_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/hyperflex_health_check_schedule_policy intersight_hyperflex_health_check_schedule_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4057,8 +4097,8 @@ export class DataIntersightHyperflexHealthCheckSchedulePolicy extends cdktf.Terr
       terraformResourceType: 'intersight_hyperflex_health_check_schedule_policy',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

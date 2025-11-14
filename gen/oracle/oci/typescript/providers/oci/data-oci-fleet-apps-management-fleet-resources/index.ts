@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciFleetAppsManagementFleetResourcesAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#display_name DataOciFleetAppsManagementFleetResourcesA#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#display_name DataOciFleetAppsManagementFleetResourcesA#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#fleet_id DataOciFleetAppsManagementFleetResourcesA#fleet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#fleet_id DataOciFleetAppsManagementFleetResourcesA#fleet_id}
   */
   readonly fleetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#fleet_resource_type DataOciFleetAppsManagementFleetResourcesA#fleet_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#fleet_resource_type DataOciFleetAppsManagementFleetResourcesA#fleet_resource_type}
   */
   readonly fleetResourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#id DataOciFleetAppsManagementFleetResourcesA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#id DataOciFleetAppsManagementFleetResourcesA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#state DataOciFleetAppsManagementFleetResourcesA#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#state DataOciFleetAppsManagementFleetResourcesA#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#filter DataOciFleetAppsManagementFleetResourcesA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#filter DataOciFleetAppsManagementFleetResourcesA#filter}
   */
   readonly filter?: DataOciFleetAppsManagementFleetResourcesFilter[] | cdktf.IResolvable;
 }
@@ -291,15 +291,15 @@ export class DataOciFleetAppsManagementFleetResourcesFleetResourceCollectionList
 }
 export interface DataOciFleetAppsManagementFleetResourcesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#name DataOciFleetAppsManagementFleetResourcesA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#name DataOciFleetAppsManagementFleetResourcesA#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#regex DataOciFleetAppsManagementFleetResourcesA#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#regex DataOciFleetAppsManagementFleetResourcesA#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#values DataOciFleetAppsManagementFleetResourcesA#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#values DataOciFleetAppsManagementFleetResourcesA#values}
   */
   readonly values: string[];
 }
@@ -467,7 +467,7 @@ export class DataOciFleetAppsManagementFleetResourcesFilterList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources oci_fleet_apps_management_fleet_resources}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources oci_fleet_apps_management_fleet_resources}
 */
 export class DataOciFleetAppsManagementFleetResourcesA extends cdktf.TerraformDataSource {
 
@@ -483,7 +483,7 @@ export class DataOciFleetAppsManagementFleetResourcesA extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciFleetAppsManagementFleetResourcesA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciFleetAppsManagementFleetResourcesA to import
-  * @param importFromId The id of the existing DataOciFleetAppsManagementFleetResourcesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciFleetAppsManagementFleetResourcesA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciFleetAppsManagementFleetResourcesA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class DataOciFleetAppsManagementFleetResourcesA extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/fleet_apps_management_fleet_resources oci_fleet_apps_management_fleet_resources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/fleet_apps_management_fleet_resources oci_fleet_apps_management_fleet_resources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,8 +506,8 @@ export class DataOciFleetAppsManagementFleetResourcesA extends cdktf.TerraformDa
       terraformResourceType: 'oci_fleet_apps_management_fleet_resources',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "stripe": "3.4.0"
+    "stripe": "3.4.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeAuditProfileAnalyticConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#access_level DataOciDataSafeAuditProfileAnalytic#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#compartment_id DataOciDataSafeAuditProfileAnalytic#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#compartment_id_in_subtree DataOciDataSafeAuditProfileAnalytic#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#group_by DataOciDataSafeAuditProfileAnalytic#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#id DataOciDataSafeAuditProfileAnalytic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -189,7 +189,7 @@ export class DataOciDataSafeAuditProfileAnalyticItemsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic oci_data_safe_audit_profile_analytic}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic oci_data_safe_audit_profile_analytic}
 */
 export class DataOciDataSafeAuditProfileAnalytic extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataOciDataSafeAuditProfileAnalytic extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciDataSafeAuditProfileAnalytic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeAuditProfileAnalytic to import
-  * @param importFromId The id of the existing DataOciDataSafeAuditProfileAnalytic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeAuditProfileAnalytic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeAuditProfileAnalytic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataOciDataSafeAuditProfileAnalytic extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/data_safe_audit_profile_analytic oci_data_safe_audit_profile_analytic} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/data_safe_audit_profile_analytic oci_data_safe_audit_profile_analytic} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataOciDataSafeAuditProfileAnalytic extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_data_safe_audit_profile_analytic',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

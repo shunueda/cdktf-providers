@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightLicenseIncLicenseCountConfig extends cdktf.Terraf
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#account_moid DataIntersightLicenseIncLicenseCount#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#account_moid DataIntersightLicenseIncLicenseCount#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,23 +22,23 @@ export interface DataIntersightLicenseIncLicenseCountConfig extends cdktf.Terraf
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#create_time DataIntersightLicenseIncLicenseCount#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#create_time DataIntersightLicenseIncLicenseCount#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#domain_group_moid DataIntersightLicenseIncLicenseCount#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#domain_group_moid DataIntersightLicenseIncLicenseCount#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#id DataIntersightLicenseIncLicenseCount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#id DataIntersightLicenseIncLicenseCount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,121 +47,121 @@ export interface DataIntersightLicenseIncLicenseCountConfig extends cdktf.Terraf
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#mod_time DataIntersightLicenseIncLicenseCount#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#mod_time DataIntersightLicenseIncLicenseCount#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#owners DataIntersightLicenseIncLicenseCount#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#owners DataIntersightLicenseIncLicenseCount#owners}
   */
   readonly owners?: string[];
   /**
   * The total number of devices claimed in the premier 100G fixed tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier100_gfx_count DataIntersightLicenseIncLicenseCount#premier100_gfx_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier100_gfx_count DataIntersightLicenseIncLicenseCount#premier100_gfx_count}
   */
   readonly premier100GfxCount?: number;
   /**
   * The total number of devices claimed in the premier 10G fixed tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier10_gfx_count DataIntersightLicenseIncLicenseCount#premier10_gfx_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier10_gfx_count DataIntersightLicenseIncLicenseCount#premier10_gfx_count}
   */
   readonly premier10GfxCount?: number;
   /**
   * The total number of devices claimed in the premier 1G fixed tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier1_gfx_count DataIntersightLicenseIncLicenseCount#premier1_gfx_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier1_gfx_count DataIntersightLicenseIncLicenseCount#premier1_gfx_count}
   */
   readonly premier1GfxCount?: number;
   /**
   * The total number of devices claimed in the CentralizedMod8Slot premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_centralized_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_centralized_mod8_slot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_centralized_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_centralized_mod8_slot_count}
   */
   readonly premierCentralizedMod8SlotCount?: number;
   /**
   * The total number of devices claimed in the D2Ops Fixed premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_d2_ops_fixed_count DataIntersightLicenseIncLicenseCount#premier_d2_ops_fixed_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_d2_ops_fixed_count DataIntersightLicenseIncLicenseCount#premier_d2_ops_fixed_count}
   */
   readonly premierD2OpsFixedCount?: number;
   /**
   * The total number of devices claimed in the D2Ops modular premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_d2_ops_mod_count DataIntersightLicenseIncLicenseCount#premier_d2_ops_mod_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_d2_ops_mod_count DataIntersightLicenseIncLicenseCount#premier_d2_ops_mod_count}
   */
   readonly premierD2OpsModCount?: number;
   /**
   * The total number of devices claimed in the DistributedMod8Slot premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_distributed_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_distributed_mod8_slot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_distributed_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_distributed_mod8_slot_count}
   */
   readonly premierDistributedMod8SlotCount?: number;
   /**
   * The total number of devices claimed in the modular 4 slot premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_mod4_slot_count DataIntersightLicenseIncLicenseCount#premier_mod4_slot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_mod4_slot_count DataIntersightLicenseIncLicenseCount#premier_mod4_slot_count}
   */
   readonly premierMod4SlotCount?: number;
   /**
   * The total number of devices claimed in the modular 8 slot premier tier Intersight Nexus Cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#premier_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_mod8_slot_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#premier_mod8_slot_count DataIntersightLicenseIncLicenseCount#premier_mod8_slot_count}
   */
   readonly premierMod8SlotCount?: number;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#shared_scope DataIntersightLicenseIncLicenseCount#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#shared_scope DataIntersightLicenseIncLicenseCount#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * account_license_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#account_license_data DataIntersightLicenseIncLicenseCount#account_license_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#account_license_data DataIntersightLicenseIncLicenseCount#account_license_data}
   */
   readonly accountLicenseData?: DataIntersightLicenseIncLicenseCountAccountLicenseData;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#ancestors DataIntersightLicenseIncLicenseCount#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#ancestors DataIntersightLicenseIncLicenseCount#ancestors}
   */
   readonly ancestors?: DataIntersightLicenseIncLicenseCountAncestors[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#parent DataIntersightLicenseIncLicenseCount#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#parent DataIntersightLicenseIncLicenseCount#parent}
   */
   readonly parent?: DataIntersightLicenseIncLicenseCountParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#permission_resources DataIntersightLicenseIncLicenseCount#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#permission_resources DataIntersightLicenseIncLicenseCount#permission_resources}
   */
   readonly permissionResources?: DataIntersightLicenseIncLicenseCountPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#tags DataIntersightLicenseIncLicenseCount#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#tags DataIntersightLicenseIncLicenseCount#tags}
   */
   readonly tags?: DataIntersightLicenseIncLicenseCountTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#version_context DataIntersightLicenseIncLicenseCount#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#version_context DataIntersightLicenseIncLicenseCount#version_context}
   */
   readonly versionContext?: DataIntersightLicenseIncLicenseCountVersionContext;
 }
@@ -813,6 +813,11 @@ export class DataIntersightLicenseIncLicenseCountResultsTagsOutputReference exte
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1352,7 +1357,7 @@ export class DataIntersightLicenseIncLicenseCountResultsList extends cdktf.Compl
 }
 export interface DataIntersightLicenseIncLicenseCountAccountLicenseData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1360,19 +1365,19 @@ export interface DataIntersightLicenseIncLicenseCountAccountLicenseData {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1385,7 +1390,7 @@ export interface DataIntersightLicenseIncLicenseCountAccountLicenseData {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -1585,7 +1590,7 @@ export class DataIntersightLicenseIncLicenseCountAccountLicenseDataOutputReferen
 }
 export interface DataIntersightLicenseIncLicenseCountAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1593,19 +1598,19 @@ export interface DataIntersightLicenseIncLicenseCountAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1618,7 +1623,7 @@ export interface DataIntersightLicenseIncLicenseCountAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -1850,7 +1855,7 @@ export class DataIntersightLicenseIncLicenseCountAncestorsList extends cdktf.Com
 }
 export interface DataIntersightLicenseIncLicenseCountParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1858,19 +1863,19 @@ export interface DataIntersightLicenseIncLicenseCountParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1883,7 +1888,7 @@ export interface DataIntersightLicenseIncLicenseCountParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2083,7 +2088,7 @@ export class DataIntersightLicenseIncLicenseCountParentOutputReference extends c
 }
 export interface DataIntersightLicenseIncLicenseCountPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2091,19 +2096,19 @@ export interface DataIntersightLicenseIncLicenseCountPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2116,7 +2121,7 @@ export interface DataIntersightLicenseIncLicenseCountPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2348,7 +2353,7 @@ export class DataIntersightLicenseIncLicenseCountPermissionResourcesList extends
 }
 export interface DataIntersightLicenseIncLicenseCountTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2356,19 +2361,19 @@ export interface DataIntersightLicenseIncLicenseCountTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2381,7 +2386,7 @@ export interface DataIntersightLicenseIncLicenseCountTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2613,7 +2618,7 @@ export class DataIntersightLicenseIncLicenseCountTagsAncestorDefinitionsList ext
 }
 export interface DataIntersightLicenseIncLicenseCountTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2621,19 +2626,19 @@ export interface DataIntersightLicenseIncLicenseCountTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2646,7 +2651,7 @@ export interface DataIntersightLicenseIncLicenseCountTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -2846,45 +2851,51 @@ export class DataIntersightLicenseIncLicenseCountTagsDefinitionOutputReference e
 }
 export interface DataIntersightLicenseIncLicenseCountTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#key DataIntersightLicenseIncLicenseCount#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#key DataIntersightLicenseIncLicenseCount#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#propagated DataIntersightLicenseIncLicenseCount#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#propagated DataIntersightLicenseIncLicenseCount#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#sys_tag DataIntersightLicenseIncLicenseCount#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#type DataIntersightLicenseIncLicenseCount#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#type DataIntersightLicenseIncLicenseCount#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#value DataIntersightLicenseIncLicenseCount#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#value DataIntersightLicenseIncLicenseCount#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#ancestor_definitions DataIntersightLicenseIncLicenseCount#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#ancestor_definitions DataIntersightLicenseIncLicenseCount#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightLicenseIncLicenseCountTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#definition DataIntersightLicenseIncLicenseCount#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#definition DataIntersightLicenseIncLicenseCount#definition}
   */
   readonly definition?: DataIntersightLicenseIncLicenseCountTagsDefinition;
 }
@@ -2898,6 +2909,7 @@ export function dataIntersightLicenseIncLicenseCountTagsToTerraform(struct?: Dat
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightLicenseIncLicenseCountTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2926,6 +2938,12 @@ export function dataIntersightLicenseIncLicenseCountTagsToHclTerraform(struct?: 
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2992,6 +3010,10 @@ export class DataIntersightLicenseIncLicenseCountTagsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3018,6 +3040,7 @@ export class DataIntersightLicenseIncLicenseCountTagsOutputReference extends cdk
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3033,6 +3056,7 @@ export class DataIntersightLicenseIncLicenseCountTagsOutputReference extends cdk
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3086,6 +3110,22 @@ export class DataIntersightLicenseIncLicenseCountTagsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3174,7 +3214,7 @@ export class DataIntersightLicenseIncLicenseCountTagsList extends cdktf.ComplexL
 }
 export interface DataIntersightLicenseIncLicenseCountVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3182,19 +3222,19 @@ export interface DataIntersightLicenseIncLicenseCountVersionContextInterestedMos
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3207,7 +3247,7 @@ export interface DataIntersightLicenseIncLicenseCountVersionContextInterestedMos
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -3439,7 +3479,7 @@ export class DataIntersightLicenseIncLicenseCountVersionContextInterestedMosList
 }
 export interface DataIntersightLicenseIncLicenseCountVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3447,19 +3487,19 @@ export interface DataIntersightLicenseIncLicenseCountVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#moid DataIntersightLicenseIncLicenseCount#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3472,7 +3512,7 @@ export interface DataIntersightLicenseIncLicenseCountVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#selector DataIntersightLicenseIncLicenseCount#selector}
   */
   readonly selector?: string;
 }
@@ -3672,7 +3712,7 @@ export class DataIntersightLicenseIncLicenseCountVersionContextRefMoOutputRefere
 }
 export interface DataIntersightLicenseIncLicenseCountVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#additional_properties DataIntersightLicenseIncLicenseCount#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3680,32 +3720,32 @@ export interface DataIntersightLicenseIncLicenseCountVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#class_id DataIntersightLicenseIncLicenseCount#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#marked_for_deletion DataIntersightLicenseIncLicenseCount#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#marked_for_deletion DataIntersightLicenseIncLicenseCount#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#nr_version DataIntersightLicenseIncLicenseCount#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#nr_version DataIntersightLicenseIncLicenseCount#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#object_type DataIntersightLicenseIncLicenseCount#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#timestamp DataIntersightLicenseIncLicenseCount#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#timestamp DataIntersightLicenseIncLicenseCount#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3716,19 +3756,19 @@ export interface DataIntersightLicenseIncLicenseCountVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#version_type DataIntersightLicenseIncLicenseCount#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#version_type DataIntersightLicenseIncLicenseCount#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#interested_mos DataIntersightLicenseIncLicenseCount#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#interested_mos DataIntersightLicenseIncLicenseCount#interested_mos}
   */
   readonly interestedMos?: DataIntersightLicenseIncLicenseCountVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#ref_mo DataIntersightLicenseIncLicenseCount#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#ref_mo DataIntersightLicenseIncLicenseCount#ref_mo}
   */
   readonly refMo?: DataIntersightLicenseIncLicenseCountVersionContextRefMo;
 }
@@ -4044,7 +4084,7 @@ export class DataIntersightLicenseIncLicenseCountVersionContextOutputReference e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count intersight_license_inc_license_count}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count intersight_license_inc_license_count}
 */
 export class DataIntersightLicenseIncLicenseCount extends cdktf.TerraformDataSource {
 
@@ -4060,7 +4100,7 @@ export class DataIntersightLicenseIncLicenseCount extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataIntersightLicenseIncLicenseCount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightLicenseIncLicenseCount to import
-  * @param importFromId The id of the existing DataIntersightLicenseIncLicenseCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightLicenseIncLicenseCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightLicenseIncLicenseCount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4072,7 +4112,7 @@ export class DataIntersightLicenseIncLicenseCount extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/license_inc_license_count intersight_license_inc_license_count} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/license_inc_license_count intersight_license_inc_license_count} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4083,8 +4123,8 @@ export class DataIntersightLicenseIncLicenseCount extends cdktf.TerraformDataSou
       terraformResourceType: 'intersight_license_inc_license_count',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_migration_connection
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_migration_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseMigrationConnectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_migration_connection#connection_id DataOciDatabaseMigrationConnection#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_migration_connection#connection_id DataOciDatabaseMigrationConnection#connection_id}
   */
   readonly connectionId: string;
 }
@@ -169,7 +169,7 @@ export class DataOciDatabaseMigrationConnectionIngressIpsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_migration_connection oci_database_migration_connection}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_migration_connection oci_database_migration_connection}
 */
 export class DataOciDatabaseMigrationConnection extends cdktf.TerraformDataSource {
 
@@ -185,7 +185,7 @@ export class DataOciDatabaseMigrationConnection extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDatabaseMigrationConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseMigrationConnection to import
-  * @param importFromId The id of the existing DataOciDatabaseMigrationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_migration_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseMigrationConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_migration_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseMigrationConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -197,7 +197,7 @@ export class DataOciDatabaseMigrationConnection extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/database_migration_connection oci_database_migration_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/database_migration_connection oci_database_migration_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -208,8 +208,8 @@ export class DataOciDatabaseMigrationConnection extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_database_migration_connection',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

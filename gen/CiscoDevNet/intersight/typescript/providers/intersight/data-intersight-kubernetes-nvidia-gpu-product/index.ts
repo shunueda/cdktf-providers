@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightKubernetesNvidiaGpuProductConfig extends cdktf.Te
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#account_moid DataIntersightKubernetesNvidiaGpuProduct#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#account_moid DataIntersightKubernetesNvidiaGpuProduct#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightKubernetesNvidiaGpuProductConfig extends cdktf.Te
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#create_time DataIntersightKubernetesNvidiaGpuProduct#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#create_time DataIntersightKubernetesNvidiaGpuProduct#create_time}
   */
   readonly createTime?: string;
   /**
   * Optional description of a product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#description DataIntersightKubernetesNvidiaGpuProduct#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#description DataIntersightKubernetesNvidiaGpuProduct#description}
   */
   readonly description?: string;
   /**
   * Device Id of a product, which is unique within a vendor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#device_id DataIntersightKubernetesNvidiaGpuProduct#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#device_id DataIntersightKubernetesNvidiaGpuProduct#device_id}
   */
   readonly deviceId?: number;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#domain_group_moid DataIntersightKubernetesNvidiaGpuProduct#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#domain_group_moid DataIntersightKubernetesNvidiaGpuProduct#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#id DataIntersightKubernetesNvidiaGpuProduct#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#id DataIntersightKubernetesNvidiaGpuProduct#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,95 +59,95 @@ export interface DataIntersightKubernetesNvidiaGpuProductConfig extends cdktf.Te
   /**
   * Memory size of a GPU product in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#memory_size DataIntersightKubernetesNvidiaGpuProduct#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#memory_size DataIntersightKubernetesNvidiaGpuProduct#memory_size}
   */
   readonly memorySize?: number;
   /**
   * True if this Nvidia GPU supports MIG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#mig_capable DataIntersightKubernetesNvidiaGpuProduct#mig_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#mig_capable DataIntersightKubernetesNvidiaGpuProduct#mig_capable}
   */
   readonly migCapable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#mig_profiles DataIntersightKubernetesNvidiaGpuProduct#mig_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#mig_profiles DataIntersightKubernetesNvidiaGpuProduct#mig_profiles}
   */
   readonly migProfiles?: string[];
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#mod_time DataIntersightKubernetesNvidiaGpuProduct#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#mod_time DataIntersightKubernetesNvidiaGpuProduct#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * Display Name of a product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#name DataIntersightKubernetesNvidiaGpuProduct#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#name DataIntersightKubernetesNvidiaGpuProduct#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#owners DataIntersightKubernetesNvidiaGpuProduct#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#owners DataIntersightKubernetesNvidiaGpuProduct#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#shared_scope DataIntersightKubernetesNvidiaGpuProduct#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#shared_scope DataIntersightKubernetesNvidiaGpuProduct#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * Vendor Id of a product. Each vendor has a globally unique Id, for example 0x10DE for Nvidia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#vendor_id DataIntersightKubernetesNvidiaGpuProduct#vendor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#vendor_id DataIntersightKubernetesNvidiaGpuProduct#vendor_id}
   */
   readonly vendorId?: number;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#ancestors DataIntersightKubernetesNvidiaGpuProduct#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#ancestors DataIntersightKubernetesNvidiaGpuProduct#ancestors}
   */
   readonly ancestors?: DataIntersightKubernetesNvidiaGpuProductAncestors[] | cdktf.IResolvable;
   /**
   * catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#catalog DataIntersightKubernetesNvidiaGpuProduct#catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#catalog DataIntersightKubernetesNvidiaGpuProduct#catalog}
   */
   readonly catalog?: DataIntersightKubernetesNvidiaGpuProductCatalog;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#parent DataIntersightKubernetesNvidiaGpuProduct#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#parent DataIntersightKubernetesNvidiaGpuProduct#parent}
   */
   readonly parent?: DataIntersightKubernetesNvidiaGpuProductParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#permission_resources DataIntersightKubernetesNvidiaGpuProduct#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#permission_resources DataIntersightKubernetesNvidiaGpuProduct#permission_resources}
   */
   readonly permissionResources?: DataIntersightKubernetesNvidiaGpuProductPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#tags DataIntersightKubernetesNvidiaGpuProduct#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#tags DataIntersightKubernetesNvidiaGpuProduct#tags}
   */
   readonly tags?: DataIntersightKubernetesNvidiaGpuProductTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#version_context DataIntersightKubernetesNvidiaGpuProduct#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#version_context DataIntersightKubernetesNvidiaGpuProduct#version_context}
   */
   readonly versionContext?: DataIntersightKubernetesNvidiaGpuProductVersionContext;
 }
@@ -799,6 +799,11 @@ export class DataIntersightKubernetesNvidiaGpuProductResultsTagsOutputReference 
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1328,7 +1333,7 @@ export class DataIntersightKubernetesNvidiaGpuProductResultsList extends cdktf.C
 }
 export interface DataIntersightKubernetesNvidiaGpuProductAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1336,19 +1341,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1361,7 +1366,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -1593,7 +1598,7 @@ export class DataIntersightKubernetesNvidiaGpuProductAncestorsList extends cdktf
 }
 export interface DataIntersightKubernetesNvidiaGpuProductCatalog {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1601,19 +1606,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductCatalog {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1626,7 +1631,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductCatalog {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -1826,7 +1831,7 @@ export class DataIntersightKubernetesNvidiaGpuProductCatalogOutputReference exte
 }
 export interface DataIntersightKubernetesNvidiaGpuProductParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1834,19 +1839,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1859,7 +1864,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -2059,7 +2064,7 @@ export class DataIntersightKubernetesNvidiaGpuProductParentOutputReference exten
 }
 export interface DataIntersightKubernetesNvidiaGpuProductPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2067,19 +2072,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductPermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2092,7 +2097,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductPermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -2324,7 +2329,7 @@ export class DataIntersightKubernetesNvidiaGpuProductPermissionResourcesList ext
 }
 export interface DataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2332,19 +2337,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitions
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2357,7 +2362,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitions
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -2589,7 +2594,7 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitionsList
 }
 export interface DataIntersightKubernetesNvidiaGpuProductTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2597,19 +2602,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2622,7 +2627,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -2822,45 +2827,51 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsDefinitionOutputReferen
 }
 export interface DataIntersightKubernetesNvidiaGpuProductTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#key DataIntersightKubernetesNvidiaGpuProduct#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#key DataIntersightKubernetesNvidiaGpuProduct#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#propagated DataIntersightKubernetesNvidiaGpuProduct#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#propagated DataIntersightKubernetesNvidiaGpuProduct#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#sys_tag DataIntersightKubernetesNvidiaGpuProduct#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#type DataIntersightKubernetesNvidiaGpuProduct#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#type DataIntersightKubernetesNvidiaGpuProduct#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#value DataIntersightKubernetesNvidiaGpuProduct#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#value DataIntersightKubernetesNvidiaGpuProduct#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#ancestor_definitions DataIntersightKubernetesNvidiaGpuProduct#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#ancestor_definitions DataIntersightKubernetesNvidiaGpuProduct#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#definition DataIntersightKubernetesNvidiaGpuProduct#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#definition DataIntersightKubernetesNvidiaGpuProduct#definition}
   */
   readonly definition?: DataIntersightKubernetesNvidiaGpuProductTagsDefinition;
 }
@@ -2874,6 +2885,7 @@ export function dataIntersightKubernetesNvidiaGpuProductTagsToTerraform(struct?:
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightKubernetesNvidiaGpuProductTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2902,6 +2914,12 @@ export function dataIntersightKubernetesNvidiaGpuProductTagsToHclTerraform(struc
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -2968,6 +2986,10 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsOutputReference extends
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -2994,6 +3016,7 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsOutputReference extends
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3009,6 +3032,7 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsOutputReference extends
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3062,6 +3086,22 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsOutputReference extends
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3150,7 +3190,7 @@ export class DataIntersightKubernetesNvidiaGpuProductTagsList extends cdktf.Comp
 }
 export interface DataIntersightKubernetesNvidiaGpuProductVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3158,19 +3198,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContextIntereste
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3183,7 +3223,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContextIntereste
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -3415,7 +3455,7 @@ export class DataIntersightKubernetesNvidiaGpuProductVersionContextInterestedMos
 }
 export interface DataIntersightKubernetesNvidiaGpuProductVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3423,19 +3463,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#moid DataIntersightKubernetesNvidiaGpuProduct#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3448,7 +3488,7 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#selector DataIntersightKubernetesNvidiaGpuProduct#selector}
   */
   readonly selector?: string;
 }
@@ -3648,7 +3688,7 @@ export class DataIntersightKubernetesNvidiaGpuProductVersionContextRefMoOutputRe
 }
 export interface DataIntersightKubernetesNvidiaGpuProductVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#additional_properties DataIntersightKubernetesNvidiaGpuProduct#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3656,32 +3696,32 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#class_id DataIntersightKubernetesNvidiaGpuProduct#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#marked_for_deletion DataIntersightKubernetesNvidiaGpuProduct#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#marked_for_deletion DataIntersightKubernetesNvidiaGpuProduct#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#nr_version DataIntersightKubernetesNvidiaGpuProduct#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#nr_version DataIntersightKubernetesNvidiaGpuProduct#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#object_type DataIntersightKubernetesNvidiaGpuProduct#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#timestamp DataIntersightKubernetesNvidiaGpuProduct#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#timestamp DataIntersightKubernetesNvidiaGpuProduct#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3692,19 +3732,19 @@ export interface DataIntersightKubernetesNvidiaGpuProductVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#version_type DataIntersightKubernetesNvidiaGpuProduct#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#version_type DataIntersightKubernetesNvidiaGpuProduct#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#interested_mos DataIntersightKubernetesNvidiaGpuProduct#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#interested_mos DataIntersightKubernetesNvidiaGpuProduct#interested_mos}
   */
   readonly interestedMos?: DataIntersightKubernetesNvidiaGpuProductVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#ref_mo DataIntersightKubernetesNvidiaGpuProduct#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#ref_mo DataIntersightKubernetesNvidiaGpuProduct#ref_mo}
   */
   readonly refMo?: DataIntersightKubernetesNvidiaGpuProductVersionContextRefMo;
 }
@@ -4020,7 +4060,7 @@ export class DataIntersightKubernetesNvidiaGpuProductVersionContextOutputReferen
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product intersight_kubernetes_nvidia_gpu_product}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product intersight_kubernetes_nvidia_gpu_product}
 */
 export class DataIntersightKubernetesNvidiaGpuProduct extends cdktf.TerraformDataSource {
 
@@ -4036,7 +4076,7 @@ export class DataIntersightKubernetesNvidiaGpuProduct extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataIntersightKubernetesNvidiaGpuProduct resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightKubernetesNvidiaGpuProduct to import
-  * @param importFromId The id of the existing DataIntersightKubernetesNvidiaGpuProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightKubernetesNvidiaGpuProduct that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightKubernetesNvidiaGpuProduct to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4048,7 +4088,7 @@ export class DataIntersightKubernetesNvidiaGpuProduct extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/kubernetes_nvidia_gpu_product intersight_kubernetes_nvidia_gpu_product} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/kubernetes_nvidia_gpu_product intersight_kubernetes_nvidia_gpu_product} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4059,8 +4099,8 @@ export class DataIntersightKubernetesNvidiaGpuProduct extends cdktf.TerraformDat
       terraformResourceType: 'intersight_kubernetes_nvidia_gpu_product',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

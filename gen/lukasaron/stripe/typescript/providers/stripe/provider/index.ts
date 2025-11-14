@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface StripeProviderConfig {
   /**
   * The Stripe secret API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs#api_key StripeProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs#api_key StripeProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs#alias StripeProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs#alias StripeProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs stripe}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs stripe}
 */
 export class StripeProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class StripeProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a StripeProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StripeProvider to import
-  * @param importFromId The id of the existing StripeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StripeProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StripeProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class StripeProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs stripe} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs stripe} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class StripeProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'stripe',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       terraformProviderSource: 'lukasaron/stripe'
     });

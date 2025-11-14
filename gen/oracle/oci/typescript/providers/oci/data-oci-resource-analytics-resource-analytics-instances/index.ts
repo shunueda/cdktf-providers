@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciResourceAnalyticsResourceAnalyticsInstancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#compartment_id DataOciResourceAnalyticsResourceAnalyticsInstances#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#display_name DataOciResourceAnalyticsResourceAnalyticsInstances#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#id DataOciResourceAnalyticsResourceAnalyticsInstances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#state DataOciResourceAnalyticsResourceAnalyticsInstances#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#filter DataOciResourceAnalyticsResourceAnalyticsInstances#filter}
   */
   readonly filter?: DataOciResourceAnalyticsResourceAnalyticsInstancesFilter[] | cdktf.IResolvable;
 }
@@ -360,15 +360,15 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstancesResourceAnalytics
 }
 export interface DataOciResourceAnalyticsResourceAnalyticsInstancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#name DataOciResourceAnalyticsResourceAnalyticsInstances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#name DataOciResourceAnalyticsResourceAnalyticsInstances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#regex DataOciResourceAnalyticsResourceAnalyticsInstances#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#regex DataOciResourceAnalyticsResourceAnalyticsInstances#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#values DataOciResourceAnalyticsResourceAnalyticsInstances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#values DataOciResourceAnalyticsResourceAnalyticsInstances#values}
   */
   readonly values: string[];
 }
@@ -536,7 +536,7 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstancesFilterList extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances oci_resource_analytics_resource_analytics_instances}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances oci_resource_analytics_resource_analytics_instances}
 */
 export class DataOciResourceAnalyticsResourceAnalyticsInstances extends cdktf.TerraformDataSource {
 
@@ -552,7 +552,7 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstances extends cdktf.Te
   * Generates CDKTF code for importing a DataOciResourceAnalyticsResourceAnalyticsInstances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciResourceAnalyticsResourceAnalyticsInstances to import
-  * @param importFromId The id of the existing DataOciResourceAnalyticsResourceAnalyticsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciResourceAnalyticsResourceAnalyticsInstances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciResourceAnalyticsResourceAnalyticsInstances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -564,7 +564,7 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstances extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/resource_analytics_resource_analytics_instances oci_resource_analytics_resource_analytics_instances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/resource_analytics_resource_analytics_instances oci_resource_analytics_resource_analytics_instances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -575,8 +575,8 @@ export class DataOciResourceAnalyticsResourceAnalyticsInstances extends cdktf.Te
       terraformResourceType: 'oci_resource_analytics_resource_analytics_instances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

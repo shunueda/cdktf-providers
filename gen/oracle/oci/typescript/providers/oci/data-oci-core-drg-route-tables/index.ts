@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreDrgRouteTablesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#display_name DataOciCoreDrgRouteTables#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#display_name DataOciCoreDrgRouteTables#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#drg_id DataOciCoreDrgRouteTables#drg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#drg_id DataOciCoreDrgRouteTables#drg_id}
   */
   readonly drgId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#id DataOciCoreDrgRouteTables#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#id DataOciCoreDrgRouteTables#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#import_drg_route_distribution_id DataOciCoreDrgRouteTables#import_drg_route_distribution_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#import_drg_route_distribution_id DataOciCoreDrgRouteTables#import_drg_route_distribution_id}
   */
   readonly importDrgRouteDistributionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#state DataOciCoreDrgRouteTables#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#state DataOciCoreDrgRouteTables#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#filter DataOciCoreDrgRouteTables#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#filter DataOciCoreDrgRouteTables#filter}
   */
   readonly filter?: DataOciCoreDrgRouteTablesFilter[] | cdktf.IResolvable;
 }
@@ -166,15 +166,15 @@ export class DataOciCoreDrgRouteTablesDrgRouteTablesList extends cdktf.ComplexLi
 }
 export interface DataOciCoreDrgRouteTablesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#name DataOciCoreDrgRouteTables#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#name DataOciCoreDrgRouteTables#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#regex DataOciCoreDrgRouteTables#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#regex DataOciCoreDrgRouteTables#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#values DataOciCoreDrgRouteTables#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#values DataOciCoreDrgRouteTables#values}
   */
   readonly values: string[];
 }
@@ -342,7 +342,7 @@ export class DataOciCoreDrgRouteTablesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables oci_core_drg_route_tables}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables oci_core_drg_route_tables}
 */
 export class DataOciCoreDrgRouteTables extends cdktf.TerraformDataSource {
 
@@ -358,7 +358,7 @@ export class DataOciCoreDrgRouteTables extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreDrgRouteTables resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreDrgRouteTables to import
-  * @param importFromId The id of the existing DataOciCoreDrgRouteTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreDrgRouteTables that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreDrgRouteTables to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class DataOciCoreDrgRouteTables extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/core_drg_route_tables oci_core_drg_route_tables} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/core_drg_route_tables oci_core_drg_route_tables} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class DataOciCoreDrgRouteTables extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_drg_route_tables',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataIntersightFirmwareBoardControllerDescriptorConfig extends c
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#account_moid DataIntersightFirmwareBoardControllerDescriptor#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#account_moid DataIntersightFirmwareBoardControllerDescriptor#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The brand string of the endpoint for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#brand_string DataIntersightFirmwareBoardControllerDescriptor#brand_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#brand_string DataIntersightFirmwareBoardControllerDescriptor#brand_string}
   */
   readonly brandString?: string;
   /**
@@ -29,29 +29,29 @@ export interface DataIntersightFirmwareBoardControllerDescriptorConfig extends c
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#create_time DataIntersightFirmwareBoardControllerDescriptor#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#create_time DataIntersightFirmwareBoardControllerDescriptor#create_time}
   */
   readonly createTime?: string;
   /**
   * Detailed information about the endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#description DataIntersightFirmwareBoardControllerDescriptor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#description DataIntersightFirmwareBoardControllerDescriptor#description}
   */
   readonly description?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#domain_group_moid DataIntersightFirmwareBoardControllerDescriptor#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#domain_group_moid DataIntersightFirmwareBoardControllerDescriptor#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#id DataIntersightFirmwareBoardControllerDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#id DataIntersightFirmwareBoardControllerDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -60,31 +60,31 @@ export interface DataIntersightFirmwareBoardControllerDescriptorConfig extends c
   /**
   * The label type for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#label DataIntersightFirmwareBoardControllerDescriptor#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#label DataIntersightFirmwareBoardControllerDescriptor#label}
   */
   readonly label?: string;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#mod_time DataIntersightFirmwareBoardControllerDescriptor#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#mod_time DataIntersightFirmwareBoardControllerDescriptor#mod_time}
   */
   readonly modTime?: string;
   /**
   * The model of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#model DataIntersightFirmwareBoardControllerDescriptor#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#model DataIntersightFirmwareBoardControllerDescriptor#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The firmware or software version of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#nr_version DataIntersightFirmwareBoardControllerDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#nr_version DataIntersightFirmwareBoardControllerDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
@@ -92,66 +92,66 @@ export interface DataIntersightFirmwareBoardControllerDescriptorConfig extends c
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#owners DataIntersightFirmwareBoardControllerDescriptor#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#owners DataIntersightFirmwareBoardControllerDescriptor#owners}
   */
   readonly owners?: string[];
   /**
   * The revision for the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#revision DataIntersightFirmwareBoardControllerDescriptor#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#revision DataIntersightFirmwareBoardControllerDescriptor#revision}
   */
   readonly revision?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#shared_scope DataIntersightFirmwareBoardControllerDescriptor#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#shared_scope DataIntersightFirmwareBoardControllerDescriptor#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The vendor of the endpoint, for which this capability information is applicable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#vendor DataIntersightFirmwareBoardControllerDescriptor#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#vendor DataIntersightFirmwareBoardControllerDescriptor#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#ancestors DataIntersightFirmwareBoardControllerDescriptor#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#ancestors DataIntersightFirmwareBoardControllerDescriptor#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareBoardControllerDescriptorAncestors[] | cdktf.IResolvable;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#capabilities DataIntersightFirmwareBoardControllerDescriptor#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#capabilities DataIntersightFirmwareBoardControllerDescriptor#capabilities}
   */
   readonly capabilities?: DataIntersightFirmwareBoardControllerDescriptorCapabilities[] | cdktf.IResolvable;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#parent DataIntersightFirmwareBoardControllerDescriptor#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#parent DataIntersightFirmwareBoardControllerDescriptor#parent}
   */
   readonly parent?: DataIntersightFirmwareBoardControllerDescriptorParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#permission_resources DataIntersightFirmwareBoardControllerDescriptor#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#permission_resources DataIntersightFirmwareBoardControllerDescriptor#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareBoardControllerDescriptorPermissionResources[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#tags DataIntersightFirmwareBoardControllerDescriptor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#tags DataIntersightFirmwareBoardControllerDescriptor#tags}
   */
   readonly tags?: DataIntersightFirmwareBoardControllerDescriptorTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#version_context DataIntersightFirmwareBoardControllerDescriptor#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#version_context DataIntersightFirmwareBoardControllerDescriptor#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareBoardControllerDescriptorVersionContext;
 }
@@ -803,6 +803,11 @@ export class DataIntersightFirmwareBoardControllerDescriptorResultsTagsOutputRef
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1332,7 +1337,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorResultsList extends 
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1340,19 +1345,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1365,7 +1370,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1597,7 +1602,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorAncestorsList extend
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorCapabilities {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1605,19 +1610,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorCapabilities {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1630,7 +1635,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorCapabilities {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -1862,7 +1867,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorCapabilitiesList ext
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1870,19 +1875,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1895,7 +1900,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2095,7 +2100,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorParentOutputReferenc
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorPermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2103,19 +2108,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorPermissionResour
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2128,7 +2133,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorPermissionResour
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2360,7 +2365,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorPermissionResourcesL
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2368,19 +2373,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefi
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2393,7 +2398,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefi
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2625,7 +2630,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefiniti
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2633,19 +2638,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2658,7 +2663,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -2858,45 +2863,51 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsDefinitionOutput
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#key DataIntersightFirmwareBoardControllerDescriptor#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#key DataIntersightFirmwareBoardControllerDescriptor#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#propagated DataIntersightFirmwareBoardControllerDescriptor#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#propagated DataIntersightFirmwareBoardControllerDescriptor#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#sys_tag DataIntersightFirmwareBoardControllerDescriptor#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#type DataIntersightFirmwareBoardControllerDescriptor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#type DataIntersightFirmwareBoardControllerDescriptor#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#value DataIntersightFirmwareBoardControllerDescriptor#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#value DataIntersightFirmwareBoardControllerDescriptor#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#ancestor_definitions DataIntersightFirmwareBoardControllerDescriptor#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#ancestor_definitions DataIntersightFirmwareBoardControllerDescriptor#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#definition DataIntersightFirmwareBoardControllerDescriptor#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#definition DataIntersightFirmwareBoardControllerDescriptor#definition}
   */
   readonly definition?: DataIntersightFirmwareBoardControllerDescriptorTagsDefinition;
 }
@@ -2910,6 +2921,7 @@ export function dataIntersightFirmwareBoardControllerDescriptorTagsToTerraform(s
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwareBoardControllerDescriptorTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -2938,6 +2950,12 @@ export function dataIntersightFirmwareBoardControllerDescriptorTagsToHclTerrafor
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -3004,6 +3022,10 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsOutputReference 
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -3030,6 +3052,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsOutputReference 
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -3045,6 +3068,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsOutputReference 
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -3098,6 +3122,22 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsOutputReference 
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -3186,7 +3226,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorTagsList extends cdk
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3194,19 +3234,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextIn
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3219,7 +3259,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextIn
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3451,7 +3491,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorVersionContextIntere
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3459,19 +3499,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextRe
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#moid DataIntersightFirmwareBoardControllerDescriptor#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3484,7 +3524,7 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContextRe
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#selector DataIntersightFirmwareBoardControllerDescriptor#selector}
   */
   readonly selector?: string;
 }
@@ -3684,7 +3724,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorVersionContextRefMoO
 }
 export interface DataIntersightFirmwareBoardControllerDescriptorVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#additional_properties DataIntersightFirmwareBoardControllerDescriptor#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3692,32 +3732,32 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#class_id DataIntersightFirmwareBoardControllerDescriptor#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#marked_for_deletion DataIntersightFirmwareBoardControllerDescriptor#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#marked_for_deletion DataIntersightFirmwareBoardControllerDescriptor#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#nr_version DataIntersightFirmwareBoardControllerDescriptor#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#nr_version DataIntersightFirmwareBoardControllerDescriptor#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#object_type DataIntersightFirmwareBoardControllerDescriptor#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#timestamp DataIntersightFirmwareBoardControllerDescriptor#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#timestamp DataIntersightFirmwareBoardControllerDescriptor#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -3728,19 +3768,19 @@ export interface DataIntersightFirmwareBoardControllerDescriptorVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#version_type DataIntersightFirmwareBoardControllerDescriptor#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#version_type DataIntersightFirmwareBoardControllerDescriptor#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#interested_mos DataIntersightFirmwareBoardControllerDescriptor#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#interested_mos DataIntersightFirmwareBoardControllerDescriptor#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareBoardControllerDescriptorVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#ref_mo DataIntersightFirmwareBoardControllerDescriptor#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#ref_mo DataIntersightFirmwareBoardControllerDescriptor#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareBoardControllerDescriptorVersionContextRefMo;
 }
@@ -4056,7 +4096,7 @@ export class DataIntersightFirmwareBoardControllerDescriptorVersionContextOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor intersight_firmware_board_controller_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor intersight_firmware_board_controller_descriptor}
 */
 export class DataIntersightFirmwareBoardControllerDescriptor extends cdktf.TerraformDataSource {
 
@@ -4072,7 +4112,7 @@ export class DataIntersightFirmwareBoardControllerDescriptor extends cdktf.Terra
   * Generates CDKTF code for importing a DataIntersightFirmwareBoardControllerDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareBoardControllerDescriptor to import
-  * @param importFromId The id of the existing DataIntersightFirmwareBoardControllerDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareBoardControllerDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareBoardControllerDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4084,7 +4124,7 @@ export class DataIntersightFirmwareBoardControllerDescriptor extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_board_controller_descriptor intersight_firmware_board_controller_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_board_controller_descriptor intersight_firmware_board_controller_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4095,8 +4135,8 @@ export class DataIntersightFirmwareBoardControllerDescriptor extends cdktf.Terra
       terraformResourceType: 'intersight_firmware_board_controller_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

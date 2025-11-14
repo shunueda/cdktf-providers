@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciComputeCloudAtCustomerCccUpgradeSchedulesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#access_level DataOciComputeCloudAtCustomerCccUpgradeSchedules#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#access_level DataOciComputeCloudAtCustomerCccUpgradeSchedules#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedules#ccc_upgrade_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#ccc_upgrade_schedule_id DataOciComputeCloudAtCustomerCccUpgradeSchedules#ccc_upgrade_schedule_id}
   */
   readonly cccUpgradeScheduleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#compartment_id DataOciComputeCloudAtCustomerCccUpgradeSchedules#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#compartment_id DataOciComputeCloudAtCustomerCccUpgradeSchedules#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#compartment_id_in_subtree DataOciComputeCloudAtCustomerCccUpgradeSchedules#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#compartment_id_in_subtree DataOciComputeCloudAtCustomerCccUpgradeSchedules#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#display_name DataOciComputeCloudAtCustomerCccUpgradeSchedules#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#display_name DataOciComputeCloudAtCustomerCccUpgradeSchedules#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#display_name_contains DataOciComputeCloudAtCustomerCccUpgradeSchedules#display_name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#display_name_contains DataOciComputeCloudAtCustomerCccUpgradeSchedules#display_name_contains}
   */
   readonly displayNameContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#id DataOciComputeCloudAtCustomerCccUpgradeSchedules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#id DataOciComputeCloudAtCustomerCccUpgradeSchedules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#state DataOciComputeCloudAtCustomerCccUpgradeSchedules#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#state DataOciComputeCloudAtCustomerCccUpgradeSchedules#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#filter DataOciComputeCloudAtCustomerCccUpgradeSchedules#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#filter DataOciComputeCloudAtCustomerCccUpgradeSchedules#filter}
   */
   readonly filter?: DataOciComputeCloudAtCustomerCccUpgradeSchedulesFilter[] | cdktf.IResolvable;
 }
@@ -361,15 +361,15 @@ export class DataOciComputeCloudAtCustomerCccUpgradeSchedulesCccUpgradeScheduleC
 }
 export interface DataOciComputeCloudAtCustomerCccUpgradeSchedulesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#name DataOciComputeCloudAtCustomerCccUpgradeSchedules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#name DataOciComputeCloudAtCustomerCccUpgradeSchedules#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#regex DataOciComputeCloudAtCustomerCccUpgradeSchedules#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#regex DataOciComputeCloudAtCustomerCccUpgradeSchedules#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#values DataOciComputeCloudAtCustomerCccUpgradeSchedules#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#values DataOciComputeCloudAtCustomerCccUpgradeSchedules#values}
   */
   readonly values: string[];
 }
@@ -537,7 +537,7 @@ export class DataOciComputeCloudAtCustomerCccUpgradeSchedulesFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules oci_compute_cloud_at_customer_ccc_upgrade_schedules}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules oci_compute_cloud_at_customer_ccc_upgrade_schedules}
 */
 export class DataOciComputeCloudAtCustomerCccUpgradeSchedules extends cdktf.TerraformDataSource {
 
@@ -553,7 +553,7 @@ export class DataOciComputeCloudAtCustomerCccUpgradeSchedules extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciComputeCloudAtCustomerCccUpgradeSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciComputeCloudAtCustomerCccUpgradeSchedules to import
-  * @param importFromId The id of the existing DataOciComputeCloudAtCustomerCccUpgradeSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciComputeCloudAtCustomerCccUpgradeSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciComputeCloudAtCustomerCccUpgradeSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -565,7 +565,7 @@ export class DataOciComputeCloudAtCustomerCccUpgradeSchedules extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules oci_compute_cloud_at_customer_ccc_upgrade_schedules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/data-sources/compute_cloud_at_customer_ccc_upgrade_schedules oci_compute_cloud_at_customer_ccc_upgrade_schedules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -576,8 +576,8 @@ export class DataOciComputeCloudAtCustomerCccUpgradeSchedules extends cdktf.Terr
       terraformResourceType: 'oci_compute_cloud_at_customer_ccc_upgrade_schedules',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

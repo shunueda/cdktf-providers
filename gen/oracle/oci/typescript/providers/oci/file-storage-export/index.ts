@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface FileStorageExportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#export_set_id FileStorageExport#export_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#export_set_id FileStorageExport#export_set_id}
   */
   readonly exportSetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#file_system_id FileStorageExport#file_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#file_system_id FileStorageExport#file_system_id}
   */
   readonly fileSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#id FileStorageExport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#id FileStorageExport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#is_idmap_groups_for_sys_auth FileStorageExport#is_idmap_groups_for_sys_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#is_idmap_groups_for_sys_auth FileStorageExport#is_idmap_groups_for_sys_auth}
   */
   readonly isIdmapGroupsForSysAuth?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#is_lock_override FileStorageExport#is_lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#is_lock_override FileStorageExport#is_lock_override}
   */
   readonly isLockOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#path FileStorageExport#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#path FileStorageExport#path}
   */
   readonly path: string;
   /**
   * export_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#export_options FileStorageExport#export_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#export_options FileStorageExport#export_options}
   */
   readonly exportOptions?: FileStorageExportExportOptions[] | cdktf.IResolvable;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#locks FileStorageExport#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#locks FileStorageExport#locks}
   */
   readonly locks?: FileStorageExportLocks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#timeouts FileStorageExport#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#timeouts FileStorageExport#timeouts}
   */
   readonly timeouts?: FileStorageExportTimeouts;
 }
 export interface FileStorageExportExportOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#access FileStorageExport#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#access FileStorageExport#access}
   */
   readonly access?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#allowed_auth FileStorageExport#allowed_auth}
   */
   readonly allowedAuth?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#anonymous_gid FileStorageExport#anonymous_gid}
   */
   readonly anonymousGid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#anonymous_uid FileStorageExport#anonymous_uid}
   */
   readonly anonymousUid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#identity_squash FileStorageExport#identity_squash}
   */
   readonly identitySquash?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#is_anonymous_access_allowed FileStorageExport#is_anonymous_access_allowed}
   */
   readonly isAnonymousAccessAllowed?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#require_privileged_source_port FileStorageExport#require_privileged_source_port}
   */
   readonly requirePrivilegedSourcePort?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#source FileStorageExport#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#source FileStorageExport#source}
   */
   readonly source: string;
 }
@@ -399,19 +399,19 @@ export class FileStorageExportExportOptionsList extends cdktf.ComplexList {
 }
 export interface FileStorageExportLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#message FileStorageExport#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#message FileStorageExport#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#related_resource_id FileStorageExport#related_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#related_resource_id FileStorageExport#related_resource_id}
   */
   readonly relatedResourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#time_created FileStorageExport#time_created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#time_created FileStorageExport#time_created}
   */
   readonly timeCreated?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#type FileStorageExport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#type FileStorageExport#type}
   */
   readonly type: string;
 }
@@ -611,15 +611,15 @@ export class FileStorageExportLocksList extends cdktf.ComplexList {
 }
 export interface FileStorageExportTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#create FileStorageExport#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#create FileStorageExport#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#delete FileStorageExport#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#delete FileStorageExport#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#update FileStorageExport#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#update FileStorageExport#update}
   */
   readonly update?: string;
 }
@@ -771,7 +771,7 @@ export class FileStorageExportTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export oci_file_storage_export}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export oci_file_storage_export}
 */
 export class FileStorageExport extends cdktf.TerraformResource {
 
@@ -787,7 +787,7 @@ export class FileStorageExport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FileStorageExport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FileStorageExport to import
-  * @param importFromId The id of the existing FileStorageExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FileStorageExport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FileStorageExport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -799,7 +799,7 @@ export class FileStorageExport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/file_storage_export oci_file_storage_export} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/file_storage_export oci_file_storage_export} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -810,8 +810,8 @@ export class FileStorageExport extends cdktf.TerraformResource {
       terraformResourceType: 'oci_file_storage_export',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

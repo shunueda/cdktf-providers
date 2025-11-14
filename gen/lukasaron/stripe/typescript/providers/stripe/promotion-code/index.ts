@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code
+// https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface PromotionCodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether the promotion code is currently active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#active PromotionCode#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#active PromotionCode#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * The customer-facing code. Regardless of case, this code must be unique across all active promotion codes for a specific customer. If left blank, we will generate one automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#code PromotionCode#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#code PromotionCode#code}
   */
   readonly code?: string;
   /**
   * The coupon for this promotion code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#coupon PromotionCode#coupon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#coupon PromotionCode#coupon}
   */
   readonly coupon: string;
   /**
   * The customer that this promotion code can be used by. If not set, the promotion code can be used by all customers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#customer PromotionCode#customer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#customer PromotionCode#customer}
   */
   readonly customer?: string;
   /**
   * The timestamp at which this promotion code will expire. If the coupon has specified a redeems_by, then this value cannot be after the coupon’s redeems_by. Expected format is RFC3339
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#expires_at PromotionCode#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * A positive integer specifying the number of times the promotion code can be redeemed. If the coupon has specified a max_redemptions, then this value cannot be greater than the coupon’s max_redemptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#max_redemptions PromotionCode#max_redemptions}
   */
   readonly maxRedemptions?: number;
   /**
   * Set of key-value pairs that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#metadata PromotionCode#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#metadata PromotionCode#metadata}
   */
   readonly metadata?: { [key: string]: string };
   /**
   * restrictions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#restrictions PromotionCode#restrictions}
   */
   readonly restrictions?: PromotionCodeRestrictions;
 }
@@ -60,19 +60,19 @@ export interface PromotionCodeRestrictions {
   /**
   * A Boolean indicating if the Promotion Code should only be redeemed for Customers without any successful payments or invoices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#first_time_transaction PromotionCode#first_time_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#first_time_transaction PromotionCode#first_time_transaction}
   */
   readonly firstTimeTransaction: boolean | cdktf.IResolvable;
   /**
   * Minimum amount required to redeem this Promotion Code into a Coupon (e.g., a purchase must be $100 or more to work).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#minimum_amount PromotionCode#minimum_amount}
   */
   readonly minimumAmount?: number;
   /**
   * Three-letter ISO code for minimum_amount
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#minimum_amount_currency PromotionCode#minimum_amount_currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#minimum_amount_currency PromotionCode#minimum_amount_currency}
   */
   readonly minimumAmountCurrency?: string;
 }
@@ -211,7 +211,7 @@ export class PromotionCodeRestrictionsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code stripe_promotion_code}
+* Represents a {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code stripe_promotion_code}
 */
 export class PromotionCode extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class PromotionCode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PromotionCode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PromotionCode to import
-  * @param importFromId The id of the existing PromotionCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PromotionCode that should be imported. Refer to the {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PromotionCode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class PromotionCode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.0/docs/resources/promotion_code stripe_promotion_code} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lukasaron/stripe/3.4.1/docs/resources/promotion_code stripe_promotion_code} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class PromotionCode extends cdktf.TerraformResource {
       terraformResourceType: 'stripe_promotion_code',
       terraformGeneratorMetadata: {
         providerName: 'stripe',
-        providerVersion: '3.4.0',
-        providerVersionConstraint: '3.4.0'
+        providerVersion: '3.4.1',
+        providerVersionConstraint: '3.4.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2
+// https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface PcRestoreV2Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ext_id PcRestoreV2#ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ext_id PcRestoreV2#ext_id}
   */
   readonly extId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#id PcRestoreV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#id PcRestoreV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#restorable_domain_manager_ext_id PcRestoreV2#restorable_domain_manager_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#restorable_domain_manager_ext_id PcRestoreV2#restorable_domain_manager_ext_id}
   */
   readonly restorableDomainManagerExtId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#restore_source_ext_id PcRestoreV2#restore_source_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#restore_source_ext_id PcRestoreV2#restore_source_ext_id}
   */
   readonly restoreSourceExtId: string;
   /**
   * domain_manager block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#domain_manager PcRestoreV2#domain_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#domain_manager PcRestoreV2#domain_manager}
   */
   readonly domainManager: PcRestoreV2DomainManager;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#timeouts PcRestoreV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#timeouts PcRestoreV2#timeouts}
   */
   readonly timeouts?: PcRestoreV2Timeouts;
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#map PcRestoreV2#map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#map PcRestoreV2#map}
   */
   readonly map?: { [key: string]: string };
 }
@@ -157,33 +157,33 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudIn
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#boolean PcRestoreV2#boolean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#boolean PcRestoreV2#boolean}
   */
   readonly boolean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#integer PcRestoreV2#integer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#integer PcRestoreV2#integer}
   */
   readonly integer?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#integer_list PcRestoreV2#integer_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#integer_list PcRestoreV2#integer_list}
   */
   readonly integerList?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#object PcRestoreV2#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#object PcRestoreV2#object}
   */
   readonly object?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#string PcRestoreV2#string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#string PcRestoreV2#string}
   */
   readonly string?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#string_list PcRestoreV2#string_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#string_list PcRestoreV2#string_list}
   */
   readonly stringList?: string[];
   /**
   * map_of_strings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#map_of_strings PcRestoreV2#map_of_strings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#map_of_strings PcRestoreV2#map_of_strings}
   */
   readonly mapOfStrings?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValueMapOfStrings[] | cdktf.IResolvable;
 }
@@ -473,13 +473,13 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudIn
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#name PcRestoreV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#name PcRestoreV2#name}
   */
   readonly name?: string;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairsValue[] | cdktf.IResolvable;
 }
@@ -626,7 +626,7 @@ export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigClo
   /**
   * key_value_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#key_value_pairs PcRestoreV2#key_value_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#key_value_pairs PcRestoreV2#key_value_pairs}
   */
   readonly keyValuePairs?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValuesKeyValuePairs[] | cdktf.IResolvable;
 }
@@ -742,7 +742,7 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudIn
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptUserData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value?: string;
 }
@@ -860,13 +860,13 @@ export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigClo
   /**
   * custom_key_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#custom_key_values PcRestoreV2#custom_key_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#custom_key_values PcRestoreV2#custom_key_values}
   */
   readonly customKeyValues?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptCustomKeyValues[] | cdktf.IResolvable;
   /**
   * user_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#user_data PcRestoreV2#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#user_data PcRestoreV2#user_data}
   */
   readonly userData?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScriptUserData[] | cdktf.IResolvable;
 }
@@ -1011,17 +1011,17 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudIn
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#datasource_type PcRestoreV2#datasource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#datasource_type PcRestoreV2#datasource_type}
   */
   readonly datasourceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#metadata PcRestoreV2#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#metadata PcRestoreV2#metadata}
   */
   readonly metadata?: string;
   /**
   * cloud_init_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#cloud_init_script PcRestoreV2#cloud_init_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#cloud_init_script PcRestoreV2#cloud_init_script}
   */
   readonly cloudInitScript?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigCloudInitScript[] | cdktf.IResolvable;
 }
@@ -1195,15 +1195,15 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfigList ex
 }
 export interface PcRestoreV2DomainManagerConfigBootstrapConfigEnvironmentInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#provider_type PcRestoreV2#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#provider_type PcRestoreV2#provider_type}
   */
   readonly providerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#provisioning_type PcRestoreV2#provisioning_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#provisioning_type PcRestoreV2#provisioning_type}
   */
   readonly provisioningType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#type PcRestoreV2#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#type PcRestoreV2#type}
   */
   readonly type?: string;
 }
@@ -1347,13 +1347,13 @@ export interface PcRestoreV2DomainManagerConfigBootstrapConfig {
   /**
   * cloud_init_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#cloud_init_config PcRestoreV2#cloud_init_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#cloud_init_config PcRestoreV2#cloud_init_config}
   */
   readonly cloudInitConfig?: PcRestoreV2DomainManagerConfigBootstrapConfigCloudInitConfig[] | cdktf.IResolvable;
   /**
   * environment_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#environment_info PcRestoreV2#environment_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#environment_info PcRestoreV2#environment_info}
   */
   readonly environmentInfo?: PcRestoreV2DomainManagerConfigBootstrapConfigEnvironmentInfo;
 }
@@ -1466,7 +1466,7 @@ export class PcRestoreV2DomainManagerConfigBootstrapConfigOutputReference extend
 }
 export interface PcRestoreV2DomainManagerConfigBuildInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#version PcRestoreV2#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#version PcRestoreV2#version}
   */
   readonly version?: string;
 }
@@ -1550,11 +1550,11 @@ export class PcRestoreV2DomainManagerConfigBuildInfoOutputReference extends cdkt
 }
 export interface PcRestoreV2DomainManagerConfigCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#password PcRestoreV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#password PcRestoreV2#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#username PcRestoreV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#username PcRestoreV2#username}
   */
   readonly username: string;
 }
@@ -1693,19 +1693,19 @@ export class PcRestoreV2DomainManagerConfigCredentialsList extends cdktf.Complex
 }
 export interface PcRestoreV2DomainManagerConfigResourceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#container_ext_ids PcRestoreV2#container_ext_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#container_ext_ids PcRestoreV2#container_ext_ids}
   */
   readonly containerExtIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#data_disk_size_bytes PcRestoreV2#data_disk_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#data_disk_size_bytes PcRestoreV2#data_disk_size_bytes}
   */
   readonly dataDiskSizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#memory_size_bytes PcRestoreV2#memory_size_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#memory_size_bytes PcRestoreV2#memory_size_bytes}
   */
   readonly memorySizeBytes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#num_vcpus PcRestoreV2#num_vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#num_vcpus PcRestoreV2#num_vcpus}
   */
   readonly numVcpus?: number;
 }
@@ -1908,39 +1908,39 @@ export class PcRestoreV2DomainManagerConfigResourceConfigList extends cdktf.Comp
 }
 export interface PcRestoreV2DomainManagerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#name PcRestoreV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#name PcRestoreV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#should_enable_lockdown_mode PcRestoreV2#should_enable_lockdown_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#should_enable_lockdown_mode PcRestoreV2#should_enable_lockdown_mode}
   */
   readonly shouldEnableLockdownMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#size PcRestoreV2#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#size PcRestoreV2#size}
   */
   readonly size: string;
   /**
   * bootstrap_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#bootstrap_config PcRestoreV2#bootstrap_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#bootstrap_config PcRestoreV2#bootstrap_config}
   */
   readonly bootstrapConfig?: PcRestoreV2DomainManagerConfigBootstrapConfig;
   /**
   * build_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#build_info PcRestoreV2#build_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#build_info PcRestoreV2#build_info}
   */
   readonly buildInfo: PcRestoreV2DomainManagerConfigBuildInfo;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#credentials PcRestoreV2#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#credentials PcRestoreV2#credentials}
   */
   readonly credentials?: PcRestoreV2DomainManagerConfigCredentials[] | cdktf.IResolvable;
   /**
   * resource_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#resource_config PcRestoreV2#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#resource_config PcRestoreV2#resource_config}
   */
   readonly resourceConfig?: PcRestoreV2DomainManagerConfigResourceConfig[] | cdktf.IResolvable;
 }
@@ -2221,11 +2221,11 @@ export class PcRestoreV2DomainManagerConfigList extends cdktf.ComplexList {
 }
 export interface PcRestoreV2DomainManagerNetworkExternalAddressIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -2367,11 +2367,11 @@ export class PcRestoreV2DomainManagerNetworkExternalAddressIpv4List extends cdkt
 }
 export interface PcRestoreV2DomainManagerNetworkExternalAddressIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -2515,13 +2515,13 @@ export interface PcRestoreV2DomainManagerNetworkExternalAddress {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkExternalAddressIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkExternalAddressIpv6[] | cdktf.IResolvable;
 }
@@ -2634,7 +2634,7 @@ export class PcRestoreV2DomainManagerNetworkExternalAddressOutputReference exten
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -2747,11 +2747,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayFqdnLi
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -2893,11 +2893,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayIpv4Li
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -3041,19 +3041,19 @@ export interface PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGateway {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayIpv6[] | cdktf.IResolvable;
 }
@@ -3195,11 +3195,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGatewayOutput
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -3341,11 +3341,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginIpv4Lis
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -3489,13 +3489,13 @@ export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBegin {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginIpv6[] | cdktf.IResolvable;
 }
@@ -3608,11 +3608,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBeginOutputR
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEndIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -3754,11 +3754,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEndIpv4List 
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEndIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -3902,13 +3902,13 @@ export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEnd {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEndIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEndIpv6[] | cdktf.IResolvable;
 }
@@ -4023,13 +4023,13 @@ export interface PcRestoreV2DomainManagerNetworkExternalNetworksIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#begin PcRestoreV2#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#begin PcRestoreV2#begin}
   */
   readonly begin?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesBegin;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#end PcRestoreV2#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#end PcRestoreV2#end}
   */
   readonly end?: PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesEnd;
 }
@@ -4174,7 +4174,7 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksIpRangesList extends
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -4287,11 +4287,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskFqdnList e
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -4433,11 +4433,11 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskIpv4List e
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -4581,19 +4581,19 @@ export interface PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMask {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskIpv6[] | cdktf.IResolvable;
 }
@@ -4735,25 +4735,25 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMaskOutputRefe
 }
 export interface PcRestoreV2DomainManagerNetworkExternalNetworks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#network_ext_id PcRestoreV2#network_ext_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#network_ext_id PcRestoreV2#network_ext_id}
   */
   readonly networkExtId: string;
   /**
   * default_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#default_gateway PcRestoreV2#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#default_gateway PcRestoreV2#default_gateway}
   */
   readonly defaultGateway: PcRestoreV2DomainManagerNetworkExternalNetworksDefaultGateway;
   /**
   * ip_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ip_ranges PcRestoreV2#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ip_ranges PcRestoreV2#ip_ranges}
   */
   readonly ipRanges: PcRestoreV2DomainManagerNetworkExternalNetworksIpRanges[] | cdktf.IResolvable;
   /**
   * subnet_mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#subnet_mask PcRestoreV2#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#subnet_mask PcRestoreV2#subnet_mask}
   */
   readonly subnetMask: PcRestoreV2DomainManagerNetworkExternalNetworksSubnetMask;
 }
@@ -4944,7 +4944,7 @@ export class PcRestoreV2DomainManagerNetworkExternalNetworksList extends cdktf.C
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -5057,11 +5057,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayFqdnLi
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -5203,11 +5203,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayIpv4Li
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -5351,19 +5351,19 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGateway {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayIpv6[] | cdktf.IResolvable;
 }
@@ -5505,11 +5505,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGatewayOutput
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -5651,11 +5651,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginIpv4Lis
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -5799,13 +5799,13 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBegin {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginIpv6[] | cdktf.IResolvable;
 }
@@ -5918,11 +5918,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBeginOutputR
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEndIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -6064,11 +6064,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEndIpv4List 
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEndIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -6212,13 +6212,13 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEnd {
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEndIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEndIpv6[] | cdktf.IResolvable;
 }
@@ -6333,13 +6333,13 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworksIpRanges {
   /**
   * begin block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#begin PcRestoreV2#begin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#begin PcRestoreV2#begin}
   */
   readonly begin?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesBegin;
   /**
   * end block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#end PcRestoreV2#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#end PcRestoreV2#end}
   */
   readonly end?: PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesEnd;
 }
@@ -6484,7 +6484,7 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksIpRangesList extends
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -6597,11 +6597,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskFqdnList e
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -6743,11 +6743,11 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskIpv4List e
 }
 export interface PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -6891,19 +6891,19 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMask {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMaskIpv6[] | cdktf.IResolvable;
 }
@@ -7047,19 +7047,19 @@ export interface PcRestoreV2DomainManagerNetworkInternalNetworks {
   /**
   * default_gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#default_gateway PcRestoreV2#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#default_gateway PcRestoreV2#default_gateway}
   */
   readonly defaultGateway: PcRestoreV2DomainManagerNetworkInternalNetworksDefaultGateway;
   /**
   * ip_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ip_ranges PcRestoreV2#ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ip_ranges PcRestoreV2#ip_ranges}
   */
   readonly ipRanges: PcRestoreV2DomainManagerNetworkInternalNetworksIpRanges[] | cdktf.IResolvable;
   /**
   * subnet_mask block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#subnet_mask PcRestoreV2#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#subnet_mask PcRestoreV2#subnet_mask}
   */
   readonly subnetMask: PcRestoreV2DomainManagerNetworkInternalNetworksSubnetMask;
 }
@@ -7192,7 +7192,7 @@ export class PcRestoreV2DomainManagerNetworkInternalNetworksOutputReference exte
 }
 export interface PcRestoreV2DomainManagerNetworkNameServersFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -7305,11 +7305,11 @@ export class PcRestoreV2DomainManagerNetworkNameServersFqdnList extends cdktf.Co
 }
 export interface PcRestoreV2DomainManagerNetworkNameServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -7451,11 +7451,11 @@ export class PcRestoreV2DomainManagerNetworkNameServersIpv4List extends cdktf.Co
 }
 export interface PcRestoreV2DomainManagerNetworkNameServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -7599,19 +7599,19 @@ export interface PcRestoreV2DomainManagerNetworkNameServers {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkNameServersFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkNameServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkNameServersIpv6[] | cdktf.IResolvable;
 }
@@ -7785,7 +7785,7 @@ export class PcRestoreV2DomainManagerNetworkNameServersList extends cdktf.Comple
 }
 export interface PcRestoreV2DomainManagerNetworkNtpServersFqdn {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -7898,11 +7898,11 @@ export class PcRestoreV2DomainManagerNetworkNtpServersFqdnList extends cdktf.Com
 }
 export interface PcRestoreV2DomainManagerNetworkNtpServersIpv4 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -8044,11 +8044,11 @@ export class PcRestoreV2DomainManagerNetworkNtpServersIpv4List extends cdktf.Com
 }
 export interface PcRestoreV2DomainManagerNetworkNtpServersIpv6 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#prefix_length PcRestoreV2#prefix_length}
   */
   readonly prefixLength?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#value PcRestoreV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#value PcRestoreV2#value}
   */
   readonly value: string;
 }
@@ -8192,19 +8192,19 @@ export interface PcRestoreV2DomainManagerNetworkNtpServers {
   /**
   * fqdn block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#fqdn PcRestoreV2#fqdn}
   */
   readonly fqdn?: PcRestoreV2DomainManagerNetworkNtpServersFqdn[] | cdktf.IResolvable;
   /**
   * ipv4 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv4 PcRestoreV2#ipv4}
   */
   readonly ipv4?: PcRestoreV2DomainManagerNetworkNtpServersIpv4[] | cdktf.IResolvable;
   /**
   * ipv6 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ipv6 PcRestoreV2#ipv6}
   */
   readonly ipv6?: PcRestoreV2DomainManagerNetworkNtpServersIpv6[] | cdktf.IResolvable;
 }
@@ -8380,31 +8380,31 @@ export interface PcRestoreV2DomainManagerNetwork {
   /**
   * external_address block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#external_address PcRestoreV2#external_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#external_address PcRestoreV2#external_address}
   */
   readonly externalAddress?: PcRestoreV2DomainManagerNetworkExternalAddress;
   /**
   * external_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#external_networks PcRestoreV2#external_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#external_networks PcRestoreV2#external_networks}
   */
   readonly externalNetworks?: PcRestoreV2DomainManagerNetworkExternalNetworks[] | cdktf.IResolvable;
   /**
   * internal_networks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#internal_networks PcRestoreV2#internal_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#internal_networks PcRestoreV2#internal_networks}
   */
   readonly internalNetworks?: PcRestoreV2DomainManagerNetworkInternalNetworks;
   /**
   * name_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#name_servers PcRestoreV2#name_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#name_servers PcRestoreV2#name_servers}
   */
   readonly nameServers: PcRestoreV2DomainManagerNetworkNameServers[] | cdktf.IResolvable;
   /**
   * ntp_servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#ntp_servers PcRestoreV2#ntp_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#ntp_servers PcRestoreV2#ntp_servers}
   */
   readonly ntpServers: PcRestoreV2DomainManagerNetworkNtpServers[] | cdktf.IResolvable;
 }
@@ -8635,19 +8635,19 @@ export class PcRestoreV2DomainManagerNetworkList extends cdktf.ComplexList {
 }
 export interface PcRestoreV2DomainManager {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#should_enable_high_availability PcRestoreV2#should_enable_high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#should_enable_high_availability PcRestoreV2#should_enable_high_availability}
   */
   readonly shouldEnableHighAvailability?: boolean | cdktf.IResolvable;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#config PcRestoreV2#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#config PcRestoreV2#config}
   */
   readonly config: PcRestoreV2DomainManagerConfig[] | cdktf.IResolvable;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#network PcRestoreV2#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#network PcRestoreV2#network}
   */
   readonly network: PcRestoreV2DomainManagerNetwork[] | cdktf.IResolvable;
 }
@@ -8798,7 +8798,7 @@ export class PcRestoreV2DomainManagerOutputReference extends cdktf.ComplexObject
 }
 export interface PcRestoreV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#create PcRestoreV2#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#create PcRestoreV2#create}
   */
   readonly create?: string;
 }
@@ -8892,7 +8892,7 @@ export class PcRestoreV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2 nutanix_pc_restore_v2}
+* Represents a {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2 nutanix_pc_restore_v2}
 */
 export class PcRestoreV2 extends cdktf.TerraformResource {
 
@@ -8908,7 +8908,7 @@ export class PcRestoreV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PcRestoreV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PcRestoreV2 to import
-  * @param importFromId The id of the existing PcRestoreV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PcRestoreV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PcRestoreV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8920,7 +8920,7 @@ export class PcRestoreV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.3/docs/resources/pc_restore_v2 nutanix_pc_restore_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/nutanix/nutanix/2.3.4/docs/resources/pc_restore_v2 nutanix_pc_restore_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8931,8 +8931,8 @@ export class PcRestoreV2 extends cdktf.TerraformResource {
       terraformResourceType: 'nutanix_pc_restore_v2',
       terraformGeneratorMetadata: {
         providerName: 'nutanix',
-        providerVersion: '2.3.3',
-        providerVersionConstraint: '2.3.3'
+        providerVersion: '2.3.4',
+        providerVersionConstraint: '2.3.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

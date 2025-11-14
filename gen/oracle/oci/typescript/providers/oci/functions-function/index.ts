@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function
+// https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface FunctionsFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#application_id FunctionsFunction#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#application_id FunctionsFunction#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#config FunctionsFunction#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#config FunctionsFunction#config}
   */
   readonly config?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#defined_tags FunctionsFunction#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#detached_mode_timeout_in_seconds FunctionsFunction#detached_mode_timeout_in_seconds}
   */
   readonly detachedModeTimeoutInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#display_name FunctionsFunction#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#display_name FunctionsFunction#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#freeform_tags FunctionsFunction#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#id FunctionsFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#id FunctionsFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#image FunctionsFunction#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#image FunctionsFunction#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#image_digest FunctionsFunction#image_digest}
   */
   readonly imageDigest?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#memory_in_mbs FunctionsFunction#memory_in_mbs}
   */
   readonly memoryInMbs: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#timeout_in_seconds FunctionsFunction#timeout_in_seconds}
   */
   readonly timeoutInSeconds?: number;
   /**
   * failure_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#failure_destination FunctionsFunction#failure_destination}
   */
   readonly failureDestination?: FunctionsFunctionFailureDestination;
   /**
   * provisioned_concurrency_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#provisioned_concurrency_config FunctionsFunction#provisioned_concurrency_config}
   */
   readonly provisionedConcurrencyConfig?: FunctionsFunctionProvisionedConcurrencyConfig;
   /**
   * source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#source_details FunctionsFunction#source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#source_details FunctionsFunction#source_details}
   */
   readonly sourceDetails?: FunctionsFunctionSourceDetails;
   /**
   * success_destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#success_destination FunctionsFunction#success_destination}
   */
   readonly successDestination?: FunctionsFunctionSuccessDestination;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#timeouts FunctionsFunction#timeouts}
   */
   readonly timeouts?: FunctionsFunctionTimeouts;
   /**
   * trace_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#trace_config FunctionsFunction#trace_config}
   */
   readonly traceConfig?: FunctionsFunctionTraceConfig;
 }
 export interface FunctionsFunctionFailureDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#channel_id FunctionsFunction#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#channel_id FunctionsFunction#channel_id}
   */
   readonly channelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#kind FunctionsFunction#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#kind FunctionsFunction#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#queue_id FunctionsFunction#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#queue_id FunctionsFunction#queue_id}
   */
   readonly queueId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#stream_id FunctionsFunction#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#stream_id FunctionsFunction#stream_id}
   */
   readonly streamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#topic_id FunctionsFunction#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#topic_id FunctionsFunction#topic_id}
   */
   readonly topicId?: string;
 }
@@ -306,11 +306,11 @@ export class FunctionsFunctionFailureDestinationOutputReference extends cdktf.Co
 }
 export interface FunctionsFunctionProvisionedConcurrencyConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#count FunctionsFunction#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#count FunctionsFunction#count}
   */
   readonly count?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#strategy FunctionsFunction#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#strategy FunctionsFunction#strategy}
   */
   readonly strategy: string;
 }
@@ -420,11 +420,11 @@ export class FunctionsFunctionProvisionedConcurrencyConfigOutputReference extend
 }
 export interface FunctionsFunctionSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#pbf_listing_id FunctionsFunction#pbf_listing_id}
   */
   readonly pbfListingId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#source_type FunctionsFunction#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#source_type FunctionsFunction#source_type}
   */
   readonly sourceType: string;
 }
@@ -531,23 +531,23 @@ export class FunctionsFunctionSourceDetailsOutputReference extends cdktf.Complex
 }
 export interface FunctionsFunctionSuccessDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#channel_id FunctionsFunction#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#channel_id FunctionsFunction#channel_id}
   */
   readonly channelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#kind FunctionsFunction#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#kind FunctionsFunction#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#queue_id FunctionsFunction#queue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#queue_id FunctionsFunction#queue_id}
   */
   readonly queueId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#stream_id FunctionsFunction#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#stream_id FunctionsFunction#stream_id}
   */
   readonly streamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#topic_id FunctionsFunction#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#topic_id FunctionsFunction#topic_id}
   */
   readonly topicId?: string;
 }
@@ -744,15 +744,15 @@ export class FunctionsFunctionSuccessDestinationOutputReference extends cdktf.Co
 }
 export interface FunctionsFunctionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#create FunctionsFunction#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#create FunctionsFunction#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#delete FunctionsFunction#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#delete FunctionsFunction#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#update FunctionsFunction#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#update FunctionsFunction#update}
   */
   readonly update?: string;
 }
@@ -904,7 +904,7 @@ export class FunctionsFunctionTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 export interface FunctionsFunctionTraceConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#is_enabled FunctionsFunction#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
 }
@@ -988,7 +988,7 @@ export class FunctionsFunctionTraceConfigOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function oci_functions_function}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function oci_functions_function}
 */
 export class FunctionsFunction extends cdktf.TerraformResource {
 
@@ -1004,7 +1004,7 @@ export class FunctionsFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FunctionsFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FunctionsFunction to import
-  * @param importFromId The id of the existing FunctionsFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FunctionsFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FunctionsFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1016,7 +1016,7 @@ export class FunctionsFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.25.0/docs/resources/functions_function oci_functions_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.26.1/docs/resources/functions_function oci_functions_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1027,8 +1027,8 @@ export class FunctionsFunction extends cdktf.TerraformResource {
       terraformResourceType: 'oci_functions_function',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.25.0',
-        providerVersionConstraint: '7.25.0'
+        providerVersion: '7.26.1',
+        providerVersionConstraint: '7.26.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

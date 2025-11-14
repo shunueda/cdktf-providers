@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightFirmwareSwitchUpgradeConfig extends cdktf.Terrafo
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#account_moid DataIntersightFirmwareSwitchUpgrade#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#account_moid DataIntersightFirmwareSwitchUpgrade#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,41 +22,41 @@ export interface DataIntersightFirmwareSwitchUpgradeConfig extends cdktf.Terrafo
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#create_time DataIntersightFirmwareSwitchUpgrade#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#create_time DataIntersightFirmwareSwitchUpgrade#create_time}
   */
   readonly createTime?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#domain_group_moid DataIntersightFirmwareSwitchUpgrade#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#domain_group_moid DataIntersightFirmwareSwitchUpgrade#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
   * The flag to enable or disable fabric evacuation during the switch firmware upgrade. In case of IMM, it is mandatory to have the Fabric Interconnects associated with domain profile for fabric evacuation to happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#enable_fabric_evacuation DataIntersightFirmwareSwitchUpgrade#enable_fabric_evacuation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#enable_fabric_evacuation DataIntersightFirmwareSwitchUpgrade#enable_fabric_evacuation}
   */
   readonly enableFabricEvacuation?: boolean | cdktf.IResolvable;
   /**
   * The flag to enable or disable firmware upgrade functionality for the PDB FPGA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#enable_pdb_fpga_upgrade DataIntersightFirmwareSwitchUpgrade#enable_pdb_fpga_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#enable_pdb_fpga_upgrade DataIntersightFirmwareSwitchUpgrade#enable_pdb_fpga_upgrade}
   */
   readonly enablePdbFpgaUpgrade?: boolean | cdktf.IResolvable;
   /**
   * The flag to enable or disable firmware upgrade functionality for the Power Supply Unit (PSU).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#enable_psu_upgrade DataIntersightFirmwareSwitchUpgrade#enable_psu_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#enable_psu_upgrade DataIntersightFirmwareSwitchUpgrade#enable_psu_upgrade}
   */
   readonly enablePsuUpgrade?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#id DataIntersightFirmwareSwitchUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#id DataIntersightFirmwareSwitchUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +65,43 @@ export interface DataIntersightFirmwareSwitchUpgradeConfig extends cdktf.Terrafo
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#mod_time DataIntersightFirmwareSwitchUpgrade#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#mod_time DataIntersightFirmwareSwitchUpgrade#mod_time}
   */
   readonly modTime?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#owners DataIntersightFirmwareSwitchUpgrade#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#owners DataIntersightFirmwareSwitchUpgrade#owners}
   */
   readonly owners?: string[];
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#shared_scope DataIntersightFirmwareSwitchUpgrade#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#shared_scope DataIntersightFirmwareSwitchUpgrade#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * User has the option to skip the estimate impact calculation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#skip_estimate_impact DataIntersightFirmwareSwitchUpgrade#skip_estimate_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#skip_estimate_impact DataIntersightFirmwareSwitchUpgrade#skip_estimate_impact}
   */
   readonly skipEstimateImpact?: boolean | cdktf.IResolvable;
   /**
   * The flag to enable or disable the option to wait for IO paths connectivity during the switch firmware upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#skip_wait_for_io_path_connectivity DataIntersightFirmwareSwitchUpgrade#skip_wait_for_io_path_connectivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#skip_wait_for_io_path_connectivity DataIntersightFirmwareSwitchUpgrade#skip_wait_for_io_path_connectivity}
   */
   readonly skipWaitForIoPathConnectivity?: boolean | cdktf.IResolvable;
   /**
@@ -112,7 +112,7 @@ export interface DataIntersightFirmwareSwitchUpgradeConfig extends cdktf.Terrafo
   * * `FAILED` - The upgrade shows failed status.
   * * `TERMINATED` - The upgrade has been terminated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#status DataIntersightFirmwareSwitchUpgrade#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#status DataIntersightFirmwareSwitchUpgrade#status}
   */
   readonly status?: string;
   /**
@@ -120,91 +120,91 @@ export interface DataIntersightFirmwareSwitchUpgradeConfig extends cdktf.Terrafo
   * * `direct_upgrade` - Upgrade mode is direct download.
   * * `network_upgrade` - Upgrade mode is network upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#upgrade_type DataIntersightFirmwareSwitchUpgrade#upgrade_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#upgrade_type DataIntersightFirmwareSwitchUpgrade#upgrade_type}
   */
   readonly upgradeType?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#ancestors DataIntersightFirmwareSwitchUpgrade#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#ancestors DataIntersightFirmwareSwitchUpgrade#ancestors}
   */
   readonly ancestors?: DataIntersightFirmwareSwitchUpgradeAncestors[] | cdktf.IResolvable;
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#device DataIntersightFirmwareSwitchUpgrade#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#device DataIntersightFirmwareSwitchUpgrade#device}
   */
   readonly device?: DataIntersightFirmwareSwitchUpgradeDevice;
   /**
   * direct_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#direct_download DataIntersightFirmwareSwitchUpgrade#direct_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#direct_download DataIntersightFirmwareSwitchUpgrade#direct_download}
   */
   readonly directDownload?: DataIntersightFirmwareSwitchUpgradeDirectDownload;
   /**
   * distributable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#distributable DataIntersightFirmwareSwitchUpgrade#distributable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#distributable DataIntersightFirmwareSwitchUpgrade#distributable}
   */
   readonly distributable?: DataIntersightFirmwareSwitchUpgradeDistributable;
   /**
   * file_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#file_server DataIntersightFirmwareSwitchUpgrade#file_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#file_server DataIntersightFirmwareSwitchUpgrade#file_server}
   */
   readonly fileServer?: DataIntersightFirmwareSwitchUpgradeFileServer;
   /**
   * network_elements block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#network_elements DataIntersightFirmwareSwitchUpgrade#network_elements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#network_elements DataIntersightFirmwareSwitchUpgrade#network_elements}
   */
   readonly networkElements?: DataIntersightFirmwareSwitchUpgradeNetworkElements[] | cdktf.IResolvable;
   /**
   * network_share block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#network_share DataIntersightFirmwareSwitchUpgrade#network_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#network_share DataIntersightFirmwareSwitchUpgrade#network_share}
   */
   readonly networkShare?: DataIntersightFirmwareSwitchUpgradeNetworkShare;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#parent DataIntersightFirmwareSwitchUpgrade#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#parent DataIntersightFirmwareSwitchUpgrade#parent}
   */
   readonly parent?: DataIntersightFirmwareSwitchUpgradeParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#permission_resources DataIntersightFirmwareSwitchUpgrade#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#permission_resources DataIntersightFirmwareSwitchUpgrade#permission_resources}
   */
   readonly permissionResources?: DataIntersightFirmwareSwitchUpgradePermissionResources[] | cdktf.IResolvable;
   /**
   * release block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#release DataIntersightFirmwareSwitchUpgrade#release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#release DataIntersightFirmwareSwitchUpgrade#release}
   */
   readonly release?: DataIntersightFirmwareSwitchUpgradeRelease;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#tags DataIntersightFirmwareSwitchUpgrade#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#tags DataIntersightFirmwareSwitchUpgrade#tags}
   */
   readonly tags?: DataIntersightFirmwareSwitchUpgradeTags[] | cdktf.IResolvable;
   /**
   * upgrade_impact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#upgrade_impact DataIntersightFirmwareSwitchUpgrade#upgrade_impact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#upgrade_impact DataIntersightFirmwareSwitchUpgrade#upgrade_impact}
   */
   readonly upgradeImpact?: DataIntersightFirmwareSwitchUpgradeUpgradeImpact;
   /**
   * upgrade_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#upgrade_status DataIntersightFirmwareSwitchUpgrade#upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#upgrade_status DataIntersightFirmwareSwitchUpgrade#upgrade_status}
   */
   readonly upgradeStatus?: DataIntersightFirmwareSwitchUpgradeUpgradeStatus;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#version_context DataIntersightFirmwareSwitchUpgrade#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#version_context DataIntersightFirmwareSwitchUpgrade#version_context}
   */
   readonly versionContext?: DataIntersightFirmwareSwitchUpgradeVersionContext;
 }
@@ -1880,6 +1880,11 @@ export class DataIntersightFirmwareSwitchUpgradeResultsTagsOutputReference exten
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -2647,7 +2652,7 @@ export class DataIntersightFirmwareSwitchUpgradeResultsList extends cdktf.Comple
 }
 export interface DataIntersightFirmwareSwitchUpgradeAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2655,19 +2660,19 @@ export interface DataIntersightFirmwareSwitchUpgradeAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2680,7 +2685,7 @@ export interface DataIntersightFirmwareSwitchUpgradeAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -2912,7 +2917,7 @@ export class DataIntersightFirmwareSwitchUpgradeAncestorsList extends cdktf.Comp
 }
 export interface DataIntersightFirmwareSwitchUpgradeDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2920,19 +2925,19 @@ export interface DataIntersightFirmwareSwitchUpgradeDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2945,7 +2950,7 @@ export interface DataIntersightFirmwareSwitchUpgradeDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3145,7 +3150,7 @@ export class DataIntersightFirmwareSwitchUpgradeDeviceOutputReference extends cd
 }
 export interface DataIntersightFirmwareSwitchUpgradeDirectDownloadHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3153,26 +3158,26 @@ export interface DataIntersightFirmwareSwitchUpgradeDirectDownloadHttpServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS link to the image. Accepted formats HTTP[s]://server-hostname/share/image or HTTP[s]://serverip/share/image. For a successful upgrade, the remote share server must have network connectivity with the CIMC of the selected devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#location_link DataIntersightFirmwareSwitchUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#location_link DataIntersightFirmwareSwitchUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
   * Mount option as configured on the HTTP server. Empty if nothing is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -3372,7 +3377,7 @@ export class DataIntersightFirmwareSwitchUpgradeDirectDownloadHttpServerOutputRe
 }
 export interface DataIntersightFirmwareSwitchUpgradeDirectDownload {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3380,7 +3385,7 @@ export interface DataIntersightFirmwareSwitchUpgradeDirectDownload {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -3388,26 +3393,26 @@ export interface DataIntersightFirmwareSwitchUpgradeDirectDownload {
   * * `cisco` - Image to be downloaded from Cisco software repository.
   * * `localHttp` - Image to be downloaded from a https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#image_source DataIntersightFirmwareSwitchUpgrade#image_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#image_source DataIntersightFirmwareSwitchUpgrade#image_source}
   */
   readonly imageSource?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#is_password_set DataIntersightFirmwareSwitchUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#is_password_set DataIntersightFirmwareSwitchUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Password as configured on the local https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#password DataIntersightFirmwareSwitchUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#password DataIntersightFirmwareSwitchUpgrade#password}
   */
   readonly password?: string;
   /**
@@ -3424,19 +3429,19 @@ export interface DataIntersightFirmwareSwitchUpgradeDirectDownload {
   * * `validate_only` - Validate whether a component is ready for ugprade.
   * * `cancel_only` - Cancel pending upgrade only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#upgradeoption DataIntersightFirmwareSwitchUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#upgradeoption DataIntersightFirmwareSwitchUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
   * Username as configured on the local https server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#username DataIntersightFirmwareSwitchUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#username DataIntersightFirmwareSwitchUpgrade#username}
   */
   readonly username?: string;
   /**
   * http_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#http_server DataIntersightFirmwareSwitchUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#http_server DataIntersightFirmwareSwitchUpgrade#http_server}
   */
   readonly httpServer?: DataIntersightFirmwareSwitchUpgradeDirectDownloadHttpServer;
 }
@@ -3752,7 +3757,7 @@ export class DataIntersightFirmwareSwitchUpgradeDirectDownloadOutputReference ex
 }
 export interface DataIntersightFirmwareSwitchUpgradeDistributable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3760,19 +3765,19 @@ export interface DataIntersightFirmwareSwitchUpgradeDistributable {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3785,7 +3790,7 @@ export interface DataIntersightFirmwareSwitchUpgradeDistributable {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -3985,7 +3990,7 @@ export class DataIntersightFirmwareSwitchUpgradeDistributableOutputReference ext
 }
 export interface DataIntersightFirmwareSwitchUpgradeFileServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3994,7 +3999,7 @@ export interface DataIntersightFirmwareSwitchUpgradeFileServer {
   * when marshaling and unmarshaling data.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
@@ -4002,7 +4007,7 @@ export interface DataIntersightFirmwareSwitchUpgradeFileServer {
   * The value should be the same as the 'ClassId' property.
   * The enum values provides the list of concrete types that can be instantiated from this abstract type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -4144,7 +4149,7 @@ export class DataIntersightFirmwareSwitchUpgradeFileServerOutputReference extend
 }
 export interface DataIntersightFirmwareSwitchUpgradeNetworkElements {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4152,19 +4157,19 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkElements {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4177,7 +4182,7 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkElements {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -4409,7 +4414,7 @@ export class DataIntersightFirmwareSwitchUpgradeNetworkElementsList extends cdkt
 }
 export interface DataIntersightFirmwareSwitchUpgradeNetworkShareCifsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4417,13 +4422,13 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShareCifsServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The location to the image file. The accepted format is IP-or-hostname/folder1/folder2/.../imageFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#file_location DataIntersightFirmwareSwitchUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#file_location DataIntersightFirmwareSwitchUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
@@ -4436,32 +4441,32 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShareCifsServer {
   * * `ntlmssp` - Mount options of CIFS file server is ntlmssp.
   * * `ntlmsspi` - Mount options of CIFS file server is ntlmsspi.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Filename of the image in the remote share location. Example:ucs-c220m5-huu-3.1.2c.iso.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_file DataIntersightFirmwareSwitchUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_file DataIntersightFirmwareSwitchUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * CIFS Server Hostname or IP Address. For example:CIFS-server-hostname or 10.10.8.7. The remote share server should have network connectivity with the CIMC of the selected devices for a successful upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_ip DataIntersightFirmwareSwitchUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_ip DataIntersightFirmwareSwitchUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Directory where the image is stored. Example:share/subfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_share DataIntersightFirmwareSwitchUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_share DataIntersightFirmwareSwitchUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -4748,7 +4753,7 @@ export class DataIntersightFirmwareSwitchUpgradeNetworkShareCifsServerOutputRefe
 }
 export interface DataIntersightFirmwareSwitchUpgradeNetworkShareHttpServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4756,26 +4761,26 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShareHttpServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * HTTP/HTTPS link to the image. Accepted formats HTTP[s]://server-hostname/share/image or HTTP[s]://serverip/share/image. For a successful upgrade, the remote share server must have network connectivity with the CIMC of the selected devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#location_link DataIntersightFirmwareSwitchUpgrade#location_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#location_link DataIntersightFirmwareSwitchUpgrade#location_link}
   */
   readonly locationLink?: string;
   /**
   * Mount option as configured on the HTTP server. Empty if nothing is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
 }
@@ -4975,7 +4980,7 @@ export class DataIntersightFirmwareSwitchUpgradeNetworkShareHttpServerOutputRefe
 }
 export interface DataIntersightFirmwareSwitchUpgradeNetworkShareNfsServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4983,44 +4988,44 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShareNfsServer {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The location to the image file. The accepted format is IP-or-hostname/folder1/folder2/.../imageFile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#file_location DataIntersightFirmwareSwitchUpgrade#file_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#file_location DataIntersightFirmwareSwitchUpgrade#file_location}
   */
   readonly fileLocation?: string;
   /**
   * Mount option as configured on the NFS Server. For example:nolock.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#mount_options DataIntersightFirmwareSwitchUpgrade#mount_options}
   */
   readonly mountOptions?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Filename of the image in the remote share location. For example:ucs-c220m5-huu-3.1.2c.iso.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_file DataIntersightFirmwareSwitchUpgrade#remote_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_file DataIntersightFirmwareSwitchUpgrade#remote_file}
   */
   readonly remoteFile?: string;
   /**
   * NFS Server Hostname or IP Address. For example:NFS-server-hostname or 10.10.8.7. The remote share server should have network connectivity with the CIMC of the selected devices for a successful upgrade.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_ip DataIntersightFirmwareSwitchUpgrade#remote_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_ip DataIntersightFirmwareSwitchUpgrade#remote_ip}
   */
   readonly remoteIp?: string;
   /**
   * Directory where the image is stored. For example:/share/subfolder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#remote_share DataIntersightFirmwareSwitchUpgrade#remote_share}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#remote_share DataIntersightFirmwareSwitchUpgrade#remote_share}
   */
   readonly remoteShare?: string;
 }
@@ -5307,7 +5312,7 @@ export class DataIntersightFirmwareSwitchUpgradeNetworkShareNfsServerOutputRefer
 }
 export interface DataIntersightFirmwareSwitchUpgradeNetworkShare {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5315,13 +5320,13 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShare {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * Indicates whether the value of the 'password' property has been set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#is_password_set DataIntersightFirmwareSwitchUpgrade#is_password_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#is_password_set DataIntersightFirmwareSwitchUpgrade#is_password_set}
   */
   readonly isPasswordSet?: boolean | cdktf.IResolvable;
   /**
@@ -5330,20 +5335,20 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShare {
   * * `cifs` - File server protocol used is CIFS.
   * * `www` - File server protocol used is WWW.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#map_type DataIntersightFirmwareSwitchUpgrade#map_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#map_type DataIntersightFirmwareSwitchUpgrade#map_type}
   */
   readonly mapType?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * Password as configured on the file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#password DataIntersightFirmwareSwitchUpgrade#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#password DataIntersightFirmwareSwitchUpgrade#password}
   */
   readonly password?: string;
   /**
@@ -5351,31 +5356,31 @@ export interface DataIntersightFirmwareSwitchUpgradeNetworkShare {
   * * `nw_upgrade_full` - Network upgrade option for full upgrade.
   * * `nw_upgrade_mount_only` - Network upgrade mount only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#upgradeoption DataIntersightFirmwareSwitchUpgrade#upgradeoption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#upgradeoption DataIntersightFirmwareSwitchUpgrade#upgradeoption}
   */
   readonly upgradeoption?: string;
   /**
   * Username as configured on the file server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#username DataIntersightFirmwareSwitchUpgrade#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#username DataIntersightFirmwareSwitchUpgrade#username}
   */
   readonly username?: string;
   /**
   * cifs_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#cifs_server DataIntersightFirmwareSwitchUpgrade#cifs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#cifs_server DataIntersightFirmwareSwitchUpgrade#cifs_server}
   */
   readonly cifsServer?: DataIntersightFirmwareSwitchUpgradeNetworkShareCifsServer;
   /**
   * http_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#http_server DataIntersightFirmwareSwitchUpgrade#http_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#http_server DataIntersightFirmwareSwitchUpgrade#http_server}
   */
   readonly httpServer?: DataIntersightFirmwareSwitchUpgradeNetworkShareHttpServer;
   /**
   * nfs_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#nfs_server DataIntersightFirmwareSwitchUpgrade#nfs_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#nfs_server DataIntersightFirmwareSwitchUpgrade#nfs_server}
   */
   readonly nfsServer?: DataIntersightFirmwareSwitchUpgradeNetworkShareNfsServer;
 }
@@ -5749,7 +5754,7 @@ export class DataIntersightFirmwareSwitchUpgradeNetworkShareOutputReference exte
 }
 export interface DataIntersightFirmwareSwitchUpgradeParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5757,19 +5762,19 @@ export interface DataIntersightFirmwareSwitchUpgradeParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -5782,7 +5787,7 @@ export interface DataIntersightFirmwareSwitchUpgradeParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -5982,7 +5987,7 @@ export class DataIntersightFirmwareSwitchUpgradeParentOutputReference extends cd
 }
 export interface DataIntersightFirmwareSwitchUpgradePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -5990,19 +5995,19 @@ export interface DataIntersightFirmwareSwitchUpgradePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6015,7 +6020,7 @@ export interface DataIntersightFirmwareSwitchUpgradePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6247,7 +6252,7 @@ export class DataIntersightFirmwareSwitchUpgradePermissionResourcesList extends 
 }
 export interface DataIntersightFirmwareSwitchUpgradeRelease {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6255,19 +6260,19 @@ export interface DataIntersightFirmwareSwitchUpgradeRelease {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6280,7 +6285,7 @@ export interface DataIntersightFirmwareSwitchUpgradeRelease {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6480,7 +6485,7 @@ export class DataIntersightFirmwareSwitchUpgradeReleaseOutputReference extends c
 }
 export interface DataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6488,19 +6493,19 @@ export interface DataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6513,7 +6518,7 @@ export interface DataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6745,7 +6750,7 @@ export class DataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitionsList exte
 }
 export interface DataIntersightFirmwareSwitchUpgradeTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -6753,19 +6758,19 @@ export interface DataIntersightFirmwareSwitchUpgradeTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -6778,7 +6783,7 @@ export interface DataIntersightFirmwareSwitchUpgradeTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -6978,45 +6983,51 @@ export class DataIntersightFirmwareSwitchUpgradeTagsDefinitionOutputReference ex
 }
 export interface DataIntersightFirmwareSwitchUpgradeTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#key DataIntersightFirmwareSwitchUpgrade#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#key DataIntersightFirmwareSwitchUpgrade#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#propagated DataIntersightFirmwareSwitchUpgrade#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#propagated DataIntersightFirmwareSwitchUpgrade#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#sys_tag DataIntersightFirmwareSwitchUpgrade#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#type DataIntersightFirmwareSwitchUpgrade#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#type DataIntersightFirmwareSwitchUpgrade#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#value DataIntersightFirmwareSwitchUpgrade#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#value DataIntersightFirmwareSwitchUpgrade#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#ancestor_definitions DataIntersightFirmwareSwitchUpgrade#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#ancestor_definitions DataIntersightFirmwareSwitchUpgrade#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#definition DataIntersightFirmwareSwitchUpgrade#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#definition DataIntersightFirmwareSwitchUpgrade#definition}
   */
   readonly definition?: DataIntersightFirmwareSwitchUpgradeTagsDefinition;
 }
@@ -7030,6 +7041,7 @@ export function dataIntersightFirmwareSwitchUpgradeTagsToTerraform(struct?: Data
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightFirmwareSwitchUpgradeTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -7058,6 +7070,12 @@ export function dataIntersightFirmwareSwitchUpgradeTagsToHclTerraform(struct?: D
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -7124,6 +7142,10 @@ export class DataIntersightFirmwareSwitchUpgradeTagsOutputReference extends cdkt
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -7150,6 +7172,7 @@ export class DataIntersightFirmwareSwitchUpgradeTagsOutputReference extends cdkt
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -7165,6 +7188,7 @@ export class DataIntersightFirmwareSwitchUpgradeTagsOutputReference extends cdkt
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -7218,6 +7242,22 @@ export class DataIntersightFirmwareSwitchUpgradeTagsOutputReference extends cdkt
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -7306,7 +7346,7 @@ export class DataIntersightFirmwareSwitchUpgradeTagsList extends cdktf.ComplexLi
 }
 export interface DataIntersightFirmwareSwitchUpgradeUpgradeImpact {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7314,19 +7354,19 @@ export interface DataIntersightFirmwareSwitchUpgradeUpgradeImpact {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7339,7 +7379,7 @@ export interface DataIntersightFirmwareSwitchUpgradeUpgradeImpact {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -7539,7 +7579,7 @@ export class DataIntersightFirmwareSwitchUpgradeUpgradeImpactOutputReference ext
 }
 export interface DataIntersightFirmwareSwitchUpgradeUpgradeStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7547,19 +7587,19 @@ export interface DataIntersightFirmwareSwitchUpgradeUpgradeStatus {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7572,7 +7612,7 @@ export interface DataIntersightFirmwareSwitchUpgradeUpgradeStatus {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -7772,7 +7812,7 @@ export class DataIntersightFirmwareSwitchUpgradeUpgradeStatusOutputReference ext
 }
 export interface DataIntersightFirmwareSwitchUpgradeVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -7780,19 +7820,19 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContextInterestedMos 
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -7805,7 +7845,7 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContextInterestedMos 
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -8037,7 +8077,7 @@ export class DataIntersightFirmwareSwitchUpgradeVersionContextInterestedMosList 
 }
 export interface DataIntersightFirmwareSwitchUpgradeVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8045,19 +8085,19 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#moid DataIntersightFirmwareSwitchUpgrade#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
@@ -8070,7 +8110,7 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#selector DataIntersightFirmwareSwitchUpgrade#selector}
   */
   readonly selector?: string;
 }
@@ -8270,7 +8310,7 @@ export class DataIntersightFirmwareSwitchUpgradeVersionContextRefMoOutputReferen
 }
 export interface DataIntersightFirmwareSwitchUpgradeVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#additional_properties DataIntersightFirmwareSwitchUpgrade#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -8278,32 +8318,32 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#class_id DataIntersightFirmwareSwitchUpgrade#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#marked_for_deletion DataIntersightFirmwareSwitchUpgrade#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#marked_for_deletion DataIntersightFirmwareSwitchUpgrade#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#nr_version DataIntersightFirmwareSwitchUpgrade#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#nr_version DataIntersightFirmwareSwitchUpgrade#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#object_type DataIntersightFirmwareSwitchUpgrade#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#timestamp DataIntersightFirmwareSwitchUpgrade#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#timestamp DataIntersightFirmwareSwitchUpgrade#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -8314,19 +8354,19 @@ export interface DataIntersightFirmwareSwitchUpgradeVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#version_type DataIntersightFirmwareSwitchUpgrade#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#version_type DataIntersightFirmwareSwitchUpgrade#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#interested_mos DataIntersightFirmwareSwitchUpgrade#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#interested_mos DataIntersightFirmwareSwitchUpgrade#interested_mos}
   */
   readonly interestedMos?: DataIntersightFirmwareSwitchUpgradeVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#ref_mo DataIntersightFirmwareSwitchUpgrade#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#ref_mo DataIntersightFirmwareSwitchUpgrade#ref_mo}
   */
   readonly refMo?: DataIntersightFirmwareSwitchUpgradeVersionContextRefMo;
 }
@@ -8642,7 +8682,7 @@ export class DataIntersightFirmwareSwitchUpgradeVersionContextOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade intersight_firmware_switch_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade intersight_firmware_switch_upgrade}
 */
 export class DataIntersightFirmwareSwitchUpgrade extends cdktf.TerraformDataSource {
 
@@ -8658,7 +8698,7 @@ export class DataIntersightFirmwareSwitchUpgrade extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataIntersightFirmwareSwitchUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightFirmwareSwitchUpgrade to import
-  * @param importFromId The id of the existing DataIntersightFirmwareSwitchUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightFirmwareSwitchUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightFirmwareSwitchUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8670,7 +8710,7 @@ export class DataIntersightFirmwareSwitchUpgrade extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/firmware_switch_upgrade intersight_firmware_switch_upgrade} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/firmware_switch_upgrade intersight_firmware_switch_upgrade} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8681,8 +8721,8 @@ export class DataIntersightFirmwareSwitchUpgrade extends cdktf.TerraformDataSour
       terraformResourceType: 'intersight_firmware_switch_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

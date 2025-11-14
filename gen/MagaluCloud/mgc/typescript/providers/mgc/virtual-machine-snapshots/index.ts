@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots
+// https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualMachineSnapshotsConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the snapshot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots#name VirtualMachineSnapshots#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots#name VirtualMachineSnapshots#name}
   */
   readonly name: string;
   /**
   * The ID of the virtual machine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots#virtual_machine_id VirtualMachineSnapshots#virtual_machine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots#virtual_machine_id VirtualMachineSnapshots#virtual_machine_id}
   */
   readonly virtualMachineId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots mgc_virtual_machine_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots mgc_virtual_machine_snapshots}
 */
 export class VirtualMachineSnapshots extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VirtualMachineSnapshots extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualMachineSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualMachineSnapshots to import
-  * @param importFromId The id of the existing VirtualMachineSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualMachineSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualMachineSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VirtualMachineSnapshots extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.0/docs/resources/virtual_machine_snapshots mgc_virtual_machine_snapshots} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magalucloud/mgc/0.40.1/docs/resources/virtual_machine_snapshots mgc_virtual_machine_snapshots} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VirtualMachineSnapshots extends cdktf.TerraformResource {
       terraformResourceType: 'mgc_virtual_machine_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'mgc',
-        providerVersion: '0.40.0',
-        providerVersionConstraint: '0.40.0'
+        providerVersion: '0.40.1',
+        providerVersionConstraint: '0.40.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

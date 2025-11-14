@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device
+// https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIntersightBootIscsiDeviceConfig extends cdktf.TerraformMeta
   /**
   * The Account ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#account_moid DataIntersightBootIscsiDevice#account_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#account_moid DataIntersightBootIscsiDevice#account_moid}
   */
   readonly accountMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -22,35 +22,35 @@ export interface DataIntersightBootIscsiDeviceConfig extends cdktf.TerraformMeta
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The time when this managed object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#create_time DataIntersightBootIscsiDevice#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#create_time DataIntersightBootIscsiDevice#create_time}
   */
   readonly createTime?: string;
   /**
   * The database identifier of the registered device of an object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#device_mo_id DataIntersightBootIscsiDevice#device_mo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#device_mo_id DataIntersightBootIscsiDevice#device_mo_id}
   */
   readonly deviceMoId?: string;
   /**
   * The Distinguished Name unambiguously identifies an object in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#dn DataIntersightBootIscsiDevice#dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#dn DataIntersightBootIscsiDevice#dn}
   */
   readonly dn?: string;
   /**
   * The DomainGroup ID for this managed object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#domain_group_moid DataIntersightBootIscsiDevice#domain_group_moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#domain_group_moid DataIntersightBootIscsiDevice#domain_group_moid}
   */
   readonly domainGroupMoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#id DataIntersightBootIscsiDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#id DataIntersightBootIscsiDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,151 +59,151 @@ export interface DataIntersightBootIscsiDeviceConfig extends cdktf.TerraformMeta
   /**
   * This field indicates the compute status of the catalog values for the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#is_upgraded DataIntersightBootIscsiDevice#is_upgraded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#is_upgraded DataIntersightBootIscsiDevice#is_upgraded}
   */
   readonly isUpgraded?: boolean | cdktf.IResolvable;
   /**
   * The time when this managed object was last modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#mod_time DataIntersightBootIscsiDevice#mod_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#mod_time DataIntersightBootIscsiDevice#mod_time}
   */
   readonly modTime?: string;
   /**
   * This field displays the model number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#model DataIntersightBootIscsiDevice#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#model DataIntersightBootIscsiDevice#model}
   */
   readonly model?: string;
   /**
   * The unique identifier of this Managed Object instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The name of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#name DataIntersightBootIscsiDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#name DataIntersightBootIscsiDevice#name}
   */
   readonly name?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The order of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#order DataIntersightBootIscsiDevice#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#order DataIntersightBootIscsiDevice#order}
   */
   readonly order?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#owners DataIntersightBootIscsiDevice#owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#owners DataIntersightBootIscsiDevice#owners}
   */
   readonly owners?: string[];
   /**
   * This field indicates the presence (equipped) or absence (absent) of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#presence DataIntersightBootIscsiDevice#presence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#presence DataIntersightBootIscsiDevice#presence}
   */
   readonly presence?: string;
   /**
   * This field displays the revised version of the associated component or hardware (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#revision DataIntersightBootIscsiDevice#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#revision DataIntersightBootIscsiDevice#revision}
   */
   readonly revision?: string;
   /**
   * The Relative Name uniquely identifies an object within a given context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#rn DataIntersightBootIscsiDevice#rn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#rn DataIntersightBootIscsiDevice#rn}
   */
   readonly rn?: string;
   /**
   * This field displays the serial number of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#serial DataIntersightBootIscsiDevice#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#serial DataIntersightBootIscsiDevice#serial}
   */
   readonly serial?: string;
   /**
   * Intersight provides pre-built workflows, tasks and policies to end users through global catalogs.
   * Objects that are made available through global catalogs are said to have a 'shared' ownership. Shared objects are either made globally available to all end users or restricted to end users based on their license entitlement. Users can use this property to differentiate the scope (global or a specific license tier) to which a shared MO belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#shared_scope DataIntersightBootIscsiDevice#shared_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#shared_scope DataIntersightBootIscsiDevice#shared_scope}
   */
   readonly sharedScope?: string;
   /**
   * The state of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#state DataIntersightBootIscsiDevice#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#state DataIntersightBootIscsiDevice#state}
   */
   readonly state?: string;
   /**
   * The type of the boot device configured in the boot policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#type DataIntersightBootIscsiDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#type DataIntersightBootIscsiDevice#type}
   */
   readonly type?: string;
   /**
   * This field displays the vendor information of the associated component or hardware.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#vendor DataIntersightBootIscsiDevice#vendor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#vendor DataIntersightBootIscsiDevice#vendor}
   */
   readonly vendor?: string;
   /**
   * ancestors block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#ancestors DataIntersightBootIscsiDevice#ancestors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#ancestors DataIntersightBootIscsiDevice#ancestors}
   */
   readonly ancestors?: DataIntersightBootIscsiDeviceAncestors[] | cdktf.IResolvable;
   /**
   * compute_physical block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#compute_physical DataIntersightBootIscsiDevice#compute_physical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#compute_physical DataIntersightBootIscsiDevice#compute_physical}
   */
   readonly computePhysical?: DataIntersightBootIscsiDeviceComputePhysical;
   /**
   * inventory_device_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#inventory_device_info DataIntersightBootIscsiDevice#inventory_device_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#inventory_device_info DataIntersightBootIscsiDevice#inventory_device_info}
   */
   readonly inventoryDeviceInfo?: DataIntersightBootIscsiDeviceInventoryDeviceInfo;
   /**
   * parent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#parent DataIntersightBootIscsiDevice#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#parent DataIntersightBootIscsiDevice#parent}
   */
   readonly parent?: DataIntersightBootIscsiDeviceParent;
   /**
   * permission_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#permission_resources DataIntersightBootIscsiDevice#permission_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#permission_resources DataIntersightBootIscsiDevice#permission_resources}
   */
   readonly permissionResources?: DataIntersightBootIscsiDevicePermissionResources[] | cdktf.IResolvable;
   /**
   * previous_fru block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#previous_fru DataIntersightBootIscsiDevice#previous_fru}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#previous_fru DataIntersightBootIscsiDevice#previous_fru}
   */
   readonly previousFru?: DataIntersightBootIscsiDevicePreviousFru;
   /**
   * registered_device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#registered_device DataIntersightBootIscsiDevice#registered_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#registered_device DataIntersightBootIscsiDevice#registered_device}
   */
   readonly registeredDevice?: DataIntersightBootIscsiDeviceRegisteredDevice;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#tags DataIntersightBootIscsiDevice#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#tags DataIntersightBootIscsiDevice#tags}
   */
   readonly tags?: DataIntersightBootIscsiDeviceTags[] | cdktf.IResolvable;
   /**
   * version_context block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#version_context DataIntersightBootIscsiDevice#version_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#version_context DataIntersightBootIscsiDevice#version_context}
   */
   readonly versionContext?: DataIntersightBootIscsiDeviceVersionContext;
 }
@@ -1140,6 +1140,11 @@ export class DataIntersightBootIscsiDeviceResultsTagsOutputReference extends cdk
     return this.getBooleanAttribute('propagated');
   }
 
+  // sys_tag - computed: true, optional: false, required: false
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
@@ -1717,7 +1722,7 @@ export class DataIntersightBootIscsiDeviceResultsList extends cdktf.ComplexList 
 }
 export interface DataIntersightBootIscsiDeviceAncestors {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1725,19 +1730,19 @@ export interface DataIntersightBootIscsiDeviceAncestors {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -1750,7 +1755,7 @@ export interface DataIntersightBootIscsiDeviceAncestors {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -1982,7 +1987,7 @@ export class DataIntersightBootIscsiDeviceAncestorsList extends cdktf.ComplexLis
 }
 export interface DataIntersightBootIscsiDeviceComputePhysical {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -1990,19 +1995,19 @@ export interface DataIntersightBootIscsiDeviceComputePhysical {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2015,7 +2020,7 @@ export interface DataIntersightBootIscsiDeviceComputePhysical {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2215,7 +2220,7 @@ export class DataIntersightBootIscsiDeviceComputePhysicalOutputReference extends
 }
 export interface DataIntersightBootIscsiDeviceInventoryDeviceInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2223,19 +2228,19 @@ export interface DataIntersightBootIscsiDeviceInventoryDeviceInfo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2248,7 +2253,7 @@ export interface DataIntersightBootIscsiDeviceInventoryDeviceInfo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2448,7 +2453,7 @@ export class DataIntersightBootIscsiDeviceInventoryDeviceInfoOutputReference ext
 }
 export interface DataIntersightBootIscsiDeviceParent {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2456,19 +2461,19 @@ export interface DataIntersightBootIscsiDeviceParent {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2481,7 +2486,7 @@ export interface DataIntersightBootIscsiDeviceParent {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2681,7 +2686,7 @@ export class DataIntersightBootIscsiDeviceParentOutputReference extends cdktf.Co
 }
 export interface DataIntersightBootIscsiDevicePermissionResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2689,19 +2694,19 @@ export interface DataIntersightBootIscsiDevicePermissionResources {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2714,7 +2719,7 @@ export interface DataIntersightBootIscsiDevicePermissionResources {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -2946,7 +2951,7 @@ export class DataIntersightBootIscsiDevicePermissionResourcesList extends cdktf.
 }
 export interface DataIntersightBootIscsiDevicePreviousFru {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -2954,19 +2959,19 @@ export interface DataIntersightBootIscsiDevicePreviousFru {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -2979,7 +2984,7 @@ export interface DataIntersightBootIscsiDevicePreviousFru {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3179,7 +3184,7 @@ export class DataIntersightBootIscsiDevicePreviousFruOutputReference extends cdk
 }
 export interface DataIntersightBootIscsiDeviceRegisteredDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3187,19 +3192,19 @@ export interface DataIntersightBootIscsiDeviceRegisteredDevice {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3212,7 +3217,7 @@ export interface DataIntersightBootIscsiDeviceRegisteredDevice {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3412,7 +3417,7 @@ export class DataIntersightBootIscsiDeviceRegisteredDeviceOutputReference extend
 }
 export interface DataIntersightBootIscsiDeviceTagsAncestorDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3420,19 +3425,19 @@ export interface DataIntersightBootIscsiDeviceTagsAncestorDefinitions {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3445,7 +3450,7 @@ export interface DataIntersightBootIscsiDeviceTagsAncestorDefinitions {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3677,7 +3682,7 @@ export class DataIntersightBootIscsiDeviceTagsAncestorDefinitionsList extends cd
 }
 export interface DataIntersightBootIscsiDeviceTagsDefinition {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -3685,19 +3690,19 @@ export interface DataIntersightBootIscsiDeviceTagsDefinition {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -3710,7 +3715,7 @@ export interface DataIntersightBootIscsiDeviceTagsDefinition {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -3910,45 +3915,51 @@ export class DataIntersightBootIscsiDeviceTagsDefinitionOutputReference extends 
 }
 export interface DataIntersightBootIscsiDeviceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
   * The string representation of a tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#key DataIntersightBootIscsiDevice#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#key DataIntersightBootIscsiDevice#key}
   */
   readonly key?: string;
   /**
   * Propagated is a boolean flag that indicates whether the tag is propagated to the related managed objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#propagated DataIntersightBootIscsiDevice#propagated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#propagated DataIntersightBootIscsiDevice#propagated}
   */
   readonly propagated?: boolean | cdktf.IResolvable;
+  /**
+  * Specifies whether the tag is user-defined or owned by the system.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#sys_tag DataIntersightBootIscsiDevice#sys_tag}
+  */
+  readonly sysTag?: boolean | cdktf.IResolvable;
   /**
   * An enum type that defines the type of tag. Supported values are 'pathtag' and 'keyvalue'.
   * * `KeyValue` - KeyValue type of tag. Key is required for these tags. Value is optional.
   * * `PathTag` - Key contain path information. Value is not present for these tags. The path is created by using the '/' character as a delimiter.For example, if the tag is "A/B/C", then "A" is the parent tag, "B" is the child tag of "A" and "C" is the child tag of "B".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#type DataIntersightBootIscsiDevice#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#type DataIntersightBootIscsiDevice#type}
   */
   readonly type?: string;
   /**
   * The string representation of a tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#value DataIntersightBootIscsiDevice#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#value DataIntersightBootIscsiDevice#value}
   */
   readonly value?: string;
   /**
   * ancestor_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#ancestor_definitions DataIntersightBootIscsiDevice#ancestor_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#ancestor_definitions DataIntersightBootIscsiDevice#ancestor_definitions}
   */
   readonly ancestorDefinitions?: DataIntersightBootIscsiDeviceTagsAncestorDefinitions[] | cdktf.IResolvable;
   /**
   * definition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#definition DataIntersightBootIscsiDevice#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#definition DataIntersightBootIscsiDevice#definition}
   */
   readonly definition?: DataIntersightBootIscsiDeviceTagsDefinition;
 }
@@ -3962,6 +3973,7 @@ export function dataIntersightBootIscsiDeviceTagsToTerraform(struct?: DataInters
     additional_properties: cdktf.stringToTerraform(struct!.additionalProperties),
     key: cdktf.stringToTerraform(struct!.key),
     propagated: cdktf.booleanToTerraform(struct!.propagated),
+    sys_tag: cdktf.booleanToTerraform(struct!.sysTag),
     type: cdktf.stringToTerraform(struct!.type),
     value: cdktf.stringToTerraform(struct!.value),
     ancestor_definitions: cdktf.listMapper(dataIntersightBootIscsiDeviceTagsAncestorDefinitionsToTerraform, true)(struct!.ancestorDefinitions),
@@ -3990,6 +4002,12 @@ export function dataIntersightBootIscsiDeviceTagsToHclTerraform(struct?: DataInt
     },
     propagated: {
       value: cdktf.booleanToHclTerraform(struct!.propagated),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    sys_tag: {
+      value: cdktf.booleanToHclTerraform(struct!.sysTag),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -4056,6 +4074,10 @@ export class DataIntersightBootIscsiDeviceTagsOutputReference extends cdktf.Comp
       hasAnyValues = true;
       internalValueResult.propagated = this._propagated;
     }
+    if (this._sysTag !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.sysTag = this._sysTag;
+    }
     if (this._type !== undefined) {
       hasAnyValues = true;
       internalValueResult.type = this._type;
@@ -4082,6 +4104,7 @@ export class DataIntersightBootIscsiDeviceTagsOutputReference extends cdktf.Comp
       this._additionalProperties = undefined;
       this._key = undefined;
       this._propagated = undefined;
+      this._sysTag = undefined;
       this._type = undefined;
       this._value = undefined;
       this._ancestorDefinitions.internalValue = undefined;
@@ -4097,6 +4120,7 @@ export class DataIntersightBootIscsiDeviceTagsOutputReference extends cdktf.Comp
       this._additionalProperties = value.additionalProperties;
       this._key = value.key;
       this._propagated = value.propagated;
+      this._sysTag = value.sysTag;
       this._type = value.type;
       this._value = value.value;
       this._ancestorDefinitions.internalValue = value.ancestorDefinitions;
@@ -4150,6 +4174,22 @@ export class DataIntersightBootIscsiDeviceTagsOutputReference extends cdktf.Comp
   // Temporarily expose input value. Use with caution.
   public get propagatedInput() {
     return this._propagated;
+  }
+
+  // sys_tag - computed: false, optional: true, required: false
+  private _sysTag?: boolean | cdktf.IResolvable; 
+  public get sysTag() {
+    return this.getBooleanAttribute('sys_tag');
+  }
+  public set sysTag(value: boolean | cdktf.IResolvable) {
+    this._sysTag = value;
+  }
+  public resetSysTag() {
+    this._sysTag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get sysTagInput() {
+    return this._sysTag;
   }
 
   // type - computed: false, optional: true, required: false
@@ -4238,7 +4278,7 @@ export class DataIntersightBootIscsiDeviceTagsList extends cdktf.ComplexList {
 }
 export interface DataIntersightBootIscsiDeviceVersionContextInterestedMos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4246,19 +4286,19 @@ export interface DataIntersightBootIscsiDeviceVersionContextInterestedMos {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4271,7 +4311,7 @@ export interface DataIntersightBootIscsiDeviceVersionContextInterestedMos {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4503,7 +4543,7 @@ export class DataIntersightBootIscsiDeviceVersionContextInterestedMosList extend
 }
 export interface DataIntersightBootIscsiDeviceVersionContextRefMo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4511,19 +4551,19 @@ export interface DataIntersightBootIscsiDeviceVersionContextRefMo {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The Moid of the referenced REST resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#moid DataIntersightBootIscsiDevice#moid}
   */
   readonly moid?: string;
   /**
   * The fully-qualified name of the remote type referred by this relationship.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
@@ -4536,7 +4576,7 @@ export interface DataIntersightBootIscsiDeviceVersionContextRefMo {
   * An error is returned if the filter matches zero or more than one REST resource.
   * An example filter string is: Serial eq '3AA8B7T11'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#selector DataIntersightBootIscsiDevice#selector}
   */
   readonly selector?: string;
 }
@@ -4736,7 +4776,7 @@ export class DataIntersightBootIscsiDeviceVersionContextRefMoOutputReference ext
 }
 export interface DataIntersightBootIscsiDeviceVersionContext {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#additional_properties DataIntersightBootIscsiDevice#additional_properties}
   */
   readonly additionalProperties?: string;
   /**
@@ -4744,32 +4784,32 @@ export interface DataIntersightBootIscsiDeviceVersionContext {
   * This property is used as a discriminator to identify the type of the payload
   * when marshaling and unmarshaling data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#class_id DataIntersightBootIscsiDevice#class_id}
   */
   readonly classId?: string;
   /**
   * The flag to indicate if snapshot is marked for deletion or not. If flag is set then snapshot will be removed after the successful deployment of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#marked_for_deletion DataIntersightBootIscsiDevice#marked_for_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#marked_for_deletion DataIntersightBootIscsiDevice#marked_for_deletion}
   */
   readonly markedForDeletion?: boolean | cdktf.IResolvable;
   /**
   * The version of the Managed Object, e.g. an incrementing number or a hash id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#nr_version DataIntersightBootIscsiDevice#nr_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#nr_version DataIntersightBootIscsiDevice#nr_version}
   */
   readonly nrVersion?: string;
   /**
   * The fully-qualified name of the instantiated, concrete type.
   * The value should be the same as the 'ClassId' property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#object_type DataIntersightBootIscsiDevice#object_type}
   */
   readonly objectType?: string;
   /**
   * The time this versioned Managed Object was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#timestamp DataIntersightBootIscsiDevice#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#timestamp DataIntersightBootIscsiDevice#timestamp}
   */
   readonly timestamp?: string;
   /**
@@ -4780,19 +4820,19 @@ export interface DataIntersightBootIscsiDeviceVersionContext {
   * * `Configured` - Version created every time an object is configured to the service profile.
   * * `Deployed` - Version created for objects related to a service profile when it is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#version_type DataIntersightBootIscsiDevice#version_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#version_type DataIntersightBootIscsiDevice#version_type}
   */
   readonly versionType?: string;
   /**
   * interested_mos block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#interested_mos DataIntersightBootIscsiDevice#interested_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#interested_mos DataIntersightBootIscsiDevice#interested_mos}
   */
   readonly interestedMos?: DataIntersightBootIscsiDeviceVersionContextInterestedMos[] | cdktf.IResolvable;
   /**
   * ref_mo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#ref_mo DataIntersightBootIscsiDevice#ref_mo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#ref_mo DataIntersightBootIscsiDevice#ref_mo}
   */
   readonly refMo?: DataIntersightBootIscsiDeviceVersionContextRefMo;
 }
@@ -5108,7 +5148,7 @@ export class DataIntersightBootIscsiDeviceVersionContextOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device intersight_boot_iscsi_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device intersight_boot_iscsi_device}
 */
 export class DataIntersightBootIscsiDevice extends cdktf.TerraformDataSource {
 
@@ -5124,7 +5164,7 @@ export class DataIntersightBootIscsiDevice extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIntersightBootIscsiDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIntersightBootIscsiDevice to import
-  * @param importFromId The id of the existing DataIntersightBootIscsiDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIntersightBootIscsiDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIntersightBootIscsiDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5136,7 +5176,7 @@ export class DataIntersightBootIscsiDevice extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.72/docs/data-sources/boot_iscsi_device intersight_boot_iscsi_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/intersight/1.0.73/docs/data-sources/boot_iscsi_device intersight_boot_iscsi_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5147,8 +5187,8 @@ export class DataIntersightBootIscsiDevice extends cdktf.TerraformDataSource {
       terraformResourceType: 'intersight_boot_iscsi_device',
       terraformGeneratorMetadata: {
         providerName: 'intersight',
-        providerVersion: '1.0.72',
-        providerVersionConstraint: '1.0.72'
+        providerVersion: '1.0.73',
+        providerVersionConstraint: '1.0.73'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
