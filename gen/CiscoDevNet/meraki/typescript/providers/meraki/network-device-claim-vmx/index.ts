@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface NetworkDeviceClaimVmxConfig extends cdktf.TerraformMetaArgument
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx#network_id NetworkDeviceClaimVmx#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx#network_id NetworkDeviceClaimVmx#network_id}
   */
   readonly networkId: string;
   /**
   * The size of the vMX you claim. It can be one of: small, medium, large, xlarge, 100
   *   - Choices: `100`, `large`, `medium`, `small`, `xlarge`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx#size NetworkDeviceClaimVmx#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx#size NetworkDeviceClaimVmx#size}
   */
   readonly size: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx meraki_network_device_claim_vmx}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx meraki_network_device_claim_vmx}
 */
 export class NetworkDeviceClaimVmx extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class NetworkDeviceClaimVmx extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDeviceClaimVmx resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDeviceClaimVmx to import
-  * @param importFromId The id of the existing NetworkDeviceClaimVmx that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDeviceClaimVmx that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDeviceClaimVmx to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class NetworkDeviceClaimVmx extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim_vmx meraki_network_device_claim_vmx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim_vmx meraki_network_device_claim_vmx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class NetworkDeviceClaimVmx extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_device_claim_vmx',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

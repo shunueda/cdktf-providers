@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,208 +11,208 @@ export interface SwitchAccessPolicyConfig extends cdktf.TerraformMetaArguments {
   * Access Type of the policy. Automatically `Hybrid authentication` when hostMode is `Multi-Domain`.
   *   - Choices: `802.1x`, `Hybrid authentication`, `MAC authentication bypass`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#access_policy_type SwitchAccessPolicy#access_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#access_policy_type SwitchAccessPolicy#access_policy_type}
   */
   readonly accessPolicyType?: string;
   /**
   * Supports either `both` or `inbound`. Set to `inbound` to allow unauthorized egress on the switchport. Set to `both` to control both traffic directions with authorization. Defaults to `both`
   *   - Choices: `both`, `inbound`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#dot1x_control_direction SwitchAccessPolicy#dot1x_control_direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#dot1x_control_direction SwitchAccessPolicy#dot1x_control_direction}
   */
   readonly dot1XControlDirection?: string;
   /**
   * Group policy Number for guest group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#guest_group_policy_id SwitchAccessPolicy#guest_group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#guest_group_policy_id SwitchAccessPolicy#guest_group_policy_id}
   */
   readonly guestGroupPolicyId?: string;
   /**
   * If enabled, Meraki devices will periodically send access-request messages to these RADIUS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#guest_port_bouncing SwitchAccessPolicy#guest_port_bouncing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#guest_port_bouncing SwitchAccessPolicy#guest_port_bouncing}
   */
   readonly guestPortBouncing?: boolean | cdktf.IResolvable;
   /**
   * Security Group Tag ID for guest group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#guest_sgt_id SwitchAccessPolicy#guest_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#guest_sgt_id SwitchAccessPolicy#guest_sgt_id}
   */
   readonly guestSgtId?: number;
   /**
   * ID for the guest VLAN allow unauthorized devices access to limited network resources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#guest_vlan_id SwitchAccessPolicy#guest_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#guest_vlan_id SwitchAccessPolicy#guest_vlan_id}
   */
   readonly guestVlanId?: number;
   /**
   * Choose the Host Mode for the access policy.
   *   - Choices: `Multi-Auth`, `Multi-Domain`, `Multi-Host`, `Single-Host`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#host_mode SwitchAccessPolicy#host_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#host_mode SwitchAccessPolicy#host_mode}
   */
   readonly hostMode: string;
   /**
   * Enabling this option will make switches execute 802.1X and MAC-bypass authentication simultaneously so that clients authenticate faster. Only required when accessPolicyType is `Hybrid Authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#increase_access_speed SwitchAccessPolicy#increase_access_speed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#increase_access_speed SwitchAccessPolicy#increase_access_speed}
   */
   readonly increaseAccessSpeed?: boolean | cdktf.IResolvable;
   /**
   * Name of the access policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#name SwitchAccessPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#name SwitchAccessPolicy#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#network_id SwitchAccessPolicy#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#network_id SwitchAccessPolicy#network_id}
   */
   readonly networkId: string;
   /**
   * Enable to send start, interim-update and stop messages to a configured RADIUS accounting server for tracking connected clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_accounting_enabled SwitchAccessPolicy#radius_accounting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_accounting_enabled SwitchAccessPolicy#radius_accounting_enabled}
   */
   readonly radiusAccountingEnabled: boolean | cdktf.IResolvable;
   /**
   * List of RADIUS accounting servers to require connecting devices to authenticate against before granting network access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_accounting_servers SwitchAccessPolicy#radius_accounting_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_accounting_servers SwitchAccessPolicy#radius_accounting_servers}
   */
   readonly radiusAccountingServers?: SwitchAccessPolicyRadiusAccountingServers[] | cdktf.IResolvable;
   /**
   * Authentication mode of the policy ( Open | Closed )
   *   - Choices: `Closed`, `Open`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_authentication_mode SwitchAccessPolicy#radius_authentication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_authentication_mode SwitchAccessPolicy#radius_authentication_mode}
   */
   readonly radiusAuthenticationMode?: string;
   /**
   * Enable to cache authorization and authentication responses on the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_cache_enabled SwitchAccessPolicy#radius_cache_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_cache_enabled SwitchAccessPolicy#radius_cache_enabled}
   */
   readonly radiusCacheEnabled?: boolean | cdktf.IResolvable;
   /**
   * If RADIUS caching is enabled, this value dictates how long the cache will remain in the RADIUS server, in hours, to allow network access without authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_cache_timeout SwitchAccessPolicy#radius_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_cache_timeout SwitchAccessPolicy#radius_cache_timeout}
   */
   readonly radiusCacheTimeout?: number;
   /**
   * Change of authentication for RADIUS re-authentication and disconnection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_coa_support_enabled SwitchAccessPolicy#radius_coa_support_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_coa_support_enabled SwitchAccessPolicy#radius_coa_support_enabled}
   */
   readonly radiusCoaSupportEnabled: boolean | cdktf.IResolvable;
   /**
   * Group policy Number for data VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_data_group_policy_id SwitchAccessPolicy#radius_critical_auth_data_group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_data_group_policy_id SwitchAccessPolicy#radius_critical_auth_data_group_policy_id}
   */
   readonly radiusCriticalAuthDataGroupPolicyId?: string;
   /**
   * Security Group Tag ID for data VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_data_sgt_id SwitchAccessPolicy#radius_critical_auth_data_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_data_sgt_id SwitchAccessPolicy#radius_critical_auth_data_sgt_id}
   */
   readonly radiusCriticalAuthDataSgtId?: number;
   /**
   * VLAN that clients who use data will be placed on when RADIUS authentication fails. Will be null if hostMode is Multi-Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_data_vlan_id SwitchAccessPolicy#radius_critical_auth_data_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_data_vlan_id SwitchAccessPolicy#radius_critical_auth_data_vlan_id}
   */
   readonly radiusCriticalAuthDataVlanId?: number;
   /**
   * Disable port bounce when RADIUS servers are unreachable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_suspend_port_bounce SwitchAccessPolicy#radius_critical_auth_suspend_port_bounce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_suspend_port_bounce SwitchAccessPolicy#radius_critical_auth_suspend_port_bounce}
   */
   readonly radiusCriticalAuthSuspendPortBounce?: boolean | cdktf.IResolvable;
   /**
   * Group policy Number for voice VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_voice_group_policy_id SwitchAccessPolicy#radius_critical_auth_voice_group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_voice_group_policy_id SwitchAccessPolicy#radius_critical_auth_voice_group_policy_id}
   */
   readonly radiusCriticalAuthVoiceGroupPolicyId?: string;
   /**
   * Security Group Tag ID for voice VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_voice_sgt_id SwitchAccessPolicy#radius_critical_auth_voice_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_voice_sgt_id SwitchAccessPolicy#radius_critical_auth_voice_sgt_id}
   */
   readonly radiusCriticalAuthVoiceSgtId?: number;
   /**
   * VLAN that clients who use voice will be placed on when RADIUS authentication fails. Will be null if hostMode is Multi-Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_critical_auth_voice_vlan_id SwitchAccessPolicy#radius_critical_auth_voice_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_critical_auth_voice_vlan_id SwitchAccessPolicy#radius_critical_auth_voice_vlan_id}
   */
   readonly radiusCriticalAuthVoiceVlanId?: number;
   /**
   * Group policy Number for failed authentication group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_failed_auth_group_policy_id SwitchAccessPolicy#radius_failed_auth_group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_failed_auth_group_policy_id SwitchAccessPolicy#radius_failed_auth_group_policy_id}
   */
   readonly radiusFailedAuthGroupPolicyId?: string;
   /**
   * Security Group Tag ID for failed authentication group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_failed_auth_sgt_id SwitchAccessPolicy#radius_failed_auth_sgt_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_failed_auth_sgt_id SwitchAccessPolicy#radius_failed_auth_sgt_id}
   */
   readonly radiusFailedAuthSgtId?: number;
   /**
   * VLAN that clients will be placed on when RADIUS authentication fails. Will be null if hostMode is Multi-Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_failed_auth_vlan_id SwitchAccessPolicy#radius_failed_auth_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_failed_auth_vlan_id SwitchAccessPolicy#radius_failed_auth_vlan_id}
   */
   readonly radiusFailedAuthVlanId?: number;
   /**
   * Acceptable values are `''` for None, or `'11'` for Group Policies ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_group_attribute SwitchAccessPolicy#radius_group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_group_attribute SwitchAccessPolicy#radius_group_attribute}
   */
   readonly radiusGroupAttribute?: string;
   /**
   * Group policy Number for pre-authentication group policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_pre_authentication_group_policy_id SwitchAccessPolicy#radius_pre_authentication_group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_pre_authentication_group_policy_id SwitchAccessPolicy#radius_pre_authentication_group_policy_id}
   */
   readonly radiusPreAuthenticationGroupPolicyId?: string;
   /**
   * Re-authentication period in seconds. Will be null if hostMode is Multi-Auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_re_authentication_interval SwitchAccessPolicy#radius_re_authentication_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_re_authentication_interval SwitchAccessPolicy#radius_re_authentication_interval}
   */
   readonly radiusReAuthenticationInterval?: number;
   /**
   * List of RADIUS servers to require connecting devices to authenticate against before granting network access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_servers SwitchAccessPolicy#radius_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_servers SwitchAccessPolicy#radius_servers}
   */
   readonly radiusServers: SwitchAccessPolicyRadiusServers[] | cdktf.IResolvable;
   /**
   * If enabled, Meraki devices will periodically send access-request messages to these RADIUS servers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#radius_testing_enabled SwitchAccessPolicy#radius_testing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#radius_testing_enabled SwitchAccessPolicy#radius_testing_enabled}
   */
   readonly radiusTestingEnabled: boolean | cdktf.IResolvable;
   /**
   * Enable to restrict access for clients to a specific set of IP addresses or hostnames prior to authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#url_redirect_walled_garden_enabled SwitchAccessPolicy#url_redirect_walled_garden_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#url_redirect_walled_garden_enabled SwitchAccessPolicy#url_redirect_walled_garden_enabled}
   */
   readonly urlRedirectWalledGardenEnabled: boolean | cdktf.IResolvable;
   /**
   * IP address ranges, in CIDR notation, to restrict access for clients to a specific set of IP addresses or hostnames prior to authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#url_redirect_walled_garden_ranges SwitchAccessPolicy#url_redirect_walled_garden_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#url_redirect_walled_garden_ranges SwitchAccessPolicy#url_redirect_walled_garden_ranges}
   */
   readonly urlRedirectWalledGardenRanges?: string[];
   /**
   * CDP/LLDP capable voice clients will be able to use this VLAN. Automatically true when hostMode is `Multi-Domain`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#voice_vlan_clients SwitchAccessPolicy#voice_vlan_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#voice_vlan_clients SwitchAccessPolicy#voice_vlan_clients}
   */
   readonly voiceVlanClients?: boolean | cdktf.IResolvable;
 }
@@ -220,25 +220,25 @@ export interface SwitchAccessPolicyRadiusAccountingServers {
   /**
   * Public IP address of the RADIUS accounting server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#host SwitchAccessPolicy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#host SwitchAccessPolicy#host}
   */
   readonly host?: string;
   /**
   * Organization wide RADIUS server ID. If this field is provided, the host, port and secret field will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#organization_radius_server_id SwitchAccessPolicy#organization_radius_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#organization_radius_server_id SwitchAccessPolicy#organization_radius_server_id}
   */
   readonly organizationRadiusServerId?: string;
   /**
   * UDP port that the RADIUS Accounting server listens on for access requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#port SwitchAccessPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#port SwitchAccessPolicy#port}
   */
   readonly port?: number;
   /**
   * RADIUS client shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#secret SwitchAccessPolicy#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#secret SwitchAccessPolicy#secret}
   */
   readonly secret?: string;
 }
@@ -443,25 +443,25 @@ export interface SwitchAccessPolicyRadiusServers {
   /**
   * Public IP address of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#host SwitchAccessPolicy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#host SwitchAccessPolicy#host}
   */
   readonly host?: string;
   /**
   * Organization wide RADIUS server ID. If this field is provided, the host, port and secret field will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#organization_radius_server_id SwitchAccessPolicy#organization_radius_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#organization_radius_server_id SwitchAccessPolicy#organization_radius_server_id}
   */
   readonly organizationRadiusServerId?: string;
   /**
   * UDP port that the RADIUS server listens on for access requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#port SwitchAccessPolicy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#port SwitchAccessPolicy#port}
   */
   readonly port?: number;
   /**
   * RADIUS client shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#secret SwitchAccessPolicy#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#secret SwitchAccessPolicy#secret}
   */
   readonly secret?: string;
 }
@@ -664,7 +664,7 @@ export class SwitchAccessPolicyRadiusServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy meraki_switch_access_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy meraki_switch_access_policy}
 */
 export class SwitchAccessPolicy extends cdktf.TerraformResource {
 
@@ -680,7 +680,7 @@ export class SwitchAccessPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchAccessPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchAccessPolicy to import
-  * @param importFromId The id of the existing SwitchAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchAccessPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -692,7 +692,7 @@ export class SwitchAccessPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_policy meraki_switch_access_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_policy meraki_switch_access_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -703,8 +703,8 @@ export class SwitchAccessPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_access_policy',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

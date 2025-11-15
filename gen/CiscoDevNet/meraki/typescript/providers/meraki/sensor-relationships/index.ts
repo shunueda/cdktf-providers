@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SensorRelationshipsConfig extends cdktf.TerraformMetaArguments 
   /**
   * An array of the related devices for the role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships#livestream_related_devices SensorRelationships#livestream_related_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships#livestream_related_devices SensorRelationships#livestream_related_devices}
   */
   readonly livestreamRelatedDevices?: SensorRelationshipsLivestreamRelatedDevices[] | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships#serial SensorRelationships#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships#serial SensorRelationships#serial}
   */
   readonly serial: string;
 }
@@ -24,7 +24,7 @@ export interface SensorRelationshipsLivestreamRelatedDevices {
   /**
   * The serial of the related device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships#serial SensorRelationships#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships#serial SensorRelationships#serial}
   */
   readonly serial: string;
 }
@@ -137,7 +137,7 @@ export class SensorRelationshipsLivestreamRelatedDevicesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships meraki_sensor_relationships}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships meraki_sensor_relationships}
 */
 export class SensorRelationships extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class SensorRelationships extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorRelationships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorRelationships to import
-  * @param importFromId The id of the existing SensorRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorRelationships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class SensorRelationships extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_relationships meraki_sensor_relationships} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_relationships meraki_sensor_relationships} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class SensorRelationships extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_sensor_relationships',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

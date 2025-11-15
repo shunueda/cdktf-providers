@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface ApplianceSiteToSiteVpnConfig extends cdktf.TerraformMetaArgumen
   /**
   * The list of VPN hubs, in order of preference. In spoke mode, at least 1 hub is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#hubs ApplianceSiteToSiteVpn#hubs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#hubs ApplianceSiteToSiteVpn#hubs}
   */
   readonly hubs?: ApplianceSiteToSiteVpnHubs[] | cdktf.IResolvable;
   /**
   * The site-to-site VPN mode. Can be one of `none`, `spoke` or `hub`
   *   - Choices: `hub`, `none`, `spoke`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#mode ApplianceSiteToSiteVpn#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#mode ApplianceSiteToSiteVpn#mode}
   */
   readonly mode: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#network_id ApplianceSiteToSiteVpn#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#network_id ApplianceSiteToSiteVpn#network_id}
   */
   readonly networkId: string;
   /**
   * If enabled, VPN subnet translation can be used to translate any local subnets that are allowed to use the VPN into a new subnet with the same number of addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#subnet_nat_is_allowed ApplianceSiteToSiteVpn#subnet_nat_is_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#subnet_nat_is_allowed ApplianceSiteToSiteVpn#subnet_nat_is_allowed}
   */
   readonly subnetNatIsAllowed?: boolean | cdktf.IResolvable;
   /**
   * The list of subnets and their VPN presence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#subnets ApplianceSiteToSiteVpn#subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#subnets ApplianceSiteToSiteVpn#subnets}
   */
   readonly subnets?: ApplianceSiteToSiteVpnSubnets[] | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface ApplianceSiteToSiteVpnHubs {
   /**
   * The network ID of the hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#hub_id ApplianceSiteToSiteVpn#hub_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#hub_id ApplianceSiteToSiteVpn#hub_id}
   */
   readonly hubId: string;
   /**
   * Only valid in `spoke` mode. Indicates whether default route traffic should be sent to this hub.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#use_default_route ApplianceSiteToSiteVpn#use_default_route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#use_default_route ApplianceSiteToSiteVpn#use_default_route}
   */
   readonly useDefaultRoute?: boolean | cdktf.IResolvable;
 }
@@ -193,25 +193,25 @@ export interface ApplianceSiteToSiteVpnSubnets {
   /**
   * The CIDR notation subnet used within the VPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#local_subnet ApplianceSiteToSiteVpn#local_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#local_subnet ApplianceSiteToSiteVpn#local_subnet}
   */
   readonly localSubnet: string;
   /**
   * Whether or not VPN subnet translation is enabled for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#nat_enabled ApplianceSiteToSiteVpn#nat_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#nat_enabled ApplianceSiteToSiteVpn#nat_enabled}
   */
   readonly natEnabled?: boolean | cdktf.IResolvable;
   /**
   * The translated subnet to be used in the VPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#nat_remote_subnet ApplianceSiteToSiteVpn#nat_remote_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#nat_remote_subnet ApplianceSiteToSiteVpn#nat_remote_subnet}
   */
   readonly natRemoteSubnet?: string;
   /**
   * Indicates the presence of the subnet in the VPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#use_vpn ApplianceSiteToSiteVpn#use_vpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#use_vpn ApplianceSiteToSiteVpn#use_vpn}
   */
   readonly useVpn?: boolean | cdktf.IResolvable;
 }
@@ -411,7 +411,7 @@ export class ApplianceSiteToSiteVpnSubnetsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn meraki_appliance_site_to_site_vpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn meraki_appliance_site_to_site_vpn}
 */
 export class ApplianceSiteToSiteVpn extends cdktf.TerraformResource {
 
@@ -427,7 +427,7 @@ export class ApplianceSiteToSiteVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceSiteToSiteVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceSiteToSiteVpn to import
-  * @param importFromId The id of the existing ApplianceSiteToSiteVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceSiteToSiteVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceSiteToSiteVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class ApplianceSiteToSiteVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_site_to_site_vpn meraki_appliance_site_to_site_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_site_to_site_vpn meraki_appliance_site_to_site_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class ApplianceSiteToSiteVpn extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_site_to_site_vpn',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

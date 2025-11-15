@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NetworkDeviceClaimConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optional details for claimed devices (currently only used for Catalyst devices)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#details_by_device NetworkDeviceClaim#details_by_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#details_by_device NetworkDeviceClaim#details_by_device}
   */
   readonly detailsByDevice?: NetworkDeviceClaimDetailsByDevice[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#network_id NetworkDeviceClaim#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#network_id NetworkDeviceClaim#network_id}
   */
   readonly networkId: string;
   /**
   * A list of serials of devices to claim
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#serials NetworkDeviceClaim#serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#serials NetworkDeviceClaim#serials}
   */
   readonly serials: string[];
 }
@@ -30,13 +30,13 @@ export interface NetworkDeviceClaimDetailsByDeviceDetails {
   /**
   * Name of device detail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#name NetworkDeviceClaim#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#name NetworkDeviceClaim#name}
   */
   readonly name: string;
   /**
   * Value of device detail
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#value NetworkDeviceClaim#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#value NetworkDeviceClaim#value}
   */
   readonly value?: string;
 }
@@ -180,13 +180,13 @@ export interface NetworkDeviceClaimDetailsByDevice {
   /**
   * An array of details. Supported list of details includes: 'device mode', 'username', 'password', 'enable password', 'ap mapping type' and 'ap network id'. For onboarding into hybrid mode, the value of the device mode detail must be 'monitored'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#details NetworkDeviceClaim#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#details NetworkDeviceClaim#details}
   */
   readonly details: NetworkDeviceClaimDetailsByDeviceDetails[] | cdktf.IResolvable;
   /**
   * The serial of the device these details relate to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#serial NetworkDeviceClaim#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#serial NetworkDeviceClaim#serial}
   */
   readonly serial: string;
 }
@@ -325,7 +325,7 @@ export class NetworkDeviceClaimDetailsByDeviceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim meraki_network_device_claim}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim meraki_network_device_claim}
 */
 export class NetworkDeviceClaim extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class NetworkDeviceClaim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkDeviceClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkDeviceClaim to import
-  * @param importFromId The id of the existing NetworkDeviceClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkDeviceClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkDeviceClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class NetworkDeviceClaim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_device_claim meraki_network_device_claim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_device_claim meraki_network_device_claim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class NetworkDeviceClaim extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_device_claim',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

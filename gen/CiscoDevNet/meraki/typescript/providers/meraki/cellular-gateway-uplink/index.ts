@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CellularGatewayUplinkConfig extends cdktf.TerraformMetaArgument
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink#bandwidth_limits_limit_down CellularGatewayUplink#bandwidth_limits_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink#bandwidth_limits_limit_down CellularGatewayUplink#bandwidth_limits_limit_down}
   */
   readonly bandwidthLimitsLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink#bandwidth_limits_limit_up CellularGatewayUplink#bandwidth_limits_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink#bandwidth_limits_limit_up CellularGatewayUplink#bandwidth_limits_limit_up}
   */
   readonly bandwidthLimitsLimitUp?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink#network_id CellularGatewayUplink#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink#network_id CellularGatewayUplink#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink meraki_cellular_gateway_uplink}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink meraki_cellular_gateway_uplink}
 */
 export class CellularGatewayUplink extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CellularGatewayUplink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CellularGatewayUplink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CellularGatewayUplink to import
-  * @param importFromId The id of the existing CellularGatewayUplink that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CellularGatewayUplink that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CellularGatewayUplink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CellularGatewayUplink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_uplink meraki_cellular_gateway_uplink} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_uplink meraki_cellular_gateway_uplink} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CellularGatewayUplink extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_cellular_gateway_uplink',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

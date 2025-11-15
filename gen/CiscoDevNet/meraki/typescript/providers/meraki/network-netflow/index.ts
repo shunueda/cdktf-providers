@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface NetworkNetflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IPv4 address of the NetFlow collector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#collector_ip NetworkNetflow#collector_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#collector_ip NetworkNetflow#collector_ip}
   */
   readonly collectorIp?: string;
   /**
   * The port that the NetFlow collector will be listening on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#collector_port NetworkNetflow#collector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#collector_port NetworkNetflow#collector_port}
   */
   readonly collectorPort?: number;
   /**
   * The port that the Encrypted Traffic Analytics collector will be listening on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#eta_dst_port NetworkNetflow#eta_dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#eta_dst_port NetworkNetflow#eta_dst_port}
   */
   readonly etaDstPort?: number;
   /**
   * Boolean indicating whether Encrypted Traffic Analytics is enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#eta_enabled NetworkNetflow#eta_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#eta_enabled NetworkNetflow#eta_enabled}
   */
   readonly etaEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#network_id NetworkNetflow#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#network_id NetworkNetflow#network_id}
   */
   readonly networkId: string;
   /**
   * Boolean indicating whether NetFlow traffic reporting is enabled (true) or disabled (false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#reporting_enabled NetworkNetflow#reporting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#reporting_enabled NetworkNetflow#reporting_enabled}
   */
   readonly reportingEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow meraki_network_netflow}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow meraki_network_netflow}
 */
 export class NetworkNetflow extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class NetworkNetflow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkNetflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkNetflow to import
-  * @param importFromId The id of the existing NetworkNetflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkNetflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkNetflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class NetworkNetflow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_netflow meraki_network_netflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_netflow meraki_network_netflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class NetworkNetflow extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_netflow',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

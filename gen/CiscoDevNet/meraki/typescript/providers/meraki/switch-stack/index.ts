@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SwitchStackConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the new stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack#name SwitchStack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack#name SwitchStack#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack#network_id SwitchStack#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack#network_id SwitchStack#network_id}
   */
   readonly networkId: string;
   /**
   * An array of switch serials to be added into the new stack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack#serials SwitchStack#serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack#serials SwitchStack#serials}
   */
   readonly serials: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack meraki_switch_stack}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack meraki_switch_stack}
 */
 export class SwitchStack extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SwitchStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchStack to import
-  * @param importFromId The id of the existing SwitchStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SwitchStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack meraki_switch_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack meraki_switch_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SwitchStack extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_stack',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_electronic_shelf_label
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_electronic_shelf_label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessDeviceElectronicShelfLabelConfig extends cdkt
   /**
   * Wireless AP serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_electronic_shelf_label#serial DataMerakiWirelessDeviceElectronicShelfLabel#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_electronic_shelf_label#serial DataMerakiWirelessDeviceElectronicShelfLabel#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_electronic_shelf_label meraki_wireless_device_electronic_shelf_label}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_electronic_shelf_label meraki_wireless_device_electronic_shelf_label}
 */
 export class DataMerakiWirelessDeviceElectronicShelfLabel extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMerakiWirelessDeviceElectronicShelfLabel extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataMerakiWirelessDeviceElectronicShelfLabel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessDeviceElectronicShelfLabel to import
-  * @param importFromId The id of the existing DataMerakiWirelessDeviceElectronicShelfLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_electronic_shelf_label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessDeviceElectronicShelfLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_electronic_shelf_label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessDeviceElectronicShelfLabel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMerakiWirelessDeviceElectronicShelfLabel extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_electronic_shelf_label meraki_wireless_device_electronic_shelf_label} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_electronic_shelf_label meraki_wireless_device_electronic_shelf_label} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMerakiWirelessDeviceElectronicShelfLabel extends cdktf.Terrafor
       terraformResourceType: 'meraki_wireless_device_electronic_shelf_label',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/sensor_network_relationships
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/sensor_network_relationships
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSensorNetworkRelationshipsConfig extends cdktf.Terraf
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/sensor_network_relationships#network_id DataMerakiSensorNetworkRelationships#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/sensor_network_relationships#network_id DataMerakiSensorNetworkRelationships#network_id}
   */
   readonly networkId: string;
 }
@@ -192,7 +192,7 @@ export class DataMerakiSensorNetworkRelationshipsItemsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/sensor_network_relationships meraki_sensor_network_relationships}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/sensor_network_relationships meraki_sensor_network_relationships}
 */
 export class DataMerakiSensorNetworkRelationships extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataMerakiSensorNetworkRelationships extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataMerakiSensorNetworkRelationships resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSensorNetworkRelationships to import
-  * @param importFromId The id of the existing DataMerakiSensorNetworkRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/sensor_network_relationships#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSensorNetworkRelationships that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/sensor_network_relationships#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSensorNetworkRelationships to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataMerakiSensorNetworkRelationships extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/sensor_network_relationships meraki_sensor_network_relationships} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/sensor_network_relationships meraki_sensor_network_relationships} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataMerakiSensorNetworkRelationships extends cdktf.TerraformDataSou
       terraformResourceType: 'meraki_sensor_network_relationships',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

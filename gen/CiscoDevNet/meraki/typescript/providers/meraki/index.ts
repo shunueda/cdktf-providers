@@ -176,6 +176,7 @@ export * as wirelessEthernetPortProfileAssign from './wireless-ethernet-port-pro
 export * as wirelessEthernetPortProfileDefault from './wireless-ethernet-port-profile-default';
 export * as wirelessLocationScanning from './wireless-location-scanning';
 export * as wirelessLocationScanningReceiver from './wireless-location-scanning-receiver';
+export * as wirelessMqttSettings from './wireless-mqtt-settings';
 export * as wirelessNetworkBluetoothSettings from './wireless-network-bluetooth-settings';
 export * as wirelessNetworkElectronicShelfLabel from './wireless-network-electronic-shelf-label';
 export * as wirelessRadioSettings from './wireless-radio-settings';
@@ -406,6 +407,7 @@ export * as dataMerakiWirelessEthernetPortProfiles from './data-meraki-wireless-
 export * as dataMerakiWirelessLocationScanning from './data-meraki-wireless-location-scanning';
 export * as dataMerakiWirelessLocationScanningReceiver from './data-meraki-wireless-location-scanning-receiver';
 export * as dataMerakiWirelessLocationScanningReceivers from './data-meraki-wireless-location-scanning-receivers';
+export * as dataMerakiWirelessMqttSettings from './data-meraki-wireless-mqtt-settings';
 export * as dataMerakiWirelessNetworkBluetoothSettings from './data-meraki-wireless-network-bluetooth-settings';
 export * as dataMerakiWirelessNetworkElectronicShelfLabel from './data-meraki-wireless-network-electronic-shelf-label';
 export * as dataMerakiWirelessRadioSettings from './data-meraki-wireless-radio-settings';

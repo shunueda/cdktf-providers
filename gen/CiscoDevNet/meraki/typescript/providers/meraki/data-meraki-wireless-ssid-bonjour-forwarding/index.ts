@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessSsidBonjourForwardingConfig extends cdktf.Ter
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding#network_id DataMerakiWirelessSsidBonjourForwarding#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding#network_id DataMerakiWirelessSsidBonjourForwarding#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding#number DataMerakiWirelessSsidBonjourForwarding#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding#number DataMerakiWirelessSsidBonjourForwarding#number}
   */
   readonly number: string;
 }
@@ -107,7 +107,7 @@ export class DataMerakiWirelessSsidBonjourForwardingRulesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding}
 */
 export class DataMerakiWirelessSsidBonjourForwarding extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataMerakiWirelessSsidBonjourForwarding extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataMerakiWirelessSsidBonjourForwarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsidBonjourForwarding to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsidBonjourForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsidBonjourForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsidBonjourForwarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataMerakiWirelessSsidBonjourForwarding extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataMerakiWirelessSsidBonjourForwarding extends cdktf.TerraformData
       terraformResourceType: 'meraki_wireless_ssid_bonjour_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

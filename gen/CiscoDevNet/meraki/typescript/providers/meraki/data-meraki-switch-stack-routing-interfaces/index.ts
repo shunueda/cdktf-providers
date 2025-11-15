@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiSwitchStackRoutingInterfacesConfig extends cdktf.Terr
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces#network_id DataMerakiSwitchStackRoutingInterfaces#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces#network_id DataMerakiSwitchStackRoutingInterfaces#network_id}
   */
   readonly networkId: string;
   /**
   * Switch stack ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces#switch_stack_id DataMerakiSwitchStackRoutingInterfaces#switch_stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces#switch_stack_id DataMerakiSwitchStackRoutingInterfaces#switch_stack_id}
   */
   readonly switchStackId: string;
 }
@@ -182,7 +182,7 @@ export class DataMerakiSwitchStackRoutingInterfacesItemsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces}
 */
 export class DataMerakiSwitchStackRoutingInterfaces extends cdktf.TerraformDataSource {
 
@@ -198,7 +198,7 @@ export class DataMerakiSwitchStackRoutingInterfaces extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataMerakiSwitchStackRoutingInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchStackRoutingInterfaces to import
-  * @param importFromId The id of the existing DataMerakiSwitchStackRoutingInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchStackRoutingInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchStackRoutingInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class DataMerakiSwitchStackRoutingInterfaces extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class DataMerakiSwitchStackRoutingInterfaces extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_switch_stack_routing_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

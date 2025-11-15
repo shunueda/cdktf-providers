@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AppliancePrefixDelegatedStaticsConfig extends cdktf.TerraformMe
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#items AppliancePrefixDelegatedStatics#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#items AppliancePrefixDelegatedStatics#items}
   */
   readonly items: AppliancePrefixDelegatedStaticsItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#network_id AppliancePrefixDelegatedStatics#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#network_id AppliancePrefixDelegatedStatics#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#organization_id AppliancePrefixDelegatedStatics#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#organization_id AppliancePrefixDelegatedStatics#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,26 +30,26 @@ export interface AppliancePrefixDelegatedStaticsItems {
   /**
   * A name or description for the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#description AppliancePrefixDelegatedStatics#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#description AppliancePrefixDelegatedStatics#description}
   */
   readonly description?: string;
   /**
   * Interfaces associated with the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#origin_interfaces AppliancePrefixDelegatedStatics#origin_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#origin_interfaces AppliancePrefixDelegatedStatics#origin_interfaces}
   */
   readonly originInterfaces?: string[];
   /**
   * Type of the origin
   *   - Choices: `independent`, `internet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#origin_type AppliancePrefixDelegatedStatics#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#origin_type AppliancePrefixDelegatedStatics#origin_type}
   */
   readonly originType: string;
   /**
   * A static IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#prefix AppliancePrefixDelegatedStatics#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#prefix AppliancePrefixDelegatedStatics#prefix}
   */
   readonly prefix: string;
 }
@@ -251,7 +251,7 @@ export class AppliancePrefixDelegatedStaticsItemsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics meraki_appliance_prefix_delegated_statics}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics meraki_appliance_prefix_delegated_statics}
 */
 export class AppliancePrefixDelegatedStatics extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class AppliancePrefixDelegatedStatics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppliancePrefixDelegatedStatics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppliancePrefixDelegatedStatics to import
-  * @param importFromId The id of the existing AppliancePrefixDelegatedStatics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppliancePrefixDelegatedStatics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppliancePrefixDelegatedStatics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class AppliancePrefixDelegatedStatics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_prefix_delegated_statics meraki_appliance_prefix_delegated_statics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_prefix_delegated_statics meraki_appliance_prefix_delegated_statics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class AppliancePrefixDelegatedStatics extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_prefix_delegated_statics',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,104 +10,104 @@ export interface OrganizationLoginSecurityConfig extends cdktf.TerraformMetaArgu
   /**
   * Number of consecutive failed login attempts after which users` accounts will be locked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#account_lockout_attempts OrganizationLoginSecurity#account_lockout_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#account_lockout_attempts OrganizationLoginSecurity#account_lockout_attempts}
   */
   readonly accountLockoutAttempts?: number;
   /**
   * Boolean indicating whether the organization will restrict API key (not Dashboard GUI) usage to a specific list of IP addresses or CIDR ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#api_authentication_ip_restrictions_for_keys_enabled OrganizationLoginSecurity#api_authentication_ip_restrictions_for_keys_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#api_authentication_ip_restrictions_for_keys_enabled OrganizationLoginSecurity#api_authentication_ip_restrictions_for_keys_enabled}
   */
   readonly apiAuthenticationIpRestrictionsForKeysEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of acceptable IP ranges. Entries can be single IP addresses, IP address ranges, and CIDR subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#api_authentication_ip_restrictions_for_keys_ranges OrganizationLoginSecurity#api_authentication_ip_restrictions_for_keys_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#api_authentication_ip_restrictions_for_keys_ranges OrganizationLoginSecurity#api_authentication_ip_restrictions_for_keys_ranges}
   */
   readonly apiAuthenticationIpRestrictionsForKeysRanges?: string[];
   /**
   * Boolean indicating whether users` Dashboard accounts will be locked out after a specified number of consecutive failed login attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_account_lockout OrganizationLoginSecurity#enforce_account_lockout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_account_lockout OrganizationLoginSecurity#enforce_account_lockout}
   */
   readonly enforceAccountLockout?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether users, when setting a new password, are forced to choose a new password that is different from any past passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_different_passwords OrganizationLoginSecurity#enforce_different_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_different_passwords OrganizationLoginSecurity#enforce_different_passwords}
   */
   readonly enforceDifferentPasswords?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether users will be logged out after being idle for the specified number of minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_idle_timeout OrganizationLoginSecurity#enforce_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_idle_timeout OrganizationLoginSecurity#enforce_idle_timeout}
   */
   readonly enforceIdleTimeout?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether organization will restrict access to Dashboard (including the API) from certain IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_login_ip_ranges OrganizationLoginSecurity#enforce_login_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_login_ip_ranges OrganizationLoginSecurity#enforce_login_ip_ranges}
   */
   readonly enforceLoginIpRanges?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether users are forced to change their password every X number of days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_password_expiration OrganizationLoginSecurity#enforce_password_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_password_expiration OrganizationLoginSecurity#enforce_password_expiration}
   */
   readonly enforcePasswordExpiration?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether users will be forced to choose strong passwords for their accounts. Strong passwords are at least 8 characters that contain 3 of the following: number, uppercase letter, lowercase letter, and symbol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_strong_passwords OrganizationLoginSecurity#enforce_strong_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_strong_passwords OrganizationLoginSecurity#enforce_strong_passwords}
   */
   readonly enforceStrongPasswords?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether users in this organization will be required to use an extra verification code when logging in to Dashboard. This code will be sent to their mobile phone via SMS, or can be generated by the authenticator application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#enforce_two_factor_auth OrganizationLoginSecurity#enforce_two_factor_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#enforce_two_factor_auth OrganizationLoginSecurity#enforce_two_factor_auth}
   */
   readonly enforceTwoFactorAuth?: boolean | cdktf.IResolvable;
   /**
   * Number of minutes users can remain idle before being logged out of their accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#idle_timeout_minutes OrganizationLoginSecurity#idle_timeout_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#idle_timeout_minutes OrganizationLoginSecurity#idle_timeout_minutes}
   */
   readonly idleTimeoutMinutes?: number;
   /**
   * List of acceptable IP ranges. Entries can be single IP addresses, IP address ranges, and CIDR subnets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#login_ip_ranges OrganizationLoginSecurity#login_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#login_ip_ranges OrganizationLoginSecurity#login_ip_ranges}
   */
   readonly loginIpRanges?: string[];
   /**
   * Minimum number of characters required in admins` passwords.
   *   - Range: `8`-`16`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#minimum_password_length OrganizationLoginSecurity#minimum_password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#minimum_password_length OrganizationLoginSecurity#minimum_password_length}
   */
   readonly minimumPasswordLength?: number;
   /**
   * Number of recent passwords that new password must be distinct from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#num_different_passwords OrganizationLoginSecurity#num_different_passwords}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#num_different_passwords OrganizationLoginSecurity#num_different_passwords}
   */
   readonly numDifferentPasswords?: number;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#organization_id OrganizationLoginSecurity#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#organization_id OrganizationLoginSecurity#organization_id}
   */
   readonly organizationId: string;
   /**
   * Number of days after which users will be forced to change their password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#password_expiration_days OrganizationLoginSecurity#password_expiration_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#password_expiration_days OrganizationLoginSecurity#password_expiration_days}
   */
   readonly passwordExpirationDays?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security meraki_organization_login_security}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security meraki_organization_login_security}
 */
 export class OrganizationLoginSecurity extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class OrganizationLoginSecurity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationLoginSecurity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationLoginSecurity to import
-  * @param importFromId The id of the existing OrganizationLoginSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationLoginSecurity that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationLoginSecurity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class OrganizationLoginSecurity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_login_security meraki_organization_login_security} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_login_security meraki_organization_login_security} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class OrganizationLoginSecurity extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_login_security',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

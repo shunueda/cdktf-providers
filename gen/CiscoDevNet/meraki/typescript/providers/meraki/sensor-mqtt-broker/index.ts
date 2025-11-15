@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SensorMqttBrokerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set to true to enable MQTT broker for sensor network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker#enabled SensorMqttBroker#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker#enabled SensorMqttBroker#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * MQTT Broker ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker#mqtt_broker_id SensorMqttBroker#mqtt_broker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker#mqtt_broker_id SensorMqttBroker#mqtt_broker_id}
   */
   readonly mqttBrokerId: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker#network_id SensorMqttBroker#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker#network_id SensorMqttBroker#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker meraki_sensor_mqtt_broker}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker meraki_sensor_mqtt_broker}
 */
 export class SensorMqttBroker extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SensorMqttBroker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorMqttBroker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorMqttBroker to import
-  * @param importFromId The id of the existing SensorMqttBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorMqttBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorMqttBroker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SensorMqttBroker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sensor_mqtt_broker meraki_sensor_mqtt_broker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_broker meraki_sensor_mqtt_broker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SensorMqttBroker extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_sensor_mqtt_broker',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

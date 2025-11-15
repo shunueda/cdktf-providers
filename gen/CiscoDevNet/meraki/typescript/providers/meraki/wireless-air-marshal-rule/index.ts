@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,33 +10,33 @@ export interface WirelessAirMarshalRuleConfig extends cdktf.TerraformMetaArgumen
   /**
   * The string used to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule#match_string WirelessAirMarshalRule#match_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule#match_string WirelessAirMarshalRule#match_string}
   */
   readonly matchString?: string;
   /**
   * The type of match.
   *   - Choices: `bssid`, `contains`, `exact`, `wildcard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule#match_type WirelessAirMarshalRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule#match_type WirelessAirMarshalRule#match_type}
   */
   readonly matchType?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule#network_id WirelessAirMarshalRule#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule#network_id WirelessAirMarshalRule#network_id}
   */
   readonly networkId: string;
   /**
   * Indicates if this rule will allow, block, or alert.
   *   - Choices: `alert`, `allow`, `block`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule#type WirelessAirMarshalRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule#type WirelessAirMarshalRule#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule meraki_wireless_air_marshal_rule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule meraki_wireless_air_marshal_rule}
 */
 export class WirelessAirMarshalRule extends cdktf.TerraformResource {
 
@@ -52,7 +52,7 @@ export class WirelessAirMarshalRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessAirMarshalRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessAirMarshalRule to import
-  * @param importFromId The id of the existing WirelessAirMarshalRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessAirMarshalRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessAirMarshalRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class WirelessAirMarshalRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_air_marshal_rule meraki_wireless_air_marshal_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_air_marshal_rule meraki_wireless_air_marshal_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class WirelessAirMarshalRule extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_air_marshal_rule',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

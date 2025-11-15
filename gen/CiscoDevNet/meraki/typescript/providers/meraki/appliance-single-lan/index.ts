@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ApplianceSingleLanConfig extends cdktf.TerraformMetaArguments {
   /**
   * The appliance IP address of the single LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#appliance_ip ApplianceSingleLan#appliance_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#appliance_ip ApplianceSingleLan#appliance_ip}
   */
   readonly applianceIp?: string;
   /**
   * Enable IPv6 on VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#ipv6_enabled ApplianceSingleLan#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#ipv6_enabled ApplianceSingleLan#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Prefix assignments on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#ipv6_prefix_assignments ApplianceSingleLan#ipv6_prefix_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#ipv6_prefix_assignments ApplianceSingleLan#ipv6_prefix_assignments}
   */
   readonly ipv6PrefixAssignments?: ApplianceSingleLanIpv6PrefixAssignments[] | cdktf.IResolvable;
   /**
   * Enable Mandatory DHCP on LAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#mandatory_dhcp_enabled ApplianceSingleLan#mandatory_dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#mandatory_dhcp_enabled ApplianceSingleLan#mandatory_dhcp_enabled}
   */
   readonly mandatoryDhcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#network_id ApplianceSingleLan#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#network_id ApplianceSingleLan#network_id}
   */
   readonly networkId: string;
   /**
   * The subnet of the single LAN configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#subnet ApplianceSingleLan#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#subnet ApplianceSingleLan#subnet}
   */
   readonly subnet?: string;
 }
@@ -48,32 +48,32 @@ export interface ApplianceSingleLanIpv6PrefixAssignments {
   /**
   * Auto assign a /64 prefix from the origin to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#autonomous ApplianceSingleLan#autonomous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#autonomous ApplianceSingleLan#autonomous}
   */
   readonly autonomous?: boolean | cdktf.IResolvable;
   /**
   * Interfaces associated with the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#origin_interfaces ApplianceSingleLan#origin_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#origin_interfaces ApplianceSingleLan#origin_interfaces}
   */
   readonly originInterfaces?: string[];
   /**
   * Type of the origin
   *   - Choices: `independent`, `internet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#origin_type ApplianceSingleLan#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#origin_type ApplianceSingleLan#origin_type}
   */
   readonly originType?: string;
   /**
   * Manual configuration of the IPv6 Appliance IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#static_appliance_ip6 ApplianceSingleLan#static_appliance_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#static_appliance_ip6 ApplianceSingleLan#static_appliance_ip6}
   */
   readonly staticApplianceIp6?: string;
   /**
   * Manual configuration of a /64 prefix on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#static_prefix ApplianceSingleLan#static_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#static_prefix ApplianceSingleLan#static_prefix}
   */
   readonly staticPrefix?: string;
 }
@@ -305,7 +305,7 @@ export class ApplianceSingleLanIpv6PrefixAssignmentsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan meraki_appliance_single_lan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan meraki_appliance_single_lan}
 */
 export class ApplianceSingleLan extends cdktf.TerraformResource {
 
@@ -321,7 +321,7 @@ export class ApplianceSingleLan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceSingleLan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceSingleLan to import
-  * @param importFromId The id of the existing ApplianceSingleLan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceSingleLan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceSingleLan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -333,7 +333,7 @@ export class ApplianceSingleLan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_single_lan meraki_appliance_single_lan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_single_lan meraki_appliance_single_lan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -344,8 +344,8 @@ export class ApplianceSingleLan extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_single_lan',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SwitchWarmSpareConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable or disable warm spare for a switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare#enabled SwitchWarmSpare#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare#enabled SwitchWarmSpare#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare#serial SwitchWarmSpare#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare#serial SwitchWarmSpare#serial}
   */
   readonly serial: string;
   /**
   * Serial number of the warm spare switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare#spare_serial SwitchWarmSpare#spare_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare#spare_serial SwitchWarmSpare#spare_serial}
   */
   readonly spareSerial?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare meraki_switch_warm_spare}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare meraki_switch_warm_spare}
 */
 export class SwitchWarmSpare extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SwitchWarmSpare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchWarmSpare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchWarmSpare to import
-  * @param importFromId The id of the existing SwitchWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchWarmSpare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SwitchWarmSpare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_warm_spare meraki_switch_warm_spare} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_warm_spare meraki_switch_warm_spare} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SwitchWarmSpare extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_warm_spare',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface WirelessZigbeeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Channel
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#defaults_channel WirelessZigbee#defaults_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#defaults_channel WirelessZigbee#defaults_channel}
   */
   readonly defaultsChannel?: string;
   /**
   * Transmit Power Level
   *   - Range: `10`-`20`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#defaults_transmit_power_level WirelessZigbee#defaults_transmit_power_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#defaults_transmit_power_level WirelessZigbee#defaults_transmit_power_level}
   */
   readonly defaultsTransmitPowerLevel?: number;
   /**
   * To enable/disable Zigbee on the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#enabled WirelessZigbee#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#enabled WirelessZigbee#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Device Serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#iot_controller_serial WirelessZigbee#iot_controller_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#iot_controller_serial WirelessZigbee#iot_controller_serial}
   */
   readonly iotControllerSerial?: string;
   /**
   * Host Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#lock_management_address WirelessZigbee#lock_management_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#lock_management_address WirelessZigbee#lock_management_address}
   */
   readonly lockManagementAddress?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#lock_management_password WirelessZigbee#lock_management_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#lock_management_password WirelessZigbee#lock_management_password}
   */
   readonly lockManagementPassword?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#lock_management_username WirelessZigbee#lock_management_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#lock_management_username WirelessZigbee#lock_management_username}
   */
   readonly lockManagementUsername?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#network_id WirelessZigbee#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#network_id WirelessZigbee#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee meraki_wireless_zigbee}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee meraki_wireless_zigbee}
 */
 export class WirelessZigbee extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class WirelessZigbee extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessZigbee resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessZigbee to import
-  * @param importFromId The id of the existing WirelessZigbee that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessZigbee that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessZigbee to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class WirelessZigbee extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_zigbee meraki_wireless_zigbee} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_zigbee meraki_wireless_zigbee} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class WirelessZigbee extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_zigbee',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

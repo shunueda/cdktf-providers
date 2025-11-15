@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApplianceRadioSettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Sets a manual channel for 5 GHz. Can be `36`, `40`, `44`, `48`, `52`, `56`, `60`, `64`, `100`, `104`, `108`, `112`, `116`, `120`, `124`, `128`, `132`, `136`, `140`, `144`, `149`, `153`, `157`, `161`, `165`, `169`, `173` or `177` or null for using auto channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#five_ghz_settings_channel ApplianceRadioSettings#five_ghz_settings_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#five_ghz_settings_channel ApplianceRadioSettings#five_ghz_settings_channel}
   */
   readonly fiveGhzSettingsChannel?: number;
   /**
   * Sets a manual channel width for 5 GHz. Can be `0`, `20`, `40`, `80` or `160` or null for using auto channel width.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#five_ghz_settings_channel_width ApplianceRadioSettings#five_ghz_settings_channel_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#five_ghz_settings_channel_width ApplianceRadioSettings#five_ghz_settings_channel_width}
   */
   readonly fiveGhzSettingsChannelWidth?: number;
   /**
   * Set a manual target power for 5 GHz (dBm). Enter null for using auto power range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#five_ghz_settings_target_power ApplianceRadioSettings#five_ghz_settings_target_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#five_ghz_settings_target_power ApplianceRadioSettings#five_ghz_settings_target_power}
   */
   readonly fiveGhzSettingsTargetPower?: number;
   /**
   * The ID of an RF profile to assign to the device. If the value of this parameter is null, the appropriate basic RF profile (indoor or outdoor) will be assigned to the device. Assigning an RF profile will clear ALL manually configured overrides on the device (channel width, channel, power).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#rf_profile_id ApplianceRadioSettings#rf_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#rf_profile_id ApplianceRadioSettings#rf_profile_id}
   */
   readonly rfProfileId?: string;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#serial ApplianceRadioSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#serial ApplianceRadioSettings#serial}
   */
   readonly serial: string;
   /**
   * Sets a manual channel for 2.4 GHz. Can be `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `13` or `14` or null for using auto channel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#two_four_ghz_settings_channel ApplianceRadioSettings#two_four_ghz_settings_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#two_four_ghz_settings_channel ApplianceRadioSettings#two_four_ghz_settings_channel}
   */
   readonly twoFourGhzSettingsChannel?: number;
   /**
   * Set a manual target power for 2.4 GHz (dBm). Enter null for using auto power range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#two_four_ghz_settings_target_power ApplianceRadioSettings#two_four_ghz_settings_target_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#two_four_ghz_settings_target_power ApplianceRadioSettings#two_four_ghz_settings_target_power}
   */
   readonly twoFourGhzSettingsTargetPower?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings meraki_appliance_radio_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings meraki_appliance_radio_settings}
 */
 export class ApplianceRadioSettings extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApplianceRadioSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceRadioSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceRadioSettings to import
-  * @param importFromId The id of the existing ApplianceRadioSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceRadioSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceRadioSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApplianceRadioSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_radio_settings meraki_appliance_radio_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_radio_settings meraki_appliance_radio_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApplianceRadioSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_radio_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

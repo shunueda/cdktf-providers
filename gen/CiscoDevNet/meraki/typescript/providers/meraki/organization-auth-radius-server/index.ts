@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationAuthRadiusServerConfig extends cdktf.TerraformMetaA
   /**
   * The IP address or FQDN of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#address OrganizationAuthRadiusServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#address OrganizationAuthRadiusServer#address}
   */
   readonly address: string;
   /**
   * Available server modes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#modes OrganizationAuthRadiusServer#modes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#modes OrganizationAuthRadiusServer#modes}
   */
   readonly modes: OrganizationAuthRadiusServerModes[] | cdktf.IResolvable;
   /**
   * The name of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#name OrganizationAuthRadiusServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#name OrganizationAuthRadiusServer#name}
   */
   readonly name?: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#organization_id OrganizationAuthRadiusServer#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#organization_id OrganizationAuthRadiusServer#organization_id}
   */
   readonly organizationId: string;
   /**
   * Shared secret of the RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#secret OrganizationAuthRadiusServer#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#secret OrganizationAuthRadiusServer#secret}
   */
   readonly secret: string;
 }
@@ -43,13 +43,13 @@ export interface OrganizationAuthRadiusServerModes {
   * Type of server
   *   - Choices: `accounting`, `auth`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#mode OrganizationAuthRadiusServer#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#mode OrganizationAuthRadiusServer#mode}
   */
   readonly mode: string;
   /**
   * TCP port number for the corresponding server mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#port OrganizationAuthRadiusServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#port OrganizationAuthRadiusServer#port}
   */
   readonly port: number;
 }
@@ -188,7 +188,7 @@ export class OrganizationAuthRadiusServerModesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server meraki_organization_auth_radius_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server meraki_organization_auth_radius_server}
 */
 export class OrganizationAuthRadiusServer extends cdktf.TerraformResource {
 
@@ -204,7 +204,7 @@ export class OrganizationAuthRadiusServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAuthRadiusServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAuthRadiusServer to import
-  * @param importFromId The id of the existing OrganizationAuthRadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAuthRadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAuthRadiusServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -216,7 +216,7 @@ export class OrganizationAuthRadiusServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_auth_radius_server meraki_organization_auth_radius_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_auth_radius_server meraki_organization_auth_radius_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -227,8 +227,8 @@ export class OrganizationAuthRadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_auth_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_warm_spare
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_warm_spare
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiSwitchWarmSpareConfig extends cdktf.TerraformMetaArgu
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_warm_spare#serial DataMerakiSwitchWarmSpare#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_warm_spare#serial DataMerakiSwitchWarmSpare#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_warm_spare meraki_switch_warm_spare}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_warm_spare meraki_switch_warm_spare}
 */
 export class DataMerakiSwitchWarmSpare extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMerakiSwitchWarmSpare extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiSwitchWarmSpare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchWarmSpare to import
-  * @param importFromId The id of the existing DataMerakiSwitchWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_warm_spare#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_warm_spare#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchWarmSpare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMerakiSwitchWarmSpare extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_warm_spare meraki_switch_warm_spare} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_warm_spare meraki_switch_warm_spare} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMerakiSwitchWarmSpare extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_switch_warm_spare',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

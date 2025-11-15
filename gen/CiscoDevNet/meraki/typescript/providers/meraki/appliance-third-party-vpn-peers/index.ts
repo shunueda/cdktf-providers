@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceThirdPartyVpnPeersConfig extends cdktf.TerraformMetaAr
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#organization_id ApplianceThirdPartyVpnPeers#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#organization_id ApplianceThirdPartyVpnPeers#organization_id}
   */
   readonly organizationId: string;
   /**
   * The list of VPN peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#peers ApplianceThirdPartyVpnPeers#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#peers ApplianceThirdPartyVpnPeers#peers}
   */
   readonly peers: ApplianceThirdPartyVpnPeersPeers[] | cdktf.IResolvable;
 }
@@ -24,218 +24,218 @@ export interface ApplianceThirdPartyVpnPeersPeers {
   /**
   * The eBGP hold timer in seconds for each neighbor. The eBGP hold timer must be an integer between 12 and 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ebgp_hold_timer ApplianceThirdPartyVpnPeers#ebgp_neighbor_ebgp_hold_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ebgp_hold_timer ApplianceThirdPartyVpnPeers#ebgp_neighbor_ebgp_hold_timer}
   */
   readonly ebgpNeighborEbgpHoldTimer?: number;
   /**
   * Configure this if the neighbor is not adjacent. The eBGP multi-hop must be an integer between 1 and 255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ebgp_multihop ApplianceThirdPartyVpnPeers#ebgp_neighbor_ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ebgp_multihop ApplianceThirdPartyVpnPeers#ebgp_neighbor_ebgp_multihop}
   */
   readonly ebgpNeighborEbgpMultihop?: number;
   /**
   * The IP version of the neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ip_version ApplianceThirdPartyVpnPeers#ebgp_neighbor_ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_ip_version ApplianceThirdPartyVpnPeers#ebgp_neighbor_ip_version}
   */
   readonly ebgpNeighborIpVersion?: number;
   /**
   * Configures the local metric associated with routes received from the remote peer. Routes from peers with lower metrics are will be preferred. Must be an integer between 0 and 4294967295. MED is 6th in the decision tree when identical routes from multiple peers exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_multi_exit_discriminator ApplianceThirdPartyVpnPeers#ebgp_neighbor_multi_exit_discriminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_multi_exit_discriminator ApplianceThirdPartyVpnPeers#ebgp_neighbor_multi_exit_discriminator}
   */
   readonly ebgpNeighborMultiExitDiscriminator?: number;
   /**
   * IPv4/IPv6 address of the neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_neighbor_ip ApplianceThirdPartyVpnPeers#ebgp_neighbor_neighbor_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_neighbor_ip ApplianceThirdPartyVpnPeers#ebgp_neighbor_neighbor_ip}
   */
   readonly ebgpNeighborNeighborIp?: string;
   /**
   * Prepends the AS_PATH BGP Attribute associated with routes received from the remote peer. Configurable value of ASNs to prepend. Length of the array may not exceed 10, and each ASN in the array must be an integer between 1 and 4294967295. AS_PATH is 4th in the decision tree when identical routes from multiple peers exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_path_prepend ApplianceThirdPartyVpnPeers#ebgp_neighbor_path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_path_prepend ApplianceThirdPartyVpnPeers#ebgp_neighbor_path_prepend}
   */
   readonly ebgpNeighborPathPrepend?: number[];
   /**
   * Remote ASN of the neighbor. The remote ASN must be an integer between 1 and 4294967295.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_remote_as_number ApplianceThirdPartyVpnPeers#ebgp_neighbor_remote_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_remote_as_number ApplianceThirdPartyVpnPeers#ebgp_neighbor_remote_as_number}
   */
   readonly ebgpNeighborRemoteAsNumber?: number;
   /**
   * Source IP of eBGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_source_ip ApplianceThirdPartyVpnPeers#ebgp_neighbor_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_source_ip ApplianceThirdPartyVpnPeers#ebgp_neighbor_source_ip}
   */
   readonly ebgpNeighborSourceIp?: string;
   /**
   * Configures the local metric associated with routes received from the remote peer. Routes from peers with lower metrics are will be preferred. Must be an integer between 0 and 4294967295. MED is 6th in the decision tree when identical routes from multiple peers exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_weight ApplianceThirdPartyVpnPeers#ebgp_neighbor_weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ebgp_neighbor_weight ApplianceThirdPartyVpnPeers#ebgp_neighbor_weight}
   */
   readonly ebgpNeighborWeight?: number;
   /**
   * [optional] Both primary and backup tunnels are active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#group_active_active_tunnel ApplianceThirdPartyVpnPeers#group_active_active_tunnel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#group_active_active_tunnel ApplianceThirdPartyVpnPeers#group_active_active_tunnel}
   */
   readonly groupActiveActiveTunnel?: boolean | cdktf.IResolvable;
   /**
   * [optional] When both primary and backup tunnels are down, direct traffic to the internet. Traffic will be routed via the WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#group_failover_direct_to_internet ApplianceThirdPartyVpnPeers#group_failover_direct_to_internet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#group_failover_direct_to_internet ApplianceThirdPartyVpnPeers#group_failover_direct_to_internet}
   */
   readonly groupFailoverDirectToInternet?: boolean | cdktf.IResolvable;
   /**
   * [optional] Represents the ordering of primary and backup tunnels group. primary and backup tunnels are grouped by this number. If you submit a request with the numbers [1, 9, 999], these numbers will be automatically adjusted to a sequential order starting from 1. So, they will be changed to [1, 2, 3] to reflect their positions in the sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#group_number ApplianceThirdPartyVpnPeers#group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#group_number ApplianceThirdPartyVpnPeers#group_number}
   */
   readonly groupNumber?: number;
   /**
   * [optional] The IKE version to be used for the IPsec VPN peer configuration. Defaults to `1` when omitted.
   *   - Choices: `1`, `2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ike_version ApplianceThirdPartyVpnPeers#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ike_version ApplianceThirdPartyVpnPeers#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * This is the authentication algorithms to be used in Phase 2. The value should be an array with one of the following algorithms: `sha256`, `sha1`, `md5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_auth_algo ApplianceThirdPartyVpnPeers#ipsec_policies_child_auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_auth_algo ApplianceThirdPartyVpnPeers#ipsec_policies_child_auth_algo}
   */
   readonly ipsecPoliciesChildAuthAlgo?: string[];
   /**
   * This is the cipher algorithms to be used in Phase 2. The value should be an array with one or more of the following algorithms: `aes256`, `aes192`, `aes128`, `tripledes`, `des`, `null`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_cipher_algo ApplianceThirdPartyVpnPeers#ipsec_policies_child_cipher_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_cipher_algo ApplianceThirdPartyVpnPeers#ipsec_policies_child_cipher_algo}
   */
   readonly ipsecPoliciesChildCipherAlgo?: string[];
   /**
   * The lifetime of the Phase 2 SA in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_lifetime ApplianceThirdPartyVpnPeers#ipsec_policies_child_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_lifetime ApplianceThirdPartyVpnPeers#ipsec_policies_child_lifetime}
   */
   readonly ipsecPoliciesChildLifetime?: number;
   /**
   * This is the Diffie-Hellman group to be used for Perfect Forward Secrecy in Phase 2. The value should be an array with one of the following values: `disabled`,`group14`, `group5`, `group2`, `group1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_pfs_group ApplianceThirdPartyVpnPeers#ipsec_policies_child_pfs_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_child_pfs_group ApplianceThirdPartyVpnPeers#ipsec_policies_child_pfs_group}
   */
   readonly ipsecPoliciesChildPfsGroup?: string[];
   /**
   * This is the authentication algorithm to be used in Phase 1. The value should be an array with one of the following algorithms: `sha256`, `sha1`, `md5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_auth_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_auth_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_auth_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_auth_algo}
   */
   readonly ipsecPoliciesIkeAuthAlgo?: string[];
   /**
   * This is the cipher algorithm to be used in Phase 1. The value should be an array with one of the following algorithms: `aes256`, `aes192`, `aes128`, `tripledes`, `des`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_cipher_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_cipher_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_cipher_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_cipher_algo}
   */
   readonly ipsecPoliciesIkeCipherAlgo?: string[];
   /**
   * This is the Diffie-Hellman group to be used in Phase 1. The value should be an array with one of the following algorithms: `group14`, `group5`, `group2`, `group1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_diffie_hellman_group ApplianceThirdPartyVpnPeers#ipsec_policies_ike_diffie_hellman_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_diffie_hellman_group ApplianceThirdPartyVpnPeers#ipsec_policies_ike_diffie_hellman_group}
   */
   readonly ipsecPoliciesIkeDiffieHellmanGroup?: string[];
   /**
   * The lifetime of the Phase 1 SA in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_lifetime ApplianceThirdPartyVpnPeers#ipsec_policies_ike_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_lifetime ApplianceThirdPartyVpnPeers#ipsec_policies_ike_lifetime}
   */
   readonly ipsecPoliciesIkeLifetime?: number;
   /**
   * [optional] This is the pseudo-random function to be used in IKE_SA. The value should be an array with one of the following algorithms: `prfsha256`, `prfsha1`, `prfmd5`, `default`. The `default` option can be used to default to the Authentication algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_prf_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_prf_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_ike_prf_algo ApplianceThirdPartyVpnPeers#ipsec_policies_ike_prf_algo}
   */
   readonly ipsecPoliciesIkePrfAlgo?: string[];
   /**
   * One of the following available presets: `default`, `aws`, `azure`, `umbrella`, `zscaler`. If this is provided, the `ipsecPolicies` parameter is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_preset ApplianceThirdPartyVpnPeers#ipsec_policies_preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#ipsec_policies_preset ApplianceThirdPartyVpnPeers#ipsec_policies_preset}
   */
   readonly ipsecPoliciesPreset?: string;
   /**
   * [optional] If true, the VPN peer is route-based. If not included, the default is false. Supported only for MX 19.1 and above.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#is_route_based ApplianceThirdPartyVpnPeers#is_route_based}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#is_route_based ApplianceThirdPartyVpnPeers#is_route_based}
   */
   readonly isRouteBased?: boolean | cdktf.IResolvable;
   /**
   * [optional] The local ID is used to identify the MX to the peer. This will apply to all MXs this peer applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#local_id ApplianceThirdPartyVpnPeers#local_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#local_id ApplianceThirdPartyVpnPeers#local_id}
   */
   readonly localId?: string;
   /**
   * The name of the VPN peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#name ApplianceThirdPartyVpnPeers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#name ApplianceThirdPartyVpnPeers#name}
   */
   readonly name: string;
   /**
   * [optional] A list of network IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#network_ids ApplianceThirdPartyVpnPeers#network_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#network_ids ApplianceThirdPartyVpnPeers#network_ids}
   */
   readonly networkIds?: string[];
   /**
   * A list of network tags that will connect with this peer. Use [`all`] for all networks. Use [`none`] for no networks. If not included, the default is [`all`].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#network_tags ApplianceThirdPartyVpnPeers#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#network_tags ApplianceThirdPartyVpnPeers#network_tags}
   */
   readonly networkTags?: string[];
   /**
   * The ID of the IPsec peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#peer_id ApplianceThirdPartyVpnPeers#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#peer_id ApplianceThirdPartyVpnPeers#peer_id}
   */
   readonly peerId?: string;
   /**
   * [optional] Represents the order of peer inside a group. If you submit a request with the numbers [1, 9, 999], these numbers will be automatically adjusted to a sequential order starting from 1. So, they will be changed to [1, 2, 3] to reflect their positions in the sequence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#priority_in_group ApplianceThirdPartyVpnPeers#priority_in_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#priority_in_group ApplianceThirdPartyVpnPeers#priority_in_group}
   */
   readonly priorityInGroup?: number;
   /**
   * The list of the private subnets of the VPN peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#private_subnets ApplianceThirdPartyVpnPeers#private_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#private_subnets ApplianceThirdPartyVpnPeers#private_subnets}
   */
   readonly privateSubnets: string[];
   /**
   * [optional] The public hostname of the VPN peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#public_hostname ApplianceThirdPartyVpnPeers#public_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#public_hostname ApplianceThirdPartyVpnPeers#public_hostname}
   */
   readonly publicHostname?: string;
   /**
   * [optional] The public IP of the VPN peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#public_ip ApplianceThirdPartyVpnPeers#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#public_ip ApplianceThirdPartyVpnPeers#public_ip}
   */
   readonly publicIp?: string;
   /**
   * [optional] The remote ID is used to identify the connecting VPN peer. This can either be a valid IPv4 Address, FQDN or User FQDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#remote_id ApplianceThirdPartyVpnPeers#remote_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#remote_id ApplianceThirdPartyVpnPeers#remote_id}
   */
   readonly remoteId?: string;
   /**
   * The shared secret with the VPN peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#secret ApplianceThirdPartyVpnPeers#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#secret ApplianceThirdPartyVpnPeers#secret}
   */
   readonly secret: string;
   /**
   * The ID of the SLA policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#sla_policy_id ApplianceThirdPartyVpnPeers#sla_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#sla_policy_id ApplianceThirdPartyVpnPeers#sla_policy_id}
   */
   readonly slaPolicyId?: string;
 }
@@ -1357,7 +1357,7 @@ export class ApplianceThirdPartyVpnPeersPeersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers meraki_appliance_third_party_vpn_peers}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers meraki_appliance_third_party_vpn_peers}
 */
 export class ApplianceThirdPartyVpnPeers extends cdktf.TerraformResource {
 
@@ -1373,7 +1373,7 @@ export class ApplianceThirdPartyVpnPeers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceThirdPartyVpnPeers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceThirdPartyVpnPeers to import
-  * @param importFromId The id of the existing ApplianceThirdPartyVpnPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceThirdPartyVpnPeers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceThirdPartyVpnPeers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1385,7 +1385,7 @@ export class ApplianceThirdPartyVpnPeers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_third_party_vpn_peers meraki_appliance_third_party_vpn_peers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_third_party_vpn_peers meraki_appliance_third_party_vpn_peers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1396,8 +1396,8 @@ export class ApplianceThirdPartyVpnPeers extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_third_party_vpn_peers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

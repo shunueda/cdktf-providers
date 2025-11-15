@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DevicesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#items Devices#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#items Devices#items}
   */
   readonly items: DevicesItems[] | cdktf.IResolvable;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#organization_id Devices#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#organization_id Devices#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,61 +24,61 @@ export interface DevicesItems {
   /**
   * The address of a device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#address Devices#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#address Devices#address}
   */
   readonly address?: string;
   /**
   * The floor plan to associate to this device. null disassociates the device from the floorplan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#floor_plan_id Devices#floor_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#floor_plan_id Devices#floor_plan_id}
   */
   readonly floorPlanId?: string;
   /**
   * The latitude of a device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#lat Devices#lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#lat Devices#lat}
   */
   readonly lat?: number;
   /**
   * The longitude of a device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#lng Devices#lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#lng Devices#lng}
   */
   readonly lng?: number;
   /**
   * Whether or not to set the latitude and longitude of a device based on the new address. Only applies when lat and lng are not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#move_map_marker Devices#move_map_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#move_map_marker Devices#move_map_marker}
   */
   readonly moveMapMarker?: boolean | cdktf.IResolvable;
   /**
   * The name of a device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#name Devices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#name Devices#name}
   */
   readonly name?: string;
   /**
   * The notes for the device. String. Limited to 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#notes Devices#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#notes Devices#notes}
   */
   readonly notes?: string;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#serial Devices#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#serial Devices#serial}
   */
   readonly serial: string;
   /**
   * The ID of a switch template to bind to the device (for available switch templates, see the `Switch Templates` endpoint). Use null to unbind the switch device from the current profile. For a device to be bindable to a switch template, it must (1) be a switch, and (2) belong to a network that is bound to a configuration template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#switch_profile_id Devices#switch_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#switch_profile_id Devices#switch_profile_id}
   */
   readonly switchProfileId?: string;
   /**
   * The list of tags of a device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#tags Devices#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#tags Devices#tags}
   */
   readonly tags?: string[];
 }
@@ -452,7 +452,7 @@ export class DevicesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices meraki_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices meraki_devices}
 */
 export class Devices extends cdktf.TerraformResource {
 
@@ -468,7 +468,7 @@ export class Devices extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Devices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Devices to import
-  * @param importFromId The id of the existing Devices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Devices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Devices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -480,7 +480,7 @@ export class Devices extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/devices meraki_devices} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/devices meraki_devices} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -491,8 +491,8 @@ export class Devices extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_devices',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

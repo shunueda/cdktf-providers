@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ApplianceTrafficShapingCustomPerformanceClassConfig extends cdk
   /**
   * Maximum jitter in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#max_jitter ApplianceTrafficShapingCustomPerformanceClass#max_jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#max_jitter ApplianceTrafficShapingCustomPerformanceClass#max_jitter}
   */
   readonly maxJitter?: number;
   /**
   * Maximum latency in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#max_latency ApplianceTrafficShapingCustomPerformanceClass#max_latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#max_latency ApplianceTrafficShapingCustomPerformanceClass#max_latency}
   */
   readonly maxLatency?: number;
   /**
   * Maximum percentage of packet loss
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#max_loss_percentage ApplianceTrafficShapingCustomPerformanceClass#max_loss_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#max_loss_percentage ApplianceTrafficShapingCustomPerformanceClass#max_loss_percentage}
   */
   readonly maxLossPercentage?: number;
   /**
   * Name of the custom performance class
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#name ApplianceTrafficShapingCustomPerformanceClass#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#name ApplianceTrafficShapingCustomPerformanceClass#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#network_id ApplianceTrafficShapingCustomPerformanceClass#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#network_id ApplianceTrafficShapingCustomPerformanceClass#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class meraki_appliance_traffic_shaping_custom_performance_class}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class meraki_appliance_traffic_shaping_custom_performance_class}
 */
 export class ApplianceTrafficShapingCustomPerformanceClass extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ApplianceTrafficShapingCustomPerformanceClass extends cdktf.Terrafo
   * Generates CDKTF code for importing a ApplianceTrafficShapingCustomPerformanceClass resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShapingCustomPerformanceClass to import
-  * @param importFromId The id of the existing ApplianceTrafficShapingCustomPerformanceClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShapingCustomPerformanceClass that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShapingCustomPerformanceClass to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ApplianceTrafficShapingCustomPerformanceClass extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_custom_performance_class meraki_appliance_traffic_shaping_custom_performance_class} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_custom_performance_class meraki_appliance_traffic_shaping_custom_performance_class} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ApplianceTrafficShapingCustomPerformanceClass extends cdktf.Terrafo
       terraformResourceType: 'meraki_appliance_traffic_shaping_custom_performance_class',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_bluetooth_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_bluetooth_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessDeviceBluetoothSettingsConfig extends cdktf.T
   /**
   * Wireless AP serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_bluetooth_settings#serial DataMerakiWirelessDeviceBluetoothSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_bluetooth_settings#serial DataMerakiWirelessDeviceBluetoothSettings#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings}
 */
 export class DataMerakiWirelessDeviceBluetoothSettings extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMerakiWirelessDeviceBluetoothSettings extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataMerakiWirelessDeviceBluetoothSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessDeviceBluetoothSettings to import
-  * @param importFromId The id of the existing DataMerakiWirelessDeviceBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_bluetooth_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessDeviceBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_bluetooth_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessDeviceBluetoothSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMerakiWirelessDeviceBluetoothSettings extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMerakiWirelessDeviceBluetoothSettings extends cdktf.TerraformDa
       terraformResourceType: 'meraki_wireless_device_bluetooth_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

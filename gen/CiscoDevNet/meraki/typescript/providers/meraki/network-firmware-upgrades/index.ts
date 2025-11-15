@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,195 +10,195 @@ export interface NetworkFirmwareUpgradesConfig extends cdktf.TerraformMetaArgume
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#network_id NetworkFirmwareUpgrades#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#network_id NetworkFirmwareUpgrades#network_id}
   */
   readonly networkId: string;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_appliance_next_upgrade_time NetworkFirmwareUpgrades#products_appliance_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_appliance_next_upgrade_time NetworkFirmwareUpgrades#products_appliance_next_upgrade_time}
   */
   readonly productsApplianceNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_appliance_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_appliance_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_appliance_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_appliance_next_upgrade_to_version_id}
   */
   readonly productsApplianceNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_appliance_participate_in_next_beta_release NetworkFirmwareUpgrades#products_appliance_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_appliance_participate_in_next_beta_release NetworkFirmwareUpgrades#products_appliance_participate_in_next_beta_release}
   */
   readonly productsApplianceParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_camera_next_upgrade_time NetworkFirmwareUpgrades#products_camera_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_camera_next_upgrade_time NetworkFirmwareUpgrades#products_camera_next_upgrade_time}
   */
   readonly productsCameraNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_camera_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_camera_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_camera_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_camera_next_upgrade_to_version_id}
   */
   readonly productsCameraNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_camera_participate_in_next_beta_release NetworkFirmwareUpgrades#products_camera_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_camera_participate_in_next_beta_release NetworkFirmwareUpgrades#products_camera_participate_in_next_beta_release}
   */
   readonly productsCameraParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_cellular_gateway_next_upgrade_time NetworkFirmwareUpgrades#products_cellular_gateway_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_cellular_gateway_next_upgrade_time NetworkFirmwareUpgrades#products_cellular_gateway_next_upgrade_time}
   */
   readonly productsCellularGatewayNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_cellular_gateway_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_cellular_gateway_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_cellular_gateway_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_cellular_gateway_next_upgrade_to_version_id}
   */
   readonly productsCellularGatewayNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_cellular_gateway_participate_in_next_beta_release NetworkFirmwareUpgrades#products_cellular_gateway_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_cellular_gateway_participate_in_next_beta_release NetworkFirmwareUpgrades#products_cellular_gateway_participate_in_next_beta_release}
   */
   readonly productsCellularGatewayParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_secure_connect_next_upgrade_time NetworkFirmwareUpgrades#products_secure_connect_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_secure_connect_next_upgrade_time NetworkFirmwareUpgrades#products_secure_connect_next_upgrade_time}
   */
   readonly productsSecureConnectNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_secure_connect_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_secure_connect_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_secure_connect_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_secure_connect_next_upgrade_to_version_id}
   */
   readonly productsSecureConnectNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_secure_connect_participate_in_next_beta_release NetworkFirmwareUpgrades#products_secure_connect_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_secure_connect_participate_in_next_beta_release NetworkFirmwareUpgrades#products_secure_connect_participate_in_next_beta_release}
   */
   readonly productsSecureConnectParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_sensor_next_upgrade_time NetworkFirmwareUpgrades#products_sensor_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_sensor_next_upgrade_time NetworkFirmwareUpgrades#products_sensor_next_upgrade_time}
   */
   readonly productsSensorNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_sensor_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_sensor_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_sensor_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_sensor_next_upgrade_to_version_id}
   */
   readonly productsSensorNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_sensor_participate_in_next_beta_release NetworkFirmwareUpgrades#products_sensor_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_sensor_participate_in_next_beta_release NetworkFirmwareUpgrades#products_sensor_participate_in_next_beta_release}
   */
   readonly productsSensorParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_catalyst_next_upgrade_time NetworkFirmwareUpgrades#products_switch_catalyst_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_catalyst_next_upgrade_time NetworkFirmwareUpgrades#products_switch_catalyst_next_upgrade_time}
   */
   readonly productsSwitchCatalystNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_catalyst_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_switch_catalyst_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_catalyst_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_switch_catalyst_next_upgrade_to_version_id}
   */
   readonly productsSwitchCatalystNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_catalyst_participate_in_next_beta_release NetworkFirmwareUpgrades#products_switch_catalyst_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_catalyst_participate_in_next_beta_release NetworkFirmwareUpgrades#products_switch_catalyst_participate_in_next_beta_release}
   */
   readonly productsSwitchCatalystParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_next_upgrade_time NetworkFirmwareUpgrades#products_switch_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_next_upgrade_time NetworkFirmwareUpgrades#products_switch_next_upgrade_time}
   */
   readonly productsSwitchNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_switch_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_switch_next_upgrade_to_version_id}
   */
   readonly productsSwitchNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_switch_participate_in_next_beta_release NetworkFirmwareUpgrades#products_switch_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_switch_participate_in_next_beta_release NetworkFirmwareUpgrades#products_switch_participate_in_next_beta_release}
   */
   readonly productsSwitchParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_controller_next_upgrade_time NetworkFirmwareUpgrades#products_wireless_controller_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_controller_next_upgrade_time NetworkFirmwareUpgrades#products_wireless_controller_next_upgrade_time}
   */
   readonly productsWirelessControllerNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_controller_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_wireless_controller_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_controller_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_wireless_controller_next_upgrade_to_version_id}
   */
   readonly productsWirelessControllerNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_controller_participate_in_next_beta_release NetworkFirmwareUpgrades#products_wireless_controller_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_controller_participate_in_next_beta_release NetworkFirmwareUpgrades#products_wireless_controller_participate_in_next_beta_release}
   */
   readonly productsWirelessControllerParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The time of the last successful upgrade
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_next_upgrade_time NetworkFirmwareUpgrades#products_wireless_next_upgrade_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_next_upgrade_time NetworkFirmwareUpgrades#products_wireless_next_upgrade_time}
   */
   readonly productsWirelessNextUpgradeTime?: string;
   /**
   * The version ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_wireless_next_upgrade_to_version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_next_upgrade_to_version_id NetworkFirmwareUpgrades#products_wireless_next_upgrade_to_version_id}
   */
   readonly productsWirelessNextUpgradeToVersionId?: string;
   /**
   * Whether or not the network wants beta firmware
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#products_wireless_participate_in_next_beta_release NetworkFirmwareUpgrades#products_wireless_participate_in_next_beta_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#products_wireless_participate_in_next_beta_release NetworkFirmwareUpgrades#products_wireless_participate_in_next_beta_release}
   */
   readonly productsWirelessParticipateInNextBetaRelease?: boolean | cdktf.IResolvable;
   /**
   * The timezone for the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#timezone NetworkFirmwareUpgrades#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#timezone NetworkFirmwareUpgrades#timezone}
   */
   readonly timezone?: string;
   /**
   * Day of the week
   *   - Choices: `fri`, `friday`, `mon`, `monday`, `sat`, `saturday`, `sun`, `sunday`, `thu`, `thursday`, `tue`, `tuesday`, `wed`, `wednesday`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#upgrade_window_day_of_week NetworkFirmwareUpgrades#upgrade_window_day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#upgrade_window_day_of_week NetworkFirmwareUpgrades#upgrade_window_day_of_week}
   */
   readonly upgradeWindowDayOfWeek?: string;
   /**
   * Hour of the day
   *   - Choices: `0:00`, `10:00`, `11:00`, `12:00`, `13:00`, `14:00`, `15:00`, `16:00`, `17:00`, `18:00`, `19:00`, `1:00`, `20:00`, `21:00`, `22:00`, `23:00`, `2:00`, `3:00`, `4:00`, `5:00`, `6:00`, `7:00`, `8:00`, `9:00`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#upgrade_window_hour_of_day NetworkFirmwareUpgrades#upgrade_window_hour_of_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#upgrade_window_hour_of_day NetworkFirmwareUpgrades#upgrade_window_hour_of_day}
   */
   readonly upgradeWindowHourOfDay?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades meraki_network_firmware_upgrades}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades meraki_network_firmware_upgrades}
 */
 export class NetworkFirmwareUpgrades extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class NetworkFirmwareUpgrades extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkFirmwareUpgrades resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFirmwareUpgrades to import
-  * @param importFromId The id of the existing NetworkFirmwareUpgrades that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFirmwareUpgrades that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFirmwareUpgrades to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class NetworkFirmwareUpgrades extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_firmware_upgrades meraki_network_firmware_upgrades} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_firmware_upgrades meraki_network_firmware_upgrades} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class NetworkFirmwareUpgrades extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_firmware_upgrades',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

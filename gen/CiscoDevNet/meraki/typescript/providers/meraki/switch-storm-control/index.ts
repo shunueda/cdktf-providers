@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SwitchStormControlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Percentage (1 to 99) of total available port bandwidth for broadcast traffic type. Default value 100 percent rate is to clear the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#broadcast_threshold SwitchStormControl#broadcast_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#broadcast_threshold SwitchStormControl#broadcast_threshold}
   */
   readonly broadcastThreshold?: number;
   /**
   * Percentage (1 to 99) of total available port bandwidth for multicast traffic type. Default value 100 percent rate is to clear the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#multicast_threshold SwitchStormControl#multicast_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#multicast_threshold SwitchStormControl#multicast_threshold}
   */
   readonly multicastThreshold?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#network_id SwitchStormControl#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#network_id SwitchStormControl#network_id}
   */
   readonly networkId: string;
   /**
   * Grouped traffic types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#treat_these_traffic_types_as_one_threshold SwitchStormControl#treat_these_traffic_types_as_one_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#treat_these_traffic_types_as_one_threshold SwitchStormControl#treat_these_traffic_types_as_one_threshold}
   */
   readonly treatTheseTrafficTypesAsOneThreshold?: string[];
   /**
   * Percentage (1 to 99) of total available port bandwidth for unknown unicast (dlf-destination lookup failure) traffic type. Default value 100 percent rate is to clear the configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#unknown_unicast_threshold SwitchStormControl#unknown_unicast_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#unknown_unicast_threshold SwitchStormControl#unknown_unicast_threshold}
   */
   readonly unknownUnicastThreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control meraki_switch_storm_control}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control meraki_switch_storm_control}
 */
 export class SwitchStormControl extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class SwitchStormControl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchStormControl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchStormControl to import
-  * @param importFromId The id of the existing SwitchStormControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchStormControl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchStormControl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SwitchStormControl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_storm_control meraki_switch_storm_control} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_storm_control meraki_switch_storm_control} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SwitchStormControl extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_storm_control',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

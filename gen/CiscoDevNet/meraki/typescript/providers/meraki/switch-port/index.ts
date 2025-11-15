@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,203 @@ export interface SwitchPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * The number of a custom access policy to configure on the switch port. Only applicable when `accessPolicyType` is `Custom access policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#access_policy_number SwitchPort#access_policy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#access_policy_number SwitchPort#access_policy_number}
   */
   readonly accessPolicyNumber?: number;
   /**
   * The type of the access policy of the switch port. Only applicable to access ports. Can be one of `Open`, `Custom access policy`, `MAC allow list` or `Sticky MAC allow list`.
   *   - Choices: `Custom access policy`, `MAC allow list`, `Open`, `Sticky MAC allow list`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#access_policy_type SwitchPort#access_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#access_policy_type SwitchPort#access_policy_type}
   */
   readonly accessPolicyType?: string;
   /**
   * The adaptive policy group ID that will be used to tag traffic through this switch port. This ID must pre-exist during the configuration, else needs to be created using adaptivePolicy/groups API. Cannot be applied to a port on a switch bound to profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#adaptive_policy_group_id SwitchPort#adaptive_policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#adaptive_policy_group_id SwitchPort#adaptive_policy_group_id}
   */
   readonly adaptivePolicyGroupId?: string;
   /**
   * The VLANs allowed on the switch port. Only applicable to trunk ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#allowed_vlans SwitchPort#allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#allowed_vlans SwitchPort#allowed_vlans}
   */
   readonly allowedVlans?: string;
   /**
   * If true, ARP packets for this port will be considered trusted, and Dynamic ARP Inspection will allow the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#dai_trusted SwitchPort#dai_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#dai_trusted SwitchPort#dai_trusted}
   */
   readonly daiTrusted?: boolean | cdktf.IResolvable;
   /**
   * The Energy Efficient Ethernet status of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#dot3az_enabled SwitchPort#dot3az_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#dot3az_enabled SwitchPort#dot3az_enabled}
   */
   readonly dot3AzEnabled?: boolean | cdktf.IResolvable;
   /**
   * The status of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#enabled SwitchPort#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#enabled SwitchPort#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * For supported switches (e.g. MS420/MS425), whether or not the port has flexible stacking enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#flexible_stacking_enabled SwitchPort#flexible_stacking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#flexible_stacking_enabled SwitchPort#flexible_stacking_enabled}
   */
   readonly flexibleStackingEnabled?: boolean | cdktf.IResolvable;
   /**
+  * For C9500-32QC, whether or not the port is enabled for high speed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#high_speed_enabled SwitchPort#high_speed_enabled}
+  */
+  readonly highSpeedEnabled?: boolean | cdktf.IResolvable;
+  /**
   * The isolation status of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#isolation_enabled SwitchPort#isolation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#isolation_enabled SwitchPort#isolation_enabled}
   */
   readonly isolationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The link speed for the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#link_negotiation SwitchPort#link_negotiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#link_negotiation SwitchPort#link_negotiation}
   */
   readonly linkNegotiation?: string;
   /**
   * Only devices with MAC addresses specified in this list will have access to this port. Up to 20 MAC addresses can be defined. Only applicable when `accessPolicyType` is `MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#mac_allow_list SwitchPort#mac_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#mac_allow_list SwitchPort#mac_allow_list}
   */
   readonly macAllowList?: string[];
   /**
   * The maximum number of MAC addresses for regular MAC allow list. Only applicable when `accessPolicyType` is `MAC allow list`. Note: Config only supported on verions greater than ms18 only for classic switches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#mac_whitelist_limit SwitchPort#mac_whitelist_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#mac_whitelist_limit SwitchPort#mac_whitelist_limit}
   */
   readonly macWhitelistLimit?: number;
   /**
   * The name of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#name SwitchPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#name SwitchPort#name}
   */
   readonly name?: string;
   /**
   * If true, Peer SGT is enabled for traffic through this switch port. Applicable to trunk port only, not access port. Cannot be applied to a port on a switch bound to profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#peer_sgt_capable SwitchPort#peer_sgt_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#peer_sgt_capable SwitchPort#peer_sgt_capable}
   */
   readonly peerSgtCapable?: boolean | cdktf.IResolvable;
   /**
   * The PoE status of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#poe_enabled SwitchPort#poe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#poe_enabled SwitchPort#poe_enabled}
   */
   readonly poeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Port ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#port_id SwitchPort#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#port_id SwitchPort#port_id}
   */
   readonly portId: string;
   /**
   * The ID of the port schedule. A value of null will clear the port schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#port_schedule_id SwitchPort#port_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#port_schedule_id SwitchPort#port_schedule_id}
   */
   readonly portScheduleId?: string;
   /**
   * When enabled, override this port`s configuration with a port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#profile_enabled SwitchPort#profile_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#profile_enabled SwitchPort#profile_enabled}
   */
   readonly profileEnabled?: boolean | cdktf.IResolvable;
   /**
   * When enabled, the ID of the port profile used to override the port`s configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#profile_id SwitchPort#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#profile_id SwitchPort#profile_id}
   */
   readonly profileId?: string;
   /**
   * When enabled, the IName of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#profile_iname SwitchPort#profile_iname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#profile_iname SwitchPort#profile_iname}
   */
   readonly profileIname?: string;
   /**
   * The rapid spanning tree protocol status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#rstp_enabled SwitchPort#rstp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#rstp_enabled SwitchPort#rstp_enabled}
   */
   readonly rstpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#serial SwitchPort#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#serial SwitchPort#serial}
   */
   readonly serial: string;
   /**
   * The initial list of MAC addresses for sticky Mac allow list. Only applicable when `accessPolicyType` is `Sticky MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#sticky_mac_allow_list SwitchPort#sticky_mac_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#sticky_mac_allow_list SwitchPort#sticky_mac_allow_list}
   */
   readonly stickyMacAllowList?: string[];
   /**
   * The maximum number of MAC addresses for sticky MAC allow list. Only applicable when `accessPolicyType` is `Sticky MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#sticky_mac_allow_list_limit SwitchPort#sticky_mac_allow_list_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#sticky_mac_allow_list_limit SwitchPort#sticky_mac_allow_list_limit}
   */
   readonly stickyMacAllowListLimit?: number;
   /**
   * The storm control status of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#storm_control_enabled SwitchPort#storm_control_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#storm_control_enabled SwitchPort#storm_control_enabled}
   */
   readonly stormControlEnabled?: boolean | cdktf.IResolvable;
   /**
   * The state of the STP guard (`disabled`, `root guard`, `bpdu guard` or `loop guard`).
   *   - Choices: `bpdu guard`, `disabled`, `loop guard`, `root guard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#stp_guard SwitchPort#stp_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#stp_guard SwitchPort#stp_guard}
   */
   readonly stpGuard?: string;
   /**
   * The list of tags of the switch port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#tags SwitchPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#tags SwitchPort#tags}
   */
   readonly tags?: string[];
   /**
   * The type of the switch port (`trunk`, `access` or `stack`).
   *   - Choices: `access`, `stack`, `trunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#type SwitchPort#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#type SwitchPort#type}
   */
   readonly type?: string;
   /**
   * The action to take when Unidirectional Link is detected (Alert only, Enforce). Default configuration is Alert only.
   *   - Choices: `Alert only`, `Enforce`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#udld SwitchPort#udld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#udld SwitchPort#udld}
   */
   readonly udld?: string;
   /**
   * The VLAN of the switch port. For a trunk port, this is the native VLAN. A null value will clear the value set for trunk ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#vlan SwitchPort#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#vlan SwitchPort#vlan}
   */
   readonly vlan?: number;
   /**
   * The voice VLAN of the switch port. Only applicable to access ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#voice_vlan SwitchPort#voice_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#voice_vlan SwitchPort#voice_vlan}
   */
   readonly voiceVlan?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port meraki_switch_port}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port meraki_switch_port}
 */
 export class SwitchPort extends cdktf.TerraformResource {
 
@@ -216,7 +222,7 @@ export class SwitchPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchPort to import
-  * @param importFromId The id of the existing SwitchPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +234,7 @@ export class SwitchPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_port meraki_switch_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port meraki_switch_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +245,8 @@ export class SwitchPort extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_port',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -258,6 +264,7 @@ export class SwitchPort extends cdktf.TerraformResource {
     this._dot3AzEnabled = config.dot3AzEnabled;
     this._enabled = config.enabled;
     this._flexibleStackingEnabled = config.flexibleStackingEnabled;
+    this._highSpeedEnabled = config.highSpeedEnabled;
     this._isolationEnabled = config.isolationEnabled;
     this._linkNegotiation = config.linkNegotiation;
     this._macAllowList = config.macAllowList;
@@ -413,6 +420,22 @@ export class SwitchPort extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get flexibleStackingEnabledInput() {
     return this._flexibleStackingEnabled;
+  }
+
+  // high_speed_enabled - computed: false, optional: true, required: false
+  private _highSpeedEnabled?: boolean | cdktf.IResolvable; 
+  public get highSpeedEnabled() {
+    return this.getBooleanAttribute('high_speed_enabled');
+  }
+  public set highSpeedEnabled(value: boolean | cdktf.IResolvable) {
+    this._highSpeedEnabled = value;
+  }
+  public resetHighSpeedEnabled() {
+    this._highSpeedEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get highSpeedEnabledInput() {
+    return this._highSpeedEnabled;
   }
 
   // id - computed: true, optional: false, required: false
@@ -796,6 +819,7 @@ export class SwitchPort extends cdktf.TerraformResource {
       dot3az_enabled: cdktf.booleanToTerraform(this._dot3AzEnabled),
       enabled: cdktf.booleanToTerraform(this._enabled),
       flexible_stacking_enabled: cdktf.booleanToTerraform(this._flexibleStackingEnabled),
+      high_speed_enabled: cdktf.booleanToTerraform(this._highSpeedEnabled),
       isolation_enabled: cdktf.booleanToTerraform(this._isolationEnabled),
       link_negotiation: cdktf.stringToTerraform(this._linkNegotiation),
       mac_allow_list: cdktf.listMapper(cdktf.stringToTerraform, false)(this._macAllowList),
@@ -868,6 +892,12 @@ export class SwitchPort extends cdktf.TerraformResource {
       },
       flexible_stacking_enabled: {
         value: cdktf.booleanToHclTerraform(this._flexibleStackingEnabled),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      high_speed_enabled: {
+        value: cdktf.booleanToHclTerraform(this._highSpeedEnabled),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

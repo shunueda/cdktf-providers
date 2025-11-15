@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_adaptive_policy_groups
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_adaptive_policy_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiOrganizationAdaptivePolicyGroupsConfig extends cdktf.
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_adaptive_policy_groups#organization_id DataMerakiOrganizationAdaptivePolicyGroups#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_adaptive_policy_groups#organization_id DataMerakiOrganizationAdaptivePolicyGroups#organization_id}
   */
   readonly organizationId: string;
 }
@@ -192,7 +192,7 @@ export class DataMerakiOrganizationAdaptivePolicyGroupsItemsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_adaptive_policy_groups meraki_organization_adaptive_policy_groups}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_adaptive_policy_groups meraki_organization_adaptive_policy_groups}
 */
 export class DataMerakiOrganizationAdaptivePolicyGroups extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataMerakiOrganizationAdaptivePolicyGroups extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataMerakiOrganizationAdaptivePolicyGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationAdaptivePolicyGroups to import
-  * @param importFromId The id of the existing DataMerakiOrganizationAdaptivePolicyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_adaptive_policy_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationAdaptivePolicyGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_adaptive_policy_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationAdaptivePolicyGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataMerakiOrganizationAdaptivePolicyGroups extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_adaptive_policy_groups meraki_organization_adaptive_policy_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_adaptive_policy_groups meraki_organization_adaptive_policy_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataMerakiOrganizationAdaptivePolicyGroups extends cdktf.TerraformD
       terraformResourceType: 'meraki_organization_adaptive_policy_groups',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

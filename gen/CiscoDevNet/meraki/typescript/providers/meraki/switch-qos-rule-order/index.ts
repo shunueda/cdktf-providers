@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SwitchQosRuleOrderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order#network_id SwitchQosRuleOrder#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order#network_id SwitchQosRuleOrder#network_id}
   */
   readonly networkId: string;
   /**
   * A list of quality of service rule IDs arranged in order in which they should be processed by the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order#rule_ids SwitchQosRuleOrder#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order#rule_ids SwitchQosRuleOrder#rule_ids}
   */
   readonly ruleIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order meraki_switch_qos_rule_order}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order meraki_switch_qos_rule_order}
 */
 export class SwitchQosRuleOrder extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class SwitchQosRuleOrder extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchQosRuleOrder resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchQosRuleOrder to import
-  * @param importFromId The id of the existing SwitchQosRuleOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchQosRuleOrder that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchQosRuleOrder to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class SwitchQosRuleOrder extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_qos_rule_order meraki_switch_qos_rule_order} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_qos_rule_order meraki_switch_qos_rule_order} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class SwitchQosRuleOrder extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_qos_rule_order',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

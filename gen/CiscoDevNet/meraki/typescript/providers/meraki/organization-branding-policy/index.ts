@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,158 +11,158 @@ export interface OrganizationBrandingPolicyConfig extends cdktf.TerraformMetaArg
   * Which kinds of admins this policy applies to. Can be one of `All organization admins`, `All enterprise admins`, `All network admins`, `All admins of networks...`, `All admins of networks tagged...`, `Specific admins...`, `All admins` or `All SAML admins`.
   *   - Choices: `All SAML admins`, `All admins`, `All admins of networks tagged...`, `All admins of networks...`, `All enterprise admins`, `All network admins`, `All organization admins`, `Specific admins...`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#admin_settings_applies_to OrganizationBrandingPolicy#admin_settings_applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#admin_settings_applies_to OrganizationBrandingPolicy#admin_settings_applies_to}
   */
   readonly adminSettingsAppliesTo?: string;
   /**
   * If `appliesTo` is set to one of `Specific admins...`, `All admins of networks...` or `All admins of networks tagged...`, then you must specify this `values` property to provide the set of entities to apply the branding policy to. For `Specific admins...`, specify an array of admin IDs. For `All admins of networks...`, specify an array of network IDs and/or configuration template IDs. For `All admins of networks tagged...`, specify an array of tag names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#admin_settings_values OrganizationBrandingPolicy#admin_settings_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#admin_settings_values OrganizationBrandingPolicy#admin_settings_values}
   */
   readonly adminSettingsValues?: string[];
   /**
   * Whether or not there is a custom logo enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#custom_logo_enabled OrganizationBrandingPolicy#custom_logo_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#custom_logo_enabled OrganizationBrandingPolicy#custom_logo_enabled}
   */
   readonly customLogoEnabled?: boolean | cdktf.IResolvable;
   /**
   * The file contents (a base 64 encoded string) of your new logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#custom_logo_image_contents OrganizationBrandingPolicy#custom_logo_image_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#custom_logo_image_contents OrganizationBrandingPolicy#custom_logo_image_contents}
   */
   readonly customLogoImageContents?: string;
   /**
   * The format of the encoded contents. Supported formats are `png`, `gif`, and jpg`.
   *   - Choices: `gif`, `jpg`, `png`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#custom_logo_image_format OrganizationBrandingPolicy#custom_logo_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#custom_logo_image_format OrganizationBrandingPolicy#custom_logo_image_format}
   */
   readonly customLogoImageFormat?: string;
   /**
   * Boolean indicating whether this policy is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#enabled OrganizationBrandingPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#enabled OrganizationBrandingPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The `Help -> API docs` subtab where a detailed description of the Dashboard API is listed. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_api_docs_subtab OrganizationBrandingPolicy#help_settings_api_docs_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_api_docs_subtab OrganizationBrandingPolicy#help_settings_api_docs_subtab}
   */
   readonly helpSettingsApiDocsSubtab?: string;
   /**
   * The `Help -> Cases` Dashboard subtab on which Cisco Meraki support cases for this organization can be managed. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_cases_subtab OrganizationBrandingPolicy#help_settings_cases_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_cases_subtab OrganizationBrandingPolicy#help_settings_cases_subtab}
   */
   readonly helpSettingsCasesSubtab?: string;
   /**
   * The `Product Manuals` section of the `Help -> Get Help` subtab. Can be one of `default or inherit`, `hide`, `show`, or a replacement custom HTML string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_cisco_meraki_product_documentation OrganizationBrandingPolicy#help_settings_cisco_meraki_product_documentation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_cisco_meraki_product_documentation OrganizationBrandingPolicy#help_settings_cisco_meraki_product_documentation}
   */
   readonly helpSettingsCiscoMerakiProductDocumentation?: string;
   /**
   * The `Help -> Community` subtab which provides a link to Meraki Community. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_community_subtab OrganizationBrandingPolicy#help_settings_community_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_community_subtab OrganizationBrandingPolicy#help_settings_community_subtab}
   */
   readonly helpSettingsCommunitySubtab?: string;
   /**
   * The `Help -> Data protection requests` Dashboard subtab on which requests to delete, restrict, or export end-user data can be audited. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_data_protection_requests_subtab OrganizationBrandingPolicy#help_settings_data_protection_requests_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_data_protection_requests_subtab OrganizationBrandingPolicy#help_settings_data_protection_requests_subtab}
   */
   readonly helpSettingsDataProtectionRequestsSubtab?: string;
   /**
   * The `Help -> Firewall info` subtab where necessary upstream firewall rules for communication to the Cisco Meraki cloud are listed. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_firewall_info_subtab OrganizationBrandingPolicy#help_settings_firewall_info_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_firewall_info_subtab OrganizationBrandingPolicy#help_settings_firewall_info_subtab}
   */
   readonly helpSettingsFirewallInfoSubtab?: string;
   /**
   * The `Help -> Get Help` subtab on which Cisco Meraki KB, Product Manuals, and Support/Case Information are displayed. Note that if this subtab is hidden, branding customizations for the KB on `Get help`, Cisco Meraki product documentation, and support contact info will not be visible. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_get_help_subtab OrganizationBrandingPolicy#help_settings_get_help_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_get_help_subtab OrganizationBrandingPolicy#help_settings_get_help_subtab}
   */
   readonly helpSettingsGetHelpSubtab?: string;
   /**
   * The KB search box which appears on the Help page. Can be one of `default or inherit`, `hide`, `show`, or a replacement custom HTML string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_get_help_subtab_knowledge_base_search OrganizationBrandingPolicy#help_settings_get_help_subtab_knowledge_base_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_get_help_subtab_knowledge_base_search OrganizationBrandingPolicy#help_settings_get_help_subtab_knowledge_base_search}
   */
   readonly helpSettingsGetHelpSubtabKnowledgeBaseSearch?: string;
   /**
   * The `Help -> Replacement info` subtab where important information regarding device replacements is detailed. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_hardware_replacements_subtab OrganizationBrandingPolicy#help_settings_hardware_replacements_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_hardware_replacements_subtab OrganizationBrandingPolicy#help_settings_hardware_replacements_subtab}
   */
   readonly helpSettingsHardwareReplacementsSubtab?: string;
   /**
   * The Help tab, under which all support information resides. If this tab is hidden, no other `Help` branding customizations will be visible. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_help_tab OrganizationBrandingPolicy#help_settings_help_tab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_help_tab OrganizationBrandingPolicy#help_settings_help_tab}
   */
   readonly helpSettingsHelpTab?: string;
   /**
   * The `Help Widget` is a support widget which provides access to live chat, documentation links, Sales contact info, and other contact avenues to reach Meraki Support. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_help_widget OrganizationBrandingPolicy#help_settings_help_widget}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_help_widget OrganizationBrandingPolicy#help_settings_help_widget}
   */
   readonly helpSettingsHelpWidget?: string;
   /**
   * The `Help -> New features` subtab where new Dashboard features are detailed. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_new_features_subtab OrganizationBrandingPolicy#help_settings_new_features_subtab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_new_features_subtab OrganizationBrandingPolicy#help_settings_new_features_subtab}
   */
   readonly helpSettingsNewFeaturesSubtab?: string;
   /**
   * The `SM Forums` subtab which links to community-based support for Cisco Meraki Systems Manager. Only configurable for organizations that contain Systems Manager networks. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_sm_forums OrganizationBrandingPolicy#help_settings_sm_forums}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_sm_forums OrganizationBrandingPolicy#help_settings_sm_forums}
   */
   readonly helpSettingsSmForums?: string;
   /**
   * The `Contact Meraki Support` section of the `Help -> Get Help` subtab. Can be one of `default or inherit`, `hide`, `show`, or a replacement custom HTML string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_support_contact_info OrganizationBrandingPolicy#help_settings_support_contact_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_support_contact_info OrganizationBrandingPolicy#help_settings_support_contact_info}
   */
   readonly helpSettingsSupportContactInfo?: string;
   /**
   * The universal search box always visible on Dashboard will, by default, present results from the Meraki KB. This configures whether these Meraki KB results should be returned. Can be one of `default or inherit`, `hide` or `show`.
   *   - Choices: `default or inherit`, `hide`, `show`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#help_settings_universal_search_knowledge_base_search OrganizationBrandingPolicy#help_settings_universal_search_knowledge_base_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#help_settings_universal_search_knowledge_base_search OrganizationBrandingPolicy#help_settings_universal_search_knowledge_base_search}
   */
   readonly helpSettingsUniversalSearchKnowledgeBaseSearch?: string;
   /**
   * Name of the Dashboard branding policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#name OrganizationBrandingPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#name OrganizationBrandingPolicy#name}
   */
   readonly name: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#organization_id OrganizationBrandingPolicy#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#organization_id OrganizationBrandingPolicy#organization_id}
   */
   readonly organizationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy meraki_organization_branding_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy meraki_organization_branding_policy}
 */
 export class OrganizationBrandingPolicy extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class OrganizationBrandingPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationBrandingPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationBrandingPolicy to import
-  * @param importFromId The id of the existing OrganizationBrandingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationBrandingPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationBrandingPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class OrganizationBrandingPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_branding_policy meraki_organization_branding_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_branding_policy meraki_organization_branding_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class OrganizationBrandingPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_branding_policy',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

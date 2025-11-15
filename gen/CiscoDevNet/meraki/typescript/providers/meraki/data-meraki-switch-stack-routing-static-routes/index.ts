@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiSwitchStackRoutingStaticRoutesConfig extends cdktf.Te
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes#network_id DataMerakiSwitchStackRoutingStaticRoutes#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes#network_id DataMerakiSwitchStackRoutingStaticRoutes#network_id}
   */
   readonly networkId: string;
   /**
   * Switch stack ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes#switch_stack_id DataMerakiSwitchStackRoutingStaticRoutes#switch_stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes#switch_stack_id DataMerakiSwitchStackRoutingStaticRoutes#switch_stack_id}
   */
   readonly switchStackId: string;
 }
@@ -132,7 +132,7 @@ export class DataMerakiSwitchStackRoutingStaticRoutesItemsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes meraki_switch_stack_routing_static_routes}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes meraki_switch_stack_routing_static_routes}
 */
 export class DataMerakiSwitchStackRoutingStaticRoutes extends cdktf.TerraformDataSource {
 
@@ -148,7 +148,7 @@ export class DataMerakiSwitchStackRoutingStaticRoutes extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataMerakiSwitchStackRoutingStaticRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchStackRoutingStaticRoutes to import
-  * @param importFromId The id of the existing DataMerakiSwitchStackRoutingStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchStackRoutingStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchStackRoutingStaticRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -160,7 +160,7 @@ export class DataMerakiSwitchStackRoutingStaticRoutes extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_stack_routing_static_routes meraki_switch_stack_routing_static_routes} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_stack_routing_static_routes meraki_switch_stack_routing_static_routes} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -171,8 +171,8 @@ export class DataMerakiSwitchStackRoutingStaticRoutes extends cdktf.TerraformDat
       terraformResourceType: 'meraki_switch_stack_routing_static_routes',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

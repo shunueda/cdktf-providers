@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessSsidVpnConfig extends cdktf.TerraformMetaArgu
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn#network_id DataMerakiWirelessSsidVpn#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn#network_id DataMerakiWirelessSsidVpn#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn#number DataMerakiWirelessSsidVpn#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn#number DataMerakiWirelessSsidVpn#number}
   */
   readonly number: string;
 }
@@ -117,7 +117,7 @@ export class DataMerakiWirelessSsidVpnSplitTunnelRulesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn meraki_wireless_ssid_vpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn meraki_wireless_ssid_vpn}
 */
 export class DataMerakiWirelessSsidVpn extends cdktf.TerraformDataSource {
 
@@ -133,7 +133,7 @@ export class DataMerakiWirelessSsidVpn extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiWirelessSsidVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsidVpn to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsidVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsidVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsidVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -145,7 +145,7 @@ export class DataMerakiWirelessSsidVpn extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid_vpn meraki_wireless_ssid_vpn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_vpn meraki_wireless_ssid_vpn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -156,8 +156,8 @@ export class DataMerakiWirelessSsidVpn extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_wireless_ssid_vpn',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

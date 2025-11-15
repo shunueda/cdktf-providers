@@ -176,6 +176,7 @@ Object.defineProperty(exports, 'wirelessEthernetPortProfileAssign', { get: funct
 Object.defineProperty(exports, 'wirelessEthernetPortProfileDefault', { get: function () { return require('./wireless-ethernet-port-profile-default'); } });
 Object.defineProperty(exports, 'wirelessLocationScanning', { get: function () { return require('./wireless-location-scanning'); } });
 Object.defineProperty(exports, 'wirelessLocationScanningReceiver', { get: function () { return require('./wireless-location-scanning-receiver'); } });
+Object.defineProperty(exports, 'wirelessMqttSettings', { get: function () { return require('./wireless-mqtt-settings'); } });
 Object.defineProperty(exports, 'wirelessNetworkBluetoothSettings', { get: function () { return require('./wireless-network-bluetooth-settings'); } });
 Object.defineProperty(exports, 'wirelessNetworkElectronicShelfLabel', { get: function () { return require('./wireless-network-electronic-shelf-label'); } });
 Object.defineProperty(exports, 'wirelessRadioSettings', { get: function () { return require('./wireless-radio-settings'); } });
@@ -406,6 +407,7 @@ Object.defineProperty(exports, 'dataMerakiWirelessEthernetPortProfiles', { get: 
 Object.defineProperty(exports, 'dataMerakiWirelessLocationScanning', { get: function () { return require('./data-meraki-wireless-location-scanning'); } });
 Object.defineProperty(exports, 'dataMerakiWirelessLocationScanningReceiver', { get: function () { return require('./data-meraki-wireless-location-scanning-receiver'); } });
 Object.defineProperty(exports, 'dataMerakiWirelessLocationScanningReceivers', { get: function () { return require('./data-meraki-wireless-location-scanning-receivers'); } });
+Object.defineProperty(exports, 'dataMerakiWirelessMqttSettings', { get: function () { return require('./data-meraki-wireless-mqtt-settings'); } });
 Object.defineProperty(exports, 'dataMerakiWirelessNetworkBluetoothSettings', { get: function () { return require('./data-meraki-wireless-network-bluetooth-settings'); } });
 Object.defineProperty(exports, 'dataMerakiWirelessNetworkElectronicShelfLabel', { get: function () { return require('./data-meraki-wireless-network-electronic-shelf-label'); } });
 Object.defineProperty(exports, 'dataMerakiWirelessRadioSettings', { get: function () { return require('./data-meraki-wireless-radio-settings'); } });

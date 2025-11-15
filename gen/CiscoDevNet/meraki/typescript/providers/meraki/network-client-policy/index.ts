@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkClientPolicyConfig extends cdktf.TerraformMetaArguments 
   /**
   * Client ID. Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy#client_id NetworkClientPolicy#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy#client_id NetworkClientPolicy#client_id}
   */
   readonly clientId: string;
   /**
   * The policy to assign. Can be `Whitelisted`, `Blocked`, `Normal` or `Group policy`. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy#device_policy NetworkClientPolicy#device_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy#device_policy NetworkClientPolicy#device_policy}
   */
   readonly devicePolicy: string;
   /**
   * [Optional] If `devicePolicy` is set to `Group policy` this param is used to specify the group policy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy#group_policy_id NetworkClientPolicy#group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy#group_policy_id NetworkClientPolicy#group_policy_id}
   */
   readonly groupPolicyId?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy#network_id NetworkClientPolicy#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy#network_id NetworkClientPolicy#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy meraki_network_client_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy meraki_network_client_policy}
 */
 export class NetworkClientPolicy extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class NetworkClientPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkClientPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkClientPolicy to import
-  * @param importFromId The id of the existing NetworkClientPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkClientPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkClientPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class NetworkClientPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_client_policy meraki_network_client_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_policy meraki_network_client_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class NetworkClientPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_client_policy',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

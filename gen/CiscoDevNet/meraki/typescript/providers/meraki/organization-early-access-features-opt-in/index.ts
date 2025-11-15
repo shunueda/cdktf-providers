@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationEarlyAccessFeaturesOptInConfig extends cdktf.Terraf
   /**
   * A list of network IDs to apply the opt-in to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in#limit_scope_to_networks OrganizationEarlyAccessFeaturesOptIn#limit_scope_to_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in#limit_scope_to_networks OrganizationEarlyAccessFeaturesOptIn#limit_scope_to_networks}
   */
   readonly limitScopeToNetworks?: string[];
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in#organization_id OrganizationEarlyAccessFeaturesOptIn#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in#organization_id OrganizationEarlyAccessFeaturesOptIn#organization_id}
   */
   readonly organizationId: string;
   /**
   * Short name of the early access feature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in#short_name OrganizationEarlyAccessFeaturesOptIn#short_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in#short_name OrganizationEarlyAccessFeaturesOptIn#short_name}
   */
   readonly shortName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in meraki_organization_early_access_features_opt_in}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in meraki_organization_early_access_features_opt_in}
 */
 export class OrganizationEarlyAccessFeaturesOptIn extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class OrganizationEarlyAccessFeaturesOptIn extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a OrganizationEarlyAccessFeaturesOptIn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationEarlyAccessFeaturesOptIn to import
-  * @param importFromId The id of the existing OrganizationEarlyAccessFeaturesOptIn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationEarlyAccessFeaturesOptIn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationEarlyAccessFeaturesOptIn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class OrganizationEarlyAccessFeaturesOptIn extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_early_access_features_opt_in meraki_organization_early_access_features_opt_in} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_early_access_features_opt_in meraki_organization_early_access_features_opt_in} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class OrganizationEarlyAccessFeaturesOptIn extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_organization_early_access_features_opt_in',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

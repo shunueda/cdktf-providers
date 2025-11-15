@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSwitchOrganizationPortsProfilesConfig extends cdktf.T
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles#organization_id DataMerakiSwitchOrganizationPortsProfiles#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles#organization_id DataMerakiSwitchOrganizationPortsProfiles#organization_id}
   */
   readonly organizationId: string;
 }
@@ -196,6 +196,11 @@ export class DataMerakiSwitchOrganizationPortsProfilesItemsOutputReference exten
     return this.getStringAttribute('port_adaptive_policy_group_id');
   }
 
+  // port_adaptive_policy_voice_group_id - computed: true, optional: false, required: false
+  public get portAdaptivePolicyVoiceGroupId() {
+    return this.getStringAttribute('port_adaptive_policy_voice_group_id');
+  }
+
   // port_allowed_vlans - computed: true, optional: false, required: false
   public get portAllowedVlans() {
     return this.getStringAttribute('port_allowed_vlans');
@@ -297,7 +302,7 @@ export class DataMerakiSwitchOrganizationPortsProfilesItemsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles meraki_switch_organization_ports_profiles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles meraki_switch_organization_ports_profiles}
 */
 export class DataMerakiSwitchOrganizationPortsProfiles extends cdktf.TerraformDataSource {
 
@@ -313,7 +318,7 @@ export class DataMerakiSwitchOrganizationPortsProfiles extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataMerakiSwitchOrganizationPortsProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchOrganizationPortsProfiles to import
-  * @param importFromId The id of the existing DataMerakiSwitchOrganizationPortsProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchOrganizationPortsProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchOrganizationPortsProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -325,7 +330,7 @@ export class DataMerakiSwitchOrganizationPortsProfiles extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles meraki_switch_organization_ports_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles meraki_switch_organization_ports_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -336,8 +341,8 @@ export class DataMerakiSwitchOrganizationPortsProfiles extends cdktf.TerraformDa
       terraformResourceType: 'meraki_switch_organization_ports_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

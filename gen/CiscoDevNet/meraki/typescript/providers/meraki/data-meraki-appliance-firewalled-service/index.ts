@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMerakiApplianceFirewalledServiceConfig extends cdktf.Terraf
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service#network_id DataMerakiApplianceFirewalledService#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service#network_id DataMerakiApplianceFirewalledService#network_id}
   */
   readonly networkId: string;
   /**
   * Service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service#service DataMerakiApplianceFirewalledService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service#service DataMerakiApplianceFirewalledService#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service meraki_appliance_firewalled_service}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service meraki_appliance_firewalled_service}
 */
 export class DataMerakiApplianceFirewalledService extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataMerakiApplianceFirewalledService extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataMerakiApplianceFirewalledService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceFirewalledService to import
-  * @param importFromId The id of the existing DataMerakiApplianceFirewalledService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceFirewalledService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceFirewalledService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataMerakiApplianceFirewalledService extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_firewalled_service meraki_appliance_firewalled_service} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_firewalled_service meraki_appliance_firewalled_service} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataMerakiApplianceFirewalledService extends cdktf.TerraformDataSou
       terraformResourceType: 'meraki_appliance_firewalled_service',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

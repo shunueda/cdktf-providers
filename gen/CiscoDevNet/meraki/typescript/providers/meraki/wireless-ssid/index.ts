@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,538 +10,544 @@ export interface WirelessSsidConfig extends cdktf.TerraformMetaArguments {
   /**
   * The logon name of the Active Directory account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#active_directory_credentials_logon_name WirelessSsid#active_directory_credentials_logon_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#active_directory_credentials_logon_name WirelessSsid#active_directory_credentials_logon_name}
   */
   readonly activeDirectoryCredentialsLogonName?: string;
   /**
   * The password to the Active Directory user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#active_directory_credentials_password WirelessSsid#active_directory_credentials_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#active_directory_credentials_password WirelessSsid#active_directory_credentials_password}
   */
   readonly activeDirectoryCredentialsPassword?: string;
   /**
   * The Active Directory servers to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#active_directory_servers WirelessSsid#active_directory_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#active_directory_servers WirelessSsid#active_directory_servers}
   */
   readonly activeDirectoryServers?: WirelessSsidActiveDirectoryServers[] | cdktf.IResolvable;
   /**
   * Adaptive policy group ID this SSID is assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#adaptive_policy_group_id WirelessSsid#adaptive_policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#adaptive_policy_group_id WirelessSsid#adaptive_policy_group_id}
   */
   readonly adaptivePolicyGroupId?: string;
   /**
   * Boolean indicating whether or not adult content will be blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#adult_content_filtering_enabled WirelessSsid#adult_content_filtering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#adult_content_filtering_enabled WirelessSsid#adult_content_filtering_enabled}
   */
   readonly adultContentFilteringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The list of tags and VLAN IDs used for VLAN tagging. This param is only valid when the ipAssignmentMode is `Bridge mode` or `Layer 3 roaming`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ap_tags_and_vlan_ids WirelessSsid#ap_tags_and_vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ap_tags_and_vlan_ids WirelessSsid#ap_tags_and_vlan_ids}
   */
   readonly apTagsAndVlanIds?: WirelessSsidApTagsAndVlanIds[] | cdktf.IResolvable;
   /**
   * The association control method for the SSID (`open`, `open-enhanced`, `psk`, `open-with-radius`, `open-with-nac`, `8021x-meraki`, `8021x-nac`, `8021x-radius`, `8021x-google`, `8021x-entra`, `8021x-localradius`, `ipsk-with-radius`, `ipsk-without-radius` or `ipsk-with-nac`)
   *   - Choices: `8021x-entra`, `8021x-google`, `8021x-localradius`, `8021x-meraki`, `8021x-nac`, `8021x-radius`, `ipsk-with-nac`, `ipsk-with-radius`, `ipsk-without-radius`, `open`, `open-enhanced`, `open-with-nac`, `open-with-radius`, `psk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#auth_mode WirelessSsid#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#auth_mode WirelessSsid#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Accepts a list of tags for this SSID. If availableOnAllAps is false, then the SSID will only be broadcast by APs with tags matching any of the tags in this list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#availability_tags WirelessSsid#availability_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#availability_tags WirelessSsid#availability_tags}
   */
   readonly availabilityTags?: string[];
   /**
   * Boolean indicating whether all APs should broadcast the SSID or if it should be restricted to APs matching any availability tags. Can only be false if the SSID has availability tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#available_on_all_aps WirelessSsid#available_on_all_aps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#available_on_all_aps WirelessSsid#available_on_all_aps}
   */
   readonly availableOnAllAps?: boolean | cdktf.IResolvable;
   /**
   * The client-serving radio frequencies of this SSID in the default indoor RF profile. (`Dual band operation`, `5 GHz band only` or `Dual band operation with Band Steering`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#band_selection WirelessSsid#band_selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#band_selection WirelessSsid#band_selection}
   */
   readonly bandSelection?: string;
   /**
   * The concentrator to use when the ipAssignmentMode is `Layer 3 roaming with a concentrator` or `VPN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#concentrator_network_id WirelessSsid#concentrator_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#concentrator_network_id WirelessSsid#concentrator_network_id}
   */
   readonly concentratorNetworkId?: string;
   /**
   * The default VLAN ID used for `all other APs`. This param is only valid when the ipAssignmentMode is `Bridge mode` or `Layer 3 roaming`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#default_vlan_id WirelessSsid#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#default_vlan_id WirelessSsid#default_vlan_id}
   */
   readonly defaultVlanId?: number;
   /**
   * Disassociate clients when `VPN` concentrator failover occurs in order to trigger clients to re-associate and generate new DHCP requests. This param is only valid if ipAssignmentMode is `VPN`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#disassociate_clients_on_vpn_failover WirelessSsid#disassociate_clients_on_vpn_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#disassociate_clients_on_vpn_failover WirelessSsid#disassociate_clients_on_vpn_failover}
   */
   readonly disassociateClientsOnVpnFailover?: boolean | cdktf.IResolvable;
   /**
   * User specified DNS servers (up to two servers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dns_rewrite_dns_custom_nameservers WirelessSsid#dns_rewrite_dns_custom_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dns_rewrite_dns_custom_nameservers WirelessSsid#dns_rewrite_dns_custom_nameservers}
   */
   readonly dnsRewriteDnsCustomNameservers?: string[];
   /**
   * Boolean indicating whether or not DNS server rewrite is enabled. If disabled, upstream DNS will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dns_rewrite_enabled WirelessSsid#dns_rewrite_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dns_rewrite_enabled WirelessSsid#dns_rewrite_enabled}
   */
   readonly dnsRewriteEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Whether 802.11r is adaptive or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dot11r_adaptive WirelessSsid#dot11r_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dot11r_adaptive WirelessSsid#dot11r_adaptive}
   */
   readonly dot11RAdaptive?: boolean | cdktf.IResolvable;
   /**
   * Whether 802.11r is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dot11r_enabled WirelessSsid#dot11r_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dot11r_enabled WirelessSsid#dot11r_enabled}
   */
   readonly dot11REnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether 802.11w is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dot11w_enabled WirelessSsid#dot11w_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dot11w_enabled WirelessSsid#dot11w_enabled}
   */
   readonly dot11WEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Whether 802.11w is required or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#dot11w_required WirelessSsid#dot11w_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#dot11w_required WirelessSsid#dot11w_required}
   */
   readonly dot11WRequired?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the SSID is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#enabled WirelessSsid#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#enabled WirelessSsid#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The psk encryption mode for the SSID (`wep` or `wpa`). This param is only valid if the authMode is `psk`
   *   - Choices: `open`, `wep`, `wpa`, `wpa-eap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#encryption_mode WirelessSsid#encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#encryption_mode WirelessSsid#encryption_mode}
   */
   readonly encryptionMode?: string;
   /**
   * Whether or not an SSID is accessible by `enterprise` administrators (`access disabled` or `access enabled`)
   *   - Choices: `access disabled`, `access enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#enterprise_admin_access WirelessSsid#enterprise_admin_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#enterprise_admin_access WirelessSsid#enterprise_admin_access}
   */
   readonly enterpriseAdminAccess?: string;
   /**
   * The EoGRE concentrator's IP or FQDN. This param is required when ipAssignmentMode is `Ethernet over GRE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#gre_concentrator_host WirelessSsid#gre_concentrator_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#gre_concentrator_host WirelessSsid#gre_concentrator_host}
   */
   readonly greConcentratorHost?: string;
   /**
   * Optional numerical identifier that will add the GRE key field to the GRE header. Used to identify an individual traffic flow within a tunnel.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#gre_key WirelessSsid#gre_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#gre_key WirelessSsid#gre_key}
   */
   readonly greKey?: number;
   /**
   * The client IP assignment mode (`NAT mode`, `Bridge mode`, `Layer 3 roaming`, `Ethernet over GRE`, `Layer 3 roaming with a concentrator` or `VPN`)
   *   - Choices: `Bridge mode`, `Ethernet over GRE`, `Layer 3 roaming`, `Layer 3 roaming with a concentrator`, `NAT mode`, `VPN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ip_assignment_mode WirelessSsid#ip_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ip_assignment_mode WirelessSsid#ip_assignment_mode}
   */
   readonly ipAssignmentMode?: string;
   /**
   * Boolean indicating whether Layer 2 LAN isolation should be enabled or disabled. Only configurable when ipAssignmentMode is `Bridge mode`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#lan_isolation_enabled WirelessSsid#lan_isolation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#lan_isolation_enabled WirelessSsid#lan_isolation_enabled}
   */
   readonly lanIsolationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The base distinguished name of users on the LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ldap_base_distinguished_name WirelessSsid#ldap_base_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ldap_base_distinguished_name WirelessSsid#ldap_base_distinguished_name}
   */
   readonly ldapBaseDistinguishedName?: string;
   /**
   * The distinguished name of the LDAP user account (example: cn=user,dc=meraki,dc=com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ldap_credentials_distinguished_name WirelessSsid#ldap_credentials_distinguished_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ldap_credentials_distinguished_name WirelessSsid#ldap_credentials_distinguished_name}
   */
   readonly ldapCredentialsDistinguishedName?: string;
   /**
   * The password of the LDAP user account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ldap_credentials_password WirelessSsid#ldap_credentials_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ldap_credentials_password WirelessSsid#ldap_credentials_password}
   */
   readonly ldapCredentialsPassword?: string;
   /**
   * The contents of the CA certificate. Must be in PEM or DER format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ldap_server_ca_certificate_contents WirelessSsid#ldap_server_ca_certificate_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ldap_server_ca_certificate_contents WirelessSsid#ldap_server_ca_certificate_contents}
   */
   readonly ldapServerCaCertificateContents?: string;
   /**
   * The LDAP servers to be used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ldap_servers WirelessSsid#ldap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ldap_servers WirelessSsid#ldap_servers}
   */
   readonly ldapServers?: WirelessSsidLdapServers[] | cdktf.IResolvable;
   /**
   * The duration (in seconds) for which auths are cached. The timeout is measured from the user`s most recent non-cached authentication to the network. Between 3600 (1 hour) and 86400 (1 day)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_auth_fallback_cache_timeout WirelessSsid#local_auth_fallback_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_auth_fallback_cache_timeout WirelessSsid#local_auth_fallback_cache_timeout}
   */
   readonly localAuthFallbackCacheTimeout?: number;
   /**
   * If true, MR devices will cache authentication credentials for EAP-TLS or for MAC based authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_auth_fallback_enabled WirelessSsid#local_auth_fallback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_auth_fallback_enabled WirelessSsid#local_auth_fallback_enabled}
   */
   readonly localAuthFallbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * The contents of the Server CA Certificate. Must be in PEM or DER format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_auth_fallback_server_ca_certificate_contents WirelessSsid#local_auth_fallback_server_ca_certificate_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_auth_fallback_server_ca_certificate_contents WirelessSsid#local_auth_fallback_server_ca_certificate_contents}
   */
   readonly localAuthFallbackServerCaCertificateContents?: string;
   /**
   * The duration (in seconds) for which LDAP and OCSP lookups are cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_cache_timeout WirelessSsid#local_radius_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_cache_timeout WirelessSsid#local_radius_cache_timeout}
   */
   readonly localRadiusCacheTimeout?: number;
   /**
   * The contents of the Client CA Certificate. Must be in PEM or DER format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_certificate_authentication_client_root_ca_certificate_contents WirelessSsid#local_radius_certificate_authentication_client_root_ca_certificate_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_certificate_authentication_client_root_ca_certificate_contents WirelessSsid#local_radius_certificate_authentication_client_root_ca_certificate_contents}
   */
   readonly localRadiusCertificateAuthenticationClientRootCaCertificateContents?: string;
   /**
   * Whether or not to use EAP-TLS certificate-based authentication to validate wireless clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_certificate_authentication_enabled WirelessSsid#local_radius_certificate_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_certificate_authentication_enabled WirelessSsid#local_radius_certificate_authentication_enabled}
   */
   readonly localRadiusCertificateAuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Optional) The URL of the OCSP responder to verify client certificate status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_certificate_authentication_ocsp_responder_url WirelessSsid#local_radius_certificate_authentication_ocsp_responder_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_certificate_authentication_ocsp_responder_url WirelessSsid#local_radius_certificate_authentication_ocsp_responder_url}
   */
   readonly localRadiusCertificateAuthenticationOcspResponderUrl?: string;
   /**
   * Whether or not to verify the certificate with LDAP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_certificate_authentication_use_ldap WirelessSsid#local_radius_certificate_authentication_use_ldap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_certificate_authentication_use_ldap WirelessSsid#local_radius_certificate_authentication_use_ldap}
   */
   readonly localRadiusCertificateAuthenticationUseLdap?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to verify the certificate with OCSP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_certificate_authentication_use_ocsp WirelessSsid#local_radius_certificate_authentication_use_ocsp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_certificate_authentication_use_ocsp WirelessSsid#local_radius_certificate_authentication_use_ocsp}
   */
   readonly localRadiusCertificateAuthenticationUseOcsp?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to use EAP-TTLS/PAP or PEAP-GTC password-based authentication via LDAP lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#local_radius_password_authentication_enabled WirelessSsid#local_radius_password_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#local_radius_password_authentication_enabled WirelessSsid#local_radius_password_authentication_enabled}
   */
   readonly localRadiusPasswordAuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * If true, Mandatory DHCP will enforce that clients connecting to this SSID must use the IP address assigned by the DHCP server. Clients who use a static IP address won`t be able to associate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#mandatory_dhcp_enabled WirelessSsid#mandatory_dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#mandatory_dhcp_enabled WirelessSsid#mandatory_dhcp_enabled}
   */
   readonly mandatoryDhcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The minimum bitrate in Mbps of this SSID in the default indoor RF profile. (`1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#min_bitrate WirelessSsid#min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#min_bitrate WirelessSsid#min_bitrate}
   */
   readonly minBitrate?: number;
   /**
   * The name of the SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#name WirelessSsid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#name WirelessSsid#name}
   */
   readonly name: string;
   /**
   * Whether or not RADIUS guest named VLAN is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#named_vlans_radius_guest_vlan_enabled WirelessSsid#named_vlans_radius_guest_vlan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#named_vlans_radius_guest_vlan_enabled WirelessSsid#named_vlans_radius_guest_vlan_enabled}
   */
   readonly namedVlansRadiusGuestVlanEnabled?: boolean | cdktf.IResolvable;
   /**
   * RADIUS guest VLAN name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#named_vlans_radius_guest_vlan_name WirelessSsid#named_vlans_radius_guest_vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#named_vlans_radius_guest_vlan_name WirelessSsid#named_vlans_radius_guest_vlan_name}
   */
   readonly namedVlansRadiusGuestVlanName?: string;
   /**
   * The list of AP tags and VLAN names used for named VLAN tagging. If an AP has a tag matching one in the list, then traffic on this SSID will be directed to use the VLAN name associated to the tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#named_vlans_tagging_by_ap_tags WirelessSsid#named_vlans_tagging_by_ap_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#named_vlans_tagging_by_ap_tags WirelessSsid#named_vlans_tagging_by_ap_tags}
   */
   readonly namedVlansTaggingByApTags?: WirelessSsidNamedVlansTaggingByApTags[] | cdktf.IResolvable;
   /**
   * The default VLAN name used to tag traffic in the absence of a matching AP tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#named_vlans_tagging_default_vlan_name WirelessSsid#named_vlans_tagging_default_vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#named_vlans_tagging_default_vlan_name WirelessSsid#named_vlans_tagging_default_vlan_name}
   */
   readonly namedVlansTaggingDefaultVlanName?: string;
   /**
   * Whether or not traffic should be directed to use specific VLAN names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#named_vlans_tagging_enabled WirelessSsid#named_vlans_tagging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#named_vlans_tagging_enabled WirelessSsid#named_vlans_tagging_enabled}
   */
   readonly namedVlansTaggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#network_id WirelessSsid#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#network_id WirelessSsid#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#number WirelessSsid#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#number WirelessSsid#number}
   */
   readonly number: string;
   /**
   * (Optional) The list of domains allowed access to the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#oauth_allowed_domains WirelessSsid#oauth_allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#oauth_allowed_domains WirelessSsid#oauth_allowed_domains}
   */
   readonly oauthAllowedDomains?: string[];
   /**
   * The download bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#per_client_bandwidth_limit_down WirelessSsid#per_client_bandwidth_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#per_client_bandwidth_limit_down WirelessSsid#per_client_bandwidth_limit_down}
   */
   readonly perClientBandwidthLimitDown?: number;
   /**
   * The upload bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#per_client_bandwidth_limit_up WirelessSsid#per_client_bandwidth_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#per_client_bandwidth_limit_up WirelessSsid#per_client_bandwidth_limit_up}
   */
   readonly perClientBandwidthLimitUp?: number;
   /**
   * The total download bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#per_ssid_bandwidth_limit_down WirelessSsid#per_ssid_bandwidth_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#per_ssid_bandwidth_limit_down WirelessSsid#per_ssid_bandwidth_limit_down}
   */
   readonly perSsidBandwidthLimitDown?: number;
   /**
   * The total upload bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#per_ssid_bandwidth_limit_up WirelessSsid#per_ssid_bandwidth_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#per_ssid_bandwidth_limit_up WirelessSsid#per_ssid_bandwidth_limit_up}
   */
   readonly perSsidBandwidthLimitUp?: number;
   /**
   * The passkey for the SSID. This param is only valid if the authMode is `psk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#psk WirelessSsid#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#psk WirelessSsid#psk}
   */
   readonly psk?: string;
   /**
   * Whether or not RADIUS accounting is enabled. This param is only valid if the authMode is `open-with-radius`, `8021x-radius` or `ipsk-with-radius`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_accounting_enabled WirelessSsid#radius_accounting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_accounting_enabled WirelessSsid#radius_accounting_enabled}
   */
   readonly radiusAccountingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The interval (in seconds) in which accounting information is updated and sent to the RADIUS accounting server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_accounting_interim_interval WirelessSsid#radius_accounting_interim_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_accounting_interim_interval WirelessSsid#radius_accounting_interim_interval}
   */
   readonly radiusAccountingInterimInterval?: number;
   /**
   * The RADIUS accounting 802.1X servers to be used for authentication. This param is only valid if the authMode is `open-with-radius`, `8021x-radius` or `ipsk-with-radius` and radiusAccountingEnabled is `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_accounting_servers WirelessSsid#radius_accounting_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_accounting_servers WirelessSsid#radius_accounting_servers}
   */
   readonly radiusAccountingServers?: WirelessSsidRadiusAccountingServers[] | cdktf.IResolvable;
+  /**
+  * The delay (in seconds) before sending the first RADIUS accounting start message. Must be between 0 and 59 seconds.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_accounting_start_delay WirelessSsid#radius_accounting_start_delay}
+  */
+  readonly radiusAccountingStartDelay?: number;
   /**
   * Specify the RADIUS attribute used to look up group policies (`Filter-Id`, `Reply-Message`, `Airespace-ACL-Name` or `Aruba-User-Role`). Access points must receive this attribute in the RADIUS Access-Accept message
   *   - Choices: `Airespace-ACL-Name`, `Aruba-User-Role`, `Filter-Id`, `Reply-Message`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_attribute_for_group_policies WirelessSsid#radius_attribute_for_group_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_attribute_for_group_policies WirelessSsid#radius_attribute_for_group_policies}
   */
   readonly radiusAttributeForGroupPolicies?: string;
   /**
   * The template of the NAS identifier to be used for RADIUS authentication (ex. $NODE_MAC$:$VAP_NUM$).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_authentication_nas_id WirelessSsid#radius_authentication_nas_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_authentication_nas_id WirelessSsid#radius_authentication_nas_id}
   */
   readonly radiusAuthenticationNasId?: string;
   /**
   * The template of the called station identifier to be used for RADIUS (ex. $NODE_MAC$:$VAP_NUM$).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_called_station_id WirelessSsid#radius_called_station_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_called_station_id WirelessSsid#radius_called_station_id}
   */
   readonly radiusCalledStationId?: string;
   /**
   * If true, Meraki devices will act as a RADIUS Dynamic Authorization Server and will respond to RADIUS Change-of-Authorization and Disconnect messages sent by the RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_coa_enabled WirelessSsid#radius_coa_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_coa_enabled WirelessSsid#radius_coa_enabled}
   */
   readonly radiusCoaEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of DAS (Dynamic Authorization Server) IPs. This is an unsupported attribute and is subject to breaking changes without prior notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_das_clients_ips WirelessSsid#radius_das_clients_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_das_clients_ips WirelessSsid#radius_das_clients_ips}
   */
   readonly radiusDasClientsIps?: string[];
   /**
   * Shared secret for DAS (Dynamic Authorization Server). This is an unsupported attribute and is subject to breaking changes without prior notice.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_das_clients_shared_secret WirelessSsid#radius_das_clients_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_das_clients_shared_secret WirelessSsid#radius_das_clients_shared_secret}
   */
   readonly radiusDasClientsSharedSecret?: string;
   /**
   * This policy determines how authentication requests should be handled in the event that all of the configured RADIUS servers are unreachable (`Deny access` or `Allow access`)
   *   - Choices: `Allow access`, `Deny access`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_failover_policy WirelessSsid#radius_failover_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_failover_policy WirelessSsid#radius_failover_policy}
   */
   readonly radiusFailoverPolicy?: string;
   /**
   * Whether or not higher priority RADIUS servers should be retried after 60 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_fallback_enabled WirelessSsid#radius_fallback_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_fallback_enabled WirelessSsid#radius_fallback_enabled}
   */
   readonly radiusFallbackEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not RADIUS Guest VLAN is enabled. This param is only valid if the authMode is `open-with-radius` and addressing mode is not set to `isolated` or `nat` mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_guest_vlan_enabled WirelessSsid#radius_guest_vlan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_guest_vlan_enabled WirelessSsid#radius_guest_vlan_enabled}
   */
   readonly radiusGuestVlanEnabled?: boolean | cdktf.IResolvable;
   /**
   * VLAN ID of the RADIUS Guest VLAN. This param is only valid if the authMode is `open-with-radius` and addressing mode is not set to `isolated` or `nat` mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_guest_vlan_id WirelessSsid#radius_guest_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_guest_vlan_id WirelessSsid#radius_guest_vlan_id}
   */
   readonly radiusGuestVlanId?: number;
   /**
   * This policy determines which RADIUS server will be contacted first in an authentication attempt and the ordering of any necessary retry attempts (`Strict priority order` or `Round robin`)
   *   - Choices: `Round robin`, `Strict priority order`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_load_balancing_policy WirelessSsid#radius_load_balancing_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_load_balancing_policy WirelessSsid#radius_load_balancing_policy}
   */
   readonly radiusLoadBalancingPolicy?: string;
   /**
   * If true, the RADIUS response can override VLAN tag. This is not valid when ipAssignmentMode is `NAT mode`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_override WirelessSsid#radius_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_override WirelessSsid#radius_override}
   */
   readonly radiusOverride?: boolean | cdktf.IResolvable;
   /**
   * If true, Meraki devices will proxy RADIUS messages through the Meraki cloud to the configured RADIUS auth and accounting servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_proxy_enabled WirelessSsid#radius_proxy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_proxy_enabled WirelessSsid#radius_proxy_enabled}
   */
   readonly radiusProxyEnabled?: boolean | cdktf.IResolvable;
   /**
   * The interval (in seconds) to determines how long a TLS session can remain idle for a RADSec server before it is automatically terminated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_radsec_tls_tunnel_timeout WirelessSsid#radius_radsec_tls_tunnel_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_radsec_tls_tunnel_timeout WirelessSsid#radius_radsec_tls_tunnel_timeout}
   */
   readonly radiusRadsecTlsTunnelTimeout?: number;
   /**
   * The maximum number of transmit attempts after which a RADIUS server is failed over (must be between 1-5).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_server_attempts_limit WirelessSsid#radius_server_attempts_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_server_attempts_limit WirelessSsid#radius_server_attempts_limit}
   */
   readonly radiusServerAttemptsLimit?: number;
   /**
   * The amount of time for which a RADIUS client waits for a reply from the RADIUS server (must be between 1-10 seconds).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_server_timeout WirelessSsid#radius_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_server_timeout WirelessSsid#radius_server_timeout}
   */
   readonly radiusServerTimeout?: number;
   /**
   * The RADIUS 802.1X servers to be used for authentication. This param is only valid if the authMode is `open-with-radius`, `8021x-radius` or `ipsk-with-radius`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_servers WirelessSsid#radius_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_servers WirelessSsid#radius_servers}
   */
   readonly radiusServers?: WirelessSsidRadiusServers[] | cdktf.IResolvable;
   /**
   * If true, Meraki devices will periodically send Access-Request messages to configured RADIUS servers using identity `meraki_8021x_test` to ensure that the RADIUS servers are reachable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radius_testing_enabled WirelessSsid#radius_testing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radius_testing_enabled WirelessSsid#radius_testing_enabled}
   */
   readonly radiusTestingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The secondary concentrator to use when the ipAssignmentMode is `VPN`. If configured, the APs will switch to using this concentrator if the primary concentrator is unreachable. This param is optional. (`disabled` represents no secondary concentrator.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#secondary_concentrator_network_id WirelessSsid#secondary_concentrator_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#secondary_concentrator_network_id WirelessSsid#secondary_concentrator_network_id}
   */
   readonly secondaryConcentratorNetworkId?: string;
   /**
   * Boolean indicating whether or not to allow users to temporarily exceed the bandwidth limit for short periods while still keeping them under the bandwidth limit over time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#speed_burst_enabled WirelessSsid#speed_burst_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#speed_burst_enabled WirelessSsid#speed_burst_enabled}
   */
   readonly speedBurstEnabled?: boolean | cdktf.IResolvable;
   /**
   * Array of valid sponsor email domains for sponsored guest splash type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#splash_guest_sponsor_domains WirelessSsid#splash_guest_sponsor_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#splash_guest_sponsor_domains WirelessSsid#splash_guest_sponsor_domains}
   */
   readonly splashGuestSponsorDomains?: string[];
   /**
   * The type of splash page for the SSID (`None`, `Click-through splash page`, `Billing`, `Password-protected with Meraki RADIUS`, `Password-protected with custom RADIUS`, `Password-protected with Active Directory`, `Password-protected with LDAP`, `SMS authentication`, `Systems Manager Sentry`, `Facebook Wi-Fi`, `Google OAuth`, `Microsoft Entra ID`, `Sponsored guest`, `Cisco ISE` or `Google Apps domain`). This attribute is not supported for template children.
   *   - Choices: `Billing`, `Cisco ISE`, `Click-through splash page`, `Facebook Wi-Fi`, `Google Apps domain`, `Google OAuth`, `Microsoft Entra ID`, `None`, `Password-protected with Active Directory`, `Password-protected with LDAP`, `Password-protected with Meraki RADIUS`, `Password-protected with custom RADIUS`, `SMS authentication`, `Sponsored guest`, `Systems Manager Sentry`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#splash_page WirelessSsid#splash_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#splash_page WirelessSsid#splash_page}
   */
   readonly splashPage?: string;
   /**
   * Whether or not traffic should be directed to use specific VLANs. This param is only valid if the ipAssignmentMode is `Bridge mode` or `Layer 3 roaming`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#use_vlan_tagging WirelessSsid#use_vlan_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#use_vlan_tagging WirelessSsid#use_vlan_tagging}
   */
   readonly useVlanTagging?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating whether APs should advertise or hide this SSID. APs will only broadcast this SSID if set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#visible WirelessSsid#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#visible WirelessSsid#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The VLAN ID used for VLAN tagging. This param is only valid when the ipAssignmentMode is `Layer 3 roaming with a concentrator` or `VPN`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#vlan_id WirelessSsid#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#vlan_id WirelessSsid#vlan_id}
   */
   readonly vlanId?: number;
   /**
   * Allow access to a configurable list of IP ranges, which users may access prior to sign-on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#walled_garden_enabled WirelessSsid#walled_garden_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#walled_garden_enabled WirelessSsid#walled_garden_enabled}
   */
   readonly walledGardenEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specify your walled garden by entering an array of addresses, ranges using CIDR notation, domain names, and domain wildcards (e.g. `192.168.1.1/24`, `192.168.37.10/32`, `www.yahoo.com`, `*.google.com`]). Meraki`s splash page is automatically included in your walled garden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#walled_garden_ranges WirelessSsid#walled_garden_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#walled_garden_ranges WirelessSsid#walled_garden_ranges}
   */
   readonly walledGardenRanges?: string[];
   /**
   * The types of WPA encryption. (`WPA1 only`, `WPA1 and WPA2`, `WPA2 only`, `WPA3 Transition Mode`, `WPA3 only` or `WPA3 192-bit Security`)
   *   - Choices: `WPA1 and WPA2`, `WPA1 only`, `WPA2 only`, `WPA3 192-bit Security`, `WPA3 Transition Mode`, `WPA3 only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#wpa_encryption_mode WirelessSsid#wpa_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#wpa_encryption_mode WirelessSsid#wpa_encryption_mode}
   */
   readonly wpaEncryptionMode?: string;
 }
@@ -549,13 +555,13 @@ export interface WirelessSsidActiveDirectoryServers {
   /**
   * IP address (or FQDN) of your Active Directory server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#host WirelessSsid#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#host WirelessSsid#host}
   */
   readonly host: string;
   /**
   * (Optional) UDP port the Active Directory server listens on. By default, uses port 3268.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#port WirelessSsid#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#port WirelessSsid#port}
   */
   readonly port?: number;
 }
@@ -699,13 +705,13 @@ export interface WirelessSsidApTagsAndVlanIds {
   /**
   * Array of AP tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#tags WirelessSsid#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#tags WirelessSsid#tags}
   */
   readonly tags?: string[];
   /**
   * Numerical identifier that is assigned to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#vlan_id WirelessSsid#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#vlan_id WirelessSsid#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -852,13 +858,13 @@ export interface WirelessSsidLdapServers {
   /**
   * IP address (or FQDN) of your LDAP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#host WirelessSsid#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#host WirelessSsid#host}
   */
   readonly host: string;
   /**
   * UDP port the LDAP server listens on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#port WirelessSsid#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#port WirelessSsid#port}
   */
   readonly port: number;
 }
@@ -999,13 +1005,13 @@ export interface WirelessSsidNamedVlansTaggingByApTags {
   /**
   * List of AP tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#tags WirelessSsid#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#tags WirelessSsid#tags}
   */
   readonly tags?: string[];
   /**
   * VLAN name that will be used to tag traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#vlan_name WirelessSsid#vlan_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#vlan_name WirelessSsid#vlan_name}
   */
   readonly vlanName?: string;
 }
@@ -1152,31 +1158,31 @@ export interface WirelessSsidRadiusAccountingServers {
   /**
   * Certificate used for authorization for the RADSEC Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ca_certificate WirelessSsid#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ca_certificate WirelessSsid#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * IP address (or FQDN) to which the APs will send RADIUS accounting messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#host WirelessSsid#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#host WirelessSsid#host}
   */
   readonly host: string;
   /**
   * Port on the RADIUS server that is listening for accounting messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#port WirelessSsid#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#port WirelessSsid#port}
   */
   readonly port?: number;
   /**
   * Use RADSEC (TLS over TCP) to connect to this RADIUS accounting server. Requires radiusProxyEnabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radsec_enabled WirelessSsid#radsec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radsec_enabled WirelessSsid#radsec_enabled}
   */
   readonly radsecEnabled?: boolean | cdktf.IResolvable;
   /**
   * Shared key used to authenticate messages between the APs and RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#secret WirelessSsid#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#secret WirelessSsid#secret}
   */
   readonly secret?: string;
 }
@@ -1407,37 +1413,37 @@ export interface WirelessSsidRadiusServers {
   /**
   * Certificate used for authorization for the RADSEC Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#ca_certificate WirelessSsid#ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#ca_certificate WirelessSsid#ca_certificate}
   */
   readonly caCertificate?: string;
   /**
   * IP address (or FQDN) of your RADIUS server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#host WirelessSsid#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#host WirelessSsid#host}
   */
   readonly host: string;
   /**
   * The ID of the Openroaming Certificate attached to radius server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#open_roaming_certificate_id WirelessSsid#open_roaming_certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#open_roaming_certificate_id WirelessSsid#open_roaming_certificate_id}
   */
   readonly openRoamingCertificateId?: number;
   /**
   * UDP port the RADIUS server listens on for Access-requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#port WirelessSsid#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#port WirelessSsid#port}
   */
   readonly port?: number;
   /**
   * Use RADSEC (TLS over TCP) to connect to this RADIUS server. Requires radiusProxyEnabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#radsec_enabled WirelessSsid#radsec_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#radsec_enabled WirelessSsid#radsec_enabled}
   */
   readonly radsecEnabled?: boolean | cdktf.IResolvable;
   /**
   * RADIUS client shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#secret WirelessSsid#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#secret WirelessSsid#secret}
   */
   readonly secret?: string;
 }
@@ -1695,7 +1701,7 @@ export class WirelessSsidRadiusServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid meraki_wireless_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid meraki_wireless_ssid}
 */
 export class WirelessSsid extends cdktf.TerraformResource {
 
@@ -1711,7 +1717,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsid to import
-  * @param importFromId The id of the existing WirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1723,7 +1729,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid meraki_wireless_ssid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid meraki_wireless_ssid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1734,8 +1740,8 @@ export class WirelessSsid extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1805,6 +1811,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
     this._radiusAccountingEnabled = config.radiusAccountingEnabled;
     this._radiusAccountingInterimInterval = config.radiusAccountingInterimInterval;
     this._radiusAccountingServers.internalValue = config.radiusAccountingServers;
+    this._radiusAccountingStartDelay = config.radiusAccountingStartDelay;
     this._radiusAttributeForGroupPolicies = config.radiusAttributeForGroupPolicies;
     this._radiusAuthenticationNasId = config.radiusAuthenticationNasId;
     this._radiusCalledStationId = config.radiusCalledStationId;
@@ -2795,6 +2802,22 @@ export class WirelessSsid extends cdktf.TerraformResource {
     return this._radiusAccountingServers.internalValue;
   }
 
+  // radius_accounting_start_delay - computed: false, optional: true, required: false
+  private _radiusAccountingStartDelay?: number; 
+  public get radiusAccountingStartDelay() {
+    return this.getNumberAttribute('radius_accounting_start_delay');
+  }
+  public set radiusAccountingStartDelay(value: number) {
+    this._radiusAccountingStartDelay = value;
+  }
+  public resetRadiusAccountingStartDelay() {
+    this._radiusAccountingStartDelay = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get radiusAccountingStartDelayInput() {
+    return this._radiusAccountingStartDelay;
+  }
+
   // radius_attribute_for_group_policies - computed: false, optional: true, required: false
   private _radiusAttributeForGroupPolicies?: string; 
   public get radiusAttributeForGroupPolicies() {
@@ -3309,6 +3332,7 @@ export class WirelessSsid extends cdktf.TerraformResource {
       radius_accounting_enabled: cdktf.booleanToTerraform(this._radiusAccountingEnabled),
       radius_accounting_interim_interval: cdktf.numberToTerraform(this._radiusAccountingInterimInterval),
       radius_accounting_servers: cdktf.listMapper(wirelessSsidRadiusAccountingServersToTerraform, false)(this._radiusAccountingServers.internalValue),
+      radius_accounting_start_delay: cdktf.numberToTerraform(this._radiusAccountingStartDelay),
       radius_attribute_for_group_policies: cdktf.stringToTerraform(this._radiusAttributeForGroupPolicies),
       radius_authentication_nas_id: cdktf.stringToTerraform(this._radiusAuthenticationNasId),
       radius_called_station_id: cdktf.stringToTerraform(this._radiusCalledStationId),
@@ -3701,6 +3725,12 @@ export class WirelessSsid extends cdktf.TerraformResource {
         isBlock: true,
         type: "list",
         storageClassType: "WirelessSsidRadiusAccountingServersList",
+      },
+      radius_accounting_start_delay: {
+        value: cdktf.numberToHclTerraform(this._radiusAccountingStartDelay),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       radius_attribute_for_group_policies: {
         value: cdktf.stringToHclTerraform(this._radiusAttributeForGroupPolicies),

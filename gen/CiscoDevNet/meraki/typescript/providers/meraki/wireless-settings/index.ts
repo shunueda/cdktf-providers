@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface WirelessSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Toggle for enabling or disabling IPv6 bridging in a network (Note: if enabled, SSIDs must also be configured to use bridge mode)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#ipv6_bridge_enabled WirelessSettings#ipv6_bridge_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#ipv6_bridge_enabled WirelessSettings#ipv6_bridge_enabled}
   */
   readonly ipv6BridgeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Toggle for enabling or disabling LED lights on all APs in the network (making them run dark)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#led_lights_on WirelessSettings#led_lights_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#led_lights_on WirelessSettings#led_lights_on}
   */
   readonly ledLightsOn?: boolean | cdktf.IResolvable;
   /**
   * Toggle for enabling or disabling location analytics for your network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#location_analytics_enabled WirelessSettings#location_analytics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#location_analytics_enabled WirelessSettings#location_analytics_enabled}
   */
   readonly locationAnalyticsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Toggle for enabling or disabling meshing in a network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#meshing_enabled WirelessSettings#meshing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#meshing_enabled WirelessSettings#meshing_enabled}
   */
   readonly meshingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The duration in minutes that devices will refrain from using dirty VLANs before adding them back to the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#named_vlans_pool_dhcp_monitoring_duration WirelessSettings#named_vlans_pool_dhcp_monitoring_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#named_vlans_pool_dhcp_monitoring_duration WirelessSettings#named_vlans_pool_dhcp_monitoring_duration}
   */
   readonly namedVlansPoolDhcpMonitoringDuration?: number;
   /**
   * Whether or not devices using named VLAN pools should remove dirty VLANs from the pool, thereby preventing clients from being assigned to VLANs where they would be unable to obtain an IP address via DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#named_vlans_pool_dhcp_monitoring_enabled WirelessSettings#named_vlans_pool_dhcp_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#named_vlans_pool_dhcp_monitoring_enabled WirelessSettings#named_vlans_pool_dhcp_monitoring_enabled}
   */
   readonly namedVlansPoolDhcpMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#network_id WirelessSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#network_id WirelessSettings#network_id}
   */
   readonly networkId: string;
   /**
   * The default strategy that network devices will use to perform an upgrade. Requires firmware version MR 26.8 or higher.
   *   - Choices: `minimizeClientDowntime`, `minimizeUpgradeTime`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#upgrade_strategy WirelessSettings#upgrade_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#upgrade_strategy WirelessSettings#upgrade_strategy}
   */
   readonly upgradeStrategy?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings meraki_wireless_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings meraki_wireless_settings}
 */
 export class WirelessSettings extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class WirelessSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSettings to import
-  * @param importFromId The id of the existing WirelessSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class WirelessSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_settings meraki_wireless_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_settings meraki_wireless_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class WirelessSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface OrganizationPolicyObjectsConfig extends cdktf.TerraformMetaArgu
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#items OrganizationPolicyObjects#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#items OrganizationPolicyObjects#items}
   */
   readonly items: OrganizationPolicyObjectsItems[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#organization_id OrganizationPolicyObjects#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#organization_id OrganizationPolicyObjects#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,49 +24,49 @@ export interface OrganizationPolicyObjectsItems {
   /**
   * Category of a policy object (one of: adaptivePolicy, network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#category OrganizationPolicyObjects#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#category OrganizationPolicyObjects#category}
   */
   readonly category: string;
   /**
   * CIDR Value of a policy object (e.g. 10.11.12.1/24')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#cidr OrganizationPolicyObjects#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#cidr OrganizationPolicyObjects#cidr}
   */
   readonly cidr?: string;
   /**
   * Fully qualified domain name of policy object (e.g. 'example.com')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#fqdn OrganizationPolicyObjects#fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#fqdn OrganizationPolicyObjects#fqdn}
   */
   readonly fqdn?: string;
   /**
   * The IDs of policy object groups the policy object belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#group_ids OrganizationPolicyObjects#group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#group_ids OrganizationPolicyObjects#group_ids}
   */
   readonly groupIds?: string[];
   /**
   * IP Address of a policy object (e.g. '1.2.3.4')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#ip OrganizationPolicyObjects#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#ip OrganizationPolicyObjects#ip}
   */
   readonly ip?: string;
   /**
   * Mask of a policy object (e.g. '255.255.0.0')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#mask OrganizationPolicyObjects#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#mask OrganizationPolicyObjects#mask}
   */
   readonly mask?: string;
   /**
   * Name of a policy object, unique within the organization (alphanumeric, space, dash, or underscore characters only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#name OrganizationPolicyObjects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#name OrganizationPolicyObjects#name}
   */
   readonly name: string;
   /**
   * Type of a policy object (one of: adaptivePolicyIpv4Cidr, cidr, fqdn, ipAndMask)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#type OrganizationPolicyObjects#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#type OrganizationPolicyObjects#type}
   */
   readonly type: string;
 }
@@ -381,7 +381,7 @@ export class OrganizationPolicyObjectsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects meraki_organization_policy_objects}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects meraki_organization_policy_objects}
 */
 export class OrganizationPolicyObjects extends cdktf.TerraformResource {
 
@@ -397,7 +397,7 @@ export class OrganizationPolicyObjects extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationPolicyObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationPolicyObjects to import
-  * @param importFromId The id of the existing OrganizationPolicyObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationPolicyObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationPolicyObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class OrganizationPolicyObjects extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_policy_objects meraki_organization_policy_objects} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_policy_objects meraki_organization_policy_objects} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class OrganizationPolicyObjects extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_policy_objects',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

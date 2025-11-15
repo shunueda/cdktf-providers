@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_devices
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_devices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiOrganizationDevicesConfig extends cdktf.TerraformMeta
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_devices#organization_id DataMerakiOrganizationDevices#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_devices#organization_id DataMerakiOrganizationDevices#organization_id}
   */
   readonly organizationId: string;
 }
@@ -247,7 +247,7 @@ export class DataMerakiOrganizationDevicesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_devices meraki_organization_devices}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_devices meraki_organization_devices}
 */
 export class DataMerakiOrganizationDevices extends cdktf.TerraformDataSource {
 
@@ -263,7 +263,7 @@ export class DataMerakiOrganizationDevices extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiOrganizationDevices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationDevices to import
-  * @param importFromId The id of the existing DataMerakiOrganizationDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_devices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationDevices that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_devices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationDevices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class DataMerakiOrganizationDevices extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_devices meraki_organization_devices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_devices meraki_organization_devices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class DataMerakiOrganizationDevices extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_organization_devices',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

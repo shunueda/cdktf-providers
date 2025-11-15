@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMerakiOrganizationLicenseConfig extends cdktf.TerraformMeta
   /**
   * License ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license#license_id DataMerakiOrganizationLicense#license_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license#license_id DataMerakiOrganizationLicense#license_id}
   */
   readonly licenseId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license#organization_id DataMerakiOrganizationLicense#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license#organization_id DataMerakiOrganizationLicense#organization_id}
   */
   readonly organizationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license meraki_organization_license}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license meraki_organization_license}
 */
 export class DataMerakiOrganizationLicense extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataMerakiOrganizationLicense extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiOrganizationLicense resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationLicense to import
-  * @param importFromId The id of the existing DataMerakiOrganizationLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationLicense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationLicense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataMerakiOrganizationLicense extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_license meraki_organization_license} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_license meraki_organization_license} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataMerakiOrganizationLicense extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_organization_license',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

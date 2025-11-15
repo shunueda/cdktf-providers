@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ApplianceWarmSpareConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable warm spare
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#enabled ApplianceWarmSpare#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#enabled ApplianceWarmSpare#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#network_id ApplianceWarmSpare#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#network_id ApplianceWarmSpare#network_id}
   */
   readonly networkId: string;
   /**
   * Serial number of the warm spare appliance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#spare_serial ApplianceWarmSpare#spare_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#spare_serial ApplianceWarmSpare#spare_serial}
   */
   readonly spareSerial?: string;
   /**
   * Uplink mode, either virtual or public
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#uplink_mode ApplianceWarmSpare#uplink_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#uplink_mode ApplianceWarmSpare#uplink_mode}
   */
   readonly uplinkMode?: string;
   /**
   * The WAN 1 shared IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#virtual_ip1 ApplianceWarmSpare#virtual_ip1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#virtual_ip1 ApplianceWarmSpare#virtual_ip1}
   */
   readonly virtualIp1?: string;
   /**
   * The WAN 2 shared IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#virtual_ip2 ApplianceWarmSpare#virtual_ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#virtual_ip2 ApplianceWarmSpare#virtual_ip2}
   */
   readonly virtualIp2?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare meraki_appliance_warm_spare}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare meraki_appliance_warm_spare}
 */
 export class ApplianceWarmSpare extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class ApplianceWarmSpare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceWarmSpare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceWarmSpare to import
-  * @param importFromId The id of the existing ApplianceWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceWarmSpare that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceWarmSpare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class ApplianceWarmSpare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_warm_spare meraki_appliance_warm_spare} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_warm_spare meraki_appliance_warm_spare} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class ApplianceWarmSpare extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_warm_spare',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

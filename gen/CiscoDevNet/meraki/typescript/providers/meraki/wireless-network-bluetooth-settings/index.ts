@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,50 +10,50 @@ export interface WirelessNetworkBluetoothSettingsConfig extends cdktf.TerraformM
   /**
   * Whether APs will advertise beacons.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#advertising_enabled WirelessNetworkBluetoothSettings#advertising_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#advertising_enabled WirelessNetworkBluetoothSettings#advertising_enabled}
   */
   readonly advertisingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The major number to be used in the beacon identifier. Only valid in `Non-unique` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#major WirelessNetworkBluetoothSettings#major}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#major WirelessNetworkBluetoothSettings#major}
   */
   readonly major?: number;
   /**
   * The way major and minor number should be assigned to nodes in the network. (`Unique`, `Non-unique`)
   *   - Choices: `Non-unique`, `Unique`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#major_minor_assignment_mode WirelessNetworkBluetoothSettings#major_minor_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#major_minor_assignment_mode WirelessNetworkBluetoothSettings#major_minor_assignment_mode}
   */
   readonly majorMinorAssignmentMode?: string;
   /**
   * The minor number to be used in the beacon identifier. Only valid in `Non-unique` mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#minor WirelessNetworkBluetoothSettings#minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#minor WirelessNetworkBluetoothSettings#minor}
   */
   readonly minor?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#network_id WirelessNetworkBluetoothSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#network_id WirelessNetworkBluetoothSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Whether APs will scan for Bluetooth enabled clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#scanning_enabled WirelessNetworkBluetoothSettings#scanning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#scanning_enabled WirelessNetworkBluetoothSettings#scanning_enabled}
   */
   readonly scanningEnabled?: boolean | cdktf.IResolvable;
   /**
   * The UUID to be used in the beacon identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#uuid WirelessNetworkBluetoothSettings#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#uuid WirelessNetworkBluetoothSettings#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings meraki_wireless_network_bluetooth_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings meraki_wireless_network_bluetooth_settings}
 */
 export class WirelessNetworkBluetoothSettings extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class WirelessNetworkBluetoothSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessNetworkBluetoothSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessNetworkBluetoothSettings to import
-  * @param importFromId The id of the existing WirelessNetworkBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessNetworkBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessNetworkBluetoothSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class WirelessNetworkBluetoothSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_network_bluetooth_settings meraki_wireless_network_bluetooth_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_bluetooth_settings meraki_wireless_network_bluetooth_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class WirelessNetworkBluetoothSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_network_bluetooth_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

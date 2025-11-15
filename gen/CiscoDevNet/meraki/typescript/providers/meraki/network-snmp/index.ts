@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,25 +11,25 @@ export interface NetworkSnmpConfig extends cdktf.TerraformMetaArguments {
   * The type of SNMP access. Can be one of `none` (disabled), `community` (V1/V2c), or `users` (V3).
   *   - Choices: `community`, `none`, `users`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#access NetworkSnmp#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#access NetworkSnmp#access}
   */
   readonly access?: string;
   /**
   * The SNMP community string. Only relevant if `access` is set to `community`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#community_string NetworkSnmp#community_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#community_string NetworkSnmp#community_string}
   */
   readonly communityString?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#network_id NetworkSnmp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#network_id NetworkSnmp#network_id}
   */
   readonly networkId: string;
   /**
   * The list of SNMP users. Only relevant if `access` is set to `users`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#users NetworkSnmp#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#users NetworkSnmp#users}
   */
   readonly users?: NetworkSnmpUsers[] | cdktf.IResolvable;
 }
@@ -37,13 +37,13 @@ export interface NetworkSnmpUsers {
   /**
   * The passphrase for the SNMP user. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#passphrase NetworkSnmp#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#passphrase NetworkSnmp#passphrase}
   */
   readonly passphrase: string;
   /**
   * The username for the SNMP user. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#username NetworkSnmp#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#username NetworkSnmp#username}
   */
   readonly username: string;
 }
@@ -182,7 +182,7 @@ export class NetworkSnmpUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp meraki_network_snmp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp meraki_network_snmp}
 */
 export class NetworkSnmp extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class NetworkSnmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSnmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSnmp to import
-  * @param importFromId The id of the existing NetworkSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSnmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class NetworkSnmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_snmp meraki_network_snmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_snmp meraki_network_snmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class NetworkSnmp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_snmp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

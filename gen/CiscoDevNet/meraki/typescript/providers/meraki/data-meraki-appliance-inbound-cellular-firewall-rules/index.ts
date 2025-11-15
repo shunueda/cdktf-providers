@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_inbound_cellular_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_inbound_cellular_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceInboundCellularFirewallRulesConfig extends c
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_inbound_cellular_firewall_rules#network_id DataMerakiApplianceInboundCellularFirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_inbound_cellular_firewall_rules#network_id DataMerakiApplianceInboundCellularFirewallRules#network_id}
   */
   readonly networkId: string;
 }
@@ -126,7 +126,7 @@ export class DataMerakiApplianceInboundCellularFirewallRulesRulesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_inbound_cellular_firewall_rules meraki_appliance_inbound_cellular_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_inbound_cellular_firewall_rules meraki_appliance_inbound_cellular_firewall_rules}
 */
 export class DataMerakiApplianceInboundCellularFirewallRules extends cdktf.TerraformDataSource {
 
@@ -142,7 +142,7 @@ export class DataMerakiApplianceInboundCellularFirewallRules extends cdktf.Terra
   * Generates CDKTF code for importing a DataMerakiApplianceInboundCellularFirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceInboundCellularFirewallRules to import
-  * @param importFromId The id of the existing DataMerakiApplianceInboundCellularFirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_inbound_cellular_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceInboundCellularFirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_inbound_cellular_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceInboundCellularFirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class DataMerakiApplianceInboundCellularFirewallRules extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_inbound_cellular_firewall_rules meraki_appliance_inbound_cellular_firewall_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_inbound_cellular_firewall_rules meraki_appliance_inbound_cellular_firewall_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class DataMerakiApplianceInboundCellularFirewallRules extends cdktf.Terra
       terraformResourceType: 'meraki_appliance_inbound_cellular_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

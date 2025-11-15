@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface NetworkSyslogServersConfig extends cdktf.TerraformMetaArguments
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#network_id NetworkSyslogServers#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#network_id NetworkSyslogServers#network_id}
   */
   readonly networkId: string;
   /**
   * A list of the syslog servers for this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#servers NetworkSyslogServers#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#servers NetworkSyslogServers#servers}
   */
   readonly servers: NetworkSyslogServersServers[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface NetworkSyslogServersServers {
   /**
   * The IP address of the syslog server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#host NetworkSyslogServers#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#host NetworkSyslogServers#host}
   */
   readonly host: string;
   /**
   * The port of the syslog server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#port NetworkSyslogServers#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#port NetworkSyslogServers#port}
   */
   readonly port: number;
   /**
   * A list of roles for the syslog server. Options (case-insensitive): `Wireless event log`, `Appliance event log`, `Switch event log`, `Air Marshal events`, `Flows`, `URLs`, `IDS alerts`, `Security events`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#roles NetworkSyslogServers#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#roles NetworkSyslogServers#roles}
   */
   readonly roles: string[];
 }
@@ -201,7 +201,7 @@ export class NetworkSyslogServersServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers meraki_network_syslog_servers}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers meraki_network_syslog_servers}
 */
 export class NetworkSyslogServers extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class NetworkSyslogServers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSyslogServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSyslogServers to import
-  * @param importFromId The id of the existing NetworkSyslogServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSyslogServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSyslogServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class NetworkSyslogServers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_syslog_servers meraki_network_syslog_servers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_syslog_servers meraki_network_syslog_servers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class NetworkSyslogServers extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_syslog_servers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

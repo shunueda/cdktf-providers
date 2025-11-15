@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SwitchRoutingStaticRoutesConfig extends cdktf.TerraformMetaArgu
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#items SwitchRoutingStaticRoutes#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#items SwitchRoutingStaticRoutes#items}
   */
   readonly items: SwitchRoutingStaticRoutesItems[] | cdktf.IResolvable;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#organization_id SwitchRoutingStaticRoutes#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#organization_id SwitchRoutingStaticRoutes#organization_id}
   */
   readonly organizationId: string;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#serial SwitchRoutingStaticRoutes#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#serial SwitchRoutingStaticRoutes#serial}
   */
   readonly serial: string;
 }
@@ -30,43 +30,43 @@ export interface SwitchRoutingStaticRoutesItems {
   /**
   * Option to advertise static route via OSPF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#advertise_via_ospf_enabled SwitchRoutingStaticRoutes#advertise_via_ospf_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#advertise_via_ospf_enabled SwitchRoutingStaticRoutes#advertise_via_ospf_enabled}
   */
   readonly advertiseViaOspfEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name or description for layer 3 static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#name SwitchRoutingStaticRoutes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#name SwitchRoutingStaticRoutes#name}
   */
   readonly name?: string;
   /**
   * IP address of the next hop device to which the device sends its traffic for the subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#next_hop_ip SwitchRoutingStaticRoutes#next_hop_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#next_hop_ip SwitchRoutingStaticRoutes#next_hop_ip}
   */
   readonly nextHopIp: string;
   /**
   * Option to prefer static route over OSPF routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#prefer_over_ospf_routes_enabled SwitchRoutingStaticRoutes#prefer_over_ospf_routes_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#prefer_over_ospf_routes_enabled SwitchRoutingStaticRoutes#prefer_over_ospf_routes_enabled}
   */
   readonly preferOverOspfRoutesEnabled?: boolean | cdktf.IResolvable;
   /**
   * The subnet which is routed via this static route and should be specified in CIDR notation (ex. 1.2.3.0/24)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#subnet SwitchRoutingStaticRoutes#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#subnet SwitchRoutingStaticRoutes#subnet}
   */
   readonly subnet: string;
   /**
   * Whether or not next-hop IP is reachable via default VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#vrf_leak_route_to_default_vrf SwitchRoutingStaticRoutes#vrf_leak_route_to_default_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#vrf_leak_route_to_default_vrf SwitchRoutingStaticRoutes#vrf_leak_route_to_default_vrf}
   */
   readonly vrfLeakRouteToDefaultVrf?: boolean | cdktf.IResolvable;
   /**
   * The name of the VRF this static route belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#vrf_name SwitchRoutingStaticRoutes#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#vrf_name SwitchRoutingStaticRoutes#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -355,7 +355,7 @@ export class SwitchRoutingStaticRoutesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes meraki_switch_routing_static_routes}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes meraki_switch_routing_static_routes}
 */
 export class SwitchRoutingStaticRoutes extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class SwitchRoutingStaticRoutes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchRoutingStaticRoutes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchRoutingStaticRoutes to import
-  * @param importFromId The id of the existing SwitchRoutingStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchRoutingStaticRoutes that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchRoutingStaticRoutes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class SwitchRoutingStaticRoutes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_static_routes meraki_switch_routing_static_routes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_static_routes meraki_switch_routing_static_routes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class SwitchRoutingStaticRoutes extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_routing_static_routes',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

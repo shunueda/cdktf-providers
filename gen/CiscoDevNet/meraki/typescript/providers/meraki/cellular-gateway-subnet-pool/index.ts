@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CellularGatewaySubnetPoolConfig extends cdktf.TerraformMetaArgu
   /**
   * CIDR of the pool of subnets. Each MG in this network will automatically pick a subnet from this pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool#cidr CellularGatewaySubnetPool#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool#cidr CellularGatewaySubnetPool#cidr}
   */
   readonly cidr: string;
   /**
   * Mask used for the subnet of all MGs in this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool#mask CellularGatewaySubnetPool#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool#mask CellularGatewaySubnetPool#mask}
   */
   readonly mask: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool#network_id CellularGatewaySubnetPool#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool#network_id CellularGatewaySubnetPool#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool meraki_cellular_gateway_subnet_pool}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool meraki_cellular_gateway_subnet_pool}
 */
 export class CellularGatewaySubnetPool extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CellularGatewaySubnetPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CellularGatewaySubnetPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CellularGatewaySubnetPool to import
-  * @param importFromId The id of the existing CellularGatewaySubnetPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CellularGatewaySubnetPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CellularGatewaySubnetPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CellularGatewaySubnetPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_subnet_pool meraki_cellular_gateway_subnet_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_subnet_pool meraki_cellular_gateway_subnet_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CellularGatewaySubnetPool extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_cellular_gateway_subnet_pool',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface WirelessLocationScanningReceiverConfig extends cdktf.TerraformM
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#network_id WirelessLocationScanningReceiver#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#network_id WirelessLocationScanningReceiver#network_id}
   */
   readonly networkId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#organization_id WirelessLocationScanningReceiver#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#organization_id WirelessLocationScanningReceiver#organization_id}
   */
   readonly organizationId: string;
   /**
   * Radio Type whether WiFi or Bluetooth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#radio_type WirelessLocationScanningReceiver#radio_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#radio_type WirelessLocationScanningReceiver#radio_type}
   */
   readonly radioType: string;
   /**
   * Secret Value for Receiver
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#shared_secret WirelessLocationScanningReceiver#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#shared_secret WirelessLocationScanningReceiver#shared_secret}
   */
   readonly sharedSecret: string;
   /**
   * Receiver Url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#url WirelessLocationScanningReceiver#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#url WirelessLocationScanningReceiver#url}
   */
   readonly url: string;
   /**
   * Scanning API Version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#version WirelessLocationScanningReceiver#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#version WirelessLocationScanningReceiver#version}
   */
   readonly version: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver meraki_wireless_location_scanning_receiver}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver meraki_wireless_location_scanning_receiver}
 */
 export class WirelessLocationScanningReceiver extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class WirelessLocationScanningReceiver extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessLocationScanningReceiver resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessLocationScanningReceiver to import
-  * @param importFromId The id of the existing WirelessLocationScanningReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessLocationScanningReceiver that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessLocationScanningReceiver to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class WirelessLocationScanningReceiver extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_location_scanning_receiver meraki_wireless_location_scanning_receiver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_location_scanning_receiver meraki_wireless_location_scanning_receiver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class WirelessLocationScanningReceiver extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_location_scanning_receiver',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

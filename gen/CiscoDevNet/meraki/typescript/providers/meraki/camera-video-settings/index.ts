@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CameraVideoSettingsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Boolean indicating if external rtsp stream is exposed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings#external_rtsp_enabled CameraVideoSettings#external_rtsp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings#external_rtsp_enabled CameraVideoSettings#external_rtsp_enabled}
   */
   readonly externalRtspEnabled: boolean | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings#serial CameraVideoSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings#serial CameraVideoSettings#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings meraki_camera_video_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings meraki_camera_video_settings}
 */
 export class CameraVideoSettings extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class CameraVideoSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraVideoSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraVideoSettings to import
-  * @param importFromId The id of the existing CameraVideoSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraVideoSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraVideoSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CameraVideoSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_video_settings meraki_camera_video_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_video_settings meraki_camera_video_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class CameraVideoSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_video_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

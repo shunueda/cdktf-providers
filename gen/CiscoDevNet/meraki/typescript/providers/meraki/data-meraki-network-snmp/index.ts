@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/network_snmp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiNetworkSnmpConfig extends cdktf.TerraformMetaArgument
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/network_snmp#network_id DataMerakiNetworkSnmp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_snmp#network_id DataMerakiNetworkSnmp#network_id}
   */
   readonly networkId: string;
 }
@@ -96,7 +96,7 @@ export class DataMerakiNetworkSnmpUsersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/network_snmp meraki_network_snmp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_snmp meraki_network_snmp}
 */
 export class DataMerakiNetworkSnmp extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataMerakiNetworkSnmp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiNetworkSnmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiNetworkSnmp to import
-  * @param importFromId The id of the existing DataMerakiNetworkSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/network_snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiNetworkSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiNetworkSnmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataMerakiNetworkSnmp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/network_snmp meraki_network_snmp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_snmp meraki_network_snmp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataMerakiNetworkSnmp extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_network_snmp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

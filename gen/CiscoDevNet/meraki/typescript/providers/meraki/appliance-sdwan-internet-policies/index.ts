@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceSdwanInternetPoliciesConfig extends cdktf.TerraformMet
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#network_id ApplianceSdwanInternetPolicies#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#network_id ApplianceSdwanInternetPolicies#network_id}
   */
   readonly networkId: string;
   /**
   * Policies with respective traffic filters for an MX network. Note: these policies are shared (merged) with meraki_appliance_traffic_shaping_uplink_selection resource's wan_traffic_uplink_preferences attribute. It is recommended to only use one resource for them, not both at the same time: Deleting this resource clears preferences created in meraki_appliance_traffic_shaping_uplink_selection, which is detected as a change by the provider on a subsequent apply. The same happens the other way around, but the change is not detected in sdwan_internet_policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#wan_traffic_uplink_preferences ApplianceSdwanInternetPolicies#wan_traffic_uplink_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#wan_traffic_uplink_preferences ApplianceSdwanInternetPolicies#wan_traffic_uplink_preferences}
   */
   readonly wanTrafficUplinkPreferences: ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferences[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesTraffi
   /**
   * Id of the major application, or a list of NBAR Application Category or Application selections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#id ApplianceSdwanInternetPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#id ApplianceSdwanInternetPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,13 +33,13 @@ export interface ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesTraffi
   /**
   * Name of the major application or application category selected
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#name ApplianceSdwanInternetPolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#name ApplianceSdwanInternetPolicies#name}
   */
   readonly name?: string;
   /**
   * app type (major or nbar)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#type ApplianceSdwanInternetPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#type ApplianceSdwanInternetPolicies#type}
   */
   readonly type?: string;
 }
@@ -215,57 +215,57 @@ export interface ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesTraffi
   /**
   * list of application objects (either majorApplication or nbar)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#destination_applications ApplianceSdwanInternetPolicies#destination_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#destination_applications ApplianceSdwanInternetPolicies#destination_applications}
   */
   readonly destinationApplications?: ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesTrafficFiltersDestinationApplications[] | cdktf.IResolvable;
   /**
   * CIDR format address (e.g.'192.168.10.1', which is the same as '192.168.10.1/32'), or 'any'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#destination_cidr ApplianceSdwanInternetPolicies#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#destination_cidr ApplianceSdwanInternetPolicies#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#destination_port ApplianceSdwanInternetPolicies#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#destination_port ApplianceSdwanInternetPolicies#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * Protocol of the traffic filter. Must be one of: `tcp`, `udp`, `icmp6` or `any`
   *   - Choices: `any`, `icmp6`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#protocol ApplianceSdwanInternetPolicies#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#protocol ApplianceSdwanInternetPolicies#protocol}
   */
   readonly protocol?: string;
   /**
   * CIDR format address (e.g.'192.168.10.1', which is the same as '192.168.10.1/32'), or 'any'. Cannot be used in combination with the 'vlan' property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#source_cidr ApplianceSdwanInternetPolicies#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#source_cidr ApplianceSdwanInternetPolicies#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * Host ID in the VLAN. Should not exceed the VLAN subnet capacity. Must be used along with the 'vlan' property and is currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#source_host ApplianceSdwanInternetPolicies#source_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#source_host ApplianceSdwanInternetPolicies#source_host}
   */
   readonly sourceHost?: number;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#source_port ApplianceSdwanInternetPolicies#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#source_port ApplianceSdwanInternetPolicies#source_port}
   */
   readonly sourcePort?: string;
   /**
   * VLAN ID of the configured VLAN in the Meraki network. Cannot be used in combination with the 'cidr' property and is currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#source_vlan ApplianceSdwanInternetPolicies#source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#source_vlan ApplianceSdwanInternetPolicies#source_vlan}
   */
   readonly sourceVlan?: number;
   /**
   * Traffic filter type. Must be `custom`, `major_application`, `application (NBAR)`, if type is `application`, you can pass either an NBAR App Category or Application
   *   - Choices: `application`, `custom`, `majorApplication`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#type ApplianceSdwanInternetPolicies#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#type ApplianceSdwanInternetPolicies#type}
   */
   readonly type: string;
 }
@@ -613,40 +613,40 @@ export interface ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferences {
   * Name of builtin performance class. Must be present when performanceClass type is `builtin` and value must be one of: `VoIP`
   *   - Choices: `VoIP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#builtin_performance_class_name ApplianceSdwanInternetPolicies#builtin_performance_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#builtin_performance_class_name ApplianceSdwanInternetPolicies#builtin_performance_class_name}
   */
   readonly builtinPerformanceClassName?: string;
   /**
   * ID of created custom performance class, must be present when performanceClass type is 'custom'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#custom_performance_class_id ApplianceSdwanInternetPolicies#custom_performance_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#custom_performance_class_id ApplianceSdwanInternetPolicies#custom_performance_class_id}
   */
   readonly customPerformanceClassId?: string;
   /**
   * WAN failover and failback behavior
   *   - Choices: `poorPerformance`, `uplinkDown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#fail_over_criterion ApplianceSdwanInternetPolicies#fail_over_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#fail_over_criterion ApplianceSdwanInternetPolicies#fail_over_criterion}
   */
   readonly failOverCriterion?: string;
   /**
   * Type of this performance class. Must be one of: `builtin` or `custom`
   *   - Choices: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#performance_class_type ApplianceSdwanInternetPolicies#performance_class_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#performance_class_type ApplianceSdwanInternetPolicies#performance_class_type}
   */
   readonly performanceClassType?: string;
   /**
   * Preferred uplink for uplink preference rule. Must be one of: `wan1`, `wan2`, `bestForVoIP`, `loadBalancing` or `defaultUplink`
   *   - Choices: `bestForVoIP`, `defaultUplink`, `loadBalancing`, `wan1`, `wan2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#preferred_uplink ApplianceSdwanInternetPolicies#preferred_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#preferred_uplink ApplianceSdwanInternetPolicies#preferred_uplink}
   */
   readonly preferredUplink: string;
   /**
   * Traffic filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#traffic_filters ApplianceSdwanInternetPolicies#traffic_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#traffic_filters ApplianceSdwanInternetPolicies#traffic_filters}
   */
   readonly trafficFilters: ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesTrafficFilters[] | cdktf.IResolvable;
 }
@@ -901,7 +901,7 @@ export class ApplianceSdwanInternetPoliciesWanTrafficUplinkPreferencesList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies meraki_appliance_sdwan_internet_policies}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies meraki_appliance_sdwan_internet_policies}
 */
 export class ApplianceSdwanInternetPolicies extends cdktf.TerraformResource {
 
@@ -917,7 +917,7 @@ export class ApplianceSdwanInternetPolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceSdwanInternetPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceSdwanInternetPolicies to import
-  * @param importFromId The id of the existing ApplianceSdwanInternetPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceSdwanInternetPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceSdwanInternetPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -929,7 +929,7 @@ export class ApplianceSdwanInternetPolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_sdwan_internet_policies meraki_appliance_sdwan_internet_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_sdwan_internet_policies meraki_appliance_sdwan_internet_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -940,8 +940,8 @@ export class ApplianceSdwanInternetPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_sdwan_internet_policies',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

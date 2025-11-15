@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServerConfi
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#id DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#id DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServerConfi
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#network_id DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#network_id DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server meraki_switch_dhcp_server_policy_arp_inspection_trusted_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server meraki_switch_dhcp_server_policy_arp_inspection_trusted_server}
 */
 export class DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer extends 
   * Generates CDKTF code for importing a DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer to import
-  * @param importFromId The id of the existing DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer extends 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server meraki_switch_dhcp_server_policy_arp_inspection_trusted_server} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_dhcp_server_policy_arp_inspection_trusted_server meraki_switch_dhcp_server_policy_arp_inspection_trusted_server} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMerakiSwitchDhcpServerPolicyArpInspectionTrustedServer extends 
       terraformResourceType: 'meraki_switch_dhcp_server_policy_arp_inspection_trusted_server',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

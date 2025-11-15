@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,99 +10,99 @@ export interface DeviceManagementInterfaceConfig extends cdktf.TerraformMetaArgu
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#serial DeviceManagementInterface#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#serial DeviceManagementInterface#serial}
   */
   readonly serial: string;
   /**
   * Up to two DNS IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_static_dns DeviceManagementInterface#wan1_static_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_static_dns DeviceManagementInterface#wan1_static_dns}
   */
   readonly wan1StaticDns?: string[];
   /**
   * The IP of the gateway on the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_static_gateway_ip DeviceManagementInterface#wan1_static_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_static_gateway_ip DeviceManagementInterface#wan1_static_gateway_ip}
   */
   readonly wan1StaticGatewayIp?: string;
   /**
   * The IP the device should use on the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_static_ip DeviceManagementInterface#wan1_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_static_ip DeviceManagementInterface#wan1_static_ip}
   */
   readonly wan1StaticIp?: string;
   /**
   * The subnet mask for the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_static_subnet_mask DeviceManagementInterface#wan1_static_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_static_subnet_mask DeviceManagementInterface#wan1_static_subnet_mask}
   */
   readonly wan1StaticSubnetMask?: string;
   /**
   * Configure the interface to have static IP settings or use DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_using_static_ip DeviceManagementInterface#wan1_using_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_using_static_ip DeviceManagementInterface#wan1_using_static_ip}
   */
   readonly wan1UsingStaticIp?: boolean | cdktf.IResolvable;
   /**
   * The VLAN that management traffic should be tagged with. Applies whether usingStaticIp is true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_vlan DeviceManagementInterface#wan1_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_vlan DeviceManagementInterface#wan1_vlan}
   */
   readonly wan1Vlan?: number;
   /**
   * Enable or disable the interface (only for MX devices). Valid values are `enabled`, `disabled`, and `not configured`.
   *   - Choices: `disabled`, `enabled`, `not configured`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan1_wan_enabled DeviceManagementInterface#wan1_wan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan1_wan_enabled DeviceManagementInterface#wan1_wan_enabled}
   */
   readonly wan1WanEnabled?: string;
   /**
   * Up to two DNS IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_static_dns DeviceManagementInterface#wan2_static_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_static_dns DeviceManagementInterface#wan2_static_dns}
   */
   readonly wan2StaticDns?: string[];
   /**
   * The IP of the gateway on the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_static_gateway_ip DeviceManagementInterface#wan2_static_gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_static_gateway_ip DeviceManagementInterface#wan2_static_gateway_ip}
   */
   readonly wan2StaticGatewayIp?: string;
   /**
   * The IP the device should use on the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_static_ip DeviceManagementInterface#wan2_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_static_ip DeviceManagementInterface#wan2_static_ip}
   */
   readonly wan2StaticIp?: string;
   /**
   * The subnet mask for the WAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_static_subnet_mask DeviceManagementInterface#wan2_static_subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_static_subnet_mask DeviceManagementInterface#wan2_static_subnet_mask}
   */
   readonly wan2StaticSubnetMask?: string;
   /**
   * Configure the interface to have static IP settings or use DHCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_using_static_ip DeviceManagementInterface#wan2_using_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_using_static_ip DeviceManagementInterface#wan2_using_static_ip}
   */
   readonly wan2UsingStaticIp?: boolean | cdktf.IResolvable;
   /**
   * The VLAN that management traffic should be tagged with. Applies whether usingStaticIp is true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_vlan DeviceManagementInterface#wan2_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_vlan DeviceManagementInterface#wan2_vlan}
   */
   readonly wan2Vlan?: number;
   /**
   * Enable or disable the interface (only for MX devices). Valid values are `enabled`, `disabled`, and `not configured`.
   *   - Choices: `disabled`, `enabled`, `not configured`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#wan2_wan_enabled DeviceManagementInterface#wan2_wan_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#wan2_wan_enabled DeviceManagementInterface#wan2_wan_enabled}
   */
   readonly wan2WanEnabled?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface meraki_device_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface meraki_device_management_interface}
 */
 export class DeviceManagementInterface extends cdktf.TerraformResource {
 
@@ -118,7 +118,7 @@ export class DeviceManagementInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceManagementInterface to import
-  * @param importFromId The id of the existing DeviceManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -130,7 +130,7 @@ export class DeviceManagementInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/device_management_interface meraki_device_management_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_management_interface meraki_device_management_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -141,8 +141,8 @@ export class DeviceManagementInterface extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_device_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

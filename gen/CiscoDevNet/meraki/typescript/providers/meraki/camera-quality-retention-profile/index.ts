@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,403 +10,403 @@ export interface CameraQualityRetentionProfileConfig extends cdktf.TerraformMeta
   /**
   * Whether or not to record audio. Can be either true or false. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#audio_recording_enabled CameraQualityRetentionProfile#audio_recording_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#audio_recording_enabled CameraQualityRetentionProfile#audio_recording_enabled}
   */
   readonly audioRecordingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Create redundant video backup using Cloud Archive. Can be either true or false. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#cloud_archive_enabled CameraQualityRetentionProfile#cloud_archive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#cloud_archive_enabled CameraQualityRetentionProfile#cloud_archive_enabled}
   */
   readonly cloudArchiveEnabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of days for which the data will be stored, or `null` to keep data until storage space runs out. If the former, it can be in the range of one to ninety days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#max_retention_days CameraQualityRetentionProfile#max_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#max_retention_days CameraQualityRetentionProfile#max_retention_days}
   */
   readonly maxRetentionDays?: number;
   /**
   * Deletes footage older than 3 days in which no motion was detected. Can be either true or false. Defaults to false. This setting does not apply to MV2 cameras.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#motion_based_retention_enabled CameraQualityRetentionProfile#motion_based_retention_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#motion_based_retention_enabled CameraQualityRetentionProfile#motion_based_retention_enabled}
   */
   readonly motionBasedRetentionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The version of the motion detector that will be used by the camera. Only applies to Gen 2 cameras. Defaults to v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#motion_detector_version CameraQualityRetentionProfile#motion_detector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#motion_detector_version CameraQualityRetentionProfile#motion_detector_version}
   */
   readonly motionDetectorVersion?: number;
   /**
   * The name of the new profile. Must be unique. This parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#name CameraQualityRetentionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#name CameraQualityRetentionProfile#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#network_id CameraQualityRetentionProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#network_id CameraQualityRetentionProfile#network_id}
   */
   readonly networkId: string;
   /**
   * Disable features that require additional bandwidth such as Motion Recap. Can be either true or false. Defaults to false. This setting does not apply to MV2 cameras.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#restricted_bandwidth_mode_enabled CameraQualityRetentionProfile#restricted_bandwidth_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#restricted_bandwidth_mode_enabled CameraQualityRetentionProfile#restricted_bandwidth_mode_enabled}
   */
   readonly restrictedBandwidthModeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Schedule for which this camera will record video, or `null` to always record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#schedule_id CameraQualityRetentionProfile#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#schedule_id CameraQualityRetentionProfile#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * Boolean indicating if Smart Retention is enabled(true) or disabled(false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#smart_retention_enabled CameraQualityRetentionProfile#smart_retention_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#smart_retention_enabled CameraQualityRetentionProfile#smart_retention_enabled}
   */
   readonly smartRetentionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv12_mv22_mv72_quality CameraQualityRetentionProfile#video_settings_mv12_mv22_mv72_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv12_mv22_mv72_quality CameraQualityRetentionProfile#video_settings_mv12_mv22_mv72_quality}
   */
   readonly videoSettingsMv12Mv22Mv72Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720` or `1920x1080`.
   *   - Choices: `1280x720`, `1920x1080`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv12_mv22_mv72_resolution CameraQualityRetentionProfile#video_settings_mv12_mv22_mv72_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv12_mv22_mv72_resolution CameraQualityRetentionProfile#video_settings_mv12_mv22_mv72_resolution}
   */
   readonly videoSettingsMv12Mv22Mv72Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv12_we_quality CameraQualityRetentionProfile#video_settings_mv12_we_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv12_we_quality CameraQualityRetentionProfile#video_settings_mv12_we_quality}
   */
   readonly videoSettingsMv12WeQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720` or `1920x1080`.
   *   - Choices: `1280x720`, `1920x1080`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv12_we_resolution CameraQualityRetentionProfile#video_settings_mv12_we_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv12_we_resolution CameraQualityRetentionProfile#video_settings_mv12_we_resolution}
   */
   readonly videoSettingsMv12WeResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv13_m_quality CameraQualityRetentionProfile#video_settings_mv13_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv13_m_quality CameraQualityRetentionProfile#video_settings_mv13_m_quality}
   */
   readonly videoSettingsMv13MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv13_m_resolution CameraQualityRetentionProfile#video_settings_mv13_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv13_m_resolution CameraQualityRetentionProfile#video_settings_mv13_m_resolution}
   */
   readonly videoSettingsMv13MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv13_quality CameraQualityRetentionProfile#video_settings_mv13_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv13_quality CameraQualityRetentionProfile#video_settings_mv13_quality}
   */
   readonly videoSettingsMv13Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv13_resolution CameraQualityRetentionProfile#video_settings_mv13_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv13_resolution CameraQualityRetentionProfile#video_settings_mv13_resolution}
   */
   readonly videoSettingsMv13Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv21_mv71_quality CameraQualityRetentionProfile#video_settings_mv21_mv71_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv21_mv71_quality CameraQualityRetentionProfile#video_settings_mv21_mv71_quality}
   */
   readonly videoSettingsMv21Mv71Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720`.
   *   - Choices: `1280x720`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv21_mv71_resolution CameraQualityRetentionProfile#video_settings_mv21_mv71_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv21_mv71_resolution CameraQualityRetentionProfile#video_settings_mv21_mv71_resolution}
   */
   readonly videoSettingsMv21Mv71Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv22_x_mv72_x_quality CameraQualityRetentionProfile#video_settings_mv22_x_mv72_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv22_x_mv72_x_quality CameraQualityRetentionProfile#video_settings_mv22_x_mv72_x_quality}
   */
   readonly videoSettingsMv22XMv72XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720`, `1920x1080` or `2688x1512`.
   *   - Choices: `1280x720`, `1920x1080`, `2688x1512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv22_x_mv72_x_resolution CameraQualityRetentionProfile#video_settings_mv22_x_mv72_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv22_x_mv72_x_resolution CameraQualityRetentionProfile#video_settings_mv22_x_mv72_x_resolution}
   */
   readonly videoSettingsMv22XMv72XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_m_quality CameraQualityRetentionProfile#video_settings_mv23_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_m_quality CameraQualityRetentionProfile#video_settings_mv23_m_quality}
   */
   readonly videoSettingsMv23MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_m_resolution CameraQualityRetentionProfile#video_settings_mv23_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_m_resolution CameraQualityRetentionProfile#video_settings_mv23_m_resolution}
   */
   readonly videoSettingsMv23MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_quality CameraQualityRetentionProfile#video_settings_mv23_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_quality CameraQualityRetentionProfile#video_settings_mv23_quality}
   */
   readonly videoSettingsMv23Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_resolution CameraQualityRetentionProfile#video_settings_mv23_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_resolution CameraQualityRetentionProfile#video_settings_mv23_resolution}
   */
   readonly videoSettingsMv23Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_x_quality CameraQualityRetentionProfile#video_settings_mv23_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_x_quality CameraQualityRetentionProfile#video_settings_mv23_x_quality}
   */
   readonly videoSettingsMv23XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv23_x_resolution CameraQualityRetentionProfile#video_settings_mv23_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv23_x_resolution CameraQualityRetentionProfile#video_settings_mv23_x_resolution}
   */
   readonly videoSettingsMv23XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv32_quality CameraQualityRetentionProfile#video_settings_mv32_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv32_quality CameraQualityRetentionProfile#video_settings_mv32_quality}
   */
   readonly videoSettingsMv32Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080` or `2112x2112`.
   *   - Choices: `1080x1080`, `2112x2112`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv32_resolution CameraQualityRetentionProfile#video_settings_mv32_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv32_resolution CameraQualityRetentionProfile#video_settings_mv32_resolution}
   */
   readonly videoSettingsMv32Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv33_m_quality CameraQualityRetentionProfile#video_settings_mv33_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv33_m_quality CameraQualityRetentionProfile#video_settings_mv33_m_quality}
   */
   readonly videoSettingsMv33MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080`, `2112x2112` or `2880x2880`.
   *   - Choices: `1080x1080`, `2112x2112`, `2880x2880`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv33_m_resolution CameraQualityRetentionProfile#video_settings_mv33_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv33_m_resolution CameraQualityRetentionProfile#video_settings_mv33_m_resolution}
   */
   readonly videoSettingsMv33MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv33_quality CameraQualityRetentionProfile#video_settings_mv33_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv33_quality CameraQualityRetentionProfile#video_settings_mv33_quality}
   */
   readonly videoSettingsMv33Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080`, `2112x2112` or `2880x2880`.
   *   - Choices: `1080x1080`, `2112x2112`, `2880x2880`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv33_resolution CameraQualityRetentionProfile#video_settings_mv33_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv33_resolution CameraQualityRetentionProfile#video_settings_mv33_resolution}
   */
   readonly videoSettingsMv33Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv52_quality CameraQualityRetentionProfile#video_settings_mv52_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv52_quality CameraQualityRetentionProfile#video_settings_mv52_quality}
   */
   readonly videoSettingsMv52Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720`, `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1280x720`, `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv52_resolution CameraQualityRetentionProfile#video_settings_mv52_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv52_resolution CameraQualityRetentionProfile#video_settings_mv52_resolution}
   */
   readonly videoSettingsMv52Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv53_x_quality CameraQualityRetentionProfile#video_settings_mv53_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv53_x_quality CameraQualityRetentionProfile#video_settings_mv53_x_quality}
   */
   readonly videoSettingsMv53XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv53_x_resolution CameraQualityRetentionProfile#video_settings_mv53_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv53_x_resolution CameraQualityRetentionProfile#video_settings_mv53_x_resolution}
   */
   readonly videoSettingsMv53XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_m_quality CameraQualityRetentionProfile#video_settings_mv63_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_m_quality CameraQualityRetentionProfile#video_settings_mv63_m_quality}
   */
   readonly videoSettingsMv63MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_m_resolution CameraQualityRetentionProfile#video_settings_mv63_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_m_resolution CameraQualityRetentionProfile#video_settings_mv63_m_resolution}
   */
   readonly videoSettingsMv63MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_quality CameraQualityRetentionProfile#video_settings_mv63_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_quality CameraQualityRetentionProfile#video_settings_mv63_quality}
   */
   readonly videoSettingsMv63Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_resolution CameraQualityRetentionProfile#video_settings_mv63_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_resolution CameraQualityRetentionProfile#video_settings_mv63_resolution}
   */
   readonly videoSettingsMv63Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_x_quality CameraQualityRetentionProfile#video_settings_mv63_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_x_quality CameraQualityRetentionProfile#video_settings_mv63_x_quality}
   */
   readonly videoSettingsMv63XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv63_x_resolution CameraQualityRetentionProfile#video_settings_mv63_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv63_x_resolution CameraQualityRetentionProfile#video_settings_mv63_x_resolution}
   */
   readonly videoSettingsMv63XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_m_quality CameraQualityRetentionProfile#video_settings_mv73_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_m_quality CameraQualityRetentionProfile#video_settings_mv73_m_quality}
   */
   readonly videoSettingsMv73MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_m_resolution CameraQualityRetentionProfile#video_settings_mv73_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_m_resolution CameraQualityRetentionProfile#video_settings_mv73_m_resolution}
   */
   readonly videoSettingsMv73MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_quality CameraQualityRetentionProfile#video_settings_mv73_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_quality CameraQualityRetentionProfile#video_settings_mv73_quality}
   */
   readonly videoSettingsMv73Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_resolution CameraQualityRetentionProfile#video_settings_mv73_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_resolution CameraQualityRetentionProfile#video_settings_mv73_resolution}
   */
   readonly videoSettingsMv73Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_x_quality CameraQualityRetentionProfile#video_settings_mv73_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_x_quality CameraQualityRetentionProfile#video_settings_mv73_x_quality}
   */
   readonly videoSettingsMv73XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1920x1080`, `2688x1512` or `3840x2160`.
   *   - Choices: `1920x1080`, `2688x1512`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv73_x_resolution CameraQualityRetentionProfile#video_settings_mv73_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv73_x_resolution CameraQualityRetentionProfile#video_settings_mv73_x_resolution}
   */
   readonly videoSettingsMv73XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard` or `Enhanced`.
   *   - Choices: `Enhanced`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv84_x_quality CameraQualityRetentionProfile#video_settings_mv84_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv84_x_quality CameraQualityRetentionProfile#video_settings_mv84_x_quality}
   */
   readonly videoSettingsMv84XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1440x1080` or `2560x1920`.
   *   - Choices: `1440x1080`, `2560x1920`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv84_x_resolution CameraQualityRetentionProfile#video_settings_mv84_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv84_x_resolution CameraQualityRetentionProfile#video_settings_mv84_x_resolution}
   */
   readonly videoSettingsMv84XResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_m_quality CameraQualityRetentionProfile#video_settings_mv93_m_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_m_quality CameraQualityRetentionProfile#video_settings_mv93_m_quality}
   */
   readonly videoSettingsMv93MQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080`, `2112x2112` or `2880x2880`.
   *   - Choices: `1080x1080`, `2112x2112`, `2880x2880`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_m_resolution CameraQualityRetentionProfile#video_settings_mv93_m_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_m_resolution CameraQualityRetentionProfile#video_settings_mv93_m_resolution}
   */
   readonly videoSettingsMv93MResolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_quality CameraQualityRetentionProfile#video_settings_mv93_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_quality CameraQualityRetentionProfile#video_settings_mv93_quality}
   */
   readonly videoSettingsMv93Quality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080`, `2112x2112` or `2880x2880`.
   *   - Choices: `1080x1080`, `2112x2112`, `2880x2880`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_resolution CameraQualityRetentionProfile#video_settings_mv93_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_resolution CameraQualityRetentionProfile#video_settings_mv93_resolution}
   */
   readonly videoSettingsMv93Resolution?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `Enhanced` or `High`.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_x_quality CameraQualityRetentionProfile#video_settings_mv93_x_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_x_quality CameraQualityRetentionProfile#video_settings_mv93_x_quality}
   */
   readonly videoSettingsMv93XQuality?: string;
   /**
   * Resolution of the camera. Can be one of `1080x1080`, `2112x2112` or `2880x2880`.
   *   - Choices: `1080x1080`, `2112x2112`, `2880x2880`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#video_settings_mv93_x_resolution CameraQualityRetentionProfile#video_settings_mv93_x_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#video_settings_mv93_x_resolution CameraQualityRetentionProfile#video_settings_mv93_x_resolution}
   */
   readonly videoSettingsMv93XResolution?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile meraki_camera_quality_retention_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile meraki_camera_quality_retention_profile}
 */
 export class CameraQualityRetentionProfile extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class CameraQualityRetentionProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraQualityRetentionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraQualityRetentionProfile to import
-  * @param importFromId The id of the existing CameraQualityRetentionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraQualityRetentionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraQualityRetentionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class CameraQualityRetentionProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_quality_retention_profile meraki_camera_quality_retention_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention_profile meraki_camera_quality_retention_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class CameraQualityRetentionProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_quality_retention_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

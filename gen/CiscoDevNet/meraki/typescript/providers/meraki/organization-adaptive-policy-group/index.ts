@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OrganizationAdaptivePolicyGroupConfig extends cdktf.TerraformMe
   /**
   * Description of the group (default: '')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#description OrganizationAdaptivePolicyGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#description OrganizationAdaptivePolicyGroup#description}
   */
   readonly description?: string;
   /**
   * Name of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#name OrganizationAdaptivePolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#name OrganizationAdaptivePolicyGroup#name}
   */
   readonly name: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#organization_id OrganizationAdaptivePolicyGroup#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#organization_id OrganizationAdaptivePolicyGroup#organization_id}
   */
   readonly organizationId: string;
   /**
   * The policy objects that belong to this group; traffic from addresses specified by these policy objects will be tagged with this group`s SGT value if no other tagging scheme is being used (each requires one unique attribute) (default: [])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#policy_objects OrganizationAdaptivePolicyGroup#policy_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#policy_objects OrganizationAdaptivePolicyGroup#policy_objects}
   */
   readonly policyObjects?: OrganizationAdaptivePolicyGroupPolicyObjects[] | cdktf.IResolvable;
   /**
   * SGT value of the group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#sgt OrganizationAdaptivePolicyGroup#sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#sgt OrganizationAdaptivePolicyGroup#sgt}
   */
   readonly sgt: number;
 }
@@ -42,7 +42,7 @@ export interface OrganizationAdaptivePolicyGroupPolicyObjects {
   /**
   * The ID of the policy object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#id OrganizationAdaptivePolicyGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#id OrganizationAdaptivePolicyGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,7 +51,7 @@ export interface OrganizationAdaptivePolicyGroupPolicyObjects {
   /**
   * The name of the policy object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#name OrganizationAdaptivePolicyGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#name OrganizationAdaptivePolicyGroup#name}
   */
   readonly name: string;
 }
@@ -190,7 +190,7 @@ export class OrganizationAdaptivePolicyGroupPolicyObjectsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group meraki_organization_adaptive_policy_group}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group meraki_organization_adaptive_policy_group}
 */
 export class OrganizationAdaptivePolicyGroup extends cdktf.TerraformResource {
 
@@ -206,7 +206,7 @@ export class OrganizationAdaptivePolicyGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAdaptivePolicyGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAdaptivePolicyGroup to import
-  * @param importFromId The id of the existing OrganizationAdaptivePolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAdaptivePolicyGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAdaptivePolicyGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -218,7 +218,7 @@ export class OrganizationAdaptivePolicyGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/organization_adaptive_policy_group meraki_organization_adaptive_policy_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_group meraki_organization_adaptive_policy_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -229,8 +229,8 @@ export class OrganizationAdaptivePolicyGroup extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_adaptive_policy_group',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles_automations
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles_automations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSwitchOrganizationPortsProfilesAutomationsConfig exte
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles_automations#organization_id DataMerakiSwitchOrganizationPortsProfilesAutomations#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles_automations#organization_id DataMerakiSwitchOrganizationPortsProfilesAutomations#organization_id}
   */
   readonly organizationId: string;
 }
@@ -374,7 +374,7 @@ export class DataMerakiSwitchOrganizationPortsProfilesAutomationsItemsList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles_automations meraki_switch_organization_ports_profiles_automations}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles_automations meraki_switch_organization_ports_profiles_automations}
 */
 export class DataMerakiSwitchOrganizationPortsProfilesAutomations extends cdktf.TerraformDataSource {
 
@@ -390,7 +390,7 @@ export class DataMerakiSwitchOrganizationPortsProfilesAutomations extends cdktf.
   * Generates CDKTF code for importing a DataMerakiSwitchOrganizationPortsProfilesAutomations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchOrganizationPortsProfilesAutomations to import
-  * @param importFromId The id of the existing DataMerakiSwitchOrganizationPortsProfilesAutomations that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles_automations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchOrganizationPortsProfilesAutomations that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles_automations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchOrganizationPortsProfilesAutomations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -402,7 +402,7 @@ export class DataMerakiSwitchOrganizationPortsProfilesAutomations extends cdktf.
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_organization_ports_profiles_automations meraki_switch_organization_ports_profiles_automations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_organization_ports_profiles_automations meraki_switch_organization_ports_profiles_automations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -413,8 +413,8 @@ export class DataMerakiSwitchOrganizationPortsProfilesAutomations extends cdktf.
       terraformResourceType: 'meraki_switch_organization_ports_profiles_automations',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

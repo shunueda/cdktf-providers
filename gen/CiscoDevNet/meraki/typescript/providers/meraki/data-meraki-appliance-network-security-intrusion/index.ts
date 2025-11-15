@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_network_security_intrusion
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_network_security_intrusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiApplianceNetworkSecurityIntrusionConfig extends cdktf
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_network_security_intrusion#network_id DataMerakiApplianceNetworkSecurityIntrusion#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_network_security_intrusion#network_id DataMerakiApplianceNetworkSecurityIntrusion#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion}
 */
 export class DataMerakiApplianceNetworkSecurityIntrusion extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMerakiApplianceNetworkSecurityIntrusion extends cdktf.Terraform
   * Generates CDKTF code for importing a DataMerakiApplianceNetworkSecurityIntrusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceNetworkSecurityIntrusion to import
-  * @param importFromId The id of the existing DataMerakiApplianceNetworkSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_network_security_intrusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceNetworkSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_network_security_intrusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceNetworkSecurityIntrusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMerakiApplianceNetworkSecurityIntrusion extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMerakiApplianceNetworkSecurityIntrusion extends cdktf.Terraform
       terraformResourceType: 'meraki_appliance_network_security_intrusion',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

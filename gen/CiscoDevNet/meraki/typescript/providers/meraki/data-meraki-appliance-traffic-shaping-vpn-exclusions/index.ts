@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_traffic_shaping_vpn_exclusions
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_traffic_shaping_vpn_exclusions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceTrafficShapingVpnExclusionsConfig extends cd
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_traffic_shaping_vpn_exclusions#network_id DataMerakiApplianceTrafficShapingVpnExclusions#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_traffic_shaping_vpn_exclusions#network_id DataMerakiApplianceTrafficShapingVpnExclusions#network_id}
   */
   readonly networkId: string;
 }
@@ -181,7 +181,7 @@ export class DataMerakiApplianceTrafficShapingVpnExclusionsMajorApplicationsList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions}
 */
 export class DataMerakiApplianceTrafficShapingVpnExclusions extends cdktf.TerraformDataSource {
 
@@ -197,7 +197,7 @@ export class DataMerakiApplianceTrafficShapingVpnExclusions extends cdktf.Terraf
   * Generates CDKTF code for importing a DataMerakiApplianceTrafficShapingVpnExclusions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceTrafficShapingVpnExclusions to import
-  * @param importFromId The id of the existing DataMerakiApplianceTrafficShapingVpnExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_traffic_shaping_vpn_exclusions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceTrafficShapingVpnExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_traffic_shaping_vpn_exclusions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceTrafficShapingVpnExclusions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DataMerakiApplianceTrafficShapingVpnExclusions extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DataMerakiApplianceTrafficShapingVpnExclusions extends cdktf.Terraf
       terraformResourceType: 'meraki_appliance_traffic_shaping_vpn_exclusions',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

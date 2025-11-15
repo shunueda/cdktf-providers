@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface NetworkVlanProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * IName of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#iname NetworkVlanProfile#iname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#iname NetworkVlanProfile#iname}
   */
   readonly iname: string;
   /**
   * Name of the profile, string length must be from 1 to 255 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#network_id NetworkVlanProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#network_id NetworkVlanProfile#network_id}
   */
   readonly networkId: string;
   /**
   * An array of VLAN groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#vlan_groups NetworkVlanProfile#vlan_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#vlan_groups NetworkVlanProfile#vlan_groups}
   */
   readonly vlanGroups: NetworkVlanProfileVlanGroups[] | cdktf.IResolvable;
   /**
   * An array of named VLANs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#vlan_names NetworkVlanProfile#vlan_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#vlan_names NetworkVlanProfile#vlan_names}
   */
   readonly vlanNames: NetworkVlanProfileVlanNames[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface NetworkVlanProfileVlanGroups {
   /**
   * Name of the VLAN, string length must be from 1 to 32 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
   */
   readonly name: string;
   /**
   * Comma-separated VLAN IDs or ID ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#vlan_ids NetworkVlanProfile#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#vlan_ids NetworkVlanProfile#vlan_ids}
   */
   readonly vlanIds: string;
 }
@@ -189,19 +189,19 @@ export interface NetworkVlanProfileVlanNames {
   /**
   * Adaptive Policy Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#adaptive_policy_group_id NetworkVlanProfile#adaptive_policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#adaptive_policy_group_id NetworkVlanProfile#adaptive_policy_group_id}
   */
   readonly adaptivePolicyGroupId?: string;
   /**
   * Name of the VLAN, string length must be from 1 to 32 characters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#name NetworkVlanProfile#name}
   */
   readonly name: string;
   /**
   * VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#vlan_id NetworkVlanProfile#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#vlan_id NetworkVlanProfile#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -369,7 +369,7 @@ export class NetworkVlanProfileVlanNamesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile meraki_network_vlan_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile meraki_network_vlan_profile}
 */
 export class NetworkVlanProfile extends cdktf.TerraformResource {
 
@@ -385,7 +385,7 @@ export class NetworkVlanProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkVlanProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkVlanProfile to import
-  * @param importFromId The id of the existing NetworkVlanProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkVlanProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkVlanProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -397,7 +397,7 @@ export class NetworkVlanProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_vlan_profile meraki_network_vlan_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_vlan_profile meraki_network_vlan_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -408,8 +408,8 @@ export class NetworkVlanProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_vlan_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

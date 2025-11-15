@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CameraSenseConfig extends cdktf.TerraformMetaArguments {
   /**
   * Boolean indicating if audio detection is enabled(true) or disabled(false) on the camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#audio_detection_enabled CameraSense#audio_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#audio_detection_enabled CameraSense#audio_detection_enabled}
   */
   readonly audioDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the object detection model
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#detection_model_id CameraSense#detection_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#detection_model_id CameraSense#detection_model_id}
   */
   readonly detectionModelId?: string;
   /**
   * The ID of the MQTT broker to be enabled on the camera. A value of null will disable MQTT on the camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#mqtt_broker_id CameraSense#mqtt_broker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#mqtt_broker_id CameraSense#mqtt_broker_id}
   */
   readonly mqttBrokerId?: string;
   /**
   * Boolean indicating if sense(license) is enabled(true) or disabled(false) on the camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#sense_enabled CameraSense#sense_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#sense_enabled CameraSense#sense_enabled}
   */
   readonly senseEnabled?: boolean | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#serial CameraSense#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#serial CameraSense#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense meraki_camera_sense}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense meraki_camera_sense}
 */
 export class CameraSense extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class CameraSense extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraSense resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraSense to import
-  * @param importFromId The id of the existing CameraSense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraSense that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraSense to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CameraSense extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/camera_sense meraki_camera_sense} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_sense meraki_camera_sense} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CameraSense extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_sense',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

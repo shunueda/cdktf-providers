@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,44 +10,44 @@ export interface SwitchDhcpServerPolicyConfig extends cdktf.TerraformMetaArgumen
   /**
   * When enabled, send an email if a new DHCP server is seen. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#alerts_email_enabled SwitchDhcpServerPolicy#alerts_email_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#alerts_email_enabled SwitchDhcpServerPolicy#alerts_email_enabled}
   */
   readonly alertsEmailEnabled?: boolean | cdktf.IResolvable;
   /**
   * List the MAC addresses of DHCP servers to permit on the network when defaultPolicy is set to block. An empty array will clear the entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#allowed_servers SwitchDhcpServerPolicy#allowed_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#allowed_servers SwitchDhcpServerPolicy#allowed_servers}
   */
   readonly allowedServers?: string[];
   /**
   * Enable or disable Dynamic ARP Inspection on the network. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#arp_inspection_enabled SwitchDhcpServerPolicy#arp_inspection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#arp_inspection_enabled SwitchDhcpServerPolicy#arp_inspection_enabled}
   */
   readonly arpInspectionEnabled?: boolean | cdktf.IResolvable;
   /**
   * List the MAC addresses of DHCP servers to block on the network when defaultPolicy is set to allow. An empty array will clear the entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#blocked_servers SwitchDhcpServerPolicy#blocked_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#blocked_servers SwitchDhcpServerPolicy#blocked_servers}
   */
   readonly blockedServers?: string[];
   /**
   * `allow` or `block` new DHCP servers. Default value is `allow`.
   *   - Choices: `allow`, `block`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#default_policy SwitchDhcpServerPolicy#default_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#default_policy SwitchDhcpServerPolicy#default_policy}
   */
   readonly defaultPolicy?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#network_id SwitchDhcpServerPolicy#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#network_id SwitchDhcpServerPolicy#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy meraki_switch_dhcp_server_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy meraki_switch_dhcp_server_policy}
 */
 export class SwitchDhcpServerPolicy extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class SwitchDhcpServerPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchDhcpServerPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchDhcpServerPolicy to import
-  * @param importFromId The id of the existing SwitchDhcpServerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchDhcpServerPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchDhcpServerPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class SwitchDhcpServerPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dhcp_server_policy meraki_switch_dhcp_server_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dhcp_server_policy meraki_switch_dhcp_server_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class SwitchDhcpServerPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_dhcp_server_policy',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

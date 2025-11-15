@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SwitchOrganizationPortsProfilesAutomationConfig extends cdktf.T
   /**
   * assigned switch ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#assigned_switch_ports SwitchOrganizationPortsProfilesAutomation#assigned_switch_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#assigned_switch_ports SwitchOrganizationPortsProfilesAutomation#assigned_switch_ports}
   */
   readonly assignedSwitchPorts?: SwitchOrganizationPortsProfilesAutomationAssignedSwitchPorts[] | cdktf.IResolvable;
   /**
   * Text describing the port profile automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#description SwitchOrganizationPortsProfilesAutomation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#description SwitchOrganizationPortsProfilesAutomation#description}
   */
   readonly description?: string;
   /**
   * Default port profile Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#fallback_profile_id SwitchOrganizationPortsProfilesAutomation#fallback_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#fallback_profile_id SwitchOrganizationPortsProfilesAutomation#fallback_profile_id}
   */
   readonly fallbackProfileId?: string;
   /**
   * Default port profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#fallback_profile_name SwitchOrganizationPortsProfilesAutomation#fallback_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#fallback_profile_name SwitchOrganizationPortsProfilesAutomation#fallback_profile_name}
   */
   readonly fallbackProfileName?: string;
   /**
   * Name of the port profile automation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#name SwitchOrganizationPortsProfilesAutomation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#name SwitchOrganizationPortsProfilesAutomation#name}
   */
   readonly name: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#organization_id SwitchOrganizationPortsProfilesAutomation#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#organization_id SwitchOrganizationPortsProfilesAutomation#organization_id}
   */
   readonly organizationId: string;
   /**
   * Configuration settings for port profile automation rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#rules SwitchOrganizationPortsProfilesAutomation#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#rules SwitchOrganizationPortsProfilesAutomation#rules}
   */
   readonly rules: SwitchOrganizationPortsProfilesAutomationRules[] | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface SwitchOrganizationPortsProfilesAutomationAssignedSwitchPorts {
   /**
   * List of port ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#port_ids SwitchOrganizationPortsProfilesAutomation#port_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#port_ids SwitchOrganizationPortsProfilesAutomation#port_ids}
   */
   readonly portIds?: string[];
   /**
   * Serial number of the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#switch_serial SwitchOrganizationPortsProfilesAutomation#switch_serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#switch_serial SwitchOrganizationPortsProfilesAutomation#switch_serial}
   */
   readonly switchSerial?: string;
 }
@@ -208,13 +208,13 @@ export interface SwitchOrganizationPortsProfilesAutomationRulesConditions {
   * Type of the condition
   *   - Choices: `LLDP system description`, `MAC address`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#attribute SwitchOrganizationPortsProfilesAutomation#attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#attribute SwitchOrganizationPortsProfilesAutomation#attribute}
   */
   readonly attribute: string;
   /**
   * Value of the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#values SwitchOrganizationPortsProfilesAutomation#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#values SwitchOrganizationPortsProfilesAutomation#values}
   */
   readonly values: string[];
 }
@@ -355,25 +355,25 @@ export interface SwitchOrganizationPortsProfilesAutomationRules {
   /**
   * Configuration settings for port profile automation conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#conditions SwitchOrganizationPortsProfilesAutomation#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#conditions SwitchOrganizationPortsProfilesAutomation#conditions}
   */
   readonly conditions: SwitchOrganizationPortsProfilesAutomationRulesConditions[] | cdktf.IResolvable;
   /**
   * Priority of automation rule in sequence
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#priority SwitchOrganizationPortsProfilesAutomation#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#priority SwitchOrganizationPortsProfilesAutomation#priority}
   */
   readonly priority: number;
   /**
   * ID of port profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#profile_id SwitchOrganizationPortsProfilesAutomation#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#profile_id SwitchOrganizationPortsProfilesAutomation#profile_id}
   */
   readonly profileId?: string;
   /**
   * Name of port profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#profile_name SwitchOrganizationPortsProfilesAutomation#profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#profile_name SwitchOrganizationPortsProfilesAutomation#profile_name}
   */
   readonly profileName?: string;
 }
@@ -570,7 +570,7 @@ export class SwitchOrganizationPortsProfilesAutomationRulesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation meraki_switch_organization_ports_profiles_automation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation meraki_switch_organization_ports_profiles_automation}
 */
 export class SwitchOrganizationPortsProfilesAutomation extends cdktf.TerraformResource {
 
@@ -586,7 +586,7 @@ export class SwitchOrganizationPortsProfilesAutomation extends cdktf.TerraformRe
   * Generates CDKTF code for importing a SwitchOrganizationPortsProfilesAutomation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchOrganizationPortsProfilesAutomation to import
-  * @param importFromId The id of the existing SwitchOrganizationPortsProfilesAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchOrganizationPortsProfilesAutomation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchOrganizationPortsProfilesAutomation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class SwitchOrganizationPortsProfilesAutomation extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profiles_automation meraki_switch_organization_ports_profiles_automation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profiles_automation meraki_switch_organization_ports_profiles_automation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class SwitchOrganizationPortsProfilesAutomation extends cdktf.TerraformRe
       terraformResourceType: 'meraki_switch_organization_ports_profiles_automation',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

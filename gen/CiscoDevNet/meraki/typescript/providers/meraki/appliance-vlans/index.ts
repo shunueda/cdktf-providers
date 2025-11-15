@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceVlansConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#items ApplianceVlans#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#items ApplianceVlans#items}
   */
   readonly items: ApplianceVlansItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#network_id ApplianceVlans#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#network_id ApplianceVlans#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#organization_id ApplianceVlans#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#organization_id ApplianceVlans#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,20 +30,20 @@ export interface ApplianceVlansItemsDhcpOptions {
   /**
   * The code for the DHCP option. This should be an integer between 2 and 254.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#code ApplianceVlans#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#code ApplianceVlans#code}
   */
   readonly code: string;
   /**
   * The type for the DHCP option. One of: `text`, `ip`, `hex` or `integer`
   *   - Choices: `hex`, `integer`, `ip`, `text`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#type ApplianceVlans#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#type ApplianceVlans#type}
   */
   readonly type: string;
   /**
   * The value for the DHCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#value ApplianceVlans#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#value ApplianceVlans#value}
   */
   readonly value: string;
 }
@@ -210,13 +210,13 @@ export interface ApplianceVlansItemsFixedIpAssignments {
   /**
   * The IP address to assign to the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#ip ApplianceVlans#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#ip ApplianceVlans#ip}
   */
   readonly ip: string;
   /**
   * The name of the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#name ApplianceVlans#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#name ApplianceVlans#name}
   */
   readonly name: string;
 }
@@ -355,32 +355,38 @@ export interface ApplianceVlansItemsIpv6PrefixAssignments {
   /**
   * Auto assign a /64 prefix from the origin to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#autonomous ApplianceVlans#autonomous}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#autonomous ApplianceVlans#autonomous}
   */
   readonly autonomous?: boolean | cdktf.IResolvable;
   /**
+  * Disable this assignment
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#disabled ApplianceVlans#disabled}
+  */
+  readonly disabled: boolean | cdktf.IResolvable;
+  /**
   * Interfaces associated with the prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#origin_interfaces ApplianceVlans#origin_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#origin_interfaces ApplianceVlans#origin_interfaces}
   */
   readonly originInterfaces?: string[];
   /**
   * Type of the origin
   *   - Choices: `independent`, `internet`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#origin_type ApplianceVlans#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#origin_type ApplianceVlans#origin_type}
   */
   readonly originType?: string;
   /**
   * Manual configuration of the IPv6 Appliance IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#static_appliance_ip6 ApplianceVlans#static_appliance_ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#static_appliance_ip6 ApplianceVlans#static_appliance_ip6}
   */
   readonly staticApplianceIp6?: string;
   /**
   * Manual configuration of a /64 prefix on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#static_prefix ApplianceVlans#static_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#static_prefix ApplianceVlans#static_prefix}
   */
   readonly staticPrefix?: string;
 }
@@ -392,6 +398,7 @@ export function applianceVlansItemsIpv6PrefixAssignmentsToTerraform(struct?: App
   }
   return {
     autonomous: cdktf.booleanToTerraform(struct!.autonomous),
+    disabled: cdktf.booleanToTerraform(struct!.disabled),
     origin_interfaces: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.originInterfaces),
     origin_type: cdktf.stringToTerraform(struct!.originType),
     static_appliance_ip6: cdktf.stringToTerraform(struct!.staticApplianceIp6),
@@ -408,6 +415,12 @@ export function applianceVlansItemsIpv6PrefixAssignmentsToHclTerraform(struct?: 
   const attrs = {
     autonomous: {
       value: cdktf.booleanToHclTerraform(struct!.autonomous),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    disabled: {
+      value: cdktf.booleanToHclTerraform(struct!.disabled),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
@@ -466,6 +479,10 @@ export class ApplianceVlansItemsIpv6PrefixAssignmentsOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.autonomous = this._autonomous;
     }
+    if (this._disabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.disabled = this._disabled;
+    }
     if (this._originInterfaces !== undefined) {
       hasAnyValues = true;
       internalValueResult.originInterfaces = this._originInterfaces;
@@ -490,6 +507,7 @@ export class ApplianceVlansItemsIpv6PrefixAssignmentsOutputReference extends cdk
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
       this._autonomous = undefined;
+      this._disabled = undefined;
       this._originInterfaces = undefined;
       this._originType = undefined;
       this._staticApplianceIp6 = undefined;
@@ -503,6 +521,7 @@ export class ApplianceVlansItemsIpv6PrefixAssignmentsOutputReference extends cdk
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
       this._autonomous = value.autonomous;
+      this._disabled = value.disabled;
       this._originInterfaces = value.originInterfaces;
       this._originType = value.originType;
       this._staticApplianceIp6 = value.staticApplianceIp6;
@@ -524,6 +543,19 @@ export class ApplianceVlansItemsIpv6PrefixAssignmentsOutputReference extends cdk
   // Temporarily expose input value. Use with caution.
   public get autonomousInput() {
     return this._autonomous;
+  }
+
+  // disabled - computed: false, optional: false, required: true
+  private _disabled?: boolean | cdktf.IResolvable; 
+  public get disabled() {
+    return this.getBooleanAttribute('disabled');
+  }
+  public set disabled(value: boolean | cdktf.IResolvable) {
+    this._disabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get disabledInput() {
+    return this._disabled;
   }
 
   // origin_interfaces - computed: false, optional: true, required: false
@@ -614,19 +646,19 @@ export interface ApplianceVlansItemsReservedIpRanges {
   /**
   * A text comment for the reserved range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#comment ApplianceVlans#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#comment ApplianceVlans#comment}
   */
   readonly comment: string;
   /**
   * The last IP in the reserved range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#end ApplianceVlans#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#end ApplianceVlans#end}
   */
   readonly end: string;
   /**
   * The first IP in the reserved range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#start ApplianceVlans#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#start ApplianceVlans#start}
   */
   readonly start: string;
 }
@@ -793,136 +825,136 @@ export interface ApplianceVlansItems {
   /**
   * The local IP of the appliance on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#appliance_ip ApplianceVlans#appliance_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#appliance_ip ApplianceVlans#appliance_ip}
   */
   readonly applianceIp?: string;
   /**
   * CIDR of the pool of subnets. Applicable only for template network. Each network bound to the template will automatically pick a subnet from this pool to build its own VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#cidr ApplianceVlans#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#cidr ApplianceVlans#cidr}
   */
   readonly cidr?: string;
   /**
   * DHCP boot option for boot filename
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_boot_filename ApplianceVlans#dhcp_boot_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_boot_filename ApplianceVlans#dhcp_boot_filename}
   */
   readonly dhcpBootFilename?: string;
   /**
   * DHCP boot option to direct boot clients to the server to load the boot file from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_boot_next_server ApplianceVlans#dhcp_boot_next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_boot_next_server ApplianceVlans#dhcp_boot_next_server}
   */
   readonly dhcpBootNextServer?: string;
   /**
   * Use DHCP boot options specified in other properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_boot_options_enabled ApplianceVlans#dhcp_boot_options_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_boot_options_enabled ApplianceVlans#dhcp_boot_options_enabled}
   */
   readonly dhcpBootOptionsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The appliance`s handling of DHCP requests on this VLAN. One of: `Run a DHCP server`, `Relay DHCP to another server` or `Do not respond to DHCP requests`
   *   - Choices: `Do not respond to DHCP requests`, `Relay DHCP to another server`, `Run a DHCP server`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_handling ApplianceVlans#dhcp_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_handling ApplianceVlans#dhcp_handling}
   */
   readonly dhcpHandling?: string;
   /**
   * The term of DHCP leases if the appliance is running a DHCP server on this VLAN. One of: `30 minutes`, `1 hour`, `4 hours`, `12 hours`, `1 day` or `1 week`
   *   - Choices: `1 day`, `1 hour`, `1 week`, `12 hours`, `30 minutes`, `4 hours`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_lease_time ApplianceVlans#dhcp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_lease_time ApplianceVlans#dhcp_lease_time}
   */
   readonly dhcpLeaseTime?: string;
   /**
   * The list of DHCP options that will be included in DHCP responses. Each object in the list should have 'code', 'type', and 'value' properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_options ApplianceVlans#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_options ApplianceVlans#dhcp_options}
   */
   readonly dhcpOptions?: ApplianceVlansItemsDhcpOptions[] | cdktf.IResolvable;
   /**
   * The IPs of the DHCP servers that DHCP requests should be relayed to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dhcp_relay_server_ips ApplianceVlans#dhcp_relay_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dhcp_relay_server_ips ApplianceVlans#dhcp_relay_server_ips}
   */
   readonly dhcpRelayServerIps?: string[];
   /**
   * The DNS nameservers used for DHCP responses, either 'upstream_dns', 'google_dns', 'opendns', or a newline seperated string of IP addresses or domain names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#dns_nameservers ApplianceVlans#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#dns_nameservers ApplianceVlans#dns_nameservers}
   */
   readonly dnsNameservers?: string;
   /**
   * The DHCP fixed IP assignments on the VLAN. Thekey of this map is a MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#fixed_ip_assignments ApplianceVlans#fixed_ip_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#fixed_ip_assignments ApplianceVlans#fixed_ip_assignments}
   */
   readonly fixedIpAssignments?: { [key: string]: ApplianceVlansItemsFixedIpAssignments } | cdktf.IResolvable;
   /**
   * The id of the desired group policy to apply to the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#group_policy_id ApplianceVlans#group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#group_policy_id ApplianceVlans#group_policy_id}
   */
   readonly groupPolicyId?: string;
   /**
   * Enable IPv6 on VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#ipv6_enabled ApplianceVlans#ipv6_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#ipv6_enabled ApplianceVlans#ipv6_enabled}
   */
   readonly ipv6Enabled?: boolean | cdktf.IResolvable;
   /**
   * Prefix assignments on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#ipv6_prefix_assignments ApplianceVlans#ipv6_prefix_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#ipv6_prefix_assignments ApplianceVlans#ipv6_prefix_assignments}
   */
   readonly ipv6PrefixAssignments?: ApplianceVlansItemsIpv6PrefixAssignments[] | cdktf.IResolvable;
   /**
   * Enable Mandatory DHCP on VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#mandatory_dhcp_enabled ApplianceVlans#mandatory_dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#mandatory_dhcp_enabled ApplianceVlans#mandatory_dhcp_enabled}
   */
   readonly mandatoryDhcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Mask used for the subnet of all bound to the template networks. Applicable only for template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#mask ApplianceVlans#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#mask ApplianceVlans#mask}
   */
   readonly mask?: number;
   /**
   * The name of the new VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#name ApplianceVlans#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#name ApplianceVlans#name}
   */
   readonly name: string;
   /**
   * The DHCP reserved IP ranges on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#reserved_ip_ranges ApplianceVlans#reserved_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#reserved_ip_ranges ApplianceVlans#reserved_ip_ranges}
   */
   readonly reservedIpRanges?: ApplianceVlansItemsReservedIpRanges[] | cdktf.IResolvable;
   /**
   * The subnet of the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#subnet ApplianceVlans#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#subnet ApplianceVlans#subnet}
   */
   readonly subnet?: string;
   /**
   * Type of subnetting of the VLAN. Applicable only for template network.
   *   - Choices: `same`, `unique`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#template_vlan_type ApplianceVlans#template_vlan_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#template_vlan_type ApplianceVlans#template_vlan_type}
   */
   readonly templateVlanType?: string;
   /**
   * The VLAN ID of the new VLAN (must be between 1 and 4094)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#vlan_id ApplianceVlans#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#vlan_id ApplianceVlans#vlan_id}
   */
   readonly vlanId: string;
   /**
   * The translated VPN subnet if VPN and VPN subnet translation are enabled on the VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#vpn_nat_subnet ApplianceVlans#vpn_nat_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#vpn_nat_subnet ApplianceVlans#vpn_nat_subnet}
   */
   readonly vpnNatSubnet?: string;
 }
@@ -1646,7 +1678,7 @@ export class ApplianceVlansItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans meraki_appliance_vlans}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans meraki_appliance_vlans}
 */
 export class ApplianceVlans extends cdktf.TerraformResource {
 
@@ -1662,7 +1694,7 @@ export class ApplianceVlans extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceVlans resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceVlans to import
-  * @param importFromId The id of the existing ApplianceVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceVlans that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceVlans to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1674,7 +1706,7 @@ export class ApplianceVlans extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_vlans meraki_appliance_vlans} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans meraki_appliance_vlans} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1685,8 +1717,8 @@ export class ApplianceVlans extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_vlans',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_vpn_bgp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceVpnBgpConfig extends cdktf.TerraformMetaArgu
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_vpn_bgp#network_id DataMerakiApplianceVpnBgp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_bgp#network_id DataMerakiApplianceVpnBgp#network_id}
   */
   readonly networkId: string;
 }
@@ -156,7 +156,7 @@ export class DataMerakiApplianceVpnBgpNeighborsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_vpn_bgp meraki_appliance_vpn_bgp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_bgp meraki_appliance_vpn_bgp}
 */
 export class DataMerakiApplianceVpnBgp extends cdktf.TerraformDataSource {
 
@@ -172,7 +172,7 @@ export class DataMerakiApplianceVpnBgp extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiApplianceVpnBgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceVpnBgp to import
-  * @param importFromId The id of the existing DataMerakiApplianceVpnBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_vpn_bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceVpnBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceVpnBgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DataMerakiApplianceVpnBgp extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_vpn_bgp meraki_appliance_vpn_bgp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_bgp meraki_appliance_vpn_bgp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DataMerakiApplianceVpnBgp extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_appliance_vpn_bgp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

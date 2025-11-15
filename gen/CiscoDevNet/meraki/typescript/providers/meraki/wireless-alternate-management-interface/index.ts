@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WirelessAlternateManagementInterfaceConfig extends cdktf.Terraf
   /**
   * Array of access point serial number and IP assignment. Note: accessPoints IP assignment is not applicable for template networks, in other words, do not put `accessPoints` in the body when updating template networks. Also, an empty `accessPoints` array will remove all previous static IP assignments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#access_points WirelessAlternateManagementInterface#access_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#access_points WirelessAlternateManagementInterface#access_points}
   */
   readonly accessPoints?: WirelessAlternateManagementInterfaceAccessPoints[] | cdktf.IResolvable;
   /**
   * Boolean value to enable or disable alternate management interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#enabled WirelessAlternateManagementInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#enabled WirelessAlternateManagementInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#network_id WirelessAlternateManagementInterface#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#network_id WirelessAlternateManagementInterface#network_id}
   */
   readonly networkId: string;
   /**
   * Can be one or more of the following values: `radius`, `snmp`, `syslog` or `ldap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#protocols WirelessAlternateManagementInterface#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#protocols WirelessAlternateManagementInterface#protocols}
   */
   readonly protocols?: string[];
   /**
   * Alternate management interface VLAN, must be between 1 and 4094
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#vlan_id WirelessAlternateManagementInterface#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#vlan_id WirelessAlternateManagementInterface#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -42,37 +42,37 @@ export interface WirelessAlternateManagementInterfaceAccessPoints {
   /**
   * Wireless alternate management interface device IP. Provide an empty string to remove alternate management IP assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#alternate_management_ip WirelessAlternateManagementInterface#alternate_management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#alternate_management_ip WirelessAlternateManagementInterface#alternate_management_ip}
   */
   readonly alternateManagementIp: string;
   /**
   * Primary DNS must be in IP format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#dns1 WirelessAlternateManagementInterface#dns1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#dns1 WirelessAlternateManagementInterface#dns1}
   */
   readonly dns1?: string;
   /**
   * Optional secondary DNS must be in IP format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#dns2 WirelessAlternateManagementInterface#dns2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#dns2 WirelessAlternateManagementInterface#dns2}
   */
   readonly dns2?: string;
   /**
   * Gateway must be in IP format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#gateway WirelessAlternateManagementInterface#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#gateway WirelessAlternateManagementInterface#gateway}
   */
   readonly gateway?: string;
   /**
   * Serial number of access point to be configured with alternate management IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#serial WirelessAlternateManagementInterface#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#serial WirelessAlternateManagementInterface#serial}
   */
   readonly serial: string;
   /**
   * Subnet mask must be in IP format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#subnet_mask WirelessAlternateManagementInterface#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#subnet_mask WirelessAlternateManagementInterface#subnet_mask}
   */
   readonly subnetMask?: string;
 }
@@ -327,7 +327,7 @@ export class WirelessAlternateManagementInterfaceAccessPointsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface}
 */
 export class WirelessAlternateManagementInterface extends cdktf.TerraformResource {
 
@@ -343,7 +343,7 @@ export class WirelessAlternateManagementInterface extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a WirelessAlternateManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessAlternateManagementInterface to import
-  * @param importFromId The id of the existing WirelessAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessAlternateManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -355,7 +355,7 @@ export class WirelessAlternateManagementInterface extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -366,8 +366,8 @@ export class WirelessAlternateManagementInterface extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_wireless_alternate_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

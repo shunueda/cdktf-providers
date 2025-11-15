@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WirelessDeviceBluetoothSettingsConfig extends cdktf.TerraformMe
   /**
   * Desired major value of the beacon. If the value is set to null it will reset to Dashboard`s automatically generated value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings#major WirelessDeviceBluetoothSettings#major}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings#major WirelessDeviceBluetoothSettings#major}
   */
   readonly major?: number;
   /**
   * Desired minor value of the beacon. If the value is set to null it will reset to Dashboard`s automatically generated value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings#minor WirelessDeviceBluetoothSettings#minor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings#minor WirelessDeviceBluetoothSettings#minor}
   */
   readonly minor?: number;
   /**
   * Wireless AP serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings#serial WirelessDeviceBluetoothSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings#serial WirelessDeviceBluetoothSettings#serial}
   */
   readonly serial: string;
   /**
   * Desired UUID of the beacon. If the value is set to null it will reset to Dashboard`s automatically generated value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings#uuid WirelessDeviceBluetoothSettings#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings#uuid WirelessDeviceBluetoothSettings#uuid}
   */
   readonly uuid?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings}
 */
 export class WirelessDeviceBluetoothSettings extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class WirelessDeviceBluetoothSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessDeviceBluetoothSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessDeviceBluetoothSettings to import
-  * @param importFromId The id of the existing WirelessDeviceBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessDeviceBluetoothSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessDeviceBluetoothSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class WirelessDeviceBluetoothSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_device_bluetooth_settings meraki_wireless_device_bluetooth_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class WirelessDeviceBluetoothSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_device_bluetooth_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

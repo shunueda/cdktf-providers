@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SwitchDscpToCosMappingsConfig extends cdktf.TerraformMetaArgume
   /**
   * An array of DSCP to CoS mappings. An empty array will reset the mappings to default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#mappings SwitchDscpToCosMappings#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#mappings SwitchDscpToCosMappings#mappings}
   */
   readonly mappings: SwitchDscpToCosMappingsMappings[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#network_id SwitchDscpToCosMappings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#network_id SwitchDscpToCosMappings#network_id}
   */
   readonly networkId: string;
 }
@@ -24,19 +24,19 @@ export interface SwitchDscpToCosMappingsMappings {
   /**
   * The actual layer-2 CoS queue the DSCP value is mapped to. These are not bits set on outgoing frames. Value can be in the range of 0 to 5 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#cos SwitchDscpToCosMappings#cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#cos SwitchDscpToCosMappings#cos}
   */
   readonly cos: number;
   /**
   * The Differentiated Services Code Point (DSCP) tag in the IP header that will be mapped to a particular Class-of-Service (CoS) queue. Value can be in the range of 0 to 63 inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#dscp SwitchDscpToCosMappings#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#dscp SwitchDscpToCosMappings#dscp}
   */
   readonly dscp: number;
   /**
   * Label for the mapping (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#title SwitchDscpToCosMappings#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#title SwitchDscpToCosMappings#title}
   */
   readonly title?: string;
 }
@@ -204,7 +204,7 @@ export class SwitchDscpToCosMappingsMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings meraki_switch_dscp_to_cos_mappings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings meraki_switch_dscp_to_cos_mappings}
 */
 export class SwitchDscpToCosMappings extends cdktf.TerraformResource {
 
@@ -220,7 +220,7 @@ export class SwitchDscpToCosMappings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchDscpToCosMappings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchDscpToCosMappings to import
-  * @param importFromId The id of the existing SwitchDscpToCosMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchDscpToCosMappings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchDscpToCosMappings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -232,7 +232,7 @@ export class SwitchDscpToCosMappings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_dscp_to_cos_mappings meraki_switch_dscp_to_cos_mappings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_dscp_to_cos_mappings meraki_switch_dscp_to_cos_mappings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -243,8 +243,8 @@ export class SwitchDscpToCosMappings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_dscp_to_cos_mappings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

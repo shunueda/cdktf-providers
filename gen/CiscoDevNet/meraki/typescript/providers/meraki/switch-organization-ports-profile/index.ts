@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,161 +10,167 @@ export interface SwitchOrganizationPortsProfileConfig extends cdktf.TerraformMet
   /**
   * Text describing the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#description SwitchOrganizationPortsProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#description SwitchOrganizationPortsProfile#description}
   */
   readonly description?: string;
   /**
   * The scope of the profile whether it is organization level or network level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#is_organization_wide SwitchOrganizationPortsProfile#is_organization_wide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#is_organization_wide SwitchOrganizationPortsProfile#is_organization_wide}
   */
   readonly isOrganizationWide?: boolean | cdktf.IResolvable;
   /**
   * The name of the profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#name SwitchOrganizationPortsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#name SwitchOrganizationPortsProfile#name}
   */
   readonly name: string;
   /**
   * The network identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#network_id SwitchOrganizationPortsProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#network_id SwitchOrganizationPortsProfile#network_id}
   */
   readonly networkId?: string;
   /**
   * Flag to identify if the networks networks are excluded or included
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#networks_type SwitchOrganizationPortsProfile#networks_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#networks_type SwitchOrganizationPortsProfile#networks_type}
   */
   readonly networksType?: string;
   /**
   * The network object containing name and id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#networks_values SwitchOrganizationPortsProfile#networks_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#networks_values SwitchOrganizationPortsProfile#networks_values}
   */
   readonly networksValues?: SwitchOrganizationPortsProfileNetworksValues[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#organization_id SwitchOrganizationPortsProfile#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#organization_id SwitchOrganizationPortsProfile#organization_id}
   */
   readonly organizationId: string;
   /**
   * The number of a custom access policy to configure on the port profile. Only applicable when `accessPolicyType` is `Custom access policy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_access_policy_number SwitchOrganizationPortsProfile#port_access_policy_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_access_policy_number SwitchOrganizationPortsProfile#port_access_policy_number}
   */
   readonly portAccessPolicyNumber?: number;
   /**
   * The type of the access policy of the port profile. Only applicable to access ports.
   *   - Choices: `Custom access policy`, `MAC allow list`, `Open`, `Sticky MAC allow list`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_access_policy_type SwitchOrganizationPortsProfile#port_access_policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_access_policy_type SwitchOrganizationPortsProfile#port_access_policy_type}
   */
   readonly portAccessPolicyType?: string;
   /**
   * The adaptive policy group ID that will be used to tag traffic through this port profile. This ID must pre-exist during the configuration, else needs to be created using adaptivePolicy/groups API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_adaptive_policy_group_id SwitchOrganizationPortsProfile#port_adaptive_policy_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_adaptive_policy_group_id SwitchOrganizationPortsProfile#port_adaptive_policy_group_id}
   */
   readonly portAdaptivePolicyGroupId?: string;
   /**
+  * The adaptive policy group ID that will be used to tag voice traffic through this port profile. This ID must pre-exist during the configuration, else needs to be created using adaptivePolicy/groups API.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_adaptive_policy_voice_group_id SwitchOrganizationPortsProfile#port_adaptive_policy_voice_group_id}
+  */
+  readonly portAdaptivePolicyVoiceGroupId?: string;
+  /**
   * The VLANs allowed on the port profile. Only applicable to trunk ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_allowed_vlans SwitchOrganizationPortsProfile#port_allowed_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_allowed_vlans SwitchOrganizationPortsProfile#port_allowed_vlans}
   */
   readonly portAllowedVlans?: string;
   /**
   * If true, ARP packets for this port will be considered trusted, and Dynamic ARP Inspection will allow the traffic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_dai_trusted SwitchOrganizationPortsProfile#port_dai_trusted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_dai_trusted SwitchOrganizationPortsProfile#port_dai_trusted}
   */
   readonly portDaiTrusted?: boolean | cdktf.IResolvable;
   /**
   * The isolation status of the port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_isolation_enabled SwitchOrganizationPortsProfile#port_isolation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_isolation_enabled SwitchOrganizationPortsProfile#port_isolation_enabled}
   */
   readonly portIsolationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Only devices with MAC addresses specified in this list will have access to this port. Up to 20 MAC addresses can be defined. Only applicable when `accessPolicyType` is `MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_mac_allow_list SwitchOrganizationPortsProfile#port_mac_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_mac_allow_list SwitchOrganizationPortsProfile#port_mac_allow_list}
   */
   readonly portMacAllowList?: string[];
   /**
   * If true, Peer SGT is enabled for traffic through this port profile. Applicable to trunk ports only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_peer_sgt_capable SwitchOrganizationPortsProfile#port_peer_sgt_capable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_peer_sgt_capable SwitchOrganizationPortsProfile#port_peer_sgt_capable}
   */
   readonly portPeerSgtCapable?: boolean | cdktf.IResolvable;
   /**
   * The PoE status of the port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_poe_enabled SwitchOrganizationPortsProfile#port_poe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_poe_enabled SwitchOrganizationPortsProfile#port_poe_enabled}
   */
   readonly portPoeEnabled?: boolean | cdktf.IResolvable;
   /**
   * The rapid spanning tree protocol status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_rstp_enabled SwitchOrganizationPortsProfile#port_rstp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_rstp_enabled SwitchOrganizationPortsProfile#port_rstp_enabled}
   */
   readonly portRstpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The initial list of MAC addresses for sticky Mac allow list. Only applicable when `accessPolicyType` is `Sticky MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_sticky_mac_allow_list SwitchOrganizationPortsProfile#port_sticky_mac_allow_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_sticky_mac_allow_list SwitchOrganizationPortsProfile#port_sticky_mac_allow_list}
   */
   readonly portStickyMacAllowList?: string[];
   /**
   * The maximum number of MAC addresses for sticky MAC allow list. Only applicable when `accessPolicyType` is `Sticky MAC allow list`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_sticky_mac_allow_list_limit SwitchOrganizationPortsProfile#port_sticky_mac_allow_list_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_sticky_mac_allow_list_limit SwitchOrganizationPortsProfile#port_sticky_mac_allow_list_limit}
   */
   readonly portStickyMacAllowListLimit?: number;
   /**
   * The storm control status of the port profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_storm_control_enabled SwitchOrganizationPortsProfile#port_storm_control_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_storm_control_enabled SwitchOrganizationPortsProfile#port_storm_control_enabled}
   */
   readonly portStormControlEnabled?: boolean | cdktf.IResolvable;
   /**
   * The state of the STP guard.
   *   - Choices: `bpdu guard`, `disabled`, `loop guard`, `root guard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_stp_guard SwitchOrganizationPortsProfile#port_stp_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_stp_guard SwitchOrganizationPortsProfile#port_stp_guard}
   */
   readonly portStpGuard?: string;
   /**
   * The type of the port profile.
   *   - Choices: `access`, `stack`, `trunk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_type SwitchOrganizationPortsProfile#port_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_type SwitchOrganizationPortsProfile#port_type}
   */
   readonly portType: string;
   /**
   * The action to take when Unidirectional Link is detected. LinkDefault configuration is Alert only.
   *   - Choices: `Alert only`, `Enforce`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_udld SwitchOrganizationPortsProfile#port_udld}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_udld SwitchOrganizationPortsProfile#port_udld}
   */
   readonly portUdld?: string;
   /**
   * The VLAN of the port profile. A null value will clear the value set for trunk ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_vlan SwitchOrganizationPortsProfile#port_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_vlan SwitchOrganizationPortsProfile#port_vlan}
   */
   readonly portVlan?: number;
   /**
   * The voice VLAN of the port profile. Only applicable to access ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#port_voice_vlan SwitchOrganizationPortsProfile#port_voice_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#port_voice_vlan SwitchOrganizationPortsProfile#port_voice_vlan}
   */
   readonly portVoiceVlan?: number;
   /**
   * Space-seperated list of tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#tags SwitchOrganizationPortsProfile#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#tags SwitchOrganizationPortsProfile#tags}
   */
   readonly tags?: string[];
 }
@@ -172,7 +178,7 @@ export interface SwitchOrganizationPortsProfileNetworksValues {
   /**
   * The network identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#id SwitchOrganizationPortsProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#id SwitchOrganizationPortsProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -181,7 +187,7 @@ export interface SwitchOrganizationPortsProfileNetworksValues {
   /**
   * The network name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#name SwitchOrganizationPortsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#name SwitchOrganizationPortsProfile#name}
   */
   readonly name?: string;
 }
@@ -323,7 +329,7 @@ export class SwitchOrganizationPortsProfileNetworksValuesList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile meraki_switch_organization_ports_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile meraki_switch_organization_ports_profile}
 */
 export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
 
@@ -339,7 +345,7 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchOrganizationPortsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchOrganizationPortsProfile to import
-  * @param importFromId The id of the existing SwitchOrganizationPortsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchOrganizationPortsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchOrganizationPortsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +357,7 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_organization_ports_profile meraki_switch_organization_ports_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_organization_ports_profile meraki_switch_organization_ports_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +368,8 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_organization_ports_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -383,6 +389,7 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
     this._portAccessPolicyNumber = config.portAccessPolicyNumber;
     this._portAccessPolicyType = config.portAccessPolicyType;
     this._portAdaptivePolicyGroupId = config.portAdaptivePolicyGroupId;
+    this._portAdaptivePolicyVoiceGroupId = config.portAdaptivePolicyVoiceGroupId;
     this._portAllowedVlans = config.portAllowedVlans;
     this._portDaiTrusted = config.portDaiTrusted;
     this._portIsolationEnabled = config.portIsolationEnabled;
@@ -562,6 +569,22 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get portAdaptivePolicyGroupIdInput() {
     return this._portAdaptivePolicyGroupId;
+  }
+
+  // port_adaptive_policy_voice_group_id - computed: false, optional: true, required: false
+  private _portAdaptivePolicyVoiceGroupId?: string; 
+  public get portAdaptivePolicyVoiceGroupId() {
+    return this.getStringAttribute('port_adaptive_policy_voice_group_id');
+  }
+  public set portAdaptivePolicyVoiceGroupId(value: string) {
+    this._portAdaptivePolicyVoiceGroupId = value;
+  }
+  public resetPortAdaptivePolicyVoiceGroupId() {
+    this._portAdaptivePolicyVoiceGroupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get portAdaptivePolicyVoiceGroupIdInput() {
+    return this._portAdaptivePolicyVoiceGroupId;
   }
 
   // port_allowed_vlans - computed: false, optional: true, required: false
@@ -833,6 +856,7 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
       port_access_policy_number: cdktf.numberToTerraform(this._portAccessPolicyNumber),
       port_access_policy_type: cdktf.stringToTerraform(this._portAccessPolicyType),
       port_adaptive_policy_group_id: cdktf.stringToTerraform(this._portAdaptivePolicyGroupId),
+      port_adaptive_policy_voice_group_id: cdktf.stringToTerraform(this._portAdaptivePolicyVoiceGroupId),
       port_allowed_vlans: cdktf.stringToTerraform(this._portAllowedVlans),
       port_dai_trusted: cdktf.booleanToTerraform(this._portDaiTrusted),
       port_isolation_enabled: cdktf.booleanToTerraform(this._portIsolationEnabled),
@@ -910,6 +934,12 @@ export class SwitchOrganizationPortsProfile extends cdktf.TerraformResource {
       },
       port_adaptive_policy_group_id: {
         value: cdktf.stringToHclTerraform(this._portAdaptivePolicyGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      port_adaptive_policy_voice_group_id: {
+        value: cdktf.stringToHclTerraform(this._portAdaptivePolicyVoiceGroupId),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

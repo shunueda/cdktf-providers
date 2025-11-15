@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface SwitchRoutingOspfConfig extends cdktf.TerraformMetaArguments {
   /**
   * OSPF areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#areas SwitchRoutingOspf#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#areas SwitchRoutingOspf#areas}
   */
   readonly areas?: SwitchRoutingOspfAreas[] | cdktf.IResolvable;
   /**
   * Time interval to determine when the peer will be declared inactive/dead. Value must be between 1 and 65535
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#dead_timer_in_seconds SwitchRoutingOspf#dead_timer_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#dead_timer_in_seconds SwitchRoutingOspf#dead_timer_in_seconds}
   */
   readonly deadTimerInSeconds?: number;
   /**
   * Boolean value to enable or disable OSPF routing. OSPF routing is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#enabled SwitchRoutingOspf#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#enabled SwitchRoutingOspf#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Time interval in seconds at which hello packet will be sent to OSPF neighbors to maintain connectivity. Value must be between 1 and 255. Default is 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#hello_timer_in_seconds SwitchRoutingOspf#hello_timer_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#hello_timer_in_seconds SwitchRoutingOspf#hello_timer_in_seconds}
   */
   readonly helloTimerInSeconds?: number;
   /**
   * Boolean value to enable or disable MD5 authentication. MD5 authentication is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#md5_authentication_enabled SwitchRoutingOspf#md5_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#md5_authentication_enabled SwitchRoutingOspf#md5_authentication_enabled}
   */
   readonly md5AuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * MD5 authentication key index. Key index must be between 1 to 255
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#md5_authentication_key_id SwitchRoutingOspf#md5_authentication_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#md5_authentication_key_id SwitchRoutingOspf#md5_authentication_key_id}
   */
   readonly md5AuthenticationKeyId?: number;
   /**
   * MD5 authentication passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#md5_authentication_key_passphrase SwitchRoutingOspf#md5_authentication_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#md5_authentication_key_passphrase SwitchRoutingOspf#md5_authentication_key_passphrase}
   */
   readonly md5AuthenticationKeyPassphrase?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#network_id SwitchRoutingOspf#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#network_id SwitchRoutingOspf#network_id}
   */
   readonly networkId: string;
   /**
   * OSPF v3 areas
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#v3_areas SwitchRoutingOspf#v3_areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#v3_areas SwitchRoutingOspf#v3_areas}
   */
   readonly v3Areas?: SwitchRoutingOspfV3Areas[] | cdktf.IResolvable;
   /**
   * Time interval to determine when the peer will be declared inactive/dead. Value must be between 1 and 65535
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#v3_dead_timer_in_seconds SwitchRoutingOspf#v3_dead_timer_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#v3_dead_timer_in_seconds SwitchRoutingOspf#v3_dead_timer_in_seconds}
   */
   readonly v3DeadTimerInSeconds?: number;
   /**
   * Boolean value to enable or disable V3 OSPF routing. OSPF V3 routing is disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#v3_enabled SwitchRoutingOspf#v3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#v3_enabled SwitchRoutingOspf#v3_enabled}
   */
   readonly v3Enabled?: boolean | cdktf.IResolvable;
   /**
   * Time interval in seconds at which hello packet will be sent to OSPF neighbors to maintain connectivity. Value must be between 1 and 255. Default is 10 seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#v3_hello_timer_in_seconds SwitchRoutingOspf#v3_hello_timer_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#v3_hello_timer_in_seconds SwitchRoutingOspf#v3_hello_timer_in_seconds}
   */
   readonly v3HelloTimerInSeconds?: number;
 }
@@ -84,20 +84,20 @@ export interface SwitchRoutingOspfAreas {
   /**
   * OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_id SwitchRoutingOspf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_id SwitchRoutingOspf#area_id}
   */
   readonly areaId: string;
   /**
   * Name of the OSPF area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_name SwitchRoutingOspf#area_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_name SwitchRoutingOspf#area_name}
   */
   readonly areaName: string;
   /**
   * Area types in OSPF. Must be one of: ['normal', 'stub', 'nssa']
   *   - Choices: `normal`, `nssa`, `stub`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_type SwitchRoutingOspf#area_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_type SwitchRoutingOspf#area_type}
   */
   readonly areaType: string;
 }
@@ -264,20 +264,20 @@ export interface SwitchRoutingOspfV3Areas {
   /**
   * OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_id SwitchRoutingOspf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_id SwitchRoutingOspf#area_id}
   */
   readonly areaId: string;
   /**
   * Name of the OSPF area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_name SwitchRoutingOspf#area_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_name SwitchRoutingOspf#area_name}
   */
   readonly areaName: string;
   /**
   * Area types in OSPF. Must be one of: ['normal', 'stub', 'nssa']
   *   - Choices: `normal`, `nssa`, `stub`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#area_type SwitchRoutingOspf#area_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#area_type SwitchRoutingOspf#area_type}
   */
   readonly areaType: string;
 }
@@ -442,7 +442,7 @@ export class SwitchRoutingOspfV3AreasList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf meraki_switch_routing_ospf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf meraki_switch_routing_ospf}
 */
 export class SwitchRoutingOspf extends cdktf.TerraformResource {
 
@@ -458,7 +458,7 @@ export class SwitchRoutingOspf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchRoutingOspf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchRoutingOspf to import
-  * @param importFromId The id of the existing SwitchRoutingOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchRoutingOspf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchRoutingOspf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -470,7 +470,7 @@ export class SwitchRoutingOspf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_routing_ospf meraki_switch_routing_ospf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_ospf meraki_switch_routing_ospf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -481,8 +481,8 @@ export class SwitchRoutingOspf extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_routing_ospf',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

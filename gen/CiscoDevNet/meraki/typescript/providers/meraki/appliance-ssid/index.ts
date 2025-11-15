@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,87 +11,87 @@ export interface ApplianceSsidConfig extends cdktf.TerraformMetaArguments {
   * The association control method for the SSID (`open`, `psk`, `8021x-meraki` or `8021x-radius`).
   *   - Choices: `8021x-meraki`, `8021x-radius`, `open`, `psk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#auth_mode ApplianceSsid#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#auth_mode ApplianceSsid#auth_mode}
   */
   readonly authMode?: string;
   /**
   * The VLAN ID of the VLAN associated to this SSID. This parameter is only valid if the network is in routed mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#default_vlan_id ApplianceSsid#default_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#default_vlan_id ApplianceSsid#default_vlan_id}
   */
   readonly defaultVlanId?: number;
   /**
   * Enable DCHP Enforced Deauthentication on the SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#dhcp_enforced_deauthentication_enabled ApplianceSsid#dhcp_enforced_deauthentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#dhcp_enforced_deauthentication_enabled ApplianceSsid#dhcp_enforced_deauthentication_enabled}
   */
   readonly dhcpEnforcedDeauthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether 802.11w is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#dot11w_enabled ApplianceSsid#dot11w_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#dot11w_enabled ApplianceSsid#dot11w_enabled}
   */
   readonly dot11WEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Optional) Whether 802.11w is required or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#dot11w_required ApplianceSsid#dot11w_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#dot11w_required ApplianceSsid#dot11w_required}
   */
   readonly dot11WRequired?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the SSID is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#enabled ApplianceSsid#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#enabled ApplianceSsid#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The psk encryption mode for the SSID (`wep` or `wpa`). This param is only valid if the authMode is `psk`.
   *   - Choices: `wep`, `wpa`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#encryption_mode ApplianceSsid#encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#encryption_mode ApplianceSsid#encryption_mode}
   */
   readonly encryptionMode?: string;
   /**
   * The name of the SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#name ApplianceSsid#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#name ApplianceSsid#name}
   */
   readonly name?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#network_id ApplianceSsid#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#network_id ApplianceSsid#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#number ApplianceSsid#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#number ApplianceSsid#number}
   */
   readonly number: string;
   /**
   * The passkey for the SSID. This param is only valid if the authMode is `psk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#psk ApplianceSsid#psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#psk ApplianceSsid#psk}
   */
   readonly psk?: string;
   /**
   * The RADIUS 802.1x servers to be used for authentication. This param is only valid if the authMode is `8021x-radius`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#radius_servers ApplianceSsid#radius_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#radius_servers ApplianceSsid#radius_servers}
   */
   readonly radiusServers?: ApplianceSsidRadiusServers[] | cdktf.IResolvable;
   /**
   * Boolean indicating whether the MX should advertise or hide this SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#visible ApplianceSsid#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#visible ApplianceSsid#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The types of WPA encryption. (`WPA1 and WPA2`, `WPA2 only`, `WPA3 Transition Mode` or `WPA3 only`). This param is only valid if (1) the authMode is `psk` & the encryptionMode is `wpa` OR (2) the authMode is `8021x-meraki` OR (3) the authMode is `8021x-radius`
   *   - Choices: `WPA1 and WPA2`, `WPA2 only`, `WPA3 Transition Mode`, `WPA3 only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#wpa_encryption_mode ApplianceSsid#wpa_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#wpa_encryption_mode ApplianceSsid#wpa_encryption_mode}
   */
   readonly wpaEncryptionMode?: string;
 }
@@ -99,19 +99,19 @@ export interface ApplianceSsidRadiusServers {
   /**
   * The IP address of your RADIUS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#host ApplianceSsid#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#host ApplianceSsid#host}
   */
   readonly host?: string;
   /**
   * The UDP port your RADIUS servers listens on for Access-requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#port ApplianceSsid#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#port ApplianceSsid#port}
   */
   readonly port?: number;
   /**
   * The RADIUS client shared secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#secret ApplianceSsid#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#secret ApplianceSsid#secret}
   */
   readonly secret?: string;
 }
@@ -285,7 +285,7 @@ export class ApplianceSsidRadiusServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid meraki_appliance_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid meraki_appliance_ssid}
 */
 export class ApplianceSsid extends cdktf.TerraformResource {
 
@@ -301,7 +301,7 @@ export class ApplianceSsid extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceSsid to import
-  * @param importFromId The id of the existing ApplianceSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -313,7 +313,7 @@ export class ApplianceSsid extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_ssid meraki_appliance_ssid} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_ssid meraki_appliance_ssid} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -324,8 +324,8 @@ export class ApplianceSsid extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_ssid',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

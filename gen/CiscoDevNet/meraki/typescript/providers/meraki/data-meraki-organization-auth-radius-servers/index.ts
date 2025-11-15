@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_auth_radius_servers
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_auth_radius_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiOrganizationAuthRadiusServersConfig extends cdktf.Ter
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_auth_radius_servers#organization_id DataMerakiOrganizationAuthRadiusServers#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_auth_radius_servers#organization_id DataMerakiOrganizationAuthRadiusServers#organization_id}
   */
   readonly organizationId: string;
 }
@@ -192,7 +192,7 @@ export class DataMerakiOrganizationAuthRadiusServersItemsList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_auth_radius_servers meraki_organization_auth_radius_servers}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_auth_radius_servers meraki_organization_auth_radius_servers}
 */
 export class DataMerakiOrganizationAuthRadiusServers extends cdktf.TerraformDataSource {
 
@@ -208,7 +208,7 @@ export class DataMerakiOrganizationAuthRadiusServers extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataMerakiOrganizationAuthRadiusServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationAuthRadiusServers to import
-  * @param importFromId The id of the existing DataMerakiOrganizationAuthRadiusServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_auth_radius_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationAuthRadiusServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_auth_radius_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationAuthRadiusServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -220,7 +220,7 @@ export class DataMerakiOrganizationAuthRadiusServers extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/organization_auth_radius_servers meraki_organization_auth_radius_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_auth_radius_servers meraki_organization_auth_radius_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -231,8 +231,8 @@ export class DataMerakiOrganizationAuthRadiusServers extends cdktf.TerraformData
       terraformResourceType: 'meraki_organization_auth_radius_servers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

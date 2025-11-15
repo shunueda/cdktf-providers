@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceL3FirewallRulesConfig extends cdktf.TerraformMetaArgum
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#network_id ApplianceL3FirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#network_id ApplianceL3FirewallRules#network_id}
   */
   readonly networkId: string;
   /**
   * An ordered array of the firewall rules (not including the default rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#rules ApplianceL3FirewallRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#rules ApplianceL3FirewallRules#rules}
   */
   readonly rules: ApplianceL3FirewallRulesRules[] | cdktf.IResolvable;
   /**
   * Log the special default rule (boolean value - enable only if you`ve configured a syslog server) (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#syslog_default_rule ApplianceL3FirewallRules#syslog_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#syslog_default_rule ApplianceL3FirewallRules#syslog_default_rule}
   */
   readonly syslogDefaultRule?: boolean | cdktf.IResolvable;
 }
@@ -30,51 +30,51 @@ export interface ApplianceL3FirewallRulesRules {
   /**
   * Description of the rule (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#comment ApplianceL3FirewallRules#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#comment ApplianceL3FirewallRules#comment}
   */
   readonly comment?: string;
   /**
   * Comma-separated list of destination IP address(es) (in IP or CIDR notation), fully-qualified domain names (FQDN) or `Any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#dest_cidr ApplianceL3FirewallRules#dest_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#dest_cidr ApplianceL3FirewallRules#dest_cidr}
   */
   readonly destCidr: string;
   /**
   * Comma-separated list of destination port(s) (integer in the range 1-65535), or `Any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#dest_port ApplianceL3FirewallRules#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#dest_port ApplianceL3FirewallRules#dest_port}
   */
   readonly destPort?: string;
   /**
   * `allow` or `deny` traffic specified by this rule
   *   - Choices: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#policy ApplianceL3FirewallRules#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#policy ApplianceL3FirewallRules#policy}
   */
   readonly policy: string;
   /**
   * The type of protocol (must be `tcp`, `udp`, `icmp`, `icmp6` or `any`)
   *   - Choices: `any`, `icmp`, `icmp6`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#protocol ApplianceL3FirewallRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#protocol ApplianceL3FirewallRules#protocol}
   */
   readonly protocol: string;
   /**
   * Comma-separated list of source IP address(es) (in IP or CIDR notation), or `Any` (note: FQDN not supported for source addresses)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#src_cidr ApplianceL3FirewallRules#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#src_cidr ApplianceL3FirewallRules#src_cidr}
   */
   readonly srcCidr: string;
   /**
   * Comma-separated list of source port(s) (integer in the range 1-65535), or `Any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#src_port ApplianceL3FirewallRules#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#src_port ApplianceL3FirewallRules#src_port}
   */
   readonly srcPort?: string;
   /**
   * Log this rule to syslog (true or false, boolean value) - only applicable if a syslog has been configured (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#syslog_enabled ApplianceL3FirewallRules#syslog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#syslog_enabled ApplianceL3FirewallRules#syslog_enabled}
   */
   readonly syslogEnabled?: boolean | cdktf.IResolvable;
 }
@@ -381,7 +381,7 @@ export class ApplianceL3FirewallRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules meraki_appliance_l3_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules meraki_appliance_l3_firewall_rules}
 */
 export class ApplianceL3FirewallRules extends cdktf.TerraformResource {
 
@@ -397,7 +397,7 @@ export class ApplianceL3FirewallRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceL3FirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceL3FirewallRules to import
-  * @param importFromId The id of the existing ApplianceL3FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceL3FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceL3FirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class ApplianceL3FirewallRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_l3_firewall_rules meraki_appliance_l3_firewall_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l3_firewall_rules meraki_appliance_l3_firewall_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class ApplianceL3FirewallRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_l3_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

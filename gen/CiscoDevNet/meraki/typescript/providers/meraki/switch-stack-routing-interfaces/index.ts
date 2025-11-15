@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SwitchStackRoutingInterfacesConfig extends cdktf.TerraformMetaA
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#items SwitchStackRoutingInterfaces#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#items SwitchStackRoutingInterfaces#items}
   */
   readonly items: SwitchStackRoutingInterfacesItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#network_id SwitchStackRoutingInterfaces#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#network_id SwitchStackRoutingInterfaces#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#organization_id SwitchStackRoutingInterfaces#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#organization_id SwitchStackRoutingInterfaces#organization_id}
   */
   readonly organizationId: string;
   /**
   * Switch stack ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#switch_stack_id SwitchStackRoutingInterfaces#switch_stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#switch_stack_id SwitchStackRoutingInterfaces#switch_stack_id}
   */
   readonly switchStackId: string;
 }
@@ -36,106 +36,106 @@ export interface SwitchStackRoutingInterfacesItems {
   /**
   * The next hop for any traffic that isn`t going to a directly connected subnet or over a static route. This IP address must exist in a subnet with a routed interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#default_gateway SwitchStackRoutingInterfaces#default_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#default_gateway SwitchStackRoutingInterfaces#default_gateway}
   */
   readonly defaultGateway?: string;
   /**
   * The IP address this switch stack will use for layer 3 routing on this VLAN or subnet. This cannot be the same as the switch`s management IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#interface_ip SwitchStackRoutingInterfaces#interface_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#interface_ip SwitchStackRoutingInterfaces#interface_ip}
   */
   readonly interfaceIp?: string;
   /**
   * The IPv6 address of the interface. Required if assignmentMode is `static`. Must not be included if assignmentMode is `eui-64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ipv6_address SwitchStackRoutingInterfaces#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ipv6_address SwitchStackRoutingInterfaces#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * The IPv6 assignment mode for the interface. Can be either `eui-64` or `static`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ipv6_assignment_mode SwitchStackRoutingInterfaces#ipv6_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ipv6_assignment_mode SwitchStackRoutingInterfaces#ipv6_assignment_mode}
   */
   readonly ipv6AssignmentMode?: string;
   /**
   * The IPv6 default gateway of the interface. Required if prefix is defined and this is the first interface with IPv6 configured for the stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ipv6_gateway SwitchStackRoutingInterfaces#ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ipv6_gateway SwitchStackRoutingInterfaces#ipv6_gateway}
   */
   readonly ipv6Gateway?: string;
   /**
   * The IPv6 prefix of the interface. Required if IPv6 object is included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ipv6_prefix SwitchStackRoutingInterfaces#ipv6_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ipv6_prefix SwitchStackRoutingInterfaces#ipv6_prefix}
   */
   readonly ipv6Prefix?: string;
   /**
   * L3 Interface mode, can be one of `vlan`, `routed` or `loopback`. Default is `vlan`. CS 17.18 or higher is required for `routed` mode.
   *   - Choices: `loopback`, `routed`, `vlan`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#mode SwitchStackRoutingInterfaces#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#mode SwitchStackRoutingInterfaces#mode}
   */
   readonly mode?: string;
   /**
   * Enable multicast support if, multicast routing between VLANs is required. Options are, `disabled`, `enabled` or `IGMP snooping querier`. Default is `disabled`.
   *   - Choices: `IGMP snooping querier`, `disabled`, `enabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#multicast_routing SwitchStackRoutingInterfaces#multicast_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#multicast_routing SwitchStackRoutingInterfaces#multicast_routing}
   */
   readonly multicastRouting?: string;
   /**
   * A friendly name or description for the interface or VLAN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#name SwitchStackRoutingInterfaces#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#name SwitchStackRoutingInterfaces#name}
   */
   readonly name: string;
   /**
   * The OSPF area to which this interface should belong. Can be either `ospfDisabled` or the identifier of an existing OSPF area. Defaults to `ospfDisabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ospf_settings_area SwitchStackRoutingInterfaces#ospf_settings_area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ospf_settings_area SwitchStackRoutingInterfaces#ospf_settings_area}
   */
   readonly ospfSettingsArea?: string;
   /**
   * The path cost for this interface. Defaults to 1, but can be increased up to 65535 to give lower priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ospf_settings_cost SwitchStackRoutingInterfaces#ospf_settings_cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ospf_settings_cost SwitchStackRoutingInterfaces#ospf_settings_cost}
   */
   readonly ospfSettingsCost?: number;
   /**
   * When enabled, OSPF will not run on the interface, but the subnet will still be advertised.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ospf_settings_is_passive_enabled SwitchStackRoutingInterfaces#ospf_settings_is_passive_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ospf_settings_is_passive_enabled SwitchStackRoutingInterfaces#ospf_settings_is_passive_enabled}
   */
   readonly ospfSettingsIsPassiveEnabled?: boolean | cdktf.IResolvable;
   /**
   * OSPF network type
   *   - Choices: `broadcast`, `point-to-point`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#ospf_settings_network_type SwitchStackRoutingInterfaces#ospf_settings_network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#ospf_settings_network_type SwitchStackRoutingInterfaces#ospf_settings_network_type}
   */
   readonly ospfSettingsNetworkType?: string;
   /**
   * The network that this routed interface is on, in CIDR notation (ex. 10.1.1.0/24).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#subnet SwitchStackRoutingInterfaces#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#subnet SwitchStackRoutingInterfaces#subnet}
   */
   readonly subnet?: string;
   /**
   * Switch Port ID when in Routed mode (CS 17.18 or higher required)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#switch_port_id SwitchStackRoutingInterfaces#switch_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#switch_port_id SwitchStackRoutingInterfaces#switch_port_id}
   */
   readonly switchPortId?: string;
   /**
   * The VLAN this routed interface is on. VLAN must be between 1 and 4094.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#vlan_id SwitchStackRoutingInterfaces#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#vlan_id SwitchStackRoutingInterfaces#vlan_id}
   */
   readonly vlanId: number;
   /**
   * The name of the VRF this interface belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#vrf_name SwitchStackRoutingInterfaces#vrf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#vrf_name SwitchStackRoutingInterfaces#vrf_name}
   */
   readonly vrfName?: string;
 }
@@ -714,7 +714,7 @@ export class SwitchStackRoutingInterfacesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces}
 */
 export class SwitchStackRoutingInterfaces extends cdktf.TerraformResource {
 
@@ -730,7 +730,7 @@ export class SwitchStackRoutingInterfaces extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchStackRoutingInterfaces resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchStackRoutingInterfaces to import
-  * @param importFromId The id of the existing SwitchStackRoutingInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchStackRoutingInterfaces that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchStackRoutingInterfaces to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -742,7 +742,7 @@ export class SwitchStackRoutingInterfaces extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stack_routing_interfaces meraki_switch_stack_routing_interfaces} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -753,8 +753,8 @@ export class SwitchStackRoutingInterfaces extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_stack_routing_interfaces',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

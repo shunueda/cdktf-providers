@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_l7_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_l7_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceL7FirewallRulesConfig extends cdktf.Terrafor
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_l7_firewall_rules#network_id DataMerakiApplianceL7FirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_l7_firewall_rules#network_id DataMerakiApplianceL7FirewallRules#network_id}
   */
   readonly networkId: string;
 }
@@ -106,7 +106,7 @@ export class DataMerakiApplianceL7FirewallRulesRulesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules}
 */
 export class DataMerakiApplianceL7FirewallRules extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataMerakiApplianceL7FirewallRules extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataMerakiApplianceL7FirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceL7FirewallRules to import
-  * @param importFromId The id of the existing DataMerakiApplianceL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceL7FirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataMerakiApplianceL7FirewallRules extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataMerakiApplianceL7FirewallRules extends cdktf.TerraformDataSourc
       terraformResourceType: 'meraki_appliance_l7_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

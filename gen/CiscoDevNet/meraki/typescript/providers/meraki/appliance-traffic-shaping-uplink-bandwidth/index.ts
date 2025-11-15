@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApplianceTrafficShapingUplinkBandwidthConfig extends cdktf.Terr
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#cellular_limit_down ApplianceTrafficShapingUplinkBandwidth#cellular_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#cellular_limit_down ApplianceTrafficShapingUplinkBandwidth#cellular_limit_down}
   */
   readonly cellularLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#cellular_limit_up ApplianceTrafficShapingUplinkBandwidth#cellular_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#cellular_limit_up ApplianceTrafficShapingUplinkBandwidth#cellular_limit_up}
   */
   readonly cellularLimitUp?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#network_id ApplianceTrafficShapingUplinkBandwidth#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#network_id ApplianceTrafficShapingUplinkBandwidth#network_id}
   */
   readonly networkId: string;
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan1_limit_down ApplianceTrafficShapingUplinkBandwidth#wan1_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan1_limit_down ApplianceTrafficShapingUplinkBandwidth#wan1_limit_down}
   */
   readonly wan1LimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan1_limit_up ApplianceTrafficShapingUplinkBandwidth#wan1_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan1_limit_up ApplianceTrafficShapingUplinkBandwidth#wan1_limit_up}
   */
   readonly wan1LimitUp?: number;
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan2_limit_down ApplianceTrafficShapingUplinkBandwidth#wan2_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan2_limit_down ApplianceTrafficShapingUplinkBandwidth#wan2_limit_down}
   */
   readonly wan2LimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan2_limit_up ApplianceTrafficShapingUplinkBandwidth#wan2_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#wan2_limit_up ApplianceTrafficShapingUplinkBandwidth#wan2_limit_up}
   */
   readonly wan2LimitUp?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth meraki_appliance_traffic_shaping_uplink_bandwidth}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth meraki_appliance_traffic_shaping_uplink_bandwidth}
 */
 export class ApplianceTrafficShapingUplinkBandwidth extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApplianceTrafficShapingUplinkBandwidth extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ApplianceTrafficShapingUplinkBandwidth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShapingUplinkBandwidth to import
-  * @param importFromId The id of the existing ApplianceTrafficShapingUplinkBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShapingUplinkBandwidth that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShapingUplinkBandwidth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApplianceTrafficShapingUplinkBandwidth extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/appliance_traffic_shaping_uplink_bandwidth meraki_appliance_traffic_shaping_uplink_bandwidth} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_bandwidth meraki_appliance_traffic_shaping_uplink_bandwidth} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApplianceTrafficShapingUplinkBandwidth extends cdktf.TerraformResou
       terraformResourceType: 'meraki_appliance_traffic_shaping_uplink_bandwidth',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

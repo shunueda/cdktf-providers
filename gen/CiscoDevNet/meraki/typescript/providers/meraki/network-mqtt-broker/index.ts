@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface NetworkMqttBrokerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Password for the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#authentication_password NetworkMqttBroker#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#authentication_password NetworkMqttBroker#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * Username for the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#authentication_username NetworkMqttBroker#authentication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#authentication_username NetworkMqttBroker#authentication_username}
   */
   readonly authenticationUsername?: string;
   /**
   * Host name/IP address where the MQTT broker runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#host NetworkMqttBroker#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#host NetworkMqttBroker#host}
   */
   readonly host: string;
   /**
   * Name of the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#name NetworkMqttBroker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#name NetworkMqttBroker#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#network_id NetworkMqttBroker#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#network_id NetworkMqttBroker#network_id}
   */
   readonly networkId: string;
   /**
   * Host port though which the MQTT broker can be reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#port NetworkMqttBroker#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#port NetworkMqttBroker#port}
   */
   readonly port: number;
   /**
   * Security protocol of the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#security_mode NetworkMqttBroker#security_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#security_mode NetworkMqttBroker#security_mode}
   */
   readonly securityMode?: string;
   /**
   * CA Certificate of the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#security_tls_ca_certificate NetworkMqttBroker#security_tls_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#security_tls_ca_certificate NetworkMqttBroker#security_tls_ca_certificate}
   */
   readonly securityTlsCaCertificate?: string;
   /**
   * Whether the TLS hostname verification is enabled for the MQTT broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#security_tls_verify_hostnames NetworkMqttBroker#security_tls_verify_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#security_tls_verify_hostnames NetworkMqttBroker#security_tls_verify_hostnames}
   */
   readonly securityTlsVerifyHostnames?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker meraki_network_mqtt_broker}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker meraki_network_mqtt_broker}
 */
 export class NetworkMqttBroker extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class NetworkMqttBroker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkMqttBroker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkMqttBroker to import
-  * @param importFromId The id of the existing NetworkMqttBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkMqttBroker that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkMqttBroker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class NetworkMqttBroker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_mqtt_broker meraki_network_mqtt_broker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_mqtt_broker meraki_network_mqtt_broker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class NetworkMqttBroker extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_mqtt_broker',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

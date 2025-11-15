@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessSsidConfig extends cdktf.TerraformMetaArgumen
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid#network_id DataMerakiWirelessSsid#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid#network_id DataMerakiWirelessSsid#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid#number DataMerakiWirelessSsid#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid#number DataMerakiWirelessSsid#number}
   */
   readonly number: string;
 }
@@ -537,7 +537,7 @@ export class DataMerakiWirelessSsidRadiusServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid meraki_wireless_ssid}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid meraki_wireless_ssid}
 */
 export class DataMerakiWirelessSsid extends cdktf.TerraformDataSource {
 
@@ -553,7 +553,7 @@ export class DataMerakiWirelessSsid extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiWirelessSsid resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsid to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsid that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsid to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -565,7 +565,7 @@ export class DataMerakiWirelessSsid extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/wireless_ssid meraki_wireless_ssid} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid meraki_wireless_ssid} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -576,8 +576,8 @@ export class DataMerakiWirelessSsid extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_wireless_ssid',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -919,6 +919,11 @@ export class DataMerakiWirelessSsid extends cdktf.TerraformDataSource {
   private _radiusAccountingServers = new DataMerakiWirelessSsidRadiusAccountingServersList(this, "radius_accounting_servers", false);
   public get radiusAccountingServers() {
     return this._radiusAccountingServers;
+  }
+
+  // radius_accounting_start_delay - computed: true, optional: false, required: false
+  public get radiusAccountingStartDelay() {
+    return this.getNumberAttribute('radius_accounting_start_delay');
   }
 
   // radius_attribute_for_group_policies - computed: true, optional: false, required: false

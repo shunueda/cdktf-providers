@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface NetworkSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables / disables the authentication on Local Status page(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#local_status_page_authentication_enabled NetworkSettings#local_status_page_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#local_status_page_authentication_enabled NetworkSettings#local_status_page_authentication_enabled}
   */
   readonly localStatusPageAuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The password used for Local Status Page(s). Set this to null to clear the password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#local_status_page_authentication_password NetworkSettings#local_status_page_authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#local_status_page_authentication_password NetworkSettings#local_status_page_authentication_password}
   */
   readonly localStatusPageAuthenticationPassword?: string;
   /**
   * The username used for Local Status Page(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#local_status_page_authentication_username NetworkSettings#local_status_page_authentication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#local_status_page_authentication_username NetworkSettings#local_status_page_authentication_username}
   */
   readonly localStatusPageAuthenticationUsername?: string;
   /**
   * Enables / disables the local device status pages (my.meraki.com, ap.meraki.com, switch.meraki.com, wired.meraki.com). Optional (defaults to false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#local_status_page_enabled NetworkSettings#local_status_page_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#local_status_page_enabled NetworkSettings#local_status_page_enabled}
   */
   readonly localStatusPageEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables / disables Named VLANs on the Network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#named_vlans_enabled NetworkSettings#named_vlans_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#named_vlans_enabled NetworkSettings#named_vlans_enabled}
   */
   readonly namedVlansEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#network_id NetworkSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#network_id NetworkSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Enables / disables access to the device status page (http://[device`s LAN IP]). Optional. Can only be set if localStatusPageEnabled is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#remote_status_page_enabled NetworkSettings#remote_status_page_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#remote_status_page_enabled NetworkSettings#remote_status_page_enabled}
   */
   readonly remoteStatusPageEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables / disables SecureConnect on the network. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#secure_port_enabled NetworkSettings#secure_port_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#secure_port_enabled NetworkSettings#secure_port_enabled}
   */
   readonly securePortEnabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings meraki_network_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings meraki_network_settings}
 */
 export class NetworkSettings extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class NetworkSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkSettings to import
-  * @param importFromId The id of the existing NetworkSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class NetworkSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_settings meraki_network_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_settings meraki_network_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class NetworkSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

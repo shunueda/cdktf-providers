@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WirelessSsidVpnConfig extends cdktf.TerraformMetaArguments {
   /**
   * The NAT ID of the concentrator that should be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#concentrator_network_id WirelessSsidVpn#concentrator_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#concentrator_network_id WirelessSsidVpn#concentrator_network_id}
   */
   readonly concentratorNetworkId?: string;
   /**
   * The VLAN that should be tagged for the concentrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#concentrator_vlan_id WirelessSsidVpn#concentrator_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#concentrator_vlan_id WirelessSsidVpn#concentrator_vlan_id}
   */
   readonly concentratorVlanId?: number;
   /**
   * Idle timer interval in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#failover_heartbeat_interval WirelessSsidVpn#failover_heartbeat_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#failover_heartbeat_interval WirelessSsidVpn#failover_heartbeat_interval}
   */
   readonly failoverHeartbeatInterval?: number;
   /**
   * Idle timer timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#failover_idle_timeout WirelessSsidVpn#failover_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#failover_idle_timeout WirelessSsidVpn#failover_idle_timeout}
   */
   readonly failoverIdleTimeout?: number;
   /**
   * IP addressed reserved on DHCP server where SSID will terminate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#failover_request_ip WirelessSsidVpn#failover_request_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#failover_request_ip WirelessSsidVpn#failover_request_ip}
   */
   readonly failoverRequestIp?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#network_id WirelessSsidVpn#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#network_id WirelessSsidVpn#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#number WirelessSsidVpn#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#number WirelessSsidVpn#number}
   */
   readonly number: string;
   /**
   * If true, VPN split tunnel is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#split_tunnel_enabled WirelessSsidVpn#split_tunnel_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#split_tunnel_enabled WirelessSsidVpn#split_tunnel_enabled}
   */
   readonly splitTunnelEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of VPN split tunnel rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#split_tunnel_rules WirelessSsidVpn#split_tunnel_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#split_tunnel_rules WirelessSsidVpn#split_tunnel_rules}
   */
   readonly splitTunnelRules?: WirelessSsidVpnSplitTunnelRules[] | cdktf.IResolvable;
 }
@@ -66,32 +66,32 @@ export interface WirelessSsidVpnSplitTunnelRules {
   /**
   * Description for this split tunnel rule (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#comment WirelessSsidVpn#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#comment WirelessSsidVpn#comment}
   */
   readonly comment?: string;
   /**
   * Destination for this split tunnel rule. IP address, fully-qualified domain names (FQDN) or `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#dest_cidr WirelessSsidVpn#dest_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#dest_cidr WirelessSsidVpn#dest_cidr}
   */
   readonly destCidr: string;
   /**
   * Destination port for this split tunnel rule, (integer in the range 1-65535), or `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#dest_port WirelessSsidVpn#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#dest_port WirelessSsidVpn#dest_port}
   */
   readonly destPort?: string;
   /**
   * Traffic policy specified for this split tunnel rule, `allow` or `deny`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#policy WirelessSsidVpn#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#policy WirelessSsidVpn#policy}
   */
   readonly policy: string;
   /**
   * Protocol for this split tunnel rule.
   *   - Choices: `Any`, `TCP`, `UDP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#protocol WirelessSsidVpn#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#protocol WirelessSsidVpn#protocol}
   */
   readonly protocol?: string;
 }
@@ -317,7 +317,7 @@ export class WirelessSsidVpnSplitTunnelRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn meraki_wireless_ssid_vpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn meraki_wireless_ssid_vpn}
 */
 export class WirelessSsidVpn extends cdktf.TerraformResource {
 
@@ -333,7 +333,7 @@ export class WirelessSsidVpn extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidVpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidVpn to import
-  * @param importFromId The id of the existing WirelessSsidVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidVpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidVpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -345,7 +345,7 @@ export class WirelessSsidVpn extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/wireless_ssid_vpn meraki_wireless_ssid_vpn} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_vpn meraki_wireless_ssid_vpn} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -356,8 +356,8 @@ export class WirelessSsidVpn extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_vpn',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

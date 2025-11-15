@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SwitchAccessControlListsConfig extends cdktf.TerraformMetaArgum
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#network_id SwitchAccessControlLists#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#network_id SwitchAccessControlLists#network_id}
   */
   readonly networkId: string;
   /**
   * An ordered array of the access control list rules (not including the default rule). An empty array will clear the rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#rules SwitchAccessControlLists#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#rules SwitchAccessControlLists#rules}
   */
   readonly rules: SwitchAccessControlListsRules[] | cdktf.IResolvable;
 }
@@ -24,58 +24,58 @@ export interface SwitchAccessControlListsRules {
   /**
   * Description of the rule (optional).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#comment SwitchAccessControlLists#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#comment SwitchAccessControlLists#comment}
   */
   readonly comment?: string;
   /**
   * Destination IP address (in IP or CIDR notation) or `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#dst_cidr SwitchAccessControlLists#dst_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#dst_cidr SwitchAccessControlLists#dst_cidr}
   */
   readonly dstCidr: string;
   /**
   * Destination port. Must be in the range of 1-65535 or `any`. Default is `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#dst_port SwitchAccessControlLists#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#dst_port SwitchAccessControlLists#dst_port}
   */
   readonly dstPort?: string;
   /**
   * IP address version (must be `any`, `ipv4` or `ipv6`). Applicable only if network supports IPv6. Default value is `ipv4`.
   *   - Choices: `any`, `ipv4`, `ipv6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#ip_version SwitchAccessControlLists#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#ip_version SwitchAccessControlLists#ip_version}
   */
   readonly ipVersion?: string;
   /**
   * `allow` or `deny` traffic specified by this rule.
   *   - Choices: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#policy SwitchAccessControlLists#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#policy SwitchAccessControlLists#policy}
   */
   readonly policy: string;
   /**
   * The type of protocol (must be `tcp`, `udp`, or `any`).
   *   - Choices: `any`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#protocol SwitchAccessControlLists#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#protocol SwitchAccessControlLists#protocol}
   */
   readonly protocol: string;
   /**
   * Source IP address (in IP or CIDR notation) or `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#src_cidr SwitchAccessControlLists#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#src_cidr SwitchAccessControlLists#src_cidr}
   */
   readonly srcCidr: string;
   /**
   * Source port. Must be in the range of 1-65535 or `any`. Default is `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#src_port SwitchAccessControlLists#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#src_port SwitchAccessControlLists#src_port}
   */
   readonly srcPort?: string;
   /**
   * Incoming traffic VLAN. Must be in the range of 1-4095 or `any`. Default is `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#vlan SwitchAccessControlLists#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#vlan SwitchAccessControlLists#vlan}
   */
   readonly vlan?: string;
 }
@@ -411,7 +411,7 @@ export class SwitchAccessControlListsRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists meraki_switch_access_control_lists}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists meraki_switch_access_control_lists}
 */
 export class SwitchAccessControlLists extends cdktf.TerraformResource {
 
@@ -427,7 +427,7 @@ export class SwitchAccessControlLists extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchAccessControlLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchAccessControlLists to import
-  * @param importFromId The id of the existing SwitchAccessControlLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchAccessControlLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchAccessControlLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class SwitchAccessControlLists extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/switch_access_control_lists meraki_switch_access_control_lists} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_access_control_lists meraki_switch_access_control_lists} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class SwitchAccessControlLists extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_access_control_lists',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

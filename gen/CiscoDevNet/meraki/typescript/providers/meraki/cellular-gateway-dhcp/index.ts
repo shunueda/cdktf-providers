@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CellularGatewayDhcpConfig extends cdktf.TerraformMetaArguments 
   /**
   * DHCP Lease time for all MG of the network. Possible values are `30 minutes`, `1 hour`, `4 hours`, `12 hours`, `1 day` or `1 week`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp#dhcp_lease_time CellularGatewayDhcp#dhcp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp#dhcp_lease_time CellularGatewayDhcp#dhcp_lease_time}
   */
   readonly dhcpLeaseTime: string;
   /**
   * list of fixed IPs representing the the DNS Name servers when the mode is `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp#dns_custom_nameservers CellularGatewayDhcp#dns_custom_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp#dns_custom_nameservers CellularGatewayDhcp#dns_custom_nameservers}
   */
   readonly dnsCustomNameservers?: string[];
   /**
   * DNS name servers mode for all MG of the network. Possible values are: `upstream_dns`, `google_dns`, `opendns`, `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp#dns_nameservers CellularGatewayDhcp#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp#dns_nameservers CellularGatewayDhcp#dns_nameservers}
   */
   readonly dnsNameservers: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp#network_id CellularGatewayDhcp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp#network_id CellularGatewayDhcp#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp meraki_cellular_gateway_dhcp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp meraki_cellular_gateway_dhcp}
 */
 export class CellularGatewayDhcp extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CellularGatewayDhcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CellularGatewayDhcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CellularGatewayDhcp to import
-  * @param importFromId The id of the existing CellularGatewayDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CellularGatewayDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CellularGatewayDhcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CellularGatewayDhcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/cellular_gateway_dhcp meraki_cellular_gateway_dhcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_dhcp meraki_cellular_gateway_dhcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CellularGatewayDhcp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_cellular_gateway_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

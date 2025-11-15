@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface SmAdminRolesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#items SmAdminRoles#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#items SmAdminRoles#items}
   */
   readonly items: SmAdminRolesItems[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#organization_id SmAdminRoles#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#organization_id SmAdminRoles#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,20 +24,20 @@ export interface SmAdminRolesItems {
   /**
   * The name of the Limited Access Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#name SmAdminRoles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#name SmAdminRoles#name}
   */
   readonly name: string;
   /**
   * The scope of the Limited Access Role
   *   - Choices: `all_tags`, `some`, `without_all_tags`, `without_some`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#scope SmAdminRoles#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#scope SmAdminRoles#scope}
   */
   readonly scope: string;
   /**
   * The tags of the Limited Access Role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#tags SmAdminRoles#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#tags SmAdminRoles#tags}
   */
   readonly tags: string[];
 }
@@ -207,7 +207,7 @@ export class SmAdminRolesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles meraki_sm_admin_roles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles meraki_sm_admin_roles}
 */
 export class SmAdminRoles extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class SmAdminRoles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SmAdminRoles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SmAdminRoles to import
-  * @param importFromId The id of the existing SmAdminRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SmAdminRoles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SmAdminRoles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class SmAdminRoles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/sm_admin_roles meraki_sm_admin_roles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sm_admin_roles meraki_sm_admin_roles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class SmAdminRoles extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_sm_admin_roles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

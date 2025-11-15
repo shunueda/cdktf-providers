@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NetworkWebhookPayloadTemplatesConfig extends cdktf.TerraformMet
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#items NetworkWebhookPayloadTemplates#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#items NetworkWebhookPayloadTemplates#items}
   */
   readonly items: NetworkWebhookPayloadTemplatesItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#network_id NetworkWebhookPayloadTemplates#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#network_id NetworkWebhookPayloadTemplates#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#organization_id NetworkWebhookPayloadTemplates#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#organization_id NetworkWebhookPayloadTemplates#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,13 +30,13 @@ export interface NetworkWebhookPayloadTemplatesItemsHeaders {
   /**
   * The name of the header template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#name NetworkWebhookPayloadTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#name NetworkWebhookPayloadTemplates#name}
   */
   readonly name: string;
   /**
   * The liquid template for the headers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#template NetworkWebhookPayloadTemplates#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#template NetworkWebhookPayloadTemplates#template}
   */
   readonly template?: string;
 }
@@ -180,31 +180,31 @@ export interface NetworkWebhookPayloadTemplatesItems {
   /**
   * The liquid template used for the body of the webhook message. Either `body` or `bodyFile` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#body NetworkWebhookPayloadTemplates#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#body NetworkWebhookPayloadTemplates#body}
   */
   readonly body?: string;
   /**
   * A file containing liquid template used for the body of the webhook message. Either `body` or `bodyFile` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#body_file NetworkWebhookPayloadTemplates#body_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#body_file NetworkWebhookPayloadTemplates#body_file}
   */
   readonly bodyFile?: string;
   /**
   * The liquid template used with the webhook headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#headers NetworkWebhookPayloadTemplates#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#headers NetworkWebhookPayloadTemplates#headers}
   */
   readonly headers?: NetworkWebhookPayloadTemplatesItemsHeaders[] | cdktf.IResolvable;
   /**
   * A file containing the liquid template used with the webhook headers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#headers_file NetworkWebhookPayloadTemplates#headers_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#headers_file NetworkWebhookPayloadTemplates#headers_file}
   */
   readonly headersFile?: string;
   /**
   * The name of the new template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#name NetworkWebhookPayloadTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#name NetworkWebhookPayloadTemplates#name}
   */
   readonly name: string;
 }
@@ -438,7 +438,7 @@ export class NetworkWebhookPayloadTemplatesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates meraki_network_webhook_payload_templates}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates meraki_network_webhook_payload_templates}
 */
 export class NetworkWebhookPayloadTemplates extends cdktf.TerraformResource {
 
@@ -454,7 +454,7 @@ export class NetworkWebhookPayloadTemplates extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkWebhookPayloadTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkWebhookPayloadTemplates to import
-  * @param importFromId The id of the existing NetworkWebhookPayloadTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkWebhookPayloadTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkWebhookPayloadTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class NetworkWebhookPayloadTemplates extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/resources/network_webhook_payload_templates meraki_network_webhook_payload_templates} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_payload_templates meraki_network_webhook_payload_templates} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class NetworkWebhookPayloadTemplates extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_webhook_payload_templates',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

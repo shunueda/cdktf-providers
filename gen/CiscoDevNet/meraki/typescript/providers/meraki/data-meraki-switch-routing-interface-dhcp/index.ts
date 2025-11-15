@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiSwitchRoutingInterfaceDhcpConfig extends cdktf.Terraf
   /**
   * Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp#interface_id DataMerakiSwitchRoutingInterfaceDhcp#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp#interface_id DataMerakiSwitchRoutingInterfaceDhcp#interface_id}
   */
   readonly interfaceId: string;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp#serial DataMerakiSwitchRoutingInterfaceDhcp#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp#serial DataMerakiSwitchRoutingInterfaceDhcp#serial}
   */
   readonly serial: string;
 }
@@ -277,7 +277,7 @@ export class DataMerakiSwitchRoutingInterfaceDhcpReservedIpRangesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp}
 */
 export class DataMerakiSwitchRoutingInterfaceDhcp extends cdktf.TerraformDataSource {
 
@@ -293,7 +293,7 @@ export class DataMerakiSwitchRoutingInterfaceDhcp extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataMerakiSwitchRoutingInterfaceDhcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchRoutingInterfaceDhcp to import
-  * @param importFromId The id of the existing DataMerakiSwitchRoutingInterfaceDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchRoutingInterfaceDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchRoutingInterfaceDhcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -305,7 +305,7 @@ export class DataMerakiSwitchRoutingInterfaceDhcp extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.7.1/docs/data-sources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -316,8 +316,8 @@ export class DataMerakiSwitchRoutingInterfaceDhcp extends cdktf.TerraformDataSou
       terraformResourceType: 'meraki_switch_routing_interface_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.7.1',
-        providerVersionConstraint: '1.7.1'
+        providerVersion: '1.8.0',
+        providerVersionConstraint: '1.8.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
