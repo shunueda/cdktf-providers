@@ -52,6 +52,7 @@ export * as federatedOciRepository from './federated-oci-repository';
 export * as federatedOpkgRepository from './federated-opkg-repository';
 export * as federatedPuppetRepository from './federated-puppet-repository';
 export * as federatedPypiRepository from './federated-pypi-repository';
+export * as federatedReleasebundlesRepository from './federated-releasebundles-repository';
 export * as federatedRpmRepository from './federated-rpm-repository';
 export * as federatedSbtRepository from './federated-sbt-repository';
 export * as federatedSwiftRepository from './federated-swift-repository';
@@ -232,6 +233,7 @@ export * as dataArtifactoryFederatedOciRepository from './data-artifactory-feder
 export * as dataArtifactoryFederatedOpkgRepository from './data-artifactory-federated-opkg-repository';
 export * as dataArtifactoryFederatedPuppetRepository from './data-artifactory-federated-puppet-repository';
 export * as dataArtifactoryFederatedPypiRepository from './data-artifactory-federated-pypi-repository';
+export * as dataArtifactoryFederatedReleasebundlesRepository from './data-artifactory-federated-releasebundles-repository';
 export * as dataArtifactoryFederatedRpmRepository from './data-artifactory-federated-rpm-repository';
 export * as dataArtifactoryFederatedSbtRepository from './data-artifactory-federated-sbt-repository';
 export * as dataArtifactoryFederatedSwiftRepository from './data-artifactory-federated-swift-repository';

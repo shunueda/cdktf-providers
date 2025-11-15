@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHarnessSshCredentialConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the secret manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#id DataHarnessSshCredential#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#id DataHarnessSshCredential#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataHarnessSshCredentialConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the secret manager
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#name DataHarnessSshCredential#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#name DataHarnessSshCredential#name}
   */
   readonly name?: string;
   /**
   * usage_scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#usage_scope DataHarnessSshCredential#usage_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#usage_scope DataHarnessSshCredential#usage_scope}
   */
   readonly usageScope?: DataHarnessSshCredentialUsageScope[] | cdktf.IResolvable;
 }
@@ -33,19 +33,19 @@ export interface DataHarnessSshCredentialUsageScope {
   /**
   * Id of the application to scope to. If empty then this scope applies to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#application_id DataHarnessSshCredential#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#application_id DataHarnessSshCredential#application_id}
   */
   readonly applicationId?: string;
   /**
   * Type of environment filter applied. Cannot be used with `environment_id`. Valid options are NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#environment_filter_type DataHarnessSshCredential#environment_filter_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#environment_filter_type DataHarnessSshCredential#environment_filter_type}
   */
   readonly environmentFilterType?: string;
   /**
   * Id of the id of the specific environment to scope to. Cannot be used with `environment_filter_type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#environment_id DataHarnessSshCredential#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#environment_id DataHarnessSshCredential#environment_id}
   */
   readonly environmentId?: string;
 }
@@ -219,7 +219,7 @@ export class DataHarnessSshCredentialUsageScopeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential harness_ssh_credential}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential harness_ssh_credential}
 */
 export class DataHarnessSshCredential extends cdktf.TerraformDataSource {
 
@@ -235,7 +235,7 @@ export class DataHarnessSshCredential extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessSshCredential resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessSshCredential to import
-  * @param importFromId The id of the existing DataHarnessSshCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessSshCredential that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessSshCredential to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class DataHarnessSshCredential extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/ssh_credential harness_ssh_credential} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/ssh_credential harness_ssh_credential} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class DataHarnessSshCredential extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_ssh_credential',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

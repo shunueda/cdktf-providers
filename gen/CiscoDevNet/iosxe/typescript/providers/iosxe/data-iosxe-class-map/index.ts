@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeClassMapConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map#device DataIosxeClassMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map#device DataIosxeClassMap#device}
   */
   readonly device?: string;
   /**
   * name of the class map
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map#name DataIosxeClassMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map#name DataIosxeClassMap#name}
   */
   readonly name: string;
 }
@@ -97,7 +97,7 @@ export class DataIosxeClassMapMatchActivatedServiceTemplatesList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map iosxe_class_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map iosxe_class_map}
 */
 export class DataIosxeClassMap extends cdktf.TerraformDataSource {
 
@@ -113,7 +113,7 @@ export class DataIosxeClassMap extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeClassMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeClassMap to import
-  * @param importFromId The id of the existing DataIosxeClassMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeClassMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeClassMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class DataIosxeClassMap extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/data-sources/class_map iosxe_class_map} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/data-sources/class_map iosxe_class_map} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class DataIosxeClassMap extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_class_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

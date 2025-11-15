@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,42 +8,42 @@ import * as cdktf from 'cdktf';
 
 export interface DataArtifactoryPermissionTargetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#id DataArtifactoryPermissionTarget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#id DataArtifactoryPermissionTarget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
   * build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#build DataArtifactoryPermissionTarget#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#build DataArtifactoryPermissionTarget#build}
   */
   readonly buildAttribute?: DataArtifactoryPermissionTargetBuild;
   /**
   * release_bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#release_bundle DataArtifactoryPermissionTarget#release_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#release_bundle DataArtifactoryPermissionTarget#release_bundle}
   */
   readonly releaseBundle?: DataArtifactoryPermissionTargetReleaseBundle;
   /**
   * repo block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#repo DataArtifactoryPermissionTarget#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#repo DataArtifactoryPermissionTarget#repo}
   */
   readonly repo?: DataArtifactoryPermissionTargetRepo;
 }
 export interface DataArtifactoryPermissionTargetBuildActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -182,11 +182,11 @@ export class DataArtifactoryPermissionTargetBuildActionsGroupsList extends cdktf
 }
 export interface DataArtifactoryPermissionTargetBuildActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -327,13 +327,13 @@ export interface DataArtifactoryPermissionTargetBuildActions {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
   */
   readonly groups?: DataArtifactoryPermissionTargetBuildActionsGroups[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
   */
   readonly users?: DataArtifactoryPermissionTargetBuildActionsUsers[] | cdktf.IResolvable;
 }
@@ -448,25 +448,25 @@ export interface DataArtifactoryPermissionTargetBuild {
   /**
   * The default value will be [] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
   */
   readonly excludesPattern?: string[];
   /**
   * The default value will be [""] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
   */
   readonly includesPattern?: string[];
   /**
   * This can only be 1 value: "artifactory-build-info", and currently, validation of sets/lists is not allowed. Artifactory will reject the request if you change this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
   */
   readonly repositories: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
   */
   readonly actions?: DataArtifactoryPermissionTargetBuildActions;
 }
@@ -634,11 +634,11 @@ export class DataArtifactoryPermissionTargetBuildOutputReference extends cdktf.C
 }
 export interface DataArtifactoryPermissionTargetReleaseBundleActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -777,11 +777,11 @@ export class DataArtifactoryPermissionTargetReleaseBundleActionsGroupsList exten
 }
 export interface DataArtifactoryPermissionTargetReleaseBundleActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -922,13 +922,13 @@ export interface DataArtifactoryPermissionTargetReleaseBundleActions {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
   */
   readonly groups?: DataArtifactoryPermissionTargetReleaseBundleActionsGroups[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
   */
   readonly users?: DataArtifactoryPermissionTargetReleaseBundleActionsUsers[] | cdktf.IResolvable;
 }
@@ -1043,25 +1043,25 @@ export interface DataArtifactoryPermissionTargetReleaseBundle {
   /**
   * The default value will be [] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
   */
   readonly excludesPattern?: string[];
   /**
   * The default value will be [""] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
   */
   readonly includesPattern?: string[];
   /**
   * This can only be 1 value: "artifactory-build-info", and currently, validation of sets/lists is not allowed. Artifactory will reject the request if you change this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
   */
   readonly repositories: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
   */
   readonly actions?: DataArtifactoryPermissionTargetReleaseBundleActions;
 }
@@ -1229,11 +1229,11 @@ export class DataArtifactoryPermissionTargetReleaseBundleOutputReference extends
 }
 export interface DataArtifactoryPermissionTargetRepoActionsGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -1372,11 +1372,11 @@ export class DataArtifactoryPermissionTargetRepoActionsGroupsList extends cdktf.
 }
 export interface DataArtifactoryPermissionTargetRepoActionsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#name DataArtifactoryPermissionTarget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#permissions DataArtifactoryPermissionTarget#permissions}
   */
   readonly permissions: string[];
 }
@@ -1517,13 +1517,13 @@ export interface DataArtifactoryPermissionTargetRepoActions {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#groups DataArtifactoryPermissionTarget#groups}
   */
   readonly groups?: DataArtifactoryPermissionTargetRepoActionsGroups[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#users DataArtifactoryPermissionTarget#users}
   */
   readonly users?: DataArtifactoryPermissionTargetRepoActionsUsers[] | cdktf.IResolvable;
 }
@@ -1638,25 +1638,25 @@ export interface DataArtifactoryPermissionTargetRepo {
   /**
   * The default value will be [] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#excludes_pattern DataArtifactoryPermissionTarget#excludes_pattern}
   */
   readonly excludesPattern?: string[];
   /**
   * The default value will be [""] if nothing is supplied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#includes_pattern DataArtifactoryPermissionTarget#includes_pattern}
   */
   readonly includesPattern?: string[];
   /**
   * This can only be 1 value: "artifactory-build-info", and currently, validation of sets/lists is not allowed. Artifactory will reject the request if you change this
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#repositories DataArtifactoryPermissionTarget#repositories}
   */
   readonly repositories: string[];
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#actions DataArtifactoryPermissionTarget#actions}
   */
   readonly actions?: DataArtifactoryPermissionTargetRepoActions;
 }
@@ -1824,7 +1824,7 @@ export class DataArtifactoryPermissionTargetRepoOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target artifactory_permission_target}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target artifactory_permission_target}
 */
 export class DataArtifactoryPermissionTarget extends cdktf.TerraformDataSource {
 
@@ -1840,7 +1840,7 @@ export class DataArtifactoryPermissionTarget extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataArtifactoryPermissionTarget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryPermissionTarget to import
-  * @param importFromId The id of the existing DataArtifactoryPermissionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryPermissionTarget that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryPermissionTarget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1852,7 +1852,7 @@ export class DataArtifactoryPermissionTarget extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/permission_target artifactory_permission_target} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/permission_target artifactory_permission_target} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1863,8 +1863,8 @@ export class DataArtifactoryPermissionTarget extends cdktf.TerraformDataSource {
       terraformResourceType: 'artifactory_permission_target',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

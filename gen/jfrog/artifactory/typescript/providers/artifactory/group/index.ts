@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface GroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Any users added to this group will automatically be assigned with admin privileges in the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#admin_privileges Group#admin_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#admin_privileges Group#admin_privileges}
   */
   readonly adminPrivileges?: boolean | cdktf.IResolvable;
   /**
   * When this parameter is set, any new users defined in the system are automatically assigned to this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#auto_join Group#auto_join}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#auto_join Group#auto_join}
   */
   readonly autoJoin?: boolean | cdktf.IResolvable;
   /**
   * A description for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#description Group#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#description Group#description}
   */
   readonly description?: string;
   /**
   * When this is set to `true`, an empty or missing usernames array will detach all users from the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#detach_all_users Group#detach_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#detach_all_users Group#detach_all_users}
   */
   readonly detachAllUsers?: boolean | cdktf.IResolvable;
   /**
   * New external group ID used to configure the corresponding group in Azure AD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#external_id Group#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#external_id Group#external_id}
   */
   readonly externalId?: string;
   /**
   * Name of the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#name Group#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#name Group#name}
   */
   readonly name: string;
   /**
   * When this override is set, User in the group can set Xray security and compliance policies. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#policy_manager Group#policy_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#policy_manager Group#policy_manager}
   */
   readonly policyManager?: boolean | cdktf.IResolvable;
   /**
   * The realm for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#realm Group#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#realm Group#realm}
   */
   readonly realm?: string;
   /**
   * The realm attributes for the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#realm_attributes Group#realm_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#realm_attributes Group#realm_attributes}
   */
   readonly realmAttributes?: string;
   /**
   * When this override is set, User in the group can manage Xray Reports on any resource type. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#reports_manager Group#reports_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#reports_manager Group#reports_manager}
   */
   readonly reportsManager?: boolean | cdktf.IResolvable;
   /**
   * List of users assigned to the group. If not set or empty, Terraform will not manage group membership.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#users_names Group#users_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#users_names Group#users_names}
   */
   readonly usersNames?: string[];
   /**
   * When this override is set, User in the group can manage Xray Watches on any resource type. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#watch_manager Group#watch_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#watch_manager Group#watch_manager}
   */
   readonly watchManager?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group artifactory_group}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group artifactory_group}
 */
 export class Group extends cdktf.TerraformResource {
 
@@ -98,7 +98,7 @@ export class Group extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Group resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Group to import
-  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Group that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Group to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class Group extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/group artifactory_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/group artifactory_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class Group extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_group',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

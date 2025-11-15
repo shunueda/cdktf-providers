@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface PlatformConnectorAzureCloudProviderConfig extends cdktf.Terrafo
   /**
   * Specifies the Azure Environment type, which is AZURE by default. Can either be AZURE or AZURE_US_GOVERNMENT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_environment_type PlatformConnectorAzureCloudProvider#azure_environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_environment_type PlatformConnectorAzureCloudProvider#azure_environment_type}
   */
   readonly azureEnvironmentType?: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#delegate_selectors PlatformConnectorAzureCloudProvider#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#delegate_selectors PlatformConnectorAzureCloudProvider#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#description PlatformConnectorAzureCloudProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#description PlatformConnectorAzureCloudProvider#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#execute_on_delegate PlatformConnectorAzureCloudProvider#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#execute_on_delegate PlatformConnectorAzureCloudProvider#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#force_delete PlatformConnectorAzureCloudProvider#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#force_delete PlatformConnectorAzureCloudProvider#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#id PlatformConnectorAzureCloudProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#id PlatformConnectorAzureCloudProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface PlatformConnectorAzureCloudProviderConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#identifier PlatformConnectorAzureCloudProvider#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#identifier PlatformConnectorAzureCloudProvider#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#name PlatformConnectorAzureCloudProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#name PlatformConnectorAzureCloudProvider#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#org_id PlatformConnectorAzureCloudProvider#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#org_id PlatformConnectorAzureCloudProvider#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#project_id PlatformConnectorAzureCloudProvider#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#project_id PlatformConnectorAzureCloudProvider#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#tags PlatformConnectorAzureCloudProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#tags PlatformConnectorAzureCloudProvider#tags}
   */
   readonly tags?: string[];
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#credentials PlatformConnectorAzureCloudProvider#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#credentials PlatformConnectorAzureCloudProvider#credentials}
   */
   readonly credentials: PlatformConnectorAzureCloudProviderCredentials;
 }
@@ -85,7 +85,7 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromD
   /**
   * Client Id of the ManagedIdentity resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#client_id PlatformConnectorAzureCloudProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#client_id PlatformConnectorAzureCloudProvider#client_id}
   */
   readonly clientId?: string;
 }
@@ -171,13 +171,13 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromD
   /**
   * Type can either be SystemAssignedManagedIdentity or UserAssignedManagedIdentity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
   */
   readonly type: string;
   /**
   * azure_msi_auth_ua block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_msi_auth_ua PlatformConnectorAzureCloudProvider#azure_msi_auth_ua}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_msi_auth_ua PlatformConnectorAzureCloudProvider#azure_msi_auth_ua}
   */
   readonly azureMsiAuthUa?: PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromDelegateDetailsAuthAzureMsiAuthUa;
 }
@@ -289,7 +289,7 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromD
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#auth PlatformConnectorAzureCloudProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#auth PlatformConnectorAzureCloudProvider#auth}
   */
   readonly auth?: PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromDelegateDetailsAuth;
 }
@@ -375,7 +375,7 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureManualDetail
   /**
   * Reference of the secret for the certificate. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#certificate_ref PlatformConnectorAzureCloudProvider#certificate_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#certificate_ref PlatformConnectorAzureCloudProvider#certificate_ref}
   */
   readonly certificateRef?: string;
 }
@@ -461,7 +461,7 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureManualDetail
   /**
   * Reference of the secret for the secret key. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#secret_ref PlatformConnectorAzureCloudProvider#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#secret_ref PlatformConnectorAzureCloudProvider#secret_ref}
   */
   readonly secretRef?: string;
 }
@@ -547,19 +547,19 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureManualDetail
   /**
   * Type can either be Certificate or Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
   */
   readonly type?: string;
   /**
   * azure_client_key_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_client_key_cert PlatformConnectorAzureCloudProvider#azure_client_key_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_client_key_cert PlatformConnectorAzureCloudProvider#azure_client_key_cert}
   */
   readonly azureClientKeyCert?: PlatformConnectorAzureCloudProviderCredentialsAzureManualDetailsAuthAzureClientKeyCert;
   /**
   * azure_client_secret_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_client_secret_key PlatformConnectorAzureCloudProvider#azure_client_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_client_secret_key PlatformConnectorAzureCloudProvider#azure_client_secret_key}
   */
   readonly azureClientSecretKey?: PlatformConnectorAzureCloudProviderCredentialsAzureManualDetailsAuthAzureClientSecretKey;
 }
@@ -703,19 +703,19 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureManualDetail
   /**
   * Application ID of the Azure App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#application_id PlatformConnectorAzureCloudProvider#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#application_id PlatformConnectorAzureCloudProvider#application_id}
   */
   readonly applicationId?: string;
   /**
   * The Azure Active Directory (AAD) directory ID where you created your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#tenant_id PlatformConnectorAzureCloudProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#tenant_id PlatformConnectorAzureCloudProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#auth PlatformConnectorAzureCloudProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#auth PlatformConnectorAzureCloudProvider#auth}
   */
   readonly auth?: PlatformConnectorAzureCloudProviderCredentialsAzureManualDetailsAuth;
 }
@@ -859,19 +859,19 @@ export interface PlatformConnectorAzureCloudProviderCredentialsAzureOidcSpec {
   /**
   * Application ID of the Azure App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#application_id PlatformConnectorAzureCloudProvider#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#application_id PlatformConnectorAzureCloudProvider#application_id}
   */
   readonly applicationId?: string;
   /**
   * The Azure Audience.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#audience PlatformConnectorAzureCloudProvider#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#audience PlatformConnectorAzureCloudProvider#audience}
   */
   readonly audience?: string;
   /**
   * The Azure Active Directory (AAD) directory ID where you created your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#tenant_id PlatformConnectorAzureCloudProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#tenant_id PlatformConnectorAzureCloudProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -1015,25 +1015,25 @@ export interface PlatformConnectorAzureCloudProviderCredentials {
   /**
   * Type can be InheritFromDelegate, ManualConfig or OidcAuthentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#type PlatformConnectorAzureCloudProvider#type}
   */
   readonly type: string;
   /**
   * azure_inherit_from_delegate_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_inherit_from_delegate_details PlatformConnectorAzureCloudProvider#azure_inherit_from_delegate_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_inherit_from_delegate_details PlatformConnectorAzureCloudProvider#azure_inherit_from_delegate_details}
   */
   readonly azureInheritFromDelegateDetails?: PlatformConnectorAzureCloudProviderCredentialsAzureInheritFromDelegateDetails;
   /**
   * azure_manual_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_manual_details PlatformConnectorAzureCloudProvider#azure_manual_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_manual_details PlatformConnectorAzureCloudProvider#azure_manual_details}
   */
   readonly azureManualDetails?: PlatformConnectorAzureCloudProviderCredentialsAzureManualDetails;
   /**
   * azure_oidc_spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#azure_oidc_spec PlatformConnectorAzureCloudProvider#azure_oidc_spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#azure_oidc_spec PlatformConnectorAzureCloudProvider#azure_oidc_spec}
   */
   readonly azureOidcSpec?: PlatformConnectorAzureCloudProviderCredentialsAzureOidcSpec;
 }
@@ -1201,7 +1201,7 @@ export class PlatformConnectorAzureCloudProviderCredentialsOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider}
 */
 export class PlatformConnectorAzureCloudProvider extends cdktf.TerraformResource {
 
@@ -1217,7 +1217,7 @@ export class PlatformConnectorAzureCloudProvider extends cdktf.TerraformResource
   * Generates CDKTF code for importing a PlatformConnectorAzureCloudProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAzureCloudProvider to import
-  * @param importFromId The id of the existing PlatformConnectorAzureCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAzureCloudProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAzureCloudProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1229,7 +1229,7 @@ export class PlatformConnectorAzureCloudProvider extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_cloud_provider harness_platform_connector_azure_cloud_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1240,8 +1240,8 @@ export class PlatformConnectorAzureCloudProvider extends cdktf.TerraformResource
       terraformResourceType: 'harness_platform_connector_azure_cloud_provider',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

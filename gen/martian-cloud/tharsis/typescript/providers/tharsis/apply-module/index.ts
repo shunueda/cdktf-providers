@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApplyModuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The source of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#module_source ApplyModule#module_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#module_source ApplyModule#module_source}
   */
   readonly moduleSource: string;
   /**
   * The version identifier of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#module_version ApplyModule#module_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#module_version ApplyModule#module_version}
   */
   readonly moduleVersion?: string;
   /**
   * Whether to do a Terraform refresh to update the state based on all managed remote objects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#refresh ApplyModule#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#refresh ApplyModule#refresh}
   */
   readonly refresh?: boolean | cdktf.IResolvable;
   /**
   * Optional list of variables for the run in the target workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#variables ApplyModule#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#variables ApplyModule#variables}
   */
   readonly variables?: ApplyModuleVariables[] | cdktf.IResolvable;
   /**
   * The full path of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#workspace_path ApplyModule#workspace_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#workspace_path ApplyModule#workspace_path}
   */
   readonly workspacePath: string;
 }
@@ -132,19 +132,19 @@ export interface ApplyModuleVariables {
   /**
   * Category of this variable, 'terraform' or 'environment'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#category ApplyModule#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#category ApplyModule#category}
   */
   readonly category: string;
   /**
   * Key or name of this variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#key ApplyModule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#key ApplyModule#key}
   */
   readonly key: string;
   /**
   * Value of the variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#value ApplyModule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#value ApplyModule#value}
   */
   readonly value: string;
 }
@@ -309,7 +309,7 @@ export class ApplyModuleVariablesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module tharsis_apply_module}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module tharsis_apply_module}
 */
 export class ApplyModule extends cdktf.TerraformResource {
 
@@ -325,7 +325,7 @@ export class ApplyModule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplyModule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplyModule to import
-  * @param importFromId The id of the existing ApplyModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplyModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplyModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -337,7 +337,7 @@ export class ApplyModule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/apply_module tharsis_apply_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/apply_module tharsis_apply_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -348,8 +348,8 @@ export class ApplyModule extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_apply_module',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

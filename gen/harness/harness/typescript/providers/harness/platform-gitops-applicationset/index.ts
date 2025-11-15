@@ -11,11 +11,11 @@ export interface PlatformGitopsApplicationsetConfig extends cdktf.TerraformMetaA
   /**
   * Agent identifier of the GitOps applicationset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#agent_id PlatformGitopsApplicationset#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#agent_id PlatformGitopsApplicationset#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#id PlatformGitopsApplicationset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#id PlatformGitopsApplicationset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -24,31 +24,31 @@ export interface PlatformGitopsApplicationsetConfig extends cdktf.TerraformMetaA
   /**
   * Organization identifier of the GitOps applicationset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#org_id PlatformGitopsApplicationset#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#org_id PlatformGitopsApplicationset#org_id}
   */
   readonly orgId: string;
   /**
   * Project identifier of the GitOps applicationset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#project_id PlatformGitopsApplicationset#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#project_id PlatformGitopsApplicationset#project_id}
   */
   readonly projectId: string;
   /**
   * Indicates if the GitOps application should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#upsert PlatformGitopsApplicationset#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#upsert PlatformGitopsApplicationset#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * applicationset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#applicationset PlatformGitopsApplicationset#applicationset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#applicationset PlatformGitopsApplicationset#applicationset}
   */
   readonly applicationset: PlatformGitopsApplicationsetApplicationset;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset harness_platform_gitops_applicationset}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset harness_platform_gitops_applicationset}
 */
 export class PlatformGitopsApplicationset extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class PlatformGitopsApplicationset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsApplicationset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsApplicationset to import
-  * @param importFromId The id of the existing PlatformGitopsApplicationset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsApplicationset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsApplicationset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class PlatformGitopsApplicationset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_applicationset harness_platform_gitops_applicationset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_applicationset harness_platform_gitops_applicationset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class PlatformGitopsApplicationset extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_applicationset',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

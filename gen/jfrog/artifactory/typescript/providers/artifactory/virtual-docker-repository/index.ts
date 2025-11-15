@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VirtualDockerRepositoryConfig extends cdktf.TerraformMetaArgume
   /**
   * Whether the virtual repository should search through remote repositories when trying to resolve an artifact requested by another Artifactory instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#artifactory_requests_can_retrieve_remote_artifacts VirtualDockerRepository#artifactory_requests_can_retrieve_remote_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#artifactory_requests_can_retrieve_remote_artifacts VirtualDockerRepository#artifactory_requests_can_retrieve_remote_artifacts}
   */
   readonly artifactoryRequestsCanRetrieveRemoteArtifacts?: boolean | cdktf.IResolvable;
   /**
   * Default repository to deploy artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#default_deployment_repo VirtualDockerRepository#default_deployment_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#default_deployment_repo VirtualDockerRepository#default_deployment_repo}
   */
   readonly defaultDeploymentRepo?: string;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#description VirtualDockerRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#description VirtualDockerRepository#description}
   */
   readonly description?: string;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#excludes_pattern VirtualDockerRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#excludes_pattern VirtualDockerRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#id VirtualDockerRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#id VirtualDockerRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,7 +43,7 @@ export interface VirtualDockerRepositoryConfig extends cdktf.TerraformMetaArgume
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#includes_pattern VirtualDockerRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#includes_pattern VirtualDockerRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -51,49 +51,49 @@ export interface VirtualDockerRepositoryConfig extends cdktf.TerraformMetaArgume
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#key VirtualDockerRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#key VirtualDockerRepository#key}
   */
   readonly key: string;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#notes VirtualDockerRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#notes VirtualDockerRepository#notes}
   */
   readonly notes?: string;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#project_environments VirtualDockerRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#project_environments VirtualDockerRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#project_key VirtualDockerRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#project_key VirtualDockerRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * Repository layout key for the virtual repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#repo_layout_ref VirtualDockerRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#repo_layout_ref VirtualDockerRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * The effective list of actual repositories included in this virtual repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#repositories VirtualDockerRepository#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#repositories VirtualDockerRepository#repositories}
   */
   readonly repositories?: string[];
   /**
   * When enabled, in cases where the same Docker tag exists in two or more of the aggregated repositories, Artifactory will return the tag that has the latest timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#resolve_docker_tags_by_timestamp VirtualDockerRepository#resolve_docker_tags_by_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#resolve_docker_tags_by_timestamp VirtualDockerRepository#resolve_docker_tags_by_timestamp}
   */
   readonly resolveDockerTagsByTimestamp?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository artifactory_virtual_docker_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository artifactory_virtual_docker_repository}
 */
 export class VirtualDockerRepository extends cdktf.TerraformResource {
 
@@ -109,7 +109,7 @@ export class VirtualDockerRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualDockerRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualDockerRepository to import
-  * @param importFromId The id of the existing VirtualDockerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualDockerRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualDockerRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class VirtualDockerRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_docker_repository artifactory_virtual_docker_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_docker_repository artifactory_virtual_docker_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class VirtualDockerRepository extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_virtual_docker_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

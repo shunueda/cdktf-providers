@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface TharsisProviderConfig {
   /**
   * This is the hostname for the Tharsis API (e.g. https://tharsis.example.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#host TharsisProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#host TharsisProvider#host}
   */
   readonly host?: string;
   /**
   * A Service account path to use for authenticating with the Tharsis API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#service_account_path TharsisProvider#service_account_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#service_account_path TharsisProvider#service_account_path}
   */
   readonly serviceAccountPath?: string;
   /**
   * A Service account token to use for authenticating with the Tharsis API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#service_account_token TharsisProvider#service_account_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#service_account_token TharsisProvider#service_account_token}
   */
   readonly serviceAccountToken?: string;
   /**
   * A static token to use to authenticate with the Tharsis API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#static_token TharsisProvider#static_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#static_token TharsisProvider#static_token}
   */
   readonly staticToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#alias TharsisProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#alias TharsisProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs tharsis}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs tharsis}
 */
 export class TharsisProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class TharsisProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TharsisProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TharsisProvider to import
-  * @param importFromId The id of the existing TharsisProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TharsisProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TharsisProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class TharsisProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs tharsis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs tharsis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class TharsisProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'tharsis',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       terraformProviderSource: 'martian-cloud/tharsis'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AssignDeviceToSiteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unassigned network device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site#device_ids AssignDeviceToSite#device_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site#device_ids AssignDeviceToSite#device_ids}
   */
   readonly deviceIds: string[];
   /**
   * This must be building Id or floor Id. Access points, Sensors are assigned to floor. Remaining network devices are assigned to building.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site#site_id AssignDeviceToSite#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site#site_id AssignDeviceToSite#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site catalystcenter_assign_device_to_site}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site catalystcenter_assign_device_to_site}
 */
 export class AssignDeviceToSite extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AssignDeviceToSite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AssignDeviceToSite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AssignDeviceToSite to import
-  * @param importFromId The id of the existing AssignDeviceToSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AssignDeviceToSite that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AssignDeviceToSite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AssignDeviceToSite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/assign_device_to_site catalystcenter_assign_device_to_site} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/assign_device_to_site catalystcenter_assign_device_to_site} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AssignDeviceToSite extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_assign_device_to_site',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

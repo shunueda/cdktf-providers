@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataHarnessPlatformGitopsAppProjectMappingConfig extends cdktf.
   /**
   * Account identifier of the GitOps agent's Application Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#account_id DataHarnessPlatformGitopsAppProjectMapping#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#account_id DataHarnessPlatformGitopsAppProjectMapping#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier for which the ArgoCD and Harness project mapping is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#agent_id DataHarnessPlatformGitopsAppProjectMapping#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#agent_id DataHarnessPlatformGitopsAppProjectMapping#agent_id}
   */
   readonly agentId: string;
   /**
   * ArgoCD Project name which is to be mapped to the Harness project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#argo_project_name DataHarnessPlatformGitopsAppProjectMapping#argo_project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#argo_project_name DataHarnessPlatformGitopsAppProjectMapping#argo_project_name}
   */
   readonly argoProjectName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#id DataHarnessPlatformGitopsAppProjectMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#id DataHarnessPlatformGitopsAppProjectMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface DataHarnessPlatformGitopsAppProjectMappingConfig extends cdktf.
   /**
   * Organization identifier of the GitOps agent's Application Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#org_id DataHarnessPlatformGitopsAppProjectMapping#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#org_id DataHarnessPlatformGitopsAppProjectMapping#org_id}
   */
   readonly orgId: string;
   /**
   * Project identifier of the GitOps agent's Application Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#project_id DataHarnessPlatformGitopsAppProjectMapping#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#project_id DataHarnessPlatformGitopsAppProjectMapping#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping harness_platform_gitops_app_project_mapping}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping harness_platform_gitops_app_project_mapping}
 */
 export class DataHarnessPlatformGitopsAppProjectMapping extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataHarnessPlatformGitopsAppProjectMapping extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataHarnessPlatformGitopsAppProjectMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformGitopsAppProjectMapping to import
-  * @param importFromId The id of the existing DataHarnessPlatformGitopsAppProjectMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformGitopsAppProjectMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformGitopsAppProjectMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataHarnessPlatformGitopsAppProjectMapping extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_gitops_app_project_mapping harness_platform_gitops_app_project_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_gitops_app_project_mapping harness_platform_gitops_app_project_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataHarnessPlatformGitopsAppProjectMapping extends cdktf.TerraformD
       terraformResourceType: 'harness_platform_gitops_app_project_mapping',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

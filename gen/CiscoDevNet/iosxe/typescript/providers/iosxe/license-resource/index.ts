@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,112 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface LicenseResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#accept_agreement LicenseResource#accept_agreement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#accept_agreement LicenseResource#accept_agreement}
   */
   readonly acceptAgreement?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#accept_end LicenseResource#accept_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#accept_end LicenseResource#accept_end}
   */
   readonly acceptEnd?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#accept_user LicenseResource#accept_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#accept_user LicenseResource#accept_user}
   */
   readonly acceptUser?: boolean | cdktf.IResolvable;
   /**
   * License Level Network-Advantage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#boot_level_network_advantage LicenseResource#boot_level_network_advantage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#boot_level_network_advantage LicenseResource#boot_level_network_advantage}
   */
   readonly bootLevelNetworkAdvantage?: boolean | cdktf.IResolvable;
   /**
   * select add-on to include
   *   - Choices: `dna-advantage`, `dna-essentials`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#boot_level_network_advantage_addon LicenseResource#boot_level_network_advantage_addon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#boot_level_network_advantage_addon LicenseResource#boot_level_network_advantage_addon}
   */
   readonly bootLevelNetworkAdvantageAddon?: string;
   /**
   * License Level Network-Essentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#boot_level_network_essentials LicenseResource#boot_level_network_essentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#boot_level_network_essentials LicenseResource#boot_level_network_essentials}
   */
   readonly bootLevelNetworkEssentials?: boolean | cdktf.IResolvable;
   /**
   * select add-on to include
   *   - Choices: `dna-essentials`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#boot_level_network_essentials_addon LicenseResource#boot_level_network_essentials_addon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#boot_level_network_essentials_addon LicenseResource#boot_level_network_essentials_addon}
   */
   readonly bootLevelNetworkEssentialsAddon?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#delete_mode LicenseResource#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#delete_mode LicenseResource#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#device LicenseResource#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#device LicenseResource#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#feature_name LicenseResource#feature_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#feature_name LicenseResource#feature_name}
   */
   readonly featureName?: string;
   /**
   * Enable 6x1G port bundles
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#feature_port_b_6xonegig LicenseResource#feature_port_b_6xonegig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#feature_port_b_6xonegig LicenseResource#feature_port_b_6xonegig}
   */
   readonly featurePortB6Xonegig?: number;
   /**
   * Enable Bulk port licenses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#feature_port_bulk LicenseResource#feature_port_bulk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#feature_port_bulk LicenseResource#feature_port_bulk}
   */
   readonly featurePortBulk?: boolean | cdktf.IResolvable;
   /**
   * Enable 1G port bundles
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#feature_port_onegig LicenseResource#feature_port_onegig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#feature_port_onegig LicenseResource#feature_port_onegig}
   */
   readonly featurePortOnegig?: number;
   /**
   * Enable 10G port bundles
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#feature_port_tengig LicenseResource#feature_port_tengig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#feature_port_tengig LicenseResource#feature_port_tengig}
   */
   readonly featurePortTengig?: number;
   /**
   * The transport type. If transport-type is set to        callhome then any additional transport settings must        be done from the callhome CLI.        If the transport-type is set to smart, additional        settings are available below.        If the transport-type is set to cslu,        url needs to be set for cisco smart license utility.        If the transport-type is set to off, user has to manually        upload the usage reports.
   *   - Choices: `Off`, `automatic`, `callhome`, `cslu`, `smart`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#smart_transport_type LicenseResource#smart_transport_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#smart_transport_type LicenseResource#smart_transport_type}
   */
   readonly smartTransportType?: string;
   /**
   * Specify the URL to be used for sending utility usage reports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#smart_url_cslu LicenseResource#smart_url_cslu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#smart_url_cslu LicenseResource#smart_url_cslu}
   */
   readonly smartUrlCslu?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#udi_pid LicenseResource#udi_pid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#udi_pid LicenseResource#udi_pid}
   */
   readonly udiPid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#udi_sn LicenseResource#udi_sn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#udi_sn LicenseResource#udi_sn}
   */
   readonly udiSn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license iosxe_license}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license iosxe_license}
 */
 export class LicenseResource extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class LicenseResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicenseResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicenseResource to import
-  * @param importFromId The id of the existing LicenseResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicenseResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicenseResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class LicenseResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/license iosxe_license} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/license iosxe_license} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class LicenseResource extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_license',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

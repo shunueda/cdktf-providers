@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataHarnessPlatformTokenConfig extends cdktf.TerraformMetaArgum
   /**
   * Account Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#account_id DataHarnessPlatformToken#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#account_id DataHarnessPlatformToken#account_id}
   */
   readonly accountId: string;
   /**
   * Identifier of the API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#apikey_id DataHarnessPlatformToken#apikey_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#apikey_id DataHarnessPlatformToken#apikey_id}
   */
   readonly apikeyId: string;
   /**
   * Type of the API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#apikey_type DataHarnessPlatformToken#apikey_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#apikey_type DataHarnessPlatformToken#apikey_type}
   */
   readonly apikeyType: string;
   /**
   * Email Id of the user who created the Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#email DataHarnessPlatformToken#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#email DataHarnessPlatformToken#email}
   */
   readonly email?: string;
   /**
   * Encoded password of the Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#encoded_password DataHarnessPlatformToken#encoded_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#encoded_password DataHarnessPlatformToken#encoded_password}
   */
   readonly encodedPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#id DataHarnessPlatformToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#id DataHarnessPlatformToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +47,67 @@ export interface DataHarnessPlatformTokenConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#identifier DataHarnessPlatformToken#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#identifier DataHarnessPlatformToken#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#name DataHarnessPlatformToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#name DataHarnessPlatformToken#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#org_id DataHarnessPlatformToken#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#org_id DataHarnessPlatformToken#org_id}
   */
   readonly orgId?: string;
   /**
   * Parent Entity Identifier of the API Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#parent_id DataHarnessPlatformToken#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#parent_id DataHarnessPlatformToken#parent_id}
   */
   readonly parentId: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#project_id DataHarnessPlatformToken#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#project_id DataHarnessPlatformToken#project_id}
   */
   readonly projectId?: string;
   /**
   * Scheduled expiry time in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#scheduled_expire_time DataHarnessPlatformToken#scheduled_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#scheduled_expire_time DataHarnessPlatformToken#scheduled_expire_time}
   */
   readonly scheduledExpireTime?: number;
   /**
   * Name of the user who created the Token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#username DataHarnessPlatformToken#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#username DataHarnessPlatformToken#username}
   */
   readonly username?: string;
   /**
   * Boolean value to indicate if Token is valid or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#valid DataHarnessPlatformToken#valid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#valid DataHarnessPlatformToken#valid}
   */
   readonly valid?: boolean | cdktf.IResolvable;
   /**
   * This is the time from which the Token is valid. The time is in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#valid_from DataHarnessPlatformToken#valid_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#valid_from DataHarnessPlatformToken#valid_from}
   */
   readonly validFrom?: number;
   /**
   * This is the time till which the Token is valid. The time is in milliseconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#valid_to DataHarnessPlatformToken#valid_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#valid_to DataHarnessPlatformToken#valid_to}
   */
   readonly validTo?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token harness_platform_token}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token harness_platform_token}
 */
 export class DataHarnessPlatformToken extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataHarnessPlatformToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformToken to import
-  * @param importFromId The id of the existing DataHarnessPlatformToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataHarnessPlatformToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_token harness_platform_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_token harness_platform_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataHarnessPlatformToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_token',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

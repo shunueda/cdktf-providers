@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataHarnessPlatformInfraModuleConfig extends cdktf.TerraformMet
   /**
   * Account that owns the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#account DataHarnessPlatformInfraModule#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#account DataHarnessPlatformInfraModule#account}
   */
   readonly account: string;
   /**
   * Timestamp when the module was created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#created DataHarnessPlatformInfraModule#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#created DataHarnessPlatformInfraModule#created}
   */
   readonly created?: number;
   /**
   * Description of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#description DataHarnessPlatformInfraModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#description DataHarnessPlatformInfraModule#description}
   */
   readonly description?: string;
   /**
   * Git Tag Style
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#git_tag_style DataHarnessPlatformInfraModule#git_tag_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#git_tag_style DataHarnessPlatformInfraModule#git_tag_style}
   */
   readonly gitTagStyle?: string;
   /**
   * Identifier of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#id DataHarnessPlatformInfraModule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#id DataHarnessPlatformInfraModule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,103 +43,103 @@ export interface DataHarnessPlatformInfraModuleConfig extends cdktf.TerraformMet
   /**
   * Error while retrieving the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#module_error DataHarnessPlatformInfraModule#module_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#module_error DataHarnessPlatformInfraModule#module_error}
   */
   readonly moduleError?: string;
   /**
   * Name of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#name DataHarnessPlatformInfraModule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#name DataHarnessPlatformInfraModule#name}
   */
   readonly name: string;
   /**
   * Organization that owns the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#org DataHarnessPlatformInfraModule#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#org DataHarnessPlatformInfraModule#org}
   */
   readonly org?: string;
   /**
   * Project that owns the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#project DataHarnessPlatformInfraModule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#project DataHarnessPlatformInfraModule#project}
   */
   readonly project?: string;
   /**
   * For account connectors, the repository where the module is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository DataHarnessPlatformInfraModule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository DataHarnessPlatformInfraModule#repository}
   */
   readonly repository?: string;
   /**
   * Repository Branch in which the module should be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository_branch DataHarnessPlatformInfraModule#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository_branch DataHarnessPlatformInfraModule#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Repository Commit in which the module should be accessed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository_commit DataHarnessPlatformInfraModule#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository_commit DataHarnessPlatformInfraModule#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Repository Connector is the reference to the connector for the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository_connector DataHarnessPlatformInfraModule#repository_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository_connector DataHarnessPlatformInfraModule#repository_connector}
   */
   readonly repositoryConnector?: string;
   /**
   * Repository Path is the path in which the module resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository_path DataHarnessPlatformInfraModule#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository_path DataHarnessPlatformInfraModule#repository_path}
   */
   readonly repositoryPath?: string;
   /**
   * URL where the module is stored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#repository_url DataHarnessPlatformInfraModule#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#repository_url DataHarnessPlatformInfraModule#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
   * Timestamp when the module was last synced
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#synced DataHarnessPlatformInfraModule#synced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#synced DataHarnessPlatformInfraModule#synced}
   */
   readonly synced?: number;
   /**
   * Provider of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#system DataHarnessPlatformInfraModule#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#system DataHarnessPlatformInfraModule#system}
   */
   readonly systemAttribute: string;
   /**
   * Tags associated with the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#tags DataHarnessPlatformInfraModule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#tags DataHarnessPlatformInfraModule#tags}
   */
   readonly tags?: string;
   /**
   * Whether testing is enabled for the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#testing_enabled DataHarnessPlatformInfraModule#testing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#testing_enabled DataHarnessPlatformInfraModule#testing_enabled}
   */
   readonly testingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Timestamp when the module was last modified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#updated DataHarnessPlatformInfraModule#updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#updated DataHarnessPlatformInfraModule#updated}
   */
   readonly updated?: number;
   /**
   * Versions of the module
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#versions DataHarnessPlatformInfraModule#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#versions DataHarnessPlatformInfraModule#versions}
   */
   readonly versions?: string[];
   /**
   * testing_metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#testing_metadata DataHarnessPlatformInfraModule#testing_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#testing_metadata DataHarnessPlatformInfraModule#testing_metadata}
   */
   readonly testingMetadata?: DataHarnessPlatformInfraModuleTestingMetadata;
 }
@@ -147,49 +147,49 @@ export interface DataHarnessPlatformInfraModuleTestingMetadata {
   /**
   * Account is the internal customer account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#account DataHarnessPlatformInfraModule#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#account DataHarnessPlatformInfraModule#account}
   */
   readonly account?: string;
   /**
   * Organization identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#org DataHarnessPlatformInfraModule#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#org DataHarnessPlatformInfraModule#org}
   */
   readonly org?: string;
   /**
   * Pipelines where the testing is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#pipelines DataHarnessPlatformInfraModule#pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#pipelines DataHarnessPlatformInfraModule#pipelines}
   */
   readonly pipelines?: string[];
   /**
   * Project identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#project DataHarnessPlatformInfraModule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#project DataHarnessPlatformInfraModule#project}
   */
   readonly project?: string;
   /**
   * Provider connector for testing purposes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#provider_connector DataHarnessPlatformInfraModule#provider_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#provider_connector DataHarnessPlatformInfraModule#provider_connector}
   */
   readonly providerConnector?: string;
   /**
   * Provisioner type for testing purposes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#provisioner_type DataHarnessPlatformInfraModule#provisioner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#provisioner_type DataHarnessPlatformInfraModule#provisioner_type}
   */
   readonly provisionerType?: string;
   /**
   * Provisioner version for testing purposes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#provisioner_version DataHarnessPlatformInfraModule#provisioner_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#provisioner_version DataHarnessPlatformInfraModule#provisioner_version}
   */
   readonly provisionerVersion?: string;
   /**
   * Release pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#release_pipeline DataHarnessPlatformInfraModule#release_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#release_pipeline DataHarnessPlatformInfraModule#release_pipeline}
   */
   readonly releasePipeline?: string;
 }
@@ -476,7 +476,7 @@ export class DataHarnessPlatformInfraModuleTestingMetadataOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module harness_platform_infra_module}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module harness_platform_infra_module}
 */
 export class DataHarnessPlatformInfraModule extends cdktf.TerraformDataSource {
 
@@ -492,7 +492,7 @@ export class DataHarnessPlatformInfraModule extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformInfraModule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformInfraModule to import
-  * @param importFromId The id of the existing DataHarnessPlatformInfraModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformInfraModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformInfraModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class DataHarnessPlatformInfraModule extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_infra_module harness_platform_infra_module} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_infra_module harness_platform_infra_module} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class DataHarnessPlatformInfraModule extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_infra_module',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateNotionPageConfig extends cdktf.TerraformMetaA
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#enabled WorkflowTaskCreateNotionPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#enabled WorkflowTaskCreateNotionPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#id WorkflowTaskCreateNotionPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#id WorkflowTaskCreateNotionPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateNotionPageConfig extends cdktf.TerraformMetaA
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#name WorkflowTaskCreateNotionPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#name WorkflowTaskCreateNotionPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#position WorkflowTaskCreateNotionPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#position WorkflowTaskCreateNotionPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#skip_on_failure WorkflowTaskCreateNotionPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#skip_on_failure WorkflowTaskCreateNotionPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#workflow_id WorkflowTaskCreateNotionPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#workflow_id WorkflowTaskCreateNotionPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#task_params WorkflowTaskCreateNotionPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#task_params WorkflowTaskCreateNotionPage#task_params}
   */
   readonly taskParams: WorkflowTaskCreateNotionPageTaskParams;
 }
@@ -55,47 +55,47 @@ export interface WorkflowTaskCreateNotionPageTaskParams {
   /**
   * Custom page content with liquid templating support. When provided, only this content will be rendered (no default sections)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#content WorkflowTaskCreateNotionPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#content WorkflowTaskCreateNotionPage#content}
   */
   readonly content?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#mark_post_mortem_as_published WorkflowTaskCreateNotionPage#mark_post_mortem_as_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#mark_post_mortem_as_published WorkflowTaskCreateNotionPage#mark_post_mortem_as_published}
   */
   readonly markPostMortemAsPublished?: boolean | cdktf.IResolvable;
   /**
   * Map must contain two fields, `id` and `name`. The parent page id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#parent_page WorkflowTaskCreateNotionPage#parent_page}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#parent_page WorkflowTaskCreateNotionPage#parent_page}
   */
   readonly parentPage: { [key: string]: string };
   /**
   * Retrospective template to use when creating page task, if desired
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#post_mortem_template_id WorkflowTaskCreateNotionPage#post_mortem_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#post_mortem_template_id WorkflowTaskCreateNotionPage#post_mortem_template_id}
   */
   readonly postMortemTemplateId?: string;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#show_action_items_as_table WorkflowTaskCreateNotionPage#show_action_items_as_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#show_action_items_as_table WorkflowTaskCreateNotionPage#show_action_items_as_table}
   */
   readonly showActionItemsAsTable?: boolean | cdktf.IResolvable;
   /**
   * Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#show_timeline_as_table WorkflowTaskCreateNotionPage#show_timeline_as_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#show_timeline_as_table WorkflowTaskCreateNotionPage#show_timeline_as_table}
   */
   readonly showTimelineAsTable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#task_type WorkflowTaskCreateNotionPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#task_type WorkflowTaskCreateNotionPage#task_type}
   */
   readonly taskType?: string;
   /**
   * The Notion page title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#title WorkflowTaskCreateNotionPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#title WorkflowTaskCreateNotionPage#title}
   */
   readonly title: string;
 }
@@ -376,7 +376,7 @@ export class WorkflowTaskCreateNotionPageTaskParamsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page rootly_workflow_task_create_notion_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page rootly_workflow_task_create_notion_page}
 */
 export class WorkflowTaskCreateNotionPage extends cdktf.TerraformResource {
 
@@ -392,7 +392,7 @@ export class WorkflowTaskCreateNotionPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateNotionPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateNotionPage to import
-  * @param importFromId The id of the existing WorkflowTaskCreateNotionPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateNotionPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateNotionPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class WorkflowTaskCreateNotionPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_notion_page rootly_workflow_task_create_notion_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_notion_page rootly_workflow_task_create_notion_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class WorkflowTaskCreateNotionPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_notion_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

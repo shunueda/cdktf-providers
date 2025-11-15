@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformGitopsRepoCertConfig extends cdktf.TerraformMetaArgumen
   /**
   * Account identifier of the GitOps repository certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#account_id PlatformGitopsRepoCert#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#account_id PlatformGitopsRepoCert#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the GitOps repository certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#agent_id PlatformGitopsRepoCert#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#agent_id PlatformGitopsRepoCert#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#id PlatformGitopsRepoCert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#id PlatformGitopsRepoCert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface PlatformGitopsRepoCertConfig extends cdktf.TerraformMetaArgumen
   /**
   * Organization identifier of the GitOps repository certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#org_id PlatformGitopsRepoCert#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#org_id PlatformGitopsRepoCert#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps repository certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#project_id PlatformGitopsRepoCert#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#project_id PlatformGitopsRepoCert#project_id}
   */
   readonly projectId?: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#request PlatformGitopsRepoCert#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#request PlatformGitopsRepoCert#request}
   */
   readonly request: PlatformGitopsRepoCertRequest;
 }
@@ -49,31 +49,31 @@ export interface PlatformGitopsRepoCertRequestCertificatesItems {
   /**
   * CertData contains the actual certificate data, dependent on the certificate type. The value should be base64 encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#cert_data PlatformGitopsRepoCert#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#cert_data PlatformGitopsRepoCert#cert_data}
   */
   readonly certData?: string;
   /**
   * CertInfo will hold additional certificate info, dependent on the certificate type .
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#cert_info PlatformGitopsRepoCert#cert_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#cert_info PlatformGitopsRepoCert#cert_info}
   */
   readonly certInfo?: string;
   /**
   * CertSubType specifies the sub type of the cert, i.e. ssh-rsa.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#cert_sub_type PlatformGitopsRepoCert#cert_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#cert_sub_type PlatformGitopsRepoCert#cert_sub_type}
   */
   readonly certSubType?: string;
   /**
   * CertType specifies the type of the certificate - currently one of https or ssh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#cert_type PlatformGitopsRepoCert#cert_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#cert_type PlatformGitopsRepoCert#cert_type}
   */
   readonly certType?: string;
   /**
   * ServerName specifies the DNS name of the server this certificate is intended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#server_name PlatformGitopsRepoCert#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#server_name PlatformGitopsRepoCert#server_name}
   */
   readonly serverName?: string;
 }
@@ -307,25 +307,25 @@ export interface PlatformGitopsRepoCertRequestCertificatesMetadata {
   /**
   * continue may be set if the user set a limit on the number of items returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#continue PlatformGitopsRepoCert#continue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#continue PlatformGitopsRepoCert#continue}
   */
   readonly continue?: string;
   /**
   * subsequent items in the list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#remaining_item_count PlatformGitopsRepoCert#remaining_item_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#remaining_item_count PlatformGitopsRepoCert#remaining_item_count}
   */
   readonly remainingItemCount?: string;
   /**
   * Identifies the server's internal version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#resource_version PlatformGitopsRepoCert#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#resource_version PlatformGitopsRepoCert#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * selfLink is a URL representing this object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#self_link PlatformGitopsRepoCert#self_link}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#self_link PlatformGitopsRepoCert#self_link}
   */
   readonly selfLink?: string;
 }
@@ -498,13 +498,13 @@ export interface PlatformGitopsRepoCertRequestCertificates {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#items PlatformGitopsRepoCert#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#items PlatformGitopsRepoCert#items}
   */
   readonly items?: PlatformGitopsRepoCertRequestCertificatesItems[] | cdktf.IResolvable;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#metadata PlatformGitopsRepoCert#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#metadata PlatformGitopsRepoCert#metadata}
   */
   readonly metadata?: PlatformGitopsRepoCertRequestCertificatesMetadata;
 }
@@ -651,13 +651,13 @@ export interface PlatformGitopsRepoCertRequest {
   /**
   * Indicates if the GitOps repository certificate should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#upsert PlatformGitopsRepoCert#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#upsert PlatformGitopsRepoCert#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#certificates PlatformGitopsRepoCert#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#certificates PlatformGitopsRepoCert#certificates}
   */
   readonly certificates?: PlatformGitopsRepoCertRequestCertificates[] | cdktf.IResolvable;
 }
@@ -770,7 +770,7 @@ export class PlatformGitopsRepoCertRequestOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert harness_platform_gitops_repo_cert}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert harness_platform_gitops_repo_cert}
 */
 export class PlatformGitopsRepoCert extends cdktf.TerraformResource {
 
@@ -786,7 +786,7 @@ export class PlatformGitopsRepoCert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsRepoCert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsRepoCert to import
-  * @param importFromId The id of the existing PlatformGitopsRepoCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsRepoCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsRepoCert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -798,7 +798,7 @@ export class PlatformGitopsRepoCert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_repo_cert harness_platform_gitops_repo_cert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_repo_cert harness_platform_gitops_repo_cert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -809,8 +809,8 @@ export class PlatformGitopsRepoCert extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_repo_cert',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

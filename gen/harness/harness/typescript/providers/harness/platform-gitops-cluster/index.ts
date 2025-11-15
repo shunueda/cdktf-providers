@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformGitopsClusterConfig extends cdktf.TerraformMetaArgument
   /**
   * Account identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#account_id PlatformGitopsCluster#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#account_id PlatformGitopsCluster#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the GitOps cluster. (include scope prefix) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#agent_id PlatformGitopsCluster#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#agent_id PlatformGitopsCluster#agent_id}
   */
   readonly agentId: string;
   /**
   * Indicates if the cluster should be deleted forcefully, regardless of existing applications using that cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#force_delete PlatformGitopsCluster#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#force_delete PlatformGitopsCluster#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the cluster should be updated forcefully, regardless of existing applications using that cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#force_update PlatformGitopsCluster#force_update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#force_update PlatformGitopsCluster#force_update}
   */
   readonly forceUpdate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#id PlatformGitopsCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#id PlatformGitopsCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface PlatformGitopsClusterConfig extends cdktf.TerraformMetaArgument
   /**
   * Identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#identifier PlatformGitopsCluster#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#identifier PlatformGitopsCluster#identifier}
   */
   readonly identifier: string;
   /**
   * Organization identifier of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#org_id PlatformGitopsCluster#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#org_id PlatformGitopsCluster#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the GitOps cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#project_id PlatformGitopsCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#project_id PlatformGitopsCluster#project_id}
   */
   readonly projectId?: string;
   /**
   * request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#request PlatformGitopsCluster#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#request PlatformGitopsCluster#request}
   */
   readonly request?: PlatformGitopsClusterRequest;
 }
@@ -415,31 +415,31 @@ export interface PlatformGitopsClusterRequestClusterConfigExecProviderConfig {
   /**
   * Preferred input version of the ExecInfo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#api_version PlatformGitopsCluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#api_version PlatformGitopsCluster#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Arguments to pass to the command when executing it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#args PlatformGitopsCluster#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#args PlatformGitopsCluster#args}
   */
   readonly args?: string[];
   /**
   * Command to execute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#command PlatformGitopsCluster#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#command PlatformGitopsCluster#command}
   */
   readonly command?: string;
   /**
   * Additional environment variables to expose to the process.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#env PlatformGitopsCluster#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#env PlatformGitopsCluster#env}
   */
   readonly env?: { [key: string]: string };
   /**
   * Message displayed when the executable is not found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#install_hint PlatformGitopsCluster#install_hint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#install_hint PlatformGitopsCluster#install_hint}
   */
   readonly installHint?: string;
 }
@@ -641,31 +641,31 @@ export interface PlatformGitopsClusterRequestClusterConfigTlsClientConfig {
   /**
   * CA data holds PEM-encoded bytes (typically read from a root certificates bundle). Use this if you are using self-signed certificates. CAData takes precedence over CAFile. The value should be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#ca_data PlatformGitopsCluster#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#ca_data PlatformGitopsCluster#ca_data}
   */
   readonly caData?: string;
   /**
   * Certificate data holds PEM-encoded bytes (typically read from a client certificate file). CertData takes precedence over CertFile. Use this if you are using mTLS. The value should be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#cert_data PlatformGitopsCluster#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#cert_data PlatformGitopsCluster#cert_data}
   */
   readonly certData?: string;
   /**
   * Indicates if the TLS connection to the cluster should be insecure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#insecure PlatformGitopsCluster#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#insecure PlatformGitopsCluster#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Key data holds PEM-encoded bytes (typically read from a client certificate key file). KeyData takes precedence over KeyFile. Use this if you are using mTLS. The value should be base64 encoded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#key_data PlatformGitopsCluster#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#key_data PlatformGitopsCluster#key_data}
   */
   readonly keyData?: string;
   /**
   * Server name for SNI in the client to check server certificates against. If ServerName is empty, the hostname used to contact the server is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#server_name PlatformGitopsCluster#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#server_name PlatformGitopsCluster#server_name}
   */
   readonly serverName?: string;
 }
@@ -867,61 +867,61 @@ export interface PlatformGitopsClusterRequestClusterConfig {
   /**
   * AWS Cluster name. If set then AWS CLI EKS token command will be used to access cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#aws_cluster_name PlatformGitopsCluster#aws_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#aws_cluster_name PlatformGitopsCluster#aws_cluster_name}
   */
   readonly awsClusterName?: string;
   /**
   * Bearer authentication token the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#bearer_token PlatformGitopsCluster#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#bearer_token PlatformGitopsCluster#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Identifies the authentication method used to connect to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#cluster_connection_type PlatformGitopsCluster#cluster_connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#cluster_connection_type PlatformGitopsCluster#cluster_connection_type}
   */
   readonly clusterConnectionType?: string;
   /**
   * DisableCompression bypasses automatic GZip compression requests to to the cluster's API server. Corresponds to running kubectl with --disable-compression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#disable_compression PlatformGitopsCluster#disable_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#disable_compression PlatformGitopsCluster#disable_compression}
   */
   readonly disableCompression?: boolean | cdktf.IResolvable;
   /**
   * Password of the server of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#password PlatformGitopsCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#password PlatformGitopsCluster#password}
   */
   readonly password?: string;
   /**
   * The URL to the proxy to be used for all requests send to the cluster's API server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#proxy_url PlatformGitopsCluster#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#proxy_url PlatformGitopsCluster#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Optional role ARN. If set then used for AWS IAM Authenticator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#role_a_r_n PlatformGitopsCluster#role_a_r_n}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#role_a_r_n PlatformGitopsCluster#role_a_r_n}
   */
   readonly roleARN?: string;
   /**
   * Username of the server of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#username PlatformGitopsCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#username PlatformGitopsCluster#username}
   */
   readonly username?: string;
   /**
   * exec_provider_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#exec_provider_config PlatformGitopsCluster#exec_provider_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#exec_provider_config PlatformGitopsCluster#exec_provider_config}
   */
   readonly execProviderConfig?: PlatformGitopsClusterRequestClusterConfigExecProviderConfig;
   /**
   * tls_client_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#tls_client_config PlatformGitopsCluster#tls_client_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#tls_client_config PlatformGitopsCluster#tls_client_config}
   */
   readonly tlsClientConfig?: PlatformGitopsClusterRequestClusterConfigTlsClientConfig;
 }
@@ -1268,13 +1268,13 @@ export interface PlatformGitopsClusterRequestClusterRefreshRequestedAt {
   /**
   * Non-negative fractions of a second at nanosecond resolution. Negative second values with fractions must still have non-negative nanos values that count forward in time. Must be from 0 to 999,999,999 inclusive. This field may be limited in precision depending on context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#nanos PlatformGitopsCluster#nanos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#nanos PlatformGitopsCluster#nanos}
   */
   readonly nanos?: number;
   /**
   * Represents seconds of UTC time since Unix epoch 1970-01-01T00:00:00Z. Must be from 0001-01-01T00:00:00Z to 9999-12-31T23:59:59Z inclusive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#seconds PlatformGitopsCluster#seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#seconds PlatformGitopsCluster#seconds}
   */
   readonly seconds?: string;
 }
@@ -1389,61 +1389,61 @@ export interface PlatformGitopsClusterRequestCluster {
   /**
   * Annotations for cluster secret metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#annotations PlatformGitopsCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#annotations PlatformGitopsCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Indicates if cluster level resources should be managed. This setting is used only if cluster is connected in a namespaced mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#cluster_resources PlatformGitopsCluster#cluster_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#cluster_resources PlatformGitopsCluster#cluster_resources}
   */
   readonly clusterResources?: boolean | cdktf.IResolvable;
   /**
   * Labels for cluster secret metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#labels PlatformGitopsCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#labels PlatformGitopsCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the cluster. If omitted, the server address will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#name PlatformGitopsCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#name PlatformGitopsCluster#name}
   */
   readonly name?: string;
   /**
   * List of namespaces which are accessible in that cluster. Cluster level resources will be ignored if namespace list is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#namespaces PlatformGitopsCluster#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#namespaces PlatformGitopsCluster#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * The ArgoCD project name corresponding to this GitOps cluster. An empty string means that the GitOps cluster belongs to the default project created by Harness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#project PlatformGitopsCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#project PlatformGitopsCluster#project}
   */
   readonly project?: string;
   /**
   * API server URL of the kubernetes cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#server PlatformGitopsCluster#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#server PlatformGitopsCluster#server}
   */
   readonly server: string;
   /**
   * Shard number to be managed by a specific application controller pod. Calculated on the fly by the application controller if not specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#shard PlatformGitopsCluster#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#shard PlatformGitopsCluster#shard}
   */
   readonly shard?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#config PlatformGitopsCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#config PlatformGitopsCluster#config}
   */
   readonly config: PlatformGitopsClusterRequestClusterConfig;
   /**
   * refresh_requested_at block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#refresh_requested_at PlatformGitopsCluster#refresh_requested_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#refresh_requested_at PlatformGitopsCluster#refresh_requested_at}
   */
   readonly refreshRequestedAt?: PlatformGitopsClusterRequestClusterRefreshRequestedAt;
 }
@@ -1790,25 +1790,25 @@ export interface PlatformGitopsClusterRequest {
   /**
   * Tags for the GitOps cluster. These can be used to search or filter the GitOps agents.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#tags PlatformGitopsCluster#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#tags PlatformGitopsCluster#tags}
   */
   readonly tags?: string[];
   /**
   * Fields which are updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#updated_fields PlatformGitopsCluster#updated_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#updated_fields PlatformGitopsCluster#updated_fields}
   */
   readonly updatedFields?: string[];
   /**
   * Indicates if the GitOps cluster should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#upsert PlatformGitopsCluster#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#upsert PlatformGitopsCluster#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#cluster PlatformGitopsCluster#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#cluster PlatformGitopsCluster#cluster}
   */
   readonly cluster?: PlatformGitopsClusterRequestCluster;
 }
@@ -1979,7 +1979,7 @@ export class PlatformGitopsClusterRequestOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster harness_platform_gitops_cluster}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster harness_platform_gitops_cluster}
 */
 export class PlatformGitopsCluster extends cdktf.TerraformResource {
 
@@ -1995,7 +1995,7 @@ export class PlatformGitopsCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsCluster to import
-  * @param importFromId The id of the existing PlatformGitopsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2007,7 +2007,7 @@ export class PlatformGitopsCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_cluster harness_platform_gitops_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_cluster harness_platform_gitops_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2018,8 +2018,8 @@ export class PlatformGitopsCluster extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_cluster',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

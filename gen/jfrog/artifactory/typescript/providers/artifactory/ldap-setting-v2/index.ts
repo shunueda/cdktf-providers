@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface LdapSettingV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Auto created users will have access to their profile page and will be able to perform actions such as generating an API key. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#allow_user_to_access_profile LdapSettingV2#allow_user_to_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#allow_user_to_access_profile LdapSettingV2#allow_user_to_access_profile}
   */
   readonly allowUserToAccessProfile?: boolean | cdktf.IResolvable;
   /**
   * When set, users are automatically created when using LDAP. Otherwise, users are transient and associated with auto-join groups defined in Artifactory. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#auto_create_user LdapSettingV2#auto_create_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#auto_create_user LdapSettingV2#auto_create_user}
   */
   readonly autoCreateUser?: boolean | cdktf.IResolvable;
   /**
   * An attribute that can be used to map a user's email address to a user created automatically in Artifactory. Default value is`mail`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#email_attribute LdapSettingV2#email_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#email_attribute LdapSettingV2#email_attribute}
   */
   readonly emailAttribute?: string;
   /**
   * Flag to enable or disable the ldap setting. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#enabled LdapSettingV2#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#enabled LdapSettingV2#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Ldap setting name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#key LdapSettingV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#key LdapSettingV2#key}
   */
   readonly key: string;
   /**
   * When this is set to `true`, an empty or missing usernames array will detach all users from the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#ldap_poisoning_protection LdapSettingV2#ldap_poisoning_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#ldap_poisoning_protection LdapSettingV2#ldap_poisoning_protection}
   */
   readonly ldapPoisoningProtection?: boolean | cdktf.IResolvable;
   /**
   * Location of the LDAP server in the following format: `ldap://myldapserver/dc=sampledomain,dc=com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#ldap_url LdapSettingV2#ldap_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#ldap_url LdapSettingV2#ldap_url}
   */
   readonly ldapUrl: string;
   /**
   * The full DN of the user that binds to the LDAP server to perform user searches. Only used with `search` authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#manager_dn LdapSettingV2#manager_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#manager_dn LdapSettingV2#manager_dn}
   */
   readonly managerDn?: string;
   /**
   * The password of the user that binds to the LDAP server to perform the search. Only used with `search` authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#manager_password LdapSettingV2#manager_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#manager_password LdapSettingV2#manager_password}
   */
   readonly managerPassword?: string;
   /**
   * When set, supports paging results for the LDAP server. This feature requires that the LDAP server supports a PagedResultsControl configuration. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#paging_support_enabled LdapSettingV2#paging_support_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#paging_support_enabled LdapSettingV2#paging_support_enabled}
   */
   readonly pagingSupportEnabled?: boolean | cdktf.IResolvable;
   /**
   * A context name to search in relative to the base DN of the LDAP URL. For example, 'ou=users' With the LDAP Group Add-on enabled, it is possible to enter multiple search base entries separated by a pipe ('|') character.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#search_base LdapSettingV2#search_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#search_base LdapSettingV2#search_base}
   */
   readonly searchBase?: string;
   /**
   * A filter expression used to search for the user DN used in LDAP authentication. This is an LDAP search filter (as defined in 'RFC 2254') with optional arguments. In this case, the username is the only argument, and is denoted by '{0}'. Possible examples are: (uid={0}) - This searches for a username match on the attribute. Authentication to LDAP is performed from the DN found if successful.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#search_filter LdapSettingV2#search_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#search_filter LdapSettingV2#search_filter}
   */
   readonly searchFilter?: string;
   /**
   * When set, enables deep search through the sub tree of the LDAP URL + search base. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#search_sub_tree LdapSettingV2#search_sub_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#search_sub_tree LdapSettingV2#search_sub_tree}
   */
   readonly searchSubTree?: boolean | cdktf.IResolvable;
   /**
   * A DN pattern that can be used to log users directly in to LDAP. This pattern is used to create a DN string for 'direct' user authentication where the pattern is relative to the base DN in the LDAP URL. The pattern argument {0} is replaced with the username. This only works if anonymous binding is allowed and a direct user DN can be used, which is not the default case for Active Directory (use User DN search filter instead). Example: uid={0},ou=People. Default value is blank/empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#user_dn_pattern LdapSettingV2#user_dn_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#user_dn_pattern LdapSettingV2#user_dn_pattern}
   */
   readonly userDnPattern?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2 artifactory_ldap_setting_v2}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2 artifactory_ldap_setting_v2}
 */
 export class LdapSettingV2 extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class LdapSettingV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapSettingV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapSettingV2 to import
-  * @param importFromId The id of the existing LdapSettingV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapSettingV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapSettingV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class LdapSettingV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_setting_v2 artifactory_ldap_setting_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_setting_v2 artifactory_ldap_setting_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class LdapSettingV2 extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_ldap_setting_v2',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

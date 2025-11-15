@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface TimezoneSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Time zone that corresponds to the site's physical location. The site time zone is used when scheduling device provisioning and updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings#identifier TimezoneSettings#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings#identifier TimezoneSettings#identifier}
   */
   readonly identifier?: string;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings#site_id TimezoneSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings#site_id TimezoneSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings catalystcenter_timezone_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings catalystcenter_timezone_settings}
 */
 export class TimezoneSettings extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class TimezoneSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TimezoneSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TimezoneSettings to import
-  * @param importFromId The id of the existing TimezoneSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TimezoneSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TimezoneSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class TimezoneSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/timezone_settings catalystcenter_timezone_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/timezone_settings catalystcenter_timezone_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class TimezoneSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_timezone_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

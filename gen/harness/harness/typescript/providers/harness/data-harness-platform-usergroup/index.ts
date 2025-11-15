@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformUsergroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#id DataHarnessPlatformUsergroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#id DataHarnessPlatformUsergroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,31 +17,31 @@ export interface DataHarnessPlatformUsergroupConfig extends cdktf.TerraformMetaA
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#identifier DataHarnessPlatformUsergroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#identifier DataHarnessPlatformUsergroup#identifier}
   */
   readonly identifier?: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#name DataHarnessPlatformUsergroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#name DataHarnessPlatformUsergroup#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#org_id DataHarnessPlatformUsergroup#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#org_id DataHarnessPlatformUsergroup#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#project_id DataHarnessPlatformUsergroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#project_id DataHarnessPlatformUsergroup#project_id}
   */
   readonly projectId?: string;
   /**
   * notification_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#notification_configs DataHarnessPlatformUsergroup#notification_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#notification_configs DataHarnessPlatformUsergroup#notification_configs}
   */
   readonly notificationConfigs?: DataHarnessPlatformUsergroupNotificationConfigs[] | cdktf.IResolvable;
 }
@@ -158,7 +158,7 @@ export class DataHarnessPlatformUsergroupNotificationConfigsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup harness_platform_usergroup}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup harness_platform_usergroup}
 */
 export class DataHarnessPlatformUsergroup extends cdktf.TerraformDataSource {
 
@@ -174,7 +174,7 @@ export class DataHarnessPlatformUsergroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformUsergroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformUsergroup to import
-  * @param importFromId The id of the existing DataHarnessPlatformUsergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformUsergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformUsergroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -186,7 +186,7 @@ export class DataHarnessPlatformUsergroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_usergroup harness_platform_usergroup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_usergroup harness_platform_usergroup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -197,8 +197,8 @@ export class DataHarnessPlatformUsergroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_usergroup',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

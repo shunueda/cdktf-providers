@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateClickupTaskConfig extends cdktf.TerraformMeta
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#enabled WorkflowTaskCreateClickupTask#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#enabled WorkflowTaskCreateClickupTask#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#id WorkflowTaskCreateClickupTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#id WorkflowTaskCreateClickupTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateClickupTaskConfig extends cdktf.TerraformMeta
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#name WorkflowTaskCreateClickupTask#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#name WorkflowTaskCreateClickupTask#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#position WorkflowTaskCreateClickupTask#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#position WorkflowTaskCreateClickupTask#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#skip_on_failure WorkflowTaskCreateClickupTask#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#skip_on_failure WorkflowTaskCreateClickupTask#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#workflow_id WorkflowTaskCreateClickupTask#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#workflow_id WorkflowTaskCreateClickupTask#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#task_params WorkflowTaskCreateClickupTask#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#task_params WorkflowTaskCreateClickupTask#task_params}
   */
   readonly taskParams: WorkflowTaskCreateClickupTaskTaskParams;
 }
@@ -55,47 +55,47 @@ export interface WorkflowTaskCreateClickupTaskTaskParams {
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#custom_fields_mapping WorkflowTaskCreateClickupTask#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#custom_fields_mapping WorkflowTaskCreateClickupTask#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * The task description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#description WorkflowTaskCreateClickupTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#description WorkflowTaskCreateClickupTask#description}
   */
   readonly description?: string;
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#due_date WorkflowTaskCreateClickupTask#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#due_date WorkflowTaskCreateClickupTask#due_date}
   */
   readonly dueDate?: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#priority WorkflowTaskCreateClickupTask#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#priority WorkflowTaskCreateClickupTask#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
   * The task tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#tags WorkflowTaskCreateClickupTask#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#tags WorkflowTaskCreateClickupTask#tags}
   */
   readonly tags?: string;
   /**
   * Additional ClickUp task attributes. Will be merged into whatever was specified in this tasks current parameters. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#task_payload WorkflowTaskCreateClickupTask#task_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#task_payload WorkflowTaskCreateClickupTask#task_payload}
   */
   readonly taskPayload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#task_type WorkflowTaskCreateClickupTask#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#task_type WorkflowTaskCreateClickupTask#task_type}
   */
   readonly taskType?: string;
   /**
   * The task title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#title WorkflowTaskCreateClickupTask#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#title WorkflowTaskCreateClickupTask#title}
   */
   readonly title: string;
 }
@@ -379,7 +379,7 @@ export class WorkflowTaskCreateClickupTaskTaskParamsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task rootly_workflow_task_create_clickup_task}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task rootly_workflow_task_create_clickup_task}
 */
 export class WorkflowTaskCreateClickupTask extends cdktf.TerraformResource {
 
@@ -395,7 +395,7 @@ export class WorkflowTaskCreateClickupTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateClickupTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateClickupTask to import
-  * @param importFromId The id of the existing WorkflowTaskCreateClickupTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateClickupTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateClickupTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -407,7 +407,7 @@ export class WorkflowTaskCreateClickupTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_clickup_task rootly_workflow_task_create_clickup_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_clickup_task rootly_workflow_task_create_clickup_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -418,8 +418,8 @@ export class WorkflowTaskCreateClickupTask extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_clickup_task',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

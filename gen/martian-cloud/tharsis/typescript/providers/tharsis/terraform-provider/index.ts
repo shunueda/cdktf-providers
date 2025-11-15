@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface TerraformProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * The path of the group where this Terraform provider resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider#group_path TerraformProvider#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider#group_path TerraformProvider#group_path}
   */
   readonly groupPath: string;
   /**
   * The name of the Terraform provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider#name TerraformProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider#name TerraformProvider#name}
   */
   readonly name: string;
   /**
   * Whether this Terraform provider is hidden from other top-level groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider#private TerraformProvider#private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider#private TerraformProvider#private}
   */
   readonly private?: boolean | cdktf.IResolvable;
   /**
   * The repository URL where this Terraform provider can be found.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider#repository_url TerraformProvider#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider#repository_url TerraformProvider#repository_url}
   */
   readonly repositoryUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider tharsis_terraform_provider}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider tharsis_terraform_provider}
 */
 export class TerraformProvider extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class TerraformProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TerraformProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TerraformProvider to import
-  * @param importFromId The id of the existing TerraformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TerraformProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TerraformProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class TerraformProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/terraform_provider tharsis_terraform_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/terraform_provider tharsis_terraform_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class TerraformProvider extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_terraform_provider',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

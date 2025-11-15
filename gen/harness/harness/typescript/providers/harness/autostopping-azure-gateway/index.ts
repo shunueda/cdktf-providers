@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface AutostoppingAzureGatewayConfig extends cdktf.TerraformMetaArgum
   /**
   * ID of Azure AppGateway for importing. Required only for importing exiging AppGateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#app_gateway_id AutostoppingAzureGateway#app_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#app_gateway_id AutostoppingAzureGateway#app_gateway_id}
   */
   readonly appGatewayId?: string;
   /**
   * Region in which azure cloud function will be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#azure_func_region AutostoppingAzureGateway#azure_func_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#azure_func_region AutostoppingAzureGateway#azure_func_region}
   */
   readonly azureFuncRegion: string;
   /**
   * ID of existing SSL certificate from AppGateway being imported. Required only for importing existing AppGateway. Required only for SSL based rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#certificate_id AutostoppingAzureGateway#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#certificate_id AutostoppingAzureGateway#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#cloud_connector_id AutostoppingAzureGateway#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#cloud_connector_id AutostoppingAzureGateway#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Governs how the loadabalancer entity will be deleted on Terraform destroy. When set to true, the associated Application Gateway will be deleted permanently from Azure account. Be fully aware of the consequneces of settting this to true, as the action is irreversible. When set to false, solely the Harness LB representation will be deleted, leaving the cloud resources intact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#delete_cloud_resources_on_destroy AutostoppingAzureGateway#delete_cloud_resources_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#delete_cloud_resources_on_destroy AutostoppingAzureGateway#delete_cloud_resources_on_destroy}
   */
   readonly deleteCloudResourcesOnDestroy: boolean | cdktf.IResolvable;
   /**
   * ID of IP address to be used. Required only for creating new AppGateway. See https://learn.microsoft.com/en-us/azure/application-gateway/application-gateway-components#static-versus-dynamic-public-ip-address for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#frontend_ip AutostoppingAzureGateway#frontend_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#frontend_ip AutostoppingAzureGateway#frontend_ip}
   */
   readonly frontendIp?: string;
   /**
   * Hostname for the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#host_name AutostoppingAzureGateway#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#host_name AutostoppingAzureGateway#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#id AutostoppingAzureGateway#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#id AutostoppingAzureGateway#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface AutostoppingAzureGatewayConfig extends cdktf.TerraformMetaArgum
   /**
   * Name of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#name AutostoppingAzureGateway#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#name AutostoppingAzureGateway#name}
   */
   readonly name: string;
   /**
   * Region in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#region AutostoppingAzureGateway#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#region AutostoppingAzureGateway#region}
   */
   readonly region: string;
   /**
   * Resource group in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#resource_group AutostoppingAzureGateway#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#resource_group AutostoppingAzureGateway#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Size of machine used for the gateway. Required only for creating new AppGateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#sku_size AutostoppingAzureGateway#sku_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#sku_size AutostoppingAzureGateway#sku_size}
   */
   readonly skuSize?: string;
   /**
   * Subnet in which cloud resources are hosted. Required only for creating new AppGateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#subnet_id AutostoppingAzureGateway#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#subnet_id AutostoppingAzureGateway#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * VNet in which cloud resources are hosted. Required only for creating new AppGateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#vpc AutostoppingAzureGateway#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#vpc AutostoppingAzureGateway#vpc}
   */
   readonly vpc: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway harness_autostopping_azure_gateway}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway harness_autostopping_azure_gateway}
 */
 export class AutostoppingAzureGateway extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class AutostoppingAzureGateway extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingAzureGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingAzureGateway to import
-  * @param importFromId The id of the existing AutostoppingAzureGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingAzureGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingAzureGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class AutostoppingAzureGateway extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_gateway harness_autostopping_azure_gateway} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_gateway harness_autostopping_azure_gateway} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class AutostoppingAzureGateway extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_azure_gateway',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

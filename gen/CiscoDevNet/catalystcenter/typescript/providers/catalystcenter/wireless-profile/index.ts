@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WirelessProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * These additional interfaces will be configured on the device as independent interfaces in addition to the interfaces mapped to SSIDs. Max Limit 4094
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#additional_interfaces WirelessProfile#additional_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#additional_interfaces WirelessProfile#additional_interfaces}
   */
   readonly additionalInterfaces?: string[];
   /**
   * AP Zones
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#ap_zones WirelessProfile#ap_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#ap_zones WirelessProfile#ap_zones}
   */
   readonly apZones?: WirelessProfileApZones[] | cdktf.IResolvable;
   /**
   * SSID Details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#ssid_details WirelessProfile#ssid_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#ssid_details WirelessProfile#ssid_details}
   */
   readonly ssidDetails?: WirelessProfileSsidDetails[] | cdktf.IResolvable;
   /**
   * Wireless Network Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#wireless_profile_name WirelessProfile#wireless_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#wireless_profile_name WirelessProfile#wireless_profile_name}
   */
   readonly wirelessProfileName: string;
 }
@@ -36,19 +36,19 @@ export interface WirelessProfileApZones {
   /**
   * AP Zone Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#ap_zone_name WirelessProfile#ap_zone_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#ap_zone_name WirelessProfile#ap_zone_name}
   */
   readonly apZoneName?: string;
   /**
   * RF Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#rf_profile_name WirelessProfile#rf_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#rf_profile_name WirelessProfile#rf_profile_name}
   */
   readonly rfProfileName?: string;
   /**
   * ssids part of apZone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#ssids WirelessProfile#ssids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#ssids WirelessProfile#ssids}
   */
   readonly ssids?: string[];
 }
@@ -224,43 +224,43 @@ export interface WirelessProfileSsidDetails {
   /**
   * 802.11be Profile Id. Applicable to IOS controllers with version 17.15 and higher. 802.11be Profiles if passed, should be same across all SSIDs in network profile being configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#dot11be_profile_id WirelessProfile#dot11be_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#dot11be_profile_id WirelessProfile#dot11be_profile_id}
   */
   readonly dot11BeProfileId?: string;
   /**
   * True if fabric is enabled, else False. Flex and fabric cannot be enabled simultaneously and a profile can only contain either flex SSIDs or fabric SSIDs and not both at the same time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#enable_fabric WirelessProfile#enable_fabric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#enable_fabric WirelessProfile#enable_fabric}
   */
   readonly enableFabric?: boolean | cdktf.IResolvable;
   /**
   * True if flex connect is enabled, else False. Flex and fabric cannot be enabled simultaneously and a profile can only contain either flex SSIDs or fabric SSIDs and not both at the same time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#enable_flex_connect WirelessProfile#enable_flex_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#enable_flex_connect WirelessProfile#enable_flex_connect}
   */
   readonly enableFlexConnect?: boolean | cdktf.IResolvable;
   /**
   * Interface Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#interface_name WirelessProfile#interface_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#interface_name WirelessProfile#interface_name}
   */
   readonly interfaceName?: string;
   /**
   * Local To Vlan Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#local_to_vlan WirelessProfile#local_to_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#local_to_vlan WirelessProfile#local_to_vlan}
   */
   readonly localToVlan?: number;
   /**
   * SSID Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#ssid_name WirelessProfile#ssid_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#ssid_name WirelessProfile#ssid_name}
   */
   readonly ssidName: string;
   /**
   * WLAN Profile Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#wlan_profile_name WirelessProfile#wlan_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#wlan_profile_name WirelessProfile#wlan_profile_name}
   */
   readonly wlanProfileName?: string;
 }
@@ -547,7 +547,7 @@ export class WirelessProfileSsidDetailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile catalystcenter_wireless_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile catalystcenter_wireless_profile}
 */
 export class WirelessProfile extends cdktf.TerraformResource {
 
@@ -563,7 +563,7 @@ export class WirelessProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessProfile to import
-  * @param importFromId The id of the existing WirelessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -575,7 +575,7 @@ export class WirelessProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/wireless_profile catalystcenter_wireless_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/wireless_profile catalystcenter_wireless_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -586,8 +586,8 @@ export class WirelessProfile extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_wireless_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

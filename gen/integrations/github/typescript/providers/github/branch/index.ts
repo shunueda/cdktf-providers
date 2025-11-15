@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch
+// https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,17 @@ export interface BranchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The repository branch to create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#branch Branch#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#branch Branch#branch}
   */
   readonly branch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#id Branch#id}
+  * An etag representing the Branch object.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#etag Branch#etag}
+  */
+  readonly etag?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#id Branch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +29,25 @@ export interface BranchConfig extends cdktf.TerraformMetaArguments {
   /**
   * The GitHub repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#repository Branch#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#repository Branch#repository}
   */
   readonly repository: string;
   /**
   * The branch name to start from. Defaults to 'main'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#source_branch Branch#source_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#source_branch Branch#source_branch}
   */
   readonly sourceBranch?: string;
   /**
   * The commit hash to start from. Defaults to the tip of 'source_branch'. If provided, 'source_branch' is ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#source_sha Branch#source_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#source_sha Branch#source_sha}
   */
   readonly sourceSha?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch github_branch}
+* Represents a {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch github_branch}
 */
 export class Branch extends cdktf.TerraformResource {
 
@@ -57,7 +63,7 @@ export class Branch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Branch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Branch to import
-  * @param importFromId The id of the existing Branch that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Branch that should be imported. Refer to the {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Branch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +75,7 @@ export class Branch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.7.5/docs/resources/branch github_branch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/integrations/github/6.8.2/docs/resources/branch github_branch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +86,8 @@ export class Branch extends cdktf.TerraformResource {
       terraformResourceType: 'github_branch',
       terraformGeneratorMetadata: {
         providerName: 'github',
-        providerVersion: '6.7.5',
-        providerVersionConstraint: '6.7.5'
+        providerVersion: '6.8.2',
+        providerVersionConstraint: '6.8.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -92,6 +98,7 @@ export class Branch extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._branch = config.branch;
+    this._etag = config.etag;
     this._id = config.id;
     this._repository = config.repository;
     this._sourceBranch = config.sourceBranch;
@@ -115,9 +122,20 @@ export class Branch extends cdktf.TerraformResource {
     return this._branch;
   }
 
-  // etag - computed: true, optional: false, required: false
+  // etag - computed: true, optional: true, required: false
+  private _etag?: string; 
   public get etag() {
     return this.getStringAttribute('etag');
+  }
+  public set etag(value: string) {
+    this._etag = value;
+  }
+  public resetEtag() {
+    this._etag = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get etagInput() {
+    return this._etag;
   }
 
   // id - computed: true, optional: true, required: false
@@ -198,6 +216,7 @@ export class Branch extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       branch: cdktf.stringToTerraform(this._branch),
+      etag: cdktf.stringToTerraform(this._etag),
       id: cdktf.stringToTerraform(this._id),
       repository: cdktf.stringToTerraform(this._repository),
       source_branch: cdktf.stringToTerraform(this._sourceBranch),
@@ -209,6 +228,12 @@ export class Branch extends cdktf.TerraformResource {
     const attrs = {
       branch: {
         value: cdktf.stringToHclTerraform(this._branch),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      etag: {
+        value: cdktf.stringToHclTerraform(this._etag),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

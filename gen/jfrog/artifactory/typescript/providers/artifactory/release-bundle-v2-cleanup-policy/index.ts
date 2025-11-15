@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface ReleaseBundleV2CleanupPolicyConfig extends cdktf.TerraformMetaA
   /**
   * The cron expression determines when the policy is run. This parameter is not mandatory, however if left empty the policy will not run automatically and can only be triggered manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#cron_expression ReleaseBundleV2CleanupPolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#cron_expression ReleaseBundleV2CleanupPolicy#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#description ReleaseBundleV2CleanupPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#description ReleaseBundleV2CleanupPolicy#description}
   */
   readonly description?: string;
   /**
   * The maximum duration (in minutes) for policy execution, after which the policy will stop running even if not completed. While setting a maximum run duration for a policy is useful for adhering to a strict archive V2 schedule, it can cause the policy to stop before completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#duration_in_minutes ReleaseBundleV2CleanupPolicy#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#duration_in_minutes ReleaseBundleV2CleanupPolicy#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
   * Enables or disabled the release bundle cleanup policy. This allows the user to run the policy manually. If a policy has a valid cron expression, then it will be scheduled for execution based on it. If a policy is disabled, its future executions will be unscheduled. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#enabled ReleaseBundleV2CleanupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#enabled ReleaseBundleV2CleanupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Needs to be set to releaseBundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#item_type ReleaseBundleV2CleanupPolicy#item_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#item_type ReleaseBundleV2CleanupPolicy#item_type}
   */
   readonly itemType?: string;
   /**
   * An ID that is used to identify the release bundle cleanup policy. A minimum of three characters is required and can include letters, numbers, underscore and hyphen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#key ReleaseBundleV2CleanupPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#key ReleaseBundleV2CleanupPolicy#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#search_criteria ReleaseBundleV2CleanupPolicy#search_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#search_criteria ReleaseBundleV2CleanupPolicy#search_criteria}
   */
   readonly searchCriteria: ReleaseBundleV2CleanupPolicySearchCriteria;
 }
@@ -50,13 +50,13 @@ export interface ReleaseBundleV2CleanupPolicySearchCriteriaReleaseBundles {
   /**
   * The name of the release bundle. Set '**' to include all bundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#name ReleaseBundleV2CleanupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#name ReleaseBundleV2CleanupPolicy#name}
   */
   readonly name: string;
   /**
   * The project identifier associated with the release bundle. This key is obtained from the Project Settings screen. Leave the field blank to apply at a global level.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#project_key ReleaseBundleV2CleanupPolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#project_key ReleaseBundleV2CleanupPolicy#project_key}
   */
   readonly projectKey: string;
 }
@@ -197,7 +197,7 @@ export interface ReleaseBundleV2CleanupPolicySearchCriteria {
   /**
   * A list of environments to exclude from the cleanup process. To exclude all, set to **
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#exclude_promoted_environments ReleaseBundleV2CleanupPolicy#exclude_promoted_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#exclude_promoted_environments ReleaseBundleV2CleanupPolicy#exclude_promoted_environments}
   */
   readonly excludePromotedEnvironments: string[];
   /**
@@ -205,7 +205,7 @@ export interface ReleaseBundleV2CleanupPolicySearchCriteria {
   * 
   * ~>This attribute is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#include_all_projects ReleaseBundleV2CleanupPolicy#include_all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#include_all_projects ReleaseBundleV2CleanupPolicy#include_all_projects}
   */
   readonly includeAllProjects?: boolean | cdktf.IResolvable;
   /**
@@ -213,13 +213,13 @@ export interface ReleaseBundleV2CleanupPolicySearchCriteria {
   * 
   * ~>This setting is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#included_projects ReleaseBundleV2CleanupPolicy#included_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#included_projects ReleaseBundleV2CleanupPolicy#included_projects}
   */
   readonly includedProjects?: string[];
   /**
   * Specify the release bundles to include in the cleanup policy. The policy will only clean up the release bundles that match the specified criteria.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#release_bundles ReleaseBundleV2CleanupPolicy#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#release_bundles ReleaseBundleV2CleanupPolicy#release_bundles}
   */
   readonly releaseBundles?: ReleaseBundleV2CleanupPolicySearchCriteriaReleaseBundles[] | cdktf.IResolvable;
 }
@@ -402,7 +402,7 @@ export class ReleaseBundleV2CleanupPolicySearchCriteriaOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy artifactory_release_bundle_v2_cleanup_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy artifactory_release_bundle_v2_cleanup_policy}
 */
 export class ReleaseBundleV2CleanupPolicy extends cdktf.TerraformResource {
 
@@ -418,7 +418,7 @@ export class ReleaseBundleV2CleanupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReleaseBundleV2CleanupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReleaseBundleV2CleanupPolicy to import
-  * @param importFromId The id of the existing ReleaseBundleV2CleanupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReleaseBundleV2CleanupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReleaseBundleV2CleanupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -430,7 +430,7 @@ export class ReleaseBundleV2CleanupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_cleanup_policy artifactory_release_bundle_v2_cleanup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_cleanup_policy artifactory_release_bundle_v2_cleanup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -441,8 +441,8 @@ export class ReleaseBundleV2CleanupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_release_bundle_v2_cleanup_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

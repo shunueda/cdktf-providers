@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformConnectorOciHelmConfig extends cdktf.TerraformMetaArgum
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#delegate_selectors PlatformConnectorOciHelm#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#delegate_selectors PlatformConnectorOciHelm#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#description PlatformConnectorOciHelm#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#description PlatformConnectorOciHelm#description}
   */
   readonly description?: string;
   /**
   * Enable this flag for force deletion of connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#force_delete PlatformConnectorOciHelm#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#force_delete PlatformConnectorOciHelm#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#id PlatformConnectorOciHelm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#id PlatformConnectorOciHelm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface PlatformConnectorOciHelmConfig extends cdktf.TerraformMetaArgum
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#identifier PlatformConnectorOciHelm#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#identifier PlatformConnectorOciHelm#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#name PlatformConnectorOciHelm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#name PlatformConnectorOciHelm#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#org_id PlatformConnectorOciHelm#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#org_id PlatformConnectorOciHelm#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#project_id PlatformConnectorOciHelm#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#project_id PlatformConnectorOciHelm#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#tags PlatformConnectorOciHelm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#tags PlatformConnectorOciHelm#tags}
   */
   readonly tags?: string[];
   /**
   * URL of the helm server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#url PlatformConnectorOciHelm#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#url PlatformConnectorOciHelm#url}
   */
   readonly url: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#credentials PlatformConnectorOciHelm#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#credentials PlatformConnectorOciHelm#credentials}
   */
   readonly credentials?: PlatformConnectorOciHelmCredentials;
 }
@@ -79,19 +79,19 @@ export interface PlatformConnectorOciHelmCredentials {
   /**
   * Reference to a secret containing the password to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#password_ref PlatformConnectorOciHelm#password_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#password_ref PlatformConnectorOciHelm#password_ref}
   */
   readonly passwordRef: string;
   /**
   * Username to use for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#username PlatformConnectorOciHelm#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#username PlatformConnectorOciHelm#username}
   */
   readonly username?: string;
   /**
   * Reference to a secret containing the username to use for authentication. To reference a secret at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a secret at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#username_ref PlatformConnectorOciHelm#username_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#username_ref PlatformConnectorOciHelm#username_ref}
   */
   readonly usernameRef?: string;
 }
@@ -230,7 +230,7 @@ export class PlatformConnectorOciHelmCredentialsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm harness_platform_connector_oci_helm}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm harness_platform_connector_oci_helm}
 */
 export class PlatformConnectorOciHelm extends cdktf.TerraformResource {
 
@@ -246,7 +246,7 @@ export class PlatformConnectorOciHelm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorOciHelm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorOciHelm to import
-  * @param importFromId The id of the existing PlatformConnectorOciHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorOciHelm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorOciHelm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -258,7 +258,7 @@ export class PlatformConnectorOciHelm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_oci_helm harness_platform_connector_oci_helm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_oci_helm harness_platform_connector_oci_helm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -269,8 +269,8 @@ export class PlatformConnectorOciHelm extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_oci_helm',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

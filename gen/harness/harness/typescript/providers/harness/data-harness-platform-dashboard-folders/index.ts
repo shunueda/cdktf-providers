@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataHarnessPlatformDashboardFoldersConfig extends cdktf.Terrafo
   /**
   * Identifier of the folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders#id DataHarnessPlatformDashboardFolders#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders#id DataHarnessPlatformDashboardFolders#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataHarnessPlatformDashboardFoldersConfig extends cdktf.Terrafo
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders#identifier DataHarnessPlatformDashboardFolders#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders#identifier DataHarnessPlatformDashboardFolders#identifier}
   */
   readonly identifier?: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders#name DataHarnessPlatformDashboardFolders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders#name DataHarnessPlatformDashboardFolders#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders harness_platform_dashboard_folders}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders harness_platform_dashboard_folders}
 */
 export class DataHarnessPlatformDashboardFolders extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataHarnessPlatformDashboardFolders extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataHarnessPlatformDashboardFolders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformDashboardFolders to import
-  * @param importFromId The id of the existing DataHarnessPlatformDashboardFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformDashboardFolders that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformDashboardFolders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataHarnessPlatformDashboardFolders extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_dashboard_folders harness_platform_dashboard_folders} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_dashboard_folders harness_platform_dashboard_folders} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataHarnessPlatformDashboardFolders extends cdktf.TerraformDataSour
       terraformResourceType: 'harness_platform_dashboard_folders',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

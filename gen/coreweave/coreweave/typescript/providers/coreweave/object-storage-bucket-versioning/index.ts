@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ObjectStorageBucketVersioningConfig extends cdktf.TerraformMeta
   /**
   * The bucket on which to enable or suspend versioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning#bucket ObjectStorageBucketVersioning#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning#bucket ObjectStorageBucketVersioning#bucket}
   */
   readonly bucket: string;
   /**
   * versioning_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning#versioning_configuration ObjectStorageBucketVersioning#versioning_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning#versioning_configuration ObjectStorageBucketVersioning#versioning_configuration}
   */
   readonly versioningConfiguration: ObjectStorageBucketVersioningVersioningConfiguration;
 }
@@ -24,7 +24,7 @@ export interface ObjectStorageBucketVersioningVersioningConfiguration {
   /**
   * Versioning state of the bucket. Valid values: Enabled, Suspended, or Disabled. Disabled should only be used when creating or importing resources that correspond to unversioned S3 buckets since the S3 API does not allow setting an Enabled/Suspended bucket to Disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning#status ObjectStorageBucketVersioning#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning#status ObjectStorageBucketVersioning#status}
   */
   readonly status: string;
 }
@@ -115,7 +115,7 @@ export class ObjectStorageBucketVersioningVersioningConfigurationOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning coreweave_object_storage_bucket_versioning}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning coreweave_object_storage_bucket_versioning}
 */
 export class ObjectStorageBucketVersioning extends cdktf.TerraformResource {
 
@@ -131,7 +131,7 @@ export class ObjectStorageBucketVersioning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBucketVersioning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucketVersioning to import
-  * @param importFromId The id of the existing ObjectStorageBucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucketVersioning that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucketVersioning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -143,7 +143,7 @@ export class ObjectStorageBucketVersioning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_versioning coreweave_object_storage_bucket_versioning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_versioning coreweave_object_storage_bucket_versioning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -154,8 +154,8 @@ export class ObjectStorageBucketVersioning extends cdktf.TerraformResource {
       terraformResourceType: 'coreweave_object_storage_bucket_versioning',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity
+// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataSdmRemoteIdentityConfig extends cdktf.TerraformMetaArgument
   /**
   * The account for this remote identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#account_id DataSdmRemoteIdentity#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#account_id DataSdmRemoteIdentity#account_id}
   */
   readonly accountId?: string;
   /**
   * Unique identifier of the RemoteIdentity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#id DataSdmRemoteIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#id DataSdmRemoteIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,19 +25,19 @@ export interface DataSdmRemoteIdentityConfig extends cdktf.TerraformMetaArgument
   /**
   * The remote identity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#remote_identity_group_id DataSdmRemoteIdentity#remote_identity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#remote_identity_group_id DataSdmRemoteIdentity#remote_identity_group_id}
   */
   readonly remoteIdentityGroupId?: string;
   /**
   * The username to be used as the remote identity for this account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#username DataSdmRemoteIdentity#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#username DataSdmRemoteIdentity#username}
   */
   readonly username?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#timeouts DataSdmRemoteIdentity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#timeouts DataSdmRemoteIdentity#timeouts}
   */
   readonly timeouts?: DataSdmRemoteIdentityTimeouts;
 }
@@ -133,7 +133,7 @@ export class DataSdmRemoteIdentityRemoteIdentitiesList extends cdktf.ComplexList
 }
 export interface DataSdmRemoteIdentityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#default DataSdmRemoteIdentity#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#default DataSdmRemoteIdentity#default}
   */
   readonly default?: string;
 }
@@ -227,7 +227,7 @@ export class DataSdmRemoteIdentityTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity sdm_remote_identity}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity sdm_remote_identity}
 */
 export class DataSdmRemoteIdentity extends cdktf.TerraformDataSource {
 
@@ -243,7 +243,7 @@ export class DataSdmRemoteIdentity extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmRemoteIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmRemoteIdentity to import
-  * @param importFromId The id of the existing DataSdmRemoteIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmRemoteIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmRemoteIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -255,7 +255,7 @@ export class DataSdmRemoteIdentity extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/remote_identity sdm_remote_identity} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/remote_identity sdm_remote_identity} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -266,8 +266,8 @@ export class DataSdmRemoteIdentity extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_remote_identity',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.28.0',
-        providerVersionConstraint: '15.28.0'
+        providerVersion: '15.31.0',
+        providerVersionConstraint: '15.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

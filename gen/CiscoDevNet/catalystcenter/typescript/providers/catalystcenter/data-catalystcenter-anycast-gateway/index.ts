@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataCatalystcenterAnycastGatewayConfig extends cdktf.TerraformM
   /**
   * ID of the fabric to contain this anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway#fabric_id DataCatalystcenterAnycastGateway#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway#fabric_id DataCatalystcenterAnycastGateway#fabric_id}
   */
   readonly fabricId: string;
   /**
   * Name of the IP pool associated with the anycast gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway#ip_pool_name DataCatalystcenterAnycastGateway#ip_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway#ip_pool_name DataCatalystcenterAnycastGateway#ip_pool_name}
   */
   readonly ipPoolName: string;
   /**
   * Name of the layer 3 virtual network associated with the anycast gateway. the virtual network must have already been added to the site before creating an anycast gateway with it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway#virtual_network_name DataCatalystcenterAnycastGateway#virtual_network_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway#virtual_network_name DataCatalystcenterAnycastGateway#virtual_network_name}
   */
   readonly virtualNetworkName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway catalystcenter_anycast_gateway}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway catalystcenter_anycast_gateway}
 */
 export class DataCatalystcenterAnycastGateway extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataCatalystcenterAnycastGateway extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataCatalystcenterAnycastGateway resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterAnycastGateway to import
-  * @param importFromId The id of the existing DataCatalystcenterAnycastGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterAnycastGateway that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterAnycastGateway to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataCatalystcenterAnycastGateway extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/anycast_gateway catalystcenter_anycast_gateway} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/anycast_gateway catalystcenter_anycast_gateway} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataCatalystcenterAnycastGateway extends cdktf.TerraformDataSource 
       terraformResourceType: 'catalystcenter_anycast_gateway',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

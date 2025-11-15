@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessChaosImageRegistryConfig extends cdktf.TerraformMeta
   /**
   * Whether to check if override is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#check_override DataHarnessChaosImageRegistry#check_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#check_override DataHarnessChaosImageRegistry#check_override}
   */
   readonly checkOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#id DataHarnessChaosImageRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#id DataHarnessChaosImageRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataHarnessChaosImageRegistryConfig extends cdktf.TerraformMeta
   /**
   * The infrastructure ID to set up the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#infra_id DataHarnessChaosImageRegistry#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#infra_id DataHarnessChaosImageRegistry#infra_id}
   */
   readonly infraId?: string;
   /**
   * The organization ID of the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#org_id DataHarnessChaosImageRegistry#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#org_id DataHarnessChaosImageRegistry#org_id}
   */
   readonly orgId?: string;
   /**
   * The project ID of the image registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#project_id DataHarnessChaosImageRegistry#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#project_id DataHarnessChaosImageRegistry#project_id}
   */
   readonly projectId?: string;
 }
@@ -131,7 +131,7 @@ export class DataHarnessChaosImageRegistryCustomImagesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry harness_chaos_image_registry}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry harness_chaos_image_registry}
 */
 export class DataHarnessChaosImageRegistry extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataHarnessChaosImageRegistry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessChaosImageRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessChaosImageRegistry to import
-  * @param importFromId The id of the existing DataHarnessChaosImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessChaosImageRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessChaosImageRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataHarnessChaosImageRegistry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/chaos_image_registry harness_chaos_image_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/chaos_image_registry harness_chaos_image_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataHarnessChaosImageRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_chaos_image_registry',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CloudproviderAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * The client id for the Azure application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#client_id CloudproviderAzure#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#client_id CloudproviderAzure#client_id}
   */
   readonly clientId: string;
   /**
   * The type of environment. Valid options are [AZURE AZURE_US_GOVERNMENT]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#environment_type CloudproviderAzure#environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#environment_type CloudproviderAzure#environment_type}
   */
   readonly environmentType?: string;
   /**
   * The Name of the Harness secret containing the key for the Azure application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#key CloudproviderAzure#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#key CloudproviderAzure#key}
   */
   readonly key: string;
   /**
   * The name of the cloud provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#name CloudproviderAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#name CloudproviderAzure#name}
   */
   readonly name: string;
   /**
   * The tenant id for the Azure application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#tenant_id CloudproviderAzure#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#tenant_id CloudproviderAzure#tenant_id}
   */
   readonly tenantId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure harness_cloudprovider_azure}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure harness_cloudprovider_azure}
 */
 export class CloudproviderAzure extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class CloudproviderAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudproviderAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudproviderAzure to import
-  * @param importFromId The id of the existing CloudproviderAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudproviderAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudproviderAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CloudproviderAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/cloudprovider_azure harness_cloudprovider_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/cloudprovider_azure harness_cloudprovider_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CloudproviderAzure extends cdktf.TerraformResource {
       terraformResourceType: 'harness_cloudprovider_azure',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

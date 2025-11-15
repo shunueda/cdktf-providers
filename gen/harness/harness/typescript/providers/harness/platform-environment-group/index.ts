@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformEnvironmentGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * Color of the environment group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#color PlatformEnvironmentGroup#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#color PlatformEnvironmentGroup#color}
   */
   readonly color?: string;
   /**
   * Enable this flag for force deletion of environment group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#force_delete PlatformEnvironmentGroup#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#force_delete PlatformEnvironmentGroup#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#id PlatformEnvironmentGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#id PlatformEnvironmentGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PlatformEnvironmentGroupConfig extends cdktf.TerraformMetaArgum
   /**
   * identifier of the environment group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#identifier PlatformEnvironmentGroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#identifier PlatformEnvironmentGroup#identifier}
   */
   readonly identifier: string;
   /**
   * org_id of the environment group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#org_id PlatformEnvironmentGroup#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#org_id PlatformEnvironmentGroup#org_id}
   */
   readonly orgId?: string;
   /**
   * project_id of the environment group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#project_id PlatformEnvironmentGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#project_id PlatformEnvironmentGroup#project_id}
   */
   readonly projectId?: string;
   /**
   * Env group YAML. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#yaml PlatformEnvironmentGroup#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#yaml PlatformEnvironmentGroup#yaml}
   */
   readonly yaml: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group harness_platform_environment_group}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group harness_platform_environment_group}
 */
 export class PlatformEnvironmentGroup extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class PlatformEnvironmentGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformEnvironmentGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformEnvironmentGroup to import
-  * @param importFromId The id of the existing PlatformEnvironmentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformEnvironmentGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformEnvironmentGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class PlatformEnvironmentGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_group harness_platform_environment_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_group harness_platform_environment_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class PlatformEnvironmentGroup extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_environment_group',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

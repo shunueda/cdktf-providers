@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ChaosSecurityGovernanceRuleConfig extends cdktf.TerraformMetaAr
   /**
   * List of condition IDs associated with this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#condition_ids ChaosSecurityGovernanceRule#condition_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#condition_ids ChaosSecurityGovernanceRule#condition_ids}
   */
   readonly conditionIds: string[];
   /**
   * Description of the security governance rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#description ChaosSecurityGovernanceRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#description ChaosSecurityGovernanceRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#id ChaosSecurityGovernanceRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#id ChaosSecurityGovernanceRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface ChaosSecurityGovernanceRuleConfig extends cdktf.TerraformMetaAr
   /**
   * Whether the rule is enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#is_enabled ChaosSecurityGovernanceRule#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#is_enabled ChaosSecurityGovernanceRule#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the security governance rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#name ChaosSecurityGovernanceRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#name ChaosSecurityGovernanceRule#name}
   */
   readonly name: string;
   /**
   * The organization ID of the security governance rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#org_id ChaosSecurityGovernanceRule#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#org_id ChaosSecurityGovernanceRule#org_id}
   */
   readonly orgId: string;
   /**
   * The project ID of the security governance rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#project_id ChaosSecurityGovernanceRule#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#project_id ChaosSecurityGovernanceRule#project_id}
   */
   readonly projectId: string;
   /**
   * Tags for the security governance rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#tags ChaosSecurityGovernanceRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#tags ChaosSecurityGovernanceRule#tags}
   */
   readonly tags?: string[];
   /**
   * List of user group IDs associated with this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#user_group_ids ChaosSecurityGovernanceRule#user_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#user_group_ids ChaosSecurityGovernanceRule#user_group_ids}
   */
   readonly userGroupIds?: string[];
   /**
   * time_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#time_windows ChaosSecurityGovernanceRule#time_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#time_windows ChaosSecurityGovernanceRule#time_windows}
   */
   readonly timeWindows: ChaosSecurityGovernanceRuleTimeWindows[] | cdktf.IResolvable;
 }
 export interface ChaosSecurityGovernanceRuleTimeWindowsRecurrence {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#type ChaosSecurityGovernanceRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#type ChaosSecurityGovernanceRule#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#until ChaosSecurityGovernanceRule#until}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#until ChaosSecurityGovernanceRule#until}
   */
   readonly until: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#value ChaosSecurityGovernanceRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#value ChaosSecurityGovernanceRule#value}
   */
   readonly value?: number;
 }
@@ -215,25 +215,25 @@ export class ChaosSecurityGovernanceRuleTimeWindowsRecurrenceOutputReference ext
 }
 export interface ChaosSecurityGovernanceRuleTimeWindows {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#duration ChaosSecurityGovernanceRule#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#duration ChaosSecurityGovernanceRule#duration}
   */
   readonly duration?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#end_time ChaosSecurityGovernanceRule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#end_time ChaosSecurityGovernanceRule#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#start_time ChaosSecurityGovernanceRule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#start_time ChaosSecurityGovernanceRule#start_time}
   */
   readonly startTime: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#time_zone ChaosSecurityGovernanceRule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#time_zone ChaosSecurityGovernanceRule#time_zone}
   */
   readonly timeZone: string;
   /**
   * recurrence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#recurrence ChaosSecurityGovernanceRule#recurrence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#recurrence ChaosSecurityGovernanceRule#recurrence}
   */
   readonly recurrence?: ChaosSecurityGovernanceRuleTimeWindowsRecurrence;
 }
@@ -459,7 +459,7 @@ export class ChaosSecurityGovernanceRuleTimeWindowsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule harness_chaos_security_governance_rule}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule harness_chaos_security_governance_rule}
 */
 export class ChaosSecurityGovernanceRule extends cdktf.TerraformResource {
 
@@ -475,7 +475,7 @@ export class ChaosSecurityGovernanceRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChaosSecurityGovernanceRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChaosSecurityGovernanceRule to import
-  * @param importFromId The id of the existing ChaosSecurityGovernanceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChaosSecurityGovernanceRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChaosSecurityGovernanceRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -487,7 +487,7 @@ export class ChaosSecurityGovernanceRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_security_governance_rule harness_chaos_security_governance_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_security_governance_rule harness_chaos_security_governance_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -498,8 +498,8 @@ export class ChaosSecurityGovernanceRule extends cdktf.TerraformResource {
       terraformResourceType: 'harness_chaos_security_governance_rule',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

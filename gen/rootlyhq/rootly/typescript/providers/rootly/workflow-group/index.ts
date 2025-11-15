@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WorkflowGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * A description of the workflow group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#description WorkflowGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#description WorkflowGroup#description}
   */
   readonly description?: string;
   /**
   * Whether the group is expanded or collapsed.. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#expanded WorkflowGroup#expanded}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#expanded WorkflowGroup#expanded}
   */
   readonly expanded?: boolean | cdktf.IResolvable;
   /**
   * An emoji icon displayed next to the workflow group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#icon WorkflowGroup#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#icon WorkflowGroup#icon}
   */
   readonly icon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#id WorkflowGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#id WorkflowGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface WorkflowGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The kind of the workflow group. Value must be one of `simple`, `incident`, `post_mortem`, `action_item`, `pulse`, `alert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#kind WorkflowGroup#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#kind WorkflowGroup#kind}
   */
   readonly kind?: string;
   /**
   * The name of the workflow group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#name WorkflowGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#name WorkflowGroup#name}
   */
   readonly name: string;
   /**
   * The position of the workflow group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#position WorkflowGroup#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#position WorkflowGroup#position}
   */
   readonly position?: number;
   /**
   * The slug of the workflow group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#slug WorkflowGroup#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#slug WorkflowGroup#slug}
   */
   readonly slug?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group rootly_workflow_group}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group rootly_workflow_group}
 */
 export class WorkflowGroup extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class WorkflowGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowGroup to import
-  * @param importFromId The id of the existing WorkflowGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class WorkflowGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_group rootly_workflow_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_group rootly_workflow_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class WorkflowGroup extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_group',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

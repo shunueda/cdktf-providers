@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessServiceDiscoverySettingConfig extends cdktf.Terrafor
   /**
   * Correlation ID for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting#correlation_id DataHarnessServiceDiscoverySetting#correlation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting#correlation_id DataHarnessServiceDiscoverySetting#correlation_id}
   */
   readonly correlationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting#id DataHarnessServiceDiscoverySetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting#id DataHarnessServiceDiscoverySetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DataHarnessServiceDiscoverySettingConfig extends cdktf.Terrafor
   /**
   * The organization identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting#org_identifier DataHarnessServiceDiscoverySetting#org_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting#org_identifier DataHarnessServiceDiscoverySetting#org_identifier}
   */
   readonly orgIdentifier?: string;
   /**
   * The project identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting#project_identifier DataHarnessServiceDiscoverySetting#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting#project_identifier DataHarnessServiceDiscoverySetting#project_identifier}
   */
   readonly projectIdentifier?: string;
 }
@@ -120,7 +120,7 @@ export class DataHarnessServiceDiscoverySettingImageRegistryList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting harness_service_discovery_setting}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting harness_service_discovery_setting}
 */
 export class DataHarnessServiceDiscoverySetting extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataHarnessServiceDiscoverySetting extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataHarnessServiceDiscoverySetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessServiceDiscoverySetting to import
-  * @param importFromId The id of the existing DataHarnessServiceDiscoverySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessServiceDiscoverySetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessServiceDiscoverySetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataHarnessServiceDiscoverySetting extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/service_discovery_setting harness_service_discovery_setting} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/service_discovery_setting harness_service_discovery_setting} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataHarnessServiceDiscoverySetting extends cdktf.TerraformDataSourc
       terraformResourceType: 'harness_service_discovery_setting',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

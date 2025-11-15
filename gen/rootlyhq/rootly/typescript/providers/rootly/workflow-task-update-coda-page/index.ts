@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdateCodaPageConfig extends cdktf.TerraformMetaArg
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#enabled WorkflowTaskUpdateCodaPage#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#enabled WorkflowTaskUpdateCodaPage#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#id WorkflowTaskUpdateCodaPage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#id WorkflowTaskUpdateCodaPage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskUpdateCodaPageConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#name WorkflowTaskUpdateCodaPage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#name WorkflowTaskUpdateCodaPage#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#position WorkflowTaskUpdateCodaPage#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#position WorkflowTaskUpdateCodaPage#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#skip_on_failure WorkflowTaskUpdateCodaPage#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#skip_on_failure WorkflowTaskUpdateCodaPage#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#workflow_id WorkflowTaskUpdateCodaPage#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#workflow_id WorkflowTaskUpdateCodaPage#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#task_params WorkflowTaskUpdateCodaPage#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#task_params WorkflowTaskUpdateCodaPage#task_params}
   */
   readonly taskParams: WorkflowTaskUpdateCodaPageTaskParams;
 }
@@ -55,41 +55,41 @@ export interface WorkflowTaskUpdateCodaPageTaskParams {
   /**
   * The Coda page content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#content WorkflowTaskUpdateCodaPage#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#content WorkflowTaskUpdateCodaPage#content}
   */
   readonly content?: string;
   /**
   * The Coda doc id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#doc_id WorkflowTaskUpdateCodaPage#doc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#doc_id WorkflowTaskUpdateCodaPage#doc_id}
   */
   readonly docId?: string;
   /**
   * The Coda page id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#page_id WorkflowTaskUpdateCodaPage#page_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#page_id WorkflowTaskUpdateCodaPage#page_id}
   */
   readonly pageId: string;
   /**
   * The Coda page subtitle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#subtitle WorkflowTaskUpdateCodaPage#subtitle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#subtitle WorkflowTaskUpdateCodaPage#subtitle}
   */
   readonly subtitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#task_type WorkflowTaskUpdateCodaPage#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#task_type WorkflowTaskUpdateCodaPage#task_type}
   */
   readonly taskType?: string;
   /**
   * Map must contain two fields, `id` and `name`. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#template WorkflowTaskUpdateCodaPage#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#template WorkflowTaskUpdateCodaPage#template}
   */
   readonly template?: { [key: string]: string };
   /**
   * The Coda page title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#title WorkflowTaskUpdateCodaPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#title WorkflowTaskUpdateCodaPage#title}
   */
   readonly title?: string;
 }
@@ -344,7 +344,7 @@ export class WorkflowTaskUpdateCodaPageTaskParamsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page rootly_workflow_task_update_coda_page}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page rootly_workflow_task_update_coda_page}
 */
 export class WorkflowTaskUpdateCodaPage extends cdktf.TerraformResource {
 
@@ -360,7 +360,7 @@ export class WorkflowTaskUpdateCodaPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdateCodaPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdateCodaPage to import
-  * @param importFromId The id of the existing WorkflowTaskUpdateCodaPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdateCodaPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdateCodaPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -372,7 +372,7 @@ export class WorkflowTaskUpdateCodaPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_coda_page rootly_workflow_task_update_coda_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_coda_page rootly_workflow_task_update_coda_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -383,8 +383,8 @@ export class WorkflowTaskUpdateCodaPage extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_coda_page',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

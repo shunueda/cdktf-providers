@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformDefaultNotificationTemplateSetConfig extends cdktf.Terr
   /**
   * Description for Default Notification Template Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#description PlatformDefaultNotificationTemplateSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#description PlatformDefaultNotificationTemplateSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#id PlatformDefaultNotificationTemplateSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#id PlatformDefaultNotificationTemplateSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,51 +23,51 @@ export interface PlatformDefaultNotificationTemplateSetConfig extends cdktf.Terr
   /**
   * Identifier of Default Notification Template Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#identifier PlatformDefaultNotificationTemplateSet#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#identifier PlatformDefaultNotificationTemplateSet#identifier}
   */
   readonly identifier: string;
   /**
   * Name of Default Notification Template Set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#name PlatformDefaultNotificationTemplateSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#name PlatformDefaultNotificationTemplateSet#name}
   */
   readonly name: string;
   /**
   * Type of channel (e.g. SLACK, EMAIL, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#notification_channel_type PlatformDefaultNotificationTemplateSet#notification_channel_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#notification_channel_type PlatformDefaultNotificationTemplateSet#notification_channel_type}
   */
   readonly notificationChannelType: string;
   /**
   * Type of the entity (e.g. PIPELINE, SERVICE, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#notification_entity PlatformDefaultNotificationTemplateSet#notification_entity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#notification_entity PlatformDefaultNotificationTemplateSet#notification_entity}
   */
   readonly notificationEntity: string;
   /**
   * Key-value tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#tags PlatformDefaultNotificationTemplateSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#tags PlatformDefaultNotificationTemplateSet#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * event_template_configuration_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#event_template_configuration_set PlatformDefaultNotificationTemplateSet#event_template_configuration_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#event_template_configuration_set PlatformDefaultNotificationTemplateSet#event_template_configuration_set}
   */
   readonly eventTemplateConfigurationSet: PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSet[] | cdktf.IResolvable;
 }
 export interface PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSetTemplateVariables {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#name PlatformDefaultNotificationTemplateSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#name PlatformDefaultNotificationTemplateSet#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#type PlatformDefaultNotificationTemplateSet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#type PlatformDefaultNotificationTemplateSet#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#value PlatformDefaultNotificationTemplateSet#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#value PlatformDefaultNotificationTemplateSet#value}
   */
   readonly value: string;
 }
@@ -232,17 +232,17 @@ export class PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSet
 }
 export interface PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSetTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#template_ref PlatformDefaultNotificationTemplateSet#template_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#template_ref PlatformDefaultNotificationTemplateSet#template_ref}
   */
   readonly templateRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#version_label PlatformDefaultNotificationTemplateSet#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#version_label PlatformDefaultNotificationTemplateSet#version_label}
   */
   readonly versionLabel: string;
   /**
   * variables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#variables PlatformDefaultNotificationTemplateSet#variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#variables PlatformDefaultNotificationTemplateSet#variables}
   */
   readonly variables?: PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSetTemplateVariables[] | cdktf.IResolvable;
 }
@@ -380,13 +380,13 @@ export interface PlatformDefaultNotificationTemplateSetEventTemplateConfiguratio
   /**
   * List of notification events like PIPELINE_START
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#notification_events PlatformDefaultNotificationTemplateSet#notification_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#notification_events PlatformDefaultNotificationTemplateSet#notification_events}
   */
   readonly notificationEvents: string[];
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#template PlatformDefaultNotificationTemplateSet#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#template PlatformDefaultNotificationTemplateSet#template}
   */
   readonly template: PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSetTemplate;
 }
@@ -525,7 +525,7 @@ export class PlatformDefaultNotificationTemplateSetEventTemplateConfigurationSet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set harness_platform_default_notification_template_set}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set harness_platform_default_notification_template_set}
 */
 export class PlatformDefaultNotificationTemplateSet extends cdktf.TerraformResource {
 
@@ -541,7 +541,7 @@ export class PlatformDefaultNotificationTemplateSet extends cdktf.TerraformResou
   * Generates CDKTF code for importing a PlatformDefaultNotificationTemplateSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformDefaultNotificationTemplateSet to import
-  * @param importFromId The id of the existing PlatformDefaultNotificationTemplateSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformDefaultNotificationTemplateSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformDefaultNotificationTemplateSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -553,7 +553,7 @@ export class PlatformDefaultNotificationTemplateSet extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_default_notification_template_set harness_platform_default_notification_template_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_default_notification_template_set harness_platform_default_notification_template_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -564,8 +564,8 @@ export class PlatformDefaultNotificationTemplateSet extends cdktf.TerraformResou
       terraformResourceType: 'harness_platform_default_notification_template_set',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

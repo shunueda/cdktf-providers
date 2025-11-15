@@ -9,6 +9,7 @@ Object.defineProperty(exports, 'autostoppingAzureProxy', { get: function () { re
 Object.defineProperty(exports, 'autostoppingGcpProxy', { get: function () { return require('./autostopping-gcp-proxy'); } });
 Object.defineProperty(exports, 'autostoppingRuleEcs', { get: function () { return require('./autostopping-rule-ecs'); } });
 Object.defineProperty(exports, 'autostoppingRuleRds', { get: function () { return require('./autostopping-rule-rds'); } });
+Object.defineProperty(exports, 'autostoppingRuleScaleGroup', { get: function () { return require('./autostopping-rule-scale-group'); } });
 Object.defineProperty(exports, 'autostoppingRuleVm', { get: function () { return require('./autostopping-rule-vm'); } });
 Object.defineProperty(exports, 'autostoppingSchedule', { get: function () { return require('./autostopping-schedule'); } });
 Object.defineProperty(exports, 'chaosHub', { get: function () { return require('./chaos-hub'); } });
@@ -141,6 +142,7 @@ Object.defineProperty(exports, 'platformRoles', { get: function () { return requ
 Object.defineProperty(exports, 'platformSecretFile', { get: function () { return require('./platform-secret-file'); } });
 Object.defineProperty(exports, 'platformSecretSshkey', { get: function () { return require('./platform-secret-sshkey'); } });
 Object.defineProperty(exports, 'platformSecretText', { get: function () { return require('./platform-secret-text'); } });
+Object.defineProperty(exports, 'platformSecretWinrm', { get: function () { return require('./platform-secret-winrm'); } });
 Object.defineProperty(exports, 'platformService', { get: function () { return require('./platform-service'); } });
 Object.defineProperty(exports, 'platformServiceAccount', { get: function () { return require('./platform-service-account'); } });
 Object.defineProperty(exports, 'platformServiceOverridesV2', { get: function () { return require('./platform-service-overrides-v2'); } });
@@ -177,6 +179,7 @@ Object.defineProperty(exports, 'dataHarnessAutostoppingAzureProxy', { get: funct
 Object.defineProperty(exports, 'dataHarnessAutostoppingGcpProxy', { get: function () { return require('./data-harness-autostopping-gcp-proxy'); } });
 Object.defineProperty(exports, 'dataHarnessAutostoppingRuleEcs', { get: function () { return require('./data-harness-autostopping-rule-ecs'); } });
 Object.defineProperty(exports, 'dataHarnessAutostoppingRuleRds', { get: function () { return require('./data-harness-autostopping-rule-rds'); } });
+Object.defineProperty(exports, 'dataHarnessAutostoppingRuleScaleGroup', { get: function () { return require('./data-harness-autostopping-rule-scale-group'); } });
 Object.defineProperty(exports, 'dataHarnessAutostoppingRuleVm', { get: function () { return require('./data-harness-autostopping-rule-vm'); } });
 Object.defineProperty(exports, 'dataHarnessAutostoppingSchedule', { get: function () { return require('./data-harness-autostopping-schedule'); } });
 Object.defineProperty(exports, 'dataHarnessChaosHub', { get: function () { return require('./data-harness-chaos-hub'); } });
@@ -304,6 +307,7 @@ Object.defineProperty(exports, 'dataHarnessPlatformRoles', { get: function () { 
 Object.defineProperty(exports, 'dataHarnessPlatformSecretFile', { get: function () { return require('./data-harness-platform-secret-file'); } });
 Object.defineProperty(exports, 'dataHarnessPlatformSecretSshkey', { get: function () { return require('./data-harness-platform-secret-sshkey'); } });
 Object.defineProperty(exports, 'dataHarnessPlatformSecretText', { get: function () { return require('./data-harness-platform-secret-text'); } });
+Object.defineProperty(exports, 'dataHarnessPlatformSecretWinrm', { get: function () { return require('./data-harness-platform-secret-winrm'); } });
 Object.defineProperty(exports, 'dataHarnessPlatformService', { get: function () { return require('./data-harness-platform-service'); } });
 Object.defineProperty(exports, 'dataHarnessPlatformServiceAccount', { get: function () { return require('./data-harness-platform-service-account'); } });
 Object.defineProperty(exports, 'dataHarnessPlatformServiceList', { get: function () { return require('./data-harness-platform-service-list'); } });

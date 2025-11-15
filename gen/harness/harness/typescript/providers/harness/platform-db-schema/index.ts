@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformDbSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#description PlatformDbSchema#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#description PlatformDbSchema#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#id PlatformDbSchema#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#id PlatformDbSchema#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,55 +23,55 @@ export interface PlatformDbSchemaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#identifier PlatformDbSchema#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#identifier PlatformDbSchema#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#name PlatformDbSchema#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#name PlatformDbSchema#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#org_id PlatformDbSchema#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#org_id PlatformDbSchema#org_id}
   */
   readonly orgId: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#project_id PlatformDbSchema#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#project_id PlatformDbSchema#project_id}
   */
   readonly projectId: string;
   /**
   * The service associated with schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#service PlatformDbSchema#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#service PlatformDbSchema#service}
   */
   readonly service?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#tags PlatformDbSchema#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#tags PlatformDbSchema#tags}
   */
   readonly tags?: string[];
   /**
   * Type of the database schema. Valid values are: SCRIPT, REPOSITORY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#type PlatformDbSchema#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#type PlatformDbSchema#type}
   */
   readonly type?: string;
   /**
   * changelog_script block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#changelog_script PlatformDbSchema#changelog_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#changelog_script PlatformDbSchema#changelog_script}
   */
   readonly changelogScript?: PlatformDbSchemaChangelogScript;
   /**
   * schema_source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#schema_source PlatformDbSchema#schema_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#schema_source PlatformDbSchema#schema_source}
   */
   readonly schemaSource?: PlatformDbSchemaSchemaSource;
 }
@@ -79,25 +79,25 @@ export interface PlatformDbSchemaChangelogScript {
   /**
   * Script to clone changeSets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#command PlatformDbSchema#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#command PlatformDbSchema#command}
   */
   readonly command?: string;
   /**
   * The fully-qualified name (FQN) of the image
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#image PlatformDbSchema#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#image PlatformDbSchema#image}
   */
   readonly image?: string;
   /**
   * Path to changeLog file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#location PlatformDbSchema#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#location PlatformDbSchema#location}
   */
   readonly location?: string;
   /**
   * Type of the shell. For example Sh or Bash
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#shell PlatformDbSchema#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#shell PlatformDbSchema#shell}
   */
   readonly shell?: string;
 }
@@ -270,25 +270,25 @@ export interface PlatformDbSchemaSchemaSource {
   /**
   * If connector type is artifactory, path to the archive file which contains the changeLog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#archive_path PlatformDbSchema#archive_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#archive_path PlatformDbSchema#archive_path}
   */
   readonly archivePath?: string;
   /**
   * Connector to repository at which to find details about the database schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#connector PlatformDbSchema#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#connector PlatformDbSchema#connector}
   */
   readonly connector: string;
   /**
   * The path within the specified repository at which to find details about the database schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#location PlatformDbSchema#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#location PlatformDbSchema#location}
   */
   readonly location: string;
   /**
   * If connector url is of account, which repository to connect to using the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#repo PlatformDbSchema#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#repo PlatformDbSchema#repo}
   */
   readonly repo?: string;
 }
@@ -453,7 +453,7 @@ export class PlatformDbSchemaSchemaSourceOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema harness_platform_db_schema}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema harness_platform_db_schema}
 */
 export class PlatformDbSchema extends cdktf.TerraformResource {
 
@@ -469,7 +469,7 @@ export class PlatformDbSchema extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformDbSchema resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformDbSchema to import
-  * @param importFromId The id of the existing PlatformDbSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformDbSchema that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformDbSchema to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -481,7 +481,7 @@ export class PlatformDbSchema extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_db_schema harness_platform_db_schema} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_db_schema harness_platform_db_schema} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -492,8 +492,8 @@ export class PlatformDbSchema extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_db_schema',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

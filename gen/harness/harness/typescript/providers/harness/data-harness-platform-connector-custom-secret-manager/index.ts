@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessPlatformConnectorCustomSecretManagerConfig extends c
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#delegate_selectors DataHarnessPlatformConnectorCustomSecretManager#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#delegate_selectors DataHarnessPlatformConnectorCustomSecretManager#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#id DataHarnessPlatformConnectorCustomSecretManager#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#id DataHarnessPlatformConnectorCustomSecretManager#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataHarnessPlatformConnectorCustomSecretManagerConfig extends c
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#identifier DataHarnessPlatformConnectorCustomSecretManager#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#identifier DataHarnessPlatformConnectorCustomSecretManager#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#name DataHarnessPlatformConnectorCustomSecretManager#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#name DataHarnessPlatformConnectorCustomSecretManager#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#org_id DataHarnessPlatformConnectorCustomSecretManager#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#org_id DataHarnessPlatformConnectorCustomSecretManager#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#project_id DataHarnessPlatformConnectorCustomSecretManager#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#project_id DataHarnessPlatformConnectorCustomSecretManager#project_id}
   */
   readonly projectId?: string;
 }
@@ -213,7 +213,7 @@ export class DataHarnessPlatformConnectorCustomSecretManagerTemplateInputsList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager}
 */
 export class DataHarnessPlatformConnectorCustomSecretManager extends cdktf.TerraformDataSource {
 
@@ -229,7 +229,7 @@ export class DataHarnessPlatformConnectorCustomSecretManager extends cdktf.Terra
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorCustomSecretManager resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorCustomSecretManager to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorCustomSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorCustomSecretManager that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorCustomSecretManager to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class DataHarnessPlatformConnectorCustomSecretManager extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_custom_secret_manager harness_platform_connector_custom_secret_manager} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class DataHarnessPlatformConnectorCustomSecretManager extends cdktf.Terra
       terraformResourceType: 'harness_platform_connector_custom_secret_manager',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

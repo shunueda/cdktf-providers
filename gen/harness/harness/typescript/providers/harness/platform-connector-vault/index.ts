@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface PlatformConnectorVaultConfig extends cdktf.TerraformMetaArgumen
   /**
   * Access type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#access_type PlatformConnectorVault#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#access_type PlatformConnectorVault#access_type}
   */
   readonly accessType?: string;
   /**
   * ID of App Role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#app_role_id PlatformConnectorVault#app_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#app_role_id PlatformConnectorVault#app_role_id}
   */
   readonly appRoleId?: string;
   /**
   * Authentication token for Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#auth_token PlatformConnectorVault#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#auth_token PlatformConnectorVault#auth_token}
   */
   readonly authToken?: string;
   /**
   * AWS region where the AWS IAM authentication will happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#aws_region PlatformConnectorVault#aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#aws_region PlatformConnectorVault#aws_region}
   */
   readonly awsRegion?: string;
   /**
   * Location of the Vault directory where the secret will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#base_path PlatformConnectorVault#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#base_path PlatformConnectorVault#base_path}
   */
   readonly basePath?: string;
   /**
   * Is default or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#default PlatformConnectorVault#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#default PlatformConnectorVault#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * List of Delegate Selectors that belong to the same Delegate and are used to connect to the Secret Manager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#delegate_selectors PlatformConnectorVault#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#delegate_selectors PlatformConnectorVault#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#description PlatformConnectorVault#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#description PlatformConnectorVault#description}
   */
   readonly description?: string;
   /**
   * Execute on delegate or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#execute_on_delegate PlatformConnectorVault#execute_on_delegate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#execute_on_delegate PlatformConnectorVault#execute_on_delegate}
   */
   readonly executeOnDelegate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#id PlatformConnectorVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#id PlatformConnectorVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,175 +71,175 @@ export interface PlatformConnectorVaultConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#identifier PlatformConnectorVault#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#identifier PlatformConnectorVault#identifier}
   */
   readonly identifier: string;
   /**
   * Is default or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#is_default PlatformConnectorVault#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#is_default PlatformConnectorVault#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Read only or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#is_read_only PlatformConnectorVault#is_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#is_read_only PlatformConnectorVault#is_read_only}
   */
   readonly isReadOnly?: boolean | cdktf.IResolvable;
   /**
   * The path where Kubernetes Auth is enabled in Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#k8s_auth_endpoint PlatformConnectorVault#k8s_auth_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#k8s_auth_endpoint PlatformConnectorVault#k8s_auth_endpoint}
   */
   readonly k8SAuthEndpoint?: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#name PlatformConnectorVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#name PlatformConnectorVault#name}
   */
   readonly name: string;
   /**
   * Vault namespace where the Secret will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#namespace PlatformConnectorVault#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#namespace PlatformConnectorVault#namespace}
   */
   readonly namespace?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#org_id PlatformConnectorVault#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#org_id PlatformConnectorVault#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#project_id PlatformConnectorVault#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#project_id PlatformConnectorVault#project_id}
   */
   readonly projectId?: string;
   /**
   * Read only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#read_only PlatformConnectorVault#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#read_only PlatformConnectorVault#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Boolean value to indicate if AppRole token renewal is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#renew_app_role_token PlatformConnectorVault#renew_app_role_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#renew_app_role_token PlatformConnectorVault#renew_app_role_token}
   */
   readonly renewAppRoleToken?: boolean | cdktf.IResolvable;
   /**
   * The time interval for the token renewal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#renewal_interval_minutes PlatformConnectorVault#renewal_interval_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#renewal_interval_minutes PlatformConnectorVault#renewal_interval_minutes}
   */
   readonly renewalIntervalMinutes: number;
   /**
   * Manually entered Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#secret_engine_manually_configured PlatformConnectorVault#secret_engine_manually_configured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#secret_engine_manually_configured PlatformConnectorVault#secret_engine_manually_configured}
   */
   readonly secretEngineManuallyConfigured?: boolean | cdktf.IResolvable;
   /**
   * Name of the Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#secret_engine_name PlatformConnectorVault#secret_engine_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#secret_engine_name PlatformConnectorVault#secret_engine_name}
   */
   readonly secretEngineName?: string;
   /**
   * Version of Secret Engine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#secret_engine_version PlatformConnectorVault#secret_engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#secret_engine_version PlatformConnectorVault#secret_engine_version}
   */
   readonly secretEngineVersion?: number;
   /**
   * ID of the Secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#secret_id PlatformConnectorVault#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#secret_id PlatformConnectorVault#secret_id}
   */
   readonly secretId?: string;
   /**
   * The Service Account token path in the K8s pod where the token is mounted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#service_account_token_path PlatformConnectorVault#service_account_token_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#service_account_token_path PlatformConnectorVault#service_account_token_path}
   */
   readonly serviceAccountTokenPath?: string;
   /**
   * The location from which the authentication token should be read.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#sink_path PlatformConnectorVault#sink_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#sink_path PlatformConnectorVault#sink_path}
   */
   readonly sinkPath?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#tags PlatformConnectorVault#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#tags PlatformConnectorVault#tags}
   */
   readonly tags?: string[];
   /**
   * Boolean value to indicate if AWS IAM is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#use_aws_iam PlatformConnectorVault#use_aws_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#use_aws_iam PlatformConnectorVault#use_aws_iam}
   */
   readonly useAwsIam?: boolean | cdktf.IResolvable;
   /**
   * Boolean value to indicate if JWT is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#use_jwt_auth PlatformConnectorVault#use_jwt_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#use_jwt_auth PlatformConnectorVault#use_jwt_auth}
   */
   readonly useJwtAuth?: boolean | cdktf.IResolvable;
   /**
   * Boolean value to indicate if K8s Auth is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#use_k8s_auth PlatformConnectorVault#use_k8s_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#use_k8s_auth PlatformConnectorVault#use_k8s_auth}
   */
   readonly useK8SAuth?: boolean | cdktf.IResolvable;
   /**
   * Boolean value to indicate if Vault Agent is used for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#use_vault_agent PlatformConnectorVault#use_vault_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#use_vault_agent PlatformConnectorVault#use_vault_agent}
   */
   readonly useVaultAgent?: boolean | cdktf.IResolvable;
   /**
   * The Vault role defined to bind to aws iam account/role being accessed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#vault_aws_iam_role PlatformConnectorVault#vault_aws_iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#vault_aws_iam_role PlatformConnectorVault#vault_aws_iam_role}
   */
   readonly vaultAwsIamRole?: string;
   /**
   * Custom path at with JWT auth in enabled for Vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#vault_jwt_auth_path PlatformConnectorVault#vault_jwt_auth_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#vault_jwt_auth_path PlatformConnectorVault#vault_jwt_auth_path}
   */
   readonly vaultJwtAuthPath?: string;
   /**
   * The Vault role defined with JWT auth type for accessing Vault as per policies binded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#vault_jwt_auth_role PlatformConnectorVault#vault_jwt_auth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#vault_jwt_auth_role PlatformConnectorVault#vault_jwt_auth_role}
   */
   readonly vaultJwtAuthRole?: string;
   /**
   * The role where K8s Auth will happen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#vault_k8s_auth_role PlatformConnectorVault#vault_k8s_auth_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#vault_k8s_auth_role PlatformConnectorVault#vault_k8s_auth_role}
   */
   readonly vaultK8SAuthRole?: string;
   /**
   * URL of the HashiCorp Vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#vault_url PlatformConnectorVault#vault_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#vault_url PlatformConnectorVault#vault_url}
   */
   readonly vaultUrl: string;
   /**
   * The AWS IAM Header Server ID that has been configured for this AWS IAM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#xvault_aws_iam_server_id PlatformConnectorVault#xvault_aws_iam_server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#xvault_aws_iam_server_id PlatformConnectorVault#xvault_aws_iam_server_id}
   */
   readonly xvaultAwsIamServerId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault harness_platform_connector_vault}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault harness_platform_connector_vault}
 */
 export class PlatformConnectorVault extends cdktf.TerraformResource {
 
@@ -255,7 +255,7 @@ export class PlatformConnectorVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorVault to import
-  * @param importFromId The id of the existing PlatformConnectorVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -267,7 +267,7 @@ export class PlatformConnectorVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_vault harness_platform_connector_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_vault harness_platform_connector_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -278,8 +278,8 @@ export class PlatformConnectorVault extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_vault',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

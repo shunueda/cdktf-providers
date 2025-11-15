@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,46 +10,46 @@ export interface UdldConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable UDLD protocol in aggressive mode on fiber ports exceptwhere locally configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#aggressive Udld#aggressive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#aggressive Udld#aggressive}
   */
   readonly aggressive?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#delete_mode Udld#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#delete_mode Udld#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#device Udld#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#device Udld#device}
   */
   readonly device?: string;
   /**
   * Enable UDLD protocol on fiber ports except where locally configured
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#enable Udld#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#enable Udld#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Set UDLD message time period
   *   - Range: `1`-`90`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#message_time Udld#message_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#message_time Udld#message_time}
   */
   readonly messageTime?: number;
   /**
   * timer-interval(sec)
   *   - Range: `30`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#recovery_interval Udld#recovery_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#recovery_interval Udld#recovery_interval}
   */
   readonly recoveryInterval?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld iosxe_udld}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld iosxe_udld}
 */
 export class Udld extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Udld extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Udld resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Udld to import
-  * @param importFromId The id of the existing Udld that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Udld that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Udld to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Udld extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/udld iosxe_udld} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/udld iosxe_udld} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Udld extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_udld',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

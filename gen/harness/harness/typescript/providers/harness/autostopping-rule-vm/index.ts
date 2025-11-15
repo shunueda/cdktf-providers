@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AutostoppingRuleVmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#cloud_connector_id AutostoppingRuleVm#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#cloud_connector_id AutostoppingRuleVm#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Custom URLs used to access the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#custom_domains AutostoppingRuleVm#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#custom_domains AutostoppingRuleVm#custom_domains}
   */
   readonly customDomains?: string[];
   /**
   * Boolean that indicates whether the AutoStopping rule should be created in DryRun mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#dry_run AutostoppingRuleVm#dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#dry_run AutostoppingRuleVm#dry_run}
   */
   readonly dryRun?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#id AutostoppingRuleVm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#id AutostoppingRuleVm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface AutostoppingRuleVmConfig extends cdktf.TerraformMetaArguments {
   /**
   * Idle time in minutes. This is the time that the AutoStopping rule waits before stopping the idle instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#idle_time_mins AutostoppingRuleVm#idle_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#idle_time_mins AutostoppingRuleVm#idle_time_mins}
   */
   readonly idleTimeMins?: number;
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#name AutostoppingRuleVm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#name AutostoppingRuleVm#name}
   */
   readonly name: string;
   /**
   * Boolean that indicates whether the selected instances should be converted to spot vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#use_spot AutostoppingRuleVm#use_spot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#use_spot AutostoppingRuleVm#use_spot}
   */
   readonly useSpot?: boolean | cdktf.IResolvable;
   /**
   * depends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#depends AutostoppingRuleVm#depends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#depends AutostoppingRuleVm#depends}
   */
   readonly depends?: AutostoppingRuleVmDepends[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#filter AutostoppingRuleVm#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#filter AutostoppingRuleVm#filter}
   */
   readonly filter: AutostoppingRuleVmFilter;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#http AutostoppingRuleVm#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#http AutostoppingRuleVm#http}
   */
   readonly http?: AutostoppingRuleVmHttp[] | cdktf.IResolvable;
   /**
   * tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#tcp AutostoppingRuleVm#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#tcp AutostoppingRuleVm#tcp}
   */
   readonly tcp?: AutostoppingRuleVmTcp[] | cdktf.IResolvable;
 }
@@ -79,13 +79,13 @@ export interface AutostoppingRuleVmDepends {
   /**
   * Number of seconds the rule should wait after warming up the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#delay_in_sec AutostoppingRuleVm#delay_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#delay_in_sec AutostoppingRuleVm#delay_in_sec}
   */
   readonly delayInSec?: number;
   /**
   * Rule id of the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#rule_id AutostoppingRuleVm#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#rule_id AutostoppingRuleVm#rule_id}
   */
   readonly ruleId: number;
 }
@@ -227,11 +227,11 @@ export class AutostoppingRuleVmDependsList extends cdktf.ComplexList {
 }
 export interface AutostoppingRuleVmFilterTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#key AutostoppingRuleVm#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#key AutostoppingRuleVm#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#value AutostoppingRuleVm#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#value AutostoppingRuleVm#value}
   */
   readonly value: string;
 }
@@ -372,25 +372,25 @@ export interface AutostoppingRuleVmFilter {
   /**
   * Regions of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#regions AutostoppingRuleVm#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#regions AutostoppingRuleVm#regions}
   */
   readonly regions?: string[];
   /**
   * Ids of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#vm_ids AutostoppingRuleVm#vm_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#vm_ids AutostoppingRuleVm#vm_ids}
   */
   readonly vmIds: string[];
   /**
   * Zones of instances that needs to be managed using the AutoStopping rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#zones AutostoppingRuleVm#zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#zones AutostoppingRuleVm#zones}
   */
   readonly zones?: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#tags AutostoppingRuleVm#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#tags AutostoppingRuleVm#tags}
   */
   readonly tags?: AutostoppingRuleVmFilterTags[] | cdktf.IResolvable;
 }
@@ -560,37 +560,37 @@ export interface AutostoppingRuleVmHttpHealth {
   /**
   * API path to use for health check
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#path AutostoppingRuleVm#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#path AutostoppingRuleVm#path}
   */
   readonly path?: string;
   /**
   * Health check port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
   */
   readonly port: number;
   /**
   * Protocol can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#protocol AutostoppingRuleVm#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#protocol AutostoppingRuleVm#protocol}
   */
   readonly protocol: string;
   /**
   * Lower limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#status_code_from AutostoppingRuleVm#status_code_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#status_code_from AutostoppingRuleVm#status_code_from}
   */
   readonly statusCodeFrom?: number;
   /**
   * Upper limit for acceptable status code
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#status_code_to AutostoppingRuleVm#status_code_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#status_code_to AutostoppingRuleVm#status_code_to}
   */
   readonly statusCodeTo?: number;
   /**
   * Health check timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#timeout AutostoppingRuleVm#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#timeout AutostoppingRuleVm#timeout}
   */
   readonly timeout?: number;
 }
@@ -847,31 +847,31 @@ export interface AutostoppingRuleVmHttpRouting {
   /**
   * Organization Identifier for the Entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#action AutostoppingRuleVm#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#action AutostoppingRuleVm#action}
   */
   readonly action?: string;
   /**
   * Port on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#source_port AutostoppingRuleVm#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#source_port AutostoppingRuleVm#source_port}
   */
   readonly sourcePort?: number;
   /**
   * Source protocol of the proxy can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#source_protocol AutostoppingRuleVm#source_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#source_protocol AutostoppingRuleVm#source_protocol}
   */
   readonly sourceProtocol: string;
   /**
   * Port on the VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#target_port AutostoppingRuleVm#target_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#target_port AutostoppingRuleVm#target_port}
   */
   readonly targetPort?: number;
   /**
   * Target protocol of the instance can be http or https
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#target_protocol AutostoppingRuleVm#target_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#target_protocol AutostoppingRuleVm#target_protocol}
   */
   readonly targetProtocol: string;
 }
@@ -1099,19 +1099,19 @@ export interface AutostoppingRuleVmHttp {
   /**
   * Id of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#proxy_id AutostoppingRuleVm#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#proxy_id AutostoppingRuleVm#proxy_id}
   */
   readonly proxyId: string;
   /**
   * health block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#health AutostoppingRuleVm#health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#health AutostoppingRuleVm#health}
   */
   readonly health?: AutostoppingRuleVmHttpHealth[] | cdktf.IResolvable;
   /**
   * routing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#routing AutostoppingRuleVm#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#routing AutostoppingRuleVm#routing}
   */
   readonly routing?: AutostoppingRuleVmHttpRouting[] | cdktf.IResolvable;
 }
@@ -1284,13 +1284,13 @@ export interface AutostoppingRuleVmTcpForwardRule {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
   */
   readonly port: number;
 }
@@ -1434,13 +1434,13 @@ export interface AutostoppingRuleVmTcpRdp {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
   */
   readonly port?: number;
 }
@@ -1587,13 +1587,13 @@ export interface AutostoppingRuleVmTcpSsh {
   /**
   * Port to listen on the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#connect_on AutostoppingRuleVm#connect_on}
   */
   readonly connectOn?: number;
   /**
   * Port to listen on the vm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#port AutostoppingRuleVm#port}
   */
   readonly port?: number;
 }
@@ -1740,25 +1740,25 @@ export interface AutostoppingRuleVmTcp {
   /**
   * Id of the Proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#proxy_id AutostoppingRuleVm#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#proxy_id AutostoppingRuleVm#proxy_id}
   */
   readonly proxyId: string;
   /**
   * forward_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#forward_rule AutostoppingRuleVm#forward_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#forward_rule AutostoppingRuleVm#forward_rule}
   */
   readonly forwardRule?: AutostoppingRuleVmTcpForwardRule[] | cdktf.IResolvable;
   /**
   * rdp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#rdp AutostoppingRuleVm#rdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#rdp AutostoppingRuleVm#rdp}
   */
   readonly rdp?: AutostoppingRuleVmTcpRdp[] | cdktf.IResolvable;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#ssh AutostoppingRuleVm#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#ssh AutostoppingRuleVm#ssh}
   */
   readonly ssh?: AutostoppingRuleVmTcpSsh[] | cdktf.IResolvable;
 }
@@ -1958,7 +1958,7 @@ export class AutostoppingRuleVmTcpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm harness_autostopping_rule_vm}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm harness_autostopping_rule_vm}
 */
 export class AutostoppingRuleVm extends cdktf.TerraformResource {
 
@@ -1974,7 +1974,7 @@ export class AutostoppingRuleVm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingRuleVm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingRuleVm to import
-  * @param importFromId The id of the existing AutostoppingRuleVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingRuleVm that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingRuleVm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1986,7 +1986,7 @@ export class AutostoppingRuleVm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_rule_vm harness_autostopping_rule_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_rule_vm harness_autostopping_rule_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1997,8 +1997,8 @@ export class AutostoppingRuleVm extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_rule_vm',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

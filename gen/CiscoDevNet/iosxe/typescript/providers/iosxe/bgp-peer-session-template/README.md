@@ -1,3 +1,3 @@
 # `iosxe_bgp_peer_session_template`
 
-Refer to the Terraform Registry for docs: [`iosxe_bgp_peer_session_template`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_peer_session_template).
+Refer to the Terraform Registry for docs: [`iosxe_bgp_peer_session_template`](https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_peer_session_template).

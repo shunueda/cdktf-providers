@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,205 +8,205 @@ import * as cdktf from 'cdktf';
 
 export interface BgpNeighborConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#asn BgpNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#asn BgpNeighbor#asn}
   */
   readonly asn: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#cluster_id BgpNeighbor#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#cluster_id BgpNeighbor#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#delete_mode BgpNeighbor#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#delete_mode BgpNeighbor#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Neighbor specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#description BgpNeighbor#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#description BgpNeighbor#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#device BgpNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#device BgpNeighbor#device}
   */
   readonly device?: string;
   /**
   * one-hop away EBGP peer using loopback address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#disable_connected_check BgpNeighbor#disable_connected_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#disable_connected_check BgpNeighbor#disable_connected_check}
   */
   readonly disableConnectedCheck?: boolean | cdktf.IResolvable;
   /**
   * Allow EBGP neighbors not on directly connected networks. For single-hop ebgp peers, delete ebgp-multihop directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#ebgp_multihop BgpNeighbor#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#ebgp_multihop BgpNeighbor#ebgp_multihop}
   */
   readonly ebgpMultihop?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `2`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#ebgp_multihop_max_hop BgpNeighbor#ebgp_multihop_max_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#ebgp_multihop_max_hop BgpNeighbor#ebgp_multihop_max_hop}
   */
   readonly ebgpMultihopMaxHop?: number;
   /**
   * Use BFD to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_bfd BgpNeighbor#fall_over_bfd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_bfd BgpNeighbor#fall_over_bfd}
   */
   readonly fallOverBfd?: boolean | cdktf.IResolvable;
   /**
   * Retrieve control plane dependent failure info from BFD for BGP GR/NSR operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_bfd_check_control_plane_failure BgpNeighbor#fall_over_bfd_check_control_plane_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_bfd_check_control_plane_failure BgpNeighbor#fall_over_bfd_check_control_plane_failure}
   */
   readonly fallOverBfdCheckControlPlaneFailure?: boolean | cdktf.IResolvable;
   /**
   * Force BFD multi-hop to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_bfd_multi_hop BgpNeighbor#fall_over_bfd_multi_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_bfd_multi_hop BgpNeighbor#fall_over_bfd_multi_hop}
   */
   readonly fallOverBfdMultiHop?: boolean | cdktf.IResolvable;
   /**
   * Force BFD single-hop to detect failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_bfd_single_hop BgpNeighbor#fall_over_bfd_single_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_bfd_single_hop BgpNeighbor#fall_over_bfd_single_hop}
   */
   readonly fallOverBfdSingleHop?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD strict-mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_bfd_strict_mode BgpNeighbor#fall_over_bfd_strict_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_bfd_strict_mode BgpNeighbor#fall_over_bfd_strict_mode}
   */
   readonly fallOverBfdStrictMode?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_default_enable BgpNeighbor#fall_over_default_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_default_enable BgpNeighbor#fall_over_default_enable}
   */
   readonly fallOverDefaultEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_default_route_map BgpNeighbor#fall_over_default_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_default_route_map BgpNeighbor#fall_over_default_route_map}
   */
   readonly fallOverDefaultRouteMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#fall_over_maximum_metric_route_map BgpNeighbor#fall_over_maximum_metric_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#fall_over_maximum_metric_route_map BgpNeighbor#fall_over_maximum_metric_route_map}
   */
   readonly fallOverMaximumMetricRouteMap?: string;
   /**
   * Inherit a peer-session template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#inherit_peer_session BgpNeighbor#inherit_peer_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#inherit_peer_session BgpNeighbor#inherit_peer_session}
   */
   readonly inheritPeerSession?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#ip BgpNeighbor#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#ip BgpNeighbor#ip}
   */
   readonly ip: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#local_as BgpNeighbor#local_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#local_as BgpNeighbor#local_as}
   */
   readonly localAs?: string;
   /**
   * Accept either real AS or local AS from the ebgp peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#local_as_dual_as BgpNeighbor#local_as_dual_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#local_as_dual_as BgpNeighbor#local_as_dual_as}
   */
   readonly localAsDualAs?: boolean | cdktf.IResolvable;
   /**
   * Do not prepend local-as to updates from ebgp peers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#local_as_no_prepend BgpNeighbor#local_as_no_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#local_as_no_prepend BgpNeighbor#local_as_no_prepend}
   */
   readonly localAsNoPrepend?: boolean | cdktf.IResolvable;
   /**
   * Replace real AS with local AS in the EBGP updates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#local_as_replace_as BgpNeighbor#local_as_replace_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#local_as_replace_as BgpNeighbor#local_as_replace_as}
   */
   readonly localAsReplaceAs?: boolean | cdktf.IResolvable;
   /**
   * Log neighbor up/down and reset reason
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#log_neighbor_changes BgpNeighbor#log_neighbor_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#log_neighbor_changes BgpNeighbor#log_neighbor_changes}
   */
   readonly logNeighborChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#password BgpNeighbor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#password BgpNeighbor#password}
   */
   readonly password?: string;
   /**
   * Encryption type (0 to disable encryption, 7 for proprietary)
   *   - Range: `0`-`7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#password_type BgpNeighbor#password_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#password_type BgpNeighbor#password_type}
   */
   readonly passwordType?: number;
   /**
   * peer-group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#peer_group BgpNeighbor#peer_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#peer_group BgpNeighbor#peer_group}
   */
   readonly peerGroup?: string;
   /**
   * Specify a BGP peer-group remote-as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#remote_as BgpNeighbor#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#remote_as BgpNeighbor#remote_as}
   */
   readonly remoteAs?: string;
   /**
   * Administratively shut down this neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#shutdown BgpNeighbor#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#shutdown BgpNeighbor#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#timers_holdtime BgpNeighbor#timers_holdtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#timers_holdtime BgpNeighbor#timers_holdtime}
   */
   readonly timersHoldtime?: number;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#timers_keepalive_interval BgpNeighbor#timers_keepalive_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#timers_keepalive_interval BgpNeighbor#timers_keepalive_interval}
   */
   readonly timersKeepaliveInterval?: number;
   /**
   * 
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#timers_minimum_neighbor_hold BgpNeighbor#timers_minimum_neighbor_hold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#timers_minimum_neighbor_hold BgpNeighbor#timers_minimum_neighbor_hold}
   */
   readonly timersMinimumNeighborHold?: number;
   /**
   * IP hops
   *   - Range: `1`-`254`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#ttl_security_hops BgpNeighbor#ttl_security_hops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#ttl_security_hops BgpNeighbor#ttl_security_hops}
   */
   readonly ttlSecurityHops?: number;
   /**
   * Loopback interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#update_source_interface_loopback BgpNeighbor#update_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#update_source_interface_loopback BgpNeighbor#update_source_interface_loopback}
   */
   readonly updateSourceInterfaceLoopback?: number;
   /**
   * Set the BGP version to match a neighbor
   *   - Range: `4`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#version BgpNeighbor#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#version BgpNeighbor#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor iosxe_bgp_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor iosxe_bgp_neighbor}
 */
 export class BgpNeighbor extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class BgpNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpNeighbor to import
-  * @param importFromId The id of the existing BgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class BgpNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/bgp_neighbor iosxe_bgp_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/bgp_neighbor iosxe_bgp_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class BgpNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "harness": "0.39.0"
+    "harness": "0.39.2"
   }
 }

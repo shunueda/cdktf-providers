@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface UserGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#description UserGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#description UserGroup#description}
   */
   readonly description?: string;
   /**
   * The name of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#name UserGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#name UserGroup#name}
   */
   readonly name: string;
   /**
   * ldap_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#ldap_settings UserGroup#ldap_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#ldap_settings UserGroup#ldap_settings}
   */
   readonly ldapSettings?: UserGroupLdapSettings;
   /**
   * notification_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#notification_settings UserGroup#notification_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#notification_settings UserGroup#notification_settings}
   */
   readonly notificationSettings?: UserGroupNotificationSettings;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#permissions UserGroup#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#permissions UserGroup#permissions}
   */
   readonly permissions?: UserGroupPermissions;
   /**
   * saml_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#saml_settings UserGroup#saml_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#saml_settings UserGroup#saml_settings}
   */
   readonly samlSettings?: UserGroupSamlSettings;
 }
@@ -48,19 +48,19 @@ export interface UserGroupLdapSettings {
   /**
   * The group DN of the LDAP user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#group_dn UserGroup#group_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#group_dn UserGroup#group_dn}
   */
   readonly groupDn?: string;
   /**
   * The group name of the LDAP user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#group_name UserGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#group_name UserGroup#group_name}
   */
   readonly groupName?: string;
   /**
   * The ID of the SSO provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#sso_provider_id UserGroup#sso_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#sso_provider_id UserGroup#sso_provider_id}
   */
   readonly ssoProviderId?: string;
 }
@@ -204,37 +204,37 @@ export interface UserGroupNotificationSettings {
   /**
   * The email addresses of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#group_email_addresses UserGroup#group_email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#group_email_addresses UserGroup#group_email_addresses}
   */
   readonly groupEmailAddresses?: string[];
   /**
   * The Microsoft Teams webhook URL of the user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#microsoft_teams_webhook_url UserGroup#microsoft_teams_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#microsoft_teams_webhook_url UserGroup#microsoft_teams_webhook_url}
   */
   readonly microsoftTeamsWebhookUrl?: string;
   /**
   * Indicates whether an email is sent when a new user is added to the group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#send_mail_to_new_members UserGroup#send_mail_to_new_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#send_mail_to_new_members UserGroup#send_mail_to_new_members}
   */
   readonly sendMailToNewMembers?: boolean | cdktf.IResolvable;
   /**
   * Enable this setting to have notifications sent to the members of this group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#send_notifications_to_members UserGroup#send_notifications_to_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#send_notifications_to_members UserGroup#send_notifications_to_members}
   */
   readonly sendNotificationsToMembers?: boolean | cdktf.IResolvable;
   /**
   * The Slack channel to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#slack_channel UserGroup#slack_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#slack_channel UserGroup#slack_channel}
   */
   readonly slackChannel?: string;
   /**
   * The Slack webhook URL to send notifications to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#slack_webhook_url UserGroup#slack_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#slack_webhook_url UserGroup#slack_webhook_url}
   */
   readonly slackWebhookUrl?: string;
 }
@@ -465,13 +465,13 @@ export interface UserGroupPermissionsAppPermissionsAll {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE, EXECUTE_WORKFLOW, EXECUTE_PIPELINE, ROLLBACK_WORKFLOW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
 }
@@ -615,25 +615,25 @@ export interface UserGroupPermissionsAppPermissionsDeployment {
   /**
   * The actions allowed to be performed. Valid options are READ, EXECUTE_WORKFLOW, EXECUTE_PIPELINE, ROLLBACK_WORKFLOW, ABORT_WORKFLOW
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The environment IDs to which the permission applies. Leave empty to apply to all environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#env_ids UserGroup#env_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#env_ids UserGroup#env_ids}
   */
   readonly envIds?: string[];
   /**
   * The filters to apply to the action. Valid options are: NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#filters UserGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#filters UserGroup#filters}
   */
   readonly filters?: string[];
 }
@@ -835,25 +835,25 @@ export interface UserGroupPermissionsAppPermissionsEnvironment {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The environment IDs to which the permission applies. Leave empty to apply to all environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#env_ids UserGroup#env_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#env_ids UserGroup#env_ids}
   */
   readonly envIds?: string[];
   /**
   * The filters to apply to the action. Valid options are: NON_PRODUCTION_ENVIRONMENTS, PRODUCTION_ENVIRONMENTS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#filters UserGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#filters UserGroup#filters}
   */
   readonly filters?: string[];
 }
@@ -1055,25 +1055,25 @@ export interface UserGroupPermissionsAppPermissionsPipeline {
   /**
   * The actions allowed to be performed. Valid options are [CREATE READ UPDATE DELETE]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The environment IDs to which the permission applies. Leave empty to apply to all environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#env_ids UserGroup#env_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#env_ids UserGroup#env_ids}
   */
   readonly envIds?: string[];
   /**
   * The filters to apply to the action. Valid options are: NON_PRODUCTION_PIPELINES, PRODUCTION_PIPELINES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#filters UserGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#filters UserGroup#filters}
   */
   readonly filters?: string[];
 }
@@ -1275,19 +1275,19 @@ export interface UserGroupPermissionsAppPermissionsProvisioner {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The provisioner IDs to which the permission applies. Leave empty to apply to all provisioners.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#provisioner_ids UserGroup#provisioner_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#provisioner_ids UserGroup#provisioner_ids}
   */
   readonly provisionerIds?: string[];
 }
@@ -1460,19 +1460,19 @@ export interface UserGroupPermissionsAppPermissionsService {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The service IDs to which the permission applies. Leave empty to apply to all services.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#service_ids UserGroup#service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#service_ids UserGroup#service_ids}
   */
   readonly serviceIds?: string[];
 }
@@ -1645,19 +1645,19 @@ export interface UserGroupPermissionsAppPermissionsTemplate {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The template IDs to which the permission applies. Leave empty to apply to all environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#template_ids UserGroup#template_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#template_ids UserGroup#template_ids}
   */
   readonly templateIds?: string[];
 }
@@ -1830,19 +1830,19 @@ export interface UserGroupPermissionsAppPermissionsWorkflow {
   /**
   * The actions allowed to be performed. Valid options are CREATE, READ, UPDATE, DELETE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#actions UserGroup#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#actions UserGroup#actions}
   */
   readonly actions: string[];
   /**
   * The application IDs to which the permission applies. Leave empty to apply to all applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_ids UserGroup#app_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_ids UserGroup#app_ids}
   */
   readonly appIds?: string[];
   /**
   * The filters to apply to the action. Valid options are: NON_PRODUCTION_WORKFLOWS, PRODUCTION_WORKFLOWS, WORKFLOW_TEMPLATES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#filters UserGroup#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#filters UserGroup#filters}
   */
   readonly filters?: string[];
 }
@@ -2015,49 +2015,49 @@ export interface UserGroupPermissionsAppPermissions {
   /**
   * all block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#all UserGroup#all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#all UserGroup#all}
   */
   readonly all?: UserGroupPermissionsAppPermissionsAll[] | cdktf.IResolvable;
   /**
   * deployment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#deployment UserGroup#deployment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#deployment UserGroup#deployment}
   */
   readonly deployment?: UserGroupPermissionsAppPermissionsDeployment[] | cdktf.IResolvable;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#environment UserGroup#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#environment UserGroup#environment}
   */
   readonly environment?: UserGroupPermissionsAppPermissionsEnvironment[] | cdktf.IResolvable;
   /**
   * pipeline block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#pipeline UserGroup#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#pipeline UserGroup#pipeline}
   */
   readonly pipeline?: UserGroupPermissionsAppPermissionsPipeline[] | cdktf.IResolvable;
   /**
   * provisioner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#provisioner UserGroup#provisioner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#provisioner UserGroup#provisioner}
   */
   readonly provisioner?: UserGroupPermissionsAppPermissionsProvisioner[] | cdktf.IResolvable;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#service UserGroup#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#service UserGroup#service}
   */
   readonly service?: UserGroupPermissionsAppPermissionsService[] | cdktf.IResolvable;
   /**
   * template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#template UserGroup#template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#template UserGroup#template}
   */
   readonly template?: UserGroupPermissionsAppPermissionsTemplate[] | cdktf.IResolvable;
   /**
   * workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#workflow UserGroup#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#workflow UserGroup#workflow}
   */
   readonly workflow?: UserGroupPermissionsAppPermissionsWorkflow[] | cdktf.IResolvable;
 }
@@ -2346,13 +2346,13 @@ export interface UserGroupPermissions {
   /**
   * The account permissions of the user group. Valid options are ADMINISTER_OTHER_ACCOUNT_FUNCTIONS, CREATE_AND_DELETE_APPLICATION, CREATE_CUSTOM_DASHBOARDS, MANAGE_ALERT_NOTIFICATION_RULES, MANAGE_API_KEYS, MANAGE_APPLICATION_STACKS, MANAGE_AUTHENTICATION_SETTINGS, MANAGE_CLOUD_PROVIDERS, MANAGE_CONFIG_AS_CODE, MANAGE_CONNECTORS, MANAGE_CUSTOM_DASHBOARDS, MANAGE_DELEGATE_PROFILES, MANAGE_DELEGATES, MANAGE_DEPLOYMENT_FREEZES, MANAGE_IP_WHITELIST, MANAGE_PIPELINE_GOVERNANCE_STANDARDS, MANAGE_RESTRICTED_ACCESS, MANAGE_SECRET_MANAGERS, MANAGE_SECRETS, MANAGE_SSH_AND_WINRM, MANAGE_TAGS, MANAGE_TEMPLATE_LIBRARY, MANAGE_USER_AND_USER_GROUPS_AND_API_KEYS, MANAGE_USERS_AND_GROUPS, READ_USERS_AND_GROUPS, VIEW_AUDITS, VIEW_USER_AND_USER_GROUPS_AND_API_KEYS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#account_permissions UserGroup#account_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#account_permissions UserGroup#account_permissions}
   */
   readonly accountPermissions?: string[];
   /**
   * app_permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#app_permissions UserGroup#app_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#app_permissions UserGroup#app_permissions}
   */
   readonly appPermissions?: UserGroupPermissionsAppPermissions;
 }
@@ -2467,13 +2467,13 @@ export interface UserGroupSamlSettings {
   /**
   * The group name of the SAML user group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#group_name UserGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#group_name UserGroup#group_name}
   */
   readonly groupName?: string;
   /**
   * The ID of the SSO provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#sso_provider_id UserGroup#sso_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#sso_provider_id UserGroup#sso_provider_id}
   */
   readonly ssoProviderId?: string;
 }
@@ -2586,7 +2586,7 @@ export class UserGroupSamlSettingsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group harness_user_group}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group harness_user_group}
 */
 export class UserGroup extends cdktf.TerraformResource {
 
@@ -2602,7 +2602,7 @@ export class UserGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserGroup to import
-  * @param importFromId The id of the existing UserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2614,7 +2614,7 @@ export class UserGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/user_group harness_user_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/user_group harness_user_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2625,8 +2625,8 @@ export class UserGroup extends cdktf.TerraformResource {
       terraformResourceType: 'harness_user_group',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

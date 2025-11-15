@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,55 +11,55 @@ export interface FederatedHelmociRepositoryConfig extends cdktf.TerraformMetaArg
   * When set, you may view content such as HTML or Javadoc files directly from Artifactory.
   * This may not be safe and therefore requires strict content moderation to prevent malicious users from uploading content that may compromise security (e.g., cross-site scripting attacks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#archive_browsing_enabled FederatedHelmociRepository#archive_browsing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#archive_browsing_enabled FederatedHelmociRepository#archive_browsing_enabled}
   */
   readonly archiveBrowsingEnabled?: boolean | cdktf.IResolvable;
   /**
   * When set, the repository does not participate in artifact resolution and new artifacts cannot be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#blacked_out FederatedHelmociRepository#blacked_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#blacked_out FederatedHelmociRepository#blacked_out}
   */
   readonly blackedOut?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from AWS CloudFront. Available in Enterprise+ and Edge licenses only. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#cdn_redirect FederatedHelmociRepository#cdn_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#cdn_redirect FederatedHelmociRepository#cdn_redirect}
   */
   readonly cdnRedirect?: boolean | cdktf.IResolvable;
   /**
   * Delete all federated members on `terraform destroy` if set to `true`. Caution: it will delete all the repositories in the federation on other Artifactory instances. Set `access_token` attribute if Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#cleanup_on_delete FederatedHelmociRepository#cleanup_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#cleanup_on_delete FederatedHelmociRepository#cleanup_on_delete}
   */
   readonly cleanupOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#description FederatedHelmociRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#description FederatedHelmociRepository#description}
   */
   readonly description?: string;
   /**
   * When set to `true`, the proxy is disabled, and not returned in the API response body. If there is a default proxy set for the Artifactory instance, it will be ignored, too. Introduced since Artifactory 7.41.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#disable_proxy FederatedHelmociRepository#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#disable_proxy FederatedHelmociRepository#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from the cloud storage provider. Available in Enterprise+ and Edge licenses only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#download_direct FederatedHelmociRepository#download_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#download_direct FederatedHelmociRepository#download_direct}
   */
   readonly downloadDirect?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#excludes_pattern FederatedHelmociRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#excludes_pattern FederatedHelmociRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#id FederatedHelmociRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#id FederatedHelmociRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ export interface FederatedHelmociRepositoryConfig extends cdktf.TerraformMetaArg
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#includes_pattern FederatedHelmociRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#includes_pattern FederatedHelmociRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -76,7 +76,7 @@ export interface FederatedHelmociRepositoryConfig extends cdktf.TerraformMetaArg
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#key FederatedHelmociRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#key FederatedHelmociRepository#key}
   */
   readonly key: string;
   /**
@@ -84,67 +84,67 @@ export interface FederatedHelmociRepositoryConfig extends cdktf.TerraformMetaArg
   * Once the number tags for an image exceeds this setting, older tags are removed. A value of 0 (default) indicates there is no limit.
   * This only applies to manifest v2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#max_unique_tags FederatedHelmociRepository#max_unique_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#max_unique_tags FederatedHelmociRepository#max_unique_tags}
   */
   readonly maxUniqueTags?: number;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#notes FederatedHelmociRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#notes FederatedHelmociRepository#notes}
   */
   readonly notes?: string;
   /**
   * Setting repositories with priority will cause metadata to be merged only from repositories set with this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#priority_resolution FederatedHelmociRepository#priority_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#priority_resolution FederatedHelmociRepository#priority_resolution}
   */
   readonly priorityResolution?: boolean | cdktf.IResolvable;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#project_environments FederatedHelmociRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#project_environments FederatedHelmociRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#project_key FederatedHelmociRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#project_key FederatedHelmociRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of property set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#property_sets FederatedHelmociRepository#property_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#property_sets FederatedHelmociRepository#property_sets}
   */
   readonly propertySets?: string[];
   /**
   * Proxy key from Artifactory Proxies settings. Can't be set if `disable_proxy = true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#proxy FederatedHelmociRepository#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#proxy FederatedHelmociRepository#proxy}
   */
   readonly proxy?: string;
   /**
   * Repository layout key for the federated repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#repo_layout_ref FederatedHelmociRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#repo_layout_ref FederatedHelmociRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * If greater than 1, overwritten tags will be saved by their digest, up to the set up number. This only applies to manifest V2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#tag_retention FederatedHelmociRepository#tag_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#tag_retention FederatedHelmociRepository#tag_retention}
   */
   readonly tagRetention?: number;
   /**
   * Enable Indexing In Xray. Repository will be indexed with the default retention period. You will be able to change it via Xray settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#xray_index FederatedHelmociRepository#xray_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#xray_index FederatedHelmociRepository#xray_index}
   */
   readonly xrayIndex?: boolean | cdktf.IResolvable;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#member FederatedHelmociRepository#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#member FederatedHelmociRepository#member}
   */
   readonly member: FederatedHelmociRepositoryMember[] | cdktf.IResolvable;
 }
@@ -152,19 +152,19 @@ export interface FederatedHelmociRepositoryMember {
   /**
   * Admin access token for this member Artifactory instance. Used in conjunction with `cleanup_on_delete` attribute when Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#access_token FederatedHelmociRepository#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#access_token FederatedHelmociRepository#access_token}
   */
   readonly accessToken?: string;
   /**
   * Represents the active state of the federated member. It is supported to change the enabled status of my own member. The config will be updated on the other federated members automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#enabled FederatedHelmociRepository#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#enabled FederatedHelmociRepository#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Full URL to ending with the repositoryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#url FederatedHelmociRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#url FederatedHelmociRepository#url}
   */
   readonly url: string;
 }
@@ -332,7 +332,7 @@ export class FederatedHelmociRepositoryMemberList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository artifactory_federated_helmoci_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository artifactory_federated_helmoci_repository}
 */
 export class FederatedHelmociRepository extends cdktf.TerraformResource {
 
@@ -348,7 +348,7 @@ export class FederatedHelmociRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FederatedHelmociRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FederatedHelmociRepository to import
-  * @param importFromId The id of the existing FederatedHelmociRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FederatedHelmociRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FederatedHelmociRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -360,7 +360,7 @@ export class FederatedHelmociRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/federated_helmoci_repository artifactory_federated_helmoci_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/federated_helmoci_repository artifactory_federated_helmoci_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -371,8 +371,8 @@ export class FederatedHelmociRepository extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_federated_helmoci_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataArtifactoryRepositoriesConfig extends cdktf.TerraformMetaAr
   /**
   * Filter for repositories of a specific package type. Allowed values are: alpine, bower, cargo, chef, cocoapods, composer, conan, conda, cran, debian, docker, gems, generic, gitlfs, go, gradle, helm, huggingfaceml, ivy, maven, npm, nuget, opkg, p2, pub, puppet, pypi, rpm, sbt, swift, terraform, terraformbackend, vagrant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories#package_type DataArtifactoryRepositories#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories#package_type DataArtifactoryRepositories#package_type}
   */
   readonly packageType?: string;
   /**
   * Filter for repositories assigned to a specific project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories#project_key DataArtifactoryRepositories#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories#project_key DataArtifactoryRepositories#project_key}
   */
   readonly projectKey?: string;
   /**
   * Filter for repositories of a specific type. Allowed values are: local, remote, virtual, federated, distribution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories#repository_type DataArtifactoryRepositories#repository_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories#repository_type DataArtifactoryRepositories#repository_type}
   */
   readonly repositoryType?: string;
 }
@@ -123,7 +123,7 @@ export class DataArtifactoryRepositoriesReposList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories artifactory_repositories}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories artifactory_repositories}
 */
 export class DataArtifactoryRepositories extends cdktf.TerraformDataSource {
 
@@ -139,7 +139,7 @@ export class DataArtifactoryRepositories extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataArtifactoryRepositories resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryRepositories to import
-  * @param importFromId The id of the existing DataArtifactoryRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryRepositories that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryRepositories to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -151,7 +151,7 @@ export class DataArtifactoryRepositories extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/repositories artifactory_repositories} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/repositories artifactory_repositories} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -162,8 +162,8 @@ export class DataArtifactoryRepositories extends cdktf.TerraformDataSource {
       terraformResourceType: 'artifactory_repositories',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

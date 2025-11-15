@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformUsergroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#description PlatformUsergroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#description PlatformUsergroup#description}
   */
   readonly description?: string;
   /**
   * Whether the user group is externally managed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#externally_managed PlatformUsergroup#externally_managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#externally_managed PlatformUsergroup#externally_managed}
   */
   readonly externallyManaged?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#id PlatformUsergroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#id PlatformUsergroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,85 +29,85 @@ export interface PlatformUsergroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#identifier PlatformUsergroup#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#identifier PlatformUsergroup#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the linked SSO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#linked_sso_display_name PlatformUsergroup#linked_sso_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#linked_sso_display_name PlatformUsergroup#linked_sso_display_name}
   */
   readonly linkedSsoDisplayName?: string;
   /**
   * The SSO account ID that the user group is linked to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#linked_sso_id PlatformUsergroup#linked_sso_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#linked_sso_id PlatformUsergroup#linked_sso_id}
   */
   readonly linkedSsoId?: string;
   /**
   * Type of linked SSO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#linked_sso_type PlatformUsergroup#linked_sso_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#linked_sso_type PlatformUsergroup#linked_sso_type}
   */
   readonly linkedSsoType?: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#name PlatformUsergroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#name PlatformUsergroup#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#org_id PlatformUsergroup#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#org_id PlatformUsergroup#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#project_id PlatformUsergroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#project_id PlatformUsergroup#project_id}
   */
   readonly projectId?: string;
   /**
   * Identifier of the userGroup in SSO.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#sso_group_id PlatformUsergroup#sso_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#sso_group_id PlatformUsergroup#sso_group_id}
   */
   readonly ssoGroupId?: string;
   /**
   * Name of the SSO userGroup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#sso_group_name PlatformUsergroup#sso_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#sso_group_name PlatformUsergroup#sso_group_name}
   */
   readonly ssoGroupName?: string;
   /**
   * Whether sso is linked or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#sso_linked PlatformUsergroup#sso_linked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#sso_linked PlatformUsergroup#sso_linked}
   */
   readonly ssoLinked?: boolean | cdktf.IResolvable;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#tags PlatformUsergroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#tags PlatformUsergroup#tags}
   */
   readonly tags?: string[];
   /**
   * List of user emails in the UserGroup. Either provide list of users or list of user emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#user_emails PlatformUsergroup#user_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#user_emails PlatformUsergroup#user_emails}
   */
   readonly userEmails?: string[];
   /**
   * List of users in the UserGroup. Either provide list of users or list of user emails. (Should be null for SSO managed)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#users PlatformUsergroup#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#users PlatformUsergroup#users}
   */
   readonly users?: string[];
   /**
   * notification_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#notification_configs PlatformUsergroup#notification_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#notification_configs PlatformUsergroup#notification_configs}
   */
   readonly notificationConfigs?: PlatformUsergroupNotificationConfigs[] | cdktf.IResolvable;
 }
@@ -115,37 +115,37 @@ export interface PlatformUsergroupNotificationConfigs {
   /**
   * Group email.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#group_email PlatformUsergroup#group_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#group_email PlatformUsergroup#group_email}
   */
   readonly groupEmail?: string;
   /**
   * Url of Microsoft teams webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#microsoft_teams_webhook_url PlatformUsergroup#microsoft_teams_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#microsoft_teams_webhook_url PlatformUsergroup#microsoft_teams_webhook_url}
   */
   readonly microsoftTeamsWebhookUrl?: string;
   /**
   * Pager duty key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#pager_duty_key PlatformUsergroup#pager_duty_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#pager_duty_key PlatformUsergroup#pager_duty_key}
   */
   readonly pagerDutyKey?: string;
   /**
   * Send email to all the group members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#send_email_to_all_users PlatformUsergroup#send_email_to_all_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#send_email_to_all_users PlatformUsergroup#send_email_to_all_users}
   */
   readonly sendEmailToAllUsers?: boolean | cdktf.IResolvable;
   /**
   * Url of slack webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#slack_webhook_url PlatformUsergroup#slack_webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#slack_webhook_url PlatformUsergroup#slack_webhook_url}
   */
   readonly slackWebhookUrl?: string;
   /**
   * Can be one of EMAIL, SLACK, PAGERDUTY, MSTEAMS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#type PlatformUsergroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#type PlatformUsergroup#type}
   */
   readonly type?: string;
 }
@@ -406,7 +406,7 @@ export class PlatformUsergroupNotificationConfigsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup harness_platform_usergroup}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup harness_platform_usergroup}
 */
 export class PlatformUsergroup extends cdktf.TerraformResource {
 
@@ -422,7 +422,7 @@ export class PlatformUsergroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformUsergroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformUsergroup to import
-  * @param importFromId The id of the existing PlatformUsergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformUsergroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformUsergroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -434,7 +434,7 @@ export class PlatformUsergroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_usergroup harness_platform_usergroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_usergroup harness_platform_usergroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -445,8 +445,8 @@ export class PlatformUsergroup extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_usergroup',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

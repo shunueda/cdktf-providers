@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface ArtifactPropertyCustomWebhookConfig extends cdktf.TerraformMeta
   /**
   * Description of webhook. Max length 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#description ArtifactPropertyCustomWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#description ArtifactPropertyCustomWebhook#description}
   */
   readonly description?: string;
   /**
   * Status of webhook. Default to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#enabled ArtifactPropertyCustomWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#enabled ArtifactPropertyCustomWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Events in Artifactory, Distribution, Release Bundle that function as the event trigger for the Webhook.
   * Allow values: deployed, deleted, moved, copied, cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#event_types ArtifactPropertyCustomWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#event_types ArtifactPropertyCustomWebhook#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Key of webhook. Must be between 2 and 200 characters. Cannot contain spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#key ArtifactPropertyCustomWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#key ArtifactPropertyCustomWebhook#key}
   */
   readonly key: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#criteria ArtifactPropertyCustomWebhook#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#criteria ArtifactPropertyCustomWebhook#criteria}
   */
   readonly criteria?: ArtifactPropertyCustomWebhookCriteria[] | cdktf.IResolvable;
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#handler ArtifactPropertyCustomWebhook#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#handler ArtifactPropertyCustomWebhook#handler}
   */
   readonly handler?: ArtifactPropertyCustomWebhookHandler[] | cdktf.IResolvable;
 }
@@ -49,19 +49,19 @@ export interface ArtifactPropertyCustomWebhookCriteria {
   /**
   * Trigger on any federated repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#any_federated ArtifactPropertyCustomWebhook#any_federated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#any_federated ArtifactPropertyCustomWebhook#any_federated}
   */
   readonly anyFederated: boolean | cdktf.IResolvable;
   /**
   * Trigger on any local repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#any_local ArtifactPropertyCustomWebhook#any_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#any_local ArtifactPropertyCustomWebhook#any_local}
   */
   readonly anyLocal: boolean | cdktf.IResolvable;
   /**
   * Trigger on any remote repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#any_remote ArtifactPropertyCustomWebhook#any_remote}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#any_remote ArtifactPropertyCustomWebhook#any_remote}
   */
   readonly anyRemote: boolean | cdktf.IResolvable;
   /**
@@ -69,7 +69,7 @@ export interface ArtifactPropertyCustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `org/apache/**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#exclude_patterns ArtifactPropertyCustomWebhook#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#exclude_patterns ArtifactPropertyCustomWebhook#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
@@ -77,13 +77,13 @@ export interface ArtifactPropertyCustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `org/apache/**`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#include_patterns ArtifactPropertyCustomWebhook#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#include_patterns ArtifactPropertyCustomWebhook#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Trigger on this list of repository keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#repo_keys ArtifactPropertyCustomWebhook#repo_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#repo_keys ArtifactPropertyCustomWebhook#repo_keys}
   */
   readonly repoKeys: string[];
 }
@@ -334,37 +334,37 @@ export interface ArtifactPropertyCustomWebhookHandler {
   /**
   * HTTP headers you wish to use to invoke the Webhook, comprise of key/value pair. Used in custom webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#http_headers ArtifactPropertyCustomWebhook#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#http_headers ArtifactPropertyCustomWebhook#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * Specifies the HTTP Method for URL that the Webhook invokes. Allowed values are: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#method ArtifactPropertyCustomWebhook#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#method ArtifactPropertyCustomWebhook#method}
   */
   readonly method?: string;
   /**
   * This attribute is used to build the request body. Used in custom webhooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#payload ArtifactPropertyCustomWebhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#payload ArtifactPropertyCustomWebhook#payload}
   */
   readonly payload?: string;
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#proxy ArtifactPropertyCustomWebhook#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#proxy ArtifactPropertyCustomWebhook#proxy}
   */
   readonly proxy?: string;
   /**
   * A set of sensitive values that will be injected in the request (headers and/or payload), comprise of key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#secrets ArtifactPropertyCustomWebhook#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#secrets ArtifactPropertyCustomWebhook#secrets}
   */
   readonly secrets?: { [key: string]: string };
   /**
   * Specifies the URL that the Webhook invokes. This will be the URL that Artifactory will send an HTTP POST request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#url ArtifactPropertyCustomWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#url ArtifactPropertyCustomWebhook#url}
   */
   readonly url: string;
 }
@@ -622,7 +622,7 @@ export class ArtifactPropertyCustomWebhookHandlerList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook artifactory_artifact_property_custom_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook artifactory_artifact_property_custom_webhook}
 */
 export class ArtifactPropertyCustomWebhook extends cdktf.TerraformResource {
 
@@ -638,7 +638,7 @@ export class ArtifactPropertyCustomWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ArtifactPropertyCustomWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ArtifactPropertyCustomWebhook to import
-  * @param importFromId The id of the existing ArtifactPropertyCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ArtifactPropertyCustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ArtifactPropertyCustomWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -650,7 +650,7 @@ export class ArtifactPropertyCustomWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact_property_custom_webhook artifactory_artifact_property_custom_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact_property_custom_webhook artifactory_artifact_property_custom_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -661,8 +661,8 @@ export class ArtifactPropertyCustomWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_artifact_property_custom_webhook',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

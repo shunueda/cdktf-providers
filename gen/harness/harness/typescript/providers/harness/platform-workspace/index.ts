@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cost estimation enabled determines if cost estimation operations are performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#cost_estimation_enabled PlatformWorkspace#cost_estimation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#cost_estimation_enabled PlatformWorkspace#cost_estimation_enabled}
   */
   readonly costEstimationEnabled: boolean | cdktf.IResolvable;
   /**
   * Default pipelines associated with this workspace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#default_pipelines PlatformWorkspace#default_pipelines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#default_pipelines PlatformWorkspace#default_pipelines}
   */
   readonly defaultPipelines?: { [key: string]: string };
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#description PlatformWorkspace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#description PlatformWorkspace#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#id PlatformWorkspace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#id PlatformWorkspace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,115 +35,115 @@ export interface PlatformWorkspaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#identifier PlatformWorkspace#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#identifier PlatformWorkspace#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#name PlatformWorkspace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#name PlatformWorkspace#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#org_id PlatformWorkspace#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#org_id PlatformWorkspace#org_id}
   */
   readonly orgId: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#project_id PlatformWorkspace#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#project_id PlatformWorkspace#project_id}
   */
   readonly projectId: string;
   /**
   * Provider connector is the reference to the connector for the infrastructure provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#provider_connector PlatformWorkspace#provider_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#provider_connector PlatformWorkspace#provider_connector}
   */
   readonly providerConnector?: string;
   /**
   * Provisioner type defines the provisioning tool to use (terraform or opentofu)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#provisioner_type PlatformWorkspace#provisioner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#provisioner_type PlatformWorkspace#provisioner_type}
   */
   readonly provisionerType: string;
   /**
   * Provisioner version defines the provisioner version to use. The latest version of Opentofu should always be supported, Terraform is only supported up to version 1.5.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#provisioner_version PlatformWorkspace#provisioner_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#provisioner_version PlatformWorkspace#provisioner_version}
   */
   readonly provisionerVersion: string;
   /**
   * Repository is the name of the repository to fetch the code from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository PlatformWorkspace#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository PlatformWorkspace#repository}
   */
   readonly repository: string;
   /**
   * Repository branch is the name of the branch to fetch the code from. This cannot be set if repository commit or sha is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_branch PlatformWorkspace#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_branch PlatformWorkspace#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Repository commit is tag to fetch the code from. This cannot be set if repository branch or sha is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_commit PlatformWorkspace#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_commit PlatformWorkspace#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Repository connector is the reference to the connector used to fetch the code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_connector PlatformWorkspace#repository_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_connector PlatformWorkspace#repository_connector}
   */
   readonly repositoryConnector: string;
   /**
   * Repository path is the path in which the code resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_path PlatformWorkspace#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_path PlatformWorkspace#repository_path}
   */
   readonly repositoryPath: string;
   /**
   * Repository commit is commit SHA to fetch the code from. This cannot be set if repository branch or commit is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_sha PlatformWorkspace#repository_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_sha PlatformWorkspace#repository_sha}
   */
   readonly repositorySha?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#tags PlatformWorkspace#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#tags PlatformWorkspace#tags}
   */
   readonly tags?: string[];
   /**
   * Variable sets to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#variable_sets PlatformWorkspace#variable_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#variable_sets PlatformWorkspace#variable_sets}
   */
   readonly variableSets?: string[];
   /**
   * connector block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#connector PlatformWorkspace#connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#connector PlatformWorkspace#connector}
   */
   readonly connector?: PlatformWorkspaceConnector[] | cdktf.IResolvable;
   /**
   * environment_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#environment_variable PlatformWorkspace#environment_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#environment_variable PlatformWorkspace#environment_variable}
   */
   readonly environmentVariable?: PlatformWorkspaceEnvironmentVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#terraform_variable PlatformWorkspace#terraform_variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#terraform_variable PlatformWorkspace#terraform_variable}
   */
   readonly terraformVariable?: PlatformWorkspaceTerraformVariable[] | cdktf.IResolvable;
   /**
   * terraform_variable_file block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#terraform_variable_file PlatformWorkspace#terraform_variable_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#terraform_variable_file PlatformWorkspace#terraform_variable_file}
   */
   readonly terraformVariableFile?: PlatformWorkspaceTerraformVariableFile[] | cdktf.IResolvable;
 }
@@ -151,13 +151,13 @@ export interface PlatformWorkspaceConnector {
   /**
   * Connector Ref is the reference to the connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#connector_ref PlatformWorkspace#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#connector_ref PlatformWorkspace#connector_ref}
   */
   readonly connectorRef: string;
   /**
   * Type is the connector type of the connector. Supported types: aws, azure, gcp
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#type PlatformWorkspace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#type PlatformWorkspace#type}
   */
   readonly type: string;
 }
@@ -298,19 +298,19 @@ export interface PlatformWorkspaceEnvironmentVariable {
   /**
   * Key is the identifier for the variable. Must be unique within the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#key PlatformWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#key PlatformWorkspace#key}
   */
   readonly key: string;
   /**
   * Value is the value of the variable. For string value types this field should contain the value of the variable. For secret value types this should contain a reference to a valid harness secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#value PlatformWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#value PlatformWorkspace#value}
   */
   readonly value: string;
   /**
   * Value type indicates the value type of the variable. Currently we support string and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#value_type PlatformWorkspace#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#value_type PlatformWorkspace#value_type}
   */
   readonly valueType: string;
 }
@@ -477,19 +477,19 @@ export interface PlatformWorkspaceTerraformVariable {
   /**
   * Key is the identifier for the variable. Must be unique within the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#key PlatformWorkspace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#key PlatformWorkspace#key}
   */
   readonly key: string;
   /**
   * Value is the value of the variable. For string value types this field should contain the value of the variable. For secret value types this should contain a reference to a valid harness secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#value PlatformWorkspace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#value PlatformWorkspace#value}
   */
   readonly value: string;
   /**
   * Value type indicates the value type of the variable. Currently we support string and secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#value_type PlatformWorkspace#value_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#value_type PlatformWorkspace#value_type}
   */
   readonly valueType: string;
 }
@@ -656,37 +656,37 @@ export interface PlatformWorkspaceTerraformVariableFile {
   /**
   * Repository is the name of the repository to fetch the code from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository PlatformWorkspace#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository PlatformWorkspace#repository}
   */
   readonly repository: string;
   /**
   * Repository branch is the name of the branch to fetch the variables from. This cannot be set if repository commit or sha is set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_branch PlatformWorkspace#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_branch PlatformWorkspace#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Repository commit is tag to fetch the variables from. This cannot be set if repository branch or sha is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_commit PlatformWorkspace#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_commit PlatformWorkspace#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Repository connector is the reference to the connector used to fetch the variables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_connector PlatformWorkspace#repository_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_connector PlatformWorkspace#repository_connector}
   */
   readonly repositoryConnector: string;
   /**
   * Repository path is the path in which the variables reside.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_path PlatformWorkspace#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_path PlatformWorkspace#repository_path}
   */
   readonly repositoryPath?: string;
   /**
   * Repository commit is SHA to fetch the variables from. This cannot be set if repository branch or commit is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#repository_sha PlatformWorkspace#repository_sha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#repository_sha PlatformWorkspace#repository_sha}
   */
   readonly repositorySha?: string;
 }
@@ -941,7 +941,7 @@ export class PlatformWorkspaceTerraformVariableFileList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace harness_platform_workspace}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace harness_platform_workspace}
 */
 export class PlatformWorkspace extends cdktf.TerraformResource {
 
@@ -957,7 +957,7 @@ export class PlatformWorkspace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformWorkspace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformWorkspace to import
-  * @param importFromId The id of the existing PlatformWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformWorkspace that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformWorkspace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -969,7 +969,7 @@ export class PlatformWorkspace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_workspace harness_platform_workspace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_workspace harness_platform_workspace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -980,8 +980,8 @@ export class PlatformWorkspace extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_workspace',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

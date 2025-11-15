@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface VcsProviderConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to automatically create webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#auto_create_webhooks VcsProvider#auto_create_webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#auto_create_webhooks VcsProvider#auto_create_webhooks}
   */
   readonly autoCreateWebhooks: boolean | cdktf.IResolvable;
   /**
   * A description of the VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#description VcsProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#description VcsProvider#description}
   */
   readonly description: string;
   /**
   * The path of the group where this VCS provider resides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#group_path VcsProvider#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#group_path VcsProvider#group_path}
   */
   readonly groupPath: string;
   /**
   * The name of the VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#name VcsProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#name VcsProvider#name}
   */
   readonly name: string;
   /**
   * A description of the VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#oauth_client_id VcsProvider#oauth_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#oauth_client_id VcsProvider#oauth_client_id}
   */
   readonly oauthClientId: string;
   /**
   * A description of the VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#oauth_client_secret VcsProvider#oauth_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#oauth_client_secret VcsProvider#oauth_client_secret}
   */
   readonly oauthClientSecret: string;
   /**
   * The type of this VCS provider: gitlab, github, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#type VcsProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#type VcsProvider#type}
   */
   readonly type: string;
   /**
   * API URL for this VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#url VcsProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#url VcsProvider#url}
   */
   readonly url?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider tharsis_vcs_provider}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider tharsis_vcs_provider}
 */
 export class VcsProvider extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class VcsProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VcsProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VcsProvider to import
-  * @param importFromId The id of the existing VcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VcsProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VcsProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class VcsProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/vcs_provider tharsis_vcs_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/vcs_provider tharsis_vcs_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class VcsProvider extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_vcs_provider',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PlatformGitopsAppProjectConfig extends cdktf.TerraformMetaArgum
   /**
   * Account identifier of the GitOps Agent where argo project will exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#account_id PlatformGitopsAppProject#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#account_id PlatformGitopsAppProject#account_id}
   */
   readonly accountId?: string;
   /**
   * Agent identifier of the agent where argo project will exist (include scope prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#agent_id PlatformGitopsAppProject#agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#agent_id PlatformGitopsAppProject#agent_id}
   */
   readonly agentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#id PlatformGitopsAppProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#id PlatformGitopsAppProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface PlatformGitopsAppProjectConfig extends cdktf.TerraformMetaArgum
   /**
   * Org identifier of the GitOps Agent where argo project is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#org_id PlatformGitopsAppProject#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#org_id PlatformGitopsAppProject#org_id}
   */
   readonly orgId?: string;
   /**
   * Project identifier of the Gitops Agent where argo project is to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#project_id PlatformGitopsAppProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#project_id PlatformGitopsAppProject#project_id}
   */
   readonly projectId?: string;
   /**
   * Identifier for the GitOps Argo project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#query_name PlatformGitopsAppProject#query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#query_name PlatformGitopsAppProject#query_name}
   */
   readonly queryName?: string;
   /**
   * Indicates if the argo project should be updated if existing and inserted if not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#upsert PlatformGitopsAppProject#upsert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#upsert PlatformGitopsAppProject#upsert}
   */
   readonly upsert?: boolean | cdktf.IResolvable;
   /**
   * project block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#project PlatformGitopsAppProject#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#project PlatformGitopsAppProject#project}
   */
   readonly project: PlatformGitopsAppProjectProject;
 }
@@ -61,43 +61,43 @@ export interface PlatformGitopsAppProjectProjectMetadataManagedFields {
   /**
   * API version of the operation performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#api_version PlatformGitopsAppProject#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#api_version PlatformGitopsAppProject#api_version}
   */
   readonly apiVersion?: string;
   /**
   * Type of the fields in the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#fields_type PlatformGitopsAppProject#fields_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#fields_type PlatformGitopsAppProject#fields_type}
   */
   readonly fieldsType?: string;
   /**
   * Raw fields associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#fields_v1 PlatformGitopsAppProject#fields_v1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#fields_v1 PlatformGitopsAppProject#fields_v1}
   */
   readonly fieldsV1?: { [key: string]: string };
   /**
   * Manager responsible for the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#manager PlatformGitopsAppProject#manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#manager PlatformGitopsAppProject#manager}
   */
   readonly manager?: string;
   /**
   * Operation type performed on the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#operation PlatformGitopsAppProject#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#operation PlatformGitopsAppProject#operation}
   */
   readonly operation?: string;
   /**
   * Subresource associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#subresource PlatformGitopsAppProject#subresource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#subresource PlatformGitopsAppProject#subresource}
   */
   readonly subresource?: string;
   /**
   * Timestamp of the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#time PlatformGitopsAppProject#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#time PlatformGitopsAppProject#time}
   */
   readonly time?: { [key: string]: string };
 }
@@ -389,49 +389,49 @@ export interface PlatformGitopsAppProjectProjectMetadata {
   /**
   * Annotations associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#annotations PlatformGitopsAppProject#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#annotations PlatformGitopsAppProject#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Name of the cluster associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#cluster_name PlatformGitopsAppProject#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#cluster_name PlatformGitopsAppProject#cluster_name}
   */
   readonly clusterName?: string;
   /**
   * Finalizers associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#finalizers PlatformGitopsAppProject#finalizers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#finalizers PlatformGitopsAppProject#finalizers}
   */
   readonly finalizers?: string[];
   /**
   * Labels associated with the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#labels PlatformGitopsAppProject#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#labels PlatformGitopsAppProject#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Name of the GitOps project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
   */
   readonly name?: string;
   /**
   * Namespace of the GitOps project. This must be the same as the namespace where the agent is installed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#namespace PlatformGitopsAppProject#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#namespace PlatformGitopsAppProject#namespace}
   */
   readonly namespace?: string;
   /**
   * Resource Version for the GitOps project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#resource_version PlatformGitopsAppProject#resource_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#resource_version PlatformGitopsAppProject#resource_version}
   */
   readonly resourceVersion?: string;
   /**
   * managed_fields block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#managed_fields PlatformGitopsAppProject#managed_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#managed_fields PlatformGitopsAppProject#managed_fields}
   */
   readonly managedFields?: PlatformGitopsAppProjectProjectMetadataManagedFields[] | cdktf.IResolvable;
 }
@@ -720,13 +720,13 @@ export interface PlatformGitopsAppProjectProjectSpecClusterResourceBlacklistStru
   /**
   * Group of the cluster resource blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
   */
   readonly group?: string;
   /**
   * Kind of the cluster resource blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
 }
@@ -873,13 +873,13 @@ export interface PlatformGitopsAppProjectProjectSpecClusterResourceWhitelistStru
   /**
   * Group of the cluster resource whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
   */
   readonly group?: string;
   /**
   * Kind of the cluster resource whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
 }
@@ -1026,19 +1026,19 @@ export interface PlatformGitopsAppProjectProjectSpecDestinations {
   /**
   * Name of the destination cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
   */
   readonly name?: string;
   /**
   * Permitted Namespaces for deployment in the destination cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#namespace PlatformGitopsAppProject#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#namespace PlatformGitopsAppProject#namespace}
   */
   readonly namespace?: string;
   /**
   * Server URL of the destination cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#server PlatformGitopsAppProject#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#server PlatformGitopsAppProject#server}
   */
   readonly server?: string;
 }
@@ -1214,13 +1214,13 @@ export interface PlatformGitopsAppProjectProjectSpecNamespaceResourceBlacklistSt
   /**
   * Group of the namespace resource blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
   */
   readonly group?: string;
   /**
   * Kind of the namespace resource blacklist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
 }
@@ -1367,13 +1367,13 @@ export interface PlatformGitopsAppProjectProjectSpecNamespaceResourceWhitelistSt
   /**
   * Group of the namespace resource whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
   */
   readonly group?: string;
   /**
   * Kind of the namespace resource whitelist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
 }
@@ -1520,19 +1520,19 @@ export interface PlatformGitopsAppProjectProjectSpecOrphanedResourcesIgnore {
   /**
   * Group of the ignored orphaned resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#group PlatformGitopsAppProject#group}
   */
   readonly group?: string;
   /**
   * Kind of the ignored orphaned resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
   /**
   * Name of the ignored orphaned resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
   */
   readonly name?: string;
 }
@@ -1708,13 +1708,13 @@ export interface PlatformGitopsAppProjectProjectSpecOrphanedResources {
   /**
   * Whether to warn about orphaned resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#warn PlatformGitopsAppProject#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#warn PlatformGitopsAppProject#warn}
   */
   readonly warn?: boolean | cdktf.IResolvable;
   /**
   * ignore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#ignore PlatformGitopsAppProject#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#ignore PlatformGitopsAppProject#ignore}
   */
   readonly ignore?: PlatformGitopsAppProjectProjectSpecOrphanedResourcesIgnore[] | cdktf.IResolvable;
 }
@@ -1861,19 +1861,19 @@ export interface PlatformGitopsAppProjectProjectSpecRolesJwtTokens {
   /**
   * Expiration time of the JWT token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#exp PlatformGitopsAppProject#exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#exp PlatformGitopsAppProject#exp}
   */
   readonly exp?: string;
   /**
   * Issued At time of the JWT token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#iat PlatformGitopsAppProject#iat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#iat PlatformGitopsAppProject#iat}
   */
   readonly iat?: string;
   /**
   * ID of the JWT token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#id PlatformGitopsAppProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#id PlatformGitopsAppProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2052,31 +2052,31 @@ export interface PlatformGitopsAppProjectProjectSpecRoles {
   /**
   * Description of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#description PlatformGitopsAppProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#description PlatformGitopsAppProject#description}
   */
   readonly description: string;
   /**
   * Groups associated with the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#groups PlatformGitopsAppProject#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#groups PlatformGitopsAppProject#groups}
   */
   readonly groups?: string[];
   /**
   * Name of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#name PlatformGitopsAppProject#name}
   */
   readonly name: string;
   /**
   * Policies associated with the role. These are argo RBAC policies and may not necessarily reflect in harness.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#policies PlatformGitopsAppProject#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#policies PlatformGitopsAppProject#policies}
   */
   readonly policies?: string[];
   /**
   * jwt_tokens block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#jwt_tokens PlatformGitopsAppProject#jwt_tokens}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#jwt_tokens PlatformGitopsAppProject#jwt_tokens}
   */
   readonly jwtTokens?: PlatformGitopsAppProjectProjectSpecRolesJwtTokens[] | cdktf.IResolvable;
 }
@@ -2304,7 +2304,7 @@ export interface PlatformGitopsAppProjectProjectSpecSignatureKeys {
   /**
   * ID of the signature key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#key_id PlatformGitopsAppProject#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#key_id PlatformGitopsAppProject#key_id}
   */
   readonly keyId?: string;
 }
@@ -2422,49 +2422,49 @@ export interface PlatformGitopsAppProjectProjectSpecSyncWindows {
   /**
   * Applications associated with synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#applications PlatformGitopsAppProject#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#applications PlatformGitopsAppProject#applications}
   */
   readonly applications?: string[];
   /**
   * Clusters associated with synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#clusters PlatformGitopsAppProject#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#clusters PlatformGitopsAppProject#clusters}
   */
   readonly clusters?: string[];
   /**
   * Duration of synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#duration PlatformGitopsAppProject#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#duration PlatformGitopsAppProject#duration}
   */
   readonly duration?: string;
   /**
   * Kind of synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#kind PlatformGitopsAppProject#kind}
   */
   readonly kind?: string;
   /**
   * Whether manual synchronization is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#manual_sync PlatformGitopsAppProject#manual_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#manual_sync PlatformGitopsAppProject#manual_sync}
   */
   readonly manualSync?: boolean | cdktf.IResolvable;
   /**
   * Namespaces associated with synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#namespaces PlatformGitopsAppProject#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#namespaces PlatformGitopsAppProject#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Schedule of synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#schedule PlatformGitopsAppProject#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#schedule PlatformGitopsAppProject#schedule}
   */
   readonly schedule?: string;
   /**
   * Time zone of synchronization window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#time_zone PlatformGitopsAppProject#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#time_zone PlatformGitopsAppProject#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -2785,79 +2785,79 @@ export interface PlatformGitopsAppProjectProjectSpec {
   /**
   * Description of the Argo project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#description PlatformGitopsAppProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#description PlatformGitopsAppProject#description}
   */
   readonly description?: string;
   /**
   * This option determines whether destinations can only reference clusters which are argo project-scoped
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#permit_only_project_scoped_clusters PlatformGitopsAppProject#permit_only_project_scoped_clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#permit_only_project_scoped_clusters PlatformGitopsAppProject#permit_only_project_scoped_clusters}
   */
   readonly permitOnlyProjectScopedClusters?: boolean | cdktf.IResolvable;
   /**
   * Source namespaces defines the namespaces application resources are allowed to be created in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#source_namespaces PlatformGitopsAppProject#source_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#source_namespaces PlatformGitopsAppProject#source_namespaces}
   */
   readonly sourceNamespaces?: string[];
   /**
   * Allowed Source repositories for the Argo project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#source_repos PlatformGitopsAppProject#source_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#source_repos PlatformGitopsAppProject#source_repos}
   */
   readonly sourceRepos?: string[];
   /**
   * cluster_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#cluster_resource_blacklist PlatformGitopsAppProject#cluster_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#cluster_resource_blacklist PlatformGitopsAppProject#cluster_resource_blacklist}
   */
   readonly clusterResourceBlacklist?: PlatformGitopsAppProjectProjectSpecClusterResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * cluster_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#cluster_resource_whitelist PlatformGitopsAppProject#cluster_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#cluster_resource_whitelist PlatformGitopsAppProject#cluster_resource_whitelist}
   */
   readonly clusterResourceWhitelist?: PlatformGitopsAppProjectProjectSpecClusterResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#destinations PlatformGitopsAppProject#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#destinations PlatformGitopsAppProject#destinations}
   */
   readonly destinations?: PlatformGitopsAppProjectProjectSpecDestinations[] | cdktf.IResolvable;
   /**
   * namespace_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#namespace_resource_blacklist PlatformGitopsAppProject#namespace_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#namespace_resource_blacklist PlatformGitopsAppProject#namespace_resource_blacklist}
   */
   readonly namespaceResourceBlacklist?: PlatformGitopsAppProjectProjectSpecNamespaceResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * namespace_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#namespace_resource_whitelist PlatformGitopsAppProject#namespace_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#namespace_resource_whitelist PlatformGitopsAppProject#namespace_resource_whitelist}
   */
   readonly namespaceResourceWhitelist?: PlatformGitopsAppProjectProjectSpecNamespaceResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * orphaned_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#orphaned_resources PlatformGitopsAppProject#orphaned_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#orphaned_resources PlatformGitopsAppProject#orphaned_resources}
   */
   readonly orphanedResources?: PlatformGitopsAppProjectProjectSpecOrphanedResources[] | cdktf.IResolvable;
   /**
   * roles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#roles PlatformGitopsAppProject#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#roles PlatformGitopsAppProject#roles}
   */
   readonly roles?: PlatformGitopsAppProjectProjectSpecRoles[] | cdktf.IResolvable;
   /**
   * signature_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#signature_keys PlatformGitopsAppProject#signature_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#signature_keys PlatformGitopsAppProject#signature_keys}
   */
   readonly signatureKeys?: PlatformGitopsAppProjectProjectSpecSignatureKeys[] | cdktf.IResolvable;
   /**
   * sync_windows block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#sync_windows PlatformGitopsAppProject#sync_windows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#sync_windows PlatformGitopsAppProject#sync_windows}
   */
   readonly syncWindows?: PlatformGitopsAppProjectProjectSpecSyncWindows[] | cdktf.IResolvable;
 }
@@ -3291,13 +3291,13 @@ export interface PlatformGitopsAppProjectProject {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#metadata PlatformGitopsAppProject#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#metadata PlatformGitopsAppProject#metadata}
   */
   readonly metadata: PlatformGitopsAppProjectProjectMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#spec PlatformGitopsAppProject#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#spec PlatformGitopsAppProject#spec}
   */
   readonly spec: PlatformGitopsAppProjectProjectSpec;
 }
@@ -3404,7 +3404,7 @@ export class PlatformGitopsAppProjectProjectOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project harness_platform_gitops_app_project}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project harness_platform_gitops_app_project}
 */
 export class PlatformGitopsAppProject extends cdktf.TerraformResource {
 
@@ -3420,7 +3420,7 @@ export class PlatformGitopsAppProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformGitopsAppProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformGitopsAppProject to import
-  * @param importFromId The id of the existing PlatformGitopsAppProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformGitopsAppProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformGitopsAppProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3432,7 +3432,7 @@ export class PlatformGitopsAppProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_gitops_app_project harness_platform_gitops_app_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_gitops_app_project harness_platform_gitops_app_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3443,8 +3443,8 @@ export class PlatformGitopsAppProject extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_gitops_app_project',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

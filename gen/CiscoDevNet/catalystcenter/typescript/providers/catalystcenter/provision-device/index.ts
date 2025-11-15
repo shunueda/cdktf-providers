@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ProvisionDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of network device to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device#network_device_id ProvisionDevice#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device#network_device_id ProvisionDevice#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * Flag to indicate whether the device should be reprovisioned. If set to `true`, reprovisioning will be triggered on every Terraform apply
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device#reprovision ProvisionDevice#reprovision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device#reprovision ProvisionDevice#reprovision}
   */
   readonly reprovision?: boolean | cdktf.IResolvable;
   /**
   * ID of the site this network device needs to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device#site_id ProvisionDevice#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device#site_id ProvisionDevice#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device catalystcenter_provision_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device catalystcenter_provision_device}
 */
 export class ProvisionDevice extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ProvisionDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProvisionDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProvisionDevice to import
-  * @param importFromId The id of the existing ProvisionDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProvisionDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProvisionDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ProvisionDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/provision_device catalystcenter_provision_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/provision_device catalystcenter_provision_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ProvisionDevice extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_provision_device',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

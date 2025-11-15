@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface KeypairConfig extends cdktf.TerraformMetaArguments {
   /**
   * Will be used as a filename when retrieving the public key via REST API
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#alias Keypair#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#alias Keypair#alias}
   */
   readonly alias: string;
   /**
   * A unique identifier for the Key Pair record.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#pair_name Keypair#pair_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#pair_name Keypair#pair_name}
   */
   readonly pairName: string;
   /**
   * Key Pair type. Supported types - GPG and RSA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#pair_type Keypair#pair_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#pair_type Keypair#pair_type}
   */
   readonly pairType: string;
   /**
   * Passphrase will be used to decrypt the private key. Validated server side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#passphrase Keypair#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#passphrase Keypair#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Private key. PEM format will be validated. Must not include extranous spaces or tabs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#private_key Keypair#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#private_key Keypair#private_key}
   */
   readonly privateKey: string;
   /**
   * Public key. PEM format will be validated. Must not include extranous spaces or tabs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#public_key Keypair#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#public_key Keypair#public_key}
   */
   readonly publicKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair artifactory_keypair}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair artifactory_keypair}
 */
 export class Keypair extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Keypair extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Keypair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Keypair to import
-  * @param importFromId The id of the existing Keypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Keypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Keypair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Keypair extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/keypair artifactory_keypair} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/keypair artifactory_keypair} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Keypair extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_keypair',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

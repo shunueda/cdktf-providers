@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface LocalRepositorySingleReplicationConfig extends cdktf.TerraformM
   /**
   * Enabling the `check_binary_existence_in_filestore` flag requires an Enterprise+ license. When true, enables distributed checksum storage. For more information, see [Optimizing Repository Replication with Checksum-Based Storage](https://www.jfrog.com/confluence/display/JFROG/Repository+Replication#RepositoryReplication-OptimizingRepositoryReplicationUsingStorageLevelSynchronizationOptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#check_binary_existence_in_filestore LocalRepositorySingleReplication#check_binary_existence_in_filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#check_binary_existence_in_filestore LocalRepositorySingleReplication#check_binary_existence_in_filestore}
   */
   readonly checkBinaryExistenceInFilestore?: boolean | cdktf.IResolvable;
   /**
   * A valid CRON expression that you can use to control replication frequency. Eg: `0 0 12 * * ? *`, `0 0 2 ? * MON-SAT *`. Note: use 6 or 7 parts format - Seconds, Minutes Hours, Day Of Month, Month, Day Of Week, Year (optional). Specifying both a day-of-week AND a day-of-month parameter is not supported. One of them should be replaced by `?`. Incorrect: `* 5,7,9 14/2 * * WED,SAT *`, correct: `* 5,7,9 14/2 ? * WED,SAT *`. See details in [Cron Trigger Tutorial](https://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#cron_exp LocalRepositorySingleReplication#cron_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#cron_exp LocalRepositorySingleReplication#cron_exp}
   */
   readonly cronExp: string;
   /**
   * When set to `true`, the `proxy` attribute will be ignored (from version 7.41.7). The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#disable_proxy LocalRepositorySingleReplication#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#disable_proxy LocalRepositorySingleReplication#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * When set, each event will trigger replication of the artifacts changed in this event. This can be any type of event on artifact, e.g. add, deleted or property change. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#enable_event_replication LocalRepositorySingleReplication#enable_event_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#enable_event_replication LocalRepositorySingleReplication#enable_event_replication}
   */
   readonly enableEventReplication?: boolean | cdktf.IResolvable;
   /**
   * When set, enables replication of this repository to the target specified in `url` attribute. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#enabled LocalRepositorySingleReplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#enabled LocalRepositorySingleReplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of x/y/** /z/*. By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#exclude_path_prefix_pattern LocalRepositorySingleReplication#exclude_path_prefix_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#exclude_path_prefix_pattern LocalRepositorySingleReplication#exclude_path_prefix_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -48,7 +48,7 @@ export interface LocalRepositorySingleReplicationConfig extends cdktf.TerraformM
   /**
   * List of artifact patterns to include when evaluating artifact requests in the form of x/y/** /z/*. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (** /*).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#include_path_prefix_pattern LocalRepositorySingleReplication#include_path_prefix_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#include_path_prefix_pattern LocalRepositorySingleReplication#include_path_prefix_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -56,61 +56,61 @@ export interface LocalRepositorySingleReplicationConfig extends cdktf.TerraformM
   /**
   * Use either the HTTP authentication password or identity token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#password LocalRepositorySingleReplication#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#password LocalRepositorySingleReplication#password}
   */
   readonly password?: string;
   /**
   * A proxy configuration to use when communicating with the remote instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#proxy LocalRepositorySingleReplication#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#proxy LocalRepositorySingleReplication#proxy}
   */
   readonly proxy?: string;
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#repo_key LocalRepositorySingleReplication#repo_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#repo_key LocalRepositorySingleReplication#repo_key}
   */
   readonly repoKey: string;
   /**
   * The network timeout in milliseconds to use for remote operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#socket_timeout_millis LocalRepositorySingleReplication#socket_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#socket_timeout_millis LocalRepositorySingleReplication#socket_timeout_millis}
   */
   readonly socketTimeoutMillis?: number;
   /**
   * When set, items that were deleted locally should also be deleted remotely (also applies to properties metadata). Note that enabling this option, will delete artifacts on the target that do not exist in the source repository. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#sync_deletes LocalRepositorySingleReplication#sync_deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#sync_deletes LocalRepositorySingleReplication#sync_deletes}
   */
   readonly syncDeletes?: boolean | cdktf.IResolvable;
   /**
   * When set, the task also synchronizes the properties of replicated artifacts. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#sync_properties LocalRepositorySingleReplication#sync_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#sync_properties LocalRepositorySingleReplication#sync_properties}
   */
   readonly syncProperties?: boolean | cdktf.IResolvable;
   /**
   * When set, the task also synchronizes artifact download statistics. Set to avoid inadvertent cleanup at the target instance when setting up replication for disaster recovery. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#sync_statistics LocalRepositorySingleReplication#sync_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#sync_statistics LocalRepositorySingleReplication#sync_statistics}
   */
   readonly syncStatistics?: boolean | cdktf.IResolvable;
   /**
   * The URL of the target local repository on a remote Artifactory server. Use the format `https://<artifactory_url>/artifactory/<repository_name>`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#url LocalRepositorySingleReplication#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#url LocalRepositorySingleReplication#url}
   */
   readonly url: string;
   /**
   * The HTTP authentication username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#username LocalRepositorySingleReplication#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#username LocalRepositorySingleReplication#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication artifactory_local_repository_single_replication}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication artifactory_local_repository_single_replication}
 */
 export class LocalRepositorySingleReplication extends cdktf.TerraformResource {
 
@@ -126,7 +126,7 @@ export class LocalRepositorySingleReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LocalRepositorySingleReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LocalRepositorySingleReplication to import
-  * @param importFromId The id of the existing LocalRepositorySingleReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LocalRepositorySingleReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LocalRepositorySingleReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -138,7 +138,7 @@ export class LocalRepositorySingleReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/local_repository_single_replication artifactory_local_repository_single_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/local_repository_single_replication artifactory_local_repository_single_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -149,8 +149,8 @@ export class LocalRepositorySingleReplication extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_local_repository_single_replication',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

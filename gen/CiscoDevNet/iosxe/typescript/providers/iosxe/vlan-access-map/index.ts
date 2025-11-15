@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,42 +11,42 @@ export interface VlanAccessMapConfig extends cdktf.TerraformMetaArguments {
   * Take the action
   *   - Choices: `drop`, `forward`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#action VlanAccessMap#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#action VlanAccessMap#action}
   */
   readonly action?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#device VlanAccessMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#device VlanAccessMap#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#match_ip_address VlanAccessMap#match_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#match_ip_address VlanAccessMap#match_ip_address}
   */
   readonly matchIpAddress?: string[];
   /**
   * Match IPv6 address to access control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#match_ipv6_address VlanAccessMap#match_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#match_ipv6_address VlanAccessMap#match_ipv6_address}
   */
   readonly matchIpv6Address?: string[];
   /**
   * Vlan access map tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#name VlanAccessMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#name VlanAccessMap#name}
   */
   readonly name: string;
   /**
   * Sequence to insert to/delete from existing vlan access-map entry
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#sequence VlanAccessMap#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#sequence VlanAccessMap#sequence}
   */
   readonly sequence: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map iosxe_vlan_access_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map iosxe_vlan_access_map}
 */
 export class VlanAccessMap extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class VlanAccessMap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VlanAccessMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VlanAccessMap to import
-  * @param importFromId The id of the existing VlanAccessMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VlanAccessMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VlanAccessMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class VlanAccessMap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/vlan_access_map iosxe_vlan_access_map} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/vlan_access_map iosxe_vlan_access_map} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class VlanAccessMap extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_vlan_access_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

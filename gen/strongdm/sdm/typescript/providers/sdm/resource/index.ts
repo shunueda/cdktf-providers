@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource
+// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#id Resource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#id Resource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,673 +17,673 @@ export interface ResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * aerospike block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aerospike Resource#aerospike}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aerospike Resource#aerospike}
   */
   readonly aerospike?: ResourceAerospike;
   /**
   * aks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aks Resource#aks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aks Resource#aks}
   */
   readonly aks?: ResourceAks;
   /**
   * aks_basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aks_basic_auth Resource#aks_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aks_basic_auth Resource#aks_basic_auth}
   */
   readonly aksBasicAuth?: ResourceAksBasicAuth;
   /**
   * aks_service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aks_service_account Resource#aks_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aks_service_account Resource#aks_service_account}
   */
   readonly aksServiceAccount?: ResourceAksServiceAccount;
   /**
   * aks_service_account_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aks_service_account_user_impersonation Resource#aks_service_account_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aks_service_account_user_impersonation Resource#aks_service_account_user_impersonation}
   */
   readonly aksServiceAccountUserImpersonation?: ResourceAksServiceAccountUserImpersonation;
   /**
   * aks_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aks_user_impersonation Resource#aks_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aks_user_impersonation Resource#aks_user_impersonation}
   */
   readonly aksUserImpersonation?: ResourceAksUserImpersonation;
   /**
   * amazon_eks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_eks Resource#amazon_eks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_eks Resource#amazon_eks}
   */
   readonly amazonEks?: ResourceAmazonEks;
   /**
   * amazon_eks_instance_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_eks_instance_profile Resource#amazon_eks_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_eks_instance_profile Resource#amazon_eks_instance_profile}
   */
   readonly amazonEksInstanceProfile?: ResourceAmazonEksInstanceProfile;
   /**
   * amazon_eks_instance_profile_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_eks_instance_profile_user_impersonation Resource#amazon_eks_instance_profile_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_eks_instance_profile_user_impersonation Resource#amazon_eks_instance_profile_user_impersonation}
   */
   readonly amazonEksInstanceProfileUserImpersonation?: ResourceAmazonEksInstanceProfileUserImpersonation;
   /**
   * amazon_eks_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_eks_user_impersonation Resource#amazon_eks_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_eks_user_impersonation Resource#amazon_eks_user_impersonation}
   */
   readonly amazonEksUserImpersonation?: ResourceAmazonEksUserImpersonation;
   /**
   * amazon_es block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_es Resource#amazon_es}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_es Resource#amazon_es}
   */
   readonly amazonEs?: ResourceAmazonEs;
   /**
   * amazon_esiam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazon_esiam Resource#amazon_esiam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazon_esiam Resource#amazon_esiam}
   */
   readonly amazonEsiam?: ResourceAmazonEsiam;
   /**
   * amazonmq_amqp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazonmq_amqp Resource#amazonmq_amqp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazonmq_amqp Resource#amazonmq_amqp}
   */
   readonly amazonmqAmqp?: ResourceAmazonmqAmqp;
   /**
   * amazonmq_amqp_091 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#amazonmq_amqp_091 Resource#amazonmq_amqp_091}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#amazonmq_amqp_091 Resource#amazonmq_amqp_091}
   */
   readonly amazonmqAmqp091?: ResourceAmazonmqAmqp091;
   /**
   * athena block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#athena Resource#athena}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#athena Resource#athena}
   */
   readonly athena?: ResourceAthena;
   /**
   * athena_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#athena_iam Resource#athena_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#athena_iam Resource#athena_iam}
   */
   readonly athenaIam?: ResourceAthenaIam;
   /**
   * aurora_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aurora_mysql Resource#aurora_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aurora_mysql Resource#aurora_mysql}
   */
   readonly auroraMysql?: ResourceAuroraMysql;
   /**
   * aurora_mysql_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aurora_mysql_iam Resource#aurora_mysql_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aurora_mysql_iam Resource#aurora_mysql_iam}
   */
   readonly auroraMysqlIam?: ResourceAuroraMysqlIam;
   /**
   * aurora_postgres block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aurora_postgres Resource#aurora_postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aurora_postgres Resource#aurora_postgres}
   */
   readonly auroraPostgres?: ResourceAuroraPostgres;
   /**
   * aurora_postgres_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aurora_postgres_iam Resource#aurora_postgres_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aurora_postgres_iam Resource#aurora_postgres_iam}
   */
   readonly auroraPostgresIam?: ResourceAuroraPostgresIam;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aws Resource#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aws Resource#aws}
   */
   readonly aws?: ResourceAws;
   /**
   * aws_console block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aws_console Resource#aws_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aws_console Resource#aws_console}
   */
   readonly awsConsole?: ResourceAwsConsole;
   /**
   * aws_console_static_key_pair block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aws_console_static_key_pair Resource#aws_console_static_key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aws_console_static_key_pair Resource#aws_console_static_key_pair}
   */
   readonly awsConsoleStaticKeyPair?: ResourceAwsConsoleStaticKeyPair;
   /**
   * aws_instance_profile block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#aws_instance_profile Resource#aws_instance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#aws_instance_profile Resource#aws_instance_profile}
   */
   readonly awsInstanceProfile?: ResourceAwsInstanceProfile;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure Resource#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure Resource#azure}
   */
   readonly azure?: ResourceAzure;
   /**
   * azure_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure_certificate Resource#azure_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure_certificate Resource#azure_certificate}
   */
   readonly azureCertificate?: ResourceAzureCertificate;
   /**
   * azure_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure_mysql Resource#azure_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure_mysql Resource#azure_mysql}
   */
   readonly azureMysql?: ResourceAzureMysql;
   /**
   * azure_mysql_managed_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure_mysql_managed_identity Resource#azure_mysql_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure_mysql_managed_identity Resource#azure_mysql_managed_identity}
   */
   readonly azureMysqlManagedIdentity?: ResourceAzureMysqlManagedIdentity;
   /**
   * azure_postgres block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure_postgres Resource#azure_postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure_postgres Resource#azure_postgres}
   */
   readonly azurePostgres?: ResourceAzurePostgres;
   /**
   * azure_postgres_managed_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#azure_postgres_managed_identity Resource#azure_postgres_managed_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#azure_postgres_managed_identity Resource#azure_postgres_managed_identity}
   */
   readonly azurePostgresManagedIdentity?: ResourceAzurePostgresManagedIdentity;
   /**
   * big_query block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#big_query Resource#big_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#big_query Resource#big_query}
   */
   readonly bigQuery?: ResourceBigQuery;
   /**
   * cassandra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cassandra Resource#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cassandra Resource#cassandra}
   */
   readonly cassandra?: ResourceCassandra;
   /**
   * citus block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#citus Resource#citus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#citus Resource#citus}
   */
   readonly citus?: ResourceCitus;
   /**
   * click_house_http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#click_house_http Resource#click_house_http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#click_house_http Resource#click_house_http}
   */
   readonly clickHouseHttp?: ResourceClickHouseHttp;
   /**
   * click_house_my_sql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#click_house_my_sql Resource#click_house_my_sql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#click_house_my_sql Resource#click_house_my_sql}
   */
   readonly clickHouseMySql?: ResourceClickHouseMySql;
   /**
   * click_house_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#click_house_tcp Resource#click_house_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#click_house_tcp Resource#click_house_tcp}
   */
   readonly clickHouseTcp?: ResourceClickHouseTcp;
   /**
   * clustrix block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#clustrix Resource#clustrix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#clustrix Resource#clustrix}
   */
   readonly clustrix?: ResourceClustrix;
   /**
   * cockroach block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cockroach Resource#cockroach}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cockroach Resource#cockroach}
   */
   readonly cockroach?: ResourceCockroach;
   /**
   * couchbase_database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#couchbase_database Resource#couchbase_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#couchbase_database Resource#couchbase_database}
   */
   readonly couchbaseDatabase?: ResourceCouchbaseDatabase;
   /**
   * couchbase_web_ui block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#couchbase_web_ui Resource#couchbase_web_ui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#couchbase_web_ui Resource#couchbase_web_ui}
   */
   readonly couchbaseWebUi?: ResourceCouchbaseWebUi;
   /**
   * db_2_i block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#db_2_i Resource#db_2_i}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#db_2_i Resource#db_2_i}
   */
   readonly db2I?: ResourceDb2I;
   /**
   * db_2_luw block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#db_2_luw Resource#db_2_luw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#db_2_luw Resource#db_2_luw}
   */
   readonly db2Luw?: ResourceDb2Luw;
   /**
   * document_db_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#document_db_host Resource#document_db_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#document_db_host Resource#document_db_host}
   */
   readonly documentDbHost?: ResourceDocumentDbHost;
   /**
   * document_db_host_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#document_db_host_iam Resource#document_db_host_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#document_db_host_iam Resource#document_db_host_iam}
   */
   readonly documentDbHostIam?: ResourceDocumentDbHostIam;
   /**
   * document_db_replica_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#document_db_replica_set Resource#document_db_replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#document_db_replica_set Resource#document_db_replica_set}
   */
   readonly documentDbReplicaSet?: ResourceDocumentDbReplicaSet;
   /**
   * document_db_replica_set_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#document_db_replica_set_iam Resource#document_db_replica_set_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#document_db_replica_set_iam Resource#document_db_replica_set_iam}
   */
   readonly documentDbReplicaSetIam?: ResourceDocumentDbReplicaSetIam;
   /**
   * druid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#druid Resource#druid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#druid Resource#druid}
   */
   readonly druid?: ResourceDruid;
   /**
   * dynamo_db block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#dynamo_db Resource#dynamo_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#dynamo_db Resource#dynamo_db}
   */
   readonly dynamoDb?: ResourceDynamoDb;
   /**
   * dynamo_dbiam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#dynamo_dbiam Resource#dynamo_dbiam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#dynamo_dbiam Resource#dynamo_dbiam}
   */
   readonly dynamoDbiam?: ResourceDynamoDbiam;
   /**
   * elastic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#elastic Resource#elastic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#elastic Resource#elastic}
   */
   readonly elastic?: ResourceElastic;
   /**
   * elasticache_redis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#elasticache_redis Resource#elasticache_redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#elasticache_redis Resource#elasticache_redis}
   */
   readonly elasticacheRedis?: ResourceElasticacheRedis;
   /**
   * elasticache_redis_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#elasticache_redis_iam Resource#elasticache_redis_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#elasticache_redis_iam Resource#elasticache_redis_iam}
   */
   readonly elasticacheRedisIam?: ResourceElasticacheRedisIam;
   /**
   * entra_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#entra_id Resource#entra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#entra_id Resource#entra_id}
   */
   readonly entraId?: ResourceEntraId;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#gcp Resource#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#gcp Resource#gcp}
   */
   readonly gcp?: ResourceGcp;
   /**
   * gcp_console block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#gcp_console Resource#gcp_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#gcp_console Resource#gcp_console}
   */
   readonly gcpConsole?: ResourceGcpConsole;
   /**
   * gcpwif block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#gcpwif Resource#gcpwif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#gcpwif Resource#gcpwif}
   */
   readonly gcpwif?: ResourceGcpwif;
   /**
   * google_gke block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#google_gke Resource#google_gke}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#google_gke Resource#google_gke}
   */
   readonly googleGke?: ResourceGoogleGke;
   /**
   * google_gke_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#google_gke_user_impersonation Resource#google_gke_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#google_gke_user_impersonation Resource#google_gke_user_impersonation}
   */
   readonly googleGkeUserImpersonation?: ResourceGoogleGkeUserImpersonation;
   /**
   * greenplum block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#greenplum Resource#greenplum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#greenplum Resource#greenplum}
   */
   readonly greenplum?: ResourceGreenplum;
   /**
   * http_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#http_auth Resource#http_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#http_auth Resource#http_auth}
   */
   readonly httpAuth?: ResourceHttpAuth;
   /**
   * http_basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#http_basic_auth Resource#http_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#http_basic_auth Resource#http_basic_auth}
   */
   readonly httpBasicAuth?: ResourceHttpBasicAuth;
   /**
   * http_no_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#http_no_auth Resource#http_no_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#http_no_auth Resource#http_no_auth}
   */
   readonly httpNoAuth?: ResourceHttpNoAuth;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes Resource#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes Resource#kubernetes}
   */
   readonly kubernetes?: ResourceKubernetes;
   /**
   * kubernetes_basic_auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes_basic_auth Resource#kubernetes_basic_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes_basic_auth Resource#kubernetes_basic_auth}
   */
   readonly kubernetesBasicAuth?: ResourceKubernetesBasicAuth;
   /**
   * kubernetes_pod_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes_pod_identity Resource#kubernetes_pod_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes_pod_identity Resource#kubernetes_pod_identity}
   */
   readonly kubernetesPodIdentity?: ResourceKubernetesPodIdentity;
   /**
   * kubernetes_service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes_service_account Resource#kubernetes_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes_service_account Resource#kubernetes_service_account}
   */
   readonly kubernetesServiceAccount?: ResourceKubernetesServiceAccount;
   /**
   * kubernetes_service_account_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes_service_account_user_impersonation Resource#kubernetes_service_account_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes_service_account_user_impersonation Resource#kubernetes_service_account_user_impersonation}
   */
   readonly kubernetesServiceAccountUserImpersonation?: ResourceKubernetesServiceAccountUserImpersonation;
   /**
   * kubernetes_user_impersonation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#kubernetes_user_impersonation Resource#kubernetes_user_impersonation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#kubernetes_user_impersonation Resource#kubernetes_user_impersonation}
   */
   readonly kubernetesUserImpersonation?: ResourceKubernetesUserImpersonation;
   /**
   * maria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#maria Resource#maria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#maria Resource#maria}
   */
   readonly maria?: ResourceMaria;
   /**
   * mcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mcp Resource#mcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mcp Resource#mcp}
   */
   readonly mcp?: ResourceMcp;
   /**
   * memcached block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#memcached Resource#memcached}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#memcached Resource#memcached}
   */
   readonly memcached?: ResourceMemcached;
   /**
   * memsql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#memsql Resource#memsql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#memsql Resource#memsql}
   */
   readonly memsql?: ResourceMemsql;
   /**
   * mongo_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mongo_host Resource#mongo_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mongo_host Resource#mongo_host}
   */
   readonly mongoHost?: ResourceMongoHost;
   /**
   * mongo_legacy_host block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mongo_legacy_host Resource#mongo_legacy_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mongo_legacy_host Resource#mongo_legacy_host}
   */
   readonly mongoLegacyHost?: ResourceMongoLegacyHost;
   /**
   * mongo_legacy_replicaset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mongo_legacy_replicaset Resource#mongo_legacy_replicaset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mongo_legacy_replicaset Resource#mongo_legacy_replicaset}
   */
   readonly mongoLegacyReplicaset?: ResourceMongoLegacyReplicaset;
   /**
   * mongo_replica_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mongo_replica_set Resource#mongo_replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mongo_replica_set Resource#mongo_replica_set}
   */
   readonly mongoReplicaSet?: ResourceMongoReplicaSet;
   /**
   * mongo_sharded_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mongo_sharded_cluster Resource#mongo_sharded_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mongo_sharded_cluster Resource#mongo_sharded_cluster}
   */
   readonly mongoShardedCluster?: ResourceMongoShardedCluster;
   /**
   * mtls_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mtls_mysql Resource#mtls_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mtls_mysql Resource#mtls_mysql}
   */
   readonly mtlsMysql?: ResourceMtlsMysql;
   /**
   * mtls_postgres block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mtls_postgres Resource#mtls_postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mtls_postgres Resource#mtls_postgres}
   */
   readonly mtlsPostgres?: ResourceMtlsPostgres;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#mysql Resource#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#mysql Resource#mysql}
   */
   readonly mysql?: ResourceMysql;
   /**
   * neptune block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#neptune Resource#neptune}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#neptune Resource#neptune}
   */
   readonly neptune?: ResourceNeptune;
   /**
   * neptune_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#neptune_iam Resource#neptune_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#neptune_iam Resource#neptune_iam}
   */
   readonly neptuneIam?: ResourceNeptuneIam;
   /**
   * oracle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#oracle Resource#oracle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#oracle Resource#oracle}
   */
   readonly oracle?: ResourceOracle;
   /**
   * oracle_nne block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#oracle_nne Resource#oracle_nne}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#oracle_nne Resource#oracle_nne}
   */
   readonly oracleNne?: ResourceOracleNne;
   /**
   * postgres block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#postgres Resource#postgres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#postgres Resource#postgres}
   */
   readonly postgres?: ResourcePostgres;
   /**
   * presto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#presto Resource#presto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#presto Resource#presto}
   */
   readonly presto?: ResourcePresto;
   /**
   * rabbitmq_amqp_091 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#rabbitmq_amqp_091 Resource#rabbitmq_amqp_091}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#rabbitmq_amqp_091 Resource#rabbitmq_amqp_091}
   */
   readonly rabbitmqAmqp091?: ResourceRabbitmqAmqp091;
   /**
   * raw_tcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#raw_tcp Resource#raw_tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#raw_tcp Resource#raw_tcp}
   */
   readonly rawTcp?: ResourceRawTcp;
   /**
   * rdp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#rdp Resource#rdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#rdp Resource#rdp}
   */
   readonly rdp?: ResourceRdp;
   /**
   * rdp_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#rdp_cert Resource#rdp_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#rdp_cert Resource#rdp_cert}
   */
   readonly rdpCert?: ResourceRdpCert;
   /**
   * rds_postgres_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#rds_postgres_iam Resource#rds_postgres_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#rds_postgres_iam Resource#rds_postgres_iam}
   */
   readonly rdsPostgresIam?: ResourceRdsPostgresIam;
   /**
   * redis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#redis Resource#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#redis Resource#redis}
   */
   readonly redis?: ResourceRedis;
   /**
   * redis_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#redis_cluster Resource#redis_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#redis_cluster Resource#redis_cluster}
   */
   readonly redisCluster?: ResourceRedisCluster;
   /**
   * redshift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#redshift Resource#redshift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#redshift Resource#redshift}
   */
   readonly redshift?: ResourceRedshift;
   /**
   * redshift_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#redshift_iam Resource#redshift_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#redshift_iam Resource#redshift_iam}
   */
   readonly redshiftIam?: ResourceRedshiftIam;
   /**
   * redshift_serverless_iam block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#redshift_serverless_iam Resource#redshift_serverless_iam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#redshift_serverless_iam Resource#redshift_serverless_iam}
   */
   readonly redshiftServerlessIam?: ResourceRedshiftServerlessIam;
   /**
   * single_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#single_store Resource#single_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#single_store Resource#single_store}
   */
   readonly singleStore?: ResourceSingleStore;
   /**
   * snowflake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#snowflake Resource#snowflake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#snowflake Resource#snowflake}
   */
   readonly snowflake?: ResourceSnowflake;
   /**
   * snowsight block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#snowsight Resource#snowsight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#snowsight Resource#snowsight}
   */
   readonly snowsight?: ResourceSnowsight;
   /**
   * sql_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sql_server Resource#sql_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sql_server Resource#sql_server}
   */
   readonly sqlServer?: ResourceSqlServer;
   /**
   * sql_server_azure_ad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sql_server_azure_ad Resource#sql_server_azure_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sql_server_azure_ad Resource#sql_server_azure_ad}
   */
   readonly sqlServerAzureAd?: ResourceSqlServerAzureAd;
   /**
   * sql_server_kerberos_ad block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sql_server_kerberos_ad Resource#sql_server_kerberos_ad}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sql_server_kerberos_ad Resource#sql_server_kerberos_ad}
   */
   readonly sqlServerKerberosAd?: ResourceSqlServerKerberosAd;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#ssh Resource#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#ssh Resource#ssh}
   */
   readonly ssh?: ResourceSsh;
   /**
   * ssh_cert block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#ssh_cert Resource#ssh_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#ssh_cert Resource#ssh_cert}
   */
   readonly sshCert?: ResourceSshCert;
   /**
   * ssh_customer_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#ssh_customer_key Resource#ssh_customer_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#ssh_customer_key Resource#ssh_customer_key}
   */
   readonly sshCustomerKey?: ResourceSshCustomerKey;
   /**
   * ssh_password block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#ssh_password Resource#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#ssh_password Resource#ssh_password}
   */
   readonly sshPassword?: ResourceSshPassword;
   /**
   * sybase block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sybase Resource#sybase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sybase Resource#sybase}
   */
   readonly sybase?: ResourceSybase;
   /**
   * sybase_iq block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sybase_iq Resource#sybase_iq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sybase_iq Resource#sybase_iq}
   */
   readonly sybaseIq?: ResourceSybaseIq;
   /**
   * teradata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#teradata Resource#teradata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#teradata Resource#teradata}
   */
   readonly teradata?: ResourceTeradata;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#timeouts Resource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#timeouts Resource#timeouts}
   */
   readonly timeouts?: ResourceTimeouts;
   /**
   * trino block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#trino Resource#trino}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#trino Resource#trino}
   */
   readonly trino?: ResourceTrino;
   /**
   * vertica block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#vertica Resource#vertica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#vertica Resource#vertica}
   */
   readonly vertica?: ResourceVertica;
 }
@@ -691,79 +691,79 @@ export interface ResourceAerospike {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, uses UseServicesAlternates directive for Aerospike connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_services_alternate Resource#use_services_alternate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_services_alternate Resource#use_services_alternate}
   */
   readonly useServicesAlternate?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -1191,115 +1191,115 @@ export interface ResourceAks {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -1898,79 +1898,79 @@ export interface ResourceAksBasicAuth {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -2395,103 +2395,103 @@ export interface ResourceAksServiceAccount {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The API token to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#token Resource#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#token Resource#token}
   */
   readonly token?: string;
 }
@@ -3032,73 +3032,73 @@ export interface ResourceAksServiceAccountUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The API token to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#token Resource#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#token Resource#token}
   */
   readonly token?: string;
 }
@@ -3494,85 +3494,85 @@ export interface ResourceAksUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4026,133 +4026,133 @@ export interface ResourceAmazonEks {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The name of the cluster to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cluster_name Resource#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cluster_name Resource#cluster_name}
   */
   readonly clusterName: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -4835,121 +4835,121 @@ export interface ResourceAmazonEksInstanceProfile {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The name of the cluster to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cluster_name Resource#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cluster_name Resource#cluster_name}
   */
   readonly clusterName: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -5574,91 +5574,91 @@ export interface ResourceAmazonEksInstanceProfileUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The name of the cluster to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cluster_name Resource#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cluster_name Resource#cluster_name}
   */
   readonly clusterName: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6138,103 +6138,103 @@ export interface ResourceAmazonEksUserImpersonation {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The name of the cluster to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cluster_name Resource#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cluster_name Resource#cluster_name}
   */
   readonly clusterName: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -6772,85 +6772,85 @@ export interface ResourceAmazonEs {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial e.g. search-?.region.es.amazonaws.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -7307,79 +7307,79 @@ export interface ResourceAmazonEsiam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial e.g. search-?.region.es.amazonaws.com"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Use TLS to connect to the OpenSearch server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
 }
@@ -7804,79 +7804,79 @@ export interface ResourceAmazonmqAmqp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -8304,79 +8304,79 @@ export interface ResourceAmazonmqAmqp091 {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -8804,85 +8804,85 @@ export interface ResourceAthena {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The AWS S3 output location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#output Resource#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#output Resource#output}
   */
   readonly output: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region?: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -9339,73 +9339,73 @@ export interface ResourceAthenaIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The AWS S3 output location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#output Resource#output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#output Resource#output}
   */
   readonly output: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to e.g. us-east-1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region?: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -9804,91 +9804,91 @@ export interface ResourceAuroraMysql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -10374,85 +10374,85 @@ export interface ResourceAuroraMysqlIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -10906,85 +10906,85 @@ export interface ResourceAuroraPostgres {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -11438,91 +11438,91 @@ export interface ResourceAuroraPostgresIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -12002,79 +12002,79 @@ export interface ResourceAws {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The AWS region healthcheck requests should attempt to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_region Resource#healthcheck_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_region Resource#healthcheck_region}
   */
   readonly healthcheckRegion: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -12502,91 +12502,91 @@ export interface ResourceAwsConsole {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * If true, prefer environment variables to authenticate connection even if EC2 roles are configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#enable_env_variables Resource#enable_env_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#enable_env_variables Resource#enable_env_variables}
   */
   readonly enableEnvVariables?: boolean | cdktf.IResolvable;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The length of time in seconds AWS console sessions will live before needing to reauthenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#session_expiry Resource#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#session_expiry Resource#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -13069,97 +13069,97 @@ export interface ResourceAwsConsoleStaticKeyPair {
   /**
   * The Access Key ID to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The length of time in seconds AWS console sessions will live before needing to reauthenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#session_expiry Resource#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#session_expiry Resource#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -13671,73 +13671,73 @@ export interface ResourceAwsInstanceProfile {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * If true, prefer environment variables to authenticate connection even if EC2 roles are configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#enable_env_variables Resource#enable_env_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#enable_env_variables Resource#enable_env_variables}
   */
   readonly enableEnvVariables?: boolean | cdktf.IResolvable;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -14136,67 +14136,67 @@ export interface ResourceAzure {
   /**
   * The application ID to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#app_id Resource#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#app_id Resource#app_id}
   */
   readonly appId?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The tenant ID to authenticate to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tenant_id Resource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tenant_id Resource#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -14569,67 +14569,67 @@ export interface ResourceAzureCertificate {
   /**
   * The application ID to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#app_id Resource#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#app_id Resource#app_id}
   */
   readonly appId?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The service Principal certificate file, both private and public key included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The tenant ID to authenticate to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tenant_id Resource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tenant_id Resource#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -15002,91 +15002,91 @@ export interface ResourceAzureMysql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -15572,85 +15572,85 @@ export interface ResourceAzureMysqlManagedIdentity {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -16107,85 +16107,85 @@ export interface ResourceAzurePostgres {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with. For Azure Postgres, this also will include the hostname of the target server for Azure Single Server compatibility. For Flexible servers, use the normal Postgres type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -16639,91 +16639,91 @@ export interface ResourceAzurePostgresManagedIdentity {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -17206,73 +17206,73 @@ export interface ResourceBigQuery {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * The JSON Private key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#private_key Resource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#private_key Resource#private_key}
   */
   readonly privateKey?: string;
   /**
   * The project to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#project Resource#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#project Resource#project}
   */
   readonly project: string;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -17668,79 +17668,79 @@ export interface ResourceCassandra {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -18168,85 +18168,85 @@ export interface ResourceCitus {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -18700,67 +18700,67 @@ export interface ResourceClickHouseHttp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The URL to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -19130,85 +19130,85 @@ export interface ResourceClickHouseMySql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -19665,85 +19665,85 @@ export interface ResourceClickHouseTcp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -20197,91 +20197,91 @@ export interface ResourceClustrix {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -20767,85 +20767,85 @@ export interface ResourceCockroach {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -21299,85 +21299,85 @@ export interface ResourceCouchbaseDatabase {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The port number for N1QL queries. Default HTTP is 8093. Default HTTPS is 18093.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#n_1_ql_port Resource#n_1_ql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#n_1_ql_port Resource#n_1_ql_port}
   */
   readonly n1QlPort: number;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -21831,67 +21831,67 @@ export interface ResourceCouchbaseWebUi {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The base address of your website without the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -22258,79 +22258,79 @@ export interface ResourceDb2I {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -22755,85 +22755,85 @@ export interface ResourceDb2Luw {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -23287,79 +23287,79 @@ export interface ResourceDocumentDbHost {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -23784,67 +23784,67 @@ export interface ResourceDocumentDbHostIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -24211,85 +24211,85 @@ export interface ResourceDocumentDbReplicaSet {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Set to connect to a replica instead of the primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
   */
   readonly connectToReplica?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Hostname must contain the hostname/port pairs of all instances in the replica set separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The name of the mongo replicaset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#replica_set Resource#replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#replica_set Resource#replica_set}
   */
   readonly replicaSet: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -24740,67 +24740,67 @@ export interface ResourceDocumentDbReplicaSetIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Set to connect to a replica instead of the primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
   */
   readonly connectToReplica?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Hostname must contain the hostname/port pairs of all instances in the replica set separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The region of the document db cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -25167,73 +25167,73 @@ export interface ResourceDruid {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -25632,85 +25632,85 @@ export interface ResourceDynamoDb {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial e.g. dynamodb.region.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The region to authenticate requests against e.g. us-east-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -26164,73 +26164,73 @@ export interface ResourceDynamoDbiam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial e.g. dynamodb.region.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The region to authenticate requests against e.g. us-east-1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -26626,79 +26626,79 @@ export interface ResourceElastic {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -27126,79 +27126,79 @@ export interface ResourceElasticacheRedis {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -27626,91 +27626,91 @@ export interface ResourceElasticacheRedisIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * AWS region is needed in addition to hostname to generate the IAM signature
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -28193,91 +28193,91 @@ export interface ResourceEntraId {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * If true, configures discovery of the tenant to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * comma separated list of group names to filter by. Supports wildcards (*)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#group_names Resource#group_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#group_names Resource#group_names}
   */
   readonly groupNames?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId: string;
   /**
   * The management group ID to authenticate scope Privileges to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#management_group_id Resource#management_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#management_group_id Resource#management_group_id}
   */
   readonly managementGroupId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The privilege levels specify which Groups are managed externally
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#privilege_levels Resource#privilege_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#privilege_levels Resource#privilege_levels}
   */
   readonly privilegeLevels?: string;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * filters discovered groups to the specified Resource Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#resource_group_id Resource#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#resource_group_id Resource#resource_group_id}
   */
   readonly resourceGroupId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * The subscription ID to authenticate scope Privileges to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subscription_id Resource#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subscription_id Resource#subscription_id}
   */
   readonly subscriptionId?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The connector ID to authenticate through.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tenant_id Resource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tenant_id Resource#tenant_id}
   */
   readonly tenantId: string;
 }
@@ -28760,61 +28760,61 @@ export interface ResourceGcp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The service account keyfile to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#keyfile Resource#keyfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#keyfile Resource#keyfile}
   */
   readonly keyfile?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Space separated scopes that this login should assume into when authenticating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#scopes Resource#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#scopes Resource#scopes}
   */
   readonly scopes: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -29155,79 +29155,79 @@ export interface ResourceGcpConsole {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The length of time in seconds console sessions will live before needing to reauthenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#session_expiry Resource#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#session_expiry Resource#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the Workforce Identity Pool in GCP to use for federated authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#workforce_pool_id Resource#workforce_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#workforce_pool_id Resource#workforce_pool_id}
   */
   readonly workforcePoolId: string;
   /**
   * The ID of the Workforce Identity Provider in GCP to use for federated authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#workforce_provider_id Resource#workforce_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#workforce_provider_id Resource#workforce_provider_id}
   */
   readonly workforceProviderId: string;
 }
@@ -29649,91 +29649,91 @@ export interface ResourceGcpwif {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * When specified, all project scoped requests will use this Project ID, overriding the project ID specified by clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#project_id Resource#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#project_id Resource#project_id}
   */
   readonly projectId?: string;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Space separated scopes that this login should assume into when authenticating.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#scopes Resource#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#scopes Resource#scopes}
   */
   readonly scopes: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The length of time in seconds console sessions will live before needing to reauthenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#session_expiry Resource#session_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#session_expiry Resource#session_expiry}
   */
   readonly sessionExpiry?: number;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The ID of the Workforce Identity Pool in GCP to use for federated authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#workforce_pool_id Resource#workforce_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#workforce_pool_id Resource#workforce_pool_id}
   */
   readonly workforcePoolId: string;
   /**
   * The ID of the Workforce Identity Provider in GCP to use for federated authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#workforce_provider_id Resource#workforce_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#workforce_provider_id Resource#workforce_provider_id}
   */
   readonly workforceProviderId: string;
 }
@@ -30213,103 +30213,103 @@ export interface ResourceGoogleGke {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The service account key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#service_account_key Resource#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#service_account_key Resource#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -30853,73 +30853,73 @@ export interface ResourceGoogleGkeUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The endpoint to dial.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The service account key to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#service_account_key Resource#service_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#service_account_key Resource#service_account_key}
   */
   readonly serviceAccountKey?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -31318,85 +31318,85 @@ export interface ResourceGreenplum {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -31850,85 +31850,85 @@ export interface ResourceHttpAuth {
   /**
   * The content to set as the authorization header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_header Resource#auth_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_header Resource#auth_header}
   */
   readonly authHeader?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Automatically redirect to this path upon connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#default_path Resource#default_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#default_path Resource#default_path}
   */
   readonly defaultPath?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Header names (e.g. Authorization), to omit from logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
   */
   readonly headersBlacklist?: string;
   /**
   * This path will be used to check the health of your site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
   */
   readonly healthcheckPath: string;
   /**
   * The host header will be overwritten with this field if provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#host_override Resource#host_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#host_override Resource#host_override}
   */
   readonly hostOverride?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The base address of your website without the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
 }
@@ -32379,91 +32379,91 @@ export interface ResourceHttpBasicAuth {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Automatically redirect to this path upon connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#default_path Resource#default_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#default_path Resource#default_path}
   */
   readonly defaultPath?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Header names (e.g. Authorization), to omit from logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
   */
   readonly headersBlacklist?: string;
   /**
   * This path will be used to check the health of your site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
   */
   readonly healthcheckPath: string;
   /**
   * The host header will be overwritten with this field if provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#host_override Resource#host_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#host_override Resource#host_override}
   */
   readonly hostOverride?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The base address of your website without the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -32943,79 +32943,79 @@ export interface ResourceHttpNoAuth {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Automatically redirect to this path upon connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#default_path Resource#default_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#default_path Resource#default_path}
   */
   readonly defaultPath?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Header names (e.g. Authorization), to omit from logs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#headers_blacklist Resource#headers_blacklist}
   */
   readonly headersBlacklist?: string;
   /**
   * This path will be used to check the health of your site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_path Resource#healthcheck_path}
   */
   readonly healthcheckPath: string;
   /**
   * The host header will be overwritten with this field if provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#host_override Resource#host_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#host_override Resource#host_override}
   */
   readonly hostOverride?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The base address of your website without the path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#url Resource#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#url Resource#url}
   */
   readonly url: string;
 }
@@ -33437,115 +33437,115 @@ export interface ResourceKubernetes {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -34144,79 +34144,79 @@ export interface ResourceKubernetesBasicAuth {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -34641,91 +34641,91 @@ export interface ResourceKubernetesPodIdentity {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -35214,103 +35214,103 @@ export interface ResourceKubernetesServiceAccount {
   /**
   * If true, allows users to fallback to the existing authentication mode (Leased Credential or Identity Set) when a resource role is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_resource_role_bypass Resource#allow_resource_role_bypass}
   */
   readonly allowResourceRoleBypass?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * If true, configures discovery of a cluster to be run from a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_enabled Resource#discovery_enabled}
   */
   readonly discoveryEnabled?: boolean | cdktf.IResolvable;
   /**
   * If a cluster is configured for user impersonation, this is the user to impersonate when running discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#discovery_username Resource#discovery_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#discovery_username Resource#discovery_username}
   */
   readonly discoveryUsername?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The API token to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#token Resource#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#token Resource#token}
   */
   readonly token?: string;
 }
@@ -35851,73 +35851,73 @@ export interface ResourceKubernetesServiceAccountUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The API token to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#token Resource#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#token Resource#token}
   */
   readonly token?: string;
 }
@@ -36313,85 +36313,85 @@ export interface ResourceKubernetesUserImpersonation {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The path used to check the health of your connection.  Defaults to `default`.  This field is required, and is only marked as optional for backwards compatibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_namespace Resource#healthcheck_namespace}
   */
   readonly healthcheckNamespace?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -36845,91 +36845,91 @@ export interface ResourceMaria {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -37415,67 +37415,67 @@ export interface ResourceMcp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -37845,61 +37845,61 @@ export interface ResourceMemcached {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -38240,91 +38240,91 @@ export interface ResourceMemsql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -38810,85 +38810,85 @@ export interface ResourceMongoHost {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -39342,85 +39342,85 @@ export interface ResourceMongoLegacyHost {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -39874,97 +39874,97 @@ export interface ResourceMongoLegacyReplicaset {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Set to connect to a replica instead of the primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
   */
   readonly connectToReplica?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The name of the mongo replicaset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#replica_set Resource#replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#replica_set Resource#replica_set}
   */
   readonly replicaSet: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -40473,97 +40473,97 @@ export interface ResourceMongoReplicaSet {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Set to connect to a replica instead of the primary node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#connect_to_replica Resource#connect_to_replica}
   */
   readonly connectToReplica?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The name of the mongo replicaset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#replica_set Resource#replica_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#replica_set Resource#replica_set}
   */
   readonly replicaSet: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -41072,79 +41072,79 @@ export interface ResourceMongoShardedCluster {
   /**
   * The authentication database to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#auth_database Resource#auth_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#auth_database Resource#auth_database}
   */
   readonly authDatabase: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -41569,115 +41569,115 @@ export interface ResourceMtlsMysql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Server name for TLS verification (unverified by StrongDM if empty)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#server_name Resource#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#server_name Resource#server_name}
   */
   readonly serverName?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -42279,109 +42279,109 @@ export interface ResourceMtlsPostgres {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The CA to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#certificate_authority Resource#certificate_authority}
   */
   readonly certificateAuthority?: string;
   /**
   * The certificate to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_certificate Resource#client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_certificate Resource#client_certificate}
   */
   readonly clientCertificate?: string;
   /**
   * The key to authenticate TLS connections with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_key Resource#client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_key Resource#client_key}
   */
   readonly clientKey?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Server name for TLS verification (unverified by StrongDM if empty)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#server_name Resource#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#server_name Resource#server_name}
   */
   readonly serverName?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -42951,91 +42951,91 @@ export interface ResourceMysql {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -43521,61 +43521,61 @@ export interface ResourceNeptune {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The neptune endpoint to connect to as in endpoint.region.neptune.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -43916,91 +43916,91 @@ export interface ResourceNeptuneIam {
   /**
   * The Access Key ID to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#access_key Resource#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#access_key Resource#access_key}
   */
   readonly accessKey?: string;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The neptune endpoint to connect to as in endpoint.region.neptune.amazonaws.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#endpoint Resource#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#endpoint Resource#endpoint}
   */
   readonly endpoint: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * The role to assume after logging in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_arn Resource#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_arn Resource#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The external ID to associate with assume role requests. Does nothing if a role ARN is not provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_external_id Resource#role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_external_id Resource#role_external_id}
   */
   readonly roleExternalId?: string;
   /**
   * The Secret Access Key to use to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_access_key Resource#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -44483,85 +44483,85 @@ export interface ResourceOracle {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Oracle service name to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -45012,85 +45012,85 @@ export interface ResourceOracleNne {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Oracle service name to connect to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -45541,85 +45541,85 @@ export interface ResourcePostgres {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -46073,85 +46073,85 @@ export interface ResourcePresto {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -46605,79 +46605,79 @@ export interface ResourceRabbitmqAmqp091 {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -47105,61 +47105,61 @@ export interface ResourceRawTcp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -47500,97 +47500,97 @@ export interface ResourceRdp {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * When set, network level authentication will not be used. May resolve unexpected authentication errors to older servers. When set, healthchecks cannot detect if a provided username / password pair is correct.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#downgrade_nla_connections Resource#downgrade_nla_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#downgrade_nla_connections Resource#downgrade_nla_connections}
   */
   readonly downgradeNlaConnections?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * if provided use identity_set to map username to secret store path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * When set, require a resource lock to access the resource to ensure it can only be used by one user at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#lock_required Resource#lock_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#lock_required Resource#lock_required}
   */
   readonly lockRequired?: boolean | cdktf.IResolvable;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -48105,97 +48105,97 @@ export interface ResourceRdpCert {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Comma-separated list of Active Directory Domain Controller hostnames for LDAPS SID resolution. Utilized for strong certificate mapping in full enforcement mode when the identity alias does not specify a SID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#dc_hostnames Resource#dc_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#dc_hostnames Resource#dc_hostnames}
   */
   readonly dcHostnames?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * When set, require a resource lock to access the resource to ensure it can only be used by one user at a time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#lock_required Resource#lock_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#lock_required Resource#lock_required}
   */
   readonly lockRequired?: boolean | cdktf.IResolvable;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Windows Security Identifier (SID) of the configured Username, required for strong certificate mapping in full enforcement mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#sid Resource#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#sid Resource#sid}
   */
   readonly sid?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -48710,91 +48710,91 @@ export interface ResourceRdsPostgresIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -49274,79 +49274,79 @@ export interface ResourceRedis {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -49774,79 +49774,79 @@ export interface ResourceRedisCluster {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * Hostname must contain the hostname/port pairs of all instances in the replica set separated by commas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -50274,85 +50274,85 @@ export interface ResourceRedshift {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -50806,91 +50806,91 @@ export interface ResourceRedshiftIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * Cluster Identified of Redshift cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#cluster_id Resource#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#cluster_id Resource#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -51367,91 +51367,91 @@ export interface ResourceRedshiftServerlessIam {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The AWS region to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#region Resource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#region Resource#region}
   */
   readonly region: string;
   /**
   * If provided, the gateway/relay will try to assume this role instead of the underlying compute's role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#role_assumption_arn Resource#role_assumption_arn}
   */
   readonly roleAssumptionArn?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Workgroup name in the serverless Redshift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#workgroup Resource#workgroup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#workgroup Resource#workgroup}
   */
   readonly workgroup: string;
 }
@@ -51928,91 +51928,91 @@ export interface ResourceSingleStore {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks. Does not affect client requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * Whether native auth (mysql_native_password) is used for all connections (for backwards compatibility)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#require_native_auth Resource#require_native_auth}
   */
   readonly requireNativeAuth?: boolean | cdktf.IResolvable;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If true, appends the hostname to the username when hitting a database.azure.com address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#use_azure_single_server_usernames Resource#use_azure_single_server_usernames}
   */
   readonly useAzureSingleServerUsernames?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -52498,85 +52498,85 @@ export interface ResourceSnowflake {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * Deprecated: https://www.snowflake.com/en/blog/blocking-single-factor-password-authentification/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * RSA Private Key for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#private_key Resource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#private_key Resource#private_key}
   */
   readonly privateKey?: string;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The schema to provide on authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#schema Resource#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#schema Resource#schema}
   */
   readonly schema?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -53030,67 +53030,67 @@ export interface ResourceSnowsight {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * If true, select the ACS with isDefault=true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#connect_to_default Resource#connect_to_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#connect_to_default Resource#connect_to_default}
   */
   readonly connectToDefault?: boolean | cdktf.IResolvable;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The StrongDM user email to use for healthchecks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#healthcheck_username Resource#healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#healthcheck_username Resource#healthcheck_username}
   */
   readonly healthcheckUsername: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The Metadata for your snowflake IDP integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#saml_metadata Resource#saml_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#saml_metadata Resource#saml_metadata}
   */
   readonly samlMetadata?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * Subdomain is the local DNS address.  (e.g. app-prod1 turns into app-prod1.your-org-name.sdm.network)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -53457,97 +53457,97 @@ export interface ResourceSqlServer {
   /**
   * Whether to allow deprecated encryption protocols to be used for this resource. For example, TLS 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
   */
   readonly allowDeprecatedEncryption?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks, and used for clients if Override Default Database is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The Schema to use to direct initial requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#schema Resource#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#schema Resource#schema}
   */
   readonly schema?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -54062,103 +54062,103 @@ export interface ResourceSqlServerAzureAd {
   /**
   * Whether to allow deprecated encryption protocols to be used for this resource. For example, TLS 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
   */
   readonly allowDeprecatedEncryption?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The Azure AD application (client) ID with which to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#client_id Resource#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#client_id Resource#client_id}
   */
   readonly clientId?: string;
   /**
   * The database for healthchecks, and used for clients if Override Default Database is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The Schema to use to direct initial requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#schema Resource#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#schema Resource#schema}
   */
   readonly schema?: string;
   /**
   * The Azure AD client secret (application password) with which to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret Resource#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret Resource#secret}
   */
   readonly secret?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Azure AD directory (tenant) ID with which to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tenant_id Resource#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tenant_id Resource#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -54702,115 +54702,115 @@ export interface ResourceSqlServerKerberosAd {
   /**
   * Whether to allow deprecated encryption protocols to be used for this resource. For example, TLS 1.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_encryption Resource#allow_deprecated_encryption}
   */
   readonly allowDeprecatedEncryption?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The database for healthchecks, and used for clients if Override Default Database is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The keytab file in base64 format containing an entry with the principal name (username@realm) and key version number with which to authenticate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#keytab Resource#keytab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#keytab Resource#keytab}
   */
   readonly keytab?: string;
   /**
   * The Kerberos 5 configuration file (krb5.conf) specifying the Active Directory server (KDC) for the configured realm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#krb_config Resource#krb_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#krb_config Resource#krb_config}
   */
   readonly krbConfig?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * If set, the database configured cannot be changed by users. This setting is not recommended for most use cases, as some clients will insist their database has changed when it has not, leading to user confusion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#override_database Resource#override_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#override_database Resource#override_database}
   */
   readonly overrideDatabase?: boolean | cdktf.IResolvable;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * The Active Directory domain (realm) to which the configured username belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#realm Resource#realm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#realm Resource#realm}
   */
   readonly realm?: string;
   /**
   * The Schema to use to direct initial requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#schema Resource#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#schema Resource#schema}
   */
   readonly schema?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * The Service Principal Name of the Microsoft SQL Server instance in Active Directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#server_spn Resource#server_spn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#server_spn Resource#server_spn}
   */
   readonly serverSpn: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -55409,85 +55409,85 @@ export interface ResourceSsh {
   /**
   * Whether deprecated, insecure key exchanges are allowed for use to connect to the target ssh server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
   */
   readonly allowDeprecatedKeyExchanges?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The key type to use e.g. rsa-2048 or ed25519
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#key_type Resource#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#key_type Resource#key_type}
   */
   readonly keyType?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * Whether port forwarding is allowed through this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
   */
   readonly portForwarding?: boolean | cdktf.IResolvable;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -55946,97 +55946,97 @@ export interface ResourceSshCert {
   /**
   * Whether deprecated, insecure key exchanges are allowed for use to connect to the target ssh server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
   */
   readonly allowDeprecatedKeyExchanges?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * The key type to use e.g. rsa-2048 or ed25519
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#key_type Resource#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#key_type Resource#key_type}
   */
   readonly keyType?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * Whether port forwarding is allowed through this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
   */
   readonly portForwarding?: boolean | cdktf.IResolvable;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -56548,97 +56548,97 @@ export interface ResourceSshCustomerKey {
   /**
   * Whether deprecated, insecure key exchanges are allowed for use to connect to the target ssh server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
   */
   readonly allowDeprecatedKeyExchanges?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * The username to use for healthchecks, when clients otherwise connect with their own identity alias username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_alias_healthcheck_username Resource#identity_alias_healthcheck_username}
   */
   readonly identityAliasHealthcheckUsername?: string;
   /**
   * The ID of the identity set to use for identity connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#identity_set_id Resource#identity_set_id}
   */
   readonly identitySetId?: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * Whether port forwarding is allowed through this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
   */
   readonly portForwarding?: boolean | cdktf.IResolvable;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * The private key used to authenticate with the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#private_key Resource#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#private_key Resource#private_key}
   */
   readonly privateKey?: string;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -57150,85 +57150,85 @@ export interface ResourceSshPassword {
   /**
   * Whether deprecated, insecure key exchanges are allowed for use to connect to the target ssh server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#allow_deprecated_key_exchanges Resource#allow_deprecated_key_exchanges}
   */
   readonly allowDeprecatedKeyExchanges?: boolean | cdktf.IResolvable;
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port: number;
   /**
   * Whether port forwarding is allowed through this server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_forwarding Resource#port_forwarding}
   */
   readonly portForwarding?: boolean | cdktf.IResolvable;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -57682,73 +57682,73 @@ export interface ResourceSybase {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -58147,73 +58147,73 @@ export interface ResourceSybaseIq {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -58612,73 +58612,73 @@ export interface ResourceTeradata {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -59075,23 +59075,23 @@ export class ResourceTeradataOutputReference extends cdktf.ComplexObject {
 }
 export interface ResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#create Resource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#create Resource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#default Resource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#default Resource#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#delete Resource#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#delete Resource#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#read Resource#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#read Resource#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#update Resource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#update Resource#update}
   */
   readonly update?: string;
 }
@@ -59303,79 +59303,79 @@ export interface ResourceTrino {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * If set, TLS must be used to connect to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tls_required Resource#tls_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tls_required Resource#tls_required}
   */
   readonly tlsRequired?: boolean | cdktf.IResolvable;
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -59803,79 +59803,79 @@ export interface ResourceVertica {
   /**
   * The bind interface is the IP address to which the port override of a resource is bound (for example, 127.0.0.1). It is automatically generated if not provided and may also be set to one of the ResourceIPAllocationMode constants to select between VNM, loopback, or default allocation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#bind_interface Resource#bind_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#bind_interface Resource#bind_interface}
   */
   readonly bindInterface?: string;
   /**
   * The initial database to connect to. This setting does not by itself prevent switching to another database after connecting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#database Resource#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#database Resource#database}
   */
   readonly database: string;
   /**
   * A filter applied to the routing logic to pin datasource to nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#egress_filter Resource#egress_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#egress_filter Resource#egress_filter}
   */
   readonly egressFilter?: string;
   /**
   * The host to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#hostname Resource#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#hostname Resource#hostname}
   */
   readonly hostname: string;
   /**
   * Unique human-readable name of the Resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#name Resource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#name Resource#name}
   */
   readonly name: string;
   /**
   * The password to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#password Resource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#password Resource#password}
   */
   readonly password?: string;
   /**
   * The port to dial to initiate a connection from the egress node to this resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port Resource#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port Resource#port}
   */
   readonly port?: number;
   /**
   * The local port used by clients to connect to this resource. It is automatically generated if not provided on create and may be re-generated on update by specifying a value of -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#port_override Resource#port_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#port_override Resource#port_override}
   */
   readonly portOverride?: number;
   /**
   * ID of the proxy cluster for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#proxy_cluster_id Resource#proxy_cluster_id}
   */
   readonly proxyClusterId?: string;
   /**
   * ID of the secret store containing credentials for this resource, if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#secret_store_id Resource#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
   * DNS subdomain through which this resource may be accessed on clients.  (e.g. "app-prod1" allows the resource to be accessed at "app-prod1.your-org-name.sdm-proxy-domain"). Only applicable to HTTP-based resources or resources using virtual networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#subdomain Resource#subdomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#subdomain Resource#subdomain}
   */
   readonly subdomain?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#tags Resource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#tags Resource#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The username to authenticate with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#username Resource#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#username Resource#username}
   */
   readonly username?: string;
 }
@@ -60298,7 +60298,7 @@ export class ResourceVerticaOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource sdm_resource}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource sdm_resource}
 */
 export class Resource extends cdktf.TerraformResource {
 
@@ -60314,7 +60314,7 @@ export class Resource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Resource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Resource to import
-  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Resource that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Resource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -60326,7 +60326,7 @@ export class Resource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/resources/resource sdm_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/resources/resource sdm_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60337,8 +60337,8 @@ export class Resource extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_resource',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.28.0',
-        providerVersionConstraint: '15.28.0'
+        providerVersion: '15.31.0',
+        providerVersionConstraint: '15.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

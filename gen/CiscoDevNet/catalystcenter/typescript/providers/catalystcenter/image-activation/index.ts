@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ImageActivationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow to activate a lower version of an image. Updating this attribute later does not cause image to be re-activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#activate_lower_image_version ImageActivation#activate_lower_image_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#activate_lower_image_version ImageActivation#activate_lower_image_version}
   */
   readonly activateLowerImageVersion?: boolean | cdktf.IResolvable;
   /**
   * Device upgrade mode. Updating this attribute later does not cause image to be re-activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#device_upgrade_mode ImageActivation#device_upgrade_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#device_upgrade_mode ImageActivation#device_upgrade_mode}
   */
   readonly deviceUpgradeMode?: string;
   /**
   * The UUID of the network device on which to active the software image. Changing it forces the entire resource to be re-created, so that the activation occurs as newly specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#device_uuid ImageActivation#device_uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#device_uuid ImageActivation#device_uuid}
   */
   readonly deviceUuid?: string;
   /**
   * Whether to distribute the image as needed, thus negating the need for a separate `catalystcenter_image_distribution`. Updating this attribute later does not cause image to be re-activated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#distribute_if_needed ImageActivation#distribute_if_needed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#distribute_if_needed ImageActivation#distribute_if_needed}
   */
   readonly distributeIfNeeded?: boolean | cdktf.IResolvable;
   /**
   * The list of UUIDs of the software images to activate. The UUIDs could be obtained for example from `catalystcenter_image.id`. SMU images shouldn't be specified in this list. Changing/adding/removing any UUID causes the entire resource to be re-created, so that the entire activation occurs as newly specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#image_uuid_list ImageActivation#image_uuid_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#image_uuid_list ImageActivation#image_uuid_list}
   */
   readonly imageUuidList?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation catalystcenter_image_activation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation catalystcenter_image_activation}
 */
 export class ImageActivation extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ImageActivation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImageActivation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImageActivation to import
-  * @param importFromId The id of the existing ImageActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImageActivation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImageActivation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ImageActivation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/image_activation catalystcenter_image_activation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/image_activation catalystcenter_image_activation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ImageActivation extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_image_activation',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyEscalationPolicyConfig extends cdktf.TerraformMetaArg
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy#created_at DataRootlyEscalationPolicy#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy#created_at DataRootlyEscalationPolicy#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy#name DataRootlyEscalationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy#name DataRootlyEscalationPolicy#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy rootly_escalation_policy}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy rootly_escalation_policy}
 */
 export class DataRootlyEscalationPolicy extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyEscalationPolicy extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyEscalationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyEscalationPolicy to import
-  * @param importFromId The id of the existing DataRootlyEscalationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyEscalationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyEscalationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyEscalationPolicy extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/escalation_policy rootly_escalation_policy} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/escalation_policy rootly_escalation_policy} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyEscalationPolicy extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_escalation_policy',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

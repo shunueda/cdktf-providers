@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface PackageCleanupPolicyConfig extends cdktf.TerraformMetaArguments
   /**
   * The cron expression that determines when the policy is run, However if left empty the policy will not run automatically and can only be triggered manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#cron_expression PackageCleanupPolicy#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#cron_expression PackageCleanupPolicy#cron_expression}
   */
   readonly cronExpression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#description PackageCleanupPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#description PackageCleanupPolicy#description}
   */
   readonly description?: string;
   /**
   * The maximum duration (in minutes) for policy execution, after which the policy will stop running even if not completed. While setting a maximum run duration for a policy is useful for adhering to a strict cleanup schedule, it can cause the policy to stop before completion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#duration_in_minutes PackageCleanupPolicy#duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#duration_in_minutes PackageCleanupPolicy#duration_in_minutes}
   */
   readonly durationInMinutes?: number;
   /**
   * A cleanup policy must be created inactive. But if used it must be set to `false`. If set to `true` when calling this API, the API call will fail and an error message is received.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#enabled PackageCleanupPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#enabled PackageCleanupPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An ID that is used to identify the cleanup policy. A minimum of three characters is required and can include letters, numbers, underscore and hyphen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#key PackageCleanupPolicy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#key PackageCleanupPolicy#key}
   */
   readonly key: string;
   /**
   * This attribute is used only for project-level cleanup policies, it is not used for global-level policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#project_key PackageCleanupPolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#project_key PackageCleanupPolicy#project_key}
   */
   readonly projectKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#search_criteria PackageCleanupPolicy#search_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#search_criteria PackageCleanupPolicy#search_criteria}
   */
   readonly searchCriteria: PackageCleanupPolicySearchCriteria;
   /**
@@ -50,7 +50,7 @@ export interface PackageCleanupPolicyConfig extends cdktf.TerraformMetaArguments
   * 
   * ~>The Global Trash Can setting must be enabled if you want deleted items to be transferred to the Trash Can, see [Trash Can Settings](https://jfrog.com/help/r/jfrog-artifactory-documentation/trash-can-settings).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#skip_trashcan PackageCleanupPolicy#skip_trashcan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#skip_trashcan PackageCleanupPolicy#skip_trashcan}
   */
   readonly skipTrashcan?: boolean | cdktf.IResolvable;
 }
@@ -60,7 +60,7 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `created_before_in_days` condition to ensure that packages currently in use are not deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#created_before_in_days PackageCleanupPolicy#created_before_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#created_before_in_days PackageCleanupPolicy#created_before_in_days}
   */
   readonly createdBeforeInDays?: number;
   /**
@@ -68,25 +68,25 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `created_before_in_months` condition to ensure that packages currently in use are not deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#created_before_in_months PackageCleanupPolicy#created_before_in_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#created_before_in_months PackageCleanupPolicy#created_before_in_months}
   */
   readonly createdBeforeInMonths?: number;
   /**
   * Specify explicit package names that you want excluded from the policy. Only explicit names (and not patterns) are accepted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#excluded_packages PackageCleanupPolicy#excluded_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#excluded_packages PackageCleanupPolicy#excluded_packages}
   */
   readonly excludedPackages?: string[];
   /**
   * A key-value pair applied to the lead artifact of a package. Packages with this property will be excluded from deletion.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#excluded_properties PackageCleanupPolicy#excluded_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#excluded_properties PackageCleanupPolicy#excluded_properties}
   */
   readonly excludedProperties?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Specify patterns for repository names or explicit repository names that you want excluded from the cleanup policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#excluded_repos PackageCleanupPolicy#excluded_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#excluded_repos PackageCleanupPolicy#excluded_repos}
   */
   readonly excludedRepos?: string[];
   /**
@@ -94,13 +94,13 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   *  ~>This parameter is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#include_all_projects PackageCleanupPolicy#include_all_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#include_all_projects PackageCleanupPolicy#include_all_projects}
   */
   readonly includeAllProjects?: boolean | cdktf.IResolvable;
   /**
   * Specify a pattern for a package name or an explicit package name on which you want the cleanup policy to run. Only one pattern or explicit name can be entered. To include all packages, use `**`. Example: `included_packages = ["**"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#included_packages PackageCleanupPolicy#included_packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#included_packages PackageCleanupPolicy#included_packages}
   */
   readonly includedPackages: string[];
   /**
@@ -108,13 +108,13 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>This parameter is relevant only on the global level, for Platform Admins.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#included_projects PackageCleanupPolicy#included_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#included_projects PackageCleanupPolicy#included_projects}
   */
   readonly includedProjects: string[];
   /**
   * A key-value pair applied to the lead artifact of a package. Packages with this property will be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#included_properties PackageCleanupPolicy#included_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#included_properties PackageCleanupPolicy#included_properties}
   */
   readonly includedProperties?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
@@ -122,7 +122,7 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>Not all package types support this condition. For information on which package types support this condition, [learn more](https://jfrog.com/help/r/jfrog-platform-administration-documentation/retention-policies/package-types-coverage).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#keep_last_n_versions PackageCleanupPolicy#keep_last_n_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#keep_last_n_versions PackageCleanupPolicy#keep_last_n_versions}
   */
   readonly keepLastNVersions?: number;
   /**
@@ -130,7 +130,7 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `last_downloaded_before_in_days` condition to ensure that packages currently in use are not deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#last_downloaded_before_in_days PackageCleanupPolicy#last_downloaded_before_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#last_downloaded_before_in_days PackageCleanupPolicy#last_downloaded_before_in_days}
   */
   readonly lastDownloadedBeforeInDays?: number;
   /**
@@ -138,19 +138,19 @@ export interface PackageCleanupPolicySearchCriteria {
   * 
   * ~>JFrog recommends using the `last_downloaded_before_in_months` condition to ensure that packages currently in use are not deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#last_downloaded_before_in_months PackageCleanupPolicy#last_downloaded_before_in_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#last_downloaded_before_in_months PackageCleanupPolicy#last_downloaded_before_in_months}
   */
   readonly lastDownloadedBeforeInMonths?: number;
   /**
   * The package types that are cleaned up by the policy. Support: alpine, ansible, cargo, chef, cocoapods, composer, conan, conda, debian, docker, gems, generic, go, gradle, helm, helmoci, huggingfaceml, machinelearning, maven, npm, nuget, oci, puppet, pypi, sbt, swift, terraform, terraformbackend, rpm, yum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#package_types PackageCleanupPolicy#package_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#package_types PackageCleanupPolicy#package_types}
   */
   readonly packageTypes: string[];
   /**
   * Specify one or more patterns for the repository name(s) on which you want the cleanup policy to run. You can also specify explicit repository names. Specifying at least one pattern or explicit name is mandatory. Only packages in repositories that match the pattern or explicit name will be deleted. For including all repos use `**`. Example: `repos = ["**"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#repos PackageCleanupPolicy#repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#repos PackageCleanupPolicy#repos}
   */
   readonly repos: string[];
 }
@@ -609,7 +609,7 @@ export class PackageCleanupPolicySearchCriteriaOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy artifactory_package_cleanup_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy artifactory_package_cleanup_policy}
 */
 export class PackageCleanupPolicy extends cdktf.TerraformResource {
 
@@ -625,7 +625,7 @@ export class PackageCleanupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackageCleanupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackageCleanupPolicy to import
-  * @param importFromId The id of the existing PackageCleanupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackageCleanupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackageCleanupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -637,7 +637,7 @@ export class PackageCleanupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/package_cleanup_policy artifactory_package_cleanup_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/package_cleanup_policy artifactory_package_cleanup_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -648,8 +648,8 @@ export class PackageCleanupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_package_cleanup_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

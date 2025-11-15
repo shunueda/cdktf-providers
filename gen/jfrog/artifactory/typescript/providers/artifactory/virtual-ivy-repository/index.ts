@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VirtualIvyRepositoryConfig extends cdktf.TerraformMetaArguments
   /**
   * Whether the virtual repository should search through remote repositories when trying to resolve an artifact requested by another Artifactory instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#artifactory_requests_can_retrieve_remote_artifacts VirtualIvyRepository#artifactory_requests_can_retrieve_remote_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#artifactory_requests_can_retrieve_remote_artifacts VirtualIvyRepository#artifactory_requests_can_retrieve_remote_artifacts}
   */
   readonly artifactoryRequestsCanRetrieveRemoteArtifacts?: boolean | cdktf.IResolvable;
   /**
   * Default repository to deploy artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#default_deployment_repo VirtualIvyRepository#default_deployment_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#default_deployment_repo VirtualIvyRepository#default_deployment_repo}
   */
   readonly defaultDeploymentRepo?: string;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#description VirtualIvyRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#description VirtualIvyRepository#description}
   */
   readonly description?: string;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#excludes_pattern VirtualIvyRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#excludes_pattern VirtualIvyRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -36,11 +36,11 @@ export interface VirtualIvyRepositoryConfig extends cdktf.TerraformMetaArguments
   /**
   * User authentication is required when accessing the repository. An anonymous request will display an HTTP 401 error. This is also enforced when aggregated repositories support anonymous requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#force_maven_authentication VirtualIvyRepository#force_maven_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#force_maven_authentication VirtualIvyRepository#force_maven_authentication}
   */
   readonly forceMavenAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#id VirtualIvyRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#id VirtualIvyRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -49,7 +49,7 @@ export interface VirtualIvyRepositoryConfig extends cdktf.TerraformMetaArguments
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#includes_pattern VirtualIvyRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#includes_pattern VirtualIvyRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -57,19 +57,19 @@ export interface VirtualIvyRepositoryConfig extends cdktf.TerraformMetaArguments
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#key VirtualIvyRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#key VirtualIvyRepository#key}
   */
   readonly key: string;
   /**
   * The keypair used to sign artifacts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#key_pair VirtualIvyRepository#key_pair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#key_pair VirtualIvyRepository#key_pair}
   */
   readonly keyPair?: string;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#notes VirtualIvyRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#notes VirtualIvyRepository#notes}
   */
   readonly notes?: string;
   /**
@@ -77,37 +77,37 @@ export interface VirtualIvyRepositoryConfig extends cdktf.TerraformMetaArguments
   * (2: discard_any_reference) Discard Any References - Removes all repository elements regardless of whether they are included in an active profile or not.
   * (3: nothing) Nothing - Does not remove any repository elements declared in the POM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#pom_repository_references_cleanup_policy VirtualIvyRepository#pom_repository_references_cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#pom_repository_references_cleanup_policy VirtualIvyRepository#pom_repository_references_cleanup_policy}
   */
   readonly pomRepositoryReferencesCleanupPolicy?: string;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#project_environments VirtualIvyRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#project_environments VirtualIvyRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#project_key VirtualIvyRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#project_key VirtualIvyRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * Repository layout key for the virtual repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#repo_layout_ref VirtualIvyRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#repo_layout_ref VirtualIvyRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * The effective list of actual repositories included in this virtual repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#repositories VirtualIvyRepository#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#repositories VirtualIvyRepository#repositories}
   */
   readonly repositories?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository artifactory_virtual_ivy_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository artifactory_virtual_ivy_repository}
 */
 export class VirtualIvyRepository extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class VirtualIvyRepository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VirtualIvyRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VirtualIvyRepository to import
-  * @param importFromId The id of the existing VirtualIvyRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VirtualIvyRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VirtualIvyRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class VirtualIvyRepository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/virtual_ivy_repository artifactory_virtual_ivy_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/virtual_ivy_repository artifactory_virtual_ivy_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class VirtualIvyRepository extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_virtual_ivy_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

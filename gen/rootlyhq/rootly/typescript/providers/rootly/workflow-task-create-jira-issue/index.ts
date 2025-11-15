@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateJiraIssueConfig extends cdktf.TerraformMetaAr
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#enabled WorkflowTaskCreateJiraIssue#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#enabled WorkflowTaskCreateJiraIssue#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#id WorkflowTaskCreateJiraIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#id WorkflowTaskCreateJiraIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateJiraIssueConfig extends cdktf.TerraformMetaAr
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#name WorkflowTaskCreateJiraIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#name WorkflowTaskCreateJiraIssue#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#position WorkflowTaskCreateJiraIssue#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#position WorkflowTaskCreateJiraIssue#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#skip_on_failure WorkflowTaskCreateJiraIssue#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#skip_on_failure WorkflowTaskCreateJiraIssue#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#workflow_id WorkflowTaskCreateJiraIssue#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#workflow_id WorkflowTaskCreateJiraIssue#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#task_params WorkflowTaskCreateJiraIssue#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#task_params WorkflowTaskCreateJiraIssue#task_params}
   */
   readonly taskParams: WorkflowTaskCreateJiraIssueTaskParams;
 }
@@ -55,83 +55,83 @@ export interface WorkflowTaskCreateJiraIssueTaskParams {
   /**
   * The assigned user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#assign_user_email WorkflowTaskCreateJiraIssue#assign_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#assign_user_email WorkflowTaskCreateJiraIssue#assign_user_email}
   */
   readonly assignUserEmail?: string;
   /**
   * Custom field mappings. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#custom_fields_mapping WorkflowTaskCreateJiraIssue#custom_fields_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#custom_fields_mapping WorkflowTaskCreateJiraIssue#custom_fields_mapping}
   */
   readonly customFieldsMapping?: string;
   /**
   * The issue description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#description WorkflowTaskCreateJiraIssue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#description WorkflowTaskCreateJiraIssue#description}
   */
   readonly description?: string;
   /**
   * The due date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#due_date WorkflowTaskCreateJiraIssue#due_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#due_date WorkflowTaskCreateJiraIssue#due_date}
   */
   readonly dueDate?: string;
   /**
   * Map must contain two fields, `id` and `name`. Specify integration id if you have more than one Jira instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#integration WorkflowTaskCreateJiraIssue#integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#integration WorkflowTaskCreateJiraIssue#integration}
   */
   readonly integration?: { [key: string]: string };
   /**
   * Map must contain two fields, `id` and `name`. The issue type id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#issue_type WorkflowTaskCreateJiraIssue#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#issue_type WorkflowTaskCreateJiraIssue#issue_type}
   */
   readonly issueType: { [key: string]: string };
   /**
   * The issue labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#labels WorkflowTaskCreateJiraIssue#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#labels WorkflowTaskCreateJiraIssue#labels}
   */
   readonly labels?: string;
   /**
   * Map must contain two fields, `id` and `name`. The priority id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#priority WorkflowTaskCreateJiraIssue#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#priority WorkflowTaskCreateJiraIssue#priority}
   */
   readonly priority?: { [key: string]: string };
   /**
   * The project key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#project_key WorkflowTaskCreateJiraIssue#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#project_key WorkflowTaskCreateJiraIssue#project_key}
   */
   readonly projectKey: string;
   /**
   * The reporter user's email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#reporter_user_email WorkflowTaskCreateJiraIssue#reporter_user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#reporter_user_email WorkflowTaskCreateJiraIssue#reporter_user_email}
   */
   readonly reporterUserEmail?: string;
   /**
   * Map must contain two fields, `id` and `name`. The status id and display name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#status WorkflowTaskCreateJiraIssue#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#status WorkflowTaskCreateJiraIssue#status}
   */
   readonly status?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#task_type WorkflowTaskCreateJiraIssue#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#task_type WorkflowTaskCreateJiraIssue#task_type}
   */
   readonly taskType?: string;
   /**
   * The issue title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#title WorkflowTaskCreateJiraIssue#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#title WorkflowTaskCreateJiraIssue#title}
   */
   readonly title: string;
   /**
   * Update payload. Can contain liquid markup and need to be valid JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#update_payload WorkflowTaskCreateJiraIssue#update_payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#update_payload WorkflowTaskCreateJiraIssue#update_payload}
   */
   readonly updatePayload?: string;
 }
@@ -583,7 +583,7 @@ export class WorkflowTaskCreateJiraIssueTaskParamsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue rootly_workflow_task_create_jira_issue}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue rootly_workflow_task_create_jira_issue}
 */
 export class WorkflowTaskCreateJiraIssue extends cdktf.TerraformResource {
 
@@ -599,7 +599,7 @@ export class WorkflowTaskCreateJiraIssue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskCreateJiraIssue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateJiraIssue to import
-  * @param importFromId The id of the existing WorkflowTaskCreateJiraIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateJiraIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateJiraIssue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -611,7 +611,7 @@ export class WorkflowTaskCreateJiraIssue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_jira_issue rootly_workflow_task_create_jira_issue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_jira_issue rootly_workflow_task_create_jira_issue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -622,8 +622,8 @@ export class WorkflowTaskCreateJiraIssue extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_create_jira_issue',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

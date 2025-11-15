@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataCatalystcenterProvisionDeviceConfig extends cdktf.Terraform
   /**
   * ID of network device to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device#network_device_id DataCatalystcenterProvisionDevice#network_device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device#network_device_id DataCatalystcenterProvisionDevice#network_device_id}
   */
   readonly networkDeviceId: string;
   /**
   * ID of the site this network device needs to be provisioned
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device#site_id DataCatalystcenterProvisionDevice#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device#site_id DataCatalystcenterProvisionDevice#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device catalystcenter_provision_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device catalystcenter_provision_device}
 */
 export class DataCatalystcenterProvisionDevice extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataCatalystcenterProvisionDevice extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataCatalystcenterProvisionDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterProvisionDevice to import
-  * @param importFromId The id of the existing DataCatalystcenterProvisionDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterProvisionDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterProvisionDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataCatalystcenterProvisionDevice extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/provision_device catalystcenter_provision_device} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/provision_device catalystcenter_provision_device} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataCatalystcenterProvisionDevice extends cdktf.TerraformDataSource
       terraformResourceType: 'catalystcenter_provision_device',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformInputSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#description PlatformInputSet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#description PlatformInputSet#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#id PlatformInputSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#id PlatformInputSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,67 +23,67 @@ export interface PlatformInputSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#identifier PlatformInputSet#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#identifier PlatformInputSet#identifier}
   */
   readonly identifier: string;
   /**
   * Flag to set if importing from Git
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#import_from_git PlatformInputSet#import_from_git}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#import_from_git PlatformInputSet#import_from_git}
   */
   readonly importFromGit?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#name PlatformInputSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#name PlatformInputSet#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#org_id PlatformInputSet#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#org_id PlatformInputSet#org_id}
   */
   readonly orgId: string;
   /**
   * Identifier of the pipeline
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#pipeline_id PlatformInputSet#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#pipeline_id PlatformInputSet#pipeline_id}
   */
   readonly pipelineId: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#project_id PlatformInputSet#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#project_id PlatformInputSet#project_id}
   */
   readonly projectId: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#tags PlatformInputSet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#tags PlatformInputSet#tags}
   */
   readonly tags?: string[];
   /**
   * Input Set YAML. In YAML, to reference an entity at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference an entity at the account scope, prefix 'account` to the expression: account.{identifier}. For eg, to reference a connector with identifier 'connectorId' at the organization scope in a stage mention it as connectorRef: org.connectorId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#yaml PlatformInputSet#yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#yaml PlatformInputSet#yaml}
   */
   readonly yaml?: string;
   /**
   * git_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#git_details PlatformInputSet#git_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#git_details PlatformInputSet#git_details}
   */
   readonly gitDetails?: PlatformInputSetGitDetails;
   /**
   * git_import_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#git_import_info PlatformInputSet#git_import_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#git_import_info PlatformInputSet#git_import_info}
   */
   readonly gitImportInfo?: PlatformInputSetGitImportInfo;
   /**
   * input_set_import_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#input_set_import_request PlatformInputSet#input_set_import_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#input_set_import_request PlatformInputSet#input_set_import_request}
   */
   readonly inputSetImportRequest?: PlatformInputSetInputSetImportRequest;
 }
@@ -91,73 +91,73 @@ export interface PlatformInputSetGitDetails {
   /**
   * Name of the default branch (this checks out a new branch titled by branch_name).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#base_branch PlatformInputSet#base_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#base_branch PlatformInputSet#base_branch}
   */
   readonly baseBranch?: string;
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#branch_name PlatformInputSet#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#branch_name PlatformInputSet#branch_name}
   */
   readonly branchName?: string;
   /**
   * Commit message used for the merge commit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#commit_message PlatformInputSet#commit_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#commit_message PlatformInputSet#commit_message}
   */
   readonly commitMessage?: string;
   /**
   * Identifier of the Harness Connector used for CRUD operations on the Entity. To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#connector_ref PlatformInputSet#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#connector_ref PlatformInputSet#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#file_path PlatformInputSet#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#file_path PlatformInputSet#file_path}
   */
   readonly filePath?: string;
   /**
   * If the repo is harness code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#is_harness_code_repo PlatformInputSet#is_harness_code_repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#is_harness_code_repo PlatformInputSet#is_harness_code_repo}
   */
   readonly isHarnessCodeRepo?: boolean | cdktf.IResolvable;
   /**
   * Last commit identifier (for Git Repositories other than Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#last_commit_id PlatformInputSet#last_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#last_commit_id PlatformInputSet#last_commit_id}
   */
   readonly lastCommitId?: string;
   /**
   * Last object identifier (for Github). To be provided only when updating Pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#last_object_id PlatformInputSet#last_object_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#last_object_id PlatformInputSet#last_object_id}
   */
   readonly lastObjectId?: string;
   /**
   * Connector reference for Parent Entity (Pipeline). To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#parent_entity_connector_ref PlatformInputSet#parent_entity_connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#parent_entity_connector_ref PlatformInputSet#parent_entity_connector_ref}
   */
   readonly parentEntityConnectorRef?: string;
   /**
   * Repository name for Parent Entity (Pipeline).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#parent_entity_repo_name PlatformInputSet#parent_entity_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#parent_entity_repo_name PlatformInputSet#parent_entity_repo_name}
   */
   readonly parentEntityRepoName?: string;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#repo_name PlatformInputSet#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#repo_name PlatformInputSet#repo_name}
   */
   readonly repoName?: string;
   /**
   * Specifies whether the Entity is to be stored in Git or not. Possible values: INLINE, REMOTE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#store_type PlatformInputSet#store_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#store_type PlatformInputSet#store_type}
   */
   readonly storeType?: string;
 }
@@ -562,29 +562,29 @@ export interface PlatformInputSetGitImportInfo {
   /**
   * Name of the branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#branch_name PlatformInputSet#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#branch_name PlatformInputSet#branch_name}
   */
   readonly branchName?: string;
   /**
   * Identifier of the Harness Connector used for importing entity from Git To reference a connector at the organization scope, prefix 'org' to the expression: org.{identifier}. To reference a connector at the account scope, prefix 'account` to the expression: account.{identifier}.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#connector_ref PlatformInputSet#connector_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#connector_ref PlatformInputSet#connector_ref}
   */
   readonly connectorRef?: string;
   /**
   * File path of the Entity in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#file_path PlatformInputSet#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#file_path PlatformInputSet#file_path}
   */
   readonly filePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#is_force_import PlatformInputSet#is_force_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#is_force_import PlatformInputSet#is_force_import}
   */
   readonly isForceImport?: boolean | cdktf.IResolvable;
   /**
   * Name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#repo_name PlatformInputSet#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#repo_name PlatformInputSet#repo_name}
   */
   readonly repoName?: string;
 }
@@ -786,13 +786,13 @@ export interface PlatformInputSetInputSetImportRequest {
   /**
   * Description of the input set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#input_set_description PlatformInputSet#input_set_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#input_set_description PlatformInputSet#input_set_description}
   */
   readonly inputSetDescription?: string;
   /**
   * Name of the input set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#input_set_name PlatformInputSet#input_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#input_set_name PlatformInputSet#input_set_name}
   */
   readonly inputSetName?: string;
 }
@@ -905,7 +905,7 @@ export class PlatformInputSetInputSetImportRequestOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set harness_platform_input_set}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set harness_platform_input_set}
 */
 export class PlatformInputSet extends cdktf.TerraformResource {
 
@@ -921,7 +921,7 @@ export class PlatformInputSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformInputSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformInputSet to import
-  * @param importFromId The id of the existing PlatformInputSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformInputSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformInputSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -933,7 +933,7 @@ export class PlatformInputSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_input_set harness_platform_input_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_input_set harness_platform_input_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -944,8 +944,8 @@ export class PlatformInputSet extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_input_set',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

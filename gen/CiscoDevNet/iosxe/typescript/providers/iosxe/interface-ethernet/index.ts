@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,821 +11,821 @@ export interface InterfaceEthernetConfig extends cdktf.TerraformMetaArguments {
   * Set ARP cache timeout
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#arp_timeout InterfaceEthernet#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#arp_timeout InterfaceEthernet#arp_timeout}
   */
   readonly arpTimeout?: number;
   /**
   * Configure Authentication Fail vlan
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_fail_action_authorize_vlan InterfaceEthernet#authentication_event_fail_action_authorize_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_fail_action_authorize_vlan InterfaceEthernet#authentication_event_fail_action_authorize_vlan}
   */
   readonly authenticationEventFailActionAuthorizeVlan?: number;
   /**
   * Move to next authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_fail_action_next_method InterfaceEthernet#authentication_event_fail_action_next_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_fail_action_next_method InterfaceEthernet#authentication_event_fail_action_next_method}
   */
   readonly authenticationEventFailActionNextMethod?: boolean | cdktf.IResolvable;
   /**
   * Move to next authentication method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_linksec_fail_action_next_method InterfaceEthernet#authentication_event_linksec_fail_action_next_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_linksec_fail_action_next_method InterfaceEthernet#authentication_event_linksec_fail_action_next_method}
   */
   readonly authenticationEventLinksecFailActionNextMethod?: boolean | cdktf.IResolvable;
   /**
   * Configure Guest vlan
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_no_response_action_authorize_vlan InterfaceEthernet#authentication_event_no_response_action_authorize_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_no_response_action_authorize_vlan InterfaceEthernet#authentication_event_no_response_action_authorize_vlan}
   */
   readonly authenticationEventNoResponseActionAuthorizeVlan?: number;
   /**
   * Reinitialize all authorized clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_server_alive_action_reinitialize InterfaceEthernet#authentication_event_server_alive_action_reinitialize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_server_alive_action_reinitialize InterfaceEthernet#authentication_event_server_alive_action_reinitialize}
   */
   readonly authenticationEventServerAliveActionReinitialize?: boolean | cdktf.IResolvable;
   /**
   * Authorize the port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize InterfaceEthernet#authentication_event_server_dead_action_authorize}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize InterfaceEthernet#authentication_event_server_dead_action_authorize}
   */
   readonly authenticationEventServerDeadActionAuthorize?: boolean | cdktf.IResolvable;
   /**
   * Configure Critical Authorization VLAN
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize_vlan InterfaceEthernet#authentication_event_server_dead_action_authorize_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize_vlan InterfaceEthernet#authentication_event_server_dead_action_authorize_vlan}
   */
   readonly authenticationEventServerDeadActionAuthorizeVlan?: number;
   /**
   * Authorize the port for VOICE traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize_voice InterfaceEthernet#authentication_event_server_dead_action_authorize_voice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_server_dead_action_authorize_voice InterfaceEthernet#authentication_event_server_dead_action_authorize_voice}
   */
   readonly authenticationEventServerDeadActionAuthorizeVoice?: boolean | cdktf.IResolvable;
   /**
   * Configure Critical Authorization VLAN
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_event_server_dead_action_reinitialize_vlan InterfaceEthernet#authentication_event_server_dead_action_reinitialize_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_event_server_dead_action_reinitialize_vlan InterfaceEthernet#authentication_event_server_dead_action_reinitialize_vlan}
   */
   readonly authenticationEventServerDeadActionReinitializeVlan?: number;
   /**
   * Set the Host mode for authentication on this interface
   *   - Choices: `multi-auth`, `multi-domain`, `multi-host`, `single-host`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_host_mode InterfaceEthernet#authentication_host_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_host_mode InterfaceEthernet#authentication_host_mode}
   */
   readonly authenticationHostMode?: string;
   /**
   * Authentication method dot1x allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_dot1x InterfaceEthernet#authentication_order_dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_dot1x InterfaceEthernet#authentication_order_dot1x}
   */
   readonly authenticationOrderDot1X?: boolean | cdktf.IResolvable;
   /**
   * Authentication method mab allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_dot1x_mab InterfaceEthernet#authentication_order_dot1x_mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_dot1x_mab InterfaceEthernet#authentication_order_dot1x_mab}
   */
   readonly authenticationOrderDot1XMab?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_dot1x_webauth InterfaceEthernet#authentication_order_dot1x_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_dot1x_webauth InterfaceEthernet#authentication_order_dot1x_webauth}
   */
   readonly authenticationOrderDot1XWebauth?: boolean | cdktf.IResolvable;
   /**
   * Authentication method mab allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_mab InterfaceEthernet#authentication_order_mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_mab InterfaceEthernet#authentication_order_mab}
   */
   readonly authenticationOrderMab?: boolean | cdktf.IResolvable;
   /**
   * Authentication method dot1x allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_mab_dot1x InterfaceEthernet#authentication_order_mab_dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_mab_dot1x InterfaceEthernet#authentication_order_mab_dot1x}
   */
   readonly authenticationOrderMabDot1X?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_mab_webauth InterfaceEthernet#authentication_order_mab_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_mab_webauth InterfaceEthernet#authentication_order_mab_webauth}
   */
   readonly authenticationOrderMabWebauth?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_order_webauth InterfaceEthernet#authentication_order_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_order_webauth InterfaceEthernet#authentication_order_webauth}
   */
   readonly authenticationOrderWebauth?: boolean | cdktf.IResolvable;
   /**
   * Enable or Disable Reauthentication for this port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_periodic InterfaceEthernet#authentication_periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_periodic InterfaceEthernet#authentication_periodic}
   */
   readonly authenticationPeriodic?: boolean | cdktf.IResolvable;
   /**
   * set the port-control value
   *   - Choices: `auto`, `force-authorized`, `force-unauthorized`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_port_control InterfaceEthernet#authentication_port_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_port_control InterfaceEthernet#authentication_port_control}
   */
   readonly authenticationPortControl?: string;
   /**
   * Authentication method dot1x allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_dot1x InterfaceEthernet#authentication_priority_dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_dot1x InterfaceEthernet#authentication_priority_dot1x}
   */
   readonly authenticationPriorityDot1X?: boolean | cdktf.IResolvable;
   /**
   * Authentication method mab allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_dot1x_mab InterfaceEthernet#authentication_priority_dot1x_mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_dot1x_mab InterfaceEthernet#authentication_priority_dot1x_mab}
   */
   readonly authenticationPriorityDot1XMab?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_dot1x_webauth InterfaceEthernet#authentication_priority_dot1x_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_dot1x_webauth InterfaceEthernet#authentication_priority_dot1x_webauth}
   */
   readonly authenticationPriorityDot1XWebauth?: boolean | cdktf.IResolvable;
   /**
   * Authentication method mab allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_mab InterfaceEthernet#authentication_priority_mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_mab InterfaceEthernet#authentication_priority_mab}
   */
   readonly authenticationPriorityMab?: boolean | cdktf.IResolvable;
   /**
   * Authentication method dot1x allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_mab_dot1x InterfaceEthernet#authentication_priority_mab_dot1x}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_mab_dot1x InterfaceEthernet#authentication_priority_mab_dot1x}
   */
   readonly authenticationPriorityMabDot1X?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_mab_webauth InterfaceEthernet#authentication_priority_mab_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_mab_webauth InterfaceEthernet#authentication_priority_mab_webauth}
   */
   readonly authenticationPriorityMabWebauth?: boolean | cdktf.IResolvable;
   /**
   * Authentication method webauth allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_priority_webauth InterfaceEthernet#authentication_priority_webauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_priority_webauth InterfaceEthernet#authentication_priority_webauth}
   */
   readonly authenticationPriorityWebauth?: boolean | cdktf.IResolvable;
   /**
   * Enter a value between 1 and 1073741823
   *   - Range: `1`-`1073741823`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_timer_reauthenticate InterfaceEthernet#authentication_timer_reauthenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_timer_reauthenticate InterfaceEthernet#authentication_timer_reauthenticate}
   */
   readonly authenticationTimerReauthenticate?: number;
   /**
   * Obtain re-authentication timeout value from the server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#authentication_timer_reauthenticate_server InterfaceEthernet#authentication_timer_reauthenticate_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#authentication_timer_reauthenticate_server InterfaceEthernet#authentication_timer_reauthenticate_server}
   */
   readonly authenticationTimerReauthenticateServer?: boolean | cdktf.IResolvable;
   /**
   * Configure classification for untrusted devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_classify InterfaceEthernet#auto_qos_classify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_classify InterfaceEthernet#auto_qos_classify}
   */
   readonly autoQosClassify?: boolean | cdktf.IResolvable;
   /**
   * Configure QoS policing for untrusted devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_classify_police InterfaceEthernet#auto_qos_classify_police}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_classify_police InterfaceEthernet#auto_qos_classify_police}
   */
   readonly autoQosClassifyPolice?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP/CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_trust InterfaceEthernet#auto_qos_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_trust InterfaceEthernet#auto_qos_trust}
   */
   readonly autoQosTrust?: boolean | cdktf.IResolvable;
   /**
   * Trust the CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_trust_cos InterfaceEthernet#auto_qos_trust_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_trust_cos InterfaceEthernet#auto_qos_trust_cos}
   */
   readonly autoQosTrustCos?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_trust_dscp InterfaceEthernet#auto_qos_trust_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_trust_dscp InterfaceEthernet#auto_qos_trust_dscp}
   */
   readonly autoQosTrustDscp?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of the Cisco Telepresence System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_video_cts InterfaceEthernet#auto_qos_video_cts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_video_cts InterfaceEthernet#auto_qos_video_cts}
   */
   readonly autoQosVideoCts?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of the Ip Video Surveillance camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_video_ip_camera InterfaceEthernet#auto_qos_video_ip_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_video_ip_camera InterfaceEthernet#auto_qos_video_ip_camera}
   */
   readonly autoQosVideoIpCamera?: boolean | cdktf.IResolvable;
   /**
   * Trust the Qos marking of the Cisco Media Player
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_video_media_player InterfaceEthernet#auto_qos_video_media_player}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_video_media_player InterfaceEthernet#auto_qos_video_media_player}
   */
   readonly autoQosVideoMediaPlayer?: boolean | cdktf.IResolvable;
   /**
   * Configure AutoQoS for VoIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_voip InterfaceEthernet#auto_qos_voip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_voip InterfaceEthernet#auto_qos_voip}
   */
   readonly autoQosVoip?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of Cisco IP Phone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_voip_cisco_phone InterfaceEthernet#auto_qos_voip_cisco_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_voip_cisco_phone InterfaceEthernet#auto_qos_voip_cisco_phone}
   */
   readonly autoQosVoipCiscoPhone?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of Cisco IP SoftPhone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_voip_cisco_softphone InterfaceEthernet#auto_qos_voip_cisco_softphone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_voip_cisco_softphone InterfaceEthernet#auto_qos_voip_cisco_softphone}
   */
   readonly autoQosVoipCiscoSoftphone?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP/CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#auto_qos_voip_trust InterfaceEthernet#auto_qos_voip_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#auto_qos_voip_trust InterfaceEthernet#auto_qos_voip_trust}
   */
   readonly autoQosVoipTrust?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`200000000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bandwidth InterfaceEthernet#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bandwidth InterfaceEthernet#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_echo InterfaceEthernet#bfd_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_echo InterfaceEthernet#bfd_echo}
   */
   readonly bfdEcho?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD under the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_enable InterfaceEthernet#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_enable InterfaceEthernet#bfd_enable}
   */
   readonly bfdEnable?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_interval InterfaceEthernet#bfd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_interval InterfaceEthernet#bfd_interval}
   */
   readonly bfdInterval?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_interval_min_rx InterfaceEthernet#bfd_interval_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_interval_min_rx InterfaceEthernet#bfd_interval_min_rx}
   */
   readonly bfdIntervalMinRx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_interval_multiplier InterfaceEthernet#bfd_interval_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_interval_multiplier InterfaceEthernet#bfd_interval_multiplier}
   */
   readonly bfdIntervalMultiplier?: number;
   /**
   * The Source IP address to be used for BFD sessions over this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_local_address InterfaceEthernet#bfd_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_local_address InterfaceEthernet#bfd_local_address}
   */
   readonly bfdLocalAddress?: string;
   /**
   * BFD template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bfd_template InterfaceEthernet#bfd_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bfd_template InterfaceEthernet#bfd_template}
   */
   readonly bfdTemplate?: string;
   /**
   * Disable BPDU guard for this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bpduguard_disable InterfaceEthernet#bpduguard_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bpduguard_disable InterfaceEthernet#bpduguard_disable}
   */
   readonly bpduguardDisable?: boolean | cdktf.IResolvable;
   /**
   * Enable BPDU guard for this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#bpduguard_enable InterfaceEthernet#bpduguard_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#bpduguard_enable InterfaceEthernet#bpduguard_enable}
   */
   readonly bpduguardEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable CDP on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#cdp_enable InterfaceEthernet#cdp_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#cdp_enable InterfaceEthernet#cdp_enable}
   */
   readonly cdpEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable/Configure Application TLV
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#cdp_tlv_app InterfaceEthernet#cdp_tlv_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#cdp_tlv_app InterfaceEthernet#cdp_tlv_app}
   */
   readonly cdpTlvApp?: boolean | cdktf.IResolvable;
   /**
   * Exchange location information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#cdp_tlv_location InterfaceEthernet#cdp_tlv_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#cdp_tlv_location InterfaceEthernet#cdp_tlv_location}
   */
   readonly cdpTlvLocation?: boolean | cdktf.IResolvable;
   /**
   * Enable CDP location server on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#cdp_tlv_server_location InterfaceEthernet#cdp_tlv_server_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#cdp_tlv_server_location InterfaceEthernet#cdp_tlv_server_location}
   */
   readonly cdpTlvServerLocation?: boolean | cdktf.IResolvable;
   /**
   * Etherchannel Mode of the interface
   *   - Choices: `active`, `auto`, `desirable`, `on`, `passive`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#channel_group_mode InterfaceEthernet#channel_group_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#channel_group_mode InterfaceEthernet#channel_group_mode}
   */
   readonly channelGroupMode?: string;
   /**
   * 
   *   - Range: `1`-`512`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#channel_group_number InterfaceEthernet#channel_group_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#channel_group_number InterfaceEthernet#channel_group_number}
   */
   readonly channelGroupNumber?: number;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#description InterfaceEthernet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#description InterfaceEthernet#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#device InterfaceEthernet#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#device InterfaceEthernet#device}
   */
   readonly device?: string;
   /**
   * Configure device-tracking on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#device_tracking InterfaceEthernet#device_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#device_tracking InterfaceEthernet#device_tracking}
   */
   readonly deviceTracking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#device_tracking_attached_policies InterfaceEthernet#device_tracking_attached_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#device_tracking_attached_policies InterfaceEthernet#device_tracking_attached_policies}
   */
   readonly deviceTrackingAttachedPolicies?: InterfaceEthernetDeviceTrackingAttachedPolicies[] | cdktf.IResolvable;
   /**
   * Max No. of Reauthentication Attempts
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_max_reauth_req InterfaceEthernet#dot1x_max_reauth_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_max_reauth_req InterfaceEthernet#dot1x_max_reauth_req}
   */
   readonly dot1XMaxReauthReq?: number;
   /**
   * Max No. of Retries
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_max_req InterfaceEthernet#dot1x_max_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_max_req InterfaceEthernet#dot1x_max_req}
   */
   readonly dot1XMaxReq?: number;
   /**
   * Set 802.1x interface pae type
   *   - Choices: `authenticator`, `both`, `supplicant`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_pae InterfaceEthernet#dot1x_pae}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_pae InterfaceEthernet#dot1x_pae}
   */
   readonly dot1XPae?: string;
   /**
   * Timeout for authenticator reply
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_auth_period InterfaceEthernet#dot1x_timeout_auth_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_auth_period InterfaceEthernet#dot1x_timeout_auth_period}
   */
   readonly dot1XTimeoutAuthPeriod?: number;
   /**
   * Timeout for authentication retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_held_period InterfaceEthernet#dot1x_timeout_held_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_held_period InterfaceEthernet#dot1x_timeout_held_period}
   */
   readonly dot1XTimeoutHeldPeriod?: number;
   /**
   * QuietPeriod in Seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_quiet_period InterfaceEthernet#dot1x_timeout_quiet_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_quiet_period InterfaceEthernet#dot1x_timeout_quiet_period}
   */
   readonly dot1XTimeoutQuietPeriod?: number;
   /**
   * Ratelimit Period in seconds
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_ratelimit_period InterfaceEthernet#dot1x_timeout_ratelimit_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_ratelimit_period InterfaceEthernet#dot1x_timeout_ratelimit_period}
   */
   readonly dot1XTimeoutRatelimitPeriod?: number;
   /**
   * Timeout for Radius Retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_server_timeout InterfaceEthernet#dot1x_timeout_server_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_server_timeout InterfaceEthernet#dot1x_timeout_server_timeout}
   */
   readonly dot1XTimeoutServerTimeout?: number;
   /**
   * Timeout for EAPOL-start retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_start_period InterfaceEthernet#dot1x_timeout_start_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_start_period InterfaceEthernet#dot1x_timeout_start_period}
   */
   readonly dot1XTimeoutStartPeriod?: number;
   /**
   * Timeout for supplicant reply
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_supp_timeout InterfaceEthernet#dot1x_timeout_supp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_supp_timeout InterfaceEthernet#dot1x_timeout_supp_timeout}
   */
   readonly dot1XTimeoutSuppTimeout?: number;
   /**
   * Timeout for supplicant retries
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#dot1x_timeout_tx_period InterfaceEthernet#dot1x_timeout_tx_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#dot1x_timeout_tx_period InterfaceEthernet#dot1x_timeout_tx_period}
   */
   readonly dot1XTimeoutTxPeriod?: number;
   /**
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#encapsulation_dot1q_vlan_id InterfaceEthernet#encapsulation_dot1q_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#encapsulation_dot1q_vlan_id InterfaceEthernet#encapsulation_dot1q_vlan_id}
   */
   readonly encapsulationDot1QVlanId?: number;
   /**
   * Ethernet segment local discriminator value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#evpn_ethernet_segments InterfaceEthernet#evpn_ethernet_segments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#evpn_ethernet_segments InterfaceEthernet#evpn_ethernet_segments}
   */
   readonly evpnEthernetSegments?: InterfaceEthernetEvpnEthernetSegments[] | cdktf.IResolvable;
   /**
   * Specify a destination address for UDP broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#helper_addresses InterfaceEthernet#helper_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#helper_addresses InterfaceEthernet#helper_addresses}
   */
   readonly helperAddresses?: InterfaceEthernetHelperAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_access_group_in InterfaceEthernet#ip_access_group_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_access_group_in InterfaceEthernet#ip_access_group_in}
   */
   readonly ipAccessGroupIn?: string;
   /**
   * inbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_access_group_in_enable InterfaceEthernet#ip_access_group_in_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_access_group_in_enable InterfaceEthernet#ip_access_group_in_enable}
   */
   readonly ipAccessGroupInEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_access_group_out InterfaceEthernet#ip_access_group_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_access_group_out InterfaceEthernet#ip_access_group_out}
   */
   readonly ipAccessGroupOut?: string;
   /**
   * outbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_access_group_out_enable InterfaceEthernet#ip_access_group_out_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_access_group_out_enable InterfaceEthernet#ip_access_group_out_enable}
   */
   readonly ipAccessGroupOutEnable?: boolean | cdktf.IResolvable;
   /**
   * Rate Limit
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_arp_inspection_limit_rate InterfaceEthernet#ip_arp_inspection_limit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_arp_inspection_limit_rate InterfaceEthernet#ip_arp_inspection_limit_rate}
   */
   readonly ipArpInspectionLimitRate?: number;
   /**
   * Configure Trust state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_arp_inspection_trust InterfaceEthernet#ip_arp_inspection_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_arp_inspection_trust InterfaceEthernet#ip_arp_inspection_trust}
   */
   readonly ipArpInspectionTrust?: boolean | cdktf.IResolvable;
   /**
   * Enable vpn-id support on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_dhcp_relay_information_option_vpn_id InterfaceEthernet#ip_dhcp_relay_information_option_vpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_dhcp_relay_information_option_vpn_id InterfaceEthernet#ip_dhcp_relay_information_option_vpn_id}
   */
   readonly ipDhcpRelayInformationOptionVpnId?: boolean | cdktf.IResolvable;
   /**
   * Set source interface for relayed messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_dhcp_relay_source_interface InterfaceEthernet#ip_dhcp_relay_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_dhcp_relay_source_interface InterfaceEthernet#ip_dhcp_relay_source_interface}
   */
   readonly ipDhcpRelaySourceInterface?: string;
   /**
   * DHCP Snooping trust config
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_dhcp_snooping_trust InterfaceEthernet#ip_dhcp_snooping_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_dhcp_snooping_trust InterfaceEthernet#ip_dhcp_snooping_trust}
   */
   readonly ipDhcpSnoopingTrust?: boolean | cdktf.IResolvable;
   /**
   * Apply a Flow Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_flow_monitors InterfaceEthernet#ip_flow_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_flow_monitors InterfaceEthernet#ip_flow_monitors}
   */
   readonly ipFlowMonitors?: InterfaceEthernetIpFlowMonitors[] | cdktf.IResolvable;
   /**
   * Inside interface for address translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_nat_inside InterfaceEthernet#ip_nat_inside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_nat_inside InterfaceEthernet#ip_nat_inside}
   */
   readonly ipNatInside?: boolean | cdktf.IResolvable;
   /**
   * Outside interface for address translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_nat_outside InterfaceEthernet#ip_nat_outside}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_nat_outside InterfaceEthernet#ip_nat_outside}
   */
   readonly ipNatOutside?: boolean | cdktf.IResolvable;
   /**
   * Enable protocol discovery for both ipv4 and ipv6
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_nbar_protocol_discovery InterfaceEthernet#ip_nbar_protocol_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_nbar_protocol_discovery InterfaceEthernet#ip_nbar_protocol_discovery}
   */
   readonly ipNbarProtocolDiscovery?: boolean | cdktf.IResolvable;
   /**
   * Enable proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_proxy_arp InterfaceEthernet#ip_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_proxy_arp InterfaceEthernet#ip_proxy_arp}
   */
   readonly ipProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Redirect messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_redirects InterfaceEthernet#ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_redirects InterfaceEthernet#ip_redirects}
   */
   readonly ipRedirects?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Unreachable messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ip_unreachables InterfaceEthernet#ip_unreachables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ip_unreachables InterfaceEthernet#ip_unreachables}
   */
   readonly ipUnreachables?: boolean | cdktf.IResolvable;
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv4_address InterfaceEthernet#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv4_address InterfaceEthernet#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ip subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv4_address_mask InterfaceEthernet#ipv4_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv4_address_mask InterfaceEthernet#ipv4_address_mask}
   */
   readonly ipv4AddressMask?: string;
   /**
   * Insert default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_address_autoconfig_default InterfaceEthernet#ipv6_address_autoconfig_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_address_autoconfig_default InterfaceEthernet#ipv6_address_autoconfig_default}
   */
   readonly ipv6AddressAutoconfigDefault?: boolean | cdktf.IResolvable;
   /**
   * Obtain IPv6 address from DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_address_dhcp InterfaceEthernet#ipv6_address_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_address_dhcp InterfaceEthernet#ipv6_address_dhcp}
   */
   readonly ipv6AddressDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_addresses InterfaceEthernet#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_addresses InterfaceEthernet#ipv6_addresses}
   */
   readonly ipv6Addresses?: InterfaceEthernetIpv6Addresses[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_enable InterfaceEthernet#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_enable InterfaceEthernet#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
   * Apply a Flow Monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_flow_monitors InterfaceEthernet#ipv6_flow_monitors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_flow_monitors InterfaceEthernet#ipv6_flow_monitors}
   */
   readonly ipv6FlowMonitors?: InterfaceEthernetIpv6FlowMonitors[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_link_local_addresses InterfaceEthernet#ipv6_link_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_link_local_addresses InterfaceEthernet#ipv6_link_local_addresses}
   */
   readonly ipv6LinkLocalAddresses?: InterfaceEthernetIpv6LinkLocalAddresses[] | cdktf.IResolvable;
   /**
   * Set IPv6 Maximum Transmission Unit
   *   - Range: `1280`-`9976`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_mtu InterfaceEthernet#ipv6_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_mtu InterfaceEthernet#ipv6_mtu}
   */
   readonly ipv6Mtu?: number;
   /**
   * Suppress all IPv6 RA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#ipv6_nd_ra_suppress_all InterfaceEthernet#ipv6_nd_ra_suppress_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#ipv6_nd_ra_suppress_all InterfaceEthernet#ipv6_nd_ra_suppress_all}
   */
   readonly ipv6NdRaSuppressAll?: boolean | cdktf.IResolvable;
   /**
   * Specify interval for load calculation for an interface
   *   - Range: `30`-`600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#load_interval InterfaceEthernet#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#load_interval InterfaceEthernet#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * UPDOWN and CHANGE messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#logging_event_link_status_enable InterfaceEthernet#logging_event_link_status_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#logging_event_link_status_enable InterfaceEthernet#logging_event_link_status_enable}
   */
   readonly loggingEventLinkStatusEnable?: boolean | cdktf.IResolvable;
   /**
   * MAC Authentication Bypass Interface Config Commands
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#mab InterfaceEthernet#mab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#mab InterfaceEthernet#mab}
   */
   readonly mab?: boolean | cdktf.IResolvable;
   /**
   * Use EAP authentication for MAC Auth Bypass
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#mab_eap InterfaceEthernet#mab_eap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#mab_eap InterfaceEthernet#mab_eap}
   */
   readonly mabEap?: boolean | cdktf.IResolvable;
   /**
   * Media type
   *   - Choices: `auto-select`, `rj45`, `sfp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#media_type InterfaceEthernet#media_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#media_type InterfaceEthernet#media_type}
   */
   readonly mediaType?: string;
   /**
   * Set the interface Maximum Transmission Unit (MTU)
   *   - Range: `64`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#mtu InterfaceEthernet#mtu}
   */
   readonly mtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name: string;
   /**
   * Enable link autonegotiation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#negotiation_auto InterfaceEthernet#negotiation_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#negotiation_auto InterfaceEthernet#negotiation_auto}
   */
   readonly negotiationAuto?: boolean | cdktf.IResolvable;
   /**
   * Assign policy-map to the input of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#service_policy_input InterfaceEthernet#service_policy_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#service_policy_input InterfaceEthernet#service_policy_input}
   */
   readonly servicePolicyInput?: string;
   /**
   * Assign policy-map to the output of an interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#service_policy_output InterfaceEthernet#service_policy_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#service_policy_output InterfaceEthernet#service_policy_output}
   */
   readonly servicePolicyOutput?: string;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#shutdown InterfaceEthernet#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#shutdown InterfaceEthernet#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Allow SNMP LINKUP and LINKDOWN traps
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#snmp_trap_link_status InterfaceEthernet#snmp_trap_link_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#snmp_trap_link_status InterfaceEthernet#snmp_trap_link_status}
   */
   readonly snmpTrapLinkStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#source_template InterfaceEthernet#source_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#source_template InterfaceEthernet#source_template}
   */
   readonly sourceTemplate?: InterfaceEthernetSourceTemplate[] | cdktf.IResolvable;
   /**
   * Change an interface's spanning tree guard mode
   *   - Choices: `loop`, `none`, `root`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_guard InterfaceEthernet#spanning_tree_guard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_guard InterfaceEthernet#spanning_tree_guard}
   */
   readonly spanningTreeGuard?: string;
   /**
   * Specify a link type for spanning tree tree protocol use
   *   - Choices: `point-to-point`, `shared`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_link_type InterfaceEthernet#spanning_tree_link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_link_type InterfaceEthernet#spanning_tree_link_type}
   */
   readonly spanningTreeLinkType?: string;
   /**
   * (DEPRECATED) Spanning tree portfast options
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_portfast InterfaceEthernet#spanning_tree_portfast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_portfast InterfaceEthernet#spanning_tree_portfast}
   */
   readonly spanningTreePortfast?: boolean | cdktf.IResolvable;
   /**
   * (DEPRECATED) Disable portfast for this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_portfast_disable InterfaceEthernet#spanning_tree_portfast_disable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_portfast_disable InterfaceEthernet#spanning_tree_portfast_disable}
   */
   readonly spanningTreePortfastDisable?: boolean | cdktf.IResolvable;
   /**
   * (DEPRECATED) Enable portfast edge on the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_portfast_edge InterfaceEthernet#spanning_tree_portfast_edge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_portfast_edge InterfaceEthernet#spanning_tree_portfast_edge}
   */
   readonly spanningTreePortfastEdge?: boolean | cdktf.IResolvable;
   /**
   * (DEPRECATED) Enable portfast on the interface even in trunk mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#spanning_tree_portfast_trunk InterfaceEthernet#spanning_tree_portfast_trunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#spanning_tree_portfast_trunk InterfaceEthernet#spanning_tree_portfast_trunk}
   */
   readonly spanningTreePortfastTrunk?: boolean | cdktf.IResolvable;
   /**
   * 100 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_100 InterfaceEthernet#speed_100}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_100 InterfaceEthernet#speed_100}
   */
   readonly speed100?: boolean | cdktf.IResolvable;
   /**
   * 1000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_1000 InterfaceEthernet#speed_1000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_1000 InterfaceEthernet#speed_1000}
   */
   readonly speed1000?: boolean | cdktf.IResolvable;
   /**
   * 10000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_10000 InterfaceEthernet#speed_10000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_10000 InterfaceEthernet#speed_10000}
   */
   readonly speed10000?: boolean | cdktf.IResolvable;
   /**
   * 100000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_100000 InterfaceEthernet#speed_100000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_100000 InterfaceEthernet#speed_100000}
   */
   readonly speed100000?: boolean | cdktf.IResolvable;
   /**
   * 2500 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_2500 InterfaceEthernet#speed_2500}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_2500 InterfaceEthernet#speed_2500}
   */
   readonly speed2500?: boolean | cdktf.IResolvable;
   /**
   * 25000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_25000 InterfaceEthernet#speed_25000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_25000 InterfaceEthernet#speed_25000}
   */
   readonly speed25000?: boolean | cdktf.IResolvable;
   /**
   * 40000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_40000 InterfaceEthernet#speed_40000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_40000 InterfaceEthernet#speed_40000}
   */
   readonly speed40000?: boolean | cdktf.IResolvable;
   /**
   * 5000 Mbps operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_5000 InterfaceEthernet#speed_5000}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_5000 InterfaceEthernet#speed_5000}
   */
   readonly speed5000?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#speed_nonegotiate InterfaceEthernet#speed_nonegotiate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#speed_nonegotiate InterfaceEthernet#speed_nonegotiate}
   */
   readonly speedNonegotiate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#switchport InterfaceEthernet#switchport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#switchport InterfaceEthernet#switchport}
   */
   readonly switchport?: boolean | cdktf.IResolvable;
   /**
   * trusted device class
   *   - Choices: `cisco-phone`, `cts`, `ip-camera`, `media-player`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#trust_device InterfaceEthernet#trust_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#trust_device InterfaceEthernet#trust_device}
   */
   readonly trustDevice?: string;
   /**
   * Interface type
   *   - Choices: `GigabitEthernet`, `TwoGigabitEthernet`, `FiveGigabitEthernet`, `TenGigabitEthernet`, `TwentyFiveGigE`, `FortyGigabitEthernet`, `HundredGigE`, `TwoHundredGigE`, `FourHundredGigE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#type InterfaceEthernet#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#type InterfaceEthernet#type}
   */
   readonly type: string;
   /**
   * Enable IP processing without an explicit address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#unnumbered InterfaceEthernet#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#unnumbered InterfaceEthernet#unnumbered}
   */
   readonly unnumbered?: string;
   /**
   * Configure forwarding table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#vrf_forwarding InterfaceEthernet#vrf_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#vrf_forwarding InterfaceEthernet#vrf_forwarding}
   */
   readonly vrfForwarding?: string;
 }
@@ -833,7 +833,7 @@ export interface InterfaceEthernetDeviceTrackingAttachedPolicies {
   /**
   * Apply a policy for feature device-tracking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name: string;
 }
@@ -949,7 +949,7 @@ export interface InterfaceEthernetEvpnEthernetSegments {
   * Ethernet segment local discriminator value
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#es_value InterfaceEthernet#es_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#es_value InterfaceEthernet#es_value}
   */
   readonly esValue: number;
 }
@@ -1064,19 +1064,19 @@ export interface InterfaceEthernetHelperAddresses {
   /**
   * IP destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#address InterfaceEthernet#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#address InterfaceEthernet#address}
   */
   readonly address: string;
   /**
   * Helper-address is global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#global InterfaceEthernet#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#global InterfaceEthernet#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * VRF name for helper-address (if different from interface VRF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#vrf InterfaceEthernet#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#vrf InterfaceEthernet#vrf}
   */
   readonly vrf?: string;
 }
@@ -1250,13 +1250,13 @@ export interface InterfaceEthernetIpFlowMonitors {
   * 
   *   - Choices: `input`, `output`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#direction InterfaceEthernet#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#direction InterfaceEthernet#direction}
   */
   readonly direction: string;
   /**
   * User defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name: string;
 }
@@ -1397,13 +1397,13 @@ export interface InterfaceEthernetIpv6Addresses {
   /**
   * Use eui-64 interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#eui_64 InterfaceEthernet#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#eui_64 InterfaceEthernet#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#prefix InterfaceEthernet#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#prefix InterfaceEthernet#prefix}
   */
   readonly prefix: string;
 }
@@ -1548,13 +1548,13 @@ export interface InterfaceEthernetIpv6FlowMonitors {
   * 
   *   - Choices: `input`, `output`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#direction InterfaceEthernet#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#direction InterfaceEthernet#direction}
   */
   readonly direction: string;
   /**
   * User defined
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#name InterfaceEthernet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#name InterfaceEthernet#name}
   */
   readonly name: string;
 }
@@ -1693,13 +1693,13 @@ export class InterfaceEthernetIpv6FlowMonitorsList extends cdktf.ComplexList {
 }
 export interface InterfaceEthernetIpv6LinkLocalAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#address InterfaceEthernet#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#address InterfaceEthernet#address}
   */
   readonly address: string;
   /**
   * Use link-local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#link_local InterfaceEthernet#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#link_local InterfaceEthernet#link_local}
   */
   readonly linkLocal?: boolean | cdktf.IResolvable;
 }
@@ -1843,11 +1843,11 @@ export interface InterfaceEthernetSourceTemplate {
   /**
   * merge option of binding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#merge InterfaceEthernet#merge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#merge InterfaceEthernet#merge}
   */
   readonly merge?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#template_name InterfaceEthernet#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#template_name InterfaceEthernet#template_name}
   */
   readonly templateName: string;
 }
@@ -1989,7 +1989,7 @@ export class InterfaceEthernetSourceTemplateList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet iosxe_interface_ethernet}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet iosxe_interface_ethernet}
 */
 export class InterfaceEthernet extends cdktf.TerraformResource {
 
@@ -2005,7 +2005,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceEthernet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceEthernet to import
-  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceEthernet that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceEthernet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2017,7 +2017,7 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/interface_ethernet iosxe_interface_ethernet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/interface_ethernet iosxe_interface_ethernet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2028,8 +2028,8 @@ export class InterfaceEthernet extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_ethernet',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,37 @@ import * as cdktf from 'cdktf';
 
 export interface EvpnEthernetSegmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
-  *   - Choices: `all`, `attributes`
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#delete_mode EvpnEthernetSegment#delete_mode}
-  */
-  readonly deleteMode?: string;
-  /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#device EvpnEthernetSegment#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#device EvpnEthernetSegment#device}
   */
   readonly device?: string;
   /**
   * 
   *   - Range: `1`-`10`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#df_election_wait_time EvpnEthernetSegment#df_election_wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#df_election_wait_time EvpnEthernetSegment#df_election_wait_time}
   */
   readonly dfElectionWaitTime?: number;
   /**
   * Ethernet segment local discriminator value
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#es_value EvpnEthernetSegment#es_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#es_value EvpnEthernetSegment#es_value}
   */
   readonly esValue: number;
   /**
   * Ethernet Segment Identifier type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#identifier_types EvpnEthernetSegment#identifier_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#identifier_types EvpnEthernetSegment#identifier_types}
   */
   readonly identifierTypes?: EvpnEthernetSegmentIdentifierTypes[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#redundancy_all_active EvpnEthernetSegment#redundancy_all_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#redundancy_all_active EvpnEthernetSegment#redundancy_all_active}
   */
   readonly redundancyAllActive?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#redundancy_single_active EvpnEthernetSegment#redundancy_single_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#redundancy_single_active EvpnEthernetSegment#redundancy_single_active}
   */
   readonly redundancySingleActive?: boolean | cdktf.IResolvable;
 }
@@ -53,17 +46,17 @@ export interface EvpnEthernetSegmentIdentifierTypes {
   /**
   * H.H.H.H.H.H.H.H.H 	9-octet ESI value in hex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#hex_string EvpnEthernetSegment#hex_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#hex_string EvpnEthernetSegment#hex_string}
   */
   readonly hexString?: string;
   /**
   * System MAC address for generating the ESI value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#system_mac EvpnEthernetSegment#system_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#system_mac EvpnEthernetSegment#system_mac}
   */
   readonly systemMac?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#type EvpnEthernetSegment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#type EvpnEthernetSegment#type}
   */
   readonly type: number;
 }
@@ -234,7 +227,7 @@ export class EvpnEthernetSegmentIdentifierTypesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment iosxe_evpn_ethernet_segment}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment iosxe_evpn_ethernet_segment}
 */
 export class EvpnEthernetSegment extends cdktf.TerraformResource {
 
@@ -250,7 +243,7 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EvpnEthernetSegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EvpnEthernetSegment to import
-  * @param importFromId The id of the existing EvpnEthernetSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EvpnEthernetSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EvpnEthernetSegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +255,7 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/evpn_ethernet_segment iosxe_evpn_ethernet_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/evpn_ethernet_segment iosxe_evpn_ethernet_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +266,8 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_evpn_ethernet_segment',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -284,7 +277,6 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._deleteMode = config.deleteMode;
     this._device = config.device;
     this._dfElectionWaitTime = config.dfElectionWaitTime;
     this._esValue = config.esValue;
@@ -296,22 +288,6 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
-
-  // delete_mode - computed: false, optional: true, required: false
-  private _deleteMode?: string; 
-  public get deleteMode() {
-    return this.getStringAttribute('delete_mode');
-  }
-  public set deleteMode(value: string) {
-    this._deleteMode = value;
-  }
-  public resetDeleteMode() {
-    this._deleteMode = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get deleteModeInput() {
-    return this._deleteMode;
-  }
 
   // device - computed: false, optional: true, required: false
   private _device?: string; 
@@ -417,7 +393,6 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
       df_election_wait_time: cdktf.numberToTerraform(this._dfElectionWaitTime),
       es_value: cdktf.numberToTerraform(this._esValue),
@@ -429,12 +404,6 @@ export class EvpnEthernetSegment extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      delete_mode: {
-        value: cdktf.stringToHclTerraform(this._deleteMode),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       device: {
         value: cdktf.stringToHclTerraform(this._device),
         isBlock: false,

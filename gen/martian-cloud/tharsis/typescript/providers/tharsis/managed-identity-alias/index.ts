@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ManagedIdentityAliasConfig extends cdktf.TerraformMetaArguments
   /**
   * ID of the managed identity being aliased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias#alias_source_id ManagedIdentityAlias#alias_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias#alias_source_id ManagedIdentityAlias#alias_source_id}
   */
   readonly aliasSourceId?: string;
   /**
   * Full path of the managed identity being aliased.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias#alias_source_path ManagedIdentityAlias#alias_source_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias#alias_source_path ManagedIdentityAlias#alias_source_path}
   */
   readonly aliasSourcePath?: string;
   /**
   * Full path of the group where alias will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias#group_path ManagedIdentityAlias#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias#group_path ManagedIdentityAlias#group_path}
   */
   readonly groupPath: string;
   /**
   * The name of the managed identity alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias#name ManagedIdentityAlias#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias#name ManagedIdentityAlias#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias tharsis_managed_identity_alias}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias tharsis_managed_identity_alias}
 */
 export class ManagedIdentityAlias extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ManagedIdentityAlias extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedIdentityAlias resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedIdentityAlias to import
-  * @param importFromId The id of the existing ManagedIdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedIdentityAlias that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedIdentityAlias to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ManagedIdentityAlias extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_alias tharsis_managed_identity_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_alias tharsis_managed_identity_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ManagedIdentityAlias extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_managed_identity_alias',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

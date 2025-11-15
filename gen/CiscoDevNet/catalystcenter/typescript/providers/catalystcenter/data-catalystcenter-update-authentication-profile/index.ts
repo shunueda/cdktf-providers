@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCatalystcenterUpdateAuthenticationProfileConfig extends cdk
   /**
   * The default host authentication template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile#authentication_profile_name DataCatalystcenterUpdateAuthenticationProfile#authentication_profile_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile#authentication_profile_name DataCatalystcenterUpdateAuthenticationProfile#authentication_profile_name}
   */
   readonly authenticationProfileName: string;
   /**
   * ID of the fabric this authentication profile is assigned to. To update a global authentication profile, either remove this property or set its value to null.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile#fabric_id DataCatalystcenterUpdateAuthenticationProfile#fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile#fabric_id DataCatalystcenterUpdateAuthenticationProfile#fabric_id}
   */
   readonly fabricId?: string;
 }
@@ -107,7 +107,7 @@ export class DataCatalystcenterUpdateAuthenticationProfilePreAuthAclAccessContra
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile catalystcenter_update_authentication_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile catalystcenter_update_authentication_profile}
 */
 export class DataCatalystcenterUpdateAuthenticationProfile extends cdktf.TerraformDataSource {
 
@@ -123,7 +123,7 @@ export class DataCatalystcenterUpdateAuthenticationProfile extends cdktf.Terrafo
   * Generates CDKTF code for importing a DataCatalystcenterUpdateAuthenticationProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCatalystcenterUpdateAuthenticationProfile to import
-  * @param importFromId The id of the existing DataCatalystcenterUpdateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCatalystcenterUpdateAuthenticationProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCatalystcenterUpdateAuthenticationProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class DataCatalystcenterUpdateAuthenticationProfile extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/data-sources/update_authentication_profile catalystcenter_update_authentication_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/data-sources/update_authentication_profile catalystcenter_update_authentication_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class DataCatalystcenterUpdateAuthenticationProfile extends cdktf.Terrafo
       terraformResourceType: 'catalystcenter_update_authentication_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

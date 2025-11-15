@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,282 +10,282 @@ export interface OspfVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * OSPF area parameters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#areas OspfVrf#areas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#areas OspfVrf#areas}
   */
   readonly areas?: OspfVrfAreas[] | cdktf.IResolvable;
   /**
   * Use reference bandwidth method to assign OSPF cost
   *   - Range: `1`-`4294967`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#auto_cost_reference_bandwidth OspfVrf#auto_cost_reference_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#auto_cost_reference_bandwidth OspfVrf#auto_cost_reference_bandwidth}
   */
   readonly autoCostReferenceBandwidth?: number;
   /**
   * Enable BFD on all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#bfd_all_interfaces OspfVrf#bfd_all_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#bfd_all_interfaces OspfVrf#bfd_all_interfaces}
   */
   readonly bfdAllInterfaces?: boolean | cdktf.IResolvable;
   /**
   * Distribute a default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#default_information_originate OspfVrf#default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#default_information_originate OspfVrf#default_information_originate}
   */
   readonly defaultInformationOriginate?: boolean | cdktf.IResolvable;
   /**
   * Always advertise default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#default_information_originate_always OspfVrf#default_information_originate_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#default_information_originate_always OspfVrf#default_information_originate_always}
   */
   readonly defaultInformationOriginateAlways?: boolean | cdktf.IResolvable;
   /**
   * Set metric of redistributed routes
   *   - Range: `1`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#default_metric OspfVrf#default_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#default_metric OspfVrf#default_metric}
   */
   readonly defaultMetric?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#delete_mode OspfVrf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#delete_mode OspfVrf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#device OspfVrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#device OspfVrf#device}
   */
   readonly device?: string;
   /**
   * Administrative distance
   *   - Range: `1`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#distance OspfVrf#distance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#distance OspfVrf#distance}
   */
   readonly distance?: number;
   /**
   * OSPF domain-tag
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#domain_tag OspfVrf#domain_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#domain_tag OspfVrf#domain_tag}
   */
   readonly domainTag?: number;
   /**
   * Log changes in adjacency state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#log_adjacency_changes OspfVrf#log_adjacency_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#log_adjacency_changes OspfVrf#log_adjacency_changes}
   */
   readonly logAdjacencyChanges?: boolean | cdktf.IResolvable;
   /**
   * Log all state changes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#log_adjacency_changes_detail OspfVrf#log_adjacency_changes_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#log_adjacency_changes_detail OspfVrf#log_adjacency_changes_detail}
   */
   readonly logAdjacencyChangesDetail?: boolean | cdktf.IResolvable;
   /**
   * Maximum metric in self-originated router-LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa OspfVrf#max_metric_router_lsa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa OspfVrf#max_metric_router_lsa}
   */
   readonly maxMetricRouterLsa?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa_external_lsa_metric OspfVrf#max_metric_router_lsa_external_lsa_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa_external_lsa_metric OspfVrf#max_metric_router_lsa_external_lsa_metric}
   */
   readonly maxMetricRouterLsaExternalLsaMetric?: number;
   /**
   * Set maximum metric for stub links in router-LSAs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa_include_stub OspfVrf#max_metric_router_lsa_include_stub}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa_include_stub OspfVrf#max_metric_router_lsa_include_stub}
   */
   readonly maxMetricRouterLsaIncludeStub?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `5`-`86400`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa_on_startup_time OspfVrf#max_metric_router_lsa_on_startup_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa_on_startup_time OspfVrf#max_metric_router_lsa_on_startup_time}
   */
   readonly maxMetricRouterLsaOnStartupTime?: number;
   /**
   * Let BGP decide when to originate router-LSA with normal metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa_on_startup_wait_for_bgp OspfVrf#max_metric_router_lsa_on_startup_wait_for_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa_on_startup_wait_for_bgp OspfVrf#max_metric_router_lsa_on_startup_wait_for_bgp}
   */
   readonly maxMetricRouterLsaOnStartupWaitForBgp?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#max_metric_router_lsa_summary_lsa_metric OspfVrf#max_metric_router_lsa_summary_lsa_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#max_metric_router_lsa_summary_lsa_metric OspfVrf#max_metric_router_lsa_summary_lsa_metric}
   */
   readonly maxMetricRouterLsaSummaryLsaMetric?: number;
   /**
   * Configure LDP automatic configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#mpls_ldp_autoconfig OspfVrf#mpls_ldp_autoconfig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#mpls_ldp_autoconfig OspfVrf#mpls_ldp_autoconfig}
   */
   readonly mplsLdpAutoconfig?: boolean | cdktf.IResolvable;
   /**
   * Configure LDP-IGP Synchronization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#mpls_ldp_sync OspfVrf#mpls_ldp_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#mpls_ldp_sync OspfVrf#mpls_ldp_sync}
   */
   readonly mplsLdpSync?: boolean | cdktf.IResolvable;
   /**
   * Specify a neighbor router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#neighbor OspfVrf#neighbor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#neighbor OspfVrf#neighbor}
   */
   readonly neighbor?: OspfVrfNeighbor[] | cdktf.IResolvable;
   /**
   * Enable routing on an IP network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#network OspfVrf#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#network OspfVrf#network}
   */
   readonly network?: OspfVrfNetwork[] | cdktf.IResolvable;
   /**
   * Cisco Non-stop forwarding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nsf_cisco OspfVrf#nsf_cisco}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nsf_cisco OspfVrf#nsf_cisco}
   */
   readonly nsfCisco?: boolean | cdktf.IResolvable;
   /**
   * For the whole OSPF process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nsf_cisco_enforce_global OspfVrf#nsf_cisco_enforce_global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nsf_cisco_enforce_global OspfVrf#nsf_cisco_enforce_global}
   */
   readonly nsfCiscoEnforceGlobal?: boolean | cdktf.IResolvable;
   /**
   * IETF graceful restart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nsf_ietf OspfVrf#nsf_ietf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nsf_ietf OspfVrf#nsf_ietf}
   */
   readonly nsfIetf?: boolean | cdktf.IResolvable;
   /**
   * Graceful restart interval
   *   - Range: `1`-`1800`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nsf_ietf_restart_interval OspfVrf#nsf_ietf_restart_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nsf_ietf_restart_interval OspfVrf#nsf_ietf_restart_interval}
   */
   readonly nsfIetfRestartInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface OspfVrf#passive_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface OspfVrf#passive_interface}
   */
   readonly passiveInterface?: string[];
   /**
   * Suppress routing updates on all interfaces
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_default OspfVrf#passive_interface_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_default OspfVrf#passive_interface_default}
   */
   readonly passiveInterfaceDefault?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_five_gigabit_ethernets OspfVrf#passive_interface_disable_five_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_five_gigabit_ethernets OspfVrf#passive_interface_disable_five_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFiveGigabitEthernets?: OspfVrfPassiveInterfaceDisableFiveGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_forty_gigabit_ethernets OspfVrf#passive_interface_disable_forty_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_forty_gigabit_ethernets OspfVrf#passive_interface_disable_forty_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFortyGigabitEthernets?: OspfVrfPassiveInterfaceDisableFortyGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_four_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_four_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_four_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_four_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableFourHundredGigabitEthernets?: OspfVrfPassiveInterfaceDisableFourHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_gigabit_ethernets OspfVrf#passive_interface_disable_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_gigabit_ethernets OspfVrf#passive_interface_disable_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableGigabitEthernets?: OspfVrfPassiveInterfaceDisableGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableHundredGigabitEthernets?: OspfVrfPassiveInterfaceDisableHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_loopbacks OspfVrf#passive_interface_disable_loopbacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_loopbacks OspfVrf#passive_interface_disable_loopbacks}
   */
   readonly passiveInterfaceDisableLoopbacks?: OspfVrfPassiveInterfaceDisableLoopbacks[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_port_channel_subinterfaces OspfVrf#passive_interface_disable_port_channel_subinterfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_port_channel_subinterfaces OspfVrf#passive_interface_disable_port_channel_subinterfaces}
   */
   readonly passiveInterfaceDisablePortChannelSubinterfaces?: OspfVrfPassiveInterfaceDisablePortChannelSubinterfaces[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_port_channels OspfVrf#passive_interface_disable_port_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_port_channels OspfVrf#passive_interface_disable_port_channels}
   */
   readonly passiveInterfaceDisablePortChannels?: OspfVrfPassiveInterfaceDisablePortChannels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_ten_gigabit_ethernets OspfVrf#passive_interface_disable_ten_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_ten_gigabit_ethernets OspfVrf#passive_interface_disable_ten_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTenGigabitEthernets?: OspfVrfPassiveInterfaceDisableTenGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_tunnels OspfVrf#passive_interface_disable_tunnels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_tunnels OspfVrf#passive_interface_disable_tunnels}
   */
   readonly passiveInterfaceDisableTunnels?: OspfVrfPassiveInterfaceDisableTunnels[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_twenty_five_gigabit_ethernets OspfVrf#passive_interface_disable_twenty_five_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_twenty_five_gigabit_ethernets OspfVrf#passive_interface_disable_twenty_five_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwentyFiveGigabitEthernets?: OspfVrfPassiveInterfaceDisableTwentyFiveGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_two_gigabit_ethernets OspfVrf#passive_interface_disable_two_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_two_gigabit_ethernets OspfVrf#passive_interface_disable_two_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwoGigabitEthernets?: OspfVrfPassiveInterfaceDisableTwoGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_two_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_two_hundred_gigabit_ethernets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_two_hundred_gigabit_ethernets OspfVrf#passive_interface_disable_two_hundred_gigabit_ethernets}
   */
   readonly passiveInterfaceDisableTwoHundredGigabitEthernets?: OspfVrfPassiveInterfaceDisableTwoHundredGigabitEthernets[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#passive_interface_disable_vlans OspfVrf#passive_interface_disable_vlans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#passive_interface_disable_vlans OspfVrf#passive_interface_disable_vlans}
   */
   readonly passiveInterfaceDisableVlans?: OspfVrfPassiveInterfaceDisableVlans[] | cdktf.IResolvable;
   /**
   * OSPF topology priority
   *   - Range: `0`-`127`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#priority OspfVrf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#priority OspfVrf#priority}
   */
   readonly priority?: number;
   /**
   * Process ID
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#process_id OspfVrf#process_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#process_id OspfVrf#process_id}
   */
   readonly processId: number;
   /**
   * Consider subnets for redistribution into OSPF (Will be removed in the future)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#redistribute_connected_subnets OspfVrf#redistribute_connected_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#redistribute_connected_subnets OspfVrf#redistribute_connected_subnets}
   */
   readonly redistributeConnectedSubnets?: boolean | cdktf.IResolvable;
   /**
   * Consider subnets for redistribution into OSPF (Will be removed in the future)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#redistribute_static_subnets OspfVrf#redistribute_static_subnets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#redistribute_static_subnets OspfVrf#redistribute_static_subnets}
   */
   readonly redistributeStaticSubnets?: boolean | cdktf.IResolvable;
   /**
   * Configure router identifier. New router-id will take effect immediately (peers will reset)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#router_id OspfVrf#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#router_id OspfVrf#router_id}
   */
   readonly routerId?: string;
   /**
   * Shutdown the OSPF protocol under the current instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#shutdown OspfVrf#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#shutdown OspfVrf#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Configure IP address summaries
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#summary_address OspfVrf#summary_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#summary_address OspfVrf#summary_address}
   */
   readonly summaryAddress?: OspfVrfSummaryAddress[] | cdktf.IResolvable;
   /**
   * VPN Routing/Forwarding Instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#vrf OspfVrf#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#vrf OspfVrf#vrf}
   */
   readonly vrf: string;
 }
@@ -293,51 +293,51 @@ export interface OspfVrfAreas {
   /**
   * OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#area_id OspfVrf#area_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#area_id OspfVrf#area_id}
   */
   readonly areaId: string;
   /**
   * Use message-digest authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#authentication_message_digest OspfVrf#authentication_message_digest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#authentication_message_digest OspfVrf#authentication_message_digest}
   */
   readonly authenticationMessageDigest?: boolean | cdktf.IResolvable;
   /**
   * Specify a NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa OspfVrf#nssa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa OspfVrf#nssa}
   */
   readonly nssa?: boolean | cdktf.IResolvable;
   /**
   * Originate Type 7 default into NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa_default_information_originate OspfVrf#nssa_default_information_originate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa_default_information_originate OspfVrf#nssa_default_information_originate}
   */
   readonly nssaDefaultInformationOriginate?: boolean | cdktf.IResolvable;
   /**
   * OSPF default metric
   *   - Range: `0`-`16777214`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa_default_information_originate_metric OspfVrf#nssa_default_information_originate_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa_default_information_originate_metric OspfVrf#nssa_default_information_originate_metric}
   */
   readonly nssaDefaultInformationOriginateMetric?: number;
   /**
   * OSPF metric type for default routes
   *   - Range: `1`-`2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa_default_information_originate_metric_type OspfVrf#nssa_default_information_originate_metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa_default_information_originate_metric_type OspfVrf#nssa_default_information_originate_metric_type}
   */
   readonly nssaDefaultInformationOriginateMetricType?: number;
   /**
   * No redistribution into this NSSA area
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa_no_redistribution OspfVrf#nssa_no_redistribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa_no_redistribution OspfVrf#nssa_no_redistribution}
   */
   readonly nssaNoRedistribution?: boolean | cdktf.IResolvable;
   /**
   * Do not send summary LSA into NSSA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#nssa_no_summary OspfVrf#nssa_no_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#nssa_no_summary OspfVrf#nssa_no_summary}
   */
   readonly nssaNoSummary?: boolean | cdktf.IResolvable;
 }
@@ -656,20 +656,20 @@ export interface OspfVrfNeighbor {
   * OSPF cost for point-to-multipoint neighbor
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#cost OspfVrf#cost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#cost OspfVrf#cost}
   */
   readonly cost?: number;
   /**
   * Neighbor address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#ip OspfVrf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#ip OspfVrf#ip}
   */
   readonly ip: string;
   /**
   * OSPF priority of non-broadcast neighbor
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#priority OspfVrf#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#priority OspfVrf#priority}
   */
   readonly priority?: number;
 }
@@ -842,19 +842,19 @@ export interface OspfVrfNetwork {
   /**
   * Set the OSPF area ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#area OspfVrf#area}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#area OspfVrf#area}
   */
   readonly area?: string;
   /**
   * Network number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#ip OspfVrf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#ip OspfVrf#ip}
   */
   readonly ip: string;
   /**
   * OSPF wild card bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#wildcard OspfVrf#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#wildcard OspfVrf#wildcard}
   */
   readonly wildcard: string;
 }
@@ -1022,7 +1022,7 @@ export class OspfVrfNetworkList extends cdktf.ComplexList {
 }
 export interface OspfVrfPassiveInterfaceDisableFiveGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1135,7 +1135,7 @@ export class OspfVrfPassiveInterfaceDisableFiveGigabitEthernetsList extends cdkt
 }
 export interface OspfVrfPassiveInterfaceDisableFortyGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1248,7 +1248,7 @@ export class OspfVrfPassiveInterfaceDisableFortyGigabitEthernetsList extends cdk
 }
 export interface OspfVrfPassiveInterfaceDisableFourHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1361,7 +1361,7 @@ export class OspfVrfPassiveInterfaceDisableFourHundredGigabitEthernetsList exten
 }
 export interface OspfVrfPassiveInterfaceDisableGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1474,7 +1474,7 @@ export class OspfVrfPassiveInterfaceDisableGigabitEthernetsList extends cdktf.Co
 }
 export interface OspfVrfPassiveInterfaceDisableHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1587,7 +1587,7 @@ export class OspfVrfPassiveInterfaceDisableHundredGigabitEthernetsList extends c
 }
 export interface OspfVrfPassiveInterfaceDisableLoopbacks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1700,7 +1700,7 @@ export class OspfVrfPassiveInterfaceDisableLoopbacksList extends cdktf.ComplexLi
 }
 export interface OspfVrfPassiveInterfaceDisablePortChannelSubinterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1813,7 +1813,7 @@ export class OspfVrfPassiveInterfaceDisablePortChannelSubinterfacesList extends 
 }
 export interface OspfVrfPassiveInterfaceDisablePortChannels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -1926,7 +1926,7 @@ export class OspfVrfPassiveInterfaceDisablePortChannelsList extends cdktf.Comple
 }
 export interface OspfVrfPassiveInterfaceDisableTenGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2039,7 +2039,7 @@ export class OspfVrfPassiveInterfaceDisableTenGigabitEthernetsList extends cdktf
 }
 export interface OspfVrfPassiveInterfaceDisableTunnels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2152,7 +2152,7 @@ export class OspfVrfPassiveInterfaceDisableTunnelsList extends cdktf.ComplexList
 }
 export interface OspfVrfPassiveInterfaceDisableTwentyFiveGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2265,7 +2265,7 @@ export class OspfVrfPassiveInterfaceDisableTwentyFiveGigabitEthernetsList extend
 }
 export interface OspfVrfPassiveInterfaceDisableTwoGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2378,7 +2378,7 @@ export class OspfVrfPassiveInterfaceDisableTwoGigabitEthernetsList extends cdktf
 }
 export interface OspfVrfPassiveInterfaceDisableTwoHundredGigabitEthernets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2491,7 +2491,7 @@ export class OspfVrfPassiveInterfaceDisableTwoHundredGigabitEthernetsList extend
 }
 export interface OspfVrfPassiveInterfaceDisableVlans {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#name OspfVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#name OspfVrf#name}
   */
   readonly name: string;
 }
@@ -2606,13 +2606,13 @@ export interface OspfVrfSummaryAddress {
   /**
   * IP summary address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#ip OspfVrf#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#ip OspfVrf#ip}
   */
   readonly ip: string;
   /**
   * Summary mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#mask OspfVrf#mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#mask OspfVrf#mask}
   */
   readonly mask: string;
 }
@@ -2751,7 +2751,7 @@ export class OspfVrfSummaryAddressList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf iosxe_ospf_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf iosxe_ospf_vrf}
 */
 export class OspfVrf extends cdktf.TerraformResource {
 
@@ -2767,7 +2767,7 @@ export class OspfVrf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OspfVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OspfVrf to import
-  * @param importFromId The id of the existing OspfVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OspfVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OspfVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2779,7 +2779,7 @@ export class OspfVrf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ospf_vrf iosxe_ospf_vrf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ospf_vrf iosxe_ospf_vrf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2790,8 +2790,8 @@ export class OspfVrf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_ospf_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

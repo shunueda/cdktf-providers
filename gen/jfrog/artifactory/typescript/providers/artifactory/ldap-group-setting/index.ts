@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface LdapGroupSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * An attribute on the group entry which denoting the group description. Used when importing groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#description_attribute LdapGroupSetting#description_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#description_attribute LdapGroupSetting#description_attribute}
   */
   readonly descriptionAttribute: string;
   /**
   * The LDAP filter used to search for group entries. Used for importing groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#filter LdapGroupSetting#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#filter LdapGroupSetting#filter}
   */
   readonly filter: string;
   /**
   * A search base for group entry DNs, relative to the DN on the LDAP server’s URL (and not relative to the LDAP Setting’s “Search Base”). Used when importing groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#group_base_dn LdapGroupSetting#group_base_dn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#group_base_dn LdapGroupSetting#group_base_dn}
   */
   readonly groupBaseDn?: string;
   /**
   * A multi-value attribute on the group entry containing user DNs or IDs of the group members (e.g., uniqueMember,member).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#group_member_attribute LdapGroupSetting#group_member_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#group_member_attribute LdapGroupSetting#group_member_attribute}
   */
   readonly groupMemberAttribute: string;
   /**
   * Attribute on the group entry denoting the group name. Used when importing groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#group_name_attribute LdapGroupSetting#group_name_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#group_name_attribute LdapGroupSetting#group_name_attribute}
   */
   readonly groupNameAttribute: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#id LdapGroupSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#id LdapGroupSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,13 +47,13 @@ export interface LdapGroupSettingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The LDAP setting key you want to use for group retrieval. The value for this field corresponds to 'enabledLdap' field of the ldap group setting XML block of system configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#ldap_setting_key LdapGroupSetting#ldap_setting_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#ldap_setting_key LdapGroupSetting#ldap_setting_key}
   */
   readonly ldapSettingKey: string;
   /**
   * Ldap group setting name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#name LdapGroupSetting#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#name LdapGroupSetting#name}
   */
   readonly name: string;
   /**
@@ -62,19 +62,19 @@ export interface LdapGroupSettingConfig extends cdktf.TerraformMetaArguments {
   * Dynamic: User objects are aware of what groups they belong to, but the group objects are not aware of their members. Each user object contains a custom attribute, such as group, that holds the group DNs or group names of which the user is a member.
   * Hierarchy: The user's DN is indicative of the groups the user belongs to by using group names as part of user DN hierarchy. Each user DN contains a list of ou's or custom attributes that make up the group association. For example, uid=user1,ou=developers,ou=uk,dc=jfrog,dc=org indicates that user1 belongs to two groups: uk and developers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#strategy LdapGroupSetting#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#strategy LdapGroupSetting#strategy}
   */
   readonly strategy: string;
   /**
   * When set, enables deep search through the sub-tree of the LDAP URL + Search Base. True by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#sub_tree LdapGroupSetting#sub_tree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#sub_tree LdapGroupSetting#sub_tree}
   */
   readonly subTree?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting artifactory_ldap_group_setting}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting artifactory_ldap_group_setting}
 */
 export class LdapGroupSetting extends cdktf.TerraformResource {
 
@@ -90,7 +90,7 @@ export class LdapGroupSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LdapGroupSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LdapGroupSetting to import
-  * @param importFromId The id of the existing LdapGroupSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LdapGroupSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LdapGroupSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -102,7 +102,7 @@ export class LdapGroupSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/ldap_group_setting artifactory_ldap_group_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/ldap_group_setting artifactory_ldap_group_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -113,8 +113,8 @@ export class LdapGroupSetting extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_ldap_group_setting',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

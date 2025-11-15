@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ManagedIdentityAccessRuleConfig extends cdktf.TerraformMetaArgu
   /**
   * List of resource paths of service accounts allowed to use the managed identity associated with this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#allowed_service_accounts ManagedIdentityAccessRule#allowed_service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#allowed_service_accounts ManagedIdentityAccessRule#allowed_service_accounts}
   */
   readonly allowedServiceAccounts?: string[];
   /**
   * List of names of teams allowed to use the managed identity associated with this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#allowed_teams ManagedIdentityAccessRule#allowed_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#allowed_teams ManagedIdentityAccessRule#allowed_teams}
   */
   readonly allowedTeams?: string[];
   /**
   * List of usernames allowed to use the managed identity associated with this rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#allowed_users ManagedIdentityAccessRule#allowed_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#allowed_users ManagedIdentityAccessRule#allowed_users}
   */
   readonly allowedUsers?: string[];
   /**
   * String identifier of the connected managed identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#managed_identity_id ManagedIdentityAccessRule#managed_identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#managed_identity_id ManagedIdentityAccessRule#managed_identity_id}
   */
   readonly managedIdentityId: string;
   /**
   * Used to verify that a module has an in-toto attestation that is signed with the specified public key and an optional predicate type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#module_attestation_policies ManagedIdentityAccessRule#module_attestation_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#module_attestation_policies ManagedIdentityAccessRule#module_attestation_policies}
   */
   readonly moduleAttestationPolicies?: ManagedIdentityAccessRuleModuleAttestationPolicies[] | cdktf.IResolvable;
   /**
   * Type of job, plan or apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#run_stage ManagedIdentityAccessRule#run_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#run_stage ManagedIdentityAccessRule#run_stage}
   */
   readonly runStage: string;
   /**
   * Type of access rule: eligible_principals or module_attestation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#type ManagedIdentityAccessRule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#type ManagedIdentityAccessRule#type}
   */
   readonly type: string;
   /**
   * Whether to verify that the workspace's current state is from the same module source, default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#verify_state_lineage ManagedIdentityAccessRule#verify_state_lineage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#verify_state_lineage ManagedIdentityAccessRule#verify_state_lineage}
   */
   readonly verifyStateLineage?: boolean | cdktf.IResolvable;
 }
@@ -60,13 +60,13 @@ export interface ManagedIdentityAccessRuleModuleAttestationPolicies {
   /**
   * Optional predicate type for this attestation policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#predicate_type ManagedIdentityAccessRule#predicate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#predicate_type ManagedIdentityAccessRule#predicate_type}
   */
   readonly predicateType?: string;
   /**
   * Public key in PEM format for this attestation policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#public_key ManagedIdentityAccessRule#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#public_key ManagedIdentityAccessRule#public_key}
   */
   readonly publicKey: string;
 }
@@ -208,7 +208,7 @@ export class ManagedIdentityAccessRuleModuleAttestationPoliciesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule tharsis_managed_identity_access_rule}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule tharsis_managed_identity_access_rule}
 */
 export class ManagedIdentityAccessRule extends cdktf.TerraformResource {
 
@@ -224,7 +224,7 @@ export class ManagedIdentityAccessRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedIdentityAccessRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedIdentityAccessRule to import
-  * @param importFromId The id of the existing ManagedIdentityAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedIdentityAccessRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedIdentityAccessRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class ManagedIdentityAccessRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity_access_rule tharsis_managed_identity_access_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity_access_rule tharsis_managed_identity_access_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class ManagedIdentityAccessRule extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_managed_identity_access_rule',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

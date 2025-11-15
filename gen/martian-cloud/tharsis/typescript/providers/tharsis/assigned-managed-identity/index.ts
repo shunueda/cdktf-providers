@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AssignedManagedIdentityConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the assigned managed identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity#managed_identity_id AssignedManagedIdentity#managed_identity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity#managed_identity_id AssignedManagedIdentity#managed_identity_id}
   */
   readonly managedIdentityId: string;
   /**
   * The ID of the assigned-to workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity#workspace_id AssignedManagedIdentity#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity#workspace_id AssignedManagedIdentity#workspace_id}
   */
   readonly workspaceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity tharsis_assigned_managed_identity}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity tharsis_assigned_managed_identity}
 */
 export class AssignedManagedIdentity extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class AssignedManagedIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AssignedManagedIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AssignedManagedIdentity to import
-  * @param importFromId The id of the existing AssignedManagedIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AssignedManagedIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AssignedManagedIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AssignedManagedIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/assigned_managed_identity tharsis_assigned_managed_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/assigned_managed_identity tharsis_assigned_managed_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AssignedManagedIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_assigned_managed_identity',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

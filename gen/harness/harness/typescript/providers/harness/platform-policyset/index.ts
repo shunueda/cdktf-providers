@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PlatformPolicysetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action for the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#action PlatformPolicyset#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#action PlatformPolicyset#action}
   */
   readonly action: string;
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#description PlatformPolicyset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#description PlatformPolicyset#description}
   */
   readonly description?: string;
   /**
   * Enabled for the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#enabled PlatformPolicyset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#enabled PlatformPolicyset#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#id PlatformPolicyset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#id PlatformPolicyset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface PlatformPolicysetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#name PlatformPolicyset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#name PlatformPolicyset#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#org_id PlatformPolicyset#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#org_id PlatformPolicyset#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#project_id PlatformPolicyset#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#project_id PlatformPolicyset#project_id}
   */
   readonly projectId?: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#tags PlatformPolicyset#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#tags PlatformPolicyset#tags}
   */
   readonly tags?: string[];
   /**
   * Type for the policyset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#type PlatformPolicyset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#type PlatformPolicyset#type}
   */
   readonly type: string;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#policies PlatformPolicyset#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#policies PlatformPolicyset#policies}
   */
   readonly policies?: PlatformPolicysetPolicies[] | cdktf.IResolvable;
   /**
   * policy_references block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#policy_references PlatformPolicyset#policy_references}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#policy_references PlatformPolicyset#policy_references}
   */
   readonly policyReferences?: PlatformPolicysetPolicyReferences[] | cdktf.IResolvable;
 }
@@ -85,13 +85,13 @@ export interface PlatformPolicysetPolicies {
   /**
   * Account Identifier of the account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Policy failure response - 'warning' for continuation, 'error' for exit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#severity PlatformPolicyset#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#severity PlatformPolicyset#severity}
   */
   readonly severity: string;
 }
@@ -232,13 +232,13 @@ export interface PlatformPolicysetPolicyReferences {
   /**
   * Unique identifier of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#identifier PlatformPolicyset#identifier}
   */
   readonly identifier: string;
   /**
   * Policy failure response - 'warning' for continuation, 'error' for exit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#severity PlatformPolicyset#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#severity PlatformPolicyset#severity}
   */
   readonly severity: string;
 }
@@ -377,7 +377,7 @@ export class PlatformPolicysetPolicyReferencesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset harness_platform_policyset}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset harness_platform_policyset}
 */
 export class PlatformPolicyset extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class PlatformPolicyset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformPolicyset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformPolicyset to import
-  * @param importFromId The id of the existing PlatformPolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformPolicyset that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformPolicyset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class PlatformPolicyset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_policyset harness_platform_policyset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_policyset harness_platform_policyset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class PlatformPolicyset extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_policyset',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

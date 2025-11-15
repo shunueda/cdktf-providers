@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CoreweaveProviderConfig {
   /**
   * CoreWeave API Endpoint. This can also be set via the COREWEAVE_API_ENDPOINT environment variable, which takes precedence. Defaults to https://api.coreweave.com/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#endpoint CoreweaveProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#endpoint CoreweaveProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Timeout duration for the HTTP client to use. This can also be set via the COREWEAVE_HTTP_TIMEOUT environment variable, which takes precedence. If unset, defaults to 10 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#http_timeout CoreweaveProvider#http_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#http_timeout CoreweaveProvider#http_timeout}
   */
   readonly httpTimeout?: string;
   /**
   * CoreWeave S3 Endpoint, used for CoreWeave Object Storage. This can also be set via the COREWEAVE_S3_ENDPOINT environment variable, which takes precedence. Defaults to https://cwobject.com
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#s3_endpoint CoreweaveProvider#s3_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#s3_endpoint CoreweaveProvider#s3_endpoint}
   */
   readonly s3Endpoint?: string;
   /**
   * CoreWeave API Token. In the form CW-SECRET-<secret>. This can also be set via the COREWEAVE_API_TOKEN environment variable, which takes precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#token CoreweaveProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#token CoreweaveProvider#token}
   */
   readonly token?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#alias CoreweaveProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#alias CoreweaveProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs coreweave}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs coreweave}
 */
 export class CoreweaveProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class CoreweaveProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CoreweaveProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreweaveProvider to import
-  * @param importFromId The id of the existing CoreweaveProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreweaveProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreweaveProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class CoreweaveProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs coreweave} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs coreweave} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class CoreweaveProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'coreweave',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       terraformProviderSource: 'coreweave/coreweave'
     });

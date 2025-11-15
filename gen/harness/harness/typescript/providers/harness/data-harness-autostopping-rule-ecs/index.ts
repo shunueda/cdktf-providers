@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataHarnessAutostoppingRuleEcsConfig extends cdktf.TerraformMet
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#cloud_connector_id DataHarnessAutostoppingRuleEcs#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#cloud_connector_id DataHarnessAutostoppingRuleEcs#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Custom URLs used to access the instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#custom_domains DataHarnessAutostoppingRuleEcs#custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#custom_domains DataHarnessAutostoppingRuleEcs#custom_domains}
   */
   readonly customDomains?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#id DataHarnessAutostoppingRuleEcs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#id DataHarnessAutostoppingRuleEcs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface DataHarnessAutostoppingRuleEcsConfig extends cdktf.TerraformMet
   /**
   * Idle time in minutes. This is the time that the AutoStopping rule waits before stopping the idle instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#idle_time_mins DataHarnessAutostoppingRuleEcs#idle_time_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#idle_time_mins DataHarnessAutostoppingRuleEcs#idle_time_mins}
   */
   readonly idleTimeMins?: number;
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#name DataHarnessAutostoppingRuleEcs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#name DataHarnessAutostoppingRuleEcs#name}
   */
   readonly name: string;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#container DataHarnessAutostoppingRuleEcs#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#container DataHarnessAutostoppingRuleEcs#container}
   */
   readonly container?: DataHarnessAutostoppingRuleEcsContainer;
   /**
   * depends block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#depends DataHarnessAutostoppingRuleEcs#depends}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#depends DataHarnessAutostoppingRuleEcs#depends}
   */
   readonly depends?: DataHarnessAutostoppingRuleEcsDepends[] | cdktf.IResolvable;
   /**
   * http block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#http DataHarnessAutostoppingRuleEcs#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#http DataHarnessAutostoppingRuleEcs#http}
   */
   readonly http?: DataHarnessAutostoppingRuleEcsHttp[] | cdktf.IResolvable;
 }
@@ -61,25 +61,25 @@ export interface DataHarnessAutostoppingRuleEcsContainer {
   /**
   * Name of cluster in which service belong to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#cluster DataHarnessAutostoppingRuleEcs#cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#cluster DataHarnessAutostoppingRuleEcs#cluster}
   */
   readonly cluster: string;
   /**
   * Region of cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#region DataHarnessAutostoppingRuleEcs#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#region DataHarnessAutostoppingRuleEcs#region}
   */
   readonly region: string;
   /**
   * Name of service to be onboarded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#service DataHarnessAutostoppingRuleEcs#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#service DataHarnessAutostoppingRuleEcs#service}
   */
   readonly service: string;
   /**
   * Desired number of tasks on warming up a rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#task_count DataHarnessAutostoppingRuleEcs#task_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#task_count DataHarnessAutostoppingRuleEcs#task_count}
   */
   readonly taskCount?: number;
 }
@@ -243,13 +243,13 @@ export interface DataHarnessAutostoppingRuleEcsDepends {
   /**
   * Number of seconds the rule should wait after warming up the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#delay_in_sec DataHarnessAutostoppingRuleEcs#delay_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#delay_in_sec DataHarnessAutostoppingRuleEcs#delay_in_sec}
   */
   readonly delayInSec?: number;
   /**
   * Rule id of the dependent rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#rule_id DataHarnessAutostoppingRuleEcs#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#rule_id DataHarnessAutostoppingRuleEcs#rule_id}
   */
   readonly ruleId: number;
 }
@@ -393,7 +393,7 @@ export interface DataHarnessAutostoppingRuleEcsHttp {
   /**
   * Id of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#proxy_id DataHarnessAutostoppingRuleEcs#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#proxy_id DataHarnessAutostoppingRuleEcs#proxy_id}
   */
   readonly proxyId: string;
 }
@@ -506,7 +506,7 @@ export class DataHarnessAutostoppingRuleEcsHttpList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs harness_autostopping_rule_ecs}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs harness_autostopping_rule_ecs}
 */
 export class DataHarnessAutostoppingRuleEcs extends cdktf.TerraformDataSource {
 
@@ -522,7 +522,7 @@ export class DataHarnessAutostoppingRuleEcs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessAutostoppingRuleEcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessAutostoppingRuleEcs to import
-  * @param importFromId The id of the existing DataHarnessAutostoppingRuleEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessAutostoppingRuleEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessAutostoppingRuleEcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class DataHarnessAutostoppingRuleEcs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/autostopping_rule_ecs harness_autostopping_rule_ecs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/autostopping_rule_ecs harness_autostopping_rule_ecs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class DataHarnessAutostoppingRuleEcs extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_autostopping_rule_ecs',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

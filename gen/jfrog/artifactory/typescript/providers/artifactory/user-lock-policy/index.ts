@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface UserLockPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable User Lock Policy. Lock user after exceeding max failed login attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy#enabled UserLockPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy#enabled UserLockPolicy#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Max failed login attempts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy#login_attempts UserLockPolicy#login_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy#login_attempts UserLockPolicy#login_attempts}
   */
   readonly loginAttempts: number;
   /**
   * Name of the resource. Only used for importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy#name UserLockPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy#name UserLockPolicy#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy artifactory_user_lock_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy artifactory_user_lock_policy}
 */
 export class UserLockPolicy extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class UserLockPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UserLockPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UserLockPolicy to import
-  * @param importFromId The id of the existing UserLockPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UserLockPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UserLockPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class UserLockPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/user_lock_policy artifactory_user_lock_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/user_lock_policy artifactory_user_lock_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class UserLockPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_user_lock_policy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

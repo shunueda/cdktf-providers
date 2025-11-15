@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CredentialsSnmpv2WriteConfig extends cdktf.TerraformMetaArgumen
   /**
   * The description of the SNMPv2 credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write#description CredentialsSnmpv2Write#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write#description CredentialsSnmpv2Write#description}
   */
   readonly description: string;
   /**
   * Write community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write#write_community CredentialsSnmpv2Write#write_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write#write_community CredentialsSnmpv2Write#write_community}
   */
   readonly writeCommunity: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write catalystcenter_credentials_snmpv2_write}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write catalystcenter_credentials_snmpv2_write}
 */
 export class CredentialsSnmpv2Write extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class CredentialsSnmpv2Write extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CredentialsSnmpv2Write resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CredentialsSnmpv2Write to import
-  * @param importFromId The id of the existing CredentialsSnmpv2Write that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CredentialsSnmpv2Write that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CredentialsSnmpv2Write to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class CredentialsSnmpv2Write extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_snmpv2_write catalystcenter_credentials_snmpv2_write} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_snmpv2_write catalystcenter_credentials_snmpv2_write} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class CredentialsSnmpv2Write extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_snmpv2_write',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

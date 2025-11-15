@@ -52,6 +52,7 @@ Object.defineProperty(exports, 'federatedOciRepository', { get: function () { re
 Object.defineProperty(exports, 'federatedOpkgRepository', { get: function () { return require('./federated-opkg-repository'); } });
 Object.defineProperty(exports, 'federatedPuppetRepository', { get: function () { return require('./federated-puppet-repository'); } });
 Object.defineProperty(exports, 'federatedPypiRepository', { get: function () { return require('./federated-pypi-repository'); } });
+Object.defineProperty(exports, 'federatedReleasebundlesRepository', { get: function () { return require('./federated-releasebundles-repository'); } });
 Object.defineProperty(exports, 'federatedRpmRepository', { get: function () { return require('./federated-rpm-repository'); } });
 Object.defineProperty(exports, 'federatedSbtRepository', { get: function () { return require('./federated-sbt-repository'); } });
 Object.defineProperty(exports, 'federatedSwiftRepository', { get: function () { return require('./federated-swift-repository'); } });
@@ -232,6 +233,7 @@ Object.defineProperty(exports, 'dataArtifactoryFederatedOciRepository', { get: f
 Object.defineProperty(exports, 'dataArtifactoryFederatedOpkgRepository', { get: function () { return require('./data-artifactory-federated-opkg-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryFederatedPuppetRepository', { get: function () { return require('./data-artifactory-federated-puppet-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryFederatedPypiRepository', { get: function () { return require('./data-artifactory-federated-pypi-repository'); } });
+Object.defineProperty(exports, 'dataArtifactoryFederatedReleasebundlesRepository', { get: function () { return require('./data-artifactory-federated-releasebundles-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryFederatedRpmRepository', { get: function () { return require('./data-artifactory-federated-rpm-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryFederatedSbtRepository', { get: function () { return require('./data-artifactory-federated-sbt-repository'); } });
 Object.defineProperty(exports, 'dataArtifactoryFederatedSwiftRepository', { get: function () { return require('./data-artifactory-federated-swift-repository'); } });

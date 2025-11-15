@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataHarnessPlatformHarRegistryConfig extends cdktf.TerraformMet
   /**
   * Allowed artifact patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#allowed_pattern DataHarnessPlatformHarRegistry#allowed_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#allowed_pattern DataHarnessPlatformHarRegistry#allowed_pattern}
   */
   readonly allowedPattern?: string[];
   /**
   * Blocked artifact patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#blocked_pattern DataHarnessPlatformHarRegistry#blocked_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#blocked_pattern DataHarnessPlatformHarRegistry#blocked_pattern}
   */
   readonly blockedPattern?: string[];
   /**
   * Description of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#description DataHarnessPlatformHarRegistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#description DataHarnessPlatformHarRegistry#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#id DataHarnessPlatformHarRegistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#id DataHarnessPlatformHarRegistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,77 +35,77 @@ export interface DataHarnessPlatformHarRegistryConfig extends cdktf.TerraformMet
   /**
   * Unique identifier of the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#identifier DataHarnessPlatformHarRegistry#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#identifier DataHarnessPlatformHarRegistry#identifier}
   */
   readonly identifier: string;
   /**
   * Type of package (DOCKER, HELM, MAVEN, etc.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#package_type DataHarnessPlatformHarRegistry#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#package_type DataHarnessPlatformHarRegistry#package_type}
   */
   readonly packageType?: string;
   /**
   * Parent reference for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#parent_ref DataHarnessPlatformHarRegistry#parent_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#parent_ref DataHarnessPlatformHarRegistry#parent_ref}
   */
   readonly parentRef?: string;
   /**
   * Space reference for the registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#space_ref DataHarnessPlatformHarRegistry#space_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#space_ref DataHarnessPlatformHarRegistry#space_ref}
   */
   readonly spaceRef?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#config DataHarnessPlatformHarRegistry#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#config DataHarnessPlatformHarRegistry#config}
   */
   readonly config?: DataHarnessPlatformHarRegistryConfigA;
 }
 export interface DataHarnessPlatformHarRegistryConfigAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#access_key DataHarnessPlatformHarRegistry#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#access_key DataHarnessPlatformHarRegistry#access_key}
   */
   readonly accessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#access_key_identifier DataHarnessPlatformHarRegistry#access_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#access_key_identifier DataHarnessPlatformHarRegistry#access_key_identifier}
   */
   readonly accessKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#access_key_secret_path DataHarnessPlatformHarRegistry#access_key_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#access_key_secret_path DataHarnessPlatformHarRegistry#access_key_secret_path}
   */
   readonly accessKeySecretPath?: string;
   /**
   * Type of authentication (UserPassword, Anonymous)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#auth_type DataHarnessPlatformHarRegistry#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#auth_type DataHarnessPlatformHarRegistry#auth_type}
   */
   readonly authType: string;
   /**
   * Secret identifier for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#secret_identifier DataHarnessPlatformHarRegistry#secret_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#secret_identifier DataHarnessPlatformHarRegistry#secret_identifier}
   */
   readonly secretIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#secret_key_identifier DataHarnessPlatformHarRegistry#secret_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#secret_key_identifier DataHarnessPlatformHarRegistry#secret_key_identifier}
   */
   readonly secretKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#secret_key_secret_path DataHarnessPlatformHarRegistry#secret_key_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#secret_key_secret_path DataHarnessPlatformHarRegistry#secret_key_secret_path}
   */
   readonly secretKeySecretPath?: string;
   /**
   * Secret space path for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#secret_space_path DataHarnessPlatformHarRegistry#secret_space_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#secret_space_path DataHarnessPlatformHarRegistry#secret_space_path}
   */
   readonly secretSpacePath?: string;
   /**
   * User name for UserPassword auth type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#user_name DataHarnessPlatformHarRegistry#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#user_name DataHarnessPlatformHarRegistry#user_name}
   */
   readonly userName?: string;
 }
@@ -420,37 +420,37 @@ export interface DataHarnessPlatformHarRegistryConfigA {
   /**
   * Type of authentication for UPSTREAM registry type (UserPassword, Anonymous)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#auth_type DataHarnessPlatformHarRegistry#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#auth_type DataHarnessPlatformHarRegistry#auth_type}
   */
   readonly authType?: string;
   /**
   * Upstream source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#source DataHarnessPlatformHarRegistry#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#source DataHarnessPlatformHarRegistry#source}
   */
   readonly source?: string;
   /**
   * Type of registry (VIRTUAL or UPSTREAM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#type DataHarnessPlatformHarRegistry#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#type DataHarnessPlatformHarRegistry#type}
   */
   readonly type: string;
   /**
   * List of upstream proxies for VIRTUAL registry type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#upstream_proxies DataHarnessPlatformHarRegistry#upstream_proxies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#upstream_proxies DataHarnessPlatformHarRegistry#upstream_proxies}
   */
   readonly upstreamProxies?: string[];
   /**
   * URL of the upstream (required if type=UPSTREAM & package_type=HELM)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#url DataHarnessPlatformHarRegistry#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#url DataHarnessPlatformHarRegistry#url}
   */
   readonly url?: string;
   /**
   * auth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#auth DataHarnessPlatformHarRegistry#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#auth DataHarnessPlatformHarRegistry#auth}
   */
   readonly auth?: DataHarnessPlatformHarRegistryConfigAuth;
 }
@@ -676,7 +676,7 @@ export class DataHarnessPlatformHarRegistryConfigAOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry harness_platform_har_registry}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry harness_platform_har_registry}
 */
 export class DataHarnessPlatformHarRegistry extends cdktf.TerraformDataSource {
 
@@ -692,7 +692,7 @@ export class DataHarnessPlatformHarRegistry extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessPlatformHarRegistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformHarRegistry to import
-  * @param importFromId The id of the existing DataHarnessPlatformHarRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformHarRegistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformHarRegistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -704,7 +704,7 @@ export class DataHarnessPlatformHarRegistry extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_har_registry harness_platform_har_registry} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_har_registry harness_platform_har_registry} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -715,8 +715,8 @@ export class DataHarnessPlatformHarRegistry extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_platform_har_registry',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

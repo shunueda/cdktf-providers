@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateWatsonxChatCompletionConfig extends cdktf.Ter
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#enabled WorkflowTaskCreateWatsonxChatCompletion#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#enabled WorkflowTaskCreateWatsonxChatCompletion#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#id WorkflowTaskCreateWatsonxChatCompletion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#id WorkflowTaskCreateWatsonxChatCompletion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateWatsonxChatCompletionConfig extends cdktf.Ter
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#name WorkflowTaskCreateWatsonxChatCompletion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#name WorkflowTaskCreateWatsonxChatCompletion#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#position WorkflowTaskCreateWatsonxChatCompletion#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#position WorkflowTaskCreateWatsonxChatCompletion#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#skip_on_failure WorkflowTaskCreateWatsonxChatCompletion#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#skip_on_failure WorkflowTaskCreateWatsonxChatCompletion#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#workflow_id WorkflowTaskCreateWatsonxChatCompletion#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#workflow_id WorkflowTaskCreateWatsonxChatCompletion#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#task_params WorkflowTaskCreateWatsonxChatCompletion#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#task_params WorkflowTaskCreateWatsonxChatCompletion#task_params}
   */
   readonly taskParams: WorkflowTaskCreateWatsonxChatCompletionTaskParams;
 }
@@ -55,27 +55,27 @@ export interface WorkflowTaskCreateWatsonxChatCompletionTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. The WatsonX model. eg: ibm/granite-3-b8b-instruct
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#model WorkflowTaskCreateWatsonxChatCompletion#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#model WorkflowTaskCreateWatsonxChatCompletion#model}
   */
   readonly model: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#project_id WorkflowTaskCreateWatsonxChatCompletion#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#project_id WorkflowTaskCreateWatsonxChatCompletion#project_id}
   */
   readonly projectId: string;
   /**
   * The prompt to send to WatsonX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#prompt WorkflowTaskCreateWatsonxChatCompletion#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#prompt WorkflowTaskCreateWatsonxChatCompletion#prompt}
   */
   readonly prompt: string;
   /**
   * The system prompt to send to WatsonX (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#system_prompt WorkflowTaskCreateWatsonxChatCompletion#system_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#system_prompt WorkflowTaskCreateWatsonxChatCompletion#system_prompt}
   */
   readonly systemPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#task_type WorkflowTaskCreateWatsonxChatCompletion#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#task_type WorkflowTaskCreateWatsonxChatCompletion#task_type}
   */
   readonly taskType?: string;
 }
@@ -266,7 +266,7 @@ export class WorkflowTaskCreateWatsonxChatCompletionTaskParamsOutputReference ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion rootly_workflow_task_create_watsonx_chat_completion}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion rootly_workflow_task_create_watsonx_chat_completion}
 */
 export class WorkflowTaskCreateWatsonxChatCompletion extends cdktf.TerraformResource {
 
@@ -282,7 +282,7 @@ export class WorkflowTaskCreateWatsonxChatCompletion extends cdktf.TerraformReso
   * Generates CDKTF code for importing a WorkflowTaskCreateWatsonxChatCompletion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateWatsonxChatCompletion to import
-  * @param importFromId The id of the existing WorkflowTaskCreateWatsonxChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateWatsonxChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateWatsonxChatCompletion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -294,7 +294,7 @@ export class WorkflowTaskCreateWatsonxChatCompletion extends cdktf.TerraformReso
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_watsonx_chat_completion rootly_workflow_task_create_watsonx_chat_completion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_watsonx_chat_completion rootly_workflow_task_create_watsonx_chat_completion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -305,8 +305,8 @@ export class WorkflowTaskCreateWatsonxChatCompletion extends cdktf.TerraformReso
       terraformResourceType: 'rootly_workflow_task_create_watsonx_chat_completion',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

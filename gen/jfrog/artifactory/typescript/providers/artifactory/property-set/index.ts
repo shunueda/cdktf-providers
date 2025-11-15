@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PropertySetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Property set name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#name PropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#name PropertySet#name}
   */
   readonly name: string;
   /**
   * Defines if the list visible and assignable to the repository or artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#visible PropertySet#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#visible PropertySet#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * property block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#property PropertySet#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#property PropertySet#property}
   */
   readonly property?: PropertySetProperty[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface PropertySetPropertyPredefinedValue {
   /**
   * Whether the value is selected by default in the UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#default_value PropertySet#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#default_value PropertySet#default_value}
   */
   readonly defaultValue: boolean | cdktf.IResolvable;
   /**
   * Predefined property name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#name PropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#name PropertySet#name}
   */
   readonly name: string;
 }
@@ -177,25 +177,25 @@ export interface PropertySetProperty {
   /**
   * Disables `multiple_choice` if set to `false` at the same time with `multiple_choice` set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#closed_predefined_values PropertySet#closed_predefined_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#closed_predefined_values PropertySet#closed_predefined_values}
   */
   readonly closedPredefinedValues?: boolean | cdktf.IResolvable;
   /**
   * Whether or not user can select multiple values. `closed_predefined_values` should be set to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#multiple_choice PropertySet#multiple_choice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#multiple_choice PropertySet#multiple_choice}
   */
   readonly multipleChoice?: boolean | cdktf.IResolvable;
   /**
   * The name of the property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#name PropertySet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#name PropertySet#name}
   */
   readonly name: string;
   /**
   * predefined_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#predefined_value PropertySet#predefined_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#predefined_value PropertySet#predefined_value}
   */
   readonly predefinedValue?: PropertySetPropertyPredefinedValue[] | cdktf.IResolvable;
 }
@@ -395,7 +395,7 @@ export class PropertySetPropertyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set artifactory_property_set}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set artifactory_property_set}
 */
 export class PropertySet extends cdktf.TerraformResource {
 
@@ -411,7 +411,7 @@ export class PropertySet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PropertySet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PropertySet to import
-  * @param importFromId The id of the existing PropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PropertySet that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PropertySet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -423,7 +423,7 @@ export class PropertySet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/property_set artifactory_property_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/property_set artifactory_property_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -434,8 +434,8 @@ export class PropertySet extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_property_set',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

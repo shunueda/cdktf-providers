@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface NtpSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * NTP servers to facilitate system clock synchronization for your network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings#servers NtpSettings#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings#servers NtpSettings#servers}
   */
   readonly servers?: string[];
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings#site_id NtpSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings#site_id NtpSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings catalystcenter_ntp_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings catalystcenter_ntp_settings}
 */
 export class NtpSettings extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class NtpSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NtpSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NtpSettings to import
-  * @param importFromId The id of the existing NtpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NtpSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NtpSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class NtpSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/ntp_settings catalystcenter_ntp_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/ntp_settings catalystcenter_ntp_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class NtpSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_ntp_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

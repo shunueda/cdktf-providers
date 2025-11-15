@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine
+// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,112 @@ import * as cdktf from 'cdktf';
 
 export interface DataSdmSecretEngineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#binddn DataSdmSecretEngine#binddn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#binddn DataSdmSecretEngine#binddn}
   */
   readonly binddn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#bindpass DataSdmSecretEngine#bindpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#bindpass DataSdmSecretEngine#bindpass}
   */
   readonly bindpass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#certificate DataSdmSecretEngine#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#certificate DataSdmSecretEngine#certificate}
   */
   readonly certificate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#connection_timeout DataSdmSecretEngine#connection_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#connection_timeout DataSdmSecretEngine#connection_timeout}
   */
   readonly connectionTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#database DataSdmSecretEngine#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#database DataSdmSecretEngine#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#do_not_validate_timestamps DataSdmSecretEngine#do_not_validate_timestamps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#do_not_validate_timestamps DataSdmSecretEngine#do_not_validate_timestamps}
   */
   readonly doNotValidateTimestamps?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#hostname DataSdmSecretEngine#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#hostname DataSdmSecretEngine#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#id DataSdmSecretEngine#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#id DataSdmSecretEngine#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#insecure_tls DataSdmSecretEngine#insecure_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#insecure_tls DataSdmSecretEngine#insecure_tls}
   */
   readonly insecureTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#key_rotation_interval_days DataSdmSecretEngine#key_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#key_rotation_interval_days DataSdmSecretEngine#key_rotation_interval_days}
   */
   readonly keyRotationIntervalDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#name DataSdmSecretEngine#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#name DataSdmSecretEngine#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#password DataSdmSecretEngine#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#password DataSdmSecretEngine#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#port DataSdmSecretEngine#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#port DataSdmSecretEngine#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#request_timeout DataSdmSecretEngine#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#request_timeout DataSdmSecretEngine#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#secret_store_id DataSdmSecretEngine#secret_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#secret_store_id DataSdmSecretEngine#secret_store_id}
   */
   readonly secretStoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#secret_store_root_path DataSdmSecretEngine#secret_store_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#secret_store_root_path DataSdmSecretEngine#secret_store_root_path}
   */
   readonly secretStoreRootPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#start_tls DataSdmSecretEngine#start_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#start_tls DataSdmSecretEngine#start_tls}
   */
   readonly startTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#tags DataSdmSecretEngine#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#tags DataSdmSecretEngine#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#tls DataSdmSecretEngine#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#tls DataSdmSecretEngine#tls}
   */
   readonly tls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#type DataSdmSecretEngine#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#tls_skip_verify DataSdmSecretEngine#tls_skip_verify}
+  */
+  readonly tlsSkipVerify?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#type DataSdmSecretEngine#type}
   */
   readonly type?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#upndomain DataSdmSecretEngine#upndomain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#upndomain DataSdmSecretEngine#upndomain}
   */
   readonly upndomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#url DataSdmSecretEngine#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#url DataSdmSecretEngine#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#userdn DataSdmSecretEngine#userdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#userdn DataSdmSecretEngine#userdn}
   */
   readonly userdn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#username DataSdmSecretEngine#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#username DataSdmSecretEngine#username}
   */
   readonly username?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#timeouts DataSdmSecretEngine#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#timeouts DataSdmSecretEngine#timeouts}
   */
   readonly timeouts?: DataSdmSecretEngineTimeouts;
 }
@@ -395,6 +399,157 @@ export class DataSdmSecretEngineSecretEnginesKeyValueList extends cdktf.ComplexL
     return new DataSdmSecretEngineSecretEnginesKeyValueOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface DataSdmSecretEngineSecretEnginesMysqlSecretEngine {
+}
+
+export function dataSdmSecretEngineSecretEnginesMysqlSecretEngineToTerraform(struct?: DataSdmSecretEngineSecretEnginesMysqlSecretEngine): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSdmSecretEngineSecretEnginesMysqlSecretEngineToHclTerraform(struct?: DataSdmSecretEngineSecretEnginesMysqlSecretEngine): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSdmSecretEngineSecretEnginesMysqlSecretEngineOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSdmSecretEngineSecretEnginesMysqlSecretEngine | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSdmSecretEngineSecretEnginesMysqlSecretEngine | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // after_read_ttl - computed: true, optional: false, required: false
+  public get afterReadTtl() {
+    return this.getStringAttribute('after_read_ttl');
+  }
+
+  // database - computed: true, optional: false, required: false
+  public get database() {
+    return this.getStringAttribute('database');
+  }
+
+  // hostname - computed: true, optional: false, required: false
+  public get hostname() {
+    return this.getStringAttribute('hostname');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // key_rotation_interval_days - computed: true, optional: false, required: false
+  public get keyRotationIntervalDays() {
+    return this.getNumberAttribute('key_rotation_interval_days');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+
+  // public_key - computed: true, optional: false, required: false
+  public get publicKey() {
+    return this.getStringAttribute('public_key');
+  }
+
+  // secret_store_id - computed: true, optional: false, required: false
+  public get secretStoreId() {
+    return this.getStringAttribute('secret_store_id');
+  }
+
+  // secret_store_root_path - computed: true, optional: false, required: false
+  public get secretStoreRootPath() {
+    return this.getStringAttribute('secret_store_root_path');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  private _tags = new cdktf.StringMap(this, "tags");
+  public get tags() {
+    return this._tags;
+  }
+
+  // tls - computed: true, optional: false, required: false
+  public get tls() {
+    return this.getBooleanAttribute('tls');
+  }
+
+  // tls_skip_verify - computed: true, optional: false, required: false
+  public get tlsSkipVerify() {
+    return this.getBooleanAttribute('tls_skip_verify');
+  }
+
+  // ttl - computed: true, optional: false, required: false
+  public get ttl() {
+    return this.getStringAttribute('ttl');
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+}
+
+export class DataSdmSecretEngineSecretEnginesMysqlSecretEngineList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSdmSecretEngineSecretEnginesMysqlSecretEngineOutputReference {
+    return new DataSdmSecretEngineSecretEnginesMysqlSecretEngineOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataSdmSecretEngineSecretEnginesPostgresSecretEngine {
 }
 
@@ -604,6 +759,12 @@ export class DataSdmSecretEngineSecretEnginesOutputReference extends cdktf.Compl
     return this._keyValue;
   }
 
+  // mysql_secret_engine - computed: true, optional: false, required: false
+  private _mysqlSecretEngine = new DataSdmSecretEngineSecretEnginesMysqlSecretEngineList(this, "mysql_secret_engine", false);
+  public get mysqlSecretEngine() {
+    return this._mysqlSecretEngine;
+  }
+
   // postgres_secret_engine - computed: true, optional: false, required: false
   private _postgresSecretEngine = new DataSdmSecretEngineSecretEnginesPostgresSecretEngineList(this, "postgres_secret_engine", false);
   public get postgresSecretEngine() {
@@ -631,7 +792,7 @@ export class DataSdmSecretEngineSecretEnginesList extends cdktf.ComplexList {
 }
 export interface DataSdmSecretEngineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#default DataSdmSecretEngine#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#default DataSdmSecretEngine#default}
   */
   readonly default?: string;
 }
@@ -725,7 +886,7 @@ export class DataSdmSecretEngineTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine sdm_secret_engine}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine sdm_secret_engine}
 */
 export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
 
@@ -741,7 +902,7 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmSecretEngine resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmSecretEngine to import
-  * @param importFromId The id of the existing DataSdmSecretEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmSecretEngine that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmSecretEngine to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -753,7 +914,7 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs/data-sources/secret_engine sdm_secret_engine} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs/data-sources/secret_engine sdm_secret_engine} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -764,8 +925,8 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_secret_engine',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.28.0',
-        providerVersionConstraint: '15.28.0'
+        providerVersion: '15.31.0',
+        providerVersionConstraint: '15.31.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -794,6 +955,7 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
     this._startTls = config.startTls;
     this._tags = config.tags;
     this._tls = config.tls;
+    this._tlsSkipVerify = config.tlsSkipVerify;
     this._type = config.type;
     this._upndomain = config.upndomain;
     this._url = config.url;
@@ -1121,6 +1283,22 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
     return this._tls;
   }
 
+  // tls_skip_verify - computed: false, optional: true, required: false
+  private _tlsSkipVerify?: boolean | cdktf.IResolvable; 
+  public get tlsSkipVerify() {
+    return this.getBooleanAttribute('tls_skip_verify');
+  }
+  public set tlsSkipVerify(value: boolean | cdktf.IResolvable) {
+    this._tlsSkipVerify = value;
+  }
+  public resetTlsSkipVerify() {
+    this._tlsSkipVerify = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get tlsSkipVerifyInput() {
+    return this._tlsSkipVerify;
+  }
+
   // type - computed: false, optional: true, required: false
   private _type?: string; 
   public get type() {
@@ -1242,6 +1420,7 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
       start_tls: cdktf.booleanToTerraform(this._startTls),
       tags: cdktf.hashMapper(cdktf.stringToTerraform)(this._tags),
       tls: cdktf.booleanToTerraform(this._tls),
+      tls_skip_verify: cdktf.booleanToTerraform(this._tlsSkipVerify),
       type: cdktf.stringToTerraform(this._type),
       upndomain: cdktf.stringToTerraform(this._upndomain),
       url: cdktf.stringToTerraform(this._url),
@@ -1363,6 +1542,12 @@ export class DataSdmSecretEngine extends cdktf.TerraformDataSource {
       },
       tls: {
         value: cdktf.booleanToHclTerraform(this._tls),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      tls_skip_verify: {
+        value: cdktf.booleanToHclTerraform(this._tlsSkipVerify),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

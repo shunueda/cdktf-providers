@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,171 +11,171 @@ export interface DeviceConfig extends cdktf.TerraformMetaArguments {
   * CLI transport
   *   - Choices: `telnet`, `ssh`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#cli_transport Device#cli_transport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#cli_transport Device#cli_transport}
   */
   readonly cliTransport?: string;
   /**
   * Compute device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#compute_device Device#compute_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#compute_device Device#compute_device}
   */
   readonly computeDevice?: boolean | cdktf.IResolvable;
   /**
   * CLI enable password of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#enable_password Device#enable_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#enable_password Device#enable_password}
   */
   readonly enablePassword?: string;
   /**
   * This field holds that info as whether to add device with canned data or not.
   *   - Choices: `DISCOVER_WITH_CANNED_DATA`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#extended_discovery_info Device#extended_discovery_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#extended_discovery_info Device#extended_discovery_info}
   */
   readonly extendedDiscoveryInfo?: string;
   /**
   * HTTP password of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#http_password Device#http_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#http_password Device#http_password}
   */
   readonly httpPassword?: string;
   /**
   * HTTP port of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#http_port Device#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#http_port Device#http_port}
   */
   readonly httpPort?: string;
   /**
   * Enable HTTPS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#http_secure Device#http_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#http_secure Device#http_secure}
   */
   readonly httpSecure?: boolean | cdktf.IResolvable;
   /**
   * HTTP username of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#http_user_name Device#http_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#http_user_name Device#http_user_name}
   */
   readonly httpUserName?: string;
   /**
   * IP address of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#ip_address Device#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#ip_address Device#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Selected Meraki organizations for which the devices needs to be imported
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#meraki_org_ids Device#meraki_org_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#meraki_org_ids Device#meraki_org_ids}
   */
   readonly merakiOrgIds?: string[];
   /**
   * NETCONF port of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#netconf_port Device#netconf_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#netconf_port Device#netconf_port}
   */
   readonly netconfPort?: string;
   /**
   * CLI password of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#password Device#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#password Device#password}
   */
   readonly password?: string;
   /**
   * Serial number of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#serial_number Device#serial_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#serial_number Device#serial_number}
   */
   readonly serialNumber?: string;
   /**
   * SNMPv3 authentication passphrase of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_auth_passphrase Device#snmp_auth_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_auth_passphrase Device#snmp_auth_passphrase}
   */
   readonly snmpAuthPassphrase?: string;
   /**
   * SNMPv3 authentication protocol of the device
   *   - Choices: `sha`, `md5`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_auth_protocol Device#snmp_auth_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_auth_protocol Device#snmp_auth_protocol}
   */
   readonly snmpAuthProtocol?: string;
   /**
   * SNMPv3 mode of the device
   *   - Choices: `noAuthnoPriv`, `authNoPriv`, `authPriv`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_mode Device#snmp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_mode Device#snmp_mode}
   */
   readonly snmpMode?: string;
   /**
   * SNMPv3 privacy passphrase of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_priv_passphrase Device#snmp_priv_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_priv_passphrase Device#snmp_priv_passphrase}
   */
   readonly snmpPrivPassphrase?: string;
   /**
   * SNMPv3 privacy protocol of the device
   *   - Choices: `AES128`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_priv_protocol Device#snmp_priv_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_priv_protocol Device#snmp_priv_protocol}
   */
   readonly snmpPrivProtocol?: string;
   /**
   * SNMP retry count
   *   - Range: `0`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_retry Device#snmp_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_retry Device#snmp_retry}
   */
   readonly snmpRetry?: number;
   /**
   * SNMPv2 read-only community of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_ro_community Device#snmp_ro_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_ro_community Device#snmp_ro_community}
   */
   readonly snmpRoCommunity?: string;
   /**
   * SNMPv2 read-write community of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_rw_community Device#snmp_rw_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_rw_community Device#snmp_rw_community}
   */
   readonly snmpRwCommunity?: string;
   /**
   * SNMP timeout in seconds
   *   - Range: `0`-`300`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_timeout Device#snmp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_timeout Device#snmp_timeout}
   */
   readonly snmpTimeout?: number;
   /**
   * SNMPv3 username of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_user_name Device#snmp_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_user_name Device#snmp_user_name}
   */
   readonly snmpUserName?: string;
   /**
   * SNMP version of the device
   *   - Choices: `v2`, `v3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#snmp_version Device#snmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#snmp_version Device#snmp_version}
   */
   readonly snmpVersion?: string;
   /**
   * Device type
   *   - Choices: `COMPUTE_DEVICE`, `MERAKI_DASHBOARD`, `NETWORK_DEVICE`, `THIRD PARTY DEVICE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#type Device#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#type Device#type}
   */
   readonly type?: string;
   /**
   * IP address of the device to be mapped to New IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#update_mgmt_ip_addresses Device#update_mgmt_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#update_mgmt_ip_addresses Device#update_mgmt_ip_addresses}
   */
   readonly updateMgmtIpAddresses?: DeviceUpdateMgmtIpAddresses[] | cdktf.IResolvable;
   /**
   * CLI username of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#user_name Device#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#user_name Device#user_name}
   */
   readonly userName?: string;
 }
@@ -183,13 +183,13 @@ export interface DeviceUpdateMgmtIpAddresses {
   /**
   * Existing IP address of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#exist_mgmt_ip_address Device#exist_mgmt_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#exist_mgmt_ip_address Device#exist_mgmt_ip_address}
   */
   readonly existMgmtIpAddress?: string;
   /**
   * New IP address of the device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#new_mgmt_ip_address Device#new_mgmt_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#new_mgmt_ip_address Device#new_mgmt_ip_address}
   */
   readonly newMgmtIpAddress?: string;
 }
@@ -334,7 +334,7 @@ export class DeviceUpdateMgmtIpAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device catalystcenter_device}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device catalystcenter_device}
 */
 export class Device extends cdktf.TerraformResource {
 
@@ -350,7 +350,7 @@ export class Device extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Device resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Device to import
-  * @param importFromId The id of the existing Device that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Device that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Device to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class Device extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device catalystcenter_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device catalystcenter_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class Device extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_device',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DnsSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * DNS servers for hostname resolution
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings#dns_servers DnsSettings#dns_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings#dns_servers DnsSettings#dns_servers}
   */
   readonly dnsServers?: string[];
   /**
   * Network's domain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings#domain_name DnsSettings#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings#domain_name DnsSettings#domain_name}
   */
   readonly domainName?: string;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings#site_id DnsSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings#site_id DnsSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings catalystcenter_dns_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings catalystcenter_dns_settings}
 */
 export class DnsSettings extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class DnsSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DnsSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DnsSettings to import
-  * @param importFromId The id of the existing DnsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DnsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DnsSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DnsSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/dns_settings catalystcenter_dns_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/dns_settings catalystcenter_dns_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DnsSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_dns_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

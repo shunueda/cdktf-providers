@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface ReleaseBundleV2CustomWebhookConfig extends cdktf.TerraformMetaA
   /**
   * Description of webhook. Max length 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#description ReleaseBundleV2CustomWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#description ReleaseBundleV2CustomWebhook#description}
   */
   readonly description?: string;
   /**
   * Status of webhook. Default to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#enabled ReleaseBundleV2CustomWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#enabled ReleaseBundleV2CustomWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Events in Artifactory, Distribution, Release Bundle that function as the event trigger for the Webhook.
   * Allow values: deployed, deleted, moved, copied, cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#event_types ReleaseBundleV2CustomWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#event_types ReleaseBundleV2CustomWebhook#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Key of webhook. Must be between 2 and 200 characters. Cannot contain spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#key ReleaseBundleV2CustomWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#key ReleaseBundleV2CustomWebhook#key}
   */
   readonly key: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#criteria ReleaseBundleV2CustomWebhook#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#criteria ReleaseBundleV2CustomWebhook#criteria}
   */
   readonly criteria?: ReleaseBundleV2CustomWebhookCriteria[] | cdktf.IResolvable;
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#handler ReleaseBundleV2CustomWebhook#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#handler ReleaseBundleV2CustomWebhook#handler}
   */
   readonly handler?: ReleaseBundleV2CustomWebhookHandler[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface ReleaseBundleV2CustomWebhookCriteria {
   /**
   * Includes all existing release bundles and any future release bundles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#any_release_bundle ReleaseBundleV2CustomWebhook#any_release_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#any_release_bundle ReleaseBundleV2CustomWebhook#any_release_bundle}
   */
   readonly anyReleaseBundle: boolean | cdktf.IResolvable;
   /**
@@ -57,7 +57,7 @@ export interface ReleaseBundleV2CustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `product_*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#exclude_patterns ReleaseBundleV2CustomWebhook#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#exclude_patterns ReleaseBundleV2CustomWebhook#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
@@ -65,13 +65,13 @@ export interface ReleaseBundleV2CustomWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `product_*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#include_patterns ReleaseBundleV2CustomWebhook#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#include_patterns ReleaseBundleV2CustomWebhook#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Trigger on this list of release bundle names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#selected_release_bundles ReleaseBundleV2CustomWebhook#selected_release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#selected_release_bundles ReleaseBundleV2CustomWebhook#selected_release_bundles}
   */
   readonly selectedReleaseBundles: string[];
 }
@@ -270,37 +270,37 @@ export interface ReleaseBundleV2CustomWebhookHandler {
   /**
   * HTTP headers you wish to use to invoke the Webhook, comprise of key/value pair. Used in custom webhooks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#http_headers ReleaseBundleV2CustomWebhook#http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#http_headers ReleaseBundleV2CustomWebhook#http_headers}
   */
   readonly httpHeaders?: { [key: string]: string };
   /**
   * Specifies the HTTP Method for URL that the Webhook invokes. Allowed values are: `GET`, `POST`, `PUT`, `PATCH`, `DELETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#method ReleaseBundleV2CustomWebhook#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#method ReleaseBundleV2CustomWebhook#method}
   */
   readonly method?: string;
   /**
   * This attribute is used to build the request body. Used in custom webhooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#payload ReleaseBundleV2CustomWebhook#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#payload ReleaseBundleV2CustomWebhook#payload}
   */
   readonly payload?: string;
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#proxy ReleaseBundleV2CustomWebhook#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#proxy ReleaseBundleV2CustomWebhook#proxy}
   */
   readonly proxy?: string;
   /**
   * A set of sensitive values that will be injected in the request (headers and/or payload), comprise of key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#secrets ReleaseBundleV2CustomWebhook#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#secrets ReleaseBundleV2CustomWebhook#secrets}
   */
   readonly secrets?: { [key: string]: string };
   /**
   * Specifies the URL that the Webhook invokes. This will be the URL that Artifactory will send an HTTP POST request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#url ReleaseBundleV2CustomWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#url ReleaseBundleV2CustomWebhook#url}
   */
   readonly url: string;
 }
@@ -558,7 +558,7 @@ export class ReleaseBundleV2CustomWebhookHandlerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook artifactory_release_bundle_v2_custom_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook artifactory_release_bundle_v2_custom_webhook}
 */
 export class ReleaseBundleV2CustomWebhook extends cdktf.TerraformResource {
 
@@ -574,7 +574,7 @@ export class ReleaseBundleV2CustomWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReleaseBundleV2CustomWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReleaseBundleV2CustomWebhook to import
-  * @param importFromId The id of the existing ReleaseBundleV2CustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReleaseBundleV2CustomWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReleaseBundleV2CustomWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -586,7 +586,7 @@ export class ReleaseBundleV2CustomWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/release_bundle_v2_custom_webhook artifactory_release_bundle_v2_custom_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/release_bundle_v2_custom_webhook artifactory_release_bundle_v2_custom_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -597,8 +597,8 @@ export class ReleaseBundleV2CustomWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_release_bundle_v2_custom_webhook',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

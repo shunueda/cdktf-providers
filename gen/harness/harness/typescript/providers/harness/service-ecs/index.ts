@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceEcsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#app_id ServiceEcs#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#app_id ServiceEcs#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#description ServiceEcs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#description ServiceEcs#description}
   */
   readonly description?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#name ServiceEcs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#name ServiceEcs#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#variable ServiceEcs#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#variable ServiceEcs#variable}
   */
   readonly variable?: ServiceEcsVariable[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface ServiceEcsVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#name ServiceEcs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#name ServiceEcs#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#type ServiceEcs#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#type ServiceEcs#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#value ServiceEcs#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#value ServiceEcs#value}
   */
   readonly value: string;
 }
@@ -213,7 +213,7 @@ export class ServiceEcsVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs harness_service_ecs}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs harness_service_ecs}
 */
 export class ServiceEcs extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class ServiceEcs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceEcs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceEcs to import
-  * @param importFromId The id of the existing ServiceEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceEcs that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceEcs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class ServiceEcs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_ecs harness_service_ecs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_ecs harness_service_ecs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class ServiceEcs extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_ecs',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

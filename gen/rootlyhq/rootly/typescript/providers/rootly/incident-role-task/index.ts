@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,36 +10,36 @@ export interface IncidentRoleTaskConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of incident task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#description IncidentRoleTask#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#description IncidentRoleTask#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#id IncidentRoleTask#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#id IncidentRoleTask#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#incident_role_id IncidentRoleTask#incident_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#incident_role_id IncidentRoleTask#incident_role_id}
   */
   readonly incidentRoleId?: string;
   /**
   * The priority of the incident task. Value must be one of `high`, `medium`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#priority IncidentRoleTask#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#priority IncidentRoleTask#priority}
   */
   readonly priority?: string;
   /**
   * The task of the incident task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#task IncidentRoleTask#task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#task IncidentRoleTask#task}
   */
   readonly task: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task rootly_incident_role_task}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task rootly_incident_role_task}
 */
 export class IncidentRoleTask extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class IncidentRoleTask extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IncidentRoleTask resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IncidentRoleTask to import
-  * @param importFromId The id of the existing IncidentRoleTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IncidentRoleTask that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IncidentRoleTask to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class IncidentRoleTask extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/incident_role_task rootly_incident_role_task} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/incident_role_task rootly_incident_role_task} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class IncidentRoleTask extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_incident_role_task',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

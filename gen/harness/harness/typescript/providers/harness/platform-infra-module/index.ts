@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PlatformInfraModuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Timestamp when the module was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#created PlatformInfraModule#created}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#created PlatformInfraModule#created}
   */
   readonly created?: number;
   /**
   * Description of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#description PlatformInfraModule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#description PlatformInfraModule#description}
   */
   readonly description?: string;
   /**
   * Unique identifier of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#id PlatformInfraModule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#id PlatformInfraModule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,73 +31,73 @@ export interface PlatformInfraModuleConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#name PlatformInfraModule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#name PlatformInfraModule#name}
   */
   readonly name: string;
   /**
   * For account connectors, the repository where the module can be found
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository PlatformInfraModule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository PlatformInfraModule#repository}
   */
   readonly repository?: string;
   /**
   * Name of the branch to fetch the code from. This cannot be set if repository commit is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository_branch PlatformInfraModule#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository_branch PlatformInfraModule#repository_branch}
   */
   readonly repositoryBranch?: string;
   /**
   * Tag to fetch the code from. This cannot be set if repository branch is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository_commit PlatformInfraModule#repository_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository_commit PlatformInfraModule#repository_commit}
   */
   readonly repositoryCommit?: string;
   /**
   * Reference to the connector to be used to fetch the code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository_connector PlatformInfraModule#repository_connector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository_connector PlatformInfraModule#repository_connector}
   */
   readonly repositoryConnector?: string;
   /**
   * Path to the module within the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository_path PlatformInfraModule#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository_path PlatformInfraModule#repository_path}
   */
   readonly repositoryPath?: string;
   /**
   * URL of the repository where the module is stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#repository_url PlatformInfraModule#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#repository_url PlatformInfraModule#repository_url}
   */
   readonly repositoryUrl?: string;
   /**
   * Timestamp when the module was last synced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#synced PlatformInfraModule#synced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#synced PlatformInfraModule#synced}
   */
   readonly synced?: number;
   /**
   * Provider of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#system PlatformInfraModule#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#system PlatformInfraModule#system}
   */
   readonly systemAttribute: string;
   /**
   * Git tags associated with the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#tags PlatformInfraModule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#tags PlatformInfraModule#tags}
   */
   readonly tags?: string;
   /**
   * List of versions of the module.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#versions PlatformInfraModule#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#versions PlatformInfraModule#versions}
   */
   readonly versions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module harness_platform_infra_module}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module harness_platform_infra_module}
 */
 export class PlatformInfraModule extends cdktf.TerraformResource {
 
@@ -113,7 +113,7 @@ export class PlatformInfraModule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformInfraModule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformInfraModule to import
-  * @param importFromId The id of the existing PlatformInfraModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformInfraModule that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformInfraModule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -125,7 +125,7 @@ export class PlatformInfraModule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_infra_module harness_platform_infra_module} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_infra_module harness_platform_infra_module} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -136,8 +136,8 @@ export class PlatformInfraModule extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_infra_module',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface DestinationWebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of webhook. Max length 1000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#description DestinationWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#description DestinationWebhook#description}
   */
   readonly description?: string;
   /**
   * Status of webhook. Default to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#enabled DestinationWebhook#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#enabled DestinationWebhook#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of Events in Artifactory, Distribution, Release Bundle that function as the event trigger for the Webhook.
   * Allow values: deployed, deleted, moved, copied, cached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#event_types DestinationWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#event_types DestinationWebhook#event_types}
   */
   readonly eventTypes: string[];
   /**
   * Key of webhook. Must be between 2 and 200 characters. Cannot contain spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#key DestinationWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#key DestinationWebhook#key}
   */
   readonly key: string;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#criteria DestinationWebhook#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#criteria DestinationWebhook#criteria}
   */
   readonly criteria?: DestinationWebhookCriteria[] | cdktf.IResolvable;
   /**
   * handler block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#handler DestinationWebhook#handler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#handler DestinationWebhook#handler}
   */
   readonly handler?: DestinationWebhookHandler[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface DestinationWebhookCriteria {
   /**
   * Trigger on any release bundles or distributions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#any_release_bundle DestinationWebhook#any_release_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#any_release_bundle DestinationWebhook#any_release_bundle}
   */
   readonly anyReleaseBundle: boolean | cdktf.IResolvable;
   /**
@@ -57,7 +57,7 @@ export interface DestinationWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `product_*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#exclude_patterns DestinationWebhook#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#exclude_patterns DestinationWebhook#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
@@ -65,13 +65,13 @@ export interface DestinationWebhookCriteria {
   * Ant-style path expressions are supported (*, **, ?).
   * For example: `product_*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#include_patterns DestinationWebhook#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#include_patterns DestinationWebhook#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * Trigger on this list of release bundle names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#registered_release_bundle_names DestinationWebhook#registered_release_bundle_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#registered_release_bundle_names DestinationWebhook#registered_release_bundle_names}
   */
   readonly registeredReleaseBundleNames: string[];
 }
@@ -270,31 +270,31 @@ export interface DestinationWebhookHandler {
   /**
   * Custom HTTP headers you wish to use to invoke the Webhook, comprise of key/value pair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#custom_http_headers DestinationWebhook#custom_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#custom_http_headers DestinationWebhook#custom_http_headers}
   */
   readonly customHttpHeaders?: { [key: string]: string };
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#proxy DestinationWebhook#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#proxy DestinationWebhook#proxy}
   */
   readonly proxy?: string;
   /**
   * Secret authentication token that will be sent to the configured URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#secret DestinationWebhook#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#secret DestinationWebhook#secret}
   */
   readonly secret?: string;
   /**
   * Specifies the URL that the Webhook invokes. This will be the URL that Artifactory will send an HTTP POST request to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#url DestinationWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#url DestinationWebhook#url}
   */
   readonly url: string;
   /**
   * When set to `true`, the secret will be used to sign the event payload, allowing the target to validate that the payload content has not been changed and will not be passed as part of the event. If left unset or set to `false`, the secret is passed through the `X-JFrog-Event-Auth` HTTP header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#use_secret_for_signing DestinationWebhook#use_secret_for_signing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#use_secret_for_signing DestinationWebhook#use_secret_for_signing}
   */
   readonly useSecretForSigning?: boolean | cdktf.IResolvable;
 }
@@ -523,7 +523,7 @@ export class DestinationWebhookHandlerList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook artifactory_destination_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook artifactory_destination_webhook}
 */
 export class DestinationWebhook extends cdktf.TerraformResource {
 
@@ -539,7 +539,7 @@ export class DestinationWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DestinationWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DestinationWebhook to import
-  * @param importFromId The id of the existing DestinationWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DestinationWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DestinationWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -551,7 +551,7 @@ export class DestinationWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/destination_webhook artifactory_destination_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/destination_webhook artifactory_destination_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -562,8 +562,8 @@ export class DestinationWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_destination_webhook',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

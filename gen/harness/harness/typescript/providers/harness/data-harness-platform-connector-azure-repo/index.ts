@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataHarnessPlatformConnectorAzureRepoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#id DataHarnessPlatformConnectorAzureRepo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#id DataHarnessPlatformConnectorAzureRepo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataHarnessPlatformConnectorAzureRepoConfig extends cdktf.Terra
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#identifier DataHarnessPlatformConnectorAzureRepo#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#identifier DataHarnessPlatformConnectorAzureRepo#identifier}
   */
   readonly identifier: string;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#name DataHarnessPlatformConnectorAzureRepo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#name DataHarnessPlatformConnectorAzureRepo#name}
   */
   readonly name?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#org_id DataHarnessPlatformConnectorAzureRepo#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#org_id DataHarnessPlatformConnectorAzureRepo#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#project_id DataHarnessPlatformConnectorAzureRepo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#project_id DataHarnessPlatformConnectorAzureRepo#project_id}
   */
   readonly projectId?: string;
 }
@@ -358,7 +358,7 @@ export class DataHarnessPlatformConnectorAzureRepoCredentialsList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo harness_platform_connector_azure_repo}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo harness_platform_connector_azure_repo}
 */
 export class DataHarnessPlatformConnectorAzureRepo extends cdktf.TerraformDataSource {
 
@@ -374,7 +374,7 @@ export class DataHarnessPlatformConnectorAzureRepo extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataHarnessPlatformConnectorAzureRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessPlatformConnectorAzureRepo to import
-  * @param importFromId The id of the existing DataHarnessPlatformConnectorAzureRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessPlatformConnectorAzureRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessPlatformConnectorAzureRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -386,7 +386,7 @@ export class DataHarnessPlatformConnectorAzureRepo extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/platform_connector_azure_repo harness_platform_connector_azure_repo} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/platform_connector_azure_repo harness_platform_connector_azure_repo} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -397,8 +397,8 @@ export class DataHarnessPlatformConnectorAzureRepo extends cdktf.TerraformDataSo
       terraformResourceType: 'harness_platform_connector_azure_repo',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

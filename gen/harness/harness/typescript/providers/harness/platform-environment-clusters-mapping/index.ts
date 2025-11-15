@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PlatformEnvironmentClustersMappingConfig extends cdktf.Terrafor
   /**
   * environment identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#env_id PlatformEnvironmentClustersMapping#env_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#env_id PlatformEnvironmentClustersMapping#env_id}
   */
   readonly envId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#id PlatformEnvironmentClustersMapping#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#id PlatformEnvironmentClustersMapping#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface PlatformEnvironmentClustersMappingConfig extends cdktf.Terrafor
   /**
   * identifier for the cluster mapping(can be given any value).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#identifier PlatformEnvironmentClustersMapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#identifier PlatformEnvironmentClustersMapping#identifier}
   */
   readonly identifier: string;
   /**
   * org_id of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#org_id PlatformEnvironmentClustersMapping#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#org_id PlatformEnvironmentClustersMapping#org_id}
   */
   readonly orgId?: string;
   /**
   * project_id of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#project_id PlatformEnvironmentClustersMapping#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#project_id PlatformEnvironmentClustersMapping#project_id}
   */
   readonly projectId?: string;
   /**
   * clusters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#clusters PlatformEnvironmentClustersMapping#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#clusters PlatformEnvironmentClustersMapping#clusters}
   */
   readonly clusters?: PlatformEnvironmentClustersMappingClusters[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface PlatformEnvironmentClustersMappingClusters {
   /**
   * agent identifier of the cluster (include scope prefix)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#agent_identifier PlatformEnvironmentClustersMapping#agent_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#agent_identifier PlatformEnvironmentClustersMapping#agent_identifier}
   */
   readonly agentIdentifier?: string;
   /**
   * identifier of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#identifier PlatformEnvironmentClustersMapping#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#identifier PlatformEnvironmentClustersMapping#identifier}
   */
   readonly identifier?: string;
   /**
   * name of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#name PlatformEnvironmentClustersMapping#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#name PlatformEnvironmentClustersMapping#name}
   */
   readonly name?: string;
   /**
   * scope at which the cluster exists in harness gitops, one of "ACCOUNT", "ORGANIZATION", "PROJECT". Scope of environment to which clusters are being mapped must be lower or equal to in hierarchy than the scope of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#scope PlatformEnvironmentClustersMapping#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#scope PlatformEnvironmentClustersMapping#scope}
   */
   readonly scope?: string;
 }
@@ -270,7 +270,7 @@ export class PlatformEnvironmentClustersMappingClustersList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping}
 */
 export class PlatformEnvironmentClustersMapping extends cdktf.TerraformResource {
 
@@ -286,7 +286,7 @@ export class PlatformEnvironmentClustersMapping extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a PlatformEnvironmentClustersMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformEnvironmentClustersMapping to import
-  * @param importFromId The id of the existing PlatformEnvironmentClustersMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformEnvironmentClustersMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformEnvironmentClustersMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -298,7 +298,7 @@ export class PlatformEnvironmentClustersMapping extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_environment_clusters_mapping harness_platform_environment_clusters_mapping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -309,8 +309,8 @@ export class PlatformEnvironmentClustersMapping extends cdktf.TerraformResource 
       terraformResourceType: 'harness_platform_environment_clusters_mapping',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

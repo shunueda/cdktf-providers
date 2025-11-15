@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskCreateOpenaiChatCompletionConfig extends cdktf.Terr
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#enabled WorkflowTaskCreateOpenaiChatCompletion#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#enabled WorkflowTaskCreateOpenaiChatCompletion#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#id WorkflowTaskCreateOpenaiChatCompletion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#id WorkflowTaskCreateOpenaiChatCompletion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface WorkflowTaskCreateOpenaiChatCompletionConfig extends cdktf.Terr
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#name WorkflowTaskCreateOpenaiChatCompletion#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#name WorkflowTaskCreateOpenaiChatCompletion#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#position WorkflowTaskCreateOpenaiChatCompletion#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#position WorkflowTaskCreateOpenaiChatCompletion#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#skip_on_failure WorkflowTaskCreateOpenaiChatCompletion#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#skip_on_failure WorkflowTaskCreateOpenaiChatCompletion#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#workflow_id WorkflowTaskCreateOpenaiChatCompletion#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#workflow_id WorkflowTaskCreateOpenaiChatCompletion#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#task_params WorkflowTaskCreateOpenaiChatCompletion#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#task_params WorkflowTaskCreateOpenaiChatCompletion#task_params}
   */
   readonly taskParams: WorkflowTaskCreateOpenaiChatCompletionTaskParams;
 }
@@ -55,23 +55,23 @@ export interface WorkflowTaskCreateOpenaiChatCompletionTaskParams {
   /**
   * Map must contain two fields, `id` and `name`. The OpenAI model. eg: gpt-4o-mini
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#model WorkflowTaskCreateOpenaiChatCompletion#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#model WorkflowTaskCreateOpenaiChatCompletion#model}
   */
   readonly model: { [key: string]: string };
   /**
   * The prompt to send to OpenAI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#prompt WorkflowTaskCreateOpenaiChatCompletion#prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#prompt WorkflowTaskCreateOpenaiChatCompletion#prompt}
   */
   readonly prompt: string;
   /**
   * The system prompt to send to OpenAI (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#system_prompt WorkflowTaskCreateOpenaiChatCompletion#system_prompt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#system_prompt WorkflowTaskCreateOpenaiChatCompletion#system_prompt}
   */
   readonly systemPrompt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#task_type WorkflowTaskCreateOpenaiChatCompletion#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#task_type WorkflowTaskCreateOpenaiChatCompletion#task_type}
   */
   readonly taskType?: string;
 }
@@ -236,7 +236,7 @@ export class WorkflowTaskCreateOpenaiChatCompletionTaskParamsOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion rootly_workflow_task_create_openai_chat_completion}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion rootly_workflow_task_create_openai_chat_completion}
 */
 export class WorkflowTaskCreateOpenaiChatCompletion extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class WorkflowTaskCreateOpenaiChatCompletion extends cdktf.TerraformResou
   * Generates CDKTF code for importing a WorkflowTaskCreateOpenaiChatCompletion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskCreateOpenaiChatCompletion to import
-  * @param importFromId The id of the existing WorkflowTaskCreateOpenaiChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskCreateOpenaiChatCompletion that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskCreateOpenaiChatCompletion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class WorkflowTaskCreateOpenaiChatCompletion extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_create_openai_chat_completion rootly_workflow_task_create_openai_chat_completion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_create_openai_chat_completion rootly_workflow_task_create_openai_chat_completion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class WorkflowTaskCreateOpenaiChatCompletion extends cdktf.TerraformResou
       terraformResourceType: 'rootly_workflow_task_create_openai_chat_completion',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

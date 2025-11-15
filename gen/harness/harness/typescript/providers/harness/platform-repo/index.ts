@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface PlatformRepoConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default branch of the repository (Applicate only for create).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#default_branch PlatformRepo#default_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#default_branch PlatformRepo#default_branch}
   */
   readonly defaultBranch?: string;
   /**
   * Description of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#description PlatformRepo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#description PlatformRepo#description}
   */
   readonly description?: string;
   /**
   * Repository should be created with specified predefined gitignore file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#git_ignore PlatformRepo#git_ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#git_ignore PlatformRepo#git_ignore}
   */
   readonly gitIgnore?: string;
   /**
   * Identifier of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#identifier PlatformRepo#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#identifier PlatformRepo#identifier}
   */
   readonly identifier: string;
   /**
   * Repository should be created with specified predefined license file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#license PlatformRepo#license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#license PlatformRepo#license}
   */
   readonly license?: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#org_id PlatformRepo#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#org_id PlatformRepo#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#project_id PlatformRepo#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#project_id PlatformRepo#project_id}
   */
   readonly projectId?: string;
   /**
   * Repository should be created with readme file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#readme PlatformRepo#readme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#readme PlatformRepo#readme}
   */
   readonly readme?: boolean | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#source PlatformRepo#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#source PlatformRepo#source}
   */
   readonly source?: PlatformRepoSource[] | cdktf.IResolvable;
 }
@@ -66,31 +66,31 @@ export interface PlatformRepoSource {
   /**
   * The host URL for the import source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#host PlatformRepo#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#host PlatformRepo#host}
   */
   readonly host?: string;
   /**
   * The password for authentication when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#password PlatformRepo#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#password PlatformRepo#password}
   */
   readonly password?: string;
   /**
   * The full identifier of the repository on the SCM provider's platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#repo PlatformRepo#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#repo PlatformRepo#repo}
   */
   readonly repo?: string;
   /**
   * The type of SCM provider (github, gitlab, bitbucket, stash, gitea, gogs) when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#type PlatformRepo#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#type PlatformRepo#type}
   */
   readonly type?: string;
   /**
   * The username for authentication when importing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#username PlatformRepo#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#username PlatformRepo#username}
   */
   readonly username?: string;
 }
@@ -322,7 +322,7 @@ export class PlatformRepoSourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo harness_platform_repo}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo harness_platform_repo}
 */
 export class PlatformRepo extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class PlatformRepo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformRepo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformRepo to import
-  * @param importFromId The id of the existing PlatformRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformRepo that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformRepo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class PlatformRepo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_repo harness_platform_repo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_repo harness_platform_repo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class PlatformRepo extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_repo',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

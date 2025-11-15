@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface WorkspaceVcsProviderLinkConfig extends cdktf.TerraformMetaArgum
   /**
   * Whether to create speculative plans automatically for PRs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#auto_speculative_plan WorkspaceVcsProviderLink#auto_speculative_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#auto_speculative_plan WorkspaceVcsProviderLink#auto_speculative_plan}
   */
   readonly autoSpeculativePlan: boolean | cdktf.IResolvable;
   /**
   * The repository branch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#branch WorkspaceVcsProviderLink#branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#branch WorkspaceVcsProviderLink#branch}
   */
   readonly branch?: string;
   /**
   * Glob patterns to use for monitoring changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#glob_patterns WorkspaceVcsProviderLink#glob_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#glob_patterns WorkspaceVcsProviderLink#glob_patterns}
   */
   readonly globPatterns: string[];
   /**
   * The module's directory path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#module_directory WorkspaceVcsProviderLink#module_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#module_directory WorkspaceVcsProviderLink#module_directory}
   */
   readonly moduleDirectory: string;
   /**
   * The path portion of the repository URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#repository_path WorkspaceVcsProviderLink#repository_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#repository_path WorkspaceVcsProviderLink#repository_path}
   */
   readonly repositoryPath: string;
   /**
   * A regular expression that specifies which tags trigger runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#tag_regex WorkspaceVcsProviderLink#tag_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#tag_regex WorkspaceVcsProviderLink#tag_regex}
   */
   readonly tagRegex?: string;
   /**
   * The string identifier of the  VCS provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#vcs_provider_id WorkspaceVcsProviderLink#vcs_provider_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#vcs_provider_id WorkspaceVcsProviderLink#vcs_provider_id}
   */
   readonly vcsProviderId: string;
   /**
   * Whether to disable the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#webhook_disabled WorkspaceVcsProviderLink#webhook_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#webhook_disabled WorkspaceVcsProviderLink#webhook_disabled}
   */
   readonly webhookDisabled: boolean | cdktf.IResolvable;
   /**
   * The resource path of the workspace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#workspace_path WorkspaceVcsProviderLink#workspace_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#workspace_path WorkspaceVcsProviderLink#workspace_path}
   */
   readonly workspacePath: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link tharsis_workspace_vcs_provider_link}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link tharsis_workspace_vcs_provider_link}
 */
 export class WorkspaceVcsProviderLink extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class WorkspaceVcsProviderLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkspaceVcsProviderLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkspaceVcsProviderLink to import
-  * @param importFromId The id of the existing WorkspaceVcsProviderLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkspaceVcsProviderLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkspaceVcsProviderLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class WorkspaceVcsProviderLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/workspace_vcs_provider_link tharsis_workspace_vcs_provider_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/workspace_vcs_provider_link tharsis_workspace_vcs_provider_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class WorkspaceVcsProviderLink extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_workspace_vcs_provider_link',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

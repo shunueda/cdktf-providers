@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,18 +10,18 @@ export interface NetworkProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the network profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#name NetworkProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#name NetworkProfile#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#templates NetworkProfile#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#templates NetworkProfile#templates}
   */
   readonly templates?: NetworkProfileTemplates[] | cdktf.IResolvable;
   /**
   * Profile type
   *   - Choices: `switching`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#type NetworkProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#type NetworkProfile#type}
   */
   readonly type: string;
 }
@@ -29,7 +29,7 @@ export interface NetworkProfileTemplatesAttributes {
   /**
   * Template ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#template_id NetworkProfile#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#template_id NetworkProfile#template_id}
   */
   readonly templateId: string;
 }
@@ -142,14 +142,14 @@ export class NetworkProfileTemplatesAttributesList extends cdktf.ComplexList {
 }
 export interface NetworkProfileTemplates {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#attributes NetworkProfile#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#attributes NetworkProfile#attributes}
   */
   readonly attributes?: NetworkProfileTemplatesAttributes[] | cdktf.IResolvable;
   /**
   * Template type
   *   - Choices: `cli.templates`, `day0.templates`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#type NetworkProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#type NetworkProfile#type}
   */
   readonly type: string;
 }
@@ -291,7 +291,7 @@ export class NetworkProfileTemplatesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile catalystcenter_network_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile catalystcenter_network_profile}
 */
 export class NetworkProfile extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class NetworkProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkProfile to import
-  * @param importFromId The id of the existing NetworkProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class NetworkProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/network_profile catalystcenter_network_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/network_profile catalystcenter_network_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class NetworkProfile extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_network_profile',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

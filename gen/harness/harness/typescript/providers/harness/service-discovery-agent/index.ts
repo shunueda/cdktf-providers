@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface ServiceDiscoveryAgentConfig extends cdktf.TerraformMetaArgument
   /**
   * Correlation ID for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#correlation_id ServiceDiscoveryAgent#correlation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#correlation_id ServiceDiscoveryAgent#correlation_id}
   */
   readonly correlationId?: string;
   /**
   * The environment identifier of the agent. This is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#environment_identifier ServiceDiscoveryAgent#environment_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#environment_identifier ServiceDiscoveryAgent#environment_identifier}
   */
   readonly environmentIdentifier: string;
   /**
   * The infrastructure identifier of the agent. This is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#infra_identifier ServiceDiscoveryAgent#infra_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#infra_identifier ServiceDiscoveryAgent#infra_identifier}
   */
   readonly infraIdentifier: string;
   /**
   * Type of installation for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#installation_type ServiceDiscoveryAgent#installation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#installation_type ServiceDiscoveryAgent#installation_type}
   */
   readonly installationType?: string;
   /**
   * The name of the agent. This is a required field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#name ServiceDiscoveryAgent#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#name ServiceDiscoveryAgent#name}
   */
   readonly name: string;
   /**
   * The organization identifier of the agent. Must be 1-64 characters and contain only alphanumeric characters, hyphens, or underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#org_identifier ServiceDiscoveryAgent#org_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#org_identifier ServiceDiscoveryAgent#org_identifier}
   */
   readonly orgIdentifier?: string;
   /**
   * Whether this is a permanent installation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#permanent_installation ServiceDiscoveryAgent#permanent_installation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#permanent_installation ServiceDiscoveryAgent#permanent_installation}
   */
   readonly permanentInstallation?: boolean | cdktf.IResolvable;
   /**
   * The project identifier of the agent. Must be 1-64 characters and contain only alphanumeric characters, hyphens, or underscores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#project_identifier ServiceDiscoveryAgent#project_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#project_identifier ServiceDiscoveryAgent#project_identifier}
   */
   readonly projectIdentifier?: string;
   /**
   * Webhook URL for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#webhook_url ServiceDiscoveryAgent#webhook_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#webhook_url ServiceDiscoveryAgent#webhook_url}
   */
   readonly webhookUrl?: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#config ServiceDiscoveryAgent#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#config ServiceDiscoveryAgent#config}
   */
   readonly config: ServiceDiscoveryAgentConfigA[] | cdktf.IResolvable;
 }
@@ -409,7 +409,7 @@ export interface ServiceDiscoveryAgentConfigDataCron {
   /**
   * Cron expression for scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#expression ServiceDiscoveryAgent#expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#expression ServiceDiscoveryAgent#expression}
   */
   readonly expression?: string;
 }
@@ -527,55 +527,55 @@ export interface ServiceDiscoveryAgentConfigData {
   /**
   * List of namespaces to exclude from discovery.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#blacklisted_namespaces ServiceDiscoveryAgent#blacklisted_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#blacklisted_namespaces ServiceDiscoveryAgent#blacklisted_namespaces}
   */
   readonly blacklistedNamespaces?: string[];
   /**
   * Collection window in minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#collection_window_in_min ServiceDiscoveryAgent#collection_window_in_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#collection_window_in_min ServiceDiscoveryAgent#collection_window_in_min}
   */
   readonly collectionWindowInMin?: number;
   /**
   * Whether to enable batch resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#enable_batch_resources ServiceDiscoveryAgent#enable_batch_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#enable_batch_resources ServiceDiscoveryAgent#enable_batch_resources}
   */
   readonly enableBatchResources?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable node agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#enable_node_agent ServiceDiscoveryAgent#enable_node_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#enable_node_agent ServiceDiscoveryAgent#enable_node_agent}
   */
   readonly enableNodeAgent?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable orphaned pod detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#enable_orphaned_pod ServiceDiscoveryAgent#enable_orphaned_pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#enable_orphaned_pod ServiceDiscoveryAgent#enable_orphaned_pod}
   */
   readonly enableOrphanedPod?: boolean | cdktf.IResolvable;
   /**
   * Namespace selector for the agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#namespace_selector ServiceDiscoveryAgent#namespace_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#namespace_selector ServiceDiscoveryAgent#namespace_selector}
   */
   readonly namespaceSelector?: string;
   /**
   * Node selector for the node agent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#node_agent_selector ServiceDiscoveryAgent#node_agent_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#node_agent_selector ServiceDiscoveryAgent#node_agent_selector}
   */
   readonly nodeAgentSelector?: string;
   /**
   * List of namespaces to observe.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#observed_namespaces ServiceDiscoveryAgent#observed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#observed_namespaces ServiceDiscoveryAgent#observed_namespaces}
   */
   readonly observedNamespaces?: string[];
   /**
   * cron block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#cron ServiceDiscoveryAgent#cron}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#cron ServiceDiscoveryAgent#cron}
   */
   readonly cron?: ServiceDiscoveryAgentConfigDataCron[] | cdktf.IResolvable;
 }
@@ -925,13 +925,13 @@ export interface ServiceDiscoveryAgentConfigKubernetesResourcesLimits {
   /**
   * CPU limit in CPU units (e.g., 500m = 0.5 CPU, 2 = 2 CPUs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#cpu ServiceDiscoveryAgent#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#cpu ServiceDiscoveryAgent#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory limit in bytes (e.g., 128Mi, 1Gi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#memory ServiceDiscoveryAgent#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#memory ServiceDiscoveryAgent#memory}
   */
   readonly memory?: string;
 }
@@ -1078,13 +1078,13 @@ export interface ServiceDiscoveryAgentConfigKubernetesResourcesRequests {
   /**
   * CPU request in CPU units (e.g., 100m = 0.1 CPU).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#cpu ServiceDiscoveryAgent#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#cpu ServiceDiscoveryAgent#cpu}
   */
   readonly cpu?: string;
   /**
   * Memory request in bytes (e.g., 128Mi, 1Gi).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#memory ServiceDiscoveryAgent#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#memory ServiceDiscoveryAgent#memory}
   */
   readonly memory?: string;
 }
@@ -1231,13 +1231,13 @@ export interface ServiceDiscoveryAgentConfigKubernetesResources {
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#limits ServiceDiscoveryAgent#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#limits ServiceDiscoveryAgent#limits}
   */
   readonly limits?: ServiceDiscoveryAgentConfigKubernetesResourcesLimits[] | cdktf.IResolvable;
   /**
   * requests block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#requests ServiceDiscoveryAgent#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#requests ServiceDiscoveryAgent#requests}
   */
   readonly requests?: ServiceDiscoveryAgentConfigKubernetesResourcesRequests[] | cdktf.IResolvable;
 }
@@ -1384,31 +1384,31 @@ export interface ServiceDiscoveryAgentConfigKubernetesTolerations {
   /**
   * Effect indicates the taint effect to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#effect ServiceDiscoveryAgent#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#effect ServiceDiscoveryAgent#effect}
   */
   readonly effect: string;
   /**
   * The taint key that the toleration applies to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#key ServiceDiscoveryAgent#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#key ServiceDiscoveryAgent#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to the value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#operator ServiceDiscoveryAgent#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#operator ServiceDiscoveryAgent#operator}
   */
   readonly operator: string;
   /**
   * TolerationSeconds represents the period of time the toleration tolerates the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#toleration_seconds ServiceDiscoveryAgent#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#toleration_seconds ServiceDiscoveryAgent#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * The taint value the toleration matches to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#value ServiceDiscoveryAgent#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#value ServiceDiscoveryAgent#value}
   */
   readonly value?: string;
 }
@@ -1633,73 +1633,73 @@ export interface ServiceDiscoveryAgentConfigKubernetes {
   /**
   * Annotations to add to all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#annotations ServiceDiscoveryAgent#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#annotations ServiceDiscoveryAgent#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * Whether to disable namespace creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#disable_namespace_creation ServiceDiscoveryAgent#disable_namespace_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#disable_namespace_creation ServiceDiscoveryAgent#disable_namespace_creation}
   */
   readonly disableNamespaceCreation?: boolean | cdktf.IResolvable;
   /**
   * The image pull policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#image_pull_policy ServiceDiscoveryAgent#image_pull_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#image_pull_policy ServiceDiscoveryAgent#image_pull_policy}
   */
   readonly imagePullPolicy?: string;
   /**
   * Labels to add to all resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#labels ServiceDiscoveryAgent#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#labels ServiceDiscoveryAgent#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Kubernetes namespace to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#namespace ServiceDiscoveryAgent#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#namespace ServiceDiscoveryAgent#namespace}
   */
   readonly namespace: string;
   /**
   * Whether the agent is namespaced.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#namespaced ServiceDiscoveryAgent#namespaced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#namespaced ServiceDiscoveryAgent#namespaced}
   */
   readonly namespaced?: boolean | cdktf.IResolvable;
   /**
   * Node selector labels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#node_selector ServiceDiscoveryAgent#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#node_selector ServiceDiscoveryAgent#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The group ID to run as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#run_as_group ServiceDiscoveryAgent#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#run_as_group ServiceDiscoveryAgent#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * The user ID to run as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#run_as_user ServiceDiscoveryAgent#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#run_as_user ServiceDiscoveryAgent#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * Service account to use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#service_account ServiceDiscoveryAgent#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#service_account ServiceDiscoveryAgent#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#resources ServiceDiscoveryAgent#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#resources ServiceDiscoveryAgent#resources}
   */
   readonly resources?: ServiceDiscoveryAgentConfigKubernetesResources[] | cdktf.IResolvable;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#tolerations ServiceDiscoveryAgent#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#tolerations ServiceDiscoveryAgent#tolerations}
   */
   readonly tolerations?: ServiceDiscoveryAgentConfigKubernetesTolerations[] | cdktf.IResolvable;
 }
@@ -2133,25 +2133,25 @@ export interface ServiceDiscoveryAgentConfigMtls {
   /**
   * Path to the certificate file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#cert_path ServiceDiscoveryAgent#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#cert_path ServiceDiscoveryAgent#cert_path}
   */
   readonly certPath?: string;
   /**
   * Path to the key file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#key_path ServiceDiscoveryAgent#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#key_path ServiceDiscoveryAgent#key_path}
   */
   readonly keyPath?: string;
   /**
   * Name of the Kubernetes secret containing the certificate and key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#secret_name ServiceDiscoveryAgent#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#secret_name ServiceDiscoveryAgent#secret_name}
   */
   readonly secretName?: string;
   /**
   * URL of the mTLS server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#url ServiceDiscoveryAgent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#url ServiceDiscoveryAgent#url}
   */
   readonly url?: string;
 }
@@ -2356,25 +2356,25 @@ export interface ServiceDiscoveryAgentConfigProxy {
   /**
   * HTTP proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#http_proxy ServiceDiscoveryAgent#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#http_proxy ServiceDiscoveryAgent#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * HTTPS proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#https_proxy ServiceDiscoveryAgent#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#https_proxy ServiceDiscoveryAgent#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * Comma-separated list of hosts that should not use the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#no_proxy ServiceDiscoveryAgent#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#no_proxy ServiceDiscoveryAgent#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Proxy server URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#url ServiceDiscoveryAgent#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#url ServiceDiscoveryAgent#url}
   */
   readonly url?: string;
 }
@@ -2579,49 +2579,49 @@ export interface ServiceDiscoveryAgentConfigA {
   /**
   * Docker image for the collector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#collector_image ServiceDiscoveryAgent#collector_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#collector_image ServiceDiscoveryAgent#collector_image}
   */
   readonly collectorImage?: string;
   /**
   * List of image pull secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#image_pull_secrets ServiceDiscoveryAgent#image_pull_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#image_pull_secrets ServiceDiscoveryAgent#image_pull_secrets}
   */
   readonly imagePullSecrets?: string[];
   /**
   * Docker image for the log watcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#log_watcher_image ServiceDiscoveryAgent#log_watcher_image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#log_watcher_image ServiceDiscoveryAgent#log_watcher_image}
   */
   readonly logWatcherImage?: string;
   /**
   * Whether to skip TLS verification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#skip_secure_verify ServiceDiscoveryAgent#skip_secure_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#skip_secure_verify ServiceDiscoveryAgent#skip_secure_verify}
   */
   readonly skipSecureVerify?: boolean | cdktf.IResolvable;
   /**
   * data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#data ServiceDiscoveryAgent#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#data ServiceDiscoveryAgent#data}
   */
   readonly data?: ServiceDiscoveryAgentConfigData[] | cdktf.IResolvable;
   /**
   * kubernetes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#kubernetes ServiceDiscoveryAgent#kubernetes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#kubernetes ServiceDiscoveryAgent#kubernetes}
   */
   readonly kubernetes: ServiceDiscoveryAgentConfigKubernetes[] | cdktf.IResolvable;
   /**
   * mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#mtls ServiceDiscoveryAgent#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#mtls ServiceDiscoveryAgent#mtls}
   */
   readonly mtls?: ServiceDiscoveryAgentConfigMtls[] | cdktf.IResolvable;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#proxy ServiceDiscoveryAgent#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#proxy ServiceDiscoveryAgent#proxy}
   */
   readonly proxy?: ServiceDiscoveryAgentConfigProxy[] | cdktf.IResolvable;
 }
@@ -2937,7 +2937,7 @@ export class ServiceDiscoveryAgentConfigAList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent harness_service_discovery_agent}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent harness_service_discovery_agent}
 */
 export class ServiceDiscoveryAgent extends cdktf.TerraformResource {
 
@@ -2953,7 +2953,7 @@ export class ServiceDiscoveryAgent extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceDiscoveryAgent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceDiscoveryAgent to import
-  * @param importFromId The id of the existing ServiceDiscoveryAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceDiscoveryAgent that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceDiscoveryAgent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2965,7 +2965,7 @@ export class ServiceDiscoveryAgent extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_discovery_agent harness_service_discovery_agent} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_discovery_agent harness_service_discovery_agent} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2976,8 +2976,8 @@ export class ServiceDiscoveryAgent extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_discovery_agent',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

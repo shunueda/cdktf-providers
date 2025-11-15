@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ObjectStorageOrganizationAccessPolicyConfig extends cdktf.Terra
   /**
   * The name of the organization access policy, must be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#name ObjectStorageOrganizationAccessPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#name ObjectStorageOrganizationAccessPolicy#name}
   */
   readonly name: string;
   /**
   * The list of access policy statements associated with this policy. At least one statement is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#statements ObjectStorageOrganizationAccessPolicy#statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#statements ObjectStorageOrganizationAccessPolicy#statements}
   */
   readonly statements: ObjectStorageOrganizationAccessPolicyStatements[] | cdktf.IResolvable;
 }
@@ -24,31 +24,31 @@ export interface ObjectStorageOrganizationAccessPolicyStatements {
   /**
   * Defines which operations the policy allows or denies. Organization access policies can include actions from two APIs - S3 (s3:*) and AI Object Storage API (cwobject:*). You can use wildcards (like s3:* or cwobject:*) to cover multiple actions at once.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#actions ObjectStorageOrganizationAccessPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#actions ObjectStorageOrganizationAccessPolicy#actions}
   */
   readonly actions: string[];
   /**
   * Must be either Allow or Deny (case-sensitive). Determines whether the statement grants or denies the specified actions on the listed resources for the designated principals. By default, all access is denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#effect ObjectStorageOrganizationAccessPolicy#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#effect ObjectStorageOrganizationAccessPolicy#effect}
   */
   readonly effect: string;
   /**
   * A short, human-readable identifier for this specific policy statement, similar to Sid in bucket access policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#name ObjectStorageOrganizationAccessPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#name ObjectStorageOrganizationAccessPolicy#name}
   */
   readonly name: string;
   /**
   * Defines which users, roles, or groups the policy applies to. Only short-form identifiers are supported. If you use a full ARN, the policy will fail with an error. See the [AI Object Storage documentation](https://docs.coreweave.com/docs/products/storage/object-storage/concepts/policies/organization-policies#resources) for guidelines on defining principals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#principals ObjectStorageOrganizationAccessPolicy#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#principals ObjectStorageOrganizationAccessPolicy#principals}
   */
   readonly principals: string[];
   /**
   * Defines which resources the policy applies to. See the [AI Object Storage documentation](https://docs.coreweave.com/docs/products/storage/object-storage/concepts/policies/organization-policies#resources) for guidelines on defining resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#resources ObjectStorageOrganizationAccessPolicy#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#resources ObjectStorageOrganizationAccessPolicy#resources}
   */
   readonly resources: string[];
 }
@@ -265,7 +265,7 @@ export class ObjectStorageOrganizationAccessPolicyStatementsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy coreweave_object_storage_organization_access_policy}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy coreweave_object_storage_organization_access_policy}
 */
 export class ObjectStorageOrganizationAccessPolicy extends cdktf.TerraformResource {
 
@@ -281,7 +281,7 @@ export class ObjectStorageOrganizationAccessPolicy extends cdktf.TerraformResour
   * Generates CDKTF code for importing a ObjectStorageOrganizationAccessPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageOrganizationAccessPolicy to import
-  * @param importFromId The id of the existing ObjectStorageOrganizationAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageOrganizationAccessPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageOrganizationAccessPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class ObjectStorageOrganizationAccessPolicy extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_organization_access_policy coreweave_object_storage_organization_access_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_organization_access_policy coreweave_object_storage_organization_access_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class ObjectStorageOrganizationAccessPolicy extends cdktf.TerraformResour
       terraformResourceType: 'coreweave_object_storage_organization_access_policy',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

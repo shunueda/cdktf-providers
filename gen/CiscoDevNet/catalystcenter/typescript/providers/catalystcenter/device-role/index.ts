@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,27 +10,27 @@ export interface DeviceRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The device ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role#device_id DeviceRole#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role#device_id DeviceRole#device_id}
   */
   readonly deviceId: string;
   /**
   * The device role
   *   - Choices: `ACCESS`, `CORE`, `DISTRIBUTION`, `BORDER ROUTER`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role#role DeviceRole#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role#role DeviceRole#role}
   */
   readonly role: string;
   /**
   * The device role source
   *   - Choices: `MANUAL`, `AUTO`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role#role_source DeviceRole#role_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role#role_source DeviceRole#role_source}
   */
   readonly roleSource: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role catalystcenter_device_role}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role catalystcenter_device_role}
 */
 export class DeviceRole extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class DeviceRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceRole to import
-  * @param importFromId The id of the existing DeviceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class DeviceRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/device_role catalystcenter_device_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/device_role catalystcenter_device_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class DeviceRole extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_device_role',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

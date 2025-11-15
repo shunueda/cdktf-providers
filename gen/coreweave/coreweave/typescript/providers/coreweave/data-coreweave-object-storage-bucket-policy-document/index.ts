@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataCoreweaveObjectStorageBucketPolicyDocumentConfig extends cd
   /**
   * An optional policy identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#id DataCoreweaveObjectStorageBucketPolicyDocument#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#id DataCoreweaveObjectStorageBucketPolicyDocument#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataCoreweaveObjectStorageBucketPolicyDocumentConfig extends cd
   /**
   * The policy version, e.g. `"2012-10-17"`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#version DataCoreweaveObjectStorageBucketPolicyDocument#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#version DataCoreweaveObjectStorageBucketPolicyDocument#version}
   */
   readonly version?: string;
   /**
   * statement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#statement DataCoreweaveObjectStorageBucketPolicyDocument#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#statement DataCoreweaveObjectStorageBucketPolicyDocument#statement}
   */
   readonly statement?: DataCoreweaveObjectStorageBucketPolicyDocumentStatement[] | cdktf.IResolvable;
 }
@@ -33,37 +33,37 @@ export interface DataCoreweaveObjectStorageBucketPolicyDocumentStatement {
   /**
   * List of action strings, e.g. `["s3:PutObject"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#action DataCoreweaveObjectStorageBucketPolicyDocument#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#action DataCoreweaveObjectStorageBucketPolicyDocument#action}
   */
   readonly action?: string[];
   /**
   * Map of condition operators to JSON expressions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#condition DataCoreweaveObjectStorageBucketPolicyDocument#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#condition DataCoreweaveObjectStorageBucketPolicyDocument#condition}
   */
   readonly condition?: { [key: string]: { [key: string]: string } } | cdktf.IResolvable;
   /**
   * `Allow` or `Deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#effect DataCoreweaveObjectStorageBucketPolicyDocument#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#effect DataCoreweaveObjectStorageBucketPolicyDocument#effect}
   */
   readonly effect?: string;
   /**
   * Map of principal types to ARNs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#principal DataCoreweaveObjectStorageBucketPolicyDocument#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#principal DataCoreweaveObjectStorageBucketPolicyDocument#principal}
   */
   readonly principal?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * List of resource ARNs, e.g. `["arn:aws:s3:::bucket/*"]`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#resource DataCoreweaveObjectStorageBucketPolicyDocument#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#resource DataCoreweaveObjectStorageBucketPolicyDocument#resource}
   */
   readonly resource?: string[];
   /**
   * An optional statement identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#sid DataCoreweaveObjectStorageBucketPolicyDocument#sid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#sid DataCoreweaveObjectStorageBucketPolicyDocument#sid}
   */
   readonly sid?: string;
 }
@@ -324,7 +324,7 @@ export class DataCoreweaveObjectStorageBucketPolicyDocumentStatementList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document coreweave_object_storage_bucket_policy_document}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document coreweave_object_storage_bucket_policy_document}
 */
 export class DataCoreweaveObjectStorageBucketPolicyDocument extends cdktf.TerraformDataSource {
 
@@ -340,7 +340,7 @@ export class DataCoreweaveObjectStorageBucketPolicyDocument extends cdktf.Terraf
   * Generates CDKTF code for importing a DataCoreweaveObjectStorageBucketPolicyDocument resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCoreweaveObjectStorageBucketPolicyDocument to import
-  * @param importFromId The id of the existing DataCoreweaveObjectStorageBucketPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCoreweaveObjectStorageBucketPolicyDocument that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCoreweaveObjectStorageBucketPolicyDocument to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -352,7 +352,7 @@ export class DataCoreweaveObjectStorageBucketPolicyDocument extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/data-sources/object_storage_bucket_policy_document coreweave_object_storage_bucket_policy_document} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/data-sources/object_storage_bucket_policy_document coreweave_object_storage_bucket_policy_document} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -363,8 +363,8 @@ export class DataCoreweaveObjectStorageBucketPolicyDocument extends cdktf.Terraf
       terraformResourceType: 'coreweave_object_storage_bucket_policy_document',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

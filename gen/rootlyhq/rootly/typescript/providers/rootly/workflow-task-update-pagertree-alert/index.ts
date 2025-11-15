@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowTaskUpdatePagertreeAlertConfig extends cdktf.TerraformM
   /**
   * Enable/disable this workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#enabled WorkflowTaskUpdatePagertreeAlert#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#enabled WorkflowTaskUpdatePagertreeAlert#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,44 +23,44 @@ export interface WorkflowTaskUpdatePagertreeAlertConfig extends cdktf.TerraformM
   /**
   * Name of the workflow task
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
   */
   readonly name?: string;
   /**
   * The position of the workflow task (1 being top of list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#position WorkflowTaskUpdatePagertreeAlert#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#position WorkflowTaskUpdatePagertreeAlert#position}
   */
   readonly position?: number;
   /**
   * Skip workflow task if any failures
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#skip_on_failure WorkflowTaskUpdatePagertreeAlert#skip_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#skip_on_failure WorkflowTaskUpdatePagertreeAlert#skip_on_failure}
   */
   readonly skipOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The ID of the parent workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#workflow_id WorkflowTaskUpdatePagertreeAlert#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#workflow_id WorkflowTaskUpdatePagertreeAlert#workflow_id}
   */
   readonly workflowId: string;
   /**
   * task_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#task_params WorkflowTaskUpdatePagertreeAlert#task_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#task_params WorkflowTaskUpdatePagertreeAlert#task_params}
   */
   readonly taskParams: WorkflowTaskUpdatePagertreeAlertTaskParams;
 }
 export interface WorkflowTaskUpdatePagertreeAlertTaskParamsTeams {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
   */
   readonly name: string;
 }
@@ -199,14 +199,14 @@ export class WorkflowTaskUpdatePagertreeAlertTaskParamsTeamsList extends cdktf.C
 }
 export interface WorkflowTaskUpdatePagertreeAlertTaskParamsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#id WorkflowTaskUpdatePagertreeAlert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#name WorkflowTaskUpdatePagertreeAlert#name}
   */
   readonly name: string;
 }
@@ -347,53 +347,53 @@ export interface WorkflowTaskUpdatePagertreeAlertTaskParams {
   /**
   * Description of alert as text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#description WorkflowTaskUpdatePagertreeAlert#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#description WorkflowTaskUpdatePagertreeAlert#description}
   */
   readonly description?: string;
   /**
   * Setting to true makes an alert a Pagertree incident. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#incident WorkflowTaskUpdatePagertreeAlert#incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#incident WorkflowTaskUpdatePagertreeAlert#incident}
   */
   readonly incident?: boolean | cdktf.IResolvable;
   /**
   * The prefix ID of the Pagertree alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#pagertree_alert_id WorkflowTaskUpdatePagertreeAlert#pagertree_alert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#pagertree_alert_id WorkflowTaskUpdatePagertreeAlert#pagertree_alert_id}
   */
   readonly pagertreeAlertId?: string;
   /**
   * Value must be one of `auto`, `SEV-1`, `SEV-2`, `SEV-3`, `SEV-4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#severity WorkflowTaskUpdatePagertreeAlert#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#severity WorkflowTaskUpdatePagertreeAlert#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#task_type WorkflowTaskUpdatePagertreeAlert#task_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#task_type WorkflowTaskUpdatePagertreeAlert#task_type}
   */
   readonly taskType?: string;
   /**
   * Title of alert as text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#title WorkflowTaskUpdatePagertreeAlert#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#title WorkflowTaskUpdatePagertreeAlert#title}
   */
   readonly title?: string;
   /**
   * Value must be one of `auto`, `critical`, `high`, `medium`, `low`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#urgency WorkflowTaskUpdatePagertreeAlert#urgency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#urgency WorkflowTaskUpdatePagertreeAlert#urgency}
   */
   readonly urgency?: string;
   /**
   * teams block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#teams WorkflowTaskUpdatePagertreeAlert#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#teams WorkflowTaskUpdatePagertreeAlert#teams}
   */
   readonly teams?: WorkflowTaskUpdatePagertreeAlertTaskParamsTeams[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#users WorkflowTaskUpdatePagertreeAlert#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#users WorkflowTaskUpdatePagertreeAlert#users}
   */
   readonly users?: WorkflowTaskUpdatePagertreeAlertTaskParamsUsers[] | cdktf.IResolvable;
 }
@@ -709,7 +709,7 @@ export class WorkflowTaskUpdatePagertreeAlertTaskParamsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert rootly_workflow_task_update_pagertree_alert}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert rootly_workflow_task_update_pagertree_alert}
 */
 export class WorkflowTaskUpdatePagertreeAlert extends cdktf.TerraformResource {
 
@@ -725,7 +725,7 @@ export class WorkflowTaskUpdatePagertreeAlert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowTaskUpdatePagertreeAlert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowTaskUpdatePagertreeAlert to import
-  * @param importFromId The id of the existing WorkflowTaskUpdatePagertreeAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowTaskUpdatePagertreeAlert that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowTaskUpdatePagertreeAlert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -737,7 +737,7 @@ export class WorkflowTaskUpdatePagertreeAlert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/workflow_task_update_pagertree_alert rootly_workflow_task_update_pagertree_alert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/workflow_task_update_pagertree_alert rootly_workflow_task_update_pagertree_alert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -748,8 +748,8 @@ export class WorkflowTaskUpdatePagertreeAlert extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_workflow_task_update_pagertree_alert',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

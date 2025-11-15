@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ObjectStorageBucketLifecycleConfigurationConfig extends cdktf.T
   /**
   * Name of the bucket to apply lifecycle configuration to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#bucket ObjectStorageBucketLifecycleConfiguration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#bucket ObjectStorageBucketLifecycleConfiguration#bucket}
   */
   readonly bucket: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#rule ObjectStorageBucketLifecycleConfiguration#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#rule ObjectStorageBucketLifecycleConfiguration#rule}
   */
   readonly rule?: ObjectStorageBucketLifecycleConfigurationRule[] | cdktf.IResolvable;
 }
@@ -24,7 +24,7 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleAbortIncompleteMul
   /**
   * Days after initiation to abort multipart uploads
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#days_after_initiation ObjectStorageBucketLifecycleConfiguration#days_after_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#days_after_initiation ObjectStorageBucketLifecycleConfiguration#days_after_initiation}
   */
   readonly daysAfterInitiation?: number;
 }
@@ -120,19 +120,19 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleExpiration {
   /**
   * ISO8601 date when objects expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#date ObjectStorageBucketLifecycleConfiguration#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#date ObjectStorageBucketLifecycleConfiguration#date}
   */
   readonly date?: string;
   /**
   * Number of days after object creation for expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#days ObjectStorageBucketLifecycleConfiguration#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#days ObjectStorageBucketLifecycleConfiguration#days}
   */
   readonly days?: number;
   /**
   * Whether to remove expired delete markers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#expired_object_delete_marker ObjectStorageBucketLifecycleConfiguration#expired_object_delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#expired_object_delete_marker ObjectStorageBucketLifecycleConfiguration#expired_object_delete_marker}
   */
   readonly expiredObjectDeleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -286,25 +286,25 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleFilterAnd {
   /**
   * Minimum object size (in bytes) to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_greater_than ObjectStorageBucketLifecycleConfiguration#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_greater_than ObjectStorageBucketLifecycleConfiguration#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
   * Maximum object size (in bytes) to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_less_than ObjectStorageBucketLifecycleConfiguration#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_less_than ObjectStorageBucketLifecycleConfiguration#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * Prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * Map for specifying tag keys and values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#tags ObjectStorageBucketLifecycleConfiguration#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#tags ObjectStorageBucketLifecycleConfiguration#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -487,13 +487,13 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleFilterTag {
   /**
   * Tag key filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#key ObjectStorageBucketLifecycleConfiguration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#key ObjectStorageBucketLifecycleConfiguration#key}
   */
   readonly key?: string;
   /**
   * Tag value filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#value ObjectStorageBucketLifecycleConfiguration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#value ObjectStorageBucketLifecycleConfiguration#value}
   */
   readonly value?: string;
 }
@@ -618,31 +618,31 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleFilter {
   /**
   * Minimum object size (in bytes) to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_greater_than ObjectStorageBucketLifecycleConfiguration#object_size_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_greater_than ObjectStorageBucketLifecycleConfiguration#object_size_greater_than}
   */
   readonly objectSizeGreaterThan?: number;
   /**
   * Maximum object size (in bytes) to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_less_than ObjectStorageBucketLifecycleConfiguration#object_size_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#object_size_less_than ObjectStorageBucketLifecycleConfiguration#object_size_less_than}
   */
   readonly objectSizeLessThan?: number;
   /**
   * Prefix filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * and block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#and ObjectStorageBucketLifecycleConfiguration#and}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#and ObjectStorageBucketLifecycleConfiguration#and}
   */
   readonly and?: ObjectStorageBucketLifecycleConfigurationRuleFilterAnd;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#tag ObjectStorageBucketLifecycleConfiguration#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#tag ObjectStorageBucketLifecycleConfiguration#tag}
   */
   readonly tag?: ObjectStorageBucketLifecycleConfigurationRuleFilterTag;
 }
@@ -854,13 +854,13 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleNoncurrentVersionE
   /**
   * Number of noncurrent versions to retain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#newer_noncurrent_versions ObjectStorageBucketLifecycleConfiguration#newer_noncurrent_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#newer_noncurrent_versions ObjectStorageBucketLifecycleConfiguration#newer_noncurrent_versions}
   */
   readonly newerNoncurrentVersions?: number;
   /**
   * Days after becoming noncurrent before deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_days ObjectStorageBucketLifecycleConfiguration#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_days ObjectStorageBucketLifecycleConfiguration#noncurrent_days}
   */
   readonly noncurrentDays?: number;
 }
@@ -985,19 +985,19 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleNoncurrentVersionT
   /**
   * Number of noncurrent versions to retain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#newer_noncurrent_versions ObjectStorageBucketLifecycleConfiguration#newer_noncurrent_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#newer_noncurrent_versions ObjectStorageBucketLifecycleConfiguration#newer_noncurrent_versions}
   */
   readonly newerNoncurrentVersions?: number;
   /**
   * Number of days after object becomes noncurrent before the transition may occur
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_days ObjectStorageBucketLifecycleConfiguration#noncurrent_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_days ObjectStorageBucketLifecycleConfiguration#noncurrent_days}
   */
   readonly noncurrentDays: number;
   /**
   * Storage class to transition noncurrent objects to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#storage_class ObjectStorageBucketLifecycleConfiguration#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#storage_class ObjectStorageBucketLifecycleConfiguration#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1167,19 +1167,19 @@ export interface ObjectStorageBucketLifecycleConfigurationRuleTransition {
   /**
   * ISO8601 date when objects transition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#date ObjectStorageBucketLifecycleConfiguration#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#date ObjectStorageBucketLifecycleConfiguration#date}
   */
   readonly date?: string;
   /**
   * Number of days after object creation for transition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#days ObjectStorageBucketLifecycleConfiguration#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#days ObjectStorageBucketLifecycleConfiguration#days}
   */
   readonly days?: number;
   /**
   * Storage class to transition objects to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#storage_class ObjectStorageBucketLifecycleConfiguration#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#storage_class ObjectStorageBucketLifecycleConfiguration#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1352,7 +1352,7 @@ export interface ObjectStorageBucketLifecycleConfigurationRule {
   /**
   * Unique identifier for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#id ObjectStorageBucketLifecycleConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#id ObjectStorageBucketLifecycleConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1361,49 +1361,49 @@ export interface ObjectStorageBucketLifecycleConfigurationRule {
   /**
   * Object key prefix to which the rule applies
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#prefix ObjectStorageBucketLifecycleConfiguration#prefix}
   */
   readonly prefix?: string;
   /**
   * Rule status: Enabled or Disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#status ObjectStorageBucketLifecycleConfiguration#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#status ObjectStorageBucketLifecycleConfiguration#status}
   */
   readonly status: string;
   /**
   * abort_incomplete_multipart_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#abort_incomplete_multipart_upload ObjectStorageBucketLifecycleConfiguration#abort_incomplete_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#abort_incomplete_multipart_upload ObjectStorageBucketLifecycleConfiguration#abort_incomplete_multipart_upload}
   */
   readonly abortIncompleteMultipartUpload?: ObjectStorageBucketLifecycleConfigurationRuleAbortIncompleteMultipartUpload;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#expiration ObjectStorageBucketLifecycleConfiguration#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#expiration ObjectStorageBucketLifecycleConfiguration#expiration}
   */
   readonly expiration?: ObjectStorageBucketLifecycleConfigurationRuleExpiration;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#filter ObjectStorageBucketLifecycleConfiguration#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#filter ObjectStorageBucketLifecycleConfiguration#filter}
   */
   readonly filter?: ObjectStorageBucketLifecycleConfigurationRuleFilter;
   /**
   * noncurrent_version_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_version_expiration ObjectStorageBucketLifecycleConfiguration#noncurrent_version_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_version_expiration ObjectStorageBucketLifecycleConfiguration#noncurrent_version_expiration}
   */
   readonly noncurrentVersionExpiration?: ObjectStorageBucketLifecycleConfigurationRuleNoncurrentVersionExpiration;
   /**
   * noncurrent_version_transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_version_transition ObjectStorageBucketLifecycleConfiguration#noncurrent_version_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#noncurrent_version_transition ObjectStorageBucketLifecycleConfiguration#noncurrent_version_transition}
   */
   readonly noncurrentVersionTransition?: ObjectStorageBucketLifecycleConfigurationRuleNoncurrentVersionTransition[] | cdktf.IResolvable;
   /**
   * transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#transition ObjectStorageBucketLifecycleConfiguration#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#transition ObjectStorageBucketLifecycleConfiguration#transition}
   */
   readonly transition?: ObjectStorageBucketLifecycleConfigurationRuleTransition[] | cdktf.IResolvable;
 }
@@ -1748,7 +1748,7 @@ export class ObjectStorageBucketLifecycleConfigurationRuleList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration coreweave_object_storage_bucket_lifecycle_configuration}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration coreweave_object_storage_bucket_lifecycle_configuration}
 */
 export class ObjectStorageBucketLifecycleConfiguration extends cdktf.TerraformResource {
 
@@ -1764,7 +1764,7 @@ export class ObjectStorageBucketLifecycleConfiguration extends cdktf.TerraformRe
   * Generates CDKTF code for importing a ObjectStorageBucketLifecycleConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucketLifecycleConfiguration to import
-  * @param importFromId The id of the existing ObjectStorageBucketLifecycleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucketLifecycleConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucketLifecycleConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1776,7 +1776,7 @@ export class ObjectStorageBucketLifecycleConfiguration extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket_lifecycle_configuration coreweave_object_storage_bucket_lifecycle_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket_lifecycle_configuration coreweave_object_storage_bucket_lifecycle_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1787,8 +1787,8 @@ export class ObjectStorageBucketLifecycleConfiguration extends cdktf.TerraformRe
       terraformResourceType: 'coreweave_object_storage_bucket_lifecycle_configuration',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

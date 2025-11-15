@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ObjectStorageBucketConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the bucket, must be unique
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket#name ObjectStorageBucket#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket#name ObjectStorageBucket#name}
   */
   readonly name: string;
   /**
   * Map of tags to assign to the bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket#tags ObjectStorageBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket#tags ObjectStorageBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * The Availability Zone in which the bucket is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket#zone ObjectStorageBucket#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket#zone ObjectStorageBucket#zone}
   */
   readonly zone: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket coreweave_object_storage_bucket}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket coreweave_object_storage_bucket}
 */
 export class ObjectStorageBucket extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ObjectStorageBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ObjectStorageBucket to import
-  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ObjectStorageBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ObjectStorageBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/object_storage_bucket coreweave_object_storage_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/object_storage_bucket coreweave_object_storage_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ObjectStorageBucket extends cdktf.TerraformResource {
       terraformResourceType: 'coreweave_object_storage_bucket',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

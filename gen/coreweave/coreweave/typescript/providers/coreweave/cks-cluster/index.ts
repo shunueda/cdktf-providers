@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,86 +10,86 @@ export interface CksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Audit policy for the cluster. Must be provided as a base64-encoded JSON/YAML string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#audit_policy CksCluster#audit_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#audit_policy CksCluster#audit_policy}
   */
   readonly auditPolicy?: string;
   /**
   * Authentication webhook configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#authn_webhook CksCluster#authn_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#authn_webhook CksCluster#authn_webhook}
   */
   readonly authnWebhook?: CksClusterAuthnWebhook;
   /**
   * Authorization webhook configuration for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#authz_webhook CksCluster#authz_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#authz_webhook CksCluster#authz_webhook}
   */
   readonly authzWebhook?: CksClusterAuthzWebhook;
   /**
   * The names of the vpc prefixes to use as internal load balancer CIDR ranges. Internal load balancers are reachable within the VPC but not accessible from the internet.
   * The prefixes must exist in the cluster's VPC. This field is append-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#internal_lb_cidr_names CksCluster#internal_lb_cidr_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#internal_lb_cidr_names CksCluster#internal_lb_cidr_names}
   */
   readonly internalLbCidrNames: string[];
   /**
   * The name of the cluster. Must not be longer than 30 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#name CksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#name CksCluster#name}
   */
   readonly name: string;
   /**
   * Kubernetes Service NodePort range.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#node_port_range CksCluster#node_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#node_port_range CksCluster#node_port_range}
   */
   readonly nodePortRange?: CksClusterNodePortRange;
   /**
   * OpenID Connect (OIDC) configuration for authentication to the api-server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#oidc CksCluster#oidc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#oidc CksCluster#oidc}
   */
   readonly oidc?: CksClusterOidc;
   /**
   * The name of the vpc prefix to use as the pod CIDR range. The prefix must exist in the cluster's VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#pod_cidr_name CksCluster#pod_cidr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#pod_cidr_name CksCluster#pod_cidr_name}
   */
   readonly podCidrName: string;
   /**
   * Whether the cluster's api-server is publicly accessible from the internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#public CksCluster#public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#public CksCluster#public}
   */
   readonly public?: boolean | cdktf.IResolvable;
   /**
   * The name of the vpc prefix to use as the service CIDR range. The prefix must exist in the cluster's VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#service_cidr_name CksCluster#service_cidr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#service_cidr_name CksCluster#service_cidr_name}
   */
   readonly serviceCidrName: string;
   /**
   * The `cluster_id` of the cluster to share storage with. Must be enabled by CoreWeave suppport. Contact CoreWeave support if you are interested in this feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#shared_storage_cluster_id CksCluster#shared_storage_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#shared_storage_cluster_id CksCluster#shared_storage_cluster_id}
   */
   readonly sharedStorageClusterId?: string;
   /**
   * The version of Kubernetes to run on the cluster, in minor version format (e.g. 'v1.32'). Patch versions are automatically applied by CKS as they are released.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#version CksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#version CksCluster#version}
   */
   readonly version: string;
   /**
   * The ID of the VPC in which the cluster is located. Must be a VPC in the same Availability Zone as the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#vpc_id CksCluster#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#vpc_id CksCluster#vpc_id}
   */
   readonly vpcId: string;
   /**
   * The Availability Zone in which the cluster is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#zone CksCluster#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#zone CksCluster#zone}
   */
   readonly zone: string;
 }
@@ -97,13 +97,13 @@ export interface CksClusterAuthnWebhook {
   /**
   * The CA certificate for the webhook server. Must be a base64-encoded PEM-encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#ca CksCluster#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#ca CksCluster#ca}
   */
   readonly ca?: string;
   /**
   * The URL of the webhook server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#server CksCluster#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#server CksCluster#server}
   */
   readonly server: string;
 }
@@ -225,13 +225,13 @@ export interface CksClusterAuthzWebhook {
   /**
   * The CA certificate for the webhook server. Must be a base64-encoded PEM-encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#ca CksCluster#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#ca CksCluster#ca}
   */
   readonly ca?: string;
   /**
   * The URL of the webhook server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#server CksCluster#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#server CksCluster#server}
   */
   readonly server: string;
 }
@@ -351,11 +351,11 @@ export class CksClusterAuthzWebhookOutputReference extends cdktf.ComplexObject {
 }
 export interface CksClusterNodePortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#end CksCluster#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#end CksCluster#end}
   */
   readonly end?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#start CksCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#start CksCluster#start}
   */
   readonly start?: number;
 }
@@ -480,61 +480,61 @@ export interface CksClusterOidc {
   /**
   * The OIDC group that is bound to the cluster-admin role for bootstrap access to the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#admin_group_binding CksCluster#admin_group_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#admin_group_binding CksCluster#admin_group_binding}
   */
   readonly adminGroupBinding?: string;
   /**
   * The CA certificate for the OIDC issuer. Must be a base64-encoded PEM-encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#ca CksCluster#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#ca CksCluster#ca}
   */
   readonly ca?: string;
   /**
   * The client ID for the OIDC client.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#client_id CksCluster#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#client_id CksCluster#client_id}
   */
   readonly clientId: string;
   /**
   * The claim to use as the groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#groups_claim CksCluster#groups_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#groups_claim CksCluster#groups_claim}
   */
   readonly groupsClaim?: string;
   /**
   * The prefix to use for the groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#groups_prefix CksCluster#groups_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#groups_prefix CksCluster#groups_prefix}
   */
   readonly groupsPrefix?: string;
   /**
   * The URL of the OIDC issuer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#issuer_url CksCluster#issuer_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#issuer_url CksCluster#issuer_url}
   */
   readonly issuerUrl: string;
   /**
   * The claim to require for authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#required_claim CksCluster#required_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#required_claim CksCluster#required_claim}
   */
   readonly requiredClaim?: string;
   /**
   * A list of signing algorithms that the OpenID Connect discovery endpoint uses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#signing_algs CksCluster#signing_algs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#signing_algs CksCluster#signing_algs}
   */
   readonly signingAlgs?: string[];
   /**
   * The claim to use as the username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#username_claim CksCluster#username_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#username_claim CksCluster#username_claim}
   */
   readonly usernameClaim?: string;
   /**
   * The prefix to use for the username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#username_prefix CksCluster#username_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#username_prefix CksCluster#username_prefix}
   */
   readonly usernamePrefix?: string;
 }
@@ -883,7 +883,7 @@ export class CksClusterOidcOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster coreweave_cks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster coreweave_cks_cluster}
 */
 export class CksCluster extends cdktf.TerraformResource {
 
@@ -899,7 +899,7 @@ export class CksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CksCluster to import
-  * @param importFromId The id of the existing CksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -911,7 +911,7 @@ export class CksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/cks_cluster coreweave_cks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/cks_cluster coreweave_cks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -922,8 +922,8 @@ export class CksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'coreweave_cks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

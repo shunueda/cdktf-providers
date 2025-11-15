@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface AlertRouteConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#alerts_source_ids AlertRoute#alerts_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#alerts_source_ids AlertRoute#alerts_source_ids}
   */
   readonly alertsSourceIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#enabled AlertRoute#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#enabled AlertRoute#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#id AlertRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#id AlertRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface AlertRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alert route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#name AlertRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#name AlertRoute#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#owning_team_ids AlertRoute#owning_team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#owning_team_ids AlertRoute#owning_team_ids}
   */
   readonly owningTeamIds?: string[];
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#rules AlertRoute#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#rules AlertRoute#rules}
   */
   readonly rules?: AlertRouteRules[] | cdktf.IResolvable;
 }
@@ -43,47 +43,47 @@ export interface AlertRouteRulesConditionGroupsConditions {
   /**
   * The Alert Urgency IDs to check in the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#alert_urgency_ids AlertRoute#alert_urgency_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#alert_urgency_ids AlertRoute#alert_urgency_ids}
   */
   readonly alertUrgencyIds?: string[];
   /**
   * The ID of the conditionable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#conditionable_id AlertRoute#conditionable_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#conditionable_id AlertRoute#conditionable_id}
   */
   readonly conditionableId?: string;
   /**
   * The type of the conditionable. Value must be one of `AlertField`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#conditionable_type AlertRoute#conditionable_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#conditionable_type AlertRoute#conditionable_type}
   */
   readonly conditionableType?: string;
   /**
   * Value must be one of `is_one_of`, `is_not_one_of`, `contains`, `does_not_contain`, `starts_with`, `ends_with`, `matches_regex`, `is_empty`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#property_field_condition_type AlertRoute#property_field_condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#property_field_condition_type AlertRoute#property_field_condition_type}
   */
   readonly propertyFieldConditionType?: string;
   /**
   * The name of the property field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#property_field_name AlertRoute#property_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#property_field_name AlertRoute#property_field_name}
   */
   readonly propertyFieldName?: string;
   /**
   * Value must be one of `attribute`, `payload`, `alert_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#property_field_type AlertRoute#property_field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#property_field_type AlertRoute#property_field_type}
   */
   readonly propertyFieldType?: string;
   /**
   * The value of the property field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#property_field_value AlertRoute#property_field_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#property_field_value AlertRoute#property_field_value}
   */
   readonly propertyFieldValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#property_field_values AlertRoute#property_field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#property_field_values AlertRoute#property_field_values}
   */
   readonly propertyFieldValues?: string[];
 }
@@ -404,13 +404,13 @@ export interface AlertRouteRulesConditionGroups {
   /**
   * The position of the condition group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#position AlertRoute#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#position AlertRoute#position}
   */
   readonly position?: number;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#conditions AlertRoute#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#conditions AlertRoute#conditions}
   */
   readonly conditions?: AlertRouteRulesConditionGroupsConditions[] | cdktf.IResolvable;
 }
@@ -557,13 +557,13 @@ export interface AlertRouteRulesDestinations {
   /**
   * The ID of the target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#target_id AlertRoute#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#target_id AlertRoute#target_id}
   */
   readonly targetId?: string;
   /**
   * The type of the target. Value must be one of `Service`, `Group`, `EscalationPolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#target_type AlertRoute#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#target_type AlertRoute#target_type}
   */
   readonly targetType?: string;
 }
@@ -710,31 +710,31 @@ export interface AlertRouteRules {
   /**
   * Whether this is a fallback rule. Value must be one of true or false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#fallback_rule AlertRoute#fallback_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#fallback_rule AlertRoute#fallback_rule}
   */
   readonly fallbackRule?: boolean | cdktf.IResolvable;
   /**
   * The name of the alert routing rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#name AlertRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#name AlertRoute#name}
   */
   readonly name?: string;
   /**
   * The position of the alert routing rule for ordering evaluation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#position AlertRoute#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#position AlertRoute#position}
   */
   readonly position?: number;
   /**
   * condition_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#condition_groups AlertRoute#condition_groups}
   */
   readonly conditionGroups?: AlertRouteRulesConditionGroups[] | cdktf.IResolvable;
   /**
   * destinations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#destinations AlertRoute#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#destinations AlertRoute#destinations}
   */
   readonly destinations?: AlertRouteRulesDestinations[] | cdktf.IResolvable;
 }
@@ -966,7 +966,7 @@ export class AlertRouteRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route rootly_alert_route}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route rootly_alert_route}
 */
 export class AlertRoute extends cdktf.TerraformResource {
 
@@ -982,7 +982,7 @@ export class AlertRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertRoute to import
-  * @param importFromId The id of the existing AlertRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -994,7 +994,7 @@ export class AlertRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/alert_route rootly_alert_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/alert_route rootly_alert_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1005,8 +1005,8 @@ export class AlertRoute extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_alert_route',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

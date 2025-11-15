@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface ChaosInfrastructureV2Config extends cdktf.TerraformMetaArgument
   /**
   * Enable AI features for the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#ai_enabled ChaosInfrastructureV2#ai_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#ai_enabled ChaosInfrastructureV2#ai_enabled}
   */
   readonly aiEnabled?: boolean | cdktf.IResolvable;
   /**
   * Annotations to apply to the infrastructure pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#annotation ChaosInfrastructureV2#annotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#annotation ChaosInfrastructureV2#annotation}
   */
   readonly annotation?: { [key: string]: string };
   /**
   * Container configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#containers ChaosInfrastructureV2#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#containers ChaosInfrastructureV2#containers}
   */
   readonly containers?: string;
   /**
   * Correlation ID for the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#correlation_id ChaosInfrastructureV2#correlation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#correlation_id ChaosInfrastructureV2#correlation_id}
   */
   readonly correlationId?: string;
   /**
   * Description of the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#description ChaosInfrastructureV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#description ChaosInfrastructureV2#description}
   */
   readonly description?: string;
   /**
   * ID of the discovery agent to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#discovery_agent_id ChaosInfrastructureV2#discovery_agent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#discovery_agent_id ChaosInfrastructureV2#discovery_agent_id}
   */
   readonly discoveryAgentId?: string;
   /**
   * The ID of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#environment_id ChaosInfrastructureV2#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#environment_id ChaosInfrastructureV2#environment_id}
   */
   readonly environmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#id ChaosInfrastructureV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#id ChaosInfrastructureV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,127 +59,127 @@ export interface ChaosInfrastructureV2Config extends cdktf.TerraformMetaArgument
   /**
   * ID of the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#infra_id ChaosInfrastructureV2#infra_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#infra_id ChaosInfrastructureV2#infra_id}
   */
   readonly infraId: string;
   /**
   * Scope of the infrastructure. Valid values: NAMESPACE, CLUSTER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#infra_scope ChaosInfrastructureV2#infra_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#infra_scope ChaosInfrastructureV2#infra_scope}
   */
   readonly infraScope?: string;
   /**
   * Type of the infrastructure. Valid values: KUBERNETES, KUBERNETESV2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#infra_type ChaosInfrastructureV2#infra_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#infra_type ChaosInfrastructureV2#infra_type}
   */
   readonly infraType?: string;
   /**
   * Skip TLS verification for the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#insecure_skip_verify ChaosInfrastructureV2#insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#insecure_skip_verify ChaosInfrastructureV2#insecure_skip_verify}
   */
   readonly insecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * Labels to apply to the infrastructure pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#label ChaosInfrastructureV2#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#label ChaosInfrastructureV2#label}
   */
   readonly label?: { [key: string]: string };
   /**
   * Name of the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
   */
   readonly name: string;
   /**
   * Kubernetes namespace where the infrastructure will be installed. Maps to the infrastructure namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#namespace ChaosInfrastructureV2#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#namespace ChaosInfrastructureV2#namespace}
   */
   readonly namespace?: string;
   /**
   * Node selector for the infrastructure pods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#node_selector ChaosInfrastructureV2#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#node_selector ChaosInfrastructureV2#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
   * The ID of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#org_id ChaosInfrastructureV2#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#org_id ChaosInfrastructureV2#org_id}
   */
   readonly orgId: string;
   /**
   * The ID of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#project_id ChaosInfrastructureV2#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#project_id ChaosInfrastructureV2#project_id}
   */
   readonly projectId: string;
   /**
   * Group ID to run the infrastructure as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#run_as_group ChaosInfrastructureV2#run_as_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#run_as_group ChaosInfrastructureV2#run_as_group}
   */
   readonly runAsGroup?: number;
   /**
   * User ID to run the infrastructure as.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#run_as_user ChaosInfrastructureV2#run_as_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#run_as_user ChaosInfrastructureV2#run_as_user}
   */
   readonly runAsUser?: number;
   /**
   * Service account used by the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#service_account ChaosInfrastructureV2#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#service_account ChaosInfrastructureV2#service_account}
   */
   readonly serviceAccount?: string;
   /**
   * Tags for the infrastructure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#tags ChaosInfrastructureV2#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#tags ChaosInfrastructureV2#tags}
   */
   readonly tags?: string[];
   /**
   * env block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#env ChaosInfrastructureV2#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#env ChaosInfrastructureV2#env}
   */
   readonly env?: ChaosInfrastructureV2Env[] | cdktf.IResolvable;
   /**
   * image_registry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#image_registry ChaosInfrastructureV2#image_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#image_registry ChaosInfrastructureV2#image_registry}
   */
   readonly imageRegistry?: ChaosInfrastructureV2ImageRegistry[] | cdktf.IResolvable;
   /**
   * mtls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#mtls ChaosInfrastructureV2#mtls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#mtls ChaosInfrastructureV2#mtls}
   */
   readonly mtls?: ChaosInfrastructureV2Mtls;
   /**
   * proxy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#proxy ChaosInfrastructureV2#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#proxy ChaosInfrastructureV2#proxy}
   */
   readonly proxy?: ChaosInfrastructureV2Proxy;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#tolerations ChaosInfrastructureV2#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#tolerations ChaosInfrastructureV2#tolerations}
   */
   readonly tolerations?: ChaosInfrastructureV2Tolerations[] | cdktf.IResolvable;
   /**
   * volume_mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#volume_mounts ChaosInfrastructureV2#volume_mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#volume_mounts ChaosInfrastructureV2#volume_mounts}
   */
   readonly volumeMounts?: ChaosInfrastructureV2VolumeMounts[] | cdktf.IResolvable;
   /**
   * volumes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#volumes ChaosInfrastructureV2#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#volumes ChaosInfrastructureV2#volumes}
   */
   readonly volumes?: ChaosInfrastructureV2Volumes[] | cdktf.IResolvable;
 }
@@ -272,25 +272,25 @@ export interface ChaosInfrastructureV2Env {
   /**
   * Variable name from a ConfigMap or Secret. Required when value_from is configMapKeyRef or secretKeyRef.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#key ChaosInfrastructureV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#key ChaosInfrastructureV2#key}
   */
   readonly key?: string;
   /**
   * Name of the environment variable. Must be a C_IDENTIFIER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
   */
   readonly name: string;
   /**
   * Variable references $(VAR_NAME) are expanded using the container's environment. If the variable cannot be resolved, the reference in the input string will be unchanged. The $(VAR_NAME) syntax can be escaped with a double $$, ie: $$(VAR_NAME). Escaped references will never be expanded, regardless of whether the variable exists or not. Defaults to "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#value ChaosInfrastructureV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#value ChaosInfrastructureV2#value}
   */
   readonly value?: string;
   /**
   * Source for the environment variable's value. Cannot be used if value is not empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#value_from ChaosInfrastructureV2#value_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#value_from ChaosInfrastructureV2#value_from}
   */
   readonly valueFrom?: string;
 }
@@ -577,25 +577,25 @@ export interface ChaosInfrastructureV2ImageRegistryCustomImages {
   /**
   * Custom image for ddcr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#ddcr ChaosInfrastructureV2#ddcr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#ddcr ChaosInfrastructureV2#ddcr}
   */
   readonly ddcr?: string;
   /**
   * Custom image for ddcr-fault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#ddcr_fault ChaosInfrastructureV2#ddcr_fault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#ddcr_fault ChaosInfrastructureV2#ddcr_fault}
   */
   readonly ddcrFault?: string;
   /**
   * Custom image for ddcr-lib.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#ddcr_lib ChaosInfrastructureV2#ddcr_lib}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#ddcr_lib ChaosInfrastructureV2#ddcr_lib}
   */
   readonly ddcrLib?: string;
   /**
   * Custom image for log-watcher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#log_watcher ChaosInfrastructureV2#log_watcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#log_watcher ChaosInfrastructureV2#log_watcher}
   */
   readonly logWatcher?: string;
 }
@@ -800,49 +800,49 @@ export interface ChaosInfrastructureV2ImageRegistry {
   /**
   * Whether this is the default registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#is_default ChaosInfrastructureV2#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#is_default ChaosInfrastructureV2#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Whether override is allowed for this registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#is_override_allowed ChaosInfrastructureV2#is_override_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#is_override_allowed ChaosInfrastructureV2#is_override_allowed}
   */
   readonly isOverrideAllowed?: boolean | cdktf.IResolvable;
   /**
   * Whether the registry is private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#is_private ChaosInfrastructureV2#is_private}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#is_private ChaosInfrastructureV2#is_private}
   */
   readonly isPrivate?: boolean | cdktf.IResolvable;
   /**
   * The account name for the container registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#registry_account ChaosInfrastructureV2#registry_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#registry_account ChaosInfrastructureV2#registry_account}
   */
   readonly registryAccount?: string;
   /**
   * The container image registry server URL (e.g., docker.io, gcr.io).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#registry_server ChaosInfrastructureV2#registry_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#registry_server ChaosInfrastructureV2#registry_server}
   */
   readonly registryServer?: string;
   /**
   * Name of the Kubernetes secret containing registry credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#secret_name ChaosInfrastructureV2#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#secret_name ChaosInfrastructureV2#secret_name}
   */
   readonly secretName?: string;
   /**
   * Whether to use custom images instead of default ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#use_custom_images ChaosInfrastructureV2#use_custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#use_custom_images ChaosInfrastructureV2#use_custom_images}
   */
   readonly useCustomImages?: boolean | cdktf.IResolvable;
   /**
   * custom_images block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#custom_images ChaosInfrastructureV2#custom_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#custom_images ChaosInfrastructureV2#custom_images}
   */
   readonly customImages?: ChaosInfrastructureV2ImageRegistryCustomImages[] | cdktf.IResolvable;
 }
@@ -1184,25 +1184,25 @@ export interface ChaosInfrastructureV2Mtls {
   /**
   * Path to the certificate file for mTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#cert_path ChaosInfrastructureV2#cert_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#cert_path ChaosInfrastructureV2#cert_path}
   */
   readonly certPath?: string;
   /**
   * Path to the private key file for mTLS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#key_path ChaosInfrastructureV2#key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#key_path ChaosInfrastructureV2#key_path}
   */
   readonly keyPath?: string;
   /**
   * Name of the Kubernetes secret containing mTLS certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#secret_name ChaosInfrastructureV2#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#secret_name ChaosInfrastructureV2#secret_name}
   */
   readonly secretName?: string;
   /**
   * URL for the mTLS endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#url ChaosInfrastructureV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#url ChaosInfrastructureV2#url}
   */
   readonly url?: string;
 }
@@ -1375,25 +1375,25 @@ export interface ChaosInfrastructureV2Proxy {
   /**
   * HTTP proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#http_proxy ChaosInfrastructureV2#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#http_proxy ChaosInfrastructureV2#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * HTTPS proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#https_proxy ChaosInfrastructureV2#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#https_proxy ChaosInfrastructureV2#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
   * List of hosts that should not use proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#no_proxy ChaosInfrastructureV2#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#no_proxy ChaosInfrastructureV2#no_proxy}
   */
   readonly noProxy?: string;
   /**
   * Proxy URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#url ChaosInfrastructureV2#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#url ChaosInfrastructureV2#url}
   */
   readonly url: string;
 }
@@ -1563,31 +1563,31 @@ export interface ChaosInfrastructureV2Tolerations {
   /**
   * Effect indicates the taint effect to match. When specified, allowed values are NoSchedule, PreferNoSchedule and NoExecute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#effect ChaosInfrastructureV2#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#effect ChaosInfrastructureV2#effect}
   */
   readonly effect: string;
   /**
   * Key is the taint key that the toleration applies to. Empty means match all taint keys. If the key is empty, operator must be Exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#key ChaosInfrastructureV2#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#key ChaosInfrastructureV2#key}
   */
   readonly key: string;
   /**
   * Operator represents a key's relationship to the value. Valid operators are Exists and Equal. Defaults to Equal.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#operator ChaosInfrastructureV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#operator ChaosInfrastructureV2#operator}
   */
   readonly operator: string;
   /**
   * TolerationSeconds represents the period of time the toleration (which must be of effect NoExecute, otherwise this field is ignored) tolerates the taint. By default, it is not set, which means tolerate the taint forever (do not evict). Zero and negative values will be treated as 0 (evict immediately) by the system.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#toleration_seconds ChaosInfrastructureV2#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#toleration_seconds ChaosInfrastructureV2#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
   * Value is the taint value the toleration matches to. If the operator is Exists, the value should be empty, otherwise just a regular string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#value ChaosInfrastructureV2#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#value ChaosInfrastructureV2#value}
   */
   readonly value?: string;
 }
@@ -1812,37 +1812,37 @@ export interface ChaosInfrastructureV2VolumeMounts {
   /**
   * Path within the container at which the volume should be mounted. Must not contain ':'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#mount_path ChaosInfrastructureV2#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#mount_path ChaosInfrastructureV2#mount_path}
   */
   readonly mountPath: string;
   /**
   * Determines how mounts are propagated from the host to container and the other way around. When not set, MountPropagationNone is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#mount_propagation ChaosInfrastructureV2#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#mount_propagation ChaosInfrastructureV2#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * This must match the Name of a Volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
   */
   readonly name: string;
   /**
   * Mounted read-only if true, read-write otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#read_only ChaosInfrastructureV2#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#read_only ChaosInfrastructureV2#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Path within the volume from which the container's volume should be mounted. Mutually exclusive with sub_path_expr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#sub_path ChaosInfrastructureV2#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#sub_path ChaosInfrastructureV2#sub_path}
   */
   readonly subPath?: string;
   /**
   * Expanded path within the volume from which the container's volume should be mounted. Behaves similarly to sub_path but environment variable references $(VAR_NAME) are expanded using the container's environment. Mutually exclusive with sub_path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#sub_path_expr ChaosInfrastructureV2#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#sub_path_expr ChaosInfrastructureV2#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2099,13 +2099,13 @@ export interface ChaosInfrastructureV2Volumes {
   /**
   * Name of the volume. Must be a DNS_LABEL and unique within the pod.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#name ChaosInfrastructureV2#name}
   */
   readonly name: string;
   /**
   * Size limit of the volume. Example: '10Gi', '100Mi'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#size_limit ChaosInfrastructureV2#size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#size_limit ChaosInfrastructureV2#size_limit}
   */
   readonly sizeLimit?: string;
 }
@@ -2247,7 +2247,7 @@ export class ChaosInfrastructureV2VolumesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2 harness_chaos_infrastructure_v2}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2 harness_chaos_infrastructure_v2}
 */
 export class ChaosInfrastructureV2 extends cdktf.TerraformResource {
 
@@ -2263,7 +2263,7 @@ export class ChaosInfrastructureV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ChaosInfrastructureV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ChaosInfrastructureV2 to import
-  * @param importFromId The id of the existing ChaosInfrastructureV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ChaosInfrastructureV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ChaosInfrastructureV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2275,7 +2275,7 @@ export class ChaosInfrastructureV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/chaos_infrastructure_v2 harness_chaos_infrastructure_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/chaos_infrastructure_v2 harness_chaos_infrastructure_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2286,8 +2286,8 @@ export class ChaosInfrastructureV2 extends cdktf.TerraformResource {
       terraformResourceType: 'harness_chaos_infrastructure_v2',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

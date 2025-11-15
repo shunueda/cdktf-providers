@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface AutostoppingAzureProxyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Boolean value to indicate if proxy vm needs to have static IP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#allocate_static_ip AutostoppingAzureProxy#allocate_static_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#allocate_static_ip AutostoppingAzureProxy#allocate_static_ip}
   */
   readonly allocateStaticIp?: boolean | cdktf.IResolvable;
   /**
   * Harness NG API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#api_key AutostoppingAzureProxy#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#api_key AutostoppingAzureProxy#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#certificate_id AutostoppingAzureProxy#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#certificate_id AutostoppingAzureProxy#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Id of the cloud connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#cloud_connector_id AutostoppingAzureProxy#cloud_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#cloud_connector_id AutostoppingAzureProxy#cloud_connector_id}
   */
   readonly cloudConnectorId: string;
   /**
   * Governs how the proxy entity will be deleted on Terraform destroy. When set to true, the associated VM will be deleted permanently from Azure account. Be fully aware of the consequneces of settting this to true, as the action is irreversible. When set to false, solely the Harness LB representation will be deleted, which leaves the proxy VM in Azure account itself.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#delete_cloud_resources_on_destroy AutostoppingAzureProxy#delete_cloud_resources_on_destroy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#delete_cloud_resources_on_destroy AutostoppingAzureProxy#delete_cloud_resources_on_destroy}
   */
   readonly deleteCloudResourcesOnDestroy: boolean | cdktf.IResolvable;
   /**
   * Hostname for the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#host_name AutostoppingAzureProxy#host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#host_name AutostoppingAzureProxy#host_name}
   */
   readonly hostName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#id AutostoppingAzureProxy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#id AutostoppingAzureProxy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,55 +51,55 @@ export interface AutostoppingAzureProxyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Name of SSH Key to be used for proxy VM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#keypair AutostoppingAzureProxy#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#keypair AutostoppingAzureProxy#keypair}
   */
   readonly keypair: string;
   /**
   * Type of instance to be used for proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#machine_type AutostoppingAzureProxy#machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#machine_type AutostoppingAzureProxy#machine_type}
   */
   readonly machineType: string;
   /**
   * Name of the proxy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#name AutostoppingAzureProxy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#name AutostoppingAzureProxy#name}
   */
   readonly name: string;
   /**
   * Region in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#region AutostoppingAzureProxy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#region AutostoppingAzureProxy#region}
   */
   readonly region: string;
   /**
   * Resource group in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#resource_group AutostoppingAzureProxy#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#resource_group AutostoppingAzureProxy#resource_group}
   */
   readonly resourceGroup: string;
   /**
   * Security Group to define the security rules that determine the inbound and outbound traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#security_groups AutostoppingAzureProxy#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#security_groups AutostoppingAzureProxy#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * Subnet in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#subnet_id AutostoppingAzureProxy#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#subnet_id AutostoppingAzureProxy#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC in which cloud resources are hosted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#vpc AutostoppingAzureProxy#vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#vpc AutostoppingAzureProxy#vpc}
   */
   readonly vpc: string;
   /**
   * certificates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#certificates AutostoppingAzureProxy#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#certificates AutostoppingAzureProxy#certificates}
   */
   readonly certificates?: AutostoppingAzureProxyCertificates;
 }
@@ -107,13 +107,13 @@ export interface AutostoppingAzureProxyCertificates {
   /**
   * ID of certificate secret uploaded to vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#cert_secret_id AutostoppingAzureProxy#cert_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#cert_secret_id AutostoppingAzureProxy#cert_secret_id}
   */
   readonly certSecretId: string;
   /**
   * ID of certificate key uploaded to vault
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#key_secret_id AutostoppingAzureProxy#key_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#key_secret_id AutostoppingAzureProxy#key_secret_id}
   */
   readonly keySecretId: string;
 }
@@ -220,7 +220,7 @@ export class AutostoppingAzureProxyCertificatesOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy harness_autostopping_azure_proxy}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy harness_autostopping_azure_proxy}
 */
 export class AutostoppingAzureProxy extends cdktf.TerraformResource {
 
@@ -236,7 +236,7 @@ export class AutostoppingAzureProxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutostoppingAzureProxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutostoppingAzureProxy to import
-  * @param importFromId The id of the existing AutostoppingAzureProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutostoppingAzureProxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutostoppingAzureProxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class AutostoppingAzureProxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/autostopping_azure_proxy harness_autostopping_azure_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/autostopping_azure_proxy harness_autostopping_azure_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class AutostoppingAzureProxy extends cdktf.TerraformResource {
       terraformResourceType: 'harness_autostopping_azure_proxy',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

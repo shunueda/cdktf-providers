@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataRootlyAlertUrgencyConfig extends cdktf.TerraformMetaArgumen
   /**
   * Filter by date range using 'lt' and 'gt'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency#created_at DataRootlyAlertUrgency#created_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency#created_at DataRootlyAlertUrgency#created_at}
   */
   readonly createdAt?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency#name DataRootlyAlertUrgency#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency#name DataRootlyAlertUrgency#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency rootly_alert_urgency}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency rootly_alert_urgency}
 */
 export class DataRootlyAlertUrgency extends cdktf.TerraformDataSource {
 
@@ -36,7 +36,7 @@ export class DataRootlyAlertUrgency extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRootlyAlertUrgency resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRootlyAlertUrgency to import
-  * @param importFromId The id of the existing DataRootlyAlertUrgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRootlyAlertUrgency that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRootlyAlertUrgency to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -48,7 +48,7 @@ export class DataRootlyAlertUrgency extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/data-sources/alert_urgency rootly_alert_urgency} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/data-sources/alert_urgency rootly_alert_urgency} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -59,8 +59,8 @@ export class DataRootlyAlertUrgency extends cdktf.TerraformDataSource {
       terraformResourceType: 'rootly_alert_urgency',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

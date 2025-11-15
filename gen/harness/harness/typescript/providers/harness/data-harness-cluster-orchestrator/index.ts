@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataHarnessClusterOrchestratorConfig extends cdktf.TerraformMet
   /**
   * Endpoint of the k8s cluster being onboarded under the orchestrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator#cluster_endpoint DataHarnessClusterOrchestrator#cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator#cluster_endpoint DataHarnessClusterOrchestrator#cluster_endpoint}
   */
   readonly clusterEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator#id DataHarnessClusterOrchestrator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator#id DataHarnessClusterOrchestrator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataHarnessClusterOrchestratorConfig extends cdktf.TerraformMet
   /**
   * ID of the Harness Kubernetes Connector Being used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator#k8s_connector_id DataHarnessClusterOrchestrator#k8s_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator#k8s_connector_id DataHarnessClusterOrchestrator#k8s_connector_id}
   */
   readonly k8SConnectorId?: string;
   /**
   * Name of the Orchestrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator#name DataHarnessClusterOrchestrator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator#name DataHarnessClusterOrchestrator#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator harness_cluster_orchestrator}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator harness_cluster_orchestrator}
 */
 export class DataHarnessClusterOrchestrator extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataHarnessClusterOrchestrator extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessClusterOrchestrator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessClusterOrchestrator to import
-  * @param importFromId The id of the existing DataHarnessClusterOrchestrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessClusterOrchestrator that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessClusterOrchestrator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataHarnessClusterOrchestrator extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/cluster_orchestrator harness_cluster_orchestrator} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/cluster_orchestrator harness_cluster_orchestrator} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataHarnessClusterOrchestrator extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_cluster_orchestrator',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

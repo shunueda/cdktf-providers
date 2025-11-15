@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ServiceAwsLambdaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the application the service belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#app_id ServiceAwsLambda#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#app_id ServiceAwsLambda#app_id}
   */
   readonly appId: string;
   /**
   * Description of th service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#description ServiceAwsLambda#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#description ServiceAwsLambda#description}
   */
   readonly description?: string;
   /**
   * Name of the service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#name ServiceAwsLambda#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#name ServiceAwsLambda#name}
   */
   readonly name: string;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#variable ServiceAwsLambda#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#variable ServiceAwsLambda#variable}
   */
   readonly variable?: ServiceAwsLambdaVariable[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface ServiceAwsLambdaVariable {
   /**
   * Name of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#name ServiceAwsLambda#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#name ServiceAwsLambda#name}
   */
   readonly name: string;
   /**
   * Type of the variable. Options are 'TEXT' and 'ENCRYPTED_TEXT'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#type ServiceAwsLambda#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#type ServiceAwsLambda#type}
   */
   readonly type: string;
   /**
   * Value of the variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#value ServiceAwsLambda#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#value ServiceAwsLambda#value}
   */
   readonly value: string;
 }
@@ -213,7 +213,7 @@ export class ServiceAwsLambdaVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda harness_service_aws_lambda}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda harness_service_aws_lambda}
 */
 export class ServiceAwsLambda extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class ServiceAwsLambda extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceAwsLambda resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceAwsLambda to import
-  * @param importFromId The id of the existing ServiceAwsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceAwsLambda that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceAwsLambda to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class ServiceAwsLambda extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/service_aws_lambda harness_service_aws_lambda} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/service_aws_lambda harness_service_aws_lambda} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class ServiceAwsLambda extends cdktf.TerraformResource {
       terraformResourceType: 'harness_service_aws_lambda',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

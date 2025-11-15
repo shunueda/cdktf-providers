@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,157 +8,157 @@ import * as cdktf from 'cdktf';
 
 export interface NtpConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#access_group_peer_acl Ntp#access_group_peer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#access_group_peer_acl Ntp#access_group_peer_acl}
   */
   readonly accessGroupPeerAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#access_group_query_only_acl Ntp#access_group_query_only_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#access_group_query_only_acl Ntp#access_group_query_only_acl}
   */
   readonly accessGroupQueryOnlyAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#access_group_serve_acl Ntp#access_group_serve_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#access_group_serve_acl Ntp#access_group_serve_acl}
   */
   readonly accessGroupServeAcl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#access_group_serve_only_acl Ntp#access_group_serve_only_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#access_group_serve_only_acl Ntp#access_group_serve_only_acl}
   */
   readonly accessGroupServeOnlyAcl?: string;
   /**
   * Authenticate time sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#authenticate Ntp#authenticate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#authenticate Ntp#authenticate}
   */
   readonly authenticate?: boolean | cdktf.IResolvable;
   /**
   * Authentication key for trusted time sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#authentication_keys Ntp#authentication_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#authentication_keys Ntp#authentication_keys}
   */
   readonly authenticationKeys?: NtpAuthenticationKeys[] | cdktf.IResolvable;
   /**
   * Length of hardware clock tick
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#clock_period Ntp#clock_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#clock_period Ntp#clock_period}
   */
   readonly clockPeriod?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#delete_mode Ntp#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#delete_mode Ntp#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#device Ntp#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#device Ntp#device}
   */
   readonly device?: string;
   /**
   * Enable NTP message logging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#logging Ntp#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#logging Ntp#logging}
   */
   readonly logging?: boolean | cdktf.IResolvable;
   /**
   * Act as NTP master clock
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#master Ntp#master}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#master Ntp#master}
   */
   readonly master?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#master_stratum Ntp#master_stratum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#master_stratum Ntp#master_stratum}
   */
   readonly masterStratum?: number;
   /**
   * NTP passive mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#passive Ntp#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#passive Ntp#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * VPN Routing/Forwarding Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#peer_vrfs Ntp#peer_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#peer_vrfs Ntp#peer_vrfs}
   */
   readonly peerVrfs?: NtpPeerVrfs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#peers Ntp#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#peers Ntp#peers}
   */
   readonly peers?: NtpPeers[] | cdktf.IResolvable;
   /**
   * VPN Routing/Forwarding Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#server_vrfs Ntp#server_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#server_vrfs Ntp#server_vrfs}
   */
   readonly serverVrfs?: NtpServerVrfs[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#servers Ntp#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#servers Ntp#servers}
   */
   readonly servers?: NtpServers[] | cdktf.IResolvable;
   /**
   * Forty GigabitEthernet 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_forty_gigabit_ethernet Ntp#source_forty_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_forty_gigabit_ethernet Ntp#source_forty_gigabit_ethernet}
   */
   readonly sourceFortyGigabitEthernet?: string;
   /**
   * GigabitEthernet IEEE 802.3z
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_gigabit_ethernet Ntp#source_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_gigabit_ethernet Ntp#source_gigabit_ethernet}
   */
   readonly sourceGigabitEthernet?: string;
   /**
   * Hundred GigabitEthernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_hundred_gigabit_ethernet Ntp#source_hundred_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_hundred_gigabit_ethernet Ntp#source_hundred_gigabit_ethernet}
   */
   readonly sourceHundredGigabitEthernet?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_loopback Ntp#source_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_loopback Ntp#source_loopback}
   */
   readonly sourceLoopback?: number;
   /**
   * Ethernet Channel of interfaces
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_port_channel Ntp#source_port_channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_port_channel Ntp#source_port_channel}
   */
   readonly sourcePortChannel?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_port_channel_subinterface Ntp#source_port_channel_subinterface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_port_channel_subinterface Ntp#source_port_channel_subinterface}
   */
   readonly sourcePortChannelSubinterface?: string;
   /**
   * Ten Gigabit Ethernet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_ten_gigabit_ethernet Ntp#source_ten_gigabit_ethernet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_ten_gigabit_ethernet Ntp#source_ten_gigabit_ethernet}
   */
   readonly sourceTenGigabitEthernet?: string;
   /**
   * Iosxr Vlans
   *   - Range: `0`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source_vlan Ntp#source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source_vlan Ntp#source_vlan}
   */
   readonly sourceVlan?: number;
   /**
   * Key numbers for trusted time sources
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#trusted_keys Ntp#trusted_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#trusted_keys Ntp#trusted_keys}
   */
   readonly trustedKeys?: NtpTrustedKeys[] | cdktf.IResolvable;
   /**
   * Periodically update calendar with NTP time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#update_calendar Ntp#update_calendar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#update_calendar Ntp#update_calendar}
   */
   readonly updateCalendar?: boolean | cdktf.IResolvable;
 }
@@ -166,51 +166,51 @@ export interface NtpAuthenticationKeys {
   /**
   * CMAC-AES-128 (digest length = 128 bits,  key length = [16 or 32] bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#cmac_aes_128 Ntp#cmac_aes_128}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#cmac_aes_128 Ntp#cmac_aes_128}
   */
   readonly cmacAes128?: string;
   /**
   * Authentication key encryption type
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#encryption_type Ntp#encryption_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#encryption_type Ntp#encryption_type}
   */
   readonly encryptionType?: number;
   /**
   * HMAC-SHA1 (digest length = 160 bits,  key length = [1-32] bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#hmac_sha1 Ntp#hmac_sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#hmac_sha1 Ntp#hmac_sha1}
   */
   readonly hmacSha1?: string;
   /**
   * HMAC-SHA2-256 (digest length = 256 bits,  key length = [1-32] bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#hmac_sha2_256 Ntp#hmac_sha2_256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#hmac_sha2_256 Ntp#hmac_sha2_256}
   */
   readonly hmacSha2256?: string;
   /**
   * MD5 authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#md5 Ntp#md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#md5 Ntp#md5}
   */
   readonly md5?: string;
   /**
   * 
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#number Ntp#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#number Ntp#number}
   */
   readonly number: number;
   /**
   * SHA1 (digest length = 160 bits,  key length = [1-32] bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#sha1 Ntp#sha1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#sha1 Ntp#sha1}
   */
   readonly sha1?: string;
   /**
   * SHA-256 (digest length = 256 bits,  key length = [1-32] bytes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#sha2 Ntp#sha2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#sha2 Ntp#sha2}
   */
   readonly sha2?: string;
 }
@@ -528,27 +528,27 @@ export interface NtpPeerVrfsPeers {
   /**
   * Configure ip/ipv6 address/hostname of peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#ip_address Ntp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#ip_address Ntp#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Configure peer authentication key
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#key Ntp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#key Ntp#key}
   */
   readonly key?: number;
   /**
   * Prefer this peer when possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#prefer Ntp#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#prefer Ntp#prefer}
   */
   readonly prefer?: boolean | cdktf.IResolvable;
   /**
   *     Configure NTP version
   *   - Range: `1`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#version Ntp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#version Ntp#version}
   */
   readonly version?: number;
 }
@@ -748,11 +748,11 @@ export class NtpPeerVrfsPeersList extends cdktf.ComplexList {
 }
 export interface NtpPeerVrfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#name Ntp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#name Ntp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#peers Ntp#peers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#peers Ntp#peers}
   */
   readonly peers?: NtpPeerVrfsPeers[] | cdktf.IResolvable;
 }
@@ -896,33 +896,33 @@ export interface NtpPeers {
   /**
   * Configure ip/ipv6 address/hostname of peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#ip_address Ntp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#ip_address Ntp#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Configure peer authentication key
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#key Ntp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#key Ntp#key}
   */
   readonly key?: number;
   /**
   * Prefer this peer when possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#prefer Ntp#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#prefer Ntp#prefer}
   */
   readonly prefer?: boolean | cdktf.IResolvable;
   /**
   * Interface for source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source Ntp#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source Ntp#source}
   */
   readonly source?: string;
   /**
   *     Configure NTP version
   *   - Range: `1`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#version Ntp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#version Ntp#version}
   */
   readonly version?: number;
 }
@@ -1153,45 +1153,45 @@ export interface NtpServerVrfsServers {
   /**
   * Send a burst when peer is reachable (Default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#burst Ntp#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#burst Ntp#burst}
   */
   readonly burst?: boolean | cdktf.IResolvable;
   /**
   * Send a burst when peer is unreachable (Default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#iburst Ntp#iburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#iburst Ntp#iburst}
   */
   readonly iburst?: boolean | cdktf.IResolvable;
   /**
   * Configure ip/ipv6 address/hostname of peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#ip_address Ntp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#ip_address Ntp#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Configure peer authentication key
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#key Ntp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#key Ntp#key}
   */
   readonly key?: number;
   /**
   * Check server availability periodically and switch to a new server if required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#periodic Ntp#periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#periodic Ntp#periodic}
   */
   readonly periodic?: boolean | cdktf.IResolvable;
   /**
   * Prefer this peer when possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#prefer Ntp#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#prefer Ntp#prefer}
   */
   readonly prefer?: boolean | cdktf.IResolvable;
   /**
   *     Configure NTP version
   *   - Range: `1`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#version Ntp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#version Ntp#version}
   */
   readonly version?: number;
 }
@@ -1478,11 +1478,11 @@ export class NtpServerVrfsServersList extends cdktf.ComplexList {
 }
 export interface NtpServerVrfs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#name Ntp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#name Ntp#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#servers Ntp#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#servers Ntp#servers}
   */
   readonly servers?: NtpServerVrfsServers[] | cdktf.IResolvable;
 }
@@ -1626,51 +1626,51 @@ export interface NtpServers {
   /**
   * Send a burst when peer is reachable (Default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#burst Ntp#burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#burst Ntp#burst}
   */
   readonly burst?: boolean | cdktf.IResolvable;
   /**
   * Send a burst when peer is unreachable (Default)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#iburst Ntp#iburst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#iburst Ntp#iburst}
   */
   readonly iburst?: boolean | cdktf.IResolvable;
   /**
   * Configure ip/ipv6 address/hostname of peer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#ip_address Ntp#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#ip_address Ntp#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Configure peer authentication key
   *   - Range: `1`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#key Ntp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#key Ntp#key}
   */
   readonly key?: number;
   /**
   * Check server availability periodically and switch to a new server if required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#periodic Ntp#periodic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#periodic Ntp#periodic}
   */
   readonly periodic?: boolean | cdktf.IResolvable;
   /**
   * Prefer this peer when possible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#prefer Ntp#prefer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#prefer Ntp#prefer}
   */
   readonly prefer?: boolean | cdktf.IResolvable;
   /**
   * Interface for source address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#source Ntp#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#source Ntp#source}
   */
   readonly source?: string;
   /**
   *     Configure NTP version
   *   - Range: `1`-`4`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#version Ntp#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#version Ntp#version}
   */
   readonly version?: number;
 }
@@ -1989,7 +1989,7 @@ export interface NtpTrustedKeys {
   * 
   *   - Range: `1`-`65535`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#number Ntp#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#number Ntp#number}
   */
   readonly number: number;
 }
@@ -2102,7 +2102,7 @@ export class NtpTrustedKeysList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp iosxe_ntp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp iosxe_ntp}
 */
 export class Ntp extends cdktf.TerraformResource {
 
@@ -2118,7 +2118,7 @@ export class Ntp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Ntp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Ntp to import
-  * @param importFromId The id of the existing Ntp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Ntp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Ntp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2130,7 +2130,7 @@ export class Ntp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/ntp iosxe_ntp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/ntp iosxe_ntp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2141,8 +2141,8 @@ export class Ntp extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_ntp',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataHarnessApplicationConfig extends cdktf.TerraformMetaArgumen
   /**
   * The application description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#description DataHarnessApplication#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#description DataHarnessApplication#description}
   */
   readonly description?: string;
   /**
   * The id of the git sync connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#git_sync_connector_id DataHarnessApplication#git_sync_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#git_sync_connector_id DataHarnessApplication#git_sync_connector_id}
   */
   readonly gitSyncConnectorId?: string;
   /**
   * True if git sync is enabled on this application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#git_sync_enabled DataHarnessApplication#git_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#git_sync_enabled DataHarnessApplication#git_sync_enabled}
   */
   readonly gitSyncEnabled?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#id DataHarnessApplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#id DataHarnessApplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,19 +37,19 @@ export interface DataHarnessApplicationConfig extends cdktf.TerraformMetaArgumen
   /**
   * When this is set to true, all manual triggers will require API Key authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#is_manual_trigger_authorized DataHarnessApplication#is_manual_trigger_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#is_manual_trigger_authorized DataHarnessApplication#is_manual_trigger_authorized}
   */
   readonly isManualTriggerAuthorized?: boolean | cdktf.IResolvable;
   /**
   * The name of the application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#name DataHarnessApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#name DataHarnessApplication#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application harness_application}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application harness_application}
 */
 export class DataHarnessApplication extends cdktf.TerraformDataSource {
 
@@ -65,7 +65,7 @@ export class DataHarnessApplication extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataHarnessApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataHarnessApplication to import
-  * @param importFromId The id of the existing DataHarnessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataHarnessApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataHarnessApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class DataHarnessApplication extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/data-sources/application harness_application} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/data-sources/application harness_application} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class DataHarnessApplication extends cdktf.TerraformDataSource {
       terraformResourceType: 'harness_application',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc
+// https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface NetworkingVpcConfig extends cdktf.TerraformMetaArguments {
   /**
   * Settings affecting DHCP behavior within the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#dhcp NetworkingVpc#dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#dhcp NetworkingVpc#dhcp}
   */
   readonly dhcp?: NetworkingVpcDhcp;
   /**
   * Settings affecting traffic leaving the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#egress NetworkingVpc#egress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#egress NetworkingVpc#egress}
   */
   readonly egress?: NetworkingVpcEgress;
   /**
@@ -24,31 +24,31 @@ export interface NetworkingVpcConfig extends cdktf.TerraformMetaArguments {
   * This CIDR must be have a mask size of /18. If left unspecified, a Zone-specific default value will be applied by the server.
   * This field is immutable once set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#host_prefix NetworkingVpc#host_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#host_prefix NetworkingVpc#host_prefix}
   */
   readonly hostPrefix?: string;
   /**
   * Settings affecting traffic entering the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#ingress NetworkingVpc#ingress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#ingress NetworkingVpc#ingress}
   */
   readonly ingress?: NetworkingVpcIngress;
   /**
   * The name of the VPC. Must not be longer than 30 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#name NetworkingVpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#name NetworkingVpc#name}
   */
   readonly name: string;
   /**
   * A list of additional prefixes associated with the VPC. For example, CKS clusters use these prefixes for Pod and service CIDR ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#vpc_prefixes NetworkingVpc#vpc_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#vpc_prefixes NetworkingVpc#vpc_prefixes}
   */
   readonly vpcPrefixes?: NetworkingVpcVpcPrefixes[] | cdktf.IResolvable;
   /**
   * The Availability Zone in which the VPC is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#zone NetworkingVpc#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#zone NetworkingVpc#zone}
   */
   readonly zone: string;
 }
@@ -56,7 +56,7 @@ export interface NetworkingVpcDhcpDns {
   /**
   * The DNS servers to be used by DHCP clients within the VPC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#servers NetworkingVpc#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#servers NetworkingVpc#servers}
   */
   readonly servers?: string[];
 }
@@ -152,7 +152,7 @@ export interface NetworkingVpcDhcp {
   /**
   * Settings affecting DNS for DHCP within the VPC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#dns NetworkingVpc#dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#dns NetworkingVpc#dns}
   */
   readonly dns?: NetworkingVpcDhcpDns;
 }
@@ -248,7 +248,7 @@ export interface NetworkingVpcEgress {
   /**
   * Specifies whether the VPC should be blocked from consuming public Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#disable_public_access NetworkingVpc#disable_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#disable_public_access NetworkingVpc#disable_public_access}
   */
   readonly disablePublicAccess?: boolean | cdktf.IResolvable;
 }
@@ -344,7 +344,7 @@ export interface NetworkingVpcIngress {
   /**
   * Specifies whether the VPC should prevent public prefixes advertised from Nodes from being imported into public-facing networks, making them inaccessible from the Internet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#disable_public_services NetworkingVpc#disable_public_services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#disable_public_services NetworkingVpc#disable_public_services}
   */
   readonly disablePublicServices?: boolean | cdktf.IResolvable;
 }
@@ -438,11 +438,11 @@ export class NetworkingVpcIngressOutputReference extends cdktf.ComplexObject {
 }
 export interface NetworkingVpcVpcPrefixes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#name NetworkingVpc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#name NetworkingVpc#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#value NetworkingVpc#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#value NetworkingVpc#value}
   */
   readonly value: string;
 }
@@ -581,7 +581,7 @@ export class NetworkingVpcVpcPrefixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc coreweave_networking_vpc}
+* Represents a {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc coreweave_networking_vpc}
 */
 export class NetworkingVpc extends cdktf.TerraformResource {
 
@@ -597,7 +597,7 @@ export class NetworkingVpc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingVpc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingVpc to import
-  * @param importFromId The id of the existing NetworkingVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingVpc that should be imported. Refer to the {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingVpc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -609,7 +609,7 @@ export class NetworkingVpc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.0/docs/resources/networking_vpc coreweave_networking_vpc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/coreweave/coreweave/0.7.1/docs/resources/networking_vpc coreweave_networking_vpc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -620,8 +620,8 @@ export class NetworkingVpc extends cdktf.TerraformResource {
       terraformResourceType: 'coreweave_networking_vpc',
       terraformGeneratorMetadata: {
         providerName: 'coreweave',
-        providerVersion: '0.7.0',
-        providerVersionConstraint: '0.7.0'
+        providerVersion: '0.7.1',
+        providerVersionConstraint: '0.7.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,89 +10,89 @@ export interface AaaSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administration Node. Required for ISE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_pan AaaSettings#client_aaa_pan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_pan AaaSettings#client_aaa_pan}
   */
   readonly clientAaaPan?: string;
   /**
   * The server to use as a primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_primary_server_ip AaaSettings#client_aaa_primary_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_primary_server_ip AaaSettings#client_aaa_primary_server_ip}
   */
   readonly clientAaaPrimaryServerIp?: string;
   /**
   * Server protocol
   *   - Choices: `RADIUS`, `TACACS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_protocol AaaSettings#client_aaa_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_protocol AaaSettings#client_aaa_protocol}
   */
   readonly clientAaaProtocol?: string;
   /**
   * The server to use as a secondary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_secondary_server_ip AaaSettings#client_aaa_secondary_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_secondary_server_ip AaaSettings#client_aaa_secondary_server_ip}
   */
   readonly clientAaaSecondaryServerIp?: string;
   /**
   * Type of client AAA server
   *   - Choices: `AAA`, `ISE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_server_type AaaSettings#client_aaa_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_server_type AaaSettings#client_aaa_server_type}
   */
   readonly clientAaaServerType?: string;
   /**
   * Only relevant for server type `ISE`, shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#client_aaa_shared_secret AaaSettings#client_aaa_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#client_aaa_shared_secret AaaSettings#client_aaa_shared_secret}
   */
   readonly clientAaaSharedSecret?: string;
   /**
   * Administration Node. Required for ISE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_pan AaaSettings#network_aaa_pan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_pan AaaSettings#network_aaa_pan}
   */
   readonly networkAaaPan?: string;
   /**
   * The server to use as a primary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_primary_server_ip AaaSettings#network_aaa_primary_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_primary_server_ip AaaSettings#network_aaa_primary_server_ip}
   */
   readonly networkAaaPrimaryServerIp?: string;
   /**
   * Server protocol
   *   - Choices: `RADIUS`, `TACACS`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_protocol AaaSettings#network_aaa_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_protocol AaaSettings#network_aaa_protocol}
   */
   readonly networkAaaProtocol?: string;
   /**
   * The server to use as a secondary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_secondary_server_ip AaaSettings#network_aaa_secondary_server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_secondary_server_ip AaaSettings#network_aaa_secondary_server_ip}
   */
   readonly networkAaaSecondaryServerIp?: string;
   /**
   * Type of network AAA server
   *   - Choices: `AAA`, `ISE`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_server_type AaaSettings#network_aaa_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_server_type AaaSettings#network_aaa_server_type}
   */
   readonly networkAaaServerType?: string;
   /**
   * Only relevant for server type `ISE`, shared secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#network_aaa_shared_secret AaaSettings#network_aaa_shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#network_aaa_shared_secret AaaSettings#network_aaa_shared_secret}
   */
   readonly networkAaaSharedSecret?: string;
   /**
   * The site ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#site_id AaaSettings#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#site_id AaaSettings#site_id}
   */
   readonly siteId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings catalystcenter_aaa_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings catalystcenter_aaa_settings}
 */
 export class AaaSettings extends cdktf.TerraformResource {
 
@@ -108,7 +108,7 @@ export class AaaSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AaaSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AaaSettings to import
-  * @param importFromId The id of the existing AaaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AaaSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AaaSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -120,7 +120,7 @@ export class AaaSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/aaa_settings catalystcenter_aaa_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/aaa_settings catalystcenter_aaa_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -131,8 +131,8 @@ export class AaaSettings extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_aaa_settings',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

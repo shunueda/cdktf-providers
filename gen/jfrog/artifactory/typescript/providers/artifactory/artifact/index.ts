@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ArtifactConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64 content of the source file. Conflicts with `file_path`. Either one of these attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact#content_base64 Artifact#content_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact#content_base64 Artifact#content_base64}
   */
   readonly contentBase64?: string;
   /**
   * Path to the source file. Conflicts with `content_base64`. Either one of these attribute must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact#file_path Artifact#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact#file_path Artifact#file_path}
   */
   readonly filePath?: string;
   /**
   * The relative path in the target repository. Must begin with a '/'. You can add key-value matrix parameters to deploy the artifacts with properties. For more details, please refer to [Introducing Matrix Parameters](https://jfrog.com/help/r/jfrog-artifactory-documentation/using-properties-in-deployment-and-resolution).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact#path Artifact#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact#path Artifact#path}
   */
   readonly path: string;
   /**
   * Name of the respository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact#repository Artifact#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact#repository Artifact#repository}
   */
   readonly repository: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact artifactory_artifact}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact artifactory_artifact}
 */
 export class Artifact extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Artifact extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Artifact resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Artifact to import
-  * @param importFromId The id of the existing Artifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Artifact that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Artifact to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Artifact extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/artifact artifactory_artifact} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/artifact artifactory_artifact} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Artifact extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_artifact',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs
+// https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SdmProviderConfig {
   /**
   * A GUID identifying the API key used to authenticate with the StrongDM API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#api_access_key SdmProvider#api_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#api_access_key SdmProvider#api_access_key}
   */
   readonly apiAccessKey?: string;
   /**
   * A base64 encoded secret key used to authenticate with the StrongDM API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#api_secret_key SdmProvider#api_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#api_secret_key SdmProvider#api_secret_key}
   */
   readonly apiSecretKey?: string;
   /**
   * The host and port of the StrongDM API endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#host SdmProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#host SdmProvider#host}
   */
   readonly host?: string;
   /**
   * Whether experienced rate limits should cause the client to sleep instead of erroring out
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#retry_rate_limit_errors SdmProvider#retry_rate_limit_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#retry_rate_limit_errors SdmProvider#retry_rate_limit_errors}
   */
   readonly retryRateLimitErrors?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#alias SdmProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#alias SdmProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs sdm}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs sdm}
 */
 export class SdmProvider extends cdktf.TerraformProvider {
 
@@ -56,7 +56,7 @@ export class SdmProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SdmProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SdmProvider to import
-  * @param importFromId The id of the existing SdmProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SdmProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SdmProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class SdmProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.28.0/docs sdm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.31.0/docs sdm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class SdmProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'sdm',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.28.0',
-        providerVersionConstraint: '15.28.0'
+        providerVersion: '15.31.0',
+        providerVersionConstraint: '15.31.0'
       },
       terraformProviderSource: 'strongdm/sdm'
     });

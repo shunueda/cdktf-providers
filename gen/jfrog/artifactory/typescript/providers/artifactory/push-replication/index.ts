@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface PushReplicationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cron expression to control the operation frequency.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#cron_exp PushReplication#cron_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#cron_exp PushReplication#cron_exp}
   */
   readonly cronExp: string;
   /**
   * When set, each event will trigger replication of the artifacts changed in this event. This can be any type of event on artifact, e.g. add, deleted or property change. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#enable_event_replication PushReplication#enable_event_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#enable_event_replication PushReplication#enable_event_replication}
   */
   readonly enableEventReplication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#id PushReplication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#id PushReplication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#repo_key PushReplication#repo_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#repo_key PushReplication#repo_key}
   */
   readonly repoKey: string;
   /**
   * replications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#replications PushReplication#replications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#replications PushReplication#replications}
   */
   readonly replications?: PushReplicationReplications[] | cdktf.IResolvable;
 }
@@ -41,53 +41,53 @@ export interface PushReplicationReplications {
   /**
   * When true, enables distributed checksum storage. For more information, see [Optimizing Repository Replication with Checksum-Based Storage](https://www.jfrog.com/confluence/display/JFROG/Repository+Replication#RepositoryReplication-OptimizingRepositoryReplicationUsingStorageLevelSynchronizationOptions).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#check_binary_existence_in_filestore PushReplication#check_binary_existence_in_filestore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#check_binary_existence_in_filestore PushReplication#check_binary_existence_in_filestore}
   */
   readonly checkBinaryExistenceInFilestore?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#enabled PushReplication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#enabled PushReplication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Password for push replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#password PushReplication#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#password PushReplication#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#path_prefix PushReplication#path_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#path_prefix PushReplication#path_prefix}
   */
   readonly pathPrefix?: string;
   /**
   * Proxy key from Artifactory Proxies setting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#proxy PushReplication#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#proxy PushReplication#proxy}
   */
   readonly proxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#socket_timeout_millis PushReplication#socket_timeout_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#socket_timeout_millis PushReplication#socket_timeout_millis}
   */
   readonly socketTimeoutMillis?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#sync_deletes PushReplication#sync_deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#sync_deletes PushReplication#sync_deletes}
   */
   readonly syncDeletes?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#sync_properties PushReplication#sync_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#sync_properties PushReplication#sync_properties}
   */
   readonly syncProperties?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#sync_statistics PushReplication#sync_statistics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#sync_statistics PushReplication#sync_statistics}
   */
   readonly syncStatistics?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#url PushReplication#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#url PushReplication#url}
   */
   readonly url: string;
   /**
   * Username for push replication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#username PushReplication#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#username PushReplication#username}
   */
   readonly username: string;
 }
@@ -484,7 +484,7 @@ export class PushReplicationReplicationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication artifactory_push_replication}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication artifactory_push_replication}
 */
 export class PushReplication extends cdktf.TerraformResource {
 
@@ -500,7 +500,7 @@ export class PushReplication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PushReplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PushReplication to import
-  * @param importFromId The id of the existing PushReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PushReplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PushReplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -512,7 +512,7 @@ export class PushReplication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/push_replication artifactory_push_replication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/push_replication artifactory_push_replication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -523,8 +523,8 @@ export class PushReplication extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_push_replication',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

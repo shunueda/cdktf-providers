@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli
+// https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CredentialsCliConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the CLI credentials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli#description CredentialsCli#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli#description CredentialsCli#description}
   */
   readonly description: string;
   /**
   * Enable password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli#enable_password CredentialsCli#enable_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli#enable_password CredentialsCli#enable_password}
   */
   readonly enablePassword?: string;
   /**
   * Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli#password CredentialsCli#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli#password CredentialsCli#password}
   */
   readonly password: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli#username CredentialsCli#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli#username CredentialsCli#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli catalystcenter_credentials_cli}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli catalystcenter_credentials_cli}
 */
 export class CredentialsCli extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CredentialsCli extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CredentialsCli resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CredentialsCli to import
-  * @param importFromId The id of the existing CredentialsCli that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CredentialsCli that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CredentialsCli to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CredentialsCli extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.2/docs/resources/credentials_cli catalystcenter_credentials_cli} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/catalystcenter/0.4.3/docs/resources/credentials_cli catalystcenter_credentials_cli} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CredentialsCli extends cdktf.TerraformResource {
       terraformResourceType: 'catalystcenter_credentials_cli',
       terraformGeneratorMetadata: {
         providerName: 'catalystcenter',
-        providerVersion: '0.4.2',
-        providerVersionConstraint: '0.4.2'
+        providerVersion: '0.4.3',
+        providerVersionConstraint: '0.4.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

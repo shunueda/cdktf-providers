@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface RepositoryLayoutConfig extends cdktf.TerraformMetaArguments {
   /**
   * Please refer to: [Path Patterns](https://www.jfrog.com/confluence/display/JFROG/Repository+Layouts#RepositoryLayouts-ModulesandPathPatternsusedbyRepositoryLayouts) in the Artifactory Wiki documentation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#artifact_path_pattern RepositoryLayout#artifact_path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#artifact_path_pattern RepositoryLayout#artifact_path_pattern}
   */
   readonly artifactPathPattern: string;
   /**
   * Please refer to: [Descriptor Path Patterns](https://www.jfrog.com/confluence/display/JFROG/Repository+Layouts#RepositoryLayouts-DescriptorPathPatterns) in the Artifactory Wiki documentation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#descriptor_path_pattern RepositoryLayout#descriptor_path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#descriptor_path_pattern RepositoryLayout#descriptor_path_pattern}
   */
   readonly descriptorPathPattern?: string;
   /**
   * When set, `descriptor_path_pattern` will be used. Default to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#distinctive_descriptor_path_pattern RepositoryLayout#distinctive_descriptor_path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#distinctive_descriptor_path_pattern RepositoryLayout#distinctive_descriptor_path_pattern}
   */
   readonly distinctiveDescriptorPathPattern?: boolean | cdktf.IResolvable;
   /**
   * A regular expression matching the integration revision string appearing in a file name as part of the artifact's path. For example, `SNAPSHOT|(?:(?:[0-9]{8}.[0-9]{6})-(?:[0-9]+))`, in Maven. Note! Take care not to introduce any regexp capturing groups within this expression. If not applicable use `.*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#file_integration_revision_regexp RepositoryLayout#file_integration_revision_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#file_integration_revision_regexp RepositoryLayout#file_integration_revision_regexp}
   */
   readonly fileIntegrationRevisionRegexp: string;
   /**
   * A regular expression matching the integration revision string appearing in a folder name as part of the artifact's path. For example, `SNAPSHOT`, in Maven. Note! Take care not to introduce any regexp capturing groups within this expression. If not applicable use `.*`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#folder_integration_revision_regexp RepositoryLayout#folder_integration_revision_regexp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#folder_integration_revision_regexp RepositoryLayout#folder_integration_revision_regexp}
   */
   readonly folderIntegrationRevisionRegexp: string;
   /**
   * Layout name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#name RepositoryLayout#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#name RepositoryLayout#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout artifactory_repository_layout}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout artifactory_repository_layout}
 */
 export class RepositoryLayout extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class RepositoryLayout extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryLayout resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryLayout to import
-  * @param importFromId The id of the existing RepositoryLayout that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryLayout that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryLayout to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class RepositoryLayout extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/repository_layout artifactory_repository_layout} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/repository_layout artifactory_repository_layout} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class RepositoryLayout extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_repository_layout',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

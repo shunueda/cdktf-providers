@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity
+// https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface ManagedIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#aws_role ManagedIdentity#aws_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#aws_role ManagedIdentity#aws_role}
   */
   readonly awsRole?: string;
   /**
   * Azure client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#azure_client_id ManagedIdentity#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#azure_client_id ManagedIdentity#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * Azure tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#azure_tenant_id ManagedIdentity#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#azure_tenant_id ManagedIdentity#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * A description of the managed identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#description ManagedIdentity#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#description ManagedIdentity#description}
   */
   readonly description?: string;
   /**
   * Full path of the parent group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#group_path ManagedIdentity#group_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#group_path ManagedIdentity#group_path}
   */
   readonly groupPath: string;
   /**
   * The name of the managed identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#name ManagedIdentity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#name ManagedIdentity#name}
   */
   readonly name: string;
   /**
   * Tharsis service account path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#tharsis_service_account_path ManagedIdentity#tharsis_service_account_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#tharsis_service_account_path ManagedIdentity#tharsis_service_account_path}
   */
   readonly tharsisServiceAccountPath?: string;
   /**
   * Type of managed identity: AWS, Azure, or Tharsis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#type ManagedIdentity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#type ManagedIdentity#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity tharsis_managed_identity}
+* Represents a {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity tharsis_managed_identity}
 */
 export class ManagedIdentity extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class ManagedIdentity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedIdentity to import
-  * @param importFromId The id of the existing ManagedIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class ManagedIdentity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.14.1/docs/resources/managed_identity tharsis_managed_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/martian-cloud/tharsis/0.15.0/docs/resources/managed_identity tharsis_managed_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class ManagedIdentity extends cdktf.TerraformResource {
       terraformResourceType: 'tharsis_managed_identity',
       terraformGeneratorMetadata: {
         providerName: 'tharsis',
-        providerVersion: '0.14.1',
-        providerVersionConstraint: '0.14.1'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

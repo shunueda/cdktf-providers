@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,109 +11,109 @@ export interface DeviceSensorConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#delete_mode DeviceSensor#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#delete_mode DeviceSensor#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#device DeviceSensor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#device DeviceSensor#device}
   */
   readonly device?: string;
   /**
   * Protocol Filter List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_lists_cdp DeviceSensor#filter_lists_cdp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_lists_cdp DeviceSensor#filter_lists_cdp}
   */
   readonly filterListsCdp?: DeviceSensorFilterListsCdp[] | cdktf.IResolvable;
   /**
   * Protocol Filter List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_lists_dhcp DeviceSensor#filter_lists_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_lists_dhcp DeviceSensor#filter_lists_dhcp}
   */
   readonly filterListsDhcp?: DeviceSensorFilterListsDhcp[] | cdktf.IResolvable;
   /**
   * Protocol Filter List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_lists_lldp DeviceSensor#filter_lists_lldp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_lists_lldp DeviceSensor#filter_lists_lldp}
   */
   readonly filterListsLldp?: DeviceSensorFilterListsLldp[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_cdp_excludes DeviceSensor#filter_spec_cdp_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_cdp_excludes DeviceSensor#filter_spec_cdp_excludes}
   */
   readonly filterSpecCdpExcludes?: DeviceSensorFilterSpecCdpExcludes[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_cdp_includes DeviceSensor#filter_spec_cdp_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_cdp_includes DeviceSensor#filter_spec_cdp_includes}
   */
   readonly filterSpecCdpIncludes?: DeviceSensorFilterSpecCdpIncludes[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_dhcp_excludes DeviceSensor#filter_spec_dhcp_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_dhcp_excludes DeviceSensor#filter_spec_dhcp_excludes}
   */
   readonly filterSpecDhcpExcludes?: DeviceSensorFilterSpecDhcpExcludes[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_dhcp_includes DeviceSensor#filter_spec_dhcp_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_dhcp_includes DeviceSensor#filter_spec_dhcp_includes}
   */
   readonly filterSpecDhcpIncludes?: DeviceSensorFilterSpecDhcpIncludes[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_lldp_excludes DeviceSensor#filter_spec_lldp_excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_lldp_excludes DeviceSensor#filter_spec_lldp_excludes}
   */
   readonly filterSpecLldpExcludes?: DeviceSensorFilterSpecLldpExcludes[] | cdktf.IResolvable;
   /**
   * Protocol Filter Spec list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#filter_spec_lldp_includes DeviceSensor#filter_spec_lldp_includes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#filter_spec_lldp_includes DeviceSensor#filter_spec_lldp_includes}
   */
   readonly filterSpecLldpIncludes?: DeviceSensorFilterSpecLldpIncludes[] | cdktf.IResolvable;
   /**
   * Trigger identity update when TLVs are added/modified/removed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#notify_all_changes DeviceSensor#notify_all_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#notify_all_changes DeviceSensor#notify_all_changes}
   */
   readonly notifyAllChanges?: boolean | cdktf.IResolvable;
 }
 export interface DeviceSensorFilterListsCdp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
   /**
   * Address Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_address_type DeviceSensor#tlv_name_address_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_address_type DeviceSensor#tlv_name_address_type}
   */
   readonly tlvNameAddressType?: boolean | cdktf.IResolvable;
   /**
   * Capabilities Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_capabilities_type DeviceSensor#tlv_name_capabilities_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_capabilities_type DeviceSensor#tlv_name_capabilities_type}
   */
   readonly tlvNameCapabilitiesType?: boolean | cdktf.IResolvable;
   /**
   * Device Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_device_name DeviceSensor#tlv_name_device_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_device_name DeviceSensor#tlv_name_device_name}
   */
   readonly tlvNameDeviceName?: boolean | cdktf.IResolvable;
   /**
   * Platform Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_platform_type DeviceSensor#tlv_name_platform_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_platform_type DeviceSensor#tlv_name_platform_type}
   */
   readonly tlvNamePlatformType?: boolean | cdktf.IResolvable;
   /**
   * Port Id type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_port_id_type DeviceSensor#tlv_name_port_id_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_port_id_type DeviceSensor#tlv_name_port_id_type}
   */
   readonly tlvNamePortIdType?: boolean | cdktf.IResolvable;
 }
@@ -371,49 +371,49 @@ export class DeviceSensorFilterListsCdpList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterListsDhcp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
   /**
   * Class Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_class_identifier DeviceSensor#option_name_class_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_class_identifier DeviceSensor#option_name_class_identifier}
   */
   readonly optionNameClassIdentifier?: boolean | cdktf.IResolvable;
   /**
   * Client FQDN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_client_fqdn DeviceSensor#option_name_client_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_client_fqdn DeviceSensor#option_name_client_fqdn}
   */
   readonly optionNameClientFqdn?: boolean | cdktf.IResolvable;
   /**
   * Client Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_client_identifier DeviceSensor#option_name_client_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_client_identifier DeviceSensor#option_name_client_identifier}
   */
   readonly optionNameClientIdentifier?: boolean | cdktf.IResolvable;
   /**
   * Default IP Time To Live
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_default_ip_ttl DeviceSensor#option_name_default_ip_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_default_ip_ttl DeviceSensor#option_name_default_ip_ttl}
   */
   readonly optionNameDefaultIpTtl?: boolean | cdktf.IResolvable;
   /**
   * Host Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_host_name DeviceSensor#option_name_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_host_name DeviceSensor#option_name_host_name}
   */
   readonly optionNameHostName?: boolean | cdktf.IResolvable;
   /**
   * Parameter List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_parameter_request_list DeviceSensor#option_name_parameter_request_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_parameter_request_list DeviceSensor#option_name_parameter_request_list}
   */
   readonly optionNameParameterRequestList?: boolean | cdktf.IResolvable;
   /**
   * Address Request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#option_name_requested_address DeviceSensor#option_name_requested_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#option_name_requested_address DeviceSensor#option_name_requested_address}
   */
   readonly optionNameRequestedAddress?: boolean | cdktf.IResolvable;
 }
@@ -729,37 +729,37 @@ export class DeviceSensorFilterListsDhcpList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterListsLldp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
   /**
   * Port Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_port_description DeviceSensor#tlv_name_port_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_port_description DeviceSensor#tlv_name_port_description}
   */
   readonly tlvNamePortDescription?: boolean | cdktf.IResolvable;
   /**
   * Port Id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_port_id DeviceSensor#tlv_name_port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_port_id DeviceSensor#tlv_name_port_id}
   */
   readonly tlvNamePortId?: boolean | cdktf.IResolvable;
   /**
   * System Capabilities
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_system_capabilities DeviceSensor#tlv_name_system_capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_system_capabilities DeviceSensor#tlv_name_system_capabilities}
   */
   readonly tlvNameSystemCapabilities?: boolean | cdktf.IResolvable;
   /**
   * System Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_system_description DeviceSensor#tlv_name_system_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_system_description DeviceSensor#tlv_name_system_description}
   */
   readonly tlvNameSystemDescription?: boolean | cdktf.IResolvable;
   /**
   * System Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#tlv_name_system_name DeviceSensor#tlv_name_system_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#tlv_name_system_name DeviceSensor#tlv_name_system_name}
   */
   readonly tlvNameSystemName?: boolean | cdktf.IResolvable;
 }
@@ -1017,7 +1017,7 @@ export class DeviceSensorFilterListsLldpList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecCdpExcludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1130,7 +1130,7 @@ export class DeviceSensorFilterSpecCdpExcludesList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecCdpIncludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1243,7 +1243,7 @@ export class DeviceSensorFilterSpecCdpIncludesList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecDhcpExcludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1356,7 +1356,7 @@ export class DeviceSensorFilterSpecDhcpExcludesList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecDhcpIncludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1469,7 +1469,7 @@ export class DeviceSensorFilterSpecDhcpIncludesList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecLldpExcludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1582,7 +1582,7 @@ export class DeviceSensorFilterSpecLldpExcludesList extends cdktf.ComplexList {
 }
 export interface DeviceSensorFilterSpecLldpIncludes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#name DeviceSensor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#name DeviceSensor#name}
   */
   readonly name: string;
 }
@@ -1695,7 +1695,7 @@ export class DeviceSensorFilterSpecLldpIncludesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor iosxe_device_sensor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor iosxe_device_sensor}
 */
 export class DeviceSensor extends cdktf.TerraformResource {
 
@@ -1711,7 +1711,7 @@ export class DeviceSensor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceSensor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceSensor to import
-  * @param importFromId The id of the existing DeviceSensor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceSensor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceSensor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1723,7 +1723,7 @@ export class DeviceSensor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/device_sensor iosxe_device_sensor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/device_sensor iosxe_device_sensor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1734,8 +1734,8 @@ export class DeviceSensor extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_device_sensor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

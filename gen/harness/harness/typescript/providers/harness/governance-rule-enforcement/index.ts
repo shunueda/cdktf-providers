@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GovernanceRuleEnforcementConfig extends cdktf.TerraformMetaArgu
   /**
   * The cloud provider for the rule enforcement. It should be either AWS, AZURE or GCP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#cloud_provider GovernanceRuleEnforcement#cloud_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#cloud_provider GovernanceRuleEnforcement#cloud_provider}
   */
   readonly cloudProvider: string;
   /**
   * Description for rule enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#description GovernanceRuleEnforcement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#description GovernanceRuleEnforcement#description}
   */
   readonly description?: string;
   /**
   * Execution schedule in cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#execution_schedule GovernanceRuleEnforcement#execution_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#execution_schedule GovernanceRuleEnforcement#execution_schedule}
   */
   readonly executionSchedule: string;
   /**
   * Timezone for the execution schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#execution_timezone GovernanceRuleEnforcement#execution_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#execution_timezone GovernanceRuleEnforcement#execution_timezone}
   */
   readonly executionTimezone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#id GovernanceRuleEnforcement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#id GovernanceRuleEnforcement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface GovernanceRuleEnforcementConfig extends cdktf.TerraformMetaArgu
   /**
   * Indicates if the rule enforcement is a dry run. This by default is set to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#is_dry_run GovernanceRuleEnforcement#is_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#is_dry_run GovernanceRuleEnforcement#is_dry_run}
   */
   readonly isDryRun?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the rule enforcement is enabled. This by default is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#is_enabled GovernanceRuleEnforcement#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#is_enabled GovernanceRuleEnforcement#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the rule enforcement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#name GovernanceRuleEnforcement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#name GovernanceRuleEnforcement#name}
   */
   readonly name: string;
   /**
   * List of rule IDs. Either rule_ids or rule_set_ids should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#rule_ids GovernanceRuleEnforcement#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#rule_ids GovernanceRuleEnforcement#rule_ids}
   */
   readonly ruleIds?: string[];
   /**
   * List of rule set IDs. Either rule_ids or rule_set_ids should be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#rule_set_ids GovernanceRuleEnforcement#rule_set_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#rule_set_ids GovernanceRuleEnforcement#rule_set_ids}
   */
   readonly ruleSetIds?: string[];
   /**
   * List of target account which can be either AWS Account Ids or Azure Subscription Ids or Gcp Project Ids.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#target_accounts GovernanceRuleEnforcement#target_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#target_accounts GovernanceRuleEnforcement#target_accounts}
   */
   readonly targetAccounts: string[];
   /**
   * List of target regions. For GCP it should be left empty but is required in case of AWS or Azure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#target_regions GovernanceRuleEnforcement#target_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#target_regions GovernanceRuleEnforcement#target_regions}
   */
   readonly targetRegions?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement harness_governance_rule_enforcement}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement harness_governance_rule_enforcement}
 */
 export class GovernanceRuleEnforcement extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class GovernanceRuleEnforcement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GovernanceRuleEnforcement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GovernanceRuleEnforcement to import
-  * @param importFromId The id of the existing GovernanceRuleEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GovernanceRuleEnforcement that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GovernanceRuleEnforcement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class GovernanceRuleEnforcement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/governance_rule_enforcement harness_governance_rule_enforcement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/governance_rule_enforcement harness_governance_rule_enforcement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class GovernanceRuleEnforcement extends cdktf.TerraformResource {
       terraformResourceType: 'harness_governance_rule_enforcement',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

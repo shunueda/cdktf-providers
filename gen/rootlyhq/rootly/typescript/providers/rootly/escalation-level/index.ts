@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level
+// https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface EscalationLevelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Delay before notification targets will be alerted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#delay EscalationLevel#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#delay EscalationLevel#delay}
   */
   readonly delay?: number;
   /**
   * The ID of the escalation policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#escalation_policy_id EscalationLevel#escalation_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#escalation_policy_id EscalationLevel#escalation_policy_id}
   */
   readonly escalationPolicyId?: string;
   /**
   * The ID of the dynamic escalation policy path the level will belong to. If nothing is specified it will add the level to your default path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#escalation_policy_path_id EscalationLevel#escalation_policy_path_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#escalation_policy_path_id EscalationLevel#escalation_policy_path_id}
   */
   readonly escalationPolicyPathId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#id EscalationLevel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#id EscalationLevel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface EscalationLevelConfig extends cdktf.TerraformMetaArguments {
   /**
   * Value must be one of `on_call_only`, `everyone`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#paging_strategy_configuration_schedule_strategy EscalationLevel#paging_strategy_configuration_schedule_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#paging_strategy_configuration_schedule_strategy EscalationLevel#paging_strategy_configuration_schedule_strategy}
   */
   readonly pagingStrategyConfigurationScheduleStrategy?: string;
   /**
   * Value must be one of `default`, `random`, `cycle`, `alert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#paging_strategy_configuration_strategy EscalationLevel#paging_strategy_configuration_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#paging_strategy_configuration_strategy EscalationLevel#paging_strategy_configuration_strategy}
   */
   readonly pagingStrategyConfigurationStrategy?: string;
   /**
   * Position of the escalation policy level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#position EscalationLevel#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#position EscalationLevel#position}
   */
   readonly position: number;
   /**
   * notification_target_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#notification_target_params EscalationLevel#notification_target_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#notification_target_params EscalationLevel#notification_target_params}
   */
   readonly notificationTargetParams: EscalationLevelNotificationTargetParams[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface EscalationLevelNotificationTargetParams {
   /**
   * The ID of notification target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#id EscalationLevel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#id EscalationLevel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,13 +70,13 @@ export interface EscalationLevelNotificationTargetParams {
   /**
   * For targets with type=team, controls whether to notify admins, all team members, or escalate to team EP.. Value must be one of `all`, `admins`, `escalate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#team_members EscalationLevel#team_members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#team_members EscalationLevel#team_members}
   */
   readonly teamMembers?: string;
   /**
   * The type of the notification target. Value must be one of `team`, `user`, `schedule`, `slack_channel`, `service`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#type EscalationLevel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#type EscalationLevel#type}
   */
   readonly type?: string;
 }
@@ -250,7 +250,7 @@ export class EscalationLevelNotificationTargetParamsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level rootly_escalation_level}
+* Represents a {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level rootly_escalation_level}
 */
 export class EscalationLevel extends cdktf.TerraformResource {
 
@@ -266,7 +266,7 @@ export class EscalationLevel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EscalationLevel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EscalationLevel to import
-  * @param importFromId The id of the existing EscalationLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EscalationLevel that should be imported. Refer to the {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EscalationLevel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -278,7 +278,7 @@ export class EscalationLevel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.7/docs/resources/escalation_level rootly_escalation_level} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rootlyhq/rootly/4.3.8/docs/resources/escalation_level rootly_escalation_level} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -289,8 +289,8 @@ export class EscalationLevel extends cdktf.TerraformResource {
       terraformResourceType: 'rootly_escalation_level',
       terraformGeneratorMetadata: {
         providerName: 'rootly',
-        providerVersion: '4.3.7',
-        providerVersionConstraint: '4.3.7'
+        providerVersion: '4.3.8',
+        providerVersionConstraint: '4.3.8'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

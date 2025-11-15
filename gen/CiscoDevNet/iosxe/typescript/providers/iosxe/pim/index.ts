@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface PimConfig extends cdktf.TerraformMetaArguments {
   /**
   * Configure AutoRP global operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#autorp Pim#autorp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#autorp Pim#autorp}
   */
   readonly autorp?: boolean | cdktf.IResolvable;
   /**
   * Allow AutoRP packets across sparse mode interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#autorp_listener Pim#autorp_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#autorp_listener Pim#autorp_listener}
   */
   readonly autorpListener?: boolean | cdktf.IResolvable;
   /**
   * BSR RP candidate filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_accept_rp_candidate Pim#bsr_candidate_accept_rp_candidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_accept_rp_candidate Pim#bsr_candidate_accept_rp_candidate}
   */
   readonly bsrCandidateAcceptRpCandidate?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_loopback Pim#bsr_candidate_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_loopback Pim#bsr_candidate_loopback}
   */
   readonly bsrCandidateLoopback?: number;
   /**
   * Hash Mask length for RP selection
   *   - Range: `0`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_mask Pim#bsr_candidate_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_mask Pim#bsr_candidate_mask}
   */
   readonly bsrCandidateMask?: number;
   /**
   * Priority value for candidate bootstrap router
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_priority Pim#bsr_candidate_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_priority Pim#bsr_candidate_priority}
   */
   readonly bsrCandidatePriority?: number;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#delete_mode Pim#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#delete_mode Pim#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#device Pim#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#device Pim#device}
   */
   readonly device?: string;
   /**
   * IP address of Rendezvous-point for group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address Pim#rp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address Pim#rp_address}
   */
   readonly rpAddress?: string;
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address_bidir Pim#rp_address_bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address_bidir Pim#rp_address_bidir}
   */
   readonly rpAddressBidir?: boolean | cdktf.IResolvable;
   /**
   * Overrides dynamically learnt RP mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address_override Pim#rp_address_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address_override Pim#rp_address_override}
   */
   readonly rpAddressOverride?: boolean | cdktf.IResolvable;
   /**
   * PIM RP-address (Rendezvous Point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_addresses Pim#rp_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_addresses Pim#rp_addresses}
   */
   readonly rpAddresses?: PimRpAddresses[] | cdktf.IResolvable;
   /**
   * To be a PIM version 2 RP candidate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_candidates Pim#rp_candidates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_candidates Pim#rp_candidates}
   */
   readonly rpCandidates?: PimRpCandidates[] | cdktf.IResolvable;
   /**
   * Use 232/8 group range for SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#ssm_default Pim#ssm_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#ssm_default Pim#ssm_default}
   */
   readonly ssmDefault?: boolean | cdktf.IResolvable;
   /**
   * ACL for group range to be used for SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#ssm_range Pim#ssm_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#ssm_range Pim#ssm_range}
   */
   readonly ssmRange?: string;
   /**
   * Select VPN Routing/Forwarding instance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#vrfs Pim#vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#vrfs Pim#vrfs}
   */
   readonly vrfs?: PimVrfs[] | cdktf.IResolvable;
 }
@@ -112,25 +112,25 @@ export interface PimRpAddresses {
   /**
   * IP Access-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#access_list Pim#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#access_list Pim#access_list}
   */
   readonly accessList: string;
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bidir Pim#bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bidir Pim#bidir}
   */
   readonly bidir?: boolean | cdktf.IResolvable;
   /**
   * Overrides dynamically learnt RP mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#override Pim#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#override Pim#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * IP address of Rendezvous-point for group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address Pim#rp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address Pim#rp_address}
   */
   readonly rpAddress?: string;
 }
@@ -332,33 +332,33 @@ export interface PimRpCandidates {
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bidir Pim#bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bidir Pim#bidir}
   */
   readonly bidir?: boolean | cdktf.IResolvable;
   /**
   * IP Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#group_list Pim#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#group_list Pim#group_list}
   */
   readonly groupList?: string;
   /**
   * Autonomic-Networking virtual interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#interface Pim#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#interface Pim#interface}
   */
   readonly interface: string;
   /**
   * RP candidate advertisement interval
   *   - Range: `1`-`16383`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#interval Pim#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#interval Pim#interval}
   */
   readonly interval?: number;
   /**
   * RP candidate priority
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#priority Pim#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#priority Pim#priority}
   */
   readonly priority?: number;
 }
@@ -589,25 +589,25 @@ export interface PimVrfsRpAddresses {
   /**
   * IP Access-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#access_list Pim#access_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#access_list Pim#access_list}
   */
   readonly accessList: string;
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bidir Pim#bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bidir Pim#bidir}
   */
   readonly bidir?: boolean | cdktf.IResolvable;
   /**
   * Overrides dynamically learnt RP mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#override Pim#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#override Pim#override}
   */
   readonly override?: boolean | cdktf.IResolvable;
   /**
   * IP address of Rendezvous-point for group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address Pim#rp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address Pim#rp_address}
   */
   readonly rpAddress?: string;
 }
@@ -809,33 +809,33 @@ export interface PimVrfsRpCandidates {
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bidir Pim#bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bidir Pim#bidir}
   */
   readonly bidir?: boolean | cdktf.IResolvable;
   /**
   * IP Access list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#group_list Pim#group_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#group_list Pim#group_list}
   */
   readonly groupList?: string;
   /**
   * Autonomic-Networking virtual interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#interface Pim#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#interface Pim#interface}
   */
   readonly interface: string;
   /**
   * RP candidate advertisement interval
   *   - Range: `1`-`16383`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#interval Pim#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#interval Pim#interval}
   */
   readonly interval?: number;
   /**
   * RP candidate priority
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#priority Pim#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#priority Pim#priority}
   */
   readonly priority?: number;
 }
@@ -1066,92 +1066,92 @@ export interface PimVrfs {
   /**
   * Configure AutoRP global operations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#autorp Pim#autorp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#autorp Pim#autorp}
   */
   readonly autorp?: boolean | cdktf.IResolvable;
   /**
   * Allow AutoRP packets across sparse mode interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#autorp_listener Pim#autorp_listener}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#autorp_listener Pim#autorp_listener}
   */
   readonly autorpListener?: boolean | cdktf.IResolvable;
   /**
   * BSR RP candidate filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_accept_rp_candidate Pim#bsr_candidate_accept_rp_candidate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_accept_rp_candidate Pim#bsr_candidate_accept_rp_candidate}
   */
   readonly bsrCandidateAcceptRpCandidate?: string;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_loopback Pim#bsr_candidate_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_loopback Pim#bsr_candidate_loopback}
   */
   readonly bsrCandidateLoopback?: number;
   /**
   * Hash Mask length for RP selection
   *   - Range: `0`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_mask Pim#bsr_candidate_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_mask Pim#bsr_candidate_mask}
   */
   readonly bsrCandidateMask?: number;
   /**
   * Priority value for candidate bootstrap router
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#bsr_candidate_priority Pim#bsr_candidate_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#bsr_candidate_priority Pim#bsr_candidate_priority}
   */
   readonly bsrCandidatePriority?: number;
   /**
   * Cache outgoing interface RPF info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#cache_rpf_oif Pim#cache_rpf_oif}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#cache_rpf_oif Pim#cache_rpf_oif}
   */
   readonly cacheRpfOif?: boolean | cdktf.IResolvable;
   /**
   * IP address of Rendezvous-point for group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address Pim#rp_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address Pim#rp_address}
   */
   readonly rpAddress?: string;
   /**
   * Group range treated in bidirectional shared-tree mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address_bidir Pim#rp_address_bidir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address_bidir Pim#rp_address_bidir}
   */
   readonly rpAddressBidir?: boolean | cdktf.IResolvable;
   /**
   * Overrides dynamically learnt RP mappings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_address_override Pim#rp_address_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_address_override Pim#rp_address_override}
   */
   readonly rpAddressOverride?: boolean | cdktf.IResolvable;
   /**
   * PIM RP-address (Rendezvous Point)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_addresses Pim#rp_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_addresses Pim#rp_addresses}
   */
   readonly rpAddresses?: PimVrfsRpAddresses[] | cdktf.IResolvable;
   /**
   * To be a PIM version 2 RP candidate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#rp_candidates Pim#rp_candidates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#rp_candidates Pim#rp_candidates}
   */
   readonly rpCandidates?: PimVrfsRpCandidates[] | cdktf.IResolvable;
   /**
   * Use 232/8 group range for SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#ssm_default Pim#ssm_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#ssm_default Pim#ssm_default}
   */
   readonly ssmDefault?: boolean | cdktf.IResolvable;
   /**
   * ACL for group range to be used for SSM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#ssm_range Pim#ssm_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#ssm_range Pim#ssm_range}
   */
   readonly ssmRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#vrf Pim#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#vrf Pim#vrf}
   */
   readonly vrf: string;
 }
@@ -1670,7 +1670,7 @@ export class PimVrfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim iosxe_pim}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim iosxe_pim}
 */
 export class Pim extends cdktf.TerraformResource {
 
@@ -1686,7 +1686,7 @@ export class Pim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pim to import
-  * @param importFromId The id of the existing Pim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1698,7 +1698,7 @@ export class Pim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.0/docs/resources/pim iosxe_pim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.10.2/docs/resources/pim iosxe_pim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1709,8 +1709,8 @@ export class Pim extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_pim',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.10.0',
-        providerVersionConstraint: '0.10.0'
+        providerVersion: '0.10.2',
+        providerVersionConstraint: '0.10.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

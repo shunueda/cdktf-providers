@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface VaultConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#config VaultConfiguration#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#config VaultConfiguration#config}
   */
   readonly config: VaultConfigurationConfigA;
   /**
   * Name of the Vault configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#name VaultConfiguration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#name VaultConfiguration#name}
   */
   readonly name: string;
 }
@@ -22,31 +22,31 @@ export interface VaultConfigurationConfigAuth {
   /**
   * Client certificate (in PEM format) for `Certificate` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#certificate VaultConfiguration#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#certificate VaultConfiguration#certificate}
   */
   readonly certificate?: string;
   /**
   * Private key (in PEM format) for `Certificate` type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#certificate_key VaultConfiguration#certificate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#certificate_key VaultConfiguration#certificate_key}
   */
   readonly certificateKey?: string;
   /**
   * Role ID for `AppRole` type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#role_id VaultConfiguration#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#role_id VaultConfiguration#role_id}
   */
   readonly roleId?: string;
   /**
   * Secret ID for `AppRole` type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#secret_id VaultConfiguration#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#secret_id VaultConfiguration#secret_id}
   */
   readonly secretId?: string;
   /**
   * The authentication method used. The supported methods are `Certificate`, `AppRole`, and `Agent`. For more information, see [Hashicorp Vault Docs](https://developer.hashicorp.com/vault/docs/auth).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#type VaultConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#type VaultConfiguration#type}
   */
   readonly type: string;
 }
@@ -255,13 +255,13 @@ export interface VaultConfigurationConfigMounts {
   /**
   * Vault secret engine path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#path VaultConfiguration#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#path VaultConfiguration#path}
   */
   readonly path: string;
   /**
   * Vault supports several secret engines, each one has different capabilities. The supported secret engine types are: `KV1` and `KV2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#type VaultConfiguration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#type VaultConfiguration#type}
   */
   readonly type: string;
 }
@@ -400,17 +400,17 @@ export class VaultConfigurationConfigMountsList extends cdktf.ComplexList {
 }
 export interface VaultConfigurationConfigA {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#auth VaultConfiguration#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#auth VaultConfiguration#auth}
   */
   readonly auth: VaultConfigurationConfigAuth;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#mounts VaultConfiguration#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#mounts VaultConfiguration#mounts}
   */
   readonly mounts: VaultConfigurationConfigMounts[] | cdktf.IResolvable;
   /**
   * The base URL of the Vault server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#url VaultConfiguration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#url VaultConfiguration#url}
   */
   readonly url: string;
 }
@@ -553,7 +553,7 @@ export class VaultConfigurationConfigAOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration artifactory_vault_configuration}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration artifactory_vault_configuration}
 */
 export class VaultConfiguration extends cdktf.TerraformResource {
 
@@ -569,7 +569,7 @@ export class VaultConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VaultConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VaultConfiguration to import
-  * @param importFromId The id of the existing VaultConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VaultConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VaultConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +581,7 @@ export class VaultConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/vault_configuration artifactory_vault_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/vault_configuration artifactory_vault_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,8 +592,8 @@ export class VaultConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_vault_configuration',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

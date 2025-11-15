@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,55 +11,55 @@ export interface DataArtifactoryFederatedOciRepositoryConfig extends cdktf.Terra
   * When set, you may view content such as HTML or Javadoc files directly from Artifactory.
   * This may not be safe and therefore requires strict content moderation to prevent malicious users from uploading content that may compromise security (e.g., cross-site scripting attacks).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#archive_browsing_enabled DataArtifactoryFederatedOciRepository#archive_browsing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#archive_browsing_enabled DataArtifactoryFederatedOciRepository#archive_browsing_enabled}
   */
   readonly archiveBrowsingEnabled?: boolean | cdktf.IResolvable;
   /**
   * When set, the repository does not participate in artifact resolution and new artifacts cannot be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#blacked_out DataArtifactoryFederatedOciRepository#blacked_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#blacked_out DataArtifactoryFederatedOciRepository#blacked_out}
   */
   readonly blackedOut?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from AWS CloudFront. Available in Enterprise+ and Edge licenses only. Default value is 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#cdn_redirect DataArtifactoryFederatedOciRepository#cdn_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#cdn_redirect DataArtifactoryFederatedOciRepository#cdn_redirect}
   */
   readonly cdnRedirect?: boolean | cdktf.IResolvable;
   /**
   * Delete all federated members on `terraform destroy` if set to `true`. Caution: it will delete all the repositories in the federation on other Artifactory instances. Set `access_token` attribute if Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#cleanup_on_delete DataArtifactoryFederatedOciRepository#cleanup_on_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#cleanup_on_delete DataArtifactoryFederatedOciRepository#cleanup_on_delete}
   */
   readonly cleanupOnDelete?: boolean | cdktf.IResolvable;
   /**
   * Public description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#description DataArtifactoryFederatedOciRepository#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#description DataArtifactoryFederatedOciRepository#description}
   */
   readonly description?: string;
   /**
   * When set to `true`, the proxy is disabled, and not returned in the API response body. If there is a default proxy set for the Artifactory instance, it will be ignored, too. Introduced since Artifactory 7.41.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#disable_proxy DataArtifactoryFederatedOciRepository#disable_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#disable_proxy DataArtifactoryFederatedOciRepository#disable_proxy}
   */
   readonly disableProxy?: boolean | cdktf.IResolvable;
   /**
   * When set, download requests to this repository will redirect the client to download the artifact directly from the cloud storage provider. Available in Enterprise+ and Edge licenses only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#download_direct DataArtifactoryFederatedOciRepository#download_direct}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#download_direct DataArtifactoryFederatedOciRepository#download_direct}
   */
   readonly downloadDirect?: boolean | cdktf.IResolvable;
   /**
   * List of artifact patterns to exclude when evaluating artifact requests, in the form of `x/y/** /z/*`.By default no artifacts are excluded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#excludes_pattern DataArtifactoryFederatedOciRepository#excludes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#excludes_pattern DataArtifactoryFederatedOciRepository#excludes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
   readonly excludesPattern?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#id DataArtifactoryFederatedOciRepository#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#id DataArtifactoryFederatedOciRepository#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -68,7 +68,7 @@ export interface DataArtifactoryFederatedOciRepositoryConfig extends cdktf.Terra
   /**
   * List of comma-separated artifact patterns to include when evaluating artifact requests in the form of `x/y/** /z/*`. When used, only artifacts matching one of the include patterns are served. By default, all artifacts are included (`** /*`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#includes_pattern DataArtifactoryFederatedOciRepository#includes_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#includes_pattern DataArtifactoryFederatedOciRepository#includes_pattern}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -76,74 +76,74 @@ export interface DataArtifactoryFederatedOciRepositoryConfig extends cdktf.Terra
   /**
   * A mandatory identifier for the repository that must be unique. Must be 1 - 64 alphanumeric and hyphen characters. It cannot contain spaces or special characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#key DataArtifactoryFederatedOciRepository#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#key DataArtifactoryFederatedOciRepository#key}
   */
   readonly key: string;
   /**
   * The maximum number of unique tags of a single OCI image to store in this repository.
   * Once the number tags for an image exceeds this setting, older tags are removed. A value of 0 (default) indicates there is no limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#max_unique_tags DataArtifactoryFederatedOciRepository#max_unique_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#max_unique_tags DataArtifactoryFederatedOciRepository#max_unique_tags}
   */
   readonly maxUniqueTags?: number;
   /**
   * Internal description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#notes DataArtifactoryFederatedOciRepository#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#notes DataArtifactoryFederatedOciRepository#notes}
   */
   readonly notes?: string;
   /**
   * Setting repositories with priority will cause metadata to be merged only from repositories set with this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#priority_resolution DataArtifactoryFederatedOciRepository#priority_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#priority_resolution DataArtifactoryFederatedOciRepository#priority_resolution}
   */
   readonly priorityResolution?: boolean | cdktf.IResolvable;
   /**
   * Before Artifactory 7.53.1, up to 2 values (`DEV` and `PROD`) are allowed. From 7.53.1 to 7.107.1, only one value is allowed. From 7.107.1, multiple values are allowed.The attribute should only be used if the repository is already assigned to the existing project. If not, the attribute will be ignored by Artifactory, but will remain in the Terraform state, which will create state drift during the update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#project_environments DataArtifactoryFederatedOciRepository#project_environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#project_environments DataArtifactoryFederatedOciRepository#project_environments}
   */
   readonly projectEnvironments?: string[];
   /**
   * Project key for assigning this repository to. Must be 2 - 32 lowercase alphanumeric and hyphen characters. When assigning repository to a project, repository key must be prefixed with project key, separated by a dash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#project_key DataArtifactoryFederatedOciRepository#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#project_key DataArtifactoryFederatedOciRepository#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of property set name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#property_sets DataArtifactoryFederatedOciRepository#property_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#property_sets DataArtifactoryFederatedOciRepository#property_sets}
   */
   readonly propertySets?: string[];
   /**
   * Proxy key from Artifactory Proxies settings. Can't be set if `disable_proxy = true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#proxy DataArtifactoryFederatedOciRepository#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#proxy DataArtifactoryFederatedOciRepository#proxy}
   */
   readonly proxy?: string;
   /**
   * Repository layout key for the federated repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#repo_layout_ref DataArtifactoryFederatedOciRepository#repo_layout_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#repo_layout_ref DataArtifactoryFederatedOciRepository#repo_layout_ref}
   */
   readonly repoLayoutRef?: string;
   /**
   * If greater than 1, overwritten tags will be saved by their digest, up to the set up number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#tag_retention DataArtifactoryFederatedOciRepository#tag_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#tag_retention DataArtifactoryFederatedOciRepository#tag_retention}
   */
   readonly tagRetention?: number;
   /**
   * Enable Indexing In Xray. Repository will be indexed with the default retention period. You will be able to change it via Xray settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#xray_index DataArtifactoryFederatedOciRepository#xray_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#xray_index DataArtifactoryFederatedOciRepository#xray_index}
   */
   readonly xrayIndex?: boolean | cdktf.IResolvable;
   /**
   * member block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#member DataArtifactoryFederatedOciRepository#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#member DataArtifactoryFederatedOciRepository#member}
   */
   readonly member?: DataArtifactoryFederatedOciRepositoryMember[] | cdktf.IResolvable;
 }
@@ -151,19 +151,19 @@ export interface DataArtifactoryFederatedOciRepositoryMember {
   /**
   * Admin access token for this member Artifactory instance. Used in conjunction with `cleanup_on_delete` attribute when Access Federation for access tokens is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#access_token DataArtifactoryFederatedOciRepository#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#access_token DataArtifactoryFederatedOciRepository#access_token}
   */
   readonly accessToken?: string;
   /**
   * Represents the active state of the federated member. It is supported to change the enabled status of my own member. The config will be updated on the other federated members automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#enabled DataArtifactoryFederatedOciRepository#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#enabled DataArtifactoryFederatedOciRepository#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Full URL to ending with the repositoryName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#url DataArtifactoryFederatedOciRepository#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#url DataArtifactoryFederatedOciRepository#url}
   */
   readonly url: string;
 }
@@ -331,7 +331,7 @@ export class DataArtifactoryFederatedOciRepositoryMemberList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository artifactory_federated_oci_repository}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository artifactory_federated_oci_repository}
 */
 export class DataArtifactoryFederatedOciRepository extends cdktf.TerraformDataSource {
 
@@ -347,7 +347,7 @@ export class DataArtifactoryFederatedOciRepository extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataArtifactoryFederatedOciRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArtifactoryFederatedOciRepository to import
-  * @param importFromId The id of the existing DataArtifactoryFederatedOciRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArtifactoryFederatedOciRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArtifactoryFederatedOciRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -359,7 +359,7 @@ export class DataArtifactoryFederatedOciRepository extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/data-sources/federated_oci_repository artifactory_federated_oci_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/data-sources/federated_oci_repository artifactory_federated_oci_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -370,8 +370,8 @@ export class DataArtifactoryFederatedOciRepository extends cdktf.TerraformDataSo
       terraformResourceType: 'artifactory_federated_oci_repository',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

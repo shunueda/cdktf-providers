@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface MailServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Artifactory URL to to link to in all outgoing messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#artifactory_url MailServer#artifactory_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#artifactory_url MailServer#artifactory_url}
   */
   readonly artifactoryUrl?: string;
   /**
   * When set, mail notifications are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#enabled MailServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#enabled MailServer#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The 'from' address header to use in all outgoing messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#from MailServer#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#from MailServer#from}
   */
   readonly from?: string;
   /**
   * The mail server IP address / DNS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#host MailServer#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#host MailServer#host}
   */
   readonly host: string;
   /**
   * The password for authentication with the mail server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#password MailServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#password MailServer#password}
   */
   readonly password?: string;
   /**
   * The port number of the mail server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#port MailServer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#port MailServer#port}
   */
   readonly port: number;
   /**
   * A prefix to use for the subject of all outgoing mails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#subject_prefix MailServer#subject_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#subject_prefix MailServer#subject_prefix}
   */
   readonly subjectPrefix?: string;
   /**
   * When set to 'true', uses a secure connection to the mail server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#use_ssl MailServer#use_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#use_ssl MailServer#use_ssl}
   */
   readonly useSsl?: boolean | cdktf.IResolvable;
   /**
   * When set to 'true', uses Transport Layer Security when connecting to the mail server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#use_tls MailServer#use_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#use_tls MailServer#use_tls}
   */
   readonly useTls?: boolean | cdktf.IResolvable;
   /**
   * The username for authentication with the mail server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#username MailServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#username MailServer#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server artifactory_mail_server}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server artifactory_mail_server}
 */
 export class MailServer extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class MailServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MailServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MailServer to import
-  * @param importFromId The id of the existing MailServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MailServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MailServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class MailServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/mail_server artifactory_mail_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/mail_server artifactory_mail_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class MailServer extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_mail_server',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface ProxyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the proxy host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#host Proxy#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#host Proxy#host}
   */
   readonly host: string;
   /**
   * The unique ID of the proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#key Proxy#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#key Proxy#key}
   */
   readonly key: string;
   /**
   * The proxy domain/realm name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#nt_domain Proxy#nt_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#nt_domain Proxy#nt_domain}
   */
   readonly ntDomain?: string;
   /**
   * The computer name of the machine (the machine connecting to the NTLM proxy).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#nt_host Proxy#nt_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#nt_host Proxy#nt_host}
   */
   readonly ntHost?: string;
   /**
   * The proxy password when authentication credentials are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#password Proxy#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#password Proxy#password}
   */
   readonly password?: string;
   /**
   * When set, this proxy will be the default proxy for new remote repositories and for internal HTTP requests issued by Artifactory. Will also be used as proxy for all other services in the platform (for example: Xray, Distribution, etc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#platform_default Proxy#platform_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#platform_default Proxy#platform_default}
   */
   readonly platformDefault?: boolean | cdktf.IResolvable;
   /**
   * The proxy port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#port Proxy#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#port Proxy#port}
   */
   readonly port: number;
   /**
   * An optional list of host names to which this proxy may redirect requests. The credentials defined for the proxy are reused by requests redirected to all of these hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#redirect_to_hosts Proxy#redirect_to_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#redirect_to_hosts Proxy#redirect_to_hosts}
   */
   readonly redirectToHosts?: string[];
   /**
   * An optional list of services names to which this proxy be the default of. The options are jfrt, jfmc, jfxr, jfds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#services Proxy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#services Proxy#services}
   */
   readonly services?: string[];
   /**
   * The proxy username when authentication credentials are required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#username Proxy#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#username Proxy#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy artifactory_proxy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy artifactory_proxy}
 */
 export class Proxy extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class Proxy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Proxy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Proxy to import
-  * @param importFromId The id of the existing Proxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Proxy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Proxy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Proxy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/proxy artifactory_proxy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/proxy artifactory_proxy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Proxy extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_proxy',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ManagedUserConfig extends cdktf.TerraformMetaArguments {
   /**
   * (Optional, Default: false) When enabled, this user is an administrator with all the ensuing privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#admin ManagedUser#admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#admin ManagedUser#admin}
   */
   readonly admin?: boolean | cdktf.IResolvable;
   /**
   * (Optional, Default: true) When enabled, this user can only access the system through the REST API. This option cannot be set if the user has Admin privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#disable_ui_access ManagedUser#disable_ui_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#disable_ui_access ManagedUser#disable_ui_access}
   */
   readonly disableUiAccess?: boolean | cdktf.IResolvable;
   /**
   * Email for user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#email ManagedUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#email ManagedUser#email}
   */
   readonly email: string;
   /**
   * List of groups this user is a part of. **Notes:** If this attribute is not specified then user's group membership is set to empty. User will not be part of default "readers" group automatically.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#groups ManagedUser#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#groups ManagedUser#groups}
   */
   readonly groups?: string[];
   /**
   * (Optional, Default: false) When enabled, disables the fallback mechanism for using an internal password when external authentication (such as LDAP) is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#internal_password_disabled ManagedUser#internal_password_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#internal_password_disabled ManagedUser#internal_password_disabled}
   */
   readonly internalPasswordDisabled?: boolean | cdktf.IResolvable;
   /**
   * Username for user. May contain lowercase letters, numbers and symbols: '.-_@' for self-hosted. For SaaS, '+' is also allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#name ManagedUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#name ManagedUser#name}
   */
   readonly name: string;
   /**
   * Password for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#password ManagedUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#password ManagedUser#password}
   */
   readonly password: string;
   /**
@@ -56,13 +56,13 @@ export interface ManagedUserConfig extends cdktf.TerraformMetaArguments {
   * 
   * Default values: `uppercase=1`, `lowercase=1`, `special_char=0`, `digit=1`, `length=8`. Also see [Supported Access Configurations](https://jfrog.com/help/r/jfrog-installation-setup-documentation/supported-access-configurations) for more details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#password_policy ManagedUser#password_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#password_policy ManagedUser#password_policy}
   */
   readonly passwordPolicy?: ManagedUserPasswordPolicy;
   /**
   * (Optional, Default: true) When enabled, this user can update their profile details (except for the password. Only an administrator can update the password). There may be cases in which you want to leave this unset to prevent users from updating their profile. For example, a departmental user with a single password shared between all department members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#profile_updatable ManagedUser#profile_updatable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#profile_updatable ManagedUser#profile_updatable}
   */
   readonly profileUpdatable?: boolean | cdktf.IResolvable;
 }
@@ -70,31 +70,31 @@ export interface ManagedUserPasswordPolicy {
   /**
   * Minimum number of digits that the password must contain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#digit ManagedUser#digit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#digit ManagedUser#digit}
   */
   readonly digit?: number;
   /**
   * Minimum length of the password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#length ManagedUser#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#length ManagedUser#length}
   */
   readonly length?: number;
   /**
   * Minimum number of lowercase letters that the password must contain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#lowercase ManagedUser#lowercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#lowercase ManagedUser#lowercase}
   */
   readonly lowercase?: number;
   /**
   * Minimum number of special char that the password must contain. Special chars list: ``!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~``
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#special_char ManagedUser#special_char}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#special_char ManagedUser#special_char}
   */
   readonly specialChar?: number;
   /**
   * Minimum number of uppercase letters that the password must contain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#uppercase ManagedUser#uppercase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#uppercase ManagedUser#uppercase}
   */
   readonly uppercase?: number;
 }
@@ -304,7 +304,7 @@ export class ManagedUserPasswordPolicyOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user artifactory_managed_user}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user artifactory_managed_user}
 */
 export class ManagedUser extends cdktf.TerraformResource {
 
@@ -320,7 +320,7 @@ export class ManagedUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedUser to import
-  * @param importFromId The id of the existing ManagedUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -332,7 +332,7 @@ export class ManagedUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/managed_user artifactory_managed_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/managed_user artifactory_managed_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -343,8 +343,8 @@ export class ManagedUser extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_managed_user',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

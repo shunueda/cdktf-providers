@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault
+// https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface PlatformConnectorAzureKeyVaultConfig extends cdktf.TerraformMet
   /**
   * Azure environment type. Possible values: AZURE or AZURE_US_GOVERNMENT. Default value: AZURE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#azure_environment_type PlatformConnectorAzureKeyVault#azure_environment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#azure_environment_type PlatformConnectorAzureKeyVault#azure_environment_type}
   */
   readonly azureEnvironmentType?: string;
   /**
   * Application ID of the Azure App.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#client_id PlatformConnectorAzureKeyVault#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#client_id PlatformConnectorAzureKeyVault#client_id}
   */
   readonly clientId: string;
   /**
   * Tags to filter delegates for connection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#delegate_selectors PlatformConnectorAzureKeyVault#delegate_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#delegate_selectors PlatformConnectorAzureKeyVault#delegate_selectors}
   */
   readonly delegateSelectors?: string[];
   /**
   * Description of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#description PlatformConnectorAzureKeyVault#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#description PlatformConnectorAzureKeyVault#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#id PlatformConnectorAzureKeyVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#id PlatformConnectorAzureKeyVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,67 +41,67 @@ export interface PlatformConnectorAzureKeyVaultConfig extends cdktf.TerraformMet
   /**
   * Unique identifier of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#identifier PlatformConnectorAzureKeyVault#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#identifier PlatformConnectorAzureKeyVault#identifier}
   */
   readonly identifier: string;
   /**
   * Specifies whether or not is the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#is_default PlatformConnectorAzureKeyVault#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#is_default PlatformConnectorAzureKeyVault#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * Name of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#name PlatformConnectorAzureKeyVault#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#name PlatformConnectorAzureKeyVault#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#org_id PlatformConnectorAzureKeyVault#org_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#org_id PlatformConnectorAzureKeyVault#org_id}
   */
   readonly orgId?: string;
   /**
   * Unique identifier of the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#project_id PlatformConnectorAzureKeyVault#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#project_id PlatformConnectorAzureKeyVault#project_id}
   */
   readonly projectId?: string;
   /**
   * The Harness text secret with the Azure authentication key as its value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#secret_key PlatformConnectorAzureKeyVault#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#secret_key PlatformConnectorAzureKeyVault#secret_key}
   */
   readonly secretKey: string;
   /**
   * Azure subscription ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#subscription PlatformConnectorAzureKeyVault#subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#subscription PlatformConnectorAzureKeyVault#subscription}
   */
   readonly subscription: string;
   /**
   * Tags to associate with the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#tags PlatformConnectorAzureKeyVault#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#tags PlatformConnectorAzureKeyVault#tags}
   */
   readonly tags?: string[];
   /**
   * The Azure Active Directory (Azure AD) directory ID where you created your application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#tenant_id PlatformConnectorAzureKeyVault#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#tenant_id PlatformConnectorAzureKeyVault#tenant_id}
   */
   readonly tenantId: string;
   /**
   * Name of the vault.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#vault_name PlatformConnectorAzureKeyVault#vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#vault_name PlatformConnectorAzureKeyVault#vault_name}
   */
   readonly vaultName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault harness_platform_connector_azure_key_vault}
+* Represents a {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault harness_platform_connector_azure_key_vault}
 */
 export class PlatformConnectorAzureKeyVault extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class PlatformConnectorAzureKeyVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PlatformConnectorAzureKeyVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PlatformConnectorAzureKeyVault to import
-  * @param importFromId The id of the existing PlatformConnectorAzureKeyVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PlatformConnectorAzureKeyVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PlatformConnectorAzureKeyVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class PlatformConnectorAzureKeyVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.0/docs/resources/platform_connector_azure_key_vault harness_platform_connector_azure_key_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/harness/harness/0.39.2/docs/resources/platform_connector_azure_key_vault harness_platform_connector_azure_key_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class PlatformConnectorAzureKeyVault extends cdktf.TerraformResource {
       terraformResourceType: 'harness_platform_connector_azure_key_vault',
       terraformGeneratorMetadata: {
         providerName: 'harness',
-        providerVersion: '0.39.0',
-        providerVersionConstraint: '0.39.0'
+        providerVersion: '0.39.2',
+        providerVersionConstraint: '0.39.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

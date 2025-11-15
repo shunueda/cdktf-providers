@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings
+// https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface SamlSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow persisted users to access their profile.  Default value is "true".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#allow_user_to_access_profile SamlSettings#allow_user_to_access_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#allow_user_to_access_profile SamlSettings#allow_user_to_access_profile}
   */
   readonly allowUserToAccessProfile?: boolean | cdktf.IResolvable;
   /**
   * Auto redirect to login through the IdP when clicking on Artifactory's login link.  Default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#auto_redirect SamlSettings#auto_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#auto_redirect SamlSettings#auto_redirect}
   */
   readonly autoRedirect?: boolean | cdktf.IResolvable;
   /**
   * SAML certificate that contains the public key for the IdP service provider.  Used by Artifactory to verify sign-in requests. Default value is "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#certificate SamlSettings#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#certificate SamlSettings#certificate}
   */
   readonly certificate?: string;
   /**
   * Name of the attribute in the SAML response from the IdP that contains the user's email. Default value is "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#email_attribute SamlSettings#email_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#email_attribute SamlSettings#email_attribute}
   */
   readonly emailAttribute?: string;
   /**
   * Enable SAML SSO.  Default value is "true".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#enable SamlSettings#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#enable SamlSettings#enable}
   */
   readonly enable?: boolean | cdktf.IResolvable;
   /**
   * Name of the attribute in the SAML response from the IdP that contains the user's group memberships. Default value is "".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#group_attribute SamlSettings#group_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#group_attribute SamlSettings#group_attribute}
   */
   readonly groupAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#id SamlSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#id SamlSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface SamlSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Service provider login url configured on the IdP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#login_url SamlSettings#login_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#login_url SamlSettings#login_url}
   */
   readonly loginUrl: string;
   /**
   * Service provider logout url, or where to redirect after user logs out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#logout_url SamlSettings#logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#logout_url SamlSettings#logout_url}
   */
   readonly logoutUrl: string;
   /**
   * When automatic user creation is off, authenticated users are not automatically created inside Artifactory. Instead, for every request from an SSO user, the user is temporarily associated with default groups (if such groups are defined), and the permissions for these groups apply. Without auto-user creation, you must manually create the user inside Artifactory to manage user permissions not attached to their default groups. Default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#no_auto_user_creation SamlSettings#no_auto_user_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#no_auto_user_creation SamlSettings#no_auto_user_creation}
   */
   readonly noAutoUserCreation?: boolean | cdktf.IResolvable;
   /**
   * The SAML service provider name. This should be a URI that is also known as the entityID, providerID, or entity identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#service_provider_name SamlSettings#service_provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#service_provider_name SamlSettings#service_provider_name}
   */
   readonly serviceProviderName: string;
   /**
   * Associate user with Artifactory groups based on the "group_attribute" provided in the SAML response from the identity provider.  Default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#sync_groups SamlSettings#sync_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#sync_groups SamlSettings#sync_groups}
   */
   readonly syncGroups?: boolean | cdktf.IResolvable;
   /**
   * When set, an X.509 public certificate will be created by Artifactory. Download this certificate and upload it to your IDP and choose your own encryption algorithm. This process will let you encrypt the assertion section in your SAML response. Default value is "false".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#use_encrypted_assertion SamlSettings#use_encrypted_assertion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#use_encrypted_assertion SamlSettings#use_encrypted_assertion}
   */
   readonly useEncryptedAssertion?: boolean | cdktf.IResolvable;
   /**
   * Enable "audience", or who the SAML assertion is intended for.  Ensures that the correct service provider intended for Artifactory is used on the IdP. Default value is "true".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#verify_audience_restriction SamlSettings#verify_audience_restriction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#verify_audience_restriction SamlSettings#verify_audience_restriction}
   */
   readonly verifyAudienceRestriction?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings artifactory_saml_settings}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings artifactory_saml_settings}
 */
 export class SamlSettings extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class SamlSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SamlSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SamlSettings to import
-  * @param importFromId The id of the existing SamlSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SamlSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SamlSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class SamlSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.10.1/docs/resources/saml_settings artifactory_saml_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/artifactory/12.11.0/docs/resources/saml_settings artifactory_saml_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class SamlSettings extends cdktf.TerraformResource {
       terraformResourceType: 'artifactory_saml_settings',
       terraformGeneratorMetadata: {
         providerName: 'artifactory',
-        providerVersion: '12.10.1',
-        providerVersionConstraint: '12.10.1'
+        providerVersion: '12.11.0',
+        providerVersionConstraint: '12.11.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
