@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch
+// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface WatchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether or not the watch is active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#active Watch#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#active Watch#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Description of the watch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#description Watch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#description Watch#description}
   */
   readonly description?: string;
   /**
   * Name of the watch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#name Watch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#name Watch#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. Support repository and build watch resource types. When specifying individual repository or build they must be already assigned to the project. Build must be added as indexed resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#project_key Watch#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#project_key Watch#project_key}
   */
   readonly projectKey?: string;
   /**
   * A list of email addressed that will get emailed when a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#watch_recipients Watch#watch_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#watch_recipients Watch#watch_recipients}
   */
   readonly watchRecipients?: string[];
   /**
   * assigned_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#assigned_policy Watch#assigned_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#assigned_policy Watch#assigned_policy}
   */
   readonly assignedPolicy?: WatchAssignedPolicy[] | cdktf.IResolvable;
   /**
   * watch_resource block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#watch_resource Watch#watch_resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#watch_resource Watch#watch_resource}
   */
   readonly watchResource?: WatchWatchResource[] | cdktf.IResolvable;
 }
@@ -54,13 +54,13 @@ export interface WatchAssignedPolicy {
   /**
   * The name of the policy that will be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#name Watch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#name Watch#name}
   */
   readonly name: string;
   /**
   * The type of the policy - security, license or operational risk
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#type Watch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#type Watch#type}
   */
   readonly type: string;
 }
@@ -201,13 +201,13 @@ export interface WatchWatchResourceAntFilter {
   /**
   * Use Ant-style wildcard patterns to specify build names (i.e. artifact paths) in the build info repository (without a leading slash) that will be excluded in this watch. Projects are supported too. Ant-style path expressions are supported (*, **, ?). For example, an 'apache/**' pattern will exclude the 'apache' build info in the watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#exclude_patterns Watch#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#exclude_patterns Watch#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * Use Ant-style wildcard patterns to specify build names (i.e. artifact paths) in the build info repository (without a leading slash) that will be included in this watch. Projects are supported too. Ant-style path expressions are supported (*, **, ?). For example, an 'apache/**' pattern will include the 'apache' build info in the watch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#include_patterns Watch#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#include_patterns Watch#include_patterns}
   */
   readonly includePatterns?: string[];
 }
@@ -354,13 +354,13 @@ export interface WatchWatchResourceFilter {
   /**
   * The type of filter, such as `regex`, `path-regex`, `package-type`, or `mime-type`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#type Watch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#type Watch#type}
   */
   readonly type: string;
   /**
   * The value of the filter, such as the text of the regex, name of the package type, or mime type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#value Watch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#value Watch#value}
   */
   readonly value: string;
 }
@@ -501,19 +501,19 @@ export interface WatchWatchResourceKvFilter {
   /**
   * The value of the filter, such as the property name of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#key Watch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#key Watch#key}
   */
   readonly key: string;
   /**
   * The type of filter. Currently only support `property`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#type Watch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#type Watch#type}
   */
   readonly type: string;
   /**
   * The value of the filter, such as the property value of the artifact.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#value Watch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#value Watch#value}
   */
   readonly value: string;
 }
@@ -680,13 +680,13 @@ export interface WatchWatchResourcePathAntFilter {
   /**
   * The pattern will apply to the selected repositories. Simple comma separated wildcard patterns for repository artifact paths (with no leading slash). Ant-style path expressions are supported (*, **, ?). For example: 'org/apache/**'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#exclude_patterns Watch#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#exclude_patterns Watch#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The pattern will apply to the selected repositories. Simple comma separated wildcard patterns for repository artifact paths (with no leading slash). Ant-style path expressions are supported (*, **, ?). For example: 'org/apache/**'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#include_patterns Watch#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#include_patterns Watch#include_patterns}
   */
   readonly includePatterns?: string[];
 }
@@ -833,49 +833,49 @@ export interface WatchWatchResource {
   /**
   * The ID number of a binary manager resource. Default value is `default`. To check the list of available binary managers, use the API call `${JFROG_URL}/xray/api/v1/binMgr` as an admin user, use `binMgrId` value. More info [here](https://www.jfrog.com/confluence/display/JFROG/Xray+REST+API#XrayRESTAPI-GetBinaryManager)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#bin_mgr_id Watch#bin_mgr_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#bin_mgr_id Watch#bin_mgr_id}
   */
   readonly binMgrId?: string;
   /**
   * The name of the build, repository, project, or release bundle. Xray indexing must be enabled on the repository, build, or release bundle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#name Watch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#name Watch#name}
   */
   readonly name?: string;
   /**
   * Type of repository. Only applicable when `type` is `repository`. Options: `local` or `remote`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#repo_type Watch#repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#repo_type Watch#repo_type}
   */
   readonly repoType?: string;
   /**
-  * Type of resource to be watched. Options: repository, all-repos, build, all-builds, project, all-projects, releaseBundle, all-releaseBundles, releaseBundleV2, all-releaseBundlesV2.
+  * Type of resource to be watched. Options: repository, all-repos, build, all-builds, project, all-projects, releaseBundle, all-releaseBundles, releaseBundleV2, all-releaseBundlesV2, gitRepository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#type Watch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#type Watch#type}
   */
   readonly type: string;
   /**
   * ant_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#ant_filter Watch#ant_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#ant_filter Watch#ant_filter}
   */
   readonly antFilter?: WatchWatchResourceAntFilter[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#filter Watch#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#filter Watch#filter}
   */
   readonly filter?: WatchWatchResourceFilter[] | cdktf.IResolvable;
   /**
   * kv_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#kv_filter Watch#kv_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#kv_filter Watch#kv_filter}
   */
   readonly kvFilter?: WatchWatchResourceKvFilter[] | cdktf.IResolvable;
   /**
   * path_ant_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#path_ant_filter Watch#path_ant_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#path_ant_filter Watch#path_ant_filter}
   */
   readonly pathAntFilter?: WatchWatchResourcePathAntFilter[] | cdktf.IResolvable;
 }
@@ -1191,7 +1191,7 @@ export class WatchWatchResourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch xray_watch}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch xray_watch}
 */
 export class Watch extends cdktf.TerraformResource {
 
@@ -1207,7 +1207,7 @@ export class Watch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Watch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Watch to import
-  * @param importFromId The id of the existing Watch that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Watch that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Watch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1219,7 +1219,7 @@ export class Watch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/watch xray_watch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/watch xray_watch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1230,8 +1230,8 @@ export class Watch extends cdktf.TerraformResource {
       terraformResourceType: 'xray_watch',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2',
-        providerVersionConstraint: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

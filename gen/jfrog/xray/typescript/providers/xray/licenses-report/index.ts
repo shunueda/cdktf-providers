@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report
+// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,43 +20,43 @@ export interface LicensesReportConfig extends cdktf.TerraformMetaArguments {
   *   - '30 12 ? * MON-FRI' = At 12:30 PM every weekday
   * Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#cron_schedule LicensesReport#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#cron_schedule LicensesReport#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Timezone for cron schedule. For valid timezone formats, see: [iana-timezones](https://timeapi.io/documentation/iana-timezones). Note: Requires Xray 3.130.0 or higher. Only used when cron_schedule is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#cron_schedule_timezone LicensesReport#cron_schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#cron_schedule_timezone LicensesReport#cron_schedule_timezone}
   */
   readonly cronScheduleTimezone?: string;
   /**
   * List of email addresses to notify when report generation is complete. Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#emails LicensesReport#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#emails LicensesReport#emails}
   */
   readonly emails?: string[];
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#name LicensesReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#name LicensesReport#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#project_key LicensesReport#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#project_key LicensesReport#project_key}
   */
   readonly projectKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#filters LicensesReport#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#filters LicensesReport#filters}
   */
   readonly filters?: LicensesReportFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#resources LicensesReport#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#resources LicensesReport#resources}
   */
   readonly resources?: LicensesReportResources[] | cdktf.IResolvable;
 }
@@ -64,13 +64,13 @@ export interface LicensesReportFiltersScanDate {
   /**
   * Scanned end date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#end LicensesReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#end LicensesReport#end}
   */
   readonly end?: string;
   /**
   * Scanned start date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#start LicensesReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#start LicensesReport#start}
   */
   readonly start?: string;
 }
@@ -217,43 +217,43 @@ export interface LicensesReportFilters {
   /**
   * Filter by artifact name, you can use (*) at thebeginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#artifact LicensesReport#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#artifact LicensesReport#artifact}
   */
   readonly artifact?: string;
   /**
   * Filter by component name, you can use (*) at the beginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#component LicensesReport#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#component LicensesReport#component}
   */
   readonly component?: string;
   /**
   * Filter licenses by names. Only one of 'license_names' or 'license_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#license_names LicensesReport#license_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#license_names LicensesReport#license_names}
   */
   readonly licenseNames?: string[];
   /**
   * Filter licenses by patterns. Only one of 'license_names' or 'license_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#license_patterns LicensesReport#license_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#license_patterns LicensesReport#license_patterns}
   */
   readonly licensePatterns?: string[];
   /**
   * Unknown displays the components that Xray could not discover any licenses for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#unknown LicensesReport#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#unknown LicensesReport#unknown}
   */
   readonly unknown?: boolean | cdktf.IResolvable;
   /**
   * Unrecognized displays the components that Xray found licenses for, but these licenses are not Xray recognized licenses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#unrecognized LicensesReport#unrecognized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#unrecognized LicensesReport#unrecognized}
   */
   readonly unrecognized?: boolean | cdktf.IResolvable;
   /**
   * scan_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#scan_date LicensesReport#scan_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#scan_date LicensesReport#scan_date}
   */
   readonly scanDate?: LicensesReportFiltersScanDate[] | cdktf.IResolvable;
 }
@@ -545,25 +545,25 @@ export interface LicensesReportResourcesBuilds {
   /**
   * The list of exclude patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of build names. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#names LicensesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#names LicensesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest build versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -768,31 +768,31 @@ export interface LicensesReportResourcesProjects {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#exclude_key_patterns LicensesReport#exclude_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#exclude_key_patterns LicensesReport#exclude_key_patterns}
   */
   readonly excludeKeyPatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#include_key_patterns LicensesReport#include_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#include_key_patterns LicensesReport#include_key_patterns}
   */
   readonly includeKeyPatterns?: string[];
   /**
   * The list of project keys. Note: Available from Xray version 3.130.0 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#keys LicensesReport#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#keys LicensesReport#keys}
   */
   readonly keys?: string[];
   /**
   * The list of project names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#names LicensesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#names LicensesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1026,25 +1026,25 @@ export interface LicensesReportResourcesReleaseBundles {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#names LicensesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#names LicensesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1249,25 +1249,25 @@ export interface LicensesReportResourcesReleaseBundlesV2 {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#exclude_patterns LicensesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#include_patterns LicensesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#names LicensesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#names LicensesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#number_of_latest_versions LicensesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1472,19 +1472,19 @@ export interface LicensesReportResourcesRepository {
   /**
   * Exclude path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#exclude_path_patterns LicensesReport#exclude_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#exclude_path_patterns LicensesReport#exclude_path_patterns}
   */
   readonly excludePathPatterns?: string[];
   /**
   * Include path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#include_path_patterns LicensesReport#include_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#include_path_patterns LicensesReport#include_path_patterns}
   */
   readonly includePathPatterns?: string[];
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#name LicensesReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#name LicensesReport#name}
   */
   readonly name: string;
 }
@@ -1657,31 +1657,31 @@ export interface LicensesReportResources {
   /**
   * builds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#builds LicensesReport#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#builds LicensesReport#builds}
   */
   readonly builds?: LicensesReportResourcesBuilds[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#projects LicensesReport#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#projects LicensesReport#projects}
   */
   readonly projects?: LicensesReportResourcesProjects[] | cdktf.IResolvable;
   /**
   * release_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#release_bundles LicensesReport#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#release_bundles LicensesReport#release_bundles}
   */
   readonly releaseBundles?: LicensesReportResourcesReleaseBundles[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#release_bundles_v2 LicensesReport#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#release_bundles_v2 LicensesReport#release_bundles_v2}
   */
   readonly releaseBundlesV2?: LicensesReportResourcesReleaseBundlesV2[] | cdktf.IResolvable;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#repository LicensesReport#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#repository LicensesReport#repository}
   */
   readonly repository?: LicensesReportResourcesRepository[] | cdktf.IResolvable;
 }
@@ -1913,7 +1913,7 @@ export class LicensesReportResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report xray_licenses_report}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report xray_licenses_report}
 */
 export class LicensesReport extends cdktf.TerraformResource {
 
@@ -1929,7 +1929,7 @@ export class LicensesReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicensesReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensesReport to import
-  * @param importFromId The id of the existing LicensesReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensesReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensesReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1941,7 +1941,7 @@ export class LicensesReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/licenses_report xray_licenses_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/licenses_report xray_licenses_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1952,8 +1952,8 @@ export class LicensesReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_licenses_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2',
-        providerVersionConstraint: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

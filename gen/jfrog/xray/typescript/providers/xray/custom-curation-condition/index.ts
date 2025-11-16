@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition
+// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CustomCurationConditionConfig extends cdktf.TerraformMetaArgume
   /**
   * One of the IDs of the supported condition templates returned by the list condition templates API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition#condition_template_id CustomCurationCondition#condition_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition#condition_template_id CustomCurationCondition#condition_template_id}
   */
   readonly conditionTemplateId: string;
   /**
   * The name of the condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition#name CustomCurationCondition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition#name CustomCurationCondition#name}
   */
   readonly name: string;
   /**
   * JSON array of parameter values. Each parameter should be an object with param_id and value fields. All required parameters must be explicitly provided. For EPSS parameter, value should be an object with either 'percentile' (0-100, max 2 decimal digits) or 'score' (0.0-1.0) property. For SpecificVersions condition template: all three parameters (package_type, package_name, package_versions) must be specified. Supported package_versions format: object with operators like {"equals": ["1.0.0", "1.1.0"], "gte": ["2.0.0", "3.0.0"], "lte": ["4.0.0"], "ranges": [{"gte": "1.0.0", "lte": "2.0.0"}], "any": true}. The 'equals' creates one constraint with multiple values, while 'gte', 'lte', 'gt', 'lt' create separate constraints for each array value. Only 'equals' and 'any' can appear once. Example: '[{"param_id":"package_type","value":"Maven"},{"param_id":"package_name","value":"log4j-core"},{"param_id":"package_versions","value":{"any":true}}]'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition#param_values CustomCurationCondition#param_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition#param_values CustomCurationCondition#param_values}
   */
   readonly paramValues: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition xray_custom_curation_condition}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition xray_custom_curation_condition}
 */
 export class CustomCurationCondition extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class CustomCurationCondition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomCurationCondition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomCurationCondition to import
-  * @param importFromId The id of the existing CustomCurationCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomCurationCondition that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomCurationCondition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class CustomCurationCondition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/custom_curation_condition xray_custom_curation_condition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/custom_curation_condition xray_custom_curation_condition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class CustomCurationCondition extends cdktf.TerraformResource {
       terraformResourceType: 'xray_custom_curation_condition',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2',
-        providerVersionConstraint: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

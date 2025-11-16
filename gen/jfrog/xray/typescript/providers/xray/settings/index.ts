@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings
+// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface SettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Determines whether to allow artifacts blocked by Xray to be downloaded. This setting cannot override the blocking of unscanned artifacts. Should only be set to `true` when `enabled` is set. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#allow_blocked Settings#allow_blocked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#allow_blocked Settings#allow_blocked}
   */
   readonly allowBlocked?: boolean | cdktf.IResolvable;
   /**
   * Determines whether to block certain operations (for example, downloading artifacts) when the connected Xray instance is unavailable. Should only be set to `true` when `enabled` is set. Default value: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#allow_when_unavailable Settings#allow_when_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#allow_when_unavailable Settings#allow_when_unavailable}
   */
   readonly allowWhenUnavailable?: boolean | cdktf.IResolvable;
   /**
   * Defines the amount of time to wait for Xray to _finish_ scanning an artifact before blocking operations on that artifact automatically if the scan is still unfinished. Default value: 1800 seconds (30 minutes)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#block_unfinished_scans_timeout Settings#block_unfinished_scans_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#block_unfinished_scans_timeout Settings#block_unfinished_scans_timeout}
   */
   readonly blockUnfinishedScansTimeout?: number;
   /**
   * Defines the amount of time to wait for Xray to _start_ scanning an artifact before blocking operations on that artifact automatically if the scan has still not started. Default value: 60 seconds (1 minute)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#block_unscanned_timeout Settings#block_unscanned_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#block_unscanned_timeout Settings#block_unscanned_timeout}
   */
   readonly blockUnscannedTimeout?: number;
   /**
   * The time of the Xray DB sync daily update job. Format `HH:mm`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#db_sync_updates_time Settings#db_sync_updates_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#db_sync_updates_time Settings#db_sync_updates_time}
   */
   readonly dbSyncUpdatesTime: string;
   /**
   * Determines whether Xray is currently enabled. Default value: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#enabled Settings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#enabled Settings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings xray_settings}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings xray_settings}
 */
 export class Settings extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class Settings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Settings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Settings to import
-  * @param importFromId The id of the existing Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Settings that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Settings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class Settings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/settings xray_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/settings xray_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class Settings extends cdktf.TerraformResource {
       terraformResourceType: 'xray_settings',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2',
-        providerVersionConstraint: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

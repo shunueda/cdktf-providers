@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report
+// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,43 +20,43 @@ export interface VulnerabilitiesReportConfig extends cdktf.TerraformMetaArgument
   *   - '30 12 ? * MON-FRI' = At 12:30 PM every weekday
   * Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#cron_schedule VulnerabilitiesReport#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#cron_schedule VulnerabilitiesReport#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Timezone for cron schedule. For valid timezone formats, see: [iana-timezones](https://timeapi.io/documentation/iana-timezones). Note: Requires Xray 3.130.0 or higher. Only used when cron_schedule is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#cron_schedule_timezone VulnerabilitiesReport#cron_schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#cron_schedule_timezone VulnerabilitiesReport#cron_schedule_timezone}
   */
   readonly cronScheduleTimezone?: string;
   /**
   * List of email addresses to notify when report generation is complete. Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#emails VulnerabilitiesReport#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#emails VulnerabilitiesReport#emails}
   */
   readonly emails?: string[];
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#name VulnerabilitiesReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#name VulnerabilitiesReport#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#project_key VulnerabilitiesReport#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#project_key VulnerabilitiesReport#project_key}
   */
   readonly projectKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#filters VulnerabilitiesReport#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#filters VulnerabilitiesReport#filters}
   */
   readonly filters?: VulnerabilitiesReportFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#resources VulnerabilitiesReport#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#resources VulnerabilitiesReport#resources}
   */
   readonly resources?: VulnerabilitiesReportResources[] | cdktf.IResolvable;
 }
@@ -64,7 +64,7 @@ export interface VulnerabilitiesReportFiltersCaFilter {
   /**
   * Allowed CA statuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#allowed_ca_statuses VulnerabilitiesReport#allowed_ca_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#allowed_ca_statuses VulnerabilitiesReport#allowed_ca_statuses}
   */
   readonly allowedCaStatuses?: string[];
 }
@@ -182,13 +182,13 @@ export interface VulnerabilitiesReportFiltersCvssScore {
   /**
   * Maximum CVSS score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#max_score VulnerabilitiesReport#max_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#max_score VulnerabilitiesReport#max_score}
   */
   readonly maxScore?: number;
   /**
   * Minimum CVSS score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#min_score VulnerabilitiesReport#min_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#min_score VulnerabilitiesReport#min_score}
   */
   readonly minScore?: number;
 }
@@ -335,13 +335,13 @@ export interface VulnerabilitiesReportFiltersPublished {
   /**
   * Published to date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#end VulnerabilitiesReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#end VulnerabilitiesReport#end}
   */
   readonly end?: string;
   /**
   * Published from date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#start VulnerabilitiesReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#start VulnerabilitiesReport#start}
   */
   readonly start?: string;
 }
@@ -488,7 +488,7 @@ export interface VulnerabilitiesReportFiltersRuntimeFilter {
   /**
   * Time period to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#time_period VulnerabilitiesReport#time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#time_period VulnerabilitiesReport#time_period}
   */
   readonly timePeriod?: string;
 }
@@ -606,13 +606,13 @@ export interface VulnerabilitiesReportFiltersScanDate {
   /**
   * Scanned to date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#end VulnerabilitiesReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#end VulnerabilitiesReport#end}
   */
   readonly end?: string;
   /**
   * Scanned from date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#start VulnerabilitiesReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#start VulnerabilitiesReport#start}
   */
   readonly start?: string;
 }
@@ -759,67 +759,67 @@ export interface VulnerabilitiesReportFilters {
   /**
   * CVE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#cve VulnerabilitiesReport#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#cve VulnerabilitiesReport#cve}
   */
   readonly cve?: string;
   /**
   * Whether the issue has a fix or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#has_remediation VulnerabilitiesReport#has_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#has_remediation VulnerabilitiesReport#has_remediation}
   */
   readonly hasRemediation?: boolean | cdktf.IResolvable;
   /**
   * Filter by artifact name, you can use (*) at the beginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#impacted_artifact VulnerabilitiesReport#impacted_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#impacted_artifact VulnerabilitiesReport#impacted_artifact}
   */
   readonly impactedArtifact?: string;
   /**
   * Issue ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#issue_id VulnerabilitiesReport#issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#issue_id VulnerabilitiesReport#issue_id}
   */
   readonly issueId?: string;
   /**
   * Severity levels. Allowed values: 'Low', 'Medium', 'High', 'Critical'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#severities VulnerabilitiesReport#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#severities VulnerabilitiesReport#severities}
   */
   readonly severities?: string[];
   /**
   * Filter by component name, you can use (*) at the beginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#vulnerable_component VulnerabilitiesReport#vulnerable_component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#vulnerable_component VulnerabilitiesReport#vulnerable_component}
   */
   readonly vulnerableComponent?: string;
   /**
   * ca_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#ca_filter VulnerabilitiesReport#ca_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#ca_filter VulnerabilitiesReport#ca_filter}
   */
   readonly caFilter?: VulnerabilitiesReportFiltersCaFilter[] | cdktf.IResolvable;
   /**
   * cvss_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#cvss_score VulnerabilitiesReport#cvss_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#cvss_score VulnerabilitiesReport#cvss_score}
   */
   readonly cvssScore?: VulnerabilitiesReportFiltersCvssScore[] | cdktf.IResolvable;
   /**
   * published block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#published VulnerabilitiesReport#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#published VulnerabilitiesReport#published}
   */
   readonly published?: VulnerabilitiesReportFiltersPublished[] | cdktf.IResolvable;
   /**
   * runtime_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#runtime_filter VulnerabilitiesReport#runtime_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#runtime_filter VulnerabilitiesReport#runtime_filter}
   */
   readonly runtimeFilter?: VulnerabilitiesReportFiltersRuntimeFilter[] | cdktf.IResolvable;
   /**
   * scan_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#scan_date VulnerabilitiesReport#scan_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#scan_date VulnerabilitiesReport#scan_date}
   */
   readonly scanDate?: VulnerabilitiesReportFiltersScanDate[] | cdktf.IResolvable;
 }
@@ -1227,25 +1227,25 @@ export interface VulnerabilitiesReportResourcesBuilds {
   /**
   * The list of exclude patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of build names. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest build versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1450,31 +1450,31 @@ export interface VulnerabilitiesReportResourcesProjects {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#exclude_key_patterns VulnerabilitiesReport#exclude_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#exclude_key_patterns VulnerabilitiesReport#exclude_key_patterns}
   */
   readonly excludeKeyPatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#include_key_patterns VulnerabilitiesReport#include_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#include_key_patterns VulnerabilitiesReport#include_key_patterns}
   */
   readonly includeKeyPatterns?: string[];
   /**
   * The list of project keys. Note: Available from Xray version 3.130.0 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#keys VulnerabilitiesReport#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#keys VulnerabilitiesReport#keys}
   */
   readonly keys?: string[];
   /**
   * The list of project names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1708,25 +1708,25 @@ export interface VulnerabilitiesReportResourcesReleaseBundles {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1931,25 +1931,25 @@ export interface VulnerabilitiesReportResourcesReleaseBundlesV2 {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#exclude_patterns VulnerabilitiesReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#include_patterns VulnerabilitiesReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#names VulnerabilitiesReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#number_of_latest_versions VulnerabilitiesReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -2154,19 +2154,19 @@ export interface VulnerabilitiesReportResourcesRepository {
   /**
   * Exclude path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#exclude_path_patterns VulnerabilitiesReport#exclude_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#exclude_path_patterns VulnerabilitiesReport#exclude_path_patterns}
   */
   readonly excludePathPatterns?: string[];
   /**
   * Include path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#include_path_patterns VulnerabilitiesReport#include_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#include_path_patterns VulnerabilitiesReport#include_path_patterns}
   */
   readonly includePathPatterns?: string[];
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#name VulnerabilitiesReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#name VulnerabilitiesReport#name}
   */
   readonly name: string;
 }
@@ -2339,31 +2339,31 @@ export interface VulnerabilitiesReportResources {
   /**
   * builds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#builds VulnerabilitiesReport#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#builds VulnerabilitiesReport#builds}
   */
   readonly builds?: VulnerabilitiesReportResourcesBuilds[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#projects VulnerabilitiesReport#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#projects VulnerabilitiesReport#projects}
   */
   readonly projects?: VulnerabilitiesReportResourcesProjects[] | cdktf.IResolvable;
   /**
   * release_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#release_bundles VulnerabilitiesReport#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#release_bundles VulnerabilitiesReport#release_bundles}
   */
   readonly releaseBundles?: VulnerabilitiesReportResourcesReleaseBundles[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#release_bundles_v2 VulnerabilitiesReport#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#release_bundles_v2 VulnerabilitiesReport#release_bundles_v2}
   */
   readonly releaseBundlesV2?: VulnerabilitiesReportResourcesReleaseBundlesV2[] | cdktf.IResolvable;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#repository VulnerabilitiesReport#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#repository VulnerabilitiesReport#repository}
   */
   readonly repository?: VulnerabilitiesReportResourcesRepository[] | cdktf.IResolvable;
 }
@@ -2595,7 +2595,7 @@ export class VulnerabilitiesReportResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report xray_vulnerabilities_report}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report xray_vulnerabilities_report}
 */
 export class VulnerabilitiesReport extends cdktf.TerraformResource {
 
@@ -2611,7 +2611,7 @@ export class VulnerabilitiesReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VulnerabilitiesReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VulnerabilitiesReport to import
-  * @param importFromId The id of the existing VulnerabilitiesReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VulnerabilitiesReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VulnerabilitiesReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2623,7 +2623,7 @@ export class VulnerabilitiesReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.2/docs/resources/vulnerabilities_report xray_vulnerabilities_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/vulnerabilities_report xray_vulnerabilities_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2634,8 +2634,8 @@ export class VulnerabilitiesReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_vulnerabilities_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.2',
-        providerVersionConstraint: '3.1.2'
+        providerVersion: '3.1.3',
+        providerVersionConstraint: '3.1.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
